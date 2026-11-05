@@ -35,3 +35,8 @@ Native PDF embeds were blank in this browser, so the released viewer uses faithf
 The browser downloaded a real 4,139-byte progress backup. Parsing that exported file restored 19 QA attempts, and merging it again added zero attempts. The test data stayed outside Git. The automation kernel became unavailable while awaiting its download event, so a direct file-picker import roundtrip could not be completed; serialization, parsing, validation, merging, error handling and restore logic are covered by the storage tests and the actual exported file.
 
 No claim is made about testing on physical mobile hardware or every browser. Account syncing and complete offline operation remain future work. Source uncertainties remain excluded from determining scored answers.
+
+
+## Production verification
+
+The exact release head `1c76e100e893bc2e6c0346b35da2940130080fba` passed [CI run 42077170918](https://github.com/TheMedDude/study-atlas/actions/runs/42077170918), including 44 tests with no failures/skips and JavaScript syntax checks. [Pages deployment 42077539291](https://github.com/TheMedDude/study-atlas/actions/runs/42077539291) succeeded for that head. Public HTTP checks returned 200 for the index, app script, 222-item validated bank, source WebP and original PDF at https://themeddude.github.io/study-atlas/ . Final handoff changes are verified by the subsequent main-branch CI/Pages runs.

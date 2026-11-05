@@ -36,3 +36,14 @@
 - Browser exported a real 4,139-byte backup; its parser restored all 19 QA attempts and repeated merge added zero. No QA progress entered Git. Direct file-picker import UI verification was interrupted by a browser automation kernel failure; core restore/validation behavior is covered by automated storage tests and the actual export.
 - npm run check and all 44 automated tests passed. scripts/build_bank.py provenance and coverage gates passed. Added CI using verified official actions/checkout v7.0.1 and actions/setup-node v7.1.0, Node22.
 - This entry is a release-candidate checkpoint. GitHub Pages is not yet configured at this point; deployment will be verified separately below.
+
+## 2026-11-05 - Public deployment verified
+
+- Pushed application/content release 23476c2 and regression suite 1c76e100e893bc2e6c0346b35da2940130080fba to origin/main as verified TheMedDude. The tests were omitted from the first staging list and added in the next normal commit before enabling Pages; no history rewrite was used.
+- Exact-head CI run 42077170918 passed syntax validation and all 44 tests (44 passed, 0 failed, 0 skipped): https://github.com/TheMedDude/study-atlas/actions/runs/42077170918 .
+- Enabled GitHub Pages with legacy branch publishing from main root. No student progress or credentials were uploaded.
+- Verified deployment run 42077539291 and build 1344137246 succeeded for 1c76e100e893bc2e6c0346b35da2940130080fba: https://github.com/TheMedDude/study-atlas/actions/runs/42077539291 .
+- Live website: https://themeddude.github.io/study-atlas/ . Public HTTP checks returned 200 for index, app script, activity bank (222 validated), a full source-page WebP, and an original PDF. Source repository: https://github.com/TheMedDude/study-atlas .
+- Saved a portable standalone Markdown deliverable with all 191 page sections in this chat's outputs folder; source links point to the published originals.
+- Final handoff adds the live link and deployment record, neutralizes session-leave copy for storage-failure visits, and provides a source-close focus fallback. The latest main build is checked separately after this commit.
+- Remaining verification limit: browser automation failed while awaiting a download event, preventing direct file-picker import UI completion and final browser-tool cleanup. A real exported backup restored 19 attempts through the production parser and deduplicated correctly; restore/persistence behavior passed automated tests. Physical mobile devices were not tested. Account syncing and full offline capability remain future preferences, not launch claims.

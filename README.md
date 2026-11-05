@@ -2,6 +2,10 @@
 
 A study platform that turns course materials into focused practice, interactive drills, and clear progress across subjects.
 
+**[Open Study Atlas](https://themeddude.github.io/study-atlas/)** · [GitHub repository](https://github.com/TheMedDude/study-atlas)
+
+The public website is deployed on GitHub Pages. Source PDFs, page renders and the 222-activity bank were verified on the live site; CI passes all 44 checks.
+
 The first release implements Molecular Biology from six supplied lectures. The shared platform is separate from subject sources, assessment scope, activities and progress. GitHub repository and website deployment status are recorded separately in `PROJECT_LOG.md`.
 
 ## Study

@@ -227,7 +227,7 @@ function render(focusMain = false) {
 }
 async function go(view) {
   if (!routes.includes(view)) return;
-  if (state.session && !state.session.done && !await confirmAction('Completed practice responses are saved. An unfinished exam will be left unscored.', 'Leave session')) return;
+  if (state.session && !state.session.done && !await confirmAction('Completed practice responses stay in your current progress. An unfinished exam will be left unscored.', 'Leave session')) return;
   state.session = null; clearInterval(tick); state.view = view; closeSource();
   history.pushState(null, '', `#${view}`); render(true);
 }
@@ -269,6 +269,7 @@ function closeSource() {
   if ($('#source-host')) $('#source-host').innerHTML = '';
   $('.workspace')?.classList.remove('with-source');
   if (sourceReturnFocus?.isConnected) sourceReturnFocus.focus({ preventScroll: true });
+  else $('#main h1')?.focus({ preventScroll: true });
 }
 
 document.addEventListener('click', async event => {
@@ -317,7 +318,7 @@ document.addEventListener('click', async event => {
 document.addEventListener('change', async event => {
   const input = event.target;
   if (input.id === 'subject-select' && input.value !== subject.id) {
-    if (state.session && !state.session.done && !await confirmAction('Completed practice responses are saved. An unfinished exam will be left unscored.', 'Change subject')) { input.value = subject.id; return; }
+    if (state.session && !state.session.done && !await confirmAction('Completed practice responses stay in your current progress. An unfinished exam will be left unscored.', 'Change subject')) { input.value = subject.id; return; }
     state.session = null; clearInterval(tick);
     const destination = new URL(location.href); destination.searchParams.set('subject', input.value); destination.hash = 'home'; location.assign(destination.href); return;
   }
