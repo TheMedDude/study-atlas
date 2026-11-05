@@ -4,7 +4,7 @@ Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` 
 
 ## Current stage
 
-Product discovery, source extraction, source QA, activity authoring and independent content review are complete. All 191 PDF pages are reviewed: 183 teaching pages, 8 cover/administrative exclusions, 303 indexed concepts and 50 uncertainty records. The compiled bank has 222 validated activities, covering all 227 core concepts and 234 total concepts; 69 supporting/uncertain concepts have explicit deferrals. See source-analysis/INDEX.md, QA.md and activity-review-summary.json.
+Product discovery, source extraction, source QA, activity authoring and independent content review are complete. All 191 PDF pages are reviewed: 183 teaching pages, 8 cover/administrative exclusions, 303 indexed concepts and 50 uncertainty records. The compiled bank has 694 validated activities (601 five-option MCQs), covering all 227 core concepts and 278 total concepts; 25 supporting/uncertain concepts have explicit deferrals. See source-analysis/INDEX.md, QA.md and activity-review-summary.json.
 
 The shared static application is implemented with Practice, Exam, concept drills, weak-area review, source page viewing, device progress and backup/restore. Read docs/QA.md and the latest PROJECT_LOG.md entry for verification and deployment status. A public repository and a live website remain separate facts; do not infer deployment from a push alone.
 
@@ -16,7 +16,7 @@ The user explicitly requires TheMedDude (GitHub user ID 352966162), verified thr
 
 For the first subject, Molecular Biology, use only the six supplied lecture PDFs as authoritative teaching sources. Do not use outside biology information to add content or silently repair uncertain slides. Flag uncertainties and do not score unresolved claims. Do faithful extraction and indexing before study-question generation, and verify content before integrating it into an application. Future subjects need their own authoritative sources and validation; do not invent additional subject content now.
 
-Five-option MCQs must have plausible, parallel distractors without formatting clues. Recognition activities must not be reported as proof of unaided recall. No typed responses, self-grading prompts, or confidence prompts. Track coverage separately from performance and from insufficient evidence.
+Ask the biology directly as factual, self-contained questions; do not frame stems or explanations as what the source/slide/lecture says. Keep necessary biological conditions and source links with explanations; a displayed diagram may be referenced. New variants must test a different distinction or application, not merely paraphrase another item. Five-option MCQs must have plausible, parallel distractors without formatting clues. Recognition activities must not be reported as proof of unaided recall. No typed responses, self-grading prompts, or confidence prompts. Track coverage separately from performance and from insufficient evidence.
 
 ## Workflow
 

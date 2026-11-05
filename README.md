@@ -4,7 +4,7 @@ A study platform that turns course materials into focused practice, interactive 
 
 **[Open Study Atlas](https://themeddude.github.io/study-atlas/)** · [GitHub repository](https://github.com/TheMedDude/study-atlas)
 
-The public website is deployed on GitHub Pages. Source PDFs, page renders and the 222-activity bank were verified on the live site; CI passes all 44 checks.
+The public website is deployed on GitHub Pages. The revised release has 694 independently reviewed activities, including 601 five-option questions, and passes all 45 local automated tests. See PROJECT_LOG.md for the separate deployment verification of the latest release.
 
 The first release implements Molecular Biology from six supplied lectures. The shared platform is separate from subject sources, assessment scope, activities and progress. GitHub repository and website deployment status are recorded separately in `PROJECT_LOG.md`.
 
@@ -14,14 +14,15 @@ The first release implements Molecular Biology from six supplied lectures. The s
 - **Exam:** student-selected count and optional timer; the question set stays fixed and feedback follows completion.
 - **Concept drills:** automatically scored matching, ordering with equivalent steps accepted, and original-diagram choices.
 - **Sources:** side-by-side and full-screen original-page viewing with zoom, exact PDF-page navigation, and original PDF downloads.
-- **Explanations:** English/Arabic toggle, retaining English scientific terms in Arabic.
+- **Explanations:** English/Arabic toggle, retaining English scientific terms in Arabic. Inter and Noto Sans Arabic are bundled locally for clear typography in both languages.
+- **Question style:** direct, self-contained biology questions; source references appear with explanations. Session shortcuts offer 10/25/50/100 questions when available.
 - **Progress:** coverage and distinct-item evidence shown separately, with JSON backup/restore. Progress stays in the current browser; it is never uploaded to GitHub.
 
 ## Content release
 
 All **191 PDF pages** were visually reviewed: **183 teaching pages**, six covers and two administrative pages. The complete detailed Markdown, chapter/topic index, page ledger and coverage CSV are under `subjects/molecular-biology/source-analysis/`.
 
-The index contains **303 concepts** and **50 source uncertainty entries**. The reviewed bank has **222 activities**: 129 five-option MCQs, 67 matching drills, 24 ordering drills and two diagram activities. It covers all **227 core concepts** and 234 total concepts. The other 69 supporting or uncertain concepts have explicit deferrals and remain visible in source coverage. Source priority is not predicted exam probability.
+The index contains **303 concepts** and **50 source uncertainty entries**. The reviewed bank has **694 activities**: 601 five-option MCQs, 67 matching drills, 24 ordering drills and two diagram activities. It covers all **227 core concepts** and 278 total concepts. The other 25 supporting or uncertain concepts have explicit deferrals and remain visible in source coverage. Source priority is not predicted exam probability.
 
 The lecture PDFs are the sole teaching authority. Unclear or conflicting claims are preserved and excluded from determining scored answers. See `subjects/molecular-biology/source-analysis/QA.md` and `docs/QA.md` for review and verification details.
 

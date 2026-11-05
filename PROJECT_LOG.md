@@ -47,3 +47,38 @@
 - Saved a portable standalone Markdown deliverable with all 191 page sections in this chat's outputs folder; source links point to the published originals.
 - Final handoff adds the live link and deployment record, neutralizes session-leave copy for storage-failure visits, and provides a source-close focus fallback. The latest main build is checked separately after this commit.
 - Remaining verification limit: browser automation failed while awaiting a download event, preventing direct file-picker import UI completion and final browser-tool cleanup. A real exported backup restored 19 attempts through the production parser and deduplicated correctly; restore/persistence behavior passed automated tests. Physical mobile devices were not tested. Account syncing and full offline capability remain future preferences, not launch claims.
+
+
+## 2026-11-05 - Documents workspace relocation
+
+- Synchronized and SHA-256 verified all 551 repository/work files (122,636,759 bytes), preserving Git history at c530fafb413e7a7e0c582e9b7ebbaa2064dd43c0.
+- Preserved the exported detailed study source under outputs/.
+- Canonical project checkout: C:\Users\musta\OneDrive\Documents\study-atlas.
+- Original checkout remains an unchanged backup.
+- File synchronization is complete. The existing Build Study Atlas chat still requires the user sidebar move into the study-atlas project to apply its new folder access; the programmatic project move preserved the old recorded working directory.
+
+### Chat project membership verified
+
+Both `Plan molecular biology study engine` and `Build Study Atlas` are now members of the local `study-atlas` project (36cc0b56-5e0c-4b0d-8ab6-269a0bbb35c2). The app still records their original working directories, so project membership is complete but the chat working-directory relocation is not yet verified. The supported folder-access step is to move each chat to Recents and then back into study-atlas through the user sidebar. Do not remove membership programmatically again. Documents remains the canonical file workspace; the old checkout remains an unchanged backup.
+
+## 2026-11-05 — Question style, bank expansion and typography revision (in progress)
+
+- User requested substantially more questions, direct factual biology prompts instead of source-framed wording, and replacement fonts for both English and Arabic. Preserved those latest requirements in DISCOVERY.md and CONTENT_MODEL.md.
+- Split six lecture banks between three authors. Existing edited records and new additions require renewed independent review before compilation; original PDFs and unresolved-claim boundaries remain unchanged.
+- Checked established learning-app typography guidance (Duolingo) and official Inter/Noto resources. Bundled Inter variable WOFF2 and Noto Sans Arabic variable TTF with their SIL Open Font Licenses; removed Georgia/Times/Tahoma styling, resized questions and answers, and increased Arabic explanation readability. Added 25/50/100 session presets where the bank permits.
+- In-app browser and Node REPL tools both fail during initialization with “failed to write kernel assets … (os error 3).” Local visual QA uses the existing bundled Playwright library with an isolated headless Chrome context instead. No browser profile/progress data is committed.
+- Initial browser checks loaded both actual bundled fonts, confirmed 26.4px English question / 16px answer text and 18px RTL Arabic explanations, and found no horizontal overflow at 1440px or 390px. Desktop and mobile screenshots inspected; final expanded-bank verification and publication are pending.
+
+### Workspace relocation complete
+
+The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf4070c5, local) uses `C:\Users\musta\OneDrive\Documents\study-atlas` as its recorded working directory under project `study-atlas` (36cc0b56-5e0c-4b0d-8ab6-269a0bbb35c2). This resolves the previously pending folder-access step. Documents is the active canonical workspace. The old checkout remains an unchanged backup; no synchronization or removal was repeated. The relocation monitor is complete.
+
+
+## 2026-11-05 — Reviewed expansion and interface release candidate
+
+- Final cross-reviewed bank: **694 validated activities**, including **601 five-option MCQs** (previously 129), 67 matching, 24 ordering and 2 original-diagram items. Added 472 MCQs while preserving all 222 original IDs. Independent reviewers pruned 59 weak/near-duplicate candidates and corrected ambiguity, distractor parallelism, Arabic phrasing, source mappings and concept tags.
+- All 227 core concepts retain activity coverage; total activity availability increased from 234 to 278 of 303 concepts. The remaining 25 supporting/uncertain concepts have explicit deferrals. Original six PDF hashes, 191-page ledger and 50 uncertainty records remain unchanged. Updated provenance/coverage artifacts through build_bank.py and its source/content gates.
+- All stems ask biology directly, with necessary conditions retained and source references in explanations. English and Arabic explanations no longer narrate what a source/slide says. Six original items received revision 2 where scored meaning changed; previous responses remain handled by the existing archive rules.
+- Bundled fonts, smaller sans-serif question headings, clearer answer text, RTL Arabic explanation typography, Arabic Settings labels, and 25/50/100 presets passed independent code review. Versioned CSS/app URLs and no-cache JSON revalidation help returning browsers receive the revised release.
+- Local npm run check and **45/45 tests passed**. Global direct-copy, prompt-uniqueness and concept/source checks passed. Isolated Chrome 156 verified 100-question practice/exam sessions, delayed exam feedback, 1/100 with 99 unanswered, real Inter/Noto font loads, source viewing, Settings Arabic font, and desktop/mobile/larger-text layouts. Screenshots and QA progress remain ignored under work/.
+- This is the validated local release candidate. The public website still requires a push and a separately verified Pages deployment for these changes; that result is recorded below when complete.

@@ -1,5 +1,11 @@
 # Study Atlas - confirmed discovery
 
+## Latest user revisions — 2026-11-05
+
+- Substantially expand the Molecular Biology question bank. Add meaningful recall, comparison, mechanism and application variants across all six lectures; do not inflate the total with wording-only duplicates.
+- Ask biology directly as factual, self-contained questions. Avoid stems such as “according to the source,” “the slide states,” or questions about an unseen diagram/table. Keep exact source references in answer explanations and the source viewer. A displayed diagram may be referenced directly. The six supplied PDFs remain the only teaching authority; unresolved claims remain excluded from scoring.
+- Replace the previous English serif and Arabic Tahoma typography with a clean app-style sans-serif system in both languages. Use bundled Inter for English and Noto Sans Arabic for Arabic, with readable answer text and balanced question sizing. This supersedes the earlier serif interpretation of “warm editorial”; the existing cream/charcoal/coral/lime palette remains.
+
 ## Status and authorization boundary
 
 Product discovery is complete. This is a staged implementation plan, not an implementation or a question bank. The user prohibited coding and question generation until discovery was complete; that discovery gate has now been satisfied. The user approved the platform name Study Atlas and authorized proceeding. The public repository exists at https://github.com/TheMedDude/study-atlas under the verified TheMedDude account (GitHub user ID 352966162), and the initial handoff text is committed. All six lecture PDFs have been pushed with Git and verified against the original copies by remote Git blob hash and byte size. At the original discovery handoff, implementation had not started. The subsequent source, reviewed-bank and application milestones are recorded in PROJECT_LOG.md and docs/QA.md; all confirmed choices below remain in force.

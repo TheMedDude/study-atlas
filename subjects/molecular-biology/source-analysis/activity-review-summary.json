@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "activities": 222,
+  "activities": 694,
   "types": {
     "match": 67,
-    "mcq": 129,
+    "mcq": 601,
     "order": 24,
     "diagram": 2
   },
-  "conceptsWithActivities": 234,
+  "conceptsWithActivities": 278,
   "totalConcepts": 303,
   "coreConcepts": 227,
   "coreConceptsWithActivities": 227,
-  "explicitDeferrals": 69,
+  "explicitDeferrals": 25,
   "independentlyReviewed": true
 }

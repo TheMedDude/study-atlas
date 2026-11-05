@@ -47,7 +47,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-molecular-building-blocks",
-        "genes-and-chromosomes-nucleoside-addition"
+        "genes-and-chromosomes-nucleoside-addition",
+        "genes-and-chromosomes-nucleotide-three-components"
       ],
       "activityAvailability": "available"
     },
@@ -72,7 +73,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-molecular-building-blocks",
-        "genes-and-chromosomes-nucleoside-addition"
+        "genes-and-chromosomes-nucleoside-addition",
+        "genes-and-chromosomes-nucleotide-three-components"
       ],
       "activityAvailability": "available"
     },
@@ -95,8 +97,11 @@
       "details": [
         "Figure labels sugar positions 1′-5′, base attachment at 1′ and phosphate at 5′."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-base-sugar-carbon",
+        "genes-and-chromosomes-phosphate-sugar-carbon"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-amp-structure",
@@ -118,7 +123,9 @@
         "Adenosine 5′-monophosphate contains adenine, ribose and phosphate."
       ],
       "activityIds": [
-        "genes-and-chromosomes-molecular-building-blocks"
+        "genes-and-chromosomes-molecular-building-blocks",
+        "genes-and-chromosomes-amp-pentose",
+        "genes-and-chromosomes-amp-base-identity"
       ],
       "activityAvailability": "available"
     },
@@ -142,7 +149,8 @@
         "Ribose has 2′-OH and 2-deoxyribose has 2′-H; both structures show 3′-OH."
       ],
       "activityIds": [
-        "genes-and-chromosomes-pentose-comparison"
+        "genes-and-chromosomes-pentose-comparison",
+        "genes-and-chromosomes-pentose-common-hydroxyl"
       ],
       "activityAvailability": "available"
     },
@@ -166,7 +174,10 @@
         "Purines are adenine and guanine; pyrimidines are uracil, thymine and cytosine."
       ],
       "activityIds": [
-        "genes-and-chromosomes-base-inventories"
+        "genes-and-chromosomes-base-inventories",
+        "genes-and-chromosomes-purine-set",
+        "genes-and-chromosomes-pyrimidine-set",
+        "genes-and-chromosomes-purine-pyrimidine-pairing"
       ],
       "activityAvailability": "available"
     },
@@ -190,7 +201,9 @@
         "DNA contains A,G,T,C; RNA contains A,G,U,C."
       ],
       "activityIds": [
-        "genes-and-chromosomes-base-inventories"
+        "genes-and-chromosomes-base-inventories",
+        "genes-and-chromosomes-rna-replaces-thymine",
+        "genes-and-chromosomes-shared-base-set"
       ],
       "activityAvailability": "available"
     },
@@ -214,7 +227,9 @@
         "Purine N9 and pyrimidine N1 bond to sugar C1."
       ],
       "activityIds": [
-        "genes-and-chromosomes-base-sugar-attachment"
+        "genes-and-chromosomes-base-sugar-attachment",
+        "genes-and-chromosomes-purine-attachment-site",
+        "genes-and-chromosomes-pyrimidine-attachment-site"
       ],
       "activityAvailability": "available"
     },
@@ -237,8 +252,10 @@
       "details": [
         "Purines have two fused rings, pyrimidines one ring; thymine shows a CH3 substituent."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-base-ring-comparison"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-primary-dna-structure",
@@ -308,7 +325,8 @@
         "Tertiary structure is DNA packing/folding."
       ],
       "activityIds": [
-        "genes-and-chromosomes-structure-levels"
+        "genes-and-chromosomes-structure-levels",
+        "genes-and-chromosomes-packing-structure-level"
       ],
       "activityAvailability": "available"
     },
@@ -332,7 +350,8 @@
         "Nucleotide subunits are joined by phosphodiester bonds in the sugar-phosphate backbone."
       ],
       "activityIds": [
-        "genes-and-chromosomes-chain-ends"
+        "genes-and-chromosomes-chain-ends",
+        "genes-and-chromosomes-backbone-covalent-link"
       ],
       "activityAvailability": "available"
     },
@@ -356,7 +375,9 @@
         "The displayed chain is 5′-CAG-3′, written 5′→3′; 5′ end bears phosphate and 3′ end sugar hydroxyl."
       ],
       "activityIds": [
-        "genes-and-chromosomes-chain-ends"
+        "genes-and-chromosomes-chain-ends",
+        "genes-and-chromosomes-strand-writing-convention",
+        "genes-and-chromosomes-three-prime-terminus"
       ],
       "activityAvailability": "available"
     },
@@ -380,7 +401,9 @@
         "Native DNA contains complementary antiparallel chains paired A-T or G-C."
       ],
       "activityIds": [
-        "genes-and-chromosomes-paired-strand-polarity"
+        "genes-and-chromosomes-paired-strand-polarity",
+        "genes-and-chromosomes-opposed-chain-direction",
+        "genes-and-chromosomes-complementary-short-sequence"
       ],
       "activityAvailability": "available"
     },
@@ -404,7 +427,8 @@
         "Hydrogen bonds between complementary bases and hydrophobic interactions of planar/stacked adjacent bases stabilize the helix."
       ],
       "activityIds": [
-        "genes-and-chromosomes-helix-stability"
+        "genes-and-chromosomes-helix-stability",
+        "genes-and-chromosomes-stacking-stability-role"
       ],
       "activityAvailability": "available"
     },
@@ -428,7 +452,10 @@
         "The figure depicts two hydrogen bonds for A-T and three for G-C."
       ],
       "activityIds": [
-        "genes-and-chromosomes-ladder-model"
+        "genes-and-chromosomes-ladder-model",
+        "genes-and-chromosomes-gc-bond-count",
+        "genes-and-chromosomes-at-bond-count",
+        "genes-and-chromosomes-five-pair-hbond-comparison"
       ],
       "activityAvailability": "available"
     },
@@ -452,7 +479,9 @@
         "The model depicts a double helix with sugar-phosphate ladder legs and paired nitrogenous-base rungs."
       ],
       "activityIds": [
-        "genes-and-chromosomes-ladder-model"
+        "genes-and-chromosomes-ladder-model",
+        "genes-and-chromosomes-dna-ladder-sides",
+        "genes-and-chromosomes-dna-ladder-rungs"
       ],
       "activityAvailability": "available"
     },
@@ -476,7 +505,11 @@
         "A pairs with T and G with C at the center, held by hydrogen bonds."
       ],
       "activityIds": [
-        "genes-and-chromosomes-ladder-model"
+        "genes-and-chromosomes-ladder-model",
+        "genes-and-chromosomes-dna-ladder-rungs",
+        "genes-and-chromosomes-complementary-base-choice",
+        "genes-and-chromosomes-purine-pyrimidine-pairing",
+        "genes-and-chromosomes-complementary-short-sequence"
       ],
       "activityAvailability": "available"
     },
@@ -500,7 +533,8 @@
         "The source describes B-DNA as the most stable form and a right-handed helix."
       ],
       "activityIds": [
-        "genes-and-chromosomes-helix-forms"
+        "genes-and-chromosomes-helix-forms",
+        "genes-and-chromosomes-b-form-handedness"
       ],
       "activityAvailability": "available"
     },
@@ -524,7 +558,8 @@
         "Table gives B right-handed 10.5 bp/turn, A right-handed 10 bp/turn, Z left-handed 12 bp/turn."
       ],
       "activityIds": [
-        "genes-and-chromosomes-helix-forms"
+        "genes-and-chromosomes-helix-forms",
+        "genes-and-chromosomes-left-handed-dna-form"
       ],
       "activityAvailability": "available"
     },
@@ -594,7 +629,8 @@
         "DNA denaturation/melting is unwinding and separation of the double strand; renaturation reverses separation under suitable conditions."
       ],
       "activityIds": [
-        "genes-and-chromosomes-melting-terms"
+        "genes-and-chromosomes-melting-terms",
+        "genes-and-chromosomes-dna-melting-bonds"
       ],
       "activityAvailability": "available"
     },
@@ -618,7 +654,8 @@
         "Extent depends on time, DNA concentration and ionic content; figure lists formamide, urea, heat and OH− with break-H-bond annotation."
       ],
       "activityIds": [
-        "genes-and-chromosomes-renaturation-conditions"
+        "genes-and-chromosomes-renaturation-conditions",
+        "genes-and-chromosomes-denaturing-agent"
       ],
       "activityAvailability": "available"
     },
@@ -642,7 +679,9 @@
         "Figure specifies lower temperature and increased ion concentration, and says only complementary strands renature."
       ],
       "activityIds": [
-        "genes-and-chromosomes-renaturation-conditions"
+        "genes-and-chromosomes-renaturation-conditions",
+        "genes-and-chromosomes-complementarity-renaturation",
+        "genes-and-chromosomes-hybridization-required-feature"
       ],
       "activityAvailability": "available"
     },
@@ -666,7 +705,8 @@
         "Denaturation changes absorption of 260 nm UV, used for measuring DNA concentration."
       ],
       "activityIds": [
-        "genes-and-chromosomes-melting-terms"
+        "genes-and-chromosomes-melting-terms",
+        "genes-and-chromosomes-uv-dna-wavelength"
       ],
       "activityAvailability": "available"
     },
@@ -690,7 +730,8 @@
         "Tm is the temperature where half the bases of a double-stranded DNA sample have denatured."
       ],
       "activityIds": [
-        "genes-and-chromosomes-melting-terms"
+        "genes-and-chromosomes-melting-terms",
+        "genes-and-chromosomes-tm-half-definition"
       ],
       "activityAvailability": "available"
     },
@@ -737,8 +778,10 @@
       "details": [
         "The 260 nm absorption curve rises steeply for double-stranded DNA; Tm is illustrated between 80 and 85°C but no exact value is printed."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-melting-absorbance-direction"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-hybridization-pcr-basis",
@@ -760,7 +803,8 @@
         "DNA denaturation and renaturation underlie nucleic-acid hybridization and PCR."
       ],
       "activityIds": [
-        "genes-and-chromosomes-hybridization-basis"
+        "genes-and-chromosomes-hybridization-basis",
+        "genes-and-chromosomes-hybridization-required-feature"
       ],
       "activityAvailability": "available"
     },
@@ -784,7 +828,9 @@
         "Table contrasts nucleoid/cytoplasm and typically one circular chromosome with a membrane-bound nucleus and multiple linear chromosomes."
       ],
       "activityIds": [
-        "genes-and-chromosomes-chromosome-comparison"
+        "genes-and-chromosomes-chromosome-comparison",
+        "genes-and-chromosomes-bacterial-chromosome-location",
+        "genes-and-chromosomes-eukaryotic-chromosome-shape"
       ],
       "activityAvailability": "available"
     },
@@ -808,7 +854,8 @@
         "Source contrasts naked DNA without histones with histone-associated chromatin."
       ],
       "activityIds": [
-        "genes-and-chromosomes-packaging-genome-size"
+        "genes-and-chromosomes-packaging-genome-size",
+        "genes-and-chromosomes-euk-histone-packaging"
       ],
       "activityAvailability": "available"
     },
@@ -831,8 +878,10 @@
       "details": [
         "Table says prokaryotes often have extrachromosomal plasmids and eukaryotes lack plasmids, while organelles may have chromosomes."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-extra-chromosomal-dna"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-genome-size-comparison",
@@ -878,7 +927,9 @@
         "DNA is much longer than the viral package; undamaged T2 packages its single linear DNA in the phage head."
       ],
       "activityIds": [
-        "genes-and-chromosomes-virus-bacterium-packaging"
+        "genes-and-chromosomes-virus-bacterium-packaging",
+        "genes-and-chromosomes-t2-dna-location",
+        "genes-and-chromosomes-t2-lysis-observation"
       ],
       "activityAvailability": "available"
     },
@@ -901,8 +952,10 @@
       "details": [
         "T2 lysed in distilled water permits DNA to spread on water around the protein coat; micrograph scale bar 0.5 μm."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-t2-lysis-observation"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-bacterial-chromosome-plasmids",
@@ -924,7 +977,8 @@
         "E. coli is shown with one large circular DNA in the nucleoid plus plasmids; lysed-cell micrograph shows spread DNA."
       ],
       "activityIds": [
-        "genes-and-chromosomes-virus-bacterium-packaging"
+        "genes-and-chromosomes-virus-bacterium-packaging",
+        "genes-and-chromosomes-extra-chromosomal-dna"
       ],
       "activityAvailability": "available"
     },
@@ -947,8 +1001,10 @@
       "details": [
         "Source compares chromosome length 1.7 mm with cell length 2 μm."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-ecoli-packing-ratio"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-human-dna-packing",
@@ -1018,7 +1074,9 @@
         "mtDNA encodes electron-transport/ATP-synthesis proteins; products are not exported and are synthesized on mitochondrial ribosomes, which resemble bacterial ribosomes in structure and drug sensitivity/resistance."
       ],
       "activityIds": [
-        "genes-and-chromosomes-mtdna-products"
+        "genes-and-chromosomes-mtdna-products",
+        "genes-and-chromosomes-mt-protein-functions",
+        "genes-and-chromosomes-mt-translation-location"
       ],
       "activityAvailability": "available"
     },
@@ -1065,8 +1123,10 @@
       "details": [
         "Map labels L strand inner/counterclockwise and H strand outer/transcription clockwise, with rRNA/protein and amino-acid labels preserved in Markdown."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-mt-strand-orientation"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-gene-phenotype-definition",
@@ -1110,7 +1170,8 @@
         "The slide progresses from one gene-one enzyme to one gene-one polypeptide."
       ],
       "activityIds": [
-        "genes-and-chromosomes-genes-and-transcribed-regions"
+        "genes-and-chromosomes-genes-and-transcribed-regions",
+        "genes-and-chromosomes-gene-definition-updated"
       ],
       "activityAvailability": "available"
     },
@@ -1134,7 +1195,8 @@
         "All DNA encoding the primary sequence of a final gene product, a polypeptide or RNA."
       ],
       "activityIds": [
-        "genes-and-chromosomes-genes-and-transcribed-regions"
+        "genes-and-chromosomes-genes-and-transcribed-regions",
+        "genes-and-chromosomes-gene-rna-product"
       ],
       "activityAvailability": "available"
     },
@@ -1157,8 +1219,10 @@
       "details": [
         "Source gives 4.6 million bp encoding 4,300 genes for E. coli."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-ecoli-genes-scale"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-human-gene-count-scope",
@@ -1202,7 +1266,9 @@
         "Introns are intervening/nontranslated DNA segments; exons persist in final mRNA rather than being spliced from transcribed RNA."
       ],
       "activityIds": [
-        "genes-and-chromosomes-genes-and-transcribed-regions"
+        "genes-and-chromosomes-genes-and-transcribed-regions",
+        "genes-and-chromosomes-intron-fate",
+        "genes-and-chromosomes-intron-rich-gene-length"
       ],
       "activityAvailability": "available"
     },
@@ -1226,7 +1292,9 @@
         "Source shows seven introns A-G and exons L plus 1-7; introns constitute 85% of the gene."
       ],
       "activityIds": [
-        "genes-and-chromosomes-ovalbumin-organization"
+        "genes-and-chromosomes-ovalbumin-organization",
+        "genes-and-chromosomes-ovalbumin-proportion",
+        "genes-and-chromosomes-intron-rich-gene-length"
       ],
       "activityAvailability": "available"
     },
@@ -1249,8 +1317,12 @@
       "details": [
         "Figure gives exon 1 = 90 bp, intron A = 131 bp, exon 2 = 222 bp, intron B = 851 bp, exon 3 = 126 bp."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-beta-gene-intron-size",
+        "genes-and-chromosomes-beta-exon-total",
+        "genes-and-chromosomes-beta-intron-total"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-sine-line-ssr",
@@ -1272,7 +1344,11 @@
         "SINE 100-300 bp; LINE 6-8 kbp and genes catalyzing transposition; SSR <10 bp repeated millions of times per cell."
       ],
       "activityIds": [
-        "genes-and-chromosomes-repeat-sequences"
+        "genes-and-chromosomes-repeat-sequences",
+        "genes-and-chromosomes-sine-length-recognition",
+        "genes-and-chromosomes-line-coding-feature",
+        "genes-and-chromosomes-ssr-repeat-unit",
+        "genes-and-chromosomes-interspersed-size-comparison"
       ],
       "activityAvailability": "available"
     },
@@ -1318,7 +1394,8 @@
         "Centromere is a sequence used as an attachment point during mitosis; source describes it as A=T-rich."
       ],
       "activityIds": [
-        "genes-and-chromosomes-chromosome-regions-and-coiling"
+        "genes-and-chromosomes-chromosome-regions-and-coiling",
+        "genes-and-chromosomes-centromere-attachment"
       ],
       "activityAvailability": "available"
     },
@@ -1342,7 +1419,8 @@
         "Telomere sequences occur at chromosome ends and help stabilize the chromosome."
       ],
       "activityIds": [
-        "genes-and-chromosomes-chromosome-regions-and-coiling"
+        "genes-and-chromosomes-chromosome-regions-and-coiling",
+        "genes-and-chromosomes-telomere-end-position"
       ],
       "activityAvailability": "available"
     },
@@ -1365,8 +1443,10 @@
       "details": [
         "Figure labels unique sequences/genes, dispersed repeats and multiple replication origins between ends."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-internal-chromosome-content"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-supercoil-versus-relaxed",
@@ -1389,7 +1469,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-axis-coiling",
-        "genes-and-chromosomes-chromosome-regions-and-coiling"
+        "genes-and-chromosomes-chromosome-regions-and-coiling",
+        "genes-and-chromosomes-relaxed-axis-definition"
       ],
       "activityAvailability": "available"
     },
@@ -1459,7 +1540,8 @@
         "Lk is the number of times the second strand pierces/penetrates the surface; figure compares Lk 1 and Lk 6."
       ],
       "activityIds": [
-        "genes-and-chromosomes-linking-number-constraint"
+        "genes-and-chromosomes-linking-number-constraint",
+        "genes-and-chromosomes-lk-count-interpretation"
       ],
       "activityAvailability": "available"
     },
@@ -1483,7 +1565,8 @@
         "Source says changing Lk requires breaking one strand and uses Lk changes to describe supercoiling numerically."
       ],
       "activityIds": [
-        "genes-and-chromosomes-linking-number-constraint"
+        "genes-and-chromosomes-linking-number-constraint",
+        "genes-and-chromosomes-lk-break-requirement"
       ],
       "activityAvailability": "available"
     },
@@ -1508,7 +1591,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-supercoil-comparison",
-        "genes-and-chromosomes-supercoiling-opening"
+        "genes-and-chromosomes-supercoiling-opening",
+        "genes-and-chromosomes-positive-overwinding"
       ],
       "activityAvailability": "available"
     },
@@ -1556,7 +1640,9 @@
         "Relaxed Lk 200 branches to negative Lk 198,deltaLk−2, and positive Lk 202, delta Lk +2; illustrated coils are mirror images."
       ],
       "activityIds": [
-        "genes-and-chromosomes-supercoil-comparison"
+        "genes-and-chromosomes-supercoil-comparison",
+        "genes-and-chromosomes-positive-lk-calculation",
+        "genes-and-chromosomes-lk-magnitude-change"
       ],
       "activityAvailability": "available"
     },
@@ -1652,7 +1738,8 @@
         "Novobiocin and nalidixic acid inhibit DNA gyrase but not eukaryotic topoisomerases in the source comparison."
       ],
       "activityIds": [
-        "genes-and-chromosomes-topoisomerases-and-inhibitors"
+        "genes-and-chromosomes-topoisomerases-and-inhibitors",
+        "genes-and-chromosomes-bacterial-gyrase-drugs"
       ],
       "activityAvailability": "available"
     },
@@ -1676,7 +1763,8 @@
         "Doxorubicin and etoposide are listed as eukaryotic topoisomerase inhibitors used in cancer chemotherapy."
       ],
       "activityIds": [
-        "genes-and-chromosomes-topoisomerases-and-inhibitors"
+        "genes-and-chromosomes-topoisomerases-and-inhibitors",
+        "genes-and-chromosomes-euk-topo-drugs"
       ],
       "activityAvailability": "available"
     },
@@ -1700,7 +1788,9 @@
         "Plectonemic/twisted-thread supercoils predominate in prokaryotes; eukaryotes have both, with solenoidal most effective for compaction."
       ],
       "activityIds": [
-        "genes-and-chromosomes-supercoil-compaction"
+        "genes-and-chromosomes-supercoil-compaction",
+        "genes-and-chromosomes-solenoid-compaction",
+        "genes-and-chromosomes-prok-supercoil-form"
       ],
       "activityAvailability": "available"
     },
@@ -1748,7 +1838,11 @@
         "Core nucleosome has two each of H2A, H2B, H3, H4, forming an octamer."
       ],
       "activityIds": [
-        "genes-and-chromosomes-nucleosome-components"
+        "genes-and-chromosomes-nucleosome-components",
+        "genes-and-chromosomes-core-octamer-composition",
+        "genes-and-chromosomes-histone-excluded-core",
+        "genes-and-chromosomes-octamer-per-type-count",
+        "genes-and-chromosomes-h1-removal-core-count"
       ],
       "activityAvailability": "available"
     },
@@ -1772,7 +1866,11 @@
         "146 bp wraps the octamer left-handed; the source calculation 200 − 146 = 54 bp labels linker DNA."
       ],
       "activityIds": [
-        "genes-and-chromosomes-nucleosome-components"
+        "genes-and-chromosomes-nucleosome-components",
+        "genes-and-chromosomes-dna-core-wrapping-length",
+        "genes-and-chromosomes-linker-dna-calculation",
+        "genes-and-chromosomes-wrapping-handedness",
+        "genes-and-chromosomes-core-vs-linker-distinction"
       ],
       "activityAvailability": "available"
     },
@@ -1796,7 +1894,9 @@
         "Histones are rich in positive Arg/Lys, 20-30%, and bind DNA phosphodiester backbone mainly electrostatically."
       ],
       "activityIds": [
-        "genes-and-chromosomes-histone-charge"
+        "genes-and-chromosomes-histone-charge",
+        "genes-and-chromosomes-histone-basic-residues",
+        "genes-and-chromosomes-dna-histone-attraction"
       ],
       "activityAvailability": "available"
     },
@@ -1819,8 +1919,10 @@
       "details": [
         "Histone-DNA complexes appear as beads on a string; scale bar 50 nm."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-nucleosome-beads-identity"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "genes-and-chromosomes-nucleosome-compaction",
@@ -1842,7 +1944,8 @@
         "Nucleosomes provide compaction needed for double-stranded DNA to fit in the nucleus."
       ],
       "activityIds": [
-        "genes-and-chromosomes-nucleosome-two-functions"
+        "genes-and-chromosomes-nucleosome-two-functions",
+        "genes-and-chromosomes-nuclear-packing-purpose"
       ],
       "activityAvailability": "available"
     },
@@ -1867,7 +1970,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-remodeling-access",
-        "genes-and-chromosomes-nucleosome-two-functions"
+        "genes-and-chromosomes-nucleosome-two-functions",
+        "genes-and-chromosomes-nucleosome-promoter-block"
       ],
       "activityAvailability": "available"
     },
@@ -1915,7 +2019,10 @@
         "Each nucleosome associates with one H1; the figure calls H1 a clamp near DNA entry/exit."
       ],
       "activityIds": [
-        "genes-and-chromosomes-nucleosome-components"
+        "genes-and-chromosomes-nucleosome-components",
+        "genes-and-chromosomes-histone-excluded-core",
+        "genes-and-chromosomes-h1-clamp-role",
+        "genes-and-chromosomes-h1-removal-core-count"
       ],
       "activityAvailability": "available"
     },
@@ -1988,7 +2095,8 @@
         "Slide lists lysine methylation, lysine acetylation and serine phosphorylation; collective charge-effect phrase is flagged separately."
       ],
       "activityIds": [
-        "genes-and-chromosomes-histone-types-and-modifications"
+        "genes-and-chromosomes-histone-types-and-modifications",
+        "genes-and-chromosomes-histone-lysine-modifications"
       ],
       "activityAvailability": "available"
     },
@@ -2013,7 +2121,9 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-histone-tail-site",
-        "genes-and-chromosomes-chromatin-states-and-enzymes"
+        "genes-and-chromosomes-chromatin-states-and-enzymes",
+        "genes-and-chromosomes-hat-enzyme-direction",
+        "genes-and-chromosomes-acetyl-donor"
       ],
       "activityAvailability": "available"
     },
@@ -2039,7 +2149,8 @@
       "activityIds": [
         "genes-and-chromosomes-acetylation-access",
         "genes-and-chromosomes-chromatin-states-and-enzymes",
-        "genes-and-chromosomes-chromatin-state-scenario"
+        "genes-and-chromosomes-chromatin-state-scenario",
+        "genes-and-chromosomes-hdac-access-effect"
       ],
       "activityAvailability": "available"
     },
@@ -2064,7 +2175,8 @@
       ],
       "activityIds": [
         "genes-and-chromosomes-chromatin-states-and-enzymes",
-        "genes-and-chromosomes-chromatin-state-scenario"
+        "genes-and-chromosomes-chromatin-state-scenario",
+        "genes-and-chromosomes-euchromatin-description"
       ],
       "activityAvailability": "available"
     },
@@ -2111,8 +2223,11 @@
       "details": [
         "Figure labels one loop ~75,000 bp, one rosette 6 loops, one coil 30 rosettes, two chromatids 10 coils each."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "genes-and-chromosomes-chromatin-loop-size",
+        "genes-and-chromosomes-chromatin-model-rosettes"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-bacterial-gene-names",
@@ -2134,7 +2249,9 @@
         "Lowercase italics denote bacterial genes, uppercase names denote protein products; A/B/C follow discovery order, not reaction order."
       ],
       "activityIds": [
-        "dna-metabolism-1-gene-naming"
+        "dna-metabolism-1-gene-naming",
+        "dna-metabolism-1-gene-letter-order",
+        "dna-metabolism-1-lig-gene-function"
       ],
       "activityAvailability": "available"
     },
@@ -2157,8 +2274,10 @@
       "details": [
         "The circular map runs 0-100 minutes; the source states 1 minute equals 40,000 bp and labels oriC and Ter. Individual gene functions are transcribed in Markdown."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-map-distance-conversion"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-semiconservative-replication",
@@ -2206,7 +2325,10 @@
       ],
       "activityIds": [
         "dna-metabolism-1-second-generation-bands",
-        "dna-metabolism-1-isotope-experiment-order"
+        "dna-metabolism-1-isotope-experiment-order",
+        "dna-metabolism-1-first-generation-density",
+        "dna-metabolism-1-gradient-separation-basis",
+        "dna-metabolism-1-isotope-vs-synthesis-marker"
       ],
       "activityAvailability": "available"
     },
@@ -2258,7 +2380,8 @@
         "Replication loops start at a unique origin; two forks meet opposite the origin in the bacterial circle."
       ],
       "activityIds": [
-        "dna-metabolism-1-origin-fork-label"
+        "dna-metabolism-1-origin-fork-label",
+        "dna-metabolism-1-fork-meeting-position"
       ],
       "activityAvailability": "available"
     },
@@ -2281,8 +2404,11 @@
       "details": [
         "Radioactive thymidine residues generate tracks of silver grains on autoradiographs of isolated spread DNA."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-isotope-vs-synthesis-marker",
+        "dna-metabolism-1-autoradiographic-marker"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-bidirectional-labeling",
@@ -2304,7 +2430,9 @@
         "Brief 3 H labeling at both forks distinguishes bidirectional replication from labeling at one fork in the unidirectional diagram."
       ],
       "activityIds": [
-        "dna-metabolism-1-origin-fork-label"
+        "dna-metabolism-1-origin-fork-label",
+        "dna-metabolism-1-bidirectional-pulse-label",
+        "dna-metabolism-1-unidirectional-pulse-label"
       ],
       "activityAvailability": "available"
     },
@@ -2328,7 +2456,10 @@
         "DNA polymerase, DNA template, primer 3'-OH, and dATP/dGTP/dCTP/dTTP are required; synthesis is 5'→3'."
       ],
       "activityIds": [
-        "dna-metabolism-1-primer-terminal-requirement"
+        "dna-metabolism-1-primer-terminal-requirement",
+        "dna-metabolism-1-polymerase-primer-lack",
+        "dna-metabolism-1-dna-building-substrate-set",
+        "dna-metabolism-1-rna-or-dna-primer"
       ],
       "activityAvailability": "available"
     },
@@ -2352,7 +2483,11 @@
         "Opposite strand polarity is addressed by Okazaki fragments; inability to initiate by RNA primers; inability to melt duplex DNA by helicase and SSB."
       ],
       "activityIds": [
-        "dna-metabolism-1-polymerase-problems"
+        "dna-metabolism-1-polymerase-problems",
+        "dna-metabolism-1-polymerase-primer-lack",
+        "dna-metabolism-1-strand-growth-end",
+        "dna-metabolism-1-why-okazaki-fragments",
+        "dna-metabolism-1-helicase-constraint-solution"
       ],
       "activityAvailability": "available"
     },
@@ -2383,7 +2518,13 @@
       ],
       "activityIds": [
         "dna-metabolism-1-leading-lagging-directions",
-        "dna-metabolism-1-okazaki-completion"
+        "dna-metabolism-1-okazaki-completion",
+        "dna-metabolism-1-why-okazaki-fragments",
+        "dna-metabolism-1-leading-fork-movement",
+        "dna-metabolism-1-lagging-fragment-direction",
+        "dna-metabolism-1-dnag-identity",
+        "dna-metabolism-1-primer-length-range",
+        "dna-metabolism-1-new-primer-each-fragment"
       ],
       "activityAvailability": "available"
     },
@@ -2406,8 +2547,10 @@
       "details": [
         "Source lengths: bacteria 1,000-2,000 nucleotides; eukaryotes 150-200 nucleotides."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-okazaki-size-comparison"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-nuclease-specificity",
@@ -2429,7 +2572,9 @@
         "Nucleases degrade nucleic acids; DNases are DNA-specific and RNases RNA-specific."
       ],
       "activityIds": [
-        "dna-metabolism-1-nuclease-classes"
+        "dna-metabolism-1-nuclease-classes",
+        "dna-metabolism-1-ribonuclease-substrate",
+        "dna-metabolism-1-dna-specific-nuclease"
       ],
       "activityAvailability": "available"
     },
@@ -2453,7 +2598,10 @@
         "Exonucleases act from 3 or 5 ends; endonucleases act at internal sites; restriction endonucleases act at specific internal sites."
       ],
       "activityIds": [
-        "dna-metabolism-1-nuclease-classes"
+        "dna-metabolism-1-nuclease-classes",
+        "dna-metabolism-1-exo-cleavage-position",
+        "dna-metabolism-1-endo-cleavage-position",
+        "dna-metabolism-1-restriction-specificity"
       ],
       "activityAvailability": "available"
     },
@@ -2477,7 +2625,10 @@
         "The primer 3'-OH attacks the incoming dNTP alpha phosphorus, extending DNA by one dNMP and releasing PPi; two Mg 2+ ions and conserved Asp are named."
       ],
       "activityIds": [
-        "dna-metabolism-1-polymerization-chemistry"
+        "dna-metabolism-1-polymerization-chemistry",
+        "dna-metabolism-1-alpha-phosphate-attack",
+        "dna-metabolism-1-polymerization-leaving-group",
+        "dna-metabolism-1-polymerase-metal-cofactor"
       ],
       "activityAvailability": "available"
     },
@@ -2500,8 +2651,10 @@
       "details": [
         "Kornberg purified E. coli polymerase I, encoded by polA; later studies identified four other E. coli DNA polymerases."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-kornberg-polymerase-gene"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-base-pair-guidance",
@@ -2523,7 +2676,8 @@
         "Template A directs addition of T; A-T and C-G have similar geometry fitting the active site; DNA polymerases require a preexisting primer."
       ],
       "activityIds": [
-        "dna-metabolism-1-selection-before-bond"
+        "dna-metabolism-1-selection-before-bond",
+        "dna-metabolism-1-template-guides-incoming-base"
       ],
       "activityAvailability": "available"
     },
@@ -2547,7 +2701,8 @@
         "Average number of nucleotides added before polymerase dissociation; dissociation and reassociation limit polymerization rate."
       ],
       "activityIds": [
-        "dna-metabolism-1-processivity-measure"
+        "dna-metabolism-1-processivity-measure",
+        "dna-metabolism-1-processivity-vs-rate"
       ],
       "activityAvailability": "available"
     },
@@ -2571,7 +2726,9 @@
         "Hydrogen bonds and common A-T/G-C geometry discriminate correct from incorrect nucleotides before phosphodiester bond formation."
       ],
       "activityIds": [
-        "dna-metabolism-1-selection-before-bond"
+        "dna-metabolism-1-selection-before-bond",
+        "dna-metabolism-1-geometry-selection",
+        "dna-metabolism-1-selection-not-full-fidelity"
       ],
       "activityAvailability": "available"
     },
@@ -2594,8 +2751,10 @@
       "details": [
         "The source contrasts overall E. coli errors per 10^9-10^10 nucleotides with initial incorrect addition per 10^4-10^5 correct bases, motivating additional mechanisms."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-selection-not-full-fidelity"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-proofreading",
@@ -2618,7 +2777,9 @@
       ],
       "activityIds": [
         "dna-metabolism-1-kinetic-pause",
-        "dna-metabolism-1-proofreading-figure-order"
+        "dna-metabolism-1-proofreading-figure-order",
+        "dna-metabolism-1-proofreading-direction",
+        "dna-metabolism-1-proofreading-pyrophosphate"
       ],
       "activityAvailability": "available"
     },
@@ -2642,7 +2803,8 @@
         "Rare C* pairs with A and is incorporated, reverts to C, creates a mispaired 3'-OH, is transferred to the exonuclease site and removed before synthesis resumes."
       ],
       "activityIds": [
-        "dna-metabolism-1-proofreading-figure-order"
+        "dna-metabolism-1-proofreading-figure-order",
+        "dna-metabolism-1-tautomer-transition-mismatch"
       ],
       "activityAvailability": "available"
     },
@@ -2695,7 +2857,11 @@
       ],
       "activityIds": [
         "dna-metabolism-1-polymerase-genes",
-        "dna-metabolism-1-polymerase-exonuclease"
+        "dna-metabolism-1-polymerase-exonuclease",
+        "dna-metabolism-1-pol-i-not-sole-replicase",
+        "dna-metabolism-1-polii-gene-designation",
+        "dna-metabolism-1-poliii-gene-designation",
+        "dna-metabolism-1-three-polymerases-proofreading"
       ],
       "activityAvailability": "available"
     },
@@ -2718,8 +2884,10 @@
       "details": [
         "Table values: pol I 3-200, pol II 1,500, pol III at least 500,000 nucleotides before dissociation."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-poliii-processivity-advantage"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-polymerase-conflicting-values",
@@ -2763,7 +2931,10 @@
         "DNA polymerase I removes paired RNA/DNA with 5'→3' exonuclease and replaces it; the nick moves, polymerase dissociates, and ligase seals it."
       ],
       "activityIds": [
-        "dna-metabolism-1-nick-translation-roles"
+        "dna-metabolism-1-nick-translation-roles",
+        "dna-metabolism-1-nick-translation-removed-material",
+        "dna-metabolism-1-nick-moving-explanation",
+        "dna-metabolism-1-nick-final-sealing-enzyme"
       ],
       "activityAvailability": "available"
     },
@@ -2787,7 +2958,9 @@
         "A nick is a broken phosphodiester bond leaving 3'-OH and 5'-phosphate; the source links nick translation to repair and primer removal."
       ],
       "activityIds": [
-        "dna-metabolism-1-nick-chemistry"
+        "dna-metabolism-1-nick-chemistry",
+        "dna-metabolism-1-nick-final-sealing-enzyme",
+        "dna-metabolism-1-nick-vs-gap-distinction"
       ],
       "activityAvailability": "available"
     },
@@ -2835,7 +3008,8 @@
         "DNA replicase system/replisome contains more than 20 enzymes/proteins, including helicase, topoisomerase, DNA-binding proteins, primase, and ligase."
       ],
       "activityIds": [
-        "dna-metabolism-1-replisome-access-functions"
+        "dna-metabolism-1-replisome-access-functions",
+        "dna-metabolism-1-replisome-complex-name"
       ],
       "activityAvailability": "available"
     },
@@ -2866,7 +3040,15 @@
       ],
       "activityIds": [
         "dna-metabolism-1-replisome-access-functions",
-        "dna-metabolism-1-fork-protein-identities"
+        "dna-metabolism-1-fork-protein-identities",
+        "dna-metabolism-1-helicase-energy",
+        "dna-metabolism-1-ssb-stabilization",
+        "dna-metabolism-1-torsional-stress-enzyme",
+        "dna-metabolism-1-primer-synthesis-enzyme",
+        "dna-metabolism-1-replicative-polymerase-fork",
+        "dna-metabolism-1-pol-i-fork-role",
+        "dna-metabolism-1-primosome-members",
+        "dna-metabolism-1-gyrase-vs-decatenation"
       ],
       "activityAvailability": "available"
     },
@@ -2914,7 +3096,10 @@
         "245-bp oriC contains three 13-bp repeats and four 9-bp DnaA-binding repeats; initiation names DnaA/B/C."
       ],
       "activityIds": [
-        "dna-metabolism-1-oric-repeat-pattern"
+        "dna-metabolism-1-oric-repeat-pattern",
+        "dna-metabolism-1-oric-length",
+        "dna-metabolism-1-dnaa-repeat-binding",
+        "dna-metabolism-1-oric-thirteen-bp-count"
       ],
       "activityAvailability": "available"
     },
@@ -2937,8 +3122,10 @@
       "details": [
         "Figure gives 13-bp consensus GATCTNTTNTTTT and 9-bp TTATCCACA; N means any nucleotide."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-consensus-n-meaning"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-dam-methylation",
@@ -2960,7 +3147,11 @@
         "Dam methylates adenine N 6 in 5-GATC-3; hemimethylated oriC is sequestered by plasma membrane interaction, later released and fully methylated before DnaA binding."
       ],
       "activityIds": [
-        "dna-metabolism-1-oric-methylation-sequence"
+        "dna-metabolism-1-oric-methylation-sequence",
+        "dna-metabolism-1-dam-target-base",
+        "dna-metabolism-1-hemimethylated-definition",
+        "dna-metabolism-1-oric-sequestration-site",
+        "dna-metabolism-1-dam-timing-release"
       ],
       "activityAvailability": "available"
     },
@@ -2984,7 +3175,8 @@
         "ATP-bound DnaA is active and slow ATP hydrolysis produces inactive ADP-bound DnaA. The heading calls this phosphorylation but no covalent reaction is shown."
       ],
       "activityIds": [
-        "dna-metabolism-1-dnaa-nucleotide-state"
+        "dna-metabolism-1-dnaa-nucleotide-state",
+        "dna-metabolism-1-dnaa-active-nucleotide"
       ],
       "activityAvailability": "available"
     },
@@ -3007,8 +3199,10 @@
       "details": [
         "The slide gives 11 GATC sites per 245 bp in oriC versus 1 per 245 bp across the E. coli chromosome."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-gatc-enrichment"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-replisome-table-details",
@@ -3029,8 +3223,11 @@
       "details": [
         "Complete Mr and subunit counts are preserved in Markdown; pol III mass conflicts with 15 and count labels differ from number of different types on 15."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-ssb-tetramer",
+        "dna-metabolism-1-helicase-hexamer"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-primer-removal-ligation",
@@ -3052,7 +3249,10 @@
         "Pol I 5'→3' exonuclease removes RNA primers and the same enzyme replaces with DNA; DNA ligase seals the remaining nick."
       ],
       "activityIds": [
-        "dna-metabolism-1-okazaki-completion"
+        "dna-metabolism-1-okazaki-completion",
+        "dna-metabolism-1-primer-excision-direction",
+        "dna-metabolism-1-primer-rna-replaced-dna",
+        "dna-metabolism-1-nick-vs-gap-distinction"
       ],
       "activityAvailability": "available"
     },
@@ -3075,8 +3275,10 @@
       "details": [
         "The figure labels ATP (or NAD+) giving AMP+PPi (or NMN) at the ligase stage."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-ligation-energy-alternatives"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-tus-ter",
@@ -3098,7 +3300,11 @@
         "20-bp Ter sequences in oppositely oriented clusters bind Tus and arrest forks, allowing entry into a fork trap but preventing exit/overreplication."
       ],
       "activityIds": [
-        "dna-metabolism-1-tus-ter-trap"
+        "dna-metabolism-1-tus-ter-trap",
+        "dna-metabolism-1-tus-protein-ter-dna",
+        "dna-metabolism-1-ter-sequence-length",
+        "dna-metabolism-1-trap-prevents-overreplication",
+        "dna-metabolism-1-ter-opposed-orientations"
       ],
       "activityAvailability": "available"
     },
@@ -3144,7 +3350,11 @@
         "Completed circles are interlinked but not covalently joined. Type II topoisomerase IV breaks both strands of one chromosome to allow the other circle through and separate them."
       ],
       "activityIds": [
-        "dna-metabolism-1-catenane-separation"
+        "dna-metabolism-1-catenane-separation",
+        "dna-metabolism-1-catenane-noncovalent",
+        "dna-metabolism-1-decatenating-enzyme",
+        "dna-metabolism-1-topoiv-strand-passage",
+        "dna-metabolism-1-gyrase-vs-decatenation"
       ],
       "activityAvailability": "available"
     },
@@ -3169,7 +3379,8 @@
       ],
       "activityIds": [
         "dna-metabolism-1-eukaryotic-replication-features",
-        "dna-metabolism-1-eukaryotic-origin-solution"
+        "dna-metabolism-1-eukaryotic-origin-solution",
+        "dna-metabolism-1-euk-origin-name"
       ],
       "activityAvailability": "available"
     },
@@ -3193,7 +3404,9 @@
         "Source assigns alpha primase/polymerization without proofreading; delta primer extension and 3'→5' exonuclease; epsilon DNA repair/primer removal."
       ],
       "activityIds": [
-        "dna-metabolism-1-eukaryotic-polymerase-roles"
+        "dna-metabolism-1-eukaryotic-polymerase-roles",
+        "dna-metabolism-1-alpha-no-proofreading",
+        "dna-metabolism-1-delta-primer-extension"
       ],
       "activityAvailability": "available"
     },
@@ -3217,7 +3430,8 @@
         "RPA is the eukaryotic ssDNA-binding protein, similar to SSB."
       ],
       "activityIds": [
-        "dna-metabolism-1-eukaryotic-replication-features"
+        "dna-metabolism-1-eukaryotic-replication-features",
+        "dna-metabolism-1-euk-ssb-counterpart"
       ],
       "activityAvailability": "available"
     },
@@ -3265,7 +3479,8 @@
         "Telomeres shorten each S phase; the source connects incomplete ends to 5'→3' synthesis requiring a labile primer."
       ],
       "activityIds": [
-        "dna-metabolism-1-end-problem-features"
+        "dna-metabolism-1-end-problem-features",
+        "dna-metabolism-1-telomere-shortening-phase"
       ],
       "activityAvailability": "available"
     },
@@ -3342,7 +3557,8 @@
         "Human telomeres contain thousands of repeats of TTAGGG, a six-nucleotide sequence."
       ],
       "activityIds": [
-        "dna-metabolism-1-human-telomere-repeat"
+        "dna-metabolism-1-human-telomere-repeat",
+        "dna-metabolism-1-human-telomere-count"
       ],
       "activityAvailability": "available"
     },
@@ -3366,7 +3582,8 @@
         "Telomeres distinguish natural chromosome ends from breaks; unprotected ends would be repaired, causing chromosome fusion and genomic instability."
       ],
       "activityIds": [
-        "dna-metabolism-1-protected-ends"
+        "dna-metabolism-1-protected-ends",
+        "dna-metabolism-1-uncapped-end-consequence"
       ],
       "activityAvailability": "available"
     },
@@ -3414,7 +3631,8 @@
         "The graph labels the number of divisions before stopping as Hayflick limit, without a numerical threshold."
       ],
       "activityIds": [
-        "dna-metabolism-1-telomere-clock-meaning"
+        "dna-metabolism-1-telomere-clock-meaning",
+        "dna-metabolism-1-hayflick-definition"
       ],
       "activityAvailability": "available"
     },
@@ -3438,7 +3656,10 @@
         "Telomerase is a telomere-specific ribonucleoprotein with RNA template and reverse-transcriptase catalytic unit."
       ],
       "activityIds": [
-        "dna-metabolism-1-telomerase-components"
+        "dna-metabolism-1-telomerase-components",
+        "dna-metabolism-1-telomerase-template-type",
+        "dna-metabolism-1-telomerase-catalytic-unit",
+        "dna-metabolism-1-telomerase-extension-product"
       ],
       "activityAvailability": "available"
     },
@@ -3483,8 +3704,10 @@
       "details": [
         "The source reports telomerase-treated culture cells with extended telomeres and 250 generations past their usual stopping point, with normal chromosome number."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-1-culture-telomerase-observation"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-1-telomerase-expression",
@@ -3537,7 +3760,9 @@
       ],
       "activityIds": [
         "dna-metabolism-1-telomerase-expression-groups",
-        "dna-metabolism-1-cancer-maintenance-limit"
+        "dna-metabolism-1-cancer-maintenance-limit",
+        "dna-metabolism-1-cancer-telomerase-frequency",
+        "dna-metabolism-1-cancer-maintenance-without-telomerase"
       ],
       "activityAvailability": "available"
     },
@@ -3653,7 +3878,9 @@
         "Proposed uses: expand replacement-therapy cells (burns/joint replacements), and telomerase inhibitors to selectively kill cancer cells."
       ],
       "activityIds": [
-        "dna-metabolism-1-telomerase-proposed-uses"
+        "dna-metabolism-1-telomerase-proposed-uses",
+        "dna-metabolism-1-telomerase-therapeutic-expansion",
+        "dna-metabolism-1-telomerase-inhibitor-aim"
       ],
       "activityAvailability": "available"
     },
@@ -3677,7 +3904,9 @@
         "Distinguish environmental causes from replication errors, oxidants and ROS."
       ],
       "activityIds": [
-        "dna-metabolism-2-damage-classification"
+        "dna-metabolism-2-damage-classification",
+        "dna-metabolism-2-v2-endogenous-set",
+        "dna-metabolism-2-v2-external-radiation"
       ],
       "activityAvailability": "available"
     },
@@ -3701,7 +3930,13 @@
         "Substitution/insertion/deletion describe base changes; silent/nonsense/missense describe effects."
       ],
       "activityIds": [
-        "dna-metabolism-2-mutation-two-classifications"
+        "dna-metabolism-2-mutation-two-classifications",
+        "dna-metabolism-2-v2-mutation-permanence",
+        "dna-metabolism-2-v2-base-loss",
+        "dna-metabolism-2-v2-base-addition",
+        "dna-metabolism-2-v2-nonsense-effect",
+        "dna-metabolism-2-v2-missense-effect",
+        "dna-metabolism-2-v2-classification-level"
       ],
       "activityAvailability": "available"
     },
@@ -3726,7 +3961,10 @@
       ],
       "activityIds": [
         "dna-metabolism-2-transition-pair",
-        "dna-metabolism-2-transversion-rule"
+        "dna-metabolism-2-transversion-rule",
+        "dna-metabolism-2-v2-purine-transition",
+        "dna-metabolism-2-v2-pyrimidine-transition",
+        "dna-metabolism-2-v2-two-transversions"
       ],
       "activityAvailability": "available"
     },
@@ -3751,7 +3989,8 @@
       ],
       "activityIds": [
         "dna-metabolism-2-ames-readout",
-        "dna-metabolism-2-ames-purpose"
+        "dna-metabolism-2-ames-purpose",
+        "dna-metabolism-2-v2-chemical-mutation-screen"
       ],
       "activityAvailability": "available"
     },
@@ -3797,7 +4036,10 @@
         "After histidine depletion, colonies reflect bacteria able to make histidine; colony number reflects mutagenicity."
       ],
       "activityIds": [
-        "dna-metabolism-2-ames-readout"
+        "dna-metabolism-2-ames-readout",
+        "dna-metabolism-2-v2-ames-colony-comparison",
+        "dna-metabolism-2-v2-ames-starting-bacteria",
+        "dna-metabolism-2-v2-ames-limited-histidine"
       ],
       "activityAvailability": "available"
     },
@@ -3820,8 +4062,10 @@
       "details": [
         "The slide gives 48 h."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-ames-incubation-time"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-repair-template",
@@ -3867,7 +4111,10 @@
         "Mismatch repair, BER, NER and direct repair recognize distinct damage types."
       ],
       "activityIds": [
-        "dna-metabolism-2-repair-system-targets"
+        "dna-metabolism-2-repair-system-targets",
+        "dna-metabolism-2-v2-abnormal-base-pathway",
+        "dna-metabolism-2-v2-large-distortion-pathway",
+        "dna-metabolism-2-v2-direct-photolyase"
       ],
       "activityAvailability": "available"
     },
@@ -3890,8 +4137,10 @@
       "details": [
         "Complete table protein inventory preserved."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-direct-photolyase"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-mismatch-methylation",
@@ -3913,7 +4162,10 @@
         "The new strand is repairable during hemimethylation until Dam methylation removes the distinction."
       ],
       "activityIds": [
-        "dna-metabolism-2-hemimethylated-window"
+        "dna-metabolism-2-hemimethylated-window",
+        "dna-metabolism-2-v2-dam-sequence",
+        "dna-metabolism-2-v2-hemimethylated-definition",
+        "dna-metabolism-2-v2-dam-discrimination-loss"
       ],
       "activityAvailability": "available"
     },
@@ -3936,8 +4188,10 @@
       "details": [
         "Fidelity improvement is 10^2-10^3."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-mismatch-fidelity-gain"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-muts-mutl-muth",
@@ -3960,7 +4214,11 @@
       ],
       "activityIds": [
         "dna-metabolism-2-mut-protein-roles",
-        "dna-metabolism-2-mismatch-muth-step"
+        "dna-metabolism-2-mismatch-muth-step",
+        "dna-metabolism-2-v2-mismatch-recognition-complex",
+        "dna-metabolism-2-v2-muth-function",
+        "dna-metabolism-2-v2-muth-partner",
+        "dna-metabolism-2-v2-mismatch-versus-ung"
       ],
       "activityAvailability": "available"
     },
@@ -3984,7 +4242,9 @@
         "Direction depends on mismatch position relative to the cut."
       ],
       "activityIds": [
-        "dna-metabolism-2-mismatch-excision-polarity"
+        "dna-metabolism-2-mismatch-excision-polarity",
+        "dna-metabolism-2-v2-mismatch-three-side",
+        "dna-metabolism-2-v2-mismatch-five-side-protein"
       ],
       "activityAvailability": "available"
     },
@@ -4008,7 +4268,9 @@
         "DNA pol III and SSB are labeled after excision."
       ],
       "activityIds": [
-        "dna-metabolism-2-mismatch-gap-fill"
+        "dna-metabolism-2-mismatch-gap-fill",
+        "dna-metabolism-2-v2-mismatch-versus-ber-polymerase",
+        "dna-metabolism-2-v2-polymerase-fidelity-contrast"
       ],
       "activityAvailability": "available"
     },
@@ -4034,7 +4296,13 @@
       "activityIds": [
         "dna-metabolism-2-ber-order",
         "dna-metabolism-2-direct-versus-excision",
-        "dna-metabolism-2-exchange-synthesis"
+        "dna-metabolism-2-exchange-synthesis",
+        "dna-metabolism-2-v2-mismatch-versus-ber-polymerase",
+        "dna-metabolism-2-v2-glycosylase-role",
+        "dna-metabolism-2-v2-ap-endonuclease-block",
+        "dna-metabolism-2-v2-ber-last-enzyme",
+        "dna-metabolism-2-v2-post-excision-common",
+        "dna-metabolism-2-v2-break-repair-versus-base-repair"
       ],
       "activityAvailability": "available"
     },
@@ -4058,7 +4326,11 @@
         "Base removal by N-glycosyl cleavage leaves an abasic site."
       ],
       "activityIds": [
-        "dna-metabolism-2-ap-site-bond"
+        "dna-metabolism-2-ap-site-bond",
+        "dna-metabolism-2-v2-glycosylase-role",
+        "dna-metabolism-2-v2-ap-endonuclease-block",
+        "dna-metabolism-2-v2-abasic-definition",
+        "dna-metabolism-2-v2-direct-versus-ap-site"
       ],
       "activityAvailability": "available"
     },
@@ -4082,7 +4354,10 @@
         "UNG removes deamination-derived U from DNA, distinguishes it from T, and does not act on RNA."
       ],
       "activityIds": [
-        "dna-metabolism-2-ung-specificity"
+        "dna-metabolism-2-ung-specificity",
+        "dna-metabolism-2-v2-uracil-origin",
+        "dna-metabolism-2-v2-ung-rna-exclusion",
+        "dna-metabolism-2-v2-mismatch-versus-ung"
       ],
       "activityAvailability": "available"
     },
@@ -4105,8 +4380,10 @@
       "details": [
         "Source states one bacterial type and four human types."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-ung-type-comparison"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-ner-lesions",
@@ -4129,7 +4406,11 @@
       ],
       "activityIds": [
         "dna-metabolism-2-ner-cleavage-pattern",
-        "dna-metabolism-2-direct-versus-excision"
+        "dna-metabolism-2-direct-versus-excision",
+        "dna-metabolism-2-v2-large-distortion-pathway",
+        "dna-metabolism-2-v2-ner-cut-location",
+        "dna-metabolism-2-v2-uv-lesion",
+        "dna-metabolism-2-v2-smoke-bulky-lesion"
       ],
       "activityAvailability": "available"
     },
@@ -4153,7 +4434,12 @@
         "Diagram contrasts ABC excinuclease/13-mer/pol I with human excinuclease/29-mer/pol epsilon."
       ],
       "activityIds": [
-        "dna-metabolism-2-ner-branches"
+        "dna-metabolism-2-ner-branches",
+        "dna-metabolism-2-v2-bacterial-excinuclease",
+        "dna-metabolism-2-v2-ner-fragment-lengths",
+        "dna-metabolism-2-v2-human-ner-gap-fill",
+        "dna-metabolism-2-v2-ner-helicase-step",
+        "dna-metabolism-2-v2-post-excision-common"
       ],
       "activityAvailability": "available"
     },
@@ -4199,7 +4485,9 @@
         "XP is linked to NER; HNPCC to mismatch repair."
       ],
       "activityIds": [
-        "dna-metabolism-2-repair-disorder-links"
+        "dna-metabolism-2-repair-disorder-links",
+        "dna-metabolism-2-v2-xp-mechanism",
+        "dna-metabolism-2-v2-hnpcc-mechanism"
       ],
       "activityAvailability": "available"
     },
@@ -4222,8 +4510,10 @@
       "details": [
         "hMLH1 and hMSH2 are named human MutL and MutS homologs."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-hnpcc-homolog-map"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-methylguanine-mispair",
@@ -4245,7 +4535,8 @@
         "Methylated guanine pairs with T; the diagram shows a later A-T descendant."
       ],
       "activityIds": [
-        "dna-metabolism-2-methylguanine-consequence"
+        "dna-metabolism-2-methylguanine-consequence",
+        "dna-metabolism-2-v2-methylguanine-descendant"
       ],
       "activityAvailability": "available"
     },
@@ -4271,7 +4562,9 @@
       "activityIds": [
         "dna-metabolism-2-direct-repair-cost",
         "dna-metabolism-2-direct-versus-excision",
-        "dna-metabolism-2-exchange-synthesis"
+        "dna-metabolism-2-exchange-synthesis",
+        "dna-metabolism-2-v2-methyl-transfer-acceptor",
+        "dna-metabolism-2-v2-direct-versus-ap-site"
       ],
       "activityAvailability": "available"
     },
@@ -4295,7 +4588,9 @@
         "Lesions/breaks can remove a usable local template; recombinational and error-prone responses are depicted."
       ],
       "activityIds": [
-        "dna-metabolism-2-fork-break-response"
+        "dna-metabolism-2-fork-break-response",
+        "dna-metabolism-2-v2-unrepaired-break-template",
+        "dna-metabolism-2-v2-lesion-bypass-alternative"
       ],
       "activityAvailability": "available"
     },
@@ -4319,7 +4614,11 @@
         "LexA repression keeps SOS off; RecA-associated LexA cleavage permits SOS expression."
       ],
       "activityIds": [
-        "dna-metabolism-2-sos-switch"
+        "dna-metabolism-2-sos-switch",
+        "dna-metabolism-2-v2-lexa-normal-state",
+        "dna-metabolism-2-v2-reca-coprotease",
+        "dna-metabolism-2-v2-sos-induction-result",
+        "dna-metabolism-2-v2-sos-protein-versus-polymerase"
       ],
       "activityAvailability": "available"
     },
@@ -4343,7 +4642,13 @@
         "SOS-associated DNA pol V bypasses lesions with low fidelity and no proofreading."
       ],
       "activityIds": [
-        "dna-metabolism-2-tls-tradeoff"
+        "dna-metabolism-2-tls-tradeoff",
+        "dna-metabolism-2-v2-lesion-bypass-alternative",
+        "dna-metabolism-2-v2-tls-polymerase",
+        "dna-metabolism-2-v2-tls-proofreading",
+        "dna-metabolism-2-v2-tls-tradeoff-scenario",
+        "dna-metabolism-2-v2-polymerase-fidelity-contrast",
+        "dna-metabolism-2-v2-sos-protein-versus-polymerase"
       ],
       "activityAvailability": "available"
     },
@@ -4367,7 +4672,10 @@
         "Homologous molecules, shared particular sites, and mobile-element insertion distinguish the three classes."
       ],
       "activityIds": [
-        "dna-metabolism-2-recombination-classify"
+        "dna-metabolism-2-recombination-classify",
+        "dna-metabolism-2-v2-homologous-definition",
+        "dna-metabolism-2-v2-site-specific-definition",
+        "dna-metabolism-2-v2-mobile-element-class"
       ],
       "activityAvailability": "available"
     },
@@ -4391,7 +4699,8 @@
         "Recombination contributes to DNA repair and genetic diversity."
       ],
       "activityIds": [
-        "dna-metabolism-2-recombination-dual-role"
+        "dna-metabolism-2-recombination-dual-role",
+        "dna-metabolism-2-v2-recombination-functions"
       ],
       "activityAvailability": "available"
     },
@@ -4415,7 +4724,8 @@
         "Crossing over follows replication and precedes depicted Meiosis I products."
       ],
       "activityIds": [
-        "dna-metabolism-2-meiotic-diagram-sequence"
+        "dna-metabolism-2-meiotic-diagram-sequence",
+        "dna-metabolism-2-v2-meiotic-timing"
       ],
       "activityAvailability": "available"
     },
@@ -4439,7 +4749,9 @@
         "Aligned homologs exchange segments at a chiasma; sister chromatids and homologs are distinguished."
       ],
       "activityIds": [
-        "dna-metabolism-2-crossover-structures"
+        "dna-metabolism-2-crossover-structures",
+        "dna-metabolism-2-v2-chiasma-definition",
+        "dna-metabolism-2-v2-tetrad-components"
       ],
       "activityAvailability": "available"
     },
@@ -4462,8 +4774,10 @@
       "details": [
         "Tetrad/chiasma diagrams and a micrograph illustrate exchanged genetic material."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-tetrad-components"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-ds-break-repair",
@@ -4485,7 +4799,12 @@
         "End processing leaves 3-prime extensions; invasion, extension/branch migration and Holliday cleavage give alternative products."
       ],
       "activityIds": [
-        "dna-metabolism-2-ds-break-common-sequence"
+        "dna-metabolism-2-ds-break-common-sequence",
+        "dna-metabolism-2-v2-ds-break-processing",
+        "dna-metabolism-2-v2-ds-invasion-target",
+        "dna-metabolism-2-v2-ds-break-extension",
+        "dna-metabolism-2-v2-holliday-resolution-enzyme",
+        "dna-metabolism-2-v2-break-repair-versus-base-repair"
       ],
       "activityAvailability": "available"
     },
@@ -4509,7 +4828,10 @@
         "The figure permits two joining outcomes; product set 2 recombines flanking DNA."
       ],
       "activityIds": [
-        "dna-metabolism-2-holliday-two-products"
+        "dna-metabolism-2-holliday-two-products",
+        "dna-metabolism-2-v2-holliday-resolution-enzyme",
+        "dna-metabolism-2-v2-flanking-recombination",
+        "dna-metabolism-2-v2-homolog-product-occurrence"
       ],
       "activityAvailability": "available"
     },
@@ -4532,8 +4854,10 @@
       "details": [
         "Micrograph illustrates a crossover junction."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-holliday-structure"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-homolog-alleles",
@@ -4578,8 +4902,10 @@
       "details": [
         "The source gives A-to-T/glutamate-to-valine variation for hemoglobin A versus S."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-hemoglobin-substitution"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-replication-restart",
@@ -4601,7 +4927,10 @@
         "Recombinational repair links a stalled fork to origin-independent replication restart."
       ],
       "activityIds": [
-        "dna-metabolism-2-restart-transition"
+        "dna-metabolism-2-restart-transition",
+        "dna-metabolism-2-v2-stalled-pol3",
+        "dna-metabolism-2-v2-restart-origin",
+        "dna-metabolism-2-v2-restart-pol2"
       ],
       "activityAvailability": "available"
     },
@@ -4625,7 +4954,10 @@
         "Cleavage and joining at defined sites use transient protein-DNA covalent intermediates."
       ],
       "activityIds": [
-        "dna-metabolism-2-recombinase-linkage"
+        "dna-metabolism-2-recombinase-linkage",
+        "dna-metabolism-2-v2-recombinase-two-functions",
+        "dna-metabolism-2-v2-recombinase-nucleophile",
+        "dna-metabolism-2-v2-recombinase-transposase-common"
       ],
       "activityAvailability": "available"
     },
@@ -4648,8 +4980,11 @@
       "details": [
         "Source states 20-200 bp sites and a tetramer of identical units."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "dna-metabolism-2-v2-recombination-site-length",
+        "dna-metabolism-2-v2-recombinase-assembly"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "dna-metabolism-2-recombination-no-synthesis",
@@ -4671,7 +5006,8 @@
         "The source states strand-breaking/rejoining requires no DNA synthesis or degradation."
       ],
       "activityIds": [
-        "dna-metabolism-2-exchange-synthesis"
+        "dna-metabolism-2-exchange-synthesis",
+        "dna-metabolism-2-v2-site-exchange-no-new-dna"
       ],
       "activityAvailability": "available"
     },
@@ -4695,7 +5031,9 @@
         "Complex elements carry extra genes, e.g. antibiotic resistance; simple elements carry transposition requirements."
       ],
       "activityIds": [
-        "dna-metabolism-2-simple-complex-elements"
+        "dna-metabolism-2-simple-complex-elements",
+        "dna-metabolism-2-v2-simple-transposon-content",
+        "dna-metabolism-2-v2-complex-versus-class1"
       ],
       "activityAvailability": "available"
     },
@@ -4720,7 +5058,12 @@
       ],
       "activityIds": [
         "dna-metabolism-2-transposition-pathways",
-        "dna-metabolism-2-retrotransposon-route"
+        "dna-metabolism-2-retrotransposon-route",
+        "dna-metabolism-2-v2-retro-intermediate",
+        "dna-metabolism-2-v2-retro-reverse-step",
+        "dna-metabolism-2-v2-class2-donor-release",
+        "dna-metabolism-2-v2-class1-dna-insertion",
+        "dna-metabolism-2-v2-complex-versus-class1"
       ],
       "activityAvailability": "available"
     },
@@ -4744,7 +5087,10 @@
         "The slide assigns nuclease and ligase activities to transposase."
       ],
       "activityIds": [
-        "dna-metabolism-2-transposition-pathways"
+        "dna-metabolism-2-transposition-pathways",
+        "dna-metabolism-2-v2-class2-donor-release",
+        "dna-metabolism-2-v2-transposase-catalysis",
+        "dna-metabolism-2-v2-recombinase-transposase-common"
       ],
       "activityAvailability": "available"
     },
@@ -4768,7 +5114,8 @@
         "RNA is presented in storage, transmission and catalytic roles; catalytic RNA is a ribozyme."
       ],
       "activityIds": [
-        "rna-metabolism-1-rna-catalysis"
+        "rna-metabolism-1-rna-catalysis",
+        "rna-metabolism-1-v2-ribozyme-identity"
       ],
       "activityAvailability": "available"
     },
@@ -4793,7 +5140,8 @@
       ],
       "activityIds": [
         "rna-metabolism-1-rna-catalysis",
-        "rna-metabolism-1-template-transcript-sequence"
+        "rna-metabolism-1-template-transcript-sequence",
+        "rna-metabolism-1-v2-transcription-definition"
       ],
       "activityAvailability": "available"
     },
@@ -4817,7 +5165,11 @@
         "mRNA carries codons; tRNA delivers specified amino acids; rRNA/proteins form ribosomes."
       ],
       "activityIds": [
-        "rna-metabolism-1-rna-class-functions"
+        "rna-metabolism-1-rna-class-functions",
+        "rna-metabolism-1-v2-mrna-information",
+        "rna-metabolism-1-v2-trna-delivery",
+        "rna-metabolism-1-v2-rrna-complex",
+        "rna-metabolism-1-v2-rna-role-comparison"
       ],
       "activityAvailability": "available"
     },
@@ -4841,7 +5193,10 @@
         "Shared template-driven 5-prime to 3-prime synthesis and PPi hydrolysis; transcription needs no primer and covers a limited DNA segment."
       ],
       "activityIds": [
-        "rna-metabolism-1-transcription-comparison"
+        "rna-metabolism-1-transcription-comparison",
+        "rna-metabolism-1-v2-primer-independence",
+        "rna-metabolism-1-v2-ppi-driving-force",
+        "rna-metabolism-1-v2-transcribed-scope"
       ],
       "activityAvailability": "available"
     },
@@ -4865,7 +5220,9 @@
         "RNA polymerase uses a 3-prime to 5-prime template, ATP/GTP/CTP/UTP and stated metal ions without primer."
       ],
       "activityIds": [
-        "rna-metabolism-1-transcription-components"
+        "rna-metabolism-1-transcription-components",
+        "rna-metabolism-1-v2-ntp-set",
+        "rna-metabolism-1-v2-metal-ion-requirement"
       ],
       "activityAvailability": "available"
     },
@@ -4889,7 +5246,9 @@
         "Adding NTP extends RNA by one NMP and releases PPi."
       ],
       "activityIds": [
-        "rna-metabolism-1-polymerization-stoichiometry"
+        "rna-metabolism-1-polymerization-stoichiometry",
+        "rna-metabolism-1-v2-incorporated-nucleotide-form",
+        "rna-metabolism-1-v2-polymerization-released-product"
       ],
       "activityAvailability": "available"
     },
@@ -4914,7 +5273,8 @@
       ],
       "activityIds": [
         "rna-metabolism-1-extension-nucleophile",
-        "rna-metabolism-1-intercalation-location"
+        "rna-metabolism-1-intercalation-location",
+        "rna-metabolism-1-v2-base-selection"
       ],
       "activityAvailability": "available"
     },
@@ -4938,7 +5298,10 @@
         "An 8-bp RNA-DNA hybrid lies within the bubble; unwinding ahead and rewinding behind accompany movement."
       ],
       "activityIds": [
-        "rna-metabolism-1-bubble-layout"
+        "rna-metabolism-1-bubble-layout",
+        "rna-metabolism-1-v2-hybrid-identity",
+        "rna-metabolism-1-v2-bubble-reannealing",
+        "rna-metabolism-1-v2-hybrid-length"
       ],
       "activityAvailability": "available"
     },
@@ -4962,7 +5325,8 @@
         "Promoter initiation precedes elongation with a transient 8-bp hybrid; termination ends transcription."
       ],
       "activityIds": [
-        "rna-metabolism-1-transcription-stage-order"
+        "rna-metabolism-1-transcription-stage-order",
+        "rna-metabolism-1-v2-initiation-start"
       ],
       "activityAvailability": "available"
     },
@@ -4985,8 +5349,10 @@
       "details": [
         "The source gives 50-90 nucleotides/s."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-elongation-rate"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-transcription-supercoils",
@@ -5009,7 +5375,8 @@
       ],
       "activityIds": [
         "rna-metabolism-1-supercoil-signs",
-        "rna-metabolism-1-intercalation-location"
+        "rna-metabolism-1-intercalation-location",
+        "rna-metabolism-1-v2-supercoil-relief"
       ],
       "activityAvailability": "available"
     },
@@ -5032,8 +5399,10 @@
       "details": [
         "The slide labels 17 bp unwound and an 8-bp hybrid."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-bubble-versus-hybrid-length"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-coding-template",
@@ -5055,7 +5424,10 @@
         "RNA matches the coding strand except U/T and is complementary to the template."
       ],
       "activityIds": [
-        "rna-metabolism-1-template-transcript-sequence"
+        "rna-metabolism-1-template-transcript-sequence",
+        "rna-metabolism-1-v2-coding-strand-equivalence",
+        "rna-metabolism-1-v2-coding-short-sequence",
+        "rna-metabolism-1-v2-template-short-sequence"
       ],
       "activityAvailability": "available"
     },
@@ -5079,7 +5451,11 @@
         "E. coli RNA polymerase core is alpha2/beta/beta-prime/omega; transient sigma directs specific DNA recognition."
       ],
       "activityIds": [
-        "rna-metabolism-1-sigma-core"
+        "rna-metabolism-1-sigma-core",
+        "rna-metabolism-1-v2-sigma-function",
+        "rna-metabolism-1-v2-core-composition",
+        "rna-metabolism-1-v2-sigma-variable",
+        "rna-metabolism-1-v2-sigma-after-initiation"
       ],
       "activityAvailability": "available"
     },
@@ -5125,7 +5501,10 @@
         "+1 is the start; downstream is positive and upstream negative."
       ],
       "activityIds": [
-        "rna-metabolism-1-gene-coordinates"
+        "rna-metabolism-1-gene-coordinates",
+        "rna-metabolism-1-v2-start-site-coordinate",
+        "rna-metabolism-1-v2-upstream-coordinate",
+        "rna-metabolism-1-v2-downstream-definition"
       ],
       "activityAvailability": "available"
     },
@@ -5173,7 +5552,8 @@
         "Diagram places promoter upstream of +1 and coding region downstream."
       ],
       "activityIds": [
-        "rna-metabolism-1-gene-coordinates"
+        "rna-metabolism-1-gene-coordinates",
+        "rna-metabolism-1-v2-promoter-coding-layout"
       ],
       "activityAvailability": "available"
     },
@@ -5197,7 +5577,12 @@
         "-10 TATAAT and -35 TTGACA are recognition sequences; UP element may occur at -40 to -60."
       ],
       "activityIds": [
-        "rna-metabolism-1-bacterial-promoter-elements"
+        "rna-metabolism-1-bacterial-promoter-elements",
+        "rna-metabolism-1-v2-minus10-sequence",
+        "rna-metabolism-1-v2-minus35-sequence",
+        "rna-metabolism-1-v2-up-element-location",
+        "rna-metabolism-1-v2-promoter-mutation-effect",
+        "rna-metabolism-1-v2-bacterial-versus-euk-tata"
       ],
       "activityAvailability": "available"
     },
@@ -5221,7 +5606,8 @@
         "Diagram marks N17 and N6 spacers."
       ],
       "activityIds": [
-        "rna-metabolism-1-bacterial-promoter-elements"
+        "rna-metabolism-1-bacterial-promoter-elements",
+        "rna-metabolism-1-v2-promoter-spacer-lengths"
       ],
       "activityAvailability": "available"
     },
@@ -5245,7 +5631,11 @@
         "Promoter binding precedes DNA opening, initiation and promoter clearance; sigma dissociates as elongation begins."
       ],
       "activityIds": [
-        "rna-metabolism-1-bacterial-initiation-order"
+        "rna-metabolism-1-bacterial-initiation-order",
+        "rna-metabolism-1-v2-closed-complex-dna",
+        "rna-metabolism-1-v2-open-complex-location",
+        "rna-metabolism-1-v2-promoter-clearance",
+        "rna-metabolism-1-v2-sigma-after-initiation"
       ],
       "activityAvailability": "available"
     },
@@ -5293,7 +5683,10 @@
         "Rho moves 5-prime to 3-prime on mRNA and uses ATP-dependent helicase activity to disrupt RNA-DNA hybrid."
       ],
       "activityIds": [
-        "rna-metabolism-1-rho-direction-energy"
+        "rna-metabolism-1-rho-direction-energy",
+        "rna-metabolism-1-v2-rho-track",
+        "rna-metabolism-1-v2-rho-energy",
+        "rna-metabolism-1-v2-rho-target-hybrid"
       ],
       "activityAvailability": "available"
     },
@@ -5317,7 +5710,8 @@
         "Source associates a GC-rich transcript and weak A-U region with transcription-bubble collapse."
       ],
       "activityIds": [
-        "rna-metabolism-1-intrinsic-terminator-pattern"
+        "rna-metabolism-1-intrinsic-terminator-pattern",
+        "rna-metabolism-1-v2-weak-termination-pairs"
       ],
       "activityAvailability": "available"
     },
@@ -5341,7 +5735,8 @@
         "The trp example shows a GC-rich RNA stem-loop followed by a U-rich segment."
       ],
       "activityIds": [
-        "rna-metabolism-1-intrinsic-terminator-pattern"
+        "rna-metabolism-1-intrinsic-terminator-pattern",
+        "rna-metabolism-1-v2-intrinsic-hairpin"
       ],
       "activityAvailability": "available"
     },
@@ -5387,7 +5782,8 @@
         "The diagram associates RNA hairpin formation with pausing/isomerization before termination."
       ],
       "activityIds": [
-        "rna-metabolism-1-terminator-diagram-order"
+        "rna-metabolism-1-terminator-diagram-order",
+        "rna-metabolism-1-v2-hairpin-stage-position"
       ],
       "activityAvailability": "available"
     },
@@ -5434,8 +5830,10 @@
       "details": [
         "All three have >10 subunits."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-polymerase-multimeric"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-eukaryotic-promoter",
@@ -5457,7 +5855,10 @@
         "Eukaryotic TATAAA lies near -30; initiation/unwinding is associated with Inr near +1."
       ],
       "activityIds": [
-        "rna-metabolism-1-eukaryotic-promoter-map"
+        "rna-metabolism-1-eukaryotic-promoter-map",
+        "rna-metabolism-1-v2-tata-consensus",
+        "rna-metabolism-1-v2-inr-location",
+        "rna-metabolism-1-v2-bacterial-versus-euk-tata"
       ],
       "activityAvailability": "available"
     },
@@ -5481,7 +5882,9 @@
         "N represents any nucleotide and Y a pyrimidine."
       ],
       "activityIds": [
-        "rna-metabolism-1-eukaryotic-promoter-map"
+        "rna-metabolism-1-eukaryotic-promoter-map",
+        "rna-metabolism-1-v2-consensus-n",
+        "rna-metabolism-1-v2-consensus-y"
       ],
       "activityAvailability": "available"
     },
@@ -5505,7 +5908,8 @@
         "TBP-associated factors assemble polymerase II and form closed/open complexes."
       ],
       "activityIds": [
-        "rna-metabolism-1-pol2-complex-cycle"
+        "rna-metabolism-1-pol2-complex-cycle",
+        "rna-metabolism-1-v2-tfiib-recruitment"
       ],
       "activityAvailability": "available"
     },
@@ -5553,7 +5957,8 @@
         "After termination, polymerase II is released, dephosphorylated and reused."
       ],
       "activityIds": [
-        "rna-metabolism-1-pol2-complex-cycle"
+        "rna-metabolism-1-pol2-complex-cycle",
+        "rna-metabolism-1-v2-pol2-recycling-change"
       ],
       "activityAvailability": "available"
     },
@@ -5577,7 +5982,14 @@
         "Table links TBP/TFIIA/TFIIB/TFIID/TFIIE/TFIIF/TFIIH to promoter assembly, regulation and repair."
       ],
       "activityIds": [
-        "rna-metabolism-1-pol2-factor-functions"
+        "rna-metabolism-1-pol2-factor-functions",
+        "rna-metabolism-1-v2-tbp-role",
+        "rna-metabolism-1-v2-tfiia-role",
+        "rna-metabolism-1-v2-tfiib-role",
+        "rna-metabolism-1-v2-tfiid-role",
+        "rna-metabolism-1-v2-tfiie-recruitment",
+        "rna-metabolism-1-v2-tfiif-specificity",
+        "rna-metabolism-1-v2-factor-function-discrimination"
       ],
       "activityAvailability": "available"
     },
@@ -5601,7 +6013,9 @@
         "ELL, P-TEFb, SII and Elongin suppress polymerase II-TFIIF pausing/arrest."
       ],
       "activityIds": [
-        "rna-metabolism-1-elongation-factor-role"
+        "rna-metabolism-1-elongation-factor-role",
+        "rna-metabolism-1-v2-elongation-factors-group",
+        "rna-metabolism-1-v2-pausing-suppression"
       ],
       "activityAvailability": "available"
     },
@@ -5624,8 +6038,10 @@
       "details": [
         "Full source table masses, subunit counts and ELL footnote retained."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-tbp-single-subunit"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-tbp-binding-image",
@@ -5646,8 +6062,10 @@
       "details": [
         "Human TBP is shown contacting bent DNA."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-tbp-dna-shape"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-tfiih-repair",
@@ -5669,7 +6087,9 @@
         "At an RNA pol II-blocking lesion, TFIIH interacts with damage and recruits NER."
       ],
       "activityIds": [
-        "rna-metabolism-1-transcription-coupled-repair"
+        "rna-metabolism-1-transcription-coupled-repair",
+        "rna-metabolism-1-v2-lesion-stalled-polymerase",
+        "rna-metabolism-1-v2-repair-pathway-recruited"
       ],
       "activityAvailability": "available"
     },
@@ -5693,7 +6113,9 @@
         "Actinomycin inhibits elongation; rifampicin inhibits promoter clearance."
       ],
       "activityIds": [
-        "rna-metabolism-1-inhibitor-stage-specificity"
+        "rna-metabolism-1-inhibitor-stage-specificity",
+        "rna-metabolism-1-v2-actinomycin-stage",
+        "rna-metabolism-1-v2-rifampicin-stage"
       ],
       "activityAvailability": "available"
     },
@@ -5717,7 +6139,9 @@
         "Insertion between successive G-C base pairs deforms DNA and impedes RNA polymerase."
       ],
       "activityIds": [
-        "rna-metabolism-1-intercalation-location"
+        "rna-metabolism-1-intercalation-location",
+        "rna-metabolism-1-v2-intercalation-position",
+        "rna-metabolism-1-v2-intercalation-polymerase-effect"
       ],
       "activityAvailability": "available"
     },
@@ -5762,8 +6186,10 @@
       "details": [
         "The rendering shows intercalated actinomycin and DNA deformation."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-actinomycin-dna-binding"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-primary-transcript-fates",
@@ -5785,7 +6211,8 @@
         "The source contrasts direct prokaryotic translation with eukaryotic modification/export/translation."
       ],
       "activityIds": [
-        "rna-metabolism-1-primary-transcript-fates"
+        "rna-metabolism-1-primary-transcript-fates",
+        "rna-metabolism-1-v2-eukaryotic-export-order"
       ],
       "activityAvailability": "available"
     },
@@ -5809,7 +6236,8 @@
         "Nuclear splicing, capping and polyadenylation precede cytoplasmic translation."
       ],
       "activityIds": [
-        "rna-metabolism-1-processing-location"
+        "rna-metabolism-1-processing-location",
+        "rna-metabolism-1-v2-nuclear-processing"
       ],
       "activityAvailability": "available"
     },
@@ -5833,7 +6261,11 @@
         "Cap at 5-prime; introns removed/exons joined; 3-prime cleavage and poly(A) addition."
       ],
       "activityIds": [
-        "rna-metabolism-1-modification-identity"
+        "rna-metabolism-1-modification-identity",
+        "rna-metabolism-1-v2-cap-position",
+        "rna-metabolism-1-v2-cap-timing",
+        "rna-metabolism-1-v2-splicing-retained-segments",
+        "rna-metabolism-1-v2-polya-position"
       ],
       "activityAvailability": "available"
     },
@@ -5857,7 +6289,8 @@
         "Some transcripts can be spliced in multiple ways with regulatory significance."
       ],
       "activityIds": [
-        "rna-metabolism-1-alternative-splicing-result"
+        "rna-metabolism-1-alternative-splicing-result",
+        "rna-metabolism-1-v2-alternative-splicing-mechanism"
       ],
       "activityAvailability": "available"
     },
@@ -5880,8 +6313,10 @@
       "details": [
         "The source gives 80-250 A residues."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-1-v2-polya-tail-length"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-1-processing-ctd",
@@ -5927,7 +6362,8 @@
         "Image links capped exon/intron-containing primary RNA to mature mRNA with retained exons and poly(A) tail."
       ],
       "activityIds": [
-        "rna-metabolism-1-mature-rna-contents"
+        "rna-metabolism-1-mature-rna-contents",
+        "rna-metabolism-1-v2-primary-intron-content"
       ],
       "activityAvailability": "available"
     },
@@ -5973,7 +6409,11 @@
         "The ovalbumin figure shows transcription/capping followed by splicing, cleavage and polyadenylation; 7,700-bp gene to 1,872-nucleotide mature mRNA."
       ],
       "activityIds": [
-        "rna-metabolism-2-ovalbumin-processing-order"
+        "rna-metabolism-2-ovalbumin-processing-order",
+        "rna-metabolism-2-primary-transcript-retention",
+        "rna-metabolism-2-ovalbumin-intron-count",
+        "rna-metabolism-2-ovalbumin-mature-length",
+        "rna-metabolism-2-processing-cleaved-product"
       ],
       "activityAvailability": "available"
     },
@@ -6022,7 +6462,9 @@
       ],
       "activityIds": [
         "rna-metabolism-2-cap-linkage-discrimination",
-        "rna-metabolism-2-cap-methyl-donor"
+        "rna-metabolism-2-cap-methyl-donor",
+        "rna-metabolism-2-cap-timing",
+        "rna-metabolism-2-cap-precursor"
       ],
       "activityAvailability": "available"
     },
@@ -6046,7 +6488,8 @@
         "Cap-synthesizing complex and CBC are shown associated with the emerging transcript near CTD."
       ],
       "activityIds": [
-        "rna-metabolism-2-capping-transcription-components"
+        "rna-metabolism-2-capping-transcription-components",
+        "rna-metabolism-2-cbc-after-capping"
       ],
       "activityAvailability": "available"
     },
@@ -6072,7 +6515,14 @@
       "activityIds": [
         "rna-metabolism-2-polya-primer-template",
         "rna-metabolism-2-polya-cleavage-addition",
-        "rna-metabolism-2-polya-reaction-roles"
+        "rna-metabolism-2-polya-reaction-roles",
+        "rna-metabolism-2-polya-cleavage-signal",
+        "rna-metabolism-2-polya-cut-position",
+        "rna-metabolism-2-polya-enzyme",
+        "rna-metabolism-2-polya-tail-range",
+        "rna-metabolism-2-polya-atp-product",
+        "rna-metabolism-2-polya-endoh",
+        "rna-metabolism-2-polya-stability"
       ],
       "activityAvailability": "available"
     },
@@ -6097,7 +6547,12 @@
       ],
       "activityIds": [
         "rna-metabolism-2-self-splicing-class-pair",
-        "rna-metabolism-2-splicing-class-features"
+        "rna-metabolism-2-splicing-class-features",
+        "rna-metabolism-2-group-three-substrate",
+        "rna-metabolism-2-group-four-requirements",
+        "rna-metabolism-2-group-two-location",
+        "rna-metabolism-2-snrnp-composition",
+        "rna-metabolism-2-group-i-cofactor-scenario"
       ],
       "activityAvailability": "available"
     },
@@ -6122,7 +6577,12 @@
       ],
       "activityIds": [
         "rna-metabolism-2-group-i-two-nucleophiles",
-        "rna-metabolism-2-group-i-excision-ligation"
+        "rna-metabolism-2-group-i-excision-ligation",
+        "rna-metabolism-2-group-i-first-target",
+        "rna-metabolism-2-group-i-free-exon",
+        "rna-metabolism-2-group-i-second-role",
+        "rna-metabolism-2-group-i-cofactor-scenario",
+        "rna-metabolism-2-group-i-ii-contrast"
       ],
       "activityAvailability": "available"
     },
@@ -6146,7 +6606,8 @@
         "A new phosphodiester bond replaces an old one when guanosine 3′ OH acts as nucleophile."
       ],
       "activityIds": [
-        "rna-metabolism-2-transesterification-bond-exchange"
+        "rna-metabolism-2-transesterification-bond-exchange",
+        "rna-metabolism-2-self-splicing-enzyme-need"
       ],
       "activityAvailability": "available"
     },
@@ -6171,7 +6632,12 @@
       ],
       "activityIds": [
         "rna-metabolism-2-group-ii-first-attack",
-        "rna-metabolism-2-group-ii-branch-bond"
+        "rna-metabolism-2-group-ii-branch-bond",
+        "rna-metabolism-2-group-i-cofactor-scenario",
+        "rna-metabolism-2-group-ii-second-attack",
+        "rna-metabolism-2-group-ii-adenosine-bonds",
+        "rna-metabolism-2-group-i-ii-contrast",
+        "rna-metabolism-2-group-ii-products"
       ],
       "activityAvailability": "available"
     },
@@ -6196,7 +6662,13 @@
       ],
       "activityIds": [
         "rna-metabolism-2-spliceosome-expelled-pair",
-        "rna-metabolism-2-spliceosome-stage-order"
+        "rna-metabolism-2-spliceosome-stage-order",
+        "rna-metabolism-2-u1-binding-site",
+        "rna-metabolism-2-u2-binding-site",
+        "rna-metabolism-2-spliceosome-late-recruits",
+        "rna-metabolism-2-active-spliceosome-members",
+        "rna-metabolism-2-spliceosome-intron-ends",
+        "rna-metabolism-2-spliceosome-activation-before-release"
       ],
       "activityAvailability": "available"
     },
@@ -6220,7 +6692,8 @@
         "Spliceosome, CTD, CBC and cap are shown on the emerging transcript during transcription."
       ],
       "activityIds": [
-        "rna-metabolism-2-capping-transcription-components"
+        "rna-metabolism-2-capping-transcription-components",
+        "rna-metabolism-2-splicing-during-transcription"
       ],
       "activityAvailability": "available"
     },
@@ -6245,7 +6718,12 @@
       ],
       "activityIds": [
         "rna-metabolism-2-trna-cleavage-and-addition",
-        "rna-metabolism-2-trna-final-end"
+        "rna-metabolism-2-trna-final-end",
+        "rna-metabolism-2-trna-five-cut",
+        "rna-metabolism-2-trna-three-cut",
+        "rna-metabolism-2-rnase-p-ribozyme",
+        "rna-metabolism-2-trna-processing-full-set",
+        "rna-metabolism-2-trna-parallel-end-processing"
       ],
       "activityAvailability": "available"
     },
@@ -6270,7 +6748,9 @@
       ],
       "activityIds": [
         "rna-metabolism-2-alternative-exon-patterns",
-        "rna-metabolism-2-alternative-splicing-gene-products"
+        "rna-metabolism-2-alternative-splicing-gene-products",
+        "rna-metabolism-2-alternative-exon-scenario",
+        "rna-metabolism-2-alternative-splicing-omit-three"
       ],
       "activityAvailability": "available"
     },
@@ -6294,7 +6774,9 @@
         "Multiple poly(A) sites and alternative splice-site choices generate different transcripts from a single gene."
       ],
       "activityIds": [
-        "rna-metabolism-2-alternative-processing-panels"
+        "rna-metabolism-2-alternative-processing-panels",
+        "rna-metabolism-2-alternative-polya-ends",
+        "rna-metabolism-2-alternative-three-splice-site"
       ],
       "activityAvailability": "available"
     },
@@ -6319,7 +6801,10 @@
       ],
       "activityIds": [
         "rna-metabolism-2-transcript-region-map",
-        "rna-metabolism-2-translated-transcript-segment"
+        "rna-metabolism-2-translated-transcript-segment",
+        "rna-metabolism-2-untranslated-features",
+        "rna-metabolism-2-five-utr-position",
+        "rna-metabolism-2-processing-shared-functions"
       ],
       "activityAvailability": "available"
     },
@@ -6390,8 +6875,11 @@
       "details": [
         "Diagram labels activators/enhancers/silencer together with TATA-binding protein, basal factors and RNA polymerase."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-2-enhancer-promoter-components",
+        "rna-metabolism-2-activator-enhancer-contact"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-2-p18-reverse-transcriptase",
@@ -6414,7 +6902,8 @@
       ],
       "activityIds": [
         "rna-metabolism-2-reverse-transcriptase-properties",
-        "rna-metabolism-2-reverse-transcriptase-product"
+        "rna-metabolism-2-reverse-transcriptase-product",
+        "rna-metabolism-2-rt-primer-need"
       ],
       "activityAvailability": "available"
     },
@@ -6437,8 +6926,10 @@
       "details": [
         "Source links AZT conversion/affinity with termination of viral DNA synthesis and lists HIV, telomerase and other reverse transcriptases."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "rna-metabolism-2-azt-outcome"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "rna-metabolism-2-p20-retroviral-genome",
@@ -6461,7 +6952,10 @@
       ],
       "activityIds": [
         "rna-metabolism-2-retroviral-regulatory-labels",
-        "rna-metabolism-2-retroviral-expression-stages"
+        "rna-metabolism-2-retroviral-expression-stages",
+        "rna-metabolism-2-retroviral-ltr-role",
+        "rna-metabolism-2-retroviral-packaging-element",
+        "rna-metabolism-2-retroviral-polyprotein-cleavage"
       ],
       "activityAvailability": "available"
     },
@@ -6485,7 +6979,9 @@
         "PCR amplifies a single selected DNA sequence in vitro using DNA template, nucleotides, primers and polymerase."
       ],
       "activityIds": [
-        "techniques-pcr-selected-target"
+        "techniques-pcr-selected-target",
+        "techniques-pcr-in-vitro",
+        "techniques-pcr-reagent-set"
       ],
       "activityAvailability": "available"
     },
@@ -6531,7 +7027,8 @@
         "Taq from Thermus aquaticus in hot springs is presented as thermostable; source says purified since 1976."
       ],
       "activityIds": [
-        "techniques-taq-repeated-heating"
+        "techniques-taq-repeated-heating",
+        "techniques-taq-organism"
       ],
       "activityAvailability": "available"
     },
@@ -6579,7 +7076,12 @@
       "activityIds": [
         "techniques-pcr-stage-temperatures",
         "techniques-pcr-cycle-order",
-        "techniques-pcr-flanking-primers"
+        "techniques-pcr-flanking-primers",
+        "techniques-pcr-denaturation-effect",
+        "techniques-pcr-annealing-effect",
+        "techniques-pcr-extension-effect",
+        "techniques-pcr-anneal-tm",
+        "techniques-pcr-primer-opposite"
       ],
       "activityAvailability": "available"
     },
@@ -6624,8 +7126,11 @@
       "details": [
         "Machine changes temperature automatically; thin-walled tube contains template, polymerase, buffer, nucleotides and primers."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "techniques-thermocycler-function",
+        "techniques-thermocycler-tube"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "techniques-p07-pcr-sensitivity",
@@ -6647,7 +7152,9 @@
         "Very small amounts can amplify; primer design relates to specificity; contaminating sample/reagent molecule can amplify."
       ],
       "activityIds": [
-        "techniques-pcr-sensitivity-specificity-risk"
+        "techniques-pcr-sensitivity-specificity-risk",
+        "techniques-pcr-contaminant-scenario",
+        "techniques-pcr-specificity-control"
       ],
       "activityAvailability": "available"
     },
@@ -6672,7 +7179,12 @@
       ],
       "activityIds": [
         "techniques-primer-design-profile",
-        "techniques-primer-design-terms"
+        "techniques-primer-design-terms",
+        "techniques-primer-length-target",
+        "techniques-primer-gc-target",
+        "techniques-primer-hairpin-scenario",
+        "techniques-primer-dimer-scenario",
+        "techniques-primer-hairpin-versus-dimer"
       ],
       "activityAvailability": "available"
     },
@@ -6696,7 +7208,10 @@
         "Diagram uses 94/54/72°C and 1 min/45 s/2 min, opposite primers and 5′→3′ synthesis; thermostable polymerase remains during repeats."
       ],
       "activityIds": [
-        "techniques-illustrated-pcr-time-temperature"
+        "techniques-illustrated-pcr-time-temperature",
+        "techniques-pcr-denaturation-effect",
+        "techniques-pcr-annealing-effect",
+        "techniques-pcr-extension-effect"
       ],
       "activityAvailability": "available"
     },
@@ -6765,7 +7280,10 @@
       ],
       "activityIds": [
         "techniques-rt-pcr-two-stage-order",
-        "techniques-rt-pcr-immediate-product"
+        "techniques-rt-pcr-immediate-product",
+        "techniques-rt-pcr-oligodt-target",
+        "techniques-rt-pcr-template-start",
+        "techniques-rt-pcr-dntps"
       ],
       "activityAvailability": "available"
     },
@@ -6790,7 +7308,9 @@
       ],
       "activityIds": [
         "techniques-rt-pcr-two-stage-order",
-        "techniques-rt-pcr-primer-stage"
+        "techniques-rt-pcr-primer-stage",
+        "techniques-two-step-rt-pcr-later-primer",
+        "techniques-rt-pcr-reverse-enzyme"
       ],
       "activityAvailability": "available"
     },
@@ -6814,7 +7334,10 @@
         "Denature; primer annealing/extension; ddNTP termination; gel electrophoresis."
       ],
       "activityIds": [
-        "techniques-sanger-stage-order"
+        "techniques-sanger-stage-order",
+        "techniques-sanger-alternate-name",
+        "techniques-sanger-separation-stage",
+        "techniques-sanger-terminating-reagent"
       ],
       "activityAvailability": "available"
     },
@@ -6839,7 +7362,10 @@
       ],
       "activityIds": [
         "techniques-ddntp-structural-distinction",
-        "techniques-dntp-ddntp-consequences"
+        "techniques-dntp-ddntp-consequences",
+        "techniques-ddntp-three-substituent",
+        "techniques-dntp-continuation",
+        "techniques-ddntp-incorporation-not-exclusion"
       ],
       "activityAvailability": "available"
     },
@@ -6863,7 +7389,9 @@
         "Each tube contains all four dNTPs and one of ddGTP/ddATP/ddTTP/ddCTP plus polymerase."
       ],
       "activityIds": [
-        "techniques-sanger-tube-terminators"
+        "techniques-sanger-tube-terminators",
+        "techniques-sanger-a-tube",
+        "techniques-sanger-common-dntps"
       ],
       "activityAvailability": "available"
     },
@@ -6887,7 +7415,9 @@
         "Larger fragments are higher, smaller lower; electrophoresis downward; read band sequence bottom-to-top."
       ],
       "activityIds": [
-        "techniques-sanger-gel-size-reading"
+        "techniques-sanger-gel-size-reading",
+        "techniques-sanger-shortest-fragment",
+        "techniques-sanger-reading-versus-migration"
       ],
       "activityAvailability": "available"
     },
@@ -6911,7 +7441,8 @@
         "Page explicitly distinguishes bottom-up synthesized-DNA reading and separately printed original sequence; strand ends are marked."
       ],
       "activityIds": [
-        "techniques-synthesized-sequence-direction"
+        "techniques-synthesized-sequence-direction",
+        "techniques-sanger-gel-first-calls"
       ],
       "activityAvailability": "available"
     },
@@ -6958,8 +7489,10 @@
       "details": [
         "Figure labels dNTPs 100 μM and each ddNTP 1 μM, in four parallel branches, followed by denaturation/electrophoresis."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "techniques-sanger-branch-terminator-level"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "techniques-p19-sanger-labeled-primer",
@@ -6980,8 +7513,10 @@
       "details": [
         "32P-labeled primer is extended using low ddGTP; figure shows labeled G-terminated products and dense gel."
       ],
-      "activityIds": [],
-      "activityAvailability": "not-yet-authored"
+      "activityIds": [
+        "techniques-sanger-labeled-primer"
+      ],
+      "activityAvailability": "available"
     },
     {
       "id": "techniques-p20-automated-sequencing",
@@ -7027,7 +7562,9 @@
         "Restriction enzymes create DNA fragments, then electrophoresis separates them by length."
       ],
       "activityIds": [
-        "techniques-rflp-main-operations"
+        "techniques-rflp-main-operations",
+        "techniques-rflp-fragment-separation",
+        "techniques-rflp-digest-enzyme"
       ],
       "activityAvailability": "available"
     },
@@ -7051,7 +7588,9 @@
         "Source defines inherited differences present in over 1% of normal population; RFLP studies within/between-species sequence variation."
       ],
       "activityIds": [
-        "techniques-polymorphism-source-threshold"
+        "techniques-polymorphism-source-threshold",
+        "techniques-rflp-variation-basis",
+        "techniques-polymorphism-inherited"
       ],
       "activityAvailability": "available"
     },
@@ -7097,7 +7636,10 @@
         "Bacterial enzymes cut within DNA and degrade incoming viral DNA; source attributes host-sequence protection to A/C methylation."
       ],
       "activityIds": [
-        "techniques-restriction-foreign-self"
+        "techniques-restriction-foreign-self",
+        "techniques-restriction-endonuclease-name",
+        "techniques-restriction-bacterial-defense",
+        "techniques-restriction-self-methylation"
       ],
       "activityAvailability": "available"
     },
@@ -7122,7 +7664,9 @@
       ],
       "activityIds": [
         "techniques-ecori-methylation-contrast",
-        "techniques-ecori-cut-position"
+        "techniques-ecori-cut-position",
+        "techniques-ecori-overhang",
+        "techniques-ecori-methylase-result"
       ],
       "activityAvailability": "available"
     },
@@ -7146,7 +7690,11 @@
         "Restriction enzymes cut both strands at symmetric sites; BamHI/EcoRI/HindIII/PstI sticky and HaeIII/SmaI blunt in table."
       ],
       "activityIds": [
-        "techniques-restriction-blunt-pair"
+        "techniques-restriction-blunt-pair",
+        "techniques-restriction-palindrome",
+        "techniques-restriction-both-strands",
+        "techniques-haeiii-blunt-cut",
+        "techniques-restriction-sticky-pair"
       ],
       "activityAvailability": "available"
     },
@@ -7170,7 +7718,12 @@
         "All six recognition sequences, strand cut positions and products preserved in Markdown."
       ],
       "activityIds": [
-        "techniques-ecori-cut-position"
+        "techniques-ecori-cut-position",
+        "techniques-haeiii-blunt-cut",
+        "techniques-smai-site",
+        "techniques-bamhi-site",
+        "techniques-hindiii-site",
+        "techniques-psti-site"
       ],
       "activityAvailability": "available"
     },
@@ -7195,7 +7748,11 @@
       ],
       "activityIds": [
         "techniques-sickle-allele-sequences",
-        "techniques-mstii-southern-protocol"
+        "techniques-mstii-southern-protocol",
+        "techniques-sickle-substitution",
+        "techniques-mstii-normal-target",
+        "techniques-southern-probe-target",
+        "techniques-sickle-gene"
       ],
       "activityAvailability": "available"
     },
@@ -7222,7 +7779,9 @@
         "techniques-sickle-rflp-genotype-patterns",
         "techniques-heterozygote-rflp-combination",
         "techniques-gel-ss-lane",
-        "techniques-gel-aa-lane"
+        "techniques-gel-aa-lane",
+        "techniques-ss-band-mechanism",
+        "techniques-aa-band-mechanism"
       ],
       "activityAvailability": "available"
     }

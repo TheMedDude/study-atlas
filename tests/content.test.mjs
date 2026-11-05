@@ -39,6 +39,13 @@ test('chapter exclusions are explicit and never used as question evidence',()=>{
   const excluded=pages.filter(p=>p.kind!=='teaching');assert.equal(excluded.length,8);
   for(const p of excluded)assert.ok(!activities.some(a=>a.sourceRefs.some(r=>r.lectureId===p.lectureId&&r.pdfPage===p.pdfPage)));
 });
+test('question stems ask the biology directly without referring to unseen teaching material',()=>{
+  const framing=/\b(?:slides?|lectures?|figures?|tables?|diagrams?)\b|\b(?:the|this|supplied|original)\s+sources?\b/i;
+  for(const a of activities){
+    if(a.type!=='diagram')assert.ok(!framing.test(a.prompt),`${a.id}: ${a.prompt}`);
+    assert.ok(!/\baccording to\b/i.test(a.prompt),a.id);
+  }
+});
 test('portable source viewing has a faithful, hash-verified render for every PDF page',()=>{
   const images=read(base+subject.paths.pageImages).pages;
   assert.equal(images.length,pages.length);

@@ -21,6 +21,8 @@ Each activity has a stable ID, subject ID, lecture ID, type, concept IDs, and ex
 
 Question quality review checks evidence for the correct answer, distractors, both explanation languages, source pagination, plausible alternatives, answer cues, duplicate items, unique match mappings, and sequence validity. All review results are recorded; structural validation alone is not content validation.
 
+Prompts assess the biology directly and stand alone. Do not ask what a source/lecture/slide says, or refer to an unseen table or diagram. Explanations also state the supported relationship directly; citation links provide provenance. A displayed original diagram can be referenced by the corresponding diagram activity. New variants must change the knowledge, comparison, inference or application being tested, rather than merely paraphrasing an existing question. Wording edits retain stable IDs; changes to the scored response or its meaning increment the activity revision. All changed records require renewed independent review.
+
 A content release includes only activities marked `validated`, with no unresolved claim used in scoring. Unvalidated drafts remain outside the app's activity bank.
 
 ## Coverage and evidence
