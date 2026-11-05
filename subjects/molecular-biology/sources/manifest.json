@@ -1,0 +1,74 @@
+{
+  "subject": "Molecular Biology",
+  "purpose": "Midterm",
+  "total_pdf_pages": 191,
+  "pagination_note": "PDF page counts include covers and administrative pages. Teaching-page exclusions and printed slide-number mapping remain to be indexed.",
+  "lectures": [
+    {
+      "id": "genes-and-chromosomes",
+      "title": "Genes and Chromosomes",
+      "original_filename": "1) Genes And Chromosomes.pdf",
+      "path": "slides/01-genes-and-chromosomes.pdf",
+      "pdf_pages": 41,
+      "sha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    },
+    {
+      "id": "dna-metabolism-1",
+      "title": "DNA Metabolism Part 1",
+      "original_filename": "2) DNA Matabolism Part (1).pdf",
+      "path": "slides/02-dna-metabolism-1.pdf",
+      "pdf_pages": 39,
+      "sha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    },
+    {
+      "id": "dna-metabolism-2",
+      "title": "DNA Metabolism Part 2 - DNA Repair",
+      "original_filename": "3) DNA Matabolism Part (2).pdf",
+      "path": "slides/03-dna-metabolism-2.pdf",
+      "pdf_pages": 33,
+      "sha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    },
+    {
+      "id": "rna-metabolism-1",
+      "title": "RNA Metabolism Part 1",
+      "original_filename": "4) RNA Metabolism Part (1).pdf",
+      "path": "slides/04-rna-metabolism-1.pdf",
+      "pdf_pages": 31,
+      "sha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    },
+    {
+      "id": "rna-metabolism-2",
+      "title": "RNA Metabolism Part 2 - Post-transcriptional modifications",
+      "original_filename": "5) RNA Metabolism Part (2) .pdf",
+      "path": "slides/05-rna-metabolism-2.pdf",
+      "pdf_pages": 20,
+      "sha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    },
+    {
+      "id": "techniques",
+      "title": "Techniques - PCR, Sequencing, RFLP",
+      "original_filename": "6) Techniques - PCR, Sequencing, RFLP.pdf",
+      "path": "slides/06-techniques.pdf",
+      "pdf_pages": 27,
+      "sha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "scope": "All teaching content; exclude covers and administrative pages",
+      "extraction_status": "Not started",
+      "question_bank_status": "Not started"
+    }
+  ]
+}

@@ -30,4 +30,3 @@ Practice checks on option click by default, with a select-then-confirm setting. 
 3. Author and audit source-linked MCQs and automatically scored concept drills.
 4. Implement the shared platform and first subject using the confirmed design and settings.
 5. Validate study behavior, source links, progress backup/restore, and mobile usability before website deployment.
-
