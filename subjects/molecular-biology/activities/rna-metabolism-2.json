@@ -1,0 +1,1760 @@
+{
+  "lectureId": "rna-metabolism-2",
+  "activities": [
+    {
+      "id": "rna-metabolism-2-ovalbumin-processing-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p03-processing-overview"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Order the stages shown in the ovalbumin gene-to-mature-mRNA figure.",
+      "explanation": {
+        "en": "The figure moves from transcription/capping to a primary transcript, then groups splicing, cleavage and polyadenylation before mature mRNA. The grouped processing operations are kept together.",
+        "ar": "ينتقل الشكل من Transcription و5′ capping إلى Primary transcript، ثم يجمع Splicing وCleavage وPolyadenylation قبل تكوّن Mature mRNA. تبقى عمليات المعالجة المجمّعة خطوة واحدة هنا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Page 3 arrows establish this sequence; no unique order imposed inside the grouped processing stage.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p3 confirms grouped processing operations; no unique internal processing order imposed. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Transcription with 5′ capping"
+        },
+        {
+          "id": "s2",
+          "text": "Capped primary transcript containing exons, introns and extra RNA"
+        },
+        {
+          "id": "s3",
+          "text": "Splicing, cleavage and polyadenylation"
+        },
+        {
+          "id": "s4",
+          "text": "Mature mRNA with joined retained regions and a poly(A) tail"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-cap-two-functions",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p04-cap-functions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which combination gives the two 5′-cap functions listed on the slide?",
+      "explanation": {
+        "en": "The slide assigns the cap protection from ribonucleases and a role in helping mRNA bind ribosomes.",
+        "ar": "تذكر الشريحة أن 5′ cap يحمي mRNA من Ribonucleases ويساعد ارتباطه بـRibosomes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked both stated functions on page 4; options have parallel paired effects and do not assert that other modifications lack overlapping functions.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p4 confirms cap functions, 7-methylguanosine, 5′-5′ bridge and SAM; optional C-2/yeast annotation excluded. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "No change in ribonuclease attack; no change in ribosome binding",
+          "evidence": "The slide assigns changes in both protection and ribosome binding."
+        },
+        {
+          "id": "a",
+          "text": "Protection from ribonucleases; improved binding to ribosomes",
+          "evidence": "Page 4 explicitly lists both functions."
+        },
+        {
+          "id": "b",
+          "text": "Protection from ribonucleases; reduced binding to ribosomes",
+          "evidence": "Protection agrees, but reduced binding contradicts the listed help with ribosome binding."
+        },
+        {
+          "id": "c",
+          "text": "Increased ribonuclease attack; improved binding to ribosomes",
+          "evidence": "Improved binding agrees, but increased attack contradicts protection."
+        },
+        {
+          "id": "d",
+          "text": "Increased ribonuclease attack; reduced binding to ribosomes",
+          "evidence": "Both directions reverse the functions on page 4."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-cap-linkage-discrimination",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p04-cap-chemistry"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which cap structure matches the linkage described on the slide?",
+      "explanation": {
+        "en": "The cap is 7-methylguanosine attached to the terminal mRNA residue through a 5′-5′ triphosphate linkage.",
+        "ar": "يتكوّن Cap من 7-Methylguanosine مرتبط بالطرف 5′ من mRNA عبر 5′-5′ triphosphate linkage."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only the clearly labeled bridge is tested; ambiguous additional C-2/2′ methylation and yeast annotation excluded.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p4 confirms cap functions, 7-methylguanosine, 5′-5′ bridge and SAM; optional C-2/yeast annotation excluded. Added p6 to references because a distractor rationale explicitly compares adenosine/poly(A) use; cap identity/linkage remains p4 and lariat comparison p10."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "7-Methylguanosine linked through a 2′-5′ triphosphate bridge",
+          "evidence": "The printed cap bridge is 5′-5′, not the 2′-5′ bond illustrated for a lariat on page 10."
+        },
+        {
+          "id": "d",
+          "text": "Adenosine linked through a 5′-5′ triphosphate bridge",
+          "evidence": "Page 4 specifies 7-methylguanosine; adenosine instead appears in the poly(A) discussion."
+        },
+        {
+          "id": "e",
+          "text": "Adenosine linked through a 3′-5′ triphosphate bridge",
+          "evidence": "Both adenosine identity and 3′-5′ cap bridge conflict with page 4."
+        },
+        {
+          "id": "a",
+          "text": "7-Methylguanosine linked through a 5′-5′ triphosphate bridge",
+          "evidence": "Page 4 names 7-methylguanosine and a 5′-5′ triphosphate linkage."
+        },
+        {
+          "id": "b",
+          "text": "7-Methylguanosine linked through a 3′-5′ triphosphate bridge",
+          "evidence": "The nucleotide identity agrees, but 3′-5′ contradicts the printed 5′-5′ linkage."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-cap-methyl-donor",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p04-cap-chemistry"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which molecule is identified as the methyl donor for mRNA capping?",
+      "explanation": {
+        "en": "The slide identifies S-adenosyl Methionine as the methyl donor. GTP supplies the cap nucleotide in the same discussion.",
+        "ar": "تحدّد الشريحة S-Adenosyl Methionine بوصفه Methyl donor، بينما يُستخدم GTP لتكوين نوكليوتيد Cap."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Donor identity explicitly sourced; all alternatives have distinct source-established reaction roles. No uncertain methylation-position claim tested.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p4 confirms cap functions, 7-methylguanosine, 5′-5′ bridge and SAM; optional C-2/yeast annotation excluded. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "Guanosine triphosphate",
+          "evidence": "Page 4 uses GTP to form the cap nucleotide; it separately identifies S-adenosyl Methionine as methyl donor."
+        },
+        {
+          "id": "c",
+          "text": "Adenosine triphosphate",
+          "evidence": "Page 6 uses ATP for poly(A) addition; page 4 names a different methyl donor."
+        },
+        {
+          "id": "d",
+          "text": "Adenosine diphosphate",
+          "evidence": "Page 11 depicts ADP as a product of ATP use in assembly; page 4 explicitly assigns methyl donation to S-adenosyl Methionine."
+        },
+        {
+          "id": "e",
+          "text": "Inorganic pyrophosphate",
+          "evidence": "Page 6 shows PPi as an addition-reaction product; page 4 names S-adenosyl Methionine as methyl donor."
+        },
+        {
+          "id": "a",
+          "text": "S-Adenosyl Methionine",
+          "evidence": "Page 4 explicitly names S-adenosyl Methionine as methyl donor."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-capping-transcription-components",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p05-capping-ctd",
+        "rna-metabolism-2-p11-splicing-transcription"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Match the labels in the transcription-coupled processing figures to their roles.",
+      "explanation": {
+        "en": "Pages 5 and 11 place the cap machinery and spliceosome beside the emerging transcript. CTD and CBC retain their source labels.",
+        "ar": "تُظهر الصفحتان 5 و11 مكوّنات Cap وSpliceosome قرب RNA الناشئ. يشير CTD إلى Carboxy Terminal Domain، وCBC إلى Cap binding complex."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Each label has one stated figure role; tests coordination components without inferring that every processing event waits for transcript completion.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p11 image confirms U1/U4 release and retained U2/U5/U6; initial snRNP associations remain grouped. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "CTD",
+          "right": "Carboxy Terminal Domain associated with the transcription machinery"
+        },
+        {
+          "id": "p2",
+          "left": "CBC",
+          "right": "Cap binding complex"
+        },
+        {
+          "id": "p3",
+          "left": "Cap-synthesizing complex",
+          "right": "Complex shown adding the cap to emerging RNA"
+        },
+        {
+          "id": "p4",
+          "left": "Spliceosome",
+          "right": "Complex shown processing an intron on emerging RNA"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-polya-primer-template",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p06-polyadenylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which requirements match polyadenylate polymerase on this slide?",
+      "explanation": {
+        "en": "Polyadenylate polymerase extends the cleaved RNA, which serves as the primer, without requiring a template.",
+        "ar": "يستخدم Polyadenylate polymerase جزيء RNA المقطوع بوصفه Primer، ولا يحتاج إلى Template."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Uses explicit two-part requirement on page 6; all choices use the same paired grammatical form.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p6 confirms cleavage before ATP-dependent addition, primer/no-template requirements and equation roles. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "A cleaved RNA primer; a required DNA template",
+          "evidence": "The primer agrees, but a required DNA template contradicts no-template wording."
+        },
+        {
+          "id": "c",
+          "text": "A cleaved RNA primer; a required RNA template",
+          "evidence": "The primer agrees, but a required RNA template contradicts no-template wording."
+        },
+        {
+          "id": "d",
+          "text": "No RNA primer; a required DNA template",
+          "evidence": "Both requirements reverse the source statement."
+        },
+        {
+          "id": "e",
+          "text": "No RNA primer; a required RNA template",
+          "evidence": "Both requirements reverse the source statement."
+        },
+        {
+          "id": "a",
+          "text": "A cleaved RNA primer; no template",
+          "evidence": "Page 6 explicitly states cleaved RNA as primer and no template."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-polya-cleavage-addition",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p06-polyadenylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Order the operations illustrated for cleavage and polyadenylation.",
+      "explanation": {
+        "en": "The figure places signal-associated complex assembly before endonuclease cleavage, followed by poly(A) addition to the retained 3′ OH.",
+        "ar": "يُظهر الشكل ارتباط Enzyme complex بإشارة AAUAAA، ثم قطع Endonuclease على بُعد 10-30 nucleotides باتجاه 3′، ثم إضافة Poly(A) باستخدام ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "The three source panels establish order; unrelated splicing steps are not inserted.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p6 confirms cleavage before ATP-dependent addition, primer/no-template requirements and equation roles. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "An enzyme complex associates with the AAUAAA cleavage signal"
+        },
+        {
+          "id": "s2",
+          "text": "Endonuclease cuts 10-30 nucleotides 3′ to the signal"
+        },
+        {
+          "id": "s3",
+          "text": "Polyadenylate polymerase extends the retained RNA using ATP"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-polya-reaction-roles",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p06-polyadenylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Match each term in RNA + nATP → RNA-(AMP)n + nPPi to its role.",
+      "explanation": {
+        "en": "The equation uses ATP to add AMP residues to RNA and releases PPi; the slide gives n as 80-250.",
+        "ar": "تُستخدم ATP لإضافة وحدات AMP إلى RNA مع تحرير PPi. وتحدّد الشريحة n بالقيمة 80-250."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All four mappings follow the displayed equation and range; substrate/product roles are unique.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p6 confirms cleavage before ATP-dependent addition, primer/no-template requirements and equation roles. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "nATP",
+          "right": "Substrate used to extend the tail"
+        },
+        {
+          "id": "p2",
+          "left": "RNA-(AMP)n",
+          "right": "Extended RNA product"
+        },
+        {
+          "id": "p3",
+          "left": "nPPi",
+          "right": "Released reaction product"
+        },
+        {
+          "id": "p4",
+          "left": "n = 80-250",
+          "right": "Number of added A residues in the source range"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-self-splicing-class-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p07-splicing-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Which two splicing classes are explicitly grouped as self-splicing?",
+      "explanation": {
+        "en": "Groups I and II are the source’s self-splicing classes. Group III is spliceosome-associated and Group IV is the tRNA splicing class.",
+        "ar": "تجمع الشريحة Group I وGroup II تحت Self-splicing، بينما تربط Group III بـSpliceosome وGroup IV بـtRNA splicing."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Class distinction tested without imposing the ambiguous Group I location/substrate mapping or an all-tRNA-processing enzyme claim.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "Groups I and III",
+          "evidence": "Group III is assigned to the spliceosome, while the self-splicing pair is I/II."
+        },
+        {
+          "id": "c",
+          "text": "Groups I and IV",
+          "evidence": "Group IV is described as protein-enzyme-dependent tRNA splicing; self-splicing pair is I/II."
+        },
+        {
+          "id": "d",
+          "text": "Groups II and III",
+          "evidence": "Group III is assigned to spliceosomes; self-splicing pair is I/II."
+        },
+        {
+          "id": "e",
+          "text": "Groups III and IV",
+          "evidence": "The source assigns different machinery to III/IV and explicitly identifies I/II as self-splicing."
+        },
+        {
+          "id": "a",
+          "text": "Groups I and II",
+          "evidence": "Page 7 explicitly states Group I + II: self splicing."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-splicing-class-features",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p07-splicing-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Match each splicing class to the distinguishing feature shown for it.",
+      "explanation": {
+        "en": "The figures distinguish external guanosine, intron adenosine, spliceosome machinery and the tRNA class. RNase P end processing is a separate issue.",
+        "ar": "تميّز الشرائح بين Guanosine خارجي في Group I، و2′ OH من Adenosine داخل Intron في Group II، وSpliceosome في Group III، وtRNA intron splicing في Group IV. لا يشمل ذلك كل عمليات tRNA processing."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Four unique discriminating mappings; ambiguous Group I location list excluded and tRNA intron splicing separated from RNase P end cleavage.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Group I",
+          "right": "External guanosine supplies the first attacking OH"
+        },
+        {
+          "id": "p2",
+          "left": "Group II",
+          "right": "An intron adenosine supplies the first attacking 2′ OH"
+        },
+        {
+          "id": "p3",
+          "left": "Group III",
+          "right": "snRNP-containing spliceosome processes nuclear mRNA"
+        },
+        {
+          "id": "p4",
+          "left": "Group IV",
+          "right": "Protein-enzyme-dependent tRNA intron splicing in the class list"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-group-i-two-nucleophiles",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p08-group-i-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which pair gives the attacking groups in the first and second reactions of the Group I figure?",
+      "explanation": {
+        "en": "Guanosine 3′ OH attacks the 5′ splice site first. The newly free 3′ OH of the 5′ exon then completes exon joining.",
+        "ar": "تهاجم 3′ OH في Guanosine موقع 5′ splice site أولاً. ثم تستخدم 3′ OH الحرة في 5′ exon لإتمام وصل Exons."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Both figure captions checked; Group II nucleophile used only as a source-backed contrast.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp8-10 mechanism images confirm nucleophile order and bond exchange. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guanosine 3′ OH, then the 5′ exon’s 3′ OH",
+          "evidence": "Both attacking groups are labeled in this order on page 8."
+        },
+        {
+          "id": "b",
+          "text": "The 5′ exon’s 3′ OH, then guanosine 3′ OH",
+          "evidence": "This reverses the two explicitly depicted attacks."
+        },
+        {
+          "id": "c",
+          "text": "Intron adenosine 2′ OH, then the 5′ exon’s 3′ OH",
+          "evidence": "The first group belongs to the Group II diagram on page 10, not Group I."
+        },
+        {
+          "id": "d",
+          "text": "Guanosine 3′ OH, then intron adenosine 2′ OH",
+          "evidence": "The source labels the second attacker as the free 3′ OH of the 5′ exon."
+        },
+        {
+          "id": "e",
+          "text": "The 5′ exon’s 3′ OH, then intron adenosine 2′ OH",
+          "evidence": "Neither the first-step order nor the second attacker matches page 8."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-group-i-excision-ligation",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p08-group-i-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Order the Group I splicing events shown.",
+      "explanation": {
+        "en": "The first attack creates the exon OH used in the second attack. The figure ends with ligated exons and released intron.",
+        "ar": "يُنتج الهجوم الأول 3′ OH حرة في Exon، وتُستخدم في الهجوم الثاني. وينتهي الشكل بوصل Exons وتحرير Intron."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Causal sequence is explicit; no external enzyme or ATP requirement introduced.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp8-10 mechanism images confirm nucleophile order and bond exchange. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Guanosine 3′ OH attacks the 5′ splice site"
+        },
+        {
+          "id": "s2",
+          "text": "The 5′ exon is left with a free 3′ OH"
+        },
+        {
+          "id": "s3",
+          "text": "That exon OH completes exon ligation and intron excision"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-transesterification-bond-exchange",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p09-transesterification"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "What characterizes the transesterification reaction described for self-splicing?",
+      "explanation": {
+        "en": "The source describes replacement of one phosphodiester bond by another, with guanosine 3′ OH acting as nucleophile and no required protein enzyme.",
+        "ar": "تصف الشريحة استبدال Phosphodiester bond بأخرى؛ تعمل 3′ OH في Guanosine بوصفها Nucleophile دون الحاجة إلى Protein enzyme."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checks bond exchange and explicitly stated nucleophile; no unsupported energy-balance claim added.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp8-10 mechanism images confirm nucleophile order and bond exchange. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "d",
+          "text": "A protein enzyme must supply the attacking guanosine OH",
+          "evidence": "Page 9 says no protein enzymes are required and identifies guanosine OH itself as nucleophile."
+        },
+        {
+          "id": "e",
+          "text": "The first attack is made by the 5′ exon rather than guanosine",
+          "evidence": "Page 9 identifies guanosine 3′ OH as the attacking group for this depicted step."
+        },
+        {
+          "id": "a",
+          "text": "A new phosphodiester bond forms at the expense of an old bond",
+          "evidence": "Page 9 explicitly describes this bond exchange."
+        },
+        {
+          "id": "b",
+          "text": "A new phosphodiester bond forms while every old bond is retained",
+          "evidence": "Contradicts the stated formation at the expense of an old bond."
+        },
+        {
+          "id": "c",
+          "text": "An old phosphodiester bond breaks with no new bond formed",
+          "evidence": "Omits the explicitly formed new phosphodiester bond."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-group-ii-first-attack",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p10-group-ii-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which event creates the Group II lariat in the figure?",
+      "explanation": {
+        "en": "The first Group II attack uses an intron adenosine’s 2′ OH at the 5′ splice site, creating a lariat intermediate.",
+        "ar": "يبدأ Group II بهجوم 2′ OH في Adenosine داخل Intron على 5′ splice site، فتتكوّن Lariat intermediate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "First-step nucleophile, position and target checked against enlarged caption; alternatives swap source-defined mechanistic elements.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p10 image confirms intron A 2′ OH, 5′ splice-site attack and 2′,5′ branch. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "An intron adenosine 2′ OH attacks the 5′ splice site",
+          "evidence": "Page 10 explicitly identifies this nucleophile and target."
+        },
+        {
+          "id": "b",
+          "text": "An external guanosine 3′ OH attacks the 5′ splice site",
+          "evidence": "External guanosine initiates Group I on page 8, while page 10 specifies intron adenosine."
+        },
+        {
+          "id": "c",
+          "text": "The 5′ exon’s 3′ OH attacks before lariat formation",
+          "evidence": "Page 10 places exon-OH attack after the lariat intermediate is formed."
+        },
+        {
+          "id": "d",
+          "text": "An intron adenosine 3′ OH attacks the 5′ splice site",
+          "evidence": "The first-step caption specifies adenosine 2′ OH, not 3′ OH."
+        },
+        {
+          "id": "e",
+          "text": "An intron adenosine 2′ OH attacks the 3′ splice site",
+          "evidence": "The first-step caption specifies attack at the 5′ splice site."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-group-ii-branch-bond",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p10-group-ii-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which bond is labeled at the branch of the Group II lariat?",
+      "explanation": {
+        "en": "The Group II inset labels a 2′, 5′-phosphodiester branch and states that the branch adenosine has three phosphodiester bonds.",
+        "ar": "يسمّي الشكل الفرعي الرابطة عند التفرّع 2′, 5′-phosphodiester bond، ويذكر أن Adenosine المتفرّع يمتلك ثلاث Phosphodiester bonds."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Branch-bond label is clear; does not test uncertain optional cap methylation positions.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p10 image confirms intron A 2′ OH, 5′ splice-site attack and 2′,5′ branch. Replaced the structurally unlike hydrogen-bond distractor with a parallel phosphodiester-endpoint distractor; correct 2′,5′ label verified from full p10 image."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "A 2′, 3′-phosphodiester bond",
+          "evidence": "The branch endpoints are explicitly 2′ and 5′, not 2′ and 3′."
+        },
+        {
+          "id": "a",
+          "text": "A 2′, 5′-phosphodiester bond",
+          "evidence": "The inset explicitly labels this bond."
+        },
+        {
+          "id": "b",
+          "text": "A 3′, 5′-phosphodiester bond",
+          "evidence": "The lariat branch inset labels 2′, 5′ rather than 3′, 5′."
+        },
+        {
+          "id": "c",
+          "text": "A 5′, 5′-triphosphate linkage",
+          "evidence": "The 5′, 5′ triphosphate linkage is the cap architecture on page 4, not the branch label."
+        },
+        {
+          "id": "d",
+          "text": "A 3′, 3′-phosphodiester bond",
+          "evidence": "The branch inset explicitly labels a 2′, 5′-phosphodiester bond, contradicting these 3′, 3′ endpoints."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-spliceosome-expelled-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p11-spliceosome-assembly"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which snRNP pair is expelled when internal rearrangements activate the spliceosome shown?",
+      "explanation": {
+        "en": "The source’s active spliceosome retains U2, U5 and U6 after U1 and U4 are expelled.",
+        "ar": "يبقى U2 وU5 وU6 في Active spliceosome بعد خروج U1 وU4 كما يظهر في الشكل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All five alternatives are parallel snRNP pairs checked against inactive/active source labels.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p11 image confirms U1/U4 release and retained U2/U5/U6; initial snRNP associations remain grouped. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "U5 and U6",
+          "evidence": "Both remain in the active complex; expelled pair is U1/U4."
+        },
+        {
+          "id": "a",
+          "text": "U1 and U4",
+          "evidence": "Page 11 explicitly labels U1 and U4 as expelled."
+        },
+        {
+          "id": "b",
+          "text": "U1 and U2",
+          "evidence": "U2 remains labeled in the active complex; expelled pair is U1/U4."
+        },
+        {
+          "id": "c",
+          "text": "U2 and U5",
+          "evidence": "Both are labeled in the active complex; expelled pair is U1/U4."
+        },
+        {
+          "id": "d",
+          "text": "U4 and U6",
+          "evidence": "U6 remains labeled in the active complex; expelled pair is U1/U4."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-spliceosome-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p11-spliceosome-assembly"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Order the assembly-to-release stages in the spliceosome figure.",
+      "explanation": {
+        "en": "The figure separates initial association, recruitment of the remaining snRNPs, activation, and splicing/release.",
+        "ar": "يفصل الشكل بين ارتباط U1 وU2، ثم انضمام U4/U6 وU5، ثم Activation بخروج U1 وU4، وأخيراً تكوّن Lariat وتحرير Intron."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only source-established stages ordered; does not force an order between U1 and U2 inside their grouped association stage.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p11 image confirms U1/U4 release and retained U2/U5/U6; initial snRNP associations remain grouped. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "U1 and U2 associate with the transcript"
+        },
+        {
+          "id": "s2",
+          "text": "U4/U6 and U5 join the inactive spliceosome"
+        },
+        {
+          "id": "s3",
+          "text": "Rearrangements expel U1 and U4, producing the active complex"
+        },
+        {
+          "id": "s4",
+          "text": "Lariat formation is followed by intron release and joined exons"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-trna-cleavage-and-addition",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p12-trna-processing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Match the tRNA-processing labels to the indicated feature or operation.",
+      "explanation": {
+        "en": "The tRNA figure labels RNase P at the 5′ cut, RNase D at the 3′ cut, CCA at the processed 3′ end and a separate intron-splicing arrow.",
+        "ar": "يضع شكل tRNA إنزيم RNase P عند قطع 5′، وRNase D عند قطع 3′، ويُظهر إضافة CCA إلى طرف 3′، ثم سهم Splicing منفصلاً لإزالة Intron."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exact cleavage labels checked; no unique order imposed on the grouped base modification/end-cleavage/CCA list.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p12 confirms RNase P/D ends and CCA; parallel first-arrow operations are not serially imposed. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "RNase P",
+          "right": "5′ cleavage; labeled ribozyme"
+        },
+        {
+          "id": "p2",
+          "left": "RNase D",
+          "right": "3′ cleavage"
+        },
+        {
+          "id": "p3",
+          "left": "CCA addition",
+          "right": "Addition at the 3′ end"
+        },
+        {
+          "id": "p4",
+          "left": "Splicing arrow",
+          "right": "Removal of the indicated intron from the intermediate"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-trna-final-end",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p12-trna-processing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which end feature is explicitly shown on the processed tRNA intermediate?",
+      "explanation": {
+        "en": "The figure explicitly includes 3′ CCA addition during tRNA processing; the extra end segments are removed.",
+        "ar": "يُظهر الشكل إضافة CCA إلى الطرف 3′ خلال tRNA processing، مع إزالة المقاطع الزائدة من الطرفين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests clear end feature only, not dense modified-base identities or an invented processing order.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p12 confirms RNase P/D ends and CCA; parallel first-arrow operations are not serially imposed. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "The original extra RNA retained at both ends",
+          "evidence": "The page states removal of 5′/3′ ends and shows the shortened intermediate."
+        },
+        {
+          "id": "a",
+          "text": "CCA at the 3′ end",
+          "evidence": "Page 12 explicitly lists CCA addition at the 3′ end and labels the intermediate accordingly."
+        },
+        {
+          "id": "b",
+          "text": "CCA at the 5′ end",
+          "evidence": "The figure places CCA at 3′, not 5′."
+        },
+        {
+          "id": "c",
+          "text": "A poly(A) tail at the 3′ end",
+          "evidence": "The tRNA figure labels CCA, whereas the poly(A) tail is the mRNA modification on page 6."
+        },
+        {
+          "id": "d",
+          "text": "A 5′-5′ cap at the 3′ end",
+          "evidence": "The tRNA figure labels CCA at 3′; the mRNA cap is at 5′ on page 4."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-alternative-exon-patterns",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p13-alternative-splicing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Match each exon combination to the protein label in the alternative-splicing figure.",
+      "explanation": {
+        "en": "The source maps these three exon patterns to proteins A, B and C from one gene.",
+        "ar": "يربط الشكل تراكيب Exons الثلاثة بـProtein A وProtein B وProtein C، وكلها ناتجة من Gene واحد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All three original exon patterns checked; protein labels are unique within this specified figure.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp13-14 confirms exon/protein mappings and alternative branches without tissue-specific assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Exons 1-2-3-4-5",
+          "right": "Protein A"
+        },
+        {
+          "id": "p2",
+          "left": "Exons 1-2-4-5",
+          "right": "Protein B"
+        },
+        {
+          "id": "p3",
+          "left": "Exons 1-2-3-5",
+          "right": "Protein C"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-alternative-splicing-gene-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p13-alternative-splicing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which relationship is illustrated by the alternative-splicing example?",
+      "explanation": {
+        "en": "Different exon combinations from one gene create different mature RNAs and corresponding proteins in this figure.",
+        "ar": "تُنتج تراكيب Exons المختلفة من Gene واحد عدة Mature RNAs ثم عدة Proteins في هذا المثال."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Answers are parallel gene/RNA/protein relationships; claim limited to the illustrated example, not a universal one-to-one rule.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp13-14 confirms exon/protein mappings and alternative branches without tissue-specific assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "One gene → one mature RNA → one protein only",
+          "evidence": "The figure branches into several mature RNAs and proteins."
+        },
+        {
+          "id": "d",
+          "text": "Several genes → several mature RNAs → one protein only",
+          "evidence": "The source starts with one gene and shows several distinct protein products."
+        },
+        {
+          "id": "e",
+          "text": "One gene → several mature RNAs → no protein product",
+          "evidence": "Each of the three mature RNAs has a translation arrow to a labeled protein."
+        },
+        {
+          "id": "a",
+          "text": "One gene → several mature RNAs → several proteins",
+          "evidence": "The slide explicitly states this relationship and depicts three products."
+        },
+        {
+          "id": "b",
+          "text": "Several genes → one mature RNA → one protein",
+          "evidence": "The source explicitly begins from one gene and branches to several RNAs/proteins."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-alternative-processing-panels",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p14-alternative-processing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Match each feature of the two complex-transcript panels to its displayed result.",
+      "explanation": {
+        "en": "The left panel varies cleavage/polyadenylation sites; the right varies splicing choices. Both show alternative products of one gene.",
+        "ar": "يغيّر الشكل الأيسر مواقع Cleavage وPolyadenylation، بينما يغيّر الأيمن خيارات Splicing. وتؤكد الشريحة أن النواتج من Gene واحد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Unique panel-to-feature relationships checked; no brain-versus-thyroid product assignment inferred.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full pp13-14 confirms exon/protein mappings and alternative branches without tissue-specific assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Choice between Poly(A) sites A1 and A2",
+          "right": "Mature RNAs with different terminal extents"
+        },
+        {
+          "id": "p2",
+          "left": "Choice between two 3′ splice sites",
+          "right": "Mature RNAs retaining different internal segments"
+        },
+        {
+          "id": "p3",
+          "left": "Common origin emphasized in red",
+          "right": "Products arise from a single gene"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-transcript-region-map",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p15-transcript-structure"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Match the transcript labels to their positions or meanings in the figure.",
+      "explanation": {
+        "en": "The diagram places rbs and the 5′ UTR before AUG, the ORF along the protein-corresponding segment, and the 3′ UTR after it.",
+        "ar": "يضع الشكل rbs و5′ UTR قبل AUG، ويقابل ORF مقطع Protein المرسوم، ثم يأتي 3′ UTR بعده."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests labeled region relationships without inventing an unlabeled stop codon or translating UTR/cap/tail.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "5′ UTR",
+          "right": "Untranslated region before the indicated AUG"
+        },
+        {
+          "id": "p2",
+          "left": "3′ UTR",
+          "right": "Untranslated region after the indicated ORF"
+        },
+        {
+          "id": "p3",
+          "left": "rbs",
+          "right": "Ribosome binding site"
+        },
+        {
+          "id": "p4",
+          "left": "ORF",
+          "right": "Open Reading Frame corresponding to the protein line"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-translated-transcript-segment",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p15-transcript-structure"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which labeled feature corresponds to the protein line in the transcript-structure figure?",
+      "explanation": {
+        "en": "The ORF corresponds to the protein line. The cap, tail and both UTRs are explicitly described as untranslated.",
+        "ar": "يقابل ORF خط Protein في الشكل، بينما تصف الشريحة Cap وPoly(A) tail وUTRs بأنها غير مترجمة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Five parallel named features; correct relationship directly shown; all distractors expressly untranslated, not merely absent.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "The 5′ UTR",
+          "evidence": "Page 15 explicitly calls the 5′ UTR untranslated."
+        },
+        {
+          "id": "c",
+          "text": "The 3′ UTR",
+          "evidence": "Page 15 explicitly calls the 3′ UTR untranslated."
+        },
+        {
+          "id": "d",
+          "text": "The 5′ cap",
+          "evidence": "Page 15 explicitly states that the 5′ cap is not translated."
+        },
+        {
+          "id": "e",
+          "text": "The poly(A) tail",
+          "evidence": "Page 15 explicitly states that the poly(A) tail is not translated."
+        },
+        {
+          "id": "a",
+          "text": "The ORF",
+          "evidence": "The red protein line corresponds to the ORF in the figure."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-gene-expression-categories",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p16-gene-regulation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Match the gene category to the clear description given on the slide.",
+      "explanation": {
+        "en": "The source defines inducible expression by the presence of activators/cellular factors and links housekeeping genes to basic cellular processes.",
+        "ar": "تربط الشريحة تعبير Inducible genes بوجود Activators أو Cellular factors، وتربط Housekeeping genes بعمليات أساسية مثل Replication وGrowth."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "The undefined word constrictively is excluded from scoring; only the two clear category descriptions are matched.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Inducible genes",
+          "right": "Expression requires activators or cellular factors"
+        },
+        {
+          "id": "p2",
+          "left": "Housekeeping genes",
+          "right": "Associated with essential basic processes such as replication and growth"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-enhancer-function",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p17-enhancers"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which description matches the enhancer function stated on the slide?",
+      "explanation": {
+        "en": "Enhancers boost transcription and provide regulatory specificity, illustrated by tissue-specific expression.",
+        "ar": "تعمل Enhancers على زيادة Transcription وتوفير Regulatory specificity، ومن أمثلتها Tissue-specific expression."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests explicit enhancer definition; does not classify activators themselves as DNA sequences from the ambiguous heading.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "Reducing translation while eliminating regulatory specificity",
+          "evidence": "Both the process/effect and the loss of specificity conflict with the source definition."
+        },
+        {
+          "id": "a",
+          "text": "Boosting transcription and providing regulatory specificity",
+          "evidence": "This is the explicit definition, with tissue-specific expression as example."
+        },
+        {
+          "id": "b",
+          "text": "Reducing transcription and providing regulatory specificity",
+          "evidence": "Specificity agrees, but reducing transcription reverses the stated boosting effect."
+        },
+        {
+          "id": "c",
+          "text": "Boosting translation and providing regulatory specificity",
+          "evidence": "The source names transcription, not translation, as the enhanced process."
+        },
+        {
+          "id": "d",
+          "text": "Boosting transcription while eliminating regulatory specificity",
+          "evidence": "The source explicitly assigns regulatory specificity rather than eliminating it."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-reverse-transcriptase-properties",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p18-reverse-transcriptase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which combination matches the reverse-transcriptase properties listed?",
+      "explanation": {
+        "en": "The slide lists a primer requirement, no proofreading activity and 5′→3′ synthesis for reverse transcriptase.",
+        "ar": "تذكر الشريحة أن Reverse transcriptase يحتاج Primer، ويفتقر إلى Proofreading، ويُجري Synthesis باتجاه 5′→3′."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Three parallel property tuples checked; no outside enzyme properties imported.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. P18 properties/product checked; no AZT molecular-species inference used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "Primer required; proofreading present; synthesis 5′→3′",
+          "evidence": "The proofreading component contradicts no-proofreading wording."
+        },
+        {
+          "id": "c",
+          "text": "Primer not required; no proofreading; synthesis 5′→3′",
+          "evidence": "The no-primer component contradicts requires a primer."
+        },
+        {
+          "id": "d",
+          "text": "Primer required; no proofreading; synthesis 3′→5′",
+          "evidence": "The synthesis direction reverses the printed 5′→3′."
+        },
+        {
+          "id": "e",
+          "text": "Primer not required; proofreading present; synthesis 3′→5′",
+          "evidence": "All three listed properties conflict with page 18."
+        },
+        {
+          "id": "a",
+          "text": "Primer required; no proofreading; synthesis 5′→3′",
+          "evidence": "All three properties are explicit on page 18."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-reverse-transcriptase-product",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p18-reverse-transcriptase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "In the retroviral-entry figure, what follows reverse transcription of viral RNA?",
+      "explanation": {
+        "en": "The entry figure follows viral RNA through reverse transcription to viral DNA. The accompanying text calls the synthesized DNA cDNA.",
+        "ar": "يتتبّع الشكل Viral RNA عبر Reverse transcription إلى Viral DNA، ويسمّي النص DNA الناتج cDNA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests immediate labeled product, not integration enzymes or uncertain AZT species.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. P18 properties/product checked; no AZT molecular-species inference used. Made all choices parallel product names and removed the explanatory cDNA qualifier from the correct option; cDNA remains in the supported explanation."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Viral DNA",
+          "evidence": "Figure labels viral DNA and text calls synthesized DNA cDNA."
+        },
+        {
+          "id": "b",
+          "text": "Mature spliced mRNA",
+          "evidence": "The figure labels the reverse-transcription product viral DNA, not a spliced mRNA."
+        },
+        {
+          "id": "c",
+          "text": "CCA-extended tRNA",
+          "evidence": "This belongs to the separate page 12 processing diagram; page 18 explicitly yields viral DNA."
+        },
+        {
+          "id": "d",
+          "text": "Translated viral polyprotein",
+          "evidence": "Page 20 places polyprotein after transcription and translation; page 18 labels the immediate reverse-transcription product viral DNA."
+        },
+        {
+          "id": "e",
+          "text": "Polyadenylated RNA",
+          "evidence": "Page 6 shows RNA-tail addition; the page 18 arrow specifically yields viral DNA."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-retroviral-regulatory-labels",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p20-retroviral-genome"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Match the clear retroviral-genome labels to the descriptions supplied on the slide.",
+      "explanation": {
+        "en": "The source explicitly supplies these four descriptions. Its abbreviated pol/protease wording is not used for an exclusive mapping.",
+        "ar": "تورد الشريحة هذه العلاقات الأربع: LTR لتنظيم وبدء Transcription، وΨ لـViral packaging، وgag لـGroup associated antigen، وenv لـEnvelope. لا يُستخدم الاختصار الملتبس الخاص بـpol هنا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All mappings explicit; pol ambiguity excluded and accepted English terms retained in Arabic explanation.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p20 confirms labels and expression arrows; parallel cleavage products remain grouped and exclusive pol/protease mapping is avoided. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "LTR",
+          "right": "Initiation and regulation of transcription"
+        },
+        {
+          "id": "p2",
+          "left": "Ψ",
+          "right": "Viral packaging"
+        },
+        {
+          "id": "p3",
+          "left": "gag",
+          "right": "Group associated antigen"
+        },
+        {
+          "id": "p4",
+          "left": "env",
+          "right": "Envelope label in the source"
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-2-retroviral-expression-stages",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-2",
+      "conceptIds": [
+        "rna-metabolism-2-p20-retroviral-genome"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-2",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Order the expression stages in the retroviral-genome diagram.",
+      "explanation": {
+        "en": "The diagram follows DNA → primary transcript → polyproteins → proteolytic cleavage products. It does not require a unique ordering among the parallel final products.",
+        "ar": "يتدرّج الشكل من DNA إلى Primary transcript ثم Polyproteins، وبعدها نواتج Proteolytic cleavage. ولا يفرض ترتيباً بين النواتج النهائية المتوازية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Source arrows establish the sequence; avoids assigning pol to one exclusive product and avoids ordering parallel cleavage products.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p20 confirms labels and expression arrows; parallel cleavage products remain grouped and exclusive pol/protease mapping is avoided. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Integrated genome regions in host-cell DNA"
+        },
+        {
+          "id": "s2",
+          "text": "Transcription produces a primary transcript"
+        },
+        {
+          "id": "s3",
+          "text": "Translation produces polyproteins"
+        },
+        {
+          "id": "s4",
+          "text": "Proteolytic cleavage yields the labeled protein products"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "rna-metabolism-2-p02-modified-rna",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "rna-metabolism-2-p17-promoter-assembly",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "rna-metabolism-2-p19-azt",
+      "reason": "AZT molecular-species/transport-affinity wording is unresolved (rna-metabolism-2-p19-u1); exact claims deferred."
+    }
+  ]
+}

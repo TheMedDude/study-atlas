@@ -47,11 +47,11 @@ write(ANALYSIS/'uncertainties.json',{'schemaVersion':1,'subjectId':'molecular-bi
 write(ANALYSIS/'chapters.json',{'schemaVersion':1,'subjectId':'molecular-biology','chapters':chapters})
 summary={'totalPdfPages':len(allpages),'visuallyReviewedPages':len(allpages),'teachingPages':sum(p['kind']=='teaching' for p in allpages),'excludedPages':sum(p['kind']!='teaching' for p in allpages),'indexedConcepts':len(concepts),'sourceUncertainties':len(uncertainties),'validatedActivities':len(bank),'conceptsWithActivities':sum(bool(c['activityIds']) for c in concepts.values())}
 write(ANALYSIS/'coverage-summary.json',summary)
-stream=io.StringIO(newline=''); w=csv.writer(stream); w.writerow(['lecture_id','pdf_page','printed_slide','kind','title','concept_ids','visual_review','uncertainty_ids','activity_ids'])
+stream=io.StringIO(newline=''); w=csv.writer(stream,lineterminator='\n'); w.writerow(['lecture_id','pdf_page','printed_slide','kind','title','concept_ids','visual_review','uncertainty_ids','activity_ids'])
 for p in allpages:
     aids=sorted({a for cid in p['conceptIds'] for a in concepts[cid]['activityIds']})
     w.writerow([p['lectureId'],p['pdfPage'],p['printedSlide'] or '',p['kind'],p['title'],';'.join(p['conceptIds']),p['visualReview'],';'.join(u['id'] for u in p['uncertainties']),';'.join(aids)])
-(ANALYSIS/'coverage-ledger.csv').write_text(stream.getvalue(),encoding='utf-8')
+(ANALYSIS/'coverage-ledger.csv').write_text(stream.getvalue(),encoding='utf-8',newline='\n')
 header='''# Molecular Biology detailed structured study source
 
 Authority: the six unchanged supplied lecture PDFs. No outside biology sources.

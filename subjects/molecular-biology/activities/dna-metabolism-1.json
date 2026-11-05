@@ -1,0 +1,2554 @@
+{
+  "lectureId": "dna-metabolism-1",
+  "activities": [
+    {
+      "id": "dna-metabolism-1-gene-naming",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-bacterial-gene-names"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "Which interpretation follows the bacterial nomenclature conventions stated in the lecture?",
+      "explanation": {
+        "en": "Genes use lowercase italics, protein products uppercase names. Letters follow discovery order, not necessarily biochemical reaction order.",
+        "ar": "تُكتب أسماء Genes بحروف صغيرة مائلة، وتُستخدم الحروف الكبيرة لـ Protein products. وتشير A/B/C إلى Discovery order لا إلى ترتيب التفاعل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [2]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Uppercase names denote genes; A/B/C record reaction order",
+          "evidence": "Both gene/protein assignment and letter-order interpretation reverse the source."
+        },
+        {
+          "id": "o2",
+          "text": "Uppercase names denote genes; A/B/C record discovery order",
+          "evidence": "Uppercase denotes protein products, while genes use lowercase italics."
+        },
+        {
+          "id": "o5",
+          "text": "Lowercase italic names denote proteins; A/B/C record reaction order",
+          "evidence": "Lowercase italics denote genes, and letters follow discovery rather than reaction order."
+        },
+        {
+          "id": "o3",
+          "text": "Lowercase italic names denote genes; A/B/C record reaction order",
+          "evidence": "A/B/C follow discovery order rather than reaction order."
+        },
+        {
+          "id": "o1",
+          "text": "Lowercase italic names denote genes; A/B/C record discovery order",
+          "evidence": "Genes use lowercase italics, protein products uppercase names. Letters follow discovery order, not necessarily biochemical reaction order. Source PDF pages: 2."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-semiconservative-strands",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-semiconservative-replication"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Which daughter-DNA composition matches semiconservative replication after one round in the illustrated experiment?",
+      "explanation": {
+        "en": "Both first-generation daughters are hybrids, with one parental 15N strand and one new 14N strand.",
+        "ar": "تكون جزيئتا الجيل الأول Hybrid DNA؛ تحتوي كل منهما على Parental strand من 15N و New strand من 14N."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [3]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Each daughter has alternating old and new segments in both strands",
+          "evidence": "The figure shows complete old/new strands rather than alternating strand segments."
+        },
+        {
+          "id": "o3",
+          "text": "Both daughters have two parental strands",
+          "evidence": "New14N strands are present in both first-generation daughter molecules."
+        },
+        {
+          "id": "o4",
+          "text": "Both daughters have two new strands",
+          "evidence": "One parental 15N strand is retained in each first-generation daughter molecule."
+        },
+        {
+          "id": "o2",
+          "text": "One daughter has both parental strands; the other has two new strands",
+          "evidence": "The first generation contains two hybrid molecules, not one wholly old and one wholly new molecule."
+        },
+        {
+          "id": "o1",
+          "text": "Each daughter has one parental strand and one new strand",
+          "evidence": "Both first-generation daughters are hybrids, with one parental 15N strand and one new 14N strand. Source PDF pages: 3."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-second-generation-bands",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-meselson-stahl-bands"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "After a second generation in 14N medium, which band pattern and molecule count match the source diagram?",
+      "explanation": {
+        "en": "The second generation contains two hybrids and two light molecules, giving hybrid and light density bands.",
+        "ar": "يحتوي الجيل الثاني على جزيئَي Hybrid وجزيئَي Light، فتظهر حزمتا Hybrid DNA و Light DNA في CsCl gradient."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [3]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "One light band; four light molecules",
+          "evidence": "The source retains two hybrid molecules rather than four wholly light molecules."
+        },
+        {
+          "id": "o5",
+          "text": "Heavy and hybrid bands; two heavy and two hybrid molecules",
+          "evidence": "The second generation has no heavy band and does have a light band."
+        },
+        {
+          "id": "o2",
+          "text": "One hybrid band; four hybrid molecules",
+          "evidence": "The second generation has hybrid and light bands and two molecules of each kind, not four hybrids."
+        },
+        {
+          "id": "o1",
+          "text": "Hybrid and light bands; two hybrid and two light molecules",
+          "evidence": "The second generation contains two hybrids and two light molecules, giving hybrid and light density bands. Source PDF pages: 3."
+        },
+        {
+          "id": "o3",
+          "text": "Heavy and light bands; two heavy and two light molecules",
+          "evidence": "The source shows hybrid and light rather than heavy and light second-generation molecules."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-isotope-experiment-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-semiconservative-replication",
+        "dna-metabolism-1-meselson-stahl-bands"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Arrange the growth/observation sequence shown in the Meselson-Stahl experiment.",
+      "explanation": {
+        "en": "Heavy-labeled parental DNA is followed by hybrid first-generation DNA, then hybrid plus light second-generation DNA.",
+        "ar": "يبدأ التسلسل بـ 15N في DNA الأبوي، ثم يظهر Hybrid DNA بعد جيل في 14N، ثم Hybrid و Light DNA بعد الجيل التالي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [3]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Grow E. coli using 15N as the nitrogen source"
+        },
+        {
+          "id": "s2",
+          "text": "Transfer to 14N and allow one population doubling"
+        },
+        {
+          "id": "s3",
+          "text": "Observe one hybrid DNA band"
+        },
+        {
+          "id": "s4",
+          "text": "Continue a second generation in fresh 14N medium"
+        },
+        {
+          "id": "s5",
+          "text": "Observe hybrid and light DNA bands"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-origin-fork-label",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-replication-origin",
+        "dna-metabolism-1-bidirectional-labeling"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Match each replication-loop feature to the relationship shown in the labeling diagrams.",
+      "explanation": {
+        "en": "The loop starts at a unique origin. Both-fork labeling marks bidirectionality, one-fork labeling marks unidirectionality, and the two forks meet opposite the origin in the source circle.",
+        "ar": "تبدأ Replication loop من Origin وحيد. يميّز Label عند كلا Forks نمط Bidirectional، وعند Fork واحدة نمط Unidirectional، وتلتقي Forks في الجهة المقابلة لـ Origin في دائرة المصدر."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [5, 6]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Reworked as a unique-pair match so both the origin and directional-labeling tags are actually tested."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Origin",
+          "right": "Unique point where the replication loop initiates"
+        },
+        {
+          "id": "p2",
+          "left": "Brief label at both forks",
+          "right": "Bidirectional pattern"
+        },
+        {
+          "id": "p3",
+          "left": "Brief label at only one fork",
+          "right": "Unidirectional pattern"
+        },
+        {
+          "id": "p4",
+          "left": "Meeting point of the two forks",
+          "right": "Side of the circle opposite the origin"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-primer-terminal-requirement",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-synthesis-requirements"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which set preserves the chemical requirements stated for DNA synthesis?",
+      "explanation": {
+        "en": "The listed DNA synthesis requires a DNA template, deoxynucleoside triphosphates, and an existing primer 3′-OH; DNA polymerase extends 5′→3′.",
+        "ar": "تتطلب DNA synthesis المذكورة DNA template و dNTPs و Primer يوفّر 3′-OH. وتُطيل DNA polymerase السلسلة باتجاه 5′→3′."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [7]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "RNA template, dNTPs and a primer providing only 5′-phosphate",
+          "evidence": "The source requires a DNA template and primer 3′ OH, not an RNA template/5′ phosphate-only terminus."
+        },
+        {
+          "id": "o2",
+          "text": "DNA template, dNTPs and a primer providing only 5′-phosphate",
+          "evidence": "The required primer terminus is 3′ OH, not only5′ phosphate."
+        },
+        {
+          "id": "o3",
+          "text": "DNA template, rNTPs and a primer providing 3′-OH",
+          "evidence": "The listed substrates are deoxynucleoside triphosphates rather than the ribonucleoside set."
+        },
+        {
+          "id": "o4",
+          "text": "DNA template, dNTPs and no preexisting primer terminus",
+          "evidence": "The source requires a preexisting primer 3′ OH and says DNA polymerase cannot initiate a chain."
+        },
+        {
+          "id": "o1",
+          "text": "DNA template, dNTPs and a primer providing 3′-OH",
+          "evidence": "The listed DNA synthesis requires a DNA template, deoxynucleoside triphosphates, and an existing primer 3′-OH; DNA polymerase extends 5′→3′. Source PDF pages: 7, 8."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-polymerase-problems",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-polymerase-constraints"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Match each replication constraint to the solution named by the slide.",
+      "explanation": {
+        "en": "The lecture pairs polarity with Okazaki fragments, initiation dependence with RNA primers, and duplex separation with helicase/SSB.",
+        "ar": "تربط المحاضرة اختلاف Polarity بـ Okazaki fragments، وعدم بدء سلسلة جديدة بـ RNA primers، وعدم فصل Duplex DNA بـ Helicase و SSB."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [8]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Opposite strand polarity despite 5′→3′ synthesis",
+          "right": "Okazaki fragments"
+        },
+        {
+          "id": "p2",
+          "left": "DNA polymerase cannot initiate a new chain",
+          "right": "RNA primers"
+        },
+        {
+          "id": "p3",
+          "left": "DNA polymerase cannot separate duplex strands",
+          "right": "Helicase and SSB"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-leading-lagging-directions",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-leading-lagging"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which comparison correctly separates the chemical direction of synthesis from its continuity?",
+      "explanation": {
+        "en": "Both strands are synthesized 5′→3′. Leading synthesis is continuous; lagging synthesis is discontinuous through Okazaki fragments.",
+        "ar": "تُصنّع السلسلتان باتجاه 5′→3′. تكون Leading strand مستمرة، وتُصنّع Lagging strand على هيئة Okazaki fragments."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [9]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Leading grows 3′→5′ and lagging grows 5′→3′; both use fragments",
+          "evidence": "Leading synthesis is 5′→3′ and continuous, not3′→5′/fragmented."
+        },
+        {
+          "id": "o4",
+          "text": "Both strands grow 3′→5′; leading is continuous and lagging uses fragments",
+          "evidence": "The continuity assignment fits, but the synthesis direction is reversed."
+        },
+        {
+          "id": "o2",
+          "text": "Leading grows 5′→3′ and lagging grows 3′→5′; both are continuous",
+          "evidence": "The source gives 5′→3′ growth for both strands and fragments on the lagging strand."
+        },
+        {
+          "id": "o1",
+          "text": "Both strands grow 5′→3′; leading is continuous and lagging uses fragments",
+          "evidence": "Both strands are synthesized 5′→3′. Leading synthesis is continuous; lagging synthesis is discontinuous through Okazaki fragments. Source PDF pages: 9."
+        },
+        {
+          "id": "o3",
+          "text": "Both strands grow 5′→3′; lagging is continuous and leading uses fragments",
+          "evidence": "The synthesis direction fits, but continuity assignments are reversed."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-nuclease-classes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-nuclease-specificity",
+        "dna-metabolism-1-exo-endo"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Match each nuclease term to its distinguishing definition on the slide.",
+      "explanation": {
+        "en": "Substrate specificity distinguishes DNase/RNase; position distinguishes exonuclease/endonuclease; restriction endonucleases add internal-site specificity.",
+        "ar": "تميّز Substrate specificity بين DNase و RNase، ويميز موضع القطع بين Exonuclease و Endonuclease. وتختص Restriction endonucleases بمواضع داخلية محدّدة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [10]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DNase",
+          "right": "Specific for DNA"
+        },
+        {
+          "id": "p2",
+          "left": "RNase",
+          "right": "Specific for RNA"
+        },
+        {
+          "id": "p3",
+          "left": "Exonuclease",
+          "right": "Degrades from a 3′ or 5′ end"
+        },
+        {
+          "id": "p4",
+          "left": "Endonuclease",
+          "right": "Degrades at internal sites in general"
+        },
+        {
+          "id": "p5",
+          "left": "Restriction endonuclease",
+          "right": "Cleaves specific internal sites"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-polymerization-chemistry",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-polymerization-reaction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which attack-and-product description matches the DNA polymerization reaction?",
+      "explanation": {
+        "en": "The growing strand’s 3′-OH attacks the incoming dNTP alpha phosphorus, lengthening DNA and releasing PPi.",
+        "ar": "تهاجم 3′-OH في السلسلة النامية Alpha phosphorus في dNTP القادم، فتطول سلسلة DNA ويتحرر PPi."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [11]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Primer 5′-phosphate attacks dNTP alpha phosphorus; PPi is released",
+          "evidence": "The alpha-phosphorus target and PPi product fit, but the attacking group is primer 3′ OH."
+        },
+        {
+          "id": "o3",
+          "text": "Primer 3′-OH attacks dNTP terminal phosphorus; a dNTP is released",
+          "evidence": "The source specifies alpha phosphorus and PPi release, not terminal phosphorus/dNTP release."
+        },
+        {
+          "id": "o5",
+          "text": "Primer 5′-phosphate attacks the template base; PPi is consumed",
+          "evidence": "Both attacking group/target and PPi consumption reverse the depicted reaction."
+        },
+        {
+          "id": "o4",
+          "text": "Primer 3′-OH attacks the template base; PPi is consumed",
+          "evidence": "The primer attacks the incoming dNTP rather than the template base, and PPi is released."
+        },
+        {
+          "id": "o1",
+          "text": "Primer 3′-OH attacks dNTP alpha phosphorus; PPi is released",
+          "evidence": "The growing strand’s 3′-OH attacks the incoming dNTP alpha phosphorus, lengthening DNA and releasing PPi. Source PDF pages: 11."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-processivity-measure",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-processivity"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which measurement is called processivity in the lecture?",
+      "explanation": {
+        "en": "Processivity counts how many nucleotides are added on average before dissociation; it differs from rate and fidelity.",
+        "ar": "يقيس Processivity متوسط عدد Nucleotides المضافة قبل انفصال Polymerase، ويختلف عن Polymerization rate و Fidelity."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [12]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Nucleotides added per second of polymerization",
+          "evidence": "Nucleotides per second is polymerization rate, not processivity."
+        },
+        {
+          "id": "o5",
+          "text": "Different subunit types in a polymerase complex",
+          "evidence": "The table lists subunit types separately from nucleotides added before dissociation."
+        },
+        {
+          "id": "o3",
+          "text": "Nucleotides between successive Okazaki-fragment ends",
+          "evidence": "Okazaki-fragment length differs from the number added before polymerase dissociation."
+        },
+        {
+          "id": "o4",
+          "text": "Errors per total number of replicated nucleotides",
+          "evidence": "Errors per total nucleotides is a fidelity measurement, not processivity."
+        },
+        {
+          "id": "o1",
+          "text": "Average nucleotides added before polymerase dissociation",
+          "evidence": "Processivity counts how many nucleotides are added on average before dissociation; it differs from rate and fidelity. Source PDF pages: 9, 12, 13, 15."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-selection-before-bond",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-base-pair-guidance",
+        "dna-metabolism-1-base-selection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Before a phosphodiester bond forms, which properties are used to distinguish a correct incoming base?",
+      "explanation": {
+        "en": "The lecture names hydrogen bonding and correct A-T/G-C geometry as pre-bond discrimination; proofreading is the later correction mechanism.",
+        "ar": "تذكر المحاضرة Hydrogen bonding وهندسة A-T و G-C الصحيحة للتمييز قبل تكوّن الرابطة، بينما يأتي Proofreading بعد إضافة Base غير صحيحة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [12, 13]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Hydrogen bonding and the common geometry of A-T/G-C pairs",
+          "evidence": "The lecture names hydrogen bonding and correct A-T/G-C geometry as pre-bond discrimination; proofreading is the later correction mechanism. Source PDF pages: 12, 13, 14, 23, 33."
+        },
+        {
+          "id": "o4",
+          "text": "Nick sealing and removal by 3′→5′ exonuclease",
+          "evidence": "Nick sealing and post-addition proofreading are later operations, not the stated pre-bond criteria."
+        },
+        {
+          "id": "o2",
+          "text": "Hydrogen bonding and removal by 3′→5′ exonuclease",
+          "evidence": "Hydrogen bonding is a selection criterion, but3′→5′ removal follows incorporation of a mismatch."
+        },
+        {
+          "id": "o3",
+          "text": "5′→3′ primer removal and the common geometry of A-T/G-C pairs",
+          "evidence": "The source assigns5′→3′ primer removal to pol I rather than pre-bond nucleotide selection."
+        },
+        {
+          "id": "o5",
+          "text": "Telomere extension and the common geometry of A-T/G-C pairs",
+          "evidence": "Telomerase extension concerns chromosome ends rather than the stated incoming-base selection criteria."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-kinetic-pause",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-proofreading"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "A newly added mismatch stalls elongation. Which response matches the proofreading mechanism shown?",
+      "explanation": {
+        "en": "A mismatch causes a kinetic pause; 3′→5′ exonuclease removes the mismatched nucleotide and polymerization resumes. PPi is not involved in this proofreading step.",
+        "ar": "يسبّب Mismatch حالة Kinetic pause، ثم تزيل 3′→5′ exonuclease النيوكليوتيد غير الصحيح وتُستأنف Polymerization. لا يشترك PPi في خطوة Proofreading هذه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [14]; each tagged concept is tested. No universal-all-polymerases claim is scored. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Continue synthesis first and move the unchanged mismatch to a primer site",
+          "evidence": "The figure says the mismatched3′ OH blocks further elongation until correction."
+        },
+        {
+          "id": "o4",
+          "text": "Seal the mismatch-containing nick with ligase before checking the base",
+          "evidence": "The depicted mismatch is removed before polymerization resumes; ligase has a separate nick-sealing role."
+        },
+        {
+          "id": "o2",
+          "text": "Move the mismatch to 5′→3′ exonuclease, remove it, then resume synthesis",
+          "evidence": "Proofreading uses3′→5′ exonuclease;5′→3′ exonuclease is assigned to primer removal."
+        },
+        {
+          "id": "o1",
+          "text": "Move the mismatch to 3′→5′ exonuclease, remove it, then resume synthesis",
+          "evidence": "A mismatch causes a kinetic pause; 3′→5′ exonuclease removes the mismatched nucleotide and polymerization resumes. PPi is not involved in this proofreading step. Source PDF pages: 14, 23."
+        },
+        {
+          "id": "o3",
+          "text": "Reverse polymerization by adding PPi, then resume synthesis",
+          "evidence": "The source explicitly says proofreading is not reverse polymerization and PPi is not involved."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-proofreading-figure-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-proofreading",
+        "dna-metabolism-1-tautomer-proofreading"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Arrange the events in the source’s cytosine-tautomer proofreading example.",
+      "explanation": {
+        "en": "The diagram orders incorporation, tautomer reversion, kinetic pause/transfer, excision, and renewed synthesis.",
+        "ar": "يرتّب الرسم الأحداث: إدخال C*، ثم عودته إلى C، ثم توقف الاستطالة ونقل Mismatch إلى Exonuclease site، ثم إزالته واستئناف Synthesis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [14]; each tagged concept is tested. The diagram establishes this sequence; no universal-proofreading claim used. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Rare C* pairs with A and is incorporated"
+        },
+        {
+          "id": "s2",
+          "text": "C* returns to C, leaving a mispaired base"
+        },
+        {
+          "id": "s3",
+          "text": "The mispaired 3′-OH stalls elongation; the base moves to the exonuclease site"
+        },
+        {
+          "id": "s4",
+          "text": "The mispaired nucleotide is removed"
+        },
+        {
+          "id": "s5",
+          "text": "Polymerase moves forward and resumes synthesis"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-polymerase-genes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-polymerase-comparison"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Match each E. coli polymerase to the structural gene designation in the supplied table.",
+      "explanation": {
+        "en": "The table assigns polA, polB, and polC (dnaE) to I, II, and III. Its footnote identifies dnaE as an earlier designation of polC.",
+        "ar": "يربط الجدول DNA polymerase I بـ polA، و II بـ polB، و III بـ polC (dnaE). ويصف الهامش dnaE بأنه الاسم الأقدم لـ polC."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [15]; each tagged concept is tested. No uncertain polI rate or polIII molecular mass is used. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DNA polymerase I",
+          "right": "polA"
+        },
+        {
+          "id": "p2",
+          "left": "DNA polymerase II",
+          "right": "polB"
+        },
+        {
+          "id": "p3",
+          "left": "DNA polymerase III",
+          "right": "polC (dnaE)"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-polymerase-exonuclease",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-polymerase-comparison"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Among polymerases I, II and III in the table, which has 5′→3′ exonuclease activity?",
+      "explanation": {
+        "en": "All three have the table’s 3′→5′ proofreading entry, but only I has its 5′→3′ exonuclease entry.",
+        "ar": "يعرض الجدول نشاط 3′→5′ Proofreading للإنزيمات الثلاثة، لكنه يمنح 5′→3′ Exonuclease لـ DNA polymerase I وحده."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [15]; each tagged concept is tested. Table-specific comparison; does not generalize proofreading to every polymerase. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Polymerases II and III",
+          "evidence": "Both II and III are No entries; I is the Yes entry."
+        },
+        {
+          "id": "o3",
+          "text": "Polymerase III only",
+          "evidence": "The table marks pol III No and pol I Yes for 5′→3′ exonuclease."
+        },
+        {
+          "id": "o1",
+          "text": "Polymerase I only",
+          "evidence": "All three have the table’s 3′→5′ proofreading entry, but only I has its 5′→3′ exonuclease entry. Source PDF pages: 15."
+        },
+        {
+          "id": "o2",
+          "text": "Polymerase II only",
+          "evidence": "The table marks pol II No and pol I Yes for 5′→3′ exonuclease."
+        },
+        {
+          "id": "o4",
+          "text": "Polymerases I and II",
+          "evidence": "The table marks pol II No, so the I-and-II combination does not fit."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-nick-chemistry",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-nick-ends"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which groups border the broken phosphodiester bond labeled as a nick?",
+      "explanation": {
+        "en": "The source defines the nick as a broken phosphodiester bond leaving a 3′ hydroxyl and a 5′ phosphate.",
+        "ar": "يعرّف الرسم Nick بأنه كسر في Phosphodiester bond يترك 3′-OH و 5′-Phosphate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [16]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Two 3′-OH ends",
+          "evidence": "The nick has one 3′ OH and one 5′ phosphate, not two 3′ OH ends."
+        },
+        {
+          "id": "o1",
+          "text": "3′-OH and 5′-phosphate",
+          "evidence": "The source defines the nick as a broken phosphodiester bond leaving a 3′ hydroxyl and a 5′ phosphate. Source PDF pages: 16."
+        },
+        {
+          "id": "o2",
+          "text": "3′-phosphate and 5′-OH",
+          "evidence": "This reverses the source’s3′ OH/5′ phosphate labels."
+        },
+        {
+          "id": "o4",
+          "text": "3′-phosphate and 5′-phosphate",
+          "evidence": "The source labels the3′ group OH rather than phosphate."
+        },
+        {
+          "id": "o3",
+          "text": "3′-OH and 5′-OH",
+          "evidence": "The source labels the5′ group phosphate rather than OH."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-nick-translation-roles",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-nick-translation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which enzyme/activity combination follows the nick-translation explanation?",
+      "explanation": {
+        "en": "Polymerase I removes the paired segment with 5′→3′ exonuclease while replacing it; after dissociation, ligase seals the nick.",
+        "ar": "يزيل DNA polymerase I الجزء المقابل بنشاط 5′→3′ Exonuclease ويستبدله. وبعد انفصاله يغلق DNA ligase موضع Nick."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [16, 15, 22]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Pol III removes by 5′→3′ exonuclease and replaces; ligase seals the nick",
+          "evidence": "The source assigns nick translation to pol I; the table says pol III lacks5′→3′ exonuclease."
+        },
+        {
+          "id": "o1",
+          "text": "Pol I removes by 5′→3′ exonuclease and replaces; ligase seals the nick",
+          "evidence": "Polymerase I removes the paired segment with 5′→3′ exonuclease while replacing it; after dissociation, ligase seals the nick. Source PDF pages: 14, 15, 16, 22."
+        },
+        {
+          "id": "o4",
+          "text": "Pol I removes by 5′→3′ exonuclease and replaces; primase seals the nick",
+          "evidence": "Primase synthesizes RNA primers; ligase performs the stated nick sealing."
+        },
+        {
+          "id": "o2",
+          "text": "Pol I removes by 3′→5′ exonuclease and replaces; ligase seals the nick",
+          "evidence": "The source specifies5′→3′ exonuclease for nick translation;3′→5′ is the proofreading direction."
+        },
+        {
+          "id": "o5",
+          "text": "Pol I removes by 5′→3′ exonuclease and replaces; Pol III seals the nick",
+          "evidence": "Pol III elongates the new strand; ligase performs nick sealing."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-fidelity-summary",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-fidelity-mechanisms"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Match the three fidelity entries to the labels used in this lecture summary.",
+      "explanation": {
+        "en": "This slide lists base selection, 3′→5′ proofreading, and mismatch repair described as 5′→3′ exonuclease. The wording is the summary’s classification, not a claim that every repair pathway has one direction.",
+        "ar": "تسرد هذه الخلاصة Base selection ثم 3′→5′ Proofreading ثم Mismatch repair الموصوف فيها بنشاط 5′→3′ Exonuclease. هذه صياغة الخلاصة وليست تعميمًا لاتجاه كل Repair pathway."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [17]; each tagged concept is tested. Scope restricted to the page17 summary; no universal repair-direction claim. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Base selection",
+          "right": "Discrimination by DNA polymerase"
+        },
+        {
+          "id": "p2",
+          "left": "Proofreading",
+          "right": "3′→5′ exonuclease activity"
+        },
+        {
+          "id": "p3",
+          "left": "Mismatch repair",
+          "right": "5′→3′ exonuclease activity in this summary"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-replisome-access-functions",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-replisome",
+        "dna-metabolism-1-replication-protein-functions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Match each complex/protein term to its role in the lecture’s replication-access list.",
+      "explanation": {
+        "en": "The replisome includes multiple cooperating proteins. Helicase separates, topoisomerase relieves stress, DNA-binding proteins stabilize, and primase makes primers.",
+        "ar": "يضم Replisome أكثر من 20 Enzymes/Proteins. يفصل Helicase السلسلتين، ويخفف Topoisomerase الإجهاد، وتثبت DNA-binding proteins السلاسل، ويصنع Primase البوادئ."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [18]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DNA replicase system",
+          "right": "Replisome, a complex of more than 20 enzymes/proteins"
+        },
+        {
+          "id": "p2",
+          "left": "Helicase",
+          "right": "ATP-dependent separation of DNA strands"
+        },
+        {
+          "id": "p3",
+          "left": "Topoisomerase",
+          "right": "Relief of stress caused by unwinding"
+        },
+        {
+          "id": "p4",
+          "left": "DNA-binding proteins",
+          "right": "Stabilization of separated strands"
+        },
+        {
+          "id": "p5",
+          "left": "Primase",
+          "right": "Synthesis of short RNA primers"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-replication-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-replication-stages"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Arrange the three DNA synthesis stages in the order listed in the lecture.",
+      "explanation": {
+        "en": "The listed progression is initiation, followed by elongation, then termination.",
+        "ar": "التسلسل المذكور هو Initiation ثم Elongation ثم Termination."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [19]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Initiation"
+        },
+        {
+          "id": "s2",
+          "text": "Elongation"
+        },
+        {
+          "id": "s3",
+          "text": "Termination"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-oric-repeat-pattern",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-oric-structure"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which repeat pattern and binding assignment match the oriC illustration?",
+      "explanation": {
+        "en": "The 245-bp oriC is pictured with three 13-bp tandem repeats and four 9-bp DnaA-binding sequences.",
+        "ar": "يحتوي oriC ذو 245 bp على ثلاث 13-bp Repeats وأربع 9-bp Sequences موصوفة بأنها DnaA-binding sites."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [19]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Four 13-bp repeats; three 9-bp DnaA-binding repeats",
+          "evidence": "This exchanges the counts of 13-bp and 9-bp repeats."
+        },
+        {
+          "id": "o1",
+          "text": "Three 13-bp repeats; four 9-bp DnaA-binding repeats",
+          "evidence": "The 245-bp oriC is pictured with three 13-bp tandem repeats and four 9-bp DnaA-binding sequences. Source PDF pages: 19."
+        },
+        {
+          "id": "o4",
+          "text": "Three 13-bp DnaA-binding repeats; four 9-bp repeats without that label",
+          "evidence": "The DnaA-binding label belongs to the four9-bp sequences rather than the three13-bp sequences."
+        },
+        {
+          "id": "o3",
+          "text": "Three 9-bp repeats; four 13-bp DnaA-binding repeats",
+          "evidence": "This exchanges repeat lengths/counts and the DnaA-binding assignment."
+        },
+        {
+          "id": "o5",
+          "text": "Four 9-bp repeats; three 13-bp DnaB-binding repeats",
+          "evidence": "The source labels DnaA binding at 9-bp repeats, not DnaB binding at 13-bp repeats."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-oric-methylation-sequence",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-dam-methylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Arrange the oriC methylation/sequestration events as described after replication.",
+      "explanation": {
+        "en": "The source sequence is hemimethylation, sequestration, release, full methylation and DnaA binding. Dam targets adenine N6 in 5′-GATC-3′.",
+        "ar": "يعرض المصدر Hemimethylation ثم Sequestration ثم Release ثم Full methylation وارتباط DnaA. ويستهدف Dam methylase موضع N6 في Adenine ضمن 5′-GATC-3′."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [20]; each tagged concept is tested. Uses methylation sequence only; no inferred covalent phosphorylation. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Replication leaves parental oriC DNA methylated and the new strand unmethylated"
+        },
+        {
+          "id": "s2",
+          "text": "Hemimethylated oriC is sequestered through plasma-membrane interaction"
+        },
+        {
+          "id": "s3",
+          "text": "oriC is released from the plasma membrane"
+        },
+        {
+          "id": "s4",
+          "text": "Dam methylase completes oriC methylation"
+        },
+        {
+          "id": "s5",
+          "text": "Fully methylated oriC binds DnaA"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-dnaa-nucleotide-state",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-dnaa-atp-state"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which activity-state change is explicitly drawn for DnaA?",
+      "explanation": {
+        "en": "The clear diagram shows active ATP-bound DnaA becoming inactive ADP-bound DnaA. The heading’s “phosphorylation” wording is not used to infer another reaction.",
+        "ar": "يُظهر الرسم DnaA المرتبط بـ ATP في حالة Active، ثم يتحول بعد Hydrolysis إلى DnaA المرتبط بـ ADP في حالة Inactive."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [20]; each tagged concept is tested. Avoids the ambiguous phosphorylation heading and any inferred covalent event. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "ATP-bound active DnaA remains ATP-bound after the shown hydrolysis",
+          "evidence": "The product after the shown hydrolysis is ADP-bound rather than still ATP-bound."
+        },
+        {
+          "id": "o5",
+          "text": "ADP-bound inactive DnaA becomes ATP-bound active DnaA after the shown hydrolysis",
+          "evidence": "The source depicts ATP→ADP, not ADP→ATP, after hydrolysis."
+        },
+        {
+          "id": "o3",
+          "text": "ADP-bound active DnaA becomes ATP-bound inactive DnaA after hydrolysis",
+          "evidence": "Both the nucleotide direction and activity assignments reverse the source."
+        },
+        {
+          "id": "o1",
+          "text": "ATP-bound active DnaA becomes ADP-bound inactive DnaA after hydrolysis",
+          "evidence": "The clear diagram shows active ATP-bound DnaA becoming inactive ADP-bound DnaA. The heading’s “phosphorylation” wording is not used to infer another reaction. Source PDF pages: 20."
+        },
+        {
+          "id": "o2",
+          "text": "ATP-bound inactive DnaA becomes ADP-bound active DnaA after hydrolysis",
+          "evidence": "The source labels ATP-bound DnaA active and ADP-bound DnaA inactive."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-fork-protein-identities",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-replication-protein-functions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Match each named protein at the replication fork to the role assigned in the lecture.",
+      "explanation": {
+        "en": "The fork illustration and table separate unwinding, priming, elongation, primer replacement and nick sealing among these proteins.",
+        "ar": "يفصل الرسم والجدول بين Unwinding بواسطة DnaB، و Priming بواسطة DnaG، و Elongation بواسطة DNA polymerase III، واستبدال Primers بواسطة Pol I، و Ligation بواسطة Ligase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [21, 22]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Removed leading/lagging continuity tag because the item tests protein roles only."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DnaB",
+          "right": "Helicase: DNA unwinding"
+        },
+        {
+          "id": "p2",
+          "left": "DnaG",
+          "right": "Primase: RNA primer synthesis"
+        },
+        {
+          "id": "p3",
+          "left": "DNA polymerase III",
+          "right": "New DNA strand elongation"
+        },
+        {
+          "id": "p4",
+          "left": "DNA polymerase I",
+          "right": "Primer excision and gap filling"
+        },
+        {
+          "id": "p5",
+          "left": "DNA ligase",
+          "right": "Ligation"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-okazaki-completion",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-leading-lagging",
+        "dna-metabolism-1-primer-removal-ligation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Arrange a lagging-fragment cycle using the stages established in the lecture.",
+      "explanation": {
+        "en": "The source places priming before extension, groups primer excision and DNA replacement under pol I, and then assigns nick sealing to ligase.",
+        "ar": "تسبق Priming مرحلة Elongation بواسطة Pol III، ثم يزيل Pol I الـ RNA primer ويستبدله بـ DNA، وأخيرًا يغلق Ligase موضع Nick."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [21, 23]; each tagged concept is tested. Primer excision and fill-in are grouped together; no false unique order imposed between overlapping PolI activities. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Primase supplies an RNA primer"
+        },
+        {
+          "id": "s2",
+          "text": "DNA polymerase III extends the Okazaki fragment"
+        },
+        {
+          "id": "s3",
+          "text": "DNA polymerase I removes the RNA primer and replaces it with DNA"
+        },
+        {
+          "id": "s4",
+          "text": "DNA ligase seals the remaining nick"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-tus-ter-trap",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-tus-ter"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which arrangement explains how Tus-Ter limits fork progression in the source?",
+      "explanation": {
+        "en": "Ter sequences occur in two oppositely oriented clusters. Tus-Ter arrests forks and prevents overreplication when the opposing fork is delayed.",
+        "ar": "توجد Ter sequences في مجموعتين متعاكستي الاتجاه. ويوقف Tus-Ter الـ Replication forks، مما يمنع Overreplication إذا تأخرت Fork المقابلة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [24]; each tagged concept is tested. No repeated/unclear individual TerB label or unique site ordering used. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Identically oriented Ter clusters bind Tus and allow forks to leave both traps",
+          "evidence": "The source specifies opposite cluster orientations and a trap forks cannot leave."
+        },
+        {
+          "id": "o5",
+          "text": "Identically oriented origins bind ligase and arrest both forks",
+          "evidence": "The source assigns fork arrest to opposed Ter/Tus; ligase performs ligation rather than origin-dependent fork arrest."
+        },
+        {
+          "id": "o3",
+          "text": "Oppositely oriented Ter clusters bind primase and form directional fork traps",
+          "evidence": "The source assigns Ter binding to Tus; primase instead synthesizes RNA primers."
+        },
+        {
+          "id": "o1",
+          "text": "Oppositely oriented Ter clusters bind Tus and form directional fork traps",
+          "evidence": "Ter sequences occur in two oppositely oriented clusters. Tus-Ter arrests forks and prevents overreplication when the opposing fork is delayed. Source PDF pages: 19, 22, 24."
+        },
+        {
+          "id": "o4",
+          "text": "Oppositely oriented origins bind Tus and initiate new forks at termination",
+          "evidence": "Tus binds termination sequences rather than origins, and the source describes fork arrest rather than new initiation."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-catenane-separation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-catenanes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which description matches the completed bacterial chromosomes and their separation?",
+      "explanation": {
+        "en": "Catenanes are closed, interwound circles without a covalent join. Topoisomerase IV permits passage through a double-strand break in one circle.",
+        "ar": "تكون Catenanes دوائر مغلقة متشابكة دون Covalent link. ويتيح Topoisomerase IV مرور دائرة عبر كسر السلسلتين في الدائرة الأخرى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [25]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Covalently joined circles; topoisomerase IV breaks only one strand for passage of the other",
+          "evidence": "The source concerns closed interlinked circles, not linear telomere construction."
+        },
+        {
+          "id": "o3",
+          "text": "Noncovalently interlinked circles; topoisomerase IV breaks only one strand for passage of the other",
+          "evidence": "The source assigns separation to topoisomerase IV rather than ligase nick sealing."
+        },
+        {
+          "id": "o1",
+          "text": "Noncovalently interlinked circles; topoisomerase IV breaks both strands of one for passage of the other",
+          "evidence": "Catenanes are closed, interwound circles without a covalent join. Topoisomerase IV permits passage through a double-strand break in one circle. Source PDF pages: 22, 23, 25, 27, 33."
+        },
+        {
+          "id": "o4",
+          "text": "Noncovalently interlinked circles; topoisomerase IV seals nicks without opening a circle for passage",
+          "evidence": "The source requires passage through a double-strand break; primase instead synthesizes primers."
+        },
+        {
+          "id": "o2",
+          "text": "Covalently joined circles; topoisomerase IV breaks both strands of one for passage of the other",
+          "evidence": "The completed circles are explicitly not covalently joined."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-eukaryotic-replication-features",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-eukaryotic-origins",
+        "dna-metabolism-1-rpa",
+        "dna-metabolism-1-telomere-termination"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Match each eukaryotic replication feature to the description in these slides.",
+      "explanation": {
+        "en": "The slides associate slower fork progression with multiple origins, name origins ARS/replicators, identify RPA, and include telomere synthesis in termination.",
+        "ar": "تربط الشرائح Fork speed الأبطأ بوجود Multiple origins، وتسمّيها ARS/Replicators، وتعرّف RPA بوصفه SSB-like protein، وتذكر Telomere synthesis ضمن Termination."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [26, 27]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Fork speed in the source comparison",
+          "right": "50 nucleotides/s, stated as 1/20 of E. coli"
+        },
+        {
+          "id": "p2",
+          "left": "Origins",
+          "right": "Autonomously Replicating Sequences (ARS)/replicators"
+        },
+        {
+          "id": "p3",
+          "left": "Single-stranded DNA binding",
+          "right": "Replication Protein A (RPA), similar to SSB"
+        },
+        {
+          "id": "p4",
+          "left": "Termination feature",
+          "right": "Telomere synthesis"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-eukaryotic-polymerase-roles",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-eukaryotic-polymerases"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Match polymerase α, δ or ε to the role assigned by this lecture slide.",
+      "explanation": {
+        "en": "These are the roles explicitly assigned by the supplied slide. The α entry is the stated exception to the earlier universal proofreading heading.",
+        "ar": "هذه هي الأدوار التي تسندها الشريحة إلى α وδ وε. وتذكر صراحة أن DNA polymerase α يفتقر إلى 3′→5′ Proofreading، خلافًا للعنوان التعميمي السابق."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [26]; each tagged concept is tested. Explicit lecture-assigned roles; no outside correction or universal proofreading claim. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DNA polymerase α",
+          "right": "Primase activity and polymerization without 3′→5′ proofreading"
+        },
+        {
+          "id": "p2",
+          "left": "DNA polymerase δ",
+          "right": "Primer extension and 3′→5′ exonuclease; compared with bacterial pol III"
+        },
+        {
+          "id": "p3",
+          "left": "DNA polymerase ε",
+          "right": "Repair and primer removal at the fork; compared with bacterial pol I"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-eukaryotic-origin-solution",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-eukaryotic-origins"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "What solution does the lecture give for the lower eukaryotic replication-fork rate?",
+      "explanation": {
+        "en": "The source gives a slower eukaryotic fork rate and lists multiple origins as the solution.",
+        "ar": "تذكر الشريحة Fork rate أبطأ في Eukaryotes، وتعرض Multiple origins بوصفها الحل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [26]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded. Added distractor-evidence source pages."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Use no origins and initiate at random positions",
+          "evidence": "The source specifies multiple named origins rather than originless random initiation."
+        },
+        {
+          "id": "o1",
+          "text": "Use multiple origins rather than a single origin",
+          "evidence": "The source gives a slower eukaryotic fork rate and lists multiple origins as the solution. Source PDF pages: 7, 26, 27."
+        },
+        {
+          "id": "o3",
+          "text": "Use multiple origins but make each origin a telomere",
+          "evidence": "The source names origins ARS/replicators rather than telomeres, which appear under termination."
+        },
+        {
+          "id": "o2",
+          "text": "Use one origin rather than multiple origins",
+          "evidence": "A single origin reverses the explicit multiple-origin solution."
+        },
+        {
+          "id": "o5",
+          "text": "Use one origin and reverse synthesis to 3′→5′",
+          "evidence": "The source retains5′→3′ synthesis and gives multiple origins as the solution."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-end-problem-features",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-end-replication"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which combination matches the lecture’s end-replication discussion without choosing an uncertain end-polarity label?",
+      "explanation": {
+        "en": "The clear relationships are 5′→3′ synthesis, a required primer, incomplete ends, and telomere shortening with S phase.",
+        "ar": "العلاقات الواضحة هي 5′→3′ Synthesis مع الحاجة إلى Primer ووجود Incomplete ends وتقصّر Telomeres مع S phase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [28, 7]; each tagged concept is tested. No ~100bp exact claim or unreconciled daughter/parent3/5 end label used. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "5′→3′ synthesis needs a primer; telomeres lengthen each S phase",
+          "evidence": "The source says telomeres shorten rather than lengthen each S phase."
+        },
+        {
+          "id": "o1",
+          "text": "5′→3′ synthesis needs a primer; telomeres shorten each S phase",
+          "evidence": "The clear relationships are 5′→3′ synthesis, a required primer, incomplete ends, and telomere shortening with S phase. Source PDF pages: 7, 28."
+        },
+        {
+          "id": "o5",
+          "text": "3′→5′ synthesis needs no primer; telomeres lengthen each S phase",
+          "evidence": "Synthesis direction, primer dependence and telomere change all reverse the source."
+        },
+        {
+          "id": "o2",
+          "text": "3′→5′ synthesis needs a primer; telomeres shorten each S phase",
+          "evidence": "The source gives 5′→3′ rather than 3′→5′ synthesis."
+        },
+        {
+          "id": "o3",
+          "text": "5′→3′ synthesis needs no primer; telomeres shorten each S phase",
+          "evidence": "The source explicitly requires a primer."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-telomere-location-caps",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-capping"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 29
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Match each telomere description to the label or analogy on the slides.",
+      "explanation": {
+        "en": "The lecture places telomeres at both chromosome ends and compares their capping role with shoelace tips.",
+        "ar": "تضع المحاضرة Telomeres عند طرفَي Linear chromosome، وتقارن دورها بـ Plastic caps في نهايات رباط الحذاء. ويعطي مثال 46 Chromosomes عدد 92 Telomeres."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [29, 30]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Telomere location",
+          "right": "Both ends of a linear chromosome"
+        },
+        {
+          "id": "p2",
+          "left": "Protective-cap analogy",
+          "right": "Plastic caps at the ends of shoelaces"
+        },
+        {
+          "id": "p3",
+          "left": "46-chromosome example",
+          "right": "92 telomeres, one at each end"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-human-telomere-repeat",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-repeat"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which six-nucleotide repeat is printed for human telomeres?",
+      "explanation": {
+        "en": "The source prints thousands of repeats of TTAGGG at human chromosome ends.",
+        "ar": "تطبع الشريحة تسلسل TTAGGG مكررًا آلاف المرات عند نهايات Human chromosomes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [29]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "TTAGGG",
+          "evidence": "The source prints thousands of repeats of TTAGGG at human chromosome ends. Source PDF pages: 29."
+        },
+        {
+          "id": "o4",
+          "text": "TTAGGC",
+          "evidence": "This changes the final base from the printed G to C."
+        },
+        {
+          "id": "o3",
+          "text": "TATGGG",
+          "evidence": "This changes the arrangement of the first three bases from TTAGGG."
+        },
+        {
+          "id": "o5",
+          "text": "TAGGGT",
+          "evidence": "This shifts positions relative to the explicitly printed TTAGGG repeat."
+        },
+        {
+          "id": "o2",
+          "text": "TTGGGA",
+          "evidence": "This reorders the letters of the printed TTAGGG repeat."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-protected-ends",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-protection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Why does the source say chromosome ends need telomeres?",
+      "explanation": {
+        "en": "Telomeres mark natural chromosome ends. Without them, repair of those ends could produce chromosome fusion and genomic instability.",
+        "ar": "تُميّز Telomeres نهايات Chromosomes الطبيعية عن Broken DNA. وقد يؤدي التعامل مع النهايات غير المحمية ككسور إلى Chromosome fusion و Genomic instability."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [31]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "To remove the distinction between capped ends and internal breaks",
+          "evidence": "The source says telomeres permit, rather than remove, the distinction between natural ends and breaks."
+        },
+        {
+          "id": "o1",
+          "text": "To distinguish normal ends from breaks and prevent end fusion during repair",
+          "evidence": "Telomeres mark natural chromosome ends. Without them, repair of those ends could produce chromosome fusion and genomic instability. Source PDF pages: 25, 31."
+        },
+        {
+          "id": "o4",
+          "text": "To join all chromosome ends permanently into catenated circles",
+          "evidence": "The source warns of fusion without telomeres; catenanes are a separate closed-circle state on 25."
+        },
+        {
+          "id": "o5",
+          "text": "To replace the cell-cycle response to broken DNA with unrestricted division",
+          "evidence": "The broken-DNA figure invokes cell-cycle arrest/repair rather than unrestricted division."
+        },
+        {
+          "id": "o2",
+          "text": "To make normal ends behave as breaks and promote chromosome fusion",
+          "evidence": "This reverses the protective distinction and fusion-prevention relationship."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-telomere-clock-meaning",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-clock",
+        "dna-metabolism-1-hayflick-limit"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Which pair matches the telomere clock and Hayflick-limit descriptions on the slide?",
+      "explanation": {
+        "en": "The clock metaphor concerns how many times a cell divides. The graph labels the number of divisions before stopping as the Hayflick limit, without a numeric threshold.",
+        "ar": "يتعلق التشبيه بعدد Cell divisions مع تقصّر Telomeric sequences. ويسمّي الرسم عدد الانقسامات قبل التوقف Hayflick limit، دون عتبة عددية محدّدة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [32]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Clock: divisions with unchanged telomeres; Hayflick limit: divisions before stopping",
+          "evidence": "The stopping-limit description fits, but the source connects divisions with telomere shortening rather than unchanged length."
+        },
+        {
+          "id": "o5",
+          "text": "Clock: divisions with telomere lengthening; Hayflick limit: unlimited replicative lifespan",
+          "evidence": "Both telomere lengthening and unlimited lifespan differ from the source’s shortening/stopping-limit relationship."
+        },
+        {
+          "id": "o4",
+          "text": "Clock: divisions with telomere shortening; Hayflick limit: unlimited replicative lifespan",
+          "evidence": "The clock relationship fits, but Hayflick limit is divisions before stopping rather than unlimited lifespan."
+        },
+        {
+          "id": "o2",
+          "text": "Clock: divisions with telomere lengthening; Hayflick limit: divisions before stopping",
+          "evidence": "The stopping-limit description fits, but the source says telomeres shorten rather than lengthen."
+        },
+        {
+          "id": "o1",
+          "text": "Clock: divisions with telomere shortening; Hayflick limit: divisions before stopping",
+          "evidence": "The clock metaphor concerns how many times a cell divides. The graph labels the number of divisions before stopping as the Hayflick limit, without a numeric threshold. Source PDF pages: 15, 26, 31, 32."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-telomerase-components",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-components"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which combination describes the telomerase enzyme shown in the lecture?",
+      "explanation": {
+        "en": "Telomerase is a ribonucleoprotein with its own RNA template and a reverse-transcriptase catalytic unit.",
+        "ar": "تتكوّن Telomerase بوصفها Ribonucleoprotein من RNA template ووحدة Catalytic ذات نشاط Reverse transcriptase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [33]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "RNA primer and DNA polymerase III as the catalytic protein",
+          "evidence": "RNA primers/pol III belong to replication elongation; telomerase has an RNA template and reverse-transcriptase unit."
+        },
+        {
+          "id": "o3",
+          "text": "RNA template and DNA ligase as the catalytic protein",
+          "evidence": "The source’s catalytic unit is reverse transcriptase; ligase performs ligation."
+        },
+        {
+          "id": "o4",
+          "text": "DNA template and DNA ligase as the catalytic protein",
+          "evidence": "Both template type and catalytic protein differ from the telomerase definition."
+        },
+        {
+          "id": "o2",
+          "text": "DNA template and a reverse-transcriptase catalytic protein",
+          "evidence": "The catalytic-unit identity fits, but the source specifies an RNA template."
+        },
+        {
+          "id": "o1",
+          "text": "RNA template and a reverse-transcriptase catalytic protein",
+          "evidence": "Telomerase is a ribonucleoprotein with its own RNA template and a reverse-transcriptase catalytic unit. Source PDF pages: 21, 22, 33."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-telomerase-expression-groups",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-expression",
+        "dna-metabolism-1-cancer-telomere-maintenance"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "Match each cell group or maintenance route to the source description.",
+      "explanation": {
+        "en": "The lecture lists specific normal groups with telomerase, contrasts most normal cells, and gives telomerase/ALT routes for cancer-cell telomere maintenance.",
+        "ar": "تسرد المحاضرة مجموعات طبيعية تعبّر عن Telomerase، وتقابلها بـ Most normal cells التي لا تعبّر عنها. وتعرض Telomerase و ALT بوصفهما مسارين للمحافظة على Telomeres في Cancer cells."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [35]; each tagged concept is tested. No absolute cancer cells never age claim is used. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Most normal cells",
+          "right": "Telomerase off; telomeres shorten with divisions"
+        },
+        {
+          "id": "p2",
+          "left": "Germ, early embryonic, stem, epidermal and follicular hair cells",
+          "right": "Listed telomerase-expressing normal-cell groups"
+        },
+        {
+          "id": "p3",
+          "left": "80-90% of cancer cells",
+          "right": "Telomerase expression reported by the slide"
+        },
+        {
+          "id": "p4",
+          "left": "Other cancer-cell maintenance route",
+          "right": "ALT: Alternative Lengthening of Telomeres"
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-1-cancer-maintenance-limit",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-cancer-telomere-maintenance",
+        "dna-metabolism-1-telomerase-senescence-limit"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 38
+        }
+      ],
+      "prompt": "Which conclusion keeps the cancer-cell telomere-maintenance statement consistent with the next slide’s qualification?",
+      "explanation": {
+        "en": "Telomere maintenance supports proliferation, but the source explicitly retains senescence responses to DNA damage and oncogenes.",
+        "ar": "تدعم Telomere maintenance استمرار التكاثر، لكن المصدر يذكر أن Telomerase-expressing cells قد تدخل Senescence استجابةً لـ DNA damage أو Oncogenes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [37, 38]; each tagged concept is tested. Uses clear prose; does not infer the meaning of the ambiguous PotentialCancerCausingEvents destination box. Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Telomerase maintains telomere length, yet DNA damage or oncogenes can still induce senescence",
+          "evidence": "Telomere maintenance supports proliferation, but the source explicitly retains senescence responses to DNA damage and oncogenes. Source PDF pages: 37, 38."
+        },
+        {
+          "id": "o5",
+          "text": "Telomerase eliminates DNA damage, so no cell-cycle arrest remains possible",
+          "evidence": "The source still permits DNA-damage-associated senescence; it does not describe elimination of all damage/arrest."
+        },
+        {
+          "id": "o2",
+          "text": "Telomerase maintains telomere length and prevents every form of senescence",
+          "evidence": "The next slide explicitly preserves senescence responses in telomerase-expressing cells."
+        },
+        {
+          "id": "o3",
+          "text": "Telomerase blocks telomere maintenance but prevents DNA-damage-induced senescence",
+          "evidence": "The source assigns maintenance to telomerase and still permits DNA-damage-induced senescence."
+        },
+        {
+          "id": "o4",
+          "text": "Telomerase maintains telomere length, so oncogenes cannot induce senescence",
+          "evidence": "The source explicitly lists oncogenes as senescence stimuli despite telomerase expression."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-somatic-senescence",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-senescence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which relationship is described for most somatic tissues?",
+      "explanation": {
+        "en": "The slide says most somatic tissues express little or no telomerase, telomeres shorten during division, and short telomeres may signal senescence.",
+        "ar": "تذكر الشريحة أن معظم Somatic tissues تعبّر عن Telomerase بمستوى منخفض جدًا أو لا تعبّر عنها؛ وتقصر Telomeres مع الانقسام، وقد تشير إلى Senescence."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [36]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Very low/no telomerase → telomere shortening → guaranteed continued division",
+          "evidence": "The source allows a senescence signal rather than guaranteed continued division."
+        },
+        {
+          "id": "o3",
+          "text": "High telomerase in all somatic tissues → telomere shortening → no senescence",
+          "evidence": "The source says most somatic tissues have little/no telomerase, and short telomeres may signal senescence."
+        },
+        {
+          "id": "o1",
+          "text": "Very low/no telomerase → telomere shortening → possible senescence signal",
+          "evidence": "The slide says most somatic tissues express little or no telomerase, telomeres shorten during division, and short telomeres may signal senescence. Source PDF pages: 36."
+        },
+        {
+          "id": "o2",
+          "text": "Very low/no telomerase → telomere lengthening → possible senescence signal",
+          "evidence": "The source says shortening rather than lengthening."
+        },
+        {
+          "id": "o4",
+          "text": "Very low/no telomerase → stable telomere length → unlimited division",
+          "evidence": "The source connects low/no expression with shortening and possible division arrest, not stable length/unlimited division."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "dna-metabolism-1-telomerase-proposed-uses",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-1",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-biomedical"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Match each proposed biomedical approach to its aim as listed in the lecture.",
+      "explanation": {
+        "en": "The source proposes cell expansion for replacement therapy and telomerase inhibition for selective cancer-cell killing; no clinical regimen is specified.",
+        "ar": "تقترح المحاضرة توسيع Cells لعلاجات Replacement therapy، واستخدام Telomerase inhibitors لاستهداف Cancer cells، دون تحديد نظام علاجي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Self-reviewed against supplied PDF pages [39]; each tagged concept is tested.  Final author pass checked Arabic spacing/fidelity and close alternatives; uncertain source claims remain excluded.",
+        "peerReviewedBy": "independent-rna2-techniques-reviewer",
+        "peerReviewNotes": "Checked every keyed answer, distractor, pair and ordered stage against final DNA I source Markdown, with original-image checks on pages 3, 9, 14, 19, 20, 26, 35, 38. Arabic meaning/source terms checked; concatenated option evidence rewritten. Ambiguous universal proofreading, rate/mass, end polarity, Ter labels, phosphorylation and no-aging claims are excluded."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Expand cells",
+          "right": "Replacement therapies, including burns and joint replacements"
+        },
+        {
+          "id": "p2",
+          "left": "Telomerase inhibitors",
+          "right": "Selectively kill cancer cells"
+        }
+      ]
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "dna-metabolism-1-chromosome-map",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-replication-investigation",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-autoradiography",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-okazaki-length",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-pola",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-fidelity-levels",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-proofreading-generality",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    },
+    {
+      "conceptId": "dna-metabolism-1-polymerase-processivity",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-polymerase-conflicting-values",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    },
+    {
+      "conceptId": "dna-metabolism-1-oric-consensus",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-gatc-frequency",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-replisome-table-details",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-ligation-cofactors",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-ter-label-ambiguity",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    },
+    {
+      "conceptId": "dna-metabolism-1-end-polarity-ambiguity",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    },
+    {
+      "conceptId": "dna-metabolism-1-telomerase-structure",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-telomerase-culture",
+      "reason": "Supporting numerical, historical or illustrative detail preserved in the source; initial activities prioritize the separately indexed mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-1-no-aging-qualification",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    },
+    {
+      "conceptId": "dna-metabolism-1-senescence-arrow-ambiguity",
+      "reason": "Unresolved source claim/label; explicitly excluded from scoring while preserved in source analysis."
+    }
+  ],
+  "peerReviewExclusions": [
+    {
+      "id": "dna-metabolism-1-telomerase-not-total-protection",
+      "reason": "Near-duplicate of cancer-maintenance-limit: both test the same telomerase/DNA-damage/oncogene senescence qualification. The retained integrated item also tests cancer-cell telomere maintenance. No concept coverage is lost.",
+      "reviewedBy": "independent-rna2-techniques-reviewer"
+    }
+  ]
+}

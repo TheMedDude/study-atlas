@@ -1,0 +1,1972 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "molecular-biology",
+  "description": "Faithful full-page renders of unchanged authoritative lecture PDFs. Covers and administrative pages are included for exact PDF-page navigation.",
+  "pathBase": "sources/",
+  "format": "image/webp",
+  "lossless": true,
+  "renderScale": 2.0,
+  "renderDpi": 144.0,
+  "encoderQuality": null,
+  "renderEngine": "pypdfium2",
+  "imageEncoder": "Pillow 12.3.0",
+  "manifestSha256": "596882fc2c67995a4821da99fb1bf417e20a930aca4cefd6efcda285ab69dc5c",
+  "totalPages": 191,
+  "totalBytes": 37447858,
+  "sourcePdfs": [
+    {
+      "lectureId": "genes-and-chromosomes",
+      "path": "slides/01-genes-and-chromosomes.pdf",
+      "sha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "pdfPages": 41,
+      "renderBytes": 9625154
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "path": "slides/02-dna-metabolism-1.pdf",
+      "sha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "pdfPages": 39,
+      "renderBytes": 7052258
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "path": "slides/03-dna-metabolism-2.pdf",
+      "sha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "pdfPages": 33,
+      "renderBytes": 6878924
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "path": "slides/04-rna-metabolism-1.pdf",
+      "sha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "pdfPages": 31,
+      "renderBytes": 4615974
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "path": "slides/05-rna-metabolism-2.pdf",
+      "sha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "pdfPages": 20,
+      "renderBytes": 4903484
+    },
+    {
+      "lectureId": "techniques",
+      "path": "slides/06-techniques.pdf",
+      "sha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "pdfPages": 27,
+      "renderBytes": 4372064
+    }
+  ],
+  "pages": [
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 1,
+      "path": "pages/genes-and-chromosomes/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b889c273b809afd51a594506017c03e0ae39947bc4e5e2c8084f222fa9ec8c1c",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 17218
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 2,
+      "path": "pages/genes-and-chromosomes/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "97756b7130245c015d9e799e3039f873dd82a1dd7b6845516b1c158f9456ec6c",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 303548
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 3,
+      "path": "pages/genes-and-chromosomes/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bfa3366e47025653fec3ce4a079488c2d7e8dcd5482079912df59ea5111f6698",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 161606
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 4,
+      "path": "pages/genes-and-chromosomes/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6ade2a97f8ebce065ab4bb9eb5b05cf1af38fcc8b351781c3579fe4f6244e82f",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 112960
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 5,
+      "path": "pages/genes-and-chromosomes/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6cc58ed764c586d719ef89a6b593f4c92f90617862ecd43cf55fe58d226cc6b3",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 179304
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 6,
+      "path": "pages/genes-and-chromosomes/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d66b2d919cb162bb96f2ab0a3adbc7a0d08ae8a50ab2f31f793cca31b8f92ec1",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 180518
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 7,
+      "path": "pages/genes-and-chromosomes/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bbf73a890f5f4ca778aa9a3ac4b5f52b3186092328abb9af58d8e32118093f41",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 45296
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 8,
+      "path": "pages/genes-and-chromosomes/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c7fb0868ad3665072beffe4834050320ad6b9348618987a86a8f753bd3a09a24",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 143534
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 9,
+      "path": "pages/genes-and-chromosomes/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "297e16a4b10f8d7ea6b6eec4380e5990b4f7054d860a4e69cf1798cf63d984a2",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 348912
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 10,
+      "path": "pages/genes-and-chromosomes/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e514192d071157adae4f9203b18cb553bd1b72b24bc04fd6003dcc8c72ad0bd3",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 333700
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 11,
+      "path": "pages/genes-and-chromosomes/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "182ba408d5424b6216716c3de7a8d98c6e3f5930125a54fca9febfdf2378b0b5",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 565666
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 12,
+      "path": "pages/genes-and-chromosomes/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "71874c96d9b0659a1ffdafcc4a104964b73be0e9ce9ce6b2cdd1e69d11593522",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 364812
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 13,
+      "path": "pages/genes-and-chromosomes/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "598302a10c7edb31089456dd1d2df19e510e7f22f0646b3e82cc9414ce458bc6",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 180450
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 14,
+      "path": "pages/genes-and-chromosomes/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "738d568d9f0181b81a6bbe2fa5062427be8bf9737d337dac5fd29fe5ac300e94",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 27798
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 15,
+      "path": "pages/genes-and-chromosomes/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c7108fbcf9ea68c3c74e9b62ae481985e9798cb7bee9a21f9d42b8ab9b235e6b",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 51916
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 16,
+      "path": "pages/genes-and-chromosomes/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "343ac0a2302a31319047d6474a05458087e99329a6289f9930d4f5cc5bacb74b",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 596564
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 17,
+      "path": "pages/genes-and-chromosomes/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f6aa9184ad8ac66ca08e3a0444f0e8cedaa6fa0f0a3e4d32543c84f46bda96b6",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 611386
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 18,
+      "path": "pages/genes-and-chromosomes/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "054b6d1a1f4a6443044b1dd3e1ad3784bf5eaabb7d7d9c3607d1184bb5c2760e",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 222928
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 19,
+      "path": "pages/genes-and-chromosomes/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f7c928fa8d0ce54ce6cc662d656008dc1af4d9655add501b2b2b48b163d935e3",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 227406
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 20,
+      "path": "pages/genes-and-chromosomes/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c865478e38d24a16a5d61f59d6d36f71099238f24e6909869202fe30bcb346c",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 328536
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 21,
+      "path": "pages/genes-and-chromosomes/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bb0b2b93be2cf63d6057332cce54999475430852533302b2c8bab55fe15fc1af",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 42002
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 22,
+      "path": "pages/genes-and-chromosomes/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7e403ecad513cdc97ddd50a3ea62271e1de03b1d70d03601819cb6af0f2010bb",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 33170
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 23,
+      "path": "pages/genes-and-chromosomes/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a19175fcaf48cec2d5991fc56275f569da38fc8de13219228d0784f1e528c4fc",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 113958
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 24,
+      "path": "pages/genes-and-chromosomes/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8837d29c9d321f2538ac0ddd5a925f8cbe4ca402fd56e68153194ca88eb81b06",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 177052
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 25,
+      "path": "pages/genes-and-chromosomes/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d81ba9210d55e6ea3128b2811de489126f7df95c2a756c698beb2202ffa677a5",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 75970
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 26,
+      "path": "pages/genes-and-chromosomes/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "232e019c9229e013489841045946bd506d7e6d32adfc3390b18263e514f0b71d",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 249188
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 27,
+      "path": "pages/genes-and-chromosomes/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d6f8ed85f22214e7464fe302663e51b8742aef9521622f6e25e48a1e8d73b471",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 283364
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 28,
+      "path": "pages/genes-and-chromosomes/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "30b44adb9f302a450deb5ec55a7f5d5ff4ad35ff879c202b9effa91c7d0c1bc9",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 336980
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 29,
+      "path": "pages/genes-and-chromosomes/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1b272b8817edf9b43e3a990b1e4d9bf8ccdb83d1c55dd0728eb3d3ae6500362",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 219504
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 30,
+      "path": "pages/genes-and-chromosomes/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9167f633789c87cc1011a6c6031a4a233ff01f0cf0e1bca10323ae5cdcf60049",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 221626
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 31,
+      "path": "pages/genes-and-chromosomes/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fdce3076cbf305a3586f36fe4e68d5f14ba033f62b2c00c8ed4e5f9c5ad8660a",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 42278
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 32,
+      "path": "pages/genes-and-chromosomes/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "adaa6d3ef4cd6a65dd400ef4fbadc265ed7523fadfb41961f2eecf8579bcb22c",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 35858
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 33,
+      "path": "pages/genes-and-chromosomes/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6a13f4d32d97b1d711f5ec0ffc33c9fa42384c245f273292de162e7272cec856",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 266328
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 34,
+      "path": "pages/genes-and-chromosomes/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9c3d721c207d44b496147b497353e3485c0faaa905d1b1d8cd4c198ffc8881ef",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 346888
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 35,
+      "path": "pages/genes-and-chromosomes/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9227476fa57925f0c3b5927267ca694afe86e1f3464d3142194480748dcf910d",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 748480
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 36,
+      "path": "pages/genes-and-chromosomes/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c54d040df35028e60d0d5ea4d3d3b19622d9f780c265423ccc863022f9679afc",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 42762
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 37,
+      "path": "pages/genes-and-chromosomes/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e3cf52bdbd1d167e7016ed0d2311228066f6767d83563da41645d78d2d3a4830",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 491360
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 38,
+      "path": "pages/genes-and-chromosomes/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "87095750ee9275921d82bfa959dede0694b28eabd6ea6b1aa13244f0e38aa23f",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 483716
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 39,
+      "path": "pages/genes-and-chromosomes/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "996ae1e674e1d1d56dda5e80355b261cfd01c9ae869d56b02e550c5efe0f764f",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 26826
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 40,
+      "path": "pages/genes-and-chromosomes/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "03ad41c789167ac6677d34ef476791151d194427b229c46529923f6b3a9b4a53",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 84222
+    },
+    {
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 41,
+      "path": "pages/genes-and-chromosomes/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3485d7b2d71a0495983d3d65a83a41f6de5205e45eebea1743846145ccbef825",
+      "sourceSha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
+      "sizeBytes": 299564
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 1,
+      "path": "pages/dna-metabolism-1/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "08fbcbc1918d5164268166875cba7266d3809e88a729332120552a74e5775985",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 12582
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 2,
+      "path": "pages/dna-metabolism-1/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1bc94f44c578a7b9d3ff290968f2c4ba3322b76bba31253b8f2617055aa55985",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 511364
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 3,
+      "path": "pages/dna-metabolism-1/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "094e43a9dcbf4abc9805bf2c8f791fc1883c40c8d33f9043b40a673a5b01af7d",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 248408
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 4,
+      "path": "pages/dna-metabolism-1/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4e442e6a69819f1068b3e01d5dffc9d321705609bfb7157ea70be7a573624249",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 38234
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 5,
+      "path": "pages/dna-metabolism-1/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13f7ccf2e691f460e6a61b811900f67c768fe9616e621d75e82b790c79363ec3",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 460682
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 6,
+      "path": "pages/dna-metabolism-1/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5920a9be6cad51781213a7e162bb67ab16cf3ee3c70d617070d6dcbde058de2c",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 290578
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 7,
+      "path": "pages/dna-metabolism-1/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e82936e08475d41deb5c2ac543183d3d2e79703c8260de4eaab492eb2c90558b",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 54130
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 8,
+      "path": "pages/dna-metabolism-1/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ecd05edce3b51f20f892461d55b0f1de5e85c5bfe3961d4cafc2d403099d67b9",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 58040
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 9,
+      "path": "pages/dna-metabolism-1/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8abe91ee622419dcbd11b927746ae0e86fad3b485fa9008cd499267180e313fa",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 246142
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 10,
+      "path": "pages/dna-metabolism-1/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "327165dce56799e005816a8fff05f10d9921f5b5cef60b7d261ee11c58ee900e",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 44438
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 11,
+      "path": "pages/dna-metabolism-1/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d5203d097ed4ad05655476aa0de9ebed8355e8397f1b7587fea9ea44d05dbba0",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 283640
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 12,
+      "path": "pages/dna-metabolism-1/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "22639209bf3ceb848d85df6cc1baf7753cf7cd7fb37f8e378aaed478ed90bd89",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 284094
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 13,
+      "path": "pages/dna-metabolism-1/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a6d11eab7ae7128897a5a1a71a6086c01d4f2ec8f8c8646a2db6960f6f12dd73",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 238158
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 14,
+      "path": "pages/dna-metabolism-1/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "17223c67c1810c941d69d683533b671d00a5603383132c30701a2e61734d82a7",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 416920
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 15,
+      "path": "pages/dna-metabolism-1/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "65710ebb5b147534aea9d9d37319ee856c5861adc6a5d822c240151e6c610a92",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 255440
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 16,
+      "path": "pages/dna-metabolism-1/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8ba03112444f1314376ed97acfaa5af647d9f8d8bc3bef727bafe6748a63b60b",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 271840
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 17,
+      "path": "pages/dna-metabolism-1/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "88bac11bc6920d1a60ccec3252efd4f82f1f6fced9fc231a5f23ad853e7dd6f2",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 20370
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 18,
+      "path": "pages/dna-metabolism-1/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "220f0b236bbe29012c33537bacddb09c7dd943e42d0b66a90d953c3afb4362e6",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 62602
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 19,
+      "path": "pages/dna-metabolism-1/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7473e0548b12b87d898d2e27c94e7c5574977db15ee714ec68e48d2dc955c490",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 132548
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 20,
+      "path": "pages/dna-metabolism-1/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "232e8f3c3b1a7fcfc1268521d2fdfbc5651133e62f18d261d3c6f73abe3746bb",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 63600
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 21,
+      "path": "pages/dna-metabolism-1/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6b3a7b9ef7af21343d41f98fbbfda1cb08701cb52d1f6077939d846cc5fa0d45",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 320524
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 22,
+      "path": "pages/dna-metabolism-1/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3e1adbd5cec07428f5363bcaf816e17225f34b57b0d51eff32699555f476b9c1",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 180378
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 23,
+      "path": "pages/dna-metabolism-1/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ca63865aff839517ef2f8842af28fd9320c383410327341445dcd160f74c7de1",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 137330
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 24,
+      "path": "pages/dna-metabolism-1/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "debbe1cd863ff6e8d91e96ca93d69e8b096694e2dcc5e85bfa034c7abcf5758b",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 219512
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 25,
+      "path": "pages/dna-metabolism-1/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "93b96165a571756d18cb833486ff7c31bbc1c203c1d05210c6ba5dc16a141679",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 330976
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 26,
+      "path": "pages/dna-metabolism-1/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "41a7ea25e8b82dad57c639523268e8fcf1ca85a76f9d8b6d65ccc318c953ecee",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 64822
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 27,
+      "path": "pages/dna-metabolism-1/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fe78737315a0afd6210272a1de94a558676f5cdeb3085f6ea227282c0ea2d3fe",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 20502
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 28,
+      "path": "pages/dna-metabolism-1/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ef98fdb871cb972a4fb0cdbe12d4b8ffdbcfaadb08280e6620eb23947265aa5e",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 77398
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 29,
+      "path": "pages/dna-metabolism-1/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "39916c5fe5ce8370181e33f54d9a33d724706447265c110944f6e969566010b2",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 47452
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 30,
+      "path": "pages/dna-metabolism-1/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5645057f8b4bc18dfff6c51c59867971184ba67b76c027d3d4e378265c281ae7",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 493112
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 31,
+      "path": "pages/dna-metabolism-1/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "25eb6926ed7ac5124869c3e8cb85c0a55e2a5bd3a0d86af7208ca2b914186b14",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 47740
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 32,
+      "path": "pages/dna-metabolism-1/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0be68e6ec2117a3ec32683b10bc10d4ce22559352df35c5d4ac3ab46753b8b96",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 49682
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 33,
+      "path": "pages/dna-metabolism-1/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9b37c55ef380df005e79898f7974d2f1cbcd0d76a036fe94be4925ed35084ae0",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 432786
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 34,
+      "path": "pages/dna-metabolism-1/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "af2a4b85c89db693f8302da3f5339851b82813546d546096aecedd35200773ca",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 45754
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 35,
+      "path": "pages/dna-metabolism-1/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e3849397c594b940c4b0cb8092d59c567129e36f0dce948bc82d6bbc694f65c4",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 40342
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 36,
+      "path": "pages/dna-metabolism-1/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "76e8d48a15c8b42d5b3fc27b833685c70e9c750f3ef59642e8ff7001fa1e4e72",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 220602
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 37,
+      "path": "pages/dna-metabolism-1/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8ad5f240c31bc2e6020f45bdc81703188c5a4749c39fbaa00663623fada0b717",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 266478
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 38,
+      "path": "pages/dna-metabolism-1/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c2c50f469fffdc0774302656229ab0c846b89613f122fabac26adc08d0f91670",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 40894
+    },
+    {
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 39,
+      "path": "pages/dna-metabolism-1/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eea225d072fa484b3a21fd1ec6107b2c34deeecbcb1697a97fd142a4f9ffbe3a",
+      "sourceSha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
+      "sizeBytes": 22164
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 1,
+      "path": "pages/dna-metabolism-2/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "073f2b95b3217d80cf86ff7de76d659d62b55e439aade7e222c0a34820f4b3cd",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 8764
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 2,
+      "path": "pages/dna-metabolism-2/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "32db54d60e63666bd437efb3cf4af24ba5224656755a35af5dc795de88c1a9f1",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 55456
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 3,
+      "path": "pages/dna-metabolism-2/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b3e58e36c5ee14914a5e8d632c1703d29c22596a84644774afbd509164494865",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 57210
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 4,
+      "path": "pages/dna-metabolism-2/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0fcf1c4360689af94057096e0fc4f83e8aa52e6a97eb57d2843e19d7c63f1901",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 237670
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 5,
+      "path": "pages/dna-metabolism-2/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "594162528c6c196fea3bd8404b8a4126dae754ff9360ad0b3b1b8cc8a711b758",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 36696
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 6,
+      "path": "pages/dna-metabolism-2/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "23b00dac1daa22b75d620062fd2e2e072fef694ea32ffc0735fb7c11c6468634",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 337558
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 7,
+      "path": "pages/dna-metabolism-2/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a717528dc04ba43ab19e3200b7cc3c42d9b644ecb1df9bebc9158c0fc8754ab5",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 219308
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 8,
+      "path": "pages/dna-metabolism-2/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ad25f79b4c22d94a41e0f0f091f0f5215826a2ef45525ed08f8aca916b0d8d6f",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 319882
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 9,
+      "path": "pages/dna-metabolism-2/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff6eba30d13f686313f8ca92171a05b3b51914bbc3ecd0abf16a53a1bf752a54",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 245218
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 10,
+      "path": "pages/dna-metabolism-2/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "741961a3a77c4489cd5a91608c533655e5182151729a1467484da4e1faa39ae4",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 328220
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 11,
+      "path": "pages/dna-metabolism-2/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2afb0a4b17b4402005f8ac088a6652bd4f38fff7b1dc7a8db33e520235973db5",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 464510
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 12,
+      "path": "pages/dna-metabolism-2/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5f5088765c58c9f6987b8a8afe1a58e836d9805a702df8fc7ccb0a61101952b1",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 27674
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 13,
+      "path": "pages/dna-metabolism-2/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "131a71b4eff582c09fa8dcc879d44cb9d69b4e07e0da765cd684b3d1d8f3d991",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 169952
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 14,
+      "path": "pages/dna-metabolism-2/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5f2920ce72b9c9d95cb4cd66c4d9e3d78ae1a4d3ee263cb0acbda926e1a778a7",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 394620
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 15,
+      "path": "pages/dna-metabolism-2/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "50f84663717151e4cc6453066fdc9159bc9247ed8cf55d8ade383fdc63bfe6bf",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 60862
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 16,
+      "path": "pages/dna-metabolism-2/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "152f2e509662c6e2622600dcaa9bc39d55f1bd963f52b26fcd928c1d20de134a",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 199326
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 17,
+      "path": "pages/dna-metabolism-2/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b9ac9cea2c990f32361700e6f8a58a1ec8a4001d9308ae7891ea4e717529b52",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 170668
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 18,
+      "path": "pages/dna-metabolism-2/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bbfc90d229126fdbb05f0ec34d930edd3185161950227430e8cd9436a787ddf1",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 217648
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 19,
+      "path": "pages/dna-metabolism-2/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c8f54fc128c393220c483de71062cb0dcd9b2852511fad93383076c313983a7e",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 225894
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 20,
+      "path": "pages/dna-metabolism-2/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f17790c93a193d36211d0d8c788f4b0a8f237e745ba76b6da91f64d3ef350c5a",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 49840
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 21,
+      "path": "pages/dna-metabolism-2/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "31c8047480e691707c55d3c91ae27be16cd232c7d16e84281cd1eef7f142df86",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 49860
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 22,
+      "path": "pages/dna-metabolism-2/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "39be1b7511336d37e73b28413a836f32a2685af315c67e828934a91ec415ecc6",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 24472
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 23,
+      "path": "pages/dna-metabolism-2/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0d393432bcdd7b02082a0b0c5dcd9051a1a34b5e14605536b2b3c9a5367ac2f3",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 83306
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 24,
+      "path": "pages/dna-metabolism-2/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "955097628d77a273324dc78a71bf68307a20fda6ab7a9abded0e357752cc283e",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 32428
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 25,
+      "path": "pages/dna-metabolism-2/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "474e1a1e6dd61f5818404bcb4a7fe1a2caa2a3408697b2ba6c287f516b340744",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 543760
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 26,
+      "path": "pages/dna-metabolism-2/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "54a0a9db54ab9716c52791674235b4d180da38cd9b86a90b2dabf2220c47c25e",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 347886
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 27,
+      "path": "pages/dna-metabolism-2/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6cc372dcefd81a0deb0e2c92493750dc4031ff99136182fd019c456d74bff07b",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 680766
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 28,
+      "path": "pages/dna-metabolism-2/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "82a7502369048e1160125b87a8539443f3c300644e4511a31964e650d6091438",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 45980
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 29,
+      "path": "pages/dna-metabolism-2/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3c3711b7475e2b802219cc84f54401b9629d686f295f18be1b2677c7af16d075",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 47110
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 30,
+      "path": "pages/dna-metabolism-2/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "911ab6038bdb44a6a61e4ef28997f336477b5f64315aee57025b2545871e5a91",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 375348
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 31,
+      "path": "pages/dna-metabolism-2/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "377db421224a85fc3e4d5590837b8105a35287997c44c32ff60cd866133eb1ed",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 696814
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 32,
+      "path": "pages/dna-metabolism-2/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13562fd40f1a7d04f23b32c90f69de0664960772bb1a1f053cee735d73b2afd7",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 39052
+    },
+    {
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 33,
+      "path": "pages/dna-metabolism-2/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff8b63d2f5fa01cbdbfe2fc310e01a89496c4ce8c80585f2aac3564f238ddcc2",
+      "sourceSha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
+      "sizeBytes": 85166
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 1,
+      "path": "pages/rna-metabolism-1/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d4c4bcc07a11ffaf16be98193300b7076e2c048600fc97ee5eed49eace28e7a0",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 13076
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 2,
+      "path": "pages/rna-metabolism-1/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "64497cafe902686f0a19d7086cf246d465c9820299db7d1e449bd03519b790ef",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 65058
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 3,
+      "path": "pages/rna-metabolism-1/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13c17ceaf2e510a51f1d125b4f23af67cf436b204875fc5c954ac2840a728885",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 81812
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 4,
+      "path": "pages/rna-metabolism-1/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2fc162d5bc239fe91a536edc9add19e48f9fe2e55b2119241980fb84d9add16b",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 88386
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 5,
+      "path": "pages/rna-metabolism-1/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "64a490e6706694181ff3858505315b6019466dfcf9285f0dee3af48421353a39",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 53810
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 6,
+      "path": "pages/rna-metabolism-1/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4c4cae12e9b6f96060de095cf13f5c16df5a38423592cc449bf8ee4b9bf4cd5b",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 19436
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 7,
+      "path": "pages/rna-metabolism-1/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "61e4780868c78c8fee242ef8ba368bc3c1039fb91c01ae04101672f10beb1ab3",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 352812
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 8,
+      "path": "pages/rna-metabolism-1/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "111622f0d2d1d335907b3a08ee3e82b5ba3516f97ab46f5227514a861313d9b1",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 55770
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 9,
+      "path": "pages/rna-metabolism-1/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "16d1dfe06698732b382faa863cb63434fed821940277a629164ec3fea459a224",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 413148
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 10,
+      "path": "pages/rna-metabolism-1/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "14c16ce7d52a556364478729381d41d161928e1869f421caf1ceec6be5097927",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 139038
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 11,
+      "path": "pages/rna-metabolism-1/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fef17a42fee97316e9d0ab7a78218e4455634f2f417ccd1b53a1d7ee4c0483fa",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 136864
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 12,
+      "path": "pages/rna-metabolism-1/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "de4764a97eb3543755b074f3e49833bf92b21a6ab2523f13df605cbcd1043b4f",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 46216
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 13,
+      "path": "pages/rna-metabolism-1/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "328a847a40509e40bbff2967cef57e84db9b6281622d12c518fbca578b4adf4e",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 18720
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 14,
+      "path": "pages/rna-metabolism-1/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "061bb16d40bba79f33adb3952df3987459dc6a151703086e499641867050d330",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 140092
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 15,
+      "path": "pages/rna-metabolism-1/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9ac6f903bee28a805f9fc1a33947ca81398e2461323067491b661412104753fb",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 322500
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 16,
+      "path": "pages/rna-metabolism-1/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "418738a56ea373f0cd75ec4e81995385fa3f73e5bfd40ca26e1f445933ac7955",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 38890
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 17,
+      "path": "pages/rna-metabolism-1/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "991674e769362d0fa3a8effb3f569edd95153b490082d4b175a6ae9a4b968311",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 72018
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 18,
+      "path": "pages/rna-metabolism-1/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "737746a2f9981cd8eee7ed5d9b871022d5e400be24e0da7c8189d3442ce0ff40",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 203056
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 19,
+      "path": "pages/rna-metabolism-1/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "54c4d5cc8b02b7d1d7a421bbf572291ca37503b29aa040736510686394170a75",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 236952
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 20,
+      "path": "pages/rna-metabolism-1/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "58b2c49c0c5d4ce756be3e274e1e27182236f63f40725e2d24fba86835b914bd",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 51226
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 21,
+      "path": "pages/rna-metabolism-1/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "86f4987d8bd3d9202ccbaa591e1c9989a1943781bd3becde8bf0cdfc6b7d159c",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 83180
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 22,
+      "path": "pages/rna-metabolism-1/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "faf4d716681e627ef2f5a3a4821aa1bf3f0b45572a666af6a3df6e1058539cc6",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 345894
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 23,
+      "path": "pages/rna-metabolism-1/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c90c45e5045f8ff85f4ea2d5054ed9f617ed2842e4329eb51ea3dd33d0d5eb8f",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 291844
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 24,
+      "path": "pages/rna-metabolism-1/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4c10e425d36f31d17218d5f659d19c2bb546b9791e7e34f31e78f324c98b6af8",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 378906
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 25,
+      "path": "pages/rna-metabolism-1/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b177908d2ec92aa3ff118460553c8ef99fc7e3c22bb6f00615a12b91b2919fc8",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 25716
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 26,
+      "path": "pages/rna-metabolism-1/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "72ee96c2536cf3b057e28f03ba03f002716d914599998da3ade0a62a8ac3d11f",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 204282
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 27,
+      "path": "pages/rna-metabolism-1/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9715fb77ad86ca5fe94447eeb64a150fc76ab35c7d1abe6f7a51eaa08ec861c4",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 342140
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 28,
+      "path": "pages/rna-metabolism-1/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4ab2973a2236854b5395a2bf2718a2ef668f00069128be7879728332ae403fae",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 32626
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 29,
+      "path": "pages/rna-metabolism-1/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "96f960e5af35490478c3fc8bbbebe852e101d0b9835f2cb45ac4f5bf63e9713d",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 45936
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 30,
+      "path": "pages/rna-metabolism-1/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3f88bd781f685828b1b2c60fff000f63d728e6742e100f2c0eb0b955eea82aef",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 51014
+    },
+    {
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 31,
+      "path": "pages/rna-metabolism-1/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8f458067fd2882e42e666046fef7024babd1efdd70aa71053e69f63e6f4b5be3",
+      "sourceSha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
+      "sizeBytes": 265556
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 1,
+      "path": "pages/rna-metabolism-2/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fb4207349b348fc8411c799220fcc85a92353f4430a39737c9739d0b39906327",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 22134
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 2,
+      "path": "pages/rna-metabolism-2/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c7e7c0335ce4f6ad3968dcd43aba0cdb6e712cc3e03981d84642c3250ea19678",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 179312
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 3,
+      "path": "pages/rna-metabolism-2/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "64b683dc0f32f8b6e99f49f3b66cd6dbb1a677d3ee4cdfed91eee0ca90133621",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 197116
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 4,
+      "path": "pages/rna-metabolism-2/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "458d42682d8cfec89428254397f6f46cf501763aa5aa218a751c9b942cd9f04d",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 206438
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 5,
+      "path": "pages/rna-metabolism-2/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f7bcffb67244daa9d4e7a86c25d41222f4d3c07dc728105ba13a559ecaf04efc",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 134824
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 6,
+      "path": "pages/rna-metabolism-2/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "52c3122a2229254d4bb3a42ef1d1f3cacf38b0766461662f19a416ddd02d489f",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 320820
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 7,
+      "path": "pages/rna-metabolism-2/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9b172fe1fba44cf35274269dd93e539e1ebf0d7c964b34ffab46599f22b86fe3",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 55900
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 8,
+      "path": "pages/rna-metabolism-2/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2e7d5ff54cff5be043fc3d5ef121f6384f77ea5cb047b9e47d0be96174c19e36",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 225828
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 9,
+      "path": "pages/rna-metabolism-2/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d3227f48bc40953dc3eba0dc191332c7a5bd03181e720ff01749414bd20cd03f",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 234306
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 10,
+      "path": "pages/rna-metabolism-2/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fe252b861b63656d471cf79d35782d7d97ecfdec3090124e96ae976565d17367",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 285632
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 11,
+      "path": "pages/rna-metabolism-2/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2830547cf01b48d7a98a86bc46997c4b996f104aa383dfb49c5b324138fb47b0",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 484298
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 12,
+      "path": "pages/rna-metabolism-2/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "49ba1f0c0aea937c215614f43e890fa03fa52262a7b8da3e05c65187e8d7afc3",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 622578
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 13,
+      "path": "pages/rna-metabolism-2/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8d490ec29afedcd2aa29c7eb7b389572d2dd2e9cf8864b08ad837c0421a07489",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 331964
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 14,
+      "path": "pages/rna-metabolism-2/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8ec405a65572ddc37ddc860ea4b846edef0b8b2914d7ea2dd3a3fc451fba050a",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 321904
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 15,
+      "path": "pages/rna-metabolism-2/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f76fe910e27a5a399c1b53e16e89eb8ba7136db1d8b7757b7591f7e747574aca",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 48730
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 16,
+      "path": "pages/rna-metabolism-2/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9582370159dfd5391ce1958a759e6bd07c26c9010fcfb8e5f4f88644a054cb51",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 33354
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 17,
+      "path": "pages/rna-metabolism-2/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5f9b24a4f53f1fd007008d1806a8af5e4b5f22e0a81a339283d81e234ea4ba1b",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 270910
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 18,
+      "path": "pages/rna-metabolism-2/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "31676d4a35785fec1db872d5729980da71a2761b0c03790b5dba32360e95440b",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 413174
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 19,
+      "path": "pages/rna-metabolism-2/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cb5f0885b98c6ab77282aa4c16f6aa3b1d689da244ce3b60e4363502df674700",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 141724
+    },
+    {
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 20,
+      "path": "pages/rna-metabolism-2/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dfc7cb68117136ac4dcb7d9d57d5fa5281e5a5f9dd3629a454c86b7032291c1a",
+      "sourceSha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
+      "sizeBytes": 372538
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 1,
+      "path": "pages/techniques/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "118d5f731f8286a336ba7c9c2924f94658265c126c62adb08fa54651e2a65b21",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 13544
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 2,
+      "path": "pages/techniques/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fc55ea93361232f17afd621df57ade8547e80ab95f66102981f30d8f6f4fc46f",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 62026
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 3,
+      "path": "pages/techniques/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "16804c44999e4e517809a8ed339f48a53f75f83148ad8673efc09af1eb43dd25",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 250718
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 4,
+      "path": "pages/techniques/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5bd9e81bbfb1a104e0332af185644e936a1b3034da635d276cb50797d3e17f00",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 51228
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 5,
+      "path": "pages/techniques/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13dfc8a9d614eae667a8f38c40e6de494eb7eab50402a95abd0a866ad3edfc7c",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 64102
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 6,
+      "path": "pages/techniques/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "270232d187039c5a5c05f431fce677439ff7e0a62dd69284060837fd1d4cc9be",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 425544
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 7,
+      "path": "pages/techniques/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eea0df3025130817ab49a16d15ba923dc4b2e780b4391bc26d6cd4dcdeb821be",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 52154
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 8,
+      "path": "pages/techniques/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "31f30dd353adfeb2981697193b80372d890846e993dd3ec4dd4eca03cc1642a1",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 30340
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 9,
+      "path": "pages/techniques/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1fb579c08e110682aa4037beed5f9ef8d76407adde4e5be4411b5098b708f590",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 216908
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 10,
+      "path": "pages/techniques/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2830be8db439d6a3ded3b08b1a8616b8855e21cef027d329f59b980c496e6a35",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 81560
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 11,
+      "path": "pages/techniques/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "203c87363e4f7a5b44c194b14c1341d682a7d846110a4cbc483b4defa09b71d8",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 124672
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 12,
+      "path": "pages/techniques/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8666c6204decba2551aba3ddd7c9e2444565c3d5552fb08b426b7e6638f8fa44",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 76650
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 13,
+      "path": "pages/techniques/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "448d7ddae2097e173bd1d37095e6b7b9f1b88ccedba518efba0f6eab681f6ac0",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 33684
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 14,
+      "path": "pages/techniques/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7b92abbc94afe2ee3964d0b498f40b8730a87343bd51d37cd4d326a6bb8e6fc7",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 141860
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 15,
+      "path": "pages/techniques/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bf43116a34abe4b8085b297062e87b6500ac7faee1ed98d98104f1c63d9801bd",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 63362
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 16,
+      "path": "pages/techniques/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7e4c286d024a4b082b70053ab971dca9eaafc29be6a5484d5c6637c041b0167b",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 147928
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 17,
+      "path": "pages/techniques/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6a3b99ffbe1eba1f9ce1b2a591b6fcda4464adba3ace96e0473c986c566dbf16",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 397198
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 18,
+      "path": "pages/techniques/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a194cd83e232b3700c178d13745798f0faa45917b44d9dcd673591caacbe553e",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 180944
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 19,
+      "path": "pages/techniques/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5d9376269fa6dbc0d6b728a774c866d7d2623689e64ee6730fc7d2bafe9d3fcb",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 415920
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 20,
+      "path": "pages/techniques/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "57602c9402a86ec3fde967ed16b70656e9a2e33d995bd59af615f47efb3a0d5b",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 564400
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 21,
+      "path": "pages/techniques/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b5822f8f80ab00ead00bb5c64bc7f75ed48b83b9518556f16856d2417a1bcb8e",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 26240
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 22,
+      "path": "pages/techniques/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9f7810b21de926e9f0bb2d988bbd4a55346887f312cf8909b458299e8a29902f",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 39638
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 23,
+      "path": "pages/techniques/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9c861801d3eaa3ec8260540f63d859935e35968c6c020216ab21654848c065a9",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 53750
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 24,
+      "path": "pages/techniques/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "029f4ae5df405dbe1dea0f2f012aac8e7ad6b29b1686117d79429b949734f12d",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 221580
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 25,
+      "path": "pages/techniques/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a2e649a604a32d80d3211d7040ccdf24450aa139741d11925b8629ec4dead363",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 407664
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 26,
+      "path": "pages/techniques/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "43d6f47c98cb765be37eb59f4811fd4d47edf92b8a84b3748e9b1dde1d5493d4",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 41508
+    },
+    {
+      "lectureId": "techniques",
+      "pdfPage": 27,
+      "path": "pages/techniques/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cdb0d9f06a820965f71bef462223d0565ea10bc5af51a7a49eafd4bfecbb2874",
+      "sourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+      "sizeBytes": 186942
+    }
+  ]
+}

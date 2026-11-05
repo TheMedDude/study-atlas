@@ -1,0 +1,1880 @@
+{
+  "lectureId": "techniques",
+  "activities": [
+    {
+      "id": "techniques-pcr-selected-target",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p02-pcr-purpose"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which description matches the PCR operation defined on the slide?",
+      "explanation": {
+        "en": "PCR targets and amplifies a single selected DNA sequence in vitro, using template, nucleotides, primers and polymerase.",
+        "ar": "يستهدف PCR تسلسلاً محدّداً من DNA ويُكثّره In vitro باستخدام Template وNucleotides وPrimers وPolymerase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "PCR definition checked; distractor processes have distinct source assignments, not merely missing features.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "Direct amplification of RNA without a DNA intermediate",
+          "evidence": "The definition specifies DNA replication; pages 11-12 separately convert RNA into cDNA before PCR."
+        },
+        {
+          "id": "d",
+          "text": "Separation of DNA fragments according to their lengths",
+          "evidence": "Page 21 assigns length separation to electrophoresis in RFLP, while PCR is defined as amplification."
+        },
+        {
+          "id": "e",
+          "text": "Termination of DNA strands by adding dideoxynucleotides",
+          "evidence": "Page 13 assigns chain termination to Sanger sequencing, while page 2 defines PCR as amplification."
+        },
+        {
+          "id": "a",
+          "text": "Amplification of one selected DNA sequence from a complex DNA mixture",
+          "evidence": "Page 2 explicitly specifies a single sequence in a complex DNA mixture."
+        },
+        {
+          "id": "b",
+          "text": "Amplification of every DNA sequence in the mixture without selection",
+          "evidence": "Contradicts the slide’s single, specifically targeted sequence."
+        }
+      ]
+    },
+    {
+      "id": "techniques-taq-repeated-heating",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p03-taq"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which Taq property fits the repeated heating and extension cycle shown?",
+      "explanation": {
+        "en": "Taq is presented as a thermostable polymerase from Thermus aquaticus. The cycle figure retains the polymerase through repeated heating cycles.",
+        "ar": "تصف الشريحة Taq بأنه Thermostable polymerase من Thermus aquaticus، ويُظهر شكل الدورة بقاء Polymerase خلال تكرار التسخين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Links explicit thermostability and polymerase-still-present labels; does not invent an optimal-temperature mechanism.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "A need to replace the polymerase after every denaturation",
+          "evidence": "Page 9 explicitly notes that thermostable polymerase is still present for repeated synthesis."
+        },
+        {
+          "id": "c",
+          "text": "A role as a primer rather than a polymerase",
+          "evidence": "Pages 3/5 identify Taq as polymerase and oligonucleotides as primers."
+        },
+        {
+          "id": "d",
+          "text": "A role as the DNA template rather than a polymerase",
+          "evidence": "Pages 2/3 distinguish template DNA from Taq polymerase."
+        },
+        {
+          "id": "e",
+          "text": "A role as the chain terminator rather than a polymerase",
+          "evidence": "Page 3 calls Taq a polymerase; page 14 assigns chain termination to incorporated ddNTPs."
+        },
+        {
+          "id": "a",
+          "text": "Thermostability of the Thermus aquaticus polymerase",
+          "evidence": "Page 3 labels Taq thermostable; page 9 says the polymerase remains during repeated cycles."
+        }
+      ]
+    },
+    {
+      "id": "techniques-pcr-stage-temperatures",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p05-pcr-primers-cycle"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Match each PCR stage to the temperature given in the basic-reaction slide.",
+      "explanation": {
+        "en": "The basic-reaction slide gives 94°C, Tm-5°C and 72°C for denaturation, annealing and extension respectively.",
+        "ar": "تحدّد الشريحة 94°C لـDenaturation، وTm - 5°C لـPrimer annealing، و72°C لـExtension."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Uses general slide5 condition; not confused with the 54°C example on slide9. Magnesium-valence ambiguity excluded.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Denaturation",
+          "right": "94°C"
+        },
+        {
+          "id": "p2",
+          "left": "Primer annealing",
+          "right": "Tm - 5°C"
+        },
+        {
+          "id": "p3",
+          "left": "Extension",
+          "right": "72°C"
+        }
+      ]
+    },
+    {
+      "id": "techniques-pcr-cycle-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p05-pcr-primers-cycle"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Order the three repeated PCR stages.",
+      "explanation": {
+        "en": "The source lists denaturation, primer annealing and extension in this repeated order.",
+        "ar": "ترتّب الشريحة دورة PCR كالتالي: Denaturation ثم Primer annealing ثم Extension."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Order is explicit in the basic-reaction stages; no exact copy-yield calculation included.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Denature the duplex DNA"
+        },
+        {
+          "id": "s2",
+          "text": "Anneal the oligonucleotide primers"
+        },
+        {
+          "id": "s3",
+          "text": "Extend from the annealed primers"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "techniques-pcr-flanking-primers",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p05-pcr-primers-cycle"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which primer arrangement matches the basic PCR design described?",
+      "explanation": {
+        "en": "Two oligonucleotide primers flank the desired sequence and are complementary to opposite strands of duplex DNA.",
+        "ar": "يحيط Two oligonucleotide primers بالتسلسل المطلوب، ويكون كل منهما Complementary لأحد Opposite strands في Duplex DNA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Arrangement anchored to explicit opposite-strand/flanking wording; self-complementary pair contrasted with page 8.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two primers flank the target and complement opposite DNA strands",
+          "evidence": "This is the explicit design statement on page 5."
+        },
+        {
+          "id": "b",
+          "text": "Two primers flank the target and complement the same DNA strand",
+          "evidence": "The source explicitly specifies opposite strands."
+        },
+        {
+          "id": "c",
+          "text": "One primer flanks the target and replaces the second primer",
+          "evidence": "The source explicitly specifies two oligonucleotide primers."
+        },
+        {
+          "id": "d",
+          "text": "Two primers lie inside the target and replace the DNA template",
+          "evidence": "The source specifies flanking primers and a separate DNA-template requirement on page 2."
+        },
+        {
+          "id": "e",
+          "text": "Two primers flank the target but are complementary to each other",
+          "evidence": "Page 8 says avoid complementarity between primers; page 5 assigns each to opposite target strands."
+        }
+      ]
+    },
+    {
+      "id": "techniques-pcr-sensitivity-specificity-risk",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p07-pcr-sensitivity"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match the PCR property to the relationship emphasized on the slide.",
+      "explanation": {
+        "en": "The source links sensitivity to small starting amounts, specificity to primer design, and contamination risk to amplification of a contaminating molecule.",
+        "ar": "تربط الشريحة Sensitivity بكمية DNA صغيرة، وSpecificity بتصميم Primers، وخطر Contamination بإمكانية تكثير جزيء ملوّث."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Numerically inconsistent five-cycle example excluded; three clear relationships are tested.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Sensitivity",
+          "right": "Amplification can start from a very small DNA amount"
+        },
+        {
+          "id": "p2",
+          "left": "Specificity",
+          "right": "Related to primer design"
+        },
+        {
+          "id": "p3",
+          "left": "Contamination risk",
+          "right": "A sample or reagent contaminant can itself be amplified"
+        }
+      ]
+    },
+    {
+      "id": "techniques-primer-design-profile",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p08-primer-design"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which primer profile matches all the design features listed?",
+      "explanation": {
+        "en": "The slide recommends 17-30 nt, usually about 20 bp, about 50% GC, minimal hairpins, and no complementarity between the two primers.",
+        "ar": "توصي الشريحة بطول 17-30 nucleotides، غالباً نحو 20 bp، وبنسبة GC تقارب 50%، مع تقليل Hairpins وتجنّب Complementarity بين Primers."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Parallel profiles share length/GC so the structural discrimination determines the answer; no invented absolute sequence design rule.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. Resolved ambiguous scope of minimal by stating no primer-pair complementarity explicitly; standardized all five design tuples. Correct 17-30 nt/about20 and 50% GC source features rechecked."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "About 20 bases; about 50% GC; prominent hairpins; strong primer-pair complementarity",
+          "evidence": "The structure/complementarity requirement reverses both avoidance criteria."
+        },
+        {
+          "id": "c",
+          "text": "About 20 bases; about 50% GC; minimal hairpins; strong primer-pair complementarity",
+          "evidence": "The source says avoid complementarity between the two primers."
+        },
+        {
+          "id": "d",
+          "text": "About 20 bases; about 50% GC; prominent hairpins; no primer-pair complementarity",
+          "evidence": "The source says no or minimal secondary structure/hairpins."
+        },
+        {
+          "id": "e",
+          "text": "About 40 bases; about 50% GC; minimal hairpins; no primer-pair complementarity",
+          "evidence": "The source gives 17-30 nucleotides; 40 bases falls outside that stated range even though the other design properties agree."
+        },
+        {
+          "id": "a",
+          "text": "About 20 bases; about 50% GC; minimal hairpins; no primer-pair complementarity",
+          "evidence": "All components match the stated17-30 nt/about 20 bp, about 50%GC and avoidance criteria."
+        }
+      ]
+    },
+    {
+      "id": "techniques-primer-design-terms",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p08-primer-design"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Match the primer-design term to its source relationship.",
+      "explanation": {
+        "en": "The source separates hairpin secondary structure from complementarity between primers and gives approximate GC/length targets.",
+        "ar": "تميّز الشريحة Hairpin بوصفه Secondary structure داخل Primer عن Primer dimer الناتج من Complementarity بين Primers، وتذكر قيماً تقريبية لـGC والطول."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Four unique source definitions; approximate ranges kept approximate.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Hairpin",
+          "right": "Secondary structure within a primer that should be minimized"
+        },
+        {
+          "id": "p2",
+          "left": "Primer dimer",
+          "right": "Complementarity between the two primers that should be avoided"
+        },
+        {
+          "id": "p3",
+          "left": "GC content",
+          "right": "About50%, linked to control of melting temperature"
+        },
+        {
+          "id": "p4",
+          "left": "Usual primer length",
+          "right": "About20 bp within the stated17-30 nt range"
+        }
+      ]
+    },
+    {
+      "id": "techniques-illustrated-pcr-time-temperature",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p09-pcr-cycle-figure"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Match each stage to its time/temperature in the illustrated PCR example.",
+      "explanation": {
+        "en": "The example on page 9 uses 1 minute/94°C, 45 seconds/54°C and 2 minutes/72°C. These are the illustrated settings rather than a universal protocol.",
+        "ar": "يستخدم مثال الصفحة 9 دقيقة عند 94°C، و45 ثانية عند 54°C، ودقيقتين عند 72°C. هذه إعدادات المثال المرسوم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All three image labels checked; uncertain amplification-fold caption excluded.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Denaturation",
+          "right": "1 minute at 94°C"
+        },
+        {
+          "id": "p2",
+          "left": "Annealing",
+          "right": "45 seconds at 54°C"
+        },
+        {
+          "id": "p3",
+          "left": "Extension",
+          "right": "2 minutes at 72°C"
+        }
+      ]
+    },
+    {
+      "id": "techniques-rt-pcr-two-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p11-rt-pcr",
+        "techniques-p12-two-step-rt-pcr"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Order the two-step RT-PCR workflow shown.",
+      "explanation": {
+        "en": "RNA is first reverse-transcribed into cDNA with the oligo(dT) primer; the second stage is specific-primer PCR.",
+        "ar": "تبدأ العملية بـReverse transcription من RNA باستخدام Oligo(dT) لتكوين cDNA، ثم تأتي مرحلة PCR باستخدام Specific primer."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Both source diagrams checked; no real-time/qPCR interpretation introduced.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Oligo(dT) primes the RNA reverse-transcription step"
+        },
+        {
+          "id": "s2",
+          "text": "Reverse transcription produces first-strand cDNA"
+        },
+        {
+          "id": "s3",
+          "text": "A specific-primer PCR amplifies from the cDNA"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "techniques-rt-pcr-primer-stage",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p12-two-step-rt-pcr"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which pairing matches the primer labels in the two-step RT-PCR diagram?",
+      "explanation": {
+        "en": "The source labels Oligo dT at reverse transcription and a specific primer added for the later PCR stage.",
+        "ar": "يسمّي الشكل Oligo dT في مرحلة Reverse transcription، ثم يضيف Specific primer قبل مرحلة PCR."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checks labeled stages only; no claim that every possible RT protocol uses this primer arrangement.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "Oligo dT in both steps; no specific-primer stage",
+          "evidence": "The second stage explicitly adds a specific primer."
+        },
+        {
+          "id": "d",
+          "text": "Specific primer in both steps; no oligo-dT stage",
+          "evidence": "The first-stage annotation explicitly says Oligo dT."
+        },
+        {
+          "id": "e",
+          "text": "No primer in the RT step; specific primer only after PCR",
+          "evidence": "The RT list includes Oligo dT and the specific primer is added before PCR."
+        },
+        {
+          "id": "a",
+          "text": "Oligo dT in the RT step; specific primer in the PCR step",
+          "evidence": "Both labels appear in this arrangement on page 12."
+        },
+        {
+          "id": "b",
+          "text": "Specific primer in the RT step; oligo dT in the PCR step",
+          "evidence": "This swaps the two explicitly labeled stages."
+        }
+      ]
+    },
+    {
+      "id": "techniques-rt-pcr-immediate-product",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p11-rt-pcr"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which product is labeled immediately after the reverse-transcription reaction in this RT-PCR figure?",
+      "explanation": {
+        "en": "The diagram labels the newly made strand first-strand cDNA, still paired with the mRNA before PCR.",
+        "ar": "يسمّي الشكل السلسلة الجديدة First-strand cDNA، وتبقى مقترنة بـmRNA قبل PCR."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests immediate product explicitly labeled on page 11, without inferring RNA degradation steps.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. PCR source conditions scoped to their slide/example; no inconsistent five-cycle yield or magnesium-valence correction used. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "Restriction fragments separated on a gel",
+          "evidence": "The figure shows cDNA before PCR; restriction-fragment separation is described on page 21."
+        },
+        {
+          "id": "a",
+          "text": "First-strand cDNA paired with the original mRNA",
+          "evidence": "This is the explicit product label in the diagram."
+        },
+        {
+          "id": "b",
+          "text": "First-strand mRNA paired with an original DNA template",
+          "evidence": "The diagram begins with mRNA and labels the new strand cDNA."
+        },
+        {
+          "id": "c",
+          "text": "A poly(A) tail added without any cDNA strand",
+          "evidence": "A cDNA strand is explicitly shown after reverse transcription."
+        },
+        {
+          "id": "d",
+          "text": "A ddGTP-terminated sequencing ladder",
+          "evidence": "The figure shows cDNA before PCR; the ladder belongs to sequencing diagrams on pages 17-19."
+        }
+      ]
+    },
+    {
+      "id": "techniques-sanger-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p13-sanger-stages"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Order the four Sanger-sequencing stages listed on the slide.",
+      "explanation": {
+        "en": "The source lists these four stages in this order for the chain-termination method.",
+        "ar": "تسرد الشريحة مراحل Sanger sequencing بهذا الترتيب: Denaturation، ثم Primer annealing and extension، ثم Termination بواسطة ddNTP، ثم Gel electrophoresis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exactly the numbered source list; no modern sequencing method added.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Denaturation"
+        },
+        {
+          "id": "s2",
+          "text": "Primer annealing and extension"
+        },
+        {
+          "id": "s3",
+          "text": "Termination by ddNTP incorporation"
+        },
+        {
+          "id": "s4",
+          "text": "Gel electrophoresis"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    },
+    {
+      "id": "techniques-ddntp-structural-distinction",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p14-ddntp"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which difference explains why the depicted ddNTP terminates extension after incorporation?",
+      "explanation": {
+        "en": "ddNTP lacks the 3′ OH used to form the next phosphodiester bond. Incorporation therefore terminates the chain in the source diagram.",
+        "ar": "يفتقر ddNTP إلى 3′ OH اللازمة لتكوين Phosphodiester bond التالية، لذلك تتوقف Chain extension بعد إدماجه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Both chemical diagrams checked; options contrast features actually visible rather than relying on absent source discussion.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "Its base is absent while the dNTP base is retained",
+          "evidence": "Both structures label a base; the highlighted difference is at 3′."
+        },
+        {
+          "id": "d",
+          "text": "Its triphosphate is absent while the dNTP triphosphate is retained",
+          "evidence": "Both are depicted as triphosphates; the distinction is3′ OH."
+        },
+        {
+          "id": "e",
+          "text": "Its3′ position retains the OH that the dNTP lacks",
+          "evidence": "This reverses the explicitly drawn3′ groups."
+        },
+        {
+          "id": "a",
+          "text": "Its3′ position lacks the OH needed for the next phosphodiester bond",
+          "evidence": "The figure contrasts3′ OH in dNTP with 3′H/noOH in ddNTP."
+        },
+        {
+          "id": "b",
+          "text": "Its2′ position alone lacks an OH while dNTP retains one",
+          "evidence": "Both depicted deoxy structures lack2′ OH; the highlighted distinction is3′ OH."
+        }
+      ]
+    },
+    {
+      "id": "techniques-dntp-ddntp-consequences",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p14-ddntp"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Match the nucleotide feature to the consequence shown.",
+      "explanation": {
+        "en": "The source’s structural comparison connects3′ OH to continued bond formation and its absence to termination.",
+        "ar": "يربط الشكل وجود3′ OH باستمرار تكوين Phosphodiester bonds، وغيابها في ddNTP بإنهاء السلسلة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Two chemically explicit mappings; no unsupported polymerase-rejection claim, because both nucleotides are incorporated in source.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "dNTP with 3′ OH",
+          "right": "The3′ OH can form the next phosphodiester bond"
+        },
+        {
+          "id": "p2",
+          "left": "ddNTP with 3′H and no 3′ OH",
+          "right": "Further nucleotide addition is blocked"
+        }
+      ]
+    },
+    {
+      "id": "techniques-sanger-tube-terminators",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p15-sanger-tubes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Each tube also contains all four dNTPs and DNA polymerase. Match its label to its added terminator.",
+      "explanation": {
+        "en": "The four tubes differ in the added ddNTP, while each has all four ordinary dNTPs and polymerase.",
+        "ar": "تختلف الأنابيب الأربعة في ddNTP المضاف، بينما يحتوي كل منها على الأنواع الأربعة من dNTPs وعلى DNA polymerase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All four tube lines checked; no one-dNTP-per-tube misconception introduced.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "G tube",
+          "right": "ddGTP"
+        },
+        {
+          "id": "p2",
+          "left": "A tube",
+          "right": "ddATP"
+        },
+        {
+          "id": "p3",
+          "left": "T tube",
+          "right": "ddTTP"
+        },
+        {
+          "id": "p4",
+          "left": "C tube",
+          "right": "ddCTP"
+        }
+      ]
+    },
+    {
+      "id": "techniques-sanger-gel-size-reading",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p15-sanger-gel"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which reading rule follows the Sanger gel labels?",
+      "explanation": {
+        "en": "The gel is read from smaller fragments at the bottom toward larger fragments above. The electrophoresis arrow points downward.",
+        "ar": "تُقرأ Gel من Smaller fragments في الأسفل باتجاه Larger fragments في الأعلى، ويشير سهم Electrophoresis إلى الأسفل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Uses clear source15 size/direction labels; does not use ambiguous template-reading shorthand on16.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "d",
+          "text": "Begin at the top, because electrophoresis moves fragments upward",
+          "evidence": "The direction-of-electrophoresis arrow points downward."
+        },
+        {
+          "id": "e",
+          "text": "Begin at either end, because fragment size is the same throughout",
+          "evidence": "The source explicitly distinguishes larger and smaller fragments at different levels."
+        },
+        {
+          "id": "a",
+          "text": "Begin at the bottom, where the smaller fragments are located",
+          "evidence": "The source labels smaller fragments below and instructs bottom-to-top reading."
+        },
+        {
+          "id": "b",
+          "text": "Begin at the top, where the smaller fragments are located",
+          "evidence": "The source labels the top as larger fragments."
+        },
+        {
+          "id": "c",
+          "text": "Begin at the bottom, where the larger fragments are located",
+          "evidence": "The source labels bottom fragments smaller, not larger."
+        }
+      ]
+    },
+    {
+      "id": "techniques-synthesized-sequence-direction",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p16-sequencing-direction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Seven successive bands are listed from TOP to BOTTOM as A, G, T, G, A, G, C. What synthesized-strand sequence is read from these bands, 5′→3′?",
+      "explanation": {
+        "en": "Synthesized DNA is read bottom-to-top in the figure. Reversing the supplied band order gives 5′-CGAGTGA-3′.",
+        "ar": "تُقرأ Synthesized DNA من أسفل إلى أعلى. لذلك يعطي عكس ترتيب Bands المعطى التسلسل 5′-CGAGTGA-3′."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Uses clear first-seven calls and synthesized-strand orientation only; does not infer a template by simple reversal or score unclear full gel.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. The stated top-down calls reverse to CGAGTGA; synthesized strand and 5′→3′ orientation explicit, avoiding the ambiguous template shorthand. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "AGTGAGC",
+          "evidence": "This keeps the given top-to-bottom order instead of the required bottom-to-top order."
+        },
+        {
+          "id": "c",
+          "text": "CGATGGA",
+          "evidence": "This changes the fourth/fifth order from the source’s numbered bottom-up calls."
+        },
+        {
+          "id": "d",
+          "text": "CGAGTAG",
+          "evidence": "This swaps the final two calls relative to the source’s bottom-up order."
+        },
+        {
+          "id": "e",
+          "text": "GCGATGA",
+          "evidence": "This does not match the source’s numbered first-seven bottom-up calls."
+        },
+        {
+          "id": "a",
+          "text": "CGAGTGA",
+          "evidence": "Reverse the stated top-to-bottom order to read bottom-to-top; page 16’s numbered first-seven calls are C, G, A, G, T, G, A."
+        }
+      ]
+    },
+    {
+      "id": "techniques-ddgtp-products-general",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p17-ddgtp-example"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "What product pattern does the low-ddGTP example illustrate, without relying on its disputed exact sequence?",
+      "explanation": {
+        "en": "The clear mechanistic point is a family of different-length, G-terminated products. The conflicting longer sequence strings on pages 17/19 are not needed.",
+        "ar": "الفكرة الواضحة هي تكوّن سلاسل DNA مختلفة الأطوال تنتهي عند إدماج G. لا نحتاج إلى التسلسلات الطويلة المتعارضة بين الصفحتين 17 و19."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only highlighted endpoints and length variation tested; exact sequence conflict explicitly excluded.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Only different-length G termination is scored; disputed p17/p19 strings excluded. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "Only one fixed-length DNA strand ending at G",
+          "evidence": "Page 17 explicitly depicts three different-length G-terminated products."
+        },
+        {
+          "id": "a",
+          "text": "Different-length DNA strands ending at G incorporation sites",
+          "evidence": "Page 17 highlights terminal G in three different-length products."
+        },
+        {
+          "id": "b",
+          "text": "Different-length DNA strands ending at A incorporation sites",
+          "evidence": "A-terminated families belong to the ddATP branch on page 18, not the low-ddGTP example."
+        },
+        {
+          "id": "c",
+          "text": "Different-length DNA strands ending at T incorporation sites",
+          "evidence": "T-terminated families belong to the ddTTP branch on page 18, not the low-ddGTP example."
+        },
+        {
+          "id": "d",
+          "text": "Different-length DNA strands ending at C incorporation sites",
+          "evidence": "C-terminated families belong to the ddCTP branch on page 18, not the low-ddGTP example."
+        }
+      ]
+    },
+    {
+      "id": "techniques-automated-four-in-one",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p20-automated-sequencing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which arrangement is described for automated DNA sequencing on this slide?",
+      "explanation": {
+        "en": "The slide states four different fluorescent primers and simultaneous detection of all four reactions in one sample. Its terminology is retained as written.",
+        "ar": "تذكر الشريحة Four different fluorescent primers مع الكشف المتزامن عن التفاعلات الأربعة في One sample. نحافظ على مصطلحات المصدر كما وردت."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Tests explicit statement only; no color/base key, full chromatogram sequence or alternative labeling method imported.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Literal source fluorescent-primer wording retained; no inferred chromatogram color key or full sequence tested. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "c",
+          "text": "One fluorescent primer; one reaction detected in one sample",
+          "evidence": "The source explicitly specifies four different fluorescent primers and detection of all four reactions."
+        },
+        {
+          "id": "d",
+          "text": "Four nonfluorescent primers; four reactions detected in one sample",
+          "evidence": "The source explicitly calls the four different primers fluorescent."
+        },
+        {
+          "id": "e",
+          "text": "One fluorescent primer; four reactions detected in separate samples",
+          "evidence": "The source specifies four different fluorescent primers and one sample, so both components differ."
+        },
+        {
+          "id": "a",
+          "text": "Four different fluorescent primers; simultaneous detection in one sample",
+          "evidence": "This is the source’s exact arrangement."
+        },
+        {
+          "id": "b",
+          "text": "Four different fluorescent primers; detection restricted to four separate samples",
+          "evidence": "The source explicitly says simultaneous detection in one sample."
+        }
+      ]
+    },
+    {
+      "id": "techniques-rflp-main-operations",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p21-rflp-principle"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Order the two core RFLP operations as defined on the slide.",
+      "explanation": {
+        "en": "Restriction digestion produces the fragments that are then separated according to length.",
+        "ar": "يُنتج Restriction digestion مقاطع DNA، ثم تفصلها Gel electrophoresis حسب Length."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only the explicit two-operation definition ordered; not an incomplete stand-in for the later Southern-blot protocol.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Digest DNA into restriction fragments"
+        },
+        {
+          "id": "s2",
+          "text": "Separate the fragments by length using gel electrophoresis"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ]
+      ]
+    },
+    {
+      "id": "techniques-polymorphism-source-threshold",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p22-polymorphism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which frequency threshold appears in the slide’s definition of inherited genetic polymorphism?",
+      "explanation": {
+        "en": "The source definition uses inherited differences present in over 1% of the normal population, and says RFLP studies intraspecies and interspecies variation.",
+        "ar": "يستخدم تعريف المصدر Inherited differences الموجودة في أكثر من 1% من Normal population، ويذكر أن RFLP يدرس Intraspecies وInterspecies variation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Asks the stated threshold, not whether a higher-frequency variant could also qualify; alternative thresholds are parallel.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "d",
+          "text": "More than 5% of the normal population",
+          "evidence": "The threshold printed is1%, not 5%."
+        },
+        {
+          "id": "e",
+          "text": "More than 10% of the normal population",
+          "evidence": "The threshold printed is1%, not 10%."
+        },
+        {
+          "id": "a",
+          "text": "More than 1% of the normal population",
+          "evidence": "Page 22 explicitly states over 1% of the normal population."
+        },
+        {
+          "id": "b",
+          "text": "Less than 1% of the normal population",
+          "evidence": "The source says over 1%, not under1%."
+        },
+        {
+          "id": "c",
+          "text": "Exactly1% of the normal population",
+          "evidence": "The source uses over 1%, not exactly1%."
+        }
+      ]
+    },
+    {
+      "id": "techniques-restriction-foreign-self",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p23-restriction-protection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Which relationship matches bacterial restriction and self-protection as described?",
+      "explanation": {
+        "en": "The enzymes degrade foreign incoming viral DNA, while methylation at bacterial recognition sites protects the bacterium’s own DNA in this source account.",
+        "ar": "وفق الشريحة، تُحلّل Restriction enzymes جزيئات Viral DNA الداخلة، بينما تحمي Methylation مواقع التعرّف في DNA البكتيريا من القطع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Positive source statements establish each contrast; avoids generalizing to all biological methylation/restriction systems.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "e",
+          "text": "Both incoming viral DNA and methylated bacterial sites are always cleaved",
+          "evidence": "The source explicitly protects the methylated bacterial recognition sites."
+        },
+        {
+          "id": "a",
+          "text": "Incoming viral DNA is degraded; bacterial recognition sites are methylation-protected",
+          "evidence": "Both roles are explicitly stated on page 23."
+        },
+        {
+          "id": "b",
+          "text": "Incoming viral DNA is protected; bacterial recognition sites are preferentially degraded",
+          "evidence": "Both roles reverse the stated foreign-DNA attack/self-protection relationship."
+        },
+        {
+          "id": "c",
+          "text": "Incoming viral DNA is degraded; methylation makes bacterial sites targets for cleavage",
+          "evidence": "The source says methylation protects the bacterial sites from cleavage."
+        },
+        {
+          "id": "d",
+          "text": "Incoming viral DNA is protected; methylation causes bacterial DNA cleavage",
+          "evidence": "Both the foreign-DNA and methylation effects contradict the source."
+        }
+      ]
+    },
+    {
+      "id": "techniques-ecori-methylation-contrast",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p24-ecori"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Match each condition in the EcoRI figure to its displayed result.",
+      "explanation": {
+        "en": "The two panels contrast cleavage of unmethylated DNA with methylase protection; the labeled site is GAATTC.",
+        "ar": "يقارن الشكل قطع Unmethylated DNA بواسطة EcoRI مع حمايته بعد إضافة Methylation بواسطة EcoRI methylase. الموقع المسمّى هو GAATTC."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Both panels checked; three conditions yield unique explicitly drawn outcomes.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p25 table checked for exact EcoRI cut and blunt/sticky end assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Unmethylated recognition site plus EcoRI",
+          "right": "Cleavage produces sticky ends"
+        },
+        {
+          "id": "p2",
+          "left": "Unmethylated recognition site plus EcoRI methylase",
+          "right": "CH3 marks are added to the recognition site"
+        },
+        {
+          "id": "p3",
+          "left": "Methylated recognition site plus EcoRI",
+          "right": "The site is not cleaved"
+        }
+      ]
+    },
+    {
+      "id": "techniques-ecori-cut-position",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p24-ecori",
+        "techniques-p25-restriction-sequences"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "techniques",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Where is the cut shown in the top-strand EcoRI sequence?",
+      "explanation": {
+        "en": "The source shows EcoRI cutting5′-G|AATTC-3′, with an offset cut in the opposite strand that generates sticky ends.",
+        "ar": "يُظهر المصدر قطع EcoRI عند5′-G|AATTC-3′ مع قطع متزاحف في السلسلة المقابلة ينتج Sticky ends."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exact visible cut positions checked; does not ask an orientation inference from the table alone.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p25 table checked for exact EcoRI cut and blunt/sticky end assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "b",
+          "text": "GA|ATTC",
+          "evidence": "The figure cuts after G, not after GA."
+        },
+        {
+          "id": "c",
+          "text": "GAA|TTC",
+          "evidence": "The figure cuts after G, not at the central AA/TT boundary."
+        },
+        {
+          "id": "d",
+          "text": "GAAT|TC",
+          "evidence": "The figure cuts after G, not after GAAT."
+        },
+        {
+          "id": "e",
+          "text": "GAATT|C",
+          "evidence": "The figure cuts after G, not before the last C."
+        },
+        {
+          "id": "a",
+          "text": "G|AATTC",
+          "evidence": "Both figures place the top-strand cut after the first G."
+        }
+      ]
+    },
+    {
+      "id": "techniques-restriction-blunt-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p25-restriction-ends"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which pair is labeled as producing blunt ends in the endonuclease table?",
+      "explanation": {
+        "en": "HaeIII and SmaI are the two blunt-end examples. BamHI, EcoRI, HindIII and PstI are labeled sticky-end examples.",
+        "ar": "يسمّي الجدول HaeIII وSmaI مثالين على Blunt ends، ويُصنّف BamHI وEcoRI وHindIII وPstI ضمن Sticky ends."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All six table rows checked; five options are parallel enzyme pairs.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p25 table checked for exact EcoRI cut and blunt/sticky end assignments. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "a",
+          "text": "HaeIII and SmaI",
+          "evidence": "Both rows are explicitly labeled blunt ends."
+        },
+        {
+          "id": "b",
+          "text": "BamHI and EcoRI",
+          "evidence": "Both rows are labeled sticky ends."
+        },
+        {
+          "id": "c",
+          "text": "HindIII and PstI",
+          "evidence": "Both rows are labeled sticky ends."
+        },
+        {
+          "id": "d",
+          "text": "HaeIII and EcoRI",
+          "evidence": "HaeIII is blunt but EcoRI is sticky in the table."
+        },
+        {
+          "id": "e",
+          "text": "SmaI and BamHI",
+          "evidence": "SmaI is blunt but BamHI is sticky in the table."
+        }
+      ]
+    },
+    {
+      "id": "techniques-sickle-allele-sequences",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p26-sickle-mstii"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Match each source label to its sequence.",
+      "explanation": {
+        "en": "The source shows an A→T difference between the normal and sickle-cell allele sequences and supplies the MstII motif separately.",
+        "ar": "يُظهر المصدر تبدّل A→T بين تسلسلَي Normal B^A وSickle-cell B^S، ويذكر MstII recognition motif بشكل منفصل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All three exact sequences checked; no definition of N beyond the source or outside codon interpretation added.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p27 confirms the three/two/one band pattern and repeated equivalent AS lanes. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Normal B^A allele",
+          "right": "CCTGAGG"
+        },
+        {
+          "id": "p2",
+          "left": "Sickle-cell B^S allele",
+          "right": "CCTGTGG"
+        },
+        {
+          "id": "p3",
+          "left": "MstII recognition motif",
+          "right": "CCTNAGG"
+        }
+      ]
+    },
+    {
+      "id": "techniques-mstii-southern-protocol",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p26-sickle-mstii"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Order the sickle-cell MstII test protocol listed.",
+      "explanation": {
+        "en": "The slide’s arrows specify MstII digestion, then electrophoresis, then probe hybridization in the Southern-blot step.",
+        "ar": "ترتّب أسهم الشريحة MstII digestion ثم Electrophoresis ثم Hybridization باستخدام Beta-globin-specific probe في Southern blot."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exactly the explicit protocol; no unlisted transfer/preparation substeps imposed as scored stages.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Digest total DNA with MstII"
+        },
+        {
+          "id": "s2",
+          "text": "Run the fragments in electrophoresis"
+        },
+        {
+          "id": "s3",
+          "text": "Hybridize the blot with a beta-globin-specific probe"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "techniques-sickle-rflp-genotype-patterns",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p27-rflp-band-pattern"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Match genotype to the source’s MstII probe-band pattern.",
+      "explanation": {
+        "en": "AA has the two normal-allele fragments; SS has one large sickle-allele fragment; AS shows all three bands.",
+        "ar": "يُظهر AA مقطعين صغيرين، وSS مقطعاً كبيراً واحداً، وAS الحزم الثلاث معاً وفق الشكل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "All genotype text and five lanes checked; repeated AS lanes are not treated as unique targets.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p27 confirms the three/two/one band pattern and repeated equivalent AS lanes. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "AA",
+          "right": "Two smaller bands"
+        },
+        {
+          "id": "p2",
+          "left": "SS",
+          "right": "One larger band"
+        },
+        {
+          "id": "p3",
+          "left": "AS",
+          "right": "One larger and two smaller bands"
+        }
+      ]
+    },
+    {
+      "id": "techniques-heterozygote-rflp-combination",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p27-rflp-band-pattern"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which pattern combines both allele-associated fragment types in an AS individual?",
+      "explanation": {
+        "en": "The AS heterozygote displays both the normal allele’s two smaller fragments and the sickle allele’s single larger fragment.",
+        "ar": "يجمع AS heterozygote نمطَي الأليلين: مقطعين صغيرين من Normal allele ومقطعاً كبيراً واحداً من Sickle allele."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Genotype-to-pattern combination directly source-supported; avoids sample diagnosis beyond the given model.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Full p27 confirms the three/two/one band pattern and repeated equivalent AS lanes. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "a",
+      "options": [
+        {
+          "id": "d",
+          "text": "No bands from either allele",
+          "evidence": "The source explicitly depicts all three bands for AS."
+        },
+        {
+          "id": "e",
+          "text": "Two larger bands with no smaller bands",
+          "evidence": "The source depicts one larger plus two smaller bands for AS."
+        },
+        {
+          "id": "a",
+          "text": "One larger band plus two smaller bands",
+          "evidence": "The source says AS shows all three bands, combining the B^S large and B^A two-small pattern."
+        },
+        {
+          "id": "b",
+          "text": "Two smaller bands with no larger band",
+          "evidence": "The source assigns this pattern to AA."
+        },
+        {
+          "id": "c",
+          "text": "One larger band with no smaller bands",
+          "evidence": "The source assigns this pattern to SS."
+        }
+      ]
+    },
+    {
+      "id": "techniques-gel-ss-lane",
+      "revision": 1,
+      "type": "diagram",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p27-rflp-band-pattern"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Number the gel lanes 1-5 from left to right. Which lane matches the source’s SS pattern?",
+      "explanation": {
+        "en": "SS is represented by one larger band. The original diagram places that pattern in lane 4; the genotype labels were excluded from this faithful crop.",
+        "ar": "يمثَّل SS بنمط حزمة كبيرة واحدة، وهو ظاهر في Lane 4 عند العد من اليسار إلى اليمين. استُبعدت تسميات Genotypes من القصاصة الأصلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Original page 27 crop inspected after cropping: five lanes retained, genotype labels excluded, bands unchanged. Unique SS lane 4; AS lanes 1, 2, 5 not used as a unique target.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Original full p27 and actual gel crop compared: lanes1/2/5 AS, lane3 AA, lane4 SS; labels removed and unique requested target retained. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "d",
+      "options": [
+        {
+          "id": "c",
+          "text": "Lane 3",
+          "evidence": "Original page 27 lane 3 shows two smaller bands only; the source assigns one larger band to SS."
+        },
+        {
+          "id": "d",
+          "text": "Lane 4",
+          "evidence": "Original page 27 lane 4 shows one larger band only; the source assigns one larger band to SS."
+        },
+        {
+          "id": "e",
+          "text": "Lane 5",
+          "evidence": "Original page 27 lane 5 shows three bands: one larger and two smaller; the source assigns one larger band to SS."
+        },
+        {
+          "id": "a",
+          "text": "Lane 1",
+          "evidence": "Original page 27 lane 1 shows three bands: one larger and two smaller; the source assigns one larger band to SS."
+        },
+        {
+          "id": "b",
+          "text": "Lane 2",
+          "evidence": "Original page 27 lane 2 shows three bands: one larger and two smaller; the source assigns one larger band to SS."
+        }
+      ],
+      "asset": {
+        "path": "assets/techniques-rflp-gel.png",
+        "lectureId": "techniques",
+        "pdfPage": 27,
+        "alt": "Five unlabeled gel lanes",
+        "crop": [
+          0.53,
+          0.29,
+          0.93,
+          0.48
+        ]
+      }
+    },
+    {
+      "id": "techniques-gel-aa-lane",
+      "revision": 1,
+      "type": "diagram",
+      "lectureId": "techniques",
+      "conceptIds": [
+        "techniques-p27-rflp-band-pattern"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "techniques",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Number the gel lanes 1-5 from left to right. Which lane matches the source’s AA pattern?",
+      "explanation": {
+        "en": "AA is represented by two smaller bands. The original diagram places that pattern in lane 3; the genotype labels were excluded from this faithful crop.",
+        "ar": "يمثَّل AA بنمط حزمتين صغيرتين، وهو ظاهر في Lane 3 عند العد من اليسار إلى اليمين. استُبعدت تسميات Genotypes من القصاصة الأصلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Original page 27 crop inspected after cropping: five lanes retained, genotype labels excluded, bands unchanged. Unique AA lane 3; AS lanes 1, 2, 5 not used as a unique target.",
+        "peerReviewedBy": "independent-dna2-rna1-reviewer",
+        "peerReviewNotes": "Independent review checked the correct mapping and each alternative/pair against the cited final source, Arabic meaning, actual concept tags and page intersections. Original full p27 and actual gel crop compared: lanes1/2/5 AS, lane3 AA, lane4 SS; labels removed and unique requested target retained. No answer change needed; no unresolved source claim determines scoring."
+      },
+      "correctOptionId": "c",
+      "options": [
+        {
+          "id": "d",
+          "text": "Lane 4",
+          "evidence": "Original page 27 lane 4 shows one larger band only; the source assigns two smaller bands to AA."
+        },
+        {
+          "id": "e",
+          "text": "Lane 5",
+          "evidence": "Original page 27 lane 5 shows three bands: one larger and two smaller; the source assigns two smaller bands to AA."
+        },
+        {
+          "id": "a",
+          "text": "Lane 1",
+          "evidence": "Original page 27 lane 1 shows three bands: one larger and two smaller; the source assigns two smaller bands to AA."
+        },
+        {
+          "id": "b",
+          "text": "Lane 2",
+          "evidence": "Original page 27 lane 2 shows three bands: one larger and two smaller; the source assigns two smaller bands to AA."
+        },
+        {
+          "id": "c",
+          "text": "Lane 3",
+          "evidence": "Original page 27 lane 3 shows two smaller bands only; the source assigns two smaller bands to AA."
+        }
+      ],
+      "asset": {
+        "path": "assets/techniques-rflp-gel.png",
+        "lectureId": "techniques",
+        "pdfPage": 27,
+        "alt": "Five unlabeled gel lanes",
+        "crop": [
+          0.53,
+          0.29,
+          0.93,
+          0.48
+        ]
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "techniques-p02-pcr-history",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p04-pcr-applications",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p05-pcr-magnesium",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p06-thermocycler",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p09-pcr-fold-example",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p10-pcr-gel",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p18-sanger-concentrations",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p19-sanger-labeled-primer",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    },
+    {
+      "conceptId": "techniques-p22-rflp-history",
+      "reason": "Supporting illustration or table detail retained in the source ledger; this release prioritizes explained relationships."
+    }
+  ]
+}

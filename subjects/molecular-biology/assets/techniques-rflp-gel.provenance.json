@@ -1,0 +1,26 @@
+{
+  "asset": "assets/techniques-rflp-gel.png",
+  "lectureId": "techniques",
+  "pdfPage": 27,
+  "originalSource": "sources/slides/06-techniques.pdf",
+  "originalSourceSha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
+  "renderImageSize": [
+    1188,
+    891
+  ],
+  "crop": [
+    0.53,
+    0.29,
+    0.93,
+    0.48
+  ],
+  "cropPixels": [
+    630,
+    258,
+    1105,
+    428
+  ],
+  "operation": "Rectangular crop only; original gel bands preserved; excludes genotype labels and pedigree. No repainting or biological content added.",
+  "laneInterpretation": "Left to right: AS,AS,AA,SS,AS, as labeled in the original page.",
+  "sha256": "0f7fb3a9cfdf0119e4d6bce917a84ec1f1999c6730792fc1f03868f9893c0f3d"
+}

@@ -1,0 +1,2309 @@
+{
+  "lectureId": "dna-metabolism-2",
+  "activities": [
+    {
+      "id": "dna-metabolism-2-damage-classification",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-damage-sources"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "Which pair correctly contrasts an exogenous cause with an endogenous cause of DNA damage?",
+      "explanation": {
+        "en": "UV light is listed among exogenous causes; replication errors, oxidants and ROS are endogenous causes.",
+        "ar": "تُدرج UV light ضمن الأسباب Exogenous، بينما تُدرج replication errors وoxidants وROS ضمن الأسباب Endogenous."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. UV light is listed among exogenous causes; replication errors, oxidants and ROS are endogenous causes. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "Oxidants; intercalating agents",
+          "evidence": "P2 assigns oxidants to endogenous and intercalating agents to exogenous."
+        },
+        {
+          "id": "d",
+          "text": "Replication errors; alkylating agents",
+          "evidence": "P2 assigns replication errors to endogenous and alkylating agents to exogenous."
+        },
+        {
+          "id": "b",
+          "text": "Oxidants; gamma rays",
+          "evidence": "P2 assigns oxidants to endogenous and gamma rays to exogenous, reversing the requested order."
+        },
+        {
+          "id": "a",
+          "text": "UV light; replication errors",
+          "evidence": "P2 lists UV light as exogenous and replication errors as endogenous."
+        },
+        {
+          "id": "c",
+          "text": "ROS; smoking",
+          "evidence": "P2 assigns ROS to endogenous and smoking to exogenous, reversing the requested order."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-mutation-two-classifications",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-mutation-types"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Match each mutation description to the classification used in the lecture.",
+      "explanation": {
+        "en": "Substitution and insertion describe base changes; nonsense, missense and silent describe their effects.",
+        "ar": "تصف Substitution وInsertion تغيّر القواعد، بينما تصف Nonsense وMissense وSilent أثر التغيّر."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. Substitution and insertion describe base changes; nonsense, missense and silent describe their effects. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Replacement of a base pair",
+          "right": "Substitution",
+          "evidence": "P3 explicitly defines substitution as replacement."
+        },
+        {
+          "id": "2",
+          "left": "Addition of a base pair",
+          "right": "Insertion",
+          "evidence": "P3 defines insertion/deletion by addition/deletion."
+        },
+        {
+          "id": "3",
+          "left": "Premature stop codon",
+          "right": "Nonsense",
+          "evidence": "P3 assigns premature stop codon to nonsense."
+        },
+        {
+          "id": "4",
+          "left": "Change in encoded amino acid",
+          "right": "Missense",
+          "evidence": "P3 assigns amino-acid change to missense."
+        },
+        {
+          "id": "5",
+          "left": "Negligible effect as described by the slide",
+          "right": "Silent",
+          "evidence": "P3 describes silent mutation as nonessential-DNA/negligible effect."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-transition-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-base-substitution"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which pair consists of two transitions?",
+      "explanation": {
+        "en": "Transitions remain within purines or within pyrimidines: A to G and C to T both meet that rule.",
+        "ar": "تبقى Transitions داخل Purines أو داخل Pyrimidines؛ لذلك يُعد كل من A to G وC to T من Transitions."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Transitions remain within purines or within pyrimidines: A to G and C to T both meet that rule. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "d",
+          "text": "T to A; G to C",
+          "evidence": "P4 places both among transversions."
+        },
+        {
+          "id": "b",
+          "text": "A to C; C to T",
+          "evidence": "P4 shows A to C crossing purine/pyrimidine, while C to T is a transition."
+        },
+        {
+          "id": "c",
+          "text": "G to T; A to G",
+          "evidence": "P4 shows G to T as a transversion and A to G as a transition."
+        },
+        {
+          "id": "e",
+          "text": "C to G; T to C",
+          "evidence": "P4 shows C to G as a transversion and T to C as a transition."
+        },
+        {
+          "id": "a",
+          "text": "A to G; C to T",
+          "evidence": "P4 places both changes within the same base family."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-transversion-rule",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-base-substitution"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "A substitution changes G to C. Which interpretation follows the lecture figure?",
+      "explanation": {
+        "en": "G is represented as a purine and C as a pyrimidine, so G to C crosses families and is a transversion.",
+        "ar": "تُعرض G بوصفها Purine وC بوصفها Pyrimidine؛ لذا يعبر التغيّر G to C بين العائلتين ويُعد Transversion."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. G is represented as a purine and C as a pyrimidine, so G to C crosses families and is a transversion. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "It is a transition from purine to purine.",
+          "evidence": "P4 uses G to A for this transition class, not G to C."
+        },
+        {
+          "id": "a",
+          "text": "It is a transversion from purine to pyrimidine.",
+          "evidence": "P4 explicitly lists G to C in that transversion direction."
+        },
+        {
+          "id": "e",
+          "text": "It is a transition from pyrimidine to purine.",
+          "evidence": "P4 defines crossing families as transversion, and G to C has the reverse family direction."
+        },
+        {
+          "id": "c",
+          "text": "It is a transition from pyrimidine to pyrimidine.",
+          "evidence": "P4 illustrates T/C changes for this class; G is on the purine side."
+        },
+        {
+          "id": "d",
+          "text": "It is a transversion from pyrimidine to purine.",
+          "evidence": "P4 lists C to G in this opposite direction."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ames-readout",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ames-principle",
+        "dna-metabolism-2-ames-selection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "After the limited histidine in an Ames-test plate is depleted, what do the surviving colonies indicate?",
+      "explanation": {
+        "en": "Once supplied histidine runs out, survivors must make their own. More surviving colonies indicate greater mutagenicity in this assay.",
+        "ar": "بعد نفاد Histidine المضاف، يجب أن تصنعه الخلايا الباقية بنفسها. ويرتبط ازدياد عدد Colonies بازدياد Mutagenicity في الاختبار."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Once supplied histidine runs out, survivors must make their own. More surviving colonies indicate greater mutagenicity in this assay. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "d",
+          "text": "Cells retaining the original histidine requirement; more colonies indicate less mutagenicity.",
+          "evidence": "P6 requires restored synthesis and says mutagenicity is proportional to colony number."
+        },
+        {
+          "id": "b",
+          "text": "Mutants incapable of synthesizing histidine; colony number reflects mutagenicity.",
+          "evidence": "P6 says survival after depletion requires histidine synthesis, contradicting this survivor identity."
+        },
+        {
+          "id": "a",
+          "text": "Mutants capable of synthesizing histidine; colony number reflects mutagenicity.",
+          "evidence": "P6 makes this selection/readout explicit; p5 defines mutation induction as the test target."
+        },
+        {
+          "id": "c",
+          "text": "Cells supported by remaining supplied histidine; colony number reflects mutagenicity.",
+          "evidence": "P6 distinguishes initial supplied histidine from later survival after its depletion."
+        },
+        {
+          "id": "e",
+          "text": "Cells supported by remaining supplied histidine; more colonies indicate less mutagenicity.",
+          "evidence": "P6 says histidine is depleted and mutagenicity increases with observed colonies."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ames-purpose",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ames-principle"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which relationship explains why the lecture presents the Ames test as a screen for potential carcinogens?",
+      "explanation": {
+        "en": "The assay measures mutation induction in bacteria; the lecture uses the correlation between mutagens and carcinogens to justify screening.",
+        "ar": "يقيس Ames test إحداث Mutations في البكتيريا، ويستند عرضه كاختبار تحرٍّ إلى العلاقة المذكورة بين Mutagens وCarcinogens."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The assay measures mutation induction in bacteria; the lecture uses the correlation between mutagens and carcinogens to justify screening. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "It measures histidine supplied by agar, and the lecture links that supply with carcinogens.",
+          "evidence": "P6 uses limited histidine for selection; p5 identifies chemical-induced mutations as the measured target."
+        },
+        {
+          "id": "a",
+          "text": "It measures bacterial mutation induction, and the lecture links mutagens with carcinogens.",
+          "evidence": "P5 states the test measure and the strong mutagen/carcinogen correlation."
+        },
+        {
+          "id": "e",
+          "text": "It measures cancer formation in the Salmonella colonies growing without histidine.",
+          "evidence": "P5 describes bacterial mutation potential, not cancer formation in the colonies."
+        },
+        {
+          "id": "d",
+          "text": "It measures growth of the original histidine-dependent cells after histidine depletion.",
+          "evidence": "P6 says only mutants able to make histidine survive depletion."
+        },
+        {
+          "id": "c",
+          "text": "It measures loss of colonies, because mutagenicity decreases as colony number rises.",
+          "evidence": "P6 explicitly gives a proportional, rather than inverse, relationship."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-repair-template-choice",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-repair-template"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "For the single-strand damage scenario described in the repair overview, what supplies the information for correction?",
+      "explanation": {
+        "en": "The overview states that the undamaged partner strand provides the template for correcting damage in one strand.",
+        "ar": "يذكر العرض أن الشريط غير المتضرر يوفّر Template لتصحيح الضرر في الشريط المقابل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "P7 scenario only; does not extend the disputed p18 universal template claim to all repair systems.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The overview states that the undamaged partner strand provides the template for correcting damage in one strand. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps, dna2-uvr-assignment."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "The lesion-containing fragment removed by excinuclease",
+          "evidence": "P13/p14 remove that damaged fragment rather than use it as the correcting template."
+        },
+        {
+          "id": "b",
+          "text": "The affected base removed by a glycosylase",
+          "evidence": "P7/p11 place the damaged base among material removed, not the undamaged template."
+        },
+        {
+          "id": "e",
+          "text": "The AP site left after base removal",
+          "evidence": "P11 defines this as an abasic intermediate requiring repair, not the undamaged information source."
+        },
+        {
+          "id": "a",
+          "text": "The undamaged DNA strand",
+          "evidence": "P7 explicitly names the undamaged strand as template."
+        },
+        {
+          "id": "d",
+          "text": "The methyl group transferred to a repair protein",
+          "evidence": "P17 transfers this group away from damaged DNA; p7 identifies undamaged DNA as template."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-repair-system-targets",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-repair-pathway-comparison"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match the damage described in Table 25-5 to its listed repair entry.",
+      "explanation": {
+        "en": "The table distinguishes mismatches, abnormal bases, large structural lesions and direct methyl-group repair.",
+        "ar": "يميّز الجدول بين Mismatches وAbnormal bases وHelix-distorting lesions وإصلاح O6-methylguanine مباشرة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The table distinguishes mismatches, abnormal bases, large structural lesions and direct methyl-group repair. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Mismatched base pair",
+          "right": "Mismatch repair",
+          "evidence": "Table row: mismatches."
+        },
+        {
+          "id": "2",
+          "left": "Abnormal base such as uracil",
+          "right": "Base-excision repair",
+          "evidence": "Table row: abnormal bases."
+        },
+        {
+          "id": "3",
+          "left": "Large helix-distorting lesion",
+          "right": "Nucleotide-excision repair",
+          "evidence": "Table row: large structural changes."
+        },
+        {
+          "id": "4",
+          "left": "O6-methylguanine repaired by methyltransferase",
+          "right": "Direct repair",
+          "evidence": "Table direct-repair row explicitly pairs these."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-hemimethylated-window",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-mismatch-methylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Why is the interval before Dam methylase modifies newly synthesized DNA useful for mismatch repair?",
+      "explanation": {
+        "en": "Template methylation marks strand identity only while the daughter strand remains unmethylated.",
+        "ar": "تميّز Methylation الشريط Template خلال الفترة التي يبقى فيها الشريط الجديد غير مُمثيل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Template methylation marks strand identity only while the daughter strand remains unmethylated. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "d",
+          "text": "Neither strand carries methylation marks, identifying the template strand.",
+          "evidence": "P8 depicts the parental strand retaining methyl groups after replication."
+        },
+        {
+          "id": "e",
+          "text": "Dam methylase removes parental methyl groups, leaving only the new strand marked.",
+          "evidence": "P8 depicts methyl addition to new DNA, not removal from parental DNA."
+        },
+        {
+          "id": "c",
+          "text": "Both strands already carry identical methylation marks, identifying the new strand.",
+          "evidence": "P8 says methylation of both strands makes them indistinguishable."
+        },
+        {
+          "id": "b",
+          "text": "The unmethylated template can still be distinguished from the methylated new strand.",
+          "evidence": "P8 assigns methylation to template, reversing this description."
+        },
+        {
+          "id": "a",
+          "text": "The methylated template can still be distinguished from the unmethylated new strand.",
+          "evidence": "P8 defines hemimethylation as the repair window."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-mut-protein-roles",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-muts-mutl-muth"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Match components of the methyl-directed mismatch-repair complex to their explicit roles.",
+      "explanation": {
+        "en": "MutS-MutL associates with the mismatch; MutH binds MutL and makes the incision in the unmodified strand.",
+        "ar": "يرتبط MutS-MutL بالـMismatch، ويرتبط MutH بـMutL ثم يُحدث القطع في الشريط غير المُمثيل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Distance cutoff deliberately excluded because pp9-10 conflict.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. MutS-MutL associates with the mismatch; MutH binds MutL and makes the incision in the unmodified strand. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-distance-wording."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "MutS-MutL complex",
+          "right": "Binds a mismatched base pair",
+          "evidence": "P9 assigns recognition/binding to this complex."
+        },
+        {
+          "id": "2",
+          "left": "MutH binding partner",
+          "right": "MutL",
+          "evidence": "P9 states MutH binds MutL."
+        },
+        {
+          "id": "3",
+          "left": "Activated MutH endonuclease",
+          "right": "Cleaves the unmethylated strand at GATC",
+          "evidence": "P9 diagram/caption show this incision."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-mismatch-muth-step",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-muts-mutl-muth"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "After a MutS-MutL complex binds a mismatch, which event identifies the strand to incise?",
+      "explanation": {
+        "en": "MutH acts when it finds the unmethylated GATC-marked strand; the disputed distance is irrelevant to this step.",
+        "ar": "يعمل MutH عند العثور على GATC في الشريط غير المُمثيل؛ ولا يعتمد هذا السؤال على المسافة المختلف عليها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "No exact GATC-distance threshold scored; comparator mechanisms cite pp8,11,17 in option evidence.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. MutH acts when it finds the unmethylated GATC-marked strand; the disputed distance is irrelevant to this step. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-distance-wording, dna2-ber-ntps."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "MutH encounters unmethylated GATC.",
+          "evidence": "P9 states this activates site-specific endonuclease action."
+        },
+        {
+          "id": "c",
+          "text": "Dam methylase makes both strands equally methylated.",
+          "evidence": "P8 says this removes discrimination; p9 uses an unmethylated site."
+        },
+        {
+          "id": "b",
+          "text": "MutH encounters a methylated GATC on the template.",
+          "evidence": "P9 specifies unmethylated GATC for incision."
+        },
+        {
+          "id": "e",
+          "text": "Methyltransferase transfers a methyl group to cysteine.",
+          "evidence": "P17 assigns this to direct O6-methylguanine repair, not MutH incision."
+        },
+        {
+          "id": "d",
+          "text": "A glycosylase creates an AP site at the mismatch.",
+          "evidence": "P11 assigns AP-site formation to BER, while p9 describes MutH/GATC incision."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-mismatch-excision-polarity",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-mismatch-excision-direction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "A mismatch is on the 5-prime side of the cleavage site. Which excision route is assigned to that branch?",
+      "explanation": {
+        "en": "The right-hand branch assigns 3-prime to 5-prime removal to a mismatch on the 5-prime side of the cut.",
+        "ar": "يُسند الفرع الأيمن إزالة 3′ to 5′ إلى Mismatch الواقع على جهة 5′ من موضع القطع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "No exact replacement distance or unique choice among alternative exonucleases scored.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The right-hand branch assigns 3-prime to 5-prime removal to a mismatch on the 5-prime side of the cut. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-distance-wording, dna2-distance-wording-10."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "5-prime to 3-prime; exonuclease VII or RecJ",
+          "evidence": "P10 assigns this combination to a mismatch on the 3-prime side."
+        },
+        {
+          "id": "c",
+          "text": "3-prime to 5-prime; exonuclease VII or RecJ",
+          "evidence": "P10 associates these enzymes with the opposite directional branch."
+        },
+        {
+          "id": "d",
+          "text": "5-prime to 3-prime; exonuclease I or X",
+          "evidence": "P10 associates I/X with the 3-prime to 5-prime branch."
+        },
+        {
+          "id": "e",
+          "text": "3-prime to 5-prime; MutH and MutL",
+          "evidence": "P9 assigns MutH/MutL to incision-complex roles; P10 assigns directional excision to I/X."
+        },
+        {
+          "id": "a",
+          "text": "3-prime to 5-prime; exonuclease I or X",
+          "evidence": "P10 assigns this combination to a mismatch on the 5-prime side."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-mismatch-gap-fill",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-mismatch-replacement"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which pairing is shown at the replacement-synthesis stage in both mismatch-repair branches?",
+      "explanation": {
+        "en": "After unwinding and excision, both diagram branches label DNA polymerase III with SSB for replacement.",
+        "ar": "بعد Unwinding وExcision، يُظهر كلا الفرعين DNA polymerase III مع SSB في مرحلة Replacement synthesis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. After unwinding and excision, both diagram branches label DNA polymerase III with SSB for replacement. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-distance-wording, dna2-distance-wording-10, dna2-ber-ntps. Peer fix: Replaced mixed protein/bond/site distractors with five parallel protein pairs; retained the explicit mismatch-repair replacement stage."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "DNA polymerase III and SSB",
+          "evidence": "PDF p10 labels this exact pair at replacement synthesis in both branches."
+        },
+        {
+          "id": "e",
+          "text": "DNA polymerase I and AP endonuclease",
+          "evidence": "PDF p11 associates these with BER incision/replacement, whereas p10 labels polymerase III and SSB."
+        },
+        {
+          "id": "c",
+          "text": "DNA polymerase III and MutH",
+          "evidence": "Polymerase III fits p10, but p9 assigns MutH to the GATC incision complex; p10 labels SSB at replacement."
+        },
+        {
+          "id": "b",
+          "text": "DNA helicase II and RecJ nuclease",
+          "evidence": "PDF p10 places these in unwinding/excision before the polymerase III/SSB replacement stage."
+        },
+        {
+          "id": "d",
+          "text": "DNA polymerase I and SSB",
+          "evidence": "PDF p10 labels polymerase III, while p11 assigns polymerase I to BER replacement."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ber-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ber-sequence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Arrange the base-excision repair stages shown in the lecture.",
+      "explanation": {
+        "en": "The figure separates base removal, AP-site incision, replacement synthesis and nick sealing.",
+        "ar": "يفصل الشكل بين Base removal ثم AP-site incision ثم Replacement synthesis ثم Nick sealing."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Source NTP label ambiguity excluded; no substrate identity scored.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The figure separates base removal, AP-site incision, replacement synthesis and nick sealing. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Glycosylase removes the affected base."
+        },
+        {
+          "id": "2",
+          "text": "AP endonuclease cuts the AP-containing strand."
+        },
+        {
+          "id": "3",
+          "text": "DNA polymerase I replaces the removed segment."
+        },
+        {
+          "id": "4",
+          "text": "DNA ligase seals the remaining nick."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-ap-site-bond",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ap-site"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which event directly creates the AP site in base-excision repair?",
+      "explanation": {
+        "en": "Glycosylase removes the base by breaking its N-glycosyl bond to deoxyribose; the base-free site is the AP site.",
+        "ar": "تزيل Glycosylase القاعدة بقطع N-glycosyl bond مع Deoxyribose، فينشأ AP site الخالي من القاعدة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Glycosylase removes the base by breaking its N-glycosyl bond to deoxyribose; the base-free site is the AP site. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Cleavage of the N-glycosyl bond between base and deoxyribose",
+          "evidence": "P11 explicitly links this cleavage to base removal and AP-site formation."
+        },
+        {
+          "id": "c",
+          "text": "Replacement of the segment by DNA polymerase I",
+          "evidence": "P11 places replacement after AP-site incision and removal."
+        },
+        {
+          "id": "b",
+          "text": "Cleavage of the DNA strand by AP endonuclease",
+          "evidence": "P11 places AP endonuclease after the AP site has formed."
+        },
+        {
+          "id": "d",
+          "text": "Sealing of the nick by DNA ligase",
+          "evidence": "P11 places ligation last, after the AP-site-containing segment is replaced."
+        },
+        {
+          "id": "e",
+          "text": "Hydrolysis of two flanking phosphodiester bonds by excinuclease",
+          "evidence": "P13 identifies this as NER rather than formation of an abasic BER intermediate."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ung-specificity",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ung"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which substrate relationship matches the specificity assigned to UNG?",
+      "explanation": {
+        "en": "UNG removes uracil generated by C deamination and acts on DNA rather than RNA.",
+        "ar": "تزيل UNG قاعدة Uracil الناتجة من Deamination of C، وتعمل على DNA لا RNA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. UNG removes uracil generated by C deamination and acts on DNA rather than RNA. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Uracil from cytosine deamination in DNA",
+          "evidence": "P12 explicitly assigns this substrate to UNG."
+        },
+        {
+          "id": "c",
+          "text": "Thymine distinguished from uracil in DNA",
+          "evidence": "P12 says UNG distinguishes T from the U it removes; T is not the stated removal target."
+        },
+        {
+          "id": "e",
+          "text": "A bulky pyrimidine-dimer distortion in DNA",
+          "evidence": "P13 assigns bulky distortion recognition to NER; p12 specifies UNG removes U."
+        },
+        {
+          "id": "b",
+          "text": "Uracil from cytosine deamination in RNA",
+          "evidence": "P12 explicitly limits action to DNA, not RNA."
+        },
+        {
+          "id": "d",
+          "text": "O6-methylguanine in DNA",
+          "evidence": "P17 assigns repair to O6-methylguanine-DNA methyltransferase."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ner-cleavage-pattern",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ner-lesions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "How does excinuclease action in NER differ from the first glycosylase step in BER?",
+      "explanation": {
+        "en": "NER brackets a helix-distorting lesion with two backbone cuts. BER begins by removing the affected base itself.",
+        "ar": "يحيط NER بالضرر المشوّه للحلزون بقطعين في Backbone، بينما يبدأ BER بإزالة القاعدة المتضررة نفسها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. NER brackets a helix-distorting lesion with two backbone cuts. BER begins by removing the affected base itself. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps. Peer fix: Rebuilt all five alternatives as parallel bond/count comparisons, eliminating unrelated methylation/ligation alternatives and the conspicuously longer correct answer."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "NER cuts two flanking phosphodiester bonds; BER first cuts two flanking phosphodiester bonds.",
+          "evidence": "The NER clause fits p13, but p11 begins BER with base-sugar N-glycosyl cleavage, before AP-endonuclease incision."
+        },
+        {
+          "id": "c",
+          "text": "NER cuts one flanking phosphodiester bond; BER first cuts a base-sugar N-glycosyl bond.",
+          "evidence": "The BER clause fits p11, but p13 explicitly requires two NER cuts, one on either side."
+        },
+        {
+          "id": "b",
+          "text": "NER cuts a base-sugar N-glycosyl bond; BER first cuts one flanking phosphodiester bond.",
+          "evidence": "PDF p13 assigns NER two phosphodiester cuts; p11 assigns the first BER step to N-glycosyl cleavage."
+        },
+        {
+          "id": "a",
+          "text": "NER cuts two flanking phosphodiester bonds; BER first cuts a base-sugar N-glycosyl bond.",
+          "evidence": "PDF p13 specifies two flanking backbone cuts; p11 begins BER with glycosylase cleavage of the base-sugar bond."
+        },
+        {
+          "id": "d",
+          "text": "NER cuts a base-sugar N-glycosyl bond; BER first cuts two flanking phosphodiester bonds.",
+          "evidence": "This exchanges the NER and initial BER bond-cleavage assignments on pp11/13."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-ner-branches",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ner-organism-comparison"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which pair follows the bacterial and human NER branches respectively?",
+      "explanation": {
+        "en": "The E. coli branch removes a 13-mer and fills with pol I; the human branch removes a 29-mer and fills with pol epsilon.",
+        "ar": "يزيل فرع E. coli قطعة 13-mer ويملؤها Pol I، بينما يزيل الفرع البشري 29-mer ويملؤها Pol epsilon."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Individual UvrB/UvrC cut assignments excluded; bacterial/human branches checked.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The E. coli branch removes a 13-mer and fills with pol I; the human branch removes a 29-mer and fills with pol epsilon. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-uvr-assignment."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "29-mer removal with DNA polymerase I; 13-mer removal with DNA polymerase epsilon",
+          "evidence": "P14 reverses the removed fragment lengths relative to this option."
+        },
+        {
+          "id": "d",
+          "text": "29-mer removal with DNA polymerase epsilon; 13-mer removal with DNA polymerase I",
+          "evidence": "P14 gives this order for human then bacterial, reversing the prompt."
+        },
+        {
+          "id": "e",
+          "text": "13-mer removal with DNA polymerase I; 13-mer removal with DNA polymerase epsilon",
+          "evidence": "P14 marks the human fragment as 29-mer, not 13-mer."
+        },
+        {
+          "id": "c",
+          "text": "13-mer removal with DNA polymerase epsilon; 29-mer removal with DNA polymerase I",
+          "evidence": "P14 assigns these replacement polymerases to the opposite branches."
+        },
+        {
+          "id": "a",
+          "text": "13-mer removal with DNA polymerase I; 29-mer removal with DNA polymerase epsilon",
+          "evidence": "P14 labels the E. coli and human branches this way."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-repair-disorder-links",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-repair-disorders"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Match each inherited condition to the repair defect explicitly linked to it.",
+      "explanation": {
+        "en": "XP is linked to NER; HNPCC to mismatch repair. The conditions are not interchangeable.",
+        "ar": "يرتبط XP بخلل NER، ويرتبط HNPCC بخلل Mismatch repair."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. XP is linked to NER; HNPCC to mismatch repair. The conditions are not interchangeable. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Xeroderma pigmentosum",
+          "right": "Nucleotide-excision repair defect",
+          "evidence": "P15 associates XP with NER mutations."
+        },
+        {
+          "id": "2",
+          "left": "HNPCC",
+          "right": "Mismatch-repair defect",
+          "evidence": "P15 associates HNPCC with mismatch repair."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-methylguanine-consequence",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-methylguanine-mispair"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which pairing change is shown after guanine methylation in the lecture?",
+      "explanation": {
+        "en": "The diagram changes a G-C pair into an O6-methylguanine-T pair and shows a later A-T descendant after further replication.",
+        "ar": "يحوّل الشكل G-C إلى O6-methylguanine-T، ويُظهر ظهور A-T في أحد النواتج بعد Replication إضافي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The diagram changes a G-C pair into an O6-methylguanine-T pair and shows a later A-T descendant after further replication. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Guanine normally paired to C becomes O6-methylguanine paired to T.",
+          "evidence": "P16 directly contrasts these pairs."
+        },
+        {
+          "id": "e",
+          "text": "Guanine normally paired to T becomes O6-methylguanine paired to A.",
+          "evidence": "P16 shows C as the normal partner and T as the damaged partner."
+        },
+        {
+          "id": "d",
+          "text": "Guanine normally paired to A becomes O6-methylguanine paired to T.",
+          "evidence": "P16 shows normal guanine opposite C, not A."
+        },
+        {
+          "id": "c",
+          "text": "Guanine normally paired to C becomes O6-methylguanine paired to C.",
+          "evidence": "P16 explicitly shows damaged guanine paired with T rather than C."
+        },
+        {
+          "id": "b",
+          "text": "Guanine normally paired to T becomes O6-methylguanine paired to C.",
+          "evidence": "P16 gives the reverse normal/damaged partners."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-direct-repair-cost",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-direct-methyltransferase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Why does the lecture describe O6-methylguanine-DNA methyltransferase as being consumed by one repair event?",
+      "explanation": {
+        "en": "Direct transfer restores guanine while converting Cys-SH to methylated, inactive Cys-S-CH3.",
+        "ar": "يعيد Direct transfer قاعدة Guanine، لكنه يحوّل Cys-SH إلى Cys-S-CH3 في البروتين غير النشط."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Direct transfer restores guanine while converting Cys-SH to methylated, inactive Cys-S-CH3. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps, dna2-uvr-assignment."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "The methyl group moves from the protein to guanine, restoring the active protein.",
+          "evidence": "P17 shows transfer in the opposite direction, from damaged guanine to the protein."
+        },
+        {
+          "id": "b",
+          "text": "The protein removes a base and leaves an AP site for reuse.",
+          "evidence": "P11 assigns base removal/AP-site formation to glycosylase; p17 specifies permanent protein methylation."
+        },
+        {
+          "id": "a",
+          "text": "The methyl group moves to its own cysteine and permanently inactivates the protein.",
+          "evidence": "P17 shows Cys-SH becoming Cys-S-CH3 and active becoming inactive."
+        },
+        {
+          "id": "c",
+          "text": "The protein cuts both sides of a lesion and releases a 13-mer.",
+          "evidence": "P14 assigns a 13-mer excision to bacterial NER, not direct methyl transfer."
+        },
+        {
+          "id": "d",
+          "text": "The protein synthesizes replacement DNA and then seals the nick.",
+          "evidence": "P11 separates polymerase/ligase gap repair; p17 performs direct group transfer without excision."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-direct-versus-excision",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-direct-methyltransferase",
+        "dna-metabolism-2-ber-sequence",
+        "dna-metabolism-2-ner-lesions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which comparison correctly distinguishes direct methyltransferase repair from BER and NER?",
+      "explanation": {
+        "en": "The key distinction is what is changed or removed: a methyl group, a base, or a lesion-containing DNA segment.",
+        "ar": "التمييز هو ما يُنقل أو يُزال: Methyl group في Direct repair، وقاعدة في BER، وقطعة DNA حاوية للضرر في NER."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The key distinction is what is changed or removed: a methyl group, a base, or a lesion-containing DNA segment. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "Direct repair removes a base; BER removes a lesion-containing segment; NER transfers a methyl group.",
+          "evidence": "P11,p13,p17 assign each action to a different system than this rotation."
+        },
+        {
+          "id": "e",
+          "text": "Direct repair removes a base first; BER transfers a methyl group; NER removes a segment.",
+          "evidence": "NER is correct, but p17/p11 reverse the first two assignments."
+        },
+        {
+          "id": "c",
+          "text": "Direct repair removes a segment; BER transfers a methyl group; NER removes a base.",
+          "evidence": "P11,p13,p17 contradict this rotation of the three mechanisms."
+        },
+        {
+          "id": "a",
+          "text": "Direct repair transfers a methyl group; BER removes a base; NER removes a lesion-containing segment.",
+          "evidence": "P17, p11 and p13 assign these distinct actions."
+        },
+        {
+          "id": "d",
+          "text": "Direct repair transfers a methyl group; BER removes a segment first; NER removes only a base first.",
+          "evidence": "P11 begins with base removal; p13 uses two flanking backbone cuts."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-fork-break-response",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-fork-damage"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Match the two unrepaired-damage scenarios to the responses shown in the fork diagram.",
+      "explanation": {
+        "en": "The lesion branch permits recombinational or error-prone repair; the break branch points to recombinational repair and a separate homolog.",
+        "ar": "يعرض فرع Lesion خيارَي Recombinational repair أوError-prone repair، ويشير فرع Break إلى Recombinational repair وSeparate homologous chromosome."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Limited to the p18 break diagram; no universal requirement asserted for all repair mechanisms.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The lesion branch permits recombinational or error-prone repair; the break branch points to recombinational repair and a separate homolog. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-template-generalization."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Unrepaired lesion",
+          "right": "Recombinational DNA repair or error-prone repair",
+          "evidence": "P18 left branch labels these alternatives."
+        },
+        {
+          "id": "2",
+          "left": "Unrepaired break",
+          "right": "Recombinational DNA repair using a separate homologous chromosome",
+          "evidence": "P18 right branch labels recombinational repair and the separate-homolog annotation."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-sos-switch",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-sos-regulation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "What change releases SOS genes from the repression depicted for normal DNA?",
+      "explanation": {
+        "en": "LexA represses SOS genes; RecA-associated LexA cleavage removes that repression in the depicted response.",
+        "ar": "يثبط LexA جينات SOS؛ وتزيل عملية Cleavage المرتبطة بـRecA هذا التثبيط."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. LexA represses SOS genes; RecA-associated LexA cleavage removes that repression in the depicted response. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "RecA-associated cleavage of LexA",
+          "evidence": "P19 contrasts bound LexA/off with LexA cleavage and SOS/on."
+        },
+        {
+          "id": "c",
+          "text": "RecA replacing LexA as the SOS-box repressor",
+          "evidence": "P19 assigns RecA to LexA proteolysis, not replacement repression."
+        },
+        {
+          "id": "d",
+          "text": "LexA remaining intact at the SOS box",
+          "evidence": "P19 shows intact bound LexA prevents SOS expression."
+        },
+        {
+          "id": "e",
+          "text": "SOS genes remaining unable to express repair proteins",
+          "evidence": "P19 labels this as off, opposite the activated condition."
+        },
+        {
+          "id": "b",
+          "text": "LexA binding more strongly to the SOS box",
+          "evidence": "P19 places LexA binding in the repressed off state."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-tls-tradeoff",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-tls-pol-v"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which tradeoff does the slide assign to DNA polymerase V during TLS?",
+      "explanation": {
+        "en": "Pol V permits synthesis past otherwise blocking lesions, but inaccurate pairing and absent proofreading produce a high mutation rate.",
+        "ar": "يسمح Pol V باستمرار Synthesis عبر Lesions التي تعيق Replication، لكن عدم دقة Base pairing وغياب Proofreading يقللان Fidelity."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "TLS not equated with homologous recombination despite ambiguous p20 heading.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Pol V permits synthesis past otherwise blocking lesions, but inaccurate pairing and absent proofreading produce a high mutation rate. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-tls-heading."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "Transfers the lesion methyl group to its own cysteine.",
+          "evidence": "P17 assigns this direct repair action to methyltransferase, not TLS pol V."
+        },
+        {
+          "id": "d",
+          "text": "Removes the lesion by two flanking excinuclease cuts.",
+          "evidence": "P13 assigns those cuts to NER; p20 assigns synthesis across lesions to pol V."
+        },
+        {
+          "id": "a",
+          "text": "Bypasses a blocking lesion at the cost of low-fidelity synthesis.",
+          "evidence": "P20 explicitly links bypass to inaccurate repair and high mutation rate."
+        },
+        {
+          "id": "c",
+          "text": "Stops at the lesion because base-pairing accuracy is maintained.",
+          "evidence": "P20 says pol V replicates past lesions, with inaccurate pairing."
+        },
+        {
+          "id": "b",
+          "text": "Bypasses a blocking lesion while proofreading increases fidelity.",
+          "evidence": "P20 says proofreading is lacking and fidelity reduced."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-recombination-classify",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Match each DNA exchange description to the recombination class.",
+      "explanation": {
+        "en": "The classes are distinguished by homology, particular recombination sites, and mobile-element insertion.",
+        "ar": "تُميّز الأنواع بحسب Homology أو مواقع Recombination محددة أو إدخال Mobile element."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The classes are distinguished by homology, particular recombination sites, and mobile-element insertion. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Exchange between two homologous DNA molecules",
+          "right": "Homologous recombination",
+          "evidence": "P21 defines this class by homology."
+        },
+        {
+          "id": "2",
+          "left": "Exchange at particular shared sites in nonhomologous molecules",
+          "right": "Site-specific recombination",
+          "evidence": "P21 defines this by specific sequences."
+        },
+        {
+          "id": "3",
+          "left": "Insertion of a mobile short DNA element into a target",
+          "right": "Transpositional recombination",
+          "evidence": "P21 defines mobile-element insertion."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-recombination-dual-role",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-roles"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Match each role of recombination to the supporting statement in the lecture.",
+      "explanation": {
+        "en": "Recombination serves DNA repair and genetic diversity; homologs can differ in their alleles.",
+        "ar": "يخدم Recombination وظيفتَي DNA repair وGenetic diversity؛ وقد تختلف Alleles بين Homologs."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. Recombination serves DNA repair and genetic diversity; homologs can differ in their alleles. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "DNA repair",
+          "right": "Recombinational repair system",
+          "evidence": "P22 explicitly names this role/system."
+        },
+        {
+          "id": "2",
+          "left": "Genetic diversity",
+          "right": "Exchange involving homologs with differing alleles",
+          "evidence": "P22 names diversity; P28 relates repair products and different alleles to diversity."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-meiotic-diagram-sequence",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-meiotic-recombination"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Arrange only the stages explicitly depicted in the meiosis diagram.",
+      "explanation": {
+        "en": "The figure places DNA replication before crossing over and the depicted Meiosis I products.",
+        "ar": "يضع الشكل DNA replication قبل Crossing over وقبل نواتج Meiosis I المعروضة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The figure places DNA replication before crossing over and the depicted Meiosis I products. Arabic preserves that meaning and English terminology."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Paternal and maternal chromosomes are present before replication."
+        },
+        {
+          "id": "2",
+          "text": "DNA replication produces duplicated chromosomes."
+        },
+        {
+          "id": "3",
+          "text": "Crossing over exchanges parental segments."
+        },
+        {
+          "id": "4",
+          "text": "The depicted Meiosis I division yields two cells."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-crossover-structures",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-chiasma"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Match the chromosome-figure labels to their descriptions.",
+      "explanation": {
+        "en": "The figure distinguishes the exchange point, the two homologs, their sister chromatids and centromeres.",
+        "ar": "يميّز الشكل Chiasma عن Homologous pair وعن Sister chromatids وCentromere."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The figure distinguishes the exchange point, the two homologs, their sister chromatids and centromeres. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Chiasma",
+          "right": "Joining/crossover point between homologs",
+          "evidence": "P24 labels this point chiasma."
+        },
+        {
+          "id": "2",
+          "left": "Sister chromatids",
+          "right": "The duplicated chromatids grouped within a homolog",
+          "evidence": "P24 figure brackets these chromatids."
+        },
+        {
+          "id": "3",
+          "left": "Homologous pair",
+          "right": "The two homologs aligned for exchange",
+          "evidence": "P24 brackets the aligned pair."
+        },
+        {
+          "id": "4",
+          "left": "Centromere",
+          "right": "The constricted region labeled within a chromosome",
+          "evidence": "P24 points to this internal region."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-ds-break-common-sequence",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-ds-break-repair"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Arrange the common double-strand-break repair stages, ending at junction resolution.",
+      "explanation": {
+        "en": "The diagram orders end processing, invasion, extension/branch migration, replacement and resolution; resolution may yield alternative products.",
+        "ar": "يرتّب الشكل End processing ثم Strand invasion ثم Extension/Branch migration ثم تعويض DNA المفقود ثم Resolution؛ وقد تنتج أنماط ربط بديلة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only common upstream sequence imposed. Neither final joining product is required as the sole outcome.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The diagram orders end processing, invasion, extension/branch migration, replacement and resolution; resolution may yield alternative products. Arabic preserves that meaning and English terminology."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Exonuclease processing leaves 3-prime single-stranded extensions."
+        },
+        {
+          "id": "2",
+          "text": "An exposed extension invades its complement in an intact homolog."
+        },
+        {
+          "id": "3",
+          "text": "DNA polymerase extension and branch migration generate Holliday intermediates."
+        },
+        {
+          "id": "4",
+          "text": "Further DNA synthesis replaces the missing original DNA."
+        },
+        {
+          "id": "5",
+          "text": "Specialized nucleases cleave the Holliday intermediates."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ],
+        [
+          "5"
+        ]
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-holliday-two-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-holliday-products"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which conclusion about the final joining products is supported by the double-strand-break repair figure?",
+      "explanation": {
+        "en": "The source branches to two joining products; it does not prescribe one unique crossover result.",
+        "ar": "يتفرّع المصدر إلى ناتجي Joining بديلين، ولا يفرض نتيجة Crossover واحدة فقط."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The source branches to two joining products; it does not prescribe one unique crossover result. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "Only product set 2 is shown as a valid resolved product.",
+          "evidence": "P26 explicitly depicts both product sets as possible outcomes."
+        },
+        {
+          "id": "c",
+          "text": "Only product set 1 is shown as a valid resolved product.",
+          "evidence": "P26 also depicts product set 2 as a joining outcome."
+        },
+        {
+          "id": "a",
+          "text": "Two joining outcomes are shown; product set 2 recombines flanking DNA.",
+          "evidence": "P26 states either of two products and describes set 2 flanking recombination."
+        },
+        {
+          "id": "e",
+          "text": "Product set 1 is a stage that must occur before product set 2.",
+          "evidence": "P26 draws the two products as alternatives rather than sequential stages."
+        },
+        {
+          "id": "d",
+          "text": "Product set 2 is a stage that must occur before product set 1.",
+          "evidence": "P26 draws branching alternatives, not a sequential set 2-to-set 1 pathway."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-homolog-alleles",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-homolog-alleles"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Why can exchange between homologous chromosomes contribute to genomic diversity according to the slide?",
+      "explanation": {
+        "en": "The lecture emphasizes small allelic differences between homologs as a basis for diversity after recombination.",
+        "ar": "تؤكد المحاضرة أن Homologs قد يختلفان قليلًا في Alleles، وهو ما يتيح Genomic diversity بعد Recombination."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The lecture emphasizes small allelic differences between homologs as a basis for diversity after recombination. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "Only one Holliday-cleavage product can occur in vivo.",
+          "evidence": "P28 states both products occur in eukaryotes and prokaryotes."
+        },
+        {
+          "id": "a",
+          "text": "Homologous chromosomes can carry slightly different alleles.",
+          "evidence": "P28 explicitly states homologs need not be identical and may differ in alleles."
+        },
+        {
+          "id": "b",
+          "text": "Homologous chromosomes must be identical at every base.",
+          "evidence": "P28 explicitly says they are not identical."
+        },
+        {
+          "id": "e",
+          "text": "The same allele must be present on both homologs in every example.",
+          "evidence": "P28 gives hemoglobin A and S as differing alleles on homologs."
+        },
+        {
+          "id": "d",
+          "text": "Homologous repair follows entirely unrelated steps in every species.",
+          "evidence": "P28 says details vary but most steps are common."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-restart-transition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-replication-restart"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which transition is described for repair of a stalled replication fork?",
+      "explanation": {
+        "en": "A blocked fork passes through recombinational repair and returns to replication by the origin-independent restart described.",
+        "ar": "ينتقل Fork المتوقف من Replication إلى Recombinational repair ثم يعود إلى Replication عبر Origin-independent restart."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Unresolved seven-protein count and abbreviated membership are excluded.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. A blocked fork passes through recombinational repair and returns to replication by the origin-independent restart described. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-restart-protein-count."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "Replication to origin-dependent restart without recombinational repair",
+          "evidence": "P29 explicitly includes recombinational repair and calls the restart origin-independent."
+        },
+        {
+          "id": "c",
+          "text": "Recombinational repair to replication to mandatory new-origin initiation",
+          "evidence": "P29 describes origin-independent restart, not mandatory new-origin initiation."
+        },
+        {
+          "id": "d",
+          "text": "Replication to DNA polymerase III continuation without repair",
+          "evidence": "P29 says pol III cannot continue at the described obstruction."
+        },
+        {
+          "id": "a",
+          "text": "Replication to recombinational repair to replication",
+          "evidence": "P29 explicitly states this transition and calls restart origin-independent."
+        },
+        {
+          "id": "b",
+          "text": "Replication to recombinational repair to permanent termination",
+          "evidence": "P29 says the last stage returns to replication."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-recombinase-linkage",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-site-specific-recombinase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "What preserves the linkage during the strand-exchange chemistry illustrated for site-specific recombinase?",
+      "explanation": {
+        "en": "The figure uses a transient covalent recombinase-DNA intermediate during cleavage and rejoining.",
+        "ar": "يستخدم الشكل وسيطًا من Transient covalent recombinase-DNA أثناء Cleavage وRejoining."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "No exclusive serine/tyrosine subtype claim or broad no-enzyme claim imposed.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The figure uses a transient covalent recombinase-DNA intermediate during cleavage and rejoining. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps, dna2-uvr-assignment."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "A permanently unbroken phosphodiester bond throughout the exchange",
+          "evidence": "P30 depicts strand cleavage followed by covalent protein-DNA intermediate and rejoining."
+        },
+        {
+          "id": "d",
+          "text": "An AP site remaining after the exchanged base is removed",
+          "evidence": "P11 assigns AP sites to base removal in BER; p30 exchanges strands through protein-DNA intermediates."
+        },
+        {
+          "id": "e",
+          "text": "A 13-mer removed by ABC excinuclease",
+          "evidence": "P14 places this in bacterial NER rather than recombinase strand joining."
+        },
+        {
+          "id": "a",
+          "text": "A transient covalent protein-DNA linkage",
+          "evidence": "P30 explicitly describes phosphoserine/phosphotyrosine protein-DNA intermediates."
+        },
+        {
+          "id": "c",
+          "text": "A methyl group irreversibly transferred onto cysteine",
+          "evidence": "P17 assigns this to direct methylguanine repair rather than strand exchange."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "dna-metabolism-2-exchange-synthesis",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-no-synthesis",
+        "dna-metabolism-2-ber-sequence",
+        "dna-metabolism-2-direct-methyltransferase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Match each illustrated repair/exchange mechanism to its stated action.",
+      "explanation": {
+        "en": "The exchange reaction does not require DNA synthesis/degradation; BER and direct methyl transfer act differently.",
+        "ar": "لا يتطلب Strand exchange المعروض DNA synthesis أوDegradation؛ ويختلف ذلك عن خطوات BER وعن Direct methyl transfer."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only clear no-synthesis/no-degradation clause scored; no enzymes/cofactors needed remains blocked.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The exchange reaction does not require DNA synthesis/degradation; BER and direct methyl transfer act differently. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: dna2-ber-ntps, dna2-no-enzymes."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Site-specific strand breaking and rejoining",
+          "right": "No DNA synthesis or degradation required",
+          "evidence": "P31 explicitly states this clear clause; the broad no-enzyme clause is excluded."
+        },
+        {
+          "id": "2",
+          "left": "Base-excision repair",
+          "right": "Base removal followed by replacement synthesis and nick sealing",
+          "evidence": "P11 orders these BER stages."
+        },
+        {
+          "id": "3",
+          "left": "Direct methyltransferase repair",
+          "right": "Methyl-group transfer without base or nucleotide excision",
+          "evidence": "P17 explicitly describes this direct repair."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-simple-complex-elements",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-simple-complex-transposons"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Match each transposon gene-content pattern to the lecture classification.",
+      "explanation": {
+        "en": "Additional genes distinguish complex transposons from elements carrying only transposition requirements.",
+        "ar": "تميّز الجينات الإضافية Complex transposons عن العناصر التي تحمل متطلبات Transposition فقط."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. Additional genes distinguish complex transposons from elements carrying only transposition requirements. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Only sequences/genes required for transposition",
+          "right": "Simple transposon",
+          "evidence": "P32 defines simple elements by this restricted content."
+        },
+        {
+          "id": "2",
+          "left": "Transposition requirements plus an antibiotic-resistance gene",
+          "right": "Complex transposon",
+          "evidence": "P32 defines complex elements by extra genes and gives resistance as example."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-transposition-pathways",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-transposition-classes",
+        "dna-metabolism-2-transposase-activities"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Match each feature to the transposition route or enzyme defined in the lecture.",
+      "explanation": {
+        "en": "Class I uses an RNA intermediate; Class II uses a cut DNA intermediate; transposase supplies the stated cutting/joining activities.",
+        "ar": "يمر Class I عبر RNA intermediate، ويستخدم Class II قطعة DNA مقطوعة؛ وتُسند إلى Transposase وظيفتا Nuclease وLigase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. Class I uses an RNA intermediate; Class II uses a cut DNA intermediate; transposase supplies the stated cutting/joining activities. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "RNA followed by reverse-transcribed DNA",
+          "right": "Class I retrotransposon route",
+          "evidence": "P33 gives this intermediate route."
+        },
+        {
+          "id": "2",
+          "left": "DNA cut from donor and inserted into target",
+          "right": "Class II transposon route",
+          "evidence": "P33 defines this cut DNA route."
+        },
+        {
+          "id": "3",
+          "left": "Nuclease plus ligase activities",
+          "right": "Transposase",
+          "evidence": "P33 explicitly assigns both activities to transposase."
+        }
+      ]
+    },
+    {
+      "id": "dna-metabolism-2-retrotransposon-route",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "dna-metabolism-2",
+      "conceptIds": [
+        "dna-metabolism-2-transposition-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Arrange the Class I retrotransposon route shown in the diagram.",
+      "explanation": {
+        "en": "The diagram places transcription before reverse transcription and target insertion.",
+        "ar": "يضع الشكل Transcription قبل Reverse transcription ثم الإدخال في Target DNA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The diagram places transcription before reverse transcription and target insertion. Arabic preserves that meaning and English terminology."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Donor-DNA retrotransposon is transcribed."
+        },
+        {
+          "id": "2",
+          "text": "The RNA intermediate is reverse-transcribed into DNA."
+        },
+        {
+          "id": "3",
+          "text": "The DNA intermediate is inserted into target DNA by recombination."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ]
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "dna-metabolism-2-carcinogens-mutagens",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-ames-incubation",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-repair-table-proteins",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-mismatch-fidelity",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-ung-types",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-ner-incisions",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-hnpcc-homologs",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-crossing-over-visual",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-holliday-image",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-hemoglobin-example",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "dna-metabolism-2-site-size-tetramer",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    }
+  ]
+}

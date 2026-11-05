@@ -2,7 +2,7 @@
 
 ## Status and authorization boundary
 
-Product discovery is complete. This is a staged implementation plan, not an implementation or a question bank. The user prohibited coding and question generation until discovery was complete; that discovery gate has now been satisfied. The user approved the platform name Study Atlas and authorized proceeding. The public repository exists at https://github.com/TheMedDude/study-atlas under the verified TheMedDude account (GitHub user ID 352966162), and the initial handoff text is committed. All six lecture PDFs have been pushed with Git and verified against the original copies by remote Git blob hash and byte size. No application code, study questions, full source extraction, or content QA has been produced.
+Product discovery is complete. This is a staged implementation plan, not an implementation or a question bank. The user prohibited coding and question generation until discovery was complete; that discovery gate has now been satisfied. The user approved the platform name Study Atlas and authorized proceeding. The public repository exists at https://github.com/TheMedDude/study-atlas under the verified TheMedDude account (GitHub user ID 352966162), and the initial handoff text is committed. All six lecture PDFs have been pushed with Git and verified against the original copies by remote Git blob hash and byte size. At the original discovery handoff, implementation had not started. The subsequent source, reviewed-bank and application milestones are recorded in PROJECT_LOG.md and docs/QA.md; all confirmed choices below remain in force.
 
 The conversation is already in Codex desktop. Continue from the established decisions rather than restarting discovery or asking the user to repeat earlier choices.
 
@@ -35,7 +35,7 @@ The supplied archive is `drive-download-20261105T151329Z-1-001.zip`. It contains
 
 The user confirmed that **all six PDFs in full** are in scope, excluding covers and administrative pages. The course outline mentions material outside this archive; do not add those absent lectures. Preserve original filenames, including their spelling, while using clean display titles.
 
-The portable inventory is in `subjects/molecular-biology/sources/manifest.json`, with unchanged PDFs in `subjects/molecular-biology/sources/slides/` and original filenames recorded in the manifest. This is an inventory and limited cover/content inspection, not a completed study source. Several pages have very little extractable text and need visual review before their contents can be understood reliably.
+The portable inventory is in `subjects/molecular-biology/sources/manifest.json`, with unchanged PDFs in `subjects/molecular-biology/sources/slides/` and original filenames recorded in the manifest. The later source-analysis milestone reviewed every page visually and produced the complete study source, page/concept indices, coverage ledger and uncertainty register. Image-heavy pages, screenshot tables and diagrams were reconstructed; no outside biology was added.
 
 ## Confirmed Molecular Biology learning and assessment decisions
 
@@ -57,7 +57,7 @@ The portable inventory is in `subjects/molecular-biology/sources/manifest.json`,
 - Source references should usually open side-by-side, with full-screen viewing also available. From the subject home, students can browse the available midterm materials and view/download the PDFs.
 - Collect similar interaction preferences in Settings. Only instant checking versus select-then-confirm is individually confirmed. Viewer layout, explanation reveal, text size, and reduced motion are reasonable recommendations, not additional confirmed requirements.
 
-## Pending source-analysis and content work
+## Source-analysis and content requirements
 
 1. Identify cover/administrative exclusions and preserve exact PDF page references separately from any printed slide numbers.
 2. Produce a faithful Markdown source and chapter/topic index, reviewing image-heavy pages, diagrams, screenshot tables, labels, and reading order visually. Mark unclear material rather than guessing.
@@ -67,6 +67,6 @@ The portable inventory is in `subjects/molecular-biology/sources/manifest.json`,
 6. When question authoring begins, validate every correct answer, distractor, explanation, relationship, diagram target, and ordering rule against the supplied source. Accept all supported solutions; do not impose a unique sequence on parallel/interchangeable steps. Absence from a slide is not proof that an alternative is false.
 7. Review answer cues, ambiguity, duplication, bilingual explanation fidelity, diagram readability, and chapter/slide coverage before publishing the bank. Repeated identical items must not inflate evidence of learning.
 
-## Next implementation stage
+## Implementation handoff
 
-The local project folder and source inventory are prepared, and the public repository TheMedDude/study-atlas exists with the initial handoff text committed. The six-PDF upload is complete and verified. Continue the staged content workflow; report actual repository and deployment status separately. Keep source content, validated assessment data, presentation, and progress storage separable, with Molecular Biology as the first subject in the general Study Atlas platform. Choose routine implementation details without reopening completed discovery. Do not populate a polished shell with unverified study content or claim that the inventory constitutes completed extraction or QA.
+Source analysis and independent activity review are complete. The shared application implements the confirmed study modes, settings, source references and local progress policy. See PROJECT_LOG.md for exact counts, commits and live deployment status, and docs/QA.md for verification evidence and limits. Future subjects still need their own authoritative sources and review; the first subject's midterm scope, five-option format and language choices remain subject configuration.

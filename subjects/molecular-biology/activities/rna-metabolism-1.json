@@ -1,0 +1,1993 @@
+{
+  "lectureId": "rna-metabolism-1",
+  "activities": [
+    {
+      "id": "rna-metabolism-1-rna-catalysis",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-rna-functions",
+        "rna-metabolism-1-transcription-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "Match the introductory term or claim to its description in the lecture.",
+      "explanation": {
+        "en": "RNA has the three stated roles; ribozymes provide the catalytic example and transcription transfers DNA information to RNA.",
+        "ar": "يُعرض RNA في Storage وTransmission وCatalysis؛ ويقدّم Ribozyme مثالًا على Catalysis، وتنقل Transcription معلومات DNA إلى RNA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. RNA has the three stated roles; ribozymes provide the catalytic example and transcription transfers DNA information to RNA. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Roles emphasized for RNA",
+          "right": "Information storage, transmission and catalysis",
+          "evidence": "P2 explicitly states these roles."
+        },
+        {
+          "id": "2",
+          "left": "Ribozyme",
+          "right": "Catalytic RNA",
+          "evidence": "P2 explicitly defines catalytic RNA as ribozyme."
+        },
+        {
+          "id": "3",
+          "left": "Transcription",
+          "right": "DNA information converted into complementary RNA",
+          "evidence": "P2 gives this definition."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-template-transcript-sequence",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-definition",
+        "rna-metabolism-1-coding-template"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "The template is 3′-GCGATATCGCAAA-5′. Which 5′ to 3′ RNA transcript matches the lecture example?",
+      "explanation": {
+        "en": "The transcript is complementary to the template and matches coding DNA except for U replacing T.",
+        "ar": "يكون Transcript مكمّلًا لشريط Template ويطابق Coding DNA مع استخدام U بدل T."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The transcript is complementary to the template and matches coding DNA except for U replacing T. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "CGCTATAGCGTTT",
+          "evidence": "P10 prints this as coding DNA; the RNA uses U rather than T."
+        },
+        {
+          "id": "d",
+          "text": "AAACGCUAUAGCG",
+          "evidence": "This reverses the template with U substitution, whereas P10 prints CGCUAUAGCGUUU."
+        },
+        {
+          "id": "b",
+          "text": "GCGAUAUCGCAAA",
+          "evidence": "This retains the template base order with U substitution rather than complementing it; P10 supplies the complementary transcript."
+        },
+        {
+          "id": "a",
+          "text": "CGCUAUAGCGUUU",
+          "evidence": "P10 prints this RNA complementary to the shown template; P2 defines transcription complementarity."
+        },
+        {
+          "id": "c",
+          "text": "UUUGCGAUAUCGC",
+          "evidence": "This reverses the source transcript instead of reading it 5-prime to 3-prime as in P10."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-rna-class-functions",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-rna-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Match each RNA class to the protein-synthesis role assigned in the lecture.",
+      "explanation": {
+        "en": "mRNA carries codons, tRNA delivers the specified amino acid, and rRNA participates in ribosome structure.",
+        "ar": "يحمل mRNA المعلومات على شكل Codons، ويوصل tRNA الحمض الأميني المحدد، ويشارك rRNA مع البروتينات في تكوين Ribosomes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. mRNA carries codons, tRNA delivers the specified amino acid, and rRNA participates in ribosome structure. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "mRNA",
+          "right": "Carries DNA-copied information in codons",
+          "evidence": "P3 explicitly assigns this role."
+        },
+        {
+          "id": "2",
+          "left": "tRNA",
+          "right": "Delivers the specified amino acid",
+          "evidence": "P3 explicitly assigns this role."
+        },
+        {
+          "id": "3",
+          "left": "rRNA",
+          "right": "Associates with proteins to form ribosomes",
+          "evidence": "P3 explicitly assigns this role."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-transcription-comparison",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-replication"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which feature distinguishes transcription in the comparison slide while retaining the stated synthesis direction?",
+      "explanation": {
+        "en": "Transcription needs a template but no primer and synthesizes RNA 5′ to 3′.",
+        "ar": "تحتاج Transcription إلى Template من دون Primer، وتُنتج RNA باتجاه 5′ to 3′."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Transcription needs a template but no primer and synthesizes RNA 5′ to 3′. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "A primer is required; synthesis proceeds 5′ to 3′.",
+          "evidence": "P4 specifically says transcription has no primer requirement."
+        },
+        {
+          "id": "d",
+          "text": "A primer is required; synthesis proceeds 3′ to 5′.",
+          "evidence": "P4 contradicts both requirements/direction."
+        },
+        {
+          "id": "a",
+          "text": "No primer is required; synthesis proceeds 5′ to 3′.",
+          "evidence": "P4 explicitly states both features for transcription."
+        },
+        {
+          "id": "c",
+          "text": "No primer is required; synthesis proceeds 3′ to 5′.",
+          "evidence": "P4 gives 5-prime to 3-prime synthesis."
+        },
+        {
+          "id": "e",
+          "text": "No template is required; synthesis proceeds 5′ to 3′.",
+          "evidence": "P4 explicitly retains the template requirement."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-transcription-components",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-requirements"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Match each transcription requirement category to the entry listed in the slide.",
+      "explanation": {
+        "en": "The slide requires RNA polymerase, a 3′ to 5′ DNA template, four NTPs and the stated metal ions; no primer is required.",
+        "ar": "تسرد الشريحة RNA polymerase وDNA template باتجاه 3′ to 5′ وNTPs الأربعة وMg2+/Zn2+، من دون اشتراط Primer."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The slide requires RNA polymerase, a 3′ to 5′ DNA template, four NTPs and the stated metal ions; no primer is required. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Enzyme",
+          "right": "RNA polymerase",
+          "evidence": "P5 lists this enzyme."
+        },
+        {
+          "id": "2",
+          "left": "Template orientation read",
+          "right": "3′ to 5′ DNA strand",
+          "evidence": "P5 gives this template direction."
+        },
+        {
+          "id": "3",
+          "left": "Nucleotide substrates",
+          "right": "ATP, GTP, CTP and UTP",
+          "evidence": "P5 lists the four NTPs."
+        },
+        {
+          "id": "4",
+          "left": "Metal ions listed",
+          "right": "Mg2+ and Zn2+",
+          "evidence": "P5 lists these ions."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-polymerization-stoichiometry",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-rna-polymerization-reaction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which reaction matches the RNA-lengthening equation in the lecture?",
+      "explanation": {
+        "en": "An NTP contributes one NMP to the lengthened chain and PPi is released.",
+        "ar": "يساهم NTP بوحدة NMP واحدة في إطالة السلسلة، وينطلق PPi."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. An NTP contributes one NMP to the lengthened chain and PPi is released. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "(NMP)n + PPi → (NMP)n+1 + NTP",
+          "evidence": "P6 places NTP on the reactant side and PPi on the product side."
+        },
+        {
+          "id": "d",
+          "text": "(NMP)n + NTP → (NMP)n−1 + PPi",
+          "evidence": "P6 lengthens by one rather than shortens the polymer."
+        },
+        {
+          "id": "e",
+          "text": "(NMP)n + NTP → (NMP)n+1 + Pi",
+          "evidence": "P6 specifically releases PPi rather than the Pi written here."
+        },
+        {
+          "id": "a",
+          "text": "(NMP)n + NTP → (NMP)n+1 + PPi",
+          "evidence": "P6 prints this reaction."
+        },
+        {
+          "id": "b",
+          "text": "(NMP)n + NMP → (NMP)n+1 + PPi",
+          "evidence": "P6 supplies NTP, not NMP, as the incoming substrate."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-extension-nucleophile",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-rna-extension"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Which end of the growing RNA supplies the nucleophile for extension?",
+      "explanation": {
+        "en": "RNA polymerase extends the RNA 3′ end; the 3′ OH is the attacking nucleophile.",
+        "ar": "يمدّد RNA polymerase الطرف 3′ من RNA؛ وتعمل مجموعة 3′ OH بوصفها Nucleophile."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. RNA polymerase extends the RNA 3′ end; the 3′ OH is the attacking nucleophile. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "The 5′ end attacks phosphate of the incoming rNTP.",
+          "evidence": "P7 specifies addition at the 3-prime hydroxyl, not the 5-prime end."
+        },
+        {
+          "id": "c",
+          "text": "The 3′ hydroxyl of the DNA template attacks incoming rNTP.",
+          "evidence": "P7 assigns extension to the RNA strand while DNA is the template."
+        },
+        {
+          "id": "a",
+          "text": "The 3′ hydroxyl attacks phosphate of the incoming rNTP.",
+          "evidence": "P7 explicitly annotates this nucleophile and incoming substrate."
+        },
+        {
+          "id": "e",
+          "text": "The phosphate of incoming rNTP attacks the RNA 5′ end.",
+          "evidence": "P7 gives the opposite nucleophile/target relationship at RNA 3-prime OH."
+        },
+        {
+          "id": "d",
+          "text": "The 5′ end of the DNA template attacks incoming rNTP.",
+          "evidence": "P7 depicts DNA as template and RNA 3-prime OH as nucleophile."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-bubble-layout",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-bubble"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "For the left-to-right moving transcription complex shown, which arrangement is correct?",
+      "explanation": {
+        "en": "A short hybrid is retained at the growing end while DNA opens ahead and closes behind.",
+        "ar": "يبقى RNA-DNA hybrid قصير عند الطرف النامي، مع Unwinding أمام المركّب وRewinding خلفه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. A short hybrid is retained at the growing end while DNA opens ahead and closes behind. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "DNA rewinds ahead, unwinds behind, and briefly pairs with the growing RNA.",
+          "evidence": "P7 places unwinding and rewinding in the opposite positions."
+        },
+        {
+          "id": "a",
+          "text": "DNA unwinds ahead, rewinds behind, and briefly pairs with the growing RNA.",
+          "evidence": "P7 labels unwinding at right, rewinding at left and an RNA-DNA hybrid within the complex."
+        },
+        {
+          "id": "d",
+          "text": "DNA rewinds ahead, unwinds behind, and pairs with the entire released RNA.",
+          "evidence": "P7 contradicts both spatial labels and the short-hybrid arrangement."
+        },
+        {
+          "id": "e",
+          "text": "DNA unwinds ahead and remains paired with RNA throughout the rewound duplex.",
+          "evidence": "P7 distinguishes the short RNA-DNA hybrid from rewound DNA behind the complex."
+        },
+        {
+          "id": "c",
+          "text": "DNA unwinds ahead, rewinds behind, and pairs with the entire released RNA.",
+          "evidence": "P7 labels a short 8-bp hybrid, not pairing of the entire released RNA."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-transcription-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-stages"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Arrange the transcription stages named in the slide.",
+      "explanation": {
+        "en": "Initiation precedes elongation, followed by termination; the hybrid peels away as DNA reforms.",
+        "ar": "تسبق Initiation مرحلة Elongation، ثم تحدث Termination؛ وينفصل Hybrid مع إعادة تكوّن DNA duplex."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. Initiation precedes elongation, followed by termination; the hybrid peels away as DNA reforms. Arabic preserves that meaning and English terminology."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Initiation at a promoter by RNA polymerase binding."
+        },
+        {
+          "id": "2",
+          "text": "Elongation with transient RNA-DNA hybrid formation."
+        },
+        {
+          "id": "3",
+          "text": "Termination of transcription."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-supercoil-signs",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-supercoils"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which supercoil pattern is shown around the moving transcription complex?",
+      "explanation": {
+        "en": "The diagram places negative supercoils behind and positive supercoils ahead; topoisomerase relieves this stress.",
+        "ar": "يضع الشكل Negative supercoils خلف المركّب وPositive supercoils أمامه؛ ويخفف Topoisomerase هذا الإجهاد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The diagram places negative supercoils behind and positive supercoils ahead; topoisomerase relieves this stress. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "d",
+          "text": "Positive behind; positive ahead; relieved by topoisomerase",
+          "evidence": "P9 labels the behind region negative."
+        },
+        {
+          "id": "e",
+          "text": "Positive behind; negative ahead; generated without strand rotation",
+          "evidence": "P9 reverses these signs and explicitly links bubble movement to strand rotation."
+        },
+        {
+          "id": "b",
+          "text": "Positive behind; negative ahead; relieved by topoisomerase",
+          "evidence": "P9 shows the reverse spatial signs."
+        },
+        {
+          "id": "c",
+          "text": "Negative behind; negative ahead; relieved by topoisomerase",
+          "evidence": "P9 labels the ahead region positive."
+        },
+        {
+          "id": "a",
+          "text": "Negative behind; positive ahead; relieved by topoisomerase",
+          "evidence": "P9 labels this pattern and topoisomerase relief."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-sigma-core",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-bacterial-rna-pol"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which description matches the E. coli RNA polymerase drawing and text?",
+      "explanation": {
+        "en": "The core is alpha2, beta, beta-prime and omega; sigma transiently joins and directs specific binding.",
+        "ar": "يتكوّن Core من Alpha2 وBeta وBeta-prime وOmega؛ وينضم Sigma مؤقتًا لتوجيه الارتباط بتسلسلات محددة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Literal 104-105 error-frequency ambiguity excluded.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The core is alpha2, beta, beta-prime and omega; sigma transiently joins and directs specific binding. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-error-rate-format. Peer fix: Replaced remote/implausible sigma-core alternatives with parallel core-composition, sigma-transience and recognition contrasts."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "Core α2ββ′ω; transient σ has no specific DNA-recognition role",
+          "evidence": "The core/transience fit p11, but the source explicitly assigns specific DNA binding recognition to σ."
+        },
+        {
+          "id": "c",
+          "text": "Core α2ββ′σ; transient ω directs specific DNA recognition",
+          "evidence": "PDF p11 puts ω in the constant core and σ in the transient recognition role, reversing this assignment."
+        },
+        {
+          "id": "d",
+          "text": "Core αββ′ω; transient σ directs specific DNA recognition",
+          "evidence": "PDF p11 depicts two α copies; this option omits one and therefore has four core subunits rather than five."
+        },
+        {
+          "id": "e",
+          "text": "Core α2ββ′ω; permanently bound σ directs specific DNA recognition",
+          "evidence": "The core fits p11, but the text describes sigma as binding transiently."
+        },
+        {
+          "id": "a",
+          "text": "Core α2ββ′ω; transient σ directs specific DNA recognition",
+          "evidence": "PDF p11 depicts α,α,β,β′,ω as the constant five-unit core and σ as the transient recognition component."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-gene-coordinates",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-promoter-coordinates",
+        "rna-metabolism-1-gene-structure"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Match each gene-map feature to the coordinate or position shown.",
+      "explanation": {
+        "en": "The start is +1, upstream is negative and downstream is positive; the promoter lies before the coding region shown.",
+        "ar": "موضع البداية +1، وUpstream سالب وDownstream موجب؛ ويقع Promoter قبل Coding region في الرسم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The start is +1, upstream is negative and downstream is positive; the promoter lies before the coding region shown. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Upstream positions",
+          "right": "Negative coordinates",
+          "evidence": "P12 assigns negative numbers upstream."
+        },
+        {
+          "id": "2",
+          "left": "Transcription start site",
+          "right": "+1",
+          "evidence": "P12 defines start as +1."
+        },
+        {
+          "id": "3",
+          "left": "Downstream positions",
+          "right": "Positive coordinates",
+          "evidence": "P12 assigns positive numbers downstream."
+        },
+        {
+          "id": "4",
+          "left": "Promoter in the gene schematic",
+          "right": "Before the downstream coding region",
+          "evidence": "P13 draws promoter before +1 and coding region."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-initiation-regulator-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-initiation-regulators"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "The slide names RNA polymerase, activators and repressors as interacting with DNA to regulate initiation. Which region-stage pairing does it specify?",
+      "explanation": {
+        "en": "The named proteins interact at the promoter to regulate transcription initiation.",
+        "ar": "تتفاعل البروتينات المذكورة عند Promoter لتنظيم Transcription initiation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The named proteins interact at the promoter to regulate transcription initiation. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "Promoter; transcription termination",
+          "evidence": "P12 names initiation, not termination."
+        },
+        {
+          "id": "d",
+          "text": "Coding region; transcription initiation",
+          "evidence": "P12 names promoter as interaction region; P13 distinguishes coding region."
+        },
+        {
+          "id": "e",
+          "text": "Coding region; transcription termination",
+          "evidence": "P12 identifies promoter/initiation rather than coding region/termination."
+        },
+        {
+          "id": "c",
+          "text": "Promoter; transcript elongation only",
+          "evidence": "P12 assigns the stated regulation to initiation."
+        },
+        {
+          "id": "a",
+          "text": "Promoter; transcription initiation",
+          "evidence": "P12 explicitly assigns those interactions to promoter regulation of initiation."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-bacterial-promoter-elements",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-ecoli-promoter",
+        "rna-metabolism-1-promoter-spacers"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Match each bacterial promoter feature to its sequence, region or spacer label.",
+      "explanation": {
+        "en": "The diagram distinguishes the two recognition hexamers, the optional UP element and the two spacers.",
+        "ar": "يميّز الرسم بين TATAAT وTTGACA وUP element الاختياري، وبين Spacer بطول N17 وآخر N6."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exact tightly stacked UP-element consensus excluded.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The diagram distinguishes the two recognition hexamers, the optional UP element and the two spacers. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-up-consensus."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "-10 recognition region",
+          "right": "TATAAT",
+          "evidence": "P14 prints this hexamer."
+        },
+        {
+          "id": "2",
+          "left": "-35 recognition region",
+          "right": "TTGACA",
+          "evidence": "P14 prints this hexamer."
+        },
+        {
+          "id": "3",
+          "left": "Optional UP element location",
+          "right": "-40 to -60",
+          "evidence": "P14 gives this interval and notes it is not universal."
+        },
+        {
+          "id": "4",
+          "left": "Spacer between -35 and -10 regions",
+          "right": "N17",
+          "evidence": "P14 diagram labels this spacer."
+        },
+        {
+          "id": "5",
+          "left": "Spacer between -10 region and RNA start",
+          "right": "N6",
+          "evidence": "P14 diagram labels this spacer."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-bacterial-initiation-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-bacterial-initiation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Arrange the bacterial promoter events in the sequence depicted.",
+      "explanation": {
+        "en": "Promoter binding precedes opening and initial transcription. Promoter clearance, sigma release and entry into elongation are grouped as the final depicted transition rather than forced into an unsupported strict order.",
+        "ar": "يسبق ارتباط Promoter فتح DNA وبدء Transcription. جُمعت Promoter clearance وانفصال Sigma والانتقال إلى Elongation في مرحلة أخيرة واحدة، دون فرض ترتيب صارم غير محسوم بينها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. Promoter binding precedes opening and initial transcription. Promoter clearance, sigma release and entry into elongation are grouped as the final depicted transition rather than forced into an unsupported strict order. Arabic preserves that meaning and English terminology. Peer fix: Inspected original PDF p15; grouped promoter clearance/sigma dissociation/elongation to avoid an unsupported strict order between parts of one depicted transition."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "RNA polymerase binds the promoter in a closed complex."
+        },
+        {
+          "id": "2",
+          "text": "DNA opens near -10 to form the open complex."
+        },
+        {
+          "id": "3",
+          "text": "Transcription begins."
+        },
+        {
+          "id": "4",
+          "text": "The complex clears the promoter as sigma dissociates and elongation proceeds."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-termination-overview",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-termination-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Match each cellular setting to the termination overview stated in the lecture.",
+      "explanation": {
+        "en": "The bacterial comparison concerns Rho dependence; eukaryotic termination differs by polymerase.",
+        "ar": "تتعلق المقارنة البكتيرية بالحاجة إلى Rho، بينما تختلف Termination في Eukaryotes بحسب RNA polymerase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The bacterial comparison concerns Rho dependence; eukaryotic termination differs by polymerase. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Bacteria",
+          "right": "Two principal mechanisms, one additionally requiring Rho",
+          "evidence": "P16 explicitly gives this bacterial overview."
+        },
+        {
+          "id": "2",
+          "left": "Eukaryotes",
+          "right": "Mechanisms differ among the three RNA polymerases",
+          "evidence": "P16 explicitly gives this eukaryotic overview."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-rho-direction-energy",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-rho-termination"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which combination is assigned to Rho-dependent termination?",
+      "explanation": {
+        "en": "Rho travels along mRNA 5′ to 3′ and uses ATP-dependent helicase activity to disrupt the hybrid.",
+        "ar": "يتحرك Rho على mRNA باتجاه 5′ to 3′ ويستخدم ATP-dependent helicase لتفكيك RNA-DNA hybrid."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. Rho travels along mRNA 5′ to 3′ and uses ATP-dependent helicase activity to disrupt the hybrid. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-gc-wording."
+      },
+      "options": [
+        {
+          "id": "b",
+          "text": "3′ to 5′ movement on mRNA; ATP-dependent helicase disrupts the RNA-DNA hybrid",
+          "evidence": "P17 gives the opposite movement direction."
+        },
+        {
+          "id": "a",
+          "text": "5′ to 3′ movement on mRNA; ATP-dependent helicase disrupts the RNA-DNA hybrid",
+          "evidence": "P17 explicitly states direction, track and activity."
+        },
+        {
+          "id": "d",
+          "text": "5′ to 3′ movement on DNA; ATP-dependent helicase disrupts the RNA-DNA hybrid",
+          "evidence": "P17 says Rho loads onto and proceeds along mRNA."
+        },
+        {
+          "id": "c",
+          "text": "5′ to 3′ movement on mRNA; ATP-independent helicase disrupts the RNA-DNA hybrid",
+          "evidence": "P17 explicitly says ATP-dependent."
+        },
+        {
+          "id": "e",
+          "text": "3′ to 5′ movement on DNA; ATP-independent helicase disrupts the RNA-DNA hybrid",
+          "evidence": "P17 contradicts track, direction and ATP requirement."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-intrinsic-terminator-pattern",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-intrinsic-termination",
+        "rna-metabolism-1-terminator-hairpin"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which RNA pattern is depicted for the Rho-independent terminator example?",
+      "explanation": {
+        "en": "The example combines an RNA hairpin with a following U-rich tail; no disputed template-unwinding explanation is needed.",
+        "ar": "يجمع المثال RNA hairpin مع U-rich tail تليه؛ ولا يعتمد السؤال على تفسير Template unwinding المختلف عليه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "No exact trp sequence or ambiguous GC-template causal wording scored.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The example combines an RNA hairpin with a following U-rich tail; no disputed template-unwinding explanation is needed. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-gc-wording."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "GC-rich stem-loop followed by a U-rich segment",
+          "evidence": "P18 shows this arrangement; P17 links weak A-U pairing to bubble collapse."
+        },
+        {
+          "id": "d",
+          "text": "U-rich segment followed by an unpaired GC-rich tail",
+          "evidence": "P18 shows the GC segment folded as a stem-loop before the U-rich tail."
+        },
+        {
+          "id": "b",
+          "text": "U-rich stem-loop followed by a GC-rich segment",
+          "evidence": "P18 assigns GC enrichment to the stem and U enrichment to the following segment."
+        },
+        {
+          "id": "c",
+          "text": "GC-rich stem-loop followed by a C-rich segment",
+          "evidence": "P18 labels the terminal segment with U residues rather than C."
+        },
+        {
+          "id": "e",
+          "text": "Unpaired GC-rich segment followed by a C-rich stem-loop",
+          "evidence": "P18 shows a paired GC-rich stem and a U-rich following segment."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-terminator-diagram-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-terminator-stages"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Arrange the labels of the hairpin-associated termination diagram.",
+      "explanation": {
+        "en": "The diagram proceeds from pausing through the hairpin-associated isomerization step to termination.",
+        "ar": "ينتقل الشكل من Pause إلى Isomerize المرتبطة بتشكّل Hairpin ثم Terminate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The diagram proceeds from pausing through the hairpin-associated isomerization step to termination. Arabic preserves that meaning and English terminology."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "Pause"
+        },
+        {
+          "id": "2",
+          "text": "Isomerize with RNA hairpin formation"
+        },
+        {
+          "id": "3",
+          "text": "Terminate"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-eukaryotic-polymerases",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-pol-types"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Match each eukaryotic RNA polymerase to the transcript type listed in the lecture.",
+      "explanation": {
+        "en": "The listed roles are I for rRNA, II for mRNA and III for tRNA; the list is not asserted to be exhaustive.",
+        "ar": "الأدوار المذكورة هي Pol I لـrRNA وPol II لـmRNA وPol III لـtRNA؛ ولا يفترض السؤال أن القوائم حصرية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The listed roles are I for rRNA, II for mRNA and III for tRNA; the list is not asserted to be exhaustive. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "RNA polymerase I",
+          "right": "rRNA genes",
+          "evidence": "P20 lists this product class."
+        },
+        {
+          "id": "2",
+          "left": "RNA polymerase II",
+          "right": "mRNA-encoding genes",
+          "evidence": "P20 lists this product class."
+        },
+        {
+          "id": "3",
+          "left": "RNA polymerase III",
+          "right": "tRNAs",
+          "evidence": "P20 lists this product class."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-eukaryotic-promoter-map",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-promoter",
+        "rna-metabolism-1-consensus-symbols"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Match each eukaryotic promoter feature or consensus symbol to the slide description.",
+      "explanation": {
+        "en": "The TATA box lies near -30 and Inr near +1; N and Y specify sequence variability.",
+        "ar": "يقع TATA box قرب -30 وInr قرب +1؛ ويرمز N لأي Nucleotide وY إلى Pyrimidine."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The TATA box lies near -30 and Inr near +1; N and Y specify sequence variability. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "TATA box",
+          "right": "TATAAA near -30",
+          "evidence": "P21 prints sequence and position."
+        },
+        {
+          "id": "2",
+          "left": "Inr",
+          "right": "Initiator near +1 where DNA unwinds",
+          "evidence": "P21 places initiation/unwinding here."
+        },
+        {
+          "id": "3",
+          "left": "N",
+          "right": "Any nucleotide",
+          "evidence": "P21 defines N."
+        },
+        {
+          "id": "4",
+          "left": "Y",
+          "right": "Pyrimidine",
+          "evidence": "P21 defines Y."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-pol2-complex-cycle",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-pol2-assembly",
+        "rna-metabolism-1-pol2-recycling"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Arrange the broad stages of the RNA polymerase II cycle shown, without imposing an order on interchangeable assembly alternatives.",
+      "explanation": {
+        "en": "The diagram places assembly/opening before initiation and elongation, then RNA release at termination. Polymerase release and dephosphorylation remain grouped before reuse.",
+        "ar": "يضع الرسم Assembly وOpening قبل Initiation وElongation، ثم تحرّر RNA عند Termination. وتبقى عمليتا تحرّر Pol II وDephosphorylation مجمعتين قبل إعادة الاستخدام."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Uses broad stages; no unique ordering of TBP/TFIID/TFIIA alternatives imposed.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked that the original diagram/text establishes the scored ordering; simultaneous/alternative operations are not forced into unique branches. The diagram places assembly/opening before initiation and elongation, then RNA release at termination. Polymerase release and dephosphorylation remain grouped before reuse. Arabic preserves that meaning and English terminology. Peer fix: Inspected original PDF p22; kept polymerase release/dephosphorylation together and separated RNA release, matching the figure without imposing release-before-dephosphorylation."
+      },
+      "items": [
+        {
+          "id": "1",
+          "text": "TBP-associated factors and RNA polymerase II assemble a closed complex."
+        },
+        {
+          "id": "2",
+          "text": "DNA unwinds to form the open complex."
+        },
+        {
+          "id": "3",
+          "text": "Initiation releases an elongation complex that produces RNA."
+        },
+        {
+          "id": "4",
+          "text": "Termination releases the RNA transcript."
+        },
+        {
+          "id": "5",
+          "text": "RNA polymerase II is released, dephosphorylated and recycled."
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "3"
+        ],
+        [
+          "4"
+        ],
+        [
+          "5"
+        ]
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-tfiih-phosphorylation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-tfiih-activities"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which change is explicitly attributed to TFIIH kinase activity in the polymerase II diagram?",
+      "explanation": {
+        "en": "TFIIH kinase activity is linked to polymerase II phosphorylation and initiation/release of the elongation complex.",
+        "ar": "تُربط TFIIH kinase activity بفسفرة RNA polymerase II وببدء Transcription وتحرير Elongation complex."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Exclusive TFIIE/TFIIH ATPase/helicase ownership deliberately excluded.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. TFIIH kinase activity is linked to polymerase II phosphorylation and initiation/release of the elongation complex. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "Removal of RNA polymerase II from the initial closed complex before opening",
+          "evidence": "P22 retains polymerase II through opening and initiation."
+        },
+        {
+          "id": "d",
+          "text": "Phosphorylation of the RNA transcript instead of polymerase II",
+          "evidence": "P22 specifically identifies RNA polymerase II as the phosphorylated target."
+        },
+        {
+          "id": "a",
+          "text": "Phosphorylation of RNA polymerase II during initiation and elongation-complex release",
+          "evidence": "P22 explicitly labels TFIIH kinase and this phosphorylation."
+        },
+        {
+          "id": "e",
+          "text": "Phosphorylation of promoter DNA instead of polymerase II",
+          "evidence": "P22 shows phosphate marks on polymerase II, not on promoter DNA."
+        },
+        {
+          "id": "b",
+          "text": "Dephosphorylation of RNA polymerase II after termination",
+          "evidence": "P22 places dephosphorylation at later release/recycling, not TFIIH kinase action."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-pol2-factor-functions",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-pol2-factor-functions"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Match each initiation factor to its distinct function in Table 26-1.",
+      "explanation": {
+        "en": "The table distinguishes recognition, stabilization, recruitment, regulatory interactions and prevention of nonspecific binding.",
+        "ar": "يميّز الجدول Recognition وStabilization وRecruitment وRegulatory interactions ومنع Nonspecific DNA binding."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "No disputed TFIIE helicase row, exact mass or subunit-count memorization scored.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The table distinguishes recognition, stabilization, recruitment, regulatory interactions and prevention of nonspecific binding. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-tfiie-helicase."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "TBP",
+          "right": "Specifically recognizes the TATA box",
+          "evidence": "P23 gives this recognition role."
+        },
+        {
+          "id": "2",
+          "left": "TFIIA",
+          "right": "Stabilizes promoter binding of TFIIB and TBP",
+          "evidence": "P23 gives this stabilization role."
+        },
+        {
+          "id": "3",
+          "left": "TFIIB",
+          "right": "Binds TBP and recruits the polymerase-TFIIF complex",
+          "evidence": "P23 gives these interactions."
+        },
+        {
+          "id": "4",
+          "left": "TFIID",
+          "right": "Interacts with positive and negative regulatory proteins",
+          "evidence": "P23 gives this regulatory interaction."
+        },
+        {
+          "id": "5",
+          "left": "TFIIF",
+          "right": "Restricts nonspecific DNA binding by associated polymerase II",
+          "evidence": "P23 says it binds tightly to pol II and prevents nonspecific sequence binding."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-elongation-factor-role",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-elongation-factors"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Which shared effect is assigned to ELL, P-TEFb, SII and Elongin by the table footnote?",
+      "explanation": {
+        "en": "The elongation-factor footnote groups these factors by suppression of transcriptional pausing or arrest.",
+        "ar": "يجمع الهامش Elongation factors المذكورة بحسب قدرتها على تقليل Pausing أوArrest في Transcription."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The elongation-factor footnote groups these factors by suppression of transcriptional pausing or arrest. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-tfiie-helicase."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "Recruit nucleotide-excision repair at a promoter lesion",
+          "evidence": "P23 assigns NER recruitment to TFIIH; the elongation footnote concerns pausing/arrest."
+        },
+        {
+          "id": "b",
+          "text": "Specifically recognize the TATA box before assembly",
+          "evidence": "P23 assigns TATA recognition to TBP, while the footnote gives elongation-factor pause suppression."
+        },
+        {
+          "id": "a",
+          "text": "Suppress pausing or arrest of the polymerase II-TFIIF complex",
+          "evidence": "P23 footnote explicitly assigns this shared effect."
+        },
+        {
+          "id": "d",
+          "text": "Recruit polymerase-TFIIF by binding TBP",
+          "evidence": "P23 assigns this to TFIIB rather than the elongation-factor footnote."
+        },
+        {
+          "id": "c",
+          "text": "Stabilize TFIIB and TBP at the promoter",
+          "evidence": "P23 assigns this to TFIIA, not the shared elongation-factor effect."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-transcription-coupled-repair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-tfiih-repair"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which factor is assigned to lesion interaction and nucleotide-excision repair recruitment when RNA polymerase II halts?",
+      "explanation": {
+        "en": "TFIIH connects the halted transcription complex to lesion interaction and NER recruitment.",
+        "ar": "يربط TFIIH توقف Transcription عند الضرر بالتفاعل مع Lesion واستدعاء Nucleotide-excision repair."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. TFIIH connects the halted transcription complex to lesion interaction and NER recruitment. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-tfiie-helicase."
+      },
+      "options": [
+        {
+          "id": "e",
+          "text": "TFIIF",
+          "evidence": "P23 assigns TFIIF tight polymerase binding/nonspecific-binding prevention; P25 assigns lesion response to TFIIH."
+        },
+        {
+          "id": "d",
+          "text": "TFIID",
+          "evidence": "P23 assigns TFIID interaction with regulatory proteins; P25 assigns the lesion response to TFIIH."
+        },
+        {
+          "id": "c",
+          "text": "TFIIB",
+          "evidence": "P23 assigns TFIIB TBP binding and polymerase-TFIIF recruitment; P25 assigns the lesion response to TFIIH."
+        },
+        {
+          "id": "a",
+          "text": "TFIIH",
+          "evidence": "P25 explicitly assigns lesion interaction and NER recruitment to TFIIH."
+        },
+        {
+          "id": "b",
+          "text": "TFIIA",
+          "evidence": "P23 assigns TFIIA stabilization of TFIIB/TBP at promoter; P25 assigns the lesion response to TFIIH."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-inhibitor-stage-specificity",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-inhibitors"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Match the inhibitors to the transcription stage explicitly inhibited in the slide.",
+      "explanation": {
+        "en": "The slide distinguishes inhibition of elongation by actinomycin from inhibition of promoter clearance by rifampicin.",
+        "ar": "يميّز النص تثبيط Elongation بواسطة Actinomycin عن تثبيط Promoter clearance بواسطة Rifampicin."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Rifampicin not classified as an intercalator from the heading/layout.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The slide distinguishes inhibition of elongation by actinomycin from inhibition of promoter clearance by rifampicin. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-rifampicin-layout."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Actinomycin",
+          "right": "Elongation",
+          "evidence": "P26 explicitly assigns elongation inhibition."
+        },
+        {
+          "id": "2",
+          "left": "Rifampicin",
+          "right": "Promoter clearance",
+          "evidence": "P26 explicitly assigns promoter-clearance inhibition."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-intercalation-location",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-intercalation",
+        "rna-metabolism-1-rna-extension",
+        "rna-metabolism-1-transcription-supercoils"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Match each DNA/RNA interaction to the mechanism stated in the lecture.",
+      "explanation": {
+        "en": "Intercalation distorts DNA between base pairs; RNA extension and supercoil relief act through the separately stated mechanisms.",
+        "ar": "تشوّه Intercalation بنية DNA بين Base pairs؛ بينما تعمل RNA extension وSupercoil relief بالآليتين المنفصلتين المذكورتين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Only the explicit intercalation mechanism and actinomycin image used; rifampicin mechanism not inferred.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. Intercalation distorts DNA between base pairs; RNA extension and supercoil relief act through the separately stated mechanisms. Arabic preserves that meaning and English terminology. Source notes considered and excluded from determining the answer: rna1-rifampicin-layout."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Intercalation",
+          "right": "Insertion between successive G-C pairs that deforms DNA",
+          "evidence": "P26 explicitly describes this insertion and deformation."
+        },
+        {
+          "id": "2",
+          "left": "RNA extension chemistry",
+          "right": "RNA 3-prime OH attacks phosphate of incoming rNTP",
+          "evidence": "P7 explicitly annotates this chemistry."
+        },
+        {
+          "id": "3",
+          "left": "Transcriptional supercoil relief",
+          "right": "Topoisomerase relieves stress from moving the bubble",
+          "evidence": "P9 explicitly describes this relief."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-primary-transcript-fates",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-primary-transcript-fates"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Match the cellular setting to the primary-transcript fate stated in the lecture.",
+      "explanation": {
+        "en": "The source contrasts direct translation with eukaryotic modification and export before translation.",
+        "ar": "يقارن المصدر Direct translation في Prokaryotes بتعديل RNA وتصديره قبل Translation في Eukaryotes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The source contrasts direct translation with eukaryotic modification and export before translation. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Prokaryotes",
+          "right": "RNA translated directly into protein",
+          "evidence": "P28 gives this comparison."
+        },
+        {
+          "id": "2",
+          "left": "Eukaryotes",
+          "right": "RNA modified, exported to cytoplasm, then translated",
+          "evidence": "P28 gives this comparison."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-processing-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-processing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which compartmental sequence matches the eukaryotic mRNA-processing slide?",
+      "explanation": {
+        "en": "The slide locates splicing, capping and polyadenylation in the nucleus before export for translation.",
+        "ar": "يضع النص Splicing وCapping وPolyadenylation في Nucleus قبل التصدير إلى Cytoplasm من أجل Translation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The slide locates splicing, capping and polyadenylation in the nucleus before export for translation. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "Nuclear transcription, then cytoplasmic processing and nuclear translation",
+          "evidence": "P29 places mRNA processing in nucleus and translation in cytoplasm."
+        },
+        {
+          "id": "b",
+          "text": "Cytoplasmic transcription and processing, then nuclear translation",
+          "evidence": "P29 assigns the compartments in the reverse way."
+        },
+        {
+          "id": "a",
+          "text": "Nuclear transcription and processing, then cytoplasmic translation",
+          "evidence": "P29 places transcription/processing in nucleus and translation after cytoplasmic transport."
+        },
+        {
+          "id": "d",
+          "text": "Cytoplasmic transcription, then nuclear processing and nuclear translation",
+          "evidence": "P29 places transcription in nucleus and translation in cytoplasm."
+        },
+        {
+          "id": "e",
+          "text": "Nuclear transcription and translation, then cytoplasmic processing",
+          "evidence": "P29 places processing before export and translation after export."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-modification-identity",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-mrna-modifications"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Match each mRNA modification to its distinct structural change.",
+      "explanation": {
+        "en": "The three modifications alter the 5-prime end, internal exon/intron arrangement and 3-prime end respectively.",
+        "ar": "تعدّل العمليات الثلاث طرف 5′، وترتيب Exons/Introns، وطرف 3′ على التوالي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Enumeration is not treated as a unique chronological sequence.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked each source-supported pair and its unique mapping within the stated set. The three modifications alter the 5-prime end, internal exon/intron arrangement and 3-prime end respectively. Arabic preserves that meaning and English terminology."
+      },
+      "pairs": [
+        {
+          "id": "1",
+          "left": "Capping",
+          "right": "Addition of a modified residue at the 5-prime end",
+          "evidence": "P30 defines capping this way."
+        },
+        {
+          "id": "2",
+          "left": "Splicing",
+          "right": "Removal of introns and joining of exons",
+          "evidence": "P30 defines splicing this way."
+        },
+        {
+          "id": "3",
+          "left": "Polyadenylation",
+          "right": "3-prime cleavage followed by addition of A residues",
+          "evidence": "P30 defines polyadenylation this way."
+        }
+      ]
+    },
+    {
+      "id": "rna-metabolism-1-alternative-splicing-result",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-alternative-splicing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "What feature gives alternative splicing regulatory significance in the slide?",
+      "explanation": {
+        "en": "The key claim is multiple possible splicing patterns for some transcripts, with regulatory significance.",
+        "ar": "الفكرة هي إمكان Splicing بعض Transcripts بأكثر من طريقة، بما يحمل Regulatory significance."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The key claim is multiple possible splicing patterns for some transcripts, with regulatory significance. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "Every transcript is constrained to one splice pattern.",
+          "evidence": "P30 explicitly permits more than one way."
+        },
+        {
+          "id": "d",
+          "text": "Alternative splicing adds A residues instead of joining exons.",
+          "evidence": "P30 assigns A addition to polyadenylation and splicing to exon joining."
+        },
+        {
+          "id": "b",
+          "text": "Every transcript must retain all of its introns.",
+          "evidence": "P30 defines splicing as intron removal and exon joining."
+        },
+        {
+          "id": "e",
+          "text": "Alternative splicing places a modified residue at the 5-prime end.",
+          "evidence": "P30 assigns that modification to capping."
+        },
+        {
+          "id": "a",
+          "text": "A transcript can be spliced in more than one way.",
+          "evidence": "P30 explicitly gives this basis for regulatory significance."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-processing-associated-complex",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-processing-ctd"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which association does the slide state for capping, splicing and polyadenylation?",
+      "explanation": {
+        "en": "The slide associates these processing events with phosphorylated CTD and RNA polymerase II.",
+        "ar": "يربط المصدر عمليات Processing هذه بـPhosphorylated CTD وRNA polymerase II."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Checked assigned relationships, parallel choices and Arabic fidelity against cited PDF pages; no unresolved claim determines scoring.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The slide associates these processing events with phosphorylated CTD and RNA polymerase II. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "a",
+          "text": "Phosphorylated CTD together with RNA polymerase II",
+          "evidence": "P30 explicitly associates all three modifications with these components."
+        },
+        {
+          "id": "c",
+          "text": "Phosphorylated CTD together with RNA polymerase I",
+          "evidence": "P30 specifies pol II; P20 lists pol I for rRNA genes."
+        },
+        {
+          "id": "e",
+          "text": "Dephosphorylated CTD together with RNA polymerase III",
+          "evidence": "P30 contradicts both phosphorylation state and polymerase identity."
+        },
+        {
+          "id": "b",
+          "text": "Dephosphorylated CTD together with RNA polymerase II",
+          "evidence": "P30 explicitly says phosphorylated CTD."
+        },
+        {
+          "id": "d",
+          "text": "Phosphorylated CTD together with RNA polymerase III",
+          "evidence": "P30 specifies pol II; P20 lists pol III for tRNAs."
+        }
+      ],
+      "correctOptionId": "a"
+    },
+    {
+      "id": "rna-metabolism-1-mature-rna-contents",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "rna-metabolism-1",
+      "conceptIds": [
+        "rna-metabolism-1-processing-diagram"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Which combination matches the mature mRNA drawn at the bottom of the processing diagram?",
+      "explanation": {
+        "en": "The mature product retains the cap, combines exon segments and carries the poly(A) tail; intron loops are removed.",
+        "ar": "يحافظ Mature mRNA على Cap ويجمع Exon segments ويحمل Poly(A) tail، بينما تُزال Intron loops."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Grouped cleavage/polyadenylation/splicing operations not forced into a unique order.",
+        "peerReviewedBy": "independent-genes-dna1-reviewer",
+        "peerReviewNotes": "Checked the correct answer and each of the five option rationales against the supplied source. The mature product retains the cap, combines exon segments and carries the poly(A) tail; intron loops are removed. Arabic preserves that meaning and English terminology."
+      },
+      "options": [
+        {
+          "id": "c",
+          "text": "5-prime poly(A) tail, joined exons and a 3-prime cap",
+          "evidence": "P31 places cap at 5-prime and poly(A) at 3-prime."
+        },
+        {
+          "id": "e",
+          "text": "No 5-prime cap, alternating exons/introns and a 3-prime tail",
+          "evidence": "P31 retains cap and depicts joined exons after intron removal."
+        },
+        {
+          "id": "b",
+          "text": "5-prime cap, retained intron loops and a 3-prime poly(A) tail",
+          "evidence": "P31 shows introns removed as loops, while exons are joined."
+        },
+        {
+          "id": "a",
+          "text": "5-prime cap, joined exon segments and a 3-prime poly(A) tail",
+          "evidence": "P31 depicts all three in mature mRNA, with introns removed."
+        },
+        {
+          "id": "d",
+          "text": "5-prime cap, joined intron segments and no retained exons",
+          "evidence": "P31 dashed guides carry exons into the mature molecule and remove introns."
+        }
+      ],
+      "correctOptionId": "a"
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "rna-metabolism-1-elongation-rate",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-bubble-length",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-transcription-error-rate",
+      "reason": "Exact frequency is blocked by rna1-error-rate-format: literal 104-105 has unresolved exponent formatting."
+    },
+    {
+      "conceptId": "rna-metabolism-1-trp-diagram-details",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-eukaryotic-pol-subunits",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-factor-table-inventory",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-tbp-binding-image",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-inhibitor-structures",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-actinomycin-binding",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    },
+    {
+      "conceptId": "rna-metabolism-1-polya-length",
+      "reason": "Supporting numerical inventory or illustration retained in source ledger; initial activities prioritize explained mechanisms and comparisons."
+    }
+  ]
+}

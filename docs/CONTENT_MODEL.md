@@ -45,3 +45,12 @@ Exams fix their item list and optional timer at session start. They do not show 
 Progress keys include subject and scope. Each attempt records activity ID, activity revision, timestamp, mode, chosen response, and correctness. The platform records aggregate history locally in the browser, and supports versioned JSON backup/import with validation. No progress is committed or sent to GitHub. Account syncing and complete offline availability remain future work.
 
 Import rejects malformed files, unknown schema versions, excessive sizes, impossible timestamps, invalid activity IDs, and malformed attempts before changing progress. Valid backups merge by attempt ID to prevent duplicate imports inflating evidence. Settings are grouped independently from subject progress.
+
+
+## Implemented persistence safeguards
+
+Each subject/scope history has a reset generation and clear timestamp. Saves reconcile with the latest persisted history, and storage events converge overlapping tab writes. An older tab cannot resurrect pre-clear attempts; newly completed responses after the clear and explicit user imports are handled separately.
+
+Local activity-bank changes archive removed or revised activity responses while preserving compatible records. Archived responses are bounded historical records, never current evidence. Exports retain that archive. Active attempts in external imports must match the current bank and have scores that recompute correctly; unsupported active revisions receive a compatibility error rather than being silently accepted.
+
+Portable history retains at most the latest 20,000 active-plus-archived records and stays below the 8 MB import limit, reserving space for export metadata. If older records are removed, `historyLimited` is retained and the progress view states that evidence reflects retained history. Compact JSON exports remain reloadable. Malformed/oversized imports are rejected before changing current progress. Storage failure is reported as visit-only retention, never durable save success.
