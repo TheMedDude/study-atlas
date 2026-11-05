@@ -1,0 +1,496 @@
+{
+  "lectureId": "rna-metabolism-2",
+  "title": "RNA Metabolism Part 2 - Post-transcriptional modifications",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "RNA Metabolism-Part2: Post-transcriptional modifications",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title and lecturer name only.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Modified RNA",
+      "topics": [
+        "Modified RNA"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p02-modified-rna",
+          "label": "Modified RNA aligned with DNA",
+          "detail": "The image shows an RNA aligned with numbered DNA regions, looped intervening regions A-G, a 5′ end, and a poly(A) 3′ end.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only overview transcribed: green RNA, blue aligned DNA, grey looped DNA A-G; numbered paired segments L and 1-7; red feature at the RNA 5′ end and orange AAA(A)n at 3′. No independent meaning assigned to the unkeyed L label.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "From Gene to mature mRNA",
+      "topics": [
+        "From Gene to mature mRNA"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p03-processing-overview",
+          "label": "Gene-to-mature-mRNA processing",
+          "detail": "The ovalbumin figure shows transcription/capping followed by splicing, cleavage and polyadenylation; 7,700-bp gene to 1,872-nucleotide mature mRNA.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only flowchart read in full: DNA → capped primary transcript → mature mRNA, with separate branches to seven introns and extra RNA. Exact length annotations retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "5′ cap of mRNA",
+      "topics": [
+        "5′ cap of mRNA"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p04-cap-functions",
+          "label": "Cap functions",
+          "detail": "The cap protects mRNA from ribonucleases and helps mRNA bind ribosomes.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "rna-metabolism-2-p04-cap-chemistry",
+          "label": "Cap linkage and early formation",
+          "detail": "7-methylguanosine has a 5′-5′ triphosphate linkage; cap is added after 20-30 nucleotides; S-adenosyl Methionine is methyl donor.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical diagram checked against text: 7-methyl guanosine and reversed triphosphate linkage; two optional OCH3 groups at ribose 2′ positions; red yeast/vertebrate annotation retained without extending its scope.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p04-u1",
+          "description": "The prose says additional methyl groups at C-2, whereas the figure identifies downstream ribose 2′ positions. Preserve both; do not score the ambiguous carbon-position wording.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "rna-metabolism-2-p04-u2",
+          "description": "The yeast/vertebrate note is positioned beside optional ribose methylation but has no explicit sentence defining its scope; do not generalize it to all capping.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic mRNA are capped at 5′ end",
+      "topics": [
+        "Eukaryotic mRNA are capped at 5′ end"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p05-capping-ctd",
+          "label": "Capping coordinated with transcription",
+          "detail": "Cap-synthesizing complex and CBC are shown associated with the emerging transcript near CTD.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Three-step figure labels cap-synthesizing complex, Cap, and CBC; repeated P marks on the tail and emerging RNA loop are visible. The text uses CTD association wording as preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Polyadenylation",
+      "topics": [
+        "Polyadenylation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p06-polyadenylation",
+          "label": "Polyadenylation signal and chemistry",
+          "detail": "AAUAAA-associated cleavage 10-30 nucleotides downstream leaves RNA primer; polyadenylate polymerase adds 80-250 A residues without template.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All figure labels and reaction direction checked; distinct endonuclease cleavage and polymerase addition stages retained. Do not treat all processing events as strictly sequential beyond this displayed reaction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: four groups/classes",
+      "topics": [
+        "RNA splicing: four groups/classes"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p07-splicing-classes",
+          "label": "Splicing class comparison",
+          "detail": "Groups I/II self splice; group I uses guanosine, group II mitochondrial mRNA; group III nuclear mRNA spliceosome with U1/U2/U4/U5/U6; group IV tRNA described as protein-enzyme dependent.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p07-u1",
+          "description": "Group I nuclear/mitochondrial/rRNA/mRNA/tRNA list does not give a precise one-to-one location/substrate mapping. Do not score a more specific mapping than supplied.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "rna-metabolism-2-p07-u2",
+          "description": "Group IV is called the only protein-enzyme-spliced class here; page 12 also labels RNase P a ribozyme for tRNA end processing. Distinguish intron splicing from end processing; do not turn the broad wording into an exclusion of ribozymes from all tRNA processing.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group I introns",
+      "topics": [
+        "RNA splicing: Group I introns"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p08-group-i-mechanism",
+          "label": "Group I splicing nucleophiles",
+          "detail": "External guanosine 3′ OH attacks the 5′ splice site; then 5′ exon 3′ OH attacks to join exons and release intron.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image mechanism read in full, including primary transcript, intermediate, spliced RNA, two nucleophile captions and terminal labels. Source cofactor notation retained without changing its listed alternatives.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transesterification reaction",
+      "topics": [
+        "Transesterification reaction"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p09-transesterification",
+          "label": "Splicing transesterification",
+          "detail": "A new phosphodiester bond replaces an old one when guanosine 3′ OH acts as nucleophile.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical bond-exchange diagram checked: exon/intron identity and free exon OH versus guanosine-linked intron are explicit.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group II introns",
+      "topics": [
+        "RNA splicing: Group II introns"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p10-group-ii-mechanism",
+          "label": "Group II lariat and nucleophiles",
+          "detail": "Intron adenosine 2′ OH initiates lariat formation; exon 3′ OH completes ligation; lariat branch is 2′,5′ phosphodiester.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged image reviewed; both nucleophile captions, branch bond inset, three-bond adenosine annotation and caption preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA processing: Group III introns",
+      "topics": [
+        "RNA processing: Group III introns"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p11-spliceosome-assembly",
+          "label": "Spliceosome assembly and activation",
+          "detail": "U1 and U2 bind; U4/U6 and U5 join; rearrangement expels U1/U4; active U2/U5/U6 assembly forms and releases lariat.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "rna-metabolism-2-p11-splicing-transcription",
+          "label": "Coordination of splicing with transcription",
+          "detail": "Spliceosome, CTD, CBC and cap are shown on the emerging transcript during transcription.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size image checked, including GU/A/AG labels, ATP annotations, inactive/active complexes, expelled U1/U4, lariat and intron-release stages; right-hand coordination figure checked separately.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group IV and tRNA processing",
+      "topics": [
+        "RNA splicing: Group IV and tRNA processing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p12-trna-processing",
+          "label": "tRNA processing operations",
+          "detail": "tRNA primary transcript undergoes end cleavage, CCA addition, base modification and intron splicing; RNase P is labeled a ribozyme.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged cloverleaf figure reviewed. RNase P/RNase D cut labels, ribozyme note, intermediate CCA/intron and mature tRNA^Tyr are preserved. The grouped first arrow lists four processes, so they are not imposed as a unique serial order.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p12-u1",
+          "description": "Tiny modified-base abbreviations in the illustrative cloverleaf lack a complete key and some superscript marks are not reliably distinguishable in the source raster. Exact whole-tRNA sequence and every chemical modification position are not transcribed or assessable.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alternative splicing",
+      "topics": [
+        "Alternative splicing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p13-alternative-splicing",
+          "label": "Alternative splicing yields multiple proteins",
+          "detail": "One gene yields distinct mature RNAs and proteins by different exon combinations; figure gives 12345, 1245, 1235.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All exon-number patterns and protein labels A/B/C checked; the repeated exon colors show the regions omitted in each alternative.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Complex transcripts in different tissues",
+      "topics": [
+        "Complex transcripts in different tissues"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p14-alternative-processing",
+          "label": "Alternative cleavage/polyadenylation and splice sites",
+          "detail": "Multiple poly(A) sites and alternative splice-site choices generate different transcripts from a single gene.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two image-only branching diagrams checked. Left branches by A1/A2 cleavage site; right branches by alternative 3′ splice site after the illustrated cleavage/polyadenylation. No tissue-specific product assignment supplied.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcript structure",
+      "topics": [
+        "Transcript structure"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p15-transcript-structure",
+          "label": "Translated and untranslated transcript regions",
+          "detail": "Cap, polyA and UTRs are untranslated; figure locates rbs, AUG, ORF and 3′ UTR and lists export/protection/ribosome-attachment functions.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Orientation labels and placement of rbs/AUG/ORF/UTRs checked against figure, without inferring an unlabeled termination codon.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gene regulation",
+      "topics": [
+        "Gene regulation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p16-gene-regulation",
+          "label": "Inducible versus housekeeping genes",
+          "detail": "Inducible genes require activators/cellular factors; housekeeping genes are linked to basic replication and growth processes.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p16-u1",
+          "description": "The housekeeping expression term is printed “constrictively.” Do not score that wording or silently replace it with an inferred term.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulatory sequences and enhancers",
+      "topics": [
+        "Regulatory sequences and enhancers"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p17-enhancers",
+          "label": "Enhancer function and source distances",
+          "detail": "Enhancers boost transcription and regulatory specificity; source says upstream within 1 kbp in yeast and up to 10 kbp in humans.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "rna-metabolism-2-p17-promoter-assembly",
+          "label": "Promoter and regulator diagram",
+          "detail": "Diagram labels activators/enhancers/silencer together with TATA-binding protein, basal factors and RNA polymerase.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All diagram labels checked. The heading groups activators with sequences although figure depicts activators as bound entities; no additional definition supplied.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p17-u1",
+          "description": "Heading calls activators a regulatory-sequence category while the diagram depicts bound activator entities. Do not score a claim that activators themselves are DNA sequences solely from this heading.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Integration of retrovirus into host DNA",
+      "topics": [
+        "Integration of retrovirus into host DNA"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p18-reverse-transcriptase",
+          "label": "Reverse transcriptase properties",
+          "detail": "Reverse transcriptase requires a primer, lacks proofreading, synthesizes 5′→3′ and produces cDNA.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Lifecycle diagram labels RNA genome, retrovirus, host cell, cytoplasm, RNA, reverse transcription, viral DNA, nucleus and chromosome; the figure sequence is preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Inhibitor of reverse transcriptase",
+      "topics": [
+        "Inhibitor of reverse transcriptase"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p19-azt",
+          "label": "AZT inhibition as presented",
+          "detail": "Source links AZT conversion/affinity with termination of viral DNA synthesis and lists HIV, telomerase and other reverse transcriptases.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both chemical labels and AZT azido group checked. The prose says affinity for AZT after mentioning triphosphates; the exact active-species wording is not silently altered.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p19-u1",
+          "description": "Text alternates AZT and AZT triphosphates and does not precisely distinguish the compared molecular species. Do not score a more specific affinity/transport claim than the wording supports. The failed-anticancer statement has no study/context supplied.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Retroviral genome",
+      "topics": [
+        "Retroviral genome"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-2-p20-retroviral-genome",
+          "label": "Retroviral genome organization",
+          "detail": "Diagram labels LTR, ψ, gag, pol, env and transcription/translation/proteolytic cleavage; LTR regulates initiation and Ψ packaging in prose.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram reviewed; source text and all cleavage-product labels preserved. No exclusive mapping of the abbreviated pol prose to the entire illustrated enzyme set is imposed.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p20-u1",
+          "description": "The text reduces Pol to “protease,” while the figure also labels integrase and reverse transcriptase among products. Do not score an exclusive one-product mapping for pol from this abbreviated text.",
+          "assessmentBlocked": true
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "20/20 PDF pages visually reviewed with contact sheets; pages 2, 10, 11, 12 and 20 additionally inspected at full image size. Image labels on all other pages checked from legible review sheets.",
+    "PDF page 1 is a cover; PDF pages 2-20 are teaching content. No administrative or empty pages.",
+    "No visible printed slide numbers. PDF page numbers are the only locators used.",
+    "Class comparison, cap and poly(A) chemistry, intron mechanisms, alternative products, transcript regions and retroviral figures reconstructed without outside sources.",
+    "Unclear source terms and dense tRNA modified-base marks are explicitly blocked from precise assessment; see per-page uncertainty entries."
+  ]
+}

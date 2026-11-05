@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Study Atlas activity bank",
+  "type": "object",
+  "required": ["schemaVersion", "subjectId", "activities"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "subjectId": {"type": "string"},
+    "activities": {"type": "array", "items": {"$ref": "#/$defs/activity"}}
+  },
+  "$defs": {
+    "sourceRef": {
+      "type": "object",
+      "required": ["lectureId", "pdfPage"],
+      "properties": {"lectureId": {"type": "string"}, "pdfPage": {"type": "integer", "minimum": 1}, "printedSlide": {"type": ["string", "null"]}}
+    },
+    "bilingual": {"type": "object", "required": ["en", "ar"], "properties": {"en": {"type": "string", "minLength": 1}, "ar": {"type": "string", "minLength": 1}}},
+    "activity": {
+      "type": "object",
+      "required": ["id", "revision", "type", "lectureId", "conceptIds", "sourceRefs", "prompt", "explanation", "status", "review"],
+      "properties": {
+        "id": {"type": "string"}, "revision": {"type": "integer", "minimum": 1},
+        "type": {"enum": ["mcq", "match", "order", "diagram"]},
+        "lectureId": {"type": "string"}, "conceptIds": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "sourceRefs": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceRef"}},
+        "prompt": {"type": "string", "minLength": 1}, "explanation": {"$ref": "#/$defs/bilingual"},
+        "options": {"type": "array", "minItems": 5, "maxItems": 5, "items": {"type": "object", "required": ["id", "text", "evidence"], "properties": {"id": {"type": "string"}, "text": {"type": "string"}, "evidence": {"type": "string", "minLength": 1}}}},
+        "correctOptionId": {"type": "string"},
+        "pairs": {"type": "array", "minItems": 2, "items": {"type": "object", "required": ["id", "left", "right"], "properties": {"id": {"type": "string"}, "left": {"type": "string"}, "right": {"type": "string"}}}},
+        "status": {"const": "validated"}, "review": {"type": "object", "required": ["sourceChecked", "ambiguityChecked", "cueChecked", "bilingualChecked"], "properties": {"sourceChecked": {"const": true}, "ambiguityChecked": {"const": true}, "cueChecked": {"const": true}, "bilingualChecked": {"const": true}}}
+      },
+      "allOf": [
+        {"if": {"properties": {"type": {"enum": ["mcq", "diagram"]}}}, "then": {"required": ["options", "correctOptionId"]}},
+        {"if": {"properties": {"type": {"const": "match"}}}, "then": {"required": ["pairs"]}}
+      ]
+    }
+  }
+}

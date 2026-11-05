@@ -1,0 +1,856 @@
+{
+  "lectureId": "rna-metabolism-1",
+  "title": "RNA Metabolism Part 1",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "RNA Metabolism - cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "RNA Metabolism. Chapter-26. Dr. Rula Abdul Ghani.\n\nCover only; excluded from assessment."
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA roles and transcription",
+      "topics": [
+        "RNA roles"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-rna-functions",
+          "label": "RNA functions and ribozymes",
+          "detail": "RNA is presented in storage, transmission and catalytic roles; catalytic RNA is a ribozyme.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-transcription-definition",
+          "label": "Transcription definition",
+          "detail": "RNA sequence is complementary to one DNA strand.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- The source calls RNA the only known macromolecule with **information storage, transmission, and catalysis**.\n- Catalytic RNA, a **ribozyme**, changed the definition of enzyme.\n- **Transcription:** conversion of genetic information from DNA into RNA with a sequence complementary to one DNA strand."
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three RNA roles in protein synthesis",
+      "topics": [
+        "RNA roles"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-rna-classes",
+          "label": "mRNA, tRNA and rRNA",
+          "detail": "mRNA carries codons; tRNA delivers specified amino acids; rRNA/proteins form ribosomes.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Three RNA classes have different, complementary roles in protein synthesis (translation):\n\n| RNA | Role stated |\n| --- | --- |\n| mRNA | Carries DNA-copied information as three-base words called **codons** |\n| tRNA | Transmits code and delivers the specified amino acid |\n| rRNA | Associates with proteins to form **ribosomes**, protein-synthesizing machines |"
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription versus replication",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-transcription-replication",
+          "label": "Transcription/replication comparison",
+          "detail": "Shared template-driven 5-prime to 3-prime synthesis and PPi hydrolysis; transcription needs no primer and covers a limited DNA segment.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "The source comparison lists:\n\n1. Similar chemical reaction/mechanism: **PPi hydrolysis** drives synthesis forward.\n2. Stages: initiation, elongation, termination.\n3. Template needed.\n4. Synthesis polarity **5' to 3'**.\n5. Transcription requires **no primer**.\n6. Transcription covers a **limited DNA segment**.\n7. Transcription has **no 3' to 5' proofreading activity** and cannot excise mismatched nucleotides, as stated."
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription requirements",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-transcription-requirements",
+          "label": "Transcription requirements",
+          "detail": "RNA polymerase uses a 3-prime to 5-prime template, ATP/GTP/CTP/UTP and stated metal ions without primer.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **RNA polymerase**.\n2. **DNA template**, the 3' to 5' strand.\n3. **No primer required**.\n4. Nucleoside triphosphates **ATP, GTP, CTP, UTP**.\n5. Synthesis **5' to 3'**.\n6. **Mg2+ and Zn2+**."
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Overall RNA-synthesis reaction",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-rna-polymerization-reaction",
+          "label": "RNA polymerization reaction",
+          "detail": "Adding NTP extends RNA by one NMP and releases PPi.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "**(NMP)n + NTP -> (NMP)n+1 + PPi**\n\nThe initial polymer is labeled **RNA**, the product **lengthened RNA**."
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA-dependent synthesis of RNA",
+      "topics": [
+        "Transcription chemistry",
+        "Transcription elongation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-rna-extension",
+          "label": "RNA extension chemistry",
+          "detail": "Incoming rNTP joins the 3-prime OH; base pairing and geometry guide selection.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-transcription-bubble",
+          "label": "Transcription bubble",
+          "detail": "An 8-bp RNA-DNA hybrid lies within the bubble; unwinding ahead and rewinding behind accompany movement.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All bubble/strand labels and 3-prime-OH annotation reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "RNA polymerase adds ribonucleotide units to the **3'-hydroxyl end**, building RNA **5' to 3'**.\n\n- Nucleotides are selected by Watson-Crick pairing; base-pair geometry contributes to selection.\n- The 3' OH at the active site acts as nucleophile attacking the phosphate of incoming **rNTP**.\n- Figure labels: **transcription bubble**, **nontemplate strand**, **template strand**, **RNA polymerase**, **active site**, **RNA-DNA hybrid, 8 bp**, emerging RNA 5' end.\n- In the depicted left-to-right transcription direction, DNA **unwinds ahead** at right and **rewinds behind** at left."
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Stages of transcription",
+      "topics": [
+        "Transcription stages"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-transcription-stages",
+          "label": "Initiation, elongation, termination",
+          "detail": "Promoter initiation precedes elongation with a transient 8-bp hybrid; termination ends transcription.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-elongation-rate",
+          "label": "RNA elongation rate",
+          "detail": "The source gives 50-90 nucleotides/s.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Initiation:** starts at a promoter; RNA polymerase binds specific DNA sequences.\n- **Elongation:** growing RNA temporarily pairs with the template as a short **8 bp RNA-DNA hybrid**; hybrid peels off and the DNA duplex reforms. Rate: **50-90 nucleotides/s**.\n- **Termination:** named as the third stage; mechanisms follow on later pages."
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription and DNA supercoiling",
+      "topics": [
+        "Transcription elongation",
+        "Supercoiling"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-transcription-supercoils",
+          "label": "Transcriptional supercoiling",
+          "detail": "Movement creates negative supercoils behind and positive ahead; topoisomerase relieves them.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-bubble-length",
+          "label": "Bubble dimensions",
+          "detail": "The slide labels 17 bp unwound and an 8-bp hybrid.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Supercoil signs and spatial relationships checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Because DNA is helical, transcription-bubble movement requires strand rotation, causing supercoiling in vitro and in vivo; **topoisomerase** relieves it.\n\nThe left-to-right figure depicts **negative supercoils behind** the transcription complex and **positive supercoils ahead**, labels emerging RNA 5' end, and annotates **17 bp unwound, 8 bp DNA-RNA hybrid**."
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Coding and template strands",
+      "topics": [
+        "Template and coding strands"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-coding-template",
+          "label": "Coding versus template strand",
+          "detail": "RNA matches the coding strand except U/T and is complementary to the template.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All sequences transcribed from image; 13 bases each.",
+      "uncertainties": [],
+      "contentMarkdown": "The **coding/nontemplate strand** has the transcript sequence except that RNA uses **U instead of T**.\n\n| Molecule | Sequence and orientation in source |\n| --- | --- |\n| DNA nontemplate (coding) | 5'-CGCTATAGCGTTT-3' |\n| DNA template | 3'-GCGATATCGCAAA-5' |\n| RNA transcript | 5'-CGCUAUAGCGUUU-3' |"
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli DNA-dependent RNA polymerase",
+      "topics": [
+        "Bacterial RNA polymerase"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-bacterial-rna-pol",
+          "label": "Core and sigma",
+          "detail": "E. coli RNA polymerase core is alpha2/beta/beta-prime/omega; transient sigma directs specific DNA recognition.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-transcription-error-rate",
+          "label": "RNA polymerase error rate",
+          "detail": "The source literally prints one error/104-105; exponent formatting is unresolved and exact numerical frequency is blocked.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Subunit image labels reviewed.",
+      "uncertainties": [
+        {
+          "id": "rna1-error-rate-format",
+          "description": "Source literally prints one error/104-105 with 4 and 5 on the baseline in the rendered slide and text layer. Do not silently convert to 10^4-10^5; exact numerical error-frequency assessment is blocked until formatting is clarified.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- Large complex: **five core subunits** plus a sixth **sigma** subunit.\n- Sigma binds the core transiently and directs it to specific DNA-binding sequences.\n- Source states no 3' to 5' exonuclease proofreading and **one error/104-105** (literal source formatting; exponent meaning unresolved).\n- Diagram: core **alpha, alpha, beta, beta-prime, omega** labeled **constant**; **sigma** labeled **variable**."
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription-initiation coordinates",
+      "topics": [
+        "Promoters and initiation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-promoter-coordinates",
+          "label": "Upstream, downstream and +1",
+          "detail": "+1 is the start; downstream is positive and upstream negative.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-initiation-regulators",
+          "label": "Promoter-bound regulators",
+          "detail": "RNA polymerase, activators and repressors act at promoters.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Transcription-initiation/start site is **+1**.\n- **Downstream**, in the transcription direction, receives positive numbers.\n- **Upstream**, opposite to transcription, receives negative numbers.\n- RNA polymerase, activators and repressors interact with promoter DNA to regulate initiation."
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Typical gene structure",
+      "topics": [
+        "Promoters and initiation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-gene-structure",
+          "label": "Promoter and coding region",
+          "detail": "Diagram places promoter upstream of +1 and coding region downstream.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Promoter/coding region schematic reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Schematic: **promoter** precedes the **coding region**. The **+1** boundary marks transcription start; **downstream** and transcription arrows point through the coding region to the right."
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli promoter sequences",
+      "topics": [
+        "Bacterial promoters"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-ecoli-promoter",
+          "label": "E. coli promoter recognition",
+          "detail": "-10 TATAAT and -35 TTGACA are recognition sequences; UP element may occur at -40 to -60.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-promoter-spacers",
+          "label": "Promoter spacer labels",
+          "detail": "Diagram marks N17 and N6 spacers.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image enlarged; core hexamers, positions and spacer lengths readable.",
+      "uncertainties": [
+        {
+          "id": "rna1-up-consensus",
+          "description": "Exact UP-element consensus cannot be transcribed confidently from tightly stacked A/T alternatives. Preserve source image via PDF p14; block exact-base sequence questions for this UP element.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- **-10 region:** 5'-**TATAAT**-3'.\n- **-35 region:** 5'-**TTGACA**-3'.\n- **UP element:** upstream promoter region between **-40 and -60**, not present in all bacteria.\n- Mutations at -10 or -35 affect polymerase-binding efficiency and transcription initiation.\n- The image labels **consensus sequence** (annotated as common), UP element, -35 region, spacer, -10 region, spacer, RNA start **+1**.\n- Between the -35 and -10 consensus hexamers the spacer is **N17**; the following spacer before +1 is **N6**. An N precedes TTGACA.\n- The UP consensus image contains many A/T positions and Ns with stacked alternatives; its exact linear representation is unresolved below."
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial initiation and promoter clearance",
+      "topics": [
+        "Bacterial initiation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-bacterial-initiation",
+          "label": "Closed/open complexes and clearance",
+          "detail": "Promoter binding precedes DNA opening, initiation and promoter clearance; sigma dissociates as elongation begins.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All initiation panels and sigma-release arrow reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **Binding:** RNA polymerase binds promoter, forming a **closed complex** with intact DNA, then an **open complex** with DNA intact but unwound at **-10**, as worded.\n2. **Initiation:** transcription begins; complex moves away from promoter (**promoter clearance**).\n3. **Elongation:** **sigma dissociates** and polymerase leaves the promoter.\n\nThe diagram follows binding -> closed complex -> open complex -> initiation of transcription -> promoter clearance, showing sigma leaving and RNA emerging. UP, -35, -10 and +1 labels locate binding."
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription termination overview",
+      "topics": [
+        "Transcription termination"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-termination-classes",
+          "label": "Termination classes",
+          "detail": "Bacterial termination may require Rho; eukaryotic mechanisms differ by polymerase.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Several mechanisms regulate termination in bacteria and eukaryotes.\n- Bacteria have two principal mechanisms involving RNA polymerase; one additionally requires **Rho**.\n- Eukaryotic termination mechanisms differ among the **three RNA polymerases**."
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Factor-independent and Rho-dependent termination",
+      "topics": [
+        "Transcription termination"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-rho-termination",
+          "label": "Rho-dependent termination",
+          "detail": "Rho moves 5-prime to 3-prime on mRNA and uses ATP-dependent helicase activity to disrupt RNA-DNA hybrid.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-intrinsic-termination",
+          "label": "Factor-independent termination",
+          "detail": "Source associates a GC-rich transcript and weak A-U region with transcription-bubble collapse.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text checked alongside hairpin diagrams on pp18-19.",
+      "uncertainties": [
+        {
+          "id": "rna1-gc-wording",
+          "description": "P17 explains slowing as GC pairs making the template hard to unwind, while pp18-19 depict a transcript hairpin. Preserve both; block the precise causal unwinding explanation rather than silently repairing it.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "**Factor independent:**\n\n- A **GC-rich transcript segment** is stated to make the template hard to unwind and slow RNA polymerase.\n- Weak **A=U bonds** cause further weakening/dissociation, collapsing the transcription bubble.\n\n**Rho (rho) factor dependent:**\n\n- Rho loads at specific mRNA-binding sites and moves **5' to 3'** toward the transcription complex.\n- It proceeds along mRNA and probably outraces/catches up to RNA polymerase, as worded.\n- Its **ATP-dependent helicase activity** disrupts the RNA-DNA hybrid.\n- Termination completes with release of Rho and RNA polymerase from nucleic acids."
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Rho-independent termination at characteristic sequences",
+      "topics": [
+        "Transcription termination"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-terminator-hairpin",
+          "label": "Terminator hairpin recognition",
+          "detail": "The trp example shows a GC-rich RNA stem-loop followed by a U-rich segment.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-trp-diagram-details",
+          "label": "trp example labels",
+          "detail": "E/D/C/B/A, printed lengths and sequence illustration are supporting details.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image enlarged; stem/loop and printed numbers captured. Exact loop sequence should be checked against PDF before any detailed sequence activity.",
+      "uncertainties": [],
+      "contentMarkdown": "The diagram places a **t site** beyond the **trp operon** and depicts a GC-rich mRNA hairpin followed by a U-rich region at termination.\n\n| Operon block | Number printed beneath |\n| --- | ---: |\n| E | 1560 |\n| D | 1590 |\n| C | 1353 |\n| B | 1191 |\n| A | 804 |\n| Terminal region before t site | 36 |\n\nNo unit is supplied with these numbers in the slide.\n\nThe visible mRNA flank reads **UAAUCCCACA** before the stem and **AUUUU** after it. Stem pairs, listed from the bottom upward: **G-C, C-G, C-G, G-C, C-G, C-G, A-U, G-C**. The small loop visually reads **UUCCG**. The termination arrow points to the U-rich tail."
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hairpin-associated termination diagram",
+      "topics": [
+        "Transcription termination"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-terminator-stages",
+          "label": "Pause, isomerize, terminate",
+          "detail": "The diagram associates RNA hairpin formation with pausing/isomerization before termination.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All three diagram stages reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The three-stage figure labels **Pause -> Isomerize -> Terminate**.\n\n- Initially, RNA polymerase contains a short RNA-DNA hybrid and an emerging RNA strand.\n- The RNA folds into a hairpin in the second stage.\n- A downward arrow leads to **Terminate**.\n\nThe DNA strand ends retain 5'/3' labels; a black rightward arrow marks movement."
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three eukaryotic RNA polymerases",
+      "topics": [
+        "Eukaryotic RNA polymerases"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-eukaryotic-pol-types",
+          "label": "RNA polymerases I, II and III",
+          "detail": "I transcribes rRNA genes, II mRNA genes, III tRNAs, as listed.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-eukaryotic-pol-subunits",
+          "label": "Multimeric eukaryotic polymerases",
+          "detail": "All three have >10 subunits.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "| Polymerase | Transcripts stated |\n| --- | --- |\n| RNA polymerase I | rRNA genes |\n| RNA polymerase II | Genes encoding mRNAs |\n| RNA polymerase III | tRNAs |\n\nAll three are **multimeric enzymes with more than 10 subunits**. These are the examples stated; the slide does not establish that each list is exhaustive."
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic promoters",
+      "topics": [
+        "Eukaryotic promoters"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-eukaryotic-promoter",
+          "label": "TATA and Inr",
+          "detail": "Eukaryotic TATAAA lies near -30; initiation/unwinding is associated with Inr near +1.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-consensus-symbols",
+          "label": "Consensus symbols",
+          "detail": "N represents any nucleotide and Y a pyrimidine.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Promoter motif and stacked T/A alternative read visually.",
+      "uncertainties": [],
+      "contentMarkdown": "- DNA unwinds at the **Initiator (Inr)** sequence.\n- **TATA box:** consensus **TATAAA**, near **-30**.\n- Figure runs 5' to 3' through various regulatory sequences, TATA box at -30, and **Inr** near **+1**.\n- The Inr motif is drawn **YYAN(T/A)YY**, with the T/A alternative stacked.\n- **N = any nucleotide; Y = pyrimidine**."
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription at RNA polymerase II promoters",
+      "topics": [
+        "Eukaryotic initiation"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-pol2-assembly",
+          "label": "RNA pol II initiation-complex assembly",
+          "detail": "TBP-associated factors assemble polymerase II and form closed/open complexes.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-tfiih-activities",
+          "label": "TFIIH helicase and kinase",
+          "detail": "TFIIH is labeled for DNA opening and RNA pol II phosphorylation.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-pol2-recycling",
+          "label": "Polymerase II recycling",
+          "detail": "After termination, polymerase II is released, dephosphorylated and reused.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Every factor label, phosphorylation symbol and recycling arrow reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The figure follows **assembly, initiation, elongation, termination**, then polymerase recycling.\n\n1. DNA shows **TATA at -30** and **Inr at +1**.\n2. Assembly labels, in order shown: **TBP (or TFIID and/or TFIIA)**; **TFIIB**; **TFIIF-RNA polymerase II**; **TFIIE**; **TFIIH**.\n3. A **closed complex** contains TFIID/TFIIA/TFIIB/TBP, TFIIF, TFIIE, TFIIH and RNA polymerase II. An annotation says **stabilize**.\n4. **TFIIH helicase** annotation accompanies DNA unwinding to form the **open complex**.\n5. **TFIIH kinase activity** phosphorylates RNA polymerase II; initiation and release of the elongation complex follow. The emerging polymerase tail bears phosphate symbols.\n6. **TFIIH and TFIIE** are shown leaving. **Elongation factors** join; elongation is annotated **after the first 60-70 nucleotides**.\n7. Termination releases RNA; RNA polymerase II is released and dephosphorylated, then recycled for another cycle.\n\nThe figure retains some initiation factors at the promoter rather than showing every protein traveling with polymerase."
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Proteins required at eukaryotic RNA polymerase II promoters",
+      "topics": [
+        "Eukaryotic transcription factors"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-pol2-factor-functions",
+          "label": "Transcription-factor functions",
+          "detail": "Table links TBP/TFIIA/TFIIB/TFIID/TFIIE/TFIIF/TFIIH to promoter assembly, regulation and repair.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-elongation-factors",
+          "label": "Elongation-factor role",
+          "detail": "ELL, P-TEFb, SII and Elongin suppress polymerase II-TFIIF pausing/arrest.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-factor-table-inventory",
+          "label": "Factor subunits and Mr",
+          "detail": "Full source table masses, subunit counts and ELL footnote retained.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image enlarged; complete table and both footnotes transcribed.",
+      "uncertainties": [
+        {
+          "id": "rna1-tfiie-helicase",
+          "description": "Table assigns ATPase/helicase activities in TFIIE row; p22 annotates TFIIH helicase and kinase, and TFIIH row says unwinds DNA. Preserve all labels; block exclusive helicase-ownership questions based on this table.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "**Table 26-1. Proteins Required for Transcription at the RNA Polymerase II Promoters of Eukaryotes** (screenshot reconstructed). The table labels masses **Subunit Mr**; no additional unit is added here.\n\n| Initiation factor | Subunits | Subunit Mr | Function in table |\n| --- | ---: | --- | --- |\n| RNA polymerase II | 12 | 10,000-220,000 | Catalyzes RNA synthesis |\n| TBP (TATA-binding protein) | 1 | 38,000 | Specifically recognizes TATA box |\n| TFIIA | 3 | 12,000, 19,000, 35,000 | Stabilizes binding of TFIIB and TBP to promoter |\n| TFIIB | 1 | 35,000 | Binds TBP; recruits RNA polymerase-TFIIF complex |\n| TFIID | 12 | 15,000-250,000 | Interacts with positive and negative regulatory proteins |\n| TFIIE | 2 | 34,000, 57,000 | Recruits TFIIH; ATPase and helicase activities, as printed |\n| TFIIF | 2 | 30,000, 74,000 | Binds tightly to RNA polymerase II; binds TFIIB and prevents polymerase binding to nonspecific DNA sequences |\n| TFIIH | 12 | 35,000-89,000 | Unwinds DNA at promoter; phosphorylates RNA polymerase; recruits nucleotide-excision repair complex |\n\nA red annotation states **More than 30 polypeptide**.\n\n| Elongation factor | Subunits | Subunit Mr |\n| --- | ---: | --- |\n| ELL | 1 | 80,000 |\n| P-TEFb | 2 | 43,000, 124,000 |\n| SII (TFIIS) | 1 | 38,000 |\n| Elongin (SIII) | 3 | 15,000, 18,000, 110,000 |\n\nFootnotes:\n\n- All elongation factors suppress pausing/arrest of transcription by the RNA polymerase II-TFIIF complex.\n- ELL derives from **eleven-nineteen lysine-rich leukemia**. The ELL gene is a site of chromosomal-recombination events frequently associated with **acute myeloid leukemia**.\n\nAll numerical inventory details are preserved as supporting source content; assessment priority should favor clearly explained functional relationships."
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human TATA-binding protein bound to DNA",
+      "topics": [
+        "Eukaryotic transcription factors"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-tbp-binding-image",
+          "label": "TBP-DNA binding image",
+          "detail": "Human TBP is shown contacting bent DNA.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full protein-DNA rendering reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Molecular rendering labeled **Human TATA-binding protein (TBP) bound to DNA**. Gray protein surface contacts the DNA, which is bent along the interface. This is a visual binding illustration; no additional residue names, numerical values, or mechanistic steps are labeled."
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "TFIIH and transcription-associated repair",
+      "topics": [
+        "Transcription and repair"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-tfiih-repair",
+          "label": "TFIIH repair recruitment",
+          "detail": "At an RNA pol II-blocking lesion, TFIIH interacts with damage and recruits NER.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "When **RNA polymerase II halts at a DNA lesion**, **TFIIH**, beyond its role in closed-complex formation:\n\n1. Interacts with the lesion.\n2. Recruits the entire **nucleotide-excision repair** system."
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription inhibition",
+      "topics": [
+        "Transcription inhibitors"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-transcription-inhibitors",
+          "label": "Actinomycin versus rifampicin",
+          "detail": "Actinomycin inhibits elongation; rifampicin inhibits promoter clearance.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-intercalation",
+          "label": "Intercalation",
+          "detail": "Insertion between successive G-C base pairs deforms DNA and impedes RNA polymerase.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-inhibitor-structures",
+          "label": "Illustrated inhibitor structures",
+          "detail": "Actinomycin D and Acridine structures are shown.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Drug-structure labels and text reviewed.",
+      "uncertainties": [
+        {
+          "id": "rna1-rifampicin-layout",
+          "description": "Rifampicin appears under a broad intercalating-agents heading, but only promoter-clearance inhibition is explicitly assigned to it. Do not infer or score a rifampicin intercalation mechanism from layout.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The heading is **Intercalating agents inhibit RNA polymerase**.\n\n- Intercalation inserts an agent between successive **G-C base pairs** in double-helical DNA, deforming DNA and preventing polymerase movement along the template.\n- **Actinomycin** inhibits **elongation**.\n- **Rifampicin** inhibits **promoter clearance**.\n\nThe chemical figures are labeled **Actinomycin D** and **Acridine**. Actinomycin D depicts a central multiring chromophore with two peptide-ring arms; labels include **Sar, L-Pro, L-meVal, D-Val, L-Thr**, carbonyl/O/N groups, NH2 and CH3. Acridine is shown as three fused rings with a nitrogen-bearing central ring and N-H/positive-charge symbols.\n\nRifampicin's inhibitory stage is stated separately; the slide does not explicitly assign it an intercalation mechanism."
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Actinomycin binding deforms DNA",
+      "topics": [
+        "Transcription inhibitors"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-actinomycin-binding",
+          "label": "Actinomycin DNA distortion",
+          "detail": "The rendering shows intercalated actinomycin and DNA deformation.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Molecular rendering and both annotations reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The title states DNA is **bent and deformed by Actinomycin binding**. Molecular rendering labels **intercalated actinomycin** (spelled Interchelated in the source annotation) between DNA base-pair levels and separately labels **DNA**."
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "After the primary transcript",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-primary-transcript-fates",
+          "label": "Primary-transcript fates",
+          "detail": "The source contrasts direct prokaryotic translation with eukaryotic modification/export/translation.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Prokaryotes:** RNA translated directly into protein.\n- **Eukaryotes:** RNA modified, exported to cytoplasm, then translated.\n\nThese are the primary-transcript comparisons made in the slide; no additional processing exceptions are imported."
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Post-transcriptional processing in eukaryotes",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-eukaryotic-processing",
+          "label": "Eukaryotic mRNA processing",
+          "detail": "Nuclear splicing, capping and polyadenylation precede cytoplasmic translation.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Genes are transcribed in the **nucleus** to RNA.\n- In the nucleus, mRNA is **spliced**, **5'-capped**, and **3'-polyadenylated**.\n- mRNA is transported to the **cytoplasm for translation**."
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three eukaryotic mRNA modifications",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-mrna-modifications",
+          "label": "Capping, splicing and polyadenylation",
+          "detail": "Cap at 5-prime; introns removed/exons joined; 3-prime cleavage and poly(A) addition.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-alternative-splicing",
+          "label": "Alternative splicing",
+          "detail": "Some transcripts can be spliced in multiple ways with regulatory significance.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "rna-metabolism-1-polya-length",
+          "label": "Poly(A) tail length",
+          "detail": "The source gives 80-250 A residues.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        },
+        {
+          "id": "rna-metabolism-1-processing-ctd",
+          "label": "Processing and phosphorylated CTD",
+          "detail": "Processing is associated with phosphorylated CTD and RNA pol II.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **Capping:** modified **5' cap** residue is added at the 5' end before transcription ends.\n2. **Splicing:** introns are removed and exons joined. **Alternative splicing** allows some transcripts to be spliced in more than one way and has regulatory significance.\n3. **Polyadenylation:** the 3' end is cleaved and **80-250 A residues** are added as a **poly(A) tail**.\n\nThe source states these modifications work together with **phosphorylated CTD and RNA polymerase II**. The list enumerates modification types and does not establish a unique chronological order for all three processes."
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Primary transcript to mature mRNA diagram",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "concepts": [
+        {
+          "id": "rna-metabolism-1-processing-diagram",
+          "label": "Primary-to-mature transcript diagram",
+          "detail": "Image links capped exon/intron-containing primary RNA to mature mRNA with retained exons and poly(A) tail.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only teaching page fully reviewed, including all labels and dashed exon guides.",
+      "uncertainties": [],
+      "contentMarkdown": "The diagram explicitly connects these stages:\n\n1. **Transcription and 5' capping:** RNA polymerase moves along DNA, leaving emerging RNA labeled **5' cap**, **exon** and **intron**.\n2. **Completion of primary transcript:** a **primary transcript** contains the cap, alternating exon/intron segments, and a **noncoding end sequence** toward the **3'** end.\n3. **Cleavage, polyadenylation, and splicing:** introns loop out and are removed; dashed guides show retained exon segments joining, while end cleavage and poly(A) addition are grouped with splicing.\n4. **Mature mRNA:** joined exon segments retain the **5' cap**, noncoding end segment and **AAA(A)n** at the **3'** end.\n\nThese grouped operations do not justify requiring an arbitrary unique order among cleavage, polyadenylation and individual splicing events."
+    }
+  ],
+  "reviewNotes": [
+    "31/31 PDF pages read and visually reviewed: p1 cover excluded; p2-p31 teaching.",
+    "No printed slide numbers visible; Chapter-26 on cover is a source chapter label, not pagination.",
+    "Table 26-1 fully reconstructed with numerical inventory and footnotes; p31 image-only processing content recovered.",
+    "Exact UP consensus and source wording/layout ambiguities are flagged locally. No outside facts added or silent corrections made."
+  ]
+}

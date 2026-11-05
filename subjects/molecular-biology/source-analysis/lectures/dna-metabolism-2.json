@@ -1,0 +1,876 @@
+{
+  "lectureId": "dna-metabolism-2",
+  "title": "DNA Metabolism Part 2 - DNA Repair",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "DNA Repair - cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "DNA Repair. Dr. Rula Abdul Ghani.\n\nCover only; excluded from assessed teaching coverage."
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Causes of DNA damage",
+      "topics": [
+        "DNA damage"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-damage-sources",
+          "label": "Exogenous and endogenous damage",
+          "detail": "Distinguish environmental causes from replication errors, oxidants and ROS.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Exogenous:** UV light, X rays, gamma rays, herbicides, insecticides, viruses, alkylating agents, intercalating agents, pollution, smoking, and further examples indicated by an ellipsis.\n- **Endogenous:** replication errors, oxidants, ROS."
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutation: base changes and product effects",
+      "topics": [
+        "Mutation classification"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-mutation-types",
+          "label": "Mutation classifications",
+          "detail": "Substitution/insertion/deletion describe base changes; silent/nonsense/missense describe effects.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "A mutation is a **permanent change in the nucleotide sequence**. The slide classifies mutations by two aspects:\n\n1. **Nature of the base change:**\n   - Substitution: replacement of one or more base pairs with another.\n   - Insertion/deletion: addition/deletion of one or more base pairs.\n2. **Effect on coding sequence and product:**\n   - Silent: affects nonessential DNA or has negligible effect, as worded in the source.\n   - Nonsense: premature stop codon.\n   - Missense: change in the amino acid encoded."
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base substitution: transitions and transversions",
+      "topics": [
+        "Mutation classification"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-base-substitution",
+          "label": "Transitions versus transversions",
+          "detail": "Transitions remain within purines/pyrimidines; transversions cross families.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure and all 12 directed changes read visually.",
+      "uncertainties": [],
+      "contentMarkdown": "| Class | Relationship | Directed changes in figure |\n| --- | --- | --- |\n| Transition | Purine to purine | A to G; G to A |\n| Transition | Pyrimidine to pyrimidine | T to C; C to T |\n| Transversion | Purine to pyrimidine | A to C; A to T; G to C; G to T |\n| Transversion | Pyrimidine to purine | C to A; C to G; T to A; T to G |\n\nFigure 18.3 depicts purines as fused rings, pyrimidines as single rings. Its caption defines transition as substitution within either family and transversion as substitution between families."
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutations, cancer, and the Ames test",
+      "topics": [
+        "Mutagenicity testing"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ames-principle",
+          "label": "Ames test principle",
+          "detail": "Ames measures a chemical potential to induce bacterial mutations.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-carcinogens-mutagens",
+          "label": "Carcinogens and mutagens",
+          "detail": "The source states 90% of carcinogens are mutagens.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- The source states a strong correlation between carcinogens and mutagens: **90% of carcinogens are mutagens**.\n- The **Ames test for carcinogens** measures a chemical's potential to induce mutations in bacteria. The slide interprets this as meaning it can be a carcinogen."
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ames test: histidine selection",
+      "topics": [
+        "Mutagenicity testing"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ames-selection",
+          "label": "Histidine selection",
+          "detail": "After histidine depletion, colonies reflect bacteria able to make histidine; colony number reflects mutagenicity.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-ames-incubation",
+          "label": "Ames incubation",
+          "detail": "The slide gives 48 h.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All four colony photographs reviewed; no invented conditions/counts.",
+      "uncertainties": [],
+      "contentMarkdown": "The slide calls the test a rapid, inexpensive screen important in industry.\n\n- **Salmonella** have mutations in histidine-synthesis genes and require histidine for growth.\n- Agar contains a small amount of histidine, allowing initial growth and an opportunity to mutate.\n- After histidine depletion, only mutated bacteria able to produce their own histidine survive.\n- Incubation: **48 h**.\n- Mutagenicity is proportional to the **number of colonies observed**.\n\nFour photographs (a)-(d) show different colony patterns; (b)-(d) include a central disk. No panel-specific substance, dose, or numerical colony counts are provided."
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA repair overview and E. coli repair table",
+      "topics": [
+        "Repair pathways"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-repair-template",
+          "label": "Undamaged repair template",
+          "detail": "One damaged strand can be corrected using its undamaged partner.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-repair-pathway-comparison",
+          "label": "Repair pathway comparison",
+          "detail": "Mismatch repair, BER, NER and direct repair recognize distinct damage types.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-repair-table-proteins",
+          "label": "E. coli repair protein inventory",
+          "detail": "Complete table protein inventory preserved.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table enlarged and reconstructed, including annotations and exceptions.",
+      "uncertainties": [],
+      "contentMarkdown": "Repair-pathway number/diversity reflects varied damage sources and the importance of repair. The slide calls repair energetically inefficient compared with metabolism, where ATP is accounted for and used optimally, emphasizing genetic integrity. Damage in one strand is corrected using the undamaged strand as template.\n\n**Table 25-5. Types of DNA Repair Systems in E. coli** (screenshot reconstructed):\n\n| Repair system | Enzymes/proteins listed | Damage listed |\n| --- | --- | --- |\n| Mismatch repair | Dam methylase; MutH, MutL, MutS; DNA helicase II; SSB; DNA polymerase III; exonuclease I; exonuclease VII; RecJ nuclease; exonuclease X; DNA ligase | Mismatches |\n| Base-excision repair | DNA glycosylases; AP endonucleases; DNA polymerase I; DNA ligase | Abnormal bases (uracil, hypoxanthine, xanthine); alkylated bases; pyrimidine dimers in some other organisms |\n| Nucleotide-excision repair | ABC excinuclease; DNA polymerase I; DNA ligase | Lesions causing large structural changes, e.g. pyrimidine dimers |\n| Direct repair | DNA photolyases | Pyrimidine dimers |\n| Direct repair | O6-methylguanine-DNA methyltransferase | O6-methylguanine |\n\nRed annotations link deamination of C to uracil, deamination of A to hypoxanthine, and methylated A/G toward alkylated bases. Blue asterisks emphasize pyrimidine-dimer entries. The full table is retained as source content, without treating every inventory entry as equally important for assessment."
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mismatch repair and methylation timing",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-mismatch-methylation",
+          "label": "Methylation-directed discrimination",
+          "detail": "The new strand is repairable during hemimethylation until Dam methylation removes the distinction.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-mismatch-fidelity",
+          "label": "Mismatch fidelity improvement",
+          "detail": "Fidelity improvement is 10^2-10^3.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete GATC methylation diagram reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- Mismatch repair improves fidelity by **10^2-10^3**.\n- Template methyl groups distinguish template from newly synthesized DNA.\n- Repair occurs in the **hemimethylated** interval after replication: template methylated, new strand not methylated.\n- The stated lag period is **10 min**.\n- **Dam methylase** methylates new-strand **5'-GATC-3'**; both strands then become indistinguishable by this mark.\n\nThe diagram follows fully methylated GATC/CTAG through replication, hemimethylation, and Dam action. Its caption says new-strand methylation follows after a few minutes; this qualitative wording and the explicit 10-min annotation are both preserved."
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Methyl-directed mismatch recognition",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-muts-mutl-muth",
+          "label": "MutS, MutL and MutH",
+          "detail": "MutS/MutL bind mismatch; MutH binds MutL and cleaves the unmethylated strand at GATC.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Threading diagram, ATP labels and palindrome read.",
+      "uncertainties": [
+        {
+          "id": "dna2-distance-wording",
+          "description": "P9 says up to 1000 bp; p10 says >1000 bp replaced. Preserve both; precise distance cutoff blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- The slide states repair occurs up to **1000 bp** from hemimethylated GATC.\n- **MutS-MutL** binds mismatched base pairs.\n- **MutH binds MutL**; its site-specific endonuclease remains inactive until it encounters unmethylated **5'-GATC-3'**, marking the repair strand.\n- Diagram: ATP to ADP + Pi accompanies complex assembly; DNA threads through the complex in both directions until MutH meets unmethylated GATC and cleaves the unmodified strand.\n- GATC/CTAG is labeled a **palindromic sequence**.\n- Human homologs are stated to be mutated in cancer, increasing mutation rate."
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mismatch excision on either side of a cut",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-mismatch-excision-direction",
+          "label": "Mismatch excision direction",
+          "detail": "Direction depends on mismatch position relative to the cut.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-mismatch-replacement",
+          "label": "Mismatch replacement synthesis",
+          "detail": "DNA pol III and SSB are labeled after excision.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both branches reviewed; nuclease alternatives are not imposed as a unique sequence.",
+      "uncertainties": [
+        {
+          "id": "dna2-distance-wording-10",
+          "description": "The >1000 bp wording differs from p9 up to 1000 bp; precise threshold blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "| Mismatch position relative to cleavage | Excision direction | Diagram proteins |\n| --- | --- | --- |\n| Mismatch on 3' side | 5' to 3' exonuclease | MutL-MutS; DNA helicase II; exonuclease VII **or** RecJ nuclease |\n| Mismatch on 5' side | 3' to 5' cleavage after unwinding | MutL-MutS; DNA helicase II; exonuclease I **or** exonuclease X |\n\nATP consumption accompanies unwinding/excision. **DNA polymerase III and SSB** are labeled for replacement synthesis in both branches. Annotation: **>1000 bp from GATC replaced to correct a single mismatch**, emphasizing energetic cost."
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base-excision repair (BER)",
+      "topics": [
+        "Base-excision repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ber-sequence",
+          "label": "BER sequence",
+          "detail": "Glycosylase removes base; AP endonuclease cuts; DNA pol I replaces; ligase seals.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-ap-site",
+          "label": "AP-site formation",
+          "detail": "Base removal by N-glycosyl cleavage leaves an abasic site.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four-panel BER figure reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-ber-ntps",
+          "description": "The diagram labels substrate NTPs while depicting dNMP products. Do not score substrate identity from this ambiguous label.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- **DNA glycosylases** recognize lesions, including A/C-deamination products and lesions caused by environmental agents.\n- Removal of a base cleaves the **N-glycosyl bond between base and deoxyribose**, leaving an **apurinic/apyrimidinic (abasic, AP) site**.\n- Once an AP site forms it must be repaired.\n- **AP endonuclease** cuts the DNA strand containing the AP site.\n- The AP-containing segment is removed; **DNA polymerase I** replaces DNA and **ligase** seals the nick.\n\nThe four-part diagram shows (a) damaged-base release by glycosylase, (b) AP-endonuclease incision, (c) DNA pol I with NTPs as printed, release of deoxyribose phosphate plus dNMPs, new DNA and a nick, and (d) ligase sealing."
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Uracil DNA glycosylase (UNG)",
+      "topics": [
+        "Base-excision repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ung",
+          "label": "UNG specificity",
+          "detail": "UNG removes deamination-derived U from DNA, distinguishes it from T, and does not act on RNA.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-ung-types",
+          "label": "UNG types",
+          "detail": "Source states one bacterial type and four human types.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **UNG** removes U formed by C deamination.\n- It distinguishes T from U and acts **only on DNA, not RNA**.\n- Bacteria have one type and humans four, as stated."
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleotide-excision repair (NER)",
+      "topics": [
+        "Nucleotide-excision repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ner-lesions",
+          "label": "NER lesions and excinuclease",
+          "detail": "Two excinuclease cuts bracket a bulky, helix-distorting lesion.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "UV/thymine-dimer figure reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- Described as critical for all organisms' survival.\n- Recognizes **bulky lesions and pyrimidine dimers** causing large DNA-helical distortion.\n- A **multisubunit enzyme** hydrolyzes **two phosphodiester bonds**, one on either side of the distortion.\n- **Excinuclease** catalyzes two specific endonucleolytic cleavages, distinguished from a standard endonuclease.\n\nThe before/after figure shows an incoming **UV photon**, formation of a **thymine dimer**, and distorted DNA."
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NER comparison: E. coli and humans",
+      "topics": [
+        "Nucleotide-excision repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ner-organism-comparison",
+          "label": "Bacterial versus human NER",
+          "detail": "Diagram contrasts ABC excinuclease/13-mer/pol I with human excinuclease/29-mer/pol epsilon.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-ner-incisions",
+          "label": "NER incision offsets",
+          "detail": "Bacterial offsets 8th/5th and human offsets 22nd/7th are labeled.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete paired pathway reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-uvr-assignment",
+          "description": "The bacterial cut positions carry UvrC/UvrB annotations without explanation. Preserve; avoid scoring individual-subunit assignments.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The two parallel pathways are labeled **similar pathway**:\n\n| Stage | E. coli | Human |\n| --- | --- | --- |\n| Incision | ABC excinuclease (UvrA, UvrB, UvrC); cuts marked 8th and 5th with UvrC and UvrB annotations, respectively | Human excinuclease; cuts marked 22nd and 7th |\n| Damaged-fragment release | DNA helicase; **13-mer** | DNA helicase; **29-mer** |\n| Replacement | DNA polymerase I | DNA polymerase epsilon |\n| Sealing | DNA ligase | DNA ligase |\n\nAfter two incisions, the lesion-containing segment is displaced; the gap is filled and sealed. Both branches show strand 5'/3' labels and OH/phosphate termini."
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NER lesions and inherited repair disorders",
+      "topics": [
+        "Repair disorders"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-repair-disorders",
+          "label": "XP versus HNPCC",
+          "detail": "XP is linked to NER; HNPCC to mismatch repair.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-hnpcc-homologs",
+          "label": "HNPCC homologs",
+          "detail": "hMLH1 and hMSH2 are named human MutL and MutS homologs.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Primary NER lesions listed: **pyrimidine dimers (T, C)** and **benzo pyrene-guanine**, formed in DNA by cigarette smoke.\n\n| Disorder | Repair defect stated | Features/details |\n| --- | --- | --- |\n| Xeroderma pigmentosum (XP) | NER-system mutations | Rare inherited disease; pigmented skin lesions, skin cancer |\n| Hereditary non-polyposis colorectal cancer (HNPCC) | Mismatch-repair defects | Rectal bleeding, stomach pain, weight loss; common mutations **hMLH1** (human MutL homolog 1), **hMSH2** (human MutS homolog 2) |"
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alkylation and mispairing",
+      "topics": [
+        "Direct repair and mutagenesis"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-methylguanine-mispair",
+          "label": "O6-methylguanine mispairing",
+          "detail": "Methylated guanine pairs with T; the diagram shows a later A-T descendant.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical and replication-consequence figures reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The methylation product of alkylating agents pairs with **T rather than C** during replication.\n\n- Chemical figure: **guanine-cytosine** becomes **O6-methylguanine-thymine** after methylation and replication. O6 methyl group and hydrogen-bond contacts are shown.\n- Replication figure starts with G-C, methylates G, and places methylated G opposite T in one branch, with the other branch correctly paired.\n- A subsequent replication produces an **A-T** descendant. The unchanged branch is labeled **correctly paired DNA (no mutations)**."
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Direct repair by O6-methylguanine-DNA methyltransferase",
+      "topics": [
+        "Direct repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-direct-methyltransferase",
+          "label": "Single-use methyltransferase repair",
+          "detail": "Methyl transfers from O6-methylguanine to cysteine, inactivating the protein without excising a base.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cysteine and methyl-group transfer labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Direct repair has no excision/removal of a base or nucleotide.\n\n- **O6-methylguanine-DNA methyltransferase** is called not strictly an enzyme because a single methyl-transfer event permanently methylates it.\n- One entire protein is consumed per damaged base, emphasizing DNA-integrity priority.\n- Diagram: O6-methylguanine nucleotide becomes guanine nucleotide; methyl transfers to the protein's own **Cys-SH**, producing **Cys-S-CH3** and changing protein **active -> inactive**."
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replication forks encountering damage",
+      "topics": [
+        "Damage at replication forks"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-fork-damage",
+          "label": "Replication-fork damage response",
+          "detail": "Lesions/breaks can remove a usable local template; recombinational and error-prone responses are depicted.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both fork scenarios reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-template-generalization",
+          "description": "The broad claim all the above systems require undamaged template follows direct methyltransferase repair. Preserve it; do not score that universal generalization.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The slide says preceding repair systems work when the template is present and undamaged. Unrepaired lesions/breaks can leave it damaged/absent; radiation and oxidative reactions are listed.\n\n- **Unrepaired lesion:** leading-strand-labeled fork shows a remaining lesion-associated gap. Responses: **recombinational DNA repair or error-prone repair**.\n- **Unrepaired break:** separated broken DNA leads to **recombinational DNA repair**.\n- Annotation: repair must come from a **separate homologous chromosome**."
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "SOS repair regulation",
+      "topics": [
+        "SOS response"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-sos-regulation",
+          "label": "LexA and RecA",
+          "detail": "LexA repression keeps SOS off; RecA-associated LexA cleavage permits SOS expression.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Normal/damaged DNA SOS-box figure reconstructed.",
+      "uncertainties": [],
+      "contentMarkdown": "- **LexA** represses transcription of all SOS proteins.\n- **RecA** coprotease activity promotes LexA autocleavage, as worded.\n\n| Normal DNA | Damaged DNA |\n| --- | --- |\n| LexA at SOS box; SOS genes not expressed; SOS switched off | LexA proteolysis by RecA; SOS genes expressed to repair damaged DNA; SOS switched on |"
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Error-prone translesion synthesis (TLS)",
+      "topics": [
+        "Translesion synthesis"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-tls-pol-v",
+          "label": "Error-prone TLS by DNA pol V",
+          "detail": "SOS-associated DNA pol V bypasses lesions with low fidelity and no proofreading.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "DNA pol V and fidelity emphasis reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-tls-heading",
+          "description": "TLS is placed under Recombinational DNA repair without clarifying the relationship. Do not assess TLS as synonymous with homologous recombination.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "Headings combine **Recombinational DNA repair** and **Error-prone translesion DNA synthesis (TLS)**.\n\n- Error-prone means mutations often occur; this is part of the **SOS response**.\n- **DNA polymerase V** replicates past/across lesions that normally block replication.\n- Proper base pairing is nearly impossible, giving inaccurate repair and high mutation rate.\n- Lack of proofreading exonuclease activity reduces fidelity."
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three types of DNA recombination",
+      "topics": [
+        "Recombination classes"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-recombination-classes",
+          "label": "Recombination classes",
+          "detail": "Homologous molecules, shared particular sites, and mobile-element insertion distinguish the three classes.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "DNA recombination: movement of a DNA segment from one DNA molecule to another.\n\n1. **Homologous/general recombination/DNA crossover:** between two homologous molecules.\n2. **Site-specific recombination:** at a particular sequence in both nonhomologous molecules.\n3. **Transpositional recombination:** a mobile element/short segment inserts into target DNA."
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Significance of recombination",
+      "topics": [
+        "Recombination roles"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-recombination-roles",
+          "label": "Repair and diversity",
+          "detail": "Recombination contributes to DNA repair and genetic diversity.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- DNA repair through a recombinational repair system.\n- Genetic diversity."
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Recombination during meiosis",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-meiotic-recombination",
+          "label": "Meiotic recombination",
+          "detail": "Crossing over follows replication and precedes depicted Meiosis I products.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Maternal/paternal, replication, crossing-over and Meiosis I labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Recombination occurs during meiosis.\n\nThe diagram follows **paternal** and **maternal chromosomes** through **DNA replication**, then **crossing over**. A **Meiosis I** bracket covers the following division. Both depicted resulting cells contain duplicated chromosomes with exchanged colored parental segments."
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous recombination and chiasma",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-chiasma",
+          "label": "Chiasma and segment exchange",
+          "detail": "Aligned homologs exchange segments at a chiasma; sister chromatids and homologs are distinguished.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All three chromosome panels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The source says two homologous pairs of sister chromatids align side by side; homologs connect at a **chiasma** and exchange the segment from that point to chromosome ends.\n\nPanels (a)-(c) label **homologous pair**, **sister chromatids**, **centromere**, and **chiasma**; exchanged terminal segments use different colors."
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Crossing over: chromosomes and chiasmata",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-crossing-over-visual",
+          "label": "Recognizing crossing over",
+          "detail": "Tetrad/chiasma diagrams and a micrograph illustrate exchanged genetic material.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All labels and micrograph scale reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Crossing over exchanges genetic material.\n\n- Left sequence labels **homologous pair**, **homolog**, **sister chromatids**, **centromere**; alignment creates a **tetrad**, with a **crossover point (chiasma)**, then exchanged chromosome segments.\n- Right figure states **many points of joining: chiasmata** and labels **centromeres** and **chromatids**.\n- The micrograph has a **2 micrometre** scale bar."
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Double-strand break repair system",
+      "topics": [
+        "Homologous recombination",
+        "Double-strand break repair"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-ds-break-repair",
+          "label": "Double-strand break repair",
+          "detail": "End processing leaves 3-prime extensions; invasion, extension/branch migration and Holliday cleavage give alternative products.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-holliday-products",
+          "label": "Alternative resolution products",
+          "detail": "The figure permits two joining outcomes; product set 2 recombines flanking DNA.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full diagram prose and both alternative products read.",
+      "uncertainties": [],
+      "contentMarkdown": "Most damage is described as BER/NER-repaired, but replication forks encounter breaks. Two homologous chromosomes participate:\n\n1. A double-strand break becomes a gap through exonuclease action. More removal at **5' ends** leaves **3' single-stranded extensions**; the diagram says strands with 3' ends degrade less than strands with 5' ends.\n2. An exposed 3' end invades and pairs with its complement in an intact homolog, displacing the other duplex strand.\n3. DNA polymerase extends the invading 3' end; **branch migration** yields two crossovers/**Holliday intermediates**.\n4. Further replication replaces DNA missing from the original break.\n5. Specialized nucleases cleave the intermediates, producing **either of two joining products**.\n\nThe diagram labels **Gene A/Gene B**, strand ends, and **product set 1/product set 2**. In product set 2, DNA on either side of the repaired region is recombined. These are alternative outcomes, not one uniquely required product."
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Holliday intermediate micrograph",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-holliday-image",
+          "label": "Holliday-junction recognition",
+          "detail": "Micrograph illustrates a crossover junction.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only teaching page reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Electron micrograph labeled **Holliday intermediate/crossover junction** shows two extended DNA paths meeting at a crossing. No numerical values or additional mechanistic steps appear."
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous repair products and allelic variation",
+      "topics": [
+        "Homologous recombination",
+        "Allelic variation"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-homolog-alleles",
+          "label": "Homologs and alleles",
+          "detail": "Homologous chromosomes may differ in alleles; both cleavage products occur in vivo.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-hemoglobin-example",
+          "label": "Hemoglobin example",
+          "detail": "The source gives A-to-T/glutamate-to-valine variation for hemoglobin A versus S.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Repair details vary between species, but most steps are common.\n- Both cleavage products occur in vivo in eukaryotes and prokaryotes, contributing to genomic diversity.\n- Homologous chromosomes are not identical; alleles may differ.\n- Example: **hemoglobin A** versus **hemoglobin S (sickle cell anemia)**. The source states **A to T = glutamate to valine** and emphasizes a one-base-pair difference among millions."
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Origin-independent replication restart",
+      "topics": [
+        "Replication restart"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-replication-restart",
+          "label": "Restart after a blocked fork",
+          "detail": "Recombinational repair links a stalled fork to origin-independent replication restart.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [
+        {
+          "id": "dna2-restart-protein-count",
+          "description": "The claimed 7-protein complex is followed by six comma-separated abbreviated entries; DNA pol II follows separately. Exact count and expanded membership blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- A fork moving origin to terminus can encounter double-strand breaks/lesions despite BER/NER repair of most damage.\n- **DNA polymerase III cannot continue**, leading to recombinational repair.\n- **Origin-independent restart** is described using a **complex of 7 proteins**, listed **(priA, C, DnaB, C, G, T)**, followed by **DNA polymerase II**.\n- Summary: **replication -> recombinational repair -> replication** for a stalled/blocked fork."
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Site-specific recombination mechanism",
+      "topics": [
+        "Site-specific recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-site-specific-recombinase",
+          "label": "Site-specific recombinase",
+          "detail": "Cleavage and joining at defined sites use transient protein-DNA covalent intermediates.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-site-size-tetramer",
+          "label": "Site size and assembly",
+          "detail": "Source states 20-200 bp sites and a tetramer of identical units.",
+          "priority": "supporting",
+          "rationale": "Supporting detail or illustration; no exam probability implied."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All four reaction panels and chemical labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Recombinase/integrase** acts at a **20-200 bp** recombination site.\n- The site-specific enzyme is a **tetramer of identical units**.\n- The source says one recombinase recognizes/binds each of two sites through phosphotyrosine.\n- A transient protein-DNA covalent linkage preserves the phosphodiester linkage through **phosphoserine/phosphotyrosine**, as worded.\n- Recombinase = **site-specific endonuclease + ligase**.\n\nNumbered reaction panels (1)-(4) show **tyrosine OH** as nucleophile in strand cleavage, Tyr-phosphate intermediates, free OH, joining to new partners to form a **Holliday intermediate**, then remaining-strand cleavage/rejoining. Strands retain 5'/3' labels and mixed recombinant colors."
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Recombinase bound to a Holliday intermediate",
+      "topics": [
+        "Site-specific recombination"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-recombination-no-synthesis",
+          "label": "No synthesis/degradation in exchange",
+          "detail": "The source states strand-breaking/rejoining requires no DNA synthesis or degradation.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Protein-DNA molecular rendering reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-no-enzymes",
+          "description": "No enzymes/cofactors needed is ambiguous alongside recombinase depiction and its endonuclease/ligase activities on p30. Do not score the broad no-enzyme claim.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "Molecular rendering: recombinase bound to a Holliday intermediate.\n\nThe source states: **Strand-breaking and rejoining reactions do not require DNA synthesis or degradation, i.e. no enzymes/cofactors needed.** The final clause is preserved as an unresolved source statement."
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transpositional recombination and element classes",
+      "topics": [
+        "Transposition"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-simple-complex-transposons",
+          "label": "Simple versus complex transposons",
+          "detail": "Complex elements carry extra genes, e.g. antibiotic resistance; simple elements carry transposition requirements.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Transpositional recombination inserts a **mobile element** into target DNA.\n\n- **Simple transposons:** contain only sequence required for transposition, including transposase genes.\n- **Complex transposons:** contain one or more additional genes; **antibiotic resistance** is the example."
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mechanisms of transpositional recombination",
+      "topics": [
+        "Transposition"
+      ],
+      "concepts": [
+        {
+          "id": "dna-metabolism-2-transposition-classes",
+          "label": "Class I versus Class II",
+          "detail": "Class I has an RNA/reverse-transcription intermediate; Class II uses a cut DNA intermediate.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        },
+        {
+          "id": "dna-metabolism-2-transposase-activities",
+          "label": "Transposase activities",
+          "detail": "The slide assigns nuclease and ligase activities to transposase.",
+          "priority": "core",
+          "rationale": "Explicitly explained source mechanism/relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both transposition routes reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "| Class | Source mechanism |\n| --- | --- |\n| **Class I: retrotransposons** | Donor DNA is transcribed into RNA, reverse-transcribed into DNA, then inserted in target DNA by the same recombination mechanism as transposon DNA intermediates |\n| **Class II: transposons** | A special enzyme cuts donor transposon, then it inserts in target DNA; **transposase** has nuclease and ligase activities |\n\nPaired figure:\n\n- Transposon: **donor DNA -> cut by transposase -> DNA intermediate -> recombination -> target DNA**.\n- Retrotransposon: **donor DNA -> transcription -> RNA -> reverse transcription -> DNA intermediate -> recombination -> target DNA**.\n\nDonor/target strands carry 5'/3' labels."
+    }
+  ],
+  "reviewNotes": [
+    "33/33 PDF pages read and visually reviewed: p1 cover excluded; p2-p33 teaching.",
+    "No printed slide numbers visible; one-based PDF indices remain authoritative.",
+    "All meaningful text and figure/table relationships retained; no external biology used.",
+    "Table 25-5 reconstructed. Uncertainties block exact claims rather than all clear content on the same page."
+  ]
+}

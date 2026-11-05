@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "molecular-biology",
+  "items": [
+    {
+      "id": "genes-and-chromosomes-u17-comparison",
+      "description": "\"E. coli 100> DNA virus\" does not specify the measured property or a clear comparison syntax. Preserve this phrase; do not score a numerical bacterial-versus-viral DNA comparison from it.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u19-nucleus-unit",
+      "description": "The source prints a nucleus diameter of **0.006 nm**. The unit/value needs verification; it is preserved without conversion or correction and must not be assessed. The cell-count and DNA-length numbers print 13 below the 10 baseline; their intended exponent formatting also needs clarification and is not silently repaired. The sun-distance analogy is retained as a source illustration, not independently verified.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u20-mtdna-generality",
+      "description": "The broad claims \"lacks ... noncoding regions\" and \"divides each time ... before cell division\" are stated without qualification or a mechanism. Preserve the wording; assessment of these absolute claims is held for source clarification rather than expanding them from outside knowledge.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 20,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u22-count-scope",
+      "description": "The heading says \"single chromosome,\" whereas the human number is presented without an explicit chromosome/genome qualifier on this page. Do not author a question asserting 21,000 genes on one human chromosome. Preserve the human comparison with its unresolved scope.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 22,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u24-chart",
+      "description": "Displayed transposon subcategories total 42%, while the outer grouping says 45%; no missing category is labeled. \"SD\" is not expanded, and \"17% ?\" is explicitly unidentified. Preserve all labels; do not invent the missing percentage/category or assess an exhaustive percentage partition.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 24,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u31-hidden-text",
+      "description": "The extracted text contains \"catalyze changes in Lk in increments of 1 or 2,\" while the rendered sentence visibly ends at \"topoisomerases=\". Retain this text-layer content distinctly; do not assess its numeric claim without visible-source confirmation.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 31,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u39-charge",
+      "description": "The final charge phrase is attached collectively to three modification types without saying which result belongs to which modification. Do not infer or assess an identical charge effect for all three from this wording.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 39,
+      "printedSlide": null
+    },
+    {
+      "id": "genes-and-chromosomes-u40-chemistry",
+      "description": "Preserve the slide's \"brings a −ve charge\" wording and its claim that CoA accepts the acetyl group in deacetylation. The slide supplies no reaction diagram resolving these chemical claims; hold assessment of those specific claims pending verification. The separately stated chromatin-relaxation/transcription relationship remains available for source-based study.",
+      "assessmentBlocked": true,
+      "lectureId": "genes-and-chromosomes",
+      "pdfPage": 40,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u14-all-polymerases",
+      "description": "The heading makes proofreading universal, but page 26 explicitly states that DNA polymerase α has no proofreading 3' -> 5' exonuclease activity. Preserve both. Do not assess the universal \"all polymerases\" claim.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u15-rate",
+      "description": "The prose gives DNA polymerase I as 600 nt/min, whereas the screenshot table gives 16-20 nt/sec (960-1,200 nt/min when compared arithmetically). Preserve both; do not score an exact pol I rate or an exact ratio based on this conflict.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 15,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u15-poliii-mass",
+      "description": "This table gives pol III Mr 830,000; page 22's screenshot gives 900,000. The slides do not reconcile the two. Do not assess a unique pol III molecular mass.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 15,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u20-phosphorylation",
+      "description": "The heading says \"Phosphorylation,\" while its described conversion is ATP-bound to ADP-bound DnaA via hydrolysis. Retain both; do not infer an unshown covalent phosphorylation reaction.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 20,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u22-poliii-mass",
+      "description": "Pol III Mr 900,000 here conflicts with 830,000 on page 15. Subunit counts here are labeled \"number of subunits,\" while page 15 labels \"number of different types\"; those two count labels are retained distinctly and are not assumed equivalent.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 22,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u24-repeated-terb",
+      "description": "The figure labels two distinct positions TerB; the slide provides no clarification. Retain the duplicate label; do not create a unique site-name ordering or identify the repeated position using outside knowledge.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 24,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u26-proofreading-exception",
+      "description": "The α entry conflicts with page 14's heading \"all polymerases.\" Preserve the exception and do not assess universal proofreading. Polymerase roles above are transcribed as source assignments, without outside correction or expansion.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 26,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u28-end-polarity",
+      "description": "The prose says unreplicated \"3' end,\" while the figure's incomplete red daughter ends are marked 5' opposite parental 3' ends. The reference strand is not explicitly reconciled. Do not score an end-polarity question from this page until clarified; retain the ~100-bp claim as a source approximation, not an inferred universal constant.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 28,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u35-no-aging",
+      "description": "The absolute \"do not age\" wording is qualified by page 38, which states that telomerase-expressing cells still undergo senescence in response to DNA damage/oncogenes. Preserve both; do not assess an absolute claim that telomerase prevents every form of senescence.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 35,
+      "printedSlide": null
+    },
+    {
+      "id": "dna-metabolism-1-u38-arrow-label",
+      "description": "The diagram heading concerns senescence, but the destination box says \"Potential Cancer Causing Events.\" The precise arrow relationship is not explained. Preserve the labels; do not assess an inferred causal chain that senescence itself causes cancer.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-1",
+      "pdfPage": 38,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-distance-wording",
+      "description": "P9 says up to 1000 bp; p10 says >1000 bp replaced. Preserve both; precise distance cutoff blocked.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 9,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-distance-wording-10",
+      "description": "The >1000 bp wording differs from p9 up to 1000 bp; precise threshold blocked.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 10,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-ber-ntps",
+      "description": "The diagram labels substrate NTPs while depicting dNMP products. Do not score substrate identity from this ambiguous label.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 11,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-uvr-assignment",
+      "description": "The bacterial cut positions carry UvrC/UvrB annotations without explanation. Preserve; avoid scoring individual-subunit assignments.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-template-generalization",
+      "description": "The broad claim all the above systems require undamaged template follows direct methyltransferase repair. Preserve it; do not score that universal generalization.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-tls-heading",
+      "description": "TLS is placed under Recombinational DNA repair without clarifying the relationship. Do not assess TLS as synonymous with homologous recombination.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 20,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-restart-protein-count",
+      "description": "The claimed 7-protein complex is followed by six comma-separated abbreviated entries; DNA pol II follows separately. Exact count and expanded membership blocked.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 29,
+      "printedSlide": null
+    },
+    {
+      "id": "dna2-no-enzymes",
+      "description": "No enzymes/cofactors needed is ambiguous alongside recombinase depiction and its endonuclease/ligase activities on p30. Do not score the broad no-enzyme claim.",
+      "assessmentBlocked": true,
+      "lectureId": "dna-metabolism-2",
+      "pdfPage": 31,
+      "printedSlide": null
+    },
+    {
+      "id": "rna1-error-rate-format",
+      "description": "Source literally prints one error/104-105 with 4 and 5 on the baseline in the rendered slide and text layer. Do not silently convert to 10^4-10^5; exact numerical error-frequency assessment is blocked until formatting is clarified.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 11,
+      "printedSlide": null
+    },
+    {
+      "id": "rna1-up-consensus",
+      "description": "Exact UP-element consensus cannot be transcribed confidently from tightly stacked A/T alternatives. Preserve source image via PDF p14; block exact-base sequence questions for this UP element.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "rna1-gc-wording",
+      "description": "P17 explains slowing as GC pairs making the template hard to unwind, while pp18-19 depict a transcript hairpin. Preserve both; block the precise causal unwinding explanation rather than silently repairing it.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "rna1-tfiie-helicase",
+      "description": "Table assigns ATPase/helicase activities in TFIIE row; p22 annotates TFIIH helicase and kinase, and TFIIH row says unwinds DNA. Preserve all labels; block exclusive helicase-ownership questions based on this table.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 23,
+      "printedSlide": null
+    },
+    {
+      "id": "rna1-rifampicin-layout",
+      "description": "Rifampicin appears under a broad intercalating-agents heading, but only promoter-clearance inhibition is explicitly assigned to it. Do not infer or score a rifampicin intercalation mechanism from layout.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-1",
+      "pdfPage": 26,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p04-u1",
+      "description": "The prose says additional methyl groups at C-2, whereas the figure identifies downstream ribose 2′ positions. Preserve both; do not score the ambiguous carbon-position wording.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 4,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p04-u2",
+      "description": "The yeast/vertebrate note is positioned beside optional ribose methylation but has no explicit sentence defining its scope; do not generalize it to all capping.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 4,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p07-u1",
+      "description": "Group I nuclear/mitochondrial/rRNA/mRNA/tRNA list does not give a precise one-to-one location/substrate mapping. Do not score a more specific mapping than supplied.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 7,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p07-u2",
+      "description": "Group IV is called the only protein-enzyme-spliced class here; page 12 also labels RNase P a ribozyme for tRNA end processing. Distinguish intron splicing from end processing; do not turn the broad wording into an exclusion of ribozymes from all tRNA processing.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 7,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p12-u1",
+      "description": "Tiny modified-base abbreviations in the illustrative cloverleaf lack a complete key and some superscript marks are not reliably distinguishable in the source raster. Exact whole-tRNA sequence and every chemical modification position are not transcribed or assessable.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 12,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p16-u1",
+      "description": "The housekeeping expression term is printed “constrictively.” Do not score that wording or silently replace it with an inferred term.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 16,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p17-u1",
+      "description": "Heading calls activators a regulatory-sequence category while the diagram depicts bound activator entities. Do not score a claim that activators themselves are DNA sequences solely from this heading.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p19-u1",
+      "description": "Text alternates AZT and AZT triphosphates and does not precisely distinguish the compared molecular species. Do not score a more specific affinity/transport claim than the wording supports. The failed-anticancer statement has no study/context supplied.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "rna-metabolism-2-p20-u1",
+      "description": "The text reduces Pol to “protease,” while the figure also labels integrase and reverse transcriptase among products. Do not score an exclusive one-product mapping for pol from this abbreviated text.",
+      "assessmentBlocked": true,
+      "lectureId": "rna-metabolism-2",
+      "pdfPage": 20,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p05-u1",
+      "description": "Magnesium charge is printed Mg+ without a second positive charge. Do not score a corrected ion-valence claim from this source.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 5,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p07-u1",
+      "description": "Five cycles and the stated expression 2^5 do not agree with 64 copies. The visible 5 is placed low rather than as a clear superscript. Preserve the original claim; do not score this numerical example or silently substitute a corrected count.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 7,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p09-u1",
+      "description": "The 25-cycle/~10^6-fold caption does not specify efficiency or assumptions. Given the separate inconsistent calculation on page 7, do not infer a universal exact copy-count rule or assess numerical yield from these captions.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 9,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p10-u1",
+      "description": "No sample identities or positive/negative-control legend are supplied. Do not score a diagnosis, exact size for each band, or a reason for absent bands from this image alone.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 10,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p16-u1",
+      "description": "The shorthand top-to-bottom=template statement does not explicitly say to use the separately printed complementary Original seq. column rather than merely reversing band calls. Do not score template sequence by reversing lane calls without specifying strand and 5′/3′ orientation.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 16,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p17-u1",
+      "description": "Page 19 repeats the same displayed template but its longer printed products use …AGTTCTCG… rather than this page’s …AGTTCTTG…. Exact example-sequence answers are blocked pending source resolution.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p18-u1",
+      "description": "The dNTP 100 μM caption does not define total versus per-nucleotide concentration. Do not score a more specific interpretation.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p19-u1",
+      "description": "Longer product strings disagree with page 17 despite the same displayed template. Preserve both and block exact example-sequence assessment.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p19-u2",
+      "description": "The autoradiogram has dense, partly merged bands and no complete supplied read. An exact full sequence cannot be recovered reliably from this raster and is not assessable.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "techniques-p20-u1",
+      "description": "Exact complete chromatogram base calls and a color-to-base mapping cannot be established reliably from the provided raster/absent legend. Do not score a full sequence or an inferred color key.",
+      "assessmentBlocked": true,
+      "lectureId": "techniques",
+      "pdfPage": 20,
+      "printedSlide": null
+    }
+  ]
+}

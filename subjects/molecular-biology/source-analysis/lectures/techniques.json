@@ -1,0 +1,671 @@
+{
+  "lectureId": "techniques",
+  "title": "Techniques - PCR, Sequencing, RFLP",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Techniques: PCR, Sequencing, RFLP",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title and lecturer only.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Polymerase chain reaction (PCR)",
+      "topics": [
+        "Polymerase chain reaction (PCR)"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p02-pcr-purpose",
+          "label": "PCR target and requirements",
+          "detail": "PCR amplifies a single selected DNA sequence in vitro using DNA template, nucleotides, primers and polymerase.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p02-pcr-history",
+          "label": "PCR source historical attribution",
+          "detail": "Slide credits Kary Mullis in 1983.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Taq DNA polymerase",
+      "topics": [
+        "Taq DNA polymerase"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p03-taq",
+          "label": "Thermostable Taq polymerase",
+          "detail": "Taq from Thermus aquaticus in hot springs is presented as thermostable; source says purified since 1976.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two photographs, no additional labeled molecular mechanism. Their role is illustration of source environment and organism.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR applications and templates",
+      "topics": [
+        "PCR applications and templates"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p04-pcr-applications",
+          "label": "PCR applications and example sample sources",
+          "detail": "Diagnosis, counseling, forensic profiling, paternity and archaeology; examples range from dried blood to toothbrushes.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Basic PCR reaction",
+      "topics": [
+        "Basic PCR reaction"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p05-pcr-primers-cycle",
+          "label": "PCR primer orientation and cycle",
+          "detail": "Opposite-strand flanking primers; denaturation 94°C, annealing Tm-5°C, extension 72°C, repeated 20-40 times.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p05-pcr-magnesium",
+          "label": "PCR magnesium source wording",
+          "detail": "Slide prints Mg+ 1-4 mM and duplex stabilization.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "techniques-p05-u1",
+          "description": "Magnesium charge is printed Mg+ without a second positive charge. Do not score a corrected ion-valence claim from this source.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Thermocycler / PCR machine",
+      "topics": [
+        "Thermocycler / PCR machine"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p06-thermocycler",
+          "label": "Thermocycler and reaction setup",
+          "detail": "Machine changes temperature automatically; thin-walled tube contains template, polymerase, buffer, nucleotides and primers.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photographs have no additional legible technical specification. The brief temperature-gradient bullet is not expanded into an unstated protocol.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Amplification and PCR contamination",
+      "topics": [
+        "Amplification and PCR contamination"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p07-pcr-sensitivity",
+          "label": "PCR sensitivity, specificity and contamination",
+          "detail": "Very small amounts can amplify; primer design relates to specificity; contaminating sample/reagent molecule can amplify.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only page visually checked, including the inconsistent five-cycle/64-copy example. The questionable exponent formatting is preserved as an interpretation of the visible line, with assessment blocked.",
+      "uncertainties": [
+        {
+          "id": "techniques-p07-u1",
+          "description": "Five cycles and the stated expression 2^5 do not agree with 64 copies. The visible 5 is placed low rather than as a clear superscript. Preserve the original claim; do not score this numerical example or silently substitute a corrected count.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Designing primers",
+      "topics": [
+        "Designing primers"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p08-primer-design",
+          "label": "Primer design properties",
+          "detail": "17-30 nt, usually 20 bp; ~50% GC and melting temperature >54°C; minimize hairpins and primer-pair complementarity.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR cycle and amplification diagrams",
+      "topics": [
+        "PCR cycle and amplification diagrams"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p09-pcr-cycle-figure",
+          "label": "PCR cycle example and polymerase reuse",
+          "detail": "Diagram uses 94/54/72°C and 1 min/45 s/2 min, opposite primers and 5′→3′ synthesis; thermostable polymerase remains during repeats.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p09-pcr-fold-example",
+          "label": "Source amplification-fold caption",
+          "detail": "Right caption says about 10^6-fold after 25 cycles.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only page fully inspected at full size. All time/temperature annotations, repeat instructions, polymerase-still-present label and fold caption captured.",
+      "uncertainties": [
+        {
+          "id": "techniques-p09-u1",
+          "description": "The 25-cycle/~10^6-fold caption does not specify efficiency or assumptions. Given the separate inconsistent calculation on page 7, do not infer a universal exact copy-count rule or assess numerical yield from these captions.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR product gel",
+      "topics": [
+        "PCR product gel"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p10-pcr-gel",
+          "label": "PCR product gel and labeled ladder",
+          "detail": "Gel shows sample lanes and 1000/500 bp ladder references; sample identities are not supplied.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size gel reviewed. Lanes and only explicitly labeled marker sizes captured; apparent band positions described without assigning exact unprinted sizes.",
+      "uncertainties": [
+        {
+          "id": "techniques-p10-u1",
+          "description": "No sample identities or positive/negative-control legend are supplied. Do not score a diagnosis, exact size for each band, or a reason for absent bands from this image alone.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RT-PCR: reverse transcription polymerase chain reaction",
+      "topics": [
+        "RT-PCR: reverse transcription polymerase chain reaction"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p11-rt-pcr",
+          "label": "RT-PCR RNA-to-cDNA-to-PCR",
+          "detail": "Oligo(dT)20 primes reverse transcription of poly(A) mRNA using four dNTPs; first-strand cDNA then enters PCR.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image inspected because extractable text omitted the figure. All reagent and intermediate labels transcribed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Two-step RT-PCR",
+      "topics": [
+        "Two-step RT-PCR"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p12-two-step-rt-pcr",
+          "label": "Two-step RT-PCR primer distinction",
+          "detail": "RT step with RNA/oligo dT produces cDNA, followed by specific-primer PCR.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size reaction image checked; source reagent list retained as drawn without relocating DNA polymerase to a different stage.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA sequencing: Sanger method",
+      "topics": [
+        "DNA sequencing: Sanger method"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p13-sanger-stages",
+          "label": "Sanger chain-termination stages",
+          "detail": "Denature; primer annealing/extension; ddNTP termination; gel electrophoresis.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Dideoxies block elongation",
+      "topics": [
+        "Dideoxies block elongation"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p14-ddntp",
+          "label": "ddNTP termination versus dNTP extension",
+          "detail": "dNTP has 3′ OH for next phosphodiester bond; ddNTP lacks it and terminates chain after incorporation.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical structures and 3′ OH versus 3′ H highlighting inspected; table preserves exact causal comparison.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Four Sanger reaction tubes and gel reading",
+      "topics": [
+        "Four Sanger reaction tubes and gel reading"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p15-sanger-tubes",
+          "label": "Sanger reaction tube composition",
+          "detail": "Each tube contains all four dNTPs and one of ddGTP/ddATP/ddTTP/ddCTP plus polymerase.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p15-sanger-gel",
+          "label": "Sanger gel size and reading direction",
+          "detail": "Larger fragments are higher, smaller lower; electrophoresis downward; read band sequence bottom-to-top.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged template sequence and full gel read. Lane order differs from prose tube order and is retained. Sequence reversal is a direct reading of the displayed base column, not an added biological rule.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sequencing electrophoresis examples",
+      "topics": [
+        "Sequencing electrophoresis examples"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p16-sequencing-direction",
+          "label": "Sequencing gel direction and strand columns",
+          "detail": "Page explicitly distinguishes bottom-up synthesized-DNA reading and separately printed original sequence; strand ends are marked.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size image plus enlarged crop of the right sequence columns checked. Left first-seven calls transcribed; right printed 27-base columns preserved with orientations.",
+      "uncertainties": [
+        {
+          "id": "techniques-p16-u1",
+          "description": "The shorthand top-to-bottom=template statement does not explicitly say to use the separately printed complementary Original seq. column rather than merely reversing band calls. Do not score template sequence by reversing lane calls without specifying strand and 5′/3′ orientation.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ddGTP extension example",
+      "topics": [
+        "ddGTP extension example"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p17-ddgtp-example",
+          "label": "Low-concentration ddGTP gives varied terminated products",
+          "detail": "A reaction with all four dNTPs and low ddGTP yields different-length G-terminated products in the illustration.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram checked; input and all three product strings retained exactly as printed. They are not silently reconciled with page 19.",
+      "uncertainties": [
+        {
+          "id": "techniques-p17-u1",
+          "description": "Page 19 repeats the same displayed template but its longer printed products use …AGTTCTCG… rather than this page’s …AGTTCTTG…. Exact example-sequence answers are blocked pending source resolution.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Parallel dideoxy reaction mixtures",
+      "topics": [
+        "Parallel dideoxy reaction mixtures"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p18-sanger-concentrations",
+          "label": "Sanger reaction figure concentrations and separation",
+          "detail": "Figure labels dNTPs 100 μM and each ddNTP 1 μM, in four parallel branches, followed by denaturation/electrophoresis.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image reviewed. All concentration units and four-branch structure preserved; branches are parallel, not a sequence.",
+      "uncertainties": [
+        {
+          "id": "techniques-p18-u1",
+          "description": "The dNTP 100 μM caption does not define total versus per-nucleotide concentration. Do not score a more specific interpretation.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA sequencing: Sanger dideoxy method with labeled primer",
+      "topics": [
+        "DNA sequencing: Sanger dideoxy method with labeled primer"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p19-sanger-labeled-primer",
+          "label": "Sanger labeled primer and autoradiogram",
+          "detail": "32P-labeled primer is extended using low ddGTP; figure shows labeled G-terminated products and dense gel.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size source checked. Product sequences differ from page 17 as recorded. Dense gel lane labels retained; no invented full base-call transcription.",
+      "uncertainties": [
+        {
+          "id": "techniques-p19-u1",
+          "description": "Longer product strings disagree with page 17 despite the same displayed template. Preserve both and block exact example-sequence assessment.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "techniques-p19-u2",
+          "description": "The autoradiogram has dense, partly merged bands and no complete supplied read. An exact full sequence cannot be recovered reliably from this raster and is not assessable.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Automated DNA sequencing",
+      "topics": [
+        "Automated DNA sequencing"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p20-automated-sequencing",
+          "label": "Automated sequencing source description",
+          "detail": "Four fluorescent primers permit simultaneous detection of four reactions in one sample, as stated by the slide.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size chromatogram inspected. Peak colors, initial ambiguous N calls, individual letters and position numbering are visible; exact whole-read transcription is deferred because the source raster has closely spaced, partly ambiguous characters.",
+      "uncertainties": [
+        {
+          "id": "techniques-p20-u1",
+          "description": "Exact complete chromatogram base calls and a color-to-base mapping cannot be established reliably from the provided raster/absent legend. Do not score a full sequence or an inferred color key.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction fragment length polymorphism",
+      "topics": [
+        "Restriction fragment length polymorphism"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p21-rflp-principle",
+          "label": "RFLP digestion and separation",
+          "detail": "Restriction enzymes create DNA fragments, then electrophoresis separates them by length.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RFLP and genetic polymorphism",
+      "topics": [
+        "RFLP and genetic polymorphism"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p22-polymorphism",
+          "label": "Genetic polymorphism and RFLP variation",
+          "detail": "Source defines inherited differences present in over 1% of normal population; RFLP studies within/between-species sequence variation.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p22-rflp-history",
+          "label": "RFLP historical attribution in source",
+          "detail": "Alec Jeffreys, 1984, hereditary-disease research, as stated in lecture.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction enzymes",
+      "topics": [
+        "Restriction enzymes"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p23-restriction-protection",
+          "label": "Restriction endonucleases and bacterial self-protection",
+          "detail": "Bacterial enzymes cut within DNA and degrade incoming viral DNA; source attributes host-sequence protection to A/C methylation.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction enzymes cut at specific sequences",
+      "topics": [
+        "Restriction enzymes cut at specific sequences"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p24-ecori",
+          "label": "EcoRI cleavage versus methylation protection",
+          "detail": "EcoRI cuts unmethylated GAATTC to sticky ends; methylase-treated recognition site resists cleavage in the figure.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both panels checked at full readable resolution from contact sheet. Sequence orientation, cut positions, sticky-end label, methylase and no-cleavage statement preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Palindromes, sticky ends and blunt ends",
+      "topics": [
+        "Palindromes, sticky ends and blunt ends"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p25-restriction-ends",
+          "label": "Palindromic cleavage and end types",
+          "detail": "Restriction enzymes cut both strands at symmetric sites; BamHI/EcoRI/HindIII/PstI sticky and HaeIII/SmaI blunt in table.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        },
+        {
+          "id": "techniques-p25-restriction-sequences",
+          "label": "Restriction enzyme sequence/cut table",
+          "detail": "All six recognition sequences, strand cut positions and products preserved in Markdown.",
+          "priority": "supporting",
+          "rationale": "Source detail or illustrative example retained for comprehensive coverage; lower assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size screenshot table enlarged and inspected. All six rows reconstructed, including offset PstI cuts and centrally aligned HaeIII/SmaI cuts. Table facts preserved even though exact-site memorization has lower priority than end-type relationships.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sickle-cell anemia and MstII protocol",
+      "topics": [
+        "Sickle-cell anemia and MstII protocol"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p26-sickle-mstii",
+          "label": "MstII distinguishes beta-globin alleles",
+          "detail": "Source shows A→T change CCTGAGG→CCTGTGG; MstII motif CCTNAGG cuts normal allele; digest/electrophoresis/Southern probe protocol.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Exact allele letters, substituted base and CCTNAGG recognition motif checked; chronological arrows are explicit in protocol.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RFLP / MstII test for sickle-cell anemia",
+      "topics": [
+        "RFLP / MstII test for sickle-cell anemia"
+      ],
+      "concepts": [
+        {
+          "id": "techniques-p27-rflp-band-pattern",
+          "label": "Sickle-cell RFLP genotype-to-band relationship",
+          "detail": "AA two small bands; SS one large band; AS all three; diagram illustrates repeated heterozygote lanes.",
+          "priority": "core",
+          "rationale": "Core relationship, mechanism, or comparison explicitly taught on this page."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size gel/pedigree and gene cartoons checked. Genotypes and five lane patterns retained; no unique-answer constraint imposed on repeated equivalent AS lanes.",
+      "uncertainties": []
+    }
+  ],
+  "reviewNotes": [
+    "27/27 PDF pages reviewed visually. Image-heavy pages 9-12, 15-20, 25 and 27 additionally inspected at full size; sequence columns on 15/16 enlarged for transcription.",
+    "PDF page 1 is a cover. Pages 2-27 are teaching; none are administrative or empty. No printed slide numbers visible.",
+    "PCR reagents/conditions, primer design, two-step RT-PCR, Sanger mechanisms/reaction mixtures, restriction enzyme table and sickle-cell RFLP bands are preserved.",
+    "Exact handwritten/printed source calculation on 7 and sequence mismatch 17/19 are flagged. Dense autoradiogram/chromatogram exact base calls remain blocked; their method labels and readable sequence examples are retained.",
+    "All six screenshot-table rows on 25 transcribed, with both strand cut positions and end types. No outside biology facts used."
+  ]
+}

@@ -1,0 +1,1300 @@
+{
+  "lectureId": "genes-and-chromosomes",
+  "title": "Genes and Chromosomes",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Molecular Biology & Genetics",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only title page.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Molecular Biology course outline",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Outline and book-cover images; no additional teaching diagram.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Genetics course outline",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Outline and textbook-cover image.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA and the nucleotide",
+      "topics": [
+        "DNA and genetic instructions",
+        "Nucleotide building block",
+        "Nucleoside versus nucleotide",
+        "Nucleotide sugar attachment positions"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-dna-role",
+          "label": "DNA and genetic instructions",
+          "detail": "DNA carries genetic instructions for development, functioning and reproduction of nearly all living organisms.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-nucleotide-building-block",
+          "label": "Nucleotide building block",
+          "detail": "The building block of DNA is the nucleotide, composed in the figure of phosphate, sugar and nitrogenous base.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-nucleoside-versus-nucleotide",
+          "label": "Nucleoside versus nucleotide",
+          "detail": "Sugar plus base is enclosed as nucleoside; adding the phosphate is enclosed as nucleotide.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-sugar-attachment-positions",
+          "label": "Nucleotide sugar attachment positions",
+          "detail": "Figure labels sugar positions 1′-5′, base attachment at 1′ and phosphate at 5′.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram labels: phosphate, sugar, nitrogenous base, nucleoside, nucleotide. The sugar and nitrogenous base together are enclosed as a nucleoside; the larger boundary includes phosphate and is labeled nucleotide. Sugar positions are numbered 1', 2', 3', 4', 5'; the nitrogenous base attaches at 1' and the phosphate is drawn at 5'.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Common nucleotide structure and pentoses",
+      "topics": [
+        "AMP as an RNA nucleotide",
+        "Ribose versus 2-deoxyribose"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-amp-structure",
+          "label": "AMP as an RNA nucleotide",
+          "detail": "Adenosine 5′-monophosphate contains adenine, ribose and phosphate.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-ribose-deoxyribose",
+          "label": "Ribose versus 2-deoxyribose",
+          "detail": "Ribose has 2′-OH and 2-deoxyribose has 2′-H; both structures show 3′-OH.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The pentose comparison is labeled **Ribose** and **2-Deoxyribose**. Both structures show numbered 1'-5' positions; ribose has the highlighted 2'-OH, while 2-deoxyribose has highlighted 2'-H. The 3'-OH is shown in both structures. The AMP drawing labels adenine, phosphate, ribose, and adenosine 5'-monophosphate (AMP).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nitrogenous bases",
+      "topics": [
+        "Purines and pyrimidines",
+        "DNA versus RNA base inventory",
+        "Base-sugar attachment atoms",
+        "Base ring structures in figure"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-base-classes",
+          "label": "Purines and pyrimidines",
+          "detail": "Purines are adenine and guanine; pyrimidines are uracil, thymine and cytosine.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-dna-rna-bases",
+          "label": "DNA versus RNA base inventory",
+          "detail": "DNA contains A,G,T,C; RNA contains A,G,U,C.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-base-sugar-bond",
+          "label": "Base-sugar attachment atoms",
+          "detail": "Purine N9 and pyrimidine N1 bond to sugar C1.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-base-ring-structures",
+          "label": "Base ring structures in figure",
+          "detail": "Purines have two fused rings, pyrimidines one ring; thymine shows a CH3 substituent.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Five chemical structures are shown with numbered ring positions and the sugar-attachment nitrogen highlighted. The purines have two fused rings; the pyrimidines have one ring. Thymine has the drawn CH3 substituent; the source displays the individual amino/carbonyl groups in the structures. No additional reaction or tautomeric rule is supplied on this page.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Levels of DNA structure",
+      "topics": [
+        "Primary DNA structure",
+        "Secondary DNA structure",
+        "Tertiary DNA structure"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-primary-dna-structure",
+          "label": "Primary DNA structure",
+          "detail": "Primary structure is nucleotide sequence linked by phosphodiester bonds.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-secondary-dna-structure",
+          "label": "Secondary DNA structure",
+          "detail": "Secondary structure is the double-stranded helix.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-tertiary-dna-structure",
+          "label": "Tertiary DNA structure",
+          "detail": "Tertiary structure is DNA packing/folding.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only definitions; phosphodiester bond is emphasized.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phosphodiester linkage and polarity",
+      "topics": [
+        "Phosphodiester-linked backbone",
+        "DNA chain polarity and writing direction"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-phosphodiester-backbone",
+          "label": "Phosphodiester-linked backbone",
+          "detail": "Nucleotide subunits are joined by phosphodiester bonds in the sugar-phosphate backbone.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-dna-polarity",
+          "label": "DNA chain polarity and writing direction",
+          "detail": "The displayed chain is 5′-CAG-3′, written 5′→3′; 5′ end bears phosphate and 3′ end sugar hydroxyl.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The vertical structural diagram runs from the labeled 5' end above C to the labeled 3' end below G. Brackets mark the phosphodiester bonds in the sugar-phosphate backbone. C, A, and G label the successive bases; the bottom 3'-OH is highlighted.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Complementary antiparallel DNA strands",
+      "topics": [
+        "Complementary antiparallel strands",
+        "DNA helix stabilization",
+        "Hydrogen bonds shown in base pairs"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-complementary-antiparallel-strands",
+          "label": "Complementary antiparallel strands",
+          "detail": "Native DNA contains complementary antiparallel chains paired A-T or G-C.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-helix-stabilization",
+          "label": "DNA helix stabilization",
+          "detail": "Hydrogen bonds between complementary bases and hydrophobic interactions of planar/stacked adjacent bases stabilize the helix.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-base-pair-hydrogen-bonds",
+          "label": "Hydrogen bonds shown in base pairs",
+          "detail": "The figure depicts two hydrogen bonds for A-T and three for G-C.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Structural diagram shows opposite 3'/5' orientations of the two strands, sugar-phosphate backbones at the sides, and paired bases between them. The depicted A-T pair has two dotted hydrogen bonds and G-C has three. The paired order in the displayed segment is T-A, G-C, A-T, C-G from top to bottom on the left/right sides.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Watson and Crick double-helix model",
+      "topics": [
+        "Watson-Crick twisted-ladder model",
+        "Base pairing in the ladder model"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-watson-crick-model",
+          "label": "Watson-Crick twisted-ladder model",
+          "detail": "The model depicts a double helix with sugar-phosphate ladder legs and paired nitrogenous-base rungs.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-model-base-pairs",
+          "label": "Base pairing in the ladder model",
+          "detail": "A pairs with T and G with C at the center, held by hydrogen bonds.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Ladder legs = phosphate and sugar backbone. Ladder rungs/steps = nitrogenous bases. An arrow connects the flat ladder drawing to the twisted helix; a historical photograph shows a molecular model with Watson and Crick.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA helix forms",
+      "topics": [
+        "B-DNA form",
+        "B/A/Z helix comparison",
+        "Helix-axis coiling and supercoiling",
+        "B-DNA figure size marker"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-b-dna-form",
+          "label": "B-DNA form",
+          "detail": "The source describes B-DNA as the most stable form and a right-handed helix.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-helix-form-comparison",
+          "label": "B/A/Z helix comparison",
+          "detail": "Table gives B right-handed 10.5 bp/turn, A right-handed 10 bp/turn, Z left-handed 12 bp/turn.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-helix-axis-supercoiling",
+          "label": "Helix-axis coiling and supercoiling",
+          "detail": "Further coiling of the double-helix axis upon itself produces DNA supercoiling.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-b-dna-size-marker",
+          "label": "B-DNA figure size marker",
+          "detail": "A vertical marker beside B-DNA is labeled 3.6 nm.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Space-filling models labeled (a) B DNA, (b) A DNA, (c) Z DNA; arrows show the helix course. A vertical marker beside B DNA reads 3.6 nm. Values are preserved as the slide gives them; no external helix parameters have been substituted.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reversible DNA denaturation and renaturation",
+      "topics": [
+        "Reversible strand separation",
+        "Conditions affecting denaturation",
+        "Renaturation conditions and complementarity",
+        "DNA 260 nm absorption"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-denaturation-renaturation",
+          "label": "Reversible strand separation",
+          "detail": "DNA denaturation/melting is unwinding and separation of the double strand; renaturation reverses separation under suitable conditions.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-denaturation-conditions",
+          "label": "Conditions affecting denaturation",
+          "detail": "Extent depends on time, DNA concentration and ionic content; figure lists formamide, urea, heat and OH− with break-H-bond annotation.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-renaturation-complementarity",
+          "label": "Renaturation conditions and complementarity",
+          "detail": "Figure specifies lower temperature and increased ion concentration, and says only complementary strands renature.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-dna-uv-absorbance",
+          "label": "DNA 260 nm absorption",
+          "detail": "Denaturation changes absorption of 260 nm UV, used for measuring DNA concentration.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Native paired strands -> single-stranded denatured state -> renatured state. The denaturation arrow lists formamide, urea, heat, OH− and \"Break H-bonds.\" Renaturation requires special conditions: lower temperature and increased ion concentration. Only complementary strands renature. Strand ends are labeled 3' and 5' throughout.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Denaturation curve and melting temperature",
+      "topics": [
+        "DNA melting temperature",
+        "GC content and Tm",
+        "Reading the illustrative denaturation curve"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-melting-temperature",
+          "label": "DNA melting temperature",
+          "detail": "Tm is the temperature where half the bases of a double-stranded DNA sample have denatured.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-gc-tm-relationship",
+          "label": "GC content and Tm",
+          "detail": "GC-rich DNA has higher Tm; the slide attributes this to three hydrogen bonds to break.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-denaturation-curve",
+          "label": "Reading the illustrative denaturation curve",
+          "detail": "The 260 nm absorption curve rises steeply for double-stranded DNA; Tm is illustrated between 80 and 85°C but no exact value is printed.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph axes: temperature (°C), ticks 75, 80, 85, 90; absorption of 260-nm light, ticks 0.5, 0.75, 1.0. The single-stranded DNA curve is higher and rises gradually; double-stranded DNA shows a steep transition. Dashed lines meet the double-stranded curve at approximately absorption 0.75 and the marked Tm between 80 and 85 °C. This is an illustrative curve; an exact numerical Tm is not printed and is not inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Applications of denaturation and renaturation",
+      "topics": [
+        "Denaturation/renaturation applications"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-hybridization-pcr-basis",
+          "label": "Denaturation/renaturation applications",
+          "detail": "DNA denaturation and renaturation underlie nucleic-acid hybridization and PCR.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only application statement.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryotic versus eukaryotic DNA",
+      "topics": [
+        "Prokaryotic/eukaryotic DNA location and shape",
+        "Prokaryotic/eukaryotic DNA packaging",
+        "Plasmids in the source comparison",
+        "Comparative genome size"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-prok-euk-location-shape",
+          "label": "Prokaryotic/eukaryotic DNA location and shape",
+          "detail": "Table contrasts nucleoid/cytoplasm and typically one circular chromosome with a membrane-bound nucleus and multiple linear chromosomes.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-prok-euk-packaging",
+          "label": "Prokaryotic/eukaryotic DNA packaging",
+          "detail": "Source contrasts naked DNA without histones with histone-associated chromatin.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-plasmid-comparison",
+          "label": "Plasmids in the source comparison",
+          "detail": "Table says prokaryotes often have extrachromosomal plasmids and eukaryotes lack plasmids, while organelles may have chromosomes.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        },
+        {
+          "id": "genes-and-chromosomes-genome-size-comparison",
+          "label": "Comparative genome size",
+          "detail": "Source table describes prokaryotic genomes as smaller/compact and eukaryotic genomes as larger/complex.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The complete five-row comparison table is reconstructed; its generalizations and awkward wording are retained as slide claims.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA in viruses",
+      "topics": [
+        "Viral DNA packaging",
+        "T2 lysis figure"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-viral-dna-packaging",
+          "label": "Viral DNA packaging",
+          "detail": "DNA is much longer than the viral package; undamaged T2 packages its single linear DNA in the phage head.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-t2-lysis-figure",
+          "label": "T2 lysis figure",
+          "detail": "T2 lysed in distilled water permits DNA to spread on water around the protein coat; micrograph scale bar 0.5 μm.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph shows DNA extending from the phage particle; scale bar 0.5 µm.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA in bacteria",
+      "topics": [
+        "Bacterial chromosome and plasmids"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-bacterial-chromosome-plasmids",
+          "label": "Bacterial chromosome and plasmids",
+          "detail": "E. coli is shown with one large circular DNA in the nucleoid plus plasmids; lysed-cell micrograph shows spread DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph shows a central lysed cell and spread DNA; small separate structures are indicated by arrows, without additional textual labels.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u17-comparison",
+          "description": "\"E. coli 100> DNA virus\" does not specify the measured property or a clear comparison syntax. Preserve this phrase; do not score a numerical bacterial-versus-viral DNA comparison from it.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli chromosome versus cell length",
+      "topics": [
+        "E. coli chromosome/cell scale"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-ecoli-dna-cell-scale",
+          "label": "E. coli chromosome/cell scale",
+          "detail": "Source compares chromosome length 1.7 mm with cell length 2 μm.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A long outline labeled E. coli DNA is shown beside a tiny marker labeled E. coli, illustrating the size difference.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic DNA packing scale",
+      "topics": [
+        "Human DNA packing requirement"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-human-dna-packing",
+          "label": "Human DNA packing requirement",
+          "detail": "Source gives 46 chromosomes per somatic cell and 2 m of DNA end-to-end; nuclear-diameter and body-total claims are flagged separately.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "One chromosome micrograph and a spread of chromosomes illustrate the packing discussion.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u19-nucleus-unit",
+          "description": "The source prints a nucleus diameter of **0.006 nm**. The unit/value needs verification; it is preserved without conversion or correction and must not be assessed. The cell-count and DNA-length numbers print 13 below the 10 baseline; their intended exponent formatting also needs clarification and is not silently repaired. The sun-distance analogy is retained as a source illustration, not independently verified.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mitochondrial DNA",
+      "topics": [
+        "Human mitochondrial DNA copies and size",
+        "Mitochondrial products and local ribosomes",
+        "Mitochondrial versus nuclear codes",
+        "Human mtDNA map and strand orientation"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-mtdna-copy-size",
+          "label": "Human mitochondrial DNA copies and size",
+          "detail": "Source gives 2-10 mtDNA copies per mitochondrion and human mtDNA size 16,569 bp; size/coding capacity vary among organisms.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-mtdna-products-ribosomes",
+          "label": "Mitochondrial products and local ribosomes",
+          "detail": "mtDNA encodes electron-transport/ATP-synthesis proteins; products are not exported and are synthesized on mitochondrial ribosomes, which resemble bacterial ribosomes in structure and drug sensitivity/resistance.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-mitochondrial-genetic-code",
+          "label": "Mitochondrial versus nuclear codes",
+          "detail": "Source states mitochondrial genetic codes differ from nuclear codes.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-mtdna-map-strands",
+          "label": "Human mtDNA map and strand orientation",
+          "detail": "Map labels L strand inner/counterclockwise and H strand outer/transcription clockwise, with rRNA/protein and amino-acid labels preserved in Markdown.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Circular **Human mtDNA** map. L strand = inner, counterclockwise; H strand = outer, transcription clockwise. Protein/rRNA labels around the map: small ribosomal RNA, large ribosomal RNA, ND1, ND2, cytochrome c oxidase 1, cytochrome c oxidase 2, ATPase subunit 8, ATPase subunit 6, cytochrome c oxidase 3, ND3, ND4L, ND4, ND5, ND6, cytochrome b. Other labels: Phe, Val, Leu, Ile, Gln, f-Met, Ala, Asn, Cys, Tyr, Trp, Ser, Asp, Lys, Gly, Arg, His, Ser, Leu, Glu, Pro, Thr. Repeated amino-acid labels are preserved; no extra functions or exact gene coordinates are inferred.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u20-mtdna-generality",
+          "description": "The broad claims \"lacks ... noncoding regions\" and \"divides each time ... before cell division\" are stated without qualification or a mechanism. Preserve the wording; assessment of these absolute claims is held for source clarification rather than expanding them from outside knowledge.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gene definitions",
+      "topics": [
+        "Earlier phenotype-based gene definition",
+        "One-gene hypotheses",
+        "Modern biochemical gene definition"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-gene-phenotype-definition",
+          "label": "Earlier phenotype-based gene definition",
+          "detail": "Gene is described as a chromosome portion determining a specific character/phenotype/visible property.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        },
+        {
+          "id": "genes-and-chromosomes-one-gene-polypeptide",
+          "label": "One-gene hypotheses",
+          "detail": "The slide progresses from one gene-one enzyme to one gene-one polypeptide.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-modern-gene-definition",
+          "label": "Modern biochemical gene definition",
+          "detail": "All DNA encoding the primary sequence of a final gene product, a polypeptide or RNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only progression of definitions; the modern biochemical definition is emphasized.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genome size and gene counts",
+      "topics": [
+        "E. coli source DNA/gene inventory",
+        "Human DNA/gene comparison with scope uncertainty"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-ecoli-gene-inventory",
+          "label": "E. coli source DNA/gene inventory",
+          "detail": "Source gives 4.6 million bp encoding 4,300 genes for E. coli.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        },
+        {
+          "id": "genes-and-chromosomes-human-gene-count-scope",
+          "label": "Human DNA/gene comparison with scope uncertainty",
+          "detail": "Slide lists 3.2 billion bp and around 21,000 genes under a single-chromosome heading; the scope is unresolved and blocked as specified in uncertainty log.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text comparison only.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u22-count-scope",
+          "description": "The heading says \"single chromosome,\" whereas the human number is presented without an explicit chromosome/genome qualifier on this page. Do not author a question asserting 21,000 genes on one human chromosome. Preserve the human comparison with its unresolved scope.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Introns and exons",
+      "topics": [
+        "Introns versus exons",
+        "Ovalbumin intron/exon example",
+        "Hemoglobin beta-subunit segment lengths"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-introns-exons",
+          "label": "Introns versus exons",
+          "detail": "Introns are intervening/nontranslated DNA segments; exons persist in final mRNA rather than being spliced from transcribed RNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-ovalbumin-intron-organization",
+          "label": "Ovalbumin intron/exon example",
+          "detail": "Source shows seven introns A-G and exons L plus 1-7; introns constitute 85% of the gene.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-hemoglobin-intron-exon-lengths",
+          "label": "Hemoglobin beta-subunit segment lengths",
+          "detail": "Figure gives exon 1 = 90 bp, intron A = 131 bp, exon 2 = 222 bp, intron B = 851 bp, exon 3 = 126 bp.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Pink = exon; gray = intron. Ovalbumin order: exon L, intron A, exon 1, intron B, exon 2, intron C, exon 3, intron D, exon 4, intron E, exon 5, intron F, exon 6, intron G, exon 7. Hemoglobin β-subunit order/lengths: exon 1, **90 bp**; intron A, **131 bp**; exon 2, **222 bp**; intron B, **851 bp**; exon 3, **126 bp**. No sizes for individual ovalbumin segments are printed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human genome sequence types",
+      "topics": [
+        "SINE/LINE/SSR comparison",
+        "Human-genome sequence chart"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-sine-line-ssr",
+          "label": "SINE/LINE/SSR comparison",
+          "detail": "SINE 100-300 bp; LINE 6-8 kbp and genes catalyzing transposition; SSR <10 bp repeated millions of times per cell.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-genome-sequence-pie",
+          "label": "Human-genome sequence chart",
+          "detail": "Chart labels 45% transposons,30% genes, 25% miscellaneous; inner labels and unresolved partition arithmetic are preserved in Markdown and uncertainty log.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete pie-chart transcription:\n\n| Outer grouping | Inner label/percentage shown |\n| --- | --- |\n| 45% Transposons | 21% LINEs; 13% SINEs; 8% Retroviruslike |\n| 30% Genes | 1.5% Exons; 28.5% Introns and noncoding segments |\n| 25% Miscellaneous | 3% SSR; 5% SD; 17% ? |",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u24-chart",
+          "description": "Displayed transposon subcategories total 42%, while the outer grouping says 45%; no missing category is labeled. \"SD\" is not expanded, and \"17% ?\" is explicitly unidentified. Preserve all labels; do not invent the missing percentage/category or assess an exhaustive percentage partition.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Centromeres and telomeres",
+      "topics": [
+        "Centromere function",
+        "Telomere function",
+        "Chromosome body labels"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-centromere-role",
+          "label": "Centromere function",
+          "detail": "Centromere is a sequence used as an attachment point during mitosis; source describes it as A=T-rich.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-telomere-role",
+          "label": "Telomere function",
+          "detail": "Telomere sequences occur at chromosome ends and help stabilize the chromosome.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-chromosome-body-sequences",
+          "label": "Chromosome body labels",
+          "detail": "Figure labels unique sequences/genes, dispersed repeats and multiple replication origins between ends.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Linear chromosome diagram labels telomere at each end and centromere internally. The intervening body is labeled \"Unique sequences (genes), dispersed repeats, and multiple replication origins.\"",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA supercoiling and relaxed DNA",
+      "topics": [
+        "Supercoiled versus relaxed DNA"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-supercoil-versus-relaxed",
+          "label": "Supercoiled versus relaxed DNA",
+          "detail": "Coiling the DNA double-helix axis on itself forms a superhelix/supercoil; relaxed DNA has no net bending of that axis upon itself.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels DNA double helix (coil), axis, DNA supercoil. A closed circular DNA representation is transformed into a coiled loop, distinguishing the double-helix coil from its axis supercoil.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Coiling of a coil",
+      "topics": [
+        "Supercoiling analogy"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-coiling-of-coil-analogy",
+          "label": "Supercoiling analogy",
+          "detail": "A telephone cord illustrates a regular coil further winding into a supercoil: coiling of a coil.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Telephone cord analogy: the regular cord is labeled coil; the further winding of that cord is labeled supercoil. This is an analogy, not an additional molecular structure.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Unwinding induces supercoiling",
+      "topics": [
+        "Unwinding induces supercoiling"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-unwinding-supercoiling",
+          "label": "Unwinding induces supercoiling",
+          "detail": "Separating strands of a helical structure induces supercoiling; the source connects this with replication, transcription and protein binding.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Hands hold a two-stranded twisted cord. Opening the strands at one end is accompanied by supercoils in the remaining twisted portion; the figure illustrates the coupling, without extra numeric rules.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Linking number",
+      "topics": [
+        "Linking number definition",
+        "Changing linking number"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-linking-number",
+          "label": "Linking number definition",
+          "detail": "Lk is the number of times the second strand pierces/penetrates the surface; figure compares Lk 1 and Lk 6.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-changing-linking-number",
+          "label": "Changing linking number",
+          "detail": "Source says changing Lk requires breaking one strand and uses Lk changes to describe supercoiling numerically.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two closed-strand/ribbon illustrations are labeled **Lk = 1** and **Lk = 6**, showing different interlinking counts. The page does not provide a formula relating Lk to other topological quantities.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Negative and positive supercoils",
+      "topics": [
+        "Negative versus positive supercoils",
+        "Negative supercoiling and opening DNA",
+        "Linking-number change figure"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-negative-positive-supercoiling",
+          "label": "Negative versus positive supercoils",
+          "detail": "Negative supercoiling is naturally prevalent and is called underwinding/left-handed; positive is overwinding/right-handed in this comparison.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-supercoiling-replication",
+          "label": "Negative supercoiling and opening DNA",
+          "detail": "Source says negatively supercoiled DNA is easier to open for replication, whereas positive supercoiling is more condensed.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-linking-number-change-example",
+          "label": "Linking-number change figure",
+          "detail": "Relaxed Lk 200 branches to negative Lk 198,deltaLk−2, and positive Lk 202, delta Lk +2; illustrated coils are mirror images.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Relaxed DNA **Lk = 200** branches to negative supercoils **Lk = 198**, **ΔLk = −2**, underwinding; and positive supercoils **Lk = 202**, **ΔLk = +2**, overwinding. The two drawn supercoils are labeled mirror images. The handedness labels here describe the source's supercoiling comparison and must not be confused with its B/A/Z double-helix comparison on page 11.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Topoisomers and topoisomerases",
+      "topics": [
+        "Topoisomer definition",
+        "Topoisomerase role",
+        "Topoisomerase classes"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-topoisomers",
+          "label": "Topoisomer definition",
+          "detail": "DNAs differing only in linking number are topoisomers.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-topoisomerase-role",
+          "label": "Topoisomerase role",
+          "detail": "Topoisomerases underwind/relax DNA and control cellular supercoiling; local melting permits replication/transcription enzymes to copy DNA or synthesize RNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-topoisomerase-classes",
+          "label": "Topoisomerase classes",
+          "detail": "Source lists type 1 and type 2 topoisomerases and identifies E. coli DNA gyrase with type 2.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only slide. The statement about Lk increments comes from the PDF text layer but is not visibly readable in the rendered slide.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u31-hidden-text",
+          "description": "The extracted text contains \"catalyze changes in Lk in increments of 1 or 2,\" while the rendered sentence visibly ends at \"topoisomerases=\". Retain this text-layer content distinctly; do not assess its numeric claim without visible-source confirmation.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Topoisomerase inhibitors",
+      "topics": [
+        "Bacterial gyrase inhibitors",
+        "Eukaryotic topoisomerase inhibitors"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-gyrase-inhibitors",
+          "label": "Bacterial gyrase inhibitors",
+          "detail": "Novobiocin and nalidixic acid inhibit DNA gyrase but not eukaryotic topoisomerases in the source comparison.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-eukaryotic-topoisomerase-inhibitors",
+          "label": "Eukaryotic topoisomerase inhibitors",
+          "detail": "Doxorubicin and etoposide are listed as eukaryotic topoisomerase inhibitors used in cancer chemotherapy.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only drug-target comparison. No additional targets, clinical recommendations, or mechanisms are supplied.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Plectonemic and solenoidal supercoiling",
+      "topics": [
+        "Plectonemic versus solenoidal supercoiling",
+        "Supercoil geometry in figure"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-plectonemic-solenoidal",
+          "label": "Plectonemic versus solenoidal supercoiling",
+          "detail": "Plectonemic/twisted-thread supercoils predominate in prokaryotes; eukaryotes have both, with solenoidal most effective for compaction.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-supercoil-geometry-compaction",
+          "label": "Supercoil geometry in figure",
+          "detail": "Figure labels plectonemic extended right-handed coils and solenoidal tight left-handed turns; solenoidal form compacts the same DNA more.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Plectonemic = extended right-handed coils; solenoidal = tight left-handed turns. Plectonemic supercoiling is annotated as providing insufficient cellular DNA compaction; the solenoidal illustration shows much greater compaction for the same DNA molecule.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beads on a string and core nucleosome",
+      "topics": [
+        "Nucleosome histone octamer",
+        "Nucleosome DNA and linker",
+        "Histone charge and DNA binding"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-histone-core-octamer",
+          "label": "Nucleosome histone octamer",
+          "detail": "Core nucleosome has two each of H2A, H2B, H3, H4, forming an octamer.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-nucleosome-dna-linker",
+          "label": "Nucleosome DNA and linker",
+          "detail": "146 bp wraps the octamer left-handed; the source calculation 200 − 146 = 54 bp labels linker DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-histone-electrostatic-binding",
+          "label": "Histone charge and DNA binding",
+          "detail": "Histones are rich in positive Arg/Lys, 20-30%, and bind DNA phosphodiester backbone mainly electrostatically.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Bead cores are labeled histone core of nucleosome; the exposed connecting DNA is labeled linker DNA of nucleosome.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleosome electron micrograph",
+      "topics": [
+        "Nucleosome micrograph"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-nucleosome-micrograph",
+          "label": "Nucleosome micrograph",
+          "detail": "Histone-DNA complexes appear as beads on a string; scale bar 50 nm.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Beads-on-a-string appearance along DNA; scale bar **50 nm**. No additional protein identities or counts are indicated.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleosome functions",
+      "topics": [
+        "Nucleosome compaction function",
+        "Nucleosome transcription regulation"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-nucleosome-compaction",
+          "label": "Nucleosome compaction function",
+          "detail": "Nucleosomes provide compaction needed for double-stranded DNA to fit in the nucleus.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-nucleosome-transcription-regulation",
+          "label": "Nucleosome transcription regulation",
+          "detail": "Nucleosomes limit unnecessary RNA-polymerase access to promoters; remodeling factors remove/reposition them when cellular requirements change.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only functional comparison; compaction and regulation of transcription are emphasized.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Minor-groove compression in nucleosomes",
+      "topics": [
+        "Minor-groove compression at histone core"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-minor-groove-compression",
+          "label": "Minor-groove compression at histone core",
+          "detail": "Tight wrapping requires minor-groove compression at A=T-rich points, described as easier to compress than G-C.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels DNA, histone core, and an enlarged region marked \"A=T pairs abundant\" at the compressed groove next to the core.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Condensed 30-nm chromatin",
+      "topics": [
+        "H1 at nucleosome entry/exit",
+        "Chromatin fiber models and scales"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-h1-clamp",
+          "label": "H1 at nucleosome entry/exit",
+          "detail": "Each nucleosome associates with one H1; the figure calls H1 a clamp near DNA entry/exit.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-chromatin-fiber-models",
+          "label": "Chromatin fiber models and scales",
+          "detail": "Source labels 10 nm nucleosome and 30 nm condensed fiber, and retains both solenoid and 30 nm zig-zag model labels.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Octameric histone core = two copies each of H2A, H2B, H3, H4. Individual nucleosome illustration is marked **10 nm**; condensed fiber is marked **30 nm**. H1 histone is drawn near DNA entry/exit and annotated \"Act as a clamp.\" Diagram labels also identify DNA and nucleosome. Both model labels are preserved without inferring a unique packing geometry.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Histone charge and modifications",
+      "topics": [
+        "Five histone types and charge",
+        "Histone modification residues"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-five-histone-types",
+          "label": "Five histone types and charge",
+          "detail": "H1, H2A, H2B, H3, H4 are rich in basic positive amino acids and interact with negative DNA phosphates.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-histone-modification-sites",
+          "label": "Histone modification residues",
+          "detail": "Slide lists lysine methylation, lysine acetylation and serine phosphorylation; collective charge-effect phrase is flagged separately.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two text bullets.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u39-charge",
+          "description": "The final charge phrase is attached collectively to three modification types without saying which result belongs to which modification. Do not infer or assess an identical charge effect for all three from this wording.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Histone acetylation and deacetylation",
+      "topics": [
+        "Histone tail acetylation and regulation",
+        "Histone acetylation and chromatin relaxation",
+        "Euchromatin versus heterochromatin"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-histone-tail-acetylation",
+          "label": "Histone tail acetylation and regulation",
+          "detail": "Histone acetylation/deacetylation occurs on N-terminal-tail lysines as part of gene regulation; HAT and HDAC are named.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-acetylation-chromatin-access",
+          "label": "Histone acetylation and chromatin relaxation",
+          "detail": "Source links acetylation with decreased histone-DNA interaction, relaxed chromatin and greater transcription; HDAC reverses relaxation, while exact chemical charge claims are flagged.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-euchromatin-heterochromatin",
+          "label": "Euchromatin versus heterochromatin",
+          "detail": "Relaxed transcriptionally active DNA is euchromatin; condensed tightly packed DNA is heterochromatin.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only mechanism and terminology; the relaxation/transcription relationship and chromatin names are emphasized.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u40-chemistry",
+          "description": "Preserve the slide's \"brings a −ve charge\" wording and its claim that CoA accepts the acetyl group in deacetylation. The slide supplies no reaction diagram resolving these chemical claims; hold assessment of those specific claims pending verification. The separately stated chromatin-relaxation/transcription relationship remains available for source-based study.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Orders of chromatin packing",
+      "topics": [
+        "Orders of chromatin packing",
+        "Chromatin packing model counts"
+      ],
+      "concepts": [
+        {
+          "id": "genes-and-chromosomes-chromatin-packing-hierarchy",
+          "label": "Orders of chromatin packing",
+          "detail": "Source hierarchy: DNA→beads-on-string→30 nm fiber→loop→rosette→coil→two chromatids/chromosome, with nuclear scaffold at rosette.",
+          "priority": "core",
+          "rationale": "Explicit definition, mechanism or comparison in the source; central to interpreting the surrounding lecture material."
+        },
+        {
+          "id": "genes-and-chromosomes-packing-model-numbers",
+          "label": "Chromatin packing model counts",
+          "detail": "Figure labels one loop ~75,000 bp, one rosette 6 loops, one coil 30 rosettes, two chromatids 10 coils each.",
+          "priority": "supporting",
+          "rationale": "Illustrative example, model count or inventory detail preserved for comprehensive source coverage; supporting assessment priority."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Hierarchy from the bottom of the figure upward:\n\n1. DNA.\n2. \"Beads-on-a-string\" form of chromatin.\n3. **30-nm fiber**.\n4. One loop, **~75,000 bp**.\n5. One rosette, **6 loops**, associated with the **nuclear scaffold**.\n6. One coil, **30 rosettes**.\n7. Two chromatids, **10 coils each**, forming the chromosome.\n\nThese are the labels of the model pictured on the slide; no additional packing factors or universal numerical claims are introduced.",
+      "uncertainties": []
+    }
+  ],
+  "reviewNotes": [
+    "41/41 PDF pages represented; cover 1 and administrative outlines 2-3 excluded from teaching assessment. Teaching pages 4-41.",
+    "All pages visually reviewed by primary extractor. Independent dense-page QA checked 20, 23, 24, 29, 31, 40, 41 against full-size rendered images.",
+    "This JSON is indexed from the completed faithful Markdown; original PDF remains sole teaching authority. No outside biology facts were used.",
+    "All 8 specific uncertainty IDs and descriptions preserved verbatim from Markdown. Claims affected by them remain blocked for assessment.",
+    "No printed slide numbers visible; only PDF-page locators are used. Concept priority reflects source-analysis judgment, not verified examination probability."
+  ]
+}

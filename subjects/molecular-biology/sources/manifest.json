@@ -2,7 +2,7 @@
   "subject": "Molecular Biology",
   "purpose": "Midterm",
   "total_pdf_pages": 191,
-  "pagination_note": "PDF page counts include covers and administrative pages. Teaching-page exclusions and printed slide-number mapping remain to be indexed.",
+  "pagination_note": "191 PDF pages: 183 teaching pages, 6 covers, 2 administrative pages. PDF pages are one-based; no printed slide numbers visible. See source-analysis/page-ledger.json.",
   "lectures": [
     {
       "id": "genes-and-chromosomes",
@@ -12,8 +12,8 @@
       "pdf_pages": 41,
       "sha256": "aa321cb0f93dbbcef7235b1ca922d0ee2022a3bc7427f0e55f75cfe3fa6382f5",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     },
     {
       "id": "dna-metabolism-1",
@@ -23,8 +23,8 @@
       "pdf_pages": 39,
       "sha256": "6aff94ada56f68c255707365043da784bab109a26ab993478402caa6ef9c5bea",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     },
     {
       "id": "dna-metabolism-2",
@@ -34,8 +34,8 @@
       "pdf_pages": 33,
       "sha256": "d6da66b6a1d988122af7cd328e4a2bcac95d3986deb579665ba7704478894ea7",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     },
     {
       "id": "rna-metabolism-1",
@@ -45,8 +45,8 @@
       "pdf_pages": 31,
       "sha256": "5bde7a74e2afd2d7776aa6543e986d85f97405ca1056abba31169b1a23876ead",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     },
     {
       "id": "rna-metabolism-2",
@@ -56,8 +56,8 @@
       "pdf_pages": 20,
       "sha256": "b04a9d1a39cde03cbd21b3be37e7fce8337634ed7d82fdf5876b2f04baf42e47",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     },
     {
       "id": "techniques",
@@ -67,8 +67,9 @@
       "pdf_pages": 27,
       "sha256": "a3599497cbdb34ba81abe420501e5a4d530c35be940298a22347c1107d64fff8",
       "scope": "All teaching content; exclude covers and administrative pages",
-      "extraction_status": "Not started",
-      "question_bank_status": "Not started"
+      "extraction_status": "Complete: faithful Markdown, visual review, page/concept index, and uncertainty register",
+      "question_bank_status": "Authoring in progress; not released"
     }
-  ]
+  ],
+  "source_analysis": "../source-analysis/INDEX.md"
 }

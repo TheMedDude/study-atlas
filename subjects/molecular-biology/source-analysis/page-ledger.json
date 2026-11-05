@@ -1,0 +1,3762 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "molecular-biology",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Molecular Biology & Genetics",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only title page.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Molecular Biology course outline",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Outline and book-cover images; no additional teaching diagram.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Genetics course outline",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Outline and textbook-cover image.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA and the nucleotide",
+      "topics": [
+        "DNA and genetic instructions",
+        "Nucleotide building block",
+        "Nucleoside versus nucleotide",
+        "Nucleotide sugar attachment positions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram labels: phosphate, sugar, nitrogenous base, nucleoside, nucleotide. The sugar and nitrogenous base together are enclosed as a nucleoside; the larger boundary includes phosphate and is labeled nucleotide. Sugar positions are numbered 1', 2', 3', 4', 5'; the nitrogenous base attaches at 1' and the phosphate is drawn at 5'.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-dna-role",
+        "genes-and-chromosomes-nucleotide-building-block",
+        "genes-and-chromosomes-nucleoside-versus-nucleotide",
+        "genes-and-chromosomes-sugar-attachment-positions"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Common nucleotide structure and pentoses",
+      "topics": [
+        "AMP as an RNA nucleotide",
+        "Ribose versus 2-deoxyribose"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The pentose comparison is labeled **Ribose** and **2-Deoxyribose**. Both structures show numbered 1'-5' positions; ribose has the highlighted 2'-OH, while 2-deoxyribose has highlighted 2'-H. The 3'-OH is shown in both structures. The AMP drawing labels adenine, phosphate, ribose, and adenosine 5'-monophosphate (AMP).",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-amp-structure",
+        "genes-and-chromosomes-ribose-deoxyribose"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nitrogenous bases",
+      "topics": [
+        "Purines and pyrimidines",
+        "DNA versus RNA base inventory",
+        "Base-sugar attachment atoms",
+        "Base ring structures in figure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Five chemical structures are shown with numbered ring positions and the sugar-attachment nitrogen highlighted. The purines have two fused rings; the pyrimidines have one ring. Thymine has the drawn CH3 substituent; the source displays the individual amino/carbonyl groups in the structures. No additional reaction or tautomeric rule is supplied on this page.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-base-classes",
+        "genes-and-chromosomes-dna-rna-bases",
+        "genes-and-chromosomes-base-sugar-bond",
+        "genes-and-chromosomes-base-ring-structures"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Levels of DNA structure",
+      "topics": [
+        "Primary DNA structure",
+        "Secondary DNA structure",
+        "Tertiary DNA structure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only definitions; phosphodiester bond is emphasized.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-primary-dna-structure",
+        "genes-and-chromosomes-secondary-dna-structure",
+        "genes-and-chromosomes-tertiary-dna-structure"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phosphodiester linkage and polarity",
+      "topics": [
+        "Phosphodiester-linked backbone",
+        "DNA chain polarity and writing direction"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The vertical structural diagram runs from the labeled 5' end above C to the labeled 3' end below G. Brackets mark the phosphodiester bonds in the sugar-phosphate backbone. C, A, and G label the successive bases; the bottom 3'-OH is highlighted.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-phosphodiester-backbone",
+        "genes-and-chromosomes-dna-polarity"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Complementary antiparallel DNA strands",
+      "topics": [
+        "Complementary antiparallel strands",
+        "DNA helix stabilization",
+        "Hydrogen bonds shown in base pairs"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Structural diagram shows opposite 3'/5' orientations of the two strands, sugar-phosphate backbones at the sides, and paired bases between them. The depicted A-T pair has two dotted hydrogen bonds and G-C has three. The paired order in the displayed segment is T-A, G-C, A-T, C-G from top to bottom on the left/right sides.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-complementary-antiparallel-strands",
+        "genes-and-chromosomes-helix-stabilization",
+        "genes-and-chromosomes-base-pair-hydrogen-bonds"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Watson and Crick double-helix model",
+      "topics": [
+        "Watson-Crick twisted-ladder model",
+        "Base pairing in the ladder model"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Ladder legs = phosphate and sugar backbone. Ladder rungs/steps = nitrogenous bases. An arrow connects the flat ladder drawing to the twisted helix; a historical photograph shows a molecular model with Watson and Crick.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-watson-crick-model",
+        "genes-and-chromosomes-model-base-pairs"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA helix forms",
+      "topics": [
+        "B-DNA form",
+        "B/A/Z helix comparison",
+        "Helix-axis coiling and supercoiling",
+        "B-DNA figure size marker"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Space-filling models labeled (a) B DNA, (b) A DNA, (c) Z DNA; arrows show the helix course. A vertical marker beside B DNA reads 3.6 nm. Values are preserved as the slide gives them; no external helix parameters have been substituted.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-b-dna-form",
+        "genes-and-chromosomes-helix-form-comparison",
+        "genes-and-chromosomes-helix-axis-supercoiling",
+        "genes-and-chromosomes-b-dna-size-marker"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reversible DNA denaturation and renaturation",
+      "topics": [
+        "Reversible strand separation",
+        "Conditions affecting denaturation",
+        "Renaturation conditions and complementarity",
+        "DNA 260 nm absorption"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Native paired strands -> single-stranded denatured state -> renatured state. The denaturation arrow lists formamide, urea, heat, OH− and \"Break H-bonds.\" Renaturation requires special conditions: lower temperature and increased ion concentration. Only complementary strands renature. Strand ends are labeled 3' and 5' throughout.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-denaturation-renaturation",
+        "genes-and-chromosomes-denaturation-conditions",
+        "genes-and-chromosomes-renaturation-complementarity",
+        "genes-and-chromosomes-dna-uv-absorbance"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Denaturation curve and melting temperature",
+      "topics": [
+        "DNA melting temperature",
+        "GC content and Tm",
+        "Reading the illustrative denaturation curve"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph axes: temperature (°C), ticks 75, 80, 85, 90; absorption of 260-nm light, ticks 0.5, 0.75, 1.0. The single-stranded DNA curve is higher and rises gradually; double-stranded DNA shows a steep transition. Dashed lines meet the double-stranded curve at approximately absorption 0.75 and the marked Tm between 80 and 85 °C. This is an illustrative curve; an exact numerical Tm is not printed and is not inferred.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-melting-temperature",
+        "genes-and-chromosomes-gc-tm-relationship",
+        "genes-and-chromosomes-denaturation-curve"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Applications of denaturation and renaturation",
+      "topics": [
+        "Denaturation/renaturation applications"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only application statement.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-hybridization-pcr-basis"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryotic versus eukaryotic DNA",
+      "topics": [
+        "Prokaryotic/eukaryotic DNA location and shape",
+        "Prokaryotic/eukaryotic DNA packaging",
+        "Plasmids in the source comparison",
+        "Comparative genome size"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The complete five-row comparison table is reconstructed; its generalizations and awkward wording are retained as slide claims.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-prok-euk-location-shape",
+        "genes-and-chromosomes-prok-euk-packaging",
+        "genes-and-chromosomes-plasmid-comparison",
+        "genes-and-chromosomes-genome-size-comparison"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA in viruses",
+      "topics": [
+        "Viral DNA packaging",
+        "T2 lysis figure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph shows DNA extending from the phage particle; scale bar 0.5 µm.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-viral-dna-packaging",
+        "genes-and-chromosomes-t2-lysis-figure"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA in bacteria",
+      "topics": [
+        "Bacterial chromosome and plasmids"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph shows a central lysed cell and spread DNA; small separate structures are indicated by arrows, without additional textual labels.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u17-comparison",
+          "description": "\"E. coli 100> DNA virus\" does not specify the measured property or a clear comparison syntax. Preserve this phrase; do not score a numerical bacterial-versus-viral DNA comparison from it.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-bacterial-chromosome-plasmids"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli chromosome versus cell length",
+      "topics": [
+        "E. coli chromosome/cell scale"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A long outline labeled E. coli DNA is shown beside a tiny marker labeled E. coli, illustrating the size difference.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-ecoli-dna-cell-scale"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic DNA packing scale",
+      "topics": [
+        "Human DNA packing requirement"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "One chromosome micrograph and a spread of chromosomes illustrate the packing discussion.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u19-nucleus-unit",
+          "description": "The source prints a nucleus diameter of **0.006 nm**. The unit/value needs verification; it is preserved without conversion or correction and must not be assessed. The cell-count and DNA-length numbers print 13 below the 10 baseline; their intended exponent formatting also needs clarification and is not silently repaired. The sun-distance analogy is retained as a source illustration, not independently verified.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-human-dna-packing"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mitochondrial DNA",
+      "topics": [
+        "Human mitochondrial DNA copies and size",
+        "Mitochondrial products and local ribosomes",
+        "Mitochondrial versus nuclear codes",
+        "Human mtDNA map and strand orientation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Circular **Human mtDNA** map. L strand = inner, counterclockwise; H strand = outer, transcription clockwise. Protein/rRNA labels around the map: small ribosomal RNA, large ribosomal RNA, ND1, ND2, cytochrome c oxidase 1, cytochrome c oxidase 2, ATPase subunit 8, ATPase subunit 6, cytochrome c oxidase 3, ND3, ND4L, ND4, ND5, ND6, cytochrome b. Other labels: Phe, Val, Leu, Ile, Gln, f-Met, Ala, Asn, Cys, Tyr, Trp, Ser, Asp, Lys, Gly, Arg, His, Ser, Leu, Glu, Pro, Thr. Repeated amino-acid labels are preserved; no extra functions or exact gene coordinates are inferred.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u20-mtdna-generality",
+          "description": "The broad claims \"lacks ... noncoding regions\" and \"divides each time ... before cell division\" are stated without qualification or a mechanism. Preserve the wording; assessment of these absolute claims is held for source clarification rather than expanding them from outside knowledge.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-mtdna-copy-size",
+        "genes-and-chromosomes-mtdna-products-ribosomes",
+        "genes-and-chromosomes-mitochondrial-genetic-code",
+        "genes-and-chromosomes-mtdna-map-strands"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gene definitions",
+      "topics": [
+        "Earlier phenotype-based gene definition",
+        "One-gene hypotheses",
+        "Modern biochemical gene definition"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only progression of definitions; the modern biochemical definition is emphasized.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-gene-phenotype-definition",
+        "genes-and-chromosomes-one-gene-polypeptide",
+        "genes-and-chromosomes-modern-gene-definition"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genome size and gene counts",
+      "topics": [
+        "E. coli source DNA/gene inventory",
+        "Human DNA/gene comparison with scope uncertainty"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text comparison only.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u22-count-scope",
+          "description": "The heading says \"single chromosome,\" whereas the human number is presented without an explicit chromosome/genome qualifier on this page. Do not author a question asserting 21,000 genes on one human chromosome. Preserve the human comparison with its unresolved scope.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-ecoli-gene-inventory",
+        "genes-and-chromosomes-human-gene-count-scope"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Introns and exons",
+      "topics": [
+        "Introns versus exons",
+        "Ovalbumin intron/exon example",
+        "Hemoglobin beta-subunit segment lengths"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Pink = exon; gray = intron. Ovalbumin order: exon L, intron A, exon 1, intron B, exon 2, intron C, exon 3, intron D, exon 4, intron E, exon 5, intron F, exon 6, intron G, exon 7. Hemoglobin β-subunit order/lengths: exon 1, **90 bp**; intron A, **131 bp**; exon 2, **222 bp**; intron B, **851 bp**; exon 3, **126 bp**. No sizes for individual ovalbumin segments are printed.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-introns-exons",
+        "genes-and-chromosomes-ovalbumin-intron-organization",
+        "genes-and-chromosomes-hemoglobin-intron-exon-lengths"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human genome sequence types",
+      "topics": [
+        "SINE/LINE/SSR comparison",
+        "Human-genome sequence chart"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete pie-chart transcription:\n\n| Outer grouping | Inner label/percentage shown |\n| --- | --- |\n| 45% Transposons | 21% LINEs; 13% SINEs; 8% Retroviruslike |\n| 30% Genes | 1.5% Exons; 28.5% Introns and noncoding segments |\n| 25% Miscellaneous | 3% SSR; 5% SD; 17% ? |",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u24-chart",
+          "description": "Displayed transposon subcategories total 42%, while the outer grouping says 45%; no missing category is labeled. \"SD\" is not expanded, and \"17% ?\" is explicitly unidentified. Preserve all labels; do not invent the missing percentage/category or assess an exhaustive percentage partition.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-sine-line-ssr",
+        "genes-and-chromosomes-genome-sequence-pie"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Centromeres and telomeres",
+      "topics": [
+        "Centromere function",
+        "Telomere function",
+        "Chromosome body labels"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Linear chromosome diagram labels telomere at each end and centromere internally. The intervening body is labeled \"Unique sequences (genes), dispersed repeats, and multiple replication origins.\"",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-centromere-role",
+        "genes-and-chromosomes-telomere-role",
+        "genes-and-chromosomes-chromosome-body-sequences"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA supercoiling and relaxed DNA",
+      "topics": [
+        "Supercoiled versus relaxed DNA"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels DNA double helix (coil), axis, DNA supercoil. A closed circular DNA representation is transformed into a coiled loop, distinguishing the double-helix coil from its axis supercoil.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-supercoil-versus-relaxed"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Coiling of a coil",
+      "topics": [
+        "Supercoiling analogy"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Telephone cord analogy: the regular cord is labeled coil; the further winding of that cord is labeled supercoil. This is an analogy, not an additional molecular structure.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-coiling-of-coil-analogy"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Unwinding induces supercoiling",
+      "topics": [
+        "Unwinding induces supercoiling"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Hands hold a two-stranded twisted cord. Opening the strands at one end is accompanied by supercoils in the remaining twisted portion; the figure illustrates the coupling, without extra numeric rules.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-unwinding-supercoiling"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Linking number",
+      "topics": [
+        "Linking number definition",
+        "Changing linking number"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two closed-strand/ribbon illustrations are labeled **Lk = 1** and **Lk = 6**, showing different interlinking counts. The page does not provide a formula relating Lk to other topological quantities.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-linking-number",
+        "genes-and-chromosomes-changing-linking-number"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Negative and positive supercoils",
+      "topics": [
+        "Negative versus positive supercoils",
+        "Negative supercoiling and opening DNA",
+        "Linking-number change figure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Relaxed DNA **Lk = 200** branches to negative supercoils **Lk = 198**, **ΔLk = −2**, underwinding; and positive supercoils **Lk = 202**, **ΔLk = +2**, overwinding. The two drawn supercoils are labeled mirror images. The handedness labels here describe the source's supercoiling comparison and must not be confused with its B/A/Z double-helix comparison on page 11.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-negative-positive-supercoiling",
+        "genes-and-chromosomes-supercoiling-replication",
+        "genes-and-chromosomes-linking-number-change-example"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Topoisomers and topoisomerases",
+      "topics": [
+        "Topoisomer definition",
+        "Topoisomerase role",
+        "Topoisomerase classes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only slide. The statement about Lk increments comes from the PDF text layer but is not visibly readable in the rendered slide.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u31-hidden-text",
+          "description": "The extracted text contains \"catalyze changes in Lk in increments of 1 or 2,\" while the rendered sentence visibly ends at \"topoisomerases=\". Retain this text-layer content distinctly; do not assess its numeric claim without visible-source confirmation.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-topoisomers",
+        "genes-and-chromosomes-topoisomerase-role",
+        "genes-and-chromosomes-topoisomerase-classes"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Topoisomerase inhibitors",
+      "topics": [
+        "Bacterial gyrase inhibitors",
+        "Eukaryotic topoisomerase inhibitors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only drug-target comparison. No additional targets, clinical recommendations, or mechanisms are supplied.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-gyrase-inhibitors",
+        "genes-and-chromosomes-eukaryotic-topoisomerase-inhibitors"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Plectonemic and solenoidal supercoiling",
+      "topics": [
+        "Plectonemic versus solenoidal supercoiling",
+        "Supercoil geometry in figure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Plectonemic = extended right-handed coils; solenoidal = tight left-handed turns. Plectonemic supercoiling is annotated as providing insufficient cellular DNA compaction; the solenoidal illustration shows much greater compaction for the same DNA molecule.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-plectonemic-solenoidal",
+        "genes-and-chromosomes-supercoil-geometry-compaction"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beads on a string and core nucleosome",
+      "topics": [
+        "Nucleosome histone octamer",
+        "Nucleosome DNA and linker",
+        "Histone charge and DNA binding"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Bead cores are labeled histone core of nucleosome; the exposed connecting DNA is labeled linker DNA of nucleosome.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-histone-core-octamer",
+        "genes-and-chromosomes-nucleosome-dna-linker",
+        "genes-and-chromosomes-histone-electrostatic-binding"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleosome electron micrograph",
+      "topics": [
+        "Nucleosome micrograph"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Beads-on-a-string appearance along DNA; scale bar **50 nm**. No additional protein identities or counts are indicated.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-nucleosome-micrograph"
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleosome functions",
+      "topics": [
+        "Nucleosome compaction function",
+        "Nucleosome transcription regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only functional comparison; compaction and regulation of transcription are emphasized.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-nucleosome-compaction",
+        "genes-and-chromosomes-nucleosome-transcription-regulation"
+      ]
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Minor-groove compression in nucleosomes",
+      "topics": [
+        "Minor-groove compression at histone core"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels DNA, histone core, and an enlarged region marked \"A=T pairs abundant\" at the compressed groove next to the core.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-minor-groove-compression"
+      ]
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Condensed 30-nm chromatin",
+      "topics": [
+        "H1 at nucleosome entry/exit",
+        "Chromatin fiber models and scales"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Octameric histone core = two copies each of H2A, H2B, H3, H4. Individual nucleosome illustration is marked **10 nm**; condensed fiber is marked **30 nm**. H1 histone is drawn near DNA entry/exit and annotated \"Act as a clamp.\" Diagram labels also identify DNA and nucleosome. Both model labels are preserved without inferring a unique packing geometry.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-h1-clamp",
+        "genes-and-chromosomes-chromatin-fiber-models"
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Histone charge and modifications",
+      "topics": [
+        "Five histone types and charge",
+        "Histone modification residues"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two text bullets.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u39-charge",
+          "description": "The final charge phrase is attached collectively to three modification types without saying which result belongs to which modification. Do not infer or assess an identical charge effect for all three from this wording.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-five-histone-types",
+        "genes-and-chromosomes-histone-modification-sites"
+      ]
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Histone acetylation and deacetylation",
+      "topics": [
+        "Histone tail acetylation and regulation",
+        "Histone acetylation and chromatin relaxation",
+        "Euchromatin versus heterochromatin"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only mechanism and terminology; the relaxation/transcription relationship and chromatin names are emphasized.",
+      "uncertainties": [
+        {
+          "id": "genes-and-chromosomes-u40-chemistry",
+          "description": "Preserve the slide's \"brings a −ve charge\" wording and its claim that CoA accepts the acetyl group in deacetylation. The slide supplies no reaction diagram resolving these chemical claims; hold assessment of those specific claims pending verification. The separately stated chromatin-relaxation/transcription relationship remains available for source-based study.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-histone-tail-acetylation",
+        "genes-and-chromosomes-acetylation-chromatin-access",
+        "genes-and-chromosomes-euchromatin-heterochromatin"
+      ]
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Orders of chromatin packing",
+      "topics": [
+        "Orders of chromatin packing",
+        "Chromatin packing model counts"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Hierarchy from the bottom of the figure upward:\n\n1. DNA.\n2. \"Beads-on-a-string\" form of chromatin.\n3. **30-nm fiber**.\n4. One loop, **~75,000 bp**.\n5. One rosette, **6 loops**, associated with the **nuclear scaffold**.\n6. One coil, **30 rosettes**.\n7. Two chromatids, **10 coils each**, forming the chromosome.\n\nThese are the labels of the model pictured on the slide; no additional packing factors or universal numerical claims are introduced.",
+      "uncertainties": [],
+      "lectureId": "genes-and-chromosomes",
+      "sourcePath": "../sources/slides/01-genes-and-chromosomes.pdf",
+      "conceptIds": [
+        "genes-and-chromosomes-chromatin-packing-hierarchy",
+        "genes-and-chromosomes-packing-model-numbers"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "DNA Metabolism",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only title page.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli chromosome map and naming",
+      "topics": [
+        "Chromosome mapping and bacterial nomenclature"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Circular map is marked 100/0, 25, 50, 75, with **oriC (replication origin)** and **Ter (replication termination)**. Complete legible gene/function labels are transcribed below; precise map coordinates are not printed for each gene and are not inferred.\n\n| Function label on map | Gene labels associated with it |\n| --- | --- |\n| Mismatch repair protein(s) | mutL; mutH, mutS |\n| Single-stranded DNA-binding protein | ssb |\n| DNA repair | uvrA; uvrB; uvrC |\n| Helicase | dnaB |\n| RNA polymerase subunits | rpoB, rpoC; rpoA, rpoD |\n| DNA polymerase I | polA |\n| DNA helicase/mismatch repair | uvrD |\n| Helicase 3' -> 5' | rep |\n| Replication initiation (source bracket) | dnaN, dnaA |\n| Recombinational repair | recF; recR; recO |\n| DNA gyrase subunit | gyrB; gyrA |\n| Primosome assembly | priA |\n| Methylation | dam |\n| Primase | dnaG |\n| Recombination and recombinational repair | recC, recB, recD; recA; ruvC, ruvA, ruvB |\n| Uracyl glycosylase (source spelling) | ung |\n| DNA ligase | lig |\n| AP endonuclease | nfo; xthA |\n| Exonuclease I | sbcB |\n| O6-G alkyltransferase | ogt |\n| DNA polymerase III subunit | holC, holD, polC (dnaE), dnaQ, holA, holB, holE |\n| Primosome component | dnaC |\n| DNA polymerase II | polB |\n| DNA polymerase IV | dinB |\n| DNA polymerase V | umuC, umuD |\n| DNA photolyase | phr |\n\nAdditional gene labels appear without an adjacent function annotation: **dnaJ, dnaK, mutT, mutU, dnaP**. The map's crowded labels are preserved with their visible groupings; no unprinted functions are added.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-bacterial-gene-names",
+        "dna-metabolism-1-chromosome-map"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Semiconservative replication and Meselson-Stahl",
+      "topics": [
+        "Semiconservative replication"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "DNA extracted and centrifuged to equilibrium in a **CsCl density gradient**. Original parent = heavy DNA (15N). First-generation daughters = two hybrid molecules (15N/14N), one band. Second-generation daughters = two hybrid molecules + two light molecules; bands labeled light DNA (14N) and hybrid DNA. Strand colors distinguish inherited and newly synthesized DNA.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-semiconservative-replication",
+        "dna-metabolism-1-meselson-stahl-bands"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Questions following semiconservative replication",
+      "topics": [
+        "Replication investigation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only guiding questions; this page does not itself answer all three.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replication-investigation"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Origin and replication-loop evidence",
+      "topics": [
+        "Origin and bidirectionality"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four circular/looped DNA drawings align with autoradiographic images: an initial replication loop, a more extensive loop, completion/interlinked daughters, and separated circular daughter representations. The diagram is evidence for circular DNA and dynamic replication forks, not a numerical fork-speed assay.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replication-origin",
+        "dna-metabolism-1-autoradiography"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bidirectional versus unidirectional labeling",
+      "topics": [
+        "Origin and bidirectionality"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Bidirectional diagram has arrows and red label at both ends of the bubble; origin is central within the bubble. Unidirectional diagram shows one arrow/label at one fork and the origin at the other end.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replication-origin",
+        "dna-metabolism-1-bidirectional-labeling"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA synthesis requirements",
+      "topics": [
+        "DNA synthesis requirements"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Five-item text list.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-synthesis-requirements"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Problems DNA polymerase must overcome",
+      "topics": [
+        "Polymerase constraints and solutions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Three problem/solution paragraphs; no additional protein roles or synthesis direction are introduced.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-polymerase-constraints"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Semicontinuous DNA synthesis",
+      "topics": [
+        "Semicontinuous synthesis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Fork-movement arrow points in the same direction as continuous leading-strand synthesis; lagging-fragment arrows point away from fork movement while each fragment grows 5' -> 3'. All parent/new strand ends are labeled 3' or 5'; no synthesis in the reverse chemical direction is shown.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-leading-lagging",
+        "dna-metabolism-1-okazaki-length"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA degradation and nucleases",
+      "topics": [
+        "Nuclease distinctions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only distinctions.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-nuclease-specificity",
+        "dna-metabolism-1-exo-endo"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA polymerization reaction",
+      "topics": [
+        "Polymerization chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Requirements labeled: (1) template DNA strand with a single unpaired region; (2) growing DNA strand/primer supplying the 3'-OH (primer terminus). Incoming deoxynucleoside 5'-triphosphate is selected by base pairing. The drawing adds T opposite template A to a growing strand ending A-G; template displayed T-C-A-G. **Inorganic pyrophosphate** leaves. The resulting base pairing and stacking stabilize the product. The figure labels deoxyribose, 3'/5' polarity, and phosphate (P). Text beneath: DNA polymerase involves **two Mg2+ ions**; **Asp is conserved in all DNA polymerases**.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-polymerization-reaction",
+        "dna-metabolism-1-pola"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base pairing and processivity",
+      "topics": [
+        "Base selection and processivity"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A-T and C-G structural drawings are labeled \"Similar Geometry\" and \"fit in active site.\" A-T has two drawn hydrogen bonds; C-G has three.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-base-pair-guidance",
+        "dna-metabolism-1-processivity"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replication accuracy and nucleotide selection",
+      "topics": [
+        "Replication fidelity"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Drawings of nonstandard G-A, C-A, and T-G pairings illustrate wrong geometry, annotated as excluded from the active site. Exact atomic drawings are retained in the original PDF; no new mismatch frequencies are supplied.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-base-selection",
+        "dna-metabolism-1-fidelity-levels"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Proofreading",
+      "topics": [
+        "Proofreading and repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "DNA polymerase I has separately labeled polymerase and 3' -> 5' proofreading exonuclease active sites. The full figure sequence:\n\n1. A rare tautomeric form of cytosine (**C***), which pairs with A, is incorporated into the growing strand.\n2. Before the polymerase moves on, C* shifts back to C; the new nucleotide is now mispaired.\n3. The mispaired 3'-OH blocks elongation; polymerase slides back to position the mismatch in the exonuclease active site.\n4. The mispaired nucleotide is removed.\n5. Polymerase slides forward and resumes polymerization.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u14-all-polymerases",
+          "description": "The heading makes proofreading universal, but page 26 explicitly states that DNA polymerase α has no proofreading 3' -> 5' exonuclease activity. Preserve both. Do not assess the universal \"all polymerases\" claim.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-proofreading",
+        "dna-metabolism-1-tautomer-proofreading",
+        "dna-metabolism-1-proofreading-generality"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli polymerases and comparison table",
+      "topics": [
+        "E. coli polymerase comparison"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Screenshot **Table 25-1: Comparison of DNA Polymerases of E. coli**, reconstructed in full:\n\n| Property | DNA polymerase I | DNA polymerase II | DNA polymerase III |\n| --- | --- | --- | --- |\n| Structural gene* | polA | polB | polC (dnaE) |\n| Subunits (number of different types) | 1 | ≥4 | ≥10 |\n| Mr | 103,000 | 88,000† | 830,000 |\n| 3' -> 5' exonuclease (proofreading) | Yes | Yes | Yes |\n| 5' -> 3' exonuclease | Yes | No | No |\n| Polymerization rate (nucleotides/sec) | 16-20 | 40 | 250-1,000 |\n| Processivity (nucleotides added before dissociation) | 3-200 | 1,500 | ≥500,000 |\n\n*For enzymes with more than one subunit, the listed gene encodes the subunit with polymerization activity. **dnaE** is described as an earlier designation of the gene now called **polC**.\n\n†Polymerization subunit only. DNA polymerase II shares several subunits with DNA polymerase III, including **β, γ, δ, δ', χ, ψ** (the source refers to Table 25-2, which is not supplied here).",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u15-rate",
+          "description": "The prose gives DNA polymerase I as 600 nt/min, whereas the screenshot table gives 16-20 nt/sec (960-1,200 nt/min when compared arithmetically). Preserve both; do not score an exact pol I rate or an exact ratio based on this conflict.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "dna-metabolism-1-u15-poliii-mass",
+          "description": "This table gives pol III Mr 830,000; page 22's screenshot gives 900,000. The slides do not reconcile the two. Do not assess a unique pol III molecular mass.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-polymerase-comparison",
+        "dna-metabolism-1-polymerase-processivity",
+        "dna-metabolism-1-polymerase-conflicting-values"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nick translation",
+      "topics": [
+        "Nick translation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Nick = broken phosphodiester bond leaving a **3'-OH and 5'-phosphate**. Green strand is removed; red strand is newly synthesized. Template and RNA-or-DNA strand are labeled. The figure shows release of **dNMPs or rNMPs** and consumption of **dNTPs**, with **(PPi)n** as labeled. Polymerase I moves forward, leaving a displaced nick before ligase action described in the text.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-nick-translation",
+        "dna-metabolism-1-nick-ends"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three contributions to DNA fidelity",
+      "topics": [
+        "Replication fidelity"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only list. The third item is preserved as the lecture's wording; this page provides no mismatch-repair pathway detail.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-fidelity-mechanisms"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replisome and accessory proteins",
+      "topics": [
+        "Replisome functions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only functional list.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replisome",
+        "dna-metabolism-1-replication-protein-functions"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Initiation and oriC",
+      "topics": [
+        "Replication initiation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Tandem array of three 13-bp sequences with same-direction arrows. Printed consensus: **GATCTNTTNTTTT**. Four 9-bp sequences labeled DnaA protein binding sites; arrows appear left, right, left, right. Printed consensus: **TTATCCACA**. Spacing between repeats is schematic; no precise positions are supplied.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replication-stages",
+        "dna-metabolism-1-oric-structure",
+        "dna-metabolism-1-oric-consensus"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of initiation",
+      "topics": [
+        "Initiation regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only regulation sequence; active/inactive labels are highlighted.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u20-phosphorylation",
+          "description": "The heading says \"Phosphorylation,\" while its described conversion is ATP-bound to ADP-bound DnaA via hydrolysis. Retain both; do not infer an unshown covalent phosphorylation reaction.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-dam-methylation",
+        "dna-metabolism-1-dnaa-atp-state",
+        "dna-metabolism-1-gatc-frequency"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Elongation: leading and lagging strands",
+      "topics": [
+        "Replication elongation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels DNA topoisomerase II (DNA gyrase), DnaB helicase, DNA primase, RNA primer, SSB, RNA primer from previous Okazaki fragment, leading-strand synthesis (DNA polymerase III), lagging-strand synthesis (DNA polymerase III), replication-fork movement, and 3'/5' ends. Three successive frames show a new lagging primer, its extension, and completion of a fragment as unwinding advances. Leading synthesis follows fork movement; each lagging fragment elongates oppositely.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-leading-lagging"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Proteins at the E. coli replication fork",
+      "topics": [
+        "Replisome functions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Screenshot **Table 25-4: Proteins at the E. coli Replication Fork**, reconstructed in full:\n\n| Protein | Mr | Number of subunits | Function |\n| --- | --- | --- | --- |\n| SSB | 75,600 | 4 | Binding to single-stranded DNA |\n| DnaB protein (helicase) | 300,000 | 6 | DNA unwinding; primosome constituent |\n| Primase (DnaG protein) | 60,000 | 1 | RNA primer synthesis; primosome constituent |\n| DNA polymerase III | 900,000 | 18-20 | New strand elongation |\n| DNA polymerase I | 103,000 | 1 | Filling gaps; excision of primers |\n| DNA ligase | 74,000 | 1 | Ligation |\n| DNA gyrase (DNA topoisomerase II) | 400,000 | 4 | Supercoiling |\n\nCaption credit retained: modified from Kornberg, A. (1982), *Supplement to DNA Replication*, Table S11-2, W.H. Freeman and Company, New York. This is provenance in the supplied screenshot, not an additional consulted source.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u22-poliii-mass",
+          "description": "Pol III Mr 900,000 here conflicts with 830,000 on page 15. Subunit counts here are labeled \"number of subunits,\" while page 15 labels \"number of different types\"; those two count labels are retained distinctly and are not assumed equivalent.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-replication-protein-functions",
+        "dna-metabolism-1-replisome-table-details"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Primer removal and ligation",
+      "topics": [
+        "Primer removal and ligation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Lagging-strand diagram labels nick, DNA polymerase I, and DNA ligase. Primer-removal/fill-in stage shows **rNMPs** released and **dNTPs** supplied. Ligation stage shows **ATP (or NAD+) -> AMP + PPi (or NMN)**, preserving the alternatives printed by the figure. Parent template and newly joined daughter polarity are marked 3'/5'.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-primer-removal-ligation",
+        "dna-metabolism-1-ligation-cofactors"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Termination, Tus and Ter",
+      "topics": [
+        "Replication termination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Circular chromosome with origin at top, clockwise and counterclockwise forks, and opposed directional traps opposite the origin. Labels around the lower arc, left to right: **TerG, TerF, TerB, TerC, TerA, TerD, TerB**. The source repeats TerB at two locations. Brackets identify clockwise-fork trap and counterclockwise-fork trap.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u24-repeated-terb",
+          "description": "The figure labels two distinct positions TerB; the slide provides no clarification. Retain the duplicate label; do not create a unique site-name ordering or identify the repeated position using outside knowledge.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-tus-ter",
+        "dna-metabolism-1-ter-label-ambiguity"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Catenanes and topoisomerase IV",
+      "topics": [
+        "Catenanes and separation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Counterclockwise and clockwise forks -> completion of replication -> catenated chromosomes -> DNA topoisomerase IV -> separated chromosomes. No alternative separation mechanism is shown.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-catenanes"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic replication differences",
+      "topics": [
+        "Eukaryotic replication"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only comparison, including the explicit lack of proofreading for α.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u26-proofreading-exception",
+          "description": "The α entry conflicts with page 14's heading \"all polymerases.\" Preserve the exception and do not assess universal proofreading. Polymerase roles above are transcribed as source assignments, without outside correction or expansion.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-eukaryotic-origins",
+        "dna-metabolism-1-eukaryotic-polymerases",
+        "dna-metabolism-1-proofreading-generality"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RPA and telomere synthesis",
+      "topics": [
+        "Eukaryotic replication"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two text bullets.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-rpa",
+        "dna-metabolism-1-telomere-termination"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "End-replication problem",
+      "topics": [
+        "End-replication problem"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Linear DNA with multiple origins of replication -> bidirectionally expanding bubbles -> daughter molecules with **incomplete ends**. Parent strands are blue; new strands are red. The red daughter ends at the highlighted gaps are labeled **5'**; intact opposing parent ends are labeled **3'**.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u28-end-polarity",
+          "description": "The prose says unreplicated \"3' end,\" while the figure's incomplete red daughter ends are marked 5' opposite parental 3' ends. The reference strand is not explicitly reconciled. Do not score an end-polarity question from this page until clarified; retain the ~100-bp claim as a source approximation, not an inferred universal constant.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-end-replication",
+        "dna-metabolism-1-end-polarity-ambiguity"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomere sequence and chromosome ends",
+      "topics": [
+        "Telomere structure and sequence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chromosome schematic labels centromere internally and telomere at each end.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-capping",
+        "dna-metabolism-1-telomere-repeat"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomeres cap chromosome ends",
+      "topics": [
+        "Telomere structure and sequence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two fluorescent chromosome images highlight terminal regions; one image includes the sequence label **TTAGGG**. No numeric telomere length or new protein component is specified.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-capping"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Importance of telomeres",
+      "topics": [
+        "Telomere protection"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A chromosome with capped ends is broken internally, producing uncapped broken ends. An arrow leads to **\"Stop cell cycle! Repair or die!!\"** The drawing distinguishes an internal break from a normal capped terminus.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-protection"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomeres as a molecular clock",
+      "topics": [
+        "Telomere shortening and replicative lifespan"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph axes: proliferative capacity versus number of cell divisions. Early branch labeled **Finite Replicative Life Span / \"Mortal\"** declines toward a low plateau; later rising branch labeled **Infinite Replicative Life Span / \"Immortal\"**. **Hayflick limit = number of divisions before stopping**, as annotated. No numeric limit, transition frequency, or time scale is printed.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-clock",
+        "dna-metabolism-1-hayflick-limit"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomerase",
+      "topics": [
+        "Telomerase mechanism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Labels remainder of telomerase RNA, region of telomerase RNA used as template, telomerase protein \"fingers,\" \"palm\" (active site), \"thumb,\" newly synthesized telomere DNA, rest of chromosome, and 5'/3' DNA ends. DNA extends at the RNA-template region. Caption: Figure 5-42, *Molecular Biology of the Cell*, 4th edition (pictured-source credit only).",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-components",
+        "dna-metabolism-1-telomerase-structure"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Laboratory telomerase experiment",
+      "topics": [
+        "Telomerase experimental application"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only experimental claim. No cell-line identity or experimental citation is supplied on this page; the observation is retained as stated, not generalized to a clinical outcome.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-culture"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomerase expression and ALT",
+      "topics": [
+        "Telomerase expression and ALT"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four text bullets; no individual ALT mechanism is diagrammed.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u35-no-aging",
+          "description": "The absolute \"do not age\" wording is qualified by page 38, which states that telomerase-expressing cells still undergo senescence in response to DNA damage/oncogenes. Preserve both; do not assess an absolute claim that telomerase prevents every form of senescence.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-expression",
+        "dna-metabolism-1-cancer-telomere-maintenance",
+        "dna-metabolism-1-no-aging-qualification"
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomerase and senescence",
+      "topics": [
+        "Telomerase and senescence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Panel \"a Normal somatic cells\" labels chromosomal DNA and telomere repeat sequences. Successive telomere rows become shorter; a cell-division tree terminates at a bracket labeled **Senescence**. The graph uses schematic colored flags and repeat beads; it supplies no exact repeat count.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomere-senescence"
+      ]
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomerase and cancer",
+      "topics": [
+        "Telomerase and cancer"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Panel \"b Cancer cells\" shows chromosomal DNA, telomerase adding telomere-repeat units, and a continuing division tree labeled **Immortal cancer cells**. This diagram's immortal label is interpreted in conjunction with the next page's explicit senescence qualification, not as proof that no arrest mechanism exists.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-cancer-telomere-maintenance"
+      ]
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Telomerase does not prevent all senescence",
+      "topics": [
+        "Limits of telomerase and senescence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Heading **Inducers of cellular senescence**. Three parallel items: **Cell proliferation (short telomeres)**; **DNA damage**; **Oncogenes**. Each arrow points to a box labeled **Potential Cancer Causing Events**. The items are parallel; no unique order is implied.",
+      "uncertainties": [
+        {
+          "id": "dna-metabolism-1-u38-arrow-label",
+          "description": "The diagram heading concerns senescence, but the destination box says \"Potential Cancer Causing Events.\" The precise arrow relationship is not explained. Preserve the labels; do not assess an inferred causal chain that senescence itself causes cancer.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-senescence-limit",
+        "dna-metabolism-1-senescence-arrow-ambiguity"
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Biomedical uses of telomerase",
+      "topics": [
+        "Telomerase biomedical applications"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only biomedical-use list. No treatment regimen, approved-product claim, or clinical outcome is added.",
+      "uncertainties": [],
+      "lectureId": "dna-metabolism-1",
+      "sourcePath": "../sources/slides/02-dna-metabolism-1.pdf",
+      "conceptIds": [
+        "dna-metabolism-1-telomerase-biomedical"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "DNA Repair - cover",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "DNA Repair. Dr. Rula Abdul Ghani.\n\nCover only; excluded from assessed teaching coverage.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Causes of DNA damage",
+      "topics": [
+        "DNA damage"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Exogenous:** UV light, X rays, gamma rays, herbicides, insecticides, viruses, alkylating agents, intercalating agents, pollution, smoking, and further examples indicated by an ellipsis.\n- **Endogenous:** replication errors, oxidants, ROS.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-damage-sources"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutation: base changes and product effects",
+      "topics": [
+        "Mutation classification"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "A mutation is a **permanent change in the nucleotide sequence**. The slide classifies mutations by two aspects:\n\n1. **Nature of the base change:**\n   - Substitution: replacement of one or more base pairs with another.\n   - Insertion/deletion: addition/deletion of one or more base pairs.\n2. **Effect on coding sequence and product:**\n   - Silent: affects nonessential DNA or has negligible effect, as worded in the source.\n   - Nonsense: premature stop codon.\n   - Missense: change in the amino acid encoded.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-mutation-types"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base substitution: transitions and transversions",
+      "topics": [
+        "Mutation classification"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure and all 12 directed changes read visually.",
+      "uncertainties": [],
+      "contentMarkdown": "| Class | Relationship | Directed changes in figure |\n| --- | --- | --- |\n| Transition | Purine to purine | A to G; G to A |\n| Transition | Pyrimidine to pyrimidine | T to C; C to T |\n| Transversion | Purine to pyrimidine | A to C; A to T; G to C; G to T |\n| Transversion | Pyrimidine to purine | C to A; C to G; T to A; T to G |\n\nFigure 18.3 depicts purines as fused rings, pyrimidines as single rings. Its caption defines transition as substitution within either family and transversion as substitution between families.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-base-substitution"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutations, cancer, and the Ames test",
+      "topics": [
+        "Mutagenicity testing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- The source states a strong correlation between carcinogens and mutagens: **90% of carcinogens are mutagens**.\n- The **Ames test for carcinogens** measures a chemical's potential to induce mutations in bacteria. The slide interprets this as meaning it can be a carcinogen.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ames-principle",
+        "dna-metabolism-2-carcinogens-mutagens"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ames test: histidine selection",
+      "topics": [
+        "Mutagenicity testing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All four colony photographs reviewed; no invented conditions/counts.",
+      "uncertainties": [],
+      "contentMarkdown": "The slide calls the test a rapid, inexpensive screen important in industry.\n\n- **Salmonella** have mutations in histidine-synthesis genes and require histidine for growth.\n- Agar contains a small amount of histidine, allowing initial growth and an opportunity to mutate.\n- After histidine depletion, only mutated bacteria able to produce their own histidine survive.\n- Incubation: **48 h**.\n- Mutagenicity is proportional to the **number of colonies observed**.\n\nFour photographs (a)-(d) show different colony patterns; (b)-(d) include a central disk. No panel-specific substance, dose, or numerical colony counts are provided.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ames-selection",
+        "dna-metabolism-2-ames-incubation"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA repair overview and E. coli repair table",
+      "topics": [
+        "Repair pathways"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table enlarged and reconstructed, including annotations and exceptions.",
+      "uncertainties": [],
+      "contentMarkdown": "Repair-pathway number/diversity reflects varied damage sources and the importance of repair. The slide calls repair energetically inefficient compared with metabolism, where ATP is accounted for and used optimally, emphasizing genetic integrity. Damage in one strand is corrected using the undamaged strand as template.\n\n**Table 25-5. Types of DNA Repair Systems in E. coli** (screenshot reconstructed):\n\n| Repair system | Enzymes/proteins listed | Damage listed |\n| --- | --- | --- |\n| Mismatch repair | Dam methylase; MutH, MutL, MutS; DNA helicase II; SSB; DNA polymerase III; exonuclease I; exonuclease VII; RecJ nuclease; exonuclease X; DNA ligase | Mismatches |\n| Base-excision repair | DNA glycosylases; AP endonucleases; DNA polymerase I; DNA ligase | Abnormal bases (uracil, hypoxanthine, xanthine); alkylated bases; pyrimidine dimers in some other organisms |\n| Nucleotide-excision repair | ABC excinuclease; DNA polymerase I; DNA ligase | Lesions causing large structural changes, e.g. pyrimidine dimers |\n| Direct repair | DNA photolyases | Pyrimidine dimers |\n| Direct repair | O6-methylguanine-DNA methyltransferase | O6-methylguanine |\n\nRed annotations link deamination of C to uracil, deamination of A to hypoxanthine, and methylated A/G toward alkylated bases. Blue asterisks emphasize pyrimidine-dimer entries. The full table is retained as source content, without treating every inventory entry as equally important for assessment.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-repair-template",
+        "dna-metabolism-2-repair-pathway-comparison",
+        "dna-metabolism-2-repair-table-proteins"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mismatch repair and methylation timing",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete GATC methylation diagram reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- Mismatch repair improves fidelity by **10^2-10^3**.\n- Template methyl groups distinguish template from newly synthesized DNA.\n- Repair occurs in the **hemimethylated** interval after replication: template methylated, new strand not methylated.\n- The stated lag period is **10 min**.\n- **Dam methylase** methylates new-strand **5'-GATC-3'**; both strands then become indistinguishable by this mark.\n\nThe diagram follows fully methylated GATC/CTAG through replication, hemimethylation, and Dam action. Its caption says new-strand methylation follows after a few minutes; this qualitative wording and the explicit 10-min annotation are both preserved.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-mismatch-methylation",
+        "dna-metabolism-2-mismatch-fidelity"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Methyl-directed mismatch recognition",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Threading diagram, ATP labels and palindrome read.",
+      "uncertainties": [
+        {
+          "id": "dna2-distance-wording",
+          "description": "P9 says up to 1000 bp; p10 says >1000 bp replaced. Preserve both; precise distance cutoff blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- The slide states repair occurs up to **1000 bp** from hemimethylated GATC.\n- **MutS-MutL** binds mismatched base pairs.\n- **MutH binds MutL**; its site-specific endonuclease remains inactive until it encounters unmethylated **5'-GATC-3'**, marking the repair strand.\n- Diagram: ATP to ADP + Pi accompanies complex assembly; DNA threads through the complex in both directions until MutH meets unmethylated GATC and cleaves the unmodified strand.\n- GATC/CTAG is labeled a **palindromic sequence**.\n- Human homologs are stated to be mutated in cancer, increasing mutation rate.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-muts-mutl-muth"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mismatch excision on either side of a cut",
+      "topics": [
+        "Mismatch repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both branches reviewed; nuclease alternatives are not imposed as a unique sequence.",
+      "uncertainties": [
+        {
+          "id": "dna2-distance-wording-10",
+          "description": "The >1000 bp wording differs from p9 up to 1000 bp; precise threshold blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "| Mismatch position relative to cleavage | Excision direction | Diagram proteins |\n| --- | --- | --- |\n| Mismatch on 3' side | 5' to 3' exonuclease | MutL-MutS; DNA helicase II; exonuclease VII **or** RecJ nuclease |\n| Mismatch on 5' side | 3' to 5' cleavage after unwinding | MutL-MutS; DNA helicase II; exonuclease I **or** exonuclease X |\n\nATP consumption accompanies unwinding/excision. **DNA polymerase III and SSB** are labeled for replacement synthesis in both branches. Annotation: **>1000 bp from GATC replaced to correct a single mismatch**, emphasizing energetic cost.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-mismatch-excision-direction",
+        "dna-metabolism-2-mismatch-replacement"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base-excision repair (BER)",
+      "topics": [
+        "Base-excision repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four-panel BER figure reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-ber-ntps",
+          "description": "The diagram labels substrate NTPs while depicting dNMP products. Do not score substrate identity from this ambiguous label.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- **DNA glycosylases** recognize lesions, including A/C-deamination products and lesions caused by environmental agents.\n- Removal of a base cleaves the **N-glycosyl bond between base and deoxyribose**, leaving an **apurinic/apyrimidinic (abasic, AP) site**.\n- Once an AP site forms it must be repaired.\n- **AP endonuclease** cuts the DNA strand containing the AP site.\n- The AP-containing segment is removed; **DNA polymerase I** replaces DNA and **ligase** seals the nick.\n\nThe four-part diagram shows (a) damaged-base release by glycosylase, (b) AP-endonuclease incision, (c) DNA pol I with NTPs as printed, release of deoxyribose phosphate plus dNMPs, new DNA and a nick, and (d) ligase sealing.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ber-sequence",
+        "dna-metabolism-2-ap-site"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Uracil DNA glycosylase (UNG)",
+      "topics": [
+        "Base-excision repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **UNG** removes U formed by C deamination.\n- It distinguishes T from U and acts **only on DNA, not RNA**.\n- Bacteria have one type and humans four, as stated.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ung",
+        "dna-metabolism-2-ung-types"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleotide-excision repair (NER)",
+      "topics": [
+        "Nucleotide-excision repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "UV/thymine-dimer figure reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- Described as critical for all organisms' survival.\n- Recognizes **bulky lesions and pyrimidine dimers** causing large DNA-helical distortion.\n- A **multisubunit enzyme** hydrolyzes **two phosphodiester bonds**, one on either side of the distortion.\n- **Excinuclease** catalyzes two specific endonucleolytic cleavages, distinguished from a standard endonuclease.\n\nThe before/after figure shows an incoming **UV photon**, formation of a **thymine dimer**, and distorted DNA.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ner-lesions"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NER comparison: E. coli and humans",
+      "topics": [
+        "Nucleotide-excision repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Complete paired pathway reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-uvr-assignment",
+          "description": "The bacterial cut positions carry UvrC/UvrB annotations without explanation. Preserve; avoid scoring individual-subunit assignments.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The two parallel pathways are labeled **similar pathway**:\n\n| Stage | E. coli | Human |\n| --- | --- | --- |\n| Incision | ABC excinuclease (UvrA, UvrB, UvrC); cuts marked 8th and 5th with UvrC and UvrB annotations, respectively | Human excinuclease; cuts marked 22nd and 7th |\n| Damaged-fragment release | DNA helicase; **13-mer** | DNA helicase; **29-mer** |\n| Replacement | DNA polymerase I | DNA polymerase epsilon |\n| Sealing | DNA ligase | DNA ligase |\n\nAfter two incisions, the lesion-containing segment is displaced; the gap is filled and sealed. Both branches show strand 5'/3' labels and OH/phosphate termini.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ner-organism-comparison",
+        "dna-metabolism-2-ner-incisions"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NER lesions and inherited repair disorders",
+      "topics": [
+        "Repair disorders"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Primary NER lesions listed: **pyrimidine dimers (T, C)** and **benzo pyrene-guanine**, formed in DNA by cigarette smoke.\n\n| Disorder | Repair defect stated | Features/details |\n| --- | --- | --- |\n| Xeroderma pigmentosum (XP) | NER-system mutations | Rare inherited disease; pigmented skin lesions, skin cancer |\n| Hereditary non-polyposis colorectal cancer (HNPCC) | Mismatch-repair defects | Rectal bleeding, stomach pain, weight loss; common mutations **hMLH1** (human MutL homolog 1), **hMSH2** (human MutS homolog 2) |",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-repair-disorders",
+        "dna-metabolism-2-hnpcc-homologs"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alkylation and mispairing",
+      "topics": [
+        "Direct repair and mutagenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical and replication-consequence figures reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The methylation product of alkylating agents pairs with **T rather than C** during replication.\n\n- Chemical figure: **guanine-cytosine** becomes **O6-methylguanine-thymine** after methylation and replication. O6 methyl group and hydrogen-bond contacts are shown.\n- Replication figure starts with G-C, methylates G, and places methylated G opposite T in one branch, with the other branch correctly paired.\n- A subsequent replication produces an **A-T** descendant. The unchanged branch is labeled **correctly paired DNA (no mutations)**.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-methylguanine-mispair"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Direct repair by O6-methylguanine-DNA methyltransferase",
+      "topics": [
+        "Direct repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cysteine and methyl-group transfer labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Direct repair has no excision/removal of a base or nucleotide.\n\n- **O6-methylguanine-DNA methyltransferase** is called not strictly an enzyme because a single methyl-transfer event permanently methylates it.\n- One entire protein is consumed per damaged base, emphasizing DNA-integrity priority.\n- Diagram: O6-methylguanine nucleotide becomes guanine nucleotide; methyl transfers to the protein's own **Cys-SH**, producing **Cys-S-CH3** and changing protein **active -> inactive**.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-direct-methyltransferase"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replication forks encountering damage",
+      "topics": [
+        "Damage at replication forks"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both fork scenarios reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-template-generalization",
+          "description": "The broad claim all the above systems require undamaged template follows direct methyltransferase repair. Preserve it; do not score that universal generalization.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The slide says preceding repair systems work when the template is present and undamaged. Unrepaired lesions/breaks can leave it damaged/absent; radiation and oxidative reactions are listed.\n\n- **Unrepaired lesion:** leading-strand-labeled fork shows a remaining lesion-associated gap. Responses: **recombinational DNA repair or error-prone repair**.\n- **Unrepaired break:** separated broken DNA leads to **recombinational DNA repair**.\n- Annotation: repair must come from a **separate homologous chromosome**.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-fork-damage"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "SOS repair regulation",
+      "topics": [
+        "SOS response"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Normal/damaged DNA SOS-box figure reconstructed.",
+      "uncertainties": [],
+      "contentMarkdown": "- **LexA** represses transcription of all SOS proteins.\n- **RecA** coprotease activity promotes LexA autocleavage, as worded.\n\n| Normal DNA | Damaged DNA |\n| --- | --- |\n| LexA at SOS box; SOS genes not expressed; SOS switched off | LexA proteolysis by RecA; SOS genes expressed to repair damaged DNA; SOS switched on |",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-sos-regulation"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Error-prone translesion synthesis (TLS)",
+      "topics": [
+        "Translesion synthesis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "DNA pol V and fidelity emphasis reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-tls-heading",
+          "description": "TLS is placed under Recombinational DNA repair without clarifying the relationship. Do not assess TLS as synonymous with homologous recombination.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "Headings combine **Recombinational DNA repair** and **Error-prone translesion DNA synthesis (TLS)**.\n\n- Error-prone means mutations often occur; this is part of the **SOS response**.\n- **DNA polymerase V** replicates past/across lesions that normally block replication.\n- Proper base pairing is nearly impossible, giving inaccurate repair and high mutation rate.\n- Lack of proofreading exonuclease activity reduces fidelity.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-tls-pol-v"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three types of DNA recombination",
+      "topics": [
+        "Recombination classes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "DNA recombination: movement of a DNA segment from one DNA molecule to another.\n\n1. **Homologous/general recombination/DNA crossover:** between two homologous molecules.\n2. **Site-specific recombination:** at a particular sequence in both nonhomologous molecules.\n3. **Transpositional recombination:** a mobile element/short segment inserts into target DNA.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-classes"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Significance of recombination",
+      "topics": [
+        "Recombination roles"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- DNA repair through a recombinational repair system.\n- Genetic diversity.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-roles"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Recombination during meiosis",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Maternal/paternal, replication, crossing-over and Meiosis I labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Recombination occurs during meiosis.\n\nThe diagram follows **paternal** and **maternal chromosomes** through **DNA replication**, then **crossing over**. A **Meiosis I** bracket covers the following division. Both depicted resulting cells contain duplicated chromosomes with exchanged colored parental segments.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-meiotic-recombination"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous recombination and chiasma",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All three chromosome panels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The source says two homologous pairs of sister chromatids align side by side; homologs connect at a **chiasma** and exchange the segment from that point to chromosome ends.\n\nPanels (a)-(c) label **homologous pair**, **sister chromatids**, **centromere**, and **chiasma**; exchanged terminal segments use different colors.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-chiasma"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Crossing over: chromosomes and chiasmata",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All labels and micrograph scale reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Crossing over exchanges genetic material.\n\n- Left sequence labels **homologous pair**, **homolog**, **sister chromatids**, **centromere**; alignment creates a **tetrad**, with a **crossover point (chiasma)**, then exchanged chromosome segments.\n- Right figure states **many points of joining: chiasmata** and labels **centromeres** and **chromatids**.\n- The micrograph has a **2 micrometre** scale bar.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-crossing-over-visual"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Double-strand break repair system",
+      "topics": [
+        "Homologous recombination",
+        "Double-strand break repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full diagram prose and both alternative products read.",
+      "uncertainties": [],
+      "contentMarkdown": "Most damage is described as BER/NER-repaired, but replication forks encounter breaks. Two homologous chromosomes participate:\n\n1. A double-strand break becomes a gap through exonuclease action. More removal at **5' ends** leaves **3' single-stranded extensions**; the diagram says strands with 3' ends degrade less than strands with 5' ends.\n2. An exposed 3' end invades and pairs with its complement in an intact homolog, displacing the other duplex strand.\n3. DNA polymerase extends the invading 3' end; **branch migration** yields two crossovers/**Holliday intermediates**.\n4. Further replication replaces DNA missing from the original break.\n5. Specialized nucleases cleave the intermediates, producing **either of two joining products**.\n\nThe diagram labels **Gene A/Gene B**, strand ends, and **product set 1/product set 2**. In product set 2, DNA on either side of the repaired region is recombined. These are alternative outcomes, not one uniquely required product.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-ds-break-repair",
+        "dna-metabolism-2-holliday-products"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Holliday intermediate micrograph",
+      "topics": [
+        "Homologous recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only teaching page reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Electron micrograph labeled **Holliday intermediate/crossover junction** shows two extended DNA paths meeting at a crossing. No numerical values or additional mechanistic steps appear.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-holliday-image"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous repair products and allelic variation",
+      "topics": [
+        "Homologous recombination",
+        "Allelic variation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Repair details vary between species, but most steps are common.\n- Both cleavage products occur in vivo in eukaryotes and prokaryotes, contributing to genomic diversity.\n- Homologous chromosomes are not identical; alleles may differ.\n- Example: **hemoglobin A** versus **hemoglobin S (sickle cell anemia)**. The source states **A to T = glutamate to valine** and emphasizes a one-base-pair difference among millions.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-homolog-alleles",
+        "dna-metabolism-2-hemoglobin-example"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Origin-independent replication restart",
+      "topics": [
+        "Replication restart"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [
+        {
+          "id": "dna2-restart-protein-count",
+          "description": "The claimed 7-protein complex is followed by six comma-separated abbreviated entries; DNA pol II follows separately. Exact count and expanded membership blocked.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- A fork moving origin to terminus can encounter double-strand breaks/lesions despite BER/NER repair of most damage.\n- **DNA polymerase III cannot continue**, leading to recombinational repair.\n- **Origin-independent restart** is described using a **complex of 7 proteins**, listed **(priA, C, DnaB, C, G, T)**, followed by **DNA polymerase II**.\n- Summary: **replication -> recombinational repair -> replication** for a stalled/blocked fork.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-replication-restart"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Site-specific recombination mechanism",
+      "topics": [
+        "Site-specific recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All four reaction panels and chemical labels reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Recombinase/integrase** acts at a **20-200 bp** recombination site.\n- The site-specific enzyme is a **tetramer of identical units**.\n- The source says one recombinase recognizes/binds each of two sites through phosphotyrosine.\n- A transient protein-DNA covalent linkage preserves the phosphodiester linkage through **phosphoserine/phosphotyrosine**, as worded.\n- Recombinase = **site-specific endonuclease + ligase**.\n\nNumbered reaction panels (1)-(4) show **tyrosine OH** as nucleophile in strand cleavage, Tyr-phosphate intermediates, free OH, joining to new partners to form a **Holliday intermediate**, then remaining-strand cleavage/rejoining. Strands retain 5'/3' labels and mixed recombinant colors.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-site-specific-recombinase",
+        "dna-metabolism-2-site-size-tetramer"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Recombinase bound to a Holliday intermediate",
+      "topics": [
+        "Site-specific recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Protein-DNA molecular rendering reviewed.",
+      "uncertainties": [
+        {
+          "id": "dna2-no-enzymes",
+          "description": "No enzymes/cofactors needed is ambiguous alongside recombinase depiction and its endonuclease/ligase activities on p30. Do not score the broad no-enzyme claim.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "Molecular rendering: recombinase bound to a Holliday intermediate.\n\nThe source states: **Strand-breaking and rejoining reactions do not require DNA synthesis or degradation, i.e. no enzymes/cofactors needed.** The final clause is preserved as an unresolved source statement.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-recombination-no-synthesis"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transpositional recombination and element classes",
+      "topics": [
+        "Transposition"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Transpositional recombination inserts a **mobile element** into target DNA.\n\n- **Simple transposons:** contain only sequence required for transposition, including transposase genes.\n- **Complex transposons:** contain one or more additional genes; **antibiotic resistance** is the example.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-simple-complex-transposons"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mechanisms of transpositional recombination",
+      "topics": [
+        "Transposition"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both transposition routes reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "| Class | Source mechanism |\n| --- | --- |\n| **Class I: retrotransposons** | Donor DNA is transcribed into RNA, reverse-transcribed into DNA, then inserted in target DNA by the same recombination mechanism as transposon DNA intermediates |\n| **Class II: transposons** | A special enzyme cuts donor transposon, then it inserts in target DNA; **transposase** has nuclease and ligase activities |\n\nPaired figure:\n\n- Transposon: **donor DNA -> cut by transposase -> DNA intermediate -> recombination -> target DNA**.\n- Retrotransposon: **donor DNA -> transcription -> RNA -> reverse transcription -> DNA intermediate -> recombination -> target DNA**.\n\nDonor/target strands carry 5'/3' labels.",
+      "lectureId": "dna-metabolism-2",
+      "sourcePath": "../sources/slides/03-dna-metabolism-2.pdf",
+      "conceptIds": [
+        "dna-metabolism-2-transposition-classes",
+        "dna-metabolism-2-transposase-activities"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "RNA Metabolism - cover",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "RNA Metabolism. Chapter-26. Dr. Rula Abdul Ghani.\n\nCover only; excluded from assessment.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA roles and transcription",
+      "topics": [
+        "RNA roles"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- The source calls RNA the only known macromolecule with **information storage, transmission, and catalysis**.\n- Catalytic RNA, a **ribozyme**, changed the definition of enzyme.\n- **Transcription:** conversion of genetic information from DNA into RNA with a sequence complementary to one DNA strand.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-rna-functions",
+        "rna-metabolism-1-transcription-definition"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three RNA roles in protein synthesis",
+      "topics": [
+        "RNA roles"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Three RNA classes have different, complementary roles in protein synthesis (translation):\n\n| RNA | Role stated |\n| --- | --- |\n| mRNA | Carries DNA-copied information as three-base words called **codons** |\n| tRNA | Transmits code and delivers the specified amino acid |\n| rRNA | Associates with proteins to form **ribosomes**, protein-synthesizing machines |",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-rna-classes"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription versus replication",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "The source comparison lists:\n\n1. Similar chemical reaction/mechanism: **PPi hydrolysis** drives synthesis forward.\n2. Stages: initiation, elongation, termination.\n3. Template needed.\n4. Synthesis polarity **5' to 3'**.\n5. Transcription requires **no primer**.\n6. Transcription covers a **limited DNA segment**.\n7. Transcription has **no 3' to 5' proofreading activity** and cannot excise mismatched nucleotides, as stated.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-replication"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription requirements",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **RNA polymerase**.\n2. **DNA template**, the 3' to 5' strand.\n3. **No primer required**.\n4. Nucleoside triphosphates **ATP, GTP, CTP, UTP**.\n5. Synthesis **5' to 3'**.\n6. **Mg2+ and Zn2+**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-requirements"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Overall RNA-synthesis reaction",
+      "topics": [
+        "Transcription chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "**(NMP)n + NTP -> (NMP)n+1 + PPi**\n\nThe initial polymer is labeled **RNA**, the product **lengthened RNA**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-rna-polymerization-reaction"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA-dependent synthesis of RNA",
+      "topics": [
+        "Transcription chemistry",
+        "Transcription elongation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All bubble/strand labels and 3-prime-OH annotation reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "RNA polymerase adds ribonucleotide units to the **3'-hydroxyl end**, building RNA **5' to 3'**.\n\n- Nucleotides are selected by Watson-Crick pairing; base-pair geometry contributes to selection.\n- The 3' OH at the active site acts as nucleophile attacking the phosphate of incoming **rNTP**.\n- Figure labels: **transcription bubble**, **nontemplate strand**, **template strand**, **RNA polymerase**, **active site**, **RNA-DNA hybrid, 8 bp**, emerging RNA 5' end.\n- In the depicted left-to-right transcription direction, DNA **unwinds ahead** at right and **rewinds behind** at left.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-rna-extension",
+        "rna-metabolism-1-transcription-bubble"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Stages of transcription",
+      "topics": [
+        "Transcription stages"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Initiation:** starts at a promoter; RNA polymerase binds specific DNA sequences.\n- **Elongation:** growing RNA temporarily pairs with the template as a short **8 bp RNA-DNA hybrid**; hybrid peels off and the DNA duplex reforms. Rate: **50-90 nucleotides/s**.\n- **Termination:** named as the third stage; mechanisms follow on later pages.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-stages",
+        "rna-metabolism-1-elongation-rate"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription and DNA supercoiling",
+      "topics": [
+        "Transcription elongation",
+        "Supercoiling"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Supercoil signs and spatial relationships checked.",
+      "uncertainties": [],
+      "contentMarkdown": "Because DNA is helical, transcription-bubble movement requires strand rotation, causing supercoiling in vitro and in vivo; **topoisomerase** relieves it.\n\nThe left-to-right figure depicts **negative supercoils behind** the transcription complex and **positive supercoils ahead**, labels emerging RNA 5' end, and annotates **17 bp unwound, 8 bp DNA-RNA hybrid**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-supercoils",
+        "rna-metabolism-1-bubble-length"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Coding and template strands",
+      "topics": [
+        "Template and coding strands"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All sequences transcribed from image; 13 bases each.",
+      "uncertainties": [],
+      "contentMarkdown": "The **coding/nontemplate strand** has the transcript sequence except that RNA uses **U instead of T**.\n\n| Molecule | Sequence and orientation in source |\n| --- | --- |\n| DNA nontemplate (coding) | 5'-CGCTATAGCGTTT-3' |\n| DNA template | 3'-GCGATATCGCAAA-5' |\n| RNA transcript | 5'-CGCUAUAGCGUUU-3' |",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-coding-template"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli DNA-dependent RNA polymerase",
+      "topics": [
+        "Bacterial RNA polymerase"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Subunit image labels reviewed.",
+      "uncertainties": [
+        {
+          "id": "rna1-error-rate-format",
+          "description": "Source literally prints one error/104-105 with 4 and 5 on the baseline in the rendered slide and text layer. Do not silently convert to 10^4-10^5; exact numerical error-frequency assessment is blocked until formatting is clarified.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- Large complex: **five core subunits** plus a sixth **sigma** subunit.\n- Sigma binds the core transiently and directs it to specific DNA-binding sequences.\n- Source states no 3' to 5' exonuclease proofreading and **one error/104-105** (literal source formatting; exponent meaning unresolved).\n- Diagram: core **alpha, alpha, beta, beta-prime, omega** labeled **constant**; **sigma** labeled **variable**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-bacterial-rna-pol",
+        "rna-metabolism-1-transcription-error-rate"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription-initiation coordinates",
+      "topics": [
+        "Promoters and initiation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Transcription-initiation/start site is **+1**.\n- **Downstream**, in the transcription direction, receives positive numbers.\n- **Upstream**, opposite to transcription, receives negative numbers.\n- RNA polymerase, activators and repressors interact with promoter DNA to regulate initiation.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-promoter-coordinates",
+        "rna-metabolism-1-initiation-regulators"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Typical gene structure",
+      "topics": [
+        "Promoters and initiation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Promoter/coding region schematic reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Schematic: **promoter** precedes the **coding region**. The **+1** boundary marks transcription start; **downstream** and transcription arrows point through the coding region to the right.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-gene-structure"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "E. coli promoter sequences",
+      "topics": [
+        "Bacterial promoters"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image enlarged; core hexamers, positions and spacer lengths readable.",
+      "uncertainties": [
+        {
+          "id": "rna1-up-consensus",
+          "description": "Exact UP-element consensus cannot be transcribed confidently from tightly stacked A/T alternatives. Preserve source image via PDF p14; block exact-base sequence questions for this UP element.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "- **-10 region:** 5'-**TATAAT**-3'.\n- **-35 region:** 5'-**TTGACA**-3'.\n- **UP element:** upstream promoter region between **-40 and -60**, not present in all bacteria.\n- Mutations at -10 or -35 affect polymerase-binding efficiency and transcription initiation.\n- The image labels **consensus sequence** (annotated as common), UP element, -35 region, spacer, -10 region, spacer, RNA start **+1**.\n- Between the -35 and -10 consensus hexamers the spacer is **N17**; the following spacer before +1 is **N6**. An N precedes TTGACA.\n- The UP consensus image contains many A/T positions and Ns with stacked alternatives; its exact linear representation is unresolved below.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-ecoli-promoter",
+        "rna-metabolism-1-promoter-spacers"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial initiation and promoter clearance",
+      "topics": [
+        "Bacterial initiation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All initiation panels and sigma-release arrow reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **Binding:** RNA polymerase binds promoter, forming a **closed complex** with intact DNA, then an **open complex** with DNA intact but unwound at **-10**, as worded.\n2. **Initiation:** transcription begins; complex moves away from promoter (**promoter clearance**).\n3. **Elongation:** **sigma dissociates** and polymerase leaves the promoter.\n\nThe diagram follows binding -> closed complex -> open complex -> initiation of transcription -> promoter clearance, showing sigma leaving and RNA emerging. UP, -35, -10 and +1 labels locate binding.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-bacterial-initiation"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription termination overview",
+      "topics": [
+        "Transcription termination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Several mechanisms regulate termination in bacteria and eukaryotes.\n- Bacteria have two principal mechanisms involving RNA polymerase; one additionally requires **Rho**.\n- Eukaryotic termination mechanisms differ among the **three RNA polymerases**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-termination-classes"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Factor-independent and Rho-dependent termination",
+      "topics": [
+        "Transcription termination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text checked alongside hairpin diagrams on pp18-19.",
+      "uncertainties": [
+        {
+          "id": "rna1-gc-wording",
+          "description": "P17 explains slowing as GC pairs making the template hard to unwind, while pp18-19 depict a transcript hairpin. Preserve both; block the precise causal unwinding explanation rather than silently repairing it.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "**Factor independent:**\n\n- A **GC-rich transcript segment** is stated to make the template hard to unwind and slow RNA polymerase.\n- Weak **A=U bonds** cause further weakening/dissociation, collapsing the transcription bubble.\n\n**Rho (rho) factor dependent:**\n\n- Rho loads at specific mRNA-binding sites and moves **5' to 3'** toward the transcription complex.\n- It proceeds along mRNA and probably outraces/catches up to RNA polymerase, as worded.\n- Its **ATP-dependent helicase activity** disrupts the RNA-DNA hybrid.\n- Termination completes with release of Rho and RNA polymerase from nucleic acids.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-rho-termination",
+        "rna-metabolism-1-intrinsic-termination"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Rho-independent termination at characteristic sequences",
+      "topics": [
+        "Transcription termination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image enlarged; stem/loop and printed numbers captured. Exact loop sequence should be checked against PDF before any detailed sequence activity.",
+      "uncertainties": [],
+      "contentMarkdown": "The diagram places a **t site** beyond the **trp operon** and depicts a GC-rich mRNA hairpin followed by a U-rich region at termination.\n\n| Operon block | Number printed beneath |\n| --- | ---: |\n| E | 1560 |\n| D | 1590 |\n| C | 1353 |\n| B | 1191 |\n| A | 804 |\n| Terminal region before t site | 36 |\n\nNo unit is supplied with these numbers in the slide.\n\nThe visible mRNA flank reads **UAAUCCCACA** before the stem and **AUUUU** after it. Stem pairs, listed from the bottom upward: **G-C, C-G, C-G, G-C, C-G, C-G, A-U, G-C**. The small loop visually reads **UUCCG**. The termination arrow points to the U-rich tail.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-terminator-hairpin",
+        "rna-metabolism-1-trp-diagram-details"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hairpin-associated termination diagram",
+      "topics": [
+        "Transcription termination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All three diagram stages reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The three-stage figure labels **Pause -> Isomerize -> Terminate**.\n\n- Initially, RNA polymerase contains a short RNA-DNA hybrid and an emerging RNA strand.\n- The RNA folds into a hairpin in the second stage.\n- A downward arrow leads to **Terminate**.\n\nThe DNA strand ends retain 5'/3' labels; a black rightward arrow marks movement.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-terminator-stages"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three eukaryotic RNA polymerases",
+      "topics": [
+        "Eukaryotic RNA polymerases"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "| Polymerase | Transcripts stated |\n| --- | --- |\n| RNA polymerase I | rRNA genes |\n| RNA polymerase II | Genes encoding mRNAs |\n| RNA polymerase III | tRNAs |\n\nAll three are **multimeric enzymes with more than 10 subunits**. These are the examples stated; the slide does not establish that each list is exhaustive.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-pol-types",
+        "rna-metabolism-1-eukaryotic-pol-subunits"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic promoters",
+      "topics": [
+        "Eukaryotic promoters"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Promoter motif and stacked T/A alternative read visually.",
+      "uncertainties": [],
+      "contentMarkdown": "- DNA unwinds at the **Initiator (Inr)** sequence.\n- **TATA box:** consensus **TATAAA**, near **-30**.\n- Figure runs 5' to 3' through various regulatory sequences, TATA box at -30, and **Inr** near **+1**.\n- The Inr motif is drawn **YYAN(T/A)YY**, with the T/A alternative stacked.\n- **N = any nucleotide; Y = pyrimidine**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-promoter",
+        "rna-metabolism-1-consensus-symbols"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription at RNA polymerase II promoters",
+      "topics": [
+        "Eukaryotic initiation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Every factor label, phosphorylation symbol and recycling arrow reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The figure follows **assembly, initiation, elongation, termination**, then polymerase recycling.\n\n1. DNA shows **TATA at -30** and **Inr at +1**.\n2. Assembly labels, in order shown: **TBP (or TFIID and/or TFIIA)**; **TFIIB**; **TFIIF-RNA polymerase II**; **TFIIE**; **TFIIH**.\n3. A **closed complex** contains TFIID/TFIIA/TFIIB/TBP, TFIIF, TFIIE, TFIIH and RNA polymerase II. An annotation says **stabilize**.\n4. **TFIIH helicase** annotation accompanies DNA unwinding to form the **open complex**.\n5. **TFIIH kinase activity** phosphorylates RNA polymerase II; initiation and release of the elongation complex follow. The emerging polymerase tail bears phosphate symbols.\n6. **TFIIH and TFIIE** are shown leaving. **Elongation factors** join; elongation is annotated **after the first 60-70 nucleotides**.\n7. Termination releases RNA; RNA polymerase II is released and dephosphorylated, then recycled for another cycle.\n\nThe figure retains some initiation factors at the promoter rather than showing every protein traveling with polymerase.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-pol2-assembly",
+        "rna-metabolism-1-tfiih-activities",
+        "rna-metabolism-1-pol2-recycling"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Proteins required at eukaryotic RNA polymerase II promoters",
+      "topics": [
+        "Eukaryotic transcription factors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image enlarged; complete table and both footnotes transcribed.",
+      "uncertainties": [
+        {
+          "id": "rna1-tfiie-helicase",
+          "description": "Table assigns ATPase/helicase activities in TFIIE row; p22 annotates TFIIH helicase and kinase, and TFIIH row says unwinds DNA. Preserve all labels; block exclusive helicase-ownership questions based on this table.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "**Table 26-1. Proteins Required for Transcription at the RNA Polymerase II Promoters of Eukaryotes** (screenshot reconstructed). The table labels masses **Subunit Mr**; no additional unit is added here.\n\n| Initiation factor | Subunits | Subunit Mr | Function in table |\n| --- | ---: | --- | --- |\n| RNA polymerase II | 12 | 10,000-220,000 | Catalyzes RNA synthesis |\n| TBP (TATA-binding protein) | 1 | 38,000 | Specifically recognizes TATA box |\n| TFIIA | 3 | 12,000, 19,000, 35,000 | Stabilizes binding of TFIIB and TBP to promoter |\n| TFIIB | 1 | 35,000 | Binds TBP; recruits RNA polymerase-TFIIF complex |\n| TFIID | 12 | 15,000-250,000 | Interacts with positive and negative regulatory proteins |\n| TFIIE | 2 | 34,000, 57,000 | Recruits TFIIH; ATPase and helicase activities, as printed |\n| TFIIF | 2 | 30,000, 74,000 | Binds tightly to RNA polymerase II; binds TFIIB and prevents polymerase binding to nonspecific DNA sequences |\n| TFIIH | 12 | 35,000-89,000 | Unwinds DNA at promoter; phosphorylates RNA polymerase; recruits nucleotide-excision repair complex |\n\nA red annotation states **More than 30 polypeptide**.\n\n| Elongation factor | Subunits | Subunit Mr |\n| --- | ---: | --- |\n| ELL | 1 | 80,000 |\n| P-TEFb | 2 | 43,000, 124,000 |\n| SII (TFIIS) | 1 | 38,000 |\n| Elongin (SIII) | 3 | 15,000, 18,000, 110,000 |\n\nFootnotes:\n\n- All elongation factors suppress pausing/arrest of transcription by the RNA polymerase II-TFIIF complex.\n- ELL derives from **eleven-nineteen lysine-rich leukemia**. The ELL gene is a site of chromosomal-recombination events frequently associated with **acute myeloid leukemia**.\n\nAll numerical inventory details are preserved as supporting source content; assessment priority should favor clearly explained functional relationships.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-pol2-factor-functions",
+        "rna-metabolism-1-elongation-factors",
+        "rna-metabolism-1-factor-table-inventory"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human TATA-binding protein bound to DNA",
+      "topics": [
+        "Eukaryotic transcription factors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full protein-DNA rendering reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "Molecular rendering labeled **Human TATA-binding protein (TBP) bound to DNA**. Gray protein surface contacts the DNA, which is bent along the interface. This is a visual binding illustration; no additional residue names, numerical values, or mechanistic steps are labeled.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-tbp-binding-image"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "TFIIH and transcription-associated repair",
+      "topics": [
+        "Transcription and repair"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "When **RNA polymerase II halts at a DNA lesion**, **TFIIH**, beyond its role in closed-complex formation:\n\n1. Interacts with the lesion.\n2. Recruits the entire **nucleotide-excision repair** system.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-tfiih-repair"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcription inhibition",
+      "topics": [
+        "Transcription inhibitors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Drug-structure labels and text reviewed.",
+      "uncertainties": [
+        {
+          "id": "rna1-rifampicin-layout",
+          "description": "Rifampicin appears under a broad intercalating-agents heading, but only promoter-clearance inhibition is explicitly assigned to it. Do not infer or score a rifampicin intercalation mechanism from layout.",
+          "assessmentBlocked": true
+        }
+      ],
+      "contentMarkdown": "The heading is **Intercalating agents inhibit RNA polymerase**.\n\n- Intercalation inserts an agent between successive **G-C base pairs** in double-helical DNA, deforming DNA and preventing polymerase movement along the template.\n- **Actinomycin** inhibits **elongation**.\n- **Rifampicin** inhibits **promoter clearance**.\n\nThe chemical figures are labeled **Actinomycin D** and **Acridine**. Actinomycin D depicts a central multiring chromophore with two peptide-ring arms; labels include **Sar, L-Pro, L-meVal, D-Val, L-Thr**, carbonyl/O/N groups, NH2 and CH3. Acridine is shown as three fused rings with a nitrogen-bearing central ring and N-H/positive-charge symbols.\n\nRifampicin's inhibitory stage is stated separately; the slide does not explicitly assign it an intercalation mechanism.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-transcription-inhibitors",
+        "rna-metabolism-1-intercalation",
+        "rna-metabolism-1-inhibitor-structures"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Actinomycin binding deforms DNA",
+      "topics": [
+        "Transcription inhibitors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Molecular rendering and both annotations reviewed.",
+      "uncertainties": [],
+      "contentMarkdown": "The title states DNA is **bent and deformed by Actinomycin binding**. Molecular rendering labels **intercalated actinomycin** (spelled Interchelated in the source annotation) between DNA base-pair levels and separately labels **DNA**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-actinomycin-binding"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "After the primary transcript",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- **Prokaryotes:** RNA translated directly into protein.\n- **Eukaryotes:** RNA modified, exported to cytoplasm, then translated.\n\nThese are the primary-transcript comparisons made in the slide; no additional processing exceptions are imported.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-primary-transcript-fates"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Post-transcriptional processing in eukaryotes",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "- Genes are transcribed in the **nucleus** to RNA.\n- In the nucleus, mRNA is **spliced**, **5'-capped**, and **3'-polyadenylated**.\n- mRNA is transported to the **cytoplasm for translation**.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-eukaryotic-processing"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three eukaryotic mRNA modifications",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text visually checked.",
+      "uncertainties": [],
+      "contentMarkdown": "1. **Capping:** modified **5' cap** residue is added at the 5' end before transcription ends.\n2. **Splicing:** introns are removed and exons joined. **Alternative splicing** allows some transcripts to be spliced in more than one way and has regulatory significance.\n3. **Polyadenylation:** the 3' end is cleaved and **80-250 A residues** are added as a **poly(A) tail**.\n\nThe source states these modifications work together with **phosphorylated CTD and RNA polymerase II**. The list enumerates modification types and does not establish a unique chronological order for all three processes.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-mrna-modifications",
+        "rna-metabolism-1-alternative-splicing",
+        "rna-metabolism-1-polya-length",
+        "rna-metabolism-1-processing-ctd"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Primary transcript to mature mRNA diagram",
+      "topics": [
+        "Post-transcriptional processing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only teaching page fully reviewed, including all labels and dashed exon guides.",
+      "uncertainties": [],
+      "contentMarkdown": "The diagram explicitly connects these stages:\n\n1. **Transcription and 5' capping:** RNA polymerase moves along DNA, leaving emerging RNA labeled **5' cap**, **exon** and **intron**.\n2. **Completion of primary transcript:** a **primary transcript** contains the cap, alternating exon/intron segments, and a **noncoding end sequence** toward the **3'** end.\n3. **Cleavage, polyadenylation, and splicing:** introns loop out and are removed; dashed guides show retained exon segments joining, while end cleavage and poly(A) addition are grouped with splicing.\n4. **Mature mRNA:** joined exon segments retain the **5' cap**, noncoding end segment and **AAA(A)n** at the **3'** end.\n\nThese grouped operations do not justify requiring an arbitrary unique order among cleavage, polyadenylation and individual splicing events.",
+      "lectureId": "rna-metabolism-1",
+      "sourcePath": "../sources/slides/04-rna-metabolism-1.pdf",
+      "conceptIds": [
+        "rna-metabolism-1-processing-diagram"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "RNA Metabolism-Part2: Post-transcriptional modifications",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title and lecturer name only.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Modified RNA",
+      "topics": [
+        "Modified RNA"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only overview transcribed: green RNA, blue aligned DNA, grey looped DNA A-G; numbered paired segments L and 1-7; red feature at the RNA 5′ end and orange AAA(A)n at 3′. No independent meaning assigned to the unkeyed L label.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p02-modified-rna"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "From Gene to mature mRNA",
+      "topics": [
+        "From Gene to mature mRNA"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only flowchart read in full: DNA → capped primary transcript → mature mRNA, with separate branches to seven introns and extra RNA. Exact length annotations retained.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p03-processing-overview"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "5′ cap of mRNA",
+      "topics": [
+        "5′ cap of mRNA"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical diagram checked against text: 7-methyl guanosine and reversed triphosphate linkage; two optional OCH3 groups at ribose 2′ positions; red yeast/vertebrate annotation retained without extending its scope.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p04-u1",
+          "description": "The prose says additional methyl groups at C-2, whereas the figure identifies downstream ribose 2′ positions. Preserve both; do not score the ambiguous carbon-position wording.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "rna-metabolism-2-p04-u2",
+          "description": "The yeast/vertebrate note is positioned beside optional ribose methylation but has no explicit sentence defining its scope; do not generalize it to all capping.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p04-cap-functions",
+        "rna-metabolism-2-p04-cap-chemistry"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic mRNA are capped at 5′ end",
+      "topics": [
+        "Eukaryotic mRNA are capped at 5′ end"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Three-step figure labels cap-synthesizing complex, Cap, and CBC; repeated P marks on the tail and emerging RNA loop are visible. The text uses CTD association wording as preserved.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p05-capping-ctd"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Polyadenylation",
+      "topics": [
+        "Polyadenylation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All figure labels and reaction direction checked; distinct endonuclease cleavage and polymerase addition stages retained. Do not treat all processing events as strictly sequential beyond this displayed reaction.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p06-polyadenylation"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: four groups/classes",
+      "topics": [
+        "RNA splicing: four groups/classes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p07-u1",
+          "description": "Group I nuclear/mitochondrial/rRNA/mRNA/tRNA list does not give a precise one-to-one location/substrate mapping. Do not score a more specific mapping than supplied.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "rna-metabolism-2-p07-u2",
+          "description": "Group IV is called the only protein-enzyme-spliced class here; page 12 also labels RNase P a ribozyme for tRNA end processing. Distinguish intron splicing from end processing; do not turn the broad wording into an exclusion of ribozymes from all tRNA processing.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p07-splicing-classes"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group I introns",
+      "topics": [
+        "RNA splicing: Group I introns"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image mechanism read in full, including primary transcript, intermediate, spliced RNA, two nucleophile captions and terminal labels. Source cofactor notation retained without changing its listed alternatives.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p08-group-i-mechanism"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transesterification reaction",
+      "topics": [
+        "Transesterification reaction"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical bond-exchange diagram checked: exon/intron identity and free exon OH versus guanosine-linked intron are explicit.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p09-transesterification"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group II introns",
+      "topics": [
+        "RNA splicing: Group II introns"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged image reviewed; both nucleophile captions, branch bond inset, three-bond adenosine annotation and caption preserved.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p10-group-ii-mechanism"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA processing: Group III introns",
+      "topics": [
+        "RNA processing: Group III introns"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size image checked, including GU/A/AG labels, ATP annotations, inactive/active complexes, expelled U1/U4, lariat and intron-release stages; right-hand coordination figure checked separately.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p11-spliceosome-assembly",
+        "rna-metabolism-2-p11-splicing-transcription"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RNA splicing: Group IV and tRNA processing",
+      "topics": [
+        "RNA splicing: Group IV and tRNA processing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged cloverleaf figure reviewed. RNase P/RNase D cut labels, ribozyme note, intermediate CCA/intron and mature tRNA^Tyr are preserved. The grouped first arrow lists four processes, so they are not imposed as a unique serial order.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p12-u1",
+          "description": "Tiny modified-base abbreviations in the illustrative cloverleaf lack a complete key and some superscript marks are not reliably distinguishable in the source raster. Exact whole-tRNA sequence and every chemical modification position are not transcribed or assessable.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p12-trna-processing"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alternative splicing",
+      "topics": [
+        "Alternative splicing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All exon-number patterns and protein labels A/B/C checked; the repeated exon colors show the regions omitted in each alternative.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p13-alternative-splicing"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Complex transcripts in different tissues",
+      "topics": [
+        "Complex transcripts in different tissues"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two image-only branching diagrams checked. Left branches by A1/A2 cleavage site; right branches by alternative 3′ splice site after the illustrated cleavage/polyadenylation. No tissue-specific product assignment supplied.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p14-alternative-processing"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transcript structure",
+      "topics": [
+        "Transcript structure"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Orientation labels and placement of rbs/AUG/ORF/UTRs checked against figure, without inferring an unlabeled termination codon.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p15-transcript-structure"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gene regulation",
+      "topics": [
+        "Gene regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p16-u1",
+          "description": "The housekeeping expression term is printed “constrictively.” Do not score that wording or silently replace it with an inferred term.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p16-gene-regulation"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulatory sequences and enhancers",
+      "topics": [
+        "Regulatory sequences and enhancers"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "All diagram labels checked. The heading groups activators with sequences although figure depicts activators as bound entities; no additional definition supplied.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p17-u1",
+          "description": "Heading calls activators a regulatory-sequence category while the diagram depicts bound activator entities. Do not score a claim that activators themselves are DNA sequences solely from this heading.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p17-enhancers",
+        "rna-metabolism-2-p17-promoter-assembly"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Integration of retrovirus into host DNA",
+      "topics": [
+        "Integration of retrovirus into host DNA"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Lifecycle diagram labels RNA genome, retrovirus, host cell, cytoplasm, RNA, reverse transcription, viral DNA, nucleus and chromosome; the figure sequence is preserved.",
+      "uncertainties": [],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p18-reverse-transcriptase"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Inhibitor of reverse transcriptase",
+      "topics": [
+        "Inhibitor of reverse transcriptase"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both chemical labels and AZT azido group checked. The prose says affinity for AZT after mentioning triphosphates; the exact active-species wording is not silently altered.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p19-u1",
+          "description": "Text alternates AZT and AZT triphosphates and does not precisely distinguish the compared molecular species. Do not score a more specific affinity/transport claim than the wording supports. The failed-anticancer statement has no study/context supplied.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p19-azt"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Retroviral genome",
+      "topics": [
+        "Retroviral genome"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram reviewed; source text and all cleavage-product labels preserved. No exclusive mapping of the abbreviated pol prose to the entire illustrated enzyme set is imposed.",
+      "uncertainties": [
+        {
+          "id": "rna-metabolism-2-p20-u1",
+          "description": "The text reduces Pol to “protease,” while the figure also labels integrase and reverse transcriptase among products. Do not score an exclusive one-product mapping for pol from this abbreviated text.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "rna-metabolism-2",
+      "sourcePath": "../sources/slides/05-rna-metabolism-2.pdf",
+      "conceptIds": [
+        "rna-metabolism-2-p20-retroviral-genome"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Techniques: PCR, Sequencing, RFLP",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title and lecturer only.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Polymerase chain reaction (PCR)",
+      "topics": [
+        "Polymerase chain reaction (PCR)"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p02-pcr-purpose",
+        "techniques-p02-pcr-history"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Taq DNA polymerase",
+      "topics": [
+        "Taq DNA polymerase"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two photographs, no additional labeled molecular mechanism. Their role is illustration of source environment and organism.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p03-taq"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR applications and templates",
+      "topics": [
+        "PCR applications and templates"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p04-pcr-applications"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Basic PCR reaction",
+      "topics": [
+        "Basic PCR reaction"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "techniques-p05-u1",
+          "description": "Magnesium charge is printed Mg+ without a second positive charge. Do not score a corrected ion-valence claim from this source.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p05-pcr-primers-cycle",
+        "techniques-p05-pcr-magnesium"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Thermocycler / PCR machine",
+      "topics": [
+        "Thermocycler / PCR machine"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photographs have no additional legible technical specification. The brief temperature-gradient bullet is not expanded into an unstated protocol.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p06-thermocycler"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Amplification and PCR contamination",
+      "topics": [
+        "Amplification and PCR contamination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text-only page visually checked, including the inconsistent five-cycle/64-copy example. The questionable exponent formatting is preserved as an interpretation of the visible line, with assessment blocked.",
+      "uncertainties": [
+        {
+          "id": "techniques-p07-u1",
+          "description": "Five cycles and the stated expression 2^5 do not agree with 64 copies. The visible 5 is placed low rather than as a clear superscript. Preserve the original claim; do not score this numerical example or silently substitute a corrected count.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p07-pcr-sensitivity"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Designing primers",
+      "topics": [
+        "Designing primers"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p08-primer-design"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR cycle and amplification diagrams",
+      "topics": [
+        "PCR cycle and amplification diagrams"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only page fully inspected at full size. All time/temperature annotations, repeat instructions, polymerase-still-present label and fold caption captured.",
+      "uncertainties": [
+        {
+          "id": "techniques-p09-u1",
+          "description": "The 25-cycle/~10^6-fold caption does not specify efficiency or assumptions. Given the separate inconsistent calculation on page 7, do not infer a universal exact copy-count rule or assess numerical yield from these captions.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p09-pcr-cycle-figure",
+        "techniques-p09-pcr-fold-example"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PCR product gel",
+      "topics": [
+        "PCR product gel"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size gel reviewed. Lanes and only explicitly labeled marker sizes captured; apparent band positions described without assigning exact unprinted sizes.",
+      "uncertainties": [
+        {
+          "id": "techniques-p10-u1",
+          "description": "No sample identities or positive/negative-control legend are supplied. Do not score a diagnosis, exact size for each band, or a reason for absent bands from this image alone.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p10-pcr-gel"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RT-PCR: reverse transcription polymerase chain reaction",
+      "topics": [
+        "RT-PCR: reverse transcription polymerase chain reaction"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image inspected because extractable text omitted the figure. All reagent and intermediate labels transcribed.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p11-rt-pcr"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Two-step RT-PCR",
+      "topics": [
+        "Two-step RT-PCR"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size reaction image checked; source reagent list retained as drawn without relocating DNA polymerase to a different stage.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p12-two-step-rt-pcr"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA sequencing: Sanger method",
+      "topics": [
+        "DNA sequencing: Sanger method"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p13-sanger-stages"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Dideoxies block elongation",
+      "topics": [
+        "Dideoxies block elongation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical structures and 3′ OH versus 3′ H highlighting inspected; table preserves exact causal comparison.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p14-ddntp"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Four Sanger reaction tubes and gel reading",
+      "topics": [
+        "Four Sanger reaction tubes and gel reading"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Enlarged template sequence and full gel read. Lane order differs from prose tube order and is retained. Sequence reversal is a direct reading of the displayed base column, not an added biological rule.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p15-sanger-tubes",
+        "techniques-p15-sanger-gel"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sequencing electrophoresis examples",
+      "topics": [
+        "Sequencing electrophoresis examples"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size image plus enlarged crop of the right sequence columns checked. Left first-seven calls transcribed; right printed 27-base columns preserved with orientations.",
+      "uncertainties": [
+        {
+          "id": "techniques-p16-u1",
+          "description": "The shorthand top-to-bottom=template statement does not explicitly say to use the separately printed complementary Original seq. column rather than merely reversing band calls. Do not score template sequence by reversing lane calls without specifying strand and 5′/3′ orientation.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p16-sequencing-direction"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ddGTP extension example",
+      "topics": [
+        "ddGTP extension example"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram checked; input and all three product strings retained exactly as printed. They are not silently reconciled with page 19.",
+      "uncertainties": [
+        {
+          "id": "techniques-p17-u1",
+          "description": "Page 19 repeats the same displayed template but its longer printed products use …AGTTCTCG… rather than this page’s …AGTTCTTG…. Exact example-sequence answers are blocked pending source resolution.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p17-ddgtp-example"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Parallel dideoxy reaction mixtures",
+      "topics": [
+        "Parallel dideoxy reaction mixtures"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full image reviewed. All concentration units and four-branch structure preserved; branches are parallel, not a sequence.",
+      "uncertainties": [
+        {
+          "id": "techniques-p18-u1",
+          "description": "The dNTP 100 μM caption does not define total versus per-nucleotide concentration. Do not score a more specific interpretation.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p18-sanger-concentrations"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "DNA sequencing: Sanger dideoxy method with labeled primer",
+      "topics": [
+        "DNA sequencing: Sanger dideoxy method with labeled primer"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size source checked. Product sequences differ from page 17 as recorded. Dense gel lane labels retained; no invented full base-call transcription.",
+      "uncertainties": [
+        {
+          "id": "techniques-p19-u1",
+          "description": "Longer product strings disagree with page 17 despite the same displayed template. Preserve both and block exact example-sequence assessment.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "techniques-p19-u2",
+          "description": "The autoradiogram has dense, partly merged bands and no complete supplied read. An exact full sequence cannot be recovered reliably from this raster and is not assessable.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p19-sanger-labeled-primer"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Automated DNA sequencing",
+      "topics": [
+        "Automated DNA sequencing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size chromatogram inspected. Peak colors, initial ambiguous N calls, individual letters and position numbering are visible; exact whole-read transcription is deferred because the source raster has closely spaced, partly ambiguous characters.",
+      "uncertainties": [
+        {
+          "id": "techniques-p20-u1",
+          "description": "Exact complete chromatogram base calls and a color-to-base mapping cannot be established reliably from the provided raster/absent legend. Do not score a full sequence or an inferred color key.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p20-automated-sequencing"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction fragment length polymorphism",
+      "topics": [
+        "Restriction fragment length polymorphism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p21-rflp-principle"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RFLP and genetic polymorphism",
+      "topics": [
+        "RFLP and genetic polymorphism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p22-polymorphism",
+        "techniques-p22-rflp-history"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction enzymes",
+      "topics": [
+        "Restriction enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and layout visually checked; no additional unlabeled teaching relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p23-restriction-protection"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Restriction enzymes cut at specific sequences",
+      "topics": [
+        "Restriction enzymes cut at specific sequences"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both panels checked at full readable resolution from contact sheet. Sequence orientation, cut positions, sticky-end label, methylase and no-cleavage statement preserved.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p24-ecori"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Palindromes, sticky ends and blunt ends",
+      "topics": [
+        "Palindromes, sticky ends and blunt ends"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size screenshot table enlarged and inspected. All six rows reconstructed, including offset PstI cuts and centrally aligned HaeIII/SmaI cuts. Table facts preserved even though exact-site memorization has lower priority than end-type relationships.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p25-restriction-ends",
+        "techniques-p25-restriction-sequences"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sickle-cell anemia and MstII protocol",
+      "topics": [
+        "Sickle-cell anemia and MstII protocol"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Exact allele letters, substituted base and CCTNAGG recognition motif checked; chronological arrows are explicit in protocol.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p26-sickle-mstii"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "RFLP / MstII test for sickle-cell anemia",
+      "topics": [
+        "RFLP / MstII test for sickle-cell anemia"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size gel/pedigree and gene cartoons checked. Genotypes and five lane patterns retained; no unique-answer constraint imposed on repeated equivalent AS lanes.",
+      "uncertainties": [],
+      "lectureId": "techniques",
+      "sourcePath": "../sources/slides/06-techniques.pdf",
+      "conceptIds": [
+        "techniques-p27-rflp-band-pattern"
+      ]
+    }
+  ]
+}

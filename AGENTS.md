@@ -4,7 +4,7 @@ Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` 
 
 ## Current stage
 
-Product discovery is complete. The user approved Study Atlas, the GitHub slug study-atlas, and proceeding with setup. Study Atlas is a general platform for future subjects; Molecular Biology is its first subject. Use a maintainable multi-file project and GitHub now; complete offline capability remains a future preference. The public repository exists at https://github.com/TheMedDude/study-atlas, and the initial handoff text is committed. All six lecture PDFs have been pushed with Git, and their remote Git blob hashes and byte sizes match the original copies. This handoff contains sources and planning only. Do not claim an app, bank, full extraction, content QA, or website deployment is already complete.
+Product discovery is complete. The user approved Study Atlas, the GitHub slug study-atlas, and proceeding with setup. Study Atlas is a general platform for future subjects; Molecular Biology is its first subject. Use a maintainable multi-file project and GitHub now; complete offline capability remains a future preference. The public repository exists at https://github.com/TheMedDude/study-atlas, and the initial handoff text is committed. All six lecture PDFs have been pushed with Git, and their remote Git blob hashes and byte sizes match the original copies. Source extraction and source QA are now complete: all 191 pages reviewed, 183 teaching pages, 8 exclusions, 303 concepts, and 50 uncertainty records. See subjects/molecular-biology/source-analysis/INDEX.md and QA.md. Activity authoring and application implementation are in progress; do not claim the bank, app, or deployment is complete until verified.
 
 ## Account constraint
 
@@ -21,3 +21,7 @@ Five-option MCQs must have plausible, parallel distractors without formatting cl
 Maintain a project log as work progresses. Favor simple modular static files and source-relative paths; choose implementation details to support the confirmed UX. Do not require accounts or a paid runtime for the first version. Preserve original files and map every activity to its exact source page. A GitHub repository and a live website must be reported separately.
 
 Keep subjects, sources, assessment scopes, activity banks, and progress separable. Preserve every confirmed Molecular Biology choice in `docs/DISCOVERY.md`, while treating its midterm scope, five-option MCQs, and language settings as the first subject's configuration rather than permanent platform restrictions. Do not reopen completed product discovery or seek repeated approval for the authorized repository setup.
+
+## Source analysis checkpoint
+
+The consolidated Markdown and per-lecture source records are complete. Run scripts/build_source_index.py and scripts/validate_content.py with Python dependencies pypdf, pypdfium2, and Pillow available. Candidate banks under subjects/molecular-biology/activities/ require independent review before merging into activities.json. Read docs/CONTENT_MODEL.md for activity evidence and progress rules. Only validated items enter the app. Every clear core concept needs activity coverage or an explicit source-based deferral; supporting detail stays visible even without activities.
