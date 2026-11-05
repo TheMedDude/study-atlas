@@ -4,7 +4,7 @@ Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` 
 
 ## Current stage
 
-Product discovery is complete. The user approved Study Atlas, the GitHub slug study-atlas, and proceeding with setup. Study Atlas is a general platform for future subjects; Molecular Biology is its first subject. Use a maintainable multi-file project and GitHub now; complete offline capability remains a future preference. The public repository exists at https://github.com/TheMedDude/study-atlas, and the initial handoff text is committed. Upload of the six lecture PDFs is in progress and must be verified separately. This handoff contains sources and planning only. Do not claim an app, bank, full extraction, complete PDF upload, or website deployment is already complete.
+Product discovery is complete. The user approved Study Atlas, the GitHub slug study-atlas, and proceeding with setup. Study Atlas is a general platform for future subjects; Molecular Biology is its first subject. Use a maintainable multi-file project and GitHub now; complete offline capability remains a future preference. The public repository exists at https://github.com/TheMedDude/study-atlas, and the initial handoff text is committed. All six lecture PDFs have been pushed with Git, and their remote Git blob hashes and byte sizes match the original copies. This handoff contains sources and planning only. Do not claim an app, bank, full extraction, content QA, or website deployment is already complete.
 
 ## Account constraint
 

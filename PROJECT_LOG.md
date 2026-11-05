@@ -7,5 +7,7 @@
 - User approved Study Atlas, repository slug study-atlas, public visibility, and TheMedDude as owner.
 - Verified the connected GitHub identity and created the public repository.
 - Preserved unchanged PDF copies and a hash-based manifest under subjects/molecular-biology/sources/.
-- Initial handoff and PDF upload are in progress.
+- Completed Git authentication as TheMedDude and pushed the handoff plus all six lecture PDFs.
+- Verified all six remote PDF blob hashes and byte sizes against the original copies.
+- Local repository tracks the public origin/main branch.
 - Full source extraction, coverage analysis, question bank, application implementation, and website deployment have not started.
