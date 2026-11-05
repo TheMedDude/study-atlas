@@ -4,7 +4,7 @@ A study platform that turns course materials into focused practice, interactive 
 
 **[Open Study Atlas](https://themeddude.github.io/study-atlas/)** · [GitHub repository](https://github.com/TheMedDude/study-atlas)
 
-The public website is deployed on GitHub Pages. The revised release has 694 independently reviewed activities, including 601 five-option questions, and passes all 45 local automated tests. See PROJECT_LOG.md for the separate deployment verification of the latest release.
+The public website is deployed on GitHub Pages. The live release has 694 independently reviewed activities, including 601 five-option questions, and passes all 45 automated tests locally and in CI. Its published bank and both fonts were verified separately from the repository push; see PROJECT_LOG.md.
 
 The first release implements Molecular Biology from six supplied lectures. The shared platform is separate from subject sources, assessment scope, activities and progress. GitHub repository and website deployment status are recorded separately in `PROJECT_LOG.md`.
 
