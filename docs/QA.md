@@ -12,7 +12,7 @@ All 191 portable source images are lossless 1440×1080 WebP renders of the uncha
 
 ## Automated verification
 
-`npm run check` passed JavaScript syntax validation. All **45 automated tests passed**. The added content regression rejects source/slide-framed stems. `npm test` checks source hashes and page/image coverage, reviewed-bank integrity, core coverage, MCQ/match/order scoring, interchangeable groups, repeat-resistant evidence, weak-area variant selection, fixed exam result accounting, timer display, strict import validation, semantic deduplication, subject/scope isolation, storage failure, cross-tab reconciliation and clears, bank-change archives, and portable history limits.
+`npm run check` passed JavaScript syntax validation. All **56 automated tests passed**. The added content regression rejects source/slide-framed stems. `npm test` checks source hashes and page/image coverage, reviewed-bank integrity, core coverage, MCQ/match/order scoring, interchangeable groups, repeat-resistant evidence, weak-area variant selection, fixed exam result accounting, timer display, strict import validation, semantic deduplication, subject/scope isolation, storage failure, cross-tab reconciliation and clears, bank-change archives, and portable history limits.
 
 The source pipeline also passed `build_source_index.py`, `validate_content.py`, and `build_bank.py`. Structural checks supplement source review; they do not independently certify biological truth beyond the supplied lectures.
 
@@ -65,3 +65,6 @@ In the actual in-app browser, the pre-existing local QA history remained intact.
 The in-app print dialog stalled, so the released export uses a direct local PDF download. Actual app downloads produced a one-page Arabic PDF and a six-page, 30-topic English PDF. Both parsed as A4 in pypdf and rendered with pypdfium2; sampled pages were inspected. PDF notes contain topic headings, validated facts/relationships/processes and source-page references, without stems/distractors/grading. Pages are rendered text images to preserve browser font shaping. No student records, note selections, browser histories or synthetic QA backups are committed.
 
 Existing progress retains its v1 keys/schema. Study state is independent and appears as an optional extension in portable backups; legacy files remain accepted. Storage and combined-backup failures are surfaced truthfully. Browser data is local to a browser/device, so clearing it or moving devices still requires a backup. Source/content verification remains unchanged; production status is recorded in PROJECT_LOG.md after deployment.
+
+
+Version 1.1 functional release `30ee7c403b982261a7c05f14830c311ef8ab683b` passed [CI 42388487151](https://github.com/TheMedDude/study-atlas/actions/runs/42388487151) with all 56 tests. [Pages 42388486189](https://github.com/TheMedDude/study-atlas/actions/runs/42388486189) and build 1349343996 succeeded for the same commit. Seven published application/assets returned HTTP 200 and matched committed bytes; the public bank still contains 694 activities / 601 MCQs. Subsequent handoff changes affect documentation only.
