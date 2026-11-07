@@ -1,4 +1,5 @@
 import { completeResponse, scoreActivity } from './model.js';
+import { validateStudy, restoreSession } from './study.js';
 
 export const MAX_BACKUP_BYTES = 8 * 1024 * 1024;
 export const MAX_ATTEMPTS = 20000;
@@ -88,6 +89,13 @@ export function parseBackup(text, subjectId, scopeId, activities, now = Date.now
   }
   // archivedAttempts are bounded, structurally checked historical data only. They
   // never enter attempts, so an unverifiable historical score cannot add evidence.
+  const extra = JSON.parse(text).studyState;
+  if (extra !== undefined) {
+    data.studyState = validateStudy(extra,subjectId,scopeId,now);
+    for (const session of data.studyState.sessions.filter(s=>!s.deleted)) {
+      if (session.items.every(ref=>bank.get(ref.id)?.revision===ref.revision)) restoreSession(session,activities,{generation:session.generation,attempts:data.attempts},now);
+    }
+  }
   return data;
 }
 

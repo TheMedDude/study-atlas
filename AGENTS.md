@@ -6,7 +6,7 @@ Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` 
 
 Product discovery, source extraction, source QA, activity authoring and independent content review are complete. All 191 PDF pages are reviewed: 183 teaching pages, 8 cover/administrative exclusions, 303 indexed concepts and 50 uncertainty records. The compiled bank has 694 validated activities (601 five-option MCQs), covering all 227 core concepts and 278 total concepts; 25 supporting/uncertain concepts have explicit deferrals. See source-analysis/INDEX.md, QA.md and activity-review-summary.json.
 
-The shared static application is implemented with Practice, Exam, concept drills, weak-area review, source page viewing, device progress and backup/restore. Read docs/QA.md and the latest PROJECT_LOG.md entry for verification and deployment status. A public repository and a live website remain separate facts; do not infer deployment from a push alone.
+The shared static application is implemented with Practice, Exam, concept drills, weak-area review, source page viewing, device progress and backup/restore. Version 1.1 adds resumable practice, Previous/Skip/early Finish, All available, an elapsed clock, fixed navigation, keyboard shortcuts, saved questions, direct PDF study notes and chronological Updates with a one-time returning-user popup. Read docs/QA.md and the latest PROJECT_LOG.md entry for verification and deployment status. A public repository and a live website remain separate facts; do not infer deployment from a push alone.
 
 ## Account constraint
 
@@ -35,3 +35,5 @@ Use the existing checkout; do not create a new checkout for routine continuation
 Do not overwrite reviewed banks with obsolete work/ authoring scripts. Keep stable IDs and increment revisions when scored meaning changes. Only independently validated records enter the compiled bank. Progress files and QA browser history must never be committed.
 
 Settings and subject/scope progress are separate. Cross-tab saves reconcile; clears use resetProgress, not an empty old-generation snapshot. Archived responses are excluded from current evidence. Keep backup compatibility, retention-window notices, and failure copy truthful.
+
+Saved questions and resumable sessions use a separate subject/scope study-state key. Preserve existing answer-history keys and legacy backups. Practice answers count when checked; leaving or skipping never erases checked history or fabricates evidence. Resume keeps stable attempt IDs and shuffled order; closed-session tombstones must prevent stale-tab resurrection. Updates is a plain oldest-to-newest list, opening scrolled to the newest entry at the bottom.

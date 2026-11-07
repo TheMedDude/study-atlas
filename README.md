@@ -4,19 +4,21 @@ A study platform that turns course materials into focused practice, interactive 
 
 **[Open Study Atlas](https://themeddude.github.io/study-atlas/)** · [GitHub repository](https://github.com/TheMedDude/study-atlas)
 
-The public website is deployed on GitHub Pages. The live release has 694 independently reviewed activities, including 601 five-option questions, and passes all 45 automated tests locally and in CI. Its published bank and both fonts were verified separately from the repository push; see PROJECT_LOG.md.
+The public website is deployed on GitHub Pages. The live release has 694 independently reviewed activities, including 601 five-option questions, and passes all 56 automated tests locally and in CI. Its published bank and both fonts were verified separately from the repository push; see PROJECT_LOG.md.
 
 The first release implements Molecular Biology from six supplied lectures. The shared platform is separate from subject sources, assessment scope, activities and progress. GitHub repository and website deployment status are recorded separately in `PROJECT_LOG.md`.
 
 ## Study
 
-- **Practice:** an initial recommendation of 10 questions, chapter/count selection, immediate checking by default, and a select-then-confirm setting. Later selections prioritize weak concepts and different variants where available.
+- **Practice:** chapter/count selection or All available, immediate checking or select-then-confirm, Previous/Skip, early Finish, an elapsed clock, a fixed navigation bar, and automatic save/resume. Checked answers count even if you leave before finishing.
 - **Exam:** student-selected count and optional timer; the question set stays fixed and feedback follows completion.
 - **Concept drills:** automatically scored matching, ordering with equivalent steps accepted, and original-diagram choices.
 - **Sources:** side-by-side and full-screen original-page viewing with zoom, exact PDF-page navigation, and original PDF downloads.
 - **Explanations:** English/Arabic toggle, retaining English scientific terms in Arabic. Inter and Noto Sans Arabic are bundled locally for clear typography in both languages.
 - **Question style:** direct, self-contained biology questions; source references appear with explanations. Session shortcuts offer 10/25/50/100 questions when available.
-- **Progress:** coverage and distinct-item evidence shown separately, with JSON backup/restore. Progress stays in the current browser; it is never uploaded to GitHub.
+- **Saved:** bookmark questions and download factual English/Arabic PDF study notes.
+- **Updates:** a simple 1.0/1.1 release list; latest at the bottom, plus a one-time summary for returning users with progress.
+- **Progress:** recorded-answer totals, coverage and distinct-item evidence shown separately, with JSON backup/restore including saved questions and sessions. Progress stays in the current browser; it is never uploaded to GitHub.
 
 ## Content release
 

@@ -329,3 +329,91 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .chapter-card p,.card-bottom small,.chapter-choice small,.source-link,.workspace-foot,.session-top .text-button { font-size:.8rem; }
 .question>.eyebrow { font-size:.75rem; letter-spacing:.08em; }
 @media(max-width:760px) { .sidebar nav button { font-size:.8rem; } .match-row>span { font-size:1rem; } .match-row select,.order-list li { font-size:.9rem; } }
+
+/* The question controls stay in the same place when explanations expand. */
+.workspace.is-session #main { padding-bottom:160px; }
+.workspace.is-session .workspace-foot { display:none; }
+.session-dock { position:fixed; z-index:18; bottom:0; left:232px; right:0; background:var(--paper); border-top:1px solid var(--line); padding:13px 28px calc(12px + env(safe-area-inset-bottom)); box-shadow:0 -6px 24px #26352e08; }
+.workspace.with-source .session-dock { right:min(46vw,620px); }
+.dock-buttons { display:flex; gap:10px; max-width:880px; margin:auto; }
+.dock-buttons .button:last-child { margin-left:auto; min-width:120px; }
+.shortcut-hint { max-width:880px; margin:7px auto 0; font-size:.73rem; color:var(--muted); }
+.session-top { flex-wrap:wrap; }
+.session-top>div { flex-wrap:wrap; }
+.question-tools { display:flex; align-items:start; justify-content:space-between; gap:20px; margin-bottom:18px; }
+.question-tools .eyebrow { color:var(--muted); font-size:.73rem; margin:0; }
+.save-question { flex-shrink:0; }
+.session-save-status,.question-list { max-width:880px; margin:24px auto; }
+.question-list summary { cursor:pointer; font-size:.85rem; }
+.exam-map .skipped { border-style:dashed; background:#fff0df; }
+.resume-panel { margin-bottom:28px; }
+.resume-panel h2 { font-size:1.4rem; margin-bottom:12px; }
+.resume-row { display:flex; gap:20px; align-items:center; justify-content:space-between; border-top:1px solid var(--line); padding:16px 0; }
+.resume-row:last-child { padding-bottom:0; }
+.resume-row strong { font-size:.9rem; }
+.saved-list { display:grid; gap:16px; }
+.saved-question h3 { font-size:1.1rem; }
+.saved-question .section-head { margin-bottom:14px; align-items:center; }
+.saved-question .eyebrow { margin:0; }
+.saved-question details { margin-top:16px; }
+.saved-question summary { cursor:pointer; font-size:.85rem; margin-bottom:16px; }
+.release-history { display:grid; gap:26px; }
+.answer-totals { display:flex; flex-wrap:wrap; gap:18px 32px; border:1px solid var(--line); border-radius:12px; padding:20px 24px; margin-bottom:25px; background:var(--paper); }
+.answer-totals>div { display:flex; align-items:baseline; gap:9px; }
+.answer-totals strong { font-size:1.6rem; font-variant-numeric:tabular-nums; }
+.answer-totals span { font-size:.82rem; color:var(--muted); }
+.answer-totals>p { width:100%; font-size:.78rem; color:var(--muted); }
+.practice-completion { margin-bottom:20px; color:var(--muted); }
+.release-copy { max-width:800px; }
+.release-copy h2,.release-dialog h2 { margin:0 0 22px; font-size:1.8rem; }
+.release-copy li,.release-dialog li { line-height:1.7; margin-bottom:10px; }
+.release-dialog { width:min(640px,94vw); border:1px solid var(--line); border-radius:18px; padding:30px; background:var(--paper); color:var(--ink); }
+.release-dialog .button-row { margin-top:24px; }
+.release-dialog::backdrop,.notes-dialog::backdrop { background:#1c2e2466; }
+.notes-dialog { width:min(1000px,96vw); max-width:96vw; max-height:94dvh; border:1px solid var(--line); border-radius:15px; background:white; color:var(--ink); padding:0; }
+.notes-actions { position:sticky; top:0; background:var(--paper); border-bottom:1px solid var(--line); display:flex; gap:16px; align-items:center; padding:18px 24px; z-index:1; }
+.notes-actions>div { flex:1; }
+#study-notes { padding:40px 48px; }
+.notes-title { border-bottom:2px solid var(--ink); padding-bottom:24px; margin-bottom:30px; }
+.notes-title>p { font-size:.8rem; color:var(--muted); }
+.notes-title h1 { font-size:2.3rem; margin:14px 0; }
+.notes-chapter>h2 { margin:30px 0 20px; font-size:1.6rem; }
+.study-note { margin-bottom:24px; padding:20px 0; border-top:1px solid var(--line); }
+.study-note h3 { margin-bottom:14px; font-size:1.05rem; }
+.study-note dl>div { display:grid; grid-template-columns:1fr 1.5fr; gap:12px; border-top:1px solid var(--line); padding:10px 0; font-size:.9rem; }
+.study-note dd { margin:0; }
+.study-note li { line-height:1.6; margin-bottom:8px; }
+.note-refs { color:var(--muted); font-size:.72rem; margin-top:16px; }
+@media(max-width:1100px) { .session-dock { left:210px; } }
+@media(max-width:760px) {
+  .session-dock { left:0; padding:12px 18px calc(12px + env(safe-area-inset-bottom)); }
+  .dock-buttons { gap:8px; }
+  .dock-buttons .button { padding:11px 13px; font-size:.82rem; }
+  .dock-buttons .button:last-child { min-width:90px; }
+  .shortcut-hint { font-size:.65rem; }
+  .session-top { gap:18px; }
+  .session-top>div { gap:10px; }
+  .question-tools { flex-wrap:wrap; gap:12px; }
+  .resume-row,.notes-actions { flex-wrap:wrap; }
+  #study-notes { padding:28px 22px; }
+  .notes-actions>div { min-width:100%; }
+  .notes-actions .button { min-height:42px; }
+  .release-dialog { padding:25px; }
+}
+@media print {
+  @page { size:A4; margin:18mm; }
+  body { background:white; color:#17231c; }
+  body:has(#notes-dialog[open])>*:not(#notes-dialog) { display:none!important; }
+  #notes-dialog { display:block!important; position:static; width:auto; max-width:none; max-height:none; height:auto; overflow:visible; border:0; border-radius:0; margin:0; padding:0; box-shadow:none; }
+  #notes-dialog::backdrop,.notes-actions { display:none!important; }
+  #study-notes { padding:0; }
+  .notes-title h1 { font-size:25pt; }
+  .notes-title p { font-size:9pt; }
+  .notes-chapter>h2 { font-size:17pt; break-after:avoid; }
+  .study-note { break-inside:avoid; padding:14px 0; margin-bottom:10px; }
+  .study-note h3 { font-size:11pt; break-after:avoid; }
+  .study-note .explanation { font-size:11pt; line-height:1.6; }
+  .study-note .explanation[lang=ar] { font-size:12pt; line-height:1.9; }
+  .note-refs { font-size:8pt; overflow-wrap:anywhere; }
+  .note-refs a { text-decoration:none; }
+}

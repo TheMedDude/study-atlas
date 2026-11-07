@@ -76,3 +76,12 @@ The portable inventory is in `subjects/molecular-biology/sources/manifest.json`,
 ## Implementation handoff
 
 Source analysis and independent activity review are complete. The shared application implements the confirmed study modes, settings, source references and local progress policy. See PROJECT_LOG.md for exact counts, commits and live deployment status, and docs/QA.md for verification evidence and limits. Future subjects still need their own authoritative sources and review; the first subject's midterm scope, five-option format and language choices remain subject configuration.
+
+## Latest user revisions — 2026-11-07 / version 1.1
+
+- Practice needs Previous, Skip, an elapsed study clock, a Finish session action available before answering everything, and All available for the selected chapters.
+- Save and resume practice later, including question order, shuffled choices, checked and selected answers, skipped items and elapsed active study time. Checked answers count immediately even when a session is left unfinished. Keep a visible answer-history total separate from concept coverage and evidence.
+- Keep Next/Previous visible in a fixed bottom navigation bar when feedback expands. Keyboard: 1–5 select displayed options; Enter checks in confirmation mode then advances, + toggles the source slide in practice, and - goes to the previous question. Do not intercept editing fields, dialogs or modified browser shortcuts.
+- Save individual questions in a Saved tab. Export selected saved material as factual study notes in a directly downloaded PDF, with topic headings, explanations and exact source references, rather than question stems, distractors or scoring UI. Reuse validated content without adding outside biology.
+- Updates is a plain chronological page: version 1.0 first, version 1.1 latest at the bottom. Open scrolled to the bottom. No version buttons or expanding sections. Show a brief 1.1 popup once on first return for users who already had answer history; fresh users do not get an update popup after their first practice. The popup can lead to Updates.
+- Preserve existing browser data and older backup compatibility. Explain truthfully that device-local storage is not cloud backup and clearing site data can remove the local copy. The user clarified that the reported 234-question problem is a behavior to fix, not a request to recover their previous session.

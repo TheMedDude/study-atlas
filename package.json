@@ -1,12 +1,12 @@
 {
   "name": "study-atlas",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "description": "Source-linked study practice across subjects",
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",
-    "check": "node --check app/app.js && node --check app/model.js && node --check app/storage.js"
+    "check": "node --check app/app.js && node --check app/model.js && node --check app/storage.js && node --check app/study.js && node --check app/notes.js && node --check app/pdf.js"
   }
 }
