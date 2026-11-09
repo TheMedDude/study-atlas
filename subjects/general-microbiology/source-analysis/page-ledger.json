@@ -1,0 +1,4308 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Five major groups of infectious organisms and kingdoms",
+      "topics": [
+        "Five major groups of infectious organisms and kingdoms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p01-five-groups",
+        "bacteria-and-other-microorganisms-p01-kingdom-classification",
+        "bacteria-and-other-microorganisms-p01-cell-types"
+      ]
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microscopic gallery of pathogenic organisms",
+      "topics": [
+        "Microscopic gallery of pathogenic organisms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Twelve numbered panels reviewed; photographic representation without textual claims.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p02-gallery"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of medically important organisms",
+      "topics": [
+        "Comparison of medically important organisms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p03-comparison-cells",
+        "bacteria-and-other-microorganisms-p03-comparison-diameter",
+        "bacteria-and-other-microorganisms-p03-comparison-nucleic-acid",
+        "bacteria-and-other-microorganisms-p03-comparison-nucleus",
+        "bacteria-and-other-microorganisms-p03-comparison-ribosomes",
+        "bacteria-and-other-microorganisms-p03-comparison-mitochondria",
+        "bacteria-and-other-microorganisms-p03-comparison-outer-surface",
+        "bacteria-and-other-microorganisms-p03-comparison-motility",
+        "bacteria-and-other-microorganisms-p03-comparison-replication"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three main differential criteria for classification",
+      "topics": [
+        "Three main differential criteria for classification"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p04-structure-criterion",
+        "bacteria-and-other-microorganisms-p04-replication-criterion",
+        "bacteria-and-other-microorganisms-p04-nucleic-acid-criterion"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic versus prokaryotic cellular features",
+      "topics": [
+        "Eukaryotic versus prokaryotic cellular features"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p05-eukaryotic-nucleus",
+        "bacteria-and-other-microorganisms-p05-prokaryotic-nucleoid",
+        "bacteria-and-other-microorganisms-p05-eukaryote-prokaryote-table"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Organelles, ribosomes, peptidoglycan and sterol distribution",
+      "topics": [
+        "Organelles, ribosomes, peptidoglycan and sterol distribution"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p06-organelles-ribosomes",
+        "bacteria-and-other-microorganisms-p06-wall-peptidoglycan-chitin",
+        "bacteria-and-other-microorganisms-p06-sterols-mycoplasma"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Binomial Linnean nomenclature and naming conventions",
+      "topics": [
+        "Binomial Linnean nomenclature and naming conventions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p07-binomial-system",
+        "bacteria-and-other-microorganisms-p07-viral-names",
+        "bacteria-and-other-microorganisms-p07-candida-albicans",
+        "bacteria-and-other-microorganisms-p07-ella-suffix"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial classification by shape and morphology",
+      "topics": [
+        "Bacterial classification by shape and morphology"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p08-three-shapes",
+        "bacteria-and-other-microorganisms-p08-pleomorphic",
+        "bacteria-and-other-microorganisms-p08-cocci-arrangements",
+        "bacteria-and-other-microorganisms-p08-bacilli-shapes",
+        "bacteria-and-other-microorganisms-p08-spirochete-coiling"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial arrangement and plane of division",
+      "topics": [
+        "Bacterial arrangement and plane of division"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p09-arrangement-importance",
+        "bacteria-and-other-microorganisms-p09-division-plane",
+        "bacteria-and-other-microorganisms-p09-rods-spirochetes-arrangement"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial size ranges and comparisons",
+      "topics": [
+        "Bacterial size ranges and comparisons"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p10-size-range",
+        "bacteria-and-other-microorganisms-p10-smallest-bacteria",
+        "bacteria-and-other-microorganisms-p10-longest-bacteria"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Architectural regions divider",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryotic cell architectural regions",
+      "topics": [
+        "Prokaryotic cell architectural regions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p12-appendages-region",
+        "bacteria-and-other-microorganisms-p12-envelope-region",
+        "bacteria-and-other-microorganisms-p12-cytoplasmic-region"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial cell diagram",
+      "topics": [
+        "Bacterial cell diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cell diagram visually verified.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p13-cell-diagram"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cell wall functions and peptidoglycan",
+      "topics": [
+        "Cell wall functions and peptidoglycan"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p14-wall-outermost",
+        "bacteria-and-other-microorganisms-p14-peptidoglycan-support",
+        "bacteria-and-other-microorganisms-p14-surface-features"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of Gram-positive and Gram-negative cell walls",
+      "topics": [
+        "Comparison of Gram-positive and Gram-negative cell walls"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p15-peptidoglycan-thickness",
+        "bacteria-and-other-microorganisms-p15-teichoic-acid-presence",
+        "bacteria-and-other-microorganisms-p15-lps-presence"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-negative outer membrane, periplasmic space, and beta-lactamase inhibitors",
+      "topics": [
+        "Gram-negative outer membrane, periplasmic space, and beta-lactamase inhibitors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p16-outer-membrane-lps",
+        "bacteria-and-other-microorganisms-p16-periplasmic-space",
+        "bacteria-and-other-microorganisms-p16-beta-lactamase-inhibitors",
+        "bacteria-and-other-microorganisms-p16-teichoic-staph-strep"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Components of bacterial cells distribution table",
+      "topics": [
+        "Components of bacterial cells distribution table"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table reviewed.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p17-components-table"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Summary of cell wall differences and periplasmic space enzymes",
+      "topics": [
+        "Summary of cell wall differences and periplasmic space enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p18-teichoic-protrusion",
+        "bacteria-and-other-microorganisms-p18-outer-membrane-composition",
+        "bacteria-and-other-microorganisms-p18-periplasmic-drug-degradation"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Porin channels and antigenic properties of the cell wall",
+      "topics": [
+        "Porin channels and antigenic properties of the cell wall"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p19-wall-antigens",
+        "bacteria-and-other-microorganisms-p19-porin-function"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-negative cell wall schematic",
+      "topics": [
+        "Gram-negative cell wall schematic"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-9 checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p20-gram-negative-figure"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-positive cell wall schematic",
+      "topics": [
+        "Gram-positive cell wall schematic"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-6 checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p21-gram-positive-figure"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan synonyms and osmotic protection",
+      "topics": [
+        "Peptidoglycan synonyms and osmotic protection"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p22-three-components",
+        "bacteria-and-other-microorganisms-p22-peptidoglycan-uniqueness",
+        "bacteria-and-other-microorganisms-p22-peptidoglycan-synonyms"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lipopolysaccharide domains: Lipid A, Core, O-antigen",
+      "topics": [
+        "Lipopolysaccharide domains: Lipid A, Core, O-antigen"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p23-lipid-a",
+        "bacteria-and-other-microorganisms-p23-core-polysaccharide",
+        "bacteria-and-other-microorganisms-p23-o-antigen"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan monomer structure: NAM, NAG, and cross-links",
+      "topics": [
+        "Peptidoglycan monomer structure: NAM, NAG, and cross-links"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p24-glycan-chain",
+        "bacteria-and-other-microorganisms-p24-tetrapeptide-crosslink"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Multilayered three-dimensional peptidoglycan sacculus",
+      "topics": [
+        "Multilayered three-dimensional peptidoglycan sacculus"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p25-multilayered-sacculus"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan stereochemistry: D-amino acids",
+      "topics": [
+        "Peptidoglycan stereochemistry: D-amino acids"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-7 reviewed showing D-amino acid cross-link.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p26-d-amino-acids"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Teichoic acid structure, sepsis pathway, and adherence",
+      "topics": [
+        "Teichoic acid structure, sepsis pathway, and adherence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p27-teichoic-composition",
+        "bacteria-and-other-microorganisms-p27-lipoteichoic-anchoring",
+        "bacteria-and-other-microorganisms-p27-teichoic-pathogenesis"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain historical origin and four-step protocol",
+      "topics": [
+        "Gram stain historical origin and four-step protocol"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p28-gram-origin",
+        "bacteria-and-other-microorganisms-p28-crystal-violet-step",
+        "bacteria-and-other-microorganisms-p28-iodine-step",
+        "bacteria-and-other-microorganisms-p28-decolorization-step",
+        "bacteria-and-other-microorganisms-p28-safranin-step"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain micrographs",
+      "topics": [
+        "Gram stain micrographs"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photomicrographs checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p29-gram-micrographs"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microscopic morphology details",
+      "topics": [
+        "Microscopic morphology details"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "High-power micrographs checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p30-stain-micrograph-detail"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain clinical utility and empirical penicillin selection",
+      "topics": [
+        "Gram stain clinical utility and empirical penicillin selection"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p31-gram-utility-id",
+        "bacteria-and-other-microorganisms-p31-gram-utility-antibiotic"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacteria not visualized by Gram stain and alternative diagnostic approaches",
+      "topics": [
+        "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p32-not-seen-mycobacteria",
+        "bacteria-and-other-microorganisms-p32-not-seen-treponema",
+        "bacteria-and-other-microorganisms-p32-not-seen-mycoplasma",
+        "bacteria-and-other-microorganisms-p32-not-seen-legionella",
+        "bacteria-and-other-microorganisms-p32-not-seen-chlamydiae",
+        "bacteria-and-other-microorganisms-p32-not-seen-rickettsiae"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Acid-fast bacteria, mycolic acids, and carbolfuchsin stain",
+      "topics": [
+        "Acid-fast bacteria, mycolic acids, and carbolfuchsin stain"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p33-acid-fast-wall",
+        "bacteria-and-other-microorganisms-p33-acid-fast-mechanism",
+        "bacteria-and-other-microorganisms-p33-counterstain-methylene-blue"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mycobacterial envelope layers: mycolic acid and arabinoglycan",
+      "topics": [
+        "Mycobacterial envelope layers: mycolic acid and arabinoglycan"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-8 reviewed.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p34-mycolic-arabinoglycan"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ziehl-Neelsen stain micrograph",
+      "topics": [
+        "Ziehl-Neelsen stain micrograph"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photomicrograph checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p35-ziehl-neelsen-micrograph"
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lysozyme cleavage of peptidoglycan and protoplast formation",
+      "topics": [
+        "Lysozyme cleavage of peptidoglycan and protoplast formation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p36-lysozyme-location-target",
+        "bacteria-and-other-microorganisms-p36-osmotic-rupture-lysozyme",
+        "bacteria-and-other-microorganisms-p36-protoplasts-isotonic"
+      ]
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Essential bacterial structures: Cell wall components",
+      "topics": [
+        "Essential bacterial structures: Cell wall components"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p37-essential-peptidoglycan",
+        "bacteria-and-other-microorganisms-p37-essential-lipid-a",
+        "bacteria-and-other-microorganisms-p37-essential-surface-antigens"
+      ]
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Essential bacterial components: Membrane, Ribosomes, Nucleoid, Mesosome, Periplasm",
+      "topics": [
+        "Essential bacterial components: Membrane, Ribosomes, Nucleoid, Mesosome, Periplasm"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p38-essential-plasma-membrane",
+        "bacteria-and-other-microorganisms-p38-essential-ribosomes",
+        "bacteria-and-other-microorganisms-p38-essential-nucleoid",
+        "bacteria-and-other-microorganisms-p38-essential-mesosome",
+        "bacteria-and-other-microorganisms-p38-essential-periplasm"
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nonessential bacterial structures",
+      "topics": [
+        "Nonessential bacterial structures"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p39-nonessential-capsule",
+        "bacteria-and-other-microorganisms-p39-nonessential-pilus",
+        "bacteria-and-other-microorganisms-p39-nonessential-flagellum",
+        "bacteria-and-other-microorganisms-p39-nonessential-spore",
+        "bacteria-and-other-microorganisms-p39-nonessential-plasmid",
+        "bacteria-and-other-microorganisms-p39-nonessential-granule",
+        "bacteria-and-other-microorganisms-p39-nonessential-glycocalyx"
+      ]
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cytoplasmic membrane composition and four primary functions",
+      "topics": [
+        "Cytoplasmic membrane composition and four primary functions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p40-membrane-bilayer",
+        "bacteria-and-other-microorganisms-p40-membrane-four-functions"
+      ]
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ribosome subunit comparison and storage granules",
+      "topics": [
+        "Ribosome subunit comparison and storage granules"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p41-ribosome-selective-action",
+        "bacteria-and-other-microorganisms-p41-storage-granules"
+      ]
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial capsule composition, serotypes, and anthrax exception",
+      "topics": [
+        "Bacterial capsule composition, serotypes, and anthrax exception"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p42-capsule-composition",
+        "bacteria-and-other-microorganisms-p42-capsule-serotypes"
+      ]
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Importance of the capsule: Virulence, Quellung, Vaccines, Adherence",
+      "topics": [
+        "Importance of the capsule: Virulence, Quellung, Vaccines, Adherence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p43-capsule-antiphagocytic",
+        "bacteria-and-other-microorganisms-p43-quellung-reaction",
+        "bacteria-and-other-microorganisms-p43-capsule-vaccines",
+        "bacteria-and-other-microorganisms-p43-capsule-adherence"
+      ]
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opsonization by antibodies and complement",
+      "topics": [
+        "Opsonization by antibodies and complement"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p44-opsonization-definition",
+        "bacteria-and-other-microorganisms-p44-opsonin-receptors"
+      ]
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Flagella structure, flagellin, and chemotaxis",
+      "topics": [
+        "Flagella structure, flagellin, and chemotaxis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p45-flagella-chemotaxis",
+        "bacteria-and-other-microorganisms-p45-flagellin-atp",
+        "bacteria-and-other-microorganisms-p45-flagella-distribution"
+      ]
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial flagellar arrangements",
+      "topics": [
+        "Bacterial flagellar arrangements"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Arrangement diagrams reviewed.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p46-flagellar-arrangements"
+      ]
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Medical importance of flagella: UTI pathogenesis and serologic diagnosis",
+      "topics": [
+        "Medical importance of flagella: UTI pathogenesis and serologic diagnosis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p47-flagella-uti-movement",
+        "bacteria-and-other-microorganisms-p47-flagella-diagnosis-h-antigen"
+      ]
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pili (fimbriae) adherence virulence and sex pilus conjugation",
+      "topics": [
+        "Pili (fimbriae) adherence virulence and sex pilus conjugation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p48-pili-structure",
+        "bacteria-and-other-microorganisms-p48-pili-adherence",
+        "bacteria-and-other-microorganisms-p48-sex-pilus"
+      ]
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Electron micrographs of bacterial pili and conjugation bridge",
+      "topics": [
+        "Electron micrographs of bacterial pili and conjugation bridge"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "TEM images checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p49-pili-micrographs"
+      ]
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycocalyx forms, biofilms, and clinical persistence",
+      "topics": [
+        "Glycocalyx forms, biofilms, and clinical persistence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p50-glycocalyx-forms",
+        "bacteria-and-other-microorganisms-p50-biofilm-clinical-examples"
+      ]
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Diagram of bacterial mucoid-like structures",
+      "topics": [
+        "Diagram of bacterial mucoid-like structures"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p51-mucoid-structures-diagram"
+      ]
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial spores, sporulation, and dipicolinic acid resistance",
+      "topics": [
+        "Bacterial spores, sporulation, and dipicolinic acid resistance"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p52-spore-genera",
+        "bacteria-and-other-microorganisms-p52-sporulation-trigger",
+        "bacteria-and-other-microorganisms-p52-dipicolinic-acid",
+        "bacteria-and-other-microorganisms-p52-spore-dormancy"
+      ]
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Spore germination and steam autoclaving sterilization parameters",
+      "topics": [
+        "Spore germination and steam autoclaving sterilization parameters"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p53-spore-heat-resistance",
+        "bacteria-and-other-microorganisms-p53-autoclaving-parameters",
+        "bacteria-and-other-microorganisms-p53-spore-germination"
+      ]
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Features of spores and medical implications",
+      "topics": [
+        "Features of spores and medical implications"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p54-spores-medical-implications"
+      ]
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Classification divider",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Classification criteria and Gram-negative rod divisions",
+      "topics": [
+        "Classification criteria and Gram-negative rod divisions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p56-classification-basis",
+        "bacteria-and-other-microorganisms-p56-gram-negative-rod-divisions"
+      ]
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nature of the cell wall as the initial classification criterion",
+      "topics": [
+        "Nature of the cell wall as the initial classification criterion"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p57-initial-wall-criterion",
+        "bacteria-and-other-microorganisms-p57-free-living-vs-intracellular",
+        "bacteria-and-other-microorganisms-p57-flexible-and-absent-groups"
+      ]
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog",
+      "topics": [
+        "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 1 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance.",
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p58-table5-1-gram-pos"
+      ]
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Gram-negative cocci and straight rods catalog",
+      "topics": [
+        "Table 5-1: Gram-negative cocci and straight rods catalog"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 2 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance.",
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p59-table5-1-gram-neg-straight"
+      ]
+    },
+    {
+      "pdfPage": 60,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog",
+      "topics": [
+        "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 3 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance.",
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p60-table5-1-special-groups"
+      ]
+    },
+    {
+      "pdfPage": 61,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Free-living vs non-free-living",
+      "topics": [
+        "Table 5-1 crop: Free-living vs non-free-living"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p61-table-crop-free-living"
+      ]
+    },
+    {
+      "pdfPage": 62,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Gram-negative and acid-fast",
+      "topics": [
+        "Table 5-1 crop: Gram-negative and acid-fast"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p62-table-crop-gram-neg"
+      ]
+    },
+    {
+      "pdfPage": 63,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Intracellular, spirochetes, wall-less",
+      "topics": [
+        "Table 5-1 crop: Intracellular, spirochetes, wall-less"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p63-table-crop-spirochetes-mycoplasma"
+      ]
+    },
+    {
+      "pdfPage": 64,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Lecture completion divider",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacteria-and-other-microorganisms",
+      "sourcePath": "../sources/slides/01-bacteria-and-other-microorganisms.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial Genetics",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title-only cover.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial chromosome and haploidy",
+      "topics": [
+        "Bacterial chromosome and haploidy"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p02-u1",
+          "statement": "The source links any mutation to absent expression and loss of a trait.",
+          "issue": "This is broader than the later missense description, which describes insertion of a different amino acid.",
+          "handling": "Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+          "description": "The source links any mutation to absent expression and loss of a trait. This is broader than the later missense description, which describes insertion of a different amino acid. Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p02-nucleoid",
+        "bacterial-genetics-p02-chromosome-size",
+        "bacterial-genetics-p02-haploid",
+        "bacterial-genetics-p02-nuclear-structures",
+        "bacterial-genetics-p02-trait-loss"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryote versus eukaryote genetics",
+      "topics": [
+        "Prokaryote versus eukaryote genetics"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p03-prokaryote-chromosome",
+        "bacterial-genetics-p03-plasmids",
+        "bacterial-genetics-p03-eukaryote-chromosomes"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Other genetic elements and reproduction",
+      "topics": [
+        "Other genetic elements and reproduction"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p04-u1",
+          "statement": "“Poor ability to control environment.”",
+          "issue": "The phrase does not specify a measurable mechanism or comparison.",
+          "handling": "Retain for reference; defer direct scored questions about an unstated mechanism.",
+          "description": "“Poor ability to control environment.” The phrase does not specify a measurable mechanism or comparison. Retain for reference; defer direct scored questions about an unstated mechanism.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p04-elements",
+        "bacterial-genetics-p04-asexual",
+        "bacterial-genetics-p04-environment"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Plasmid structure and transmissibility",
+      "topics": [
+        "Plasmid structure and transmissibility"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p05-plasmid-definition",
+        "bacterial-genetics-p05-independent-replication",
+        "bacterial-genetics-p05-transmissible",
+        "bacterial-genetics-p05-copy-number"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "F-positive and F-negative cells",
+      "topics": [
+        "F-positive and F-negative cells"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only comparison inspected at full size; labels F+ Cell, F− Cell and Plasmid reconstructed.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p06-f-status"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "F factor, R factors and Hfr",
+      "topics": [
+        "F factor, R factors and Hfr"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p07-u1",
+          "statement": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation.",
+          "issue": "The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer.",
+          "handling": "Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+          "description": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation. The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer. Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p07-f-factor",
+        "bacterial-genetics-p07-r-factor",
+        "bacterial-genetics-p07-hfr"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Functions encoded by plasmids",
+      "topics": [
+        "Functions encoded by plasmids"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p08-u1",
+          "statement": "The repair-enzyme list prints “DNA glycolase”.",
+          "issue": "This enzyme name is unclear as written; no replacement spelling is supplied by the source.",
+          "handling": "Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+          "description": "The repair-enzyme list prints “DNA glycolase”. This enzyme name is unclear as written; no replacement spelling is supplied by the source. Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p08-resistance",
+        "bacterial-genetics-p08-toxins",
+        "bacterial-genetics-p08-adherence",
+        "bacterial-genetics-p08-uv-resistance"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacteriocins and degradative enzymes",
+      "topics": [
+        "Bacteriocins and degradative enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p09-bacteriocins",
+        "bacterial-genetics-p09-pores",
+        "bacterial-genetics-p09-dnaase",
+        "bacterial-genetics-p09-examples",
+        "bacterial-genetics-p09-applications"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial mutation",
+      "topics": [
+        "Bacterial mutation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p10-definition",
+        "bacterial-genetics-p10-types"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Spontaneous mutation",
+      "topics": [
+        "Spontaneous mutation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p11-natural",
+        "bacterial-genetics-p11-polymerase",
+        "bacterial-genetics-p11-frequency",
+        "bacterial-genetics-p11-selection"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Induced mutation",
+      "topics": [
+        "Induced mutation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p12-u1",
+          "statement": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”.",
+          "issue": "The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation.",
+          "handling": "Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+          "description": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”. The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation. Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p12-agents",
+        "bacterial-genetics-p12-thymine-dimers"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemical mutagen mechanisms",
+      "topics": [
+        "Chemical mutagen mechanisms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p13-u1",
+          "statement": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”.",
+          "issue": "The source does not clearly distinguish the named compounds or which antecedent the sentence describes.",
+          "handling": "Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+          "description": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”. The source does not clearly distinguish the named compounds or which antecedent the sentence describes. Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p13-modified-bases",
+        "bacterial-genetics-p13-base-analog",
+        "bacterial-genetics-p13-transition",
+        "bacterial-genetics-p13-benzpyrene"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Radiation and virus-induced mutation",
+      "topics": [
+        "Radiation and virus-induced mutation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p14-xray-backbone",
+        "bacterial-genetics-p14-xray-radicals",
+        "bacterial-genetics-p14-xray-electrons",
+        "bacterial-genetics-p14-uv",
+        "bacterial-genetics-p14-mu"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base substitution, frameshift and insertion",
+      "topics": [
+        "Base substitution, frameshift and insertion"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p15-u1",
+          "statement": "Nonsense mutation is followed by “then no protein is produced”.",
+          "issue": "The statement does not distinguish no protein from a shortened product or specify stop-codon position.",
+          "handling": "Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+          "description": "Nonsense mutation is followed by “then no protein is produced”. The statement does not distinguish no protein from a shortened product or specify stop-codon position. Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "bacterial-genetics-p15-u2",
+          "statement": "Frameshift is attributed to addition/deletion of “one or more base pairs”.",
+          "issue": "The lecture does not qualify the size of the insertion/deletion.",
+          "handling": "Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+          "description": "Frameshift is attributed to addition/deletion of “one or more base pairs”. The lecture does not qualify the size of the insertion/deletion. Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p15-substitution",
+        "bacterial-genetics-p15-missense",
+        "bacterial-genetics-p15-nonsense",
+        "bacterial-genetics-p15-frameshift",
+        "bacterial-genetics-p15-insertion"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conditional lethal and temperature-sensitive mutants",
+      "topics": [
+        "Conditional lethal and temperature-sensitive mutants"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p16-conditional",
+        "bacterial-genetics-p16-temperature",
+        "bacterial-genetics-p16-protein",
+        "bacterial-genetics-p16-nose-lungs"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposons within bacterial cells",
+      "topics": [
+        "Transposons within bacterial cells"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p17-mobility",
+        "bacterial-genetics-p17-cargo",
+        "bacterial-genetics-p17-effects"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposon domains and replication",
+      "topics": [
+        "Transposon domains and replication"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram and prose reviewed; all gene labels and repeat-direction arrows retained.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p18-u1",
+          "statement": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”.",
+          "issue": "It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element.",
+          "handling": "Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+          "description": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”. It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element. Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p18-repeats",
+        "bacterial-genetics-p18-transposase",
+        "bacterial-genetics-p18-repressor",
+        "bacterial-genetics-p18-fourth-domain",
+        "bacterial-genetics-p18-replication"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Insertion-sequence structure and pilus-gene rearrangement",
+      "topics": [
+        "Insertion-sequence structure and pilus-gene rearrangement"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both image-only panels reviewed at full size; caption, repeat labels, all numerical details and pilS/pilE/RecA labels reconstructed.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p19-u1",
+          "statement": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2.",
+          "issue": "The schematic and numerical example are not identical at the letter-count level.",
+          "handling": "Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+          "description": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2. The schematic and numerical example are not identical at the letter-count level. Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "bacterial-genetics-p19-u2",
+          "statement": "Terminal nucleotide strings and a clipped top fragment occur in a small inset.",
+          "issue": "Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim.",
+          "handling": "Preserve the original image as authority; defer direct nucleotide-string memorization.",
+          "description": "Terminal nucleotide strings and a clipped top fragment occur in a small inset. Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim. Preserve the original image as authority; defer direct nucleotide-string memorization.",
+          "assessmentBlocked": true
+        }
+      ],
+      "assessmentNotes": "Reference-only details in the listed policy are preserved for study; defer direct scored memorization of those details.",
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p19-is-structure",
+        "bacterial-genetics-p19-is2-example",
+        "bacterial-genetics-p19-pil-rearrangement"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposition and spread of antibiotic resistance",
+      "topics": [
+        "Transposition and spread of antibiotic resistance"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p20-movement",
+        "bacterial-genetics-p20-resistance-spread"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposon insertion diagram",
+      "topics": [
+        "Transposon insertion diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size schematic reviewed; color key, jumping arrow and insertion arrow reconstructed.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p21-insertion-diagram"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Programmed rearrangement and antigenic change",
+      "topics": [
+        "Programmed rearrangement and antigenic change"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p22-antigenic-variation",
+        "bacterial-genetics-p22-silent-active",
+        "bacterial-genetics-p22-immune-evasion"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replacement at an expression locus",
+      "topics": [
+        "Replacement at an expression locus"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size expression-locus diagram reviewed; copied versus stored gene 2 distinction retained.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p23-gene-copy"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three routes of intercellular DNA transfer",
+      "topics": [
+        "Three routes of intercellular DNA transfer"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p24-transformation",
+        "bacterial-genetics-p24-conjugation",
+        "bacterial-genetics-p24-transduction"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Consequences of transfer between bacterial cells",
+      "topics": [
+        "Consequences of transfer between bacterial cells"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p25-resistance",
+        "bacterial-genetics-p25-exotoxins"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conjugation sequence and F-factor replication",
+      "topics": [
+        "Conjugation sequence and F-factor replication"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p26-control",
+        "bacterial-genetics-p26-pilin",
+        "bacterial-genetics-p26-attachment",
+        "bacterial-genetics-p26-strand-transfer",
+        "bacterial-genetics-p26-completion"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Resistance plasmid functions and host range",
+      "topics": [
+        "Resistance plasmid functions and host range"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p27-enzymes",
+        "bacterial-genetics-p27-betalactamase",
+        "bacterial-genetics-p27-host-range"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conjugative transfer diagram",
+      "topics": [
+        "Conjugative transfer diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size schematic checked; solid/dashed strands and donor/recipient labels preserved.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p28-parental-new",
+        "bacterial-genetics-p28-both-plasmids"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "High-frequency recombination",
+      "topics": [
+        "High-frequency recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size integration/transfer diagram reviewed; exact diagram donor label retained without silently relabeling.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p29-integrated-f",
+        "bacterial-genetics-p29-chromosomal-transfer"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transduction and lysogenic conversion",
+      "topics": [
+        "Transduction and lysogenic conversion"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p30-u1",
+          "statement": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion.",
+          "issue": "These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion.",
+          "handling": "Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+          "description": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion. These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion. Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+          "assessmentBlocked": true
+        }
+      ],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p30-phage-transfer",
+        "bacterial-genetics-p30-lysogenic",
+        "bacterial-genetics-p30-phage-toxins"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transduction sequence A–E",
+      "topics": [
+        "Transduction sequence A–E"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size five-panel diagram and all labels visually reviewed.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p31-infection",
+        "bacterial-genetics-p31-replicate-fragment",
+        "bacterial-genetics-p31-assembly",
+        "bacterial-genetics-p31-recipient"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generalized transduction diagram",
+      "topics": [
+        "Generalized transduction diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only schematic inspected at full size and all legible process text reconstructed.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p32-generalized",
+        "bacterial-genetics-p32-cotransduction"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Natural and laboratory transformation",
+      "topics": [
+        "Natural and laboratory transformation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p33-natural",
+        "bacterial-genetics-p33-laboratory",
+        "bacterial-genetics-p33-transfection",
+        "bacterial-genetics-p33-principle"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Griffith transformation experiment",
+      "topics": [
+        "Griffith transformation experiment"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size four-column experiment and caption reviewed; controls and recovered phenotypes preserved.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p34-living-encapsulated",
+        "bacterial-genetics-p34-controls",
+        "bacterial-genetics-p34-mixture"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of DNA-transfer procedures",
+      "topics": [
+        "Comparison of DNA-transfer procedures"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size comparison table checked; all twelve cells retained.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only details in the listed policy are preserved for study; defer direct scored memorization of those details.",
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p35-comparison-table"
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous and nonhomologous recombination",
+      "topics": [
+        "Homologous and nonhomologous recombination"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-genetics",
+      "sourcePath": "../sources/slides/02-bacterial-genetics.pdf",
+      "conceptIds": [
+        "bacterial-genetics-p36-integration",
+        "bacterial-genetics-p36-homologous",
+        "bacterial-genetics-p36-nonhomologous",
+        "bacterial-genetics-p36-enzymes"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial Growth cover",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Growth cycle and binary fission",
+      "topics": [
+        "Growth cycle and binary fission"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p02-binary-fission"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Binary fission schematic",
+      "topics": [
+        "Binary fission schematic"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p03-binary-fission-diagram"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generation time definition and factors",
+      "topics": [
+        "Generation time definition and factors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p04-generation-time-definition",
+        "bacterial-growth-p04-generation-time-extremes",
+        "bacterial-growth-p04-generation-time-factors"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Theoretical bacterial population calculation",
+      "topics": [
+        "Theoretical bacterial population calculation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p05-theoretical-population"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 19.1 Generation times under optimum conditions",
+      "topics": [
+        "Table 19.1 Generation times under optimum conditions"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p06-generation-time-table"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial growth curve four phases",
+      "topics": [
+        "Bacterial growth curve four phases"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p07-lag-phase",
+        "bacterial-growth-p07-log-phase",
+        "bacterial-growth-p07-stationary-phase",
+        "bacterial-growth-p07-death-phase"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Growth curve diagram",
+      "topics": [
+        "Growth curve diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Plot checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p08-growth-curve-plot"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Viable count tube diagram",
+      "topics": [
+        "Viable count tube diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p09-viable-tubes-diagram"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Food to mass ratio curve",
+      "topics": [
+        "Food to mass ratio curve"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p10-food-mass-curve"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemostat continuous culture",
+      "topics": [
+        "Chemostat continuous culture"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p11-chemostat-function"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemostat apparatus diagram",
+      "topics": [
+        "Chemostat apparatus diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p12-chemostat-diagram"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prepared culture media and obligate intracellular bacteria",
+      "topics": [
+        "Prepared culture media and obligate intracellular bacteria"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p13-prepared-media",
+        "bacterial-growth-p13-obligate-intracellular-energy"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Aerobic and anaerobic growth: Toxic oxygen products and enzymes",
+      "topics": [
+        "Aerobic and anaerobic growth: Toxic oxygen products and enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p14-oxygen-terminal-acceptor",
+        "bacterial-growth-p14-reactive-oxygen-species",
+        "bacterial-growth-p14-sod-reaction",
+        "bacterial-growth-p14-catalase-reaction"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial classification by oxygen response",
+      "topics": [
+        "Bacterial classification by oxygen response"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p15-obligate-aerobes",
+        "bacterial-growth-p15-facultative-anaerobes",
+        "bacterial-growth-p15-obligate-anaerobes"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 6.1 Oxygen effect on growth and enzyme content",
+      "topics": [
+        "Table 6.1 Oxygen effect on growth and enzyme content"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 6.1 reviewed.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p16-oxygen-table-growth-pattern",
+        "bacterial-growth-p16-aerotolerant-anaerobes",
+        "bacterial-growth-p16-microaerophiles"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Oxygen concentration test tube diagram",
+      "topics": [
+        "Oxygen concentration test tube diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p17-oxygen-tubes-diagram"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Temperature effect on bacterial growth",
+      "topics": [
+        "Temperature effect on bacterial growth"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Curve checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p18-temperature-classes"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Effect of pH on bacterial growth (1)",
+      "topics": [
+        "Effect of pH on bacterial growth (1)"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p19-ph-classes"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Effect of pH on bacterial growth (2)",
+      "topics": [
+        "Effect of pH on bacterial growth (2)"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p20-ph-ideal-range"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Halophilic and osmophilic bacteria",
+      "topics": [
+        "Halophilic and osmophilic bacteria"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p21-halophilic",
+        "bacterial-growth-p21-osmophilic"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Metabolism: Catabolism and anabolism",
+      "topics": [
+        "Metabolism: Catabolism and anabolism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p22-metabolism-definition"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Overview of metabolism pathways",
+      "topics": [
+        "Overview of metabolism pathways"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p23-metabolism-overview-diagram"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fermentation products overview",
+      "topics": [
+        "Fermentation products overview"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chart checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p24-fermentation-products-chart"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fermentation of sugars: Mechanism and ATP",
+      "topics": [
+        "Fermentation of sugars: Mechanism and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p25-fermentation-mechanism",
+        "bacterial-growth-p25-fermentation-atp-facultative"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Krebs cycle ATP yield and aerobic non-fermenters",
+      "topics": [
+        "Krebs cycle ATP yield and aerobic non-fermenters"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p26-krebs-vs-glycolysis-atp",
+        "bacterial-growth-p26-aerobes-nonfermenters"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sugar fermentation in bacterial identification",
+      "topics": [
+        "Sugar fermentation in bacterial identification"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p27-neisseria-sugar-differentiation",
+        "bacterial-growth-p27-lactose-enteric-differentiation",
+        "bacterial-growth-p27-phenol-red-indicator"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Carbohydrate fermentation tubes",
+      "topics": [
+        "Carbohydrate fermentation tubes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photographs checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p28-carbohydrate-tubes-diagram"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Triple Sugar Iron (TSI) test",
+      "topics": [
+        "Triple Sugar Iron (TSI) test"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "TSI tubes checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p29-tsi-test"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Iron metabolism: Ferric ion and siderophores",
+      "topics": [
+        "Iron metabolism: Ferric ion and siderophores"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p30-ferric-ion-requirement",
+        "bacterial-growth-p30-siderophores-enterobactin"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Siderophore-dependent iron uptake schematic",
+      "topics": [
+        "Siderophore-dependent iron uptake schematic"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p31-siderophore-uptake-diagram"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Classification by nutritional requirement flowchart",
+      "topics": [
+        "Classification by nutritional requirement flowchart"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Flowchart checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p32-nutritional-flowchart"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energy sources: Autotrophs",
+      "topics": [
+        "Energy sources: Autotrophs"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p33-autotrophs-definition",
+        "bacterial-growth-p33-photoautotrophs",
+        "bacterial-growth-p33-chemoautotrophs"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energy sources: Heterotrophs",
+      "topics": [
+        "Energy sources: Heterotrophs"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p34-heterotrophs-definition",
+        "bacterial-growth-p34-photoheterotrophs",
+        "bacterial-growth-p34-chemoheterotrophs"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Four basic nutritional groups comparison table",
+      "topics": [
+        "Four basic nutritional groups comparison table"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table checked.",
+      "uncertainties": [],
+      "lectureId": "bacterial-growth",
+      "sourcePath": "../sources/slides/03-bacterial-growth.pdf",
+      "conceptIds": [
+        "bacterial-growth-p35-nutritional-groups-table"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Microbiome / Normal Flora / Gut Microbiome",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal flora and commensalism",
+      "topics": [
+        "Normal flora and commensalism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p2-commensalism-conflict",
+          "statement": "This lecture defines commensalism as benefit to the organism without host damage.",
+          "issue": "Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+          "description": "This lecture defines commensalism as benefit to the organism without host damage. Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+          "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer."
+        }
+      ],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-definition",
+        "normal-flora-commensalism",
+        "normal-flora-viruses-parasites"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Resident flora",
+      "topics": [
+        "Resident flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-resident-persistence",
+        "normal-flora-resident-abnormal-site",
+        "normal-flora-resident-examples"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transient flora and colonization",
+      "topics": [
+        "Transient flora and colonization"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-transient-periodic",
+        "normal-flora-colonization",
+        "normal-flora-transient-example"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human microbiome",
+      "topics": [
+        "Human microbiome"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p5-term-scope",
+          "statement": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses.",
+          "issue": "The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+          "description": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses. The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+          "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer."
+        }
+      ],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-microbiome-definition",
+        "normal-flora-colon-largest",
+        "normal-flora-immune-maturation",
+        "normal-flora-ibd-association"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal flora in health and disease",
+      "topics": [
+        "Normal flora in health and disease"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-immunocompromised",
+        "normal-flora-attachment-competition",
+        "normal-flora-vitamin-production"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gut microbiome development",
+      "topics": [
+        "Gut microbiome development"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-early-colonization",
+        "normal-flora-diversity-age"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Factors affecting microbiome distribution",
+      "topics": [
+        "Factors affecting microbiome distribution"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-local-distribution",
+        "normal-flora-individual-variation",
+        "normal-flora-antibiotic-selection"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Advantages of the gut microbiome",
+      "topics": [
+        "Advantages of the gut microbiome"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-competitive-protection",
+        "normal-flora-cross-reactive-antibodies"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microbial fermentation and vitamins",
+      "topics": [
+        "Microbial fermentation and vitamins"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-fiber-fermentation",
+        "normal-flora-scfa",
+        "normal-flora-vitamin-production"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opportunistic disadvantages",
+      "topics": [
+        "Opportunistic disadvantages"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-host-resistance",
+        "normal-flora-resident-abnormal-site"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Examples of displaced normal flora",
+      "topics": [
+        "Examples of displaced normal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-breached-barrier",
+        "normal-flora-disease-examples"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microbiome in systemic disease and cancer",
+      "topics": [
+        "Microbiome in systemic disease and cancer"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-systemic-association",
+        "normal-flora-cancer-examples"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sites and disease manifestations diagram",
+      "topics": [
+        "Sites and disease manifestations diagram"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A human outline links black sites to: abscesses (multiple sites); dental caries, periodontal disease and pharyngitis (mouth); sepsis; endocarditis (heart); pneumonia (lung); gastroenteritis and peritonitis (abdomen); urogenital infections (genitals). No organism labels or causal organism mappings are supplied.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-manifestations-diagram"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Antibiotic disruption of resident flora",
+      "topics": [
+        "Antibiotic disruption of resident flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-antibiotic-competition-loss"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clindamycin and neomycin examples",
+      "topics": [
+        "Clindamycin and neomycin examples"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-clindamycin-overgrowth",
+        "normal-flora-neomycin-recovery"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal-flora locations",
+      "topics": [
+        "Normal-flora locations"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-body-sites"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 6-1: Normal flora and anatomic locations",
+      "topics": [
+        "Table 6-1: Normal flora and anatomic locations"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Member of normal flora | Anatomic location |\n| --- | --- |\n| Bacteroides species | Colon, throat, vagina |\n| Candida albicans | Mouth, colon, vagina |\n| Clostridium species | Colon |\n| Corynebacterium species (diphtheroids) | Nasopharynx, skin, vagina |\n| Enterococcus faecalis | Colon |\n| Escherichia coli and other coliforms | Colon, vagina, outer urethra |\n| Gardnerella vaginalis | Vagina |\n| Haemophilus species | Nasopharynx |\n| Lactobacillus species | Mouth, colon, vagina |\n| Neisseria species | Mouth, nasopharynx |\n| Propionibacterium acnes | Skin |\n| Pseudomonas aeruginosa | Colon, skin |\n| Staphylococcus aureus | Nose, skin |\n| Staphylococcus epidermidis | Skin, nose, mouth, vagina, urethra |\n| Viridans streptococci | Mouth, nasopharynx |\n\nFootnote: In alphabetical order.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only catalog: preserve every row; no direct row-by-row organism-location questioning.",
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-reference-locations"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Skin normal flora",
+      "topics": [
+        "Skin normal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The phrase **Peptococcus (to delete)** is highlighted; the deletion note is retained and its example excluded from scoring. A magenta-highlighted note states the new name of Propionibacterium acnes is Cutibacterium acnes.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p19-deletion",
+          "statement": "Peptococcus appears with (to delete).",
+          "issue": "Explicit editorial deletion note.",
+          "description": "Peptococcus appears with (to delete). Explicit editorial deletion note.",
+          "handling": "Retain for traceability; exclude this example from assessment."
+        }
+      ],
+      "assessmentNotes": "Exclude explicitly deleted Peptococcus example; clear remaining teaching content remains eligible.",
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-skin-habitat",
+        "normal-flora-deep-follicles",
+        "normal-flora-skin-yeast",
+        "normal-flora-cutibacterium-name",
+        "normal-flora-deleted-peptococcus"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Respiratory-tract normal flora",
+      "topics": [
+        "Respiratory-tract normal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-respiratory-distribution",
+        "normal-flora-throat-competition"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Viridans streptococci in mouth",
+      "topics": [
+        "Viridans streptococci in mouth"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-dental-plaque"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intestinal-tract normal flora",
+      "topics": [
+        "Intestinal-tract normal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visual exponent verified as **10^11 organisms/g** (not the flattened text-layer digits 1011).",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-intestinal-distribution",
+        "normal-flora-fecal-anaerobes",
+        "normal-flora-fecal-quantity"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Extra-intestinal disease from intestinal flora",
+      "topics": [
+        "Extra-intestinal disease from intestinal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p23-list-mapping",
+          "statement": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets.",
+          "issue": "The heading does not uniquely assign each listed organism to both diseases.",
+          "description": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets. The heading does not uniquely assign each listed organism to both diseases.",
+          "handling": "Preserve all bullets; do not ask unsupported disease mapping from this heading."
+        }
+      ],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-breached-barrier",
+        "normal-flora-intestinal-reference-examples"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genitourinary flora",
+      "topics": [
+        "Genitourinary flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-vaginal-acid",
+        "normal-flora-urine-contamination",
+        "normal-flora-gu-reference"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Summary of diseases caused by normal flora",
+      "topics": [
+        "Summary of diseases caused by normal flora"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only summary: do not inflate bank with organism-disease pair recall.",
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-disease-summary-reference"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genitourinary flora-associated diseases",
+      "topics": [
+        "Genitourinary flora-associated diseases"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-vaginal-acid",
+        "normal-flora-gbs-carriage"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Probiotics definition and quantity",
+      "topics": [
+        "Probiotics definition and quantity"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visual range verified as **10^9–10^10 organisms**, for some probiotic preparations.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-probiotic-definition",
+        "normal-flora-probiotic-quantity"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clinical microbiome therapies",
+      "topics": [
+        "Clinical microbiome therapies"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-probiotic-live",
+        "normal-flora-fmt"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Properties and examples of probiotics",
+      "topics": [
+        "Properties and examples of probiotics"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-probiotic-properties",
+        "normal-flora-probiotic-examples"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Listed therapeutic uses of probiotics",
+      "topics": [
+        "Listed therapeutic uses of probiotics"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p30-clinical-scope",
+          "statement": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema.",
+          "issue": "No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+          "description": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema. No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+          "handling": "Preserve as source examples; do not create clinical treatment recommendations or categorical efficacy questions."
+        }
+      ],
+      "assessmentNotes": "Supporting therapeutic examples only; no treatment recommendation or universal efficacy claim.",
+      "lectureId": "normal-flora",
+      "sourcePath": "../sources/slides/04-normal-flora.pdf",
+      "conceptIds": [
+        "normal-flora-probiotic-uses"
+      ]
+    },
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial pathogenesis — Chapter 7",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Symbiosis",
+      "topics": [
+        "Symbiosis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-symbiosis"
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutualism",
+      "topics": [
+        "Mutualism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p3-role-labels",
+          "statement": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit.",
+          "issue": "The mutualistic exchange is clear, but subheading attribution is awkward.",
+          "description": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit. The mutualistic exchange is clear, but subheading attribution is awkward.",
+          "handling": "Preserve the exchange; avoid scored questions about the ambiguous role labels."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-mutualism",
+        "bacterial-pathogenesis-mutualism-labels"
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Commensalism: unresolved definition",
+      "topics": [
+        "Commensalism: unresolved definition"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p4-commensalism",
+          "statement": "No apparent benefit or harm to either member is stated under commensalism.",
+          "issue": "Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+          "description": "No apparent benefit or harm to either member is stated under commensalism. Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+          "handling": "Do not score this unresolved definition or silently substitute an outside definition."
+        },
+        {
+          "id": "bacterial-pathogenesis-p4-possible-cancer",
+          "statement": "Other metabolites are suggested as possibly associated with certain skin cancers.",
+          "issue": "Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+          "description": "Other metabolites are suggested as possibly associated with certain skin cancers. Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+          "handling": "Retain tentative wording; do not use in scored claims."
+        }
+      ],
+      "assessmentNotes": "Unresolved commensalism definition: no scored classification from the conflicting definition.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-commensalism-unresolved",
+        "bacterial-pathogenesis-skin-metabolite-examples"
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Parasites and parasitism",
+      "topics": [
+        "Parasites and parasitism"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-parasitism",
+        "bacterial-pathogenesis-opportunity"
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogens and opportunistic pathogens",
+      "topics": [
+        "Pathogens and opportunistic pathogens"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-pathogen",
+        "bacterial-pathogenesis-opportunistic"
+      ]
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogenicity and virulence",
+      "topics": [
+        "Pathogenicity and virulence"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-pathogenicity",
+        "bacterial-pathogenesis-virulence"
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "LD50 and ID50",
+      "topics": [
+        "LD50 and ID50"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-ld50",
+        "bacterial-pathogenesis-id50",
+        "bacterial-pathogenesis-dose-virulence"
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Potential/opportunistic pathogens",
+      "topics": [
+        "Potential/opportunistic pathogens"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-opportunity",
+        "bacterial-pathogenesis-opportunistic-examples"
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Obligate pathogens",
+      "topics": [
+        "Obligate pathogens"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-obligate-pathogen"
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Obligate versus facultative intracellular pathogens",
+      "topics": [
+        "Obligate versus facultative intracellular pathogens"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-intracellular-categories",
+        "bacterial-pathogenesis-intracellular-examples"
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Virulence factors and infectious dose",
+      "topics": [
+        "Virulence factors and infectious dose"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-dose-determinants"
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Infection and strain-dependent outcomes",
+      "topics": [
+        "Infection and strain-dependent outcomes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p13-incomplete-list",
+          "statement": "Two major infection factors are listed, then a third bullet ?? appears.",
+          "issue": "The missing bullet is unresolved.",
+          "description": "Two major infection factors are listed, then a third bullet ?? appears. The missing bullet is unresolved.",
+          "handling": "Assess clear dose/virulence relationships only; do not invent a third factor."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-defense-overcome",
+        "bacterial-pathogenesis-strain-outcome",
+        "bacterial-pathogenesis-dose-factors-incomplete"
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genetic, biochemical and structural determinants",
+      "topics": [
+        "Genetic, biochemical and structural determinants"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-determinant-types",
+        "bacterial-pathogenesis-determinant-examples"
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Single versus multiple virulence determinants",
+      "topics": [
+        "Single versus multiple virulence determinants"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-single-multiple",
+        "bacterial-pathogenesis-determinant-organisms"
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Asymptomatic infection",
+      "topics": [
+        "Asymptomatic infection"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-subclinical"
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Toxin production",
+      "topics": [
+        "Toxin production"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-disease-mechanisms",
+        "bacterial-pathogenesis-exotoxin",
+        "bacterial-pathogenesis-endotoxin",
+        "bacterial-pathogenesis-toxin-persistence"
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Invasion and inflammation",
+      "topics": [
+        "Invasion and inflammation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-invasion-inflammation"
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Communicable infections",
+      "topics": [
+        "Communicable infections"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-communicable"
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Noncommunicable and contagious infections",
+      "topics": [
+        "Noncommunicable and contagious infections"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-noncommunicable",
+        "bacterial-pathogenesis-contagious"
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epidemic, pandemic and endemic patterns",
+      "topics": [
+        "Epidemic, pandemic and endemic patterns"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-epidemiology-patterns"
+      ]
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clinical states and carriers",
+      "topics": [
+        "Clinical states and carriers"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-clinical-states",
+        "bacterial-pathogenesis-carrier",
+        "bacterial-pathogenesis-state-examples"
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Typhoid Mary historical illustration",
+      "topics": [
+        "Typhoid Mary historical illustration"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Historical cartoon/newspaper reads “TYPHOID MARY” and “The Extraordinary Predicament of Mary Mallon, a Prisoner on New York’s Quarantine Hospital.” Cartoon shows food preparation with skull motifs. Tiny article columns are not reliably legible and are not reconstructed or assessed.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p23-small-print",
+          "statement": "Historical Typhoid Mary newspaper columns are too small to read reliably.",
+          "issue": "Illustrative, not a source of reconstructed factual detail.",
+          "description": "Historical Typhoid Mary newspaper columns are too small to read reliably. Illustrative, not a source of reconstructed factual detail.",
+          "handling": "Preserve visible headline/caption; no scored claims from unreadable columns."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-historical-carrier-image"
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generalized stages of bacterial pathogenesis",
+      "topics": [
+        "Generalized stages of bacterial pathogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-generalized-stages"
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Modes and interruption of transmission",
+      "topics": [
+        "Modes and interruption of transmission"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-transmission-categories",
+        "bacterial-pathogenesis-chain-interruption"
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-1: Important modes of transmission",
+      "topics": [
+        "Table 7-1: Important modes of transmission"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Mode | Clinical example | Comment |\n| --- | --- | --- |\n| Human→human: direct contact | Gonorrhea | Intimate contact, e.g. sexual or passage through birth canal |\n| Human→human: no direct contact | Dysentery | Fecal–oral, excreted human feces ingested in food/water |\n| Human→human: transplacental | Congenital syphilis | Bacteria cross placenta and infect fetus |\n| Human→human: blood-borne | Syphilis | Transfusion/intravenous drug use transmit bacteria/viruses; blood screening greatly reduced risk |\n| Nonhuman→human: soil | Tetanus | Spores enter skin wound |\n| Nonhuman→human: water | Legionnaire’s disease | Water-aerosol bacteria inhaled into lungs |\n| Animal directly | Cat-scratch fever | Enter through cat scratch |\n| Animal via insect vector | Lyme disease | Enter through tick bite |\n| Animal excreta | Hemolytic-uremic syndrome caused by E. coli O-157 | Cattle-feces bacteria ingested in undercooked hamburger |\n| Fomite | Staphylococcal skin infection | Object such as towel transfers bacteria onto skin |",
+      "uncertainties": [],
+      "assessmentNotes": "Supporting transmission catalog; assess mechanisms/routes rather than inflate organism-disease pairs.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-transmission-table",
+        "bacterial-pathogenesis-stec-food"
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Vertical versus horizontal transmission",
+      "topics": [
+        "Vertical versus horizontal transmission"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-vertical-horizontal"
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transmission routes and examples",
+      "topics": [
+        "Transmission routes and examples"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-vertical-horizontal",
+        "bacterial-pathogenesis-transmission-examples"
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Exit and transmission routes",
+      "topics": [
+        "Exit and transmission routes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-routes",
+        "bacterial-pathogenesis-blood-screening"
+      ]
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-4: Waterborne diseases — third-year reference",
+      "topics": [
+        "Table 7-4: Waterborne diseases — third-year reference"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Portal/route | Pathogen | Type | Disease |\n| --- | --- | --- | --- |\n| GI: drinking water | Salmonella species | B | Diarrhea |\n| GI: drinking water | Shigella species | B | Diarrhea |\n| GI: drinking water | Campylobacter jejuni | B | Diarrhea |\n| GI: drinking water | Norovirus | V | Diarrhea |\n| GI: drinking water | Giardia lamblia | P | Diarrhea |\n| GI: drinking water | Cryptosporidium parvum | P | Diarrhea |\n| GI: water while swimming | Leptospira interrogans | B | Leptospirosis |\n| Respiratory: water aerosol | Legionella pneumophila | B | Pneumonia (Legionnaire’s disease) |\n| Skin penetration | Pseudomonas aeruginosa | B | Hot-tub folliculitis |\n| Skin penetration | Schistosoma mansoni | H | Schistosomiasis |\n| Nose: cribriform plate→meninges/brain | Naegleria fowleri | P | Meningoencephalitis |\n\nKey: B bacterium; V virus; P protozoa; H helminth. Norovirus formerly called Norwalk-like viruses. All organisms causing diarrhea via drinking water also cause diarrhea via ingested swimming water. Highlighted note: expected to know all infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-waterborne-reference"
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Vector-borne transmission",
+      "topics": [
+        "Vector-borne transmission"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p31-vector-wording",
+          "statement": "The source calls mosquitoes and ticks insects in its vector example.",
+          "issue": "Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+          "description": "The source calls mosquitoes and ticks insects in its vector example. Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+          "handling": "Preserve wording, avoid taxonomy correction or taxonomy-based distractors."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-vector",
+        "bacterial-pathogenesis-lyme-example"
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-6: Insect vectors — third-year reference",
+      "topics": [
+        "Table 7-6: Insect vectors — third-year reference"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Vector | Reservoir | Disease |\n| --- | --- | --- | --- | --- |\n| Gram-negative rods | Yersinia pestis | Rat fleas | Rodents, e.g. rats/prairie dogs | Plague |\n| Gram-negative rods | Francisella tularensis | Ticks (Dermacentor) | Many animals, e.g. rabbits | Tularemia |\n| Spirochetes | Borrelia burgdorferi | Ticks (Ixodes) | Mice | Lyme disease |\n| Spirochetes | Borrelia recurrentis | Lice | Humans | Relapsing fever |\n| Rickettsias | Rickettsia rickettsii | Ticks (Dermacentor) | Dogs, rodents and ticks (Dermacentor) | Rocky Mountain spotted fever |\n| Rickettsias | Rickettsia prowazekii | Lice | Humans | Epidemic typhus |\n| Rickettsias | Ehrlichia chaffeensis | Ticks (Dermacentor, Ixodes) | Dogs | Ehrlichiosis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-vector-reference"
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Portals of entry and zoonoses",
+      "topics": [
+        "Portals of entry and zoonoses"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-portals",
+        "bacterial-pathogenesis-zoonosis"
+      ]
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-3: Obligatory portals/pathogens/species",
+      "topics": [
+        "Table 7-3: Obligatory portals/pathogens/species"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Portal | Pathogen | Type | Disease |\n| --- | --- | --- | --- |\n| Respiratory | Streptococcus pneumoniae | B | Pneumonia |\n| Respiratory | Neisseria meningitidis | B | Meningitis |\n| Respiratory | Haemophilus influenzae | B | Meningitis |\n| Respiratory | Mycobacterium tuberculosis | B | Tuberculosis |\n| Respiratory | Influenza virus | V | Influenza |\n| Respiratory | Rhinovirus | V | Common cold |\n| Respiratory | Epstein–Barr virus | V | Infectious mononucleosis |\n| Respiratory | Coccidioides immitis | F | Coccidioidomycosis |\n| Respiratory | Histoplasma capsulatum | F | Histoplasmosis |\n| Gastrointestinal | Shigella dysenteriae | B | Dysentery |\n| Gastrointestinal | Salmonella typhi | B | Typhoid fever |\n| Gastrointestinal | Vibrio cholerae | B | Cholera |\n| Gastrointestinal | Hepatitis A virus | V | Infectious hepatitis |\n| Gastrointestinal | Poliovirus | V | Poliomyelitis |\n| Gastrointestinal | Trichinella spiralis | H | Trichinosis |\n| Skin | Clostridium tetani | B | Tetanus |\n| Skin | Rickettsia rickettsii | B | Rocky Mountain spotted fever |\n| Skin | Rabies virus | V | Rabies |\n| Skin | Trichophyton rubrum | F | Tinea pedis (athlete’s foot) |\n| Skin | Plasmodium vivax | P | Malaria |\n| Genital | Neisseria gonorrhoeae | B | Gonorrhea |\n| Genital | Treponema pallidum | B | Syphilis |\n| Genital | Chlamydia trachomatis | B | Urethritis |\n| Genital | Human papilloma virus | V | Genital warts |\n| Genital | Candida albicans | F | Vaginitis |\n\nThe table header marks Type of Organism with footnote 1, but its footnote text is not shown on this page. The same source-table letter conventions visible elsewhere are B bacterium, V virus, F fungus, P protozoa, H helminth. Most important visible annotation: **“Obligatory!/ know all species”**, unlike the explicitly third-year reference tables.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p34-type-footnote",
+          "statement": "Type-of-organism header has footnote 1 but no footnote text visible.",
+          "issue": "Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+          "description": "Type-of-organism header has footnote 1 but no footnote text visible. Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+          "handling": "Do not infer any extra footnote conditions."
+        }
+      ],
+      "assessmentNotes": "Emphasized eligible exception: annotation explicitly says Obligatory!/ know all species. Distinguish portals/type/disease within the source, avoiding ambiguity from multiple true rows.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-portal-respiratory",
+        "bacterial-pathogenesis-portal-gastrointestinal",
+        "bacterial-pathogenesis-portal-skin",
+        "bacterial-pathogenesis-portal-genital"
+      ]
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-7: Zoonotic diseases — third-year reference",
+      "topics": [
+        "Table 7-7: Zoonotic diseases — third-year reference"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Main reservoir | Mode | Disease |\n| --- | --- | --- | --- | --- |\n| Gram-positive rods | Bacillus anthracis | Domestic animals | Direct contact | Anthrax |\n| Gram-positive rods | Listeria monocytogenes | Domestic animals | Unpasteurized milk products | Sepsis in neonate or mother |\n| Gram-positive rods | Erysipelothrix rhusiopathiae | Fish | Direct contact | Erysipeloid |\n| Gram-negative rods | Bartonella henselae | Cats | Skin scratch | Cat-scratch disease |\n| Gram-negative rods | Brucella species | Domestic animals | Unpasteurized milk; contact with animal tissues | Brucellosis |\n| Gram-negative rods | Campylobacter jejuni | Domestic animals | Contaminated meat | Diarrhea |\n| Gram-negative rods | Escherichia coli O157:H7 | Cattle | Fecal–oral | Hemorrhagic colitis |\n| Gram-negative rods | Francisella tularensis | Many animals, especially rabbits | Tick bite/direct contact | Tularemia |\n| Gram-negative rods | Pasteurella multocida | Cats | Cat bite | Cellulitis |\n| Gram-negative rods | Salmonella enteritidis | Poultry, eggs and cattle | Fecal–oral | Diarrhea |\n| Gram-negative rods | Yersinia enterocolitica | Domestic animals | Fecal–oral | Diarrhea |\n| Gram-negative rods | Yersinia pestis | Rodents, especially rats/prairie dogs | Rat flea bite | Sepsis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-zoonotic-reference",
+        "bacterial-pathogenesis-zoonosis"
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-7 continuation — third-year reference",
+      "topics": [
+        "Table 7-7 continuation — third-year reference"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Reservoir | Mode | Disease |\n| --- | --- | --- | --- | --- |\n| Mycobacteria | Mycobacterium bovis | Cows | Unpasteurized milk products | Intestinal tuberculosis |\n| Spirochetes | Borrelia burgdorferi | Mice | Tick bite (Ixodes) | Lyme disease |\n| Spirochetes | Leptospira interrogans | Rats and dogs | Urine | Leptospirosis |\n| Chlamydiae | Chlamydia psittaci | Psittacine birds | Inhaled aerosols | Psittacosis |\n| Rickettsiae | Rickettsia rickettsii | Rats and dogs | Tick bite (Dermacentor) | Rocky Mountain spotted fever |\n| Rickettsiae | Coxiella burnetii | Sheep | Aerosols of amniotic fluid | Q fever |\n| Rickettsiae | Ehrlichia chaffeensis | Dogs | Tick bite (Dermacentor) | Ehrlichiosis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-zoonotic-reference"
+      ]
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adherence to cell surfaces",
+      "topics": [
+        "Adherence to cell surfaces"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-adhesins",
+        "bacterial-pathogenesis-pili-urinary",
+        "bacterial-pathogenesis-glycocalyx"
+      ]
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pili/fimbriae micrographs",
+      "topics": [
+        "Pili/fimbriae micrographs"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two micrographs show numerous fine surface filaments extending from rod-shaped bacteria. Left scale bar: **1 μm**. No named species are assigned by the captions.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-fimbriae-image"
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Biofilms",
+      "topics": [
+        "Biofilms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-biofilm-matrix",
+        "bacterial-pathogenesis-biofilm-protection",
+        "bacterial-pathogenesis-biofilm-examples"
+      ]
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Quorum sensing",
+      "topics": [
+        "Quorum sensing"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-quorum",
+        "bacterial-pathogenesis-quorum-threshold"
+      ]
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Curli adhesion and coagulation",
+      "topics": [
+        "Curli adhesion and coagulation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-curli",
+        "bacterial-pathogenesis-curli-coagulation"
+      ]
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Disseminated intravascular coagulation",
+      "topics": [
+        "Disseminated intravascular coagulation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p42-thrombus-definition",
+          "statement": "Thrombus is called a clotting process that prevents bleeding.",
+          "issue": "The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+          "description": "Thrombus is called a clotting process that prevents bleeding. The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+          "handling": "Preserve wording; do not score terminology from the imprecise sentence."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-dic",
+        "bacterial-pathogenesis-dic-examples",
+        "bacterial-pathogenesis-thrombus-wording"
+      ]
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Tissue invasion enzymes and coagulase",
+      "topics": [
+        "Tissue invasion enzymes and coagulase"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-matrix-enzymes",
+        "bacterial-pathogenesis-coagulase"
+      ]
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Immunoglobulin proteases and leukocidins",
+      "topics": [
+        "Immunoglobulin proteases and leukocidins"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-iga-protease",
+        "bacterial-pathogenesis-igg-protease",
+        "bacterial-pathogenesis-leukocidin"
+      ]
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cellulitis",
+      "topics": [
+        "Cellulitis"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-cellulitis"
+      ]
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Capsules and opsonization",
+      "topics": [
+        "Capsules and opsonization"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-capsule-opsonization",
+        "bacterial-pathogenesis-opsonins"
+      ]
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "M protein and Protein A",
+      "topics": [
+        "M protein and Protein A"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-m-protein",
+        "bacterial-pathogenesis-protein-a"
+      ]
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opsonization/phagocytosis diagrams",
+      "topics": [
+        "Opsonization/phagocytosis diagrams"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Left diagram: bacterium coated in IgG and C3b; complement activation; phagocyte CR1 and Fc receptor; arrows to phagocytosis; nucleus. Right diagram: Staphylococcus aureus with Protein A binding IgG Fc; Fc portion occupied/not accessible; reduced Fc-receptor-mediated phagocytosis. Caption states Protein A prevents proper antibody orientation and reduces Fc-receptor-mediated phagocytosis.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-opsonin-receptors",
+        "bacterial-pathogenesis-protein-a-diagram"
+      ]
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-8: Surface virulence factors",
+      "topics": [
+        "Table 7-8: Surface virulence factors"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Organism | Virulence factor | Used in vaccine | Comment |\n| --- | --- | --- | --- | --- |\n| Gram-positive cocci | Streptococcus pneumoniae | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-positive cocci | Streptococcus pyogenes | M protein | No | Determines serotype (footnote 1 not shown) |\n| Gram-positive cocci | Staphylococcus aureus | Protein A | No | Binds IgG Fc; overlaid annotation: Prevents activation of complement |\n| Gram-negative cocci | Neisseria meningitidis | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-positive rods | Bacillus anthracis | Polypeptide capsule | No |  |\n| Gram-negative rods | Haemophilus influenzae | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-negative rods | Klebsiella pneumoniae | Polysaccharide capsule | No |  |\n| Gram-negative rods | Escherichia coli | Protein pili | No | Causes adherence |\n| Gram-negative rods | Salmonella typhi | Polysaccharide capsule | No | Not important for other… [right edge cropped] |\n| Gram-negative rods | Yersinia pestis | V and W proteins | No |  |",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p49-cropped-comment",
+          "statement": "Salmonella typhi comment reads Not important for other… at the right edge.",
+          "issue": "The rest of the comment and M-protein footnote are not visible.",
+          "description": "Salmonella typhi comment reads Not important for other… at the right edge. The rest of the comment and M-protein footnote are not visible.",
+          "handling": "Do not complete or score missing text."
+        }
+      ],
+      "assessmentNotes": "Supporting surface-factor catalog. Clear capsule/Protein A/M-protein/pilus mechanisms can be assessed using explanatory pages; missing/cropped comments excluded.",
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-surface-table"
+      ]
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pyogenic versus granulomatous inflammation",
+      "topics": [
+        "Pyogenic versus granulomatous inflammation"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-inflammation-types",
+        "bacterial-pathogenesis-granuloma-survival"
+      ]
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chronic granulomatous disease",
+      "topics": [
+        "Chronic granulomatous disease"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-cgd-defect",
+        "bacterial-pathogenesis-cgd-consequence"
+      ]
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pseudomembranes",
+      "topics": [
+        "Pseudomembranes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-pseudomembrane",
+        "bacterial-pathogenesis-pseudocolitis"
+      ]
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intracellular pathogen categories",
+      "topics": [
+        "Intracellular pathogen categories"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-intracellular-evasion",
+        "bacterial-pathogenesis-intracellular-categories"
+      ]
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intracellular survival mechanisms",
+      "topics": [
+        "Intracellular survival mechanisms"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p54-absolute-cytoplasm",
+          "statement": "Escape to cytoplasm is followed by where there are no degradative enzymes.",
+          "issue": "Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+          "description": "Escape to cytoplasm is followed by where there are no degradative enzymes. Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+          "handling": "Retain as written; do not make absolute absence of enzymes the scored claim."
+        }
+      ],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-fusion-inhibition",
+        "bacterial-pathogenesis-acidification",
+        "bacterial-pathogenesis-phagosomal-escape"
+      ]
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Invasins and host-cell entry",
+      "topics": [
+        "Invasins and host-cell entry"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-invasins",
+        "bacterial-pathogenesis-intracellular-fates"
+      ]
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Actin motility and cell-to-cell spread",
+      "topics": [
+        "Actin motility and cell-to-cell spread"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram: bacterium enters a cell; lysis of phagolysosome; proliferation; actin-based locomotion; filopodium formation; cell-to-cell spread into neighboring cell. Labels include nucleus. Magnified actin panel labels disassembly/detachment, attachment to host cytoskeleton, filament growth, ADP actin, ATP actin, cytoskeleton, bacterium, nucleus. This is an illustrated process, not a quantified rate.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-actin-rockets"
+      ]
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Yersinia outer proteins",
+      "topics": [
+        "Yersinia outer proteins"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-yops",
+        "bacterial-pathogenesis-yopj",
+        "bacterial-pathogenesis-yop-number"
+      ]
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogenicity islands",
+      "topics": [
+        "Pathogenicity islands"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-pai",
+        "bacterial-pathogenesis-pai-transfer",
+        "bacterial-pathogenesis-pai-examples"
+      ]
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PAI-dependent E. coli phenotypes",
+      "topics": [
+        "PAI-dependent E. coli phenotypes"
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Top: nonpathogenic E. coli with circular genome and no PAI. Three arrows lead separately (alternative strains, not sequential steps) to PAI-A / watery diarrhea (enterotoxigenic strain), PAI-B / urinary tract infection (uropathic strain), PAI-C / neonatal meningitis (K-1 capsular strain). PAI-A encodes enterotoxin; B urinary epithelium-binding pili; C K-1 capsular-polysaccharide synthesis enzymes.",
+      "uncertainties": [],
+      "lectureId": "bacterial-pathogenesis",
+      "sourcePath": "../sources/slides/05-bacterial-pathogenesis.pdf",
+      "conceptIds": [
+        "bacterial-pathogenesis-pai-phenotypes"
+      ]
+    }
+  ]
+}

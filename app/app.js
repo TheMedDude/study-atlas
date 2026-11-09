@@ -11,12 +11,12 @@ const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;
 const base = new URL('../', import.meta.url);
 const url = path => new URL(path, base).href;
 const json = async path => { const r = await fetch(url(path), { cache: 'no-cache' }); if (!r.ok) throw new Error(`Could not load ${path} (${r.status}).`); return r.json(); };
-const routes = ['home', 'practice', 'exam', 'drills', 'review', 'saved', 'progress', 'materials', 'updates', 'settings'];
-const names = { home: 'Overview', practice: 'Practice', exam: 'Exam', drills: 'Concept drills', review: 'Weak areas', saved: 'Saved', progress: 'Progress', materials: 'Materials', updates: 'Updates', settings: 'Settings' };
-const symbols = { home: '◈', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
+const routes = ['courses', 'home', 'practice', 'exam', 'drills', 'review', 'saved', 'progress', 'materials', 'updates', 'settings'];
+const names = { courses: 'Courses', home: 'Overview', practice: 'Practice', exam: 'Exam', drills: 'Concept drills', review: 'Weak areas', saved: 'Saved', progress: 'Progress', materials: 'Materials', updates: 'Updates', settings: 'Settings' };
+const symbols = { courses: '❖', home: '◈', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
-const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : 'home', settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all' };
+const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all' };
 let subject, subjectConfigs, lectures, chapters, concepts, activities, pages, sourceImages, uncertainties, coverage, progress, tick;
 let study, lastCheckpoint = 0;
 let sourceReturnFocus;
@@ -127,10 +127,13 @@ function notesPreview() {
   dialog.querySelector('#print-notes').onclick=async()=>{const button=dialog.querySelector('#print-notes');button.disabled=true;button.textContent='Creating PDF…';try{const blob=await notesPdf(items,concepts,lectures,state.settings.explanationLanguage,subject.title),link=document.createElement('a'),objectURL=URL.createObjectURL(blob);link.href=objectURL;link.download=`study-atlas-${subject.id}-notes.pdf`;link.click();setTimeout(()=>URL.revokeObjectURL(objectURL),1000);}catch(error){notice(error.message,true);}finally{button.disabled=false;button.textContent='Download PDF';}};
 }
 function releaseHTML(version) {
+  if (version === '1.2') {
+    return `<p class="eyebrow">VERSION 1.2 PREVIEW · NOVEMBER 9, 2026</p><h2>General Microbiology (Midterm Bank).</h2><ul><li>404 discrete five-option MCQs and 19 concept drills across 5 lectures.</li><li>100% core concept coverage across all 217 teaching pages.</li><li>Multi-subject support: toggle seamlessly between Molecular Biology and General Microbiology.</li><li>Balanced option distribution (~20% per choice A–E) with bilingual EN/AR explanations.</li></ul><p class="small muted">First addition toward 1.2. Practice and exam question banks are now active.</p>`;
+  }
   return version==='1.1'?`<p class="eyebrow">VERSION 1.1 · NOVEMBER 7, 2026</p><h2>Pick up where you left off.</h2><ul><li>Previous, skip, finish anytime, and All available in practice.</li><li>Your place and elapsed study time save automatically.</li><li>Save questions and turn them into PDF study notes.</li><li>Navigation stays visible when explanations open.</li><li>Keyboard: 1–5 choose, Enter check/next, + slide, − previous.</li></ul><p class="small muted">Checked answers count even when you leave. Backups include saved questions and sessions.</p>`:
     `<p class="eyebrow">VERSION 1.0 · NOVEMBER 5, 2026</p><h2>Your first Study Atlas.</h2><ul><li>601 multiple-choice questions and 93 concept activities.</li><li>Practice, exams, English/Arabic explanations and source slides.</li><li>Progress on your device, with backup and restore.</li></ul>`;
 }
-function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy" id="release-latest">${releaseHTML(RELEASE)}</section></div>`;}
+function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy">${releaseHTML('1.1')}</section><section class="panel release-copy" id="release-latest">${releaseHTML('1.2')}</section></div>`;}
 function showRelease() {
   const dialog=document.createElement('dialog');dialog.className='release-dialog';dialog.setAttribute('aria-label','What’s new in Study Atlas 1.1');
   dialog.innerHTML=`${releaseHTML(RELEASE)}<div class="button-row"><button class="button primary" id="release-close">Got it</button><button class="text-button" id="release-details">View updates</button></div>`;
@@ -167,14 +170,73 @@ function badge(text, cls = '') { return `<span class="badge ${cls}">${esc(text)}
 function pageHead(kicker, title, copy = '') { return `<header class="page-head"><p class="eyebrow">${esc(kicker)}</p><h1 tabindex="-1">${title}</h1>${copy ? `<p class="lead">${copy}</p>` : ''}</header>`; }
 
 function shell() {
-  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="home"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>A little more connected.</small></span></button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span></div><nav aria-label="Study navigation">${routes.map(view => `<button data-go="${view}"><span aria-hidden="true">${symbols[view]}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span>${esc(subject.title)} <span class="muted">/</span> <span id="view-label"></span></span><span class="scope-tag">${esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
+  const isCourses = state.view === 'courses';
+  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="courses"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>Medical Curriculum</small></span></button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><div class="subject-sub-row"><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span><button class="text-button all-courses-btn" data-go="courses">❖ All Courses</button></div></div><nav aria-label="Study navigation">${routes.filter(r => r !== 'courses').map(view => `<button data-go="${view}"><span aria-hidden="true">${symbols[view]}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span>${isCourses ? 'Study Atlas <span class="muted">/</span> All Courses' : `${esc(subject.title)} <span class="muted">/</span> <span id="view-label"></span>`}</span><span class="scope-tag">${isCourses ? `${subjectConfigs.length} Courses` : esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
   if (state.notice) notice(state.notice.message, state.notice.error);
+}
+
+function coursesView() {
+  const mbStats = { lectures: 6, pages: 183, mcqs: 601, total: 694, scope: 'Midterm Scope' };
+  const microStats = { lectures: 5, pages: 217, mcqs: 409, total: 428, scope: 'Midterm Scope' };
+  
+  return pageHead('CURRICULUM', 'Choose your course.', 'Evidence-based assessment banks, clinical distinctions, and faithful slide-grounded study.') +
+    `<div class="courses-grid">${subjectConfigs.map(cfg => {
+      const isCurrent = cfg.id === subject?.id;
+      let attemptsCount = 0;
+      try {
+        const stored = JSON.parse(storage.getItem(`study-atlas:progress:${cfg.id}:${cfg.scope.id}`));
+        attemptsCount = stored?.attempts?.length || 0;
+      } catch {}
+      const isMB = cfg.id === 'molecular-biology';
+      const stats = isMB ? mbStats : microStats;
+      return `<article class="panel course-card ${isCurrent ? 'active-course' : ''}">
+        <div class="course-card-top">
+          <span class="course-tag">${esc(stats.scope)}</span>
+          ${isCurrent ? '<span class="current-badge">● Active</span>' : ''}
+        </div>
+        <h2>${esc(cfg.title)}</h2>
+        <p class="course-desc">${esc(cfg.description)}</p>
+        <div class="course-stats">
+          <div><strong>${stats.lectures}</strong><span>Lectures</span></div>
+          <div><strong>${stats.pages}</strong><span>Teaching pages</span></div>
+          <div><strong>${stats.mcqs}</strong><span>5-Option MCQs</span></div>
+          <div><strong>${stats.total}</strong><span>Total activities</span></div>
+        </div>
+        <div class="course-footer">
+          <div class="course-progress-badge">
+            <span class="progress-dot ${attemptsCount ? 'in-progress' : ''}"></span>
+            <span>${attemptsCount ? `${attemptsCount} questions practiced` : 'Ready to start'}</span>
+          </div>
+          <button class="button primary select-course-btn" data-select-subject="${esc(cfg.id)}">
+            ${isCurrent ? 'Continue course ↗' : 'Enter course ↗'}
+          </button>
+        </div>
+      </article>`;
+    }).join('')}</div>
+    <section class="platform-features-strip">
+      <div class="feature-item">
+        <strong>1,122 Activities</strong>
+        <span>1,010 discrete 5-option MCQs across 2 medical courses</span>
+      </div>
+      <div class="feature-item">
+        <strong>100% Slide Grounded</strong>
+        <span>Directly mapped to 400 authoritative lecture PDF pages</span>
+      </div>
+      <div class="feature-item">
+        <strong>Bilingual Support</strong>
+        <span>English questions with full English and Arabic scientific explanations</span>
+      </div>
+      <div class="feature-item">
+        <strong>Private & Portable</strong>
+        <span>On-device progress with JSON backup and cross-tab sync</span>
+      </div>
+    </section>`;
 }
 
 function home() {
   const s = summary(), percent = s.total ? Math.round(s.encountered / s.total * 100) : 0;
   const mcqs = activities.filter(a => a.type === 'mcq').length;
-  return savedSessionsHTML()+answerTotalsHTML()+`<section class="hero"><div class="hero-copy"><p class="eyebrow">YOUR STUDY ATLAS / 01</p><h1 tabindex="-1">Make the material<br><em>make sense.</em></h1><p class="hero-sub">${esc(subject.title)}. Focused practice, connected concepts, and a clear view of what comes next.</p><div class="button-row"><button class="button primary" data-go="practice">Start practice <span>↗</span></button><button class="button outline" data-go="materials">Explore the material</button></div><p class="hero-caption">${lectures.length} lectures <span>·</span> ${coverage.teachingPages} teaching pages <span>·</span> ${mcqs} MCQs</p></div><div class="atlas-art" aria-hidden="true"><span class="art-label">THE CONNECTIONS COUNT</span><svg viewBox="0 0 300 300"><circle cx="150" cy="150" r="112" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="150" cy="150" r="72" fill="none" stroke="currentColor" stroke-width="1"/><path d="M38 150h224M150 38v224M70 70l160 160M70 230 230 70" stroke="currentColor" stroke-width="1"/><path d="m150 65 54 139-54-29-54 29Z" fill="#e2ec98" stroke="#26352e" stroke-width="2"/><path d="m150 65 0 110 54 29" fill="#ed8067" stroke="#26352e" stroke-width="2"/><circle cx="38" cy="150" r="8" fill="#ed8067"/><circle cx="230" cy="70" r="8" fill="#e2ec98"/></svg><span class="art-coordinates">LEARN · CONNECT · RETURN</span></div></section>
+  return savedSessionsHTML()+answerTotalsHTML()+`<section class="hero"><div class="hero-copy"><p class="eyebrow">YOUR STUDY ATLAS / 01</p><h1 tabindex="-1">Make the material<br><em>make sense.</em></h1><p class="hero-sub">${esc(subject.title)}. Focused practice, connected concepts, and a clear view of what comes next.</p><div class="button-row"><button class="button primary" data-go="practice">Start practice <span>↗</span></button><button class="button outline" data-go="materials">Explore the material</button><button class="button outline" data-go="courses">❖ All Courses</button></div><p class="hero-caption">${lectures.length} lectures <span>·</span> ${coverage.teachingPages} teaching pages <span>·</span> ${mcqs} MCQs</p></div><div class="atlas-art" aria-hidden="true"><span class="art-label">THE CONNECTIONS COUNT</span><svg viewBox="0 0 300 300"><circle cx="150" cy="150" r="112" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="150" cy="150" r="72" fill="none" stroke="currentColor" stroke-width="1"/><path d="M38 150h224M150 38v224M70 70l160 160M70 230 230 70" stroke="currentColor" stroke-width="1"/><path d="m150 65 54 139-54-29-54 29Z" fill="#e2ec98" stroke="#26352e" stroke-width="2"/><path d="m150 65 0 110 54 29" fill="#ed8067" stroke="#26352e" stroke-width="2"/><circle cx="38" cy="150" r="8" fill="#ed8067"/><circle cx="230" cy="70" r="8" fill="#e2ec98"/></svg><span class="art-coordinates">LEARN · CONNECT · RETURN</span></div></section>
     <section class="coverage-strip" aria-label="Your study coverage"><div><p class="eyebrow">YOUR COVERAGE</p><p><strong>${s.encountered}</strong> / ${s.total} source concepts encountered</p></div><div class="coverage-bar-wrap"><div class="coverage-bar" role="progressbar" aria-valuenow="${percent}" aria-valuemin="0" aria-valuemax="100" aria-label="Concepts encountered"><span style="width:${percent}%"></span></div><small>${percent}% encountered · ${s.available} concepts have validated activities</small></div><button class="text-button" data-go="progress">See the evidence ↗</button></section>
     <section><div class="section-head"><div><p class="eyebrow">THE MATERIAL</p><h2>Pick up a chapter.</h2></div><button class="text-button" data-go="materials">All sources ↗</button></div><div class="chapter-grid">${chapters.map((ch, i) => {
       const ids = concepts.filter(c => c.lectureId === ch.id).map(c => c.id), seen = ids.filter(id => s.evidence.get(id).distinct).length;
@@ -313,7 +375,7 @@ function settingsView() {
 function render(focusMain = false) {
   const active = document.activeElement?.id;
   const openDetails = [...document.querySelectorAll('#main details[open][id]')].map(node => node.id);
-  $('#main').innerHTML = state.session ? activityView() : state.view === 'home' ? home() : ['practice', 'exam', 'drills', 'review'].includes(state.view) ? setup(state.view) : state.view === 'progress' ? progressView() : state.view === 'materials' ? materialsView() : state.view === 'saved' ? savedView() : state.view === 'updates' ? updatesView() : settingsView();
+  $('#main').innerHTML = state.session ? activityView() : state.view === 'courses' ? coursesView() : state.view === 'home' ? home() : ['practice', 'exam', 'drills', 'review'].includes(state.view) ? setup(state.view) : state.view === 'progress' ? progressView() : state.view === 'materials' ? materialsView() : state.view === 'saved' ? savedView() : state.view === 'updates' ? updatesView() : settingsView();
   $('.workspace').classList.toggle('is-session',Boolean(state.session&&!state.session.done));
   $('#view-label').textContent = names[state.view];
   document.querySelectorAll('[data-go]').forEach(button => {
@@ -382,6 +444,7 @@ document.addEventListener('click', async event => {
   if (state.session?.mode === 'exam' && !state.session.done && state.session.deadline && Date.now() >= state.session.deadline) { event.preventDefault(); finishSession(true); return; }
   if (b.dataset.resume) { resumePractice(b.dataset.resume); return; }
   if (b.dataset.removeSession) { if(await confirmAction('Remove this unfinished session? Completed answers stay in progress.','Remove session')){study=removeSession(study,b.dataset.removeSession);saveStudyState();render();} return; }
+  if (b.dataset.selectSubject) { event.preventDefault(); location.href = `?subject=${encodeURIComponent(b.dataset.selectSubject)}#home`; return; }
   if (b.dataset.bookmark) { try{const saved=study.bookmarks.some(r=>r.activityId===b.dataset.bookmark&&r.saved);study=bookmark(study,b.dataset.bookmark,!saved);saveStudyState();render();}catch(error){notice(error.message,true);}return; }
   if (b.dataset.go) { event.preventDefault(); go(b.dataset.go); return; }
   if (b.dataset.source) { openSource(b.dataset.source, b.dataset.page); return; }
@@ -520,6 +583,7 @@ async function init() {
   document.documentElement.dataset.multiSubject = subjectConfigs.length > 1;
   const requested = new URL(location.href).searchParams.get('subject');
   subject = subjectConfigs.find(config => config.id === requested) || subjectConfigs[0];
+  if (!requested && (!location.hash || location.hash === '#courses')) state.view = 'courses';
   if (!explanationLanguages().includes(state.settings.explanationLanguage)) state.settings.explanationLanguage = explanationLanguages()[0];
   const prefix = `subjects/${subject.id}/`;
   const results = await Promise.all([json(prefix + (subject.scope.sourceManifest || 'sources/manifest.json')), json(prefix + subject.paths.chapters), json(prefix + subject.paths.concepts), json(prefix + subject.paths.activities), json(prefix + subject.paths.pages), json(prefix + subject.paths.uncertainties), json(prefix + subject.paths.coverage), subject.paths.pageImages ? json(prefix + subject.paths.pageImages) : Promise.resolve({pages:[]})]);

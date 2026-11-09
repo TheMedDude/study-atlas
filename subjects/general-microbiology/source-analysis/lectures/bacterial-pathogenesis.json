@@ -1,0 +1,1742 @@
+{
+  "lectureId": "bacterial-pathogenesis",
+  "title": "Bacterial Pathogenesis",
+  "tablePolicies": [
+    {
+      "pdfPages": [
+        30,
+        32,
+        35,
+        36
+      ],
+      "conceptIds": [
+        "bacterial-pathogenesis-waterborne-reference",
+        "bacterial-pathogenesis-vector-reference",
+        "bacterial-pathogenesis-zoonotic-reference"
+      ],
+      "policy": "reference-only",
+      "reason": "Explicitly annotated as agents to know by third year; retain tables, exclude direct catalog memorization."
+    },
+    {
+      "pdfPages": [
+        26,
+        49
+      ],
+      "conceptIds": [
+        "bacterial-pathogenesis-transmission-table",
+        "bacterial-pathogenesis-surface-table"
+      ],
+      "policy": "reference-only",
+      "reason": "Broad supporting catalog rows do not drive direct memorization; clear mechanisms repeated in explanatory pages remain eligible."
+    },
+    {
+      "pdfPages": [
+        34
+      ],
+      "conceptIds": [
+        "bacterial-pathogenesis-portal-respiratory",
+        "bacterial-pathogenesis-portal-gastrointestinal",
+        "bacterial-pathogenesis-portal-skin",
+        "bacterial-pathogenesis-portal-genital"
+      ],
+      "policy": "emphasized-eligible",
+      "reason": "Explicit red/yellow annotation Obligatory!/ know all species; preserve this stated exception to third-year table deferrals."
+    }
+  ],
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial pathogenesis — Chapter 7",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Symbiosis",
+      "topics": [
+        "Symbiosis"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-symbiosis",
+          "label": "Symbiosis",
+          "detail": "Two organisms live together in association; relationships are classified by effects on each member.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mutualism",
+      "topics": [
+        "Mutualism"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-mutualism",
+          "label": "Mutualism",
+          "detail": "Both association members benefit; vaginal lactic-acid bacteria receive habitat/glycogen and provide lactic-acid-associated protection.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-mutualism-labels",
+          "label": "Example role-label wording",
+          "detail": "The Woman/Bacteria labels preceding example benefits are awkwardly assigned; preserve without scoring pronoun attribution.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p3-role-labels",
+          "statement": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit.",
+          "issue": "The mutualistic exchange is clear, but subheading attribution is awkward.",
+          "description": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit. The mutualistic exchange is clear, but subheading attribution is awkward.",
+          "handling": "Preserve the exchange; avoid scored questions about the ambiguous role labels."
+        }
+      ]
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Commensalism: unresolved definition",
+      "topics": [
+        "Commensalism: unresolved definition"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-commensalism-unresolved",
+          "label": "Commensalism definition conflict",
+          "detail": "Source says no apparent benefit or harm to either member, then describes protection by S. epidermidis; conflicts with Normal Flora p2.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "bacterial-pathogenesis-skin-metabolite-examples",
+          "label": "Skin metabolite examples",
+          "detail": "S. epidermidis produces protective lactic acid; metabolites suggested in body odor/possibly skin cancers.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p4-commensalism",
+          "statement": "No apparent benefit or harm to either member is stated under commensalism.",
+          "issue": "Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+          "description": "No apparent benefit or harm to either member is stated under commensalism. Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+          "handling": "Do not score this unresolved definition or silently substitute an outside definition."
+        },
+        {
+          "id": "bacterial-pathogenesis-p4-possible-cancer",
+          "statement": "Other metabolites are suggested as possibly associated with certain skin cancers.",
+          "issue": "Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+          "description": "Other metabolites are suggested as possibly associated with certain skin cancers. Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+          "handling": "Retain tentative wording; do not use in scored claims."
+        }
+      ],
+      "assessmentNotes": "Unresolved commensalism definition: no scored classification from the conflicting definition."
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Parasites and parasitism",
+      "topics": [
+        "Parasites and parasitism"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-parasitism",
+          "label": "Parasitism and host damage",
+          "detail": "A parasite benefits while not benefiting the host; harmful effects can reach disease-level damage, making it pathogenic.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-opportunity",
+          "label": "Opportunity-dependent disease",
+          "detail": "Some parasitic bacteria can exist as normal flora and cause disease when opportunity arises.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogens and opportunistic pathogens",
+      "topics": [
+        "Pathogens and opportunistic pathogens"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-pathogen",
+          "label": "Pathogen",
+          "detail": "A microorganism capable of causing disease.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-opportunistic",
+          "label": "Opportunistic pathogen",
+          "detail": "Rarely causes disease in healthy individuals but can cause serious infections in immunocompromised hosts; normal flora/some parasites are examples.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogenicity and virulence",
+      "topics": [
+        "Pathogenicity and virulence"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-pathogenicity",
+          "label": "Pathogenicity",
+          "detail": "Ability to cause disease in a host.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-virulence",
+          "label": "Virulence",
+          "detail": "Degree/severity and quantitative measure of pathogenicity; assessed using organism number required.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "LD50 and ID50",
+      "topics": [
+        "LD50 and ID50"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-ld50",
+          "label": "LD50",
+          "detail": "Number of organisms required to kill 50% of exposed hosts.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-id50",
+          "label": "ID50",
+          "detail": "Number required to cause infection in 50% of exposed hosts.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-dose-virulence",
+          "label": "Dose–virulence relationship",
+          "detail": "Lower LD50 or ID50 means greater virulence because fewer organisms are required.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Potential/opportunistic pathogens",
+      "topics": [
+        "Potential/opportunistic pathogens"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-opportunity",
+          "label": "Opportunity-dependent disease",
+          "detail": "Compromised anatomical barriers, tissue resistance or immune defenses allow potential/opportunistic pathogens to cause disease.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-opportunistic-examples",
+          "label": "Potential pathogen examples",
+          "detail": "S. aureus, S. pneumoniae and H. influenzae are the examples.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Obligate pathogens",
+      "topics": [
+        "Obligate pathogens"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-obligate-pathogen",
+          "label": "Obligate pathogen",
+          "detail": "Normally not part of flora, generally associated with disease when present, often resists host elimination.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Obligate versus facultative intracellular pathogens",
+      "topics": [
+        "Obligate versus facultative intracellular pathogens"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-intracellular-categories",
+          "label": "Obligate versus facultative intracellular growth",
+          "detail": "Obligates grow/reproduce only inside cells; facultative organisms can grow inside/outside and on bacteriologic media.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-intracellular-examples",
+          "label": "Intracellular examples",
+          "detail": "Obligate: Chlamydia/Rickettsia. Facultative: Listeria monocytogenes, Salmonella enterica, Mycobacterium tuberculosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Virulence factors and infectious dose",
+      "topics": [
+        "Virulence factors and infectious dose"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-dose-determinants",
+          "label": "Infectious-dose virulence factors",
+          "detail": "Adhesins/pili aid attachment; toxins damage tissues; capsules evade defenses; nonspecific-defense resistance includes acid survival.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Infection and strain-dependent outcomes",
+      "topics": [
+        "Infection and strain-dependent outcomes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-defense-overcome",
+          "label": "Infection and tissue damage",
+          "detail": "Infection occurs when microbes overcome defenses; microbes/products cause tissue damage, fever and inflammation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-strain-outcome",
+          "label": "Strain-dependent toxin outcomes",
+          "detail": "Different E. coli exotoxins can produce watery nonbloody versus bloody diarrhea.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-dose-factors-incomplete",
+          "label": "Incomplete infection-factor list",
+          "detail": "Infectious dose and virulence followed by ??; unresolved third bullet.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p13-incomplete-list",
+          "statement": "Two major infection factors are listed, then a third bullet ?? appears.",
+          "issue": "The missing bullet is unresolved.",
+          "description": "Two major infection factors are listed, then a third bullet ?? appears. The missing bullet is unresolved.",
+          "handling": "Assess clear dose/virulence relationships only; do not invent a third factor."
+        }
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genetic, biochemical and structural determinants",
+      "topics": [
+        "Genetic, biochemical and structural determinants"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-determinant-types",
+          "label": "Determinant categories",
+          "detail": "Genetic: plasmid pathogenicity genes; biochemical: toxins/enzymes; structural: capsules, pili and surface proteins.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-determinant-examples",
+          "label": "Determinant examples",
+          "detail": "Salmonella plasmid genes; botulinum toxin; pneumococcal capsule.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Single versus multiple virulence determinants",
+      "topics": [
+        "Single versus multiple virulence determinants"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-single-multiple",
+          "label": "Single versus multiple determinants",
+          "detail": "One major toxin can dominate disease; multiple factors permit disease in different tissues.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-determinant-organisms",
+          "label": "Organism examples",
+          "detail": "C. tetani/C. diphtheriae as toxin-dominated; S. aureus, S. pyogenes, P. aeruginosa as multiple-factor examples.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Asymptomatic infection",
+      "topics": [
+        "Asymptomatic infection"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-subclinical",
+          "label": "Subclinical infection",
+          "detail": "Acquired organism with no clinical disease because defenses control infection; antibodies or organism detection can still show infection.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Toxin production",
+      "topics": [
+        "Toxin production"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-disease-mechanisms",
+          "label": "Two major disease mechanisms",
+          "detail": "Toxin production and invasion/inflammation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-exotoxin",
+          "label": "Exotoxin composition",
+          "detail": "Produced/released protein or polypeptide toxins.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-endotoxin",
+          "label": "Endotoxin composition/location",
+          "detail": "LPS integral to Gram-negative outer membrane.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-toxin-persistence",
+          "label": "Toxin-mediated disease without bacteria",
+          "detail": "Toxins can cause disease after bacteria are no longer present.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Invasion and inflammation",
+      "topics": [
+        "Invasion and inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-invasion-inflammation",
+          "label": "Invasion and host inflammation",
+          "detail": "Bacteria enter/multiply in tissues; erythema, edema, warmth and pain; damage comes from bacteria and host response.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Communicable infections",
+      "topics": [
+        "Communicable infections"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-communicable",
+          "label": "Communicable infection",
+          "detail": "Can spread host-to-host, though not all infections do; TB illustrates airborne transmission.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Noncommunicable and contagious infections",
+      "topics": [
+        "Noncommunicable and contagious infections"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-noncommunicable",
+          "label": "Noncommunicable infection",
+          "detail": "Not directly transmitted host-to-host; preformed botulinum toxin in food illustrates non-person-to-person illness.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-contagious",
+          "label": "Contagious infection",
+          "detail": "Highly communicable infection spreading easily person-to-person.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epidemic, pandemic and endemic patterns",
+      "topics": [
+        "Epidemic, pandemic and endemic patterns"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-epidemiology-patterns",
+          "label": "Epidemic/pandemic/endemic",
+          "detail": "Epidemic exceeds expected frequency in population/area; pandemic is widespread across countries/continents; endemic is stable ongoing presence.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clinical states and carriers",
+      "topics": [
+        "Clinical states and carriers"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-clinical-states",
+          "label": "Subclinical, latent and chronic states",
+          "detail": "Subclinical has no obvious symptoms; latent pathogen is inactive and may reactivate; chronic persists weeks/months or longer.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-carrier",
+          "label": "Chronic carrier",
+          "detail": "Persistent pathogen may continue shedding with or without symptoms; important infection source.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-state-examples",
+          "label": "Clinical-state examples",
+          "detail": "HSV illustrates latency; Salmonella Typhi carrier state illustrated by Typhoid Mary.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Typhoid Mary historical illustration",
+      "topics": [
+        "Typhoid Mary historical illustration"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-historical-carrier-image",
+          "label": "Typhoid Mary illustration",
+          "detail": "Historical image illustrates chronic carriage; small newspaper text is not instructional mechanism evidence.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Historical cartoon/newspaper reads “TYPHOID MARY” and “The Extraordinary Predicament of Mary Mallon, a Prisoner on New York’s Quarantine Hospital.” Cartoon shows food preparation with skull motifs. Tiny article columns are not reliably legible and are not reconstructed or assessed.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p23-small-print",
+          "statement": "Historical Typhoid Mary newspaper columns are too small to read reliably.",
+          "issue": "Illustrative, not a source of reconstructed factual detail.",
+          "description": "Historical Typhoid Mary newspaper columns are too small to read reliably. Illustrative, not a source of reconstructed factual detail.",
+          "handling": "Preserve visible headline/caption; no scored claims from unreadable columns."
+        }
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generalized stages of bacterial pathogenesis",
+      "topics": [
+        "Generalized stages of bacterial pathogenesis"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-generalized-stages",
+          "label": "Generalized pathogenesis stages",
+          "detail": "Transmission/entry → evasion of primary defenses → adherence → colonization/growth → toxin/invasion symptoms → nonspecific/specific responses → progression, persistence or resolution.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Modes and interruption of transmission",
+      "topics": [
+        "Modes and interruption of transmission"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-transmission-categories",
+          "label": "Transmission categories",
+          "detail": "Human-to-human, nonhuman soil/water/animals and fomites such as towels, clothing and medical equipment.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-chain-interruption",
+          "label": "Interrupting transmission",
+          "detail": "Understanding transmission mode permits interruption and disease prevention.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-1: Important modes of transmission",
+      "topics": [
+        "Table 7-1: Important modes of transmission"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-transmission-table",
+          "label": "Transmission examples catalog",
+          "detail": "Table human/nonhuman sources with clinical examples retained as supporting reference.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "bacterial-pathogenesis-stec-food",
+          "label": "STEC contamination examples",
+          "detail": "Ground meat, raw milk and fecal contamination of vegetables are given.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Mode | Clinical example | Comment |\n| --- | --- | --- |\n| Human→human: direct contact | Gonorrhea | Intimate contact, e.g. sexual or passage through birth canal |\n| Human→human: no direct contact | Dysentery | Fecal–oral, excreted human feces ingested in food/water |\n| Human→human: transplacental | Congenital syphilis | Bacteria cross placenta and infect fetus |\n| Human→human: blood-borne | Syphilis | Transfusion/intravenous drug use transmit bacteria/viruses; blood screening greatly reduced risk |\n| Nonhuman→human: soil | Tetanus | Spores enter skin wound |\n| Nonhuman→human: water | Legionnaire’s disease | Water-aerosol bacteria inhaled into lungs |\n| Animal directly | Cat-scratch fever | Enter through cat scratch |\n| Animal via insect vector | Lyme disease | Enter through tick bite |\n| Animal excreta | Hemolytic-uremic syndrome caused by E. coli O-157 | Cattle-feces bacteria ingested in undercooked hamburger |\n| Fomite | Staphylococcal skin infection | Object such as towel transfers bacteria onto skin |",
+      "uncertainties": [],
+      "assessmentNotes": "Supporting transmission catalog; assess mechanisms/routes rather than inflate organism-disease pairs."
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Vertical versus horizontal transmission",
+      "topics": [
+        "Vertical versus horizontal transmission"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-vertical-horizontal",
+          "label": "Vertical versus horizontal transmission",
+          "detail": "Vertical: mother-to-offspring via placenta, birth canal or breast milk. Horizontal: person-to-person.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transmission routes and examples",
+      "topics": [
+        "Transmission routes and examples"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-vertical-horizontal",
+          "label": "Vertical versus horizontal transmission",
+          "detail": "Same definitions with routes/examples.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-transmission-examples",
+          "label": "Route-specific organism examples",
+          "detail": "Examples by placenta, childbirth, milk and horizontal spread retained; source lists same HIV agent in distinct routes.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Exit and transmission routes",
+      "topics": [
+        "Exit and transmission routes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-routes",
+          "label": "Transmission/exit routes",
+          "detail": "Respiratory, gastrointestinal and genitourinary exits; droplets/aerosols, contaminated food/water, sex, urine, skin, blood and needles.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-blood-screening",
+          "label": "Blood donor screening",
+          "detail": "Screening for pathogens reduces transfusion transmission risk.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-4: Waterborne diseases — third-year reference",
+      "topics": [
+        "Table 7-4: Waterborne diseases — third-year reference"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-waterborne-reference",
+          "label": "Third-year waterborne catalog",
+          "detail": "Table 7-4 retained, not directly assessed: pathogen–route–type–disease mappings.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Portal/route | Pathogen | Type | Disease |\n| --- | --- | --- | --- |\n| GI: drinking water | Salmonella species | B | Diarrhea |\n| GI: drinking water | Shigella species | B | Diarrhea |\n| GI: drinking water | Campylobacter jejuni | B | Diarrhea |\n| GI: drinking water | Norovirus | V | Diarrhea |\n| GI: drinking water | Giardia lamblia | P | Diarrhea |\n| GI: drinking water | Cryptosporidium parvum | P | Diarrhea |\n| GI: water while swimming | Leptospira interrogans | B | Leptospirosis |\n| Respiratory: water aerosol | Legionella pneumophila | B | Pneumonia (Legionnaire’s disease) |\n| Skin penetration | Pseudomonas aeruginosa | B | Hot-tub folliculitis |\n| Skin penetration | Schistosoma mansoni | H | Schistosomiasis |\n| Nose: cribriform plate→meninges/brain | Naegleria fowleri | P | Meningoencephalitis |\n\nKey: B bacterium; V virus; P protozoa; H helminth. Norovirus formerly called Norwalk-like viruses. All organisms causing diarrhea via drinking water also cause diarrhea via ingested swimming water. Highlighted note: expected to know all infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization."
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Vector-borne transmission",
+      "topics": [
+        "Vector-borne transmission"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-vector",
+          "label": "Vector-borne transmission",
+          "detail": "Transmission through infected vector bites; mosquitoes and ticks are given.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-lyme-example",
+          "label": "Lyme example",
+          "detail": "B. burgdorferi via infected tick; fever/headache/fatigue and erythema migrans rash.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p31-vector-wording",
+          "statement": "The source calls mosquitoes and ticks insects in its vector example.",
+          "issue": "Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+          "description": "The source calls mosquitoes and ticks insects in its vector example. Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+          "handling": "Preserve wording, avoid taxonomy correction or taxonomy-based distractors."
+        }
+      ]
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-6: Insect vectors — third-year reference",
+      "topics": [
+        "Table 7-6: Insect vectors — third-year reference"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-vector-reference",
+          "label": "Third-year vector catalog",
+          "detail": "Table 7-6 vector/reservoir/disease associations retained, not directly assessed.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Vector | Reservoir | Disease |\n| --- | --- | --- | --- | --- |\n| Gram-negative rods | Yersinia pestis | Rat fleas | Rodents, e.g. rats/prairie dogs | Plague |\n| Gram-negative rods | Francisella tularensis | Ticks (Dermacentor) | Many animals, e.g. rabbits | Tularemia |\n| Spirochetes | Borrelia burgdorferi | Ticks (Ixodes) | Mice | Lyme disease |\n| Spirochetes | Borrelia recurrentis | Lice | Humans | Relapsing fever |\n| Rickettsias | Rickettsia rickettsii | Ticks (Dermacentor) | Dogs, rodents and ticks (Dermacentor) | Rocky Mountain spotted fever |\n| Rickettsias | Rickettsia prowazekii | Lice | Humans | Epidemic typhus |\n| Rickettsias | Ehrlichia chaffeensis | Ticks (Dermacentor, Ixodes) | Dogs | Ehrlichiosis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization."
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Portals of entry and zoonoses",
+      "topics": [
+        "Portals of entry and zoonoses"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-portals",
+          "label": "Major portals of entry",
+          "detail": "Respiratory, gastrointestinal, genital tract and skin.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-zoonosis",
+          "label": "Zoonotic transmission",
+          "detail": "Pathogen transmission between animals and humans; animals can be reservoir hosts.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-3: Obligatory portals/pathogens/species",
+      "topics": [
+        "Table 7-3: Obligatory portals/pathogens/species"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-portal-respiratory",
+          "label": "Obligatory respiratory-portal organisms",
+          "detail": "S. pneumoniae, N. meningitidis, H. influenzae, M. tuberculosis; influenza, rhinovirus, EBV; Coccidioides immitis and Histoplasma capsulatum with listed diseases/types.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-portal-gastrointestinal",
+          "label": "Obligatory GI-portal organisms",
+          "detail": "Shigella dysenteriae, Salmonella typhi, Vibrio cholerae; hepatitis A, poliovirus; Trichinella spiralis with listed diseases/types.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-portal-skin",
+          "label": "Obligatory skin-portal organisms",
+          "detail": "C. tetani, R. rickettsii, rabies virus, Trichophyton rubrum and Plasmodium vivax with listed diseases/types.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-portal-genital",
+          "label": "Obligatory genital-portal organisms",
+          "detail": "N. gonorrhoeae, T. pallidum, C. trachomatis, HPV and Candida albicans with listed diseases/types.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Portal | Pathogen | Type | Disease |\n| --- | --- | --- | --- |\n| Respiratory | Streptococcus pneumoniae | B | Pneumonia |\n| Respiratory | Neisseria meningitidis | B | Meningitis |\n| Respiratory | Haemophilus influenzae | B | Meningitis |\n| Respiratory | Mycobacterium tuberculosis | B | Tuberculosis |\n| Respiratory | Influenza virus | V | Influenza |\n| Respiratory | Rhinovirus | V | Common cold |\n| Respiratory | Epstein–Barr virus | V | Infectious mononucleosis |\n| Respiratory | Coccidioides immitis | F | Coccidioidomycosis |\n| Respiratory | Histoplasma capsulatum | F | Histoplasmosis |\n| Gastrointestinal | Shigella dysenteriae | B | Dysentery |\n| Gastrointestinal | Salmonella typhi | B | Typhoid fever |\n| Gastrointestinal | Vibrio cholerae | B | Cholera |\n| Gastrointestinal | Hepatitis A virus | V | Infectious hepatitis |\n| Gastrointestinal | Poliovirus | V | Poliomyelitis |\n| Gastrointestinal | Trichinella spiralis | H | Trichinosis |\n| Skin | Clostridium tetani | B | Tetanus |\n| Skin | Rickettsia rickettsii | B | Rocky Mountain spotted fever |\n| Skin | Rabies virus | V | Rabies |\n| Skin | Trichophyton rubrum | F | Tinea pedis (athlete’s foot) |\n| Skin | Plasmodium vivax | P | Malaria |\n| Genital | Neisseria gonorrhoeae | B | Gonorrhea |\n| Genital | Treponema pallidum | B | Syphilis |\n| Genital | Chlamydia trachomatis | B | Urethritis |\n| Genital | Human papilloma virus | V | Genital warts |\n| Genital | Candida albicans | F | Vaginitis |\n\nThe table header marks Type of Organism with footnote 1, but its footnote text is not shown on this page. The same source-table letter conventions visible elsewhere are B bacterium, V virus, F fungus, P protozoa, H helminth. Most important visible annotation: **“Obligatory!/ know all species”**, unlike the explicitly third-year reference tables.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p34-type-footnote",
+          "statement": "Type-of-organism header has footnote 1 but no footnote text visible.",
+          "issue": "Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+          "description": "Type-of-organism header has footnote 1 but no footnote text visible. Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+          "handling": "Do not infer any extra footnote conditions."
+        }
+      ],
+      "assessmentNotes": "Emphasized eligible exception: annotation explicitly says Obligatory!/ know all species. Distinguish portals/type/disease within the source, avoiding ambiguity from multiple true rows."
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-7: Zoonotic diseases — third-year reference",
+      "topics": [
+        "Table 7-7: Zoonotic diseases — third-year reference"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-zoonotic-reference",
+          "label": "Third-year zoonotic catalog",
+          "detail": "Table 7-7 species/reservoir/route/disease associations retained as reference-only.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "bacterial-pathogenesis-zoonosis",
+          "label": "Zoonotic transmission",
+          "detail": "Transmission between animal reservoir and human.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Main reservoir | Mode | Disease |\n| --- | --- | --- | --- | --- |\n| Gram-positive rods | Bacillus anthracis | Domestic animals | Direct contact | Anthrax |\n| Gram-positive rods | Listeria monocytogenes | Domestic animals | Unpasteurized milk products | Sepsis in neonate or mother |\n| Gram-positive rods | Erysipelothrix rhusiopathiae | Fish | Direct contact | Erysipeloid |\n| Gram-negative rods | Bartonella henselae | Cats | Skin scratch | Cat-scratch disease |\n| Gram-negative rods | Brucella species | Domestic animals | Unpasteurized milk; contact with animal tissues | Brucellosis |\n| Gram-negative rods | Campylobacter jejuni | Domestic animals | Contaminated meat | Diarrhea |\n| Gram-negative rods | Escherichia coli O157:H7 | Cattle | Fecal–oral | Hemorrhagic colitis |\n| Gram-negative rods | Francisella tularensis | Many animals, especially rabbits | Tick bite/direct contact | Tularemia |\n| Gram-negative rods | Pasteurella multocida | Cats | Cat bite | Cellulitis |\n| Gram-negative rods | Salmonella enteritidis | Poultry, eggs and cattle | Fecal–oral | Diarrhea |\n| Gram-negative rods | Yersinia enterocolitica | Domestic animals | Fecal–oral | Diarrhea |\n| Gram-negative rods | Yersinia pestis | Rodents, especially rats/prairie dogs | Rat flea bite | Sepsis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization."
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-7 continuation — third-year reference",
+      "topics": [
+        "Table 7-7 continuation — third-year reference"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-zoonotic-reference",
+          "label": "Third-year zoonotic catalog",
+          "detail": "Continuation of Table 7-7 retained as reference-only.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Bacterium | Reservoir | Mode | Disease |\n| --- | --- | --- | --- | --- |\n| Mycobacteria | Mycobacterium bovis | Cows | Unpasteurized milk products | Intestinal tuberculosis |\n| Spirochetes | Borrelia burgdorferi | Mice | Tick bite (Ixodes) | Lyme disease |\n| Spirochetes | Leptospira interrogans | Rats and dogs | Urine | Leptospirosis |\n| Chlamydiae | Chlamydia psittaci | Psittacine birds | Inhaled aerosols | Psittacosis |\n| Rickettsiae | Rickettsia rickettsii | Rats and dogs | Tick bite (Dermacentor) | Rocky Mountain spotted fever |\n| Rickettsiae | Coxiella burnetii | Sheep | Aerosols of amniotic fluid | Q fever |\n| Rickettsiae | Ehrlichia chaffeensis | Dogs | Tick bite (Dermacentor) | Ehrlichiosis |\n\nExplicit note: expected to know these infectious agents **by third year**.",
+      "uncertainties": [],
+      "assessmentNotes": "Explicit third-year reference table: preserve all rows; no direct organism–vector/reservoir/disease memorization."
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adherence to cell surfaces",
+      "topics": [
+        "Adherence to cell surfaces"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-adhesins",
+          "label": "Adhesins and attachment",
+          "detail": "Pili/fimbriae, capsules and glycocalyces attach pathogens to host surfaces.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-pili-urinary",
+          "label": "Pili attachment examples",
+          "detail": "N. gonorrhoeae/E. coli pili mediate urinary/genital epithelial attachment.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-glycocalyx",
+          "label": "Glycocalyx adherence",
+          "detail": "S. epidermidis/viridans glycocalyx promotes attachment to damaged valves, colonization and biofilm.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pili/fimbriae micrographs",
+      "topics": [
+        "Pili/fimbriae micrographs"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-fimbriae-image",
+          "label": "Fimbrial micrographs",
+          "detail": "Rod-like bacteria with numerous fine surface filaments; left image scale bar 1 μm.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two micrographs show numerous fine surface filaments extending from rod-shaped bacteria. Left scale bar: **1 μm**. No named species are assigned by the captions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Biofilms",
+      "topics": [
+        "Biofilms"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-biofilm-matrix",
+          "label": "Biofilm matrix",
+          "detail": "Attached structured bacterial community in polysaccharide/protein/extracellular-DNA matrix.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-biofilm-protection",
+          "label": "Biofilm protection/persistence",
+          "detail": "Protects from antibiotics, antibodies and neutrophils; contributes to chronic infections.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-biofilm-examples",
+          "label": "Biofilm examples",
+          "detail": "P. aeruginosa lung persistence in cystic fibrosis; dental plaque in caries.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Quorum sensing",
+      "topics": [
+        "Quorum sensing"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-quorum",
+          "label": "Quorum sensing",
+          "detail": "Density-dependent gene-expression coordination via production/detection of autoinducers.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-quorum-threshold",
+          "label": "Autoinducer threshold",
+          "detail": "At critical density signaling molecules accumulate and activate virulence/biofilm factors; P. aeruginosa example.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Curli adhesion and coagulation",
+      "topics": [
+        "Curli adhesion and coagulation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-curli",
+          "label": "Curli structure and adhesion",
+          "detail": "Extracellular amyloid fimbrial fibers of some E. coli/Salmonella promote endothelial/ECM fibronectin attachment.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-curli-coagulation",
+          "label": "Curli and coagulation",
+          "detail": "Binding factor XII/fibrinogen can affect coagulation, fibrin/inflammation, thrombus formation and DIC.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Disseminated intravascular coagulation",
+      "topics": [
+        "Disseminated intravascular coagulation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-dic",
+          "label": "DIC consequences",
+          "detail": "Systemic coagulation activation in sepsis causes microvascular thrombosis, platelet/clotting-factor consumption, bleeding and organ dysfunction.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-dic-examples",
+          "label": "DIC organism examples",
+          "detail": "Gram-negative endotoxin, N. meningitidis, E. coli, S. aureus and S. pneumoniae examples.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "bacterial-pathogenesis-thrombus-wording",
+          "label": "Thrombus/thrombosis wording",
+          "detail": "Thrombus defined as clotting process preventing bleeding; thrombosis as clot blocking flow in healthy vessels.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p42-thrombus-definition",
+          "statement": "Thrombus is called a clotting process that prevents bleeding.",
+          "issue": "The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+          "description": "Thrombus is called a clotting process that prevents bleeding. The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+          "handling": "Preserve wording; do not score terminology from the imprecise sentence."
+        }
+      ]
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Tissue invasion enzymes and coagulase",
+      "topics": [
+        "Tissue invasion enzymes and coagulase"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-matrix-enzymes",
+          "label": "Collagenase/hyaluronidase",
+          "detail": "Degradation of collagen/hyaluronic-acid extracellular matrix promotes tissue spread.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-coagulase",
+          "label": "Coagulase protection",
+          "detail": "Promotes fibrin clot formation from fibrinogen, potentially walling off infection/protecting against phagocytosis; S. aureus and Y. pestis association.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Immunoglobulin proteases and leukocidins",
+      "topics": [
+        "Immunoglobulin proteases and leukocidins"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-iga-protease",
+          "label": "IgA protease",
+          "detail": "Degrades secretory IgA at mucosa; N. gonorrhoeae, H. influenzae, S. pneumoniae examples.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-igg-protease",
+          "label": "IgG-degrading protease",
+          "detail": "Produced by S. pyogenes.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-leukocidin",
+          "label": "Leukocidins",
+          "detail": "Cytotoxins damage/kill leukocytes especially neutrophils/macrophages; many form pores.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cellulitis",
+      "topics": [
+        "Cellulitis"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-cellulitis",
+          "label": "Cellulitis",
+          "detail": "Deeper skin bacterial infection after skin break/cut/scratch/crack; swollen red area; S. pyogenes example.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Capsules and opsonization",
+      "topics": [
+        "Capsules and opsonization"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-capsule-opsonization",
+          "label": "Capsule antiphagocytic mechanism",
+          "detail": "Interferes with deposition/accessibility of C3b and IgG opsonins.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-opsonins",
+          "label": "Opsonization",
+          "detail": "C3b/IgG coat bacteria and facilitate complement/Fc-receptor recognition by phagocytes.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "M protein and Protein A",
+      "topics": [
+        "M protein and Protein A"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-m-protein",
+          "label": "M protein",
+          "detail": "S. pyogenes M protein binds factor H, promoting C3b inactivation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-protein-a",
+          "label": "Protein A",
+          "detail": "S. aureus Protein A binds IgG Fc and disrupts normal antibody orientation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opsonization/phagocytosis diagrams",
+      "topics": [
+        "Opsonization/phagocytosis diagrams"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-opsonin-receptors",
+          "label": "Opsonin/receptor mapping",
+          "detail": "Phagocyte Fc receptors bind IgG Fc; CR1 binds C3b, enhancing recognition, attachment and phagocytosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-protein-a-diagram",
+          "label": "Protein A orientation diagram",
+          "detail": "Protein A occupies Fc and reduces Fc-receptor-mediated phagocytosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Left diagram: bacterium coated in IgG and C3b; complement activation; phagocyte CR1 and Fc receptor; arrows to phagocytosis; nucleus. Right diagram: Staphylococcus aureus with Protein A binding IgG Fc; Fc portion occupied/not accessible; reduced Fc-receptor-mediated phagocytosis. Caption states Protein A prevents proper antibody orientation and reduces Fc-receptor-mediated phagocytosis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 7-8: Surface virulence factors",
+      "topics": [
+        "Table 7-8: Surface virulence factors"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-surface-table",
+          "label": "Surface-factor reference table",
+          "detail": "Table lists capsules, M protein, Protein A, pili, V/W proteins and vaccine-use examples; complete readable rows retained.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Group | Organism | Virulence factor | Used in vaccine | Comment |\n| --- | --- | --- | --- | --- |\n| Gram-positive cocci | Streptococcus pneumoniae | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-positive cocci | Streptococcus pyogenes | M protein | No | Determines serotype (footnote 1 not shown) |\n| Gram-positive cocci | Staphylococcus aureus | Protein A | No | Binds IgG Fc; overlaid annotation: Prevents activation of complement |\n| Gram-negative cocci | Neisseria meningitidis | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-positive rods | Bacillus anthracis | Polypeptide capsule | No |  |\n| Gram-negative rods | Haemophilus influenzae | Polysaccharide capsule | Yes | Determines serotype |\n| Gram-negative rods | Klebsiella pneumoniae | Polysaccharide capsule | No |  |\n| Gram-negative rods | Escherichia coli | Protein pili | No | Causes adherence |\n| Gram-negative rods | Salmonella typhi | Polysaccharide capsule | No | Not important for other… [right edge cropped] |\n| Gram-negative rods | Yersinia pestis | V and W proteins | No |  |",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p49-cropped-comment",
+          "statement": "Salmonella typhi comment reads Not important for other… at the right edge.",
+          "issue": "The rest of the comment and M-protein footnote are not visible.",
+          "description": "Salmonella typhi comment reads Not important for other… at the right edge. The rest of the comment and M-protein footnote are not visible.",
+          "handling": "Do not complete or score missing text."
+        }
+      ],
+      "assessmentNotes": "Supporting surface-factor catalog. Clear capsule/Protein A/M-protein/pilus mechanisms can be assessed using explanatory pages; missing/cropped comments excluded."
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pyogenic versus granulomatous inflammation",
+      "topics": [
+        "Pyogenic versus granulomatous inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-inflammation-types",
+          "label": "Pyogenic versus granulomatous inflammation",
+          "detail": "Pyogenic/suppurative pus: neutrophils predominate; granulomatous: macrophages/helper T cells.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-granuloma-survival",
+          "label": "Intramacrophage persistence",
+          "detail": "Some bacteria survive/grow in macrophages within granulomas; M. tuberculosis example.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chronic granulomatous disease",
+      "topics": [
+        "Chronic granulomatous disease"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-cgd-defect",
+          "label": "CGD defect",
+          "detail": "Inherited phagocyte NADPH oxidase complex defects impair respiratory burst/ROS.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-cgd-consequence",
+          "label": "CGD consequences",
+          "detail": "Impaired neutrophil/macrophage intracellular killing, persistent bacteria/fungi, dysregulated inflammation, granulomas, damage/obstruction.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pseudomembranes",
+      "topics": [
+        "Pseudomembranes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-pseudomembrane",
+          "label": "Pseudomembrane formation",
+          "detail": "Inflammatory exudate on damaged mucosa; diphtheria pharyngeal/tonsillar adherent gray-white membrane contains cells/dead epithelium/bacteria.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-pseudocolitis",
+          "label": "Antibiotic-associated pseudomembranous colitis",
+          "detail": "C. difficile disease often follows disruption of intestinal microbiota, particularly after antibiotics.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intracellular pathogen categories",
+      "topics": [
+        "Intracellular pathogen categories"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-intracellular-evasion",
+          "label": "Intracellular evasion",
+          "detail": "Survival inside cells evades defenses; some persistent organisms induce granulomatous inflammation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-intracellular-categories",
+          "label": "Obligate versus facultative intracellular growth",
+          "detail": "Facultative examples Mycobacterium, Legionella, Brucella, Listeria, Histoplasma (fungus); obligate Chlamydia/Rickettsia.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intracellular survival mechanisms",
+      "topics": [
+        "Intracellular survival mechanisms"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-fusion-inhibition",
+          "label": "Fusion inhibition",
+          "detail": "Mycobacterium/Legionella inhibit phagosome–lysosome fusion.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-acidification",
+          "label": "Acidification inhibition",
+          "detail": "Mycobacterium/Legionella inhibit phagosomal acidification, reducing lysosomal enzyme activity.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-phagosomal-escape",
+          "label": "Phagosomal escape",
+          "detail": "Listeria escapes to cytoplasm; source absolute no degradative enzymes is not scored.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "bacterial-pathogenesis-p54-absolute-cytoplasm",
+          "statement": "Escape to cytoplasm is followed by where there are no degradative enzymes.",
+          "issue": "Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+          "description": "Escape to cytoplasm is followed by where there are no degradative enzymes. Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+          "handling": "Retain as written; do not make absolute absence of enzymes the scored claim."
+        }
+      ]
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Invasins and host-cell entry",
+      "topics": [
+        "Invasins and host-cell entry"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-invasins",
+          "label": "Invasin entry mechanism",
+          "detail": "Bacterial surface proteins interact with host receptors; some bind integrins to signal internalization.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-intracellular-fates",
+          "label": "Intracellular fates",
+          "detail": "Some remain vacuolar; some migrate to cytoplasm; some spread to adjacent cells in actin-based tunnels.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Actin motility and cell-to-cell spread",
+      "topics": [
+        "Actin motility and cell-to-cell spread"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-actin-rockets",
+          "label": "Actin-based spread",
+          "detail": "Listeria aggregates actin filaments for actin-rocket propulsion and cell-to-cell spread, evading defenses.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram: bacterium enters a cell; lysis of phagolysosome; proliferation; actin-based locomotion; filopodium formation; cell-to-cell spread into neighboring cell. Labels include nucleus. Magnified actin panel labels disassembly/detachment, attachment to host cytoskeleton, filament growth, ADP actin, ATP actin, cytoskeleton, bacterium, nucleus. This is an illustrated process, not a quantified rate.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Yersinia outer proteins",
+      "topics": [
+        "Yersinia outer proteins"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-yops",
+          "label": "Yop effector functions",
+          "detail": "Yersinia factors inhibit phagocytosis and cytokine/TNF production.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-yopj",
+          "label": "YopJ source mechanism",
+          "detail": "Source calls YopJ a protease cleaving signal-transduction proteins needed for TNF synthesis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-yop-number",
+          "label": "Yop quantity",
+          "detail": "About 12 effectors stated.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pathogenicity islands",
+      "topics": [
+        "Pathogenicity islands"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-pai",
+          "label": "Pathogenicity islands",
+          "detail": "Chromosomal clusters of adjacent adhesin, invasin and exotoxin genes encoding multiple factors.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-pai-transfer",
+          "label": "PAI transfer and variants",
+          "detail": "Nonpathogenic variants lack PAIs; regions appear transferred as blocks by conjugation/transduction.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "bacterial-pathogenesis-pai-examples",
+          "label": "PAI taxonomic examples",
+          "detail": "Gram-negative E. coli, Salmonella, Shigella, Pseudomonas, V. cholerae; Gram-positive S. pneumoniae.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PAI-dependent E. coli phenotypes",
+      "topics": [
+        "PAI-dependent E. coli phenotypes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-pathogenesis-pai-phenotypes",
+          "label": "PAI-dependent phenotypes",
+          "detail": "PAI-A enterotoxin/watery diarrhea; PAI-B urinary-epithelial pili/UTI; PAI-C K-1 capsule-synthesis enzymes/neonatal meningitis; nonpathogenic strain lacks PAI.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Top: nonpathogenic E. coli with circular genome and no PAI. Three arrows lead separately (alternative strains, not sequential steps) to PAI-A / watery diarrhea (enterotoxigenic strain), PAI-B / urinary tract infection (uropathic strain), PAI-C / neonatal meningitis (K-1 capsular strain). PAI-A encodes enterotoxin; B urinary epithelium-binding pili; C K-1 capsular-polysaccharide synthesis enzymes.",
+      "uncertainties": []
+    }
+  ]
+}

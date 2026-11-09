@@ -1,0 +1,2295 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "description": "Faithful full-page renders of unchanged authoritative lecture PDFs. Covers and administrative pages are included for exact PDF-page navigation.",
+  "pathBase": "sources/",
+  "format": "image/webp",
+  "lossless": true,
+  "renderScale": 2.0,
+  "renderDpi": 144.0,
+  "encoderQuality": null,
+  "renderEngine": "pypdfium2",
+  "imageEncoder": "Pillow 13.0.0",
+  "manifestSha256": "4362c979922054b62e9d42890395f1d6604e6bb9489a2c6e656f713e580e8ef3",
+  "totalPages": 224,
+  "totalBytes": 27482512,
+  "sourcePdfs": [
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "path": "slides/01-bacteria-and-other-microorganisms.pdf",
+      "sha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "pdfPages": 64,
+      "renderBytes": 9553762
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "path": "slides/02-bacterial-genetics.pdf",
+      "sha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "pdfPages": 36,
+      "renderBytes": 3627018
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "path": "slides/03-bacterial-growth.pdf",
+      "sha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "pdfPages": 35,
+      "renderBytes": 5081936
+    },
+    {
+      "lectureId": "normal-flora",
+      "path": "slides/04-normal-flora.pdf",
+      "sha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "pdfPages": 30,
+      "renderBytes": 2240928
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "path": "slides/05-bacterial-pathogenesis.pdf",
+      "sha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "pdfPages": 59,
+      "renderBytes": 6978868
+    }
+  ],
+  "pages": [
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 1,
+      "path": "pages/bacteria-and-other-microorganisms/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6f841c230864120ef8cfbfc8da6144b3fd62adf12854dce941ead152a940ce30",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 49362
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 2,
+      "path": "pages/bacteria-and-other-microorganisms/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1c6e77b6bdf112bc7dbc8cdd457e82a75ad44e1ca37af9023bf722ddbe16e7e5",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 824364
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 3,
+      "path": "pages/bacteria-and-other-microorganisms/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "56be1ac5d9f288fae5e9e5e6f6f452c2e49b42d3f3645a84f92ac179466de7ae",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 46718
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 4,
+      "path": "pages/bacteria-and-other-microorganisms/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "24288eb2dd330c9a61993fb876f62dbfe6bab75bddafd49b1221c5705f7945f6",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 67372
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 5,
+      "path": "pages/bacteria-and-other-microorganisms/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "aaa1eed30e66a2455a29727d4beeac042c7236870b6b0ccc64cad0839590335b",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 77706
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 6,
+      "path": "pages/bacteria-and-other-microorganisms/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "02c59253ddebd385703ba822bd47d0ee99a007dffa8d978b916be659e27fb71d",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 85302
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 7,
+      "path": "pages/bacteria-and-other-microorganisms/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "36b83d4750c28e8e78dcf082f94d3007d1ff12ac811d84df364e2314dd7e4d60",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 106742
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 8,
+      "path": "pages/bacteria-and-other-microorganisms/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "86baa18f3ec853eddd1d2c7a8d2134e18d3c24f80a57ab1dd96c1475f01e052d",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 200510
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 9,
+      "path": "pages/bacteria-and-other-microorganisms/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0713999194a1188ca71dc4cd65932155af5979379eb0dc8ef9ad0601d862411b",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 71956
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 10,
+      "path": "pages/bacteria-and-other-microorganisms/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "adad3ac580206cf9613b6905dba4bc55567bbde3ff9a9f25b24942888fa981f5",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 255564
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 11,
+      "path": "pages/bacteria-and-other-microorganisms/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "72582e7478bdca7c3b2314cb4648a2e51f13fad2ed7aed43cc05b91f20fbb326",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 108
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 12,
+      "path": "pages/bacteria-and-other-microorganisms/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e55036315b6ae49370ab5f51b3ea960b4d5277fdd53f8bb64313e628d0c8c219",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 44666
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 13,
+      "path": "pages/bacteria-and-other-microorganisms/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "38064e6e975f18fb8ec7510e2abef732cf16ea82ea43e762148cfe3e3843db2b",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 364942
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 14,
+      "path": "pages/bacteria-and-other-microorganisms/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e573729d1790db23ff2c261886113b99e9d314ce102267566fd1bce8ab5cc7f9",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 50714
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 15,
+      "path": "pages/bacteria-and-other-microorganisms/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46b59b481d9480696b7ada9fef7b1e5155c1b83e407495a8e25b47c8ca2d80e9",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 30944
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 16,
+      "path": "pages/bacteria-and-other-microorganisms/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "11cf01862a7da54c08e2cf6d1876fa1966d2b2f2d657a5a7514e14f8279403ab",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 227912
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 17,
+      "path": "pages/bacteria-and-other-microorganisms/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "73a878012939856d1b3af8c3632aa846768aa230f57cbb8480e426e02b473eee",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 265016
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 18,
+      "path": "pages/bacteria-and-other-microorganisms/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "851c60e6a0c25337d5df51b8c144eb2adec3f6c81dae8aceb4ecc7352ee3b7b4",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 57418
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 19,
+      "path": "pages/bacteria-and-other-microorganisms/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c482f225339daf927a14342379eafd8cbba92469304e846cf901d0423c80c9d3",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 49244
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 20,
+      "path": "pages/bacteria-and-other-microorganisms/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6f1ba6e00df1edb83f783cd55edd0a6ddc5f7193628edca60aa535d9106b151b",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 178528
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 21,
+      "path": "pages/bacteria-and-other-microorganisms/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8dbd0658630c7ab2eab693b174a951cab6d3d6590f0fe0a918c7576fcc24552c",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 237516
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 22,
+      "path": "pages/bacteria-and-other-microorganisms/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d1b5fcf29c9551c5c22bf59edd5e309b74e53e6b132f22dd2d68f018c5424476",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 96110
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 23,
+      "path": "pages/bacteria-and-other-microorganisms/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "623ab6bec874ef19881d97309ef073131e6df09ef81263b030095a94c4691c1b",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 148958
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 24,
+      "path": "pages/bacteria-and-other-microorganisms/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "744f221a476bc01f00c2d5f159ad6fcfc02484c4bd479f5699be415c1ced3832",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 188006
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 25,
+      "path": "pages/bacteria-and-other-microorganisms/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2ce8f50b72f136fa65eaa18ac2f00880c77941b775f7a9f9f2f926783eaba8a9",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 311846
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 26,
+      "path": "pages/bacteria-and-other-microorganisms/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0d39b31e21e8e020d668a5e3be25a3d5f67ce5d3a0130b7e1ad7119d810e1c44",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 166190
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 27,
+      "path": "pages/bacteria-and-other-microorganisms/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "02c966b6389c1775c659dec654470a3c4ef5cc5260a1d9fd7cb00f79a798a9b9",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 73596
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 28,
+      "path": "pages/bacteria-and-other-microorganisms/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4a3153a0f91ee948066aa34b4bca7e33c4eaaab4ee2810f7b2a60702daad5e58",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 63618
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 29,
+      "path": "pages/bacteria-and-other-microorganisms/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "44cb5f6617f46cca2bf22c3d498f844fec1b4004711a15e308cb51fd64482593",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 688856
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 30,
+      "path": "pages/bacteria-and-other-microorganisms/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9fc342b266a6f7ac9cb41eaf8d4af5f55e17fe2d45c69ff6f86aee637db2d769",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 264420
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 31,
+      "path": "pages/bacteria-and-other-microorganisms/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a7718e75b6e3e0d6d2f008343fedec2355f3fd06239165025d5744d956e8661c",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 40844
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 32,
+      "path": "pages/bacteria-and-other-microorganisms/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "828953b55ec3fb0a7d97da9f7bd310b6bff3cc456f32705a1df545880081d879",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 52372
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 33,
+      "path": "pages/bacteria-and-other-microorganisms/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f6bd7e403acb5e75f3baf1dce7991919c135ec668b365e7c2fe115d4dbe86e58",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 62372
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 34,
+      "path": "pages/bacteria-and-other-microorganisms/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "396f15919fde3c0a13420f80ef3aef6d1fec8235dbfaef9a02b933244b583fd5",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 161570
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 35,
+      "path": "pages/bacteria-and-other-microorganisms/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a8dad37f6a42ce0e01085acde8d45769f2a126a225ac6e25725818b152d6efc4",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 417972
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 36,
+      "path": "pages/bacteria-and-other-microorganisms/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "825cfda9794a66e331a3e9c401dd3426d98b233541ff761dcad1ba1da071fa8a",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 76326
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 37,
+      "path": "pages/bacteria-and-other-microorganisms/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6311a09830cf9b82755d6d8b853d07e3dec190d4780fdc227e6aa703088d1021",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 126816
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 38,
+      "path": "pages/bacteria-and-other-microorganisms/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ebdbc4e933db40994f05acba4c8d81ae3c6cd01ae4dbe2ac8c59330582362c6f",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 110488
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 39,
+      "path": "pages/bacteria-and-other-microorganisms/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "57a7e2d2dba804e8fa92348b38efd63e111dad93d6183a0b654014f97b4e040d",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 129824
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 40,
+      "path": "pages/bacteria-and-other-microorganisms/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "407f7a6ab07e2863846e868a2ad310aa33e4cc2e8a9e1795885095b813ee5286",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 57870
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 41,
+      "path": "pages/bacteria-and-other-microorganisms/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b3dc7c045fe447ded62952f5eedf0de054806a7176512c9e30fe6793b2659a7d",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 108144
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 42,
+      "path": "pages/bacteria-and-other-microorganisms/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c3a44001976095e3f5a58173d69df7e0eeb50cf2a016fe860b696154109f4cd5",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 102670
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 43,
+      "path": "pages/bacteria-and-other-microorganisms/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "83270f85721a682ad6e0a462cb4cedc2afea92d5e1c42b165599016895d583b6",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 60312
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 44,
+      "path": "pages/bacteria-and-other-microorganisms/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9f4eef44b30845d8b994cb456e5bc69a2f5b9b3e16f5360b76f2c786e721a2e6",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 254462
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 45,
+      "path": "pages/bacteria-and-other-microorganisms/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dfb2b9df10e54a8794c874e67ba820210e373456553bd6c67f79cc47b49824cc",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 73976
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 46,
+      "path": "pages/bacteria-and-other-microorganisms/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c82773b345bcdd0585bb33faca58ba4c7164a1bb44f9b776739376561794970e",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 389268
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 47,
+      "path": "pages/bacteria-and-other-microorganisms/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5786c4e2e4ac260c9b17fc9ab9c470967f3110eb185a222800e23bd5ff885ab2",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 75438
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 48,
+      "path": "pages/bacteria-and-other-microorganisms/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0d7b2f3bf9ec7fab18dd31b5176b67e2d6dd6efd5edb88e7fe97caffb87ded68",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 93660
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 49,
+      "path": "pages/bacteria-and-other-microorganisms/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "da3c27258fe4655fc1c84c029222e5319d01aa6ef7688bbf2673a4e6b782be5e",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 396720
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 50,
+      "path": "pages/bacteria-and-other-microorganisms/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d02ee36a14e0f8e3987648605a10efe4478f9b5d93407b35efd410a1cd551cd4",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 103186
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 51,
+      "path": "pages/bacteria-and-other-microorganisms/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f534b176658e145874d6a1793ff7a702d8a49cfac8683acf0685d6732978bc59",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 146092
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 52,
+      "path": "pages/bacteria-and-other-microorganisms/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "037e818845f760d2bad4d4aa0f931745ab71f22738639ab4a85814bece70f088",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 70530
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 53,
+      "path": "pages/bacteria-and-other-microorganisms/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0e0cf1e823182b812909bc9c1db4ad64e7b7e0b4a70a9397436acddb4bb2ea20",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 210910
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 54,
+      "path": "pages/bacteria-and-other-microorganisms/page-054.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "55e913f2fcd13e5a39c6a41cf42445c2dee3e747c6f6316388ce61e340af574d",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 93644
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 55,
+      "path": "pages/bacteria-and-other-microorganisms/page-055.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "72582e7478bdca7c3b2314cb4648a2e51f13fad2ed7aed43cc05b91f20fbb326",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 108
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 56,
+      "path": "pages/bacteria-and-other-microorganisms/page-056.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0e9e3e4d67296cdec7645b66170658dafbab94eeb3822f8adac8b0a7a7ca62b9",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 51056
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 57,
+      "path": "pages/bacteria-and-other-microorganisms/page-057.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e93cebc264baac250222d8a3540ee0f075bfcf3496051e584ee0ed521841e09c",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 126036
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 58,
+      "path": "pages/bacteria-and-other-microorganisms/page-058.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7ebff7f285d1b851de2f371749bacbb4f2ecac428d1c2bb65ed042af5df9ebf5",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 135606
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 59,
+      "path": "pages/bacteria-and-other-microorganisms/page-059.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b96e3666fb16db6c069d849d25e9ac9b1bf31a6163ce3d0dbf15949bae860415",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 119478
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 60,
+      "path": "pages/bacteria-and-other-microorganisms/page-060.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b819e9d4551b7f51ae786fbc5a183ae4cdb085065a229855026f56be4792d30",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 115838
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 61,
+      "path": "pages/bacteria-and-other-microorganisms/page-061.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "78db66d2bb01645f5e8105dff66aae1d5fa203546e9250bd555553b242e15bbf",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 88478
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 62,
+      "path": "pages/bacteria-and-other-microorganisms/page-062.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "319aa6ca51d3eb1991aaca187afd3cbd46944c910ac462a40c3a192eeeaa329c",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 150022
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 63,
+      "path": "pages/bacteria-and-other-microorganisms/page-063.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "99178385010be7e6de3d44fc0047e62d89a915a5b8cf4215fc3b8218f4d3c495",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 57362
+    },
+    {
+      "lectureId": "bacteria-and-other-microorganisms",
+      "pdfPage": 64,
+      "path": "pages/bacteria-and-other-microorganisms/page-064.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "72582e7478bdca7c3b2314cb4648a2e51f13fad2ed7aed43cc05b91f20fbb326",
+      "sourceSha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "sizeBytes": 108
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 1,
+      "path": "pages/bacterial-genetics/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "01445eab46a3aa529ea4820bbf3651c7a12f1abeec708a58bc2323f5d280e3ca",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 4846
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 2,
+      "path": "pages/bacterial-genetics/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6d48ec34fab83628cfe87cdcb50ad1b3810f4af1a58bfeef857da49574547b0f",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 75484
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 3,
+      "path": "pages/bacterial-genetics/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df5d9b559c89834d52be74d6369e0a5ade1797e1b053bafb65b56013174fa59b",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 54954
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 4,
+      "path": "pages/bacterial-genetics/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b4ed2b3af63297b7825ad3e2691d7ced86f079eaab9ad3e494a5cb3ca048ea68",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 34574
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 5,
+      "path": "pages/bacterial-genetics/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "380997747d7585490893aad785e915334de74e59b21a712f6f0a0e13bfde9f31",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 62462
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 6,
+      "path": "pages/bacterial-genetics/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "514e75886a51b8bf8ba13462b2e82e21bba720224c4b7d15a24c6f03864395dc",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 95986
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 7,
+      "path": "pages/bacterial-genetics/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e916ddbf317371108900052f83f5d7217fe62e02578e0d746eacf67dc45a88c4",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 78086
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 8,
+      "path": "pages/bacterial-genetics/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "063b5c36c28b0189def0167d55e206caf650c481f94395f145b1c72fdf1d8234",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 69784
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 9,
+      "path": "pages/bacterial-genetics/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5f4a9031d2ef7e48b7fedb732163220245e58347d13ecd6291377cb075e09bf0",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 70860
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 10,
+      "path": "pages/bacterial-genetics/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4fcf4404ee960d0007315359d25da83d0ae221f32b2cf771a8ff16b582d7203c",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 34936
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 11,
+      "path": "pages/bacterial-genetics/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e6bb914258fc78900db046fa196d3c197228b8da7de5a8236650d853e0a5f1e5",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 58588
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 12,
+      "path": "pages/bacterial-genetics/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dd581e906dcdf7538f964d5e2cf18d5d8ecd6314865f1338068760bf270f8024",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 52958
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 13,
+      "path": "pages/bacterial-genetics/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "22fcc012238d66ab2b2dace3f3394f44bd2da6d2178f5bb13af46349587b8fd7",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 60104
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 14,
+      "path": "pages/bacterial-genetics/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7d1eb6ce43fbfdec58e95d3547b8e83f9137d000c8586359b6c6dd2c9a220d92",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 97188
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 15,
+      "path": "pages/bacterial-genetics/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "65c9a8573ebb475f5f87e3892888685a7a294055f61efa05e16a5a4a49236502",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 55528
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 16,
+      "path": "pages/bacterial-genetics/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ee483fc039c15c95535fc83dca1d3c4eaf63bbcfd22857f422a811214da1e264",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 75444
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 17,
+      "path": "pages/bacterial-genetics/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "067e837abc4099680e1070ab53c627be1af9b82ab144988e1bde4012627d2566",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 72192
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 18,
+      "path": "pages/bacterial-genetics/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df3b3dd2441e866f7e4b5043ee001f52543abed995b55394db3b67c365f400b2",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 263594
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 19,
+      "path": "pages/bacterial-genetics/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ec622a578410fc8ecc4596a23a4fd045d0681518453f2eff0fcc3fd2321901fd",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 136172
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 20,
+      "path": "pages/bacterial-genetics/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6d3f5171713ba58c60c18f5c9bc318c2195d6ea5e2dbf72e01e6b7bc3e15bb85",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 57924
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 21,
+      "path": "pages/bacterial-genetics/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "726af1ee98ad22514c31c779e6123219ccda2ab570e8b8a95797a95dbe50ed9b",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 102386
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 22,
+      "path": "pages/bacterial-genetics/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b186c2594621d9bda72d1c2a9fdb856c431b220aec2318d7d1c98dae0e35baab",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 76218
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 23,
+      "path": "pages/bacterial-genetics/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4a9560e54375e11a711e8593e401c683ebd3923bceee700aa156efb724976502",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 113304
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 24,
+      "path": "pages/bacterial-genetics/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ebe6c239cf4b9f8b9bcaa8ec8c13bbc281315b838e4d979bb3af62f0f799bd86",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 62180
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 25,
+      "path": "pages/bacterial-genetics/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e2cbe364935e7fbe093c728de5aa2cb3d4505d3b942f31d3c772c5a68bacbc50",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 45520
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 26,
+      "path": "pages/bacterial-genetics/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6fb1e89ea23613edb5c713e14e510951fc0646b1eb1d16c86cf11dad86c9d15d",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 65740
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 27,
+      "path": "pages/bacterial-genetics/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7c7b65afdffd60517bdaa29a7bea6b11e3a44a8510b32237ae236c3dd841b9ab",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 64556
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 28,
+      "path": "pages/bacterial-genetics/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6895261965d9233290a1233cb4421c49bee2723d788e670b68e4583b2366e070",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 166136
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 29,
+      "path": "pages/bacterial-genetics/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2e4037fb2791ee38f47043c59f234cfb050cb4adcb8ea849329935cfe50d89e7",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 140200
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 30,
+      "path": "pages/bacterial-genetics/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3e1a7dc367ebeafd067f747e80e6dd6af4a833f8de89b1bcab4b36b412eb8720",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 101514
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 31,
+      "path": "pages/bacterial-genetics/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "059d8cb6215817e85344c0b8402e7344106d79d5361d280d3546c23380bc765d",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 237434
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 32,
+      "path": "pages/bacterial-genetics/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "38650d12827ffae4f4b7abd950c30671d1ca43d3fb3e637fd3d6da474495e68d",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 324914
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 33,
+      "path": "pages/bacterial-genetics/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ef55cfdb84d9db0c1af1aebcea5df902d2e9ea96a9f73d1e906c2b6e602fd8d1",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 68984
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 34,
+      "path": "pages/bacterial-genetics/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5ac6a20cd4756d2fac1ba34d30292306d98579d57efe9cd5fbef1215ba4f8c11",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 388942
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 35,
+      "path": "pages/bacterial-genetics/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3c7d41e9f99d1bb47ace8345563cecdb670fd95ceca4c460e38e2c2d508115fd",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 70824
+    },
+    {
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 36,
+      "path": "pages/bacterial-genetics/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7035a43db6f5a872b62fd3cc7aa3ab3e6a9d8fb418d4dfcb67d9a44cebbc0864",
+      "sourceSha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "sizeBytes": 86502
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 1,
+      "path": "pages/bacterial-growth/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b67ead96351f7e6f02b1919db9d9d3b47fd090437d3e779f51e35627747e2bc2",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 38206
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 2,
+      "path": "pages/bacterial-growth/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6875fe04975adb73fd39a46b4a4cc8edd6440d190eefa33d89bc1c18269cd616",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 25354
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 3,
+      "path": "pages/bacterial-growth/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3042cca653e117e4162502661847eab24b4f46820ea1ccc4517175ef8e62a4a8",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 345506
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 4,
+      "path": "pages/bacterial-growth/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8d133fe5f8508b5f1d32aa6f66feee04e68d8047cc9d75334d838cba90190dbe",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 47128
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 5,
+      "path": "pages/bacterial-growth/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1b1d9d51823b79aa84d58bbce8cdb29bd2359fd5b356572bac2bd5d4b97148b6",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 170144
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 6,
+      "path": "pages/bacterial-growth/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8c58d2b16f650de06525489cf8e286b8552fec8002914e430c35be15b80ed528",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 36930
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 7,
+      "path": "pages/bacterial-growth/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7baac5195a43450a2b6957fb146a2bf0050b1763733ca652ad703798c3a1a895",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 73692
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 8,
+      "path": "pages/bacterial-growth/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6d0dd76def237c39f71a34176fbcf51ea6450032b022219032d3b94d47e9bcc4",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 154152
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 9,
+      "path": "pages/bacterial-growth/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5e60f5f72e98861cd5b9e918c595016baa26bcff5967d414b05d5f111f78d56f",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 229804
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 10,
+      "path": "pages/bacterial-growth/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b83eea36a85443b47d5b0b8c81c7bcd97bdd0a0e9c08cb34602121d81ef2657a",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 277486
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 11,
+      "path": "pages/bacterial-growth/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e4e28c85b795f0d6fce5853761e447e2f08899cdd167272fe2d8c58f5a6f9d2a",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 36002
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 12,
+      "path": "pages/bacterial-growth/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8f41e31640dd719e6fe9d527700e7c68641813fb20a47976fc9be9a985b5e8b4",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 239908
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 13,
+      "path": "pages/bacterial-growth/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5ff0887f76d8a28ddecdcc14e2502fc0c5a89f62690111a8693ec82ef5350a02",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 70812
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 14,
+      "path": "pages/bacterial-growth/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df7a2090161d4ee61604c728a45aa4961369254b60f848ff021ad3d8bf8b6fa2",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 55142
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 15,
+      "path": "pages/bacterial-growth/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8ebd3538abf3be23de15b2a6e529da12b33ada94f066cd09bdcfda595719408b",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 72096
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 16,
+      "path": "pages/bacterial-growth/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "de82dc47f9a170e6fa0103a59140232f77950cd85c86a61219ab8f117d51792e",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 654082
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 17,
+      "path": "pages/bacterial-growth/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d39e4e35e77de1438bcdb22aee949256d810956152b96633837545a278b19990",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 188530
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 18,
+      "path": "pages/bacterial-growth/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b69871e89ffdf4eb614f44424e1b3754dc2ea479cff8ac29919a751ac8d5eb65",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 243488
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 19,
+      "path": "pages/bacterial-growth/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c1637b08a3438cec132e54762e5fccad1662f83c780f83799a89c9fb1b297a6f",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 32260
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 20,
+      "path": "pages/bacterial-growth/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "22cfc352be69818ec383aaa66af9bddb4078c1290ea7c30bf9aa261bcd574a35",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 78874
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 21,
+      "path": "pages/bacterial-growth/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ee4f61ad2961be7472e73aa8aa6fa423061b3fde7ff5326c0c8bd3259d788937",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 37542
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 22,
+      "path": "pages/bacterial-growth/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d9590243c4ca7bd63b68a24ac7b0f9c0a99879024c555bdae2cbbb354c6775e4",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 46888
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 23,
+      "path": "pages/bacterial-growth/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6d27bcae3181bfd6597a80a734018cd02b98199410923ae389c32972203260d7",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 260224
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 24,
+      "path": "pages/bacterial-growth/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0db316f76c7b2af95befd2c024721f0819b8cdda2b230d1418f18d7de3b8c8f3",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 77258
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 25,
+      "path": "pages/bacterial-growth/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b08718d673cf7992de1ac8236edc81937409ea65699a6c443bc79cfbbf009ab7",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 66070
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 26,
+      "path": "pages/bacterial-growth/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "57bc9692f5316bbeea35ab3f78e0a612e4c0c9a103c80ce55bee8d6a35340be2",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 71746
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 27,
+      "path": "pages/bacterial-growth/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bc70aeb36056a250b074be44c849d546f18a4a81c81467061a3675481efb7826",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 73506
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 28,
+      "path": "pages/bacterial-growth/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e70667c03b9062c56213a184c1d95aa0456ddfb062fe0558f0c14a4b8801fdd5",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 102236
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 29,
+      "path": "pages/bacterial-growth/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fc8bae3b54ace1897c1fd00d31e7c2338287a3bc1888fccfb68b4c9132f42521",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 335378
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 30,
+      "path": "pages/bacterial-growth/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6316338ada74564bd5c099dbbd0949b285665d593fc70f08e3978f3191793a00",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 61152
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 31,
+      "path": "pages/bacterial-growth/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "68c27f79d368aaa4c836061ad0de5e96ae0a92e8a7044858110494a623c51e70",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 205492
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 32,
+      "path": "pages/bacterial-growth/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8be144ea76aca4d7e9c5ee8d396f57d6a7b117cdff92fcc50d9d6b4da7f0297e",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 34370
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 33,
+      "path": "pages/bacterial-growth/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fe54037c4fa3e81e81001cfc8ca05ad5caae272a270ef2afe29373e10037686d",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 82384
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 34,
+      "path": "pages/bacterial-growth/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e2c8ce1b6026cc06ead5795ce1a6d9ba8f8bbb4965a2fcdf54506d043101f98b",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 65350
+    },
+    {
+      "lectureId": "bacterial-growth",
+      "pdfPage": 35,
+      "path": "pages/bacterial-growth/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cd7047d663fbf45770ddacb5c3bf2f53032a7bd8e089872d6d21ffec47cdebe8",
+      "sourceSha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "sizeBytes": 492744
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 1,
+      "path": "pages/normal-flora/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ebebcacd92a68ce5c28bd9f02b5e012ed00799c5aae12c56a716b07d2bb396a7",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 16932
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 2,
+      "path": "pages/normal-flora/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff5916a23e88454652ab36bd2e4f5ffae24cd1048211cde4362fb3f508f889f6",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 79142
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 3,
+      "path": "pages/normal-flora/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae23bdc132975aeec237648142525916c6bf60c7273893e814616cc964de6e79",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 57138
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 4,
+      "path": "pages/normal-flora/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "628bed9f9024ce91e6434244aeabf913aa18fe17d09aa63973a7341b62ea0979",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 59364
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 5,
+      "path": "pages/normal-flora/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3a6621234594d12233e41e638053baf0f1ab4d87859c010051cdd78f3b791d87",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 69204
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 6,
+      "path": "pages/normal-flora/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "360f7fc7d25ce11ecdaf9c9a374a4d5fb8f5328307d96c3dd94b6225627faaa1",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 52542
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 7,
+      "path": "pages/normal-flora/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a111f0accb38349f178d735f814581e3f2e1f67a9fb4b0db8ab85c9ab0817506",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 60366
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 8,
+      "path": "pages/normal-flora/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f3cc8fcee4536978a9178d612c6f18b726bc923096d03e15ba1d6eccf4fb1ef0",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 79154
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 9,
+      "path": "pages/normal-flora/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fe1e219672fa0799f983be3c542a26556872983abf7fad32601ecfb4216e1adc",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 61234
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 10,
+      "path": "pages/normal-flora/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "047ab17a0328127c4ed5253233352f8e30fd33fbfdac87368570adfe029af501",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 78324
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 11,
+      "path": "pages/normal-flora/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "af7b0f7b1de4faa8372434503402495c0aff014c37077093e5b1daca361b4fa1",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 36640
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 12,
+      "path": "pages/normal-flora/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5ac75638ea48b991c41dfc8dc7984554007fc510e563c7a86e546203ba14d147",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 79654
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 13,
+      "path": "pages/normal-flora/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "67ee9a6bb3f814287b10441191fde79a3203e34f267dc74154730a5035d81a7f",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 93728
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 14,
+      "path": "pages/normal-flora/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a120fa0d1ad412e6e096bffab9c90be0c3056c9b051f9c5f55b2c70e286c143b",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 185326
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 15,
+      "path": "pages/normal-flora/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c208fca0064afedbd8db78a2c55bbaa38b09f97429c6e74ebafc32e2a4fb2b0f",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 65214
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 16,
+      "path": "pages/normal-flora/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "198947fee40a9daabbffe515149eaba822935568a8d546ceafd0ee939b2d2b63",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 70076
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 17,
+      "path": "pages/normal-flora/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3df87447b56b2d1e6a9a490030748ee7a1d3e78d1e1e429ceea197b9f7219653",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 34934
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 18,
+      "path": "pages/normal-flora/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3092cfae96d3e2992de225479c74d1e97c9626bf357679db7f88a75fa803265d",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 188098
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 19,
+      "path": "pages/normal-flora/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7111659de804da898f5987bfe252fea62d3e0898c4358bf455e4727448ecd9fd",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 84966
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 20,
+      "path": "pages/normal-flora/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c4f9917ef499809f81283800539377d85220462c55e7166429b4fbfa031947fc",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 82256
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 21,
+      "path": "pages/normal-flora/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cbd5dd6d3cc4c7037a1840290a9ec58570e6b9546c5a02e0963fa4b69b418360",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 53728
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 22,
+      "path": "pages/normal-flora/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4f3e4964f56032710002819a0dfbee015ca00562dd0df0aac0723ad2f9dadb71",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 68412
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 23,
+      "path": "pages/normal-flora/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b50ee4a439c1e754db773b12d727440da4010a5bbf5728089bb4162a5847ac41",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 114520
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 24,
+      "path": "pages/normal-flora/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "43681c7cef6fa1d519af01d28c50257a688f3936639adb315b60ada050193ac1",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 93220
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 25,
+      "path": "pages/normal-flora/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d62f396db4cc5686a5619e68f6b165c2948e05dcb773287ae052799dfad565a0",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 60334
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 26,
+      "path": "pages/normal-flora/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "81e88b703043da2b8c526e88538629ad881f6780fddd38e110352ff94ae51e5c",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 71756
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 27,
+      "path": "pages/normal-flora/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4dd49b33656332cef978ad36d1b3ed3562b4f5c23abe5f443b7b9f59b1c1d655",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 40220
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 28,
+      "path": "pages/normal-flora/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1717589553eecd9f98dfb90918f5f4ccbe615369aefcbd373a109bd96b67d914",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 89924
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 29,
+      "path": "pages/normal-flora/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a6e2a928f0c9548fcec77786caba3f0064ee9949e6bbe098a501841796f2803e",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 53070
+    },
+    {
+      "lectureId": "normal-flora",
+      "pdfPage": 30,
+      "path": "pages/normal-flora/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "00c225baf9779dea428d210304713fd2fff31b5142c15c788c9d9e35431a9545",
+      "sourceSha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "sizeBytes": 61452
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 1,
+      "path": "pages/bacterial-pathogenesis/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3f700290f6b50a2cb79408aaaec721a754c9571fc6cffc9667e15a0c80d06cfa",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 10562
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 2,
+      "path": "pages/bacterial-pathogenesis/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7e098247f5cff6b3480c6cf71231a1c49ff499f0e5a54da80b782b90ba8d6663",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 44704
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 3,
+      "path": "pages/bacterial-pathogenesis/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0ddb42e1964aa7a9726568c76f410fc66627ad8944104ea25daa107e23062af2",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 86704
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 4,
+      "path": "pages/bacterial-pathogenesis/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ce3ae9a0e7d284c27eb339d6fa9b0d5f5f50cc178f38a88d7ac3be7fa2225bce",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 95012
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 5,
+      "path": "pages/bacterial-pathogenesis/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b559bf40bc7d925f3165a49f92d2eaa14fbe7761b29da9c4ef622c535a32fc1f",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 74734
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 6,
+      "path": "pages/bacterial-pathogenesis/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "98316f9da0f11a188f43c9dcb8ed2b9930e5f7fa44767df0c2b793eb479c9b57",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 50262
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 7,
+      "path": "pages/bacterial-pathogenesis/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "77b9c4028003709b66088fe99ba2531147dc0883eb9511540a5042818cadd068",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 43150
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 8,
+      "path": "pages/bacterial-pathogenesis/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "272e39a841a11e8e701acc7fa65976cfd31e11015874879b93bb37c6c8be9c8e",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 45780
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 9,
+      "path": "pages/bacterial-pathogenesis/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eafacc1981dfabca4cac77151874dd03e785221a6c55ba1f30d72efd74e049a5",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 69956
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 10,
+      "path": "pages/bacterial-pathogenesis/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6637f16c4808e994c94467e2e465ec77b00623377beb4712fd5d7ddce64a1105",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 40538
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 11,
+      "path": "pages/bacterial-pathogenesis/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8e8105a3814317dd1b63d6877d63ef5383889fbc163f03b51ff37c10ca3b071c",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 69824
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 12,
+      "path": "pages/bacterial-pathogenesis/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1d9c62b1a2675c149c060c662fcb989d8c0638d59c4164b62e4825ebd1f3fe7d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 53078
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 13,
+      "path": "pages/bacterial-pathogenesis/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "52bf2e05113a056d331d062b55284f8b75ab5c87f9762a140d717f70da7944b0",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 69282
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 14,
+      "path": "pages/bacterial-pathogenesis/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bff94919249f9d5b89741c83abcba1aedf5b26ee9424bcbd833219a765a575a6",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 67482
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 15,
+      "path": "pages/bacterial-pathogenesis/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "73857cdaa3ddf8a5059195408acef92fe1d6e3f242d489c73a24cd7a7647516f",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 77664
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 16,
+      "path": "pages/bacterial-pathogenesis/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d981ce9bbac8c606d10f8dd0027063cae358a433229023175decd22ef39054ff",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 55950
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 17,
+      "path": "pages/bacterial-pathogenesis/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "acbf9a18aec33009efae24c97586f1e24741daa2915ee3b3aa76b99c9a661685",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 58886
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 18,
+      "path": "pages/bacterial-pathogenesis/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ac1ed28f513501190814473e65dc22339e3dfdea8664f9f829c5df324aed200a",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 48926
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 19,
+      "path": "pages/bacterial-pathogenesis/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "19bd32f0a5e5fcc6ee385fb54fb034a93b83657420578d0d0023c019494e8759",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 53670
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 20,
+      "path": "pages/bacterial-pathogenesis/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b5f9b9260fe6a1cab559d256adcb2680cd47d6cacfee428f25873e630ac5d6b0",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 53768
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 21,
+      "path": "pages/bacterial-pathogenesis/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4547ebf675285a992970b60e3624aa384cc8ed45c97e282c054391f076ef6831",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 46354
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 22,
+      "path": "pages/bacterial-pathogenesis/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "219617e1cfbc5083a453809a42e2ca992e9a2051ea4b36e4546be8c3494eaf6b",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 78016
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 23,
+      "path": "pages/bacterial-pathogenesis/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d0ae20fafed2256622c84e8e65e348d72d2ee53df86d0eed570d0ee8eda9dc97",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 611538
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 24,
+      "path": "pages/bacterial-pathogenesis/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ecf4c568617f82890ff5e7ca541b3367570237c0412311c4a5a94d6026d221cf",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 61724
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 25,
+      "path": "pages/bacterial-pathogenesis/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "505bf7a914454acd184902065a30e1378b1d35488841d89b8207e41a97125019",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 68566
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 26,
+      "path": "pages/bacterial-pathogenesis/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b002c633911eb5f81f723549f3ed03fdba1ea1fa17290fb98d951cc6e593a1f3",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 360538
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 27,
+      "path": "pages/bacterial-pathogenesis/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "32e873cba74e96ea1c2f0998a77ca9c72fc20f1e903c0d91ac14daa69c604e5e",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 36484
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 28,
+      "path": "pages/bacterial-pathogenesis/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fab5e5aa867a022c8f73461c4b82ba72f83097b598c7236da0e8faeba7470aa3",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 78420
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 29,
+      "path": "pages/bacterial-pathogenesis/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4000cfb839cf08c4fae7d1cf49ac43e176c78e9fdb25912b9c254c809787a19f",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 56808
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 30,
+      "path": "pages/bacterial-pathogenesis/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4b567a6b65774bee2b19bc55847cd57e290678ddc4e69a9411f312b1dfa4944e",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 190232
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 31,
+      "path": "pages/bacterial-pathogenesis/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9e159a39c396aa48fcfadbd564fc261ceaa8792229e8a9eeb2660cad533b7ef5",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 207230
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 32,
+      "path": "pages/bacterial-pathogenesis/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dd96524c9d9f643fb11a63454d1d188327678ea693d9a63ab55d8575203c2249",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 171692
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 33,
+      "path": "pages/bacterial-pathogenesis/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d2f2f4a13e0225a5c3f0f5000594d3d1c50e57fe0af3df3f1f2342d6492fa037",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 35726
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 34,
+      "path": "pages/bacterial-pathogenesis/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ee509ba6f31cd051f27f5ae5564e50c626dac4bb82baa5a5c56b44db56241372",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 292492
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 35,
+      "path": "pages/bacterial-pathogenesis/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "803de97ba2a80cfec52cd5e4d15fc2e680f376eebfef6cff3ade146b93176187",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 349910
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 36,
+      "path": "pages/bacterial-pathogenesis/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c803c77fdb3163d51a7706828d7601c8d9dd56e67afd29735a2dffe95284ecb",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 221014
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 37,
+      "path": "pages/bacterial-pathogenesis/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4d7a62fa875fee812ef4c3deb3c34f73e735e2b378d2182d42f8113fcc8176de",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 92670
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 38,
+      "path": "pages/bacterial-pathogenesis/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ad1e2a4b1c5cf764d28e198164ec1bf8d012588e96df0b6e643dcb151edc746a",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 231902
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 39,
+      "path": "pages/bacterial-pathogenesis/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9f0b075ceb6e5391028d8434c0d1fb43bd1bc9d1b6af53a02a7716e8aa32a10f",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 84910
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 40,
+      "path": "pages/bacterial-pathogenesis/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7d59b2768f087d7c382fb801b5086ccab9a7a26f360aa93758c028cab66dcaa4",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 56464
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 41,
+      "path": "pages/bacterial-pathogenesis/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dbcb93f818124adfb96b652d7d290a48d00ca9d651945b412a12580cdc4a9559",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 69440
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 42,
+      "path": "pages/bacterial-pathogenesis/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b70c48fe2bdff30572bc68d39a4b0959f085341ea44f73e9e394c09094297d70",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 193478
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 43,
+      "path": "pages/bacterial-pathogenesis/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "63ac50316bcc4520a0108fd6919b34bb0294f1e309f5c74c9d220615056ea4ef",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 74464
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 44,
+      "path": "pages/bacterial-pathogenesis/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b509e60cfa44eea7c4d3229aaac68c374fea03d313eeb1d8d5ad070df25e62d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 65508
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 45,
+      "path": "pages/bacterial-pathogenesis/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ad3cd29aba5432f9879920bcede898a6f213941577e48c541bf1962152da69de",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 277996
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 46,
+      "path": "pages/bacterial-pathogenesis/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "182d4cb0f13be4389f25e94178b187ed30b5ba39d5d0385d8dd9cfe649aabc64",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 66194
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 47,
+      "path": "pages/bacterial-pathogenesis/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "732dcc5f37299ff7c3ce8223e4b9f61d3b1a75b3ff89138a31353dc6634611d2",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 56510
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 48,
+      "path": "pages/bacterial-pathogenesis/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "35769cfdb1408df3c8c150abb1f4d19b1df9290eb928254edf564011d47757b8",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 346122
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 49,
+      "path": "pages/bacterial-pathogenesis/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3c4ed744368bcc4dc7d300df1e258de67298761d139f32b9faae468dae81696f",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 369032
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 50,
+      "path": "pages/bacterial-pathogenesis/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5b6003952709e0ffef590a16772e8f3606e2ffe8d46df53b08ac31b925815d38",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 69840
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 51,
+      "path": "pages/bacterial-pathogenesis/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d51bfd7fa7deefc70c4e303d6b878367016ec5b834731ce7f0500272fb3c8652",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 54336
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 52,
+      "path": "pages/bacterial-pathogenesis/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c56e92a400271c1f3ea131665f5139881e155dec19f502814ea72f009351d19",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 74738
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 53,
+      "path": "pages/bacterial-pathogenesis/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a9d3525bf42a9c2057a6058f84fa03aed35437e75bdc1830f6ba3b6fcf26f86d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 62726
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 54,
+      "path": "pages/bacterial-pathogenesis/page-054.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "15042e45e0358076e2691ea18ed82d4fa341a3d95ba5a8560a0a58636550ab5d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 51408
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 55,
+      "path": "pages/bacterial-pathogenesis/page-055.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7b2eb63fe81c3962b415ca7d39eedffc570e6a39152ee743ba7d8e65c513d82d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 58490
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 56,
+      "path": "pages/bacterial-pathogenesis/page-056.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "06b3c8531086bcefe06de0c91a0a8673a4892914fda7f5e79e2cc14f8aff2f1d",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 253204
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 57,
+      "path": "pages/bacterial-pathogenesis/page-057.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2dbab5cd0ea51ffa54a711011c836243cb009deadea1fde657c77921bafca0a2",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 66976
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 58,
+      "path": "pages/bacterial-pathogenesis/page-058.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "54683b2d3225df2f6ff40b2c24a2755bc987979798ead1b6327a8fafe73983e2",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 75112
+    },
+    {
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 59,
+      "path": "pages/bacterial-pathogenesis/page-059.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "51509f3208e4441f718e155d4c5c02206e8ce052b554cedf92d40f74a8c14fa7",
+      "sourceSha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "sizeBytes": 190672
+    }
+  ]
+}

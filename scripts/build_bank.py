@@ -1,7 +1,10 @@
 """Publish only independently reviewed lecture activities and rebuild coverage."""
-import collections, json, pathlib, subprocess, sys
+import collections, json, pathlib, subprocess, sys, argparse
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-BASE = ROOT / 'subjects/molecular-biology'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--subject', default='molecular-biology')
+args = parser.parse_args()
+BASE = ROOT / 'subjects' / args.subject
 def read(path): return json.loads(path.read_text(encoding='utf-8-sig'))
 manifest = read(BASE / 'sources/manifest.json')
 activities, deferrals = [], []
@@ -13,11 +16,11 @@ for lecture in manifest['lectures']:
         assert item['review'].get('peerReviewedBy') and item['review'].get('peerReviewNotes'), ('Missing independent review', item['id'])
         activities.append(item)
     deferrals += [{**d, 'lectureId': lecture['id']} for d in data.get('coverageDeferrals', [])]
-bank = {'schemaVersion': 1, 'subjectId': 'molecular-biology', 'scopeId': 'midterm', 'activities': activities}
+bank = {'schemaVersion': 1, 'subjectId': args.subject, 'scopeId': 'midterm', 'activities': activities}
 (BASE / 'activities.json').write_text(json.dumps(bank, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 (BASE / 'source-analysis/activity-deferrals.json').write_text(json.dumps({'schemaVersion':1,'items':deferrals}, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
-subprocess.run([sys.executable, str(ROOT / 'scripts/build_source_index.py')], check=True)
-subprocess.run([sys.executable, str(ROOT / 'scripts/validate_content.py')], check=True)
+subprocess.run([sys.executable, str(ROOT / 'scripts/build_source_index.py'), '--subject', args.subject], check=True)
+subprocess.run([sys.executable, str(ROOT / 'scripts/validate_content.py'), '--subject', args.subject], check=True)
 concepts = read(BASE / 'source-analysis/concept-index.json')['concepts']
 deferred_ids = {d['conceptId'] for d in deferrals}
 uncovered_core = [c for c in concepts if c['priority']=='core' and not c['activityIds'] and c['id'] not in deferred_ids]

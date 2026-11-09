@@ -1,8 +1,11 @@
 """Structural and provenance checks. These supplement, never replace, content review."""
-import hashlib, json, pathlib, re, sys
+import hashlib, json, pathlib, re, sys, argparse
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-BASE = ROOT / 'subjects/molecular-biology'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--subject', default='molecular-biology')
+args = parser.parse_args()
+BASE = ROOT / 'subjects' / args.subject
 def read(path):
     return json.loads(path.read_text(encoding='utf-8-sig'))
 def require(condition, message):
@@ -14,7 +17,7 @@ pages = read(BASE / 'source-analysis/page-ledger.json')['pages']
 concepts = read(BASE / 'source-analysis/concept-index.json')['concepts']
 page_map = {(p['lectureId'], p['pdfPage']): p for p in pages}
 concept_map = {c['id']: c for c in concepts}
-require(len(page_map) == 191 == len(pages), 'PDF page ledger is incomplete or duplicated')
+require(len(page_map) == manifest['total_pdf_pages'] == len(pages), 'PDF page ledger is incomplete or duplicated')
 for lecture in manifest['lectures']:
     path = BASE / 'sources' / lecture['path']
     require(hashlib.sha256(path.read_bytes()).hexdigest() == lecture['sha256'], f'Original changed: {path}')
@@ -34,7 +37,7 @@ if not bank_path.exists():
     sys.exit(0)
 
 bank = read(bank_path)
-require(bank['schemaVersion'] == 1 and bank['subjectId'] == 'molecular-biology', 'Wrong bank schema/subject')
+require(bank['schemaVersion'] == 1 and bank['subjectId'] == args.subject, 'Wrong bank schema/subject')
 ids, prompts = set(), set()
 type_counts = {}
 for a in bank['activities']:

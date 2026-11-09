@@ -1,0 +1,69 @@
+{
+  "subject": "General Microbiology",
+  "purpose": "Midterm",
+  "total_pdf_pages": 224,
+  "pagination_note": "One-based PDF pages; printed slide numbers are separately recorded when visible.",
+  "lectures": [
+    {
+      "id": "bacteria-and-other-microorganisms",
+      "title": "Bacteria and Other Microorganisms",
+      "original_filename": "1) Bacteria and Other Microorganisms.pdf",
+      "path": "slides/01-bacteria-and-other-microorganisms.pdf",
+      "pdf_pages": 64,
+      "sha256": "2df6150384512484682cc207eb7a7831e2aa5111d62ff37f5c7f87eaa5a8a362",
+      "size_bytes": 2555150,
+      "scope": "All supplied teaching content; no direct memorization of longitudinal reference tables or broad organism-disease lists",
+      "extraction_status": "Embedded text and visual review assets extracted; structured review pending",
+      "question_bank_status": "Not authored; complete source review required first"
+    },
+    {
+      "id": "bacterial-genetics",
+      "title": "Bacterial Genetics",
+      "original_filename": "2) Bacterial Genetics.pdf",
+      "path": "slides/02-bacterial-genetics.pdf",
+      "pdf_pages": 36,
+      "sha256": "75987d35d7f516552308b77024b9f233a71efb96c4e2cc7f907664d982dbad41",
+      "size_bytes": 650996,
+      "scope": "All supplied teaching content; no direct memorization of longitudinal reference tables or broad organism-disease lists",
+      "extraction_status": "Embedded text and visual review assets extracted; structured review pending",
+      "question_bank_status": "Not authored; complete source review required first"
+    },
+    {
+      "id": "bacterial-growth",
+      "title": "Bacterial Growth",
+      "original_filename": "3) Bacterial Growth.pdf",
+      "path": "slides/03-bacterial-growth.pdf",
+      "pdf_pages": 35,
+      "sha256": "27efb94b99692455bcf40a79580e8f405f3ab73236d36b1af2cb56a64683ba72",
+      "size_bytes": 1415219,
+      "scope": "All supplied teaching content; no direct memorization of longitudinal reference tables or broad organism-disease lists",
+      "extraction_status": "Embedded text and visual review assets extracted; structured review pending",
+      "question_bank_status": "Not authored; complete source review required first"
+    },
+    {
+      "id": "normal-flora",
+      "title": "Normal Flora",
+      "original_filename": "4) Normal Flora.pdf",
+      "path": "slides/04-normal-flora.pdf",
+      "pdf_pages": 30,
+      "sha256": "cbba4402ae2d9dd16afe7d3dde0cd8999ba4c947ef56e2c3e50239d58382b654",
+      "size_bytes": 386785,
+      "scope": "All supplied teaching content; no direct memorization of longitudinal reference tables or broad organism-disease lists",
+      "extraction_status": "Embedded text and visual review assets extracted; structured review pending",
+      "question_bank_status": "Not authored; complete source review required first"
+    },
+    {
+      "id": "bacterial-pathogenesis",
+      "title": "Bacterial Pathogenesis",
+      "original_filename": "5) Bacterial Pathogenesis.pdf",
+      "path": "slides/05-bacterial-pathogenesis.pdf",
+      "pdf_pages": 59,
+      "sha256": "44231cf50b6008b3e44d2b11d8d2a6c133fd4475f4eee3ba5b73949a19110856",
+      "size_bytes": 1852083,
+      "scope": "All supplied teaching content; no direct memorization of longitudinal reference tables or broad organism-disease lists",
+      "extraction_status": "Embedded text and visual review assets extracted; structured review pending",
+      "question_bank_status": "Not authored; complete source review required first"
+    }
+  ],
+  "source_analysis": "../source-analysis/INDEX.md"
+}

@@ -1,7 +1,10 @@
 """Build the consolidated source, page ledger, and concept index from reviewed lectures."""
-import json, pathlib, csv, io, hashlib, re
+import json, pathlib, csv, io, hashlib, re, argparse
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-BASE=ROOT/'subjects/molecular-biology'; ANALYSIS=BASE/'source-analysis'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--subject', default='molecular-biology')
+args=parser.parse_args()
+BASE=ROOT/'subjects'/args.subject; ANALYSIS=BASE/'source-analysis'
 def read(path): return json.loads(path.read_text(encoding='utf-8-sig'))
 def write(path,value): path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 manifest=read(BASE/'sources/manifest.json')
@@ -41,10 +44,10 @@ for activity in bank:
         assert cid in concepts,(activity['id'],cid)
         concepts[cid]['activityIds'].append(activity['id'])
 for c in concepts.values(): c['activityAvailability']='available' if c['activityIds'] else 'not-yet-authored'
-write(ANALYSIS/'page-ledger.json',{'schemaVersion':1,'subjectId':'molecular-biology','pages':allpages})
-write(ANALYSIS/'concept-index.json',{'schemaVersion':1,'subjectId':'molecular-biology','concepts':list(concepts.values())})
-write(ANALYSIS/'uncertainties.json',{'schemaVersion':1,'subjectId':'molecular-biology','items':uncertainties})
-write(ANALYSIS/'chapters.json',{'schemaVersion':1,'subjectId':'molecular-biology','chapters':chapters})
+write(ANALYSIS/'page-ledger.json',{'schemaVersion':1,'subjectId':args.subject,'pages':allpages})
+write(ANALYSIS/'concept-index.json',{'schemaVersion':1,'subjectId':args.subject,'concepts':list(concepts.values())})
+write(ANALYSIS/'uncertainties.json',{'schemaVersion':1,'subjectId':args.subject,'items':uncertainties})
+write(ANALYSIS/'chapters.json',{'schemaVersion':1,'subjectId':args.subject,'chapters':chapters})
 summary={'totalPdfPages':len(allpages),'visuallyReviewedPages':len(allpages),'teachingPages':sum(p['kind']=='teaching' for p in allpages),'excludedPages':sum(p['kind']!='teaching' for p in allpages),'indexedConcepts':len(concepts),'sourceUncertainties':len(uncertainties),'validatedActivities':len(bank),'conceptsWithActivities':sum(bool(c['activityIds']) for c in concepts.values())}
 write(ANALYSIS/'coverage-summary.json',summary)
 stream=io.StringIO(newline=''); w=csv.writer(stream,lineterminator='\n'); w.writerow(['lecture_id','pdf_page','printed_slide','kind','title','concept_ids','visual_review','uncertainty_ids','activity_ids'])
@@ -52,17 +55,17 @@ for p in allpages:
     aids=sorted({a for cid in p['conceptIds'] for a in concepts[cid]['activityIds']})
     w.writerow([p['lectureId'],p['pdfPage'],p['printedSlide'] or '',p['kind'],p['title'],';'.join(p['conceptIds']),p['visualReview'],';'.join(u['id'] for u in p['uncertainties']),';'.join(aids)])
 (ANALYSIS/'coverage-ledger.csv').write_text(stream.getvalue(),encoding='utf-8',newline='\n')
-header='''# Molecular Biology detailed structured study source
+header='''# SUBJECT_TITLE detailed structured study source
 
-Authority: the six unchanged supplied lecture PDFs. No outside biology sources.
+Authority: the unchanged supplied lecture PDFs. No outside teaching sources.
 
 References below use **PDF page**, starting at 1 in each file. A printed slide number is recorded separately only when visible. Covers and administrative pages are retained in the page ledger and excluded from assessment. Source inconsistencies and unclear labels are preserved and blocked from determining scored answers.
 
 This document is the consolidated extraction. The adjacent lecture files preserve editing boundaries; `page-ledger.json`, `concept-index.json`, `coverage-ledger.csv`, and `uncertainties.json` provide machine-readable traceability. Activity availability is distinct from source coverage and from a student's performance.
 
-'''
-(ANALYSIS/'molecular-biology_detailed_structured_study_source.md').write_text(header+'\n\n---\n\n'.join(sections)+'\n',encoding='utf-8')
-lines=['# Molecular Biology source index','',f"{summary['totalPdfPages']} PDF pages visually reviewed; {summary['teachingPages']} teaching pages; {summary['excludedPages']} excluded pages; {summary['indexedConcepts']} indexed concepts.",'','All pagination below is PDF pagination. See `uncertainties.json` for unresolved source claims. Priority is based on source emphasis and relationships, not predicted exam likelihood.','']
+'''.replace('SUBJECT_TITLE',manifest['subject'])
+(ANALYSIS/f'{args.subject}_detailed_structured_study_source.md').write_text(header+'\n\n---\n\n'.join(sections)+'\n',encoding='utf-8')
+lines=[f"# {manifest['subject']} source index",'',f"{summary['totalPdfPages']} PDF pages visually reviewed; {summary['teachingPages']} teaching pages; {summary['excludedPages']} excluded pages; {summary['indexedConcepts']} indexed concepts.",'','All pagination below is PDF pagination. See `uncertainties.json` for unresolved source claims. Priority is based on source emphasis and relationships, not predicted exam likelihood.','']
 for ch in chapters:
     lines += [f"## {ch['title']}",'',f"{ch['pdfPages']} PDF pages. Teaching pages: {', '.join(map(str,ch['teachingPages']))}.",'',f"[Detailed extraction](lectures/{ch['id']}.md) · [Original PDF](../sources/{next(l['path'] for l in manifest['lectures'] if l['id']==ch['id'])})",'','Topics: '+ '; '.join(ch['topics'])+'.','']
     for p in [p for p in allpages if p['lectureId']==ch['id']]: lines.append(f"- PDF p{p['pdfPage']}: {p['title']} ({p['kind']}); {len(p['conceptIds'])} concepts"+(f"; {len(p['uncertainties'])} source notes" if p['uncertainties'] else ''))

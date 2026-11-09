@@ -1,0 +1,1996 @@
+{
+  "lectureId": "bacteria-and-other-microorganisms",
+  "title": "Bacteria and Other Microorganisms",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Five major groups of infectious organisms and kingdoms",
+      "topics": [
+        "Five major groups of infectious organisms and kingdoms"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p01-five-groups",
+          "label": "Five major groups of human infectious agents",
+          "detail": "Infectious diseases belong to bacteria, fungi, protozoa, helminths, and viruses.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p01-kingdom-classification",
+          "label": "Kingdom classifications",
+          "detail": "Helminths belong to Animal; Protozoa belong to Protists; Fungi belong to Fungi; Bacteria belong to Prokaryote; Viruses are noncellular.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p01-cell-types",
+          "label": "Cellular classification across kingdoms",
+          "detail": "Helminths, protozoa and fungi are eukaryotic; bacteria are prokaryotic; viruses are noncellular.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microscopic gallery of pathogenic organisms",
+      "topics": [
+        "Microscopic gallery of pathogenic organisms"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p02-gallery",
+          "label": "Representative pathogen gallery",
+          "detail": "Visual gallery of twelve numbered microscopic representations.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Twelve numbered panels reviewed; photographic representation without textual claims.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of medically important organisms",
+      "topics": [
+        "Comparison of medically important organisms"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-cells",
+          "label": "Cellular nature across groups",
+          "detail": "Bacteria, fungi, protozoa and helminths are cellular; viruses are noncellular.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-diameter",
+          "label": "Size ranges across organism groups",
+          "detail": "Viruses 0.02–0.2 µm; bacteria 1–5 µm; yeasts 3–10 µm; trophozoites 15–25 µm.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-nucleic-acid",
+          "label": "Nucleic acid content across groups",
+          "detail": "Cells contain both DNA and RNA; viruses contain either DNA or RNA but not both.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-nucleus",
+          "label": "Type of nucleus",
+          "detail": "Viruses have no nucleus; bacteria have a prokaryotic nucleoid; fungi and parasites are eukaryotic.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-ribosomes",
+          "label": "Ribosome distribution and sedimentation",
+          "detail": "Viruses lack ribosomes; bacteria have 70S ribosomes; fungi and parasites have 80S ribosomes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-mitochondria",
+          "label": "Mitochondrial presence",
+          "detail": "Viruses and bacteria lack mitochondria; fungi and parasites possess mitochondria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-outer-surface",
+          "label": "Nature of outer surface",
+          "detail": "Viruses: protein capsid and lipoprotein envelope; bacteria: rigid wall with peptidoglycan; fungi: rigid wall with chitin; parasites: flexible membrane.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-motility",
+          "label": "Motility across groups",
+          "detail": "Viruses and fungi lack motility; some bacteria are motile; most protozoa/helminths are motile.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p03-comparison-replication",
+          "label": "Method of replication across groups",
+          "detail": "Viruses do not undergo binary fission; bacteria replicate by binary fission; fungi replicate by budding or mitosis; parasites by mitosis.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three main differential criteria for classification",
+      "topics": [
+        "Three main differential criteria for classification"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p04-structure-criterion",
+          "label": "Structure differential criterion",
+          "detail": "Cells possess cytoplasm, nucleus/nucleoid, protein synthesis and energy machinery; viruses have genetic material without cytoplasm and depend on host machinery.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p04-replication-criterion",
+          "label": "Method of replication criterion",
+          "detail": "Cells divide by binary fission (prokaryotes) or mitosis (eukaryotes) retaining structure; viruses disassemble, copy parts, and reassemble.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p04-nucleic-acid-criterion",
+          "label": "Nature of nucleic acid criterion",
+          "detail": "Cells contain both DNA and RNA; viruses contain either DNA or RNA, but not both.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Eukaryotic versus prokaryotic cellular features",
+      "topics": [
+        "Eukaryotic versus prokaryotic cellular features"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p05-eukaryotic-nucleus",
+          "label": "Eukaryotic nucleus organization",
+          "detail": "True nucleus with multiple chromosomes surrounded by a nuclear membrane; uses mitotic apparatus.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p05-prokaryotic-nucleoid",
+          "label": "Prokaryotic nucleoid organization",
+          "detail": "Single circular molecule of loosely organized DNA lacking a nuclear membrane and mitotic apparatus.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p05-eukaryote-prokaryote-table",
+          "label": "Eukaryotic versus prokaryotic comparison table",
+          "detail": "Comparison of DNA membrane enclosure, mitosis, histones, chromosome count, membrane-bound organelles, ribosome size (70S vs 80S), and peptidoglycan.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Organelles, ribosomes, peptidoglycan and sterol distribution",
+      "topics": [
+        "Organelles, ribosomes, peptidoglycan and sterol distribution"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p06-organelles-ribosomes",
+          "label": "Organelle absence and 70S ribosomes in prokaryotes",
+          "detail": "Eukaryotes contain organelles and 80S ribosomes; prokaryotes lack membrane-bound organelles and have smaller 70S ribosomes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p06-wall-peptidoglycan-chitin",
+          "label": "Cell wall peptidoglycan vs chitin/membrane",
+          "detail": "Prokaryotes generally have rigid peptidoglycan walls; eukaryotes lack peptidoglycan (fungi have chitin, animal cells have flexible membrane).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p06-sterols-mycoplasma",
+          "label": "Sterols in eukaryotic and prokaryotic membranes",
+          "detail": "Eukaryotic membranes contain sterols; no prokaryote, except the wall-less genus Mycoplasma, has sterols in its membranes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Binomial Linnean nomenclature and naming conventions",
+      "topics": [
+        "Binomial Linnean nomenclature and naming conventions"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p07-binomial-system",
+          "label": "Binomial Linnean system",
+          "detail": "Bacteria, fungi, protozoa, and helminths are named by genus and species.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p07-viral-names",
+          "label": "Viral naming format",
+          "detail": "Viruses have single names (e.g., poliovirus) or informal names, or two parts (herpes simplex virus).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p07-candida-albicans",
+          "label": "Candida albicans bright white meaning",
+          "detail": "Candida is genus, albicans is species, meaning bright white.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p07-ella-suffix",
+          "label": "The suffix -ella in bacterial genera",
+          "detail": "The suffix -ella is added to some bacterial genera (e.g. Legionella, Klebsiella) to honour scientists.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial classification by shape and morphology",
+      "topics": [
+        "Bacterial classification by shape and morphology"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p08-three-shapes",
+          "label": "Three primary bacterial shapes",
+          "detail": "Bacteria are classified into cocci, bacilli (rods), and spirochetes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p08-pleomorphic",
+          "label": "Pleomorphic bacteria definition",
+          "detail": "Bacteria variable in shape are described as pleomorphic (many-shaped).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p08-cocci-arrangements",
+          "label": "Coccal morphological arrangements",
+          "detail": "Clusters (Staphylococcus), chains (Streptococcus), pairs with pointed ends (S. pneumoniae), pairs with kidney bean shape (Neisseria).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p08-bacilli-shapes",
+          "label": "Bacillary end and contour variations",
+          "detail": "Square ends (Bacillus), rounded ends (Salmonella), club-shaped (Corynebacterium), fusiform (Fusobacterium), comma-shaped (Vibrio).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p08-spirochete-coiling",
+          "label": "Spirochete coiling distinctions",
+          "detail": "Relaxed coil (Borrelia) versus tightly coiled (Treponema).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial arrangement and plane of division",
+      "topics": [
+        "Bacterial arrangement and plane of division"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p09-arrangement-importance",
+          "label": "Bacterial arrangements in cocci",
+          "detail": "Diplococci (pairs), streptococci (chains), staphylococci (grapelike clusters).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p09-division-plane",
+          "label": "Determinants of bacterial arrangement",
+          "detail": "Arrangements are determined by orientation and degree of attachment of bacteria at the time of cell division.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p09-rods-spirochetes-arrangement",
+          "label": "Arrangement significance in rods and spirochetes",
+          "detail": "The arrangement of rods and spirochetes is medically less important.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial size ranges and comparisons",
+      "topics": [
+        "Bacterial size ranges and comparisons"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p10-size-range",
+          "label": "Bacterial size range",
+          "detail": "Bacteria range from about 0.2 to 5 µm.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p10-smallest-bacteria",
+          "label": "Smallest bacteria comparison",
+          "detail": "The smallest bacteria (Mycoplasma) are about the same size as the largest viruses (poxviruses).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p10-longest-bacteria",
+          "label": "Longest bacteria rods comparison",
+          "detail": "The longest bacteria rods are the size of some yeasts and human red blood cells (7 µm).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Architectural regions divider",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryotic cell architectural regions",
+      "topics": [
+        "Prokaryotic cell architectural regions"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p12-appendages-region",
+          "label": "Appendages region",
+          "detail": "Attachments to cell surface: flagella and pili (fimbriae).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p12-envelope-region",
+          "label": "Cell envelope region",
+          "detail": "Consisting of capsule, cell wall, and plasma membrane.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p12-cytoplasmic-region",
+          "label": "Cytoplasmic region",
+          "detail": "Contains chromosome (DNA), ribosomes, and various sorts of inclusions.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial cell diagram",
+      "topics": [
+        "Bacterial cell diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p13-cell-diagram",
+          "label": "General bacterial anatomy schematic",
+          "detail": "Schematic diagram showing nucleoid DNA, ribosomes, cytoplasm, cell membrane, cell wall, capsule, flagella, attachment pili, sex pilus, plasmid.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cell diagram visually verified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cell wall functions and peptidoglycan",
+      "topics": [
+        "Cell wall functions and peptidoglycan"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p14-wall-outermost",
+          "label": "Cell wall as outermost component",
+          "detail": "Outermost component of bacterial cell; Mycoplasma species have only a membrane and lack a cell wall.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p14-peptidoglycan-support",
+          "label": "Peptidoglycan structural support",
+          "detail": "Peptidoglycan provides structural support, maintains shape, and prevents osmotic rupture.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p14-surface-features",
+          "label": "Surface features beyond wall",
+          "detail": "Some bacteria possess capsule, flagella, and pili.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of Gram-positive and Gram-negative cell walls",
+      "topics": [
+        "Comparison of Gram-positive and Gram-negative cell walls"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p15-peptidoglycan-thickness",
+          "label": "Peptidoglycan thickness comparison",
+          "detail": "Gram-positive cells have thicker, multilayered peptidoglycan; Gram-negative cells have thinner, single-layer peptidoglycan.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p15-teichoic-acid-presence",
+          "label": "Teichoic acid presence",
+          "detail": "Present in Gram-positive cells; absent in Gram-negative cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p15-lps-presence",
+          "label": "Lipopolysaccharide (endotoxin) presence",
+          "detail": "Absent in Gram-positive cells; present in Gram-negative cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-negative outer membrane, periplasmic space, and beta-lactamase inhibitors",
+      "topics": [
+        "Gram-negative outer membrane, periplasmic space, and beta-lactamase inhibitors"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p16-outer-membrane-lps",
+          "label": "Gram-negative outer membrane with LPS",
+          "detail": "Only Gram-negative bacteria possess an outer membrane containing endotoxin (lipopolysaccharide [LPS]).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p16-periplasmic-space",
+          "label": "Periplasmic space and beta-lactamase localization",
+          "detail": "Gram-negative bacteria possess a periplasmic space where beta-lactamases are found (Gram-positive also have beta-lactamases).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p16-beta-lactamase-inhibitors",
+          "label": "Beta-lactamase inhibitors",
+          "detail": "Clavulanic acid, sulbactam, and tazobactam inhibit beta-lactamases.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p16-teichoic-staph-strep",
+          "label": "Teichoic acids in staphylococci and streptococci",
+          "detail": "Several important Gram-positive bacteria, such as staphylococci and streptococci, possess teichoic acids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Components of bacterial cells distribution table",
+      "topics": [
+        "Components of bacterial cells distribution table"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p17-components-table",
+          "label": "Bacterial components distribution reference",
+          "detail": "Distribution of capsule, outer membrane, peptidoglycan, periplasm, and cell membrane across Gram-negative, Gram-positive, and Mollicutes (Mycoplasmas).",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table reviewed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Summary of cell wall differences and periplasmic space enzymes",
+      "topics": [
+        "Summary of cell wall differences and periplasmic space enzymes"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p18-teichoic-protrusion",
+          "label": "Teichoic acid fibers protruding outside peptidoglycan",
+          "detail": "Many Gram-positive bacteria have fibers of teichoic acid protruding outside peptidoglycan that give rigidity to the wall.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p18-outer-membrane-composition",
+          "label": "Gram-negative complex outer layer",
+          "detail": "Complex outer layer consisting of lipopolysaccharide, lipoprotein, and phospholipid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p18-periplasmic-drug-degradation",
+          "label": "Periplasmic degradation of beta-lactams",
+          "detail": "Periplasmic space lies between outer membrane and cytoplasmic membrane; site of beta-lactamases that degrade penicillins and beta-lactam drugs.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Porin channels and antigenic properties of the cell wall",
+      "topics": [
+        "Porin channels and antigenic properties of the cell wall"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p19-wall-antigens",
+          "label": "Cell wall antigens in laboratory identification",
+          "detail": "Polysaccharides and proteins of the wall serve as antigens useful in laboratory identification.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p19-porin-function",
+          "label": "Porin protein channels in outer membrane",
+          "detail": "Porin proteins in the outer membrane of Gram-negative bacteria act as channels allowing the entry of small hydrophilic molecules (sugars, amino acids, vitamins, metals, and penicillins).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-negative cell wall schematic",
+      "topics": [
+        "Gram-negative cell wall schematic"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p20-gram-negative-figure",
+          "label": "Gram-negative envelope schematic",
+          "detail": "Figure 2-9: LPS, outer membrane, lipoprotein, porin, peptidoglycan, periplasmic gel, cell membrane, Bayer junction.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-9 checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram-positive cell wall schematic",
+      "topics": [
+        "Gram-positive cell wall schematic"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p21-gram-positive-figure",
+          "label": "Gram-positive envelope schematic",
+          "detail": "Figure 2-6: Wall protein, lipoteichoic acid, teichoic acid, murein sac components, cell membrane.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-6 checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan synonyms and osmotic protection",
+      "topics": [
+        "Peptidoglycan synonyms and osmotic protection"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p22-three-components",
+          "label": "Three important cell wall components",
+          "detail": "Peptidoglycan, lipopolysaccharide, and teichoic acid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p22-peptidoglycan-uniqueness",
+          "label": "Peptidoglycan unique to bacteria",
+          "detail": "Found only in bacterial cell walls; provides rigid support, maintains shape, and withstands low osmotic pressure media (such as water).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p22-peptidoglycan-synonyms",
+          "label": "Murein and mucopeptide synonyms",
+          "detail": "Peptidoglycan is derived from peptides and sugars (glycan); synonyms are murein and mucopeptide (Latin murus, wall).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lipopolysaccharide domains: Lipid A, Core, O-antigen",
+      "topics": [
+        "Lipopolysaccharide domains: Lipid A, Core, O-antigen"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p23-lipid-a",
+          "label": "Lipid A structure and endotoxin activity",
+          "detail": "Anchors LPS in outer membrane; responsible for endotoxin activity; triggers strong innate immune responses.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p23-core-polysaccharide",
+          "label": "Core polysaccharide",
+          "detail": "Connects Lipid A to the O-antigen.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p23-o-antigen",
+          "label": "O-antigen (somatic antigen) and serotyping",
+          "detail": "Projecting outward from bacterial surface; highly variable between strains; important for serotyping and immune recognition (somatic antigen).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan monomer structure: NAM, NAG, and cross-links",
+      "topics": [
+        "Peptidoglycan monomer structure: NAM, NAG, and cross-links"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p24-glycan-chain",
+          "label": "Glycan chain components",
+          "detail": "Composed of alternating NAM (N-acetylmuramic acid) and NAG (N-acetylglucosamine).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p24-tetrapeptide-crosslink",
+          "label": "Tetrapeptide chain and peptide interbridge",
+          "detail": "Tetrapeptide chain attached to NAM; cross-linked by a peptide interbridge in Gram-positive cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Multilayered three-dimensional peptidoglycan sacculus",
+      "topics": [
+        "Multilayered three-dimensional peptidoglycan sacculus"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p25-multilayered-sacculus",
+          "label": "Three-dimensional peptidoglycan lattice",
+          "detail": "In the cell wall, peptidoglycan forms a multilayered, three-dimensional structure.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Peptidoglycan stereochemistry: D-amino acids",
+      "topics": [
+        "Peptidoglycan stereochemistry: D-amino acids"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p26-d-amino-acids",
+          "label": "D-amino acids in bacterial peptidoglycan",
+          "detail": "Presence of D-amino acids in tetrapeptide chains versus standard eukaryotic L-amino acids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-7 reviewed showing D-amino acid cross-link.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Teichoic acid structure, sepsis pathway, and adherence",
+      "topics": [
+        "Teichoic acid structure, sepsis pathway, and adherence"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p27-teichoic-composition",
+          "label": "Teichoic acid chemical composition",
+          "detail": "Polymers of glycerol phosphate or ribitol phosphate located in outer layer of Gram-positive wall.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p27-lipoteichoic-anchoring",
+          "label": "Lipoteichoic acid membrane anchoring",
+          "detail": "Glycerol teichoic acids penetrating peptidoglycan covalently linked to cytoplasmic membrane lipids; others anchor to muramic acid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p27-teichoic-pathogenesis",
+          "label": "Teichoic acid sepsis pathway and adherence",
+          "detail": "Induces inflammation and septic shock activating the same pathways as LPS; mediates adherence of staphylococci to mucosal cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain historical origin and four-step protocol",
+      "topics": [
+        "Gram stain historical origin and four-step protocol"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p28-gram-origin",
+          "label": "Christian Gram 1884 development",
+          "detail": "Developed in 1884 by Danish physician Christian Gram; separates bacteria into Gram-positive (blue) and Gram-negative (red).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p28-crystal-violet-step",
+          "label": "Step 1: Crystal violet primary stain",
+          "detail": "Crystal violet dye stains all cells blue/purple.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p28-iodine-step",
+          "label": "Step 2: Iodine mordant",
+          "detail": "Iodine solution is added to form a crystal violet–iodine complex.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p28-decolorization-step",
+          "label": "Step 3: Decolorization mechanism",
+          "detail": "Acetone or ethanol extracts the blue dye complex from lipid-rich, thin-walled Gram-negative bacteria to a greater degree than thick-walled Gram-positive cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p28-safranin-step",
+          "label": "Step 4: Safranin counterstain",
+          "detail": "Red dye safranin stains decolorized Gram-negative cells red/pink; Gram-positive bacteria remain blue.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain micrographs",
+      "topics": [
+        "Gram stain micrographs"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p29-gram-micrographs",
+          "label": "Gram stain photographic appearance",
+          "detail": "Gram-positive purple/blue cocci in chains vs Gram-negative pink/red rods.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photomicrographs checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microscopic morphology details",
+      "topics": [
+        "Microscopic morphology details"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p30-stain-micrograph-detail",
+          "label": "Micrograph visual comparison",
+          "detail": "High-power micrographs of stained bacterial cells.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "High-power micrographs checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gram stain clinical utility and empirical penicillin selection",
+      "topics": [
+        "Gram stain clinical utility and empirical penicillin selection"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p31-gram-utility-id",
+          "label": "Gram stain in bacterial identification",
+          "detail": "Useful in the initial identification of many bacterial pathogens.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p31-gram-utility-antibiotic",
+          "label": "Gram stain influencing empirical penicillin G choice",
+          "detail": "Gram-positive bacteria are generally more susceptible to penicillin G than are Gram-negative bacteria (empirical treatment).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacteria not visualized by Gram stain and alternative diagnostic approaches",
+      "topics": [
+        "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-mycobacteria",
+          "label": "Mycobacteria unstained on Gram",
+          "detail": "Too much lipid in cell wall so dye cannot penetrate; visualized by acid-fast stain.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-treponema",
+          "label": "Treponema pallidum unstained on Gram",
+          "detail": "Too thin to see under light microscope; visualized by dark-field microscopy or fluorescent antibody.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-mycoplasma",
+          "label": "Mycoplasma pneumoniae unstained on Gram",
+          "detail": "No cell wall and very small; no microscopic alternative available.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-legionella",
+          "label": "Legionella pneumophila poor counterstain",
+          "detail": "Poor uptake of red counterstain; resolved by prolonging time of counterstain.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-chlamydiae",
+          "label": "Chlamydiae intracellular tiny size",
+          "detail": "Intracellular and very small; visualized as inclusion bodies in cytoplasm.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p32-not-seen-rickettsiae",
+          "label": "Rickettsiae intracellular tiny size",
+          "detail": "Intracellular and very small; visualized by Giemsa or other tissue stains.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Acid-fast bacteria, mycolic acids, and carbolfuchsin stain",
+      "topics": [
+        "Acid-fast bacteria, mycolic acids, and carbolfuchsin stain"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p33-acid-fast-wall",
+          "label": "Unusual mycobacterial cell wall",
+          "detail": "Mycobacteria have high concentration of lipids (mycolic acids) resulting in inability to be Gram-stained.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p33-acid-fast-mechanism",
+          "label": "Carbolfuchsin and acid-alcohol resistance",
+          "detail": "Resist decolorization with acid-alcohol after staining with carbolfuchsin (stain red).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p33-counterstain-methylene-blue",
+          "label": "Methylene blue counterstain",
+          "detail": "Non-acid-fast organisms decolorize and stain blue using methylene blue counterstain.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mycobacterial envelope layers: mycolic acid and arabinoglycan",
+      "topics": [
+        "Mycobacterial envelope layers: mycolic acid and arabinoglycan"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p34-mycolic-arabinoglycan",
+          "label": "Mycolic acid and arabinoglycan layers",
+          "detail": "Layers of mycolic acid (long-chain fatty acids) and arabinoglycan (polysaccharides) present in Mycobacterium but not most other genera.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure 2-8 reviewed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ziehl-Neelsen stain micrograph",
+      "topics": [
+        "Ziehl-Neelsen stain micrograph"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p35-ziehl-neelsen-micrograph",
+          "label": "M. tuberculosis red rods on blue background",
+          "detail": "Visualization of Mycobacterium tuberculosis using the Ziehl-Neelsen stain.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photomicrograph checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lysozyme cleavage of peptidoglycan and protoplast formation",
+      "topics": [
+        "Lysozyme cleavage of peptidoglycan and protoplast formation"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p36-lysozyme-location-target",
+          "label": "Lysozyme occurrence and bond cleavage",
+          "detail": "Enzyme in human tears, mucus, and saliva; cleaves peptidoglycan by hydrolyzing 1,4-beta-linkages between NAM and NAG.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p36-osmotic-rupture-lysozyme",
+          "label": "Osmotic swelling and rupture",
+          "detail": "Lysozyme-treated bacteria swell and rupture due to entry of water into cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p36-protoplasts-isotonic",
+          "label": "Protoplast survival in isotonic solution",
+          "detail": "In isotonic solution, lysozyme-treated bacteria survive as spherical forms called protoplasts, surrounded only by a cytoplasmic membrane.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Essential bacterial structures: Cell wall components",
+      "topics": [
+        "Essential bacterial structures: Cell wall components"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p37-essential-peptidoglycan",
+          "label": "Peptidoglycan essential role",
+          "detail": "Glycan backbone cross-linked by peptide side chains; gives rigid support, osmotic protection, site of penicillins/cephalosporins, degraded by lysozyme.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p37-essential-lipid-a",
+          "label": "Lipid A essential component in Gram-negative outer membrane",
+          "detail": "Toxic component of endotoxin.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p37-essential-surface-antigens",
+          "label": "Wall polysaccharides and teichoic acid antigens",
+          "detail": "Outer membrane polysaccharide frequently used in diagnosis; teichoic acid in Gram-positive cells rarely used.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Essential bacterial components: Membrane, Ribosomes, Nucleoid, Mesosome, Periplasm",
+      "topics": [
+        "Essential bacterial components: Membrane, Ribosomes, Nucleoid, Mesosome, Periplasm"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p38-essential-plasma-membrane",
+          "label": "Plasma membrane composition and function",
+          "detail": "Lipoprotein bilayer without sterols; site of oxidative and transport enzymes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p38-essential-ribosomes",
+          "label": "70S ribosomes and antibiotic targets",
+          "detail": "RNA and protein in 50S and 30S subunits; protein synthesis; site of aminoglycosides, erythromycin, tetracyclines, chloramphenicol.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p38-essential-nucleoid",
+          "label": "Nucleoid DNA",
+          "detail": "DNA genetic material.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p38-essential-mesosome",
+          "label": "Mesosome invagination",
+          "detail": "Invagination of plasma membrane; participates in cell division and secretion.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p38-essential-periplasm",
+          "label": "Periplasmic enzymes",
+          "detail": "Space between plasma membrane and outer membrane; contains hydrolytic enzymes including beta-lactamases.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nonessential bacterial structures",
+      "topics": [
+        "Nonessential bacterial structures"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-capsule",
+          "label": "Capsule nonessential structure",
+          "detail": "Polysaccharide; protects against phagocytosis.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-pilus",
+          "label": "Pilus or fimbria glycoprotein",
+          "detail": "Attachment to cell surfaces; sex pilus mediates attachment during conjugation.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-flagellum",
+          "label": "Flagellum protein",
+          "detail": "Protein flagellin; motility.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-spore",
+          "label": "Endospore coat and dipicolinic acid",
+          "detail": "Keratinlike coat, dipicolinic acid; provides resistance to dehydration, heat, and chemicals.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-plasmid",
+          "label": "Plasmid DNA",
+          "detail": "Extrachromosomal DNA containing genes for antibiotic resistance and toxins.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-granule",
+          "label": "Cytoplasmic granules",
+          "detail": "Glycogen, lipids, polyphosphates; site of nutrients in cytoplasm.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p39-nonessential-glycocalyx",
+          "label": "Glycocalyx polysaccharide",
+          "detail": "Mediates adherence to surfaces.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cytoplasmic membrane composition and four primary functions",
+      "topics": [
+        "Cytoplasmic membrane composition and four primary functions"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p40-membrane-bilayer",
+          "label": "Phospholipid bilayer without sterols",
+          "detail": "Similar in appearance to eukaryotic membrane; contains sterols only in genus Mycoplasma.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p40-membrane-four-functions",
+          "label": "Four functions of the cytoplasmic membrane",
+          "detail": "Active transport of molecules into cell; energy generation by oxidative phosphorylation; synthesis of cell wall precursors; secretion of enzymes and toxins.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ribosome subunit comparison and storage granules",
+      "topics": [
+        "Ribosome subunit comparison and storage granules"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p41-ribosome-selective-action",
+          "label": "70S vs 80S basis of antibiotic selectivity",
+          "detail": "Bacterial 70S (50S + 30S) vs eukaryotic 80S (60S + 40S); differences in RNA/proteins form basis of selective toxicity.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p41-storage-granules",
+          "label": "Nutrient inclusion granules",
+          "detail": "Storage areas for nutrients stained with certain dyes; found in Corynebacterium, Yersinia, Mycobacterium; glycogen granules in E. coli.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial capsule composition, serotypes, and anthrax exception",
+      "topics": [
+        "Bacterial capsule composition, serotypes, and anthrax exception"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p42-capsule-composition",
+          "label": "Capsular polysaccharide and anthrax exception",
+          "detail": "Gelatinous layer covering entire bacterium; composed of polysaccharide, except Bacillus anthracis which has a capsule of polymerized D-glutamic acid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p42-capsule-serotypes",
+          "label": "Capsule determining serotype",
+          "detail": "Sugar components determine serologic type; 84 serotypes of S. pneumoniae; Salmonella >2,600; Vibrio ~200.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Importance of the capsule: Virulence, Quellung, Vaccines, Adherence",
+      "topics": [
+        "Importance of the capsule: Virulence, Quellung, Vaccines, Adherence"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p43-capsule-antiphagocytic",
+          "label": "Negative charge repelling neutrophils",
+          "detail": "Capsule is a determinant of virulence; negative charges on polysaccharide repel negatively charged neutrophil membrane, preventing ingestion.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p43-quellung-reaction",
+          "label": "Quellung reaction (capsule swelling test)",
+          "detail": "Specific identification using antiserum against capsular polysaccharide; causes visible capsule swelling.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p43-capsule-vaccines",
+          "label": "Capsular polysaccharide vaccines",
+          "detail": "Used as antigens in certain vaccines because they elicit protective antibodies.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p43-capsule-adherence",
+          "label": "Capsule adherence to human tissues",
+          "detail": "May play a role in adherence to human tissues as initial step in infection.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opsonization by antibodies and complement",
+      "topics": [
+        "Opsonization by antibodies and complement"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p44-opsonization-definition",
+          "label": "Opsonization definition and role",
+          "detail": "Process by which antibodies and complement proteins enhance phagocytosis of encapsulated bacteria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p44-opsonin-receptors",
+          "label": "Fc receptor and CR1 complement recognition",
+          "detail": "IgG binds bacterial surface and is recognized by Fc receptors on phagocytes; C3b is recognized by complement receptor 1 (CR1).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Flagella structure, flagellin, and chemotaxis",
+      "topics": [
+        "Flagella structure, flagellin, and chemotaxis"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p45-flagella-chemotaxis",
+          "label": "Flagellar motility and chemotaxis",
+          "detail": "Long whiplike appendages moving bacteria toward nutrients and attractants (chemotaxis).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p45-flagellin-atp",
+          "label": "Flagellin protein subunits and ATP energy",
+          "detail": "Composed of many subunits of flagellin; requires ATP energy for movement.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p45-flagella-distribution",
+          "label": "Flagella distribution in rods vs cocci",
+          "detail": "Many rods have flagella, but most cocci lack flagella and are nonmotile; spirochetes have axial flagella/filaments.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial flagellar arrangements",
+      "topics": [
+        "Bacterial flagellar arrangements"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p46-flagellar-arrangements",
+          "label": "Arrangements of bacterial flagella",
+          "detail": "Monotrichous (single polar), lophotrichous (tuft at one end), amphitrichous (flagella at both ends), peritrichous (flagella all over). Examples: Vibrio cholerae, Pseudomonas, Salmonella typhi.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Arrangement diagrams reviewed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Medical importance of flagella: UTI pathogenesis and serologic diagnosis",
+      "topics": [
+        "Medical importance of flagella: UTI pathogenesis and serologic diagnosis"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p47-flagella-uti-movement",
+          "label": "Flagella in urinary tract infections",
+          "detail": "Motile bacteria (E. coli, Proteus) propel up the urethra into the bladder to cause UTIs.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p47-flagella-diagnosis-h-antigen",
+          "label": "Flagellar antibodies in laboratory diagnosis",
+          "detail": "Identified in clinical laboratory using specific antibodies against flagellar proteins (e.g. Salmonella).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pili (fimbriae) adherence virulence and sex pilus conjugation",
+      "topics": [
+        "Pili (fimbriae) adherence virulence and sex pilus conjugation"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p48-pili-structure",
+          "label": "Pilin protein and Gram-negative prevalence",
+          "detail": "Hair-like filaments shorter and straighter than flagella; composed of pilin arranged in helical strands; found mainly on Gram-negative organisms.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p48-pili-adherence",
+          "label": "Pili adherence virulence factor",
+          "detail": "Mediate attachment to specific receptors on human cells; Neisseria gonorrhoeae mutants lacking pili are nonpathogens.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p48-sex-pilus",
+          "label": "Sex pilus in conjugation",
+          "detail": "A specialized kind of pilus, the sex pilus, is used in bacterial conjugation.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Electron micrographs of bacterial pili and conjugation bridge",
+      "topics": [
+        "Electron micrographs of bacterial pili and conjugation bridge"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p49-pili-micrographs",
+          "label": "TEM micrographs of pili and mating bridge",
+          "detail": "Micrographs showing fimbriae covering cell and sex pilus connecting donor and recipient cells.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "TEM images checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycocalyx forms, biofilms, and clinical persistence",
+      "topics": [
+        "Glycocalyx forms, biofilms, and clinical persistence"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p50-glycocalyx-forms",
+          "label": "Glycocalyx capsule and slime layer forms",
+          "detail": "Polysaccharide coating secreted by many bacteria; covers surfaces like a film for firm adherence to skin, heart valves, prosthetics, catheters.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p50-biofilm-clinical-examples",
+          "label": "Biofilm-producing clinical pathogens",
+          "detail": "P. aeruginosa in respiratory tract of cystic fibrosis patients; S. epidermidis and viridans streptococci on damaged heart valves (endocarditis); Streptococcus mutans on teeth forming plaque and dental caries.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Diagram of bacterial mucoid-like structures",
+      "topics": [
+        "Diagram of bacterial mucoid-like structures"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p51-mucoid-structures-diagram",
+          "label": "Capsule vs slime layer vs biofilm diagram",
+          "detail": "Diagram showing 1. capsule, 2. slime layer, 3. biofilm.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial spores, sporulation, and dipicolinic acid resistance",
+      "topics": [
+        "Bacterial spores, sporulation, and dipicolinic acid resistance"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p52-spore-genera",
+          "label": "Endospore-forming Gram-positive rods",
+          "detail": "Formed mainly by Gram-positive rods: genus Bacillus (B. anthracis / anthrax) and genus Clostridium (C. tetani / tetanus).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p52-sporulation-trigger",
+          "label": "Nutrient depletion triggering sporulation",
+          "detail": "Sporulation occurs when nutrients are depleted; forms thick keratin-like coat resistant to heat, dehydration, radiation, chemicals.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p52-dipicolinic-acid",
+          "label": "Dipicolinic acid calcium chelation",
+          "detail": "Resistance is mediated by dipicolinic acid (pyridine-2,6-dicarboxylic acid), a calcium ion chelator found only in spores.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p52-spore-dormancy",
+          "label": "Metabolic inactivity and long-term dormancy",
+          "detail": "Spore has no metabolic activity and can remain dormant for many years.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Spore germination and steam autoclaving sterilization parameters",
+      "topics": [
+        "Spore germination and steam autoclaving sterilization parameters"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p53-spore-heat-resistance",
+          "label": "Resistance to boiling at 100°C",
+          "detail": "Sterilization cannot be achieved by boiling at 100°C due to extreme heat resistance.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p53-autoclaving-parameters",
+          "label": "Autoclaving temperature and duration",
+          "detail": "Steam heating under pressure (autoclaving) at 121°C for at least 15 minutes is required to ensure sterility for medical products.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p53-spore-germination",
+          "label": "Spore germination to vegetative cells",
+          "detail": "Under good nutrient conditions, spores germinate back into vegetative cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Features of spores and medical implications",
+      "topics": [
+        "Features of spores and medical implications"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p54-spores-medical-implications",
+          "label": "Medical implications of endospores",
+          "detail": "Autoclaving at 121°C for 15 min; use of sporicidal solutions; soil contamination causing tetanus and gas gangrene; impermeability and metabolic inactivity rendering antibiotics ineffective.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Classification divider",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Classification criteria and Gram-negative rod divisions",
+      "topics": [
+        "Classification criteria and Gram-negative rod divisions"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p56-classification-basis",
+          "label": "Morphologic and biochemical classification basis",
+          "detail": "Classified based on morphologic and biochemical characteristics.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p56-gram-negative-rod-divisions",
+          "label": "Three categories of Gram-negative rods",
+          "detail": "Divided into respiratory organisms, zoonotic organisms, and enteric and related organisms.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nature of the cell wall as the initial classification criterion",
+      "topics": [
+        "Nature of the cell wall as the initial classification criterion"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p57-initial-wall-criterion",
+          "label": "Cell wall as the initial criterion",
+          "detail": "Initial criterion is nature of the cell wall: rigid, flexible, or absent.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p57-free-living-vs-intracellular",
+          "label": "Free-living vs obligate intracellular bacteria",
+          "detail": "Rigid, thick-walled bacteria subdivided into free-living (grow on lab medium) vs non-free-living (obligate intracellular).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacteria-and-other-microorganisms-p57-flexible-and-absent-groups",
+          "label": "Flexible spirochetes and wall-less mycoplasmas",
+          "detail": "Bacteria with flexible, thin walls (spirochetes) and without cell walls (mycoplasmas) form separate units.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog",
+      "topics": [
+        "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p58-table5-1-gram-pos",
+          "label": "Table 5-1 Gram-positive reference",
+          "detail": "Reference catalog of Gram-positive cocci (Strep, Staph), spore-forming rods (Bacillus, Clostridium), and non-spore-forming rods (Corynebacterium, Listeria, Actinomyces, Nocardia).",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 1 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance."
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Gram-negative cocci and straight rods catalog",
+      "topics": [
+        "Table 5-1: Gram-negative cocci and straight rods catalog"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p59-table5-1-gram-neg-straight",
+          "label": "Table 5-1 Gram-negative straight rods reference",
+          "detail": "Reference catalog of Neisseria, respiratory rods, zoonotic rods, and enteric rods.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 2 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance."
+    },
+    {
+      "pdfPage": 60,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog",
+      "topics": [
+        "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p60-table5-1-special-groups",
+          "label": "Table 5-1 specialized bacterial groups reference",
+          "detail": "Reference catalog of curved rods, acid-fast Mycobacterium, intracellular Rickettsia/Chlamydia, spirochetes, and wall-less Mycoplasma.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 5-1 part 3 checked.",
+      "uncertainties": [],
+      "assessmentNotes": "Longitudinal multi-year reference catalog; direct memorization of all organism-disease pairings deferred per user guidance."
+    },
+    {
+      "pdfPage": 61,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Free-living vs non-free-living",
+      "topics": [
+        "Table 5-1 crop: Free-living vs non-free-living"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p61-table-crop-free-living",
+          "label": "Crop highlighting free-living Gram-positive",
+          "detail": "Highlighting free-living vs non-free-living.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 62,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Gram-negative and acid-fast",
+      "topics": [
+        "Table 5-1 crop: Gram-negative and acid-fast"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p62-table-crop-gram-neg",
+          "label": "Crop highlighting Gram-negative and acid-fast",
+          "detail": "Highlighting Gram-negative rods and acid-fast Mycobacterium.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 63,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 5-1 crop: Intracellular, spirochetes, wall-less",
+      "topics": [
+        "Table 5-1 crop: Intracellular, spirochetes, wall-less"
+      ],
+      "concepts": [
+        {
+          "id": "bacteria-and-other-microorganisms-p63-table-crop-spirochetes-mycoplasma",
+          "label": "Crop highlighting intracellular, spirochetes, wall-less",
+          "detail": "Highlighting obligate intracellular, flexible spirochetes, and wall-less cells.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Crop checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 64,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Lecture completion divider",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    }
+  ],
+  "tablePolicies": [
+    {
+      "pdfPages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "conceptIds": [
+        "bacteria-and-other-microorganisms-p58-table5-1-gram-pos",
+        "bacteria-and-other-microorganisms-p59-table5-1-gram-neg-straight",
+        "bacteria-and-other-microorganisms-p60-table5-1-special-groups",
+        "bacteria-and-other-microorganisms-p61-table-crop-free-living",
+        "bacteria-and-other-microorganisms-p62-table-crop-gram-neg",
+        "bacteria-and-other-microorganisms-p63-table-crop-spirochetes-mycoplasma"
+      ],
+      "policy": "reference-only",
+      "reason": "Multi-year reference catalog of bacterial genera and representative diseases; retain table rows for visual study and reference, but defer direct rote catalog memorization of all pairings per student guidance."
+    }
+  ]
+}

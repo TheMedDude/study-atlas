@@ -4,6 +4,7 @@ dist/
 .env.*
 !.env.example
 work/
+outputs/
 progress-exports/
 *.log
 .DS_Store

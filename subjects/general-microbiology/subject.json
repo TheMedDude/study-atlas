@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "general-microbiology",
+  "title": "General Microbiology",
+  "description": "Five lectures, from bacterial structure to pathogenesis.",
+  "scope": {
+    "id": "midterm",
+    "title": "Midterm",
+    "authority": "supplied-lecture-pdfs-only",
+    "sourceManifest": "sources/manifest.json",
+    "allTeachingContent": true,
+    "assessmentPolicy": "source-analysis/table-policy.json"
+  },
+  "languages": {
+    "questions": "en",
+    "explanations": ["en", "ar"],
+    "retainEnglishTechnicalTerms": true
+  },
+  "assessment": {
+    "mcqOptionCount": 5,
+    "recommendedPracticeCount": 10,
+    "examCount": "student-selected",
+    "optionalExamTimer": true,
+    "allowedDrillTypes": ["match", "order", "diagram"],
+    "allowTypedAnswers": false,
+    "allowConfidencePrompts": false,
+    "allowSelfGrading": false
+  },
+  "paths": {
+    "activities": "activities.json",
+    "concepts": "source-analysis/concept-index.json",
+    "pages": "source-analysis/page-ledger.json",
+    "chapters": "source-analysis/chapters.json",
+    "uncertainties": "source-analysis/uncertainties.json",
+    "coverage": "source-analysis/coverage-summary.json",
+    "studySource": "source-analysis/general-microbiology_detailed_structured_study_source.md",
+    "pageImages": "sources/page-images.json"
+  },
+  "chapterLabels": {
+    "bacteria-and-other-microorganisms": "Bacteria & other microorganisms",
+    "bacterial-genetics": "Bacterial genetics",
+    "bacterial-growth": "Bacterial growth",
+    "normal-flora": "Normal flora",
+    "bacterial-pathogenesis": "Bacterial pathogenesis"
+  }
+}

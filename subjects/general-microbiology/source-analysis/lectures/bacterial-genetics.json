@@ -1,0 +1,1409 @@
+{
+  "lectureId": "bacterial-genetics",
+  "title": "Bacterial Genetics",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial Genetics",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Title-only cover.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial chromosome and haploidy",
+      "topics": [
+        "Bacterial chromosome and haploidy"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p02-nucleoid",
+          "label": "E. coli chromosome in the nucleoid",
+          "detail": "E. coli has a single circular DNA molecule in its nucleoid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p02-chromosome-size",
+          "label": "E. coli chromosome reference quantities",
+          "detail": "Approximately 5 × 10⁶ base pairs coding for about 2000 proteins, as printed.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p02-haploid",
+          "label": "Bacterial haploidy",
+          "detail": "Bacterial cells are described as haploid, with a single chromosome.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p02-nuclear-structures",
+          "label": "Absent structures in the bacterial cell",
+          "detail": "The lecture lists no nuclear membrane, nucleolus, mitotic spindle, histones or introns.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p02-trait-loss",
+          "label": "Mutation and loss of a trait in haploid cells",
+          "detail": "A mutated gene that is not expressed can result in loss of the corresponding trait; the source makes a broader all-mutations statement.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p02-u1",
+          "statement": "The source links any mutation to absent expression and loss of a trait.",
+          "issue": "This is broader than the later missense description, which describes insertion of a different amino acid.",
+          "handling": "Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+          "description": "The source links any mutation to absent expression and loss of a trait. This is broader than the later missense description, which describes insertion of a different amino acid. Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prokaryote versus eukaryote genetics",
+      "topics": [
+        "Prokaryote versus eukaryote genetics"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p03-prokaryote-chromosome",
+          "label": "Prokaryotic chromosome organization",
+          "detail": "Prokaryotes are described as haploid with one circular chromosome.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p03-plasmids",
+          "label": "Prokaryotic plasmids",
+          "detail": "Prokaryotes contain small circular DNA molecules called plasmids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p03-eukaryote-chromosomes",
+          "label": "Eukaryotic chromosome contrast",
+          "detail": "Eukaryotes are often diploid and have linear chromosomes, usually more than one.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Other genetic elements and reproduction",
+      "topics": [
+        "Other genetic elements and reproduction"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p04-elements",
+          "label": "Other bacterial genetic elements",
+          "detail": "Plasmids, transposons and viruses (bacteriophages) are listed.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p04-asexual",
+          "label": "Asexual bacterial reproduction",
+          "detail": "Bacterial reproduction is described as asexual.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p04-environment",
+          "label": "Environmental-control source phrase",
+          "detail": "The source states poor ability to control environment without further definition.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p04-u1",
+          "statement": "“Poor ability to control environment.”",
+          "issue": "The phrase does not specify a measurable mechanism or comparison.",
+          "handling": "Retain for reference; defer direct scored questions about an unstated mechanism.",
+          "description": "“Poor ability to control environment.” The phrase does not specify a measurable mechanism or comparison. Retain for reference; defer direct scored questions about an unstated mechanism.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Plasmid structure and transmissibility",
+      "topics": [
+        "Plasmid structure and transmissibility"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p05-plasmid-definition",
+          "label": "Plasmid structure",
+          "detail": "Extrachromosomal, double-stranded, circular DNA molecules.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p05-independent-replication",
+          "label": "Plasmid replication and distribution",
+          "detail": "Plasmids replicate independently of the bacterial chromosome and occur in gram-positive and gram-negative bacteria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p05-transmissible",
+          "label": "Transmissible plasmids",
+          "detail": "Conjugative plasmids move cell-to-cell by conjugation; they are large because they encode the sex pilus and transfer enzymes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p05-copy-number",
+          "label": "Plasmid copy-number comparison",
+          "detail": "Transmissible plasmids usually have 1–3 copies/cell; small nontransmissible plasmids lack transfer genes and have 10–60 copies/cell.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "F-positive and F-negative cells",
+      "topics": [
+        "F-positive and F-negative cells"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p06-f-status",
+          "label": "Plasmid-bearing F-positive versus F-negative diagram",
+          "detail": "The F+ cell is shown with a labeled circular plasmid; the F− cell is shown without it.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only comparison inspected at full size; labels F+ Cell, F− Cell and Plasmid reconstructed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "F factor, R factors and Hfr",
+      "topics": [
+        "F factor, R factors and Hfr"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p07-f-factor",
+          "label": "F factor and horizontal transfer",
+          "detail": "The E. coli F factor (fertility factor) carries sex-pilus genes for physical horizontal transfer of genetic material.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p07-r-factor",
+          "label": "R factors",
+          "detail": "R factors are multiple-drug-resistance (MDR) plasmids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p07-hfr",
+          "label": "Hfr chromosome integration",
+          "detail": "A conjugative plasmid integrated into the chromosome is associated with high-frequency recombination.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p07-u1",
+          "statement": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation.",
+          "issue": "The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer.",
+          "handling": "Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+          "description": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation. The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer. Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Functions encoded by plasmids",
+      "topics": [
+        "Functions encoded by plasmids"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p08-resistance",
+          "label": "Plasmid-encoded antibiotic resistance",
+          "detail": "Resistance can be mediated by enzymes such as β-lactamase in S. aureus, E. coli and K. pneumoniae.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p08-toxins",
+          "label": "Plasmid-encoded exotoxin examples",
+          "detail": "E. coli enterotoxins, B. anthracis anthrax toxin and C. tetani tetanus toxin are listed.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p08-adherence",
+          "label": "Adherence structures encoded by plasmids",
+          "detail": "Pili (fimbriae) mediate adherence to epithelial cells.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p08-uv-resistance",
+          "label": "Plasmid-encoded UV resistance",
+          "detail": "DNA repair enzymes mediate resistance to ultraviolet light.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p08-u1",
+          "statement": "The repair-enzyme list prints “DNA glycolase”.",
+          "issue": "This enzyme name is unclear as written; no replacement spelling is supplied by the source.",
+          "handling": "Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+          "description": "The repair-enzyme list prints “DNA glycolase”. This enzyme name is unclear as written; no replacement spelling is supplied by the source. Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacteriocins and degradative enzymes",
+      "topics": [
+        "Bacteriocins and degradative enzymes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p09-bacteriocins",
+          "label": "Bacteriocin definition",
+          "detail": "Toxic proteins produced by certain bacteria and lethal for other bacteria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p09-pores",
+          "label": "Bacteriocin membrane mechanism",
+          "detail": "Bacteriocins may degrade bacterial membranes by producing pores.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p09-dnaase",
+          "label": "Bacteriocin DNA mechanism",
+          "detail": "Bacteriocins may degrade bacterial DNA by DNAase.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p09-examples",
+          "label": "Colicins and pyocins",
+          "detail": "E. coli produces colicins; Pseudomonas aeruginosa produces pyocins.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p09-applications",
+          "label": "Bacteriocin and degradative-enzyme applications",
+          "detail": "Potential treatment of antibiotic-resistant infections; Pseudomonas plasmid-coded degradative enzymes may clean oil spills and toxic chemical waste.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial mutation",
+      "topics": [
+        "Bacterial mutation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p10-definition",
+          "label": "Permanent DNA change",
+          "detail": "A bacterial mutation alters information in the bacterial chromosome through a permanent change in DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p10-types",
+          "label": "Spontaneous and induced mutation",
+          "detail": "The two listed etiologic types are spontaneous and induced.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Spontaneous mutation",
+      "topics": [
+        "Spontaneous mutation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p11-natural",
+          "label": "Spontaneous mutation origin",
+          "detail": "Heritable DNA base-sequence changes due to natural phenomena, including replication errors.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p11-polymerase",
+          "label": "Replication fidelity and processivity",
+          "detail": "DNA polymerase fidelity and processivity are named in connection with replication errors.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p11-frequency",
+          "label": "Spontaneous-mutation reference frequency",
+          "detail": "The stated occurrence is once per 10⁶ to 10¹⁰ replications.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p11-selection",
+          "label": "Survival and emergence of mutants",
+          "detail": "A mutant may survive, multiply and emerge as dominant; N. gonorrhoeae antibiotic mutations are cited.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Induced mutation",
+      "topics": [
+        "Induced mutation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p12-agents",
+          "label": "Induced mutation agents",
+          "detail": "Chemical or physical agents can cause mutation; UV, radiation, nitrous acid and base analogs are listed.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p12-thymine-dimers",
+          "label": "UV-induced thymine dimers",
+          "detail": "UV induces cross-linking of adjacent thymine bases (thymine dimers).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p12-u1",
+          "statement": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”.",
+          "issue": "The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation.",
+          "handling": "Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+          "description": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”. The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation. Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemical mutagen mechanisms",
+      "topics": [
+        "Chemical mutagen mechanisms"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p13-modified-bases",
+          "label": "Nitrous acid and alkylating agents",
+          "detail": "They alter an existing base so it hydrogen-bonds with the wrong base.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p13-base-analog",
+          "label": "5-bromouracil substitution",
+          "detail": "5-bromouracil resembles a normal base and can replace thymine.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p13-transition",
+          "label": "5-bromouracil pairing and transition",
+          "detail": "Lower hydrogen-bonding fidelity and more frequent guanine pairing lead to an A–T to G–C transition.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p13-benzpyrene",
+          "label": "Tobacco-smoke mutagen",
+          "detail": "Benzpyrene binds existing DNA bases and is described as causing frameshift mutations.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p13-u1",
+          "statement": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”.",
+          "issue": "The source does not clearly distinguish the named compounds or which antecedent the sentence describes.",
+          "handling": "Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+          "description": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”. The source does not clearly distinguish the named compounds or which antecedent the sentence describes. Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Radiation and virus-induced mutation",
+      "topics": [
+        "Radiation and virus-induced mutation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p14-xray-backbone",
+          "label": "X-ray covalent-bond damage",
+          "detail": "X-rays can break covalent bonds in the source-described ribose phosphate chain.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p14-xray-radicals",
+          "label": "X-ray free radicals",
+          "detail": "X-rays can produce free radicals that attack bases.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p14-xray-electrons",
+          "label": "X-ray changes to hydrogen bonding",
+          "detail": "X-rays can alter electrons in bases and thereby change hydrogen bonding.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p14-uv",
+          "label": "UV pyrimidine dimers",
+          "detail": "UV cross-links adjacent pyrimidine bases to form dimers; thymine dimer and photolyase are named.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p14-mu",
+          "label": "Mu mutator bacteriophage",
+          "detail": "Bacterial virus Mu is described as causing high-frequency frameshift mutations.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Base substitution, frameshift and insertion",
+      "topics": [
+        "Base substitution, frameshift and insertion"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p15-substitution",
+          "label": "Base substitution and causes",
+          "detail": "One base replaces another; replication errors or mutagen-altered hydrogen bonding can cause it.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p15-missense",
+          "label": "Missense substitution",
+          "detail": "A missense mutation causes a different amino acid to be inserted.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p15-nonsense",
+          "label": "Nonsense stop-codon statement",
+          "detail": "A nonsense mutation introduces a stop codon; the source further says no protein is produced.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p15-frameshift",
+          "label": "Frameshift addition or deletion",
+          "detail": "The source describes additions or deletions of base pairs leading to inactive protein; no length qualification is supplied.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p15-insertion",
+          "label": "Insertional mutation",
+          "detail": "Integration of transposons or insertion sequences into DNA is listed as a mutation type.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p15-u1",
+          "statement": "Nonsense mutation is followed by “then no protein is produced”.",
+          "issue": "The statement does not distinguish no protein from a shortened product or specify stop-codon position.",
+          "handling": "Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+          "description": "Nonsense mutation is followed by “then no protein is produced”. The statement does not distinguish no protein from a shortened product or specify stop-codon position. Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "bacterial-genetics-p15-u2",
+          "statement": "Frameshift is attributed to addition/deletion of “one or more base pairs”.",
+          "issue": "The lecture does not qualify the size of the insertion/deletion.",
+          "handling": "Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+          "description": "Frameshift is attributed to addition/deletion of “one or more base pairs”. The lecture does not qualify the size of the insertion/deletion. Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conditional lethal and temperature-sensitive mutants",
+      "topics": [
+        "Conditional lethal and temperature-sensitive mutants"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p16-conditional",
+          "label": "Conditional lethal vaccine application",
+          "detail": "Conditional lethal mutations are used in vaccine development; influenza virus is the named example/vector.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p16-temperature",
+          "label": "Permissive versus restrictive temperatures",
+          "detail": "Temperature-sensitive organisms replicate at a low permissive temperature (32°C), not a higher restrictive temperature (37°C).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p16-protein",
+          "label": "Temperature-sensitive protein conformation",
+          "detail": "The mutation is described as altering essential-protein conformation.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p16-nose-lungs",
+          "label": "Nasal replication and lung restriction example",
+          "detail": "The example virus replicates in the nose at 32°C to induce immunity but cannot grow at 37°C in the lungs.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposons within bacterial cells",
+      "topics": [
+        "Transposons within bacterial cells"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p17-mobility",
+          "label": "Transposon mobility",
+          "detail": "DNA pieces move within or between bacterial, plasmid and bacteriophage DNAs; called jumping genes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p17-cargo",
+          "label": "Transposon-encoded products",
+          "detail": "They may encode drug-resistance enzymes, toxins or metabolic enzymes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p17-effects",
+          "label": "Transposon effects on genes",
+          "detail": "They may cause mutations or alter expression of nearby genes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposon domains and replication",
+      "topics": [
+        "Transposon domains and replication"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p18-repeats",
+          "label": "Terminal inverted repeats",
+          "detail": "Short inverted-repeat DNA sequences on the ends participate in integration into recipient DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p18-transposase",
+          "label": "Transposase function",
+          "detail": "Transposase mediates transposon excision and integration.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p18-repressor",
+          "label": "Transposon repressor",
+          "detail": "A repressor regulates synthesis of transposase and the fourth-domain protein.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p18-fourth-domain",
+          "label": "Transposon cargo domain",
+          "detail": "The fourth domain often encodes an antibiotic-resistance enzyme.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p18-replication",
+          "label": "Transposon replication context",
+          "detail": "Transposon genes replicate as part of the bacterial chromosome.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size diagram and prose reviewed; all gene labels and repeat-direction arrows retained.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p18-u1",
+          "statement": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”.",
+          "issue": "It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element.",
+          "handling": "Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+          "description": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”. It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element. Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Insertion-sequence structure and pilus-gene rearrangement",
+      "topics": [
+        "Insertion-sequence structure and pilus-gene rearrangement"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p19-is-structure",
+          "label": "Insertion-sequence structure reference",
+          "detail": "An insertion sequence has a central transposition region flanked by inverted repeats, with direct repeats at its target.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p19-is2-example",
+          "label": "IS2 numerical reference",
+          "detail": "Example IS2 has 1327 bp, 41-bp terminal inverted repeats, a created 5-bp target direct repeat and approximately five copies in many E. coli strains.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p19-pil-rearrangement",
+          "label": "Silent and expressed pilus sequences",
+          "detail": "Diagram shows a silent pilS sequence and an expressed pilE sequence linked by RecA-mediated recombination.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both image-only panels reviewed at full size; caption, repeat labels, all numerical details and pilS/pilE/RecA labels reconstructed.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p19-u1",
+          "statement": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2.",
+          "issue": "The schematic and numerical example are not identical at the letter-count level.",
+          "handling": "Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+          "description": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2. The schematic and numerical example are not identical at the letter-count level. Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+          "assessmentBlocked": true
+        },
+        {
+          "id": "bacterial-genetics-p19-u2",
+          "statement": "Terminal nucleotide strings and a clipped top fragment occur in a small inset.",
+          "issue": "Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim.",
+          "handling": "Preserve the original image as authority; defer direct nucleotide-string memorization.",
+          "description": "Terminal nucleotide strings and a clipped top fragment occur in a small inset. Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim. Preserve the original image as authority; defer direct nucleotide-string memorization.",
+          "assessmentBlocked": true
+        }
+      ],
+      "assessmentNotes": "Reference-only details in the listed policy are preserved for study; defer direct scored memorization of those details."
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposition and spread of antibiotic resistance",
+      "topics": [
+        "Transposition and spread of antibiotic resistance"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p20-movement",
+          "label": "Chromosome-to-chromosome-site or plasmid movement",
+          "detail": "Transposons transfer DNA between sites on a bacterial chromosome or to a plasmid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p20-resistance-spread",
+          "label": "Transposition plus conjugation",
+          "detail": "Movement to a plasmid followed by conjugation to another bacterium contributes to antibiotic-resistance spread.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transposon insertion diagram",
+      "topics": [
+        "Transposon insertion diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p21-insertion-diagram",
+          "label": "Transposon jumping and insertion",
+          "detail": "A green transposon is depicted jumping from DNA A and inserting into DNA B.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size schematic reviewed; color key, jumping arrow and insertion arrow reconstructed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Programmed rearrangement and antigenic change",
+      "topics": [
+        "Programmed rearrangement and antigenic change"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p22-antigenic-variation",
+          "label": "Programmed rearrangement examples",
+          "detail": "DNA rearrangements are linked to antigenic changes in N. gonorrhoeae and Borrelia recurrentis.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p22-silent-active",
+          "label": "Silent-storage to active-expression site",
+          "detail": "A gene moves from a silent storage site to an active site where transcription and translation occur.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p22-immune-evasion",
+          "label": "Rearrangement and immune evasion",
+          "detail": "The stated purpose is evasion of the immune response.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Replacement at an expression locus",
+      "topics": [
+        "Replacement at an expression locus"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p23-gene-copy",
+          "label": "Programmed expression-locus replacement",
+          "detail": "A copy of gene 2 enters the expression locus; gene 1 DNA is excised/degraded; protein/antigen output switches from 1 to 2.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size expression-locus diagram reviewed; copied versus stored gene 2 distinction retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Three routes of intercellular DNA transfer",
+      "topics": [
+        "Three routes of intercellular DNA transfer"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p24-transformation",
+          "label": "Transformation mechanism",
+          "detail": "Bacteria take up environmental DNA and incorporate it into their genome; Griffith experiment is named.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p24-conjugation",
+          "label": "Conjugation mechanism",
+          "detail": "Direct transfer of DNA by bacteria, usually through plasmids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p24-transduction",
+          "label": "Transduction mechanism",
+          "detail": "Viruses move DNA between bacteria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Consequences of transfer between bacterial cells",
+      "topics": [
+        "Consequences of transfer between bacterial cells"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p25-resistance",
+          "label": "Conjugation and antibiotic-resistance spread",
+          "detail": "Antibiotic-resistance genes spread between bacteria primarily by conjugation.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p25-exotoxins",
+          "label": "Transduction and exotoxins",
+          "detail": "Important exotoxins may be bacteriophage-encoded and transferred by transduction.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conjugation sequence and F-factor replication",
+      "topics": [
+        "Conjugation sequence and F-factor replication"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p26-control",
+          "label": "F plasmid control of conjugation",
+          "detail": "The F factor carries genes required for mating/genetic-material transfer.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p26-pilin",
+          "label": "Pilin and sex pilus",
+          "detail": "Pilin forms the sex pilus (conjugation tube).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p26-attachment",
+          "label": "F-positive donor attachment",
+          "detail": "The F+ donor pilus attaches to a surface receptor on an F− recipient.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p26-strand-transfer",
+          "label": "Single-strand F-factor transfer",
+          "detail": "After enzymatic cleavage, one F-factor DNA strand crosses the conjugal bridge into the recipient.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p26-completion",
+          "label": "Complementary-strand synthesis",
+          "detail": "Both cells synthesize complementary strands to contain double-stranded F plasmids; only F factor, not bacterial chromosome, transfers in this example.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Resistance plasmid functions and host range",
+      "topics": [
+        "Resistance plasmid functions and host range"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p27-enzymes",
+          "label": "Resistance-plasmid enzyme functions",
+          "detail": "R plasmids encode enzymes that degrade antibiotics or modify membrane transport systems.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p27-betalactamase",
+          "label": "R-plasmid β-lactamases",
+          "detail": "Examples are β-lactamases of S. aureus, E. coli and K. pneumoniae.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p27-host-range",
+          "label": "Intraspecies and interspecies R-plasmid transfer",
+          "detail": "R plasmids transfer by conjugation within a species and to other species.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conjugative transfer diagram",
+      "topics": [
+        "Conjugative transfer diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p28-parental-new",
+          "label": "Recipient plasmid strand composition",
+          "detail": "The recipient’s new plasmid has one parental solid strand and one newly synthesized dashed strand.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p28-both-plasmids",
+          "label": "Conjugation completion diagram",
+          "detail": "At completion, donor and recipient each contain a complete plasmid DNA copy.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size schematic checked; solid/dashed strands and donor/recipient labels preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "High-frequency recombination",
+      "topics": [
+        "High-frequency recombination"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p29-integrated-f",
+          "label": "Integrated F plasmid",
+          "detail": "A fertility plasmid integrates into the bacterial chromosome.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p29-chromosomal-transfer",
+          "label": "Hfr transfer differs from F-only transfer",
+          "detail": "The integrated F plasmid mediates transfer of a copy of donor bacterial chromosome into the recipient.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size integration/transfer diagram reviewed; exact diagram donor label retained without silently relabeling.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transduction and lysogenic conversion",
+      "topics": [
+        "Transduction and lysogenic conversion"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p30-phage-transfer",
+          "label": "Bacteriophage-mediated transfer",
+          "detail": "Bacterial viruses may package a piece of bacterial DNA and deliver it to a new cell during infection.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p30-lysogenic",
+          "label": "Lysogenic conversion",
+          "detail": "Phage DNA integration can confer a new trait and can turn a nonpathogenic organism into a pathogenic one.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p30-phage-toxins",
+          "label": "Bacteriophage-encoded toxin examples",
+          "detail": "Diphtheria, botulinum, cholera and S. pyogenes erythrogenic toxins are listed as phage encoded.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": [
+        {
+          "id": "bacterial-genetics-p30-u1",
+          "statement": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion.",
+          "issue": "These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion.",
+          "handling": "Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+          "description": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion. These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion. Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+          "assessmentBlocked": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transduction sequence A–E",
+      "topics": [
+        "Transduction sequence A–E"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p31-infection",
+          "label": "Initial phage infection",
+          "detail": "A: bacteriophage infects a bacterium and phage DNA enters.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p31-replicate-fragment",
+          "label": "Replication and bacterial-DNA fragmentation",
+          "detail": "B: phage DNA replicates and bacterial DNA fragments.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p31-assembly",
+          "label": "Phage assembly and accidental bacterial cargo",
+          "detail": "C: progeny assemble/release; a few contain bacterial DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p31-recipient",
+          "label": "Recipient infection and integration",
+          "detail": "D–E: bacterial-DNA-carrying phage infects another bacterium; transferred bacterial DNA integrates into host DNA, conferring a new trait.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size five-panel diagram and all labels visually reviewed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generalized transduction diagram",
+      "topics": [
+        "Generalized transduction diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p32-generalized",
+          "label": "Generalized-transduction cargo",
+          "detail": "Some maturing phage heads enclose bacterial-DNA fragments instead of phage DNA; only bacterial DNA is in those transducing virions.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p32-cotransduction",
+          "label": "Nearby genes transferred together",
+          "detail": "Integration into a new chromosome may transfer several bacterial genes at once; only close-together genes are transduced together.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only schematic inspected at full size and all legible process text reconstructed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Natural and laboratory transformation",
+      "topics": [
+        "Natural and laboratory transformation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p33-natural",
+          "label": "Natural uptake of environmental DNA",
+          "detail": "DNA from dying bacteria can be taken up; Neisseria and Haemophilus have DNA-binding/uptake surface receptors.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p33-laboratory",
+          "label": "Laboratory transformation",
+          "detail": "Extracted DNA is introduced into genetically different bacteria; plasmids may transfer part of the DNA.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p33-transfection",
+          "label": "Source definition of transfection",
+          "detail": "The source uses transfection for DNA injected into a eukaryotic cell or nucleus.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-genetics-p33-principle",
+          "label": "DNA as transforming principle",
+          "detail": "The 1944 example uses DNA from encapsulated smooth pneumococci to transform nonencapsulated rough cells into encapsulated smooth organisms.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Griffith transformation experiment",
+      "topics": [
+        "Griffith transformation experiment"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p34-living-encapsulated",
+          "label": "Living encapsulated inoculum",
+          "detail": "Living encapsulated bacteria kill the mouse; encapsulated colonies are recovered.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p34-controls",
+          "label": "Nonencapsulated and heat-killed controls",
+          "detail": "Living nonencapsulated or heat-killed encapsulated bacteria alone leave mice healthy.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p34-mixture",
+          "label": "Transforming mixture",
+          "detail": "Living nonencapsulated plus heat-killed encapsulated bacteria kill the mouse and yield encapsulated colonies.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size four-column experiment and caption reviewed; controls and recovered phenotypes preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison of DNA-transfer procedures",
+      "topics": [
+        "Comparison of DNA-transfer procedures"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p35-comparison-table",
+          "label": "Transfer-procedure comparison reference",
+          "detail": "Compact source table compares mechanism, cell type and nature of transferred DNA for conjugation, transduction and transformation.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full-size comparison table checked; all twelve cells retained.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only details in the listed policy are preserved for study; defer direct scored memorization of those details."
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homologous and nonhomologous recombination",
+      "topics": [
+        "Homologous and nonhomologous recombination"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-genetics-p36-integration",
+          "label": "Recipient-chromosome integration",
+          "detail": "Transferred donor DNA can integrate into the recipient chromosome by recombination.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p36-homologous",
+          "label": "Homologous recombination",
+          "detail": "Extensively homologous DNA regions pair and exchange pieces by breakage and reunion.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p36-nonhomologous",
+          "label": "Nonhomologous recombination",
+          "detail": "Little or no homology is necessary.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-genetics-p36-enzymes",
+          "label": "Recombination genetic and enzyme differences",
+          "detail": "Different loci and enzymes govern the two types; endonucleases and ligases are named without a type-specific mapping.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    }
+  ],
+  "tablePolicies": [
+    {
+      "pdfPages": [
+        19
+      ],
+      "conceptIds": [
+        "bacterial-genetics-p19-is-structure",
+        "bacterial-genetics-p19-is2-example",
+        "bacterial-genetics-p19-pil-rearrangement"
+      ],
+      "policy": "reference-only",
+      "reason": "Preserve the IS2 numerical example, scanned nucleotide inset and pilS/pilE illustration as supporting reference; defer direct memorization of exact example quantities or nucleotide strings. General transposon mechanisms remain core on pages 17–18 and 20–23."
+    },
+    {
+      "pdfPages": [
+        35
+      ],
+      "conceptIds": [
+        "bacterial-genetics-p35-comparison-table"
+      ],
+      "policy": "reference-only",
+      "reason": "Retain every comparison-table cell as reference. Defer table-row memorization; the core transfer distinctions are assessed from the independently stated teaching on pages 24–34."
+    }
+  ]
+}

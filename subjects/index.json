@@ -1,1 +1,13 @@
-{"schemaVersion":1,"subjects":[{"id":"molecular-biology","config":"molecular-biology/subject.json"}]}
+{
+  "schemaVersion": 1,
+  "subjects": [
+    {
+      "id": "molecular-biology",
+      "config": "molecular-biology/subject.json"
+    },
+    {
+      "id": "general-microbiology",
+      "config": "general-microbiology/subject.json"
+    }
+  ]
+}

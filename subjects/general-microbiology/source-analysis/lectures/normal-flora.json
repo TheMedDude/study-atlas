@@ -1,0 +1,937 @@
+{
+  "lectureId": "normal-flora",
+  "title": "Normal Flora",
+  "tablePolicies": [
+    {
+      "pdfPages": [
+        18
+      ],
+      "conceptIds": [
+        "normal-flora-reference-locations"
+      ],
+      "policy": "reference-only",
+      "reason": "Broad organism-location catalog: preserve complete rows but do not drive standalone table memorization."
+    },
+    {
+      "pdfPages": [
+        25
+      ],
+      "conceptIds": [
+        "normal-flora-disease-summary-reference"
+      ],
+      "policy": "reference-only",
+      "reason": "Organism-disease summary retained with lighter emphasis; core displacement and host-defense mechanisms are assessed from explanatory pages."
+    }
+  ],
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Microbiome / Normal Flora / Gut Microbiome",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal flora and commensalism",
+      "topics": [
+        "Normal flora and commensalism"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-definition",
+          "label": "Normal-flora membership",
+          "detail": "Bacteria and fungi that permanently reside at sites including skin, oropharynx, colon and vagina.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-commensalism",
+          "label": "Commensalism definition in this lecture",
+          "detail": "Organisms derive benefit from a host without damaging it; compare conflicting Pathogenesis p4.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "normal-flora-viruses-parasites",
+          "label": "Normal flora versus microbiome terminology",
+          "detail": "This page excludes viruses and parasites from normal flora; p5 includes viruses in the broader human microbiome.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p2-commensalism-conflict",
+          "statement": "This lecture defines commensalism as benefit to the organism without host damage.",
+          "issue": "Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+          "description": "This lecture defines commensalism as benefit to the organism without host damage. Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+          "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Resident flora",
+      "topics": [
+        "Resident flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-resident-persistence",
+          "label": "Resident flora",
+          "detail": "Species living on/in nearly everyone almost all the time at specific sites.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-resident-abnormal-site",
+          "label": "Resident flora outside normal habitat",
+          "detail": "Residents can become pathogenic when introduced into abnormal sites.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-resident-examples",
+          "label": "Resident examples",
+          "detail": "Staphylococcus epidermidis on skin; E. coli in colon and small intestine.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transient flora and colonization",
+      "topics": [
+        "Transient flora and colonization"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-transient-periodic",
+          "label": "Transient flora",
+          "detail": "Species found periodically on or in the body; may become pathogenic when resistance falls.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-colonization",
+          "label": "Colonization",
+          "detail": "Acquisition of a new organism, mainly pathogenic on mucosal surfaces in the source phrasing.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-transient-example",
+          "label": "Transient example",
+          "detail": "Streptococcus pneumoniae is the given example.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Human microbiome",
+      "topics": [
+        "Human microbiome"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-microbiome-definition",
+          "label": "Human microbiome",
+          "detail": "All microorganisms inhabiting the body, including bacteria, fungi and viruses.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-colon-largest",
+          "label": "Colon microbial population",
+          "detail": "Largest and most complex microbial population resides in colon.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-immune-maturation",
+          "label": "Immune maturation and colonization resistance",
+          "detail": "Gut microbiota influences immune response maturation/function and colonization resistance.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-ibd-association",
+          "label": "Microbiota and inflammatory bowel disease",
+          "detail": "Intestinal microbiota plays a role in inflammatory bowel diseases; the source calls them autoimmune.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p5-term-scope",
+          "statement": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses.",
+          "issue": "The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+          "description": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses. The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+          "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal flora in health and disease",
+      "topics": [
+        "Normal flora in health and disease"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-immunocompromised",
+          "label": "Flora in immunocompromised hosts",
+          "detail": "Normal flora can contribute to disease in immunocompromised individuals.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-attachment-competition",
+          "label": "Attachment-site colonization resistance",
+          "detail": "Occupying attachment sites on skin/mucosa interferes with pathogen colonization.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-vitamin-production",
+          "label": "Vitamin production",
+          "detail": "Intestinal bacteria produce B and K vitamins; oral antibiotics can lead to deficiencies.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gut microbiome development",
+      "topics": [
+        "Gut microbiome development"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-early-colonization",
+          "label": "Early gut colonization",
+          "detail": "Develops early in life and is influenced by birth and environmental exposures.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-diversity-age",
+          "label": "Neonatal versus adult diversity",
+          "detail": "Neonatal diversity is relatively low; adults may have more than 1,000 species.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Factors affecting microbiome distribution",
+      "topics": [
+        "Factors affecting microbiome distribution"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-local-distribution",
+          "label": "Local gastrointestinal distribution",
+          "detail": "Oxygen, pH, nutrients and mucus influence microbial distribution.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-individual-variation",
+          "label": "Individual microbiome variation",
+          "detail": "Diet, genetics, medications, household contacts and environment contribute.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-antibiotic-selection",
+          "label": "Antibiotic community disruption",
+          "detail": "Susceptible organisms are eliminated, allowing others to proliferate.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Advantages of the gut microbiome",
+      "topics": [
+        "Advantages of the gut microbiome"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-competitive-protection",
+          "label": "Competitive and chemical protection",
+          "detail": "Competition for binding sites/nutrients, bacteriocins/antibiotics and toxic products can prevent colonization.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-cross-reactive-antibodies",
+          "label": "Natural-antibody stimulation",
+          "detail": "Gut flora stimulate natural antibodies that cross-react with pathogenic organisms.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microbial fermentation and vitamins",
+      "topics": [
+        "Microbial fermentation and vitamins"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-fiber-fermentation",
+          "label": "Fiber fermentation",
+          "detail": "Gut microbes ferment dietary fiber and complex carbohydrates not fully broken down by human enzymes.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-scfa",
+          "label": "Short-chain fatty acids",
+          "detail": "Acetate, propionate and butyrate support barrier integrity and immune regulation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-vitamin-production",
+          "label": "Vitamin production",
+          "detail": "Microorganisms synthesize vitamin K and several B vitamins.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opportunistic disadvantages",
+      "topics": [
+        "Opportunistic disadvantages"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-host-resistance",
+          "label": "Reduced host resistance",
+          "detail": "Normal flora may become pathogenic when host resistance is lowered.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-resident-abnormal-site",
+          "label": "Resident flora outside normal habitat",
+          "detail": "Flora may act as pathogens in tissues outside their normal habitat.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Examples of displaced normal flora",
+      "topics": [
+        "Examples of displaced normal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-breached-barrier",
+          "label": "Barrier breach and displaced flora",
+          "detail": "Intestinal flora may reach urinary tract; perforation of gut wall allows peritonitis; oral flora may reach blood after dental/tonsil procedures.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-disease-examples",
+          "label": "Illustrative organism-disease examples",
+          "detail": "B. fragilis–peritonitis after gut perforation; viridans streptococci (S. mutans)–infective endocarditis after tooth extraction or tonsillectomy.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Microbiome in systemic disease and cancer",
+      "topics": [
+        "Microbiome in systemic disease and cancer"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-systemic-association",
+          "label": "Systemic associations",
+          "detail": "Altered gut microbiome is associated with type 2 diabetes/IBD and may influence insulin resistance, permeability and inflammation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-cancer-examples",
+          "label": "Cancer association examples",
+          "detail": "H. pylori can contribute to gastric adenocarcinoma/MALT lymphoma; F. nucleatum is implicated in colorectal cancer.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sites and disease manifestations diagram",
+      "topics": [
+        "Sites and disease manifestations diagram"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-manifestations-diagram",
+          "label": "Distribution of possible disease manifestations",
+          "detail": "Diagram labels abscesses, oral/pharyngeal disease, sepsis, endocarditis, pneumonia, gastroenteritis/peritonitis and urogenital infections.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "A human outline links black sites to: abscesses (multiple sites); dental caries, periodontal disease and pharyngitis (mouth); sepsis; endocarditis (heart); pneumonia (lung); gastroenteritis and peritonitis (abdomen); urogenital infections (genitals). No organism labels or causal organism mappings are supplied.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Antibiotic disruption of resident flora",
+      "topics": [
+        "Antibiotic disruption of resident flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-antibiotic-competition-loss",
+          "label": "Loss of competition after antibiotics",
+          "detail": "Antibiotics diminish residents as well as pathogens; yeasts/pathogens may overgrow and create new infections.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clindamycin and neomycin examples",
+      "topics": [
+        "Clindamycin and neomycin examples"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-clindamycin-overgrowth",
+          "label": "Clindamycin-associated ecological disruption",
+          "detail": "Suppression of predominant flora allows toxin-producing Clostridium difficile to overgrow and cause severe colitis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-neomycin-recovery",
+          "label": "Transient suppression before GI surgery",
+          "detail": "Neomycin decreases gut bacterial levels; levels return to normal after several days.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Normal-flora locations",
+      "topics": [
+        "Normal-flora locations"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-body-sites",
+          "label": "Normal-flora body sites",
+          "detail": "Skin, conjunctiva, nose/throat, mouth, large intestine, urinary and reproductive systems.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 6-1: Normal flora and anatomic locations",
+      "topics": [
+        "Table 6-1: Normal flora and anatomic locations"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-reference-locations",
+          "label": "Table 6-1 flora/location catalog",
+          "detail": "Complete organism-site associations retained as reference, not standalone table-row recall.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Member of normal flora | Anatomic location |\n| --- | --- |\n| Bacteroides species | Colon, throat, vagina |\n| Candida albicans | Mouth, colon, vagina |\n| Clostridium species | Colon |\n| Corynebacterium species (diphtheroids) | Nasopharynx, skin, vagina |\n| Enterococcus faecalis | Colon |\n| Escherichia coli and other coliforms | Colon, vagina, outer urethra |\n| Gardnerella vaginalis | Vagina |\n| Haemophilus species | Nasopharynx |\n| Lactobacillus species | Mouth, colon, vagina |\n| Neisseria species | Mouth, nasopharynx |\n| Propionibacterium acnes | Skin |\n| Pseudomonas aeruginosa | Colon, skin |\n| Staphylococcus aureus | Nose, skin |\n| Staphylococcus epidermidis | Skin, nose, mouth, vagina, urethra |\n| Viridans streptococci | Mouth, nasopharynx |\n\nFootnote: In alphabetical order.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only catalog: preserve every row; no direct row-by-row organism-location questioning."
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Skin normal flora",
+      "topics": [
+        "Skin normal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-skin-habitat",
+          "label": "Skin flora and prosthetic-site opportunity",
+          "detail": "S. epidermidis predominates on skin; abnormal access to artificial valves/prosthetic joints can cause disease.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-deep-follicles",
+          "label": "Deep follicle anaerobes",
+          "detail": "Propionibacterium occurs in deeper dermal follicles; P. acnes is implicated in acne.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-skin-yeast",
+          "label": "Skin yeast",
+          "detail": "Candida albicans is a member of skin normal flora.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        },
+        {
+          "id": "normal-flora-cutibacterium-name",
+          "label": "P. acnes name change",
+          "detail": "New name for Propionibacterium acnes is Cutibacterium acnes.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-deleted-peptococcus",
+          "label": "Deleted skin example",
+          "detail": "Peptococcus is followed by explicit (to delete); retained but not tested.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "The phrase **Peptococcus (to delete)** is highlighted; the deletion note is retained and its example excluded from scoring. A magenta-highlighted note states the new name of Propionibacterium acnes is Cutibacterium acnes.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p19-deletion",
+          "statement": "Peptococcus appears with (to delete).",
+          "issue": "Explicit editorial deletion note.",
+          "description": "Peptococcus appears with (to delete). Explicit editorial deletion note.",
+          "handling": "Retain for traceability; exclude this example from assessment."
+        }
+      ],
+      "assessmentNotes": "Exclude explicitly deleted Peptococcus example; clear remaining teaching content remains eligible."
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Respiratory-tract normal flora",
+      "topics": [
+        "Respiratory-tract normal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-respiratory-distribution",
+          "label": "Upper versus lower respiratory distribution",
+          "detail": "Flora colonize nose, throat and mouth; source excludes lower bronchi and alveoli.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-throat-competition",
+          "label": "Throat competitive protection",
+          "detail": "Viridans streptococci, Neisseria species and S. epidermidis inhibit S. pyogenes, N. meningitidis and S. aureus, respectively.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Viridans streptococci in mouth",
+      "topics": [
+        "Viridans streptococci in mouth"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-dental-plaque",
+          "label": "Oral plaque and disease opportunity",
+          "detail": "S. mutans is a viridans member abundant in dental plaque, precursor of caries; viridans group can cause infective endocarditis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intestinal-tract normal flora",
+      "topics": [
+        "Intestinal-tract normal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-intestinal-distribution",
+          "label": "Small intestine versus colon",
+          "detail": "Small intestine contains small numbers of streptococci, lactobacilli and C. albicans; colon is major bacterial location.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-fecal-anaerobes",
+          "label": "Fecal flora composition",
+          "detail": "More than 90% is anaerobic; B. fragilis important. Coliforms including E. coli are the most abundant facultative bacteria.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-fecal-quantity",
+          "label": "Fecal bacterial quantity",
+          "detail": "Approximately 20% fecal content and 10^11 organisms/g.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visual exponent verified as **10^11 organisms/g** (not the flattened text-layer digits 1011).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Extra-intestinal disease from intestinal flora",
+      "topics": [
+        "Extra-intestinal disease from intestinal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-breached-barrier",
+          "label": "Barrier breach and displaced flora",
+          "detail": "E. coli–UTI and B. fragilis–peritonitis after intestinal perforation illustrate extraintestinal disease.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-intestinal-reference-examples",
+          "label": "Additional intestinal organisms",
+          "detail": "Fusobacterium/Peptostreptococcus anaerobic; E. faecalis facultative; P. aeruginosa hospital infections and present in 10% stools/soil/water. Broad UTI/endocarditis heading is ambiguous.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p23-list-mapping",
+          "statement": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets.",
+          "issue": "The heading does not uniquely assign each listed organism to both diseases.",
+          "description": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets. The heading does not uniquely assign each listed organism to both diseases.",
+          "handling": "Preserve all bullets; do not ask unsupported disease mapping from this heading."
+        }
+      ]
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genitourinary flora",
+      "topics": [
+        "Genitourinary flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-vaginal-acid",
+          "label": "Lactobacillus and vaginal acidity",
+          "detail": "Adult vaginal Lactobacillus produces acidic pH and inhibits potential pathogens; antibiotic suppression can permit Candida overgrowth.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-urine-contamination",
+          "label": "Urethral contamination during passage",
+          "detail": "Urine acquires S. epidermidis, coliforms, diphtheroids and nonhemolytic streptococci while passing through urethra.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-gu-reference",
+          "label": "Additional genitourinary examples",
+          "detail": "M. smegmatis around urethral secretions; S. saprophyticus on surrounding skin may cause UTI in women.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Summary of diseases caused by normal flora",
+      "topics": [
+        "Summary of diseases caused by normal flora"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-disease-summary-reference",
+          "label": "Organism-disease summary",
+          "detail": "E. coli–UTI; B. fragilis–peritonitis; E. faecalis–UTI/endocarditis; P. aeruginosa infections with low defenses.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [],
+      "assessmentNotes": "Reference-only summary: do not inflate bank with organism-disease pair recall."
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Genitourinary flora-associated diseases",
+      "topics": [
+        "Genitourinary flora-associated diseases"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-vaginal-acid",
+          "label": "Lactobacillus suppression and Candida",
+          "detail": "Antibiotic suppression of lactobacilli can permit Candida vaginitis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-gbs-carriage",
+          "label": "Genitourinary clinical examples",
+          "detail": "E. coli/Enterobacter recurrent UTIs; 15–20% women carry vaginal GBS associated with newborn sepsis/meningitis.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Probiotics definition and quantity",
+      "topics": [
+        "Probiotics definition and quantity"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-probiotic-definition",
+          "label": "Probiotic purpose",
+          "detail": "Use of GI normal flora to treat disease and stabilize flora composition.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-probiotic-quantity",
+          "label": "Probiotic preparation quantity",
+          "detail": "Some preparations contain 10^9–10^10 organisms.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visual range verified as **10^9–10^10 organisms**, for some probiotic preparations.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clinical microbiome therapies",
+      "topics": [
+        "Clinical microbiome therapies"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-probiotic-live",
+          "label": "Probiotics as live organisms",
+          "detail": "Live microorganisms provide benefits when consumed in adequate amounts.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-fmt",
+          "label": "Fecal microbiota transplantation",
+          "detail": "Restores communities and treats recurrent Clostridioides difficile infection in the source; other interventions are under investigation for IBD.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Properties and examples of probiotics",
+      "topics": [
+        "Properties and examples of probiotics"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-probiotic-properties",
+          "label": "Probiotic characteristics",
+          "detail": "Beneficial physiological effect, human origin, safety, acid/bile stability and mucosal adhesion.",
+          "priority": "core",
+          "rationale": "Explicit source definition, comparison, condition, or mechanism."
+        },
+        {
+          "id": "normal-flora-probiotic-examples",
+          "label": "Common probiotic examples",
+          "detail": "Lactobacillus acidophilus, Bifidobacterium bifidum and Streptococcus thermophilus.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Listed therapeutic uses of probiotics",
+      "topics": [
+        "Listed therapeutic uses of probiotics"
+      ],
+      "concepts": [
+        {
+          "id": "normal-flora-probiotic-uses",
+          "label": "Listed probiotic uses",
+          "detail": "Source lists diarrhea prevention/treatment, lactose intolerance, food allergies and GI inflammation/atopic eczema; broad clinical claims are retained as examples, not treatment guidance.",
+          "priority": "supporting",
+          "rationale": "Supporting/reference or unresolved source detail retained; direct memorization deferred where noted."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text and emphasis visually checked against the rendered page; embedded teaching text is transcribed below.",
+      "uncertainties": [
+        {
+          "id": "normal-flora-p30-clinical-scope",
+          "statement": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema.",
+          "issue": "No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+          "description": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema. No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+          "handling": "Preserve as source examples; do not create clinical treatment recommendations or categorical efficacy questions."
+        }
+      ],
+      "assessmentNotes": "Supporting therapeutic examples only; no treatment recommendation or universal efficacy claim."
+    }
+  ]
+}

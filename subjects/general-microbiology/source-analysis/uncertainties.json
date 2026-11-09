@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "items": [
+    {
+      "id": "bacterial-genetics-p02-u1",
+      "statement": "The source links any mutation to absent expression and loss of a trait.",
+      "issue": "This is broader than the later missense description, which describes insertion of a different amino acid.",
+      "handling": "Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+      "description": "The source links any mutation to absent expression and loss of a trait. This is broader than the later missense description, which describes insertion of a different amino acid. Preserve the wording; do not score a universal claim that every mutation abolishes expression or its trait.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 2,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p04-u1",
+      "statement": "“Poor ability to control environment.”",
+      "issue": "The phrase does not specify a measurable mechanism or comparison.",
+      "handling": "Retain for reference; defer direct scored questions about an unstated mechanism.",
+      "description": "“Poor ability to control environment.” The phrase does not specify a measurable mechanism or comparison. Retain for reference; defer direct scored questions about an unstated mechanism.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 4,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p07-u1",
+      "statement": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation.",
+      "issue": "The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer.",
+      "handling": "Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+      "description": "The Hfr paragraph says the trait passes to any receptive bacterium during conjugation. The lecture does not establish completion of F-factor transfer or the recipient’s final F/Hfr status; page 29 only depicts chromosomal transfer. Score integration and chromosomal-transfer distinctions; do not infer that every recipient becomes Hfr.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 7,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p08-u1",
+      "statement": "The repair-enzyme list prints “DNA glycolase”.",
+      "issue": "This enzyme name is unclear as written; no replacement spelling is supplied by the source.",
+      "handling": "Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+      "description": "The repair-enzyme list prints “DNA glycolase”. This enzyme name is unclear as written; no replacement spelling is supplied by the source. Retain the printed name; do not score an enzyme-identification question requiring a silent correction.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 8,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p12-u1",
+      "statement": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”.",
+      "issue": "The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation.",
+      "handling": "Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+      "description": "“Base analog: 5-bromouracil (Acyclovir: antiviral)”. The juxtaposition does not explain whether the antiviral name is an example, synonym, or separate annotation. Preserve both names; do not equate 5-bromouracil and Acyclovir in a scored claim.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 12,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p13-u1",
+      "statement": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”.",
+      "issue": "The source does not clearly distinguish the named compounds or which antecedent the sentence describes.",
+      "handling": "Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+      "description": "The 5-bromouracil paragraph ends “Used as antiviral drug (iododeoxyuridine)”. The source does not clearly distinguish the named compounds or which antecedent the sentence describes. Retain the text; defer antiviral drug-identity or synonym questions from this line.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 13,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p15-u1",
+      "statement": "Nonsense mutation is followed by “then no protein is produced”.",
+      "issue": "The statement does not distinguish no protein from a shortened product or specify stop-codon position.",
+      "handling": "Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+      "description": "Nonsense mutation is followed by “then no protein is produced”. The statement does not distinguish no protein from a shortened product or specify stop-codon position. Score stop-codon introduction only; do not score the blanket no-protein consequence.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 15,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p15-u2",
+      "statement": "Frameshift is attributed to addition/deletion of “one or more base pairs”.",
+      "issue": "The lecture does not qualify the size of the insertion/deletion.",
+      "handling": "Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+      "description": "Frameshift is attributed to addition/deletion of “one or more base pairs”. The lecture does not qualify the size of the insertion/deletion. Do not score every possible addition/deletion as necessarily a frameshift; preserve the supplied definition without silently completing it.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 15,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p18-u1",
+      "statement": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”.",
+      "issue": "It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element.",
+      "handling": "Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+      "description": "The final line places “IR, inverted repeat” alongside “or IS: insertion sequence”. It can be read as equating a repeat with an entire insertion sequence; page 19 instead labels terminal repeats flanking an IS element. Preserve both abbreviations but do not score IR and IS as interchangeable structures.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p19-u1",
+      "statement": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2.",
+      "issue": "The schematic and numerical example are not identical at the letter-count level.",
+      "handling": "Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+      "description": "The diagram’s visible target repeat is four letters (TAGC/ATCG), while the caption describes a created 5-bp repeat for IS2. The schematic and numerical example are not identical at the letter-count level. Retain both; do not construct a scored exact repeat-length/sequence item from the conflicting representation.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p19-u2",
+      "statement": "Terminal nucleotide strings and a clipped top fragment occur in a small inset.",
+      "issue": "Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim.",
+      "handling": "Preserve the original image as authority; defer direct nucleotide-string memorization.",
+      "description": "Terminal nucleotide strings and a clipped top fragment occur in a small inset. Letter-by-letter terminal sequence transcription and the clipped fragment are not securely recoverable as a complete teaching claim. Preserve the original image as authority; defer direct nucleotide-string memorization.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-genetics-p30-u1",
+      "statement": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion.",
+      "issue": "These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion.",
+      "handling": "Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+      "description": "The page moves from packaging bacterial DNA to integration of phage DNA and lysogenic conversion. These adjacent descriptions must not be collapsed into a claim that every transduction event is lysogenic conversion. Assess the clearly described mechanisms separately; do not equate all packaged bacterial-DNA transfer with phage-DNA integration.",
+      "assessmentBlocked": true,
+      "lectureId": "bacterial-genetics",
+      "pdfPage": 30,
+      "printedSlide": null
+    },
+    {
+      "id": "normal-flora-p2-commensalism-conflict",
+      "statement": "This lecture defines commensalism as benefit to the organism without host damage.",
+      "issue": "Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+      "description": "This lecture defines commensalism as benefit to the organism without host damage. Bacterial Pathogenesis p4 instead says neither member apparently benefits or is harmed. The two definitions conflict; do not silently choose one for a classification question.",
+      "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer.",
+      "lectureId": "normal-flora",
+      "pdfPage": 2,
+      "printedSlide": null
+    },
+    {
+      "id": "normal-flora-p5-term-scope",
+      "statement": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses.",
+      "issue": "The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+      "description": "Human microbiome here includes viruses, whereas normal flora on p2 excludes viruses. The terms are presented with different scopes. Avoid treating them as interchangeable or scoring universal membership claims without the stated term.",
+      "handling": "Preserve as written; do not use the unresolved claim to determine a scored answer.",
+      "lectureId": "normal-flora",
+      "pdfPage": 5,
+      "printedSlide": null
+    },
+    {
+      "id": "normal-flora-p19-deletion",
+      "statement": "Peptococcus appears with (to delete).",
+      "issue": "Explicit editorial deletion note.",
+      "description": "Peptococcus appears with (to delete). Explicit editorial deletion note.",
+      "handling": "Retain for traceability; exclude this example from assessment.",
+      "lectureId": "normal-flora",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "normal-flora-p23-list-mapping",
+      "statement": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets.",
+      "issue": "The heading does not uniquely assign each listed organism to both diseases.",
+      "description": "A broad heading says other pathogens could cause UTI and endocarditis, followed by different organism bullets. The heading does not uniquely assign each listed organism to both diseases.",
+      "handling": "Preserve all bullets; do not ask unsupported disease mapping from this heading.",
+      "lectureId": "normal-flora",
+      "pdfPage": 23,
+      "printedSlide": null
+    },
+    {
+      "id": "normal-flora-p30-clinical-scope",
+      "statement": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema.",
+      "issue": "No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+      "description": "Probiotic uses are listed broadly for food allergy, Crohn disease and atopic eczema. No preparation, patient group, efficacy limitation or treatment protocol is specified.",
+      "handling": "Preserve as source examples; do not create clinical treatment recommendations or categorical efficacy questions.",
+      "lectureId": "normal-flora",
+      "pdfPage": 30,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p3-role-labels",
+      "statement": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit.",
+      "issue": "The mutualistic exchange is clear, but subheading attribution is awkward.",
+      "description": "The Woman/Bacteria subheadings precede wording that describes the opposite party’s benefit. The mutualistic exchange is clear, but subheading attribution is awkward.",
+      "handling": "Preserve the exchange; avoid scored questions about the ambiguous role labels.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 3,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p4-commensalism",
+      "statement": "No apparent benefit or harm to either member is stated under commensalism.",
+      "issue": "Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+      "description": "No apparent benefit or harm to either member is stated under commensalism. Normal Flora p2 defines benefit to organism without host harm; the same page also describes protective lactic acid.",
+      "handling": "Do not score this unresolved definition or silently substitute an outside definition.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 4,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p4-possible-cancer",
+      "statement": "Other metabolites are suggested as possibly associated with certain skin cancers.",
+      "issue": "Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+      "description": "Other metabolites are suggested as possibly associated with certain skin cancers. Tentative, nonspecific source phrasing; neither mechanism nor cancer type supplied.",
+      "handling": "Retain tentative wording; do not use in scored claims.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 4,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p13-incomplete-list",
+      "statement": "Two major infection factors are listed, then a third bullet ?? appears.",
+      "issue": "The missing bullet is unresolved.",
+      "description": "Two major infection factors are listed, then a third bullet ?? appears. The missing bullet is unresolved.",
+      "handling": "Assess clear dose/virulence relationships only; do not invent a third factor.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 13,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p23-small-print",
+      "statement": "Historical Typhoid Mary newspaper columns are too small to read reliably.",
+      "issue": "Illustrative, not a source of reconstructed factual detail.",
+      "description": "Historical Typhoid Mary newspaper columns are too small to read reliably. Illustrative, not a source of reconstructed factual detail.",
+      "handling": "Preserve visible headline/caption; no scored claims from unreadable columns.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 23,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p31-vector-wording",
+      "statement": "The source calls mosquitoes and ticks insects in its vector example.",
+      "issue": "Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+      "description": "The source calls mosquitoes and ticks insects in its vector example. Use vector-bite mechanism without making the broad taxonomic wording a scored distinction.",
+      "handling": "Preserve wording, avoid taxonomy correction or taxonomy-based distractors.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 31,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p34-type-footnote",
+      "statement": "Type-of-organism header has footnote 1 but no footnote text visible.",
+      "issue": "Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+      "description": "Type-of-organism header has footnote 1 but no footnote text visible. Letters are retained as printed; expansions use only matching letter conventions explicitly visible elsewhere in the supplied sources.",
+      "handling": "Do not infer any extra footnote conditions.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 34,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p42-thrombus-definition",
+      "statement": "Thrombus is called a clotting process that prevents bleeding.",
+      "issue": "The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+      "description": "Thrombus is called a clotting process that prevents bleeding. The isolated definition is imprecise and not elaborated; DIC mechanism itself is clear.",
+      "handling": "Preserve wording; do not score terminology from the imprecise sentence.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 42,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p49-cropped-comment",
+      "statement": "Salmonella typhi comment reads Not important for other… at the right edge.",
+      "issue": "The rest of the comment and M-protein footnote are not visible.",
+      "description": "Salmonella typhi comment reads Not important for other… at the right edge. The rest of the comment and M-protein footnote are not visible.",
+      "handling": "Do not complete or score missing text.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 49,
+      "printedSlide": null
+    },
+    {
+      "id": "bacterial-pathogenesis-p54-absolute-cytoplasm",
+      "statement": "Escape to cytoplasm is followed by where there are no degradative enzymes.",
+      "issue": "Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+      "description": "Escape to cytoplasm is followed by where there are no degradative enzymes. Unqualified absolute is not explained; clear escape mechanism can be assessed without this absolute.",
+      "handling": "Retain as written; do not make absolute absence of enzymes the scored claim.",
+      "lectureId": "bacterial-pathogenesis",
+      "pdfPage": 54,
+      "printedSlide": null
+    }
+  ]
+}

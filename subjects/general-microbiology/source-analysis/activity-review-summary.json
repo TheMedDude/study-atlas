@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "activities": 428,
+  "types": {
+    "mcq": 409,
+    "match": 18,
+    "order": 1
+  },
+  "conceptsWithActivities": 407,
+  "totalConcepts": 488,
+  "coreConcepts": 403,
+  "coreConceptsWithActivities": 403,
+  "explicitDeferrals": 0,
+  "independentlyReviewed": true
+}

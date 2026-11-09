@@ -107,3 +107,93 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
 - Confirmed All available respects filters (126 for Genes, 601 for all chapters), a visible elapsed clock, preserved checked choices, exact refreshed resume and early finish with 234 of 235 answered while keeping 234 records. Duplicate real export/import added zero attempts. Delayed exam feedback and the three-question/two-unanswered result still behave correctly. Navigation stayed at the exact same vertical position before/after feedback.
 - Updates is the user's final plain chronological list, not tabs or accordions: 1.0 then 1.1, opening at the bottom. Returning-user popup appeared once; fresh users are marked current without a later first-practice popup. Direct English/Arabic note PDFs were downloaded, parsed, rendered and visually checked. The PDF uses rendered text images for reliable Arabic shaping; source references remain visible.
 - The final handoff updates documentation only. Browser storage remains device-local; backups are necessary before clearing browser data or moving devices. The user clarified that no recovery of their reported earlier practice was requested.
+
+## 2026-11-08 — General Microbiology midterm preparation (in progress)
+
+- Imported and hash-verified five unchanged supplied PDFs: 64, 36, 35, 30 and 59 pages (224 total). Preserved original filenames in the new subject manifest and extracted text plus full-page visual review assets.
+- Source teams are reviewing all pages and reconstructing tables/diagrams before any question authoring. Longitudinal reference tables and broad organism–disease catalog tables receive explicit direct-question deferrals; source-required exceptions are recorded separately.
+- The user requests the same depth and direct, five-option question style as the final Molecular Biology bank. Count follows distinct source-supported coverage rather than a fixed copied quota.
+- Latest release instruction supersedes holding the addition local: publish Microbiology as the first addition toward1.2, record it in What's New, and keep1.2 open for further work. A final handoff must explain the full process and question-writing method.
+- Verified connected GitHub and CLI account as TheMedDude (352966162), preserved public origin and existing checkout. Existing outputs/ exports predate this work and will not be staged.
+
+## 2026-11-09 — General Microbiology source analysis completed & Chapter 1 Batch 1 authored
+
+- Completed exhaustive visual extraction and indexing for all five midterm lecture PDFs (224 total pages: 217 teaching pages, 7 excluded cover/divider pages, 488 indexed concepts, 27 source uncertainties).
+- Generated and verified `page-ledger.json`, `concept-index.json`, `coverage-summary.json`, `coverage-ledger.csv`, and comprehensive Markdown files for each lecture. `build_source_index.py` and `validate_content.py` passed with zero errors.
+- Authored Batch 1 of Chapter 1 (`bacteria-and-other-microorganisms.json`) covering Topics 1–3 (PDF pages 1–26):
+  - 29 validated activities: 23 five-option MCQs and 6 concept-matching activities.
+  - Achieved 100% core concept coverage across pages 1–26 (64/64 core concepts covered; 0 uncovered).
+  - All items feature purely written stems (no graph dependencies), 5 parallel plausible distractors, option-by-option slide evidence, and bilingual EN/AR explanations retaining English scientific terminology.
+  - Passed all verification checks in `work/general-microbiology/verify_batch1.py`.
+- Documentation in `docs/HANDOFF.md` updated with architecture, file indices, strict AI workflow constraints, and current stage.
+
+## 2026-11-09 — Complete General Microbiology midterm question bank authored and verified
+
+- Authored all remaining activity batches across all five chapters of General Microbiology:
+  - **Chapter 1 (`bacteria-and-other-microorganisms.json`)**: 51 validated activities (42 MCQs, 8 matches, 1 ordering) covering all 137 core concepts (100%).
+  - **Chapter 2 (`bacterial-genetics.json`)**: 20 validated activities (16 MCQs, 4 matches) covering all 98 core concepts (100%).
+  - **Chapter 3 (`bacterial-growth.json`)**: 11 validated activities (9 MCQs, 2 matches) covering all 42 core concepts (100%).
+  - **Chapter 4 (`normal-flora.json`)**: 11 validated activities (9 MCQs, 2 matches) covering all 41 core concepts (100%).
+  - **Chapter 5 (`bacterial-pathogenesis.json`)**: 12 validated activities (10 MCQs, 2 matches) covering all 85 core concepts (100%).
+- Total compiled activities for General Microbiology: **105 validated activities** (86 5-option MCQs, 18 matching, 1 sequence ordering).
+- Total core concepts covered: **403 of 403 (100% core concept coverage, 0 uncovered)**.
+- Compiled activity bank via `python scripts/build_bank.py --subject general-microbiology`: generated compiled `subjects/general-microbiology/activities.json` and synchronized `coverage-ledger.csv`.
+- Verified strict structural integrity, distractor parallelisms, exact slide provenance, and bilingual EN/AR explanations using `python scripts/validate_content.py --subject general-microbiology` (passed 100%).
+- Molecular Biology bank remains intact and verified (694 validated activities, 100% pass).
+- Platform regression suite: `npm run check` and `npm test` (56/56 passing).
+- Updated `docs/HANDOFF.md` with complete activity breakdown, source page statistics, and question authoring methodology.
+
+## 2026-11-09 — Chapter 1 fully expanded to 138 five-option MCQs (Molecular Biology gold-standard density)
+
+- Per user critique regarding question density and prioritizing discrete 5-option MCQs over composite/drill items, redesigned and expanded Chapter 1 (`bacteria-and-other-microorganisms.json`):
+  - Authored **138 discrete, high-yield 5-option MCQs** (up from 42 MCQs) covering individual distinctions, biochemistry, staining protocols, structure mechanisms, and clinical correlations at a ~1.0 concept-per-MCQ density.
+  - Preserved 13 concept drills (12 matching, 1 sequence ordering) as secondary practice modes, bringing Chapter 1 to **151 validated activities** (mirroring Molecular Biology's `genes-and-chromosomes` 140 activities).
+  - 100% core concept coverage achieved (137 of 137 core concepts tested individually with 0 uncovered).
+  - Rebuilt bank via `python scripts/build_bank.py --subject general-microbiology` (total bank now 205 activities: 186 MCQs, 18 matches, 1 order).
+  - `python scripts/validate_content.py --subject general-microbiology` and `npm test` passed (56/56 passing).
+
+## 2026-11-09 — Complete 5-chapter MCQ expansion (404 MCQs, 423 total activities) & balanced distribution
+
+- Expanded Chapters 2, 3, 4, and 5 to full discrete 5-option MCQ density, matching Molecular Biology rhythm across all 5 midterm lectures:
+  - **Chapter 1 (`bacteria-and-other-microorganisms.json`)**: 138 MCQs + 13 concept drills = 151 activities (100% of 137 core concepts covered).
+  - **Chapter 2 (`bacterial-genetics.json`)**: 98 MCQs + 2 matches = 100 activities (100% of 98 core concepts covered).
+  - **Chapter 3 (`bacterial-growth.json`)**: 42 MCQs + 3 matches = 45 activities (100% of 42 core concepts covered).
+  - **Chapter 4 (`normal-flora.json`)**: 41 MCQs = 41 activities (100% of 41 core concepts covered).
+  - **Chapter 5 (`bacterial-pathogenesis.json`)**: 85 MCQs + 1 match = 86 activities (100% of 85 core concepts covered).
+- **Total General Microbiology midterm bank**: **404 discrete five-option MCQs + 18 matches + 1 ordering = 423 validated activities**.
+- **100% core concept coverage**: All 403 core concepts across 217 teaching pages covered at a 1-to-1 ratio with 0 uncovered concepts.
+- **Deterministic Option Balancing**: Executed `work/general-microbiology/distribute_options.py` across all chapter banks. Option distribution across A, B, C, D, and E is evenly balanced (~20% each: A: 83, B: 82, C: 81, D: 79, E: 79; <1% variance).
+- **Multi-Subject Registration**: Added `general-microbiology` to `subjects/index.json`. The application seamlessly enables switching between Molecular Biology (694 activities) and General Microbiology (423 activities).
+- **Release Preview**: Added Version 1.2 Preview note to What's New tab in `app/app.js` without triggering the forced returning-user popup.
+- **Documentation**: Authored comprehensive `docs/HANDOFF.md` containing full architecture index, strict constraints, question-writing methodology, bank breakdowns, verification commands, and git push instructions.
+- **Regression suite & gates**:
+  - `scripts/build_bank.py --subject general-microbiology`: passed (423 activities compiled).
+  - `scripts/validate_content.py --subject general-microbiology`: passed 100%.
+  - `scripts/validate_content.py --subject molecular-biology`: passed 100% (694 activities).
+  - `npm run check; npm test`: all 56 automated test suites passed (56/56 passing, 0 errors).
+
+## 2026-11-09 — Distractor length parity, diagnostic MCQs added, Course Hub & mobile/iPad calibration
+
+- **Independent Quality & Depth Audit**: Subagent completed comprehensive evaluation against the 30-item previous midterm exam (`نموذج_٢.pdf`). Findings: 9.2/10 real exam alignment, 8.8/10 biological/mechanistic depth, 8.5/10 question volume (sufficient for mastery with ~10x practice multiplier).
+- **Distractor Parity & Length Clue Resolution**:
+  - Upgraded 42 questions in `bacterial-pathogenesis.json`, 12 questions in `normal-flora.json`, 10 questions in `bacterial-growth.json`, and 1 question in `bacterial-genetics.json`.
+  - Expanded all distractors to matched character lengths (within ±10-15% of the correct option) and parallel multi-clause structures, completely eliminating length cues.
+  - Eliminated all throwaway distractors ("lunar phases", "gymnasium", "outer space", "pinocytosis"), replacing them with authentic medical and microbiological mechanisms.
+- **High-Yield Diagnostic Questions Added (Chapter 3)**:
+  - Authored 5 discrete MCQs covering Triple Sugar Iron (TSI) agar interpretations (*Salmonella* K/A H2S, *E. coli* A/A gas, *Pseudomonas* K/K), Durham carbohydrate fermentation tubes, and thioglycollate broth oxygen growth patterns.
+  - General Microbiology bank expanded to **409 discrete 5-option MCQs + 18 matches + 1 order = 428 total validated activities** (1,122 platform total).
+  - Balanced option distribution re-verified: A: 84 (20.5%), B: 83 (20.3%), C: 82 (20.0%), D: 80 (19.6%), E: 80 (19.6%).
+- **Pre-Home Course Hub Screen**:
+  - Implemented `coursesView()` as the landing view when opening Study Atlas without a selected subject, or accessible anytime via `❖ All Courses` button or brand logo.
+  - Rendered rich course cards for Molecular Biology and General Microbiology featuring lecture counts, teaching page counts, 5-option MCQ counts, activity totals, and live on-device progress badges.
+- **iPad & Mobile Phone Calibration**:
+  - Added tablet responsive rules (760px–1024px) providing wide content space and ergonomic 200px sidebar rail.
+  - Configured mobile layout with iOS safe areas (`env(safe-area-inset-top)` for Dynamic Island/notches; `env(safe-area-inset-bottom)` for Home Indicator).
+  - Ensured minimum 44–48px touch targets for options, buttons, and chapter checkboxes with subtle tap feedback (`:active { transform: scale(0.98); }`).
+  - Set `font-size: 16px !important` on mobile form inputs to stop iOS Safari viewport auto-zooming.
+- **Verification**:
+  - `python scripts/build_bank.py --subject general-microbiology`: passed (428 validated activities, 403/403 core concepts).
+  - `python scripts/validate_content.py --subject general-microbiology`: passed 100%.
+  - `npm run check; npm test`: all 56 automated test suites passed (0 errors).
+
+

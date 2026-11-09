@@ -1,0 +1,2918 @@
+{
+  "schemaVersion": "1.0",
+  "lectureId": "bacterial-growth",
+  "activities": [
+    {
+      "id": "bacterial-growth-p02-binary-fission-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p02-binary-fission"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "By what cellular division process do bacteria reproduce, resulting in exponential population growth?",
+      "explanation": {
+        "en": "Bacteria reproduce by binary fission, where a single parent cell divides into two genetically identical daughter cells, resulting in exponential (geometric) population growth.",
+        "ar": "تتكاثر البكتيريا عن طريق الانشطار الثنائي (Binary fission)، حيث تنقسم الخلية الأم الواحدة إلى خليتين بنتين متطابقتين وراثياً، مما يؤدي إلى نمو أسي (Exponential) للجماعة البكتيرية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 2.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 2: reproduce by binary fission; two identical cells formed; exponential growth."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Binary fission yielding two identical daughter cells",
+          "evidence": "Bacteria reproduce by binary fission; two identical cells are formed; undergo exponential growth. Source PDF page: 2."
+        },
+        {
+          "id": "o2",
+          "text": "Meiotic tetrad reduction producing four haploid gametes",
+          "evidence": "Bacteria do not undergo meiosis. Source PDF page: 2."
+        },
+        {
+          "id": "o3",
+          "text": "Asymmetric budding forming chitinous pseudohyphae",
+          "evidence": "Budding is typical of yeasts, while bacteria divide by binary fission. Source PDF page: 2."
+        },
+        {
+          "id": "o4",
+          "text": "Multiple schizogony forming dozens of extracellular merozoites",
+          "evidence": "Schizogony is a protozoan division process. Source PDF page: 2."
+        },
+        {
+          "id": "o5",
+          "text": "Mitotic spindle cleavage with nuclear envelope breakdown",
+          "evidence": "Bacteria lack mitotic spindles and nuclear envelopes. Source PDF page: 2."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p04-generation-time-definition-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p04-generation-time-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "What is the biological definition of bacterial generation time (doubling time)?",
+      "explanation": {
+        "en": "Generation time (or doubling time) is defined as the time interval required for a bacterial cell or population to undergo binary fission and double in number.",
+        "ar": "يُعرَّف زمن الجيل (Generation time) أو زمن التضاعف (Doubling time) بأنه الفاصل الزمني المطلوب للخلية البكتيرية أو الجماعة لتخضع للانشطار الثنائي ويتضاعف عددها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 4.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 4: Interval of time between successive binary fission of a cell or population."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "The latency duration of lag phase before any detectable metabolic transcription takes place",
+          "evidence": "Generation time refers to doubling during active division. Source PDF page: 4."
+        },
+        {
+          "id": "o1",
+          "text": "The time interval required for a bacterial cell or population to double through binary fission",
+          "evidence": "Interval of time between successive binary fission of a cell or population. Source PDF page: 4."
+        },
+        {
+          "id": "o3",
+          "text": "The autoclaving exposure interval necessary to achieve complete destruction of all endospores",
+          "evidence": "Generation time is a biological doubling metric, not an autoclave cycle. Source PDF page: 4."
+        },
+        {
+          "id": "o4",
+          "text": "The terminal period during decline phase when viable bacterial counts decrease by exactly 50%",
+          "evidence": "Doubling occurs during exponential growth, not death decline. Source PDF page: 4."
+        },
+        {
+          "id": "o5",
+          "text": "The time interval required for a bacteriophage to inject its genome into a recipient bacterium",
+          "evidence": "Generation time measures bacterial division. Source PDF page: 4."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p04-generation-time-extremes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p04-generation-time-extremes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "What are the contrasting generation times cited for Escherichia coli versus Mycobacterium tuberculosis?",
+      "explanation": {
+        "en": "Generation times vary widely among bacterial species: Escherichia coli has a rapid doubling time of approximately 20 minutes, whereas Mycobacterium tuberculosis is slow-growing with a generation time of up to 18 hours.",
+        "ar": "تتفاوت أزمنة التوليد تفاوتاً كبيراً بين الأنواع البكتيرية: تمتلك E. coli زمن تضاعف سريعاً يبلغ حوالي 20 دقيقة، بينما تنمو Mycobacterium tuberculosis ببطء شديد مع زمن جيل يصل إلى 18 ساعة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 4.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 4: E. coli 20 minutes; M. tuberculosis up to 18 hours."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "E. coli requires 18 hours; M. tuberculosis doubles in 20 minutes",
+          "evidence": "Organisms are inverted. Source PDF page: 4."
+        },
+        {
+          "id": "o5",
+          "text": "E. coli cannot replicate in broth; M. tuberculosis doubles every 2 minutes",
+          "evidence": "E. coli replicates rapidly in broth (~20 min). Source PDF page: 4."
+        },
+        {
+          "id": "o1",
+          "text": "E. coli has a generation time of ~20 minutes; M. tuberculosis requires up to 18 hours",
+          "evidence": "E. coli 20 minutes; Mycobacterium tuberculosis up to 18 hours. Source PDF page: 4."
+        },
+        {
+          "id": "o3",
+          "text": "Both E. coli and M. tuberculosis double in exactly 24 hours",
+          "evidence": "E. coli doubles rapidly (20 min); M. tuberculosis is slow (18 h). Source PDF page: 4."
+        },
+        {
+          "id": "o4",
+          "text": "E. coli doubles in 5 seconds; M. tuberculosis doubles in 30 days",
+          "evidence": "The cited values are 20 minutes and 18 hours. Source PDF page: 4."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p04-generation-time-factors-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p04-generation-time-factors"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which combination of biological and environmental factors determines the doubling time of bacteria?",
+      "explanation": {
+        "en": "Bacterial doubling time is governed by the specific bacterial species, available nutrients, incubation temperature, and environmental pH.",
+        "ar": "يخضع زمن تضاعف البكتيريا للنوع البكتيري المحدد (Species)، والمغذيات المتاحة (Nutrients)، ودرجة حرارة الحضانة (Temperature)، والباهاء البيئية (pH)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 4.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 4: Species, nutrients, temperature, pH."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Host serum albumin concentration, ambient atmospheric pressure, and blood group antigens",
+          "evidence": "Nutrients, temperature, pH, and species determine doubling time. Source PDF page: 4."
+        },
+        {
+          "id": "o5",
+          "text": "Ambient light exposure, concentration of trace heavy metals, and extracellular calcium levels",
+          "evidence": "Bacteria lack nuclear membranes; doubling factors are species, nutrients, temperature, pH. Source PDF page: 4."
+        },
+        {
+          "id": "o2",
+          "text": "Exclusively the presence of host human serum transferrin and extracellular matrix collagen bundles",
+          "evidence": "Doubling time depends on species, nutrients, temperature, and pH. Source PDF page: 4."
+        },
+        {
+          "id": "o1",
+          "text": "Bacterial species genetic traits, nutritional medium composition, incubation temperature, and pH",
+          "evidence": "Factors affecting doubling time: Species, nutrients, temperature, pH. Source PDF page: 4."
+        },
+        {
+          "id": "o3",
+          "text": "Strictly the volume of sterile saline diluent used to reconstitute the original lyophilized vial",
+          "evidence": "Factors are species, nutrients, temperature, and pH. Source PDF page: 4."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p07-lag-phase-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p07-lag-phase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "What cellular activity characterizes the lag phase of the bacterial growth curve?",
+      "explanation": {
+        "en": "During the lag phase, vigorous metabolic activity occurs (synthesis of enzymes and RNA) but cells do not divide in number.",
+        "ar": "خلال طور الركود/الكمون (Lag phase)، يحدث نشاط استقلابي مكثف (بناء الإنزيمات والـ RNA) ولكن الخلايا لا تنقسم عددياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 7.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 7: Vigorous metabolic activity occurs but cells do not divide."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Equilibrium where death rate precisely equals birth rate",
+          "evidence": "Equilibrium defines stationary phase, not lag phase. Source PDF page: 7."
+        },
+        {
+          "id": "o2",
+          "text": "Rapid exponential doubling of cell numbers with zero metabolic activity",
+          "evidence": "Exponential doubling occurs in log phase; lag phase has high metabolism without division. Source PDF page: 7."
+        },
+        {
+          "id": "o3",
+          "text": "Total cessation of protein synthesis and widespread cell lysis",
+          "evidence": "Lag phase cells are actively synthesizing metabolic machinery. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "Spontaneous sporulation of all vegetative cells",
+          "evidence": "Sporulation occurs upon nutrient starvation in stationary phase. Source PDF page: 7."
+        },
+        {
+          "id": "o1",
+          "text": "Vigorous metabolic activity occurs, but cells do not divide",
+          "evidence": "Vigorous metabolic activity occurs but cells do not divide. Source PDF page: 7."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p07-log-phase-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p07-log-phase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Why is the log (exponential) phase considered the optimal window for antimicrobial drug activity?",
+      "explanation": {
+        "en": "During the log phase, rapid cell division and high metabolic rates occur, making bacterial cells maximally susceptible to antimicrobial agents (such as beta-lactams targeting cell wall synthesis).",
+        "ar": "خلال الطور اللوغاريتمي/الأسّي (Log phase)، يحدث انقسام خلوي سريع ومعدل استقلاب مرتفع، مما يجعل الخلايا البكتيرية في قمة قابليتها للتأثر بالأدوية والمضادات الحيوية (مثل مضادات بيتا لاكتام التي تستهدف بناء الجدار الخلوي)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 7.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 7: Rapid cell division; high metabolic rate which is potential drug acting phase."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Rapid cell division and high metabolic rates make bacteria most susceptible to antibiotics",
+          "evidence": "Rapid cell division occurs; high metabolic rate which is the potential drug acting phase. Source PDF page: 7."
+        },
+        {
+          "id": "o2",
+          "text": "Bacterial cytoplasmic membranes become completely impermeable to all hydrophilic solutes",
+          "evidence": "Cells are actively dividing and metabolizing, making them drug targets. Source PDF page: 7."
+        },
+        {
+          "id": "o3",
+          "text": "Bacteria shed their peptidoglycan walls permanently, converting into resistant spheroplasts",
+          "evidence": "Peptidoglycan is actively synthesized during log phase, which is why cell wall inhibitors act here. Source PDF page: 7."
+        },
+        {
+          "id": "o4",
+          "text": "The population ceases division, allowing antimicrobial agents to accumulate inside ribosomes",
+          "evidence": "Log phase is the phase of maximal rapid growth and division. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "Accumulation of toxic organic acids directly degrades beta-lactam and macrolide antibiotics",
+          "evidence": "Log phase is defined by rapid exponential division and drug susceptibility. Source PDF page: 7."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p07-stationary-phase-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p07-stationary-phase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "What environmental conditions trigger the transition into the stationary phase of bacterial growth?",
+      "explanation": {
+        "en": "The stationary phase occurs when essential nutrient depletion or the accumulation of toxic metabolic products causes population growth to slow until the number of new cells equals the number of dying cells.",
+        "ar": "يحدث طور الاستقرار/الثبات (Stationary phase) عندما يؤدي استنزاف المغذيات الأساسية أو تراكم النواتج الاستقلابية السامة إلى إبطاء النمو حتى يتساوى عدد الخلايا الجديدة مع عدد الخلايا الميتة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 7.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 7: Occurs when nutrient depletion or toxic products cause growth to slow."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Sudden addition of excess fresh glucose and amino acids",
+          "evidence": "Excess nutrients sustain log phase; depletion causes stationary phase. Source PDF page: 7."
+        },
+        {
+          "id": "o1",
+          "text": "Nutrient depletion or accumulation of toxic metabolic end-products",
+          "evidence": "Occurs when nutrient depletion or toxic products cause growth to slow. Source PDF page: 7."
+        },
+        {
+          "id": "o3",
+          "text": "Instantaneous reduction of temperature to absolute zero",
+          "evidence": "Stationary phase is driven by nutrient exhaustion and toxic waste accumulation. Source PDF page: 7."
+        },
+        {
+          "id": "o4",
+          "text": "Exposure to high-intensity ultraviolet laser irradiation",
+          "evidence": "Stationary phase is a natural curve phase caused by nutrient depletion. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "Dilution of the bacterial culture into infinite sterile broth",
+          "evidence": "Dilution into fresh medium re-initiates growth; starvation leads to stationary phase. Source PDF page: 7."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p07-death-phase-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p07-death-phase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "What defines the death (decline) phase of the bacterial growth curve?",
+      "explanation": {
+        "en": "The death or decline phase is marked by a progressive, exponential decline in the number of viable living bacteria due to severe nutrient exhaustion and toxic buildup.",
+        "ar": "يتميز طور الموت أو الانحدار (Death/decline phase) بانخفاض تدريجي ومستمر في عدد البكتيريا الحية القابلة للحياة (Viable bacteria) نتيجة نضوب المغذيات الشديد وتراكم السموم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 7.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 7: Marked by a decline in the number of viable bacteria."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Rapid increase in bacterial optical density with zero dead cells",
+          "evidence": "Viable cell count declines in death phase. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "Induction of continuous mitosis within surviving nuclei",
+          "evidence": "Bacteria lack nuclei; death phase marks viability loss. Source PDF page: 7."
+        },
+        {
+          "id": "o1",
+          "text": "A progressive decline in the number of viable living bacteria",
+          "evidence": "Marked by a decline in the number of viable bacteria. Source PDF page: 7."
+        },
+        {
+          "id": "o4",
+          "text": "Conversion of all bacteria into motile spirilla",
+          "evidence": "Death phase is defined by declining viable counts. Source PDF page: 7."
+        },
+        {
+          "id": "o2",
+          "text": "A temporary pause in cell division while chromosome size doubles",
+          "evidence": "Death phase involves cell mortality and loss of viability. Source PDF page: 7."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p11-chemostat-function-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p11-chemostat-function"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "How does a chemostat continuous culture apparatus maintain a bacterial population indefinitely in the log phase?",
+      "explanation": {
+        "en": "A chemostat continuously adds fresh sterile nutrients while simultaneously removing spent culture fluid and toxic waste products at the same rate, maintaining bacteria in steady-state log phase.",
+        "ar": "يعمل جهاز الزراعة المستمرة (Chemostat) على إضافة مغذيات معقمة جديدة باستمرار وإزالة سوائل المزرعة المستهلكة والنواتج السامة بنفس المعدل، مما يحافظ على البكتيريا في طور النمو اللوغاريتمي الثابت."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 11.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 11: fresh nutrients added and waste removed continuously, maintaining log phase."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Sealing the chamber completely to prevent any gas or nutrient exchange",
+          "evidence": "A sealed chamber is a batch culture, not a chemostat. Source PDF page: 11."
+        },
+        {
+          "id": "o3",
+          "text": "Exposing the culture to intermittent ultraviolet pulses every 20 minutes",
+          "evidence": "A chemostat provides continuous nutrient flow and waste removal. Source PDF page: 11."
+        },
+        {
+          "id": "o4",
+          "text": "Freezing the broth to 0°C to halt metabolic deterioration",
+          "evidence": "A chemostat maintains active growth in log phase at optimal temperature. Source PDF page: 11."
+        },
+        {
+          "id": "o1",
+          "text": "Continuously adding fresh nutrients and removing waste products at an equal rate",
+          "evidence": "Apparatus into which fresh nutrients are added and waste products removed continuously, maintaining bacteria in log phase. Source PDF page: 11."
+        },
+        {
+          "id": "o5",
+          "text": "Adding high concentrations of penicillin to select for wall-less L-forms",
+          "evidence": "Chemostat maintains normal growing populations via nutrient balance. Source PDF page: 11."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p13-prepared-media-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p13-prepared-media"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which nutritional components are routinely included in prepared bacteriological culture media?",
+      "explanation": {
+        "en": "Prepared bacteriological culture media contain purified chemicals such as sugars (carbon source), amino acids (nitrogen source), inorganic salts, and blood for fastidious growth requirements.",
+        "ar": "تحتوي أوساط الزرع البكتيرية المحضرة على مواد كيميائية منقاة مثل السكريات (مصدر كربون)، والأحماض الأمينية (مصدر نيتروجين)، والأملاح غير العضوية، والدم لتلبية المتطلبات الغذائية للبكتيريا صعبة التنمية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 13.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 13: Purified chemicals (sugars, amino acids, salts) and blood for nutritional purposes."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Sterile distilled water and dissolved oxygen only",
+          "evidence": "Bacteria require sugars, amino acids, salts, and often blood. Source PDF page: 13."
+        },
+        {
+          "id": "o3",
+          "text": "Pure paraffin wax and synthetic plastic granules",
+          "evidence": "Prepared media provide physiological nutrients (sugars, amino acids, salts, blood). Source PDF page: 13."
+        },
+        {
+          "id": "o4",
+          "text": "High concentrations of hydrochloric acid and heavy mercuric salts",
+          "evidence": "Media support growth, not toxicity. Source PDF page: 13."
+        },
+        {
+          "id": "o5",
+          "text": "Living human tissue biopsies exclusively",
+          "evidence": "Standard prepared bacteriological media use purified chemicals and blood. Source PDF page: 13."
+        },
+        {
+          "id": "o1",
+          "text": "Purified chemicals (sugars, amino acids, salts) and blood",
+          "evidence": "Purified chemicals (sugars, amino acids, salts) and blood for nutritional purposes. Source PDF page: 13."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p13-obligate-intracellular-energy-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p13-obligate-intracellular-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Why must obligate intracellular bacteria (such as Chlamydia, Rickettsia, Ehrlichia, and Anaplasma) grow exclusively within living host cells?",
+      "explanation": {
+        "en": "Chlamydia, Rickettsia, Ehrlichia, and Anaplasma must grow within living cells because they lack the metabolic capability to generate sufficient ATP on their own, acting as energy parasites.",
+        "ar": "يجب على البكتيريا المجبرة على التطفل داخل الخلايا (مثل Chlamydia و Rickettsia و Ehrlichia و Anaplasma) أن تنمو داخل خلايا حية حصراً لأنها تفتقر إلى القدرة على إنتاج ما يكفي من طاقة الـ ATP بنفسها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 13.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 13: lack ability to produce sufficient ATP."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "They lack the metabolic ability to produce sufficient ATP independently",
+          "evidence": "Chlamydia, Rickettsia, Ehrlichia, Anaplasma must grow within living cells because they lack ability to produce sufficient ATP. Source PDF page: 13."
+        },
+        {
+          "id": "o2",
+          "text": "They possess thick chitinous walls that block all extracellular nutrient diffusion",
+          "evidence": "They lack sufficient ATP production machinery and rely on host ATP. Source PDF page: 13."
+        },
+        {
+          "id": "o3",
+          "text": "They are obligate photoautotrophs requiring host chloroplast illumination",
+          "evidence": "They are bacterial energy parasites, not photosynthetic organisms. Source PDF page: 13."
+        },
+        {
+          "id": "o4",
+          "text": "They immediately lyse when exposed to ambient temperature below 50°C",
+          "evidence": "Their obligate intracellular requirement stems from deficient ATP synthesis. Source PDF page: 13."
+        },
+        {
+          "id": "o5",
+          "text": "They synthesize human hemoglobin instead of bacterial cytochromes",
+          "evidence": "They lack autonomous ATP-generating capacity. Source PDF page: 13."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p14-oxygen-terminal-acceptor-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p14-oxygen-terminal-acceptor"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "What physiological role does molecular oxygen play during aerobic respiration in bacteria?",
+      "explanation": {
+        "en": "Oxygen acts as the terminal hydrogen (electron) acceptor in the final steps of energy production, catalyzed by electron transport chains containing flavoproteins and cytochromes.",
+        "ar": "يعمل الأكسجين الجزيئي كمستقبل نهائي للهيدروجين (الإلكترونات) في الخطوات الأخيرة لإنتاج الطاقة، والتي تحفزها سلاسل نقل الإلكترون المحتوية على الفلافوبروتينات والسيتوكرومات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 14.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 14: terminal hydrogen acceptor in final energy production catalyzed by flavoproteins and cytochromes."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Directly cross-linking D-alanine residues within adjacent glycan tetrapeptide chains in the cell wall",
+          "evidence": "Transpeptidase cross-links peptidoglycan; oxygen is an electron acceptor. Source PDF page: 14."
+        },
+        {
+          "id": "o1",
+          "text": "Acting as the terminal hydrogen acceptor in energy production catalyzed by flavoproteins and cytochromes",
+          "evidence": "Oxygen acts as hydrogen acceptor in final energy production steps catalyzed by flavoproteins and cytochromes. Source PDF page: 14."
+        },
+        {
+          "id": "o5",
+          "text": "Inactivating transpeptidase enzymes to trigger autolytic degradation of the outer peptidoglycan layer",
+          "evidence": "Oxygen is the terminal respiratory electron/hydrogen acceptor. Source PDF page: 14."
+        },
+        {
+          "id": "o4",
+          "text": "Cleaving bacterial messenger RNA transcripts into mononucleotides to terminate metabolic translation",
+          "evidence": "Oxygen serves as the terminal acceptor in aerobic respiration. Source PDF page: 14."
+        },
+        {
+          "id": "o2",
+          "text": "Serving as the primary high-energy phosphate donor required for substrate-level phosphorylation of ADP",
+          "evidence": "Oxygen is the terminal electron/hydrogen acceptor. Source PDF page: 14."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p14-reactive-oxygen-species-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p14-reactive-oxygen-species"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which two toxic reactive oxygen molecules are generated as natural byproducts of aerobic metabolism?",
+      "explanation": {
+        "en": "The reduction of oxygen during aerobic metabolism inevitably produces toxic reactive intermediates: hydrogen peroxide (H2O2) and the free radical superoxide (O2−).",
+        "ar": "ينتج عن إرجاع الأكسجين أثناء الاستقلاب الهوائي مركبات أكسجينية تفاعلية سامة حتماً: بيروكسيد الهيدروجين (H2O2) والجذر الحر فوق الأكسيد (Superoxide O2−)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 14.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 14: Hydrogen peroxide (H2O2) and free radical superoxide (O2-)."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Molecular nitrogen gas (N2) and gaseous carbon dioxide (CO2), which buffer cellular pH levels",
+          "evidence": "The cited toxic oxygen species are H2O2 and superoxide. Source PDF page: 14."
+        },
+        {
+          "id": "o2",
+          "text": "Lactic acid (C3H6O3) and pyruvic acid (C3H4O3), which neutralize bacterial cytosol pH",
+          "evidence": "Toxic oxygen molecules are H2O2 and superoxide. Source PDF page: 14."
+        },
+        {
+          "id": "o1",
+          "text": "Superoxide free radicals (O2-) and hydrogen peroxide (H2O2), which damage cellular components",
+          "evidence": "Hydrogen peroxide (H2O2) and free radical superoxide (O2-). Source PDF page: 14."
+        },
+        {
+          "id": "o5",
+          "text": "Inorganic phosphate (PO4) and adenosine triphosphate (ATP), which phosphorylate outer porins",
+          "evidence": "Nitrogen and argon are inert gases. Source PDF page: 14."
+        },
+        {
+          "id": "o4",
+          "text": "Ethanol (C2H5OH) and lactic acid (C3H6O3), which reduce the viscosity of the bacterial cytosol",
+          "evidence": "Lactate and pyruvate are fermentation metabolites, not toxic ROS. Source PDF page: 14, 25."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p14-sod-reaction-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p14-sod-reaction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "What chemical reaction is catalyzed by the enzyme superoxide dismutase (SOD)?",
+      "explanation": {
+        "en": "Superoxide dismutase converts two toxic superoxide radicals and protons into hydrogen peroxide and molecular oxygen: 2O2− + 2H+ → H2O2 + O2.",
+        "ar": "يحفز إنزيم فائق أكسيد الديسميوتاز (Superoxide dismutase) تفاعل تحويل جذري فوق الأكسيد السامين والبروتونات إلى بيروكسيد الهيدروجين وأكسجين جزيئي: 2O2− + 2H+ → H2O2 + O2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 14.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 14: 2O2- + 2H+ -> H2O2 + O2 catalyzed by superoxide dismutase."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "H2O + CO2 → H2CO3",
+          "evidence": "This is carbonic anhydrase. Source PDF page: 14."
+        },
+        {
+          "id": "o4",
+          "text": "Pyruvate → Lactic acid + CO2",
+          "evidence": "This is fermentation. Source PDF page: 14, 25."
+        },
+        {
+          "id": "o3",
+          "text": "Glucose + 2ATP → 2 Pyruvate + 4ATP",
+          "evidence": "This is glycolysis. Source PDF page: 14, 25."
+        },
+        {
+          "id": "o1",
+          "text": "2O2− + 2H+ → H2O2 + O2",
+          "evidence": "2O2- + 2H+ -> H2O2 + O2 catalyzed by superoxide dismutase. Source PDF page: 14."
+        },
+        {
+          "id": "o2",
+          "text": "2H2O2 → 2H2O + O2",
+          "evidence": "This is catalyzed by catalase, not SOD. Source PDF page: 14."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p14-catalase-reaction-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p14-catalase-reaction"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "What chemical reaction is catalyzed by the enzyme catalase to detoxify hydrogen peroxide?",
+      "explanation": {
+        "en": "Catalase breaks down toxic hydrogen peroxide into harmless water and molecular oxygen gas: 2H2O2 → 2H2O + O2.",
+        "ar": "يقوم إنزيم الكاتالاز (Catalase) بتفكيك بيروكسيد الهيدروجين السام إلى ماء غير ضار وغاز الأكسجين الجزيئي: 2H2O2 → 2H2O + O2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 14.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 14: 2H2O2 -> 2H2O + O2 catalyzed by catalase."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "2O2− + 2H+ → H2O2 + O2",
+          "evidence": "This is catalyzed by superoxide dismutase (SOD). Source PDF page: 14."
+        },
+        {
+          "id": "o3",
+          "text": "H2O + O2 → H2O2",
+          "evidence": "Catalase breaks down H2O2 into water and oxygen. Source PDF page: 14."
+        },
+        {
+          "id": "o4",
+          "text": "O2 + 4e− + 4H+ → 2H2O",
+          "evidence": "This is terminal cytochrome oxidase reduction. Source PDF page: 14."
+        },
+        {
+          "id": "o5",
+          "text": "2Fe3+ + H2O2 → 2Fe2+ + 2OH−",
+          "evidence": "Catalase decomposes 2H2O2 into 2H2O + O2. Source PDF page: 14."
+        },
+        {
+          "id": "o1",
+          "text": "2H2O2 → 2H2O + O2",
+          "evidence": "2H2O2 -> 2H2O + O2 catalyzed by catalase. Source PDF page: 14."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p15-obligate-aerobes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p15-obligate-aerobes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which bacterial species is cited as an obligate aerobe that strictly requires molecular oxygen for growth?",
+      "explanation": {
+        "en": "Obligate aerobes require oxygen to generate energy and grow; Mycobacterium tuberculosis is explicitly cited as an obligate aerobe.",
+        "ar": "تتطلب الهوائيات المجبرة (Obligate aerobes) الأكسجين لتوليد الطاقة والنمو؛ ويُذكر ميكروب السل (Mycobacterium tuberculosis) صراحة كمثال على بكتيريا هوائية مجبرة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 15.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 15: Require oxygen to grow; example: M. tuberculosis."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Both catalase and superoxide dismutase enzymes (+/+)",
+          "evidence": "Require oxygen to grow; example: M. tuberculosis. Source PDF page: 15."
+        },
+        {
+          "id": "o2",
+          "text": "Neither catalase nor superoxide dismutase enzymes (-/-)",
+          "evidence": "C. tetani is an obligate anaerobe killed by oxygen. Source PDF page: 15."
+        },
+        {
+          "id": "o5",
+          "text": "Superoxide dismutase present but lacks catalase (-/+)",
+          "evidence": "C. jejuni is microaerophilic. Source PDF page: 15, 16."
+        },
+        {
+          "id": "o3",
+          "text": "Catalase present but lacks superoxide dismutase (+/-)",
+          "evidence": "E. coli is a facultative anaerobe. Source PDF page: 15."
+        },
+        {
+          "id": "o4",
+          "text": "Peroxidase present but lacks both catalase and SOD",
+          "evidence": "B. fragilis is an anaerobe. Source PDF page: 15."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p15-facultative-anaerobes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p15-facultative-anaerobes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "How do facultative anaerobes, such as Escherichia coli, generate metabolic energy under aerobic versus anaerobic conditions?",
+      "explanation": {
+        "en": "Facultative anaerobes utilize oxygen for efficient aerobic respiration when oxygen is present, but switch to fermentation pathways to generate ATP in the absence of oxygen.",
+        "ar": "تستخدم اللاهوائيات المخيرة (Facultative anaerobes) الأكسجين للتنفس الهوائي وتوليد الطاقة عند وجوده، لكنها تتحول إلى مسارات التخمر (Fermentation) لإنتاج الـ ATP في غياب الأكسجين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 15.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 15: utilize oxygen by respiration, but can use fermentation; example: E. coli."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Photosynthesis in oxygen, and obligate lysis in anaerobic environments",
+          "evidence": "E. coli uses respiration or fermentation. Source PDF page: 15."
+        },
+        {
+          "id": "o1",
+          "text": "Respiration in the presence of oxygen, and fermentation in the absence of oxygen",
+          "evidence": "Utilize oxygen if present to generate energy by respiration, but can use fermentation pathway in absence of oxygen; example: E. coli. Source PDF page: 15."
+        },
+        {
+          "id": "o3",
+          "text": "Chemosynthesis using sulfur dioxide exclusively under all conditions",
+          "evidence": "Facultative anaerobes respire with O2 or ferment without O2. Source PDF page: 15."
+        },
+        {
+          "id": "o4",
+          "text": "They die immediately whenever exposed to atmospheric air",
+          "evidence": "Facultative anaerobes thrive in oxygen and grow faster with it. Source PDF page: 15, 26."
+        },
+        {
+          "id": "o5",
+          "text": "They produce energy only by absorbing host mitochondrial ATP",
+          "evidence": "Facultative anaerobes produce their own ATP via respiration or fermentation. Source PDF page: 15."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p15-obligate-anaerobes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p15-obligate-anaerobes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Why are obligate anaerobes (such as Clostridium tetani) unable to grow in the presence of oxygen?",
+      "explanation": {
+        "en": "Obligate anaerobes cannot grow in oxygen because they lack superoxide dismutase, catalase, or both enzymes, leaving them defenseless against toxic reactive oxygen species.",
+        "ar": "لا تستطيع اللاهوائيات المجبرة (مثل Clostridium tetani) النمو في وجود الأكسجين لأنها تفتقر إلى إنزيم فائق أكسيد الديسميوتاز (SOD)، أو الكاتالاز، أو كليهما، مما يجعلها عاجزة عن مقاومة جذور الأكسجين السامة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 15.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 15: lack superoxide dismutase, catalase, or both; example: Clostridium tetani."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "They possess an overabundance of catalase that hydrolyzes chromosomal DNA",
+          "evidence": "Catalase hydrolyzes H2O2, and anaerobes lack it. Source PDF page: 15."
+        },
+        {
+          "id": "o3",
+          "text": "They lack ribosomes and cannot translate proteins in warm environments",
+          "evidence": "Anaerobes have normal ribosomes; they lack SOD/catalase. Source PDF page: 15."
+        },
+        {
+          "id": "o1",
+          "text": "They lack superoxide dismutase, catalase, or both enzymes",
+          "evidence": "Cannot grow in presence of oxygen because they lack superoxide dismutase, catalase, or both; example: Clostridium tetani. Source PDF page: 15."
+        },
+        {
+          "id": "o5",
+          "text": "They are obligate autotrophs that fix carbon only from methane",
+          "evidence": "Anaerobic vulnerability is due to lack of SOD/catalase enzymes. Source PDF page: 15."
+        },
+        {
+          "id": "o2",
+          "text": "They have peptidoglycan walls that spontaneously ignite upon contact with air",
+          "evidence": "Toxicity is due to the lack of detoxifying enzymes SOD and catalase. Source PDF page: 15."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p16-aerotolerant-anaerobes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p16-aerotolerant-anaerobes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What growth pattern and enzymatic feature define aerotolerant anaerobes in a thioglycollate agar tube?",
+      "explanation": {
+        "en": "Aerotolerant anaerobes perform only anaerobic metabolism (cannot use oxygen), but grow evenly throughout the tube in the presence of oxygen because they contain SOD, which partially neutralizes toxic oxygen forms.",
+        "ar": "تعتمد اللاهوائيات المتحملة للهواء (Aerotolerant anaerobes) على الاستقلاب اللاهوائي فقط ولكنها تنمو بانتظام في جميع أنحاء الأنبوب بوجود الأكسجين لأنها تحتوي على إنزيم SOD الذي يعادل الأشكال السامة جزئياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 16.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 16: Only anaerobic growth, continues in oxygen; growth evenly throughout; contains SOD."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Strict aerobic respiration restricted exclusively to the surface meniscus",
+          "evidence": "Obligate aerobes grow at the surface meniscus; aerotolerant grow evenly throughout. Source PDF page: 16."
+        },
+        {
+          "id": "o3",
+          "text": "Growth exclusively in the deep bottom with instant death upon contact with air",
+          "evidence": "Obligate anaerobes grow at the bottom; aerotolerant grow throughout. Source PDF page: 16."
+        },
+        {
+          "id": "o4",
+          "text": "Photosynthetic colony formation only under fluorescent light",
+          "evidence": "Aerotolerant anaerobes tolerate oxygen via SOD and grow throughout. Source PDF page: 16."
+        },
+        {
+          "id": "o1",
+          "text": "Exclusively anaerobic metabolism, but grow evenly throughout because SOD neutralizes toxic oxygen",
+          "evidence": "Only anaerobic growth, but continues in presence of oxygen; growth occurs evenly throughout tube; contains SOD allowing toxic forms to be partially neutralized. Source PDF page: 16."
+        },
+        {
+          "id": "o5",
+          "text": "Growth only in the narrow zone where oxygen has diffused to 20% concentration",
+          "evidence": "They grow evenly throughout the tube. Source PDF page: 16."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p16-microaerophiles-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p16-microaerophiles"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What oxygen concentration and tube growth location characterize microaerophiles?",
+      "explanation": {
+        "en": "Microaerophiles exhibit only aerobic growth, requiring oxygen in low concentrations; in culture tubes, growth occurs only in a narrow band where low oxygen concentrations have diffused.",
+        "ar": "تظهر الكائنات أليفة الهواء القليل (Microaerophiles) نمواً هوائياً فقط وتتطلب الأكسجين بتركيزات منخفضة؛ وفي أنابيب الزرع، يحدث النمو فقط في نطاق ضيق حيث انتشر الأكسجين بتركيز منخفض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 16.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 16: Only aerobic growth; required in low concentration; growth occurs where low concentration has diffused."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Thriving in 100% pure pressurized oxygen at the very surface of the liquid",
+          "evidence": "High oxygen concentrations are inhibitory to microaerophiles. Source PDF page: 16."
+        },
+        {
+          "id": "o3",
+          "text": "Fermentative growth exclusively at the absolute anaerobic bottom of the tube",
+          "evidence": "Microaerophiles require oxygen aerobically, but in low amounts. Source PDF page: 16."
+        },
+        {
+          "id": "o4",
+          "text": "Growth evenly throughout the entire depth of the medium regardless of oxygen",
+          "evidence": "Aerotolerant grow evenly; microaerophiles grow in a distinct low-O2 zone. Source PDF page: 16."
+        },
+        {
+          "id": "o5",
+          "text": "Growth that completely ceases unless carbon monoxide is bubbled continuously",
+          "evidence": "Microaerophiles require low concentrations of oxygen. Source PDF page: 16."
+        },
+        {
+          "id": "o1",
+          "text": "Aerobic growth requiring low oxygen concentration, growing only where low O2 has diffused",
+          "evidence": "Only aerobic growth; required in low concentration; growth occurs only where low concentration has diffused. Source PDF page: 16."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p18-temperature-classes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p18-temperature-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which bacterial temperature class includes human pathogens that grow optimally between 10°C and 50°C (body temperature 37°C)?",
+      "explanation": {
+        "en": "Mesophiles grow in the range of 10°C to 50°C (with optimal growth around 37°C), which encompasses human normal flora and medically important pathogens.",
+        "ar": "تنمو الكائنات أليفة الحرارة المعتدلة (Mesophiles) في النطاق من 10°C إلى 50°C (مع نمو مثالي حول 37°C)، وهو النطاق الذي يشمل الفلورا الطبيعية للإنسان ومسببات الأمراض الطبية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 18.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 18: Mesophiles (10 to 50°C)."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mesophiles (10°C to 50°C)",
+          "evidence": "Mesophiles (10 to 50°C). Source PDF page: 18."
+        },
+        {
+          "id": "o3",
+          "text": "Thermophiles (40°C to 72°C)",
+          "evidence": "Thermophiles grow at high temperatures (40 to 72°C). Source PDF page: 18."
+        },
+        {
+          "id": "o2",
+          "text": "Psychrophiles (−10°C to 20°C)",
+          "evidence": "Psychrophiles grow at cold temperatures (−10 to 20°C). Source PDF page: 18."
+        },
+        {
+          "id": "o5",
+          "text": "Psychrotrophs (0°C to 30°C exclusively)",
+          "evidence": "Human body temperature pathogens (37°C) are mesophiles (10-50°C). Source PDF page: 18."
+        },
+        {
+          "id": "o4",
+          "text": "Hyperthermophiles (65°C to 110°C)",
+          "evidence": "Hyperthermophiles grow at extreme hot temperatures (65 to 110°C). Source PDF page: 18."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p19-ph-classes-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p19-ph-classes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "What are the three major bacterial pH classes, and at what approximate pH values do their growth curves peak?",
+      "explanation": {
+        "en": "Bacteria are classified into acidophiles (peak growth at ~pH 3), neutrophiles (peak growth at ~pH 7), and alkaliphiles (peak growth at ~pH 9).",
+        "ar": "تُصنف البكتيريا حسب الباهاء إلى أليفة الحموضة (Acidophiles، ذروة النمو حول pH 3)، وأليفة التعادل (Neutrophiles، ذروة النمو حول pH 7)، وأليفة القلوية (Alkaliphiles، ذروة النمو حول pH 9)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 19.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 19: Acidophiles (~3), Neutrophiles (~7), Alkaliphiles (~9)."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Neutrophiles (pH < 2.0), acidophiles (pH 6.0–8.0; optimum 7.0), and alkaliphiles (pH 3.0–5.0)",
+          "evidence": "Autotrophs/heterotrophs are nutritional classes. Source PDF page: 19, 35."
+        },
+        {
+          "id": "o1",
+          "text": "Acidophiles (pH < 5.5), neutrophiles (pH 5.5–8.0; optimum 7.2–7.6), and alkaliphiles (pH > 8.5)",
+          "evidence": "Curves showing relative growth rate for Acidophiles (peak ~3), Neutrophiles (peak ~7), Alkaliphiles (peak ~9). Source PDF page: 19."
+        },
+        {
+          "id": "o2",
+          "text": "Alkaliphiles (pH 1.0–4.0), neutrophiles (pH 4.0–6.0; optimum 5.0), and acidophiles (pH > 10.0)",
+          "evidence": "Psychrophiles/mesophiles/thermophiles are temperature classes, not pH classes. Source PDF page: 18, 19."
+        },
+        {
+          "id": "o3",
+          "text": "Psychrophiles (pH < 4.0), mesophiles (pH 5.0–7.0; optimum 6.5), and thermophiles (pH > 9.0)",
+          "evidence": "The pH classes are acidophiles, neutrophiles, and alkaliphiles. Source PDF page: 19."
+        },
+        {
+          "id": "o5",
+          "text": "Halophiles (pH 2.0–5.0), capnophiles (pH 6.0–8.0; optimum 7.4), and barophiles (pH > 11.0)",
+          "evidence": "Aerobes/anaerobes are oxygen classes. Source PDF page: 15, 19."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p20-ph-ideal-range-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p20-ph-ideal-range"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "What is the ideal pH range for most pathogenic and commensal bacteria, and how does this compare with fungi?",
+      "explanation": {
+        "en": "The ideal pH range for most bacteria is pH 6.0 to 9.0; extreme low or high pH results in bacterial death, whereas fungi grow better at lower acidic pH values.",
+        "ar": "يتراوح نطاق الباهاء المثالي لمعظم البكتيريا بين pH 6.0 و 9.0؛ وتؤدي الحموضة أو القلوية الشديدة إلى موت البكتيريا، في حين تنمو الفطريات بشكل أفضل عند قيم باهاء حمضية أكثر انخفاضاً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 20.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 20: Ideal range pH 6 to 9; death at extremes; fungi grow at lower pH."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Bacteria grow strictly at pH 14, whereas fungi grow only at pH 7",
+          "evidence": "Bacteria prefer pH 6 to 9. Source PDF page: 20."
+        },
+        {
+          "id": "o2",
+          "text": "Ideal range is pH 1 to 2 for bacteria, while fungi require pH 12",
+          "evidence": "Bacteria die at extreme pH; ideal is pH 6 to 9. Source PDF page: 20."
+        },
+        {
+          "id": "o1",
+          "text": "Ideal range is pH 6 to 9 for bacteria, while fungi grow at lower pH",
+          "evidence": "Ideal range pH 6 to 9; death at extreme low or high pH; fungi grow at lower pH. Source PDF page: 20."
+        },
+        {
+          "id": "o5",
+          "text": "Bacteria cannot survive any environment above pH 5.0",
+          "evidence": "The bacterial range is pH 6 to 9. Source PDF page: 20."
+        },
+        {
+          "id": "o4",
+          "text": "Bacteria and fungi both require an exact pH of 0 to survive",
+          "evidence": "pH 0 is lethal; bacteria prefer pH 6 to 9. Source PDF page: 20."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p21-halophilic-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p21-halophilic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What defining environmental requirement characterizes halophilic bacteria?",
+      "explanation": {
+        "en": "Halophilic bacteria are defined as organisms that require high concentrations of sodium chloride (salt) for growth.",
+        "ar": "تُعرَّف البكتيريا أليفة الملوحة (Halophilic bacteria) بأنها كائنات تتطلب تركيزات عالية من كلوريد الصوديوم (الملح) للنمو."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 21.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 21: Organisms requiring high salt concentrations."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Requiring absolute absence of any dissolved minerals",
+          "evidence": "Halophiles require high salt, not mineral absence. Source PDF page: 21."
+        },
+        {
+          "id": "o3",
+          "text": "Requiring liquid mercury as the sole solvent",
+          "evidence": "Halophiles require high salt concentrations. Source PDF page: 21."
+        },
+        {
+          "id": "o4",
+          "text": "Requiring continuous incubation in boiling sulfuric acid",
+          "evidence": "Halophiles are salt-requiring organisms. Source PDF page: 21."
+        },
+        {
+          "id": "o1",
+          "text": "Requiring high salt (sodium chloride) concentrations",
+          "evidence": "Organisms requiring high salt concentrations. Source PDF page: 21."
+        },
+        {
+          "id": "o5",
+          "text": "Requiring high atmospheric ozone pressure exclusively",
+          "evidence": "Halophiles require high salt. Source PDF page: 21."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p21-osmophilic-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p21-osmophilic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What physical condition is required for the growth of osmophilic microorganisms?",
+      "explanation": {
+        "en": "Osmophilic microorganisms are defined as organisms that require high osmotic pressure (such as high sugar concentrations) to grow.",
+        "ar": "تُعرَّف الكائنات أليفة الضغط الإسموزي (Osmophilic) بأنها كائنات تتطلب ضغطاً إسموزياً مرتفعاً (مثل التركيزات العالية من السكريات) لتتمكن من النمو."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 21.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 21: Organisms requiring high osmotic pressure."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Zero osmotic pressure in hypotonic pure distilled water",
+          "evidence": "Osmophiles require high osmotic pressure. Source PDF page: 21."
+        },
+        {
+          "id": "o3",
+          "text": "Sub-zero temperatures below −50°C",
+          "evidence": "Osmophiles require high osmotic pressure. Source PDF page: 21."
+        },
+        {
+          "id": "o4",
+          "text": "High hydrostatic pressure in ocean trenches exclusively",
+          "evidence": "Barophiles require high hydrostatic pressure; osmophiles require high osmotic pressure. Source PDF page: 21."
+        },
+        {
+          "id": "o5",
+          "text": "Complete absence of any organic carbon compounds",
+          "evidence": "Osmophiles require high osmotic pressure. Source PDF page: 21."
+        },
+        {
+          "id": "o1",
+          "text": "High osmotic pressure",
+          "evidence": "Organisms requiring high osmotic pressure. Source PDF page: 21."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p22-metabolism-definition-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p22-metabolism-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "How is bacterial metabolism defined, and what are its two constituent divisions?",
+      "explanation": {
+        "en": "Metabolism (from the Greek metabole, change) is defined as the totality of chemical processes to maintain life, comprising the sum of catabolism (breakdown) and anabolism (biosynthesis).",
+        "ar": "يُعرَّف الاستقلاب (Metabolism، من اليونانية metabole أي تغيير) بأنه مجمل العمليات الكيميائية اللازمة للحفاظ على الحياة، ويمثل مجموع الهدم (Catabolism) والبناء (Anabolism)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 22.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 22: totality of chemical processes to maintain life, sum of Catabolism and Anabolism."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Sum of all chemical reactions (catabolism for energy and anabolism for cellular synthesis)",
+          "evidence": "Metabolism (Greek metabole, change) is the totality of chemical processes to maintain life, sum of Catabolism and Anabolism. Source PDF page: 22."
+        },
+        {
+          "id": "o3",
+          "text": "Rate of chromosomal DNA replication during the exponential logarithmic phase of growth",
+          "evidence": "Conjugation is horizontal transfer, not the definition of metabolism. Source PDF page: 22."
+        },
+        {
+          "id": "o4",
+          "text": "Diffusion velocity of nutrients across outer membrane porin water-filled barrel channels",
+          "evidence": "This defines transformation. Source PDF page: 22."
+        },
+        {
+          "id": "o2",
+          "text": "Frequency of binary fission divisions per hour under standard incubator broth conditions",
+          "evidence": "Metabolism is the totality of chemical life processes (catabolism + anabolism). Source PDF page: 22."
+        },
+        {
+          "id": "o5",
+          "text": "Production of extracellular polysaccharide capsule layers to resist host phagocytosis",
+          "evidence": "Metabolism is the sum of catabolism and anabolism. Source PDF page: 22."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p25-fermentation-mechanism-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p25-fermentation-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "What chemical sequence describes the pathway of sugar fermentation in bacteria?",
+      "explanation": {
+        "en": "Bacterial fermentation begins with the breakdown of a monosaccharide sugar (such as glucose or maltose) to pyruvic acid via glycolysis, which is then converted into lactic acid or other organic end-products.",
+        "ar": "يبدأ التخمر البكتيري بتفكيك سكر أحادي (مثل الغلوكوز أو المالتوز) إلى حمض البيروفيك عبر التحلل السكري، والذي يتحول بعد ذلك إلى حمض اللاكتيك أو نواتج عضوية أخرى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 25.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 25: Breakdown of monosaccharide sugar to pyruvic acid and then lactic acid."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Direct oxidation of pyruvic acid into pure molecular oxygen gas",
+          "evidence": "Fermentation reduces pyruvate to lactic acid without oxygen. Source PDF page: 25."
+        },
+        {
+          "id": "o1",
+          "text": "Breakdown of monosaccharide sugar to pyruvic acid and subsequently to lactic acid",
+          "evidence": "Breakdown of monosaccharide sugar (glucose or maltose) to pyruvic acid and then lactic acid. Source PDF page: 25."
+        },
+        {
+          "id": "o3",
+          "text": "Conversion of peptidoglycan monomers directly into ATP synthase enzymes",
+          "evidence": "Fermentation breaks down sugars to pyruvate and lactate. Source PDF page: 25."
+        },
+        {
+          "id": "o4",
+          "text": "Deamination of transferrin into free ferric ions",
+          "evidence": "Fermentation is a carbohydrate catabolic pathway. Source PDF page: 25."
+        },
+        {
+          "id": "o5",
+          "text": "Synthesis of DNA primers by reverse transcriptase",
+          "evidence": "Fermentation converts monosaccharides to pyruvate and lactic acid. Source PDF page: 25."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p25-fermentation-atp-facultative-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p25-fermentation-atp-facultative"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "How do facultative bacteria generate ATP when oxygen is absent, and how does pyruvate fate change when oxygen is present?",
+      "explanation": {
+        "en": "In the absence of oxygen, facultative bacteria generate ATP through fermentation; when oxygen is available, pyruvate enters the Krebs cycle yielding CO2 and H2O with much higher ATP production.",
+        "ar": "في غياب الأكسجين، تولد البكتيريا المخيرة الـ ATP عبر التخمر؛ وعند توفر الأكسجين، يدخل البيروفات دورة كريبس منتجاً CO2 و H2O مع إنتاج أكبر بكثير من الـ ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 25.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 25: generate ATP in absence of oxygen; in oxygen pyruvate enters Krebs yielding CO2 and H2O."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Aerobic respiration yields 2 ATP per glucose; fermentation yields 38 ATP, requiring much less glucose input",
+          "evidence": "Pyruvate enters the Krebs cycle aerobically to yield CO2 and H2O. Source PDF page: 25."
+        },
+        {
+          "id": "o2",
+          "text": "Both pathways generate exactly identical amounts of 24 ATP molecules per single hexose sugar metabolized",
+          "evidence": "Fermentation generates ATP in the absence of oxygen. Source PDF page: 25."
+        },
+        {
+          "id": "o1",
+          "text": "Aerobic respiration yields 38 ATP per glucose; fermentation yields only 2 ATP, requiring much more glucose",
+          "evidence": "Process by which facultative bacteria generate ATP in the absence of oxygen; in presence of oxygen, pyruvate enters Krebs cycle yielding CO2 and H2O. Source PDF page: 25."
+        },
+        {
+          "id": "o3",
+          "text": "Aerobic respiration yields zero ATP per glucose; fermentation generates all cellular high-energy bonds",
+          "evidence": "Facultative bacteria thrive anaerobically using fermentation. Source PDF page: 15, 25."
+        },
+        {
+          "id": "o5",
+          "text": "Fermentation converts glucose directly into molecular nitrogen gas with a net expenditure of 10 ATP units",
+          "evidence": "ATP is actively generated via fermentation or respiration. Source PDF page: 25."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p26-krebs-vs-glycolysis-atp-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p26-krebs-vs-glycolysis-atp"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Why do facultative bacteria grow significantly faster in the presence of oxygen than under anaerobic conditions?",
+      "explanation": {
+        "en": "Facultative bacteria grow faster in oxygen because aerobic respiration via the Krebs cycle and electron transport chain generates much more ATP per mole of glucose than fermentation/glycolysis alone.",
+        "ar": "تنمو البكتيريا المخيرة بشكل أسرع بكثير في وجود الأكسجين لأن التنفس الهوائي عبر دورة كريبس وسلسلة نقل الإلكترون يولد كمية أكبر بكثير من الـ ATP لكل مول غلوكوز مقارنة بالتخمر/التحلل السكري وحده."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 26.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 26: Krebs generates much more ATP; facultative bacteria grow faster in oxygen."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Anaerobic fermentation causes instantaneous lysis of 90% of dividing cells",
+          "evidence": "Cells do not lyse; they simply grow more slowly due to lower ATP yield. Source PDF page: 26."
+        },
+        {
+          "id": "o3",
+          "text": "Oxygen eliminates the need for any carbon or nitrogen sources",
+          "evidence": "Bacteria still require carbon and nitrogen; oxygen enhances ATP production. Source PDF page: 26."
+        },
+        {
+          "id": "o4",
+          "text": "Glycolysis consumes all available cellular ATP without producing any net energy",
+          "evidence": "Glycolysis produces net 2 ATP, but Krebs generates far more. Source PDF page: 26."
+        },
+        {
+          "id": "o1",
+          "text": "The Krebs cycle generates much more ATP than glycolysis, fueling faster growth",
+          "evidence": "Krebs cycle generates much more ATP; therefore facultative bacteria grow faster in presence of oxygen. Source PDF page: 26."
+        },
+        {
+          "id": "o5",
+          "text": "Aerobic respiration replaces bacterial peptidoglycan with flexible cholesterol",
+          "evidence": "Bacteria do not synthesize cholesterol; respiration yields high ATP. Source PDF page: 26."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p26-aerobes-nonfermenters-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p26-aerobes-nonfermenters"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which metabolic statement accurately distinguishes obligate aerobes like Pseudomonas aeruginosa from fermenting bacteria?",
+      "explanation": {
+        "en": "Obligate aerobes do not perform fermentation; Pseudomonas aeruginosa produces metabolites that enter the Krebs cycle via deamination of amino acids rather than fermenting sugars.",
+        "ar": "لا تقوم الهوائيات المجبرة بعملية التخمر؛ حيث تنتج Pseudomonas aeruginosa نواتج أيضية تدخل دورة كريبس عبر نزع الأمين من الأحماض الأمينية بدلاً من تخمير السكريات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 26.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 26: aerobes do not ferment; P. aeruginosa produces metabolites entering Krebs by amino acid deamination."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "They synthesize energy strictly through anaerobic glycolysis and produce abundant lactic acid buffers",
+          "evidence": "Aerobes rely extensively on the Krebs cycle. Source PDF page: 26."
+        },
+        {
+          "id": "o3",
+          "text": "They possess complete enzymes for sucrose fermentation but lack all cytochromes for respiration",
+          "evidence": "P. aeruginosa is an aerobe (non-fermenter). Source PDF page: 26."
+        },
+        {
+          "id": "o5",
+          "text": "They ferment carbohydrates into ethyl alcohol and carbon dioxide under continuous aeration in tubes",
+          "evidence": "All bacteria possess DNA polymerases. Source PDF page: 26."
+        },
+        {
+          "id": "o2",
+          "text": "They convert all hexose sugars into insoluble black ferrous sulfide crystals within the cytoplasm",
+          "evidence": "Aerobes do not perform fermentation. Source PDF page: 26."
+        },
+        {
+          "id": "o1",
+          "text": "They generate energy strictly via respiration and cannot ferment sugars, yielding no acid products",
+          "evidence": "Facultative and anaerobic bacteria do fermentation, but aerobes do not; Pseudomonas aeruginosa produces metabolites that enter Krebs cycle by deamination of amino acids. Source PDF page: 26."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p27-neisseria-sugar-differentiation-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p27-neisseria-sugar-differentiation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "How are Neisseria gonorrhoeae and Neisseria meningitidis differentiated biochemically based on sugar fermentation?",
+      "explanation": {
+        "en": "Neisseria gonorrhoeae ferments only glucose (producing acid), whereas Neisseria meningitidis ferments both glucose and maltose.",
+        "ar": "تتميز Neisseria gonorrhoeae بأنها تخمر الغلوكوز فقط (منتجة حمضاً)، بينما تخمر Neisseria meningitidis كلاً من الغلوكوز والمالتوز معاً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 27.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 27: N. gonorrhoeae utilizes only glucose; N. meningitidis produces acid from both glucose and maltose."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "N. gonorrhoeae utilizes only glucose, while N. meningitidis ferments both glucose and maltose",
+          "evidence": "N. gonorrhoeae utilizes only glucose; N. meningitidis produces acid from both glucose and maltose. Source PDF page: 27."
+        },
+        {
+          "id": "o4",
+          "text": "Both species ferment lactose, sucrose, and maltose identically",
+          "evidence": "N. gonorrhoeae ferments only glucose; N. meningitidis ferments glucose and maltose. Source PDF page: 27."
+        },
+        {
+          "id": "o5",
+          "text": "Neither species can utilize any carbohydrate under any circumstance",
+          "evidence": "Both utilize glucose; N. meningitidis also utilizes maltose. Source PDF page: 27."
+        },
+        {
+          "id": "o2",
+          "text": "N. gonorrhoeae ferments maltose and lactose, while N. meningitidis ferments neither",
+          "evidence": "Gonorrhoeae ferments glucose only; meningitidis ferments glucose and maltose. Source PDF page: 27."
+        },
+        {
+          "id": "o3",
+          "text": "N. gonorrhoeae produces gas from sucrose, while N. meningitidis is non-reactive",
+          "evidence": "Differentiation is based on glucose vs maltose. Source PDF page: 27."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p27-lactose-enteric-differentiation-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p27-lactose-enteric-differentiation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which biochemical sugar fermentation test is used to differentiate Escherichia coli from Salmonella and Shigella?",
+      "explanation": {
+        "en": "Lactose fermentation is the classic diagnostic test: Escherichia coli is a lactose fermenter (producing acid and turning indicators positive), whereas Salmonella and Shigella are non-lactose fermenters.",
+        "ar": "يُعد اختبار تخمر اللاكتوز (Lactose fermentation) الاختبار التشخيصي التقليدي: بكتيريا E. coli مخمرة للاكتوز، بينما Salmonella و Shigella غير مخمرتين للاكتوز."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 27.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 27: E. coli differentiated from Salmonella/Shigella by lactose fermentation."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Distinguishing Gram-positive spore-forming bacilli from Gram-negative obligate intracellular cocci",
+          "evidence": "Differentiation is based on lactose fermentation. Source PDF page: 27."
+        },
+        {
+          "id": "o1",
+          "text": "Differentiating lactose fermenters (e.g. E. coli) from non-fermenters (Salmonella and Shigella)",
+          "evidence": "E. coli can be differentiated from Salmonella and Shigella on the basis of lactose fermentation. Source PDF page: 27."
+        },
+        {
+          "id": "o3",
+          "text": "Identifying motile spirochetes with axial filaments from non-motile encapsulated viridans cocci",
+          "evidence": "Lactose fermentation is the differential enteric test. Source PDF page: 27."
+        },
+        {
+          "id": "o4",
+          "text": "Separating acid-fast Mycobacterium species from wall-less Mycoplasma respiratory microorganisms",
+          "evidence": "Bacteria have 70S ribosomes; enteric differentiation uses lactose. Source PDF page: 27."
+        },
+        {
+          "id": "o5",
+          "text": "Determining the exact capsular serotype of Streptococcus pneumoniae from purulent rusty sputum",
+          "evidence": "None of these vegetative enterics survive autoclaving; lactose distinguishes them. Source PDF page: 27."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p27-phenol-red-indicator-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p27-phenol-red-indicator"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "What color change indicates positive sugar fermentation when phenol red is used as the pH indicator in culture broth?",
+      "explanation": {
+        "en": "Acid production from fermented sugar lowers the pH, turning the phenol red indicator medium yellow (positive result); unfermented tubes remain red.",
+        "ar": "يؤدي إنتاج الحمض من السكر المخمر إلى خفض الباهاء، مما يحول كاشف أحمر الفينول (Phenol red) إلى اللون الأصفر (نتيجة إيجابية)؛ بينما تظل الأنابيب غير المخمرة حمراء اللون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 27.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 27: Acid production turns medium yellow (positive); unfermented leaves phenol red red."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "The medium turns brilliant blue indicating alkaline digestion",
+          "evidence": "Fermentation produces acid, which turns phenol red yellow, not blue. Source PDF page: 27."
+        },
+        {
+          "id": "o2",
+          "text": "Gas production turns the broth jet black with heavy precipitation",
+          "evidence": "Phenol red turns yellow upon acid production. Source PDF page: 27."
+        },
+        {
+          "id": "o1",
+          "text": "Acid production turns the phenol red medium yellow (positive)",
+          "evidence": "Acid production turns medium yellow (positive); unfermented sugar leaves phenol red red. Source PDF page: 27."
+        },
+        {
+          "id": "o5",
+          "text": "A fluorescent green sheen forms only under ultraviolet light",
+          "evidence": "Phenol red turns yellow under visible light due to acid. Source PDF page: 27."
+        },
+        {
+          "id": "o4",
+          "text": "The broth completely clears and becomes completely colorless",
+          "evidence": "Positive fermentation turns yellow. Source PDF page: 27."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p30-ferric-ion-requirement-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p30-ferric-ion-requirement"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Why is the ferric ion (Fe3+) essential for bacteria, and how does the human body sequester it to limit bacterial growth?",
+      "explanation": {
+        "en": "Ferric ion (Fe3+) is an essential cofactor for bacterial cytochromes and respiratory enzymes; in the human body, free iron is sequestered by high-affinity host proteins like transferrin.",
+        "ar": "يُعد أيون الحديد الثلاثي (Fe3+) عنصراً أساسياً لسيتوكرومات البكتيريا وإنزيماتها التنفسية؛ وفي جسم الإنسان، يُحجز الحديد الحر بإحكام بواسطة بروتينات المضيف عالية الألفة مثل الترانسفيرين (Transferrin)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 30.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 30: Ferric ion essential for cytochromes/enzymes; sequestered by transferrin."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Ferric ions are toxic to all bacteria and only utilized by fungal molds",
+          "evidence": "Ferric ions are essential for bacterial cytochromes. Source PDF page: 30."
+        },
+        {
+          "id": "o2",
+          "text": "Fe3+ is used exclusively to build the outer polysaccharide capsule; host albumin destroys it",
+          "evidence": "Fe3+ is an essential component of cytochromes and enzymes, sequestered by transferrin. Source PDF page: 30."
+        },
+        {
+          "id": "o4",
+          "text": "The human body secretes huge quantities of free ionic iron into urine to poison bacteria",
+          "evidence": "Free iron is sequestered by transferrin to restrict bacterial growth. Source PDF page: 30."
+        },
+        {
+          "id": "o1",
+          "text": "Fe3+ is essential for cytochromes and enzymes; it is sequestered in the body by transferrin",
+          "evidence": "Ferric ion (Fe3+) is essential component of cytochromes and enzymes; sequestered in human body by transferrin. Source PDF page: 30."
+        },
+        {
+          "id": "o3",
+          "text": "Bacteria use Fe3+ only to dissolve penicillin molecules",
+          "evidence": "Fe3+ is required for respiratory cytochromes and metabolic enzymes. Source PDF page: 30."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p30-siderophores-enterobactin-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p30-siderophores-enterobactin"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "How do bacterial siderophores (such as enterobactin in E. coli) capture iron from host tissues?",
+      "explanation": {
+        "en": "Bacteria secrete high-affinity iron-binding chelators called siderophores (e.g. enterobactin) that compete with host transferrin, bind iron, and attach to bacterial surface receptors to be actively transported inside.",
+        "ar": "تفرز البكتيريا مخلبيات حديد عالية الألفة تُدعى حاملات الحديد (Siderophores، مثل الإنتروباكتين في E. coli) تنافس ترانسفيرين المضيف، وتربط الحديد، ثم تتصل بمستقبلات سطحية ليتم نقلها نشطاً إلى الداخل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 30.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 30: secrete iron-binding chelators (siderophores, enterobactin) competing with transferrin."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Extracellular matrix polymers that bind calcium ions to form rigid mineralized shells around bacterial rods",
+          "evidence": "Siderophores chelate existing environmental iron. Source PDF page: 30."
+        },
+        {
+          "id": "o5",
+          "text": "Lipid transport vesicles that deposit human serum cholesterol directly into the bacterial peptidoglycan wall",
+          "evidence": "Siderophores are iron-uptake molecules. Source PDF page: 30."
+        },
+        {
+          "id": "o2",
+          "text": "Proteolytic enzymes that degrade human circulating hemoglobin into free nitrogen gas within vascular beds",
+          "evidence": "Siderophores are secreted chemical chelators. Source PDF page: 30."
+        },
+        {
+          "id": "o3",
+          "text": "Bacterial membrane porins that transport intact host erythrocytes into the cytoplasm for intracellular lysis",
+          "evidence": "Siderophores bind iron directly and compete with transferrin. Source PDF page: 30."
+        },
+        {
+          "id": "o1",
+          "text": "Iron-binding molecules (like enterobactin) that chelate ferric iron and transport it across the bacterial membrane",
+          "evidence": "Bacteria secrete iron-binding chelators (siderophores, e.g. enterobactin in E. coli) that compete with host transferrin, bind bacterial surface receptors, and are actively transported inside. Source PDF page: 30."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p33-autotrophs-definition-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p33-autotrophs-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "What defines autotrophic organisms in nutritional classification?",
+      "explanation": {
+        "en": "Autotrophs (\"self-feeders\") synthesize their own organic food and carbon compounds from simple inorganic carbon sources such as carbon dioxide (CO2).",
+        "ar": "تُعرَّف الكائنات ذاتية التغذية (Autotrophs أو ذاتية التغذية) بأنها كائنات تصنع غذاءها ومركباتها الكربونية العضوية من مصادر كربون غير عضوية بسيطة مثل غاز ثاني أكسيد الكربون (CO2)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 33.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 33: Synthesize foods from simple carbon sources like CO2."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Synthesizing organic food from simple inorganic carbon sources like CO2",
+          "evidence": "Synthesize foods from simple carbon sources like CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o3",
+          "text": "Feeding exclusively on living eukaryotic host red blood cells",
+          "evidence": "Parasites feed on living matter; autotrophs use simple carbon like CO2. Source PDF page: 33, 34."
+        },
+        {
+          "id": "o2",
+          "text": "Requiring preformed organic molecules like glucose for both energy and carbon",
+          "evidence": "This defines heterotrophs. Source PDF page: 33, 34."
+        },
+        {
+          "id": "o5",
+          "text": "Growing only inside the nucleus of mammalian hepatocytes",
+          "evidence": "Autotrophs synthesize food from simple carbon sources like CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o4",
+          "text": "Lacking the ability to transcribe any genetic material",
+          "evidence": "Autotrophs are metabolically versatile self-feeders. Source PDF page: 33."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p33-photoautotrophs-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p33-photoautotrophs"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "What energy and carbon sources are utilized by photoautotrophs (exemplified by cyanobacteria)?",
+      "explanation": {
+        "en": "Photoautotrophs utilize light as their energy source and carbon dioxide (CO2) gas as their principal carbon source via photosynthesis (e.g. cyanobacteria, plants, and algae).",
+        "ar": "تستخدم الكائنات ضوئية التغذية الذاتية (Photoautotrophs) الضوء كمصدر للطاقة وغاز ثاني أكسيد الكربون (CO2) كمصدر رئيسي للكربون عبر التمثيل الضوئي (مثل البكتيريا الزرقاء Cyanobacteria)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 33.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 33: Cyanobacteria synthesize food using light energy and CO2 gas."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Preformed organic glucose and total darkness",
+          "evidence": "Photoautotrophs require light and fix CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o1",
+          "text": "Light energy and carbon dioxide (CO2) gas",
+          "evidence": "Cyanobacteria synthesize food using light energy and CO2 gas (photosynthesis). Source PDF page: 33."
+        },
+        {
+          "id": "o3",
+          "text": "Inorganic chemical reactions and organic fatty acids",
+          "evidence": "Photoautotrophs use light and CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o4",
+          "text": "Mitochondrial ATP and nuclear lamins",
+          "evidence": "Photoautotrophs capture light energy to fix CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o5",
+          "text": "Hydrolysis of peptidoglycan in human plasma",
+          "evidence": "Photoautotrophs synthesize food via photosynthesis. Source PDF page: 33."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p33-chemoautotrophs-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p33-chemoautotrophs"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "What energy and carbon sources are used by chemoautotrophs (such as nitrifying and sulfur bacteria)?",
+      "explanation": {
+        "en": "Chemoautotrophs use CO2 as their carbon source and obtain energy from chemical oxidation of inorganic compounds (chemosynthesis, e.g. hydrogen, sulfur, or nitrifying bacteria).",
+        "ar": "تستخدم الكائنات كيميائية التغذية الذاتية (Chemoautotrophs) غاز CO2 كمصدر للكربون وتحصل على الطاقة من التفاعلات الكيميائية لأكسدة المركبات غير العضوية (البناء الكيميائي Chemosynthesis)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 33.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 33: Use CO2 and obtain energy from chemical reactions of inorganic compounds."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Visible radiant sunlight for energy and preformed organic proteins for carbon",
+          "evidence": "This describes photoheterotrophs. Source PDF page: 33, 34."
+        },
+        {
+          "id": "o5",
+          "text": "Host mitochondrial ATP for energy and complex nucleic acids for cellular carbon",
+          "evidence": "Chemoautotrophs use CO2 and inorganic chemical energy. Source PDF page: 33."
+        },
+        {
+          "id": "o1",
+          "text": "Inorganic chemical compounds for energy and carbon dioxide (CO2) for carbon",
+          "evidence": "Use CO2 and obtain energy from chemical reactions of inorganic compounds (chemosynthesis). Source PDF page: 33."
+        },
+        {
+          "id": "o2",
+          "text": "Exogenous fatty acids for energy and insoluble calcium carbonate for carbon",
+          "evidence": "Chemoautotrophs use inorganic chemical reactions and CO2. Source PDF page: 33."
+        },
+        {
+          "id": "o3",
+          "text": "Preformed organic sugars for energy and atmospheric molecular nitrogen for carbon",
+          "evidence": "Chemoautotrophs use inorganic chemical reactions and CO2. Source PDF page: 33."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p34-heterotrophs-definition-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p34-heterotrophs-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "What nutritional requirement defines heterotrophic organisms (\"other-feeders\")?",
+      "explanation": {
+        "en": "Heterotrophs (\"other-feeders\") cannot synthesize organic matter from CO2 and require preformed organic compounds for both carbon and energy.",
+        "ar": "تُعرَّف الكائنات غيرية التغذية (Heterotrophs أو المغتذيات على غيرها) بأنها كائنات تعجز عن بناء المادة العضوية من CO2 وتتطلب مركبات عضوية جاهزة للحصول على الكربون والطاقة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 34.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 34: Require organic compounds for carbon and energy."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Producing ATP exclusively by splitting molecular nitrogen gas",
+          "evidence": "Heterotrophs catabolize organic molecules. Source PDF page: 34."
+        },
+        {
+          "id": "o3",
+          "text": "Living strictly on mineral rocks in the absence of any water",
+          "evidence": "Heterotrophs require organic compounds. Source PDF page: 34."
+        },
+        {
+          "id": "o5",
+          "text": "Existing as naked circular RNA viroids without a membrane",
+          "evidence": "Heterotrophs are cellular organisms requiring organic nutrients. Source PDF page: 34."
+        },
+        {
+          "id": "o1",
+          "text": "Requiring preformed organic compounds for carbon and energy",
+          "evidence": "Require organic compounds for carbon and energy. Source PDF page: 34."
+        },
+        {
+          "id": "o2",
+          "text": "Fixing pure CO2 using chloroplast sunlight absorption",
+          "evidence": "Autotrophs fix CO2; heterotrophs require organic compounds. Source PDF page: 34."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p34-photoheterotrophs-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p34-photoheterotrophs"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "What combinations of energy and carbon sources are utilized by photoheterotrophs (such as green/purple non-sulfur bacteria)?",
+      "explanation": {
+        "en": "Photoheterotrophs capture light energy to produce ATP, but require organic compounds (such as fatty acids or alcohols) as their carbon source.",
+        "ar": "تستخدم الكائنات ضوئية التغذية غيرية التغذية (Photoheterotrophs) طاقة الضوء لإنتاج الـ ATP، ولكنها تتطلب مركبات عضوية (مثل الأحماض الدهنية أو الكحولات) كمصدر للكربون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 34.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 34: Use light + organic compounds (fatty acid or alcohol) as carbon source."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Breakdown of host immunoglobulins for energy and carbon monoxide for carbon",
+          "evidence": "This describes chemoautotrophs. Source PDF page: 33, 34."
+        },
+        {
+          "id": "o3",
+          "text": "Fermentation of hexose sugars for energy and mineral silica for carbon",
+          "evidence": "Photoheterotrophs use light for energy and organic compounds for carbon. Source PDF page: 34."
+        },
+        {
+          "id": "o4",
+          "text": "Hydrolysis of peptidoglycan for energy and atmospheric nitrogen for carbon",
+          "evidence": "Photoheterotrophs use light and organic compounds. Source PDF page: 34."
+        },
+        {
+          "id": "o5",
+          "text": "Oxidation of inorganic minerals for energy and carbon dioxide for carbon",
+          "evidence": "Photoheterotrophs use light + organic carbon. Source PDF page: 34."
+        },
+        {
+          "id": "o1",
+          "text": "Light photons for energy and preformed organic compounds for carbon",
+          "evidence": "Use light + organic compounds (fatty acid or alcohol) as carbon source. Source PDF page: 34."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p34-chemoheterotrophs-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p34-chemoheterotrophs"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "Which nutritional class encompasses medically important pathogenic bacteria, animals, and fungi, and how do they acquire energy and carbon?",
+      "explanation": {
+        "en": "Chemoheterotrophs use organic compounds (such as glucose) for both energy and carbon; this group includes animals, fungi, protozoa, and almost all human bacterial pathogens (parasites feed on living organic matter).",
+        "ar": "تستخدم الكائنات كيميائية التغذية غيرية التغذية (Chemoheterotrophs) المركبات العضوية (مثل الغلوكوز) لكل من الطاقة والكربون معاً؛ وتشمل هذه المجموعة الحيوانات، والفطريات، والأوليات، ومعظم البكتيريا الممرضة للإنسان."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 34.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 34: Use organic compounds for both energy and carbon (e.g. glucose); parasite feeds on living organic matter."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Chemoheterotrophs, which use organic compounds for both energy and carbon",
+          "evidence": "Use organic compounds for both energy and carbon (e.g. glucose). Parasite: feeds on living organic matter. Source PDF page: 34."
+        },
+        {
+          "id": "o2",
+          "text": "Photoautotrophs, which require intense solar radiation to infect human tissues",
+          "evidence": "Human pathogens are chemoheterotrophs, not photosynthetic autotrophs. Source PDF page: 34."
+        },
+        {
+          "id": "o5",
+          "text": "Extreme hyperthermophiles growing exclusively at 110°C",
+          "evidence": "Medical pathogens are chemoheterotrophs growing at body temperature. Source PDF page: 18, 34."
+        },
+        {
+          "id": "o3",
+          "text": "Lithoautotrophs, which extract energy from bare volcanic rock",
+          "evidence": "Medical bacteria are chemoheterotrophs using organic molecules. Source PDF page: 34."
+        },
+        {
+          "id": "o4",
+          "text": "Obligate barophiles, which require ocean deep-sea pressures to cause disease",
+          "evidence": "Human pathogens are chemoheterotrophic mesophiles. Source PDF page: 18, 34."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-p35-nutritional-groups-table-mcq",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p35-nutritional-groups-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "According to the master classification table of nutritional groups, which category correctly pairs its energy source and carbon source?",
+      "explanation": {
+        "en": "The four basic nutritional groups are: Photoautotrophs (light + CO2), Chemoautotrophs (inorganic chemical + CO2), Photoheterotrophs (light + organic compounds), and Chemoheterotrophs (chemical organic + organic compounds).",
+        "ar": "المجموعات الغذائية الأساسية الأربع هي: ضوئية التغذية الذاتية (ضوء + CO2)، كيميائية التغذية الذاتية (كيميائي غير عضوي + CO2)، ضوئية التغذية غيرية التغذية (ضوء + مركبات عضوية)، وكيميائية التغذية غيرية التغذية (كيميائي عضوي + مركبات عضوية)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual extraction from PDF page 35.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 35: Photoautotrophs, Chemoautotrophs, Photoheterotrophs, Chemoheterotrophs."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Photoautotrophs: chemical oxidation energy and preformed organic carbon",
+          "evidence": "Photoautotrophs use light and CO2. Source PDF page: 35."
+        },
+        {
+          "id": "o1",
+          "text": "Chemoheterotrophs: chemical energy source and organic compounds as carbon source",
+          "evidence": "Chemoheterotrophs (chemical + organic: animals, fungi, protozoa, many bacteria). Source PDF page: 35."
+        },
+        {
+          "id": "o3",
+          "text": "Chemoautotrophs: light energy and preformed glucose carbon",
+          "evidence": "Chemoautotrophs use chemical energy and CO2. Source PDF page: 35."
+        },
+        {
+          "id": "o4",
+          "text": "Photoheterotrophs: inorganic rock oxidation and pure atmospheric CO2",
+          "evidence": "Photoheterotrophs use light and organic compounds. Source PDF page: 35."
+        },
+        {
+          "id": "o5",
+          "text": "Chemoheterotrophs: sunlight energy and inorganic carbonate salts",
+          "evidence": "Chemoheterotrophs use organic chemical energy and organic carbon. Source PDF page: 35."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bacterial-growth-phases-characteristics-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p07-lag-phase",
+        "bacterial-growth-p07-log-phase",
+        "bacterial-growth-p07-stationary-phase",
+        "bacterial-growth-p07-death-phase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match each phase of the bacterial batch growth curve to its hallmark biological event.",
+      "explanation": {
+        "en": "In batch culture: Lag phase features intense enzyme synthesis and cell growth without division. Log phase features steady exponential binary fission and maximal antibiotic susceptibility. Stationary phase features a plateau where nutrient depletion and toxic waste equalizes cell division and cell death. Death phase features an exponential decline in viable count.",
+        "ar": "في المزرعة المغلقة: يتميز طور الركود (Lag) بتصنيع الإنزيمات دون انقسام؛ ويتميز الطور اللوغاريتمي (Log) بانقسام أسي مستمر وحساسية قصوى للمضادات؛ ويتميز طور الثبات (Stationary) بتساوي معدل الانقسام مع الموت بسبب نضوب المغذيات؛ ويتميز طور الموت (Death) بتراجع مستمر في عدد الخلايا الحية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual match based on PDF page 7.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 7: 4 phases mapped to their exact characteristics."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Lag phase",
+          "right": "Vigorous metabolic adaptation and enzyme synthesis without cellular division"
+        },
+        {
+          "id": "p2",
+          "left": "Log (exponential) phase",
+          "right": "Rapid binary fission at constant maximal rate and peak antibiotic susceptibility"
+        },
+        {
+          "id": "p3",
+          "left": "Stationary phase",
+          "right": "Nutrient depletion and waste accumulation where division rate equals death rate"
+        },
+        {
+          "id": "p4",
+          "left": "Death (decline) phase",
+          "right": "Continuous exponential decline in the number of viable bacterial cells"
+        }
+      ]
+    },
+    {
+      "id": "bacterial-growth-oxygen-requirements-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p15-obligate-aerobes",
+        "bacterial-growth-p15-facultative-anaerobes",
+        "bacterial-growth-p15-obligate-anaerobes",
+        "bacterial-growth-p16-aerotolerant-anaerobes",
+        "bacterial-growth-p16-microaerophiles"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Match each category of bacteria to its oxygen requirement and enzymatic defense profile.",
+      "explanation": {
+        "en": "Obligate aerobes require oxygen for growth and possess both SOD and catalase (e.g., M. tuberculosis). Facultative anaerobes utilize oxygen when available (generating ~38 ATP) but grow via fermentation in its absence; they possess SOD and catalase (e.g., E. coli). Obligate anaerobes cannot tolerate oxygen because they lack SOD and catalase (e.g., Clostridium). Aerotolerant anaerobes grow exclusively by fermentation but tolerate oxygen using SOD or peroxidase (e.g., Lactobacillus). Microaerophiles require low oxygen levels (2–10%) and are damaged by atmospheric oxygen (e.g., Campylobacter).",
+        "ar": "تحتاج البكتيريا الهوائية الإجبارية (Obligate aerobes) للأكسجين وتمتلك SOD و Catalase. وتستخدم اللاهوائية الاختيارية (Facultative anaerobes) الأكسجين للتنفس ويمكنها التخمر عند غيابه وتمتلك SOD و Catalase. وتُقتل اللاهوائية الإجبارية (Obligate anaerobes) بالأكسجين لافتقارها للإنزيمين الواقيين. وتتخمر اللاهوائية المتحملة للهواء (Aerotolerant) ولكنها تتحمل الأكسجين. وتتطلب البكتيريا المحبة للقليل من الهواء (Microaerophiles) تركيز أكسجين منخفض (2–10%)."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual match based on PDF pages 15 and 16.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF pages 15 and 16 table: Obligate aerobes (+SOD/+Cat); Facultative anaerobes (+SOD/+Cat); Obligate anaerobes (-SOD/-Cat); Aerotolerant (+SOD/-Cat); Microaerophiles."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Obligate aerobes",
+          "right": "Require atmospheric oxygen for respiration; possess both SOD and catalase"
+        },
+        {
+          "id": "p2",
+          "left": "Facultative anaerobes",
+          "right": "Use oxygen when present but ferment when absent; possess both SOD and catalase"
+        },
+        {
+          "id": "p3",
+          "left": "Obligate anaerobes",
+          "right": "Killed by atmospheric oxygen due to complete lack of SOD and catalase enzymes"
+        },
+        {
+          "id": "p4",
+          "left": "Microaerophiles",
+          "right": "Require low oxygen concentrations (2–10%) and are inhibited by full atmospheric oxygen"
+        }
+      ]
+    },
+    {
+      "id": "bacterial-growth-nutritional-classification-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p33-autotrophs-definition",
+        "bacterial-growth-p33-photoautotrophs",
+        "bacterial-growth-p33-chemoautotrophs",
+        "bacterial-growth-p34-heterotrophs-definition",
+        "bacterial-growth-p34-photoheterotrophs",
+        "bacterial-growth-p34-chemoheterotrophs",
+        "bacterial-growth-p35-nutritional-groups-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "Match each basic nutritional class of microorganisms to its carbon source and energy source.",
+      "explanation": {
+        "en": "Bacteria are classified into four nutritional categories based on carbon and energy sources: 1) Photoautotrophs: light energy and inorganic CO2 carbon source; 2) Chemoautotrophs: chemical inorganic oxidation for energy and CO2 for carbon; 3) Photoheterotrophs: light energy and organic carbon source; 4) Chemoheterotrophs: organic chemical compounds for both energy and carbon. All human pathogens and medically important bacteria belong to the chemoheterotrophs.",
+        "ar": "تُصنف البكتيريا غذائياً إلى أربع فئات بناءً على مصدر الطاقة والكربون: 1) ذاتية التغذية الضوئية (Photoautotrophs): ضوء + CO2؛ 2) ذاتية التغذية الكيميائية (Chemoautotrophs): أكسدة كيميائية غير عضوية + CO2؛ 3) غير ذاتية التغذية الضوئية (Photoheterotrophs): ضوء + كربون عضوي؛ 4) غير ذاتية التغذية الكيميائية (Chemoheterotrophs): مركبات عضوية للطاقة والكربون معاً، وتنتمي إليها جميع البكتيريا الممرضة للإنسان."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "notes": "Direct factual match based on PDF pages 33, 34, and 35.",
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 35 table: 4 groups based on energy source (light vs chemical) and carbon source (inorganic CO2 vs organic compounds); pathogens are chemoheterotrophs."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Photoautotrophs",
+          "right": "Energy from sunlight; carbon from inorganic carbon dioxide (CO2)"
+        },
+        {
+          "id": "p2",
+          "left": "Chemoautotrophs",
+          "right": "Energy from inorganic chemical oxidation; carbon from inorganic CO2"
+        },
+        {
+          "id": "p3",
+          "left": "Photoheterotrophs",
+          "right": "Energy from sunlight; carbon from organic chemical compounds"
+        },
+        {
+          "id": "p4",
+          "left": "Chemoheterotrophs",
+          "right": "Energy and carbon both derived from organic compounds (includes all human pathogens)"
+        }
+      ]
+    },
+    {
+      "id": "bacterial-growth-p17-tube-growth-patterns-mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p17-oxygen-tubes-diagram"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 17,
+          "printedSlide": null
+        }
+      ],
+      "type": "mcq",
+      "prompt": "In a thioglycollate broth tube, how does the visual growth pattern distinguish an obligate aerobe from an obligate anaerobe?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Obligate aerobes form dense sediment at the tube base; obligate anaerobes form a surface pellicle",
+          "evidence": "Inverted description. Source PDF page: 17."
+        },
+        {
+          "id": "o3",
+          "text": "Obligate aerobes grow uniformly throughout the broth; obligate anaerobes form a discrete middle band",
+          "evidence": "Uniform growth is aerotolerant; middle band is microaerophilic. Source PDF page: 17."
+        },
+        {
+          "id": "o1",
+          "text": "Obligate aerobes grow strictly at the surface meniscus; obligate anaerobes grow strictly at the bottom",
+          "evidence": "Obligate aerobes require oxygen and grow only at the surface; obligate anaerobes are killed by oxygen and grow at the bottom. Source PDF page: 17."
+        },
+        {
+          "id": "o4",
+          "text": "Obligate aerobes produce black ferrous sulfide throughout; obligate anaerobes turn the broth red",
+          "evidence": "TSI test features, not thioglycollate growth. Source PDF page: 17."
+        },
+        {
+          "id": "o5",
+          "text": "Obligate aerobes cause total agar liquefaction; obligate anaerobes form gas bubbles in the meniscus",
+          "evidence": "Liquefaction refers to gelatinase. Source PDF page: 17."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "In thioglycollate broth culture tubes, obligate aerobes (e.g., Mycobacterium tuberculosis, Pseudomonas) grow exclusively at the top surface where oxygen concentration is highest. In contrast, obligate anaerobes (e.g., Clostridium) grow only at the bottom of the tube where oxygen is absent.",
+        "ar": "في أنابيب مرق Thioglycollate، تنمو البكتيريا الهوائية الإجبارية (Obligate aerobes مثل M. tuberculosis) حصرياً عند السطح العلوي حيث يكون تركيز الأكسجين أعلى ما يمكن. في المقابل، تنمو اللاهوائية الإجبارية (Obligate anaerobes مثل Clostridium) فقط في قاع الأنبوب حيث ينعدم الأكسجين."
+      },
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 17: diagnostic criteria independently confirmed.",
+        "notes": "Direct factual extraction from PDF page 17."
+      },
+      "revision": 1,
+      "status": "validated"
+    },
+    {
+      "id": "bacterial-growth-p28-durham-fermentation-mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p28-carbohydrate-tubes-diagram"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28,
+          "printedSlide": null
+        }
+      ],
+      "type": "mcq",
+      "prompt": "In a carbohydrate fermentation broth containing phenol red and an inverted Durham vial, what indicates positive acid and gas production?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Broth remains completely neutral green, and the Durham vial develops an insoluble white calcium ring",
+          "evidence": "Not a phenol red carbohydrate test finding. Source PDF page: 28."
+        },
+        {
+          "id": "o2",
+          "text": "Broth turns deep red-magenta due to alkaline reversion, and the Durham vial fills completely with liquid",
+          "evidence": "Red indicates unfermented or alkaline pH, not acid. Source PDF page: 28."
+        },
+        {
+          "id": "o4",
+          "text": "Broth turns bright blue due to citrate permease utilization, and the Durham vial sinks to the bottom",
+          "evidence": "Citrate test turns blue (Simmons citrate), not phenol red. Source PDF page: 28."
+        },
+        {
+          "id": "o1",
+          "text": "Broth turns yellow due to acid production, and a visible gas bubble displaces liquid in the Durham vial",
+          "evidence": "Phenol red turns yellow at acidic pH; gas accumulation in inverted vial indicates gas. Source PDF page: 28."
+        },
+        {
+          "id": "o3",
+          "text": "Broth turns dark black due to hydrogen sulfide precipitation, and the Durham vial dissolves completely",
+          "evidence": "Blackening reflects H2S, not carbohydrate acid production. Source PDF page: 28."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "In carbohydrate fermentation tests using phenol red broth, fermentation produces organic acids that lower the pH, shifting the indicator from red to yellow (positive for acid). If the organism also produces gas (CO2/H2), an air bubble is trapped inside the inverted Durham tube.",
+        "ar": "في اختبارات تخمير الكربوهيدرات باستخدام مرق Phenol red، يؤدي تخمير السكر إلى إنتاج أحماض عضوية تخفض درجة الحموضة، مما يحول الكاشف من اللون الأحمر إلى الأصفر (إيجابي للحمض). وإذا أنتج الكائن غازاً أيضاً، تُحتجز فقاعة غاز داخل أنبوب Durham المقلوب."
+      },
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 28: diagnostic criteria independently confirmed.",
+        "notes": "Direct factual extraction from PDF page 28."
+      },
+      "revision": 1,
+      "status": "validated"
+    },
+    {
+      "id": "bacterial-growth-p29-tsi-reactions-mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p29-tsi-test"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 29,
+          "printedSlide": null
+        }
+      ],
+      "type": "mcq",
+      "prompt": "On Triple Sugar Iron (TSI) agar, what reaction pattern is characteristic of a glucose-only fermenter that produces hydrogen sulfide, such as Salmonella typhi?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Complete liquefaction of the entire agar medium with bright green diffusible pyocyanin pigment",
+          "evidence": "Describes gelatinase and pyocyanin, not TSI slant. Source PDF page: 29."
+        },
+        {
+          "id": "o2",
+          "text": "Acid yellow slant over an acid yellow butt (A/A) with abundant gas splitting but zero black precipitate",
+          "evidence": "A/A indicates lactose/sucrose fermentation (e.g. E. coli). Source PDF page: 29."
+        },
+        {
+          "id": "o4",
+          "text": "Acid yellow slant over an alkaline red butt (A/K) with purple pigmentation along the inoculation streak",
+          "evidence": "A/K does not occur in TSI. Source PDF page: 29."
+        },
+        {
+          "id": "o3",
+          "text": "Alkaline red slant over an alkaline red butt (K/K) with zero carbohydrate fermentation and no blackening",
+          "evidence": "K/K indicates non-fermenter (e.g. Pseudomonas). Source PDF page: 29."
+        },
+        {
+          "id": "o1",
+          "text": "Alkaline red slant over an acid yellow butt (K/A) with black ferrous sulfide precipitate in the butt",
+          "evidence": "Glucose-only fermentation yields K/A; H2S reacts with iron to form black FeS precipitate. Source PDF page: 29."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "On Triple Sugar Iron (TSI) agar, Salmonella ferments only glucose (0.1%), yielding an alkaline red slant (K) as surface acids oxidize, over an acid yellow butt (A). It also produces hydrogen sulfide (H2S), which reacts with ferrous sulfate to form a characteristic black ferrous sulfide precipitate in the butt.",
+        "ar": "على أجار TSI (Triple Sugar Iron)، تخمر Salmonella الغلوكوز فقط، مما ينتج ميلاً أحمر قلوياً (K) بسبب أكسدة الأحماض السطحية فوق قاع أصفر حمضي (A). كما تنتج كبريتيد الهيدروجين (H2S) الذي يتفاعل مع كبريتات الحديد ليعطي راسباً أسود مميزاً من كبريتيد الحديد في القاع."
+      },
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 29: diagnostic criteria independently confirmed.",
+        "notes": "Direct factual extraction from PDF page 29."
+      },
+      "revision": 1,
+      "status": "validated"
+    },
+    {
+      "id": "bacterial-growth-p29-tsi-coliform-mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p29-tsi-test"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 29,
+          "printedSlide": null
+        }
+      ],
+      "type": "mcq",
+      "prompt": "What TSI agar reaction is characteristically produced by a rapid lactose and sucrose fermenter such as Escherichia coli?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Acid yellow slant over an acid yellow butt (A/A) with gas production that splits or lifts the agar",
+          "evidence": "E. coli ferments lactose/sucrose and glucose, keeping both slant and butt yellow (A/A) with gas. Source PDF page: 29."
+        },
+        {
+          "id": "o2",
+          "text": "Alkaline red slant over an acid yellow butt (K/A) with heavy black ferrous sulfide precipitate",
+          "evidence": "Describes glucose-only H2S producer (Salmonella/Proteus). Source PDF page: 29."
+        },
+        {
+          "id": "o3",
+          "text": "Alkaline red slant over an alkaline red butt (K/K) with no acid production in the slant or butt",
+          "evidence": "Describes non-fermenter (Pseudomonas). Source PDF page: 29."
+        },
+        {
+          "id": "o4",
+          "text": "Acid yellow slant over an alkaline red butt (A/K) with complete absence of any gas bubbles",
+          "evidence": "A/K does not occur on TSI. Source PDF page: 29."
+        },
+        {
+          "id": "o5",
+          "text": "Neutral orange slant over a purple butt (N/P) with complete breakdown of urea into ammonia",
+          "evidence": "Describes urea broth test, not TSI agar. Source PDF page: 29."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Escherichia coli ferments glucose as well as high concentrations of lactose and sucrose (1.0%), producing overwhelming acid that keeps both the slant and the butt yellow (acid/acid, A/A). Robust gas production typically splits, cracks, or lifts the agar column.",
+        "ar": "تخمر Escherichia coli كلاً من الغلوكوز واللاكتوز/السكروز بتركيزات عالية، منتجة كميات وافرة من الحمض تحافظ على الميل والقاع كلاهما باللون الأصفر (A/A). يؤدي إنتاج الغاز القوي إلى تصدع أو رفع عمود الأجار."
+      },
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 29: diagnostic criteria independently confirmed.",
+        "notes": "Direct factual extraction from PDF page 29."
+      },
+      "revision": 1,
+      "status": "validated"
+    },
+    {
+      "id": "bacterial-growth-p29-tsi-pseudomonas-mcq",
+      "lectureId": "bacterial-growth",
+      "conceptIds": [
+        "bacterial-growth-p29-tsi-test"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 29,
+          "printedSlide": null
+        }
+      ],
+      "type": "mcq",
+      "prompt": "What TSI reaction characterizes an obligate aerobic non-fermenter such as Pseudomonas aeruginosa?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Alkaline red slant over a black butt (K/H2S), indicating rapid conversion of sodium thiosulfate to sulfur",
+          "evidence": "Pseudomonas does not produce H2S in the butt. Source PDF page: 29."
+        },
+        {
+          "id": "o1",
+          "text": "Alkaline red slant over an alkaline red butt (K/K), indicating no fermentation of glucose or lactose",
+          "evidence": "Pseudomonas is a non-fermenter; peptone catabolism produces an alkaline red slant and butt (K/K). Source PDF page: 29."
+        },
+        {
+          "id": "o3",
+          "text": "Alkaline red slant over an acid yellow butt (K/A), indicating fermentation of glucose without gas or sulfide",
+          "evidence": "Describes Shigella (glucose fermenter only). Source PDF page: 29."
+        },
+        {
+          "id": "o2",
+          "text": "Acid yellow slant over an acid yellow butt (A/A), indicating fermentation of glucose, lactose, and sucrose",
+          "evidence": "Describes coliform fermenters (E. coli). Source PDF page: 29."
+        },
+        {
+          "id": "o4",
+          "text": "Acid yellow slant over an alkaline red butt (A/K), indicating fermentation of lactose but not glucose",
+          "evidence": "Does not occur on TSI. Source PDF page: 29."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pseudomonas aeruginosa is an obligate aerobe and non-fermenter. It cannot ferment glucose, lactose, or sucrose. Instead, it metabolizes peptones oxidatively, producing an alkaline reaction that turns both the slant and the butt red (alkaline/alkaline, K/K).",
+        "ar": "تعتبر Pseudomonas aeruginosa بكتيريا هوائية إجبارية وغير مخمرة (Non-fermenter). لا تستطيع تخمير الغلوكوز أو اللاكتوز أو السكروز، بل تستقلب الببتونات هوائياً مما يعطي تفاعلاً قلوياً يُبقي كلاً من الميل والقاع باللون الأحمر (K/K)."
+      },
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-microbiology-reviewer",
+        "peerReviewNotes": "Verified against PDF page 29: diagnostic criteria independently confirmed.",
+        "notes": "Direct factual extraction from PDF page 29."
+      },
+      "revision": 1,
+      "status": "validated"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# General Microbiology midterm — confirmed continuation
+
+The user's five supplied PDFs are the sole teaching authority. All five are included in lecture order: Bacteria and Other Microorganisms, Bacterial Genetics, Bacterial Growth, Normal Flora, Bacterial Pathogenesis. Preserve originals and exact one-based PDF references. Covers/administrative pages remain indexed but are not assessed.
+
+The user likes the final Molecular Biology bank's depth and wording and requests the same approach. The reference bank has 694 validated activities, including 601 five-option MCQs. This is a style and coverage reference, not a quota to copy regardless of this subject's content. New variants must assess different facts, discriminations, conditions, mechanisms or applications; no wording-only inflation. Questions are direct, self-contained English, with English/Arabic explanations retaining English scientific terms. Distractors are plausible and parallel, with evidence for why each is incorrect in the question's conditions. Retain automatically scored no-typing concept drills where the sources support them.
+
+The user specifically reduces emphasis on broad organism–disease memorization tables in the first lecture. Some later tables are explicitly described as material to learn over subsequent years. Preserve those tables faithfully for reference, record their pages and assessment policy, and defer direct row/association testing. This does not exclude surrounding mechanisms or all tables indiscriminately. An explicitly required table receives a separate recorded decision. Unclear or contradictory claims stay visible and do not determine scored answers.
+
+Latest release direction (2026-11-08): publish these questions as the first addition toward version 1.2 and include them in the existing chronological What's New/Updates page. More 1.2 work is planned; do not describe this subject addition as the completed full 1.2 release. Preserve the existing 1.0 and 1.1 history. The initial local-only interpretation was superseded by this instruction.
+
+Finish with a handoff documenting the process from original PDFs through extraction, indexing, table decisions, uncertainty handling, question authoring, independent review, coverage validation, integration and verified deployment. Explain the question-writing rules and any remaining limits. Do not reopen completed platform discovery or request approval already given for this publication.
+
+Existing platform behavior remains applicable: instant checking by default with confirmation available in Settings; student-selected exams and optional timers; local subject/scope progress and compatible backups; saved questions and resumable practice. Keep Microbiology and Molecular Biology history separate.

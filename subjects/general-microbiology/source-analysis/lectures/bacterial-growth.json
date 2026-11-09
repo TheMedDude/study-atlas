@@ -1,0 +1,893 @@
+{
+  "lectureId": "bacterial-growth",
+  "title": "Bacterial Growth",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bacterial Growth cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Growth cycle and binary fission",
+      "topics": [
+        "Growth cycle and binary fission"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p02-binary-fission",
+          "label": "Reproduction by binary fission",
+          "detail": "Bacteria reproduce by binary fission; two identical cells are formed; undergo exponential growth.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Binary fission schematic",
+      "topics": [
+        "Binary fission schematic"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p03-binary-fission-diagram",
+          "label": "Binary fission stages schematic",
+          "detail": "Elongation & replication -> wall/membrane constrict -> cross-wall separates copies -> cells separate.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Generation time definition and factors",
+      "topics": [
+        "Generation time definition and factors"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p04-generation-time-definition",
+          "label": "Generation time or doubling time",
+          "detail": "Interval of time between successive binary fission of a cell or population.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p04-generation-time-extremes",
+          "label": "Generation time range in bacteria",
+          "detail": "E. coli 20 minutes; Mycobacterium tuberculosis up to 18 hours.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p04-generation-time-factors",
+          "label": "Factors affecting doubling time",
+          "detail": "Species, nutrients, temperature, pH.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Theoretical bacterial population calculation",
+      "topics": [
+        "Theoretical bacterial population calculation"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p05-theoretical-population",
+          "label": "Exponential population growth calculation",
+          "detail": "Theoretical final bacterial population after 24 hours replication: 4.72 x 10^21.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 19.1 Generation times under optimum conditions",
+      "topics": [
+        "Table 19.1 Generation times under optimum conditions"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p06-generation-time-table",
+          "label": "Generation time optimum table",
+          "detail": "Generation times: B. thermophilus (1.3 min), E. coli (20 min), B. subtilis (27 min), S. lactis (30 min), L. acidophilus (66-87 min), M. tuberculosis (792-932 min), T. pallidum (1980 min).",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial growth curve four phases",
+      "topics": [
+        "Bacterial growth curve four phases"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p07-lag-phase",
+          "label": "Lag phase vigorous metabolism without division",
+          "detail": "Vigorous metabolic activity occurs but cells do not divide.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p07-log-phase",
+          "label": "Log / exponential phase rapid division and drug susceptibility",
+          "detail": "Rapid cell division occurs; high metabolic rate which is the potential drug acting phase.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p07-stationary-phase",
+          "label": "Stationary phase nutrient depletion",
+          "detail": "Occurs when nutrient depletion or toxic products cause growth to slow.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p07-death-phase",
+          "label": "Death / decline phase",
+          "detail": "Marked by a decline in the number of viable bacteria.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Growth curve diagram",
+      "topics": [
+        "Growth curve diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p08-growth-curve-plot",
+          "label": "Growth curve plot",
+          "detail": "Plot of log numbers of bacteria vs time showing lag, log, stationary, and death phases.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Plot checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Viable count tube diagram",
+      "topics": [
+        "Viable count tube diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p09-viable-tubes-diagram",
+          "label": "Viable cell population tube schematic",
+          "detail": "Live cells vs dead cells across the growth curve.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Food to mass ratio curve",
+      "topics": [
+        "Food to mass ratio curve"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p10-food-mass-curve",
+          "label": "Food to mass ratio curve",
+          "detail": "Food curve decreases as bacterial mass curve increases.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemostat continuous culture",
+      "topics": [
+        "Chemostat continuous culture"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p11-chemostat-function",
+          "label": "Chemostat continuous culture apparatus",
+          "detail": "Apparatus into which fresh nutrients are added and waste products removed continuously, maintaining bacteria in log phase.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemostat apparatus diagram",
+      "topics": [
+        "Chemostat apparatus diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p12-chemostat-diagram",
+          "label": "Chemostat apparatus schematic",
+          "detail": "Reservoir, inflow of media, chemostat vessel, effluent tubing, outflow of media and cells.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Prepared culture media and obligate intracellular bacteria",
+      "topics": [
+        "Prepared culture media and obligate intracellular bacteria"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p13-prepared-media",
+          "label": "Components of prepared bacteriological media",
+          "detail": "Purified chemicals (sugars, amino acids, salts) and blood for nutritional purposes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p13-obligate-intracellular-energy",
+          "label": "Obligate intracellular bacteria lack ATP",
+          "detail": "Chlamydia, Rickettsia, Ehrlichia, Anaplasma must grow within living cells because they lack ability to produce sufficient ATP.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Aerobic and anaerobic growth: Toxic oxygen products and enzymes",
+      "topics": [
+        "Aerobic and anaerobic growth: Toxic oxygen products and enzymes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p14-oxygen-terminal-acceptor",
+          "label": "Oxygen as terminal hydrogen acceptor",
+          "detail": "Oxygen acts as hydrogen acceptor in final energy production steps catalyzed by flavoproteins and cytochromes.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p14-reactive-oxygen-species",
+          "label": "Toxic oxygen molecules H2O2 and superoxide",
+          "detail": "Hydrogen peroxide (H2O2) and free radical superoxide (O2-).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p14-sod-reaction",
+          "label": "Superoxide dismutase reaction",
+          "detail": "2O2- + 2H+ -> H2O2 + O2 catalyzed by superoxide dismutase.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p14-catalase-reaction",
+          "label": "Catalase reaction",
+          "detail": "2H2O2 -> 2H2O + O2 catalyzed by catalase.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bacterial classification by oxygen response",
+      "topics": [
+        "Bacterial classification by oxygen response"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p15-obligate-aerobes",
+          "label": "Obligate aerobes requirement",
+          "detail": "Require oxygen to grow; example: M. tuberculosis.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p15-facultative-anaerobes",
+          "label": "Facultative anaerobes respiration or fermentation",
+          "detail": "Utilize oxygen if present to generate energy by respiration, but can use fermentation pathway in absence of oxygen; example: E. coli.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p15-obligate-anaerobes",
+          "label": "Obligate anaerobes lack SOD or catalase",
+          "detail": "Cannot grow in presence of oxygen because they lack superoxide dismutase, catalase, or both; example: Clostridium tetani.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Table 6.1 Oxygen effect on growth and enzyme content",
+      "topics": [
+        "Table 6.1 Oxygen effect on growth and enzyme content"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p16-oxygen-table-growth-pattern",
+          "label": "Oxygen effect and growth pattern table",
+          "detail": "Table comparing obligate aerobes, facultative anaerobes, obligate anaerobes, aerotolerant anaerobes, microaerophiles in solid medium tubes.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        },
+        {
+          "id": "bacterial-growth-p16-aerotolerant-anaerobes",
+          "label": "Aerotolerant anaerobes growth pattern",
+          "detail": "Only anaerobic growth, but continues in presence of oxygen; growth occurs evenly throughout tube; contains SOD allowing toxic forms to be partially neutralized.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p16-microaerophiles",
+          "label": "Microaerophiles oxygen requirement",
+          "detail": "Only aerobic growth; required in low concentration; growth occurs only where low concentration has diffused.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table 6.1 reviewed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Oxygen concentration test tube diagram",
+      "topics": [
+        "Oxygen concentration test tube diagram"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p17-oxygen-tubes-diagram",
+          "label": "Oxygen tube growth visual patterns",
+          "detail": "Visual patterns: (a) Obligate aerobes top only; (b) Obligate anaerobes bottom only; (c) Facultative anaerobes throughout, best at top; (d) Aerotolerant anaerobes even throughout.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Temperature effect on bacterial growth",
+      "topics": [
+        "Temperature effect on bacterial growth"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p18-temperature-classes",
+          "label": "Five temperature growth classes",
+          "detail": "Psychrophiles (-10 to 20°C), Psychrotrophs (0 to 30°C), Mesophiles (10 to 50°C), Thermophiles (40 to 72°C), Hyperthermophiles (65 to 110°C).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Curve checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Effect of pH on bacterial growth (1)",
+      "topics": [
+        "Effect of pH on bacterial growth (1)"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p19-ph-classes",
+          "label": "Acidophiles, neutrophiles, and alkaliphiles",
+          "detail": "Curves showing relative growth rate for Acidophiles (peak ~3), Neutrophiles (peak ~7), Alkaliphiles (peak ~9).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Effect of pH on bacterial growth (2)",
+      "topics": [
+        "Effect of pH on bacterial growth (2)"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p20-ph-ideal-range",
+          "label": "Ideal bacterial pH range",
+          "detail": "Ideal range pH 6 to 9; death at extreme low or high pH; fungi grow at lower pH.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Halophilic and osmophilic bacteria",
+      "topics": [
+        "Halophilic and osmophilic bacteria"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p21-halophilic",
+          "label": "Halophilic bacteria",
+          "detail": "Organisms requiring high salt concentrations.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p21-osmophilic",
+          "label": "Osmophilic bacteria",
+          "detail": "Organisms requiring high osmotic pressure.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Metabolism: Catabolism and anabolism",
+      "topics": [
+        "Metabolism: Catabolism and anabolism"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p22-metabolism-definition",
+          "label": "Metabolism definition",
+          "detail": "Metabolism (Greek metabole, change) is the totality of chemical processes to maintain life, sum of Catabolism and Anabolism.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Overview of metabolism pathways",
+      "topics": [
+        "Overview of metabolism pathways"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p23-metabolism-overview-diagram",
+          "label": "Central metabolic pathways diagram",
+          "detail": "Sugars, fats, pyruvate, acetyl-CoA, Krebs cycle.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fermentation products overview",
+      "topics": [
+        "Fermentation products overview"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p24-fermentation-products-chart",
+          "label": "Fermentation products from pyruvic acid",
+          "detail": "Clostridium (butyric acid, butyl alcohol, acetone, isopropyl alcohol), E. coli (acetic, lactic, succinic, ethanol), Enterobacter (formic, ethanol, 2,3-butanediol), Streptococcus/Lactobacillus/Bacillus (lactic acid), Propionibacterium (propionic acid, acetic acid), Yeasts (ethanol, CO2).",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chart checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fermentation of sugars: Mechanism and ATP",
+      "topics": [
+        "Fermentation of sugars: Mechanism and ATP"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p25-fermentation-mechanism",
+          "label": "Fermentation breakdown of monosaccharide",
+          "detail": "Breakdown of monosaccharide sugar (glucose or maltose) to pyruvic acid and then lactic acid.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p25-fermentation-atp-facultative",
+          "label": "ATP generation in absence of oxygen",
+          "detail": "Process by which facultative bacteria generate ATP in the absence of oxygen; in presence of oxygen, pyruvate enters Krebs cycle yielding CO2 and H2O.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Krebs cycle ATP yield and aerobic non-fermenters",
+      "topics": [
+        "Krebs cycle ATP yield and aerobic non-fermenters"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p26-krebs-vs-glycolysis-atp",
+          "label": "Krebs cycle generates more ATP than glycolysis",
+          "detail": "Krebs cycle generates much more ATP; therefore facultative bacteria grow faster in presence of oxygen.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p26-aerobes-nonfermenters",
+          "label": "Aerobes do not perform fermentation",
+          "detail": "Facultative and anaerobic bacteria do fermentation, but aerobes do not; Pseudomonas aeruginosa produces metabolites that enter Krebs cycle by deamination of amino acids.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Sugar fermentation in bacterial identification",
+      "topics": [
+        "Sugar fermentation in bacterial identification"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p27-neisseria-sugar-differentiation",
+          "label": "Neisseria species sugar fermentation differentiation",
+          "detail": "N. gonorrhoeae utilizes only glucose; N. meningitidis produces acid from both glucose and maltose.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p27-lactose-enteric-differentiation",
+          "label": "Lactose fermentation differentiates E. coli from Salmonella/Shigella",
+          "detail": "E. coli can be differentiated from Salmonella and Shigella on the basis of lactose fermentation.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p27-phenol-red-indicator",
+          "label": "Phenol red pH indicator in fermentation tests",
+          "detail": "Acid production turns medium yellow (positive); unfermented sugar leaves phenol red red.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Carbohydrate fermentation tubes",
+      "topics": [
+        "Carbohydrate fermentation tubes"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p28-carbohydrate-tubes-diagram",
+          "label": "Fermentation tube colors",
+          "detail": "Yellow tube (acid), yellow with gas bubble, red control tube.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Photographs checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Triple Sugar Iron (TSI) test",
+      "topics": [
+        "Triple Sugar Iron (TSI) test"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p29-tsi-test",
+          "label": "Triple Sugar Iron (TSI) differential test",
+          "detail": "Application of sugar fermentation as differential biochemical test.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "TSI tubes checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Iron metabolism: Ferric ion and siderophores",
+      "topics": [
+        "Iron metabolism: Ferric ion and siderophores"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p30-ferric-ion-requirement",
+          "label": "Ferric ion requirement in cytochromes",
+          "detail": "Ferric ion (Fe3+) is essential component of cytochromes and enzymes; sequestered in human body by transferrin.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p30-siderophores-enterobactin",
+          "label": "Siderophores and enterobactin mechanism",
+          "detail": "Bacteria secrete iron-binding chelators (siderophores, e.g. enterobactin in E. coli) that compete with host transferrin, bind bacterial surface receptors, and are actively transported inside.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Siderophore-dependent iron uptake schematic",
+      "topics": [
+        "Siderophore-dependent iron uptake schematic"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p31-siderophore-uptake-diagram",
+          "label": "Siderophore surface receptor uptake diagram",
+          "detail": "Biosynthesis -> export -> Fe3+-siderophore complex -> uptake by high-affinity surface receptor (green) -> translocation -> release.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Classification by nutritional requirement flowchart",
+      "topics": [
+        "Classification by nutritional requirement flowchart"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p32-nutritional-flowchart",
+          "label": "Carbon and energy source classification flowchart",
+          "detail": "Carbon source: Heterotrophs vs Autotrophs; Energy source: Chemotrophs vs Phototrophs.",
+          "priority": "supporting",
+          "rationale": "Illustrative or reference detail preserved fully; lower assessment priority, with any direct-question deferral stated separately."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Flowchart checked.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energy sources: Autotrophs",
+      "topics": [
+        "Energy sources: Autotrophs"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p33-autotrophs-definition",
+          "label": "Autotrophs synthesize food from simple carbon sources",
+          "detail": "Synthesize foods from simple carbon sources like CO2.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p33-photoautotrophs",
+          "label": "Photoautotrophs",
+          "detail": "Cyanobacteria synthesize food using light energy and CO2 gas (photosynthesis).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p33-chemoautotrophs",
+          "label": "Chemoautotrophs",
+          "detail": "Use CO2 and obtain energy from chemical reactions of inorganic compounds (chemosynthesis).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energy sources: Heterotrophs",
+      "topics": [
+        "Energy sources: Heterotrophs"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p34-heterotrophs-definition",
+          "label": "Heterotrophs (other-feeders)",
+          "detail": "Require organic compounds for carbon and energy.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p34-photoheterotrophs",
+          "label": "Photoheterotrophs",
+          "detail": "Use light + organic compounds (fatty acid or alcohol) as carbon source.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        },
+        {
+          "id": "bacterial-growth-p34-chemoheterotrophs",
+          "label": "Chemoheterotrophs",
+          "detail": "Use organic compounds for both energy and carbon (e.g. glucose). Parasite: feeds on living organic matter.",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Text, emphasis and layout visually checked; no additional relationship inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Four basic nutritional groups comparison table",
+      "topics": [
+        "Four basic nutritional groups comparison table"
+      ],
+      "concepts": [
+        {
+          "id": "bacterial-growth-p35-nutritional-groups-table",
+          "label": "Four basic groups based on carbon and energy sources",
+          "detail": "Photoautotrophs (light + CO2: plants, algae, cyanobacteria), Chemoautotrophs (chemical + CO2: hydrogen, sulfur, nitrifying bacteria), Photoheterotrophs (light + organic: green/purple nonsulfur bacteria), Chemoheterotrophs (chemical + organic: animals, fungi, protozoa, many bacteria; aerobic/anaerobic respiration, fermentation).",
+          "priority": "core",
+          "rationale": "Explicit definition, distinction, process, or causal relationship taught in this lecture."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table checked.",
+      "uncertainties": []
+    }
+  ],
+  "tablePolicies": []
+}
