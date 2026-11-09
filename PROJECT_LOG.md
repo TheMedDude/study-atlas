@@ -238,6 +238,31 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check`: passed with 0 errors.
   - `npm test`: all 58 unit and integration tests passed.
 
+## 2026-11-09 — Release 1.2.1: Memorize Room Visual & Ergonomic Overhaul
+
+- **Bacterial Pathogen Command Center (`/memorize` Organisms Tab)**:
+  - Eliminated the dense single-column "newspaper" layout in favor of a dual-mode medical workspace:
+    - **Master-Detail Clinical Console**: Sticky left directory with categorized pathogen list showing authentic Gram-stain badges (Crystal Violet `G+`, Safranin `G-`, Carbolfuchsin `AFB`), Latin names, and instant 2-line diagnostic signatures. Right pane houses the executive clinical dossier with zero plain bullet dumps.
+    - **Flashcard Matrix Grid**: 2/3-column responsive card matrix for rapid side-by-side scanning, each with diagnostic signatures, key virulence weapon, and top clinical disease.
+  - **Visual TSI Reaction Tube Widget**: Realistic glass tube graphic rendering exact Triple Sugar Iron agar slant/butt color reactions (yellow acid vs red alkaline), black ferrous sulfide (H2S) precipitation, and fermentation gas bubbles for enteric pathogens (*E. coli*, *Salmonella*, *Shigella*, *Pseudomonas*).
+  - **Structured Clinical Modules**:
+    - Laboratory identification & culture reactions (TSI, MacConkey, EMB, MSA, Blood agar hemolysis, catalase, coagulase, oxidase).
+    - Cell wall architecture & microscopic hallmarks.
+    - Virulence arsenal & pathogenic mechanisms.
+    - Clinical syndromes & disease manifestations.
+    - Normal flora niche & transmission reservoirs.
+- **Interactive Diagnostic Decision Trees (`/memorize` Trees Tab)**:
+  - **Interactive Laboratory Pathway Simulator**: Step-by-step diagnostic simulator guiding students through differential diagnosis tests with interactive breadcrumb navigation, test prompts, large tactile choice buttons, and celebratory Confirmed Diagnosis cards (*Diagnosis Confirmed*, clinical clues, direct dossier launch, and one-click bug quiz).
+  - **Panoramic Visual Flowchart**: Hierarchical flowchart canvas mapping all decision nodes, color-coded branch connectors (emerald positive, coral negative), and outcome cards with slide links.
+- **Comparison Matrices & Active Occlusion**:
+  - Added `[ 👁 Reveal All ]` and `[ 🙈 Hide All ]` instant controls alongside tactile cell-by-cell tap-to-reveal.
+- **Verification**:
+  - `npm run check`: 0 errors.
+  - `npm test`: all 58 test suites passed.
+  - `python scripts/validate_content.py --subject general-microbiology`: 100% passed.
+  - `python scripts/validate_content.py --subject molecular-biology`: 100% passed.
+
+
 
 
 

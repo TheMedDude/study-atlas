@@ -16,7 +16,7 @@ const names = { courses: 'Courses', home: 'Overview', memorize: 'Memorize', prac
 const symbols = { courses: '❖', home: '◈', memorize: '✦', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
-const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all' };
+const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [] };
 let subject, subjectConfigs, lectures, chapters, concepts, activities, pages, sourceImages, uncertainties, coverage, progress, tick;
 let synthesisData = { organisms: [], trees: [], matrices: [], heuristics: [] };
 let study, lastCheckpoint = 0;
@@ -484,89 +484,405 @@ function settingsView() {
   return pageHead('SETTINGS', 'Make this space yours.', 'Study preferences are saved in this browser.') + `<form id="settings-form" class="settings-panel panel"><section><p class="eyebrow">ANSWER CHECKING</p><h2>When should practice check?</h2><label class="radio-row"><input type="radio" name="checking" value="instant" ${state.settings.instantCheck ? 'checked' : ''}><span><strong>When I click an option</strong><small>Show feedback immediately.</small></span></label><label class="radio-row"><input type="radio" name="checking" value="confirm" ${!state.settings.instantCheck ? 'checked' : ''}><span><strong>After I confirm</strong><small>Select an option, then check the answer.</small></span></label><p class="small muted">Exam feedback always follows the session. Matching and ordering check on submission. Diagram choices follow the practice preference.</p></section><section><p class="eyebrow">READING & EXPLANATIONS</p><label class="setting-field">Explanation language<select name="language" lang="${esc(state.settings.explanationLanguage)}">${explanationLanguages().map(code => `<option lang="${esc(code)}" value="${esc(code)}" ${state.settings.explanationLanguage === code ? 'selected' : ''}>${esc(languageName(code))}${code === 'ar' && subject.languages.retainEnglishTechnicalTerms ? ' · English technical terms' : ''}</option>`).join('')}</select></label><label class="setting-field">Text size<select name="textSize"><option value="normal" ${state.settings.textSize === 'normal' ? 'selected' : ''}>Standard</option><option value="large" ${state.settings.textSize === 'large' ? 'selected' : ''}>Larger</option></select></label><label class="setting-field">Open source references<select name="sourceLayout"><option value="side" ${state.settings.sourceLayout === 'side' ? 'selected' : ''}>Side by side when space allows</option><option value="full" ${state.settings.sourceLayout === 'full' ? 'selected' : ''}>Full screen</option></select></label><label class="toggle-row"><span>Reduce motion</span><input type="checkbox" name="reducedMotion" role="switch" ${state.settings.reducedMotion ? 'checked' : ''}></label></section><button class="button primary" type="submit">Save preferences ✓</button></form><section class="panel settings-data"><div><h2>Your device, your progress.</h2><p>Use backups to move your progress between browsers or devices.</p></div><button class="button outline" data-go="progress">Back up & restore ↗</button><button class="danger-link" data-action="clear-progress">Clear this subject’s progress</button></section>`;
 }
 
+function getOrganismHallmark(org) {
+  const name = org.name.toLowerCase();
+  if (name.includes('coli')) return 'Lactose + (Pink) • EMB Green Sheen • TSI A/A + Gas';
+  if (name.includes('aureus')) return 'Catalase + • Coagulase + • Beta-hemolytic • Protein A';
+  if (name.includes('epidermidis')) return 'Coagulase - (CoNS) • Novobiocin Sensitive • Slime/Biofilm';
+  if (name.includes('pneumoniae') && name.includes('strep')) return 'Lancet Diplococci • Optochin Sensitive • Bile Soluble • Alpha-hemolytic';
+  if (name.includes('pyogenes')) return 'Group A Strep • Bacitracin Sensitive • Beta-hemolytic • M Protein';
+  if (name.includes('aeruginosa')) return 'Oxidase + • Pyocyanin Blue-Green • Non-fermenter (TSI K/K)';
+  if (name.includes('anthracis')) return 'Aerobic Spore • Poly-D-Glutamic Acid Capsule • Medusa-head';
+  if (name.includes('tetani')) return 'Strict Anaerobe • Terminal Round Spore • Tetanospasmin';
+  if (name.includes('botulinum')) return 'Strict Anaerobe • Subterminal Spore • Flaccid Paralysis';
+  if (name.includes('salmonella')) return 'Non-lactose Fermenter • TSI K/A + H2S Black Precipitate • Motile';
+  if (name.includes('shigella')) return 'Non-lactose Fermenter • Non-motile • TSI K/A (No gas, no H2S)';
+  if (name.includes('tuberculosis')) return 'Acid-Fast (Ziehl-Neelsen) • Mycolic Acid • Cord Factor';
+  if (name.includes('meningitidis')) return 'Gram- Diplococci • Maltose Fermenter • Polysaccharide Capsule';
+  if (name.includes('gonorrhoeae')) return 'Gram- Diplococci • Glucose+ / Maltose- • Antigenic Variation';
+  if (name.includes('cholerae')) return 'Comma-shaped Vibrio • TCBS Alkaline Growth • Choleragen Exotoxin';
+  return org.morphology.split('[')[0].trim();
+}
+
+function parseClinicalEntry(text) {
+  const colonIndex = text.indexOf(':');
+  const citationMatch = text.match(/\[(.*?)\]$/);
+  const citation = citationMatch ? citationMatch[1] : null;
+  let rawWithoutCitation = citationMatch ? text.slice(0, citationMatch.index).trim() : text;
+  
+  if (colonIndex !== -1 && colonIndex < 40) {
+    const key = rawWithoutCitation.slice(0, colonIndex).trim();
+    const desc = rawWithoutCitation.slice(colonIndex + 1).trim();
+    return { key, desc, citation };
+  }
+  return { key: '', desc: rawWithoutCitation, citation };
+}
+
+function renderTsiReactionBadge(org) {
+  const metabolism = org.metabolism || [];
+  const tsiEntry = metabolism.find(m => m.includes('TSI') || m.includes('Triple Sugar Iron'));
+  if (!tsiEntry) return '';
+  
+  const lower = tsiEntry.toLowerCase();
+  let slant = 'A', butt = 'A', gas = false, h2s = false;
+  if (lower.includes('k/a') || (lower.includes('alkaline slant') && lower.includes('acid butt'))) {
+    slant = 'K'; butt = 'A';
+  } else if (lower.includes('k/k') || (lower.includes('alkaline slant') && lower.includes('alkaline butt'))) {
+    slant = 'K'; butt = 'K';
+  } else if (lower.includes('a/a') || (lower.includes('acid slant') && lower.includes('acid butt'))) {
+    slant = 'A'; butt = 'A';
+  }
+  gas = lower.includes('gas') && !lower.includes('without gas') && !lower.includes('no gas');
+  h2s = lower.includes('h2s') && !lower.includes('without h2s') && !lower.includes('no h2s');
+  
+  const slantColor = slant === 'A' ? 'acid' : 'alk';
+  const buttColor = butt === 'A' ? 'acid' : 'alk';
+  
+  return `
+    <div class="tsi-widget">
+      <div class="tsi-tube-visual" aria-hidden="true">
+        <div class="tsi-tube-glass">
+          <div class="tsi-slant ${slantColor}"></div>
+          <div class="tsi-butt ${buttColor} ${h2s ? 'has-h2s' : ''}">
+            ${h2s ? '<span class="tsi-h2s-tag">FeS</span>' : ''}
+            ${gas ? '<span class="tsi-gas-bubbles">🫧</span>' : ''}
+          </div>
+        </div>
+      </div>
+      <div class="tsi-tube-info">
+        <div class="tsi-badge-title">TSI Reaction: <strong>${slant}/${butt}</strong> ${gas ? '• Gas (+)' : ''} ${h2s ? '• H₂S (+)' : ''}</div>
+        <div class="tsi-specs">
+          <span class="tsi-spec-pill ${slantColor}">Slant: ${slant === 'A' ? 'Acid (🟡 Yellow)' : 'Alkaline (🔴 Red)'}</span>
+          <span class="tsi-spec-pill ${buttColor}">Butt: ${butt === 'A' ? 'Acid (🟡 Yellow)' : 'Alkaline (🔴 Red)'}</span>
+          <span class="tsi-spec-pill ${gas ? 'gas-pos' : 'neutral'}">Gas: ${gas ? '(+) Bubbles' : '(-)'}</span>
+          <span class="tsi-spec-pill ${h2s ? 'h2s-pos' : 'neutral'}">H₂S: ${h2s ? '(+) Black Precipitate' : '(-)'}</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function countOrganismActivities(org) {
+  if (!org || !activities) return 0;
+  const name = org.name.toLowerCase();
+  const parts = name.split(' ');
+  const genus = parts[0], species = parts[1];
+  return activities.filter(act => {
+    const text = (act.prompt + ' ' + (act.explanation?.en || '') + ' ' + act.conceptIds.join(' ')).toLowerCase();
+    const hasText = text.includes(name) || (species && species.length > 3 && text.includes(species)) || (genus && genus.length > 5 && text.includes(genus));
+    const hasPage = org.sourceRefs.some(ref => act.sourceRefs.some(s => s.lectureId === ref.lectureId && s.pdfPage === ref.pdfPage));
+    return hasText || hasPage;
+  }).length;
+}
+
 function renderOrganismsTab() {
   const q = (state.memorizeSearch || '').trim().toLowerCase();
   const cat = state.memorizeCat || 'all';
+  const viewMode = state.organismViewMode || 'console'; // 'console' | 'grid'
+  
   const filtered = synthesisData.organisms.filter(o => {
-    const matchesCat = cat === 'all' || o.category === cat || (cat === 'gram-positive' && o.gram.toLowerCase().includes('positive')) || (cat === 'gram-negative' && o.gram.toLowerCase().includes('negative'));
+    const matchesCat = cat === 'all' || o.category === cat || 
+      (cat === 'gram-positive' && o.gram.toLowerCase().includes('positive')) || 
+      (cat === 'gram-negative' && o.gram.toLowerCase().includes('negative'));
     if (!matchesCat) return false;
     if (!q) return true;
-    const haystack = (o.name + ' ' + o.gram + ' ' + o.morphology + ' ' + (o.structure||[]).join(' ') + ' ' + (o.metabolism||[]).join(' ') + ' ' + (o.clinical||[]).join(' ')).toLowerCase();
+    const haystack = (o.name + ' ' + o.gram + ' ' + o.morphology + ' ' + (o.structure||[]).join(' ') + ' ' + (o.metabolism||[]).join(' ') + ' ' + (o.virulence||[]).join(' ') + ' ' + (o.clinical||[]).join(' ')).toLowerCase();
     return haystack.includes(q);
   });
 
   const categories = [
-    { id: 'all', label: 'All Bacteria' },
-    { id: 'gram-negative-bacilli', label: 'Gram-Negative Rods' },
-    { id: 'gram-positive-cocci', label: 'Gram-Positive Cocci' },
-    { id: 'gram-positive-bacilli', label: 'Spore-Forming Rods' },
-    { id: 'acid-fast-bacteria', label: 'Acid-Fast & Atypical' }
+    { id: 'all', label: 'All Bacteria', count: synthesisData.organisms.length },
+    { id: 'gram-positive-cocci', label: '🟣 Gram+ Cocci', count: synthesisData.organisms.filter(o => o.category === 'gram-positive-cocci').length },
+    { id: 'gram-negative-bacilli', label: '🔴 Gram- Rods', count: synthesisData.organisms.filter(o => o.category === 'gram-negative-bacilli').length },
+    { id: 'gram-positive-bacilli', label: '🧪 Spore-Forming Rods', count: synthesisData.organisms.filter(o => o.category === 'gram-positive-bacilli').length },
+    { id: 'gram-negative-cocci', label: '🔴 Gram- Cocci', count: synthesisData.organisms.filter(o => o.category === 'gram-negative-cocci').length },
+    { id: 'acid-fast-bacteria', label: '🔬 Acid-Fast', count: synthesisData.organisms.filter(o => o.category === 'acid-fast-bacteria').length }
   ];
 
-  return `
+  let selectedOrg = filtered.find(o => o.id === state.selectedOrganism) || filtered[0] || synthesisData.organisms[0];
+  if (selectedOrg && state.selectedOrganism !== selectedOrg.id) {
+    state.selectedOrganism = selectedOrg.id;
+  }
+
+  const toolbarHTML = `
     <div class="memorize-toolbar panel">
-      <div class="search-input-wrap">
-        <label for="organism-search" class="visually-hidden">Search organisms</label>
-        <input type="search" id="organism-search" placeholder="Search bacteria, tests, toxins, syndromes (e.g. E. coli, TSI, botulinum)..." value="${esc(state.memorizeSearch || '')}">
+      <div class="search-and-mode-row">
+        <div class="search-input-wrap">
+          <label for="organism-search" class="visually-hidden">Search organisms</label>
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input type="search" id="organism-search" placeholder="Search bacteria, tests, toxins, syndromes (e.g. E. coli, TSI, botulinum)..." value="${esc(state.memorizeSearch || '')}">
+          ${state.memorizeSearch ? `<button type="button" class="search-clear-btn" data-clear-organism-search="true" aria-label="Clear search">✕</button>` : ''}
+        </div>
+        <div class="view-mode-toggle" role="group" aria-label="Organism display mode">
+          <button type="button" class="mode-pill ${viewMode==='console'?'active':''}" data-organism-view-mode="console" title="Master-Detail Clinical Console">
+            ☷ Clinical Console
+          </button>
+          <button type="button" class="mode-pill ${viewMode==='grid'?'active':''}" data-organism-view-mode="grid" title="Flashcard Grid View">
+            ▦ Card Matrix
+          </button>
+        </div>
       </div>
-      <div class="cat-pills">
-        ${categories.map(c => `<button type="button" class="cat-pill ${cat===c.id?'active':''}" data-cat-filter="${esc(c.id)}">${esc(c.label)}</button>`).join('')}
+      <div class="cat-pills-scroll">
+        ${categories.map(c => `
+          <button type="button" class="cat-pill ${cat===c.id?'active':''}" data-cat-filter="${esc(c.id)}">
+            ${esc(c.label)} <small class="cat-pill-count">${c.count}</small>
+          </button>
+        `).join('')}
       </div>
     </div>
-    <div class="organisms-grid">
-      ${filtered.length ? filtered.map(o => `
-        <article class="panel dossier-card" id="dossier-${esc(o.id)}" data-category="${esc(o.category)}">
-          <header class="dossier-head">
-            <div>
-              <p class="eyebrow">${esc(o.morphology)}</p>
-              <h2><em>${esc(o.name)}</em></h2>
+  `;
+
+  if (!filtered.length) {
+    return toolbarHTML + `
+      <div class="empty-state panel">
+        <h2>No bacteria match your search.</h2>
+        <p>No results for "<strong>${esc(state.memorizeSearch)}</strong>" in this category.</p>
+        <button type="button" class="button outline" data-clear-organism-search="true">Clear search filters ↺</button>
+      </div>
+    `;
+  }
+
+  // Flashcard Grid Mode
+  if (viewMode === 'grid') {
+    return toolbarHTML + `
+      <div class="organisms-matrix-grid">
+        ${filtered.map(o => {
+          const gramClass = o.gram.toLowerCase().includes('positive') ? 'gram-pos' : o.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb';
+          const qCount = countOrganismActivities(o);
+          const topVirulence = o.virulence?.[0] ? parseClinicalEntry(o.virulence[0]) : null;
+          const topClinical = o.clinical?.[0] ? parseClinicalEntry(o.clinical[0]) : null;
+          return `
+            <article class="panel bug-matrix-card ${gramClass}" id="matrix-card-${esc(o.id)}">
+              <header class="matrix-card-head">
+                <div class="matrix-card-title-wrap">
+                  <span class="microbe-stain-badge ${gramClass}">${esc(o.gram.split(' ')[0])}</span>
+                  <h3><em>${esc(o.name)}</em></h3>
+                </div>
+                <button type="button" class="button primary micro-btn" data-quiz-organism="${esc(o.id)}">⚡ Quiz ${qCount ? `(${qCount})` : ''}</button>
+              </header>
+              <div class="matrix-card-hallmark">
+                <strong>Diagnostic Hallmark:</strong>
+                <p>${esc(getOrganismHallmark(o))}</p>
+              </div>
+              <div class="matrix-card-bullets">
+                ${topVirulence ? `<div class="matrix-mini-bullet"><span class="bullet-icon">⚔️</span><div><strong>${esc(topVirulence.key || 'Virulence')}:</strong> ${esc(topVirulence.desc)}</div></div>` : ''}
+                ${topClinical ? `<div class="matrix-mini-bullet"><span class="bullet-icon">🩺</span><div><strong>${esc(topClinical.key || 'Syndrome')}:</strong> ${esc(topClinical.desc)}</div></div>` : ''}
+              </div>
+              <footer class="matrix-card-foot">
+                <button type="button" class="button outline full-width-btn" data-open-dossier="${esc(o.id)}">Inspect Full Clinical Dossier ↗</button>
+              </footer>
+            </article>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  // Master-Detail Clinical Console Mode (Default)
+  const qCount = selectedOrg ? countOrganismActivities(selectedOrg) : 0;
+  const selectedGramClass = selectedOrg ? (selectedOrg.gram.toLowerCase().includes('positive') ? 'gram-pos' : selectedOrg.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb') : 'neutral';
+
+  return toolbarHTML + `
+    <div class="dossier-workspace">
+      <!-- Left Master Directory List -->
+      <aside class="dossier-sidebar panel" aria-label="Bacterial directory">
+        <div class="dossier-sidebar-head">
+          <span class="dossier-sidebar-count"><strong>${filtered.length}</strong> Pathogens</span>
+          <span class="dossier-sidebar-hint">Select to view</span>
+        </div>
+        <div class="dossier-dir-list" role="tablist">
+          ${filtered.map(o => {
+            const isSelected = o.id === selectedOrg.id;
+            const gramClass = o.gram.toLowerCase().includes('positive') ? 'gram-pos' : o.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb';
+            return `
+              <button type="button" class="dossier-dir-card ${gramClass} ${isSelected ? 'active' : ''}" data-select-organism="${esc(o.id)}" role="tab" aria-selected="${isSelected}">
+                <div class="dir-card-top">
+                  <span class="microbe-stain-badge ${gramClass}">${esc(o.gram.split(' ')[0])}</span>
+                  <strong class="dir-org-name"><em>${esc(o.name)}</em></strong>
+                </div>
+                <div class="dir-card-hallmark">${esc(getOrganismHallmark(o))}</div>
+              </button>
+            `;
+          }).join('')}
+        </div>
+      </aside>
+
+      <!-- Right Detailed Clinical Dossier -->
+      <main class="dossier-viewer panel ${selectedGramClass}" id="dossier-viewer">
+        <header class="viewer-hero">
+          <div class="viewer-hero-main">
+            <div class="viewer-badge-row">
+              <span class="microbe-stain-badge ${selectedGramClass}">${esc(selectedOrg.gram)}</span>
+              <span class="viewer-morph-pill">${esc(selectedOrg.morphology.split('[')[0].trim())}</span>
             </div>
-            <div class="dossier-badges">
-              <span class="badge ${o.gram.toLowerCase().includes('positive') ? 'coral' : o.gram.toLowerCase().includes('negative') ? 'lime' : 'neutral'}">${esc(o.gram)}</span>
-              <button class="button primary micro-btn" data-quiz-organism="${esc(o.id)}">⚡ Quiz this bug</button>
+            <h2 class="viewer-title"><em>${esc(selectedOrg.name)}</em></h2>
+            <div class="viewer-hallmark-banner">
+              <span class="hallmark-sparkle" aria-hidden="true">✦</span>
+              <span><strong>Diagnostic Signature:</strong> ${esc(getOrganismHallmark(selectedOrg))}</span>
             </div>
-          </header>
-          
-          <div class="dossier-body">
-            <details class="dossier-section" open>
-              <summary>🔬 Morphology & Structure</summary>
-              <ul>${o.structure.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>
-
-            <details class="dossier-section" open>
-              <summary>🧪 Metabolism, Culture & Biochemical Tests</summary>
-              <ul>${o.metabolism.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>
-
-            ${o.genetics?.length ? `
-            <details class="dossier-section">
-              <summary>🧬 Genetics, Plasmids & Resistance</summary>
-              <ul>${o.genetics.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>` : ''}
-
-            ${o.normalFlora?.length ? `
-            <details class="dossier-section" open>
-              <summary>🏡 Normal Flora & Habitat</summary>
-              <ul>${o.normalFlora.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>` : ''}
-
-            <details class="dossier-section" open>
-              <summary>⚔️ Virulence Factors & Toxins</summary>
-              <ul>${o.virulence.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>
-
-            <details class="dossier-section" open>
-              <summary>🩺 Clinical Syndromes & Manifestations</summary>
-              <ul>${o.clinical.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-            </details>
           </div>
+          <div class="viewer-hero-actions">
+            <button type="button" class="button primary viewer-quiz-btn" data-quiz-organism="${esc(selectedOrg.id)}">
+              ⚡ Quiz this Bug ${qCount ? `(${qCount} MCQs)` : ''}
+            </button>
+            <div class="viewer-slide-links">
+              <span class="viewer-slide-label">Source Slides:</span>
+              <div class="source-links">
+                ${selectedOrg.sourceRefs.map(ref => `
+                  <button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">
+                    ↗ ${esc(lectureTitle(ref.lectureId))} p${ref.pdfPage}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </header>
 
-          <footer class="dossier-foot">
-            <span class="dossier-refs-label">Slide references:</span>
-            <div class="source-links">${o.sourceRefs.map(ref => `<button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">↗ ${esc(lectureTitle(ref.lectureId))} p${ref.pdfPage}</button>`).join('')}</div>
-          </footer>
-        </article>
-      `).join('') : '<div class="empty-state"><h2>No organisms match your search.</h2><p>Try searching another keyword or clearing filters.</p></div>'}
+        <div class="viewer-modules-stack">
+          <!-- Module 1: Diagnostic Laboratory & Culture Profile -->
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">🧫</span>
+              <h3>Laboratory Identification & Culture Reactions</h3>
+            </div>
+            <div class="module-body">
+              ${renderTsiReactionBadge(selectedOrg)}
+              <div class="lab-profile-grid">
+                ${selectedOrg.metabolism.map(m => {
+                  const parsed = parseClinicalEntry(m);
+                  return `
+                    <div class="lab-profile-tile">
+                      ${parsed.key ? `<strong class="lab-tile-title">${esc(parsed.key)}</strong>` : ''}
+                      <p class="lab-tile-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="lab-tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+
+          <!-- Module 2: Microscopic Structure & Cell Wall -->
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">🔬</span>
+              <h3>Cell Wall Architecture & Microscopic Hallmarks</h3>
+            </div>
+            <div class="module-body">
+              <div class="structure-tiles-grid">
+                ${selectedOrg.structure.map(s => {
+                  const parsed = parseClinicalEntry(s);
+                  return `
+                    <div class="structure-tile">
+                      ${parsed.key ? `<strong class="structure-tile-title">${esc(parsed.key)}</strong>` : ''}
+                      <p class="structure-tile-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+
+          <!-- Module 3: Virulence Weapons Arsenal -->
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">⚔️</span>
+              <h3>Virulence Arsenal & Pathogenic Mechanisms</h3>
+            </div>
+            <div class="module-body">
+              <div class="virulence-weapons-grid">
+                ${selectedOrg.virulence.map(v => {
+                  const parsed = parseClinicalEntry(v);
+                  return `
+                    <div class="weapon-card">
+                      <div class="weapon-card-head">
+                        <span class="weapon-icon">🗡️</span>
+                        <strong class="weapon-title">${esc(parsed.key || 'Virulence Factor')}</strong>
+                      </div>
+                      <p class="weapon-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+
+          <!-- Module 4: Clinical Syndromes & Manifestations -->
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">🩺</span>
+              <h3>Clinical Diseases & Clinical Presentations</h3>
+            </div>
+            <div class="module-body">
+              <div class="clinical-syndromes-grid">
+                ${selectedOrg.clinical.map(c => {
+                  const parsed = parseClinicalEntry(c);
+                  return `
+                    <div class="syndrome-card">
+                      <div class="syndrome-card-head">
+                        <span class="syndrome-tag">Disease</span>
+                        <strong class="syndrome-title">${esc(parsed.key || 'Clinical Manifestation')}</strong>
+                      </div>
+                      <p class="syndrome-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+
+          <!-- Module 5: Normal Flora & Transmission (if present) -->
+          ${selectedOrg.normalFlora?.length ? `
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">🏡</span>
+              <h3>Normal Flora Niche & Reservoir</h3>
+            </div>
+            <div class="module-body">
+              <div class="habitat-tiles-grid">
+                ${selectedOrg.normalFlora.map(nf => {
+                  const parsed = parseClinicalEntry(nf);
+                  return `
+                    <div class="habitat-tile">
+                      ${parsed.key ? `<strong class="habitat-title">${esc(parsed.key)}</strong>` : ''}
+                      <p class="habitat-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+          ` : ''}
+
+          <!-- Module 6: Genetics, Plasmids & Resistance (if present) -->
+          ${selectedOrg.genetics?.length ? `
+          <section class="viewer-module">
+            <div class="module-head">
+              <span class="module-icon">🧬</span>
+              <h3>Genetics, Plasmids & Resistance Mechanisms</h3>
+            </div>
+            <div class="module-body">
+              <div class="genetics-tiles-grid">
+                ${selectedOrg.genetics.map(g => {
+                  const parsed = parseClinicalEntry(g);
+                  return `
+                    <div class="genetics-tile">
+                      ${parsed.key ? `<strong class="genetics-title">${esc(parsed.key)}</strong>` : ''}
+                      <p class="genetics-desc">${esc(parsed.desc)}</p>
+                      ${parsed.citation ? `<span class="tile-citation">${esc(parsed.citation)}</span>` : ''}
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </section>
+          ` : ''}
+        </div>
+      </main>
     </div>
   `;
 }
@@ -574,33 +890,150 @@ function renderOrganismsTab() {
 function renderTreesTab() {
   const currentTreeId = state.selectedTree || synthesisData.trees[0]?.id;
   const currentTree = synthesisData.trees.find(t => t.id === currentTreeId) || synthesisData.trees[0];
+  state.selectedTree = currentTree.id;
+  state.treeSimPath = state.treeSimPath || [];
 
-  function renderNode(node, depth = 0) {
+  // Traversal for the Step-by-Step Simulator
+  let simNode = currentTree.root;
+  const simSteps = [{ title: 'Specimen', label: 'Initial Isolate', node: simNode }];
+  for (let i = 0; i < state.treeSimPath.length; i++) {
+    const branchIdx = state.treeSimPath[i];
+    if (!simNode.branches || !simNode.branches[branchIdx]) break;
+    const branch = simNode.branches[branchIdx];
+    if (branch.next) {
+      simNode = branch.next;
+      simSteps.push({ title: branch.organismGroup || `Step ${i + 1}`, label: branch.label, node: simNode });
+    } else if (branch.outcome) {
+      simNode = { outcome: branch.outcome };
+      simSteps.push({ title: 'Diagnosis', label: branch.label, outcome: branch.outcome });
+      break;
+    }
+  }
+
+  // Helper to render tree nodes in the panoramic flowchart diagram
+  function renderDiagramNode(node, depth = 0, pathId = '0') {
     if (!node) return '';
-    let html = `<div class="tree-node depth-${depth}">`;
-    if (node.step) html += `<div class="node-step"><strong>${esc(node.step)}</strong>${node.prompt ? `<p class="small muted">${esc(node.prompt)}</p>` : ''}</div>`;
-    if (node.result) html += `<div class="node-result"><span>${esc(node.result)}</span></div>`;
-    if (node.outcome) {
-      html += `<div class="node-outcome">
-        <h4>${node.outcome.organismId ? `<button type="button" class="text-button outcome-org-link" data-open-dossier="${esc(node.outcome.organismId)}"><em>${esc(node.outcome.name)}</em> ↗</button>` : `<em>${esc(node.outcome.name)}</em>`}</h4>
-        <p class="small">${esc(node.outcome.clues)}</p>
-        ${node.outcome.sourceRefs ? `<div class="source-links">${node.outcome.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ p${r.pdfPage}</button>`).join('')}</div>` : ''}
-      </div>`;
-    }
-    if (node.branches) {
-      html += `<div class="node-branches">${node.branches.map(b => `
-        <div class="tree-branch">
-          <div class="branch-label"><span class="branch-pill">${esc(b.label)}</span>${b.organismGroup ? `<span class="group-tag">${esc(b.organismGroup)}</span>` : ''}</div>
-          ${b.next ? renderNode(b.next, depth + 1) : ''}
-          ${b.outcome ? renderNode({ outcome: b.outcome }, depth + 1) : ''}
+    let html = `<div class="flow-node-wrapper depth-${depth}" data-node-path="${esc(pathId)}">`;
+    
+    if (node.step) {
+      html += `
+        <div class="flow-step-card">
+          <div class="flow-step-badge">STEP ${depth + 1}</div>
+          <h4 class="flow-step-title">${esc(node.step)}</h4>
+          ${node.prompt ? `<p class="flow-step-prompt">${esc(node.prompt)}</p>` : ''}
+          ${node.result ? `<div class="flow-step-result">${esc(node.result)}</div>` : ''}
         </div>
-      `).join('')}</div>`;
+      `;
     }
+
+    if (node.branches) {
+      html += `<div class="flow-branches-container">${node.branches.map((b, bIdx) => {
+        const nextId = `${pathId}-${bIdx}`;
+        return `
+          <div class="flow-branch-track">
+            <div class="flow-branch-connector">
+              <span class="flow-connector-line"></span>
+              <div class="flow-branch-badge ${b.label.toLowerCase().includes('positive') || b.label.toLowerCase().includes('sensitive') ? 'pos' : b.label.toLowerCase().includes('negative') || b.label.toLowerCase().includes('resistant') ? 'neg' : 'neutral'}">
+                <strong>${esc(b.label)}</strong>
+                ${b.organismGroup ? `<span class="flow-group-tag">${esc(b.organismGroup)}</span>` : ''}
+              </div>
+              <span class="flow-connector-arrow">↓</span>
+            </div>
+            ${b.next ? renderDiagramNode(b.next, depth + 1, nextId) : ''}
+            ${b.outcome ? renderDiagramOutcome(b.outcome, depth + 1, nextId) : ''}
+          </div>
+        `;
+      }).join('')}</div>`;
+    }
+
     html += `</div>`;
     return html;
   }
 
+  function renderDiagramOutcome(outcome, depth, pathId) {
+    const org = outcome.organismId ? synthesisData.organisms.find(o => o.id === outcome.organismId) : null;
+    const gramClass = org ? (org.gram.toLowerCase().includes('positive') ? 'gram-pos' : org.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb') : 'neutral';
+    
+    return `
+      <div class="flow-outcome-card ${gramClass}" data-outcome-path="${esc(pathId)}">
+        <div class="flow-outcome-header">
+          <span class="flow-outcome-flag">🎯 IDENTIFIED</span>
+          <h4 class="flow-outcome-name"><em>${esc(outcome.name)}</em></h4>
+        </div>
+        <p class="flow-outcome-clues">${esc(outcome.clues)}</p>
+        <div class="flow-outcome-actions">
+          ${outcome.organismId ? `<button type="button" class="button outline micro-btn" data-open-dossier="${esc(outcome.organismId)}">✦ View Dossier ↗</button>` : ''}
+          ${outcome.organismId ? `<button type="button" class="button primary micro-btn" data-quiz-organism="${esc(outcome.organismId)}">⚡ Quiz</button>` : ''}
+          ${outcome.sourceRefs ? `<div class="source-links">${outcome.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ p${r.pdfPage}</button>`).join('')}</div>` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  // Active Simulator Card (Outcome reached OR active decision choice)
+  let simContent = '';
+  if (simNode.outcome) {
+    const out = simNode.outcome;
+    const org = out.organismId ? synthesisData.organisms.find(o => o.id === out.organismId) : null;
+    const gramClass = org ? (org.gram.toLowerCase().includes('positive') ? 'gram-pos' : org.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb') : 'neutral';
+    
+    simContent = `
+      <div class="sim-outcome-celebration panel ${gramClass}">
+        <div class="sim-celebration-head">
+          <span class="sim-confirmed-badge">✓ DIAGNOSIS CONFIRMED</span>
+          <h3 class="sim-confirmed-title"><em>${esc(out.name)}</em></h3>
+        </div>
+        <p class="sim-confirmed-clues">${esc(out.clues)}</p>
+        <div class="sim-celebration-actions">
+          ${out.organismId ? `<button type="button" class="button primary" data-open-dossier="${esc(out.organismId)}">✦ Open Full Medical Dossier ↗</button>` : ''}
+          ${out.organismId ? `<button type="button" class="button outline" data-quiz-organism="${esc(out.organismId)}">⚡ Quiz this Organism</button>` : ''}
+          <button type="button" class="button outline" data-tree-sim-reset="true">↺ Start New Differential</button>
+        </div>
+      </div>
+    `;
+  } else if (simNode.step) {
+    simContent = `
+      <div class="sim-step-active panel">
+        <div class="sim-active-header">
+          <span class="sim-step-num">CURRENT TEST (STEP ${simSteps.length})</span>
+          <h3 class="sim-active-title">🧪 ${esc(simNode.step)}</h3>
+          ${simNode.prompt ? `<p class="sim-active-prompt">${esc(simNode.prompt)}</p>` : ''}
+          ${simNode.result ? `<div class="sim-active-result">${esc(simNode.result)}</div>` : ''}
+        </div>
+        <div class="sim-choices-grid">
+          ${(simNode.branches || []).map((b, idx) => `
+            <button type="button" class="sim-choice-card" data-tree-sim-choice="${idx}">
+              <div class="sim-choice-label">
+                <span class="sim-choice-pill ${b.label.toLowerCase().includes('positive') || b.label.toLowerCase().includes('sensitive') ? 'pos' : b.label.toLowerCase().includes('negative') || b.label.toLowerCase().includes('resistant') ? 'neg' : 'neutral'}">
+                  ${esc(b.label)}
+                </span>
+                ${b.organismGroup ? `<span class="sim-choice-group">${esc(b.organismGroup)}</span>` : ''}
+              </div>
+              <span class="sim-choice-arrow">Select Result ➔</span>
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  const breadcrumbBar = `
+    <div class="sim-breadcrumb-bar">
+      <span class="sim-breadcrumb-title">Diagnostic Pathway:</span>
+      <div class="sim-breadcrumb-trail">
+        ${simSteps.map((s, idx) => `
+          <button type="button" class="sim-crumb-btn ${idx === simSteps.length - 1 ? 'current' : ''}" data-tree-sim-back-to="${idx}">
+            ${esc(s.title || s.label)}
+          </button>
+          ${idx < simSteps.length - 1 ? '<span class="sim-crumb-sep">➔</span>' : ''}
+        `).join('')}
+      </div>
+      ${state.treeSimPath.length > 0 ? `<button type="button" class="text-button sim-reset-btn" data-tree-sim-reset="true">↺ Reset</button>` : ''}
+    </div>
+  `;
+
   return `
+    <!-- Top Tree Selector -->
     <div class="tree-selector-bar panel">
       <div class="tree-pills">
         ${synthesisData.trees.map(t => `
@@ -609,11 +1042,28 @@ function renderTreesTab() {
           </button>
         `).join('')}
       </div>
-      <p class="small muted">${esc(currentTree.summary)}</p>
+      <p class="tree-summary-text">${esc(currentTree.summary)}</p>
     </div>
-    <div class="tree-display-container panel">
-      ${renderNode(currentTree.root)}
-    </div>
+
+    <!-- Interactive Diagnostic Simulator -->
+    <section class="tree-sim-section">
+      <div class="sim-section-header">
+        <span class="sim-section-kicker">INTERACTIVE DIAGNOSTIC SIMULATOR</span>
+        <h2>Walk through the clinical laboratory differential</h2>
+      </div>
+      ${breadcrumbBar}
+      ${simContent}
+    </section>
+
+    <!-- Complete Panoramic Flowchart Accordion -->
+    <details class="flowchart-details panel" open>
+      <summary class="flowchart-summary">
+        <span>🗺 Panoramic Visual Flowchart (Complete Algorithm)</span>
+      </summary>
+      <div class="flowchart-viewport">
+        ${renderDiagramNode(currentTree.root)}
+      </div>
+    </details>
   `;
 }
 
@@ -633,10 +1083,18 @@ function renderMatricesTab() {
       </div>
       <div class="matrix-controls-row">
         <p class="small muted">${esc(currentMatrix.summary)}</p>
-        <label class="toggle-row occlusion-toggle-label">
-          <span>Blindfold Mode (Hide cells to test recall)</span>
-          <input type="checkbox" id="occlusion-toggle" role="switch" ${isOccluded ? 'checked' : ''}>
-        </label>
+        <div class="matrix-actions-bar">
+          <label class="toggle-row occlusion-toggle-label">
+            <span>Blindfold Mode (Hide cells to test recall)</span>
+            <input type="checkbox" id="occlusion-toggle" role="switch" ${isOccluded ? 'checked' : ''}>
+          </label>
+          ${isOccluded ? `
+            <div class="occlusion-quick-actions">
+              <button type="button" class="button outline micro-btn" data-reveal-all-occluded="true">👁 Reveal All</button>
+              <button type="button" class="button outline micro-btn" data-hide-all-occluded="true">🙈 Hide All</button>
+            </div>
+          ` : ''}
+        </div>
       </div>
     </div>
     <div class="matrix-table-wrap panel">
@@ -671,14 +1129,22 @@ function renderHeuristicsTab() {
         <article class="panel heuristic-card">
           <header class="heuristic-head">
             <span class="heuristic-icon">💡</span>
-            <h3>${esc(h.title)}</h3>
+            <div>
+              <span class="heuristic-tag">Clinical Pearl</span>
+              <h3>${esc(h.title)}</h3>
+            </div>
           </header>
           <div class="heuristic-rule">
             <p>${esc(h.rule)}</p>
           </div>
-          ${h.explanation ? `<p class="heuristic-explanation small muted">${esc(h.explanation)}</p>` : ''}
+          ${h.explanation ? `
+            <div class="heuristic-exam-note">
+              <strong>Exam Context:</strong>
+              <p>${esc(h.explanation)}</p>
+            </div>
+          ` : ''}
           <footer class="heuristic-foot">
-            <span class="dossier-refs-label">Sources:</span>
+            <span class="dossier-refs-label">Slide references:</span>
             <div class="source-links">${h.sourceRefs.map(ref => `<button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">↗ ${esc(lectureTitle(ref.lectureId))} p${ref.pdfPage}</button>`).join('')}</div>
           </footer>
         </article>
@@ -860,13 +1326,38 @@ document.addEventListener('click', async event => {
   if (b.dataset.sourceStep) { state.source.pdfPage += Number(b.dataset.sourceStep); renderSource(); return; }
   if (b.dataset.memorizeTab) { state.memorizeTab = b.dataset.memorizeTab; render(); return; }
   if (b.dataset.catFilter) { state.memorizeCat = b.dataset.catFilter; render(); return; }
-  if (b.dataset.selectTree) { state.selectedTree = b.dataset.selectTree; render(); return; }
+  if (b.dataset.selectOrganism) { state.selectedOrganism = b.dataset.selectOrganism; render(); return; }
+  if (b.dataset.organismViewMode) { state.organismViewMode = b.dataset.organismViewMode; render(); return; }
+  if (b.dataset.clearOrganismSearch) { state.memorizeSearch = ''; state.memorizeCat = 'all'; render(); return; }
+  if (b.dataset.selectTree) { state.selectedTree = b.dataset.selectTree; state.treeSimPath = []; render(); return; }
+  if (b.dataset.treeSimChoice !== undefined) {
+    state.treeSimPath = state.treeSimPath || [];
+    state.treeSimPath.push(Number(b.dataset.treeSimChoice));
+    render();
+    return;
+  }
+  if (b.dataset.treeSimReset) { state.treeSimPath = []; render(); return; }
+  if (b.dataset.treeSimBackTo !== undefined) {
+    state.treeSimPath = (state.treeSimPath || []).slice(0, Number(b.dataset.treeSimBackTo));
+    render();
+    return;
+  }
+  if (b.dataset.revealAllOccluded) {
+    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => c.classList.add('revealed'));
+    return;
+  }
+  if (b.dataset.hideAllOccluded) {
+    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => c.classList.remove('revealed'));
+    return;
+  }
   if (b.dataset.selectMatrix) { state.selectedMatrix = b.dataset.selectMatrix; render(); return; }
   if (b.dataset.openDossier) {
     state.view = 'memorize';
     state.memorizeTab = 'organisms';
     state.memorizeCat = 'all';
-    state.memorizeSearch = b.dataset.openDossier;
+    state.selectedOrganism = b.dataset.openDossier;
+    state.organismViewMode = 'console';
+    state.memorizeSearch = '';
     history.replaceState(null, '', '#memorize');
     render(true);
     return;
@@ -976,17 +1467,12 @@ document.addEventListener('change', async event => {
 document.addEventListener('input', event => {
   if (event.target.id === 'organism-search') {
     state.memorizeSearch = event.target.value;
-    const grid = document.querySelector('.organisms-grid');
-    if (grid) {
-      const q = (state.memorizeSearch || '').trim().toLowerCase();
-      const cat = state.memorizeCat || 'all';
-      grid.querySelectorAll('.dossier-card').forEach(card => {
-        const text = card.textContent.toLowerCase();
-        const matchesQ = !q || text.includes(q);
-        const cardCat = card.dataset.category;
-        const matchesCat = cat === 'all' || cardCat === cat;
-        card.style.display = matchesQ && matchesCat ? '' : 'none';
-      });
+    const pos = event.target.selectionStart;
+    render();
+    const input = $('#organism-search');
+    if (input) {
+      input.focus();
+      if (pos !== null) input.setSelectionRange(pos, pos);
     }
   }
 });
