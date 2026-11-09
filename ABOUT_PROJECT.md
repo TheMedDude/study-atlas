@@ -83,18 +83,18 @@ The Practice experience operates as a transparent question library:
 
 ### 4.2 The Memorize Room (Synthesis Engine)
 A dedicated active-synthesis studio containing four specialized cognitive tools:
-1. **Organism Dossiers ("The Bug Compendium")**:
-   - Comprehensive entity files consolidating morphology, culture/biochemistry (TSI, MacConkey, catalase, oxidase), genetics/plasmids, normal flora sites, virulence factors/toxins, and clinical syndromes.
+1. **Bacteria Summaries ("The Bacteria Compendium")**:
+   - Comprehensive entity files consolidating literal slide-by-slide facts for each organism mentioned across the course lectures.
    - Exact source slide buttons that open original PDF pages in the side-by-side viewer.
-   - `[⚡ Quiz Me on This Organism]` button launching an instant micro-drill.
-2. **Diagnostic Decision Trees**:
-   - Interactive flowcharts mirroring real microbiological laboratory workflows (e.g., Gram-Positive Cocci tree, Gram-Negative Bacilli tree, Spore-Forming Bacilli tree).
-   - Step-by-step branch navigation revealing test principles and final organism outcomes.
+   - `[Quiz Me on This Organism]` button launching an instant micro-drill.
+2. **Classification Schemes & Trees**:
+   - Interactive flowcharts mirroring exact classification schemes taught in the slides: Table 5-1 Linnean Scheme (Lecture 1), Table 6.1 Oxygen Response (Lecture 3), and Slide 32 Nutritional Requirements Flowchart (Lecture 3).
+   - Step-by-step branch navigation revealing classification criteria and final organism group outcomes with direct slide references.
 3. **High-Yield Contrast Matrices (With Active Occlusion)**:
-   - Head-to-head comparison tables for high-confusion topics (Exotoxin vs. Endotoxin, Horizontal Gene Transfer Mechanisms, Cell Wall Architecture, Methods of Microbial Control, Spores vs. Vegetative Cells).
+   - Head-to-head comparison tables for high-yield slide topics (Cell Wall Architecture, Horizontal Gene Transfer Mechanisms Table Slide 35, Surface Virulence Factors Table 7-8, Bacterial Oxygen Classes Table 6.1, and Spores vs. Vegetative Cells).
    - **Blindfold Mode**: Toggling Active Occlusion masks table cells; tapping any masked cell reveals it, enabling active recall self-testing.
-4. **Clinical Rules of Thumb & Memory Anchors**:
-   - Fast-access heuristic cards (The Master Cocci Rule, The Master Bacilli Rule, The Endospore Rule, The Anthrax Polypeptide Exception, Bacteria Not Seen on Gram Stain, The TSI Decoder).
+4. **High-Yield Rules of Thumb & Memory Anchors**:
+   - Fast-access heuristic cards (The Master Cocci Rule, The Master Bacilli Rule, The Endospore Genera Rule, The Anthrax Polypeptide Exception, Bacteria Not Seen on Gram Stain, The TSI Decoder).
 
 ---
 

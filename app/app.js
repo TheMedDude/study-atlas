@@ -129,7 +129,7 @@ function notesPreview() {
 }
 function releaseHTML(version) {
   if (version === '1.2') {
-    return `<p class="eyebrow">VERSION 1.2 · NOVEMBER 9, 2026</p><h2>The Memorize Room & Question Bank Library.</h2><ul><li><strong>The Memorize Room</strong>: High-yield cognitive synthesis engine featuring 360° Organism Dossiers, interactive Diagnostic Decision Trees (GPC, GNR, Spores), side-by-side Comparison Matrices with Active Occlusion (Blindfold Mode), and clinical Rules of Thumb.</li><li><strong>Question Bank Library in Practice</strong>: Practice from All, Unpracticed Only (New), Missed / Needs Review, or Re-solve Practiced items.</li><li><strong>Question Library Browser</strong>: Inspect every question in the chapter bank with live status badges (✓ Mastered, ↻ Missed, • Unseen, ★ Saved) and instant single-question launching.</li><li><strong>General Microbiology Midterm Bank</strong>: 428 validated activities (409 discrete 5-option MCQs) with 100% core concept coverage across all 5 lectures.</li><li><strong>Bi-directional Synaptic Linking</strong>: Practice questions link directly to Organism Dossiers, and Organism Dossiers launch targeted micro-drills.</li></ul><p class="small muted">Fully slide-grounded in authoritative lecture PDFs. Private on-device progress with JSON backup.</p>`;
+    return `<p class="eyebrow">VERSION 1.2 · NOVEMBER 9, 2026</p><h2>The Memorize Room & Question Bank Library.</h2><ul><li><strong>The Memorize Room</strong>: High-yield cognitive synthesis engine featuring Bacteria Summaries, interactive Classification Trees (Table 5-1 Linnean Scheme, Oxygen Response, Nutritional Flowchart), side-by-side Comparison Matrices with Active Occlusion (Blindfold Mode), and high-yield Rules of Thumb.</li><li><strong>Question Bank Library in Practice</strong>: Practice from All, Unpracticed Only (New), Missed / Needs Review, or Re-solve Practiced items.</li><li><strong>Question Library Browser</strong>: Inspect every question in the chapter bank with live status badges (✓ Mastered, ↻ Missed, • Unseen, ★ Saved) and instant single-question launching.</li><li><strong>General Microbiology Midterm Bank</strong>: 428 validated activities (409 discrete 5-option MCQs) with 100% core concept coverage across all 5 lectures.</li><li><strong>Bi-directional Synaptic Linking</strong>: Practice questions link directly to Organism Summaries, and Organism Summaries launch targeted micro-drills.</li></ul><p class="small muted">Fully slide-grounded in authoritative lecture PDFs. Private on-device progress with JSON backup.</p>`;
   }
   return version==='1.1'?`<p class="eyebrow">VERSION 1.1 · NOVEMBER 7, 2026</p><h2>Pick up where you left off.</h2><ul><li>Previous, skip, finish anytime, and All available in practice.</li><li>Your place and elapsed study time save automatically.</li><li>Save questions and turn them into PDF study notes.</li><li>Navigation stays visible when explanations open.</li><li>Keyboard: 1–5 choose, Enter check/next, + slide, − previous.</li></ul><p class="small muted">Checked answers count even when you leave. Backups include saved questions and sessions.</p>`:
     `<p class="eyebrow">VERSION 1.0 · NOVEMBER 5, 2026</p><h2>Your first Study Atlas.</h2><ul><li>601 multiple-choice questions and 93 concept activities.</li><li>Practice, exams, English/Arabic explanations and source slides.</li><li>Progress on your device, with backup and restore.</li></ul>`;
@@ -260,7 +260,7 @@ function home() {
       <div class="memorize-banner-copy">
         <p class="eyebrow">THE MEMORIZE ROOM · COGNITIVE SYNTHESIS</p>
         <h2>Connect the pieces before you test.</h2>
-        <p>Unified organism dossiers across lectures, diagnostic flowcharts, contrast matrices with active occlusion, and clinical rules of thumb.</p>
+        <p>Unified organism profiles across lectures, classification flowcharts, contrast matrices with active occlusion, and high-yield rules of thumb.</p>
       </div>
       <div class="button-row">
         <button class="button primary" data-go="memorize">Enter Memorize Room ✦</button>
@@ -752,22 +752,23 @@ function renderTreesTab() {
     simContent = `
       <div class="sim-outcome-celebration panel ${gramClass}">
         <div class="sim-celebration-head">
-          <span class="sim-confirmed-badge">✓ DIAGNOSIS CONFIRMED</span>
+          <span class="sim-confirmed-badge">✓ CLASSIFICATION RESULT</span>
           <h3 class="sim-confirmed-title"><em>${esc(out.name)}</em></h3>
         </div>
         <p class="sim-confirmed-clues">${esc(out.clues)}</p>
         <div class="sim-celebration-actions">
           ${out.organismId ? `<button type="button" class="button primary" data-open-dossier="${esc(out.organismId)}">Open Bacteria Summary ↗</button>` : ''}
           ${out.organismId ? `<button type="button" class="button outline" data-quiz-organism="${esc(out.organismId)}">Quiz Organism</button>` : ''}
-          <button type="button" class="button outline" data-tree-sim-reset="true">↺ Start New Differential</button>
+          <button type="button" class="button outline" data-tree-sim-reset="true">↺ Start Over</button>
         </div>
+        ${out.sourceRefs ? `<div class="source-links" style="margin-top:0.75rem"><span class="dossier-refs-label">Slide references: </span>${out.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ ${esc(lectureTitle(r.lectureId))} p${r.pdfPage}</button>`).join('')}</div>` : ''}
       </div>
     `;
   } else if (simNode.step) {
     simContent = `
       <div class="sim-step-active panel">
         <div class="sim-active-header">
-          <span class="sim-step-num">CURRENT TEST (STEP ${simSteps.length})</span>
+          <span class="sim-step-num">CRITERION (STEP ${simSteps.length})</span>
           <h3 class="sim-active-title">${esc(simNode.step)}</h3>
           ${simNode.prompt ? `<p class="sim-active-prompt">${esc(simNode.prompt)}</p>` : ''}
           ${simNode.result ? `<div class="sim-active-result">${esc(simNode.result)}</div>` : ''}
@@ -781,7 +782,7 @@ function renderTreesTab() {
                 </span>
                 ${b.organismGroup ? `<span class="sim-choice-group">${esc(b.organismGroup)}</span>` : ''}
               </div>
-              <span class="sim-choice-arrow">Select Result ➔</span>
+              <span class="sim-choice-arrow">Select Branch ➔</span>
             </button>
           `).join('')}
         </div>
@@ -791,7 +792,7 @@ function renderTreesTab() {
 
   const breadcrumbBar = `
     <div class="sim-breadcrumb-bar">
-      <span class="sim-breadcrumb-title">Diagnostic Pathway:</span>
+      <span class="sim-breadcrumb-title">Classification Pathway:</span>
       <div class="sim-breadcrumb-trail">
         ${simSteps.map((s, idx) => `
           <button type="button" class="sim-crumb-btn ${idx === simSteps.length - 1 ? 'current' : ''}" data-tree-sim-back-to="${idx}">
@@ -817,11 +818,11 @@ function renderTreesTab() {
       <p class="tree-summary-text">${esc(currentTree.summary)}</p>
     </div>
 
-    <!-- Interactive Diagnostic Simulator -->
+    <!-- Interactive Classification Simulator -->
     <section class="tree-sim-section">
       <div class="sim-section-header">
-        <span class="sim-section-kicker">INTERACTIVE DIAGNOSTIC SIMULATOR</span>
-        <h2>Walk through the clinical laboratory differential</h2>
+        <span class="sim-section-kicker">INTERACTIVE CLASSIFICATION SIMULATOR</span>
+        <h2>Walk through the taxonomic & metabolic schemes</h2>
       </div>
       ${breadcrumbBar}
       ${simContent}
@@ -830,7 +831,7 @@ function renderTreesTab() {
     <!-- Complete Panoramic Flowchart Accordion -->
     <details class="flowchart-details panel" open>
       <summary class="flowchart-summary">
-        <span>Diagnostic Flowchart (Complete Algorithm)</span>
+        <span>Classification Flowchart (Complete Scheme)</span>
       </summary>
       <div class="flowchart-viewport">
         ${renderDiagramNode(currentTree.root)}
@@ -944,11 +945,11 @@ function memorizeView() {
     state.memorizeTab = hasOrganisms ? 'organisms' : hasTrees ? 'trees' : hasMatrices ? 'matrices' : 'heuristics';
   }
 
-  const head = pageHead('THE MEMORIZE ROOM', 'Synthesize, connect, remember.', 'Clinical bacterial profiles, diagnostic decision trees, side-by-side contrast matrices, and clinical rules of thumb.');
+  const head = pageHead('THE MEMORIZE ROOM', 'Synthesize, connect, remember.', 'Clinical bacterial profiles, classification trees, side-by-side contrast matrices, and clinical rules of thumb.');
 
   const subnav = `<nav class="memorize-subnav" aria-label="Memorize Room sections">
     ${hasOrganisms ? `<button class="memorize-nav-btn ${state.memorizeTab==='organisms'?'active':''}" data-memorize-tab="organisms">Bacteria Summary <small>${synthesisData.organisms.length}</small></button>` : ''}
-    ${hasTrees ? `<button class="memorize-nav-btn ${state.memorizeTab==='trees'?'active':''}" data-memorize-tab="trees">Diagnostic Trees <small>${synthesisData.trees.length}</small></button>` : ''}
+    ${hasTrees ? `<button class="memorize-nav-btn ${state.memorizeTab==='trees'?'active':''}" data-memorize-tab="trees">Classification Trees <small>${synthesisData.trees.length}</small></button>` : ''}
     ${hasMatrices ? `<button class="memorize-nav-btn ${state.memorizeTab==='matrices'?'active':''}" data-memorize-tab="matrices">Comparison Matrices <small>${synthesisData.matrices.length}</small></button>` : ''}
     ${hasHeuristics ? `<button class="memorize-nav-btn ${state.memorizeTab==='heuristics'?'active':''}" data-memorize-tab="heuristics">Rules of Thumb <small>${synthesisData.heuristics.length}</small></button>` : ''}
   </nav>`;

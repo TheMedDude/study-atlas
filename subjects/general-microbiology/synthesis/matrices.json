@@ -3,187 +3,225 @@
   "subjectId": "general-microbiology",
   "matrices": [
     {
-      "id": "exotoxin-vs-endotoxin",
-      "title": "Exotoxin vs. Endotoxin",
-      "summary": "High-yield side-by-side contrast between secreted bacterial protein exotoxins and outer-membrane lipopolysaccharide endotoxins.",
-      "columns": [
-        "Feature",
-        "Exotoxin",
-        "Endotoxin (LPS Lipid A)"
-      ],
-      "rows": [
-        [
-          "Bacterial Source",
-          "Secreted by both Gram-positive and Gram-negative bacteria [L5 p15]",
-          "Integral component of the outer membrane of Gram-negative bacteria ONLY [L1 p20, 23, L5 p25]"
-        ],
-        [
-          "Chemical Composition",
-          "Polypeptide / Protein [L5 p15]",
-          "Lipopolysaccharide complex (toxic moiety is Lipid A) [L1 p23, L5 p25]"
-        ],
-        [
-          "Gene Location",
-          "Often encoded on extrachromosomal plasmids or lysogenic temperate bacteriophages [L2 p8, 22]",
-          "Encoded by stable bacterial chromosomal genes required for cell envelope structure [L1 p23]"
-        ],
-        [
-          "Toxicity & Lethality",
-          "Extremely potent; lethal in microgram or nanogram amounts (e.g., botulinum toxin is the most lethal poison known) [L5 p15, 17]",
-          "Moderately toxic; lethal dose is much higher (milligram amounts) [L5 p25]"
-        ],
-        [
-          "Heat Stability",
-          "Heat-labile: Rapidly destroyed at 60°C (major exception: staphylococcal enterotoxin is heat-stable) [L5 p15, 19]",
-          "Heat-stable: Readily withstands 100°C boiling for 1 hour without loss of activity [L1 p23, L5 p25]"
-        ],
-        [
-          "Toxoid & Vaccine Feasibility",
-          "Highly immunogenic; can be detoxified with formaldehyde to form non-toxic **toxoids** used in vaccines (e.g., tetanus and diphtheria toxoids) [L5 p24]",
-          "Weakly immunogenic; CANNOT be converted into toxoids; no effective toxoid vaccines exist [L5 p25]"
-        ],
-        [
-          "Receptor & Action Mechanism",
-          "Binds specific host cell surface receptors; acts via specialized enzymatic mechanisms (e.g., ADP-ribosylation of EF-2, cleavage of SNAREs, superantigens) [L5 p16-22]",
-          "Binds CD14/TLR4 on macrophages to trigger massive systemic release of endogenous cytokines: **IL-1, TNF-alpha, Nitric Oxide, PAF** [L1 p23, L5 p25]"
-        ],
-        [
-          "Clinical Manifestations",
-          "Specific disease syndromes based on target tissue: Spastic paralysis (tetanus), flaccid paralysis (botulism), rice-water diarrhea (cholera), diphtheritic membrane [L5 p17-22]",
-          "Non-specific systemic manifestations: High fever (IL-1), septic shock and hypotension (TNF), disseminated intravascular coagulation (DIC via tissue factor) [L1 p23, L5 p25]"
-        ]
-      ]
-    },
-    {
-      "id": "gene-transfer-mechanisms",
-      "title": "Mechanisms of Horizontal Gene Transfer",
-      "summary": "Comparison of Transformation, Conjugation, and Transduction in bacterial genetic recombination.",
-      "columns": [
-        "Mechanism",
-        "Vehicle / Requirement",
-        "Sensitivity to DNase",
-        "Key Medical Significance & Course Examples"
-      ],
-      "rows": [
-        [
-          "Transformation [L2 p14]",
-          "Uptake of free, naked DNA from the extracellular environment by 'competent' recipient cells [L2 p14]",
-          "**Sensitive to DNase** (extracellular deoxyribonuclease degrades free DNA in the medium and aborts transfer) [L2 p14]",
-          "Griffith experiment; natural competence in Streptococcus pneumoniae, Neisseria, and Haemophilus; transfer of capsule and penicillin-binding protein genes [L2 p14, 15]"
-        ],
-        [
-          "Conjugation [L2 p16]",
-          "Direct cell-to-cell contact mediated by a **sex pilus**; F factor (plasmid) transfers a single strand via rolling circle replication from F+ donor to F- recipient [L2 p7, 16]",
-          "**Resistant to DNase** (transferred DNA passes directly through a protected intercellular cytoplasmic bridge) [L2 p16]",
-          "Primary mechanism for rapid epidemic spread of multi-drug resistance plasmids (R factors) among Enterobacteriaceae; Hfr strains transfer chromosomal genes [L2 p8, 17, 27]"
-        ],
-        [
-          "Transduction (Generalized) [L2 p20]",
-          "Accidental packaging of random fragments of host bacterial chromosomal DNA into a **lytic bacteriophage** capsid during assembly [L2 p20]",
-          "**Resistant to DNase** (transferred DNA is shielded inside the viral protein capsid) [L2 p20]",
-          "Transfers any bacterial gene at low frequency; mediated by virulent or temperate phages; does not require cell-to-cell contact [L2 p20, 21]"
-        ],
-        [
-          "Transduction (Specialized) [L2 p22]",
-          "Faulty excision of an integrated **temperate (lysogenic) prophage** from the host chromosome, carrying adjacent flanking bacterial genes [L2 p22]",
-          "**Resistant to DNase** (transferred DNA is inside viral capsid) [L2 p22]",
-          "**Lysogenic conversion**: Acquisition of potent exotoxin genes (Diphtheria toxin in Corynebacterium, Botulinum toxin C/D, Cholera toxin in Vibrio, Shiga-like toxin in E. coli, SpeA in GAS) [L2 p22]"
-        ]
-      ]
-    },
-    {
       "id": "cell-wall-architecture",
       "title": "Gram-Positive vs. Gram-Negative Cell Wall Architecture",
-      "summary": "Structural, biochemical, and pharmacological distinctions between Gram-positive and Gram-negative envelopes.",
+      "summary": "Core structural and biochemical differences between Gram-positive and Gram-negative bacterial envelopes (Table on Slide 15 & 18).",
       "columns": [
         "Structural Component",
-        "Gram-Positive Bacteria [L1 p14-27]",
-        "Gram-Negative Bacteria [L1 p14-27]"
+        "Gram-Positive Bacteria [L1 p15-27]",
+        "Gram-Negative Bacteria [L1 p15-27]"
       ],
       "rows": [
         [
           "Peptidoglycan Layer",
-          "Thick, multi-layered sacculus (up to 40 layers, 20-80 nm); highly cross-linked by pentaglycine peptide bridges [L1 p15, 25]",
-          "Thin, single- or double-layered sheet (1-2 layers, 1-3 nm); directly cross-linked between D-alanine and diaminopimelic acid [L1 p15, 25]"
+          "Thick, multilayered sacculus (up to 40 layers); provides high osmotic protection [L1 p15, 24, 25]",
+          "Thin, single- or double-layered peptidoglycan sheet (1-2 layers) [L1 p15, 25]"
         ],
         [
           "Outer Membrane",
           "**Absent** [L1 p15]",
-          "**Present**: Asymmetric lipid bilayer (inner leaflet phospholipids, outer leaflet lipopolysaccharide) [L1 p15, 20]"
+          "**Present**: Asymmetric bilayer containing phospholipids and lipopolysaccharide [L1 p15, 20]"
         ],
         [
           "Lipopolysaccharide (LPS / Endotoxin)",
           "**Absent** [L1 p15]",
-          "**Present** in outer leaflet: Composed of Lipid A (toxic domain), Core polysaccharide, and O-antigen repeat units [L1 p20, 23]"
+          "**Present** in outer membrane outer leaflet; toxic moiety is Lipid A [L1 p20, 23]"
         ],
         [
           "Teichoic & Lipoteichoic Acids",
-          "**Present**: Ribitol or glycerol phosphate polymers; wall teichoic acids covalent to peptidoglycan; lipoteichoic acids anchor in cytoplasmic membrane; induce TNF and IL-1 (sepsis) [L1 p21, 27]",
+          "**Present**: Wall teichoic acids and membrane-anchored lipoteichoic acids; induce septic response [L1 p21, 27]",
           "**Absent** entirely [L1 p15, 27]"
         ],
         [
           "Periplasmic Space",
           "Narrow or virtually absent [L1 p15]",
-          "**Prominent gel-filled space** between inner and outer membranes; contains **beta-lactamases**, transport proteins, and nutrient-processing enzymes [L1 p16, 18]"
+          "**Present**: Distinct compartment containing transport proteins and beta-lactamase enzymes [L1 p16, 18]"
         ],
         [
           "Porin Channels",
-          "**Absent** (nutrients diffuse directly through porous peptidoglycan mesh) [L1 p19]",
-          "**Present**: Trimeric protein channels spanning outer membrane; regulate passage of hydrophilic molecules and antibiotics [L1 p19]"
+          "**Absent** (molecules diffuse through open peptidoglycan pores) [L1 p19]",
+          "**Present**: Transmembrane protein channels regulating passage of hydrophilic nutrients [L1 p19]"
         ],
         [
-          "Susceptibility to Lysozyme",
-          "**Highly sensitive**: Lysozyme hydrolyzes beta-1,4 glycosidic bond between NAM and NAG, forming osmotic protoplasts [L1 p36]",
-          "**Low sensitivity**: Outer membrane shields peptidoglycan from lysozyme unless membrane is first permeabilized with EDTA [L1 p36]"
+          "Lysozyme Sensitivity",
+          "**Highly sensitive**: Lysozyme hydrolyzes beta-1,4 glycosidic bonds to produce protoplasts [L1 p36]",
+          "**Protected**: Outer membrane shields peptidoglycan from lysozyme [L1 p36]"
         ],
         [
-          "Susceptibility to Penicillins",
-          "Generally high susceptibility to natural penicillins (e.g. Penicillin G) if non-beta-lactamase producing [L1 p31]",
-          "Naturally more resistant due to outer membrane barrier and periplasmic beta-lactamase localization [L1 p16, 31]"
+          "Penicillin Susceptibility",
+          "Generally susceptible if non-beta-lactamase producing [L1 p31]",
+          "More resistant due to outer membrane barrier and periplasmic beta-lactamases [L1 p16, 31]"
         ]
       ]
     },
     {
-      "id": "microbial-control-methods",
-      "title": "Physical and Chemical Methods of Microbial Control",
-      "summary": "Sterilization, disinfection, and antisepsis parameters tested in medical microbiology.",
+      "id": "gene-transfer-mechanisms",
+      "title": "Comparison of DNA-Transfer Procedures (Slide 35)",
+      "summary": "Direct reproduction of the comparison table from Lecture 2 Slide 35 comparing Conjugation, Transduction, and Transformation.",
       "columns": [
-        "Method / Agent",
-        "Operating Parameters & Conditions",
-        "Mechanism of Inactivation",
-        "Key Medical Application & Limitations"
+        "Transfer Procedure",
+        "Process Description [L2 p35]",
+        "Type of Cells Involved [L2 p35]",
+        "Nature of DNA Transferred [L2 p35]"
       ],
       "rows": [
         [
-          "Steam Under Pressure (Autoclave) [L1 p53, L3 p41]",
-          "**121°C at 15 pounds per square inch (psi) pressure for 15-20 minutes** [L1 p53, L3 p41]",
-          "Denatures and coagulates microbial structural proteins and essential enzymes; penetrates spores rapidly [L1 p53]",
-          "**Gold-standard sterilization**: Kills all vegetative cells and resistant endospores (biological indicator: Geobacillus stearothermophilus spores) [L1 p53]"
+          "Conjugation [L2 p26, 35]",
+          "DNA transferred directly from one bacterium to another via sex pilus bridge [L2 p26, 35]",
+          "Prokaryotic cells [L2 p35]",
+          "Chromosomal or plasmid DNA (F factor, R plasmids) [L2 p26, 35]"
         ],
         [
-          "Dry Heat (Hot Air Oven) [L3 p42]",
-          "**160°C to 170°C for 2 hours** [L3 p42]",
-          "Oxidation of cellular constituents and thermal protein denaturation [L3 p42]",
-          "Used for dry glassware, metal instruments, and anhydrous oils/powders that cannot tolerate moisture [L3 p42]"
+          "Transduction [L2 p30, 35]",
+          "DNA transferred by a bacterial virus (bacteriophage) from one cell to another [L2 p30, 35]",
+          "Prokaryotic cells [L2 p35]",
+          "Any bacterial gene in generalized transduction (or specific genes in lysogenic conversion) [L2 p30, 31, 35]"
         ],
         [
-          "Membrane Filtration [L3 p44]",
-          "**0.22 micrometer pore-size filters** [L3 p44]",
-          "Physical retention/exclusion of bacterial cells based on size [L3 p44]",
-          "Sterilizes heat-labile liquids (e.g., intravenous fluids, antibiotic solutions, serum, enzyme preparations); does NOT remove viruses [L3 p44]"
+          "Transformation [L2 p33, 35]",
+          "Purified naked DNA taken up from extracellular environment by a competent cell [L2 p33, 35]",
+          "Prokaryotic or eukaryotic cells [L2 p35]",
+          "Any free DNA fragment (e.g. Griffith pneumococcal capsule transformation) [L2 p33, 34, 35]"
+        ]
+      ]
+    },
+    {
+      "id": "surface-virulence-factors",
+      "title": "Surface Virulence Factors in Bacterial Pathogenesis (Table 7-8)",
+      "summary": "Direct reproduction of Table 7-8 from Lecture 5 Slide 49 cataloging surface virulence factors across major bacterial pathogens.",
+      "columns": [
+        "Bacterial Group",
+        "Organism [L5 p49]",
+        "Virulence Factor [L5 p49]",
+        "Used in Vaccine [L5 p49]",
+        "Comment / Mechanism [L5 p49]"
+      ],
+      "rows": [
+        [
+          "Gram-positive cocci",
+          "Streptococcus pneumoniae",
+          "Polysaccharide capsule",
+          "Yes",
+          "Antiphagocytic; determines serotype specificity [L5 p49]"
         ],
         [
-          "Alcohols (70% Ethyl / Isopropyl) [L3 p46]",
-          "**70% aqueous concentration** (more bactericidal than 100% absolute alcohol because water facilitates protein denaturation) [L3 p46]",
-          "Disrupts lipid membrane integrity and coagulates proteins [L3 p46]",
-          "**Antiseptic**: Skin disinfection prior to venipuncture; does NOT kill bacterial endospores [L1 p53, L3 p46]"
+          "Gram-positive cocci",
+          "Streptococcus pyogenes",
+          "M protein",
+          "No",
+          "Antiphagocytic surface fibril; determines serotype [L5 p49]"
+        ],
+        [
+          "Gram-positive cocci",
+          "Staphylococcus aureus",
+          "Protein A",
+          "No",
+          "Binds IgG Fc region; prevents opsonization and complement activation [L5 p47, 49]"
+        ],
+        [
+          "Gram-negative cocci",
+          "Neisseria meningitidis",
+          "Polysaccharide capsule",
+          "Yes",
+          "Antiphagocytic capsule; determines meningococcal serogroup [L5 p49]"
+        ],
+        [
+          "Gram-positive rods",
+          "Bacillus anthracis",
+          "Polypeptide capsule",
+          "No",
+          "Unique poly-D-glutamic acid capsule; antiphagocytic [L1 p42, L5 p49]"
+        ],
+        [
+          "Gram-negative rods",
+          "Haemophilus influenzae",
+          "Polysaccharide capsule",
+          "Yes",
+          "Antiphagocytic capsule; type b capsule used in conjugate vaccine [L5 p49]"
+        ],
+        [
+          "Gram-negative rods",
+          "Klebsiella pneumoniae",
+          "Polysaccharide capsule",
+          "No",
+          "Thick mucoid capsule preventing phagocytosis [L5 p49]"
+        ],
+        [
+          "Gram-negative rods",
+          "Escherichia coli",
+          "Protein pili (fimbriae)",
+          "No",
+          "Mediates adherence to uroepithelial and intestinal cell receptors [L1 p48, L5 p49]"
+        ],
+        [
+          "Gram-negative rods",
+          "Salmonella typhi",
+          "Polysaccharide capsule (Vi antigen)",
+          "No",
+          "Antiphagocytic Vi surface antigen [L1 p42, L5 p49]"
+        ],
+        [
+          "Gram-negative rods",
+          "Yersinia pestis",
+          "V and W proteins",
+          "No",
+          "Surface virulence proteins essential for pathogenesis [L5 p49]"
+        ]
+      ]
+    },
+    {
+      "id": "oxygen-classes-enzymes",
+      "title": "Bacterial Oxygen Response Classes & Detoxifying Enzymes (Table 6.1)",
+      "summary": "Direct reproduction of Table 6.1 from Lecture 3 Slide 16 showing the oxygen requirements and enzyme profiles of bacterial groups.",
+      "columns": [
+        "Oxygen Response Group",
+        "Effect of Atmospheric Oxygen [L3 p15, 16]",
+        "Superoxide Dismutase (SOD) [L3 p14, 16]",
+        "Catalase [L3 p14, 16]",
+        "Representative Examples [L3 p15, 16]"
+      ],
+      "rows": [
+        [
+          "Obligate Aerobe",
+          "Required for growth; energy derived via aerobic respiration [L3 p15]",
+          "**Present** [L3 p16]",
+          "**Present** [L3 p16]",
+          "Mycobacterium tuberculosis, Pseudomonas aeruginosa [L3 p15]"
+        ],
+        [
+          "Facultative Anaerobe",
+          "Utilizes O2 when available; ferments or respires anaerobically without O2 [L3 p15]",
+          "**Present** [L3 p16]",
+          "**Present** [L3 p16]",
+          "Escherichia coli, Staphylococcus aureus [L3 p15]"
+        ],
+        [
+          "Obligate Anaerobe",
+          "Toxic and lethal; lacks protective detoxifying enzymes [L3 p15]",
+          "**Absent** [L3 p16]",
+          "**Absent** [L3 p16]",
+          "Clostridium tetani, Clostridium botulinum [L3 p15]"
+        ],
+        [
+          "Microaerophile",
+          "Grows best at low oxygen concentrations (inhibited by 20% O2) [L3 p15]",
+          "**Present** [L3 p16]",
+          "**Present** [L3 p16]",
+          "Campylobacter jejuni, Helicobacter pylori [L3 p15]"
+        ],
+        [
+          "Aerotolerant Anaerobe",
+          "Exclusively fermentative; tolerates O2 presence [L3 p15]",
+          "**Present** [L3 p16]",
+          "**Absent** [L3 p16]",
+          "Certain lactic acid fermenting bacteria [L3 p15, 16]"
         ]
       ]
     },
     {
       "id": "spores-vs-vegetative",
       "title": "Bacterial Endospores vs. Vegetative Cells",
-      "summary": "Key structural, physiological, and chemical differences between dormant endospores and active vegetative bacteria.",
+      "summary": "Core morphological and physiological contrasts between dormant endospores and active vegetative cells from Lecture 1 Slides 52-54.",
       "columns": [
         "Property",
         "Endospore [L1 p52-54]",
@@ -191,34 +229,29 @@
       ],
       "rows": [
         [
-          "Metabolic State",
-          "Completely metabolically dormant; zero detectable enzymatic respiration or macromolecular synthesis [L1 p52]",
-          "Metabolically active; continuous replication, protein synthesis, and nutrient uptake [L1 p12, L3 p4]"
+          "Metabolic Activity",
+          "Metabolically dormant; zero detectable respiration [L1 p52]",
+          "Metabolically active; continuous replication and protein synthesis [L1 p12]"
         ],
         [
           "Calcium Dipicolinate Content",
-          "**High** (calcium dipicolinate constitutes up to 10-15% of spore dry weight; chelates calcium to dehydrate core) [L1 p52]",
+          "**High** (up to 15% of spore dry weight; chelates calcium to dehydrate core) [L1 p52]",
           "**Absent** entirely [L1 p52]"
         ],
         [
-          "Water Content",
-          "Extremely low core hydration (10% to 25% water content); gel-like consistency protects DNA from heat denaturation [L1 p52]",
+          "Core Water Content",
+          "Low core hydration (10% to 25% water content) [L1 p52]",
           "High hydration (75% to 80% water content) [L1 p12]"
         ],
         [
-          "Resistance to Heat & Boiling",
-          "Remarkably heat-resistant; survives 100°C boiling for hours; killed only by pressurized steam autoclaving at 121°C for 15-20 min [L1 p53]",
-          "Heat-sensitive; killed by boiling or pasteurization (60-65°C for 30 minutes) [L1 p53, L3 p41]"
-        ],
-        [
-          "Resistance to Chemicals & Radiation",
-          "Highly resistant to disinfectants, drying, organic solvents, and UV/ionizing radiation due to thick keratin-like spore coat [L1 p52, 53]",
-          "Sensitive to standard disinfectants (alcohols, phenols, halogens) and drying [L3 p46]"
+          "Heat Resistance",
+          "Survives 100°C boiling for hours; killed only by pressurized steam autoclaving at 121°C for 15-20 min [L1 p53]",
+          "Heat-sensitive; killed by boiling or pasteurization temperatures [L1 p53]"
         ],
         [
           "Genera Capable of Sporulation",
-          "**Only two medically important genera**: Bacillus (aerobic) and Clostridium (anaerobic) [L1 p52, L3 p14]",
-          "All bacterial genera [L1 p8]"
+          "Produced only by **Bacillus** (aerobic) and **Clostridium** (anaerobic) [L1 p52, 54, 58]",
+          "All bacterial species in their active growth form [L1 p8, 12]"
         ]
       ]
     }

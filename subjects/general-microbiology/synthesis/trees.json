@@ -3,140 +3,77 @@
   "subjectId": "general-microbiology",
   "trees": [
     {
-      "id": "gpc-algorithm",
-      "title": "Gram-Positive Cocci Identification Flowchart",
-      "summary": "Step-by-step diagnostic pathway differentiating Staphylococci from Streptococci, followed by Coagulase, Hemolysis, and disk sensitivities.",
+      "id": "bacterial-taxonomic-classification",
+      "title": "Linnean Classification of Medically Important Bacteria (Table 5-1)",
+      "summary": "Master taxonomic scheme classifying bacteria by cell wall architecture (rigid, flexible, absent), free-living capacity, Gram stain, morphology, and oxygen requirements.",
       "root": {
-        "step": "Gram Stain & Microscopic Arrangement",
-        "prompt": "Spherical cells retaining crystal violet (purple/blue) [L1 p8, 28]",
+        "step": "Nature of the Bacterial Cell Wall",
+        "prompt": "Evaluate cell wall architecture: rigid peptidoglycan wall, flexible thin wall, or absent wall [L1 p57]",
         "branches": [
           {
-            "label": "Clusters (irregular grape-like bunches)",
-            "organismGroup": "Staphylococcus genus [L1 p8]",
+            "label": "Rigid, Thick Peptidoglycan Cell Wall",
+            "organismGroup": "Eubacteria with peptidoglycan sacculus [L1 p57]",
             "next": {
-              "step": "Catalase Test (2 H2O2 → 2 H2O + O2)",
+              "step": "Growth Capability: Free-Living vs. Obligate Intracellular",
+              "prompt": "Can the organism grow on artificial laboratory media without living host cells? [L1 p57]",
               "branches": [
                 {
-                  "label": "Positive (Vigorous bubbling / O2 effervescence)",
-                  "result": "Staphylococcus species [L3 p20]",
+                  "label": "Free-Living (Grows on non-living laboratory media)",
+                  "organismGroup": "Independent metabolic bacteria [L1 p57]",
                   "next": {
-                    "step": "Coagulase Test (Rabbit plasma clot formation)",
+                    "step": "Gram Stain Reaction & Envelope Structure",
+                    "prompt": "Evaluate crystal violet retention: thick peptidoglycan vs outer membrane LPS [L1 p15, 57]",
                     "branches": [
                       {
-                        "label": "Positive (Fibrin clot formed within 4 hours)",
-                        "outcome": {
-                          "name": "Staphylococcus aureus",
-                          "organismId": "staphylococcus-aureus",
-                          "clues": "Golden-yellow pigment, beta-hemolytic on blood agar, ferments mannitol yellow on MSA, cell wall Protein A.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 21
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 27
-                            },
-                            {
-                              "lectureId": "bacterial-pathogenesis",
-                              "pdfPage": 13
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "label": "Negative (No clot / CoNS)",
+                        "label": "Gram-Positive (Thick peptidoglycan wall, teichoic acid)",
+                        "organismGroup": "Gram-positive eubacteria [L1 p15, 58]",
                         "next": {
-                          "step": "Novobiocin Disk Susceptibility Test",
+                          "step": "Cell Shape & Endospore-Forming Ability",
+                          "prompt": "Determine morphology (cocci vs bacilli) and sporulation capacity [L1 p8, 58]",
                           "branches": [
                             {
-                              "label": "Sensitive (Zone of inhibition >16 mm)",
+                              "label": "Spherical cells (Cocci in clusters or chains)",
                               "outcome": {
-                                "name": "Staphylococcus epidermidis",
-                                "organismId": "staphylococcus-epidermidis",
-                                "clues": "Major resident skin flora; synthesizes extensive extracellular slime / biofilm on prosthetic valves, orthopedic implants, and IV lines.",
+                                "name": "Gram-Positive Cocci: Staphylococcus & Streptococcus",
+                                "clues": "Staphylococcus (grape-like clusters; S. aureus, S. epidermidis) and Streptococcus (chains or pairs; S. pneumoniae, S. pyogenes) [L1 p8, 58].",
                                 "sourceRefs": [
                                   {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 30
-                                  },
-                                  {
-                                    "lectureId": "normal-flora",
-                                    "pdfPage": 9
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "label": "Resistant (Grows up to disk margin)",
-                              "outcome": {
-                                "name": "Staphylococcus saprophyticus",
-                                "clues": "Second leading cause of acute community-acquired urinary tract infections in sexually active young women.",
-                                "sourceRefs": [
-                                  {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 30
-                                  }
-                                ]
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "label": "Chains or Pairs",
-            "organismGroup": "Streptococcus genus [L1 p8]",
-            "next": {
-              "step": "Catalase Test",
-              "branches": [
-                {
-                  "label": "Negative (No bubbles formed)",
-                  "result": "Streptococcus species [L3 p20]",
-                  "next": {
-                    "step": "Blood Agar Hemolysis Pattern",
-                    "branches": [
-                      {
-                        "label": "Alpha-Hemolysis (Greenish partial clearing halo)",
-                        "next": {
-                          "step": "Optochin Sensitivity & Bile Solubility",
-                          "branches": [
-                            {
-                              "label": "Optochin Sensitive & Bile Soluble",
-                              "outcome": {
-                                "name": "Streptococcus pneumoniae (Pneumococcus)",
-                                "organismId": "streptococcus-pneumoniae",
-                                "clues": "Lancet-shaped diplococci, prominent polysaccharide capsule, Quellung positive, lobar pneumonia with rusty sputum.",
-                                "sourceRefs": [
-                                  {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 31
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 8
                                   },
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
-                                    "pdfPage": 43
+                                    "pdfPage": 58
                                   }
                                 ]
                               }
                             },
                             {
-                              "label": "Optochin Resistant & Bile Insoluble",
+                              "label": "Spore-Forming Rods (Endospores present)",
                               "outcome": {
-                                "name": "Streptococcus viridans group (S. mutans, S. mitis)",
-                                "clues": "Normal oropharyngeal flora; dextran biofilm causes dental caries; causes subacute bacterial endocarditis on damaged heart valves.",
+                                "name": "Spore-Forming Gram-Positive Rods: Bacillus & Clostridium",
+                                "clues": "Bacillus (aerobic spore-former; B. anthracis) and Clostridium (anaerobic spore-former; C. tetani, C. botulinum) [L1 p52, 58].",
                                 "sourceRefs": [
                                   {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 31
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 52
                                   },
                                   {
-                                    "lectureId": "normal-flora",
-                                    "pdfPage": 14
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 58
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "Non-Spore-Forming Rods (No endospores)",
+                              "outcome": {
+                                "name": "Non-Spore-Forming Gram-Positive Rods: Corynebacterium & Listeria",
+                                "clues": "Non-spore-forming Gram-positive bacilli include Corynebacterium (diphtheroids) and Listeria [L1 p58].",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 58
                                   }
                                 ]
                               }
@@ -145,41 +82,59 @@
                         }
                       },
                       {
-                        "label": "Beta-Hemolysis (Complete clear zone of lysis)",
+                        "label": "Gram-Negative (Outer membrane, LPS endotoxin, periplasmic space)",
+                        "organismGroup": "Gram-negative eubacteria [L1 p15, 59]",
                         "next": {
-                          "step": "Bacitracin Disk Susceptibility (Taxo A)",
+                          "step": "Cell Shape & Primary Clinical/Anatomic Division",
+                          "prompt": "Determine morphology (cocci, straight rods, curved rods) and primary niche [L1 p56, 59, 60]",
                           "branches": [
                             {
-                              "label": "Bacitracin Sensitive (Zone of inhibition)",
+                              "label": "Gram-Negative Diplococci",
                               "outcome": {
-                                "name": "Streptococcus pyogenes (Group A Streptococcus)",
-                                "organismId": "streptococcus-pyogenes",
-                                "clues": "M protein, hyaluronic acid capsule, strep throat, scarlet fever, erysipelas, rheumatic fever, post-streptococcal glomerulonephritis.",
+                                "name": "Gram-Negative Cocci: Neisseria Genus",
+                                "clues": "Kidney bean-shaped diplococci: Neisseria meningitidis (meningococcus) and Neisseria gonorrhoeae (gonococcus) [L1 p8, 59].",
                                 "sourceRefs": [
                                   {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 31
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 8
                                   },
                                   {
-                                    "lectureId": "bacterial-pathogenesis",
-                                    "pdfPage": 14
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 59
                                   }
                                 ]
                               }
                             },
                             {
-                              "label": "Bacitracin Resistant",
+                              "label": "Gram-Negative Straight Rods (Enteric, Respiratory, Zoonotic)",
                               "outcome": {
-                                "name": "Streptococcus agalactiae (Group B Streptococcus)",
-                                "clues": "Colonizes maternal genital tract; leading bacterial cause of neonatal sepsis, pneumonia, and meningitis.",
+                                "name": "Gram-Negative Straight Bacilli: Enteric, Respiratory & Zoonotic",
+                                "clues": "Enteric: E. coli, Salmonella, Shigella, Klebsiella, Proteus, Pseudomonas; Respiratory: Haemophilus, Bordetella, Legionella; Zoonotic: Brucella, Francisella, Yersinia [L1 p56, 59].",
                                 "sourceRefs": [
                                   {
-                                    "lectureId": "bacterial-growth",
-                                    "pdfPage": 31
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 56
                                   },
                                   {
-                                    "lectureId": "normal-flora",
-                                    "pdfPage": 23
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 59
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "Gram-Negative Curved Rods (Comma-shaped or helical)",
+                              "outcome": {
+                                "name": "Gram-Negative Curved Rods: Vibrio, Campylobacter & Helicobacter",
+                                "clues": "Comma-shaped Vibrio cholerae, microaerophilic Campylobacter jejuni, and Helicobacter pylori [L1 p8, 60].",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 8
+                                  },
+                                  {
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 60
                                   }
                                 ]
                               }
@@ -188,24 +143,83 @@
                         }
                       },
                       {
-                        "label": "Gamma-Hemolysis (No hemolysis on blood agar)",
+                        "label": "Acid-Fast Rods (Mycolic acid lipid-rich wall)",
                         "outcome": {
-                          "name": "Enterococcus faecalis / faecium (Group D)",
-                          "clues": "Grows in 6.5% NaCl broth and 40% bile; hydrolyzes bile esculin to produce black colonies; causes nosocomial UTIs and bacteremia.",
+                          "name": "Acid-Fast Bacilli: Mycobacterium Genus",
+                          "clues": "High lipid/mycolic acid content resists standard Gram stain; retains carbolfuchsin red on Ziehl-Neelsen stain (M. tuberculosis) [L1 p33, 60].",
                           "sourceRefs": [
                             {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 25
+                              "lectureId": "bacteria-and-other-microorganisms",
+                              "pdfPage": 33
                             },
                             {
-                              "lectureId": "normal-flora",
-                              "pdfPage": 18
+                              "lectureId": "bacteria-and-other-microorganisms",
+                              "pdfPage": 60
                             }
                           ]
                         }
                       }
                     ]
                   }
+                },
+                {
+                  "label": "Non-Free-Living (Obligate intracellular parasites)",
+                  "outcome": {
+                    "name": "Obligate Intracellular Bacteria: Rickettsia & Chlamydia",
+                    "clues": "Cannot replicate on artificial cell-free media; rely strictly on host cell ATP and intracellular cytoplasm [L1 p57, 60, 63].",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 57
+                      },
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 60
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "Flexible, Thin Cell Wall (Spirochetes)",
+            "outcome": {
+              "name": "Spirochetes: Treponema, Borrelia & Leptospira",
+              "clues": "Spiral, flexible, slender undulating rods; require darkfield or fluorescent microscopy (Treponema pallidum, Borrelia, Leptospira) [L1 p8, 57, 60].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 8
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 57
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 60
+                }
+              ]
+            }
+          },
+          {
+            "label": "Wall-Less Bacteria (Lacks Peptidoglycan Cell Wall)",
+            "outcome": {
+              "name": "Wall-Less Bacteria: Mycoplasma Genus",
+              "clues": "Completely lacks peptidoglycan cell wall; bounded only by a triple-layered cell membrane containing sterols; pleomorphic (Mycoplasma pneumoniae) [L1 p32, 57, 60].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 32
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 57
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 60
                 }
               ]
             }
@@ -214,29 +228,181 @@
       }
     },
     {
-      "id": "gnr-algorithm",
-      "title": "Gram-Negative Bacilli Diagnostic Flowchart",
-      "summary": "Algorithmic differentiation of Gram-negative rods using MacConkey agar lactose fermentation, Oxidase reaction, and TSI patterns.",
+      "id": "oxygen-response-classification",
+      "title": "Bacterial Classification by Oxygen Response & Enzymes (Table 6.1)",
+      "summary": "Diagnostic pathway classifying bacteria by atmospheric oxygen requirement, metabolic tolerance, and presence of detoxifying enzymes (Superoxide Dismutase & Catalase).",
       "root": {
-        "step": "MacConkey Agar (Selective & Differential)",
-        "prompt": "Bile salts and crystal violet inhibit Gram-positives; lactose and neutral red test for fermentation [L3 p28]",
+        "step": "Atmospheric Oxygen Requirement & Growth Effect",
+        "prompt": "Evaluate bacterial growth in the presence vs. absence of atmospheric oxygen [L3 p14, 15]",
         "branches": [
           {
-            "label": "Lactose Fermenter (Pink / Red colonies with bile precipitation)",
-            "organismGroup": "Coliform Enterics [L3 p28]",
+            "label": "Requires Atmospheric Oxygen for Growth",
+            "outcome": {
+              "name": "Obligate Aerobe (SOD + Catalase Present)",
+              "clues": "Requires atmospheric oxygen for energy production via cellular respiration; possesses both superoxide dismutase (SOD) and catalase to detoxify O2- and H2O2 (e.g., Mycobacterium tuberculosis, Pseudomonas aeruginosa) [L3 p14, 15, 16].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 14
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 16
+                }
+              ]
+            }
+          },
+          {
+            "label": "Grows With or Without Oxygen (Respiration or Fermentation)",
+            "outcome": {
+              "name": "Facultative Anaerobe (SOD + Catalase Present)",
+              "clues": "Utilizes oxygen for respiration when present, but switches to anaerobic fermentation in its absence; possesses both superoxide dismutase and catalase (e.g., Escherichia coli, Staphylococcus aureus) [L3 p14, 15, 16].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 14
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 16
+                }
+              ]
+            }
+          },
+          {
+            "label": "Killed by Atmospheric Oxygen (Lacks Detoxifying Enzymes)",
+            "outcome": {
+              "name": "Obligate Anaerobe (SOD & Catalase Absent)",
+              "clues": "Incapable of aerobic respiration; killed by toxic oxygen radicals because it completely lacks both superoxide dismutase and catalase (e.g., Clostridium tetani, Clostridium botulinum) [L3 p14, 15, 16].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 14
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 16
+                }
+              ]
+            }
+          },
+          {
+            "label": "Requires Low Oxygen Tension (Microaerophilic)",
+            "outcome": {
+              "name": "Microaerophile (Grows at Low O2 Concentrations)",
+              "clues": "Grows best in low oxygen tensions; damaged by atmospheric 20% oxygen levels; possesses superoxide dismutase and catalase (e.g., Campylobacter jejuni, Helicobacter pylori) [L3 p15, 16].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 16
+                }
+              ]
+            }
+          },
+          {
+            "label": "Exclusively Fermentative but Tolerates Oxygen",
+            "outcome": {
+              "name": "Aerotolerant Anaerobe (SOD Present, Catalase Absent)",
+              "clues": "Exclusively fermentative metabolism; tolerates oxygen presence because it possesses superoxide dismutase, but lacks catalase [L3 p15, 16].",
+              "sourceRefs": [
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "bacterial-growth",
+                  "pdfPage": 16
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "nutritional-requirements-flowchart",
+      "title": "Classification by Nutritional Requirement Flowchart (Slide 32)",
+      "summary": "Step-by-step metabolic flowchart from Lecture 3 Slide 32 classifying organisms by primary carbon source (CO2 autotroph vs organic heterotroph) and energy source (photo- vs chemo-).",
+      "root": {
+        "step": "Primary Carbon Source for Growth",
+        "prompt": "Evaluate whether the organism uses inorganic CO2 or organic compounds as its principal carbon source [L3 p32]",
+        "branches": [
+          {
+            "label": "Autotrophs (Use Inorganic CO2 as Sole Carbon Source)",
+            "organismGroup": "Self-nourishing photosynthetic/chemosynthetic organisms [L3 p32, 33]",
             "next": {
-              "step": "TSI Reaction, Motility & Indole Test",
+              "step": "Energy Source for Autotrophs",
+              "prompt": "Determine the source of energy: sunlight vs inorganic chemical oxidation [L3 p32, 33]",
               "branches": [
                 {
-                  "label": "Motile, Indole-Positive, Green sheen on EMB agar",
+                  "label": "Light Energy (Sunlight)",
                   "outcome": {
-                    "name": "Escherichia coli",
-                    "organismId": "escherichia-coli",
-                    "clues": "TSI: A/A with gas (yellow slant / yellow butt + gas), no H2S. Most common cause of UTIs and traveler's diarrhea.",
+                    "name": "Photoautotrophs",
+                    "clues": "Use light energy to fix inorganic CO2 into organic carbon (e.g., photosynthetic cyanobacteria) [L3 p32, 33].",
                     "sourceRefs": [
                       {
                         "lectureId": "bacterial-growth",
-                        "pdfPage": 28
+                        "pdfPage": 32
+                      },
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 33
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Inorganic Chemical Compounds",
+                  "outcome": {
+                    "name": "Chemoautotrophs (Chemolithotrophs)",
+                    "clues": "Oxidize inorganic chemical compounds (iron, sulfur, nitrifying bacteria) to obtain energy while using CO2 as carbon source [L3 p32, 33].",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 32
+                      },
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 33
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "Heterotrophs (Require Organic Compounds as Carbon Source)",
+            "organismGroup": "Organotrophs requiring preformed organic nutrients [L3 p32, 34]",
+            "next": {
+              "step": "Energy Source for Heterotrophs",
+              "prompt": "Determine the source of energy: sunlight vs organic chemical oxidation [L3 p32, 34]",
+              "branches": [
+                {
+                  "label": "Light Energy (Sunlight)",
+                  "outcome": {
+                    "name": "Photoheterotrophs",
+                    "clues": "Use sunlight for energy but require organic compounds as their source of carbon (e.g., purple non-sulfur bacteria) [L3 p32, 34].",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 32
                       },
                       {
                         "lectureId": "bacterial-growth",
@@ -246,274 +412,22 @@
                   }
                 },
                 {
-                  "label": "Non-Motile, Indole-Negative, Heavy mucoid colonies",
+                  "label": "Organic Chemical Oxidation (Metabolic Catabolism)",
                   "outcome": {
-                    "name": "Klebsiella pneumoniae",
-                    "clues": "TSI: A/A with abundant gas. Prominent polysaccharide capsule, aspiration pneumonia in alcoholics with 'currant jelly' sputum.",
+                    "name": "Chemoheterotrophs (Medical Bacteria & Human Pathogens)",
+                    "clues": "Derive both carbon and energy from organic compounds (glucose, amino acids); includes all medically important bacteria, normal flora, and parasites feeding on living organic host matter [L3 p32, 34, 35].",
                     "sourceRefs": [
                       {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 42
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 32
                       },
                       {
                         "lectureId": "bacterial-growth",
                         "pdfPage": 34
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "label": "Non-Lactose Fermenter (Pale, colorless, translucent colonies)",
-            "organismGroup": "Non-Fermenting Rods [L3 p28]",
-            "next": {
-              "step": "Oxidase Test (Cytochrome c oxidase)",
-              "branches": [
-                {
-                  "label": "Oxidase-Positive (Dark purple within 10-30s)",
-                  "next": {
-                    "step": "TSI & Atmospheric Requirements",
-                    "branches": [
-                      {
-                        "label": "TSI: K/K (Red slant / Red butt), Obligate Aerobe",
-                        "outcome": {
-                          "name": "Pseudomonas aeruginosa",
-                          "organismId": "pseudomonas-aeruginosa",
-                          "clues": "Blue-green pyocyanin pigment, sweet fruity odor, polar flagellum, Exotoxin A, opportunistic burn/CF/ventilator pathogen.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 22
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 26
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 34
-                            }
-                          ]
-                        }
                       },
                       {
-                        "label": "Curved / Comma-shaped rod, grows on alkaline TCBS agar",
-                        "outcome": {
-                          "name": "Vibrio cholerae",
-                          "organismId": "vibrio-cholerae",
-                          "clues": "Darting motility via single polar flagellum, produces cholera toxin, causes profuse 'rice-water' stool diarrhea.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacteria-and-other-microorganisms",
-                              "pdfPage": 46
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 28
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "label": "Oxidase-Negative (Enterobacteriaceae non-lactose fermenters)",
-                  "next": {
-                    "step": "TSI Agar (H2S Blackening & Gas) & Motility",
-                    "branches": [
-                      {
-                        "label": "TSI: K/A + H2S Black Precipitate, Motile, Urease-Negative",
-                        "outcome": {
-                          "name": "Salmonella enterica / typhi",
-                          "organismId": "salmonella-enterica",
-                          "clues": "Red slant / yellow butt with black ferrous sulfide, peritrichous flagella, intracellular in macrophages, causes typhoid fever and gastroenteritis.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 34
-                            },
-                            {
-                              "lectureId": "bacterial-pathogenesis",
-                              "pdfPage": 14
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "label": "TSI: K/A + H2S Black Precipitate, Swarming motility, Urease-Positive",
-                        "outcome": {
-                          "name": "Proteus mirabilis / vulgaris",
-                          "clues": "Swarming waves across agar, potent urease hydrolyzes urea to ammonia raising urine pH and forming staghorn calculi.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacteria-and-other-microorganisms",
-                              "pdfPage": 47
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 32
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "label": "TSI: K/A without H2S and without gas, Non-Motile",
-                        "outcome": {
-                          "name": "Shigella dysenteriae / sonnei",
-                          "organismId": "shigella-dysenteriae",
-                          "clues": "Lacks flagella, highly acid-resistant (low infectious dose ~10-100), invades colonic M cells, produces Shiga toxin, causes bloody dysentery.",
-                          "sourceRefs": [
-                            {
-                              "lectureId": "bacteria-and-other-microorganisms",
-                              "pdfPage": 46
-                            },
-                            {
-                              "lectureId": "bacterial-growth",
-                              "pdfPage": 34
-                            },
-                            {
-                              "lectureId": "bacterial-pathogenesis",
-                              "pdfPage": 12
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "id": "spore-algorithm",
-      "title": "Spore-Forming Gram-Positive Bacilli Flowchart",
-      "summary": "Differential algorithm separating Bacillus and Clostridium based on atmospheric oxygen requirements, spore location, and clinical presentation.",
-      "root": {
-        "step": "Endospore Stain (Malachite Green / Heat-Resistant Spores)",
-        "prompt": "Gram-positive rods forming intracellular endospores containing calcium dipicolinate [L1 p52]",
-        "branches": [
-          {
-            "label": "Aerobic / Facultative (Requires O2 for sporulation and germination)",
-            "organismGroup": "Bacillus genus [L1 p52, L3 p14]",
-            "next": {
-              "step": "Motility, Capsule Composition & Hemolysis",
-              "branches": [
-                {
-                  "label": "Non-Motile, Poly-D-Glutamic Acid Capsule, Non-Hemolytic ('Medusa head')",
-                  "outcome": {
-                    "name": "Bacillus anthracis",
-                    "organismId": "bacillus-anthracis",
-                    "clues": "Square-ended rods in chains, tripartite exotoxin (PA, EF, LF), causes painless black eschar (cutaneous) or fatal mediastinitis (inhalation).",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 42
-                      },
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 54
-                      }
-                    ]
-                  }
-                },
-                {
-                  "label": "Motile, Non-Encapsulated, Beta-Hemolytic on Blood Agar",
-                  "outcome": {
-                    "name": "Bacillus cereus",
-                    "clues": "Reheated fried rice food poisoning; emetic toxin (preformed, rapid onset 1-5h) or diarrheal enterotoxin (produced in vivo, 8-16h).",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 46
-                      },
-                      {
-                        "lectureId": "bacterial-pathogenesis",
-                        "pdfPage": 19
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "label": "Obligate (Strict) Anaerobe (Killed by atmospheric oxygen; lacks catalase/SOD)",
-            "organismGroup": "Clostridium genus [L1 p52, L3 p14]",
-            "next": {
-              "step": "Spore Location and Clinical Syndrome",
-              "branches": [
-                {
-                  "label": "Terminal round spore ('drumstick / tennis racket'), Deep puncture wound",
-                  "outcome": {
-                    "name": "Clostridium tetani",
-                    "organismId": "clostridium-tetani",
-                    "clues": "Tetanospasmin retrogradely transported to spinal cord; cleaves synaptobrevin, blocking Glycine and GABA release; causes spastic paralysis and trismus.",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 52
-                      },
-                      {
-                        "lectureId": "bacterial-pathogenesis",
-                        "pdfPage": 17
-                      }
-                    ]
-                  }
-                },
-                {
-                  "label": "Subterminal oval spore, Ingestion of canned food or raw honey in infants",
-                  "outcome": {
-                    "name": "Clostridium botulinum",
-                    "organismId": "clostridium-botulinum",
-                    "clues": "Botulinum neurotoxin cleaves SNARE proteins at motor endplates, blocking Acetylcholine release; causes descending flaccid paralysis.",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 52
-                      },
-                      {
-                        "lectureId": "bacterial-pathogenesis",
-                        "pdfPage": 17
-                      }
-                    ]
-                  }
-                },
-                {
-                  "label": "Large rectangular rod, Double zone of beta-hemolysis, Spores rarely seen in vivo",
-                  "outcome": {
-                    "name": "Clostridium perfringens",
-                    "clues": "Alpha-toxin (lecithinase / phospholipase C) hydrolyzes cell membranes, causing gas gangrene (myonecrosis with crepitus) and post-abortion sepsis.",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "bacteria-and-other-microorganisms",
-                        "pdfPage": 52
-                      },
-                      {
-                        "lectureId": "bacterial-pathogenesis",
-                        "pdfPage": 16
-                      }
-                    ]
-                  }
-                },
-                {
-                  "label": "Post-clindamycin / broad-spectrum antibiotic diarrhea",
-                  "outcome": {
-                    "name": "Clostridium difficile",
-                    "clues": "Disruption of colonic normal flora allows overgrowth; produces Toxin A (enterotoxin) and Toxin B (cytotoxin), causing pseudomembranous colitis.",
-                    "sourceRefs": [
-                      {
-                        "lectureId": "normal-flora",
-                        "pdfPage": 21
-                      },
-                      {
-                        "lectureId": "bacterial-pathogenesis",
-                        "pdfPage": 22
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 35
                       }
                     ]
                   }

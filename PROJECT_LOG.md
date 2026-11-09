@@ -218,7 +218,7 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Authored comprehensive project charter detailing the dual-engine educational paradigm: Testing Engine (discrete retrieval practice) coupled with Synthesis Engine (multi-dimensional mental models and cross-lecture consolidation).
   - Maintained uncompromising 100% lecture slide grounding: zero external hallucinations; all synthesis claims directly cite verified teaching slide pages.
 - **The Memorize Room (`/memorize`)**:
-  - **Organism Dossiers**: Consolidated 15 bacterial pathogen dossiers across all 5 General Microbiology lectures (*E. coli*, *S. aureus*, *S. epidermidis*, *S. pneumoniae*, *S. pyogenes*, *P. aeruginosa*, *B. anthracis*, *C. tetani*, *C. botulinum*, *S. enterica*, *S. dysenteriae*, *M. tuberculosis*, *N. meningitidis*, *N. gonorrhoeae*, *V. cholerae*). Structured across Morphology, Culture/Biochemistry (TSI, MacConkey, catalase, coagulase, oxidase), Genetics, Normal Flora, Virulence, and Clinical Manifestations. Includes search filter, category selector, exact slide links, and a `⚡ Quiz this bug` one-click drill launcher.
+  - **Organism Dossiers**: Consolidated 15 bacterial pathogen dossiers across all 5 General Microbiology lectures (*E. coli*, *S. aureus*, *S. epidermidis*, *S. pneumoniae*, *S. pyogenes*, *P. aeruginosa*, *B. anthracis*, *C. tetani*, *C. botulinum*, *S. enterica*, *S. dysenteriae*, *M. tuberculosis*, *N. meningitidis*, *N. gonorrhoeae*, *V. cholerae*). Structured across Morphology, Culture/Biochemistry (TSI, MacConkey, catalase, coagulase, oxidase), Genetics, Normal Flora, Virulence, and Clinical Manifestations. Includes search filter, category selector, exact slide links, and a `Quiz this bug` one-click drill launcher.
   - **Diagnostic Decision Trees**: Step-by-step branching algorithms for Gram-Positive Cocci, Gram-Negative Rods, and Spore-Forming Bacilli.
   - **Comparison & Contrast Matrices with Active Occlusion ("Blindfold Mode")**: High-yield contrast tables (Exotoxin vs. Endotoxin, Horizontal Gene Transfer, Cell Wall Architecture, Microbial Control, Spores vs. Vegetative Cells, DNA Polymerases, Replication, DNA Repair) equipped with an interactive active-recall mask toggle allowing students to tap to reveal hidden cells.
   - **Rules of Thumb (Heuristics)**: Core clinical and laboratory heuristics citing exact source references.
@@ -304,6 +304,36 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `python scripts/validate_content.py --subject general-microbiology`: 100% passed.
   - `python scripts/validate_content.py --subject molecular-biology`: 100% passed.
   - Cache-busted with `?v=1.2.3`.
+
+## 2026-11-09 — Release 1.2.4: 100% Slide-Grounded Classification Schemes, Matrices & Heuristics
+
+- **Comprehensive Audit & Purge of Outside Board Algorithms**:
+  - Generalizing the user's directive across all synthesis modules, audited all decision trees, comparison matrices, and heuristics for outside textbook/board-exam algorithms not taught in the course slides.
+  - Completely purged outside diagnostic tests (Novobiocin disk sensitivity, Optochin, Bacitracin, Bile Esculin, TCBS agar, Indole test, Urease, Swarming motility, Malachite green spore staining) and outside bacteria (*Bacillus cereus*, *Clostridium perfringens*, *Clostridium difficile*, *Moraxella*).
+  - Fixed invalid/nonexistent page citations (e.g. L3 p41-46 where L3 only has 35 pages, and corrected TSI citation to L3 p27, 29).
+- **100% Slide-Grounded Classification Trees & Schemes**:
+  - Rebuilt `trees.json` with the exact classification schemes taught in the lecture slides:
+    1. `bacterial-taxonomic-classification`: Table 5-1 Linnean Classification of Medically Important Bacteria (Lecture 1, pages 56–63) covering cell wall architecture (rigid, flexible, absent), free-living capacity, Gram stain, morphology, and oxygen requirements.
+    2. `oxygen-response-classification`: Table 6.1 Oxygen Response & Protective Enzymes (SOD & Catalase) (Lecture 3, pages 14–17) covering obligate aerobes, facultative anaerobes, obligate anaerobes, microaerophiles, and aerotolerant anaerobes.
+    3. `nutritional-requirements-flowchart`: Slide 32 Classification by Nutritional Requirement Flowchart (Lecture 3, pages 32–35) classifying autotrophs vs heterotrophs and photo- vs chemo-.
+  - Updated tree simulator UI and panoramic flowchart diagram: labeled as Classification Schemes, displaying exact criteria steps and direct slide-link buttons on classification outcomes.
+- **100% Slide-Grounded Comparison Matrices**:
+  - Rebuilt `matrices.json` retaining only verified slide tables:
+    1. `cell-wall-architecture`: Gram+ vs Gram- cell walls (Lecture 1, pages 15–27).
+    2. `gene-transfer-mechanisms`: Comparison of DNA-transfer procedures (Lecture 2, Slide 35).
+    3. `surface-virulence-factors`: Surface Virulence Factors Table 7-8 (Lecture 5, Slide 49).
+    4. `oxygen-classes-enzymes`: Bacterial Oxygen Classes Table 6.1 (Lecture 3, Slide 16).
+    5. `spores-vs-vegetative`: Endospores vs. Vegetative cells (Lecture 1, pages 52–54).
+- **100% Slide-Grounded Heuristics**:
+  - Rebuilt `heuristics.json` to 6 verified rules, purged outside mnemonics, and corrected TSI citations to Lecture 3, pages 27 & 29.
+- **Verification & Quality Assurance**:
+  - Automated citation audit (`work/audit_all_synthesis.py`): 100% of synthesis references point to existing lecture pages and concepts.
+  - `python scripts/validate_content.py --subject general-microbiology`: Passed.
+  - `python scripts/validate_content.py --subject molecular-biology`: Passed.
+  - `npm run check; npm test`: 58/58 test suites passed.
+  - Emoji check: Zero emojis across repository confirmed.
+  - Cache-busted with `?v=1.2.4`.
+
 
 
 
