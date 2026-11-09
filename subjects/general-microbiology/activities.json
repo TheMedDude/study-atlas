@@ -1316,27 +1316,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Cocci are the only bacteria that possess a peptidoglycan cell wall",
+          "text": "Cocci possess an unusually thick outer peptidoglycan wall",
           "evidence": "Both cocci and rods have peptidoglycan walls. Source PDF pages: 9, 14."
         },
         {
           "id": "o3",
-          "text": "Arrangement in cocci determines whether they possess 70S or 80S ribosomes",
+          "text": "Cocci arrangement determines whether they possess 70S or 80S ribosomes",
           "evidence": "All bacteria have 70S ribosomes regardless of arrangement. Source PDF pages: 3, 9."
         },
         {
           "id": "o1",
-          "text": "Cocci form distinctive diagnostic grouping patterns (pairs, chains, clusters)",
+          "text": "Cocci form distinctive diagnostic grouping patterns",
           "evidence": "Certain cocci occur in pairs, chains, and grapelike clusters; arrangement of rods/spirochetes is less important. Source PDF page: 9."
         },
         {
           "id": "o4",
-          "text": "Cocci cannot be distinguished by Gram staining without seeing their arrangement",
+          "text": "Cocci cannot be distinguished by Gram staining without their arrangement",
           "evidence": "Gram staining distinguishes Gram-positive from Gram-negative directly. Source PDF pages: 9, 28."
         },
         {
           "id": "o5",
-          "text": "Coccal arrangement determines whether spores form at terminal or subterminal poles",
+          "text": "Coccal arrangement determines whether spores form at terminal poles",
           "evidence": "Cocci do not form spores; endospore-formers are rods (Bacillus/Clostridium). Source PDF pages: 9, 52."
         }
       ],
@@ -1553,7 +1553,7 @@
         },
         {
           "id": "o1",
-          "text": "Flagella and pili (fimbriae)",
+          "text": "Flagella and pili",
           "evidence": "Appendages consist of flagella and pili. Source PDF page: 12."
         },
         {
@@ -1679,7 +1679,7 @@
         },
         {
           "id": "o1",
-          "text": "Chromosome (DNA), ribosomes, and inclusions",
+          "text": "Chromosome, ribosomes, and inclusions",
           "evidence": "Cytoplasmic region contains chromosome, ribosomes, and inclusions. Source PDF page: 12."
         },
         {
@@ -1851,7 +1851,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "Lipopolysaccharide (endotoxin)",
+          "text": "Lipopolysaccharide",
           "evidence": "LPS is present in Gram-negative cells, not Gram-positive. Source PDF page: 15."
         },
         {
@@ -1923,12 +1923,12 @@
         },
         {
           "id": "o1",
-          "text": "Lipopolysaccharide (endotoxin)",
+          "text": "Lipopolysaccharide",
           "evidence": "LPS is present in Gram-negative cells and absent in Gram-positive. Source PDF pages: 15, 16."
         },
         {
           "id": "o4",
-          "text": "Ribosomes (70S)",
+          "text": "Ribosomes",
           "evidence": "Ribosomes are present in all bacteria. Source PDF pages: 3, 38."
         },
         {
@@ -2270,7 +2270,7 @@
         },
         {
           "id": "o3",
-          "text": "O-antigen (O-polysaccharide)",
+          "text": "O-antigen",
           "evidence": "O-antigen is the variable surface antigen used for serotyping. Source PDF page: 23."
         },
         {
@@ -2381,7 +2381,7 @@
       "options": [
         {
           "id": "o1",
-          "text": "O-antigen (O-polysaccharide)",
+          "text": "O-antigen",
           "evidence": "O-antigen is outward, highly variable, and used for serotyping. Source PDF page: 23."
         },
         {
@@ -2443,12 +2443,12 @@
       "options": [
         {
           "id": "o2",
-          "text": "Glucose and galactose linked by alpha-1,4 bonds",
+          "text": "Glucose and galactose",
           "evidence": "Peptidoglycan consists of amino sugars NAM and NAG, not simple glucose/galactose. Source PDF pages: 24, 25."
         },
         {
           "id": "o1",
-          "text": "N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM)",
+          "text": "N-acetylglucosamine and N-acetylmuramic acid",
           "evidence": "Glycan chain is composed of alternating NAM and NAG. Source PDF pages: 24, 25."
         },
         {
@@ -2458,7 +2458,7 @@
         },
         {
           "id": "o4",
-          "text": "Arabinogalactan and mycolic acid esters",
+          "text": "Arabinogalactan and mycolic acid",
           "evidence": "These are mycobacterial envelope components. Source PDF pages: 24, 34."
         },
         {
@@ -2501,7 +2501,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "N-acetylglucosamine (NAG)",
+          "text": "N-acetylglucosamine",
           "evidence": "NAG does not bear the tetrapeptide chain. Source PDF page: 24."
         },
         {
@@ -2511,7 +2511,7 @@
         },
         {
           "id": "o1",
-          "text": "N-acetylmuramic acid (NAM)",
+          "text": "N-acetylmuramic acid",
           "evidence": "The tetrapeptide chain attaches to NAM. Source PDF page: 24."
         },
         {
@@ -2849,7 +2849,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "Safranin dye, which stains all cells bright red",
+          "text": "Safranin dye, which imparts an initial bright red counterstain",
           "evidence": "Safranin is the Step 4 counterstain, not the Step 1 primary dye. Source PDF page: 28."
         },
         {
@@ -2859,17 +2859,17 @@
         },
         {
           "id": "o4",
-          "text": "Carbolfuchsin, which stains waxy mycolic acids pink",
+          "text": "Carbolfuchsin dye, which imparts a pink acid-fast coloration",
           "evidence": "Carbolfuchsin is used in the acid-fast stain, not Gram stain Step 1. Source PDF pages: 28, 33."
         },
         {
           "id": "o1",
-          "text": "Crystal violet dye, which stains all cells blue/purple",
+          "text": "Crystal violet dye, which imparts an initial blue/purple color",
           "evidence": "Step 1: Crystal violet dye stains all cells blue/purple. Source PDF page: 28."
         },
         {
           "id": "o5",
-          "text": "Methylene blue, which acts as a decolorizer",
+          "text": "Methylene blue dye, which acts as a gentle blue decolorizer",
           "evidence": "Methylene blue is an acid-fast counterstain. Source PDF pages: 28, 33."
         }
       ],
@@ -2965,27 +2965,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "It extracts the dye from lipid-rich, thin-walled Gram-negative bacteria more readily than from lipid-poor, thick-walled Gram-positive bacteria",
+          "text": "Lipid dissolution and thin peptidoglycan allow rapid dye extraction in Gram-negative cells",
           "evidence": "Acetone/ethanol extracts the complex from lipid-rich, thin-walled Gram-negative bacteria. Source PDF page: 28."
         },
         {
           "id": "o2",
-          "text": "It chemically neutralizes teichoic acid fibers in the Gram-positive wall",
+          "text": "Thick peptidoglycan and teichoic acid layers dissolve completely upon acetone treatment",
           "evidence": "Teichoic acid is in Gram-positive walls, but decolorization extracts dye from Gram-negative walls. Source PDF pages: 15, 28."
         },
         {
           "id": "o3",
-          "text": "Gram-positive bacteria lack peptidoglycan and therefore cannot be decolorized",
+          "text": "Gram-positive cell walls lack peptidoglycan and therefore repel alcohol extraction",
           "evidence": "Gram-positive bacteria have very thick peptidoglycan. Source PDF pages: 15, 28."
         },
         {
           "id": "o4",
-          "text": "Gram-negative bacteria possess a thick keratin coat that repels alcohol",
+          "text": "Gram-negative outer membranes possess a thick keratin coat that binds crystal violet",
           "evidence": "Keratin-like coats are found in endospores, not vegetative Gram-negative walls. Source PDF pages: 28, 52."
         },
         {
           "id": "o5",
-          "text": "Acetone binds specifically to 70S ribosomes inside Gram-negative cytoplasm",
+          "text": "Acetone binds specifically to cytoplasmic ribosomes rather than outer cell envelopes",
           "evidence": "Decolorization is a cell wall/lipid extraction event, not ribosomal binding. Source PDF pages: 28, 41."
         }
       ],
@@ -3081,7 +3081,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "Direct measurement of minimal inhibitory concentration (MIC) for all antibiotics",
+          "text": "Direct measurement of minimal inhibitory concentration for all antibiotics",
           "evidence": "MIC requires culture susceptibility testing, not a rapid Gram stain. Source PDF page: 31."
         },
         {
@@ -3091,7 +3091,7 @@
         },
         {
           "id": "o1",
-          "text": "Rapid presumptive identification of many bacteria based on staining and morphology",
+          "text": "Rapid presumptive identification of bacteria based on staining and morphology",
           "evidence": "Useful in the identification of many bacteria. Source PDF page: 31."
         },
         {
@@ -3488,27 +3488,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Crystal violet (primary), Gram's iodine (mordant), and safranin (counterstain)",
+          "text": "Crystal violet, Gram's iodine, and safranin",
           "evidence": "These are the reagents of the Gram stain, not the acid-fast stain. Source PDF pages: 28, 33."
         },
         {
           "id": "o3",
-          "text": "Methylene blue (primary), acetone (decolorizer), and carbolfuchsin (counterstain)",
+          "text": "Methylene blue, acetone, and carbolfuchsin",
           "evidence": "Inverted: carbolfuchsin is primary and methylene blue is counterstain. Source PDF page: 33."
         },
         {
           "id": "o4",
-          "text": "India ink (primary), water wash, and eosin Y (counterstain)",
+          "text": "India ink, distilled water wash, and eosin Y",
           "evidence": "India ink is used for negative staining of capsules. Source PDF page: 33."
         },
         {
           "id": "o5",
-          "text": "Malachite green (primary), heat, and safranin (counterstain)",
+          "text": "Malachite green, steam heat, and safranin",
           "evidence": "Malachite green is used for endospore staining. Source PDF page: 33."
         },
         {
           "id": "o1",
-          "text": "Carbolfuchsin (primary), acid-alcohol (decolorizer), and methylene blue (counterstain)",
+          "text": "Carbolfuchsin, acid-alcohol, and methylene blue",
           "evidence": "Carbolfuchsin stains red, acid-alcohol is decolorizer, methylene blue is counterstain. Source PDF page: 33."
         }
       ],
@@ -3551,7 +3551,7 @@
       "options": [
         {
           "id": "o1",
-          "text": "Mycolic acids (long-chain fatty acids) linked to arabinoglycan",
+          "text": "Mycolic acids linked to arabinoglycan",
           "evidence": "Acid-fastness is due to high concentration of mycolic acids and arabinoglycan. Source PDF pages: 33, 34."
         },
         {
@@ -3566,7 +3566,7 @@
         },
         {
           "id": "o4",
-          "text": "Ergosterol molecules embedded within a chitin lattice",
+          "text": "Ergosterol molecules embedded within chitin",
           "evidence": "Ergosterol and chitin are fungal cell components. Source PDF pages: 3, 6, 33."
         },
         {
@@ -3904,27 +3904,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "A rigid chitin matrix cross-linked with cholesterol molecules",
+          "text": "A rigid chitin matrix cross-linked with cholesterol",
           "evidence": "Chitin is fungal cell wall material; bacteria have phospholipid membranes. Source PDF pages: 3, 40."
         },
         {
           "id": "o1",
-          "text": "A phospholipid bilayer lacking sterols (except in Mycoplasma)",
+          "text": "A phospholipid bilayer lacking sterols",
           "evidence": "Composed of a phospholipid bilayer; prokaryotes generally do not contain sterols except Mycoplasma. Source PDF page: 40."
         },
         {
           "id": "o3",
-          "text": "A dense peptidoglycan lattice containing teichoic acid fibers",
+          "text": "A dense peptidoglycan lattice containing teichoic acid",
           "evidence": "Peptidoglycan forms the cell wall, not the inner cytoplasmic membrane. Source PDF pages: 14, 40."
         },
         {
           "id": "o4",
-          "text": "A pure lipopolysaccharide sheet containing Lipid A endotoxin",
+          "text": "A pure lipopolysaccharide sheet containing Lipid A",
           "evidence": "LPS is in the outer leaflet of the Gram-negative outer membrane. Source PDF pages: 23, 40."
         },
         {
           "id": "o5",
-          "text": "A keratin-like protein shell impregnated with dipicolinic acid",
+          "text": "A keratin-like protein shell containing dipicolinic acid",
           "evidence": "This describes the bacterial endospore coat. Source PDF pages: 40, 52."
         }
       ],
@@ -3972,12 +3972,12 @@
         },
         {
           "id": "o1",
-          "text": "They selectively target bacterial 70S ribosomes (50S/30S) while sparing eukaryotic 80S ribosomes (60S/40S)",
+          "text": "They selectively target bacterial 70S ribosomes while sparing eukaryotic 80S ribosomes",
           "evidence": "Differences in ribosomal RNAs and proteins (70S vs 80S) constitute the basis of selective antibiotic action. Source PDF page: 41."
         },
         {
           "id": "o4",
-          "text": "They degrade the lipid A component of prokaryotic 50S subunits",
+          "text": "They degrade the lipid A component of prokaryotic ribosomal subunits",
           "evidence": "Lipid A is part of LPS, not ribosomes. Source PDF pages: 23, 41."
         },
         {
@@ -4020,27 +4020,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "They synthesize penicillins to inhibit competing bacterial strains",
+          "text": "Synthesizing antibacterial penicillins to inhibit competing bacterial strains",
           "evidence": "Penicillin is made by fungi (Penicillium); granules store nutrients. Source PDF pages: 31, 41."
         },
         {
           "id": "o3",
-          "text": "They act as motor anchors that rotate flagellar filaments",
+          "text": "Acting as motor anchors that rotate flagellar filaments during motility",
           "evidence": "Motor anchors are flagellar basal bodies, not storage granules. Source PDF pages: 41, 45."
         },
         {
           "id": "o4",
-          "text": "They form the protective peptidoglycan cross-links in the periplasm",
+          "text": "Forming protective peptidoglycan cross-links across the periplasmic space",
           "evidence": "Cross-linking occurs in cell walls. Source PDF pages: 24, 41."
         },
         {
           "id": "o1",
-          "text": "They serve as intracellular storage reserves for nutrients like glycogen, lipids, and polyphosphates",
+          "text": "Serving as intracellular storage reserves for nutrients and metabolic energy",
           "evidence": "Granules serve as storage areas for nutrients and stain with certain dyes. Source PDF page: 41."
         },
         {
           "id": "o5",
-          "text": "They mediate host cell receptor adherence during urinary tract infection",
+          "text": "Mediating host epithelial receptor adherence during urinary tract infection",
           "evidence": "Adherence is mediated by pili/fimbriae. Source PDF pages: 41, 48."
         }
       ],
@@ -4658,27 +4658,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "O antigen (somatic cell wall antigen)",
+          "text": "O antigen",
           "evidence": "O antigen corresponds to the LPS polysaccharide chain. Source PDF pages: 23, 47."
         },
         {
           "id": "o3",
-          "text": "K antigen (capsular antigen)",
+          "text": "K antigen",
           "evidence": "K antigen corresponds to the bacterial capsule. Source PDF pages: 42, 47."
         },
         {
           "id": "o4",
-          "text": "Vi antigen (slime layer antigen)",
+          "text": "Vi antigen",
           "evidence": "Vi is a capsular virulence antigen in S. Typhi. Source PDF page: 47."
         },
         {
           "id": "o5",
-          "text": "Lipid A core antigen",
+          "text": "Lipid A antigen",
           "evidence": "Lipid A is the toxic anchor of LPS. Source PDF pages: 23, 47."
         },
         {
           "id": "o1",
-          "text": "H antigen (flagellar antigen)",
+          "text": "H antigen",
           "evidence": "Flagellar proteins are used in laboratory diagnosis (H antigen in Salmonella). Source PDF page: 47."
         }
       ],
@@ -4948,27 +4948,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Lipid A and O-antigen (lipopolysaccharide bilayer)",
+          "text": "Lipid A and O-antigen",
           "evidence": "These are domains of LPS, not glycocalyx forms. Source PDF pages: 23, 50."
         },
         {
           "id": "o3",
-          "text": "Cortex and dipicolinic core (keratin shell)",
+          "text": "Cortex and dipicolinic core",
           "evidence": "These are spore layers, not glycocalyx forms. Source PDF pages: 50, 52."
         },
         {
           "id": "o4",
-          "text": "Mesosome and periplasm (lipoprotein matrix)",
+          "text": "Mesosome and periplasm",
           "evidence": "These are membrane/envelope compartments. Source PDF pages: 38, 50."
         },
         {
           "id": "o5",
-          "text": "70S ribosome and 80S ribosome (ribonucleoprotein)",
+          "text": "70S ribosome and 80S ribosome",
           "evidence": "These are protein synthesis complexes. Source PDF pages: 41, 50."
         },
         {
           "id": "o1",
-          "text": "Capsule and slime layer (polysaccharide coating)",
+          "text": "Capsule and slime layer",
           "evidence": "Glycocalyx has two main forms: Capsule and Slime Layer; composed of polysaccharide. Source PDF page: 50."
         }
       ],
@@ -5238,27 +5238,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Mycolic acid (branched fatty acid)",
+          "text": "Mycolic acid",
           "evidence": "Mycolic acid is found in mycobacterial cell walls. Source PDF pages: 33, 52."
         },
         {
           "id": "o3",
-          "text": "Lipid A (glucosamine disaccharide)",
+          "text": "Lipid A",
           "evidence": "Lipid A is the endotoxin of LPS. Source PDF pages: 23, 52."
         },
         {
           "id": "o4",
-          "text": "Ribitol teichoic acid (glycerol polymer)",
+          "text": "Ribitol teichoic acid",
           "evidence": "Teichoic acid is found in Gram-positive cell walls. Source PDF pages: 27, 52."
         },
         {
           "id": "o5",
-          "text": "Hyaluronic acid (mucopolysaccharide)",
+          "text": "Hyaluronic acid",
           "evidence": "Hyaluronic acid is a connective tissue component. Source PDF page: 52."
         },
         {
           "id": "o1",
-          "text": "Dipicolinic acid (calcium ion chelator)",
+          "text": "Dipicolinic acid",
           "evidence": "Resistance is mediated by dipicolinic acid, a calcium ion chelator found only in spores. Source PDF page: 52."
         }
       ],
@@ -5369,7 +5369,7 @@
         },
         {
           "id": "o1",
-          "text": "Steam heating under pressure (autoclaving) at 121°C for at least 15 minutes",
+          "text": "Steam heating under pressure at 121°C for at least 15 minutes",
           "evidence": "Autoclaving at 121°C for at least 15 minutes is required to ensure sterility. Source PDF pages: 53, 54."
         },
         {
@@ -5490,12 +5490,12 @@
         },
         {
           "id": "o4",
-          "text": "Urinary tract infections in young females",
+          "text": "Urinary tract infections",
           "evidence": "UTIs are caused by motile E. coli and Proteus via flagella. Source PDF pages: 47, 54."
         },
         {
           "id": "o1",
-          "text": "Tetanus (C. tetani) and gas gangrene (C. perfringens)",
+          "text": "Tetanus and anthrax infections",
           "evidence": "Wounds contaminated with soil can be infected: tetanus (C. tetani) and gas gangrene (C. perfringens). Source PDF page: 54."
         },
         {
@@ -5722,7 +5722,7 @@
         },
         {
           "id": "o1",
-          "text": "Free-living bacteria (grow on artificial media) versus non-free-living bacteria (obligate intracellular)",
+          "text": "Free-living bacteria versus non-free-living obligate intracellular bacteria",
           "evidence": "Subdivided into free-living bacteria and non-free-living (obligate intracellular). Source PDF page: 57."
         },
         {
@@ -5770,27 +5770,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Staphylococci (flexible walls) and streptococci (wall-less)",
+          "text": "Staphylococci and streptococci",
           "evidence": "Both have rigid, thick peptidoglycan cell walls. Source PDF pages: 15, 57."
         },
         {
           "id": "o3",
-          "text": "Bacilli (flexible walls) and clostridia (wall-less)",
+          "text": "Bacilli and clostridia",
           "evidence": "Both are rigid thick-walled spore-formers. Source PDF pages: 52, 57."
         },
         {
           "id": "o4",
-          "text": "Mycobacteria (wall-less) and chlamydiae (flexible walls)",
+          "text": "Mycobacteria and chlamydiae",
           "evidence": "Mycobacteria have thick lipid walls; chlamydiae are intracellular. Source PDF pages: 32, 33, 57."
         },
         {
           "id": "o1",
-          "text": "Spirochetes (flexible thin walls) and mycoplasmas (without cell walls)",
+          "text": "Spirochetes and mycoplasmas",
           "evidence": "Flexible thin walls (spirochetes) and without cell walls (mycoplasmas). Source PDF page: 57."
         },
         {
           "id": "o5",
-          "text": "Pseudomonas (flexible walls) and Neisseria (wall-less)",
+          "text": "Pseudomonas and Neisseria",
           "evidence": "Both are rigid Gram-negative bacteria with outer membranes. Source PDF pages: 15, 57."
         }
       ],
@@ -6002,27 +6002,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Sex pili forming conjugation tubes",
+          "text": "Sex pili",
           "evidence": "Sex pili are for plasmid transfer in Gram-negative rods. Source PDF pages: 45, 48."
         },
         {
           "id": "o3",
-          "text": "Porin channel active transport pumps",
+          "text": "Porin channels",
           "evidence": "Porins facilitate passive diffusion in outer membranes. Source PDF pages: 19, 45."
         },
         {
           "id": "o1",
-          "text": "Axial flagella (axial filament)",
+          "text": "Axial flagella",
           "evidence": "Spirochetes have axial flagella/filament. Source PDF page: 45."
         },
         {
           "id": "o4",
-          "text": "Keratin-coated polar fibrils",
+          "text": "Keratin coats",
           "evidence": "Keratin-like coat is found in endospores. Source PDF pages: 45, 52."
         },
         {
           "id": "o5",
-          "text": "Mesosomal membrane invaginations",
+          "text": "Mesosomal folds",
           "evidence": "Mesosomes participate in cell division, not spirochete motility. Source PDF pages: 38, 45."
         }
       ],
@@ -6060,27 +6060,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Visible light energy absorbed by carbolfuchsin",
+          "text": "Visible light energy",
           "evidence": "Carbolfuchsin is a synthetic dye in the acid-fast stain. Source PDF pages: 33, 45."
         },
         {
           "id": "o3",
-          "text": "Passive heat transfer from human body temperature",
+          "text": "Passive ambient thermal energy",
           "evidence": "Motility is active and requires cellular energy. Source PDF page: 45."
         },
         {
           "id": "o4",
-          "text": "Enzymatic cleavage of host penicillin molecules",
+          "text": "Enzymatic cleavage of host penicillin",
           "evidence": "Beta-lactamase destroys penicillins; it does not fuel flagella. Source PDF pages: 18, 45."
         },
         {
           "id": "o1",
-          "text": "Cellular metabolic energy (ATP)",
+          "text": "Metabolic ATP energy",
           "evidence": "Flagella need energy for movement (ATP). Source PDF page: 45."
         },
         {
           "id": "o5",
-          "text": "Passive calcium influx into dipicolinate complexes",
+          "text": "Passive calcium influx into spores",
           "evidence": "Dipicolinate is in endospores, not flagellar motors. Source PDF pages: 45, 52."
         }
       ],
@@ -6180,27 +6180,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Fungi (yeasts and molds)",
+          "text": "Fungi",
           "evidence": "Kingdom Fungi includes yeasts and molds. Source PDF page: 1."
         },
         {
           "id": "o2",
-          "text": "Bacteria (cocci and bacilli)",
+          "text": "Bacteria",
           "evidence": "Bacteria belong to Prokaryote, not kingdom Fungi. Source PDF page: 1."
         },
         {
           "id": "o3",
-          "text": "Protozoa (trophozoites and cysts)",
+          "text": "Protozoa",
           "evidence": "Protozoa belong to Protists. Source PDF page: 1."
         },
         {
           "id": "o4",
-          "text": "Helminths (flukes and tapeworms)",
+          "text": "Helminths",
           "evidence": "Helminths belong to the Animal kingdom. Source PDF page: 1."
         },
         {
           "id": "o5",
-          "text": "Viruses (enveloped and naked)",
+          "text": "Viruses",
           "evidence": "Viruses are noncellular infectious agents without a kingdom. Source PDF page: 1."
         }
       ],
@@ -6533,22 +6533,22 @@
       "options": [
         {
           "id": "o2",
-          "text": "Bright purple/blue",
+          "text": "Bright purple",
           "evidence": "Gram-positive cells remain blue; Gram-negative cells lose their color. Source PDF page: 28."
         },
         {
           "id": "o1",
-          "text": "Colorless (transparent)",
+          "text": "Colorless",
           "evidence": "Decolorization extracts the dye complex from Gram-negative cells, making them colorless until safranin is added. Source PDF page: 28."
         },
         {
           "id": "o3",
-          "text": "Fluorescent bright green",
+          "text": "Bright green",
           "evidence": "Gram staining does not produce green fluorescence. Source PDF page: 28."
         },
         {
           "id": "o4",
-          "text": "Opaque dark black",
+          "text": "Dark black",
           "evidence": "Decolorized cells are transparent, not black. Source PDF page: 28."
         },
         {
@@ -6601,7 +6601,7 @@
         },
         {
           "id": "o1",
-          "text": "Arabinoglycan (arabinogalactan)",
+          "text": "Arabinoglycan",
           "evidence": "Layers of mycolic acid and arabinoglycan are present in Mycobacterium. Source PDF page: 34."
         },
         {
@@ -6611,7 +6611,7 @@
         },
         {
           "id": "o5",
-          "text": "Polymerized D-glutamic acid",
+          "text": "Poly-D-glutamic acid",
           "evidence": "D-glutamic acid is in the capsule of Bacillus anthracis. Source PDF pages: 34, 42."
         }
       ],
@@ -7122,27 +7122,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Bacterial: 80S (60S and 40S); Eukaryotic: 70S (50S and 30S)",
+          "text": "Bacterial 80S composed of 60S and 40S; eukaryotic 70S composed of 50S and 30S",
           "evidence": "Inverted: bacteria have 70S, eukaryotes have 80S. Source PDF page: 41."
         },
         {
           "id": "o1",
-          "text": "Bacterial: 70S (50S and 30S); Eukaryotic: 80S (60S and 40S)",
+          "text": "Bacterial 70S composed of 50S and 30S; eukaryotic 80S composed of 60S and 40S",
           "evidence": "Bacterial ribosomes are 70S (50S and 30S); eukaryotic ribosomes are 80S (60S and 40S). Source PDF page: 41."
         },
         {
           "id": "o3",
-          "text": "Bacterial: 100S (50S and 50S); Eukaryotic: 100S (60S and 40S)",
+          "text": "Bacterial 100S composed of 50S and 50S; eukaryotic 100S composed of 60S and 40S",
           "evidence": "Sedimentation coefficients are 70S and 80S. Source PDF page: 41."
         },
         {
           "id": "o4",
-          "text": "Bacterial: 50S (25S and 25S); Eukaryotic: 70S (35S and 35S)",
+          "text": "Bacterial 50S composed of 25S and 25S; eukaryotic 70S composed of 35S and 35S",
           "evidence": "Standard coefficients are 70S (50S+30S) and 80S (60S+40S). Source PDF page: 41."
         },
         {
           "id": "o5",
-          "text": "Bacterial: 60S (40S and 20S); Eukaryotic: 90S (50S and 40S)",
+          "text": "Bacterial 60S composed of 40S and 20S; eukaryotic 90S composed of 50S and 40S",
           "evidence": "Standard coefficients are 70S and 80S. Source PDF page: 41."
         }
       ],
@@ -7243,7 +7243,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "O-antigen (O-polysaccharide)",
+          "text": "O-antigen",
           "evidence": "O-antigen is the variable surface antigen used for serotyping, not the toxic moiety. Source PDF pages: 23, 37."
         },
         {
@@ -7301,27 +7301,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Formation of heat-resistant endospores that germinate inside the intravenous infusion bag",
+          "text": "Formation of heat-resistant endospores that germinate inside the infusion bag",
           "evidence": "Staphylococci are cocci that do not form endospores. Source PDF pages: 8, 50, 52."
         },
         {
           "id": "o3",
-          "text": "Rapid swimming motility mediated by peritrichous flagella up the catheter lumen",
+          "text": "Rapid swimming motility mediated by peritrichous flagella up the catheter",
           "evidence": "Staphylococci lack flagella and are nonmotile. Source PDF pages: 45, 50."
         },
         {
           "id": "o4",
-          "text": "Degradation of catheter plastic polymers into glucose using periplasmic lysozyme",
+          "text": "Degradation of catheter plastic polymers into glucose using lysozyme",
           "evidence": "Lysozyme cleaves peptidoglycan, not synthetic catheter plastics. Source PDF pages: 36, 50."
         },
         {
           "id": "o5",
-          "text": "Transformation into obligate intracellular Chlamydia-like reticulate bodies",
+          "text": "Transformation into obligate intracellular reticulate bodies",
           "evidence": "S. epidermidis is a Gram-positive extracellular coccus. Source PDF pages: 32, 50."
         },
         {
           "id": "o1",
-          "text": "Secretion of a polysaccharide glycocalyx (biofilm) that adheres firmly to plastic surfaces",
+          "text": "Secretion of a polysaccharide glycocalyx that adheres firmly to plastic surfaces",
           "evidence": "Glycocalyx allows bacteria to adhere firmly to structures like catheters, heart valves, and prosthetic joints. Source PDF page: 50."
         }
       ],
@@ -9666,7 +9666,7 @@
         },
         {
           "id": "o1",
-          "text": "Multiple drug resistance (MDR) against antimicrobial agents",
+          "text": "Multiple drug resistance against antimicrobial agents",
           "evidence": "R factors are multiple-drug-resistance (MDR) plasmids. Source PDF page: 7."
         }
       ],
@@ -9820,17 +9820,17 @@
       "options": [
         {
           "id": "o5",
-          "text": "Pneumococcal capsule polysaccharides",
+          "text": "Lipid A endotoxin, core polysaccharide, and O antigen",
           "evidence": "Capsule synthesis is chromosomal. Source PDF page: 8."
         },
         {
           "id": "o4",
-          "text": "Streptococcal streptolysin O and hyaluronidase enzymes",
+          "text": "Pneumococcal polysaccharide capsule, Vi antigen, and M protein",
           "evidence": "These are chromosomal virulence factors. Source PDF page: 8."
         },
         {
           "id": "o1",
-          "text": "E. coli enterotoxins, B. anthracis anthrax toxin, and C. tetani tetanus toxin",
+          "text": "Tetanus toxin, anthrax toxin, and E. coli enterotoxins",
           "evidence": "E. coli enterotoxins, B. anthracis anthrax toxin and C. tetani tetanus toxin are listed. Source PDF page: 8."
         },
         {
@@ -9840,7 +9840,7 @@
         },
         {
           "id": "o3",
-          "text": "Gram-negative Lipid A endotoxins",
+          "text": "Streptolysin O, hyaluronidase, and erythrogenic toxin",
           "evidence": "Endotoxin Lipid A is a structural lipopolysaccharide component, not a plasmid exotoxin. Source PDF page: 8."
         }
       ],
@@ -9883,7 +9883,7 @@
         },
         {
           "id": "o2",
-          "text": "Nuclear pores that anchor to the host nuclear envelope",
+          "text": "Nuclear pores anchoring to host nuclear envelope",
           "evidence": "Bacteria lack nuclear pores. Source PDF page: 8."
         },
         {
@@ -9893,7 +9893,7 @@
         },
         {
           "id": "o1",
-          "text": "Pili (fimbriae) that mediate adherence to epithelial cells",
+          "text": "Pili mediating adherence to epithelial cells",
           "evidence": "Pili (fimbriae) mediate adherence to epithelial cells. Source PDF page: 8."
         },
         {
@@ -11106,17 +11106,17 @@
         },
         {
           "id": "o4",
-          "text": "A specialized DNA polymerase with exceptional 3'-to-5' proofreading fidelity",
+          "text": "A specialized DNA polymerase with high proofreading fidelity",
           "evidence": "Mu is a mutator virus, not a proofreading polymerase. Source PDF page: 14."
         },
         {
           "id": "o2",
-          "text": "A eukaryotic retrovirus that integrates into human respiratory epithelial cells",
+          "text": "A eukaryotic retrovirus integrating into human epithelial cells",
           "evidence": "Mu is a bacterial virus (bacteriophage). Source PDF page: 14."
         },
         {
           "id": "o1",
-          "text": "A bacterial virus (bacteriophage) that causes high-frequency frameshift mutations",
+          "text": "A bacterial virus causing high-frequency frameshift mutations",
           "evidence": "Bacterial virus Mu is described as causing high-frequency frameshift mutations. Source PDF page: 14."
         }
       ],
@@ -11444,17 +11444,17 @@
       "options": [
         {
           "id": "o1",
-          "text": "Replication occurs at a low permissive temperature (32°C), but not at a higher restrictive temperature (37°C)",
+          "text": "Replication occurs at permissive temperatures, but ceases at higher restrictive temperatures",
           "evidence": "Temperature-sensitive organisms replicate at a low permissive temperature (32°C), not a higher restrictive temperature (37°C). Source PDF page: 16."
         },
         {
           "id": "o3",
-          "text": "Organisms replicate strictly at 55°C and die instantly at 42°C",
+          "text": "Organisms replicate strictly at thermophilic temperatures and die at moderate temperatures",
           "evidence": "Permissive is 32°C and restrictive is 37°C. Source PDF page: 16."
         },
         {
           "id": "o2",
-          "text": "Growth occurs at boiling temperatures (100°C), but ceases in freezing ice baths (0°C)",
+          "text": "Growth occurs at boiling temperatures, but ceases in freezing ice baths",
           "evidence": "The temperatures cited are 32°C (permissive) and 37°C (restrictive). Source PDF page: 16."
         },
         {
@@ -11464,7 +11464,7 @@
         },
         {
           "id": "o5",
-          "text": "The mutant replicates only in feverish hosts (40°C) and dies at normal body temperature",
+          "text": "The mutant replicates only in feverish hosts and dies at normal body temperature",
           "evidence": "The mutant fails to replicate at body temperature (37°C). Source PDF page: 16."
         }
       ],
@@ -12546,27 +12546,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Direct cytoplasmic bridge without any virus or plasmid",
+          "text": "Conjugative pili",
           "evidence": "Conjugation uses a bridge; transduction uses bacteriophages. Source PDF page: 24."
         },
         {
           "id": "o2",
-          "text": "Arthropod tick and flea vectors exclusively",
+          "text": "Arthropod vectors",
           "evidence": "Transduction is mediated by bacteriophages, not arthropod vectors. Source PDF page: 24."
         },
         {
           "id": "o5",
-          "text": "Host macrophage secretory exosomes",
+          "text": "Host exosomes",
           "evidence": "Bacteriophages transfer DNA during transduction. Source PDF page: 24."
         },
         {
           "id": "o3",
-          "text": "Eukaryotic fungal hyphae",
+          "text": "Fungal hyphae",
           "evidence": "Transduction is mediated by bacterial viruses (bacteriophages). Source PDF page: 24."
         },
         {
           "id": "o1",
-          "text": "Bacterial viruses (bacteriophages)",
+          "text": "Bacteriophages",
           "evidence": "Viruses move DNA between bacteria. Source PDF page: 24."
         }
       ],
@@ -12720,7 +12720,7 @@
       "options": [
         {
           "id": "o4",
-          "text": "The host eukaryotic nuclear chromatin network",
+          "text": "The host eukaryotic nuclear chromatin",
           "evidence": "Conjugation is a bacterial plasmid-mediated process. Source PDF page: 26."
         },
         {
@@ -12730,17 +12730,17 @@
         },
         {
           "id": "o1",
-          "text": "The F (fertility) factor plasmid",
+          "text": "The F fertility factor plasmid",
           "evidence": "The F factor carries genes required for mating/genetic-material transfer. Source PDF page: 26."
         },
         {
           "id": "o5",
-          "text": "A stationary phase sigma factor gene alone",
+          "text": "A stationary phase sigma factor gene",
           "evidence": "The F factor carries the specific transfer genes. Source PDF page: 26."
         },
         {
           "id": "o3",
-          "text": "A defective non-contractile bacteriophage tail pin",
+          "text": "A defective bacteriophage tail pin",
           "evidence": "Conjugation is controlled by the F factor. Source PDF page: 26."
         }
       ],
@@ -14054,27 +14054,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "DNA from encapsulated smooth pneumococci transformed non-encapsulated rough cells into encapsulated smooth cells",
+          "text": "DNA from smooth pneumococci transformed rough cells into encapsulated smooth cells",
           "evidence": "The 1944 example uses DNA from encapsulated smooth pneumococci to transform nonencapsulated rough cells into encapsulated smooth organisms. Source PDF page: 33."
         },
         {
           "id": "o4",
-          "text": "Bacteriophages injected lipid droplets into unencapsulated staphylococci",
+          "text": "Heat-killed rough cells transformed living smooth cells into non-capsulated mutants",
           "evidence": "The transforming principle experiment used pneumococcal DNA. Source PDF page: 33."
         },
         {
           "id": "o5",
-          "text": "Pilin proteins directly catalyzed transcription of capsular mRNA",
+          "text": "Purified capsular carbohydrate alone induced antibody production in vitro",
           "evidence": "DNA was identified as the genetic material transferring capsule synthesis. Source PDF page: 33."
         },
         {
           "id": "o3",
-          "text": "Heat-killed rough cells transformed living smooth cells into non-capsulated mutants",
+          "text": "Pilin proteins directly catalyzed transcription of capsular mRNA molecules",
           "evidence": "DNA from smooth cells transformed rough cells into smooth cells. Source PDF page: 33."
         },
         {
           "id": "o2",
-          "text": "Purified capsular carbohydrate alone induced antibody production in vitro",
+          "text": "Bacteriophages injected lipid droplets into unencapsulated staphylococci",
           "evidence": "DNA, not carbohydrate, was proven to be the transforming substance. Source PDF page: 33."
         }
       ],
@@ -15164,7 +15164,7 @@
         },
         {
           "id": "o4",
-          "text": "High concentrations of hydrochloric acid and heavy mercuric salts",
+          "text": "Hydrochloric acid and heavy mercuric salts",
           "evidence": "Media support growth, not toxicity. Source PDF page: 13."
         },
         {
@@ -15174,7 +15174,7 @@
         },
         {
           "id": "o1",
-          "text": "Purified chemicals (sugars, amino acids, salts) and blood",
+          "text": "Purified chemical nutrients and whole blood",
           "evidence": "Purified chemicals (sugars, amino acids, salts) and blood for nutritional purposes. Source PDF page: 13."
         }
       ],
@@ -15328,27 +15328,27 @@
       "options": [
         {
           "id": "o3",
-          "text": "Molecular nitrogen gas (N2) and gaseous carbon dioxide (CO2), which buffer cellular pH levels",
+          "text": "Molecular nitrogen gas and carbon dioxide",
           "evidence": "The cited toxic oxygen species are H2O2 and superoxide. Source PDF page: 14."
         },
         {
           "id": "o2",
-          "text": "Lactic acid (C3H6O3) and pyruvic acid (C3H4O3), which neutralize bacterial cytosol pH",
+          "text": "Lactic acid and pyruvic acid",
           "evidence": "Toxic oxygen molecules are H2O2 and superoxide. Source PDF page: 14."
         },
         {
           "id": "o1",
-          "text": "Superoxide free radicals (O2-) and hydrogen peroxide (H2O2), which damage cellular components",
+          "text": "Superoxide free radicals and hydrogen peroxide",
           "evidence": "Hydrogen peroxide (H2O2) and free radical superoxide (O2-). Source PDF page: 14."
         },
         {
           "id": "o5",
-          "text": "Inorganic phosphate (PO4) and adenosine triphosphate (ATP), which phosphorylate outer porins",
+          "text": "Inorganic phosphate and adenosine triphosphate",
           "evidence": "Nitrogen and argon are inert gases. Source PDF page: 14."
         },
         {
           "id": "o4",
-          "text": "Ethanol (C2H5OH) and lactic acid (C3H6O3), which reduce the viscosity of the bacterial cytosol",
+          "text": "Ethanol and lactic acid",
           "evidence": "Lactate and pyruvate are fermentation metabolites, not toxic ROS. Source PDF page: 14, 25."
         }
       ],
@@ -15502,27 +15502,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Both catalase and superoxide dismutase enzymes (+/+)",
+          "text": "Both catalase and superoxide dismutase enzymes present",
           "evidence": "Require oxygen to grow; example: M. tuberculosis. Source PDF page: 15."
         },
         {
           "id": "o2",
-          "text": "Neither catalase nor superoxide dismutase enzymes (-/-)",
+          "text": "Neither catalase nor superoxide dismutase enzymes present",
           "evidence": "C. tetani is an obligate anaerobe killed by oxygen. Source PDF page: 15."
         },
         {
           "id": "o5",
-          "text": "Superoxide dismutase present but lacks catalase (-/+)",
+          "text": "Superoxide dismutase present, but catalase absent",
           "evidence": "C. jejuni is microaerophilic. Source PDF page: 15, 16."
         },
         {
           "id": "o3",
-          "text": "Catalase present but lacks superoxide dismutase (+/-)",
+          "text": "Catalase present, but superoxide dismutase absent",
           "evidence": "E. coli is a facultative anaerobe. Source PDF page: 15."
         },
         {
           "id": "o4",
-          "text": "Peroxidase present but lacks both catalase and SOD",
+          "text": "Peroxidase present, but both catalase and SOD absent",
           "evidence": "B. fragilis is an anaerobe. Source PDF page: 15."
         }
       ],
@@ -15792,27 +15792,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Mesophiles (10°C to 50°C)",
+          "text": "Mesophiles",
           "evidence": "Mesophiles (10 to 50°C). Source PDF page: 18."
         },
         {
           "id": "o3",
-          "text": "Thermophiles (40°C to 72°C)",
+          "text": "Thermophiles",
           "evidence": "Thermophiles grow at high temperatures (40 to 72°C). Source PDF page: 18."
         },
         {
           "id": "o2",
-          "text": "Psychrophiles (−10°C to 20°C)",
+          "text": "Psychrophiles",
           "evidence": "Psychrophiles grow at cold temperatures (−10 to 20°C). Source PDF page: 18."
         },
         {
           "id": "o5",
-          "text": "Psychrotrophs (0°C to 30°C exclusively)",
+          "text": "Psychrotrophs",
           "evidence": "Human body temperature pathogens (37°C) are mesophiles (10-50°C). Source PDF page: 18."
         },
         {
           "id": "o4",
-          "text": "Hyperthermophiles (65°C to 110°C)",
+          "text": "Hyperthermophiles",
           "evidence": "Hyperthermophiles grow at extreme hot temperatures (65 to 110°C). Source PDF page: 18."
         }
       ],
@@ -15850,27 +15850,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Neutrophiles (pH < 2.0), acidophiles (pH 6.0–8.0; optimum 7.0), and alkaliphiles (pH 3.0–5.0)",
+          "text": "Neutrophiles (pH < 2.0), acidophiles (pH 6.0–8.0), and alkaliphiles (pH 3.0–5.0)",
           "evidence": "Autotrophs/heterotrophs are nutritional classes. Source PDF page: 19, 35."
         },
         {
           "id": "o1",
-          "text": "Acidophiles (pH < 5.5), neutrophiles (pH 5.5–8.0; optimum 7.2–7.6), and alkaliphiles (pH > 8.5)",
+          "text": "Acidophiles (pH < 5.5), neutrophiles (pH 5.5–8.0), and alkaliphiles (pH > 8.5)",
           "evidence": "Curves showing relative growth rate for Acidophiles (peak ~3), Neutrophiles (peak ~7), Alkaliphiles (peak ~9). Source PDF page: 19."
         },
         {
           "id": "o2",
-          "text": "Alkaliphiles (pH 1.0–4.0), neutrophiles (pH 4.0–6.0; optimum 5.0), and acidophiles (pH > 10.0)",
+          "text": "Alkaliphiles (pH 1.0–4.0), neutrophiles (pH 4.0–6.0), and acidophiles (pH > 10.0)",
           "evidence": "Psychrophiles/mesophiles/thermophiles are temperature classes, not pH classes. Source PDF page: 18, 19."
         },
         {
           "id": "o3",
-          "text": "Psychrophiles (pH < 4.0), mesophiles (pH 5.0–7.0; optimum 6.5), and thermophiles (pH > 9.0)",
+          "text": "Psychrophiles (pH < 4.0), mesophiles (pH 5.0–7.0), and thermophiles (pH > 9.0)",
           "evidence": "The pH classes are acidophiles, neutrophiles, and alkaliphiles. Source PDF page: 19."
         },
         {
           "id": "o5",
-          "text": "Halophiles (pH 2.0–5.0), capnophiles (pH 6.0–8.0; optimum 7.4), and barophiles (pH > 11.0)",
+          "text": "Halophiles (pH 2.0–5.0), capnophiles (pH 6.0–8.0), and barophiles (pH > 11.0)",
           "evidence": "Aerobes/anaerobes are oxygen classes. Source PDF page: 15, 19."
         }
       ],
@@ -15966,27 +15966,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Requiring absolute absence of any dissolved minerals",
+          "text": "Requiring complete absence of dissolved minerals",
           "evidence": "Halophiles require high salt, not mineral absence. Source PDF page: 21."
         },
         {
           "id": "o3",
-          "text": "Requiring liquid mercury as the sole solvent",
+          "text": "Requiring liquid mercury as solvent",
           "evidence": "Halophiles require high salt concentrations. Source PDF page: 21."
         },
         {
           "id": "o4",
-          "text": "Requiring continuous incubation in boiling sulfuric acid",
+          "text": "Requiring continuous incubation in boiling acid",
           "evidence": "Halophiles are salt-requiring organisms. Source PDF page: 21."
         },
         {
           "id": "o1",
-          "text": "Requiring high salt (sodium chloride) concentrations",
+          "text": "Requiring high salt concentrations",
           "evidence": "Organisms requiring high salt concentrations. Source PDF page: 21."
         },
         {
           "id": "o5",
-          "text": "Requiring high atmospheric ozone pressure exclusively",
+          "text": "Requiring high atmospheric ozone pressure",
           "evidence": "Halophiles require high salt. Source PDF page: 21."
         }
       ],
@@ -16082,27 +16082,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Sum of all chemical reactions (catabolism for energy and anabolism for cellular synthesis)",
+          "text": "Total cellular chemical reactions divided into catabolism and anabolism",
           "evidence": "Metabolism (Greek metabole, change) is the totality of chemical processes to maintain life, sum of Catabolism and Anabolism. Source PDF page: 22."
         },
         {
           "id": "o3",
-          "text": "Rate of chromosomal DNA replication during the exponential logarithmic phase of growth",
+          "text": "Rate of chromosomal DNA replication during logarithmic growth phase",
           "evidence": "Conjugation is horizontal transfer, not the definition of metabolism. Source PDF page: 22."
         },
         {
           "id": "o4",
-          "text": "Diffusion velocity of nutrients across outer membrane porin water-filled barrel channels",
+          "text": "Diffusion velocity of nutrients across outer membrane porin channels",
           "evidence": "This defines transformation. Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Frequency of binary fission divisions per hour under standard incubator broth conditions",
+          "text": "Frequency of binary fission divisions per hour under incubation",
           "evidence": "Metabolism is the totality of chemical life processes (catabolism + anabolism). Source PDF page: 22."
         },
         {
           "id": "o5",
-          "text": "Production of extracellular polysaccharide capsule layers to resist host phagocytosis",
+          "text": "Production of extracellular polysaccharide capsule layers",
           "evidence": "Metabolism is the sum of catabolism and anabolism. Source PDF page: 22."
         }
       ],
@@ -16430,27 +16430,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Distinguishing Gram-positive spore-forming bacilli from Gram-negative obligate intracellular cocci",
+          "text": "Glucose oxidation",
           "evidence": "Differentiation is based on lactose fermentation. Source PDF page: 27."
         },
         {
           "id": "o1",
-          "text": "Differentiating lactose fermenters (e.g. E. coli) from non-fermenters (Salmonella and Shigella)",
+          "text": "Lactose fermentation",
           "evidence": "E. coli can be differentiated from Salmonella and Shigella on the basis of lactose fermentation. Source PDF page: 27."
         },
         {
           "id": "o3",
-          "text": "Identifying motile spirochetes with axial filaments from non-motile encapsulated viridans cocci",
+          "text": "Sucrose inversion",
           "evidence": "Lactose fermentation is the differential enteric test. Source PDF page: 27."
         },
         {
           "id": "o4",
-          "text": "Separating acid-fast Mycobacterium species from wall-less Mycoplasma respiratory microorganisms",
+          "text": "Maltose hydrolysis",
           "evidence": "Bacteria have 70S ribosomes; enteric differentiation uses lactose. Source PDF page: 27."
         },
         {
           "id": "o5",
-          "text": "Determining the exact capsular serotype of Streptococcus pneumoniae from purulent rusty sputum",
+          "text": "Mannitol utilization",
           "evidence": "None of these vegetative enterics survive autoclaving; lactose distinguishes them. Source PDF page: 27."
         }
       ],
@@ -16493,22 +16493,22 @@
         },
         {
           "id": "o2",
-          "text": "Gas production turns the broth jet black with heavy precipitation",
+          "text": "The medium turns black with heavy precipitation",
           "evidence": "Phenol red turns yellow upon acid production. Source PDF page: 27."
         },
         {
           "id": "o1",
-          "text": "Acid production turns the phenol red medium yellow (positive)",
+          "text": "The medium turns yellow due to acid production",
           "evidence": "Acid production turns medium yellow (positive); unfermented sugar leaves phenol red red. Source PDF page: 27."
         },
         {
           "id": "o5",
-          "text": "A fluorescent green sheen forms only under ultraviolet light",
+          "text": "A fluorescent green sheen forms under ultraviolet light",
           "evidence": "Phenol red turns yellow under visible light due to acid. Source PDF page: 27."
         },
         {
           "id": "o4",
-          "text": "The broth completely clears and becomes completely colorless",
+          "text": "The medium becomes completely clear and colorless",
           "evidence": "Positive fermentation turns yellow. Source PDF page: 27."
         }
       ],
@@ -16604,27 +16604,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Extracellular matrix polymers that bind calcium ions to form rigid mineralized shells around bacterial rods",
+          "text": "Binding calcium ions to form rigid mineralized shells around rods",
           "evidence": "Siderophores chelate existing environmental iron. Source PDF page: 30."
         },
         {
           "id": "o5",
-          "text": "Lipid transport vesicles that deposit human serum cholesterol directly into the bacterial peptidoglycan wall",
+          "text": "Depositing serum cholesterol directly into the peptidoglycan wall",
           "evidence": "Siderophores are iron-uptake molecules. Source PDF page: 30."
         },
         {
           "id": "o2",
-          "text": "Proteolytic enzymes that degrade human circulating hemoglobin into free nitrogen gas within vascular beds",
+          "text": "Degrading human circulating hemoglobin into free nitrogen gas",
           "evidence": "Siderophores are secreted chemical chelators. Source PDF page: 30."
         },
         {
           "id": "o3",
-          "text": "Bacterial membrane porins that transport intact host erythrocytes into the cytoplasm for intracellular lysis",
+          "text": "Transporting intact erythrocytes into cytoplasm for intracellular lysis",
           "evidence": "Siderophores bind iron directly and compete with transferrin. Source PDF page: 30."
         },
         {
           "id": "o1",
-          "text": "Iron-binding molecules (like enterobactin) that chelate ferric iron and transport it across the bacterial membrane",
+          "text": "Chelating ferric iron and transporting it across the bacterial membrane",
           "evidence": "Bacteria secrete iron-binding chelators (siderophores, e.g. enterobactin in E. coli) that compete with host transferrin, bind bacterial surface receptors, and are actively transported inside. Source PDF page: 30."
         }
       ],
@@ -16720,17 +16720,17 @@
       "options": [
         {
           "id": "o2",
-          "text": "Preformed organic glucose and total darkness",
+          "text": "Organic glucose and total darkness",
           "evidence": "Photoautotrophs require light and fix CO2. Source PDF page: 33."
         },
         {
           "id": "o1",
-          "text": "Light energy and carbon dioxide (CO2) gas",
+          "text": "Light energy and carbon dioxide",
           "evidence": "Cyanobacteria synthesize food using light energy and CO2 gas (photosynthesis). Source PDF page: 33."
         },
         {
           "id": "o3",
-          "text": "Inorganic chemical reactions and organic fatty acids",
+          "text": "Inorganic chemical reactions and fatty acids",
           "evidence": "Photoautotrophs use light and CO2. Source PDF page: 33."
         },
         {
@@ -16740,7 +16740,7 @@
         },
         {
           "id": "o5",
-          "text": "Hydrolysis of peptidoglycan in human plasma",
+          "text": "Peptidoglycan hydrolysis in plasma",
           "evidence": "Photoautotrophs synthesize food via photosynthesis. Source PDF page: 33."
         }
       ],
@@ -16778,27 +16778,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Visible radiant sunlight for energy and preformed organic proteins for carbon",
+          "text": "Visible radiant sunlight for energy and preformed proteins for carbon",
           "evidence": "This describes photoheterotrophs. Source PDF page: 33, 34."
         },
         {
           "id": "o5",
-          "text": "Host mitochondrial ATP for energy and complex nucleic acids for cellular carbon",
+          "text": "Host mitochondrial ATP for energy and complex nucleic acids for carbon",
           "evidence": "Chemoautotrophs use CO2 and inorganic chemical energy. Source PDF page: 33."
         },
         {
           "id": "o1",
-          "text": "Inorganic chemical compounds for energy and carbon dioxide (CO2) for carbon",
+          "text": "Inorganic chemical compounds for energy and carbon dioxide for carbon",
           "evidence": "Use CO2 and obtain energy from chemical reactions of inorganic compounds (chemosynthesis). Source PDF page: 33."
         },
         {
           "id": "o2",
-          "text": "Exogenous fatty acids for energy and insoluble calcium carbonate for carbon",
+          "text": "Exogenous fatty acids for energy and calcium carbonate for carbon",
           "evidence": "Chemoautotrophs use inorganic chemical reactions and CO2. Source PDF page: 33."
         },
         {
           "id": "o3",
-          "text": "Preformed organic sugars for energy and atmospheric molecular nitrogen for carbon",
+          "text": "Preformed organic sugars for energy and atmospheric nitrogen for carbon",
           "evidence": "Chemoautotrophs use inorganic chemical reactions and CO2. Source PDF page: 33."
         }
       ],
@@ -16952,27 +16952,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Chemoheterotrophs, which use organic compounds for both energy and carbon",
+          "text": "Chemoheterotrophs, using organic compounds for both energy and carbon",
           "evidence": "Use organic compounds for both energy and carbon (e.g. glucose). Parasite: feeds on living organic matter. Source PDF page: 34."
         },
         {
           "id": "o2",
-          "text": "Photoautotrophs, which require intense solar radiation to infect human tissues",
+          "text": "Photoautotrophs, using solar radiation and inorganic carbon dioxide",
           "evidence": "Human pathogens are chemoheterotrophs, not photosynthetic autotrophs. Source PDF page: 34."
         },
         {
           "id": "o5",
-          "text": "Extreme hyperthermophiles growing exclusively at 110°C",
+          "text": "Lithoautotrophs, using volcanic mineral substrates and molecular nitrogen",
           "evidence": "Medical pathogens are chemoheterotrophs growing at body temperature. Source PDF page: 18, 34."
         },
         {
           "id": "o3",
-          "text": "Lithoautotrophs, which extract energy from bare volcanic rock",
+          "text": "Chemoautotrophs, using inorganic chemical oxidation and carbon dioxide",
           "evidence": "Medical bacteria are chemoheterotrophs using organic molecules. Source PDF page: 34."
         },
         {
           "id": "o4",
-          "text": "Obligate barophiles, which require ocean deep-sea pressures to cause disease",
+          "text": "Photoheterotrophs, using radiant sunlight and preformed organic nutrients",
           "evidence": "Human pathogens are chemoheterotrophic mesophiles. Source PDF page: 18, 34."
         }
       ],
@@ -17353,27 +17353,27 @@
       "options": [
         {
           "id": "o5",
-          "text": "Complete liquefaction of the entire agar medium with bright green diffusible pyocyanin pigment",
+          "text": "Complete liquefaction of the entire medium with green pyocyanin pigment",
           "evidence": "Describes gelatinase and pyocyanin, not TSI slant. Source PDF page: 29."
         },
         {
           "id": "o2",
-          "text": "Acid yellow slant over an acid yellow butt (A/A) with abundant gas splitting but zero black precipitate",
+          "text": "Acid yellow slant over an acid yellow butt with abundant gas splitting",
           "evidence": "A/A indicates lactose/sucrose fermentation (e.g. E. coli). Source PDF page: 29."
         },
         {
           "id": "o4",
-          "text": "Acid yellow slant over an alkaline red butt (A/K) with purple pigmentation along the inoculation streak",
+          "text": "Acid yellow slant over an alkaline red butt with purple pigmentation",
           "evidence": "A/K does not occur in TSI. Source PDF page: 29."
         },
         {
           "id": "o3",
-          "text": "Alkaline red slant over an alkaline red butt (K/K) with zero carbohydrate fermentation and no blackening",
+          "text": "Alkaline red slant over an alkaline red butt with zero carbohydrate fermentation",
           "evidence": "K/K indicates non-fermenter (e.g. Pseudomonas). Source PDF page: 29."
         },
         {
           "id": "o1",
-          "text": "Alkaline red slant over an acid yellow butt (K/A) with black ferrous sulfide precipitate in the butt",
+          "text": "Alkaline red slant over an acid yellow butt with black ferrous sulfide precipitate",
           "evidence": "Glucose-only fermentation yields K/A; H2S reacts with iron to form black FeS precipitate. Source PDF page: 29."
         }
       ],
@@ -17412,27 +17412,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Acid yellow slant over an acid yellow butt (A/A) with gas production that splits or lifts the agar",
+          "text": "Acid yellow slant over an acid yellow butt with gas production",
           "evidence": "E. coli ferments lactose/sucrose and glucose, keeping both slant and butt yellow (A/A) with gas. Source PDF page: 29."
         },
         {
           "id": "o2",
-          "text": "Alkaline red slant over an acid yellow butt (K/A) with heavy black ferrous sulfide precipitate",
+          "text": "Alkaline red slant over an acid yellow butt with black precipitate",
           "evidence": "Describes glucose-only H2S producer (Salmonella/Proteus). Source PDF page: 29."
         },
         {
           "id": "o3",
-          "text": "Alkaline red slant over an alkaline red butt (K/K) with no acid production in the slant or butt",
+          "text": "Alkaline red slant over an alkaline red butt without gas",
           "evidence": "Describes non-fermenter (Pseudomonas). Source PDF page: 29."
         },
         {
           "id": "o4",
-          "text": "Acid yellow slant over an alkaline red butt (A/K) with complete absence of any gas bubbles",
+          "text": "Acid yellow slant over an alkaline red butt without gas",
           "evidence": "A/K does not occur on TSI. Source PDF page: 29."
         },
         {
           "id": "o5",
-          "text": "Neutral orange slant over a purple butt (N/P) with complete breakdown of urea into ammonia",
+          "text": "Neutral orange slant over a purple butt with ammonia",
           "evidence": "Describes urea broth test, not TSI agar. Source PDF page: 29."
         }
       ],
@@ -17471,27 +17471,27 @@
       "options": [
         {
           "id": "o5",
-          "text": "Alkaline red slant over a black butt (K/H2S), indicating rapid conversion of sodium thiosulfate to sulfur",
+          "text": "Alkaline red slant over a black butt",
           "evidence": "Pseudomonas does not produce H2S in the butt. Source PDF page: 29."
         },
         {
           "id": "o1",
-          "text": "Alkaline red slant over an alkaline red butt (K/K), indicating no fermentation of glucose or lactose",
+          "text": "Alkaline red slant over an alkaline red butt",
           "evidence": "Pseudomonas is a non-fermenter; peptone catabolism produces an alkaline red slant and butt (K/K). Source PDF page: 29."
         },
         {
           "id": "o3",
-          "text": "Alkaline red slant over an acid yellow butt (K/A), indicating fermentation of glucose without gas or sulfide",
+          "text": "Alkaline red slant over an acid yellow butt",
           "evidence": "Describes Shigella (glucose fermenter only). Source PDF page: 29."
         },
         {
           "id": "o2",
-          "text": "Acid yellow slant over an acid yellow butt (A/A), indicating fermentation of glucose, lactose, and sucrose",
+          "text": "Acid yellow slant over an acid yellow butt",
           "evidence": "Describes coliform fermenters (E. coli). Source PDF page: 29."
         },
         {
           "id": "o4",
-          "text": "Acid yellow slant over an alkaline red butt (A/K), indicating fermentation of lactose but not glucose",
+          "text": "Acid yellow slant over an alkaline red butt",
           "evidence": "Does not occur on TSI. Source PDF page: 29."
         }
       ],
@@ -17897,12 +17897,12 @@
         },
         {
           "id": "o1",
-          "text": "The colon (large intestine)",
+          "text": "The colon",
           "evidence": "Largest and most complex microbial population resides in colon. Source PDF page: 5."
         },
         {
           "id": "o3",
-          "text": "The terminal alveoli of the lungs",
+          "text": "The terminal alveoli",
           "evidence": "The lower respiratory tract and alveoli are normally sterile. Source PDF page: 5, 20."
         },
         {
@@ -18820,27 +18820,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Achondroplasia and Huntington chorea exclusively",
+          "text": "Achondroplasia and Huntington chorea",
           "evidence": "The lecture cites type 2 diabetes and IBD in connection with altered microbiome. Source PDF page: 13."
         },
         {
           "id": "o3",
-          "text": "Hemophilia A and color blindness",
+          "text": "Hemophilia A and red-green color blindness",
           "evidence": "These are X-linked genetic disorders, not microbiome-associated metabolic states. Source PDF page: 13."
         },
         {
           "id": "o1",
-          "text": "Type 2 diabetes and inflammatory bowel disease (IBD)",
+          "text": "Type 2 diabetes and inflammatory bowel disease",
           "evidence": "Altered gut microbiome is associated with type 2 diabetes/IBD and may influence insulin resistance, permeability and inflammation. Source PDF page: 13."
         },
         {
           "id": "o5",
-          "text": "Fractures of the long bones due to external trauma",
+          "text": "Fractures of long bones due to external trauma",
           "evidence": "The cited conditions are type 2 diabetes and IBD. Source PDF page: 13."
         },
         {
           "id": "o4",
-          "text": "Sickle cell anemia due to beta-globin missense mutations",
+          "text": "Sickle cell anemia due to beta-globin mutations",
           "evidence": "Sickle cell is an inherited genetic disease; microbiome dysbiosis is linked to T2D and IBD. Source PDF page: 13."
         }
       ],
@@ -19168,27 +19168,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Vibrio cholerae fermenting subcutaneous keratin",
+          "text": "Vibrio cholerae",
           "evidence": "Propionibacterium acnes resides in deep follicles. Source PDF page: 19."
         },
         {
           "id": "o2",
-          "text": "Streptococcus pyogenes forming deep cutaneous chancres",
+          "text": "Streptococcus pyogenes",
           "evidence": "Propionibacterium occupies deep follicles and is implicated in acne. Source PDF page: 19."
         },
         {
           "id": "o5",
-          "text": "Treponema pallidum causing universal baldness",
+          "text": "Treponema pallidum",
           "evidence": "Propionibacterium is the deep follicle resident. Source PDF page: 19."
         },
         {
           "id": "o1",
-          "text": "Propionibacterium (P. acnes) in deeper dermal follicles",
+          "text": "Propionibacterium acnes",
           "evidence": "Propionibacterium occurs in deeper dermal follicles; P. acnes is implicated in acne. Source PDF page: 19."
         },
         {
           "id": "o3",
-          "text": "Escherichia coli synthesizing bile acids inside hair shafts",
+          "text": "Escherichia coli",
           "evidence": "Propionibacterium resides in deeper follicles. Source PDF page: 19."
         }
       ],
@@ -19400,27 +19400,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Staphylococcus aureus forming caries; viridans causing pseudomembranous colitis",
+          "text": "Staphylococcus aureus forming caries, and viridans causing pseudomembranous colitis",
           "evidence": "S. mutans causes caries; viridans group causes infective endocarditis. Source PDF page: 21."
         },
         {
           "id": "o3",
-          "text": "Escherichia coli causing dental plaque; Clostridium tetani causing endocarditis",
+          "text": "Escherichia coli causing dental plaque, and Clostridium tetani causing endocarditis",
           "evidence": "S. mutans is the plaque/caries agent; viridans streptococci cause endocarditis. Source PDF page: 21."
         },
         {
           "id": "o1",
-          "text": "Streptococcus mutans in dental plaque (caries precursor); viridans group causes infective endocarditis",
+          "text": "Streptococcus mutans in dental plaque, and viridans group causing infective endocarditis",
           "evidence": "S. mutans is a viridans member abundant in dental plaque, precursor of caries; viridans group can cause infective endocarditis. Source PDF page: 21."
         },
         {
           "id": "o4",
-          "text": "Streptococcus pneumoniae causing caries; Neisseria gonorrhoeae causing plaque",
+          "text": "Streptococcus pneumoniae causing caries, and Neisseria gonorrhoeae causing plaque",
           "evidence": "S. mutans forms plaque/caries; viridans causes endocarditis. Source PDF page: 21."
         },
         {
           "id": "o5",
-          "text": "Cutibacterium acnes causing enamel dissolution and septic arthritis",
+          "text": "Cutibacterium acnes causing enamel dissolution, and viridans causing septic arthritis",
           "evidence": "S. mutans is the dental plaque/caries viridans member. Source PDF page: 19, 21."
         }
       ],
@@ -19458,27 +19458,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Small intestine harbors 10^12 obligate anaerobes per gram, while the large colon remains completely sterile in healthy adults",
+          "text": "Small intestine harbors dense anaerobes, while the large colon remains completely sterile",
           "evidence": "The colon has vastly greater numbers (>90% anaerobes) than the small intestine. Source PDF page: 22."
         },
         {
           "id": "o3",
-          "text": "Duodenum contains dense biofilm lawns of Clostridium difficile, whereas the ascending colon is colonized only by fungal molds",
+          "text": "Duodenum contains dense lawns of spore formers, whereas the colon is colonized only by molds",
           "evidence": "Small intestine has small numbers of streptococci, lactobacilli, C. albicans. Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Both small intestine and large bowel contain identical bacterial concentrations of strictly Gram-negative obligate aerobes",
+          "text": "Both small intestine and large bowel contain identical concentrations of obligate aerobes",
           "evidence": "The colon is the major location; the small intestine has relatively few. Source PDF page: 22."
         },
         {
           "id": "o1",
-          "text": "Small intestine has small numbers (streptococci, lactobacilli, C. albicans), while the colon is the major bacterial reservoir",
+          "text": "Small intestine harbors sparse populations, while the colon serves as the major bacterial reservoir",
           "evidence": "Small intestine contains small numbers of streptococci, lactobacilli and C. albicans; colon is major bacterial location. Source PDF page: 22."
         },
         {
           "id": "o5",
-          "text": "Jejunum serves as the primary fecal bacterial reservoir, while the sigmoid colon and rectum harbor zero commensal organisms",
+          "text": "Jejunum serves as the primary reservoir, while the sigmoid colon harbors zero commensals",
           "evidence": "The colon is the major bacterial site in the body. Source PDF page: 22."
         }
       ],
@@ -19516,27 +19516,27 @@
       "options": [
         {
           "id": "o3",
-          "text": "Over 95% are obligate aerobes like Pseudomonas aeruginosa, while strict anaerobes constitute less than 0.01% of total fecal mass",
+          "text": "Over 95% are obligate aerobes, while strict anaerobes constitute less than 0.01% of stool mass",
           "evidence": "Feces contains massive bacterial numbers (>90% anaerobes). Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Facultative anaerobes like E. coli constitute over 99% of stool flora, whereas Bacteroides species are entirely absent in adults",
+          "text": "Facultative anaerobes constitute over 99% of stool flora, whereas strict anaerobes are absent",
           "evidence": "Fecal flora is >90% anaerobic; coliforms/E. coli are the most abundant facultative organisms. Source PDF page: 22."
         },
         {
           "id": "o5",
-          "text": "Fecal bacteria consist exclusively of spore-forming Bacillus species, with complete absence of any Gram-negative enteric rods",
+          "text": "Fecal bacteria consist exclusively of spore-forming Bacillus species without enteric rods",
           "evidence": "Coliforms are facultative anaerobes that ferment lactose/glucose. Source PDF page: 22, 27."
         },
         {
           "id": "o4",
-          "text": "Fecal microorganisms are 100% eukaryotic yeast cells like Candida albicans, with prokaryotes occurring only in acute infections",
+          "text": "Fecal microorganisms are entirely eukaryotic yeast cells with prokaryotes occurring only in disease",
           "evidence": "B. fragilis is an obligate anaerobe in the colon. Source PDF page: 15, 22."
         },
         {
           "id": "o1",
-          "text": "Over 90% are anaerobes (e.g. B. fragilis); coliforms including E. coli are the most abundant facultative bacteria",
+          "text": "Over 90% are anaerobes like Bacteroides; coliforms are the predominant facultatives",
           "evidence": "More than 90% is anaerobic; B. fragilis important. Coliforms including E. coli are the most abundant facultative bacteria. Source PDF page: 22."
         }
       ],
@@ -19826,7 +19826,7 @@
         },
         {
           "id": "o1",
-          "text": "Recurrent Clostridioides (Clostridium) difficile infection",
+          "text": "Recurrent Clostridioides difficile colitis",
           "evidence": "Restores communities and treats recurrent Clostridioides difficile infection in the source; other interventions are under investigation for IBD. Source PDF page: 28."
         }
       ],
@@ -20908,27 +20908,27 @@
       "options": [
         {
           "id": "o3",
-          "text": "Gram-positive (thick peptidoglycan), Gram-negative (outer lipid A), and acid-fast (mycolic waxes)",
+          "text": "Gram-positive, Gram-negative, and acid-fast determinants",
           "evidence": "Determinant categories are genetic, biochemical, and structural. Source PDF page: 14."
         },
         {
           "id": "o5",
-          "text": "Anatomical (hepatic lobes), physiological (renal tubules), and pharmacological (serum clearance)",
+          "text": "Anatomical, physiological, and pharmacological determinants",
           "evidence": "Virulence determinants are categorized as genetic, biochemical, and structural. Source PDF page: 14."
         },
         {
           "id": "o1",
-          "text": "Genetic (pathogenicity genes), biochemical (toxins/enzymes), and structural (capsules/pili)",
+          "text": "Genetic, biochemical, and structural determinants",
           "evidence": "Genetic: plasmid pathogenicity genes; biochemical: toxins/enzymes; structural: capsules, pili and surface proteins. Source PDF page: 14."
         },
         {
           "id": "o4",
-          "text": "Mesophilic (ambient warmth), psychrophilic (refrigeration cold), and thermophilic (boiling heat)",
+          "text": "Mesophilic, psychrophilic, and thermophilic determinants",
           "evidence": "These are temperature growth classes, not virulence categories. Source PDF page: 14, 18."
         },
         {
           "id": "o2",
-          "text": "Physical (centrifugal forces), thermodynamic (latent heat), and acoustic (soundwave frequencies)",
+          "text": "Physical, thermodynamic, and acoustic determinants",
           "evidence": "The three biological categories are genetic, biochemical, and structural. Source PDF page: 14."
         }
       ],
@@ -20966,27 +20966,27 @@
       "options": [
         {
           "id": "o4",
-          "text": "Penicillin (genetic), cephalosporin (biochemical), vancomycin (structural)",
+          "text": "Penicillin, cephalosporin, and vancomycin",
           "evidence": "These are antibiotics, not bacterial determinants. Source PDF page: 14."
         },
         {
           "id": "o2",
-          "text": "Pneumococcal capsule (biochemical), botulinum toxin (structural), Salmonella genes (structural)",
+          "text": "Pneumococcal capsule, botulinum toxin, and Salmonella genes",
           "evidence": "Capsule is structural, toxin is biochemical, and plasmid genes are genetic. Source PDF page: 14."
         },
         {
           "id": "o3",
-          "text": "Human albumin (genetic), saline broth (biochemical), agar gel (structural)",
+          "text": "Human albumin, saline broth, and agar gel",
           "evidence": "These are laboratory/host components, not bacterial virulence determinants. Source PDF page: 14."
         },
         {
           "id": "o1",
-          "text": "Salmonella plasmid genes (genetic), botulinum toxin (biochemical), and pneumococcal capsule (structural)",
+          "text": "Salmonella plasmid genes, botulinum toxin, and pneumococcal capsule",
           "evidence": "Salmonella plasmid genes; botulinum toxin; pneumococcal capsule. Source PDF page: 14."
         },
         {
           "id": "o5",
-          "text": "Transferrin (genetic), lactoferrin (biochemical), ferritin (structural)",
+          "text": "Transferrin, lactoferrin, and ferritin",
           "evidence": "These are host iron-binding proteins. Source PDF page: 14, 30."
         }
       ],
@@ -21198,27 +21198,27 @@
       "options": [
         {
           "id": "o3",
-          "text": "Preformed peptidoglycan fragments shed during autolysis that activate host toll-like receptors",
+          "text": "Peptidoglycan fragments shed during cell wall synthesis activating host receptors",
           "evidence": "Exotoxins are proteinaceous toxins. Source PDF page: 17."
         },
         {
           "id": "o4",
-          "text": "Short non-coding regulatory RNA hairpins injected via sex pili that inhibit human ribosomal subunit 60S assembly directly",
+          "text": "Regulatory RNA hairpins injected via sex pili that inhibit human translation",
           "evidence": "Exotoxins are proteins or polypeptides. Source PDF page: 17."
         },
         {
           "id": "o1",
-          "text": "Polypeptides actively secreted by bacteria (both G+ and G-) that exert specific enzymatic toxic effects on target tissues",
+          "text": "Actively secreted polypeptides that exert specific enzymatic toxic effects",
           "evidence": "Produced/released protein or polypeptide toxins. Source PDF page: 17."
         },
         {
           "id": "o2",
-          "text": "Lipid A moieties embedded in outer membranes of Gram-negative rods that release strictly upon autolysis or cell wall death",
+          "text": "Lipid A moieties embedded in outer membranes released upon cell autolysis",
           "evidence": "LPS is endotoxin; exotoxins are secreted proteins/polypeptides. Source PDF page: 17."
         },
         {
           "id": "o5",
-          "text": "Structural polysaccharide polymers of the bacterial capsule that trigger non-specific polyclonal activation of B lymphocytes",
+          "text": "Structural polysaccharide polymers of the capsule triggering polyclonal B cells",
           "evidence": "Exotoxins are bacterial protein/polypeptide toxins. Source PDF page: 17."
         }
       ],
@@ -21256,7 +21256,7 @@
       "options": [
         {
           "id": "o4",
-          "text": "Purified teichoic acids embedded in thick gram-positive walls",
+          "text": "Purified teichoic acids embedded in thick Gram-positive cell walls",
           "evidence": "Teichoic acid is gram-positive; endotoxin is gram-negative LPS. Source PDF page: 17."
         },
         {
@@ -21266,17 +21266,17 @@
         },
         {
           "id": "o5",
-          "text": "A steroid hormone synthesized in bacterial mitochondria",
+          "text": "Steroid hormone synthesized in bacterial cytoplasmic membranes",
           "evidence": "Bacteria lack mitochondria; endotoxin is outer membrane LPS. Source PDF page: 17."
         },
         {
           "id": "o1",
-          "text": "Lipopolysaccharide (LPS) integral to the outer membrane of gram-negative bacteria",
+          "text": "Lipopolysaccharide integral to the outer membrane of Gram-negative bacteria",
           "evidence": "LPS integral to Gram-negative outer membrane. Source PDF page: 17."
         },
         {
           "id": "o2",
-          "text": "Extracellular polypeptide actively secreted by gram-positive cocci",
+          "text": "Extracellular polypeptide actively secreted by Gram-positive cocci",
           "evidence": "Secreted polypeptides are exotoxins; endotoxin is gram-negative LPS. Source PDF page: 17."
         }
       ],
@@ -21836,27 +21836,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Thermal (heat/cold), barometric (high altitude/oceanic pressure), and electromagnetic (ionizing radiation)",
+          "text": "Thermal, barometric, and electromagnetic transmission",
           "evidence": "Transmission categories are human-to-human, non-human environment/animals, and fomites. Source PDF page: 25."
         },
         {
           "id": "o3",
-          "text": "Symbiotic (mutualism), parasitic (helminths), and commensal (resident colonizers of cutaneous epithelial surfaces)",
+          "text": "Symbiotic, parasitic, and commensal transmission",
           "evidence": "Transmission categories are human, nonhuman sources (soil/water/animals), and fomites. Source PDF page: 25."
         },
         {
           "id": "o4",
-          "text": "Aerobic (cytochrome oxidase), anaerobic (fermentation pathways), and microaerophilic (capnophilic conditions)",
+          "text": "Aerobic, anaerobic, and microaerophilic transmission",
           "evidence": "Transmission involves external acquisition from human, animal, environmental, or fomite sources. Source PDF page: 25."
         },
         {
           "id": "o1",
-          "text": "Contact (direct/indirect/droplet), vehicle (food/water/air/blood), and vector-borne (arthropods)",
+          "text": "Contact, vehicle, and vector-borne transmission",
           "evidence": "Human-to-human, nonhuman soil/water/animals and fomites such as towels, clothing and medical equipment. Source PDF page: 25."
         },
         {
           "id": "o5",
-          "text": "Mitotic (spindle fibers), meiotic (gamete fusion), and binary (transverse bacterial peptidoglycan fission)",
+          "text": "Mitotic, meiotic, and binary fission transmission",
           "evidence": "Transmission occurs from human-to-human, nonhuman sources, or fomites. Source PDF page: 25."
         }
       ],
@@ -21952,12 +21952,12 @@
       "options": [
         {
           "id": "o1",
-          "text": "Vertical is mother-to-offspring (placenta, birth canal, milk); horizontal is person-to-person",
+          "text": "Vertical is mother-to-offspring transmission; horizontal is person-to-person",
           "evidence": "Vertical: mother-to-offspring via placenta, birth canal or breast milk. Horizontal: person-to-person. Source PDF page: 27."
         },
         {
           "id": "o2",
-          "text": "Vertical is person-to-person; horizontal is strictly mother-to-fetus",
+          "text": "Vertical is person-to-person transmission; horizontal is mother-to-offspring",
           "evidence": "Definitions are inverted. Source PDF page: 27."
         },
         {
@@ -21972,7 +21972,7 @@
         },
         {
           "id": "o5",
-          "text": "Both routes refer exclusively to laboratory pipetting errors",
+          "text": "Both routes refer exclusively to contaminated laboratory aerosols",
           "evidence": "Vertical and horizontal are biological transmission modes. Source PDF page: 27."
         }
       ],
@@ -22532,27 +22532,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Pili (fimbriae), capsules, and glycocalyces",
+          "text": "Pili, capsules, and glycocalyces",
           "evidence": "Pili/fimbriae, capsules and glycocalyces attach pathogens to host surfaces. Source PDF page: 37."
         },
         {
           "id": "o2",
-          "text": "70S ribosomes, tRNA synthetases, and snRNAs",
+          "text": "Ribosomes, tRNA synthetases, and small RNAs",
           "evidence": "These are internal translation components, not surface adhesins. Source PDF page: 37."
         },
         {
           "id": "o3",
-          "text": "Superoxide dismutase and catalase enzymes exclusively",
+          "text": "Superoxide dismutase and catalase enzymes",
           "evidence": "These are antioxidant enzymes, not surface adhesins. Source PDF page: 14, 37."
         },
         {
           "id": "o4",
-          "text": "Lipid A core fatty acid chains located strictly in the cytoplasm",
+          "text": "Lipid A core fatty acid chains",
           "evidence": "Lipid A is endotoxin in outer membrane, not the surface adhesin list. Source PDF page: 17, 37."
         },
         {
           "id": "o5",
-          "text": "Host transferrin and human serum albumin molecules",
+          "text": "Host transferrin and serum albumin molecules",
           "evidence": "Transferrin is a host protein, not a bacterial adhesin. Source PDF page: 30, 37."
         }
       ],
@@ -22706,7 +22706,7 @@
       "options": [
         {
           "id": "o2",
-          "text": "Pure molten lipid droplets without any carbohydrates or proteins",
+          "text": "Pure molten lipid droplets without carbohydrates or proteins",
           "evidence": "Biofilm matrix contains polysaccharides, proteins, and extracellular DNA. Source PDF page: 39."
         },
         {
@@ -22716,12 +22716,12 @@
         },
         {
           "id": "o4",
-          "text": "Inorganic silica sand and calcium carbonate crystals only",
+          "text": "Inorganic silica sand and calcium carbonate crystals",
           "evidence": "Matrix consists of bacterial polysaccharides, proteins, and eDNA. Source PDF page: 39."
         },
         {
           "id": "o1",
-          "text": "Extracellular polysaccharides, proteins, and extracellular DNA (eDNA)",
+          "text": "Extracellular polysaccharides, proteins, and extracellular DNA",
           "evidence": "Attached structured bacterial community in polysaccharide/protein/extracellular-DNA matrix. Source PDF page: 39."
         },
         {
@@ -24388,27 +24388,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "Bacterial enzymes dissolve host plasma membranes completely to expose denuded cytoplasmic organelles",
+          "text": "Bacterial enzymes dissolve host plasma membranes to expose naked organelles",
           "evidence": "Invasins bind host surface receptors like integrins to trigger entry. Source PDF page: 55."
         },
         {
           "id": "o3",
-          "text": "Bacterial capsules polymerize into crystalline needles that puncture adjacent epithelial membranes",
+          "text": "Bacterial capsules polymerize into crystalline needles that puncture membranes",
           "evidence": "Invasins are bacterial surface proteins mediating host cell entry. Source PDF page: 55."
         },
         {
           "id": "o1",
-          "text": "Bacterial surface proteins interact with host receptors (like integrins) to signal cellular internalization",
+          "text": "Bacterial surface proteins interact with host receptors to trigger internalization",
           "evidence": "Bacterial surface proteins interact with host receptors; some bind integrins to signal internalization. Source PDF page: 55."
         },
         {
           "id": "o4",
-          "text": "Bacterial flagellin subunits assemble into rigid micro-syringes that aspirate host cytosolic glucose",
+          "text": "Bacterial flagellin subunits assemble into syringes that aspirate host glucose",
           "evidence": "Invasins trigger host signaling for bacterial internalization. Source PDF page: 55."
         },
         {
           "id": "o5",
-          "text": "Bacterial adhesins inject preformed lytic lysosomes into host cells to digest their cytoskeletons",
+          "text": "Bacterial adhesins inject preformed lytic lysosomes into host cytoplasm",
           "evidence": "Invasins interact with receptors like integrins to promote internalization. Source PDF page: 55."
         }
       ],
@@ -24562,27 +24562,27 @@
       "options": [
         {
           "id": "o1",
-          "text": "Inhibiting phagocytosis by leukocytes and blocking proinflammatory cytokine (TNF) production",
+          "text": "Inhibiting leukocyte phagocytosis and blocking proinflammatory cytokine production",
           "evidence": "Yersinia factors inhibit phagocytosis and cytokine/TNF production. Source PDF page: 57."
         },
         {
           "id": "o3",
-          "text": "Cleaving host circulating IgG antibodies at their hinge regions to produce univalent fragments",
+          "text": "Cleaving host circulating IgG antibodies at their hinge regions",
           "evidence": "Yops are bacterial virulence effector proteins targeting host cells. Source PDF page: 57."
         },
         {
           "id": "o5",
-          "text": "Inactivating host respiratory burst enzymes by degrading cellular NADPH oxidase components",
+          "text": "Inactivating host respiratory burst enzymes by degrading cellular NADPH oxidase",
           "evidence": "Yops suppress host immune responses (phagocytosis and TNF). Source PDF page: 57."
         },
         {
           "id": "o4",
-          "text": "Promoting rapid assembly of host fibrin clots around bacteria to shield them from neutrophils",
+          "text": "Promoting rapid assembly of host fibrin clots around bacterial clusters",
           "evidence": "Yops disarm phagocytosis and cytokine signaling. Source PDF page: 57."
         },
         {
           "id": "o2",
-          "text": "Stimulating massive release of host macrophage nitric oxide and triggering systemic septic shock",
+          "text": "Stimulating massive macrophage nitric oxide release and triggering septic shock",
           "evidence": "Yops inhibit, rather than stimulate, phagocytosis and TNF production. Source PDF page: 57."
         }
       ],
@@ -24620,27 +24620,27 @@
       "options": [
         {
           "id": "o3",
-          "text": "It catalyzes the ADP-ribosylation of elongation factor 2",
+          "text": "Beta-lactamase activity degrading circulating penicillin antibiotics",
           "evidence": "This describes diphtheria toxin; YopJ cleaves TNF signaling proteins. Source PDF page: 57."
         },
         {
           "id": "o1",
-          "text": "It acts as a protease that cleaves host signal-transduction proteins required for TNF synthesis",
+          "text": "Protease activity cleaving host signaling proteins required for TNF synthesis",
           "evidence": "Source calls YopJ a protease cleaving signal-transduction proteins needed for TNF synthesis. Source PDF page: 57."
         },
         {
           "id": "o5",
-          "text": "It phosphorylates beta-lactamase to degrade penicillin",
+          "text": "DNA ligase activity repairing double-strand chromosome breaks in host",
           "evidence": "YopJ is a protease disrupting host TNF signaling pathways. Source PDF page: 57."
         },
         {
           "id": "o4",
-          "text": "It forms large calcium channels in the bacterial outer membrane",
+          "text": "Pore-forming cytotoxin activity creating calcium channels in membrane",
           "evidence": "YopJ is an injected protease targeting host TNF signal proteins. Source PDF page: 57."
         },
         {
           "id": "o2",
-          "text": "It functions as a DNA ligase that repairs host double-strand chromosome breaks",
+          "text": "ADP-ribosyltransferase activity inactivating host elongation factor 2",
           "evidence": "YopJ acts as a protease cleaving signaling proteins needed for TNF. Source PDF page: 57."
         }
       ],
@@ -24794,27 +24794,27 @@
       "options": [
         {
           "id": "o2",
-          "text": "PAI-A: botulinum toxin (flaccid paralysis); PAI-B: tetanus toxin (spastic paralysis); PAI-C: cholera toxin (diarrhea)",
+          "text": "PAI-A: botulinum flaccid paralysis; PAI-B: tetanus spastic paralysis; PAI-C: cholera diarrhea",
           "evidence": "The E. coli PAI phenotypes are PAI-A (diarrhea), PAI-B (UTI), PAI-C (neonatal meningitis). Source PDF page: 59."
         },
         {
           "id": "o5",
-          "text": "PAI-A: diphtheria pseudomembrane; PAI-B: scarlet fever rash; PAI-C: gas gangrene necrotizing myonecrosis infection",
+          "text": "PAI-A: diphtheria pseudomembrane; PAI-B: scarlet fever rash; PAI-C: gas gangrene myonecrosis",
           "evidence": "E. coli PAIs encode enterotoxin (diarrhea), urinary pili (UTI), and K-1 capsule (neonatal meningitis). Source PDF page: 59."
         },
         {
           "id": "o3",
-          "text": "PAI-A: bubonic plague (buboes); PAI-B: cutaneous anthrax (black eschar); PAI-C: primary syphilis (genital chancre)",
+          "text": "PAI-A: bubonic plague buboes; PAI-B: cutaneous anthrax eschar; PAI-C: primary syphilis chancre",
           "evidence": "These belong to other pathogens; E. coli PAIs dictate diarrhea, UTI, and neonatal meningitis. Source PDF page: 59."
         },
         {
           "id": "o4",
-          "text": "PAI-A: dental plaque formation; PAI-B: inflammatory acne vulgaris; PAI-C: antibiotic-associated colitis diarrhea",
+          "text": "PAI-A: dental plaque formation; PAI-B: inflammatory acne vulgaris; PAI-C: antibiotic colitis",
           "evidence": "PAIs encode distinct disease programs (enterotoxin, pili, K-1 capsule). Source PDF page: 59."
         },
         {
           "id": "o1",
-          "text": "PAI-A: enterotoxin (watery diarrhea); PAI-B: urinary pili (UTI); PAI-C: K-1 capsule (neonatal meningitis)",
+          "text": "PAI-A: enterotoxin watery diarrhea; PAI-B: urinary tract adherence; PAI-C: K-1 neonatal meningitis",
           "evidence": "PAI-A enterotoxin/watery diarrhea; PAI-B urinary-epithelial pili/UTI; PAI-C K-1 capsule-synthesis enzymes/neonatal meningitis; nonpathogenic strain lacks PAI. Source PDF page: 59."
         }
       ],

@@ -353,6 +353,26 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check; npm test`: 59/59 test suites passed.
   - Cache-busted with `?v=1.2.5`.
 
+## 2026-11-09 - Release 1.2.6: Purge MCQ Option Parenthetical Giveaways and Formatting Clues
+
+- **Problem & Root Cause**:
+  - User identified an asymmetry in practice questions where the correct answer was easily identifiable because it contained explanatory text and parentheses `(...)` that distractors lacked.
+  - An automated audit confirmed that in `subjects/general-microbiology/activities.json`, 64 MCQs had parentheticals in the correct option, with 44 having parentheses *only* in the correct option while all distractors were plain text.
+  - In addition, authoring script patterns had appended synonyms, exceptions, mechanisms, and examples (e.g., `(pairs, chains, clusters)`, `(fimbriae)`, `(transparent)`, `(except in Mycoplasma)`, `(autoclaving)`, `(biofilm)`, `(bacteriophage)`, `(like enterobactin)`) to the correct choice, creating length and formatting clues violating psychometric MCQ standards and `AGENTS.md`.
+- **Systematic Audit and Remediation**:
+  - Audited all 409 General Microbiology MCQs and 601 Molecular Biology MCQs using `work/audit_option_clues.py` and `work/find_all_clues.py`.
+  - Authored and applied `work/clean_all_option_clues.py` and `work/clean_second_pass.py` to replace 68 General Microbiology MCQs and 1 Molecular Biology MCQ with strictly parallel 5-option sets.
+  - Purged trailing explanatory clauses and parenthetical definitions from choices.
+  - Preserved all biological qualifications, slide citations, and mechanism elaborations within the respective question's `explanation.en` and `explanation.ar` fields where they belong.
+  - Standardized option lengths across choices, bringing the ratio of longest/shortest option into tight parallelism.
+- **Verification & Testing**:
+  - Re-ran clue audit: flagged parenthetical clue count reduced from 59 to 2 (which are parallel IUPAC/chemical notations).
+  - `python scripts/validate_content.py --subject general-microbiology`: Passed.
+  - `python scripts/validate_content.py --subject molecular-biology`: Passed.
+  - `npm run check; npm test`: 59/59 test suites passed.
+  - Zero emojis across repository confirmed.
+  - Cache-busted with `?v=1.2.6`.
+
 
 
 
