@@ -65,6 +65,24 @@ test('a weak concept uses a different available variant before repeating the lat
   const next=selectActivities(items,[{id:'c1',priority:'core'}],[attempt('q1',false)],{count:1,random:()=>0});
   assert.equal(next[0].id,'q2');
 });
+test('selection bankFilter accurately isolates unpracticed, missed, and practiced items', () => {
+  const concepts = [{ id: 'c1', priority: 'core' }, { id: 'c2', priority: 'core' }];
+  // bank has q1..q6 with concept c1
+  const attempts = [attempt('q1', true, 1), attempt('q2', false, 2)];
+  
+  const unpracticed = selectActivities(bank, concepts, attempts, { count: 10, bankFilter: 'unpracticed' });
+  assert.ok(unpracticed.every(a => a.id !== 'q1' && a.id !== 'q2'));
+  assert.equal(unpracticed.length, 4);
+
+  const missed = selectActivities(bank, concepts, attempts, { count: 10, bankFilter: 'missed' });
+  assert.equal(missed.length, 1);
+  assert.equal(missed[0].id, 'q2');
+
+  const practiced = selectActivities(bank, concepts, attempts, { count: 10, bankFilter: 'practiced' });
+  assert.equal(practiced.length, 2);
+  assert.ok(practiced.some(a => a.id === 'q1') && practiced.some(a => a.id === 'q2'));
+});
+
 test('exam results keep unanswered items distinct while including them in the fixed set', () => {
   const result=examResult(bank.slice(0,3),{q1:'a',q2:'b'});
   assert.equal(result.length,3); assert.equal(result.filter(r=>r.correct).length,1); assert.equal(result.filter(r=>!r.answered).length,1);

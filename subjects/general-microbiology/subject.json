@@ -34,7 +34,13 @@
     "uncertainties": "source-analysis/uncertainties.json",
     "coverage": "source-analysis/coverage-summary.json",
     "studySource": "source-analysis/general-microbiology_detailed_structured_study_source.md",
-    "pageImages": "sources/page-images.json"
+    "pageImages": "sources/page-images.json",
+    "synthesis": {
+      "organisms": "synthesis/organisms.json",
+      "trees": "synthesis/trees.json",
+      "matrices": "synthesis/matrices.json",
+      "heuristics": "synthesis/heuristics.json"
+    }
   },
   "chapterLabels": {
     "bacteria-and-other-microorganisms": "Bacteria & other microorganisms",

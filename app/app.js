@@ -5,19 +5,20 @@ import { emptyStudy, validateStudy, studyKey, loadStudy, saveStudy, mergeStudy, 
 import { studyNotes } from './notes.js';
 import { notesPdf } from './pdf.js';
 
-const RELEASE = '1.1';
+const RELEASE = '1.2';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const base = new URL('../', import.meta.url);
 const url = path => new URL(path, base).href;
 const json = async path => { const r = await fetch(url(path), { cache: 'no-cache' }); if (!r.ok) throw new Error(`Could not load ${path} (${r.status}).`); return r.json(); };
-const routes = ['courses', 'home', 'practice', 'exam', 'drills', 'review', 'saved', 'progress', 'materials', 'updates', 'settings'];
-const names = { courses: 'Courses', home: 'Overview', practice: 'Practice', exam: 'Exam', drills: 'Concept drills', review: 'Weak areas', saved: 'Saved', progress: 'Progress', materials: 'Materials', updates: 'Updates', settings: 'Settings' };
-const symbols = { courses: '❖', home: '◈', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
+const routes = ['courses', 'home', 'memorize', 'practice', 'exam', 'drills', 'review', 'saved', 'progress', 'materials', 'updates', 'settings'];
+const names = { courses: 'Courses', home: 'Overview', memorize: 'Memorize', practice: 'Practice', exam: 'Exam', drills: 'Concept drills', review: 'Weak areas', saved: 'Saved', progress: 'Progress', materials: 'Materials', updates: 'Updates', settings: 'Settings' };
+const symbols = { courses: '❖', home: '◈', memorize: '✦', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
-const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all' };
+const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all' };
 let subject, subjectConfigs, lectures, chapters, concepts, activities, pages, sourceImages, uncertainties, coverage, progress, tick;
+let synthesisData = { organisms: [], trees: [], matrices: [], heuristics: [] };
 let study, lastCheckpoint = 0;
 let sourceReturnFocus;
 let resolveConfirmation;
@@ -128,7 +129,7 @@ function notesPreview() {
 }
 function releaseHTML(version) {
   if (version === '1.2') {
-    return `<p class="eyebrow">VERSION 1.2 PREVIEW · NOVEMBER 9, 2026</p><h2>General Microbiology (Midterm Bank).</h2><ul><li>404 discrete five-option MCQs and 19 concept drills across 5 lectures.</li><li>100% core concept coverage across all 217 teaching pages.</li><li>Multi-subject support: toggle seamlessly between Molecular Biology and General Microbiology.</li><li>Balanced option distribution (~20% per choice A–E) with bilingual EN/AR explanations.</li></ul><p class="small muted">First addition toward 1.2. Practice and exam question banks are now active.</p>`;
+    return `<p class="eyebrow">VERSION 1.2 · NOVEMBER 9, 2026</p><h2>The Memorize Room & Question Bank Library.</h2><ul><li><strong>The Memorize Room</strong>: High-yield cognitive synthesis engine featuring 360° Organism Dossiers, interactive Diagnostic Decision Trees (GPC, GNR, Spores), side-by-side Comparison Matrices with Active Occlusion (Blindfold Mode), and clinical Rules of Thumb.</li><li><strong>Question Bank Library in Practice</strong>: Practice from All, Unpracticed Only (New), Missed / Needs Review, or Re-solve Practiced items.</li><li><strong>Question Library Browser</strong>: Inspect every question in the chapter bank with live status badges (✓ Mastered, ↻ Missed, • Unseen, ★ Saved) and instant single-question launching.</li><li><strong>General Microbiology Midterm Bank</strong>: 428 validated activities (409 discrete 5-option MCQs) with 100% core concept coverage across all 5 lectures.</li><li><strong>Bi-directional Synaptic Linking</strong>: Practice questions link directly to Organism Dossiers, and Organism Dossiers launch targeted micro-drills.</li></ul><p class="small muted">Fully slide-grounded in authoritative lecture PDFs. Private on-device progress with JSON backup.</p>`;
   }
   return version==='1.1'?`<p class="eyebrow">VERSION 1.1 · NOVEMBER 7, 2026</p><h2>Pick up where you left off.</h2><ul><li>Previous, skip, finish anytime, and All available in practice.</li><li>Your place and elapsed study time save automatically.</li><li>Save questions and turn them into PDF study notes.</li><li>Navigation stays visible when explanations open.</li><li>Keyboard: 1–5 choose, Enter check/next, + slide, − previous.</li></ul><p class="small muted">Checked answers count even when you leave. Backups include saved questions and sessions.</p>`:
     `<p class="eyebrow">VERSION 1.0 · NOVEMBER 5, 2026</p><h2>Your first Study Atlas.</h2><ul><li>601 multiple-choice questions and 93 concept activities.</li><li>Practice, exams, English/Arabic explanations and source slides.</li><li>Progress on your device, with backup and restore.</li></ul>`;
@@ -160,6 +161,18 @@ function sourceURL(ref) {
 }
 function refsHTML(item) {
   return `<div class="source-links">${item.sourceRefs.map(ref => `<button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">↗ ${esc(lectureTitle(ref.lectureId))} · PDF p${ref.pdfPage}</button>`).join('')}</div>`;
+}
+function dossierBridgeHTML(item) {
+  if (!synthesisData.organisms?.length) return '';
+  const text = (item.prompt + ' ' + (item.explanation?.en || '')).toLowerCase();
+  const matched = synthesisData.organisms.find(o => {
+    const name = o.name.toLowerCase();
+    const parts = name.split(' ');
+    const genus = parts[0], species = parts[1];
+    return text.includes(name) || (species && species.length > 3 && text.includes(species)) || (genus && genus.length > 5 && text.includes(genus));
+  });
+  if (!matched) return '';
+  return `<div class="dossier-bridge-pill"><button type="button" class="text-button dossier-bridge-btn" data-open-dossier="${esc(matched.id)}">✦ View <em>${esc(matched.name)}</em> in Memorize Room ↗</button></div>`;
 }
 function answerTotalsHTML() {
   const total=progress.attempts.length+(progress.archivedAttempts?.length||0),unique=new Set(progress.attempts.map(a=>a.activityId)).size;
@@ -236,28 +249,126 @@ function coursesView() {
 function home() {
   const s = summary(), percent = s.total ? Math.round(s.encountered / s.total * 100) : 0;
   const mcqs = activities.filter(a => a.type === 'mcq').length;
-  return savedSessionsHTML()+answerTotalsHTML()+`<section class="hero"><div class="hero-copy"><p class="eyebrow">YOUR STUDY ATLAS / 01</p><h1 tabindex="-1">Make the material<br><em>make sense.</em></h1><p class="hero-sub">${esc(subject.title)}. Focused practice, connected concepts, and a clear view of what comes next.</p><div class="button-row"><button class="button primary" data-go="practice">Start practice <span>↗</span></button><button class="button outline" data-go="materials">Explore the material</button><button class="button outline" data-go="courses">❖ All Courses</button></div><p class="hero-caption">${lectures.length} lectures <span>·</span> ${coverage.teachingPages} teaching pages <span>·</span> ${mcqs} MCQs</p></div><div class="atlas-art" aria-hidden="true"><span class="art-label">THE CONNECTIONS COUNT</span><svg viewBox="0 0 300 300"><circle cx="150" cy="150" r="112" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="150" cy="150" r="72" fill="none" stroke="currentColor" stroke-width="1"/><path d="M38 150h224M150 38v224M70 70l160 160M70 230 230 70" stroke="currentColor" stroke-width="1"/><path d="m150 65 54 139-54-29-54 29Z" fill="#e2ec98" stroke="#26352e" stroke-width="2"/><path d="m150 65 0 110 54 29" fill="#ed8067" stroke="#26352e" stroke-width="2"/><circle cx="38" cy="150" r="8" fill="#ed8067"/><circle cx="230" cy="70" r="8" fill="#e2ec98"/></svg><span class="art-coordinates">LEARN · CONNECT · RETURN</span></div></section>
+  return savedSessionsHTML()+answerTotalsHTML()+`<section class="hero"><div class="hero-copy"><p class="eyebrow">YOUR STUDY ATLAS / 01</p><h1 tabindex="-1">Make the material<br><em>make sense.</em></h1><p class="hero-sub">${esc(subject.title)}. Focused practice, connected concepts, and a clear view of what comes next.</p><div class="button-row"><button class="button primary" data-go="practice">Start practice <span>↗</span></button><button class="button outline" data-go="memorize">✦ Memorize Room</button><button class="button outline" data-go="materials">Explore sources</button><button class="button outline" data-go="courses">❖ All Courses</button></div><p class="hero-caption">${lectures.length} lectures <span>·</span> ${coverage.teachingPages} teaching pages <span>·</span> ${mcqs} MCQs</p></div><div class="atlas-art" aria-hidden="true"><span class="art-label">THE CONNECTIONS COUNT</span><svg viewBox="0 0 300 300"><circle cx="150" cy="150" r="112" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="150" cy="150" r="72" fill="none" stroke="currentColor" stroke-width="1"/><path d="M38 150h224M150 38v224M70 70l160 160M70 230 230 70" stroke="currentColor" stroke-width="1"/><path d="m150 65 54 139-54-29-54 29Z" fill="#e2ec98" stroke="#26352e" stroke-width="2"/><path d="m150 65 0 110 54 29" fill="#ed8067" stroke="#26352e" stroke-width="2"/><circle cx="38" cy="150" r="8" fill="#ed8067"/><circle cx="230" cy="70" r="8" fill="#e2ec98"/></svg><span class="art-coordinates">LEARN · CONNECT · RETURN</span></div></section>
     <section class="coverage-strip" aria-label="Your study coverage"><div><p class="eyebrow">YOUR COVERAGE</p><p><strong>${s.encountered}</strong> / ${s.total} source concepts encountered</p></div><div class="coverage-bar-wrap"><div class="coverage-bar" role="progressbar" aria-valuenow="${percent}" aria-valuemin="0" aria-valuemax="100" aria-label="Concepts encountered"><span style="width:${percent}%"></span></div><small>${percent}% encountered · ${s.available} concepts have validated activities</small></div><button class="text-button" data-go="progress">See the evidence ↗</button></section>
     <section><div class="section-head"><div><p class="eyebrow">THE MATERIAL</p><h2>Pick up a chapter.</h2></div><button class="text-button" data-go="materials">All sources ↗</button></div><div class="chapter-grid">${chapters.map((ch, i) => {
       const ids = concepts.filter(c => c.lectureId === ch.id).map(c => c.id), seen = ids.filter(id => s.evidence.get(id).distinct).length;
       const available = activities.filter(a => a.lectureId === ch.id).length;
       return `<article class="chapter-card"><span class="chapter-number">${String(i + 1).padStart(2, '0')}</span><h3>${esc(chapterTitle(ch.id))}</h3><p>${ch.teachingPages.length} teaching pages <span>·</span> ${available} activities</p><div class="mini-progress"><span style="width:${ids.length ? seen / ids.length * 100 : 0}%"></span></div><div class="card-bottom"><small>${seen} / ${ids.length} concepts encountered</small><button class="round-button" data-chapter-practice="${esc(ch.id)}" aria-label="Practice ${esc(ch.title)}">↗</button></div></article>`;
-    }).join('')}</div></section><section class="two-up"><button class="feature-link coral" data-go="drills"><span class="eyebrow">MAKE THE CONNECTION</span><h2>Think in relationships.</h2><p>Match, order, and work with the diagrams.</p><span class="feature-arrow">↗</span></button><button class="feature-link lime" data-go="exam"><span class="eyebrow">PUT IT TOGETHER</span><h2>A session on your terms.</h2><p>Choose a question count. Add a timer if you like.</p><span class="feature-arrow">↗</span></button></section>`;
+    }).join('')}</div></section>
+    <section class="memorize-feature-banner panel">
+      <div class="memorize-banner-copy">
+        <p class="eyebrow">THE MEMORIZE ROOM · COGNITIVE SYNTHESIS</p>
+        <h2>Connect the pieces before you test.</h2>
+        <p>Unified organism dossiers across lectures, diagnostic flowcharts, contrast matrices with active occlusion, and clinical rules of thumb.</p>
+      </div>
+      <div class="button-row">
+        <button class="button primary" data-go="memorize">Enter Memorize Room ✦</button>
+      </div>
+    </section>
+    <section class="two-up"><button class="feature-link coral" data-go="drills"><span class="eyebrow">MAKE THE CONNECTION</span><h2>Think in relationships.</h2><p>Match, order, and work with the diagrams.</p><span class="feature-arrow">↗</span></button><button class="feature-link lime" data-go="exam"><span class="eyebrow">PUT IT TOGETHER</span><h2>A session on your terms.</h2><p>Choose a question count. Add a timer if you like.</p><span class="feature-arrow">↗</span></button></section>`;
 }
 
 function typesFor(view) { return view === 'review' ? ['mcq', 'match', 'order', 'diagram'] : view === 'drills' ? ['match', 'order', 'diagram'] : ['mcq']; }
 function weakConcepts() { const s = summary(); return [...s.evidence].filter(([, e]) => e.recentError).map(([id]) => id); }
 function setup(view) {
-  const isExam = view === 'exam', isDrill = view === 'drills', isReview = view === 'review';
+  const isExam = view === 'exam', isDrill = view === 'drills', isReview = view === 'review', isPractice = view === 'practice';
   const weak = isReview ? weakConcepts() : [];
   if (isReview && !weak.length) return pageHead('A SECOND LOOK', 'Room to build evidence.', 'Missed concepts will appear here after practice.') + `<div class="empty-state"><span>↻</span><h2>Start with a practice session.</h2><p>Your results will help choose what to revisit.</p><button class="button primary" data-go="practice">Open practice ↗</button></div>`;
   const choices = activities.filter(a => typesFor(view).includes(a.type) && (!isReview || a.conceptIds.some(c => weak.includes(c))));
   const title = isExam ? 'Set your own pace.' : isDrill ? 'Connect the concepts.' : isReview ? 'Give it another angle.' : 'A focused next step.';
   const copy = isExam ? 'Your question set stays fixed once you begin. Feedback follows the session.' : isDrill ? 'Automatically scored matching, ordering, and diagram activities.' : isReview ? 'Revisit concepts with errors, using another item where available.' : 'Begin with a manageable set. Later sessions use your results to guide the next selection.';
-  return (isExam?'':savedSessionsHTML())+pageHead(isExam ? 'EXAM' : isDrill ? 'CONCEPT DRILLS' : isReview ? 'WEAK-AREA REVIEW' : 'PRACTICE', title, copy) + `<form id="session-setup" data-mode="${view}" class="setup-grid"><section class="panel chapter-picker"><div class="section-head compact"><h2>Choose your chapters</h2><button type="button" class="text-button" data-action="toggle-chapters">Select all / clear</button></div>${chapters.map((ch, i) => {
+
+  let bankSummaryHTML = '';
+  let bankBrowserHTML = '';
+  if (isPractice) {
+    const currentAtts = currentAttempts(progress.attempts, activities);
+    const seenIds = new Set(currentAtts.map(a => a.activityId));
+    const latestByActivity = new Map();
+    for (const att of currentAtts) {
+      const prev = latestByActivity.get(att.activityId);
+      if (!prev || att.at > prev.at) latestByActivity.set(att.activityId, att);
+    }
+    const missedIds = new Set([...latestByActivity.values()].filter(a => !a.correct).map(a => a.activityId));
+    const correctIds = new Set([...latestByActivity.values()].filter(a => a.correct).map(a => a.activityId));
+
+    const totalCount = choices.length;
+    const practicedCount = choices.filter(a => seenIds.has(a.id)).length;
+    const unpracticedCount = choices.filter(a => !seenIds.has(a.id)).length;
+    const missedCount = choices.filter(a => missedIds.has(a.id)).length;
+
+    bankSummaryHTML = `<section class="panel bank-summary-bar">
+      <div class="bank-stats-grid">
+        <div class="bank-stat-item">
+          <span class="stat-number">${totalCount}</span>
+          <span class="stat-label">Total in Bank</span>
+        </div>
+        <div class="bank-stat-item">
+          <span class="stat-number">${practicedCount}</span>
+          <span class="stat-label">Solved (${correctIds.size} ✓ / ${missedCount} ↻)</span>
+        </div>
+        <div class="bank-stat-item highlight">
+          <span class="stat-number">${unpracticedCount}</span>
+          <span class="stat-label">Unseen (Remaining)</span>
+        </div>
+      </div>
+      <div class="bank-filter-row">
+        <span class="bank-filter-label">Practice Pool:</span>
+        <div class="bank-pills" role="radiogroup" aria-label="Question Bank Mode">
+          <button type="button" class="bank-pill ${state.bankFilter==='all'?'active':''}" data-bank-filter="all">🎯 All (${totalCount})</button>
+          <button type="button" class="bank-pill ${state.bankFilter==='unpracticed'?'active':''}" data-bank-filter="unpracticed" ${unpracticedCount?'':'disabled'}>⚡ Unpracticed (${unpracticedCount})</button>
+          <button type="button" class="bank-pill ${state.bankFilter==='missed'?'active':''}" data-bank-filter="missed" ${missedCount?'':'disabled'}>↻ Missed / Review (${missedCount})</button>
+          <button type="button" class="bank-pill ${state.bankFilter==='practiced'?'active':''}" data-bank-filter="practiced" ${practicedCount?'':'disabled'}>↺ Re-solve Practiced (${practicedCount})</button>
+        </div>
+      </div>
+    </section>`;
+
+    bankBrowserHTML = `<details class="panel bank-browser" id="bank-browser">
+      <summary class="bank-browser-summary">
+        <span>📚 Browse Question Library (${choices.length} questions)</span>
+        <small class="muted">Inspect items, review mastery, or solve individual questions</small>
+      </summary>
+      <div class="bank-browser-content">
+        <div class="bank-browser-table-wrap">
+          <table class="bank-browser-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Status</th>
+                <th>Chapter</th>
+                <th>Question Prompt</th>
+                <th>Source</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${choices.map((a, i) => {
+                const isSolved = correctIds.has(a.id);
+                const isMissed = missedIds.has(a.id);
+                const isPracticed = seenIds.has(a.id);
+                const badgeCls = isSolved ? 'good' : isMissed ? 'bad' : isPracticed ? 'neutral' : 'unseen';
+                const badgeText = isSolved ? '✓ Mastered' : isMissed ? '↻ Missed' : isPracticed ? 'Solved' : '• Unseen';
+                const isSaved = study.bookmarks.some(b => b.activityId === a.id && b.saved);
+                return `<tr>
+                  <td><span class="muted small">${i + 1}</span></td>
+                  <td><span class="badge ${badgeCls}">${badgeText}</span>${isSaved ? ' <span class="bank-star" title="Saved">★</span>' : ''}</td>
+                  <td><small>${esc(chapterTitle(a.lectureId))}</small></td>
+                  <td class="prompt-col"><strong>${esc(a.prompt)}</strong></td>
+                  <td><small class="muted">PDF p${a.sourceRefs[0]?.pdfPage || '—'}</small></td>
+                  <td><button type="button" class="text-button bank-solve-btn" data-launch-single="${esc(a.id)}">Solve ↗</button></td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </details>`;
+  }
+
+  return (isExam?'':savedSessionsHTML()) + bankSummaryHTML + pageHead(isExam ? 'EXAM' : isDrill ? 'CONCEPT DRILLS' : isReview ? 'WEAK-AREA REVIEW' : 'PRACTICE', title, copy) + `<form id="session-setup" data-mode="${view}" class="setup-grid"><section class="panel chapter-picker"><div class="section-head compact"><h2>Choose your chapters</h2><button type="button" class="text-button" data-action="toggle-chapters">Select all / clear</button></div>${chapters.map((ch, i) => {
     const n = choices.filter(a => a.lectureId === ch.id).length;
     return `<label class="chapter-choice ${n ? '' : 'unavailable'}"><input class="chapter-check" type="checkbox" name="lecture" value="${esc(ch.id)}" ${n && (!state.pendingChapter || state.pendingChapter === ch.id) ? 'checked' : ''} ${n ? '' : 'disabled'}><span class="chapter-index">${String(i + 1).padStart(2, '0')}</span><span><strong>${esc(chapterTitle(ch.id))}</strong><small>${n} ${isDrill || isReview ? 'activities' : 'questions'} available</small></span></label>`;
-  }).join('')}</section><aside class="panel session-config"><p class="eyebrow">YOUR SESSION</p><h2>${isExam ? 'Build your exam' : 'Start small. Keep going.'}</h2><label class="field" for="session-count">${isDrill || isReview ? 'Activities' : 'Questions'}<input id="session-count" name="count" type="number" min="1" max="${choices.length}" value="${Math.min(subject.assessment.recommendedPracticeCount, choices.length)}" required></label><div class="count-presets">${[10, 25, 50, 100].filter(n => n <= choices.length).map(n => `<button type="button" data-count="${n}">${n}</button>`).join('')}<button type="button" data-action="all-available">All available</button></div><p class="muted small" id="available-count">${choices.length} available in your selection</p>${isExam ? `<label class="toggle-row"><span>Use a timer</span><input id="use-timer" name="timed" type="checkbox" role="switch"></label><label class="field timer-field" for="timer-minutes">Minutes<input id="timer-minutes" name="minutes" type="number" min="1" max="240" value="20" disabled></label>` : `<div class="session-note"><span>↗</span><p>${isDrill ? 'Matching and ordering check on submission. Diagram choices follow your practice preference.' : state.settings.instantCheck ? 'Answers check when you click an option.' : 'Select an option, then confirm your answer.'} <button type="button" class="text-button" data-go="settings">Change in Settings</button></p></div>`}<button class="button primary wide" id="start-session" type="submit">${isExam ? 'Begin exam' : isDrill ? 'Begin drills' : 'Begin practice'} ↗</button><p class="small muted">Progress stays on this device.</p></aside></form>`;
+  }).join('')}</section><aside class="panel session-config"><p class="eyebrow">YOUR SESSION</p><h2>${isExam ? 'Build your exam' : 'Start small. Keep going.'}</h2><label class="field" for="session-count">${isDrill || isReview ? 'Activities' : 'Questions'}<input id="session-count" name="count" type="number" min="1" max="${choices.length}" value="${Math.min(subject.assessment.recommendedPracticeCount, choices.length)}" required></label><div class="count-presets">${[10, 25, 50, 100].filter(n => n <= choices.length).map(n => `<button type="button" data-count="${n}">${n}</button>`).join('')}<button type="button" data-action="all-available">All available</button></div><p class="muted small" id="available-count">${choices.length} available in your selection</p>${isExam ? `<label class="toggle-row"><span>Use a timer</span><input id="use-timer" name="timed" type="checkbox" role="switch"></label><label class="field timer-field" for="timer-minutes">Minutes<input id="timer-minutes" name="minutes" type="number" min="1" max="240" value="20" disabled></label>` : `<div class="session-note"><span>↗</span><p>${isDrill ? 'Matching and ordering check on submission. Diagram choices follow your practice preference.' : state.settings.instantCheck ? 'Answers check when you click an option.' : 'Select an option, then confirm your answer.'} <button type="button" class="text-button" data-go="settings">Change in Settings</button></p></div>`}<button class="button primary wide" id="start-session" type="submit">${isExam ? 'Begin exam' : isDrill ? 'Begin drills' : 'Begin practice'} ↗</button><p class="small muted">Progress stays on this device.</p></aside></form>` + bankBrowserHTML;
 }
 
 function startSession(form) {
@@ -268,7 +379,8 @@ function startSession(form) {
   if (!lectureIds.length || !Number.isInteger(count) || count < 1 || count > pool.length) { notice('Choose a chapter and a question count within the available set.', true); return; }
   const timed = mode === 'exam' && data.has('timed'), minutes = Number(data.get('minutes'));
   if (timed && (!Number.isInteger(minutes) || minutes < 1 || minutes > 240)) { notice('Choose a timer from 1 to 240 minutes.', true); return; }
-  const items = selectActivities(activities, concepts, progress.attempts, { types: typesFor(mode), lectureIds, count, conceptIds: mode === 'review' ? weakConcepts() : [] });
+  const bankFilter = mode === 'practice' ? (state.bankFilter || 'all') : 'all';
+  const items = selectActivities(activities, concepts, progress.attempts, { types: typesFor(mode), lectureIds, count, conceptIds: mode === 'review' ? weakConcepts() : [], bankFilter });
   launch(items, mode, timed ? minutes * 60 : null);
 }
 function launch(items, mode, seconds = null) {
@@ -308,7 +420,7 @@ function activityView() {
     interaction = `<p class="small muted">Use the arrows to arrange the steps, then check the sequence.</p><ol class="order-list">${response.map((id, i) => `<li><span class="step-number">${i + 1}</span><span>${esc(a.items.find(x => x.id === id).text)}</span><div><button id="order-${esc(id)}-up" class="order-move" data-move="${i}" data-delta="-1" aria-label="Move step ${i + 1} up" ${i === 0 || graded ? 'disabled' : ''}>↑</button><button id="order-${esc(id)}-down" class="order-move" data-move="${i}" data-delta="1" aria-label="Move step ${i + 1} down" ${i === response.length - 1 || graded ? 'disabled' : ''}>↓</button></div></li>`).join('')}</ol>`;
   }
   const saved=study.bookmarks.some(b=>b.activityId===a.id&&b.saved);
-  return `<div class="session-top"><div>${badge(exam?'Exam':s.mode==='drills'?'Concept drill':'Practice')}<span>${s.index+1} / ${s.items.length}</span>${exam?s.deadline?`<span class="timer" id="timer" aria-label="Time remaining">${formatTime((s.deadline-Date.now())/1000)}</span>`:'':`<span class="timer" aria-label="Practice elapsed time">◷ <span id="elapsed">${formatTime(Math.floor(elapsedSession(s)/1000))}</span></span>`}</div><div>${!exam?'<button class="text-button" data-action="save-exit">Save & exit</button>':''}<button class="text-button" data-action="finish">Finish ${exam?'exam':'session'}</button></div></div><div class="session-progress"><span style="width:${(s.index+1)/s.items.length*100}%"></span></div><article class="question"><div class="question-tools"><p class="eyebrow">${esc(lectureTitle(a.lectureId))}</p><button class="text-button save-question" data-bookmark="${esc(a.id)}" aria-pressed="${saved}">${saved?'★ Saved':'☆ Save question'}</button></div><h1 class="question-prompt" tabindex="-1">${esc(a.prompt)}</h1>${interaction}${!exam&&!graded&&(a.type==='match'||a.type==='order'||!state.settings.instantCheck)?`<button class="button primary check-button" data-action="check" ${complete?'':'disabled'}>Check answer</button>`:''}${graded?`<section class="feedback ${correct?'positive':'negative'}" id="feedback" tabindex="-1" aria-live="polite"><div class="feedback-head"><strong>${correct?'✓ Correct':'↻ Incorrect'}</strong>${languageToggle()}</div><p class="explanation" lang="${state.settings.explanationLanguage}" dir="${state.settings.explanationLanguage==='ar'?'rtl':'ltr'}">${esc(a.explanation[state.settings.explanationLanguage])}</p>${refsHTML(a)}${a.type==='order'&&!correct?`<p class="small">Correct sequence: ${a.acceptedGroups.map(g=>g.map(id=>esc(a.items.find(i=>i.id===id).text)).join(' / ')).join(' → ')}</p>`:''}</section>`:''}</article><div class="session-dock" aria-label="Question navigation"><div class="dock-buttons"><button class="button outline" data-action="previous" ${s.index?'':'disabled'}>← Previous</button>${!exam&&!graded?'<button class="button outline" data-action="skip">Skip</button>':''}<button class="button primary" data-action="next" ${!exam&&!graded?'disabled':''}>${s.index===s.items.length-1?'Finish':'Next →'}</button></div><p class="shortcut-hint">1–5 choose · Enter check/next · + slide · − previous</p></div><p class="session-save-status small muted">${!exam?(state.studySaved?'Session saved on this device':'Session kept for this visit · export a backup'):'Answers are scored when the exam ends.'}</p><details class="question-list" id="session-question-list"><summary>Question list · ${s.recorded.size} checked${s.skipped.size?` · ${s.skipped.size} skipped`:''}</summary><nav class="exam-map" aria-label="Session questions">${s.items.map((item,i)=>`<button data-question="${i}" class="${i===s.index?'current':''} ${s.recorded.has(item.id)||exam&&completeResponse(item,s.responses[item.id])?'answered':''} ${s.skipped.has(item.id)&&!s.recorded.has(item.id)?'skipped':''}" aria-label="Question ${i+1}${s.skipped.has(item.id)&&!s.recorded.has(item.id)?', skipped':''}" ${i===s.index?'aria-current="step"':''}>${i+1}</button>`).join('')}</nav></details>`;
+  return `<div class="session-top"><div>${badge(exam?'Exam':s.mode==='drills'?'Concept drill':'Practice')}<span>${s.index+1} / ${s.items.length}</span>${exam?s.deadline?`<span class="timer" id="timer" aria-label="Time remaining">${formatTime((s.deadline-Date.now())/1000)}</span>`:'':`<span class="timer" aria-label="Practice elapsed time">◷ <span id="elapsed">${formatTime(Math.floor(elapsedSession(s)/1000))}</span></span>`}</div><div>${!exam?'<button class="text-button" data-action="save-exit">Save & exit</button>':''}<button class="text-button" data-action="finish">Finish ${exam?'exam':'session'}</button></div></div><div class="session-progress"><span style="width:${(s.index+1)/s.items.length*100}%"></span></div><article class="question"><div class="question-tools"><p class="eyebrow">${esc(lectureTitle(a.lectureId))}</p><button class="text-button save-question" data-bookmark="${esc(a.id)}" aria-pressed="${saved}">${saved?'★ Saved':'☆ Save question'}</button></div><h1 class="question-prompt" tabindex="-1">${esc(a.prompt)}</h1>${interaction}${!exam&&!graded&&(a.type==='match'||a.type==='order'||!state.settings.instantCheck)?`<button class="button primary check-button" data-action="check" ${complete?'':'disabled'}>Check answer</button>`:''}${graded?`<section class="feedback ${correct?'positive':'negative'}" id="feedback" tabindex="-1" aria-live="polite"><div class="feedback-head"><strong>${correct?'✓ Correct':'↻ Incorrect'}</strong>${languageToggle()}</div><p class="explanation" lang="${state.settings.explanationLanguage}" dir="${state.settings.explanationLanguage==='ar'?'rtl':'ltr'}">${esc(a.explanation[state.settings.explanationLanguage])}</p>${refsHTML(a)}${dossierBridgeHTML(a)}${a.type==='order'&&!correct?`<p class="small">Correct sequence: ${a.acceptedGroups.map(g=>g.map(id=>esc(a.items.find(i=>i.id===id).text)).join(' / ')).join(' → ')}</p>`:''}</section>`:''}</article><div class="session-dock" aria-label="Question navigation"><div class="dock-buttons"><button class="button outline" data-action="previous" ${s.index?'':'disabled'}>← Previous</button>${!exam&&!graded?'<button class="button outline" data-action="skip">Skip</button>':''}<button class="button primary" data-action="next" ${!exam&&!graded?'disabled':''}>${s.index===s.items.length-1?'Finish':'Next →'}</button></div><p class="shortcut-hint">1–5 choose · Enter check/next · + slide · − previous</p></div><p class="session-save-status small muted">${!exam?(state.studySaved?'Session saved on this device':'Session kept for this visit · export a backup'):'Answers are scored when the exam ends.'}</p><details class="question-list" id="session-question-list"><summary>Question list · ${s.recorded.size} checked${s.skipped.size?` · ${s.skipped.size} skipped`:''}</summary><nav class="exam-map" aria-label="Session questions">${s.items.map((item,i)=>`<button data-question="${i}" class="${i===s.index?'current':''} ${s.recorded.has(item.id)||exam&&completeResponse(item,s.responses[item.id])?'answered':''} ${s.skipped.has(item.id)&&!s.recorded.has(item.id)?'skipped':''}" aria-label="Question ${i+1}${s.skipped.has(item.id)&&!s.recorded.has(item.id)?', skipped':''}" ${i===s.index?'aria-current="step"':''}>${i+1}</button>`).join('')}</nav></details>`;
 
 }
 function languageToggle() {
@@ -353,7 +465,7 @@ function resultsView() {
     const a = row.activity;
     const chosen = a.options?.find(o => o.id === row.response)?.text;
     const answer = a.options?.find(o => o.id === a.correctOptionId)?.text;
-    return `<details id="result-${esc(a.id)}" class="result-row"><summary><span class="result-icon ${row.correct ? 'good' : 'bad'}">${row.correct ? '✓' : row.answered ? '↻' : '—'}</span><span>${i + 1}. ${esc(a.prompt)}</span><span>+</span></summary><div class="result-detail"><button class="text-button" data-bookmark="${esc(a.id)}">${study.bookmarks.some(b=>b.activityId===a.id&&b.saved)?'★ Saved':'☆ Save question'}</button>${responseDetails(row)}<p class="explanation" lang="${state.settings.explanationLanguage}" dir="${state.settings.explanationLanguage === 'ar' ? 'rtl' : 'ltr'}">${esc(a.explanation[state.settings.explanationLanguage])}</p>${refsHTML(a)}</div></details>`;
+    return `<details id="result-${esc(a.id)}" class="result-row"><summary><span class="result-icon ${row.correct ? 'good' : 'bad'}">${row.correct ? '✓' : row.answered ? '↻' : '—'}</span><span>${i + 1}. ${esc(a.prompt)}</span><span>+</span></summary><div class="result-detail"><button class="text-button" data-bookmark="${esc(a.id)}">${study.bookmarks.some(b=>b.activityId===a.id&&b.saved)?'★ Saved':'☆ Save question'}</button>${responseDetails(row)}<p class="explanation" lang="${state.settings.explanationLanguage}" dir="${state.settings.explanationLanguage === 'ar' ? 'rtl' : 'ltr'}">${esc(a.explanation[state.settings.explanationLanguage])}</p>${refsHTML(a)}${dossierBridgeHTML(a)}</div></details>`;
   }).join('')}</div>`;
 }
 
@@ -372,10 +484,250 @@ function settingsView() {
   return pageHead('SETTINGS', 'Make this space yours.', 'Study preferences are saved in this browser.') + `<form id="settings-form" class="settings-panel panel"><section><p class="eyebrow">ANSWER CHECKING</p><h2>When should practice check?</h2><label class="radio-row"><input type="radio" name="checking" value="instant" ${state.settings.instantCheck ? 'checked' : ''}><span><strong>When I click an option</strong><small>Show feedback immediately.</small></span></label><label class="radio-row"><input type="radio" name="checking" value="confirm" ${!state.settings.instantCheck ? 'checked' : ''}><span><strong>After I confirm</strong><small>Select an option, then check the answer.</small></span></label><p class="small muted">Exam feedback always follows the session. Matching and ordering check on submission. Diagram choices follow the practice preference.</p></section><section><p class="eyebrow">READING & EXPLANATIONS</p><label class="setting-field">Explanation language<select name="language" lang="${esc(state.settings.explanationLanguage)}">${explanationLanguages().map(code => `<option lang="${esc(code)}" value="${esc(code)}" ${state.settings.explanationLanguage === code ? 'selected' : ''}>${esc(languageName(code))}${code === 'ar' && subject.languages.retainEnglishTechnicalTerms ? ' · English technical terms' : ''}</option>`).join('')}</select></label><label class="setting-field">Text size<select name="textSize"><option value="normal" ${state.settings.textSize === 'normal' ? 'selected' : ''}>Standard</option><option value="large" ${state.settings.textSize === 'large' ? 'selected' : ''}>Larger</option></select></label><label class="setting-field">Open source references<select name="sourceLayout"><option value="side" ${state.settings.sourceLayout === 'side' ? 'selected' : ''}>Side by side when space allows</option><option value="full" ${state.settings.sourceLayout === 'full' ? 'selected' : ''}>Full screen</option></select></label><label class="toggle-row"><span>Reduce motion</span><input type="checkbox" name="reducedMotion" role="switch" ${state.settings.reducedMotion ? 'checked' : ''}></label></section><button class="button primary" type="submit">Save preferences ✓</button></form><section class="panel settings-data"><div><h2>Your device, your progress.</h2><p>Use backups to move your progress between browsers or devices.</p></div><button class="button outline" data-go="progress">Back up & restore ↗</button><button class="danger-link" data-action="clear-progress">Clear this subject’s progress</button></section>`;
 }
 
+function renderOrganismsTab() {
+  const q = (state.memorizeSearch || '').trim().toLowerCase();
+  const cat = state.memorizeCat || 'all';
+  const filtered = synthesisData.organisms.filter(o => {
+    const matchesCat = cat === 'all' || o.category === cat || (cat === 'gram-positive' && o.gram.toLowerCase().includes('positive')) || (cat === 'gram-negative' && o.gram.toLowerCase().includes('negative'));
+    if (!matchesCat) return false;
+    if (!q) return true;
+    const haystack = (o.name + ' ' + o.gram + ' ' + o.morphology + ' ' + (o.structure||[]).join(' ') + ' ' + (o.metabolism||[]).join(' ') + ' ' + (o.clinical||[]).join(' ')).toLowerCase();
+    return haystack.includes(q);
+  });
+
+  const categories = [
+    { id: 'all', label: 'All Bacteria' },
+    { id: 'gram-negative-bacilli', label: 'Gram-Negative Rods' },
+    { id: 'gram-positive-cocci', label: 'Gram-Positive Cocci' },
+    { id: 'gram-positive-bacilli', label: 'Spore-Forming Rods' },
+    { id: 'acid-fast-bacteria', label: 'Acid-Fast & Atypical' }
+  ];
+
+  return `
+    <div class="memorize-toolbar panel">
+      <div class="search-input-wrap">
+        <label for="organism-search" class="visually-hidden">Search organisms</label>
+        <input type="search" id="organism-search" placeholder="Search bacteria, tests, toxins, syndromes (e.g. E. coli, TSI, botulinum)..." value="${esc(state.memorizeSearch || '')}">
+      </div>
+      <div class="cat-pills">
+        ${categories.map(c => `<button type="button" class="cat-pill ${cat===c.id?'active':''}" data-cat-filter="${esc(c.id)}">${esc(c.label)}</button>`).join('')}
+      </div>
+    </div>
+    <div class="organisms-grid">
+      ${filtered.length ? filtered.map(o => `
+        <article class="panel dossier-card" id="dossier-${esc(o.id)}" data-category="${esc(o.category)}">
+          <header class="dossier-head">
+            <div>
+              <p class="eyebrow">${esc(o.morphology)}</p>
+              <h2><em>${esc(o.name)}</em></h2>
+            </div>
+            <div class="dossier-badges">
+              <span class="badge ${o.gram.toLowerCase().includes('positive') ? 'coral' : o.gram.toLowerCase().includes('negative') ? 'lime' : 'neutral'}">${esc(o.gram)}</span>
+              <button class="button primary micro-btn" data-quiz-organism="${esc(o.id)}">⚡ Quiz this bug</button>
+            </div>
+          </header>
+          
+          <div class="dossier-body">
+            <details class="dossier-section" open>
+              <summary>🔬 Morphology & Structure</summary>
+              <ul>${o.structure.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>
+
+            <details class="dossier-section" open>
+              <summary>🧪 Metabolism, Culture & Biochemical Tests</summary>
+              <ul>${o.metabolism.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>
+
+            ${o.genetics?.length ? `
+            <details class="dossier-section">
+              <summary>🧬 Genetics, Plasmids & Resistance</summary>
+              <ul>${o.genetics.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>` : ''}
+
+            ${o.normalFlora?.length ? `
+            <details class="dossier-section" open>
+              <summary>🏡 Normal Flora & Habitat</summary>
+              <ul>${o.normalFlora.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>` : ''}
+
+            <details class="dossier-section" open>
+              <summary>⚔️ Virulence Factors & Toxins</summary>
+              <ul>${o.virulence.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>
+
+            <details class="dossier-section" open>
+              <summary>🩺 Clinical Syndromes & Manifestations</summary>
+              <ul>${o.clinical.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+            </details>
+          </div>
+
+          <footer class="dossier-foot">
+            <span class="dossier-refs-label">Slide references:</span>
+            <div class="source-links">${o.sourceRefs.map(ref => `<button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">↗ ${esc(lectureTitle(ref.lectureId))} p${ref.pdfPage}</button>`).join('')}</div>
+          </footer>
+        </article>
+      `).join('') : '<div class="empty-state"><h2>No organisms match your search.</h2><p>Try searching another keyword or clearing filters.</p></div>'}
+    </div>
+  `;
+}
+
+function renderTreesTab() {
+  const currentTreeId = state.selectedTree || synthesisData.trees[0]?.id;
+  const currentTree = synthesisData.trees.find(t => t.id === currentTreeId) || synthesisData.trees[0];
+
+  function renderNode(node, depth = 0) {
+    if (!node) return '';
+    let html = `<div class="tree-node depth-${depth}">`;
+    if (node.step) html += `<div class="node-step"><strong>${esc(node.step)}</strong>${node.prompt ? `<p class="small muted">${esc(node.prompt)}</p>` : ''}</div>`;
+    if (node.result) html += `<div class="node-result"><span>${esc(node.result)}</span></div>`;
+    if (node.outcome) {
+      html += `<div class="node-outcome">
+        <h4>${node.outcome.organismId ? `<button type="button" class="text-button outcome-org-link" data-open-dossier="${esc(node.outcome.organismId)}"><em>${esc(node.outcome.name)}</em> ↗</button>` : `<em>${esc(node.outcome.name)}</em>`}</h4>
+        <p class="small">${esc(node.outcome.clues)}</p>
+        ${node.outcome.sourceRefs ? `<div class="source-links">${node.outcome.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ p${r.pdfPage}</button>`).join('')}</div>` : ''}
+      </div>`;
+    }
+    if (node.branches) {
+      html += `<div class="node-branches">${node.branches.map(b => `
+        <div class="tree-branch">
+          <div class="branch-label"><span class="branch-pill">${esc(b.label)}</span>${b.organismGroup ? `<span class="group-tag">${esc(b.organismGroup)}</span>` : ''}</div>
+          ${b.next ? renderNode(b.next, depth + 1) : ''}
+          ${b.outcome ? renderNode({ outcome: b.outcome }, depth + 1) : ''}
+        </div>
+      `).join('')}</div>`;
+    }
+    html += `</div>`;
+    return html;
+  }
+
+  return `
+    <div class="tree-selector-bar panel">
+      <div class="tree-pills">
+        ${synthesisData.trees.map(t => `
+          <button type="button" class="tree-pill ${t.id===currentTree.id?'active':''}" data-select-tree="${esc(t.id)}">
+            ${esc(t.title)}
+          </button>
+        `).join('')}
+      </div>
+      <p class="small muted">${esc(currentTree.summary)}</p>
+    </div>
+    <div class="tree-display-container panel">
+      ${renderNode(currentTree.root)}
+    </div>
+  `;
+}
+
+function renderMatricesTab() {
+  const currentMatrixId = state.selectedMatrix || synthesisData.matrices[0]?.id;
+  const currentMatrix = synthesisData.matrices.find(m => m.id === currentMatrixId) || synthesisData.matrices[0];
+  const isOccluded = Boolean(state.occluded);
+
+  return `
+    <div class="matrix-selector-bar panel">
+      <div class="matrix-pills">
+        ${synthesisData.matrices.map(m => `
+          <button type="button" class="matrix-pill ${m.id===currentMatrix.id?'active':''}" data-select-matrix="${esc(m.id)}">
+            ${esc(m.title)}
+          </button>
+        `).join('')}
+      </div>
+      <div class="matrix-controls-row">
+        <p class="small muted">${esc(currentMatrix.summary)}</p>
+        <label class="toggle-row occlusion-toggle-label">
+          <span>Blindfold Mode (Hide cells to test recall)</span>
+          <input type="checkbox" id="occlusion-toggle" role="switch" ${isOccluded ? 'checked' : ''}>
+        </label>
+      </div>
+    </div>
+    <div class="matrix-table-wrap panel">
+      <table class="matrix-table ${isOccluded ? 'is-occluded' : ''}">
+        <thead>
+          <tr>
+            ${currentMatrix.columns.map(c => `<th>${esc(c)}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>
+          ${currentMatrix.rows.map(row => `
+            <tr>
+              <td><strong>${esc(row[0])}</strong></td>
+              ${row.slice(1).map(val => `
+                <td class="${isOccluded ? 'occluded-cell' : ''}" title="${isOccluded ? 'Click to reveal' : ''}">
+                  <span class="cell-text">${esc(val)}</span>
+                  ${isOccluded ? '<span class="cell-cover">👁 Tap to reveal</span>' : ''}
+                </td>
+              `).join('')}
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderHeuristicsTab() {
+  return `
+    <div class="heuristics-grid">
+      ${synthesisData.heuristics.map(h => `
+        <article class="panel heuristic-card">
+          <header class="heuristic-head">
+            <span class="heuristic-icon">💡</span>
+            <h3>${esc(h.title)}</h3>
+          </header>
+          <div class="heuristic-rule">
+            <p>${esc(h.rule)}</p>
+          </div>
+          ${h.explanation ? `<p class="heuristic-explanation small muted">${esc(h.explanation)}</p>` : ''}
+          <footer class="heuristic-foot">
+            <span class="dossier-refs-label">Sources:</span>
+            <div class="source-links">${h.sourceRefs.map(ref => `<button class="text-button source-link" data-source="${esc(ref.lectureId)}" data-page="${ref.pdfPage}">↗ ${esc(lectureTitle(ref.lectureId))} p${ref.pdfPage}</button>`).join('')}</div>
+          </footer>
+        </article>
+      `).join('')}
+    </div>
+  `;
+}
+
+function memorizeView() {
+  const hasOrganisms = synthesisData.organisms && synthesisData.organisms.length > 0;
+  const hasTrees = synthesisData.trees && synthesisData.trees.length > 0;
+  const hasMatrices = synthesisData.matrices && synthesisData.matrices.length > 0;
+  const hasHeuristics = synthesisData.heuristics && synthesisData.heuristics.length > 0;
+
+  if (!hasOrganisms && !hasTrees && !hasMatrices && !hasHeuristics) {
+    return pageHead('THE MEMORIZE ROOM', 'Synthesis modules in progress.', 'Study notes and clinical summaries for this subject are being prepared.') +
+      `<div class="empty-state"><h2>No synthesis modules yet for ${esc(subject.title)}.</h2><p>Practice questions and full source slides remain fully active.</p><button class="button primary" data-go="practice">Open Practice ↗</button></div>`;
+  }
+
+  if (!['organisms', 'trees', 'matrices', 'heuristics'].includes(state.memorizeTab) ||
+      (state.memorizeTab === 'organisms' && !hasOrganisms) ||
+      (state.memorizeTab === 'trees' && !hasTrees) ||
+      (state.memorizeTab === 'matrices' && !hasMatrices) ||
+      (state.memorizeTab === 'heuristics' && !hasHeuristics)) {
+    state.memorizeTab = hasOrganisms ? 'organisms' : hasTrees ? 'trees' : hasMatrices ? 'matrices' : 'heuristics';
+  }
+
+  const head = pageHead('THE MEMORIZE ROOM', 'Synthesize, connect, remember.', 'Clinical bacterial profiles, diagnostic decision trees, side-by-side contrast matrices, and clinical rules of thumb.');
+
+  const subnav = `<nav class="memorize-subnav" aria-label="Memorize Room sections">
+    ${hasOrganisms ? `<button class="memorize-nav-btn ${state.memorizeTab==='organisms'?'active':''}" data-memorize-tab="organisms">🦠 Organism Dossiers <small>${synthesisData.organisms.length}</small></button>` : ''}
+    ${hasTrees ? `<button class="memorize-nav-btn ${state.memorizeTab==='trees'?'active':''}" data-memorize-tab="trees">🌳 Diagnostic Trees <small>${synthesisData.trees.length}</small></button>` : ''}
+    ${hasMatrices ? `<button class="memorize-nav-btn ${state.memorizeTab==='matrices'?'active':''}" data-memorize-tab="matrices">⚖️ Comparison Matrices <small>${synthesisData.matrices.length}</small></button>` : ''}
+    ${hasHeuristics ? `<button class="memorize-nav-btn ${state.memorizeTab==='heuristics'?'active':''}" data-memorize-tab="heuristics">💡 Rules of Thumb <small>${synthesisData.heuristics.length}</small></button>` : ''}
+  </nav>`;
+
+  let content = '';
+  if (state.memorizeTab === 'organisms') content = renderOrganismsTab();
+  else if (state.memorizeTab === 'trees') content = renderTreesTab();
+  else if (state.memorizeTab === 'matrices') content = renderMatricesTab();
+  else if (state.memorizeTab === 'heuristics') content = renderHeuristicsTab();
+
+  return head + subnav + `<div class="memorize-workspace">${content}</div>`;
+}
+
 function render(focusMain = false) {
   const active = document.activeElement?.id;
   const openDetails = [...document.querySelectorAll('#main details[open][id]')].map(node => node.id);
-  $('#main').innerHTML = state.session ? activityView() : state.view === 'courses' ? coursesView() : state.view === 'home' ? home() : ['practice', 'exam', 'drills', 'review'].includes(state.view) ? setup(state.view) : state.view === 'progress' ? progressView() : state.view === 'materials' ? materialsView() : state.view === 'saved' ? savedView() : state.view === 'updates' ? updatesView() : settingsView();
+  $('#main').innerHTML = state.session ? activityView() : state.view === 'courses' ? coursesView() : state.view === 'home' ? home() : state.view === 'memorize' ? memorizeView() : ['practice', 'exam', 'drills', 'review'].includes(state.view) ? setup(state.view) : state.view === 'progress' ? progressView() : state.view === 'materials' ? materialsView() : state.view === 'saved' ? savedView() : state.view === 'updates' ? updatesView() : settingsView();
   $('.workspace').classList.toggle('is-session',Boolean(state.session&&!state.session.done));
   const isCourses = state.view === 'courses';
   if ($('#topbar-prefix')) $('#topbar-prefix').textContent = isCourses ? 'Study Atlas' : subject.title;
@@ -408,13 +760,56 @@ function updateSetup() {
   const form = $('#session-setup'); if (!form) return;
   const selected = [...form.querySelectorAll('.chapter-check:checked')].map(x => x.value), mode = form.dataset.mode;
   const weak = new Set(mode === 'review' ? weakConcepts() : []);
-  const n = activities.filter(a => typesFor(mode).includes(a.type) && selected.includes(a.lectureId) && (mode !== 'review' || a.conceptIds.some(c => weak.has(c)))).length;
+  let pool = activities.filter(a => typesFor(mode).includes(a.type) && selected.includes(a.lectureId) && (mode !== 'review' || a.conceptIds.some(c => weak.has(c))));
+
+  if (mode === 'practice') {
+    const currentAtts = currentAttempts(progress.attempts, activities);
+    const seenIds = new Set(currentAtts.map(a => a.activityId));
+    const latestByActivity = new Map();
+    for (const att of currentAtts) {
+      const prev = latestByActivity.get(att.activityId);
+      if (!prev || att.at > prev.at) latestByActivity.set(att.activityId, att);
+    }
+    const missedIds = new Set([...latestByActivity.values()].filter(a => !a.correct).map(a => a.activityId));
+
+    const totalInSelected = pool.length;
+    const unseenInSelected = pool.filter(a => !seenIds.has(a.id)).length;
+    const missedInSelected = pool.filter(a => missedIds.has(a.id)).length;
+    const practicedInSelected = pool.filter(a => seenIds.has(a.id)).length;
+
+    const pillAll = document.querySelector('[data-bank-filter="all"]');
+    if (pillAll) pillAll.textContent = `🎯 All (${totalInSelected})`;
+    const pillUnseen = document.querySelector('[data-bank-filter="unpracticed"]');
+    if (pillUnseen) {
+      pillUnseen.textContent = `⚡ Unpracticed (${unseenInSelected})`;
+      pillUnseen.disabled = !unseenInSelected;
+    }
+    const pillMissed = document.querySelector('[data-bank-filter="missed"]');
+    if (pillMissed) {
+      pillMissed.textContent = `↻ Missed / Review (${missedInSelected})`;
+      pillMissed.disabled = !missedInSelected;
+    }
+    const pillPracticed = document.querySelector('[data-bank-filter="practiced"]');
+    if (pillPracticed) {
+      pillPracticed.textContent = `↺ Re-solve Practiced (${practicedInSelected})`;
+      pillPracticed.disabled = !practicedInSelected;
+    }
+
+    if (state.bankFilter === 'unpracticed') pool = pool.filter(a => !seenIds.has(a.id));
+    else if (state.bankFilter === 'missed') pool = pool.filter(a => missedIds.has(a.id));
+    else if (state.bankFilter === 'practiced') pool = pool.filter(a => seenIds.has(a.id));
+  }
+
+  const n = pool.length;
   const input = $('#session-count');
   if (input) {
     input.max = n;
     if (Number(input.value) > n || Number(input.value) < 1) input.value = Math.min(n, subject.assessment.recommendedPracticeCount);
   }
-  if ($('#available-count')) $('#available-count').textContent = `${n} available in your selection`;
+  if ($('#available-count')) {
+    const filterTag = mode === 'practice' && state.bankFilter !== 'all' ? ` · ${state.bankFilter}` : '';
+    $('#available-count').textContent = `${n} available in your selection${filterTag}`;
+  }
   if ($('#start-session')) $('#start-session').disabled = !n;
 }
 
@@ -463,6 +858,52 @@ document.addEventListener('click', async event => {
   if (b.dataset.language) { state.settings.explanationLanguage = b.dataset.language; saveSettings(storage, state.settings); render(); return; }
   if (b.dataset.evidence) { state.progressFilter = state.progressFilter === b.dataset.evidence ? 'all' : b.dataset.evidence; render(); return; }
   if (b.dataset.sourceStep) { state.source.pdfPage += Number(b.dataset.sourceStep); renderSource(); return; }
+  if (b.dataset.memorizeTab) { state.memorizeTab = b.dataset.memorizeTab; render(); return; }
+  if (b.dataset.catFilter) { state.memorizeCat = b.dataset.catFilter; render(); return; }
+  if (b.dataset.selectTree) { state.selectedTree = b.dataset.selectTree; render(); return; }
+  if (b.dataset.selectMatrix) { state.selectedMatrix = b.dataset.selectMatrix; render(); return; }
+  if (b.dataset.openDossier) {
+    state.view = 'memorize';
+    state.memorizeTab = 'organisms';
+    state.memorizeCat = 'all';
+    state.memorizeSearch = b.dataset.openDossier;
+    history.replaceState(null, '', '#memorize');
+    render(true);
+    return;
+  }
+  if (b.dataset.quizOrganism) {
+    const org = synthesisData.organisms.find(o => o.id === b.dataset.quizOrganism);
+    if (org) {
+      const name = org.name.toLowerCase();
+      const parts = name.split(' ');
+      const genus = parts[0], species = parts[1];
+      const matching = activities.filter(act => {
+        const text = (act.prompt + ' ' + (act.explanation?.en || '') + ' ' + act.conceptIds.join(' ')).toLowerCase();
+        const hasText = text.includes(name) || (species && species.length > 3 && text.includes(species)) || (genus && genus.length > 5 && text.includes(genus));
+        const hasPage = org.sourceRefs.some(ref => act.sourceRefs.some(s => s.lectureId === ref.lectureId && s.pdfPage === ref.pdfPage));
+        return hasText || hasPage;
+      });
+      if (matching.length) {
+        launch(shuffle(matching).slice(0, Math.min(10, matching.length)), 'practice');
+      } else {
+        notice('No activities found for this organism yet.');
+      }
+    }
+    return;
+  }
+  if (b.dataset.bankFilter) {
+    state.bankFilter = b.dataset.bankFilter;
+    document.querySelectorAll('[data-bank-filter]').forEach(btn => btn.classList.toggle('active', btn.dataset.bankFilter === state.bankFilter));
+    updateSetup();
+    return;
+  }
+  if (b.dataset.launchSingle) {
+    const act = activities.find(a => a.id === b.dataset.launchSingle);
+    if (act) launch([act], 'practice');
+    return;
+  }
+  const occludedCell = event.target.closest('.occluded-cell');
+  if (occludedCell) { occludedCell.classList.toggle('revealed'); return; }
   const s = state.session, a = s?.items[s.index];
   if (b.dataset.option && a && !s.done && !s.recorded.has(a.id)) {
     s.responses[a.id] = b.dataset.option;
@@ -509,6 +950,7 @@ document.addEventListener('change', async event => {
   }
   if (input.matches('.chapter-check')) updateSetup();
   if (input.id === 'use-timer') $('#timer-minutes').disabled = !input.checked;
+  if (input.id === 'occlusion-toggle') { state.occluded = input.checked; render(); }
   if (input.id === 'progress-chapter') { state.chapterFilter = input.value; render(); }
   if (input.id === 'progress-evidence') { state.progressFilter = input.value; render(); }
   if (input.dataset.match) {
@@ -529,6 +971,23 @@ document.addEventListener('change', async event => {
       const studySaved=saveStudyState();render(); notice(saved&&studySaved ? `Backup restored. ${added} new attempt${added === 1 ? '' : 's'} merged.` : `Backup merged for this visit. Some data could not be saved to browser storage; keep your backup file.`, !saved||!studySaved);
     } catch (error) { notice(error.message, true); }
     input.value = '';
+  }
+});
+document.addEventListener('input', event => {
+  if (event.target.id === 'organism-search') {
+    state.memorizeSearch = event.target.value;
+    const grid = document.querySelector('.organisms-grid');
+    if (grid) {
+      const q = (state.memorizeSearch || '').trim().toLowerCase();
+      const cat = state.memorizeCat || 'all';
+      grid.querySelectorAll('.dossier-card').forEach(card => {
+        const text = card.textContent.toLowerCase();
+        const matchesQ = !q || text.includes(q);
+        const cardCat = card.dataset.category;
+        const matchesCat = cat === 'all' || cardCat === cat;
+        card.style.display = matchesQ && matchesCat ? '' : 'none';
+      });
+    }
   }
 });
 document.addEventListener('submit', event => {
@@ -598,6 +1057,22 @@ async function init() {
   const prefix = `subjects/${subject.id}/`;
   const results = await Promise.all([json(prefix + (subject.scope.sourceManifest || 'sources/manifest.json')), json(prefix + subject.paths.chapters), json(prefix + subject.paths.concepts), json(prefix + subject.paths.activities), json(prefix + subject.paths.pages), json(prefix + subject.paths.uncertainties), json(prefix + subject.paths.coverage), subject.paths.pageImages ? json(prefix + subject.paths.pageImages) : Promise.resolve({pages:[]})]);
   lectures = results[0].lectures; chapters = results[1].chapters; concepts = results[2].concepts; activities = results[3].activities.filter(a => a.status === 'validated'); pages = results[4].pages; uncertainties = results[5].items; coverage = results[6]; sourceImages = results[7].pages;
+  synthesisData = { organisms: [], trees: [], matrices: [], heuristics: [] };
+  if (subject.paths?.synthesis) {
+    const syn = subject.paths.synthesis;
+    const synResults = await Promise.all([
+      syn.organisms ? json(prefix + syn.organisms).then(d => d.organisms || []).catch(() => []) : Promise.resolve([]),
+      syn.trees ? json(prefix + syn.trees).then(d => d.trees || []).catch(() => []) : Promise.resolve([]),
+      syn.matrices ? json(prefix + syn.matrices).then(d => d.matrices || []).catch(() => []) : Promise.resolve([]),
+      syn.heuristics ? json(prefix + syn.heuristics).then(d => d.heuristics || []).catch(() => []) : Promise.resolve([])
+    ]);
+    synthesisData = {
+      organisms: synResults[0],
+      trees: synResults[1],
+      matrices: synResults[2],
+      heuristics: synResults[3]
+    };
+  }
   const loaded = loadProgress(storage, subject.id, subject.scope.id, activities); progress = loaded.progress; state.progressSaved = !loaded.warning;
   if (loaded.warning) state.notice = { message: loaded.warning, error: true };
   const extra=loadStudy(storage,subject.id,subject.scope.id);study=extra.study;state.studySaved=!extra.warning;if(extra.warning)state.notice={message:extra.warning,error:true};

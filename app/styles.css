@@ -457,7 +457,131 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .chapter-choice input[type="checkbox"] { width:22px; height:22px; }
   .source-header { padding:max(14px, env(safe-area-inset-top)) 16px 14px; }
   .source-header button { min-width:44px; min-height:44px; }
+  .organisms-grid, .heuristics-grid { grid-template-columns:1fr; }
+  .bank-stats-grid { flex-direction:column; gap:10px; }
+  .matrix-controls-row { flex-direction:column; align-items:flex-start; }
 }
+
+/* Question Bank Library Bar & Filter Pills */
+.bank-summary-bar { margin-bottom: 20px; padding: 18px 20px; background: #fdfbf7; border: 1px solid #dce3dc; border-radius: 12px; }
+.bank-stats-grid { display: flex; gap: 24px; margin-bottom: 14px; flex-wrap: wrap; }
+.bank-stat-item { display: flex; flex-direction: column; }
+.bank-stat-item .stat-number { font-size: 1.5rem; font-weight: 700; color: #17231c; }
+.bank-stat-item .stat-label { font-size: 0.82rem; color: #637568; }
+.bank-stat-item.highlight .stat-number { color: #ed8067; }
+.bank-filter-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 12px; border-top: 1px solid #ede8de; }
+.bank-filter-label { font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #637568; }
+.bank-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.bank-pill { padding: 6px 14px; font-size: 0.85rem; font-weight: 500; border-radius: 999px; border: 1px solid #dce3dc; background: #ffffff; color: #17231c; cursor: pointer; transition: all 0.15s ease; }
+.bank-pill:hover:not(:disabled) { border-color: #17231c; }
+.bank-pill.active { background: #17231c; color: #ffffff; border-color: #17231c; }
+.bank-pill:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* Question Library Browser */
+.bank-browser { margin-top: 24px; padding: 16px 20px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 12px; }
+.bank-browser-summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-weight: 600; font-size: 1rem; color: #17231c; }
+.bank-browser-content { margin-top: 16px; }
+.bank-browser-table-wrap { max-height: 420px; overflow-y: auto; border: 1px solid #ede8de; border-radius: 8px; }
+.bank-browser-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left; }
+.bank-browser-table th { position: sticky; top: 0; background: #f5f2eb; padding: 10px 12px; font-weight: 600; border-bottom: 1px solid #dce3dc; z-index: 1; }
+.bank-browser-table td { padding: 10px 12px; border-bottom: 1px solid #f0ece3; vertical-align: middle; }
+.bank-browser-table tr:hover { background: #faf8f5; }
+.bank-browser-table .prompt-col { max-width: 380px; }
+.bank-badge { display: inline-block; padding: 3px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600; }
+.bank-badge.good { background: #e2ec98; color: #17231c; }
+.bank-badge.bad { background: #fce4dc; color: #9a3412; }
+.bank-badge.neutral { background: #e8ede7; color: #35473c; }
+.bank-badge.unseen { background: #f0f0ee; color: #6b7280; }
+.bank-star { color: #f59e0b; margin-left: 4px; }
+.bank-solve-btn { font-size: 0.8rem; font-weight: 600; color: #ed8067; }
+
+/* Memorize Room Layout & Subnav */
+.memorize-subnav { display: flex; gap: 10px; margin: 16px 0 24px; flex-wrap: wrap; }
+.memorize-nav-btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border-radius: 10px; border: 1px solid #dce3dc; background: #ffffff; color: #17231c; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
+.memorize-nav-btn small { background: #f0ece3; padding: 2px 7px; border-radius: 999px; font-size: 0.75rem; font-weight: 500; }
+.memorize-nav-btn:hover { border-color: #17231c; }
+.memorize-nav-btn.active { background: #17231c; color: #ffffff; border-color: #17231c; }
+.memorize-nav-btn.active small { background: #35473c; color: #ffffff; }
+
+/* Memorize Toolbar (Search & Category filters) */
+.memorize-toolbar { display: flex; flex-direction: column; gap: 14px; margin-bottom: 22px; padding: 16px 20px; background: #fdfbf7; border: 1px solid #dce3dc; border-radius: 12px; }
+.search-input-wrap input { width: 100%; padding: 12px 16px; border: 1px solid #dce3dc; border-radius: 8px; font-size: 0.95rem; background: #ffffff; }
+.search-input-wrap input:focus { outline: 2px solid #17231c; border-color: transparent; }
+.cat-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+.cat-pill { padding: 6px 14px; border-radius: 999px; border: 1px solid #dce3dc; background: #ffffff; font-size: 0.85rem; font-weight: 500; color: #17231c; cursor: pointer; }
+.cat-pill:hover { border-color: #17231c; }
+.cat-pill.active { background: #ed8067; color: #ffffff; border-color: #ed8067; }
+
+/* Organism Dossiers */
+.organisms-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); gap: 20px; }
+.dossier-card { padding: 22px; border: 1px solid #dce3dc; border-radius: 14px; background: #ffffff; display: flex; flex-direction: column; gap: 16px; }
+.dossier-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; border-bottom: 1px solid #ede8de; padding-bottom: 14px; }
+.dossier-head h2 { font-size: 1.4rem; margin: 4px 0 0; color: #17231c; }
+.dossier-badges { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.micro-btn { font-size: 0.78rem; padding: 6px 12px; border-radius: 6px; }
+.dossier-body { display: flex; flex-direction: column; gap: 10px; font-size: 0.9rem; }
+.dossier-section { border: 1px solid #f0ece3; border-radius: 8px; padding: 8px 12px; background: #fcfbf9; }
+.dossier-section summary { font-weight: 600; cursor: pointer; color: #17231c; font-size: 0.88rem; }
+.dossier-section ul { margin: 8px 0 4px 18px; padding: 0; }
+.dossier-section li { margin-bottom: 6px; line-height: 1.45; color: #35473c; }
+.dossier-foot { padding-top: 10px; border-top: 1px solid #ede8de; display: flex; flex-direction: column; gap: 6px; font-size: 0.8rem; }
+.dossier-refs-label { font-weight: 600; color: #637568; }
+
+/* Diagnostic Decision Trees */
+.tree-selector-bar { padding: 16px 20px; margin-bottom: 20px; background: #fdfbf7; border: 1px solid #dce3dc; border-radius: 12px; }
+.tree-pills { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.tree-pill { padding: 8px 16px; border-radius: 8px; border: 1px solid #dce3dc; background: #ffffff; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.tree-pill.active { background: #17231c; color: #ffffff; border-color: #17231c; }
+.tree-display-container { padding: 24px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 14px; overflow-x: auto; }
+.tree-node { display: flex; flex-direction: column; gap: 14px; }
+.node-step { padding: 12px 16px; background: #f5f2eb; border-left: 4px solid #17231c; border-radius: 6px; }
+.node-step strong { font-size: 1rem; color: #17231c; }
+.node-branches { display: flex; flex-direction: column; gap: 14px; margin-left: 18px; border-left: 2px dashed #dce3dc; padding-left: 18px; }
+.tree-branch { display: flex; flex-direction: column; gap: 10px; }
+.branch-label { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.branch-pill { padding: 4px 12px; background: #e8ede7; border-radius: 999px; font-size: 0.82rem; font-weight: 600; color: #17231c; }
+.group-tag { font-size: 0.8rem; font-weight: 600; color: #ed8067; }
+.node-outcome { padding: 12px 16px; background: #fbf9f4; border: 1px solid #e2ec98; border-radius: 8px; }
+.node-outcome h4 { margin: 0 0 6px; font-size: 1.1rem; color: #17231c; }
+.outcome-org-link { font-size: 1.1rem; font-weight: 700; color: #17231c; padding: 0; }
+.outcome-org-link:hover { color: #ed8067; }
+
+/* Comparison Matrices with Active Occlusion */
+.matrix-selector-bar { padding: 16px 20px; margin-bottom: 20px; background: #fdfbf7; border: 1px solid #dce3dc; border-radius: 12px; }
+.matrix-pills { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.matrix-pill { padding: 8px 16px; border-radius: 8px; border: 1px solid #dce3dc; background: #ffffff; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+.matrix-pill.active { background: #17231c; color: #ffffff; border-color: #17231c; }
+.matrix-controls-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-top: 1px solid #ede8de; padding-top: 12px; }
+.occlusion-toggle-label { display: flex; align-items: center; gap: 8px; font-size: 0.88rem; font-weight: 600; cursor: pointer; }
+.matrix-table-wrap { padding: 20px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 14px; overflow-x: auto; }
+.matrix-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.matrix-table th { background: #f5f2eb; padding: 12px 14px; text-align: left; font-weight: 700; border-bottom: 2px solid #dce3dc; color: #17231c; }
+.matrix-table td { padding: 12px 14px; border-bottom: 1px solid #ede8de; vertical-align: top; line-height: 1.5; }
+.matrix-table td strong { color: #17231c; }
+.matrix-table tr:hover td { background: #faf8f5; }
+.matrix-table.is-occluded .occluded-cell { position: relative; cursor: pointer; }
+.matrix-table.is-occluded .occluded-cell .cell-text { filter: blur(6px); opacity: 0.3; transition: all 0.2s ease; user-select: none; }
+.matrix-table.is-occluded .occluded-cell .cell-cover { position: absolute; inset: 6px; display: flex; align-items: center; justify-content: center; background: #f5f2eb; border: 1px dashed #dce3dc; border-radius: 6px; font-size: 0.78rem; font-weight: 600; color: #637568; }
+.matrix-table.is-occluded .occluded-cell.revealed .cell-text { filter: none; opacity: 1; user-select: text; }
+.matrix-table.is-occluded .occluded-cell.revealed .cell-cover { display: none; }
+
+/* Clinical Rules of Thumb */
+.heuristics-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 18px; }
+.heuristic-card { padding: 20px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 12px; display: flex; flex-direction: column; gap: 12px; }
+.heuristic-head { display: flex; align-items: center; gap: 10px; }
+.heuristic-icon { font-size: 1.4rem; }
+.heuristic-head h3 { margin: 0; font-size: 1.15rem; color: #17231c; }
+.heuristic-rule { padding: 12px 14px; background: #fdfbf7; border-left: 3px solid #ed8067; border-radius: 4px; font-size: 0.92rem; line-height: 1.5; color: #17231c; }
+.heuristic-explanation { margin: 0; font-size: 0.85rem; color: #637568; line-height: 1.4; }
+.heuristic-foot { padding-top: 8px; border-top: 1px solid #ede8de; font-size: 0.8rem; }
+
+/* Feature Banner & Dossier Bridge */
+.memorize-feature-banner { margin: 24px 0; padding: 22px 24px; background: #fdfbf7; border: 1px solid #e2ec98; border-radius: 14px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.memorize-banner-copy h2 { font-size: 1.4rem; margin: 4px 0 6px; color: #17231c; }
+.memorize-banner-copy p { margin: 0; font-size: 0.92rem; color: #637568; }
+.dossier-bridge-pill { margin-top: 12px; padding-top: 10px; border-top: 1px dashed #dce3dc; }
+.dossier-bridge-btn { font-size: 0.85rem; font-weight: 600; color: #ed8067; }
+.dossier-bridge-btn:hover { text-decoration: underline; }
 
 @media print {
   @page { size:A4; margin:18mm; }

@@ -75,14 +75,30 @@ export function progressSummary(concepts, attempts, activities) {
 }
 
 export function selectActivities(activities, concepts, attempts, options = {}) {
-  const { types = ['mcq'], lectureIds = [], conceptIds = [], excludeIds = [], count = 10, random = Math.random } = options;
+  const { types = ['mcq'], lectureIds = [], conceptIds = [], excludeIds = [], count = 10, random = Math.random, bankFilter = 'all' } = options;
   const summary = progressSummary(concepts, attempts, activities);
   const core = new Set(concepts.filter(c => c.priority === 'core').map(c => c.id));
   const excluded = new Set(excludeIds);
-  const candidates = activities.filter(a => a.status === 'validated' && types.includes(a.type)
+  let candidates = activities.filter(a => a.status === 'validated' && types.includes(a.type)
     && (!lectureIds.length || lectureIds.includes(a.lectureId))
     && (!conceptIds.length || a.conceptIds.some(c => conceptIds.includes(c))) && !excluded.has(a.id));
-  const seen = new Set(currentAttempts(attempts, activities).map(a => a.activityId));
+  const currentAtts = currentAttempts(attempts, activities);
+  const seen = new Set(currentAtts.map(a => a.activityId));
+  const latestByActivity = new Map();
+  for (const att of currentAtts) {
+    const prev = latestByActivity.get(att.activityId);
+    if (!prev || att.at > prev.at) latestByActivity.set(att.activityId, att);
+  }
+  const missedIds = new Set([...latestByActivity.values()].filter(att => !att.correct).map(att => att.activityId));
+
+  if (bankFilter === 'unpracticed') {
+    candidates = candidates.filter(a => !seen.has(a.id));
+  } else if (bankFilter === 'missed') {
+    candidates = candidates.filter(a => missedIds.has(a.id));
+  } else if (bankFilter === 'practiced') {
+    candidates = candidates.filter(a => seen.has(a.id));
+  }
+
   const latestPenalty = a => a.conceptIds.some(id => summary.evidence.get(id)?.latest?.activityId === a.id
     && candidates.some(other => other.id !== a.id && other.conceptIds.includes(id))) ? 40 : 0;
   const base = new Map(candidates.map(a => [a.id, Math.max(...a.conceptIds.map(id => {

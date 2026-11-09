@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "trees": [
+    {
+      "id": "gpc-algorithm",
+      "title": "Gram-Positive Cocci Identification Flowchart",
+      "summary": "Step-by-step diagnostic pathway differentiating Staphylococci from Streptococci, followed by Coagulase, Hemolysis, and disk sensitivities.",
+      "root": {
+        "step": "Gram Stain & Microscopic Arrangement",
+        "prompt": "Spherical cells retaining crystal violet (purple/blue) [L1 p8, 28]",
+        "branches": [
+          {
+            "label": "Clusters (irregular grape-like bunches)",
+            "organismGroup": "Staphylococcus genus [L1 p8]",
+            "next": {
+              "step": "Catalase Test (2 H2O2 → 2 H2O + O2)",
+              "branches": [
+                {
+                  "label": "Positive (Vigorous bubbling / O2 effervescence)",
+                  "result": "Staphylococcus species [L3 p20]",
+                  "next": {
+                    "step": "Coagulase Test (Rabbit plasma clot formation)",
+                    "branches": [
+                      {
+                        "label": "Positive (Fibrin clot formed within 4 hours)",
+                        "outcome": {
+                          "name": "Staphylococcus aureus",
+                          "organismId": "staphylococcus-aureus",
+                          "clues": "Golden-yellow pigment, beta-hemolytic on blood agar, ferments mannitol yellow on MSA, cell wall Protein A.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 21
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 27
+                            },
+                            {
+                              "lectureId": "bacterial-pathogenesis",
+                              "pdfPage": 13
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "Negative (No clot / CoNS)",
+                        "next": {
+                          "step": "Novobiocin Disk Susceptibility Test",
+                          "branches": [
+                            {
+                              "label": "Sensitive (Zone of inhibition >16 mm)",
+                              "outcome": {
+                                "name": "Staphylococcus epidermidis",
+                                "organismId": "staphylococcus-epidermidis",
+                                "clues": "Major resident skin flora; synthesizes extensive extracellular slime / biofilm on prosthetic valves, orthopedic implants, and IV lines.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 30
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 9
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "Resistant (Grows up to disk margin)",
+                              "outcome": {
+                                "name": "Staphylococcus saprophyticus",
+                                "clues": "Second leading cause of acute community-acquired urinary tract infections in sexually active young women.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 30
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "Chains or Pairs",
+            "organismGroup": "Streptococcus genus [L1 p8]",
+            "next": {
+              "step": "Catalase Test",
+              "branches": [
+                {
+                  "label": "Negative (No bubbles formed)",
+                  "result": "Streptococcus species [L3 p20]",
+                  "next": {
+                    "step": "Blood Agar Hemolysis Pattern",
+                    "branches": [
+                      {
+                        "label": "Alpha-Hemolysis (Greenish partial clearing halo)",
+                        "next": {
+                          "step": "Optochin Sensitivity & Bile Solubility",
+                          "branches": [
+                            {
+                              "label": "Optochin Sensitive & Bile Soluble",
+                              "outcome": {
+                                "name": "Streptococcus pneumoniae (Pneumococcus)",
+                                "organismId": "streptococcus-pneumoniae",
+                                "clues": "Lancet-shaped diplococci, prominent polysaccharide capsule, Quellung positive, lobar pneumonia with rusty sputum.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 31
+                                  },
+                                  {
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 43
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "Optochin Resistant & Bile Insoluble",
+                              "outcome": {
+                                "name": "Streptococcus viridans group (S. mutans, S. mitis)",
+                                "clues": "Normal oropharyngeal flora; dextran biofilm causes dental caries; causes subacute bacterial endocarditis on damaged heart valves.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 31
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 14
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "Beta-Hemolysis (Complete clear zone of lysis)",
+                        "next": {
+                          "step": "Bacitracin Disk Susceptibility (Taxo A)",
+                          "branches": [
+                            {
+                              "label": "Bacitracin Sensitive (Zone of inhibition)",
+                              "outcome": {
+                                "name": "Streptococcus pyogenes (Group A Streptococcus)",
+                                "organismId": "streptococcus-pyogenes",
+                                "clues": "M protein, hyaluronic acid capsule, strep throat, scarlet fever, erysipelas, rheumatic fever, post-streptococcal glomerulonephritis.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 31
+                                  },
+                                  {
+                                    "lectureId": "bacterial-pathogenesis",
+                                    "pdfPage": 14
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "label": "Bacitracin Resistant",
+                              "outcome": {
+                                "name": "Streptococcus agalactiae (Group B Streptococcus)",
+                                "clues": "Colonizes maternal genital tract; leading bacterial cause of neonatal sepsis, pneumonia, and meningitis.",
+                                "sourceRefs": [
+                                  {
+                                    "lectureId": "bacterial-growth",
+                                    "pdfPage": 31
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 23
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "Gamma-Hemolysis (No hemolysis on blood agar)",
+                        "outcome": {
+                          "name": "Enterococcus faecalis / faecium (Group D)",
+                          "clues": "Grows in 6.5% NaCl broth and 40% bile; hydrolyzes bile esculin to produce black colonies; causes nosocomial UTIs and bacteremia.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 25
+                            },
+                            {
+                              "lectureId": "normal-flora",
+                              "pdfPage": 18
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "gnr-algorithm",
+      "title": "Gram-Negative Bacilli Diagnostic Flowchart",
+      "summary": "Algorithmic differentiation of Gram-negative rods using MacConkey agar lactose fermentation, Oxidase reaction, and TSI patterns.",
+      "root": {
+        "step": "MacConkey Agar (Selective & Differential)",
+        "prompt": "Bile salts and crystal violet inhibit Gram-positives; lactose and neutral red test for fermentation [L3 p28]",
+        "branches": [
+          {
+            "label": "Lactose Fermenter (Pink / Red colonies with bile precipitation)",
+            "organismGroup": "Coliform Enterics [L3 p28]",
+            "next": {
+              "step": "TSI Reaction, Motility & Indole Test",
+              "branches": [
+                {
+                  "label": "Motile, Indole-Positive, Green sheen on EMB agar",
+                  "outcome": {
+                    "name": "Escherichia coli",
+                    "organismId": "escherichia-coli",
+                    "clues": "TSI: A/A with gas (yellow slant / yellow butt + gas), no H2S. Most common cause of UTIs and traveler's diarrhea.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 28
+                      },
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 34
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Non-Motile, Indole-Negative, Heavy mucoid colonies",
+                  "outcome": {
+                    "name": "Klebsiella pneumoniae",
+                    "clues": "TSI: A/A with abundant gas. Prominent polysaccharide capsule, aspiration pneumonia in alcoholics with 'currant jelly' sputum.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 42
+                      },
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 34
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "Non-Lactose Fermenter (Pale, colorless, translucent colonies)",
+            "organismGroup": "Non-Fermenting Rods [L3 p28]",
+            "next": {
+              "step": "Oxidase Test (Cytochrome c oxidase)",
+              "branches": [
+                {
+                  "label": "Oxidase-Positive (Dark purple within 10-30s)",
+                  "next": {
+                    "step": "TSI & Atmospheric Requirements",
+                    "branches": [
+                      {
+                        "label": "TSI: K/K (Red slant / Red butt), Obligate Aerobe",
+                        "outcome": {
+                          "name": "Pseudomonas aeruginosa",
+                          "organismId": "pseudomonas-aeruginosa",
+                          "clues": "Blue-green pyocyanin pigment, sweet fruity odor, polar flagellum, Exotoxin A, opportunistic burn/CF/ventilator pathogen.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 22
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 26
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 34
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "Curved / Comma-shaped rod, grows on alkaline TCBS agar",
+                        "outcome": {
+                          "name": "Vibrio cholerae",
+                          "organismId": "vibrio-cholerae",
+                          "clues": "Darting motility via single polar flagellum, produces cholera toxin, causes profuse 'rice-water' stool diarrhea.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacteria-and-other-microorganisms",
+                              "pdfPage": 46
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 28
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Oxidase-Negative (Enterobacteriaceae non-lactose fermenters)",
+                  "next": {
+                    "step": "TSI Agar (H2S Blackening & Gas) & Motility",
+                    "branches": [
+                      {
+                        "label": "TSI: K/A + H2S Black Precipitate, Motile, Urease-Negative",
+                        "outcome": {
+                          "name": "Salmonella enterica / typhi",
+                          "organismId": "salmonella-enterica",
+                          "clues": "Red slant / yellow butt with black ferrous sulfide, peritrichous flagella, intracellular in macrophages, causes typhoid fever and gastroenteritis.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 34
+                            },
+                            {
+                              "lectureId": "bacterial-pathogenesis",
+                              "pdfPage": 14
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "TSI: K/A + H2S Black Precipitate, Swarming motility, Urease-Positive",
+                        "outcome": {
+                          "name": "Proteus mirabilis / vulgaris",
+                          "clues": "Swarming waves across agar, potent urease hydrolyzes urea to ammonia raising urine pH and forming staghorn calculi.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacteria-and-other-microorganisms",
+                              "pdfPage": 47
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 32
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "label": "TSI: K/A without H2S and without gas, Non-Motile",
+                        "outcome": {
+                          "name": "Shigella dysenteriae / sonnei",
+                          "organismId": "shigella-dysenteriae",
+                          "clues": "Lacks flagella, highly acid-resistant (low infectious dose ~10-100), invades colonic M cells, produces Shiga toxin, causes bloody dysentery.",
+                          "sourceRefs": [
+                            {
+                              "lectureId": "bacteria-and-other-microorganisms",
+                              "pdfPage": 46
+                            },
+                            {
+                              "lectureId": "bacterial-growth",
+                              "pdfPage": 34
+                            },
+                            {
+                              "lectureId": "bacterial-pathogenesis",
+                              "pdfPage": 12
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "spore-algorithm",
+      "title": "Spore-Forming Gram-Positive Bacilli Flowchart",
+      "summary": "Differential algorithm separating Bacillus and Clostridium based on atmospheric oxygen requirements, spore location, and clinical presentation.",
+      "root": {
+        "step": "Endospore Stain (Malachite Green / Heat-Resistant Spores)",
+        "prompt": "Gram-positive rods forming intracellular endospores containing calcium dipicolinate [L1 p52]",
+        "branches": [
+          {
+            "label": "Aerobic / Facultative (Requires O2 for sporulation and germination)",
+            "organismGroup": "Bacillus genus [L1 p52, L3 p14]",
+            "next": {
+              "step": "Motility, Capsule Composition & Hemolysis",
+              "branches": [
+                {
+                  "label": "Non-Motile, Poly-D-Glutamic Acid Capsule, Non-Hemolytic ('Medusa head')",
+                  "outcome": {
+                    "name": "Bacillus anthracis",
+                    "organismId": "bacillus-anthracis",
+                    "clues": "Square-ended rods in chains, tripartite exotoxin (PA, EF, LF), causes painless black eschar (cutaneous) or fatal mediastinitis (inhalation).",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 42
+                      },
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 54
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Motile, Non-Encapsulated, Beta-Hemolytic on Blood Agar",
+                  "outcome": {
+                    "name": "Bacillus cereus",
+                    "clues": "Reheated fried rice food poisoning; emetic toxin (preformed, rapid onset 1-5h) or diarrheal enterotoxin (produced in vivo, 8-16h).",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 46
+                      },
+                      {
+                        "lectureId": "bacterial-pathogenesis",
+                        "pdfPage": 19
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "label": "Obligate (Strict) Anaerobe (Killed by atmospheric oxygen; lacks catalase/SOD)",
+            "organismGroup": "Clostridium genus [L1 p52, L3 p14]",
+            "next": {
+              "step": "Spore Location and Clinical Syndrome",
+              "branches": [
+                {
+                  "label": "Terminal round spore ('drumstick / tennis racket'), Deep puncture wound",
+                  "outcome": {
+                    "name": "Clostridium tetani",
+                    "organismId": "clostridium-tetani",
+                    "clues": "Tetanospasmin retrogradely transported to spinal cord; cleaves synaptobrevin, blocking Glycine and GABA release; causes spastic paralysis and trismus.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 52
+                      },
+                      {
+                        "lectureId": "bacterial-pathogenesis",
+                        "pdfPage": 17
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Subterminal oval spore, Ingestion of canned food or raw honey in infants",
+                  "outcome": {
+                    "name": "Clostridium botulinum",
+                    "organismId": "clostridium-botulinum",
+                    "clues": "Botulinum neurotoxin cleaves SNARE proteins at motor endplates, blocking Acetylcholine release; causes descending flaccid paralysis.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 52
+                      },
+                      {
+                        "lectureId": "bacterial-pathogenesis",
+                        "pdfPage": 17
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Large rectangular rod, Double zone of beta-hemolysis, Spores rarely seen in vivo",
+                  "outcome": {
+                    "name": "Clostridium perfringens",
+                    "clues": "Alpha-toxin (lecithinase / phospholipase C) hydrolyzes cell membranes, causing gas gangrene (myonecrosis with crepitus) and post-abortion sepsis.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "bacteria-and-other-microorganisms",
+                        "pdfPage": 52
+                      },
+                      {
+                        "lectureId": "bacterial-pathogenesis",
+                        "pdfPage": 16
+                      }
+                    ]
+                  }
+                },
+                {
+                  "label": "Post-clindamycin / broad-spectrum antibiotic diarrhea",
+                  "outcome": {
+                    "name": "Clostridium difficile",
+                    "clues": "Disruption of colonic normal flora allows overgrowth; produces Toxin A (enterotoxin) and Toxin B (cytotoxin), causing pseudomembranous colitis.",
+                    "sourceRefs": [
+                      {
+                        "lectureId": "normal-flora",
+                        "pdfPage": 21
+                      },
+                      {
+                        "lectureId": "bacterial-pathogenesis",
+                        "pdfPage": 22
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

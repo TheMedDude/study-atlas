@@ -87,4 +87,24 @@ for a in bank['activities']:
 for concept in concepts:
     expected = {a['id'] for a in bank['activities'] if concept['id'] in a['conceptIds']}
     require(expected == set(concept['activityIds']), f'Stale coverage ledger: {concept["id"]}')
-print(f'Validated structure/provenance: {len(pages)} pages, {len(concepts)} concepts, {len(ids)} activities {type_counts}.')
+
+synthesis_dir = BASE / 'synthesis'
+synthesis_count = 0
+if synthesis_dir.exists():
+    def check_refs(obj, label):
+        if isinstance(obj, dict):
+            if 'sourceRefs' in obj:
+                for ref in obj['sourceRefs']:
+                    key = (ref['lectureId'], ref['pdfPage'])
+                    require(key in page_map and page_map[key]['kind'] == 'teaching', f'Invalid synthesis source ref: {label} {key}')
+            for k, v in obj.items():
+                check_refs(v, f'{label}.{k}')
+        elif isinstance(obj, list):
+            for i, item in enumerate(obj):
+                check_refs(item, f'{label}[{i}]')
+    for json_file in sorted(synthesis_dir.glob('*.json')):
+        sdata = read(json_file)
+        check_refs(sdata, json_file.name)
+        synthesis_count += 1
+
+print(f'Validated structure/provenance: {len(pages)} pages, {len(concepts)} concepts, {len(ids)} activities {type_counts}, {synthesis_count} synthesis modules.')

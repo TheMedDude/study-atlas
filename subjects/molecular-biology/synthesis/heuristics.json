@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "molecular-biology",
+  "heuristics": [
+    {
+      "id": "synthesis-directionality",
+      "title": "The Master Directionality Rule",
+      "rule": "ALL nucleic acid synthesis (DNA replication, RNA transcription) occurs strictly in the 5' -> 3' direction; the template strand is read in the 3' -> 5' direction.",
+      "explanation": "Incoming nucleoside triphosphates (dNTPs or NTPs) provide energy via hydrolysis of their alpha-beta phosphoanhydride bond, joining their 5'-phosphate to the free 3'-OH group of the growing chain.",
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 6
+        }
+      ]
+    },
+    {
+      "id": "proofreading-directionality",
+      "title": "Proofreading Exonuclease Directionality",
+      "rule": "Replicative proofreading exonuclease activity runs strictly in the 3' -> 5' direction.",
+      "explanation": "When an incorrect nucleotide is inserted, the polymerase pauses, transfers the mismatched 3' end to the proofreading exonuclease site, removes the nucleotide backward (3'->5'), and resumes forward 5'->3' synthesis.",
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 14
+        }
+      ]
+    },
+    {
+      "id": "primer-requirement",
+      "title": "The Primer Rule: DNA vs. RNA Polymerases",
+      "rule": "DNA polymerases CANNOT initiate synthesis de novo and strictly require a pre-existing 3'-OH primer; RNA polymerases initiate synthesis de novo without a primer.",
+      "explanation": "Because DNA polymerases require a primer, DNA replication requires Primase (a specialized RNA polymerase) to lay down an RNA primer before DNA synthesis can commence.",
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-1",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "rna-metabolism-1",
+          "pdfPage": 6
+        }
+      ]
+    },
+    {
+      "id": "dna-repair-defects",
+      "title": "DNA Repair Human Deficiency Syndromes",
+      "rule": "* Xeroderma Pigmentosum (XP) -> Defect in Nucleotide Excision Repair (NER) (cannot repair UV thymine dimers)\n* Lynch Syndrome (HNPCC) -> Defect in Mismatch Repair (MMR) (MSH2, MLH1)\n* Ataxia-Telangiectasia (AT) -> Defect in ATM kinase (detects double-strand DNA breaks)\n* Fanconi Anemia / BRCA1/2 -> Defect in Homologous Recombination repair.",
+      "explanation": "High-yield medical exam associations connecting specific DNA repair enzymes to hereditary cancer syndromes.",
+      "sourceRefs": [
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "dna-metabolism-2",
+          "pdfPage": 28
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "molecular-biology",
+  "matrices": [
+    {
+      "id": "dna-pol-1-vs-3",
+      "title": "DNA Polymerase I vs. DNA Polymerase III",
+      "summary": "Comparison of the two primary replicative DNA polymerases in Escherichia coli.",
+      "columns": [
+        "Enzymatic Property",
+        "DNA Polymerase I [L2 p12, 16]",
+        "DNA Polymerase III [L2 p12, 15]"
+      ],
+      "rows": [
+        [
+          "Primary Replicative Role",
+          "Removes RNA primers and fills the resulting gaps on the lagging strand; DNA repair [L2 p16]",
+          "Primary replicative enzyme responsible for continuous leading strand and discontinuous lagging strand synthesis [L2 p15]"
+        ],
+        [
+          "5' -> 3' Polymerase Activity",
+          "**Present** (rate: ~16-20 nucleotides/sec; moderate processivity ~3-200 nucleotides) [L2 p12]",
+          "**Present** (rate: ~250-1000 nucleotides/sec; extremely high processivity >500,000 nucleotides via beta clamp) [L2 p12, 15]"
+        ],
+        [
+          "3' -> 5' Exonuclease Activity",
+          "**Present** (proofreading: removes mispaired terminal 3' nucleotides) [L2 p12, 14]",
+          "**Present** in epsilon subunit (proofreading: ensures high fidelity replication ~1 error per 10^7 nucleotides) [L2 p12, 14]"
+        ],
+        [
+          "5' -> 3' Exonuclease Activity",
+          "**Present** (unique: enables **Nick Translation** to degrade RNA primers or damaged DNA in front of the enzyme) [L2 p12, 16]",
+          "**Absent** entirely [L2 p12]"
+        ],
+        [
+          "Subunit Composition",
+          "Single monomeric polypeptide (~103 kDa; can be proteolytically cleaved into Klenow fragment + small exonuclease domain) [L2 p12]",
+          "Asymmetric heteromultimeric holoenzyme (10 distinct subunits: catalytic core alpha-epsilon-theta, beta sliding clamp dimer, gamma-tau clamp loader complex) [L2 p15]"
+        ]
+      ]
+    },
+    {
+      "id": "replication-prokaryotes-vs-eukaryotes",
+      "title": "DNA Replication: Prokaryotes vs. Eukaryotes",
+      "summary": "Key mechanistic and structural differences between bacterial and eukaryotic replication machinery.",
+      "columns": [
+        "Feature",
+        "Prokaryotes (E. coli) [L2 p4-24]",
+        "Eukaryotes (Human) [L2 p25-36]"
+      ],
+      "rows": [
+        [
+          "Origin of Replication",
+          "Single unique origin per circular chromosome (OriC, 245 bp) [L2 p6]",
+          "Multiple origins of replication per linear chromosome (thousands of replication bubbles spaced 30-300 kb apart) [L2 p25]"
+        ],
+        [
+          "Replication Fork Movement",
+          "Bidirectional from single origin; two forks meet at Ter termination sites [L2 p6, 22]",
+          "Bidirectional from multiple origins simultaneously [L2 p25]"
+        ],
+        [
+          "Primary Replicative Polymerases",
+          "DNA Polymerase III (elongation); DNA Polymerase I (primer removal) [L2 p12, 15]",
+          "Pol alpha (primase complex: synthesizes RNA/DNA primer); Pol delta (lagging strand); Pol epsilon (leading strand) [L2 p26, 28]"
+        ],
+        [
+          "Sliding Clamp & Loader",
+          "Beta clamp homodimer; gamma-tau complex clamp loader [L2 p15]",
+          "PCNA (Proliferating Cell Nuclear Antigen) trimer; RFC (Replication Factor C) loader [L2 p28]"
+        ],
+        [
+          "Primer Removal",
+          "DNA Polymerase I (5' -> 3' exonuclease nick translation) [L2 p16]",
+          "RNase H hydrolyzes RNA; FEN1 (Flap Endonuclease 1) cleaves displaced flap [L2 p29]"
+        ],
+        [
+          "End-Replication Problem & Telomeres",
+          "Non-existent: Chromosome is circular, no free ends [L2 p4]",
+          "Linear chromosome ends would shorten with each round; resolved by Telomerase (reverse transcriptase with internal RNA template TTAGGG) [L2 p32, 33]"
+        ]
+      ]
+    },
+    {
+      "id": "types-of-dna-repair",
+      "title": "Major DNA Repair Pathways",
+      "summary": "Comparison of cellular mechanisms correcting damaged or mismatched DNA.",
+      "columns": [
+        "Repair Pathway",
+        "Lesion / Damage Repaired",
+        "Key Enzymes & Steps",
+        "Associated Human Clinical Syndrome"
+      ],
+      "rows": [
+        [
+          "Direct Reversal [L3 p6, 8]",
+          "Pyrimidine dimers (photolyase in bacteria) or O6-methylguanine (alkyl damage) [L3 p6, 8]",
+          "O6-methylguanine-DNA methyltransferase (MGMT): Transfers methyl group directly from O6-guanine to internal cysteine residue (suicide enzyme) [L3 p8]",
+          "Chemotherapy resistance (high MGMT expression protects tumor cells from alkylating agents like temozolomide) [L3 p8]"
+        ],
+        [
+          "Base Excision Repair (BER) [L3 p10-14]",
+          "Single abnormal/modified bases: Deaminated cytosine (uracil in DNA), oxidized guanine (8-oxoG), alkylated bases [L3 p10]",
+          "1. DNA Glycosylase cleaves N-glycosidic bond, creating AP site; 2. AP Endonuclease cleaves 5' phosphodiester bond; 3. DNA Pol I (or Pol beta) fills gap, DNA ligase seals [L3 p11-13]",
+          "MUTYH-associated polyposis (colorectal adenomas caused by defective 8-oxoG repair) [L3 p14]"
+        ],
+        [
+          "Nucleotide Excision Repair (NER) [L3 p15-22]",
+          "Bulky helix-distorting lesions: UV-induced cyclobutane pyrimidine dimers (CPD) and 6-4 photoproducts; chemical adducts [L3 p15]",
+          "1. UvrABC excinuclease (prokaryotes) or XPA-XPG complexes (eukaryotes) make dual incisions flanking lesion (12-29 nt); 2. Helicase releases damaged oligomer; 3. DNA Pol and Ligase resynthesize [L3 p16-18]",
+          "Xeroderma Pigmentosum (XP): Extreme UV sensitivity, severe sunburns, marked increase in skin carcinomas and melanomas [L3 p20]"
+        ],
+        [
+          "Mismatch Repair (MMR) [L3 p23-28]",
+          "Post-replicative replication errors: Base-base mismatches and small insertion/deletion loops that escaped proofreading [L3 p23]",
+          "1. MutS binds mismatch, MutL coordinates, MutH cleaves unmethylated daughter strand at GATC sites; 2. Exonuclease degrades past lesion; 3. Pol III fills and Ligase seals [L3 p24-26]",
+          "Lynch Syndrome (Hereditary Nonpolyposis Colorectal Cancer / HNPCC): Germline mutation in MSH2 or MLH1 causes microsatellite instability [L3 p28]"
+        ]
+      ]
+    }
+  ]
+}

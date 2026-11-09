@@ -56,3 +56,48 @@ test('portable source viewing has a faithful, hash-verified render for every PDF
     assert.equal(createHash('sha256').update(fs.readFileSync(path.join(root,base,'sources',image.path))).digest('hex'),image.sha256);
   }
 });
+test('synthesis data links strictly to verified teaching pages across subjects',()=>{
+  const subjects=['subjects/molecular-biology','subjects/general-microbiology'];
+  for(const subDir of subjects){
+    const sJson=read(path.join(subDir,'subject.json'));
+    if(!sJson.paths||!sJson.paths.synthesis)continue;
+    const sPages=read(path.join(subDir,'source-analysis/page-ledger.json')).pages;
+    const teachingPages=new Set(sPages.filter(p=>p.kind==='teaching').map(p=>`${p.lectureId}:${p.pdfPage}`));
+    for(const [module,relPath] of Object.entries(sJson.paths.synthesis)){
+      const fullPath=path.join(root,subDir,relPath);
+      assert.ok(fs.existsSync(fullPath),`Synthesis file missing: ${fullPath}`);
+      const data=read(path.join(subDir,relPath));
+      const verifyRefs=(refs,ctx)=>{
+        if(!refs||!Array.isArray(refs))return;
+        for(const r of refs){
+          assert.ok(teachingPages.has(`${r.lectureId}:${r.pdfPage}`),`Unknown/non-teaching ref ${r.lectureId}:${r.pdfPage} in ${subDir} ${ctx}`);
+        }
+      };
+      if(module==='organisms'){
+        assert.ok(Array.isArray(data.organisms)&&data.organisms.length>0);
+        for(const o of data.organisms){
+          assert.ok(o.id&&o.name);
+          verifyRefs(o.sourceRefs,o.id);
+        }
+      }else if(module==='trees'){
+        assert.ok(Array.isArray(data.trees)&&data.trees.length>0);
+        for(const t of data.trees){
+          assert.ok(t.id&&t.title);
+          verifyRefs(t.sourceRefs,t.id);
+        }
+      }else if(module==='matrices'){
+        assert.ok(Array.isArray(data.matrices)&&data.matrices.length>0);
+        for(const m of data.matrices){
+          assert.ok(m.id&&m.title&&m.columns&&m.rows);
+          verifyRefs(m.sourceRefs,m.id);
+        }
+      }else if(module==='heuristics'){
+        assert.ok(Array.isArray(data.heuristics)&&data.heuristics.length>0);
+        for(const h of data.heuristics){
+          assert.ok(h.id&&h.rule&&h.explanation);
+          verifyRefs(h.sourceRefs,h.id);
+        }
+      }
+    }
+  }
+});

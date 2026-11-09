@@ -40,7 +40,11 @@
     "uncertainties": "source-analysis/uncertainties.json",
     "coverage": "source-analysis/coverage-summary.json",
     "studySource": "source-analysis/molecular-biology_detailed_structured_study_source.md",
-    "pageImages": "sources/page-images.json"
+    "pageImages": "sources/page-images.json",
+    "synthesis": {
+      "matrices": "synthesis/matrices.json",
+      "heuristics": "synthesis/heuristics.json"
+    }
   },
   "chapterLabels": {
     "genes-and-chromosomes": "Genes & chromosomes",

@@ -1,0 +1,1356 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "organisms": [
+    {
+      "id": "escherichia-coli",
+      "name": "Escherichia coli",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-negative",
+      "morphology": "Straight bacillus (rod), single or in pairs [L1 p8]",
+      "structure": [
+        "Peritrichous flagella conferring active motility; flagellar motility propels bacteria up the urethra into the bladder, driving UTI pathogenesis [L1 p46, 47]",
+        "Outer membrane containing Lipopolysaccharide (LPS); toxic moiety is Lipid A (endotoxin) [L1 p20, 23]",
+        "Pili (fimbriae) mediating adherence to urinary tract epithelium (critical virulence factor for cystitis and pyelonephritis) [L1 p48]",
+        "Capsular K-antigen in specific invasive strains (e.g., K1 capsule associated with neonatal meningitis) [L1 p42]"
+      ],
+      "metabolism": [
+        "Facultative anaerobe (utilizes O2 when present; ferments carbohydrates in anaerobic conditions) [L3 p14]",
+        "Rapid Lactose Fermenter: Produces dark pink/red colonies with bile precipitation on MacConkey agar [L3 p28]",
+        "Characteristic green metallic sheen on Eosin Methylene Blue (EMB) agar [L3 p29]",
+        "Triple Sugar Iron (TSI) agar reaction: Acid slant / Acid butt (A/A) with abundant gas production (CO2/H2), no H2S blackening [L3 p34, 35]",
+        "Indole-positive; Urease-negative [L3 p32]"
+      ],
+      "genetics": [
+        "Single circular double-stranded DNA chromosome (~4.6 Mb) [L2 p2]",
+        "Prototypical host for Conjugation: F factor (fertility plasmid) transfers via sex pilus; Hfr strains integrate F factor into chromosome and transfer chromosomal genes [L2 p7, 16]",
+        "Colicins: Bacteriocins produced by E. coli that inhibit closely related enteric species [L2 p9]",
+        "Carries transmissible R factors and transposons (e.g., IS2, Tn3) mediating ampicillin and multidrug resistance [L2 p10, 19, 27]"
+      ],
+      "normalFlora": [
+        "Predominant facultative anaerobe in the human colon and large intestine (though outranked 1000:1 by obligate anaerobes like Bacteroides) [L4 p18]",
+        "Major beneficial functions: synthesizes Vitamin K and B vitamins; provides colonization resistance against invading enteric pathogens [L4 p4, 18]",
+        "Classic opportunistic pathogen: benign in the colon, but causes severe infection when displaced to sterile sites (urinary tract, peritoneum, bloodstream) [L4 p3, 22]"
+      ],
+      "virulence": [
+        "Endotoxin (LPS Lipid A): Interacts with CD14/TLR4 on macrophages to trigger massive release of IL-1 (fever) and TNF-alpha (hypotension, septic shock) [L1 p23, L5 p25]",
+        "Adhesins and Pili: P-fimbriae bind digalactoside receptors on uroepithelial cells [L1 p48, L5 p11]",
+        "Enterotoxigenic E. coli (ETEC): Produces Heat-Labile Enterotoxin (LT, ADP-ribosylates Gs, stimulating adenylate cyclase and cAMP) and Heat-Stable Enterotoxin (ST, stimulates guanylate cyclase and cGMP), causing watery 'traveler's diarrhea' [L5 p19, 21]",
+        "Enterohemorrhagic E. coli (EHEC / STEC O157:H7): Produces Shiga-like toxin (verotoxin, cleaves 28S rRNA of 60S ribosome, halting protein synthesis), causing hemorrhagic colitis and Hemolytic Uremic Syndrome (HUS) [L5 p22]"
+      ],
+      "clinical": [
+        "Urinary tract infections (UTIs: cystitis, pyelonephritis) — responsible for >80% of community-acquired cases [L1 p47, L4 p22]",
+        "Traveler's watery diarrhea (ETEC) and infant watery diarrhea (EPEC) [L5 p19, 21]",
+        "Hemorrhagic colitis and Hemolytic Uremic Syndrome (EHEC O157:H7; avoid antibiotics to prevent excess toxin release) [L5 p22]",
+        "Neonatal meningitis (K1 capsular strains) and Gram-negative septic shock [L1 p42, L5 p25]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 25
+        }
+      ]
+    },
+    {
+      "id": "staphylococcus-aureus",
+      "name": "Staphylococcus aureus",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-positive",
+      "morphology": "Spherical cocci arranged in grape-like irregular clusters [L1 p8, 9]",
+      "structure": [
+        "Thick peptidoglycan cell wall (up to 40 layers) cross-linked by pentaglycine peptide bridges [L1 p15, 24]",
+        "Teichoic acid and Lipoteichoic acid embedded in cell wall, mediating adherence to mucosal cells and triggering septic shock pathways [L1 p27]",
+        "Protein A embedded in cell wall binds the Fc portion of IgG, preventing Fc-receptor mediated opsonization and phagocytosis [L1 p44, L5 p14]",
+        "Golden-yellow carotenoid pigment (staphyloxanthin) acts as an antioxidant protecting against neutrophil free radicals [L3 p26]"
+      ],
+      "metabolism": [
+        "Facultative anaerobe [L3 p14]",
+        "Catalase-positive: Produces vigorous effervescence of O2 bubbles when exposed to hydrogen peroxide, differentiating Staphylococci from Streptococci [L3 p20]",
+        "Coagulase-positive: Clots rabbit plasma, differentiating S. aureus from coagulase-negative Staphylococci (S. epidermidis, S. saprophyticus) [L3 p21, L5 p13]",
+        "Mannitol Salt Agar (MSA): Tolerates 7.5% NaCl and ferments mannitol, turning phenol red indicator yellow [L3 p27]",
+        "Beta-hemolytic on sheep blood agar, producing clear zones of complete erythrocyte lysis [L3 p25]"
+      ],
+      "genetics": [
+        "Carries plasmid-encoded beta-lactamase (penicillinase) rendering >90% of clinical isolates resistant to Penicillin G [L2 p8]",
+        "Methicillin-Resistant S. aureus (MRSA): Mediated by chromosomal mecA gene on SCCmec cassette encoding PBP2a (altered transpeptidase with low affinity for beta-lactams) [L2 p27]",
+        "Superantigen toxin genes (TSST-1, enterotoxins) carried on pathogenicity islands and lysogenic phages [L2 p8, 22]"
+      ],
+      "normalFlora": [
+        "Primary colonization site: Anterior nares (nose) in 20% to 30% of healthy individuals (carrier state) [L4 p14]",
+        "Transiently colonizes human skin, axilla, perineum, and pharynx [L4 p9, 14]",
+        "Breaches in epithelial barriers (trauma, surgical incisions, eczema) lead to opportunistic pyogenic infection [L4 p3]"
+      ],
+      "virulence": [
+        "Coagulase: Converts fibrinogen to fibrin clot around bacteria, shielding them from immune cells [L5 p13]",
+        "Staphylokinase / fibrinolysin: Dissolves fibrin clots, allowing tissue spread [L5 p13]",
+        "Hyaluronidase ('spreading factor'): Hydrolyzes hyaluronic acid in connective tissue [L5 p13]",
+        "Alpha-toxin: Pore-forming cytotoxin causing necrosis of skin and smooth muscle [L5 p16]",
+        "Enterotoxins A-E: Heat-stable superantigens; stimulate local neural receptors in gut, causing rapid vomiting and diarrhea [L5 p19]",
+        "Toxic Shock Syndrome Toxin-1 (TSST-1): Superantigen that binds directly to MHC Class II and TCR beta-chain, inducing massive IL-1, IL-2, TNF-alpha cytokine storm [L5 p20]",
+        "Exfoliatin / Epidermolytic toxins A and B: Serine proteases that cleave desmoglein-1 in stratum granulosum, causing epidermal detachment [L5 p17]"
+      ],
+      "clinical": [
+        "Skin and soft tissue pyogenic infections: Folliculitis, furuncles (boils), carbuncles, impetigo, wound abscesses, cellulitis [L4 p3, L5 p13]",
+        "Staphylococcal food poisoning: Ingestion of preformed enterotoxin (custards, pastries, processed meats); rapid onset within 1-6 hours with severe vomiting and cramps, no fever [L5 p19]",
+        "Toxic Shock Syndrome (TSS): High fever, diffuse sunburn-like rash with desquamation, profound hypotension, multiorgan failure (historically associated with tampon use or surgical packings) [L5 p20]",
+        "Staphylococcal Scalded Skin Syndrome (SSSS / Ritter disease): Generalized bullous exfoliation in neonates and young children [L5 p17]",
+        "Deep invasive infections: Acute bacterial endocarditis (rapidly destroys normal heart valves in IV drug users), osteomyelitis (most common cause), septic arthritis [L1 p50, L5 p13]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 44
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 20
+        }
+      ]
+    },
+    {
+      "id": "staphylococcus-epidermidis",
+      "name": "Staphylococcus epidermidis",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-positive",
+      "morphology": "Spherical cocci arranged in irregular clusters [L1 p8]",
+      "structure": [
+        "Thick peptidoglycan wall with teichoic acid [L1 p15]",
+        "Extensive extracellular slime / polysaccharide glycocalyx layer mediating persistent biofilm formation on foreign bodies [L1 p50]"
+      ],
+      "metabolism": [
+        "Catalase-positive, Coagulase-negative (CoNS) [L3 p20, 21]",
+        "Novobiocin-sensitive: Produces a clear zone of inhibition around novobiocin disk, differentiating it from novobiocin-resistant S. saprophyticus [L3 p30]",
+        "Mannitol non-fermenter: Colonies remain red/pink on Mannitol Salt Agar [L3 p27]",
+        "Gamma-hemolytic (non-hemolytic) on blood agar [L3 p25]"
+      ],
+      "normalFlora": [
+        "The single most abundant and predominant normal bacterial resident of human skin [L4 p9]",
+        "Also inhabits the upper respiratory tract and anterior nares [L4 p14]",
+        "Essential component of colonization resistance against pathogenic dermatophytes and S. aureus [L4 p4]"
+      ],
+      "virulence": [
+        "Polysaccharide intercellular adhesin (PIA) / glycocalyx slime allows adherence to smooth inert plastics and metals [L1 p50, L5 p12]",
+        "Biofilms shield bacteria from antimicrobial penetration and neutrophil phagocytosis [L1 p50, L5 p12]"
+      ],
+      "clinical": [
+        "Infections of prosthetic devices: Prosthetic heart valves (subacute prosthetic valve endocarditis), artificial joints, CSF shunts, vascular grafts [L1 p50, L5 p12]",
+        "Intravenous central-line catheter bacteremia and sepsis in hospitalized patients [L1 p50, L4 p9]",
+        "Frequently a benign culture contaminant in blood specimens; genuine bacteremia confirmed by multiple positive cultures [L4 p9]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 12
+        }
+      ]
+    },
+    {
+      "id": "streptococcus-pneumoniae",
+      "name": "Streptococcus pneumoniae",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-positive",
+      "morphology": "Lancet-shaped diplococci (oval cocci with pointed ends arranged in pairs) [L1 p8, 9]",
+      "structure": [
+        "Prominent antiphagocytic polysaccharide capsule; >90 antigenically distinct capsular serotypes [L1 p42, 43]",
+        "Positive Quellung reaction: Capsular swelling and increased microscopic definition when mixed with type-specific anticapsular antibody [L1 p43]",
+        "Purified capsular polysaccharides form the basis of the 23-valent polysaccharide vaccine and conjugate vaccines [L1 p43]"
+      ],
+      "metabolism": [
+        "Catalase-negative [L3 p20]",
+        "Alpha-hemolytic on blood agar: Produces a greenish halo around colonies due to partial hemolysis and hemoglobin oxidation [L3 p25]",
+        "Optochin (ethylhydrocupreine) sensitive: Zone of inhibition >14 mm around optochin disk, differentiating from optochin-resistant viridans streptococci [L3 p31]",
+        "Bile soluble: Lyses rapidly when bile salts (sodium deoxycholate) activate autolytic amidase enzymes [L3 p31]"
+      ],
+      "genetics": [
+        "Naturally competent for Transformation: Can take up naked environmental DNA throughout its life cycle [L2 p14]",
+        "Classic Griffith transformation experiment (1928): Heat-killed smooth virulent encapsulated pneumococci transformed live rough avirulent strains into live encapsulated pathogens [L2 p14, 15]"
+      ],
+      "normalFlora": [
+        "Inhabits the human nasopharynx and oropharynx in 5% to 40% of healthy individuals without causing clinical symptoms [L4 p14, 15]"
+      ],
+      "virulence": [
+        "Polysaccharide capsule: The primary, indispensable virulence factor; unencapsulated pneumococci are completely avirulent and easily cleared by phagocytes [L1 p42, L5 p14]",
+        "IgA1 protease: Cleaves secretory IgA at the hinge region, facilitating mucosal colonization of the respiratory tract [L5 p13]",
+        "Pneumolysin: Intracellular cytotoxin that binds cholesterol, creating pores in ciliated epithelial cell membranes and paralyzing mucociliary clearance [L5 p16]"
+      ],
+      "clinical": [
+        "Community-acquired bacterial pneumonia: The leading bacterial cause; sudden onset of high fever, shaking chills, productive cough with characteristic 'rusty' blood-tinged sputum, lobar consolidation [L1 p43, L5 p14]",
+        "Bacterial meningitis: Most common cause of community-acquired meningitis in adults and the elderly; carries significant mortality and neurologic sequelae [L1 p43]",
+        "Upper respiratory infections: Acute otitis media in infants and young children; acute sinusitis [L1 p43, L4 p15]",
+        "Bacteremia and overwhelming pneumococcal sepsis, particularly in asplenic patients (spleen required for opsonized capsule clearance) [L1 p44]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 43
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 44
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 16
+        }
+      ]
+    },
+    {
+      "id": "streptococcus-pyogenes",
+      "name": "Streptococcus pyogenes",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-positive",
+      "morphology": "Spherical cocci arranged in long chains [L1 p8, 9]",
+      "structure": [
+        "Thick peptidoglycan wall with Group A Lancefield carbohydrate antigen [L1 p15, 27]",
+        "M protein: Hair-like fibrillar protein extending from cell wall; major antiphagocytic factor that inhibits complement C3b deposition and exhibits extensive antigenic variation [L1 p27, L5 p14]",
+        "Hyaluronic acid capsule: Immunologically inert because hyaluronic acid is chemically identical to host human ground substance, evading immune detection [L1 p42]"
+      ],
+      "metabolism": [
+        "Catalase-negative [L3 p20]",
+        "Beta-hemolytic on sheep blood agar: Wide, clear zone of complete hemolysis around colonies [L3 p25]",
+        "Bacitracin sensitive: Inhibited by low concentrations of bacitracin (Taxo A disk), differentiating Group A strep from bacitracin-resistant Group B strep (S. agalactiae) [L3 p31]"
+      ],
+      "genetics": [
+        "Lysogenic conversion: Temperate bacteriophages carry genes for Streptococcal Pyrogenic Exotoxins (SpeA, SpeC) mediating scarlet fever rash and toxic shock syndrome [L2 p22]"
+      ],
+      "normalFlora": [
+        "Transient colonizer of human oropharynx and skin; asymptomatic carrier rate in school-age children is 5-20% [L4 p14]"
+      ],
+      "virulence": [
+        "M protein: Essential for virulence; prevents phagocytosis by degrading C3b; antibodies against M protein confer type-specific immunity [L5 p14]",
+        "Streptolysin O: Oxygen-labile pore-forming hemolysin; highly immunogenic; serum anti-streptolysin O (ASO) titer confirms recent pharyngeal infection [L5 p16]",
+        "Streptolysin S: Oxygen-stable hemolysin responsible for surface beta-hemolysis on blood agar; non-immunogenic [L5 p16]",
+        "Streptokinase (fibrinolysin): Activates host plasminogen into plasmin, dissolving fibrin barriers and facilitating deep tissue invasion [L5 p13]",
+        "Hyaluronidase: Cleaves intercellular hyaluronic acid cement [L5 p13]",
+        "Pyrogenic exotoxins (SpeA, SpeB, SpeC): Superantigens triggering massive T-cell activation and cytokine storm [L5 p20]"
+      ],
+      "clinical": [
+        "Suppurative pharyngeal disease: Acute pharyngitis ('strep throat' — fever, exudative tonsillitis, cervical lymphadenopathy); Scarlet fever (erythematous 'sandpaper' rash, strawberry tongue) [L1 p9, L5 p20]",
+        "Pyogenic skin infections: Impetigo (honey-crusted lesions), erysipelas (sharply demarcated raised red plaque), cellulitis, necrotizing fasciitis ('flesh-eating disease') [L5 p13]",
+        "Streptococcal toxic shock-like syndrome (STSS): Rapidly progressive bacteremia, shock, multiorgan failure mediated by SpeA/SpeC superantigens [L5 p20]",
+        "Non-suppurative post-streptococcal sequelae:",
+        "  1. Acute Rheumatic Fever: Molecular mimicry between M protein epitopes and human cardiac myosin; causes carditis, polyarthritis, Sydenham chorea; follows untreated PHARYNGITIS only [L5 p14]",
+        "  2. Acute Post-Streptococcal Glomerulonephritis (APSGN): Deposition of circulating immune complexes in renal glomeruli; causes hematuria ('cola-colored' urine), hypertension, edema; follows EITHER pharyngitis or impetigo [L5 p14]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 20
+        }
+      ]
+    },
+    {
+      "id": "pseudomonas-aeruginosa",
+      "name": "Pseudomonas aeruginosa",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-negative",
+      "morphology": "Slender straight or slightly curved bacillus (rod) [L1 p8, 56]",
+      "structure": [
+        "Single polar monotrichous flagellum providing rapid swimming motility [L1 p45, 46]",
+        "Prominent exopolysaccharide alginate slime layer forming dense protective biofilms in lungs and on catheters [L1 p50]",
+        "Outer membrane contains LPS and selective porin channels with low baseline permeability [L1 p19, 23]"
+      ],
+      "metabolism": [
+        "Strict (obligate) aerobe: Relies on aerobic cellular respiration; cannot ferment carbohydrates anaerobically [L3 p14]",
+        "Oxidase-positive: Contains cytochrome c oxidase; turns oxidase reagent dark blue/purple within 10-30 seconds [L3 p22]",
+        "Non-lactose fermenter: Produces colorless/translucent colonies on MacConkey agar [L3 p28]",
+        "TSI reaction: Alkaline slant / Alkaline butt (K/K), completely red tube with no carbohydrate fermentation and no gas [L3 p34, 35]",
+        "Pigment production: Pyocyanin (blue-green pigment) and pyoverdine (yellow-green fluorescent siderophore), giving cultures and pus a striking blue-green tint and sweet grape-like / corn-taco odor [L3 p26]"
+      ],
+      "genetics": [
+        "Exceptionally high intrinsic antimicrobial resistance: Porin modifications prevent antibiotic entry; multidrug efflux pumps expel penicillins and aminoglycosides [L1 p19, L2 p27]",
+        "Carries transmissible R plasmids encoding metallo-beta-lactamases and aminoglycoside-modifying enzymes [L2 p8, 27]",
+        "Produces pyocins (bacteriocins) to inhibit other pseudomonads [L2 p9]"
+      ],
+      "normalFlora": [
+        "Environmental saprophyte widely distributed in soil, water, plants, hospital sinks, respiratory equipment, and whirlpool baths [L4 p3]",
+        "Can colonize the GI tract or skin of hospitalized and immunocompromised patients [L4 p9, 18]"
+      ],
+      "virulence": [
+        "Exotoxin A: Secreted A-B subunit exotoxin that catalyzes irreversible ADP-ribosylation of Elongation Factor-2 (EF-2), halting eukaryotic protein synthesis and causing cell death (identical mechanism of action to Diphtheria toxin) [L5 p18]",
+        "Endotoxin (LPS Lipid A): Mediates fever, hypotension, and septic shock [L1 p23, L5 p25]",
+        "Elastase and alkaline protease: Degrade host collagen, elastin, and immunoglobulins, facilitating vascular invasion and hemorrhagic skin necrosis [L5 p13]",
+        "Alginate biofilm: Prevents antibody access and neutrophil phagocytosis [L1 p50]"
+      ],
+      "clinical": [
+        "Severe opportunistic infections in vulnerable patient populations:",
+        "  • Burn wound infections and sepsis with characteristic blue-green purulent exudate [L3 p26, L5 p18]",
+        "  • Chronic pulmonary infection and bronchiectasis in patients with Cystic Fibrosis [L1 p50]",
+        "  • Ventilator-associated pneumonia (VAP) in ICU patients [L5 p18]",
+        "  • Ecthyma gangrenosum: Rapidly progressing black necrotic skin ulcers with erythematous borders in neutropenic patients [L5 p13]",
+        "  • External otitis: 'Swimmer's ear' in healthy swimmers, or malignant invasive external otitis in elderly diabetics [L4 p3]",
+        "  • Contact lens-associated corneal keratitis and corneal ulcers [L4 p3]",
+        "  • Catheter-associated urinary tract infections [L1 p47]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 56
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 25
+        }
+      ]
+    },
+    {
+      "id": "bacillus-anthracis",
+      "name": "Bacillus anthracis",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-positive",
+      "morphology": "Large, square-ended ('boxcar') bacilli arranged in long chains [L1 p8, 9]",
+      "structure": [
+        "Centrally placed oval endospore formed in the presence of atmospheric oxygen; resistant to boiling, drying, and chemical disinfectants [L1 p52, 53]",
+        "Unique **poly-D-glutamic acid polypeptide capsule**: The ONLY medically important bacterial capsule composed of amino acids rather than polysaccharides [L1 p42]",
+        "Non-motile (lacks flagella, differentiating from motile B. cereus) [L1 p46]"
+      ],
+      "metabolism": [
+        "Aerobic / Facultative anaerobe (spores require oxygen to germinate) [L1 p52, L3 p14]",
+        "Non-hemolytic (gamma-hemolytic) on sheep blood agar; produces 'Medusa head' colonies with rough, swirling margins [L3 p25]"
+      ],
+      "genetics": [
+        "Virulence genes are located on two large plasmids:",
+        "  • pXO1: Encodes the three anthrax exotoxin proteins (PA, EF, LF) [L2 p8]",
+        "  • pXO2: Encodes the enzymes required for poly-D-glutamic acid capsule synthesis [L2 p8]"
+      ],
+      "normalFlora": [
+        "Not part of the normal human flora; obligate zoonotic pathogen of herbivores (cattle, sheep, goats) [L4 p3, L5 p3]",
+        "Spores survive in alkaline soil for decades [L1 p54]"
+      ],
+      "virulence": [
+        "Antiphagocytic capsule: Poly-D-glutamate protects vegetative cells from macrophage phagocytosis [L1 p42]",
+        "Tripartite Anthrax Exotoxin complex (A-B toxin architecture consisting of 3 separate proteins):",
+        "  1. Protective Antigen (PA): The binding (B) moiety; binds host cell capillary morphogenesis protein-2 (CMG2), cleaves, and forms a heptameric prepore that transports EF and LF into the cytosol [L5 p18]",
+        "  2. Edema Factor (EF): Active (A) component; a calmodulin-dependent adenylate cyclase that dramatically increases intracellular cAMP, causing massive localized fluid accumulation and edema [L5 p18]",
+        "  3. Lethal Factor (LF): Active (A) component; a zinc-dependent metalloprotease that cleaves Mitogen-Activated Protein Kinase Kinases (MAPKK / MEK), disrupting cell signaling, inducing macrophage apoptosis, and causing tissue necrosis [L5 p18]"
+      ],
+      "clinical": [
+        "Cutaneous anthrax (95% of human cases): Spores enter skin abrasion; small papule develops into a painless gelatinous vesicle that ruptures into a pathognomonic **painless black necrotic eschar** surrounded by marked brawny non-pitting edema ('malignant pustule') [L1 p54, L5 p18]",
+        "Inhalation anthrax ('Woolsorter's disease'): Inhalation of airborne spores during handling of contaminated animal hides; spores are ingested by alveolar macrophages and transported to mediastinal lymph nodes; causes hemorrhagic mediastinitis with marked **widened mediastinum on chest X-ray**, dyspnea, cyanosis, and fatal bacteremic shock [L1 p54, L5 p18]",
+        "Gastrointestinal anthrax: Ingestion of undercooked spore-contaminated meat; severe necrotic mucosal ulcers in cecum, vomiting, bloody diarrhea, high mortality [L1 p54]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 52
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 53
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "clostridium-tetani",
+      "name": "Clostridium tetani",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-positive",
+      "morphology": "Slender rod with a terminal round endospore giving a characteristic 'drumstick' or 'tennis racket' appearance [L1 p8, 52]",
+      "structure": [
+        "Motile vegetative form with peritrichous flagella [L1 p46]",
+        "Highly resistant spherical endospore located at the extreme pole of the cell [L1 p52]"
+      ],
+      "metabolism": [
+        "Obligate (strict) anaerobe: Completely lacks catalase and superoxide dismutase; killed by exposure to atmospheric oxygen [L3 p14, 20]",
+        "Germinates only in deep puncture wounds with low oxidation-reduction potential (Eh) and necrotic tissue [L1 p54, L3 p14]"
+      ],
+      "genetics": [
+        "Tetanospasmin neurotoxin gene is carried on a large transmissible plasmid [L2 p8]"
+      ],
+      "normalFlora": [
+        "Normal inhabitant of animal and human intestines; spores are ubiquitous in soil, manure, and street dust [L4 p3, L5 p3]"
+      ],
+      "virulence": [
+        "Tetanospasmin (Tetanus neurotoxin, classic A-B subunit exotoxin):",
+        "  • Heavy chain (B subunit) binds polysialogangliosides on peripheral motor nerve terminals [L5 p17]",
+        "  • Internalized via receptor-mediated endocytosis and travels via **retrograde axonal transport** up the motor axon into the spinal cord and brainstem [L5 p17]",
+        "  • Enters inhibitory interneurons (Renshaw cells) and light chain (A subunit zinc endopeptidase) cleaves synaptobrevin (VAMP) [L5 p17]",
+        "  • Blocks vesicle release of the inhibitory neurotransmitters **Glycine and GABA** (gamma-aminobutyric acid) [L5 p17]",
+        "  • Disinhibition of alpha-motor neurons leads to relentless, simultaneous agonist-antagonist motor neuron firing and uncontrolled **spastic paralysis** [L5 p17]"
+      ],
+      "clinical": [
+        "Generalized tetanus:",
+        "  • Trismus ('lockjaw'): Inability to open mouth due to masseter spasm [L1 p54, L5 p17]",
+        "  • Risus sardonicus: Sustained sardonic facial grimace [L5 p17]",
+        "  • Opisthotonos: Severe, arching spasm of back and neck muscles [L5 p17]",
+        "  • Autonomic instability, laryngospasm, and asphyxiation from respiratory muscle tetany [L5 p17]",
+        "Prevention: Active immunization with formaldehyde-inactivated **tetanus toxoid vaccine** (part of DTaP); booster required every 10 years [L1 p54, L5 p24]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 52
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 24
+        }
+      ]
+    },
+    {
+      "id": "clostridium-botulinum",
+      "name": "Clostridium botulinum",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-positive",
+      "morphology": "Large anaerobic bacillus with subterminal oval endospores [L1 p8, 52]",
+      "structure": [
+        "Motile vegetative rod with peritrichous flagella [L1 p46]",
+        "Oval subterminal endospore capable of withstanding 100°C boiling for several hours [L1 p53]"
+      ],
+      "metabolism": [
+        "Obligate anaerobe [L3 p14]",
+        "Spores germinate in anaerobic, alkaline or low-acid canned food [L1 p53]"
+      ],
+      "genetics": [
+        "Botulinum neurotoxin types C and D encoded by temperate lysogenic bacteriophages; types A, B, E, F encoded on plasmids or chromosome [L2 p8, 22]"
+      ],
+      "virulence": [
+        "Botulinum Neurotoxin: The most lethal biological poison known (lethal dose <1 microgram):",
+        "  • Ingested preformed toxin is absorbed through gut mucosa into the circulation [L5 p17]",
+        "  • B subunit binds receptors on presynaptic membranes of peripheral cholinergic neuromuscular junctions and autonomic synapses [L5 p17]",
+        "  • Light chain (A subunit zinc protease) cleaves SNARE proteins (SNAP-25 or synaptobrevin), **blocking the release of Acetylcholine (ACh)** [L5 p17]",
+        "  • Complete blockade of excitatory ACh neurotransmission results in **flaccid (limp) paralysis** [L5 p17]"
+      ],
+      "clinical": [
+        "Classic foodborne botulism: Intoxication resulting from ingestion of preformed toxin in improperly sterilized home-canned vegetables, smoked fish, or preserved meats; descending symmetrical flaccid paralysis starting with cranial nerves (diplopia, ptosis, fixed dilated pupils, dysphagia, dysarthria) and progressing to respiratory muscle paralysis [L1 p54, L5 p17]",
+        "Infant botulism ('floppy baby syndrome'): Ingestion of bacterial spores (frequently in raw honey) which germinate and produce toxin in the infant gut due to lack of competitive normal flora; causes constipation, weak suck, generalized hypotonia, and respiratory arrest [L1 p54, L4 p4, L5 p17]",
+        "Wound botulism: Spores germinate in traumatic crush wounds or contaminated black tar heroin injection sites [L5 p17]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 52
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 53
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 17
+        }
+      ]
+    },
+    {
+      "id": "salmonella-enterica",
+      "name": "Salmonella enterica",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-negative",
+      "morphology": "Straight bacillus (rod) [L1 p8, 56]",
+      "structure": [
+        "Peritrichous flagella conferring active motility [L1 p46]",
+        "Somatic O-antigen (LPS), flagellar H-antigen, and capsular Vi (virulence) polysaccharide antigen in S. Typhi [L1 p23, 42, 47]"
+      ],
+      "metabolism": [
+        "Facultative anaerobe [L3 p14]",
+        "Non-lactose fermenter: Forms pale, colorless, translucent colonies on MacConkey agar [L3 p28]",
+        "TSI reaction: Alkaline slant / Acid butt with black ferrous sulfide precipitate (**K/A with H2S blackening** and gas production) [L3 p34, 35]",
+        "Urease-negative and Motile (differentiates Salmonella from non-motile Shigella and urease-positive Proteus) [L3 p32]"
+      ],
+      "genetics": [
+        "Salmonella Pathogenicity Islands (SPI-1 and SPI-2) encode Type III secretion systems mediating host invasion [L2 p8]",
+        "R factors mediate transferable resistance to chloramphenicol, ampicillin, and trimethoprim [L2 p8, 27]"
+      ],
+      "normalFlora": [
+        "Not part of normal human flora; primary reservoir for non-typhoidal Salmonella is animal gastrointestinal tracts (poultry, cattle, eggs, reptiles) [L4 p3, L5 p3]",
+        "Salmonella Typhi has an exclusively human reservoir; asymptomatic chronic carriers harbor bacteria in the gallbladder [L5 p3]"
+      ],
+      "virulence": [
+        "Intracellular survival: Ingested by macrophages but resists killing by inhibiting phagosome-lysosome fusion and surviving within specialized Salmonella-containing vacuoles (SCVs) [L5 p14]",
+        "Vi capsular antigen: Protects S. Typhi against complement-mediated killing and neutrophil phagocytosis [L1 p42, L5 p14]",
+        "Endotoxin (LPS Lipid A): Causes prolonged high fever and systemic toxicity [L1 p23, L5 p25]"
+      ],
+      "clinical": [
+        "Enteric / Typhoid Fever (S. Typhi): Gradual onset of persistent high fever in a 'stepladder' pattern, headache, relative bradycardia, abdominal rose spots, hepatosplenomegaly, leukopenia; can cause life-threatening intestinal perforation at Peyer's patches [L1 p47, L5 p14, 25]",
+        "Non-typhoidal Salmonella Gastroenteritis (S. Enteritidis, S. Typhimurium): Ingestion of contaminated poultry or eggs; causes nausea, vomiting, abdominal cramps, watery or bloody diarrhea, and fever within 12-48 hours [L5 p14]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 56
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 25
+        }
+      ]
+    },
+    {
+      "id": "shigella-dysenteriae",
+      "name": "Shigella dysenteriae",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-negative",
+      "morphology": "Straight bacillus (rod) [L1 p8, 56]",
+      "structure": [
+        "Non-motile: Completely lacks flagella (no H-antigen; distinguishes Shigella from Salmonella) [L1 p46]",
+        "Non-capsulated: Lacks capsular polysaccharide [L1 p42]"
+      ],
+      "metabolism": [
+        "Facultative anaerobe [L3 p14]",
+        "Non-lactose fermenter: Translucent, colorless colonies on MacConkey agar [L3 p28]",
+        "TSI reaction: Alkaline slant / Acid butt without gas and without H2S (**K/A, no gas, no H2S**) [L3 p34, 35]",
+        "Urease-negative [L3 p32]"
+      ],
+      "genetics": [
+        "Large virulence plasmid encodes Invasion Plasmid Antigens (Ipa) and Type III secretion machinery [L2 p8]"
+      ],
+      "normalFlora": [
+        "Exclusively human pathogen; no animal reservoir [L5 p4]",
+        "Highly acid-resistant; possesses an extraordinarily low infectious dose (as few as 10 to 100 organisms cause clinical dysentery) [L5 p4]"
+      ],
+      "virulence": [
+        "Cell-to-cell spread: Invades colonic M cells, escapes phagosome, polymerizes host actin microfilaments at one bacterial pole to propel itself directly into adjacent epithelial cells without entering the bloodstream [L5 p12]",
+        "Shiga toxin: Potent A-B subunit exotoxin produced by S. dysenteriae type 1; A subunit acts as an N-glycosidase that cleaves an adenine base from 28S ribosomal RNA of the 60S eukaryotic ribosomal subunit, terminating host cell protein synthesis [L5 p22]",
+        "Endotoxin (LPS): Causes acute mucosal inflammation, superficial ulceration, and microabscesses in the colon [L1 p23, L5 p25]"
+      ],
+      "clinical": [
+        "Bacillary dysentery: Fever, abdominal cramps, painful tenesmus, and frequent small-volume stools composed primarily of blood, mucus, and inflammatory polymorphonuclear leukocytes [L5 p12]",
+        "Hemolytic Uremic Syndrome (HUS): Shiga toxin enters the circulation and binds Gb3 receptors on renal glomerular endothelial cells, triggering microangiopathic hemolytic anemia, thrombocytopenia, and acute oliguric renal failure [L5 p22]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 56
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 22
+        }
+      ]
+    },
+    {
+      "id": "mycobacterium-tuberculosis",
+      "name": "Mycobacterium tuberculosis",
+      "category": "acid-fast-bacteria",
+      "gram": "Acid-fast (poorly visualized on Gram stain)",
+      "morphology": "Slender, straight or slightly curved rod [L1 p8, 33]",
+      "structure": [
+        "Unique lipid-dense cell wall containing ~60% lipid content: Thick peptidoglycan layer linked to arabinogalactan, which is esterified to high-molecular-weight **Mycolic acids** [L1 p33, 34]",
+        "Waxy lipid coat prevents uptake of standard Gram crystal violet ('Gram-ghosts'); resists decolorization with acid-alcohol [L1 p32, 33]",
+        "Cord factor (trehalose-6,6'-dimycolate): Glycolipid on surface that causes bacteria to grow in parallel serpentine cords and inhibits neutrophil chemotaxis [L1 p34, L5 p14]"
+      ],
+      "metabolism": [
+        "Strict (obligate) aerobe: Requires atmospheric oxygen for growth; displays marked predilection for oxygen-rich apical lung segments [L3 p14]",
+        "Extremely slow growth rate: Generation time is 15-20 hours; visible colonies require 3 to 6 weeks of incubation on Lowenstein-Jensen or Middlebrook egg-based media [L3 p8, 23]",
+        "Acid-fast staining (Ziehl-Neelsen / Kinyoun): Carbolfuchsin dye penetrates with heat/detergents; bacteria resist destaining with 3% HCl in ethanol and remain bright red against a methylene blue background [L1 p33, 35]"
+      ],
+      "normalFlora": [
+        "Not normal human flora; obligate human pathogen transmitted by airborne droplet nuclei generated by coughing [L4 p3, L5 p3]"
+      ],
+      "virulence": [
+        "Facultative intracellular survival: Phagocytosed by alveolar macrophages, but sulfatides and cord factor inhibit phagosome-lysosome fusion, allowing intracellular replication [L5 p14]",
+        "Lacks classic exotoxins and endotoxins: Pathology (caseous granulomas, tissue destruction, lung cavitation) is caused entirely by **Host Cell-Mediated Immunity / Type IV Delayed-Type Hypersensitivity** [L5 p26]"
+      ],
+      "clinical": [
+        "Primary pulmonary tuberculosis: Inhaled into mid/lower lung zones; forms subpleural Ghon focus and draining hilar lymphadenopathy (Ghon complex); asymptomatic or mild fever in immunocompetent hosts, resulting in calcified Ranke complex [L1 p33, L5 p26]",
+        "Latent tuberculosis: Viable bacilli contained within calcified fibrocaseous granulomas for decades [L5 p26]",
+        "Secondary / Reactivation tuberculosis: Occurs in lung apices due to waning cell-mediated immunity; extensive caseous necrosis, cavitary lesions, productive cough, hemoptysis, night sweats, low-grade afternoon fever, weight loss ('consumption') [L1 p33, L5 p26]",
+        "Extrapulmonary tuberculosis: Miliary dissemination, tuberculous meningitis, Pott disease (spine), renal tuberculosis [L5 p26]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 26
+        }
+      ]
+    },
+    {
+      "id": "neisseria-meningitidis",
+      "name": "Neisseria meningitidis",
+      "category": "gram-negative-cocci",
+      "gram": "Gram-negative",
+      "morphology": "Kidney bean-shaped diplococci arranged in pairs with adjacent flattened or concave surfaces [L1 p8, 9]",
+      "structure": [
+        "Prominent antiphagocytic polysaccharide capsule (13 serogroups; A, B, C, Y, W-135 cause virtually all systemic disease; Group B capsule is poly-sialic acid, non-immunogenic) [L1 p42]",
+        "Pili extending from outer membrane mediating nasopharyngeal epithelial attachment [L1 p48]",
+        "Outer membrane contains **Lipooligosaccharide (LOS)** rather than classic enteric LPS; LOS lacks long repeating O-antigen chains and is shed in large outer membrane blebs [L1 p23, L5 p25]"
+      ],
+      "metabolism": [
+        "Fastidious aerobe: Requires enriched chocolate agar or Thayer-Martin selective medium incubated in 5% CO2 at 37°C [L3 p23, 24]",
+        "Oxidase-positive: Rapidly oxidizes phenylenediamine reagent [L3 p22]",
+        "Ferments both **Maltose and Glucose** with acid production, differentiating it from N. gonorrhoeae (ferments glucose only) [L3 p33]"
+      ],
+      "genetics": [
+        "Naturally competent for Transformation; extensive horizontal gene transfer of capsular and penicillin-binding protein genes [L2 p14]"
+      ],
+      "normalFlora": [
+        "Asymptomatically colonizes the human nasopharynx in 5% to 15% of healthy individuals (carrier state) [L4 p14]"
+      ],
+      "virulence": [
+        "Antiphagocytic polysaccharide capsule protects against complement and phagocytosis [L1 p42, L5 p14]",
+        "Endotoxin (LOS): Shredded LOS blebs trigger massive release of TNF-alpha and IL-1, driving fulminant septic shock, vascular collapse, and petechial purpura [L5 p25]",
+        "IgA1 protease: Inactivates mucosal secretory IgA [L5 p13]",
+        "Pili: Facilitate adherence and traverse through nasopharyngeal mucosa into the bloodstream [L1 p48, L5 p11]"
+      ],
+      "clinical": [
+        "Meningococcal meningitis: Sudden high fever, severe headache, photophobia, nuchal rigidity (stiff neck), altered mental status; cloudy CSF showing elevated neutrophils, high protein, markedly low glucose [L1 p9, 42]",
+        "Meningococcemia: Rapidly progressive fulminant sepsis with widespread petechial and purpuric rash (purpura fulminans), disseminated intravascular coagulation (DIC), bilateral hemorrhagic necrosis of adrenal glands resulting in acute adrenal insufficiency (**Waterhouse-Friderichsen syndrome**) [L5 p25]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 25
+        }
+      ]
+    },
+    {
+      "id": "neisseria-gonorrhoeae",
+      "name": "Neisseria gonorrhoeae",
+      "category": "gram-negative-cocci",
+      "gram": "Gram-negative",
+      "morphology": "Kidney bean-shaped diplococci, characteristically visualized intracellularly within polymorphonuclear neutrophils (PMNs) in urethral exudate [L1 p8, 30]",
+      "structure": [
+        "Non-encapsulated: Lacks a true polysaccharide capsule (major distinction from N. meningitidis) [L1 p42]",
+        "Pili: Mediate initial adherence to non-ciliated mucosal epithelial cells; exhibit remarkable antigenic and phase variation [L1 p48, L5 p14]",
+        "Opa (opacity) outer membrane proteins: Mediate intimate cell attachment and tissue invasion [L5 p11]",
+        "Lipooligosaccharide (LOS) in outer membrane [L1 p23]"
+      ],
+      "metabolism": [
+        "Fastidious aerobe: Grows on chocolate agar or Thayer-Martin selective medium (contains vancomycin, colistin, nystatin, trimethoprim) under 5% CO2 [L3 p24]",
+        "Oxidase-positive [L3 p22]",
+        "Ferments **Glucose ONLY** (does NOT ferment maltose, differentiating from N. meningitidis) [L3 p33]"
+      ],
+      "genetics": [
+        "Pilin gene variation: Recombination between silent pilS loci and active pilE expression loci creates thousands of antigenically novel pilin variants, preventing effective immunological memory and recurring infections [L2 p14, L5 p14]"
+      ],
+      "normalFlora": [
+        "Not normal human flora; obligate sexually transmitted pathogen [L4 p3, L5 p3]"
+      ],
+      "virulence": [
+        "Pili and Opa proteins: Mediate tight attachment and penetration of genital, anorectal, or pharyngeal columnar epithelium [L1 p48, L5 p11]",
+        "IgA1 protease: Cleaves mucosal IgA antibodies [L5 p13]",
+        "LOS endotoxin: Causes localized mucosal inflammation and cytotoxicity [L1 p23, L5 p25]"
+      ],
+      "clinical": [
+        "Genital gonorrhea: Acute purulent anterior urethritis with profuse discharge and severe dysuria in males; endocervicitis in females (frequently asymptomatic or mild discharge) [L1 p30, L5 p11]",
+        "Pelvic Inflammatory Disease (PID): Ascending infection causing salpingitis, tubo-ovarian abscess, pelvic peritonitis; major cause of ectopic pregnancy and tubal factor infertility [L5 p11]",
+        "Disseminated Gonococcal Infection (DGI): Bacteremic spread leading to triad of tenosynovitis, migratory polyarthralgia, and painless pustular skin lesions; or purulent monoarticular septic arthritis [L5 p25]",
+        "Ophthalmia neonatorum: Severe bilateral purulent conjunctivitis in neonates acquired during vaginal delivery; can cause corneal perforation and blindness if untreated [L1 p30]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 14
+        }
+      ]
+    },
+    {
+      "id": "vibrio-cholerae",
+      "name": "Vibrio cholerae",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-negative",
+      "morphology": "Comma-shaped (curved) rod with rapid darting motility [L1 p8, 46]",
+      "structure": [
+        "Single polar monotrichous flagellum providing characteristic shooting/darting motility in wet mounts [L1 p46]",
+        "Toxin-Coregulated Pilus (TCP): Bundle-forming pilus essential for intestinal mucosal colonization and receptor for cholera phage [L1 p48, L5 p11]",
+        "O-antigen: Serogroups O1 and O139 are responsible for epidemic and pandemic cholera [L1 p23]"
+      ],
+      "metabolism": [
+        "Facultative anaerobe [L3 p14]",
+        "Oxidase-positive (differentiates from oxidase-negative Enterobacteriaceae) [L3 p22]",
+        "Alkaline tolerance: Grows at high pH (8.5 - 9.5); highly acid-sensitive, hence requires large oral inoculum (>10^8 bacteria) unless neutralized by gastric antacids [L3 p16, L5 p4]",
+        "TCBS Agar: Grows on Thiosulfate-Citrate-Bile Salts-Sucrose selective agar forming bright yellow colonies due to sucrose fermentation [L3 p28]"
+      ],
+      "genetics": [
+        "Lysogenic conversion: Cholera toxin genes (ctxA and ctxB) are encoded on the genome of the filamentous lysogenic bacteriophage CTXphi; TCP serves as the bacterial surface receptor for viral entry [L2 p22]"
+      ],
+      "normalFlora": [
+        "Not normal human flora; aquatic halophile living in marine, estuarine, and coastal saltwaters; transmitted fecal-orally via contaminated water and undercooked shellfish [L4 p3, L5 p3]"
+      ],
+      "virulence": [
+        "Cholera toxin (Choleragen, classic A-B enterotoxin):",
+        "  • B subunit pentamer binds GM1 ganglioside receptors on intestinal microvilli [L5 p19]",
+        "  • A1 active subunit translocates into cell and catalyzes irreversible ADP-ribosylation of the Gs-alpha regulatory protein [L5 p21]",
+        "  • Locks adenylate cyclase permanently in the active GTP-bound state, causing massive elevation of intracellular **cyclic AMP (cAMP)** [L5 p21]",
+        "  • Elevated cAMP stimulates active secretion of chloride ions (via CFTR), bicarbonate, and water into the gut lumen while blocking Na+ reabsorption [L5 p21]"
+      ],
+      "clinical": [
+        "Cholera: Abrupt onset of massive, painless, watery diarrhea described as **'rice-water stool'** (clear fluid with flecks of mucus and epithelial cells; odorless or mild fishy smell; up to 1-2 liters per hour) [L1 p46, L5 p21]",
+        "Profound dehydration, sunken eyes, loss of skin turgor, hypovolemic shock, severe hypokalemia, and metabolic acidosis within hours [L5 p21]",
+        "Treatment: Immediate, vigorous rehydration with Oral Rehydration Solution (ORS: glucose-sodium cotransport) or IV fluids reduces mortality from >50% to <1% [L5 p21]"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 21
+        }
+      ]
+    }
+  ]
+}

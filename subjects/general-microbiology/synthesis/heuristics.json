@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-microbiology",
+  "heuristics": [
+    {
+      "id": "cocci-rule",
+      "title": "The Master Cocci Rule",
+      "rule": "All medically significant cocci are **Gram-positive**, EXCEPT the **Neisseria** genus (*N. meningitidis*, *N. gonorrhoeae*) and *Moraxella catarrhalis*, which are **Gram-negative diplococci**.",
+      "explanation": "If an exam question mentions a coccus and it is not Neisseria or Moraxella, it is Gram-positive (Staphylococcus, Streptococcus, Enterococcus).",
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 30
+        }
+      ]
+    },
+    {
+      "id": "bacilli-rule",
+      "title": "The Master Bacilli Rule",
+      "rule": "Most medically significant bacilli (rods) are **Gram-negative** (Enterobacteriaceae, Pseudomonas, etc.), EXCEPT five major Gram-positive rod groups: **Bacillus**, **Clostridium**, **Corynebacterium**, **Listeria**, and **Mycobacterium**.",
+      "explanation": "Remember the mnemonic: 'Basically, Clostridium, Corynebacterium, Listeria, and Mycobacterium are Positive Rods'.",
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 56
+        }
+      ]
+    },
+    {
+      "id": "spore-rule",
+      "title": "The Endospore Genera Rule",
+      "rule": "Bacterial endospores are produced *ONLY* by two Gram-positive rod genera: **Bacillus** (aerobic) and **Clostridium** (obligate anaerobic).",
+      "explanation": "No Gram-negative bacteria and no cocci form endospores. Spores contain calcium dipicolinate and withstand boiling; sterilization requires steam autoclaving at 121°C for 15-20 min.",
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 52
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 53
+        }
+      ]
+    },
+    {
+      "id": "capsule-exception",
+      "title": "The Anthrax Capsule Exception",
+      "rule": "Virtually all bacterial capsules are composed of **polysaccharides** (*S. pneumoniae*, *N. meningitidis*, *H. influenzae*, *Klebsiella*), EXCEPT **Bacillus anthracis**, whose capsule is uniquely composed of **poly-D-glutamic acid** (a polypeptide).",
+      "explanation": "Poly-D-glutamic acid is encoded on plasmid pXO2 and is non-immunogenic because host proteases cannot cleave D-amino acid peptide bonds.",
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 8
+        }
+      ]
+    },
+    {
+      "id": "gram-invisible-rule",
+      "title": "Bacteria Not Seen on Standard Gram Stain",
+      "rule": "Remember the high-yield mnemonic **'These Microbes May Lack Real Color'**:\n• **Treponema** (too thin for light microscopy → Darkfield microscopy or silver stain)\n• **Mycobacterium** (mycolic acid lipid wall resists crystal violet → Acid-Fast / Ziehl-Neelsen stain)\n• **Mycoplasma** (lacks peptidoglycan cell wall entirely → no Gram reaction; membrane contains sterols)\n• **Legionella** (poor intracellular uptake of counterstain → silver stain or urine antigen test)\n• **Rickettsia & Chlamydia** (obligate intracellular, very small → Giemsa stain or NAAT)",
+      "explanation": "These bacteria require specific diagnostic techniques because standard Gram staining yields false-negative or uninterpretable results.",
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 33
+        }
+      ]
+    },
+    {
+      "id": "tsi-decoder",
+      "title": "The Triple Sugar Iron (TSI) Diagnostic Code",
+      "rule": "TSI agar contains 0.1% Glucose, 1.0% Lactose, 1.0% Sucrose, and phenol red indicator (Yellow = Acid [A], Red = Alkaline [K]):\n• **A/A (Yellow slant / Yellow butt)**: Glucose + Lactose/Sucrose fermented (*E. coli*, *Klebsiella*)\n• **K/A (Red slant / Yellow butt)**: Glucose only fermented (*Salmonella*, *Shigella*, *Proteus*)\n• **K/K (Red slant / Red butt)**: Non-fermenter, oxidizer only (*Pseudomonas aeruginosa*)\n• **Cracks / bubbles in agar**: Gas production (CO2/H2) (*E. coli*, *Proteus*)\n• **Black precipitate**: H2S production from ferrous sulfate (*Salmonella*, *Proteus*).",
+      "explanation": "Glucose is present in 1/10th the concentration; once depleted at ~12h, bacteria on the aerobic slant oxidize peptones to amines (reverting slant to red/alkaline), while the anaerobic butt stays yellow/acidic.",
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 35
+        }
+      ]
+    }
+  ]
+}

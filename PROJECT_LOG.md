@@ -212,5 +212,32 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check; npm test`: all 56 test suites passed.
   - Staged, committed, and pushed to origin/main. GitHub Pages deployment verified.
 
+## 2026-11-09 — Release 1.2: Dual-Engine Architecture (Memorize Room & Question Bank Library)
+
+- **Dual-Engine Architectural Expansion (`ABOUT_PROJECT.md`)**:
+  - Authored comprehensive project charter detailing the dual-engine educational paradigm: Testing Engine (discrete retrieval practice) coupled with Synthesis Engine (multi-dimensional mental models and cross-lecture consolidation).
+  - Maintained uncompromising 100% lecture slide grounding: zero external hallucinations; all synthesis claims directly cite verified teaching slide pages.
+- **The Memorize Room (`/memorize`)**:
+  - **Organism Dossiers**: Consolidated 15 bacterial pathogen dossiers across all 5 General Microbiology lectures (*E. coli*, *S. aureus*, *S. epidermidis*, *S. pneumoniae*, *S. pyogenes*, *P. aeruginosa*, *B. anthracis*, *C. tetani*, *C. botulinum*, *S. enterica*, *S. dysenteriae*, *M. tuberculosis*, *N. meningitidis*, *N. gonorrhoeae*, *V. cholerae*). Structured across Morphology, Culture/Biochemistry (TSI, MacConkey, catalase, coagulase, oxidase), Genetics, Normal Flora, Virulence, and Clinical Manifestations. Includes search filter, category selector, exact slide links, and a `⚡ Quiz this bug` one-click drill launcher.
+  - **Diagnostic Decision Trees**: Step-by-step branching algorithms for Gram-Positive Cocci, Gram-Negative Rods, and Spore-Forming Bacilli.
+  - **Comparison & Contrast Matrices with Active Occlusion ("Blindfold Mode")**: High-yield contrast tables (Exotoxin vs. Endotoxin, Horizontal Gene Transfer, Cell Wall Architecture, Microbial Control, Spores vs. Vegetative Cells, DNA Polymerases, Replication, DNA Repair) equipped with an interactive active-recall mask toggle allowing students to tap to reveal hidden cells.
+  - **Rules of Thumb (Heuristics)**: Core clinical and laboratory heuristics citing exact source references.
+  - **Bi-directional Bridges**: Questions relating to organisms automatically render a `✦ View Dossier ↗` pill in feedback and review screens, connecting question-solving directly to synthesized knowledge.
+- **Question Bank Library System in Practice Mode**:
+  - Added Bank Partition Selector: `All Questions`, `Unpracticed Only` (drill unseen items), `Missed Items` (targeted remediation of mistakes), and `Practiced` (retention reinforcement).
+  - Dynamic live recalculation of available pool sizes in Practice setup.
+  - Added expandable Question Library Browser (`<details class="bank-browser">`) listing all filtered activities with status badges (`✓ Mastered`, `↻ Missed`, `• Unseen`, `★ Saved`) and a direct `Solve ↗` button.
+- **Model & Content Validation**:
+  - Extended `selectActivities()` in `app/model.js` with `bankFilter` partitioning.
+  - Extended `scripts/validate_content.py` to structurally and provenance-verify synthesis JSON data against lecture page ledgers.
+  - Added automated synthesis test to `tests/content.test.mjs` and bankFilter tests to `tests/model.test.mjs`.
+  - Bumped version to `1.2.0` in `package.json` and What's New modal.
+- **Verification**:
+  - `python scripts/validate_content.py --subject general-microbiology`: passed (224 pages, 488 concepts, 428 activities, 4 synthesis modules).
+  - `python scripts/validate_content.py --subject molecular-biology`: passed (191 pages, 303 concepts, 694 activities, 2 synthesis modules).
+  - `npm run check`: passed with 0 errors.
+  - `npm test`: all 58 unit and integration tests passed.
+
+
 
 
