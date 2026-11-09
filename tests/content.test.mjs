@@ -131,3 +131,10 @@ test('openDossier click handler cleans up active session before navigating to Me
   assert.ok(openDossierBlock[1].includes('pauseSession()'), 'openDossier must pause active session');
   assert.ok(openDossierBlock[1].includes('state.session = null'), 'openDossier must clear active session to render Memorize Room');
 });
+test('question ID pill with 1-click copy and URL parameter jump are implemented',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  assert.ok(appJs.includes('question-id-pill'), 'app.js must render question-id-pill in question views');
+  assert.ok(appJs.includes('data-copy-id'), 'app.js must include data-copy-id for 1-click ID copy');
+  assert.ok(appJs.includes('b.dataset.copyId'), 'app.js must handle data-copy-id click event');
+  assert.ok(appJs.includes('searchParams.get(\'q\')'), 'app.js must support direct question launch via ?q=<id>');
+});

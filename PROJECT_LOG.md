@@ -420,6 +420,30 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check; npm test`: 61/61 tests passed.
   - Version bump to 1.2.8 with cachebusters updated.
 
+## 2026-11-10 - Release 1.2.9: Visible Question IDs with 1-Click Copy, URL Parameter Direct Launch & Length Bias Remediation
+
+- **Visible Question ID Pills & 1-Click Copy**:
+  - Implemented `.question-id-pill` with `data-copy-id` across:
+    1. Active session cards (`activityView` in Practice, Exam, Drills, Weak-Area Review): renders next to chapter eyebrow in `.question-meta-group`.
+    2. Results review detail view (`resultsView`): renders in `.result-meta-row` above question breakdown.
+    3. Saved questions list (`savedView`): renders in `.saved-question .section-head`.
+    4. Question Library Browser (`bankBrowserHTML`): renders `.micro-id-pill` directly above prompt in `.prompt-col`.
+  - Added click handler for `b.dataset.copyId` supporting modern `navigator.clipboard.writeText` with instant notification banner fallback (`Copied Question ID: <id>`).
+  - Added styling in `app/styles.css` using clean editorial monospace typography (`ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace`), subtle border, and interactive hover feedback.
+- **Direct Question URL Parameter Launch (`?q=<id>`)**:
+  - In `init()`, inspected `URLSearchParams` for `?q=<id>`.
+  - Automatically identifies the requested question across the active activity bank and launches an immediate practice session targeting that specific item.
+- **Investigation of `currentAttempts is not defined`**:
+  - Reconfirmed user mobile error screenshot was captured during pre-1.2.5 visit prior to commit `278cd37`.
+  - Verified `currentAttempts` named import from `./model.js` is present in `app/app.js` and covered by automated import guard test in `tests/content.test.mjs`.
+  - Cache-busted assets to `v=1.2.9` to prevent stale browser caching.
+- **Verification & Testing**:
+  - Added automated test in `tests/content.test.mjs` verifying Question ID pill rendering, copy handler, and `?q=<id>` parameter handling.
+  - Authored and ran Playwright end-to-end test (`work/test_question_id_e2e.mjs`) with headless Chrome: verified direct URL launch, pill rendering in Practice, 1-click clipboard copy notice, pill rendering in Results review, and pill in Library Browser.
+  - Ran `npm run check; npm test`: 62/62 tests passing.
+  - Ran `python scripts/validate_content.py --subject general-microbiology` and `--subject molecular-biology`: both passed cleanly.
+
+
 
 
 
