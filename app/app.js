@@ -649,6 +649,11 @@ function renderOrganismsTab() {
                 Practice MCQs (${qCount})
               </button>
             ` : ''}
+            ${study?.sessions?.some(s => !s.deleted && s.mode === 'practice' && !s.done) ? `
+              <button type="button" class="button outline micro-btn" data-go="practice">
+                Resume Practice ↗
+              </button>
+            ` : ''}
           </div>
         </header>
 
@@ -1126,13 +1131,20 @@ document.addEventListener('click', async event => {
   }
   if (b.dataset.selectMatrix) { state.selectedMatrix = b.dataset.selectMatrix; render(); return; }
   if (b.dataset.openDossier) {
+    if (state.session) {
+      if (state.session.mode === 'exam' && !state.session.done && !await confirmAction('An unfinished exam will be left unscored.', 'Leave exam')) return;
+      pauseSession();
+      state.session = null;
+      clearInterval(tick);
+      closeSource();
+    }
     state.view = 'memorize';
     state.memorizeTab = 'organisms';
     state.memorizeCat = 'all';
     state.selectedOrganism = b.dataset.openDossier;
     state.organismViewMode = 'console';
     state.memorizeSearch = '';
-    history.replaceState(null, '', '#memorize');
+    history.pushState(null, '', '#memorize');
     render(true);
     return;
   }

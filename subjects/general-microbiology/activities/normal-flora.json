@@ -1976,7 +1976,7 @@
     },
     {
       "id": "normal-flora-p22-fecal-anaerobes-mcq",
-      "revision": 1,
+      "revision": 2,
       "type": "mcq",
       "lectureId": "normal-flora",
       "conceptIds": [
@@ -1988,10 +1988,10 @@
           "pdfPage": 22
         }
       ],
-      "prompt": "What proportion of adult fecal flora consists of obligate anaerobes, which organism is a prominent anaerobic representative, and what are the most abundant facultative bacteria?",
+      "prompt": "Which category of bacteria constitutes more than 90% of the normal adult fecal flora?",
       "explanation": {
-        "en": "More than 90% of adult fecal flora consists of obligate anaerobes, with Bacteroides fragilis being an important representative; coliforms, including Escherichia coli, are the most abundant facultative bacteria.",
-        "ar": "تتألف أكثر من 90% من فلورا البراز عند البالغين من لاهوائيات مجبرة، وتُعد Bacteroides fragilis ممثلاً هاماً لها؛ بينما تُعد البكتيريا القولونية (Coliforms) بما فيها Escherichia coli أكثر البكتيريا اللاهوائية المخيرة وفرة."
+        "en": "More than 90% of adult fecal flora consists of obligate anaerobes, with Bacteroides fragilis being an important representative. Coliforms, including Escherichia coli, are the most abundant facultative bacteria.",
+        "ar": "تتألف أكثر من 90% من فلورا البراز عند البالغين من لاهوائيات مجبرة (Obligate anaerobes)، وتُعد Bacteroides fragilis ممثلاً هاماً لها؛ بينما تُعد البكتيريا القولونية (Coliforms) بما فيها Escherichia coli أكثر البكتيريا اللاهوائية المخيرة وفرة."
       },
       "status": "validated",
       "review": {
@@ -2001,33 +2001,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 22.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 22: >90% anaerobic; B. fragilis important; coliforms/E. coli most abundant facultative."
+        "peerReviewNotes": "Refocused to single clear clinical distinction with parallel biological classes."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "Over 95% are obligate aerobes like Pseudomonas aeruginosa, while strict anaerobes constitute less than 0.01% of total fecal mass",
-          "evidence": "Feces contains massive bacterial numbers (>90% anaerobes). Source PDF page: 22."
+          "id": "o1",
+          "text": "Obligate anaerobes",
+          "evidence": "More than 90% of the fecal flora are anaerobes, the most important of which is Bacteroides fragilis. Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Facultative anaerobes like E. coli constitute over 99% of stool flora, whereas Bacteroides species are entirely absent in adults",
+          "text": "Facultative anaerobes",
           "evidence": "Fecal flora is >90% anaerobic; coliforms/E. coli are the most abundant facultative organisms. Source PDF page: 22."
         },
         {
-          "id": "o5",
-          "text": "Fecal bacteria consist exclusively of spore-forming Bacillus species, with complete absence of any Gram-negative enteric rods",
-          "evidence": "Coliforms are facultative anaerobes that ferment lactose/glucose. Source PDF page: 22, 27."
+          "id": "o3",
+          "text": "Obligate aerobes",
+          "evidence": "Feces contains massive bacterial numbers (>90% anaerobes). Source PDF page: 22."
         },
         {
           "id": "o4",
-          "text": "Fecal microorganisms are 100% eukaryotic yeast cells like Candida albicans, with prokaryotes occurring only in acute infections",
-          "evidence": "B. fragilis is an obligate anaerobe in the colon. Source PDF page: 15, 22."
+          "text": "Microaerophiles",
+          "evidence": "Microaerophiles require low oxygen and do not form the vast majority of stool flora. Source PDF page: 22."
         },
         {
-          "id": "o1",
-          "text": "Over 90% are anaerobes (e.g. B. fragilis); coliforms including E. coli are the most abundant facultative bacteria",
-          "evidence": "More than 90% is anaerobic; B. fragilis important. Coliforms including E. coli are the most abundant facultative bacteria. Source PDF page: 22."
+          "id": "o5",
+          "text": "Aerotolerant anaerobes",
+          "evidence": "Adult fecal flora is dominated by strict obligate anaerobes (>90%), not aerotolerant organisms. Source PDF page: 22."
         }
       ],
       "correctOptionId": "o1"

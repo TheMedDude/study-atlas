@@ -403,6 +403,23 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check; npm test`: 60/60 tests passed.
   - Version bump to 1.2.7 with cachebusters updated.
 
+## 2026-11-10 - Release 1.2.8: Fix Memorize Room Bacteria Bridge Navigation & Refocus Fecal Flora MCQ
+
+- **Fix Memorize Room Bacteria Bridge Navigation**:
+  - User reported: `"the View Streptococcus pneumoniae in Memorize Room ↗ doesnt work"`.
+  - Root cause: In `app/app.js`, `b.dataset.openDossier` updated `state.view = 'memorize'` but did not pause or nullify `state.session`. Because `render()` evaluates `state.session ? activityView() : ...`, `#main` remained trapped rendering the active practice question.
+  - Fix: Updated `openDossier` click handler to safely pause active session (`pauseSession()`), clear `state.session = null`, clear tick intervals, and close any open source slide viewer before rendering `memorizeView()`.
+  - Added a one-click `"Resume Practice ↗"` button inside the Bacteria Summary hero header when a paused session exists, allowing seamless round-trip navigation between practice feedback and synthesis dossiers.
+  - Verified with Playwright end-to-end test (`work/test_pneumoniae_bridge.mjs`): clicking `"View Streptococcus pneumoniae in Memorize Room ↗"` cleanly launches the Memorize Room, selects *S. pneumoniae*, and displays its 12 slide facts.
+- **Refocused Fecal Flora MCQ**:
+  - Replaced the compound 3-part question `normal-flora-p22-fecal-anaerobes-mcq` with a single-focus, psychometrically sound clinical item: `"Which category of bacteria constitutes more than 90% of the normal adult fecal flora?"`.
+  - Created five parallel biological categories (Obligate anaerobes [correct], Facultative anaerobes, Obligate aerobes, Microaerophiles, Aerotolerant anaerobes), completely eliminating the giveaway triad and absurd yeast distractors.
+- **Verification & Testing**:
+  - Added automated test in `tests/content.test.mjs` for session cleanup on `openDossier`.
+  - `python scripts/validate_content.py --subject general-microbiology`: Passed.
+  - `npm run check; npm test`: 61/61 tests passed.
+  - Version bump to 1.2.8 with cachebusters updated.
+
 
 
 

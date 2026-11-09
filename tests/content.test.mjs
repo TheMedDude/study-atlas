@@ -124,3 +124,10 @@ test('Enter keydown listener allows advancing questions when source slides are o
   assert.ok(appJs.includes('dialog[open]:not(.source-dialog)'),'app.js must exempt .source-dialog from modal dialog shortcut blocking');
   assert.ok(appJs.includes('!exemptBtn || state.source'),'app.js must allow Enter to advance or check when source is open');
 });
+test('openDossier click handler cleans up active session before navigating to Memorize Room',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  const openDossierBlock = appJs.match(/if\s*\(\s*b\.dataset\.openDossier\s*\)\s*\{([^}]+(?:\{[^}]*\}[^}]*)*)\}/);
+  assert.ok(openDossierBlock, 'openDossier block must exist');
+  assert.ok(openDossierBlock[1].includes('pauseSession()'), 'openDossier must pause active session');
+  assert.ok(openDossierBlock[1].includes('state.session = null'), 'openDossier must clear active session to render Memorize Room');
+});
