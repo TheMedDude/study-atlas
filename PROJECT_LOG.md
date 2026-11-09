@@ -334,6 +334,26 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Emoji check: Zero emojis across repository confirmed.
   - Cache-busted with `?v=1.2.4`.
 
+## 2026-11-09 — Release 1.2.5: Fix Missing `currentAttempts` Import in Practice & Add Regression Test
+
+- **Root Cause & Fix**:
+  - Investigated user mobile screenshot reporting runtime error `"We couldn't open the atlas. currentAttempts is not defined"`.
+  - Discovered `app/app.js` utilized `currentAttempts(progress.attempts, activities)` in `setup(view)` and question library browser but lacked the import from `./model.js`.
+  - Added `currentAttempts` to the named imports from `./model.js` in `app/app.js`.
+- **Permanent Regression Guard**:
+  - Added automated unit test in `tests/content.test.mjs` that statically scans `app/app.js` and verifies every symbol exported by `model.js`, `storage.js`, `study.js`, `notes.js`, and `pdf.js` that appears in `app.js` is explicitly imported. Any unimported export immediately fails CI.
+- **End-to-End Headless Browser Verification**:
+  - Ran headless Chrome Playwright verification (`work/verify_practice_nav.mjs`):
+    - Navigated to General Microbiology Practice: verified Question Bank dashboard, pool filtering, and max question count (409) rendered with zero errors.
+    - Started Practice session and verified question prompt and options rendered correctly.
+    - Navigated to Molecular Biology Practice: verified bank and max question count (601) rendered cleanly.
+    - Navigated to Memorize Room: verified tabs and Classification Trees rendered cleanly.
+    - Zero browser console errors (`errors.length === 0`).
+- **Release Verification**:
+  - `npm run check; npm test`: 59/59 test suites passed.
+  - Cache-busted with `?v=1.2.5`.
+
+
 
 
 

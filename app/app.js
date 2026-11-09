@@ -1,4 +1,4 @@
-import { EVIDENCE_LABELS, shuffle, completeResponse, scoreActivity, progressSummary, selectActivities, examResult, formatTime } from './model.js';
+import { EVIDENCE_LABELS, shuffle, completeResponse, scoreActivity, progressSummary, selectActivities, examResult, formatTime, currentAttempts } from './model.js';
 import { loadSettings, saveSettings, loadProgress, saveProgress, resetProgress, progressKey, parseBackup, mergeProgress, appendAttempt, createAttempt, MAX_BACKUP_BYTES } from './storage.js?v=1.1';
 
 import { emptyStudy, validateStudy, studyKey, loadStudy, saveStudy, mergeStudy, bookmark, elapsedSession, storeSession, removeSession, restoreSession } from './study.js';

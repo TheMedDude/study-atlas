@@ -101,3 +101,20 @@ test('synthesis data links strictly to verified teaching pages across subjects',
     }
   }
 });
+test('app.js imports all required exports from model, storage, study, notes, and pdf',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  const modules=['model.js','storage.js','study.js','notes.js','pdf.js'];
+  for(const mod of modules){
+    const modCode=fs.readFileSync(path.join(root,'app',mod),'utf8');
+    const exports=[...modCode.matchAll(/export\s+(?:function|const|let)\s+([a-zA-Z0-9_]+)/g)].map(m=>m[1]);
+    const cleanMod=mod.replace('.','\\.');
+    const importMatch=appJs.match(new RegExp(`import\\s*\\{([^}]+)\\}\\s*from\\s*['"]\\./${cleanMod}`));
+    const imported=new Set(importMatch?importMatch[1].split(',').map(s=>s.trim()):[]);
+    for(const exp of exports){
+      if(!imported.has(exp)){
+        const regex=new RegExp(`\\b${exp}\\b`);
+        assert.ok(!regex.test(appJs),`Unimported module export '${exp}' from ${mod} is used in app.js!`);
+      }
+    }
+  }
+});
