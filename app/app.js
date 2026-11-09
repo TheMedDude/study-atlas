@@ -171,7 +171,7 @@ function pageHead(kicker, title, copy = '') { return `<header class="page-head">
 
 function shell() {
   const isCourses = state.view === 'courses';
-  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="courses"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>Medical Curriculum</small></span></button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><div class="subject-sub-row"><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span><button class="text-button all-courses-btn" data-go="courses">❖ All Courses</button></div></div><nav aria-label="Study navigation">${routes.filter(r => r !== 'courses').map(view => `<button data-go="${view}"><span aria-hidden="true">${symbols[view]}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span>${isCourses ? 'Study Atlas <span class="muted">/</span> All Courses' : `${esc(subject.title)} <span class="muted">/</span> <span id="view-label"></span>`}</span><span class="scope-tag">${isCourses ? `${subjectConfigs.length} Courses` : esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
+  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="courses"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>Medical Curriculum</small></span></button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><div class="subject-sub-row"><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span><button class="text-button all-courses-btn" data-go="courses">❖ All Courses</button></div></div><nav aria-label="Study navigation">${routes.filter(r => r !== 'courses').map(view => `<button data-go="${view}"><span aria-hidden="true">${symbols[view]}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span><span id="topbar-prefix">${isCourses ? 'Study Atlas' : esc(subject.title)}</span> <span class="muted">/</span> <span id="view-label">${isCourses ? 'All Courses' : (names[state.view] || '')}</span></span><span class="scope-tag" id="topbar-scope">${isCourses ? `${subjectConfigs.length} Courses` : esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
   if (state.notice) notice(state.notice.message, state.notice.error);
 }
 
@@ -377,11 +377,18 @@ function render(focusMain = false) {
   const openDetails = [...document.querySelectorAll('#main details[open][id]')].map(node => node.id);
   $('#main').innerHTML = state.session ? activityView() : state.view === 'courses' ? coursesView() : state.view === 'home' ? home() : ['practice', 'exam', 'drills', 'review'].includes(state.view) ? setup(state.view) : state.view === 'progress' ? progressView() : state.view === 'materials' ? materialsView() : state.view === 'saved' ? savedView() : state.view === 'updates' ? updatesView() : settingsView();
   $('.workspace').classList.toggle('is-session',Boolean(state.session&&!state.session.done));
-  $('#view-label').textContent = names[state.view];
+  const isCourses = state.view === 'courses';
+  if ($('#topbar-prefix')) $('#topbar-prefix').textContent = isCourses ? 'Study Atlas' : subject.title;
+  if ($('#topbar-scope')) $('#topbar-scope').textContent = isCourses ? `${subjectConfigs.length} Courses` : subject.scope.title;
+  if ($('#view-label')) $('#view-label').textContent = isCourses ? 'All Courses' : (names[state.view] || '');
   document.querySelectorAll('[data-go]').forEach(button => {
-    if (button.closest('nav')) { button.classList.toggle('active', button.dataset.go === state.view); if (button.dataset.go === state.view) button.setAttribute('aria-current', 'page'); else button.removeAttribute('aria-current'); }
+    if (button.closest('nav') || button.classList.contains('all-courses-btn')) {
+      button.classList.toggle('active', button.dataset.go === state.view);
+      if (button.dataset.go === state.view) button.setAttribute('aria-current', 'page');
+      else button.removeAttribute('aria-current');
+    }
   });
-  document.title = `${names[state.view]} · Study Atlas`;
+  document.title = `${isCourses ? 'Courses' : names[state.view]} · Study Atlas`;
   applySettings();
   openDetails.forEach(id => { const node = document.getElementById(id); if (node) node.open = true; });
   if ($('#session-setup')) updateSetup();
@@ -402,10 +409,13 @@ function updateSetup() {
   const selected = [...form.querySelectorAll('.chapter-check:checked')].map(x => x.value), mode = form.dataset.mode;
   const weak = new Set(mode === 'review' ? weakConcepts() : []);
   const n = activities.filter(a => typesFor(mode).includes(a.type) && selected.includes(a.lectureId) && (mode !== 'review' || a.conceptIds.some(c => weak.has(c)))).length;
-  const input = $('#session-count'); input.max = n;
-  if (Number(input.value) > n || Number(input.value) < 1) input.value = Math.min(n, subject.assessment.recommendedPracticeCount);
-  $('#available-count').textContent = `${n} available in your selection`;
-  $('#start-session').disabled = !n;
+  const input = $('#session-count');
+  if (input) {
+    input.max = n;
+    if (Number(input.value) > n || Number(input.value) < 1) input.value = Math.min(n, subject.assessment.recommendedPracticeCount);
+  }
+  if ($('#available-count')) $('#available-count').textContent = `${n} available in your selection`;
+  if ($('#start-session')) $('#start-session').disabled = !n;
 }
 
 function openSource(lectureId, pdfPage, full = false) {

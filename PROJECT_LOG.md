@@ -196,4 +196,21 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `python scripts/validate_content.py --subject general-microbiology`: passed 100%.
   - `npm run check; npm test`: all 56 automated test suites passed (0 errors).
 
+## 2026-11-09 — Hotfix: Course Hub landing screen topbar label null-reference
+
+- **Root Cause Analysis**:
+  - In `app/app.js`, when opening the root application without a `?subject=` parameter, `state.view` correctly defaulted to `'courses'`.
+  - In `shell()`, the topbar was rendered as `Study Atlas / All Courses` without embedding the `<span id="view-label"></span>` element.
+  - Subsequently, `render()` attempted `$('#view-label').textContent = names[state.view]`, causing an uncaught `TypeError: Cannot set properties of null (setting 'textContent')`.
+  - The uncaught error triggered `init().catch()`, displaying the "We couldn't open the atlas" fallback screen.
+- **Fix Implemented**:
+  - In `shell()`, structured the topbar with `<span id="topbar-prefix">` and `<span id="view-label">` persistently present in both courses and subject modes.
+  - In `render()`, added defensive null-guards: dynamically updating `#topbar-prefix`, `#topbar-scope`, and `#view-label` based on `state.view`.
+  - Added null-guards in `updateSetup()` for `#session-count`, `#available-count`, and `#start-session`.
+  - In `index.html`, bumped asset query parameter to `?v=1.2` to bust browser caches immediately.
+- **Verification**:
+  - `npm run check; npm test`: all 56 test suites passed.
+  - Staged, committed, and pushed to origin/main. GitHub Pages deployment verified.
+
+
 
