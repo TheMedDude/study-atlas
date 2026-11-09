@@ -373,6 +373,36 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Zero emojis across repository confirmed.
   - Cache-busted with `?v=1.2.6`.
 
+## 2026-11-10 - Release 1.2.7: Fix Enter Key Navigation When Showing Source Slides
+
+- **Problem & Root Cause**:
+  - User reported that pressing Enter after opening/showing lecture slides in practice mode did not advance to the next question.
+  - Investigation uncovered three interacting barriers in the keydown handler:
+    1. Modal dialog suppression (`document.querySelector('dialog[open]')`) caught `.source-dialog` (active on mobile, tablets, and full-screen layout) and returned early for all keys except `+`.
+    2. An early `if (state.source) return;` guard blocked `Enter`, `-`, and option shortcuts whenever the source slide viewer was open in side-panel mode.
+    3. The Enter button check `!event.target.closest('button,a,summary') || event.target.closest('.option')` treated focused slide buttons (e.g. `.source-link`) or toolbar buttons as non-option buttons, preventing Enter from triggering navigation.
+- **Implementation**:
+  - Updated keydown listener in `app/app.js`:
+    - Modal dialog suppression now targets non-source modals only (`dialog[open]:not(.source-dialog)`), allowing source slide modals to receive session shortcuts.
+    - Removed early `state.source` bail-out.
+    - When Enter is pressed during an active session, if `state.source` is active or if focus is not on an explicitly exempt action button (`save-exit`, `finish`, `bookmark`, `previous`, `skip`, question map buttons, or summaries), Enter automatically advances to the next question via `moveQuestion(1)` (or checks the question if not yet checked).
+    - `moveQuestion(1)` automatically invokes `closeSource()`, smoothly closing the slide view and focusing the next question.
+    - Added `closeSource()` to `finishSession()` to cleanly dismiss the slide view upon session completion.
+    - Kept native form submit intact for the page jump input (`#source-page`) via early return on input elements.
+- **Verification & Testing**:
+  - Added unit test in `tests/content.test.mjs` verifying:
+    - No early return on `state.source` before Enter handling.
+    - Exemption of `.source-dialog` from modal shortcut blocking.
+    - Full Enter support when `state.source` is truthy.
+  - Headless Playwright end-to-end verification (`work/test_enter_navigation.mjs`):
+    - Mobile dialog modal: Click slide -> press Enter -> advances to Q2, source closes.
+    - Desktop side panel: Click slide -> press Enter -> advances to Q2, source closes.
+    - Shortcut `+`: Press `+` to open slide -> press Enter -> advances to Q3, source closes.
+    - Page jump input: Enter inside `#source-page` jumps PDF page and does not advance question.
+    - Shortcut `-`: Press `-` with slide open -> returns to previous question, source closes.
+  - `npm run check; npm test`: 60/60 tests passed.
+  - Version bump to 1.2.7 with cachebusters updated.
+
 
 
 

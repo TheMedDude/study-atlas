@@ -449,6 +449,7 @@ async function finishSession(expired = false) {
   const all = examResult(s.items, s.responses), unanswered = all.filter(x => !x.answered).length;
   if (s.mode === 'exam' && !expired && unanswered && !await confirmAction(`Finish with ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}?`, 'Finish exam')) return;
   if (s.done) return;
+  closeSource();
   if (s.mode === 'exam') {
     for (const row of all.filter(x => x.answered)) record(row.activity, row.response, 'exam');
     s.results = all;
@@ -1263,17 +1264,36 @@ document.addEventListener('submit', event => {
     const saved = saveSettings(storage, state.settings); render(); notice(saved ? 'Preferences saved.' : 'Preferences apply for this visit. Browser storage is unavailable.', !saved);
   }
 });
-window.addEventListener('keydown',event=>{
-  if(event.key==='Escape'&&state.source){closeSource();return;}
-  if(event.defaultPrevented||event.repeat||event.ctrlKey||event.metaKey||event.altKey||event.isComposing||event.target.closest('input,select,textarea,[contenteditable="true"]'))return;
-  if(document.querySelector('dialog[open]')){if(event.key==='+'&&state.source){event.preventDefault();closeSource();}return;}
-  const s=state.session;if(!s||s.done)return;
-  if(s.mode==='exam'&&s.deadline&&Date.now()>=s.deadline){finishSession(true);return;}
-  if(event.key==='+'){event.preventDefault();if(state.source)closeSource();else if(s.mode!=='exam'){const ref=s.items[s.index].sourceRefs[0];openSource(ref.lectureId,ref.pdfPage);}return;}
-  if(state.source)return;
-  if(/^[1-5]$/.test(event.key)){const button=document.querySelectorAll('.option')[Number(event.key)-1];if(button&&!button.disabled){event.preventDefault();button.click();}return;}
-  if(event.key==='-'){event.preventDefault();moveQuestion(-1);return;}
-  if(event.key==='Enter'&&(!event.target.closest('button,a,summary')||event.target.closest('.option'))){event.preventDefault();const check=$('[data-action="check"]');if(check&&!check.disabled)check.click();else moveQuestion(1);}
+window.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && state.source) { event.preventDefault(); closeSource(); return; }
+  if (event.defaultPrevented || event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.isComposing || event.target.closest('input,select,textarea,[contenteditable="true"]')) return;
+  if (document.querySelector('dialog[open]:not(.source-dialog)')) return;
+  const s = state.session; if (!s || s.done) return;
+  if (s.mode === 'exam' && s.deadline && Date.now() >= s.deadline) { finishSession(true); return; }
+  if (event.key === '+') {
+    event.preventDefault();
+    if (state.source) closeSource();
+    else if (s.mode !== 'exam' && s.items[s.index]?.sourceRefs?.[0]) {
+      const ref = s.items[s.index].sourceRefs[0];
+      openSource(ref.lectureId, ref.pdfPage);
+    }
+    return;
+  }
+  if (event.key === '-') { event.preventDefault(); moveQuestion(-1); return; }
+  if (/^[1-5]$/.test(event.key)) {
+    const button = document.querySelectorAll('.option')[Number(event.key) - 1];
+    if (button && !button.disabled) { event.preventDefault(); button.click(); }
+    return;
+  }
+  if (event.key === 'Enter') {
+    const exemptBtn = event.target.closest('button[data-action="save-exit"], button[data-action="finish"], button[data-bookmark], button[data-action="previous"], button[data-action="skip"], button[data-question], summary');
+    if (!exemptBtn || state.source) {
+      event.preventDefault();
+      const check = $('[data-action="check"]');
+      if (check && !check.disabled) check.click();
+      else moveQuestion(1);
+    }
+  }
 });
 window.addEventListener('storage', event => {
   if(!subject||!progress)return;

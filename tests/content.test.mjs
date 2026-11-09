@@ -118,3 +118,9 @@ test('app.js imports all required exports from model, storage, study, notes, and
     }
   }
 });
+test('Enter keydown listener allows advancing questions when source slides are open',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  assert.ok(!/if\s*\(\s*state\.source\s*\)\s*return\s*;/.test(appJs),'app.js must not early-return on state.source before Enter key handling');
+  assert.ok(appJs.includes('dialog[open]:not(.source-dialog)'),'app.js must exempt .source-dialog from modal dialog shortcut blocking');
+  assert.ok(appJs.includes('!exemptBtn || state.source'),'app.js must allow Enter to advance or check when source is open');
+});
