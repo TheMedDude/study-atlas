@@ -255,7 +255,7 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - **Interactive Laboratory Pathway Simulator**: Step-by-step diagnostic simulator guiding students through differential diagnosis tests with interactive breadcrumb navigation, test prompts, large tactile choice buttons, and celebratory Confirmed Diagnosis cards (*Diagnosis Confirmed*, clinical clues, direct dossier launch, and one-click bug quiz).
   - **Panoramic Visual Flowchart**: Hierarchical flowchart canvas mapping all decision nodes, color-coded branch connectors (emerald positive, coral negative), and outcome cards with slide links.
 - **Comparison Matrices & Active Occlusion**:
-  - Added `[ 👁 Reveal All ]` and `[ 🙈 Hide All ]` instant controls alongside tactile cell-by-cell tap-to-reveal.
+  - Added `[ Reveal All ]` and `[ Hide All ]` instant controls alongside tactile cell-by-cell tap-to-reveal.
 - **Verification**:
   - `npm run check`: 0 errors.
   - `npm test`: all 58 test suites passed.
@@ -277,6 +277,33 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `npm run check`: 0 errors.
   - `npm test`: all 58 test suites passed.
   - Cache-busted with `?v=1.2.2`.
+
+## 2026-11-09 — Release 1.2.3: Zero-Emoji Interface Purge & Literal Slide-Grounded Bacteria Study Architecture
+
+- **Zero-Emoji & Aesthetic Fluff Purge**:
+  - Complete elimination of all emojis across user-facing views in `app/app.js`, `ABOUT_PROJECT.md`, and `PROJECT_LOG.md`.
+  - Replaced decorative symbols with dignified medical badges (`[G+]`, `[G-]`, `[AFB]`, `[RULE]`, `[IDENTIFIED]`), authentic medical typography, and clean SVG search icons.
+  - Fully verified zero emojis remaining across the entire repository.
+- **Radically Simplified Literal Bacteria Tool (100% Slide-Grounded)**:
+  - Completely replaced the overcomplicated, multi-column "newspaper" dossier layout with an ultra-clean, structured Master-Detail clinical study tool.
+  - Strict slide-mention filtering: only slides that explicitly name and teach the organism are included. Slides without the organism name are completely excluded.
+  - Compiled 135 literal, non-inferred factual points across 18 organisms from General Microbiology lectures.
+  - Structured facts cleanly grouped by **Lecture** (`Lecture 1: Bacteria & Other Microorganisms`, `Lecture 2: Bacterial Genetics`, `Lecture 3: Bacterial Growth`, `Lecture 4: Normal Flora`, `Lecture 5: Bacterial Pathogenesis`).
+  - Each fact card displays:
+    - Slide page badge (`p#`)
+    - Slide title in small uppercase
+    - Exact literal statement from that slide
+    - Direct interactive action button (`Open Slide p# ↗`)
+  - Clicking the fact card or action button immediately navigates to that exact slide in the in-app slide viewer.
+- **Mobile & iPad Responsive Calibration**:
+  - Calibrated Master-Detail 2-column layout on iPad (768px–1024px) with sticky directory sidebar and scrollable reading panel.
+  - Calibrated mobile phone (<760px) layout with horizontal touch-scroll card rail (`scroll-snap-type: x mandatory`), stacked lecture cards, and touch-target minimums (>= 44px).
+- **Verification**:
+  - `npm run check`: 0 errors.
+  - `npm test`: all 58 test suites passed.
+  - `python scripts/validate_content.py --subject general-microbiology`: 100% passed.
+  - `python scripts/validate_content.py --subject molecular-biology`: 100% passed.
+  - Cache-busted with `?v=1.2.3`.
 
 
 

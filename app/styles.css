@@ -437,10 +437,11 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .course-card h2 { font-size:1.6rem; }
 
   /* iPad & Tablet Memorize Experience (Side-by-Side Clinical Console) */
-  .dossier-workspace { grid-template-columns: 260px 1fr; gap: 16px; }
-  .dossier-sidebar { position: sticky; top: 16px; max-height: calc(100vh - 80px); padding: 14px; }
-  .dossier-viewer { padding: 22px 20px; }
-  .viewer-title { font-size: 1.7rem; }
+  .bacteria-workspace, .dossier-workspace { grid-template-columns: 260px 1fr; gap: 16px; }
+  .bacteria-sidebar, .dossier-sidebar { position: sticky; top: 16px; max-height: calc(100vh - 80px); padding: 14px; }
+  .bacteria-viewer, .dossier-viewer { padding: 22px 20px; }
+  .bacteria-title, .viewer-title { font-size: 1.7rem; }
+  .bacteria-fact-card { padding: 12px 14px; gap: 12px; }
   .sim-choices-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .organisms-matrix-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
   .flowchart-viewport { padding: 18px; }
@@ -484,34 +485,24 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .cat-pill { padding: 6px 12px; font-size: 0.78rem; }
   
   /* Mobile Pathogen Directory: Horizontal Touch-Scroll Rail */
-  .dossier-workspace { display: flex; flex-direction: column; gap: 16px; }
-  .dossier-sidebar { position: static; max-height: none; padding: 12px 14px; width: 100%; }
-  .dossier-sidebar-head { padding-bottom: 8px; margin-bottom: 8px; }
-  .dossier-dir-list { flex-direction: row; overflow-x: auto; gap: 8px; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; }
-  .dossier-dir-card { flex: 0 0 210px; scroll-snap-align: start; padding: 10px 12px; }
-  .dossier-dir-card.active { border-left-width: 1px; border-bottom: 3px solid #17231c; }
-  .dossier-dir-card.active.gram-pos { border-bottom-color: var(--gram-pos); }
-  .dossier-dir-card.active.gram-neg { border-bottom-color: var(--gram-neg); }
-  .dossier-dir-card.active.afb { border-bottom-color: var(--afb); }
+  .bacteria-workspace, .dossier-workspace { display: flex; flex-direction: column; gap: 16px; }
+  .bacteria-sidebar, .dossier-sidebar { position: static; max-height: none; padding: 12px 14px; width: 100%; }
+  .bacteria-sidebar-head, .dossier-sidebar-head { padding-bottom: 8px; margin-bottom: 8px; }
+  .bacteria-dir-list, .dossier-dir-list { flex-direction: row; overflow-x: auto; gap: 8px; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; }
+  .bacteria-dir-card, .dossier-dir-card { flex: 0 0 210px; scroll-snap-align: start; padding: 10px 12px; }
+  .bacteria-dir-card.active, .dossier-dir-card.active { border-left-width: 1px; border-bottom: 3px solid #17231c; }
+  .bacteria-dir-card.active.gram-pos, .dossier-dir-card.active.gram-pos { border-bottom-color: var(--gram-pos); }
+  .bacteria-dir-card.active.gram-neg, .dossier-dir-card.active.gram-neg { border-bottom-color: var(--gram-neg); }
+  .bacteria-dir-card.active.afb, .dossier-dir-card.active.afb { border-bottom-color: var(--afb); }
 
-  /* Mobile Dossier Detail Viewer */
-  .dossier-viewer { padding: 18px 16px; border-radius: 12px; gap: 20px; }
-  .viewer-hero { gap: 14px; padding-bottom: 16px; flex-direction: column; align-items: stretch; }
-  .viewer-title { font-size: clamp(1.4rem, 6vw, 1.85rem); }
-  .viewer-hero-actions { align-items: stretch; width: 100%; gap: 10px; }
-  .viewer-quiz-btn { width: 100%; justify-content: center; min-height: 46px; font-size: 0.88rem; }
-  .viewer-slide-links { align-items: flex-start; }
-  
-  /* Mobile TSI Tube Widget & Profile Grids */
-  .tsi-widget { flex-direction: row; gap: 12px; padding: 12px 14px; }
-  .tsi-tube-visual { width: 28px; height: 84px; }
-  .tsi-tube-glass { width: 24px; height: 80px; }
-  .tsi-slant { height: 36px; }
-  .tsi-specs { gap: 5px; }
-  .tsi-spec-pill { font-size: 0.72rem; padding: 2px 7px; }
-  .lab-profile-grid, .structure-tiles-grid, .virulence-weapons-grid, .clinical-syndromes-grid, .habitat-tiles-grid, .genetics-tiles-grid {
-    grid-template-columns: 1fr; gap: 10px;
-  }
+  /* Mobile Detail Viewer */
+  .bacteria-viewer, .dossier-viewer { padding: 18px 14px; border-radius: 12px; gap: 20px; }
+  .bacteria-hero, .viewer-hero { gap: 14px; padding-bottom: 16px; flex-direction: column; align-items: stretch; }
+  .bacteria-title, .viewer-title { font-size: clamp(1.4rem, 6vw, 1.85rem); }
+  .bacteria-hero-actions, .viewer-hero-actions { align-items: stretch; width: 100%; gap: 10px; }
+  .bacteria-hero-actions .button, .viewer-quiz-btn { width: 100%; justify-content: center; min-height: 46px; font-size: 0.88rem; }
+  .bacteria-fact-card { flex-direction: column; align-items: stretch; gap: 10px; }
+  .fact-card-action .fact-slide-btn { width: 100%; justify-content: center; min-height: 44px; }
 
   /* Mobile Flashcard Matrix Grid */
   .organisms-matrix-grid { grid-template-columns: 1fr; gap: 14px; }
@@ -646,99 +637,58 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .microbe-stain-badge.neutral { background: #f0ece3; color: #17231c; border: 1px solid #dce3dc; }
 
 /* ==========================================================================
-   MASTER-DETAIL CLINICAL CONSOLE (Console View Mode)
+   BACTERIA SUMMARY & LITERAL SLIDE FACTS CONSOLE
    ========================================================================== */
-.dossier-workspace { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
+.bacteria-workspace, .dossier-workspace { display: grid; grid-template-columns: 310px 1fr; gap: 24px; align-items: start; }
 
-/* Master Directory Sidebar */
-.dossier-sidebar { position: sticky; top: 20px; max-height: calc(100vh - 60px); display: flex; flex-direction: column; padding: 16px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
-.dossier-sidebar-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; margin-bottom: 10px; border-bottom: 1px solid #ede8de; font-size: 0.82rem; }
-.dossier-sidebar-count { color: #17231c; font-weight: 600; }
-.dossier-sidebar-hint { color: #88968d; font-size: 0.75rem; }
-.dossier-dir-list { overflow-y: auto; display: flex; flex-direction: column; gap: 6px; padding-right: 4px; }
-.dossier-dir-card { display: flex; flex-direction: column; gap: 4px; padding: 10px 14px; text-align: left; border-radius: 10px; border: 1px solid #f0ece3; background: #fdfbf7; cursor: pointer; transition: all 0.15s ease; }
-.dossier-dir-card:hover { border-color: #dce3dc; background: #ffffff; transform: translateX(2px); }
-.dossier-dir-card.active { background: #ffffff; border-color: #17231c; border-left: 4px solid #17231c; box-shadow: 0 3px 10px rgba(0,0,0,0.07); }
-.dossier-dir-card.active.gram-pos { border-left-color: var(--gram-pos); }
-.dossier-dir-card.active.gram-neg { border-left-color: var(--gram-neg); }
-.dossier-dir-card.active.afb { border-left-color: var(--afb); }
+/* Directory Sidebar */
+.bacteria-sidebar, .dossier-sidebar { position: sticky; top: 20px; max-height: calc(100vh - 60px); display: flex; flex-direction: column; padding: 16px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
+.bacteria-sidebar-head, .dossier-sidebar-head { display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; margin-bottom: 10px; border-bottom: 1px solid #ede8de; font-size: 0.82rem; }
+.bacteria-sidebar-count, .dossier-sidebar-count { color: #17231c; font-weight: 600; }
+.bacteria-sidebar-hint, .dossier-sidebar-hint { color: #88968d; font-size: 0.75rem; }
+.bacteria-dir-list, .dossier-dir-list { overflow-y: auto; display: flex; flex-direction: column; gap: 6px; padding-right: 4px; }
+.bacteria-dir-card, .dossier-dir-card { display: flex; flex-direction: column; gap: 5px; padding: 10px 14px; text-align: left; border-radius: 10px; border: 1px solid #f0ece3; background: #fdfbf7; cursor: pointer; transition: all 0.15s ease; }
+.bacteria-dir-card:hover, .dossier-dir-card:hover { border-color: #dce3dc; background: #ffffff; transform: translateX(2px); }
+.bacteria-dir-card.active, .dossier-dir-card.active { background: #ffffff; border-color: #17231c; border-left: 4px solid #17231c; box-shadow: 0 3px 10px rgba(0,0,0,0.07); }
+.bacteria-dir-card.active.gram-pos, .dossier-dir-card.active.gram-pos { border-left-color: var(--gram-pos); }
+.bacteria-dir-card.active.gram-neg, .dossier-dir-card.active.gram-neg { border-left-color: var(--gram-neg); }
+.bacteria-dir-card.active.afb, .dossier-dir-card.active.afb { border-left-color: var(--afb); }
 
 .dir-card-top { display: flex; align-items: center; gap: 8px; }
 .dir-org-name { font-size: 0.95rem; color: #17231c; font-weight: 700; }
-.dir-card-hallmark { font-size: 0.76rem; color: #637568; line-height: 1.35; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.dir-card-meta { font-size: 0.76rem; color: #637568; line-height: 1.35; }
 
-/* Detail Dossier Viewer */
-.dossier-viewer { padding: 28px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); display: flex; flex-direction: column; gap: 26px; }
+/* Detail Viewer Panel */
+.bacteria-viewer, .dossier-viewer { padding: 28px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.04); display: flex; flex-direction: column; gap: 24px; }
 
-/* Hero Header */
-.viewer-hero { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 22px; border-bottom: 2px solid #ede8de; flex-wrap: wrap; }
-.viewer-hero-main { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 10px; }
-.viewer-badge-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.viewer-morph-pill { padding: 4px 10px; border-radius: 999px; background: #f0ece3; color: #35473c; font-size: 0.8rem; font-weight: 550; }
-.viewer-title { margin: 0; font-size: 2rem; color: #17231c; line-height: 1.2; letter-spacing: -0.02em; }
-.viewer-hallmark-banner { display: flex; align-items: flex-start; gap: 8px; padding: 10px 14px; background: #fbf9f2; border: 1px solid #e8ede7; border-left: 3px solid #ed8067; border-radius: 8px; font-size: 0.88rem; color: #17231c; line-height: 1.45; }
-.hallmark-sparkle { color: #ed8067; font-size: 1rem; line-height: 1; }
+/* Bacteria Hero */
+.bacteria-hero, .viewer-hero { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; padding-bottom: 20px; border-bottom: 2px solid #ede8de; flex-wrap: wrap; }
+.bacteria-hero-main, .viewer-hero-main { flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 8px; }
+.bacteria-badge-row, .viewer-badge-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.bacteria-points-badge { padding: 3px 10px; border-radius: 999px; background: #f0ece3; color: #35473c; font-size: 0.78rem; font-weight: 600; }
+.bacteria-title, .viewer-title { margin: 0; font-size: 2.1rem; color: #17231c; line-height: 1.2; letter-spacing: -0.02em; }
+.bacteria-subtitle { margin: 0; font-size: 0.88rem; color: #637568; line-height: 1.45; }
 
-.viewer-hero-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
-.viewer-quiz-btn { padding: 10px 18px; font-size: 0.88rem; font-weight: 600; border-radius: 8px; }
-.viewer-slide-links { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font-size: 0.78rem; }
-.viewer-slide-label { color: #88968d; font-weight: 600; }
+.bacteria-hero-actions, .viewer-hero-actions { display: flex; align-items: center; gap: 10px; }
 
-/* Clinical Modules */
-.viewer-modules-stack { display: flex; flex-direction: column; gap: 26px; }
-.viewer-module { display: flex; flex-direction: column; gap: 14px; }
-.module-head { display: flex; align-items: center; gap: 10px; border-bottom: 1px solid #f0ece3; padding-bottom: 8px; }
-.module-icon { font-size: 1.3rem; }
-.module-head h3 { margin: 0; font-size: 1.15rem; color: #17231c; font-weight: 700; }
-.module-body { display: flex; flex-direction: column; gap: 12px; }
+/* Lectures Stack */
+.bacteria-lectures-stack { display: flex; flex-direction: column; gap: 26px; }
+.bacteria-lecture-section { display: flex; flex-direction: column; gap: 12px; }
+.lecture-section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-bottom: 1px solid #e8ede7; padding-bottom: 8px; }
+.lecture-section-title { margin: 0; font-size: 1.05rem; font-weight: 700; color: #17231c; }
+.lecture-section-count { font-size: 0.76rem; color: #88968d; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
 
-/* Visual TSI Tube Widget */
-.tsi-widget { display: flex; align-items: center; gap: 18px; padding: 14px 18px; background: #fcfbf9; border: 1px solid #dce3dc; border-radius: 12px; box-shadow: inset 0 1px 3px rgba(0,0,0,0.02); }
-.tsi-tube-visual { width: 34px; height: 96px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.tsi-tube-glass { width: 28px; height: 92px; border: 2px solid #64748b; border-top: 1px solid #94a3b8; border-radius: 4px 4px 14px 14px; background: rgba(255,255,255,0.7); position: relative; overflow: hidden; box-shadow: inset 0 2px 4px rgba(0,0,0,0.1), 0 2px 6px rgba(0,0,0,0.06); display: flex; flex-direction: column; }
-.tsi-slant { height: 42px; width: 100%; transform: skewY(-22deg) translateY(-8px); transform-origin: top left; }
-.tsi-slant.acid { background: var(--tsi-acid); }
-.tsi-slant.alk { background: var(--tsi-alk); }
-.tsi-butt { flex: 1; width: 100%; position: relative; display: flex; align-items: center; justify-content: center; }
-.tsi-butt.acid { background: var(--tsi-acid); }
-.tsi-butt.alk { background: var(--tsi-alk); }
-.tsi-butt.has-h2s { background: var(--tsi-h2s) !important; color: #ffffff; }
-.tsi-h2s-tag { font-size: 0.6rem; font-weight: 800; color: #ffffff; letter-spacing: 0.05em; }
-.tsi-gas-bubbles { position: absolute; right: 2px; bottom: 2px; font-size: 0.7rem; }
-
-.tsi-tube-info { display: flex; flex-direction: column; gap: 8px; flex: 1; }
-.tsi-badge-title { font-size: 0.95rem; color: #17231c; font-weight: 600; }
-.tsi-specs { display: flex; gap: 8px; flex-wrap: wrap; }
-.tsi-spec-pill { padding: 3px 10px; border-radius: 6px; font-size: 0.78rem; font-weight: 600; border: 1px solid #dce3dc; background: #ffffff; }
-.tsi-spec-pill.acid { background: #fef9c3; color: #854d0e; border-color: #fde047; }
-.tsi-spec-pill.alk { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
-.tsi-spec-pill.gas-pos { background: #e0f2fe; color: #0369a1; border-color: #bae6fd; }
-.tsi-spec-pill.h2s-pos { background: #18181b; color: #ffffff; border-color: #000000; }
-
-/* Structured Profile Grids */
-.lab-profile-grid, .structure-tiles-grid, .virulence-weapons-grid, .clinical-syndromes-grid, .habitat-tiles-grid, .genetics-tiles-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px;
-}
-.lab-profile-tile, .structure-tile, .habitat-tile, .genetics-tile {
-  padding: 12px 14px; background: #fdfbf7; border: 1px solid #ede8de; border-radius: 10px; display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; line-height: 1.45;
-}
-.lab-tile-title, .structure-tile-title, .habitat-title, .genetics-title { color: #17231c; font-weight: 700; font-size: 0.9rem; }
-.lab-tile-desc, .structure-tile-desc, .habitat-desc, .genetics-desc { margin: 0; color: #35473c; }
-.lab-tile-citation, .tile-citation { align-self: flex-start; font-size: 0.72rem; color: #88968d; font-weight: 600; }
-
-/* Virulence Weapon Cards */
-.weapon-card { padding: 14px 16px; background: #fffcfc; border: 1px solid #fecdd3; border-left: 3px solid #e11d48; border-radius: 10px; display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; }
-.weapon-card-head { display: flex; align-items: center; gap: 8px; }
-.weapon-icon { font-size: 1rem; }
-.weapon-title { color: #9f1239; font-weight: 700; font-size: 0.92rem; }
-.weapon-desc { margin: 0; color: #35473c; line-height: 1.45; }
-
-/* Clinical Syndrome Cards */
-.syndrome-card { padding: 14px 16px; background: #fcfdfe; border: 1px solid #bfdbfe; border-left: 3px solid #2563eb; border-radius: 10px; display: flex; flex-direction: column; gap: 6px; font-size: 0.88rem; }
-.syndrome-card-head { display: flex; align-items: center; gap: 8px; }
-.syndrome-tag { background: #dbeafe; color: #1d4ed8; padding: 2px 7px; border-radius: 4px; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; }
-.syndrome-title { color: #1e3a8a; font-weight: 700; font-size: 0.92rem; }
-.syndrome-desc { margin: 0; color: #35473c; line-height: 1.45; }
+/* Bacteria Fact Cards */
+.bacteria-facts-list { display: flex; flex-direction: column; gap: 10px; }
+.bacteria-fact-card { display: flex; align-items: center; gap: 16px; padding: 14px 18px; background: #fdfbf7; border: 1px solid #e8ede7; border-radius: 12px; transition: all 0.15s ease; }
+.bacteria-fact-card:hover { border-color: #17231c; background: #ffffff; box-shadow: 0 3px 10px rgba(0,0,0,0.04); }
+.fact-card-indicator { flex-shrink: 0; }
+.slide-page-badge { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; padding: 6px 10px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 8px; font-size: 0.82rem; font-weight: 700; color: #17231c; font-family: var(--font-mono, monospace); box-shadow: 0 1px 2px rgba(0,0,0,0.03); }
+.fact-card-content { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.fact-slide-title { font-size: 0.74rem; font-weight: 700; color: #637568; text-transform: uppercase; letter-spacing: 0.03em; }
+.fact-slide-text { margin: 0; font-size: 0.92rem; color: #17231c; line-height: 1.5; }
+.fact-card-action { flex-shrink: 0; }
+.fact-slide-btn { white-space: nowrap; font-size: 0.8rem; font-weight: 600; padding: 6px 12px; border-radius: 8px; }
 
 /* ==========================================================================
    CARD MATRIX VIEW (Grid View Mode)

@@ -72,8 +72,8 @@ The Practice experience operates as a transparent question library:
   - Practiced / Solved count (with breakdown: `✓ Mastered` vs `↻ Missed`)
   - Unpracticed / Unseen count
 - **Target Selection Modes**:
-  - `🎯 All Questions`: Practice from the full chapter bank.
-  - `⚡ Unpracticed Only (New)`: Continue solving remaining unseen questions without repeating completed items.
+  - `All Questions`: Practice from the full chapter bank.
+  - `Unpracticed Only (New)`: Continue solving remaining unseen questions without repeating completed items.
   - `↻ Missed / Review`: Drill specifically into questions previously answered incorrectly to achieve mastery.
   - `↺ Re-solve Practiced`: Re-test previously answered questions.
 - **Question Bank Library Browser**:
