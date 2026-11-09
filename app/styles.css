@@ -319,7 +319,7 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 @media(max-width:1300px) { #main { padding:35px 32px 45px; } .topbar { padding:18px 32px; } .workspace-foot { margin:0 32px; } .hero h1 { font-size:4rem; } .hero { gap:10px; } .chapter-card { padding:20px; } .backup-panel { align-items:start; flex-direction:column; } .material-actions { gap:12px; } .coverage-strip { gap:20px; } .setup-grid { grid-template-columns:minmax(0,1.4fr) minmax(240px,1fr); } .chapter-picker { padding:23px; } }
 @media(max-width:1100px) { .sidebar { width:210px; padding:25px 16px; } .workspace { margin-left:210px; } .hero { grid-template-columns:1fr; } .atlas-art { display:none; } .hero h1 { font-size:4.4rem; } .hero { min-height:350px; } .chapter-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .coverage-strip { flex-wrap:wrap; } .coverage-bar-wrap { min-width:200px; } .coverage-strip>.text-button { width:100%; } .setup-grid { grid-template-columns:1fr; } .session-config { max-width:none; } .session-config h2 { margin-bottom:20px; } .two-up { grid-template-columns:1fr; } .progress-explainer { grid-template-columns:1fr; } .filter-row { max-width:100%; } .section-head:has(.filter-row) { align-items:start; flex-direction:column; } .material-actions { flex-direction:column; gap:9px; } .material-row h2 { font-size:1.4rem; } .material-row { gap:18px; } .evidence-grid { grid-template-columns:repeat(2,1fr); } .question-prompt { font-size:1.6rem; } }
 @media(max-width:760px) { .sidebar { position:relative; width:100%; border-right:0; border-bottom:1px solid var(--line); padding:17px 20px 0; display:block; } .brand img { width:33px; height:33px; } .brand>span { font-size:1.33rem; } .brand small { display:none; } .subject-switch,.sidebar-foot { display:none; } .sidebar nav { flex-direction:row; overflow-x:auto; padding:16px 0 12px; margin-right:-20px; gap:5px; scrollbar-width:thin; } .sidebar nav button { flex-shrink:0; min-height:38px; padding:8px 12px; font-size:.74rem; gap:7px; } .sidebar nav button>span { font-size:1rem; width:15px; } .sidebar nav button[data-go=settings] { margin-top:0; } .workspace { margin-left:0; } .topbar { min-height:55px; padding:14px 22px; font-size:.65rem; } .topbar>span>.muted { padding:0 7px; } .scope-tag { font-size:.6rem; padding:4px 9px; } #main { padding:29px 22px 35px; } .hero { min-height:340px; padding:10px 0 30px; } .hero h1 { font-size:clamp(3rem,10vw,4.8rem); } .hero-sub { font-size:.86rem; max-width:380px; margin:21px 0; } .hero .button { font-size:.75rem; gap:10px; padding:12px 15px; } .hero-caption { font-size:.65rem; margin-top:20px; } .coverage-strip { padding:20px 0; gap:16px; margin-bottom:31px; } .coverage-bar-wrap { width:100%; max-width:none; flex:auto; } .coverage-strip>.text-button { width:auto; } .section-head h2 { font-size:1.65rem; } .section-head>.text-button { font-size:.73rem; } .chapter-grid { gap:12px; } .chapter-card { min-height:220px; padding:17px; } .chapter-card h3 { font-size:1.2rem; } .chapter-card p { font-size:.63rem; } .chapter-card p span { padding:0 2px; } .card-bottom small { font-size:.59rem; } .round-button { min-width:31px; min-height:31px; } .chapter-number { margin-bottom:15px; } .feature-link { padding:24px; } .workspace-foot { margin:0 22px; padding:20px 0; flex-wrap:wrap; font-size:.62rem; } .workspace-foot button { font-size:.65rem; } .page-head { margin-top:3px; margin-bottom:27px; } .page-head h1 { font-size:2.6rem; } .lead { font-size:.84rem; margin-top:15px; } .panel { padding:23px; } .chapter-picker .section-head h2 { font-size:1.45rem; } .chapter-picker .section-head button { font-size:.65rem; } .chapter-choice { padding:19px 0; gap:12px; } .chapter-choice strong { font-size:.8rem; } .chapter-choice small { font-size:.65rem; } .session-top>div { gap:10px; } .session-top .text-button { font-size:.68rem; } .badge { font-size:.63rem; padding:6px 10px; } .session-progress { margin:19px 0 27px; } .question-prompt { font-size:1.4rem; } .option { font-size:1rem; gap:12px; padding:14px; min-height:65px; } .option-letter { width:26px; height:26px; } .question-bottom { gap:12px; align-items:start; } .question-bottom>.small { max-width:42%; font-size:.66rem; } .question-bottom .button { gap:8px; padding:12px 15px; font-size:.72rem; } .feedback { padding:20px; } .feedback-head { align-items:start; } .feedback-head>strong { font-size:.78rem; } .explanation { font-size:1rem; } .explanation[lang=ar] { font-size:1.125rem; } .source-link { font-size:.65rem; } .match-row { grid-template-columns:1fr; gap:11px; } .match-row>span { font-size:.84rem; } .match-row select { font-size:.78rem; } .order-list li { gap:12px; font-size:.78rem; padding:13px; } .order-list li>span:nth-child(2) { flex:1; } .order-list li>div { flex-direction:column; } .order-move { width:32px; height:30px; } .result-banner { padding:25px 20px; gap:18px; flex-wrap:wrap; justify-content:space-between; } .result-banner .score { font-size:3.1rem; } .score small { font-size:1.6rem; } .result-banner strong { font-size:1.9rem; } .result-banner p { font-size:.6rem; } .result-actions .button { width:100%; gap:10px; } .result-row summary { font-size:.8rem; gap:10px; } .result-detail { padding-left:0; } .evidence-card { padding:20px; } .evidence-card.active { padding:19px; } .evidence-card strong { font-size:2.1rem; } .progress-explainer h2 { font-size:1.55rem; } .backup-panel h2 { font-size:1.55rem; } .filter-row { width:100%; } .filter-row select { width:50%; font-size:.68rem; padding:8px; } .concept-row summary { gap:11px; } .concept-row strong { font-size:.75rem; } .concept-row small { font-size:.6rem; } .concept-state { font-size:.59rem; max-width:92px; } .concept-detail { padding:0 0 20px 20px; font-size:.75rem; } .source-summary { gap:26px; } .source-summary strong { font-size:2rem; } .source-summary span { font-size:.65rem; } .material-row { flex-wrap:wrap; gap:14px; padding:24px 0; } .material-row>div:not(.material-actions) { flex:1; min-width:200px; } .material-row h2 { font-size:1.45rem; } .material-row small { font-size:.6rem; overflow-wrap:anywhere; } .material-actions { width:100%; padding-left:33px; flex-direction:row; justify-content:start; gap:22px; } .material-row .chapter-number { align-self:start; margin-top:3px; } .source-notes { padding:21px; } .setting-field { flex-direction:column; align-items:start; gap:10px; font-size:.8rem; } .setting-field select { width:100%; } .settings-panel h2 { font-size:1.5rem; } .notice { padding:13px 22px; font-size:.73rem; } .source-dialog { width:100vw; max-width:100vw; height:100dvh; max-height:100dvh; border-radius:0; margin:0; } .source-header { padding:18px; } .source-header h2 { font-size:1.4rem; } .source-toolbar { gap:9px; padding:10px; } .source-foot { padding:8px 14px; font-size:.58rem; } }
-@media(max-width:400px) { .chapter-grid { grid-template-columns:1fr; } .chapter-card { min-height:200px; } .chapter-card h3 { min-height:0; font-size:1.45rem; } .hero .button-row { align-items:stretch; flex-direction:column; } .hero .button { justify-content:space-between; } .hero h1 { font-size:3.2rem; } .hero-caption { font-size:.6rem; } .source-summary { justify-content:space-between; gap:12px; } .source-summary span { font-size:.6rem; } .evidence-card { padding:17px; } .evidence-card.active { padding:16px; } }
+@media(max-width:400px) { .chapter-grid { grid-template-columns:1fr; } .chapter-card { min-height:200px; } .chapter-card h3 { min-height:0; font-size:1.45rem; } .hero .button-row { align-items:stretch; flex-direction:column; } .hero .button { justify-content:space-between; } .hero h1 { font-size:3.2rem; } .hero-caption { font-size:.6rem; } .source-summary { justify-content:space-between; gap:12px; } .source-summary span { font-size:.6rem; } .evidence-card { padding:17px; } .evidence-card.active { padding:16px; } .dossier-dir-card { flex:0 0 175px; } .tsi-widget { flex-direction:column; align-items:flex-start; } }
 @media(max-width:760px) { html[data-multi-subject=true] .subject-switch { display:block; margin:16px 0 0; } html[data-multi-subject=true] .subject-switch label,html[data-multi-subject=true] .subject-switch>span { display:none; } }
 
 /* Keep small interface labels readable on both wide and compact layouts. */
@@ -435,6 +435,16 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .option { min-height:52px; padding:14px 18px; font-size:.95rem; }
   .course-card { padding:24px; }
   .course-card h2 { font-size:1.6rem; }
+
+  /* iPad & Tablet Memorize Experience (Side-by-Side Clinical Console) */
+  .dossier-workspace { grid-template-columns: 260px 1fr; gap: 16px; }
+  .dossier-sidebar { position: sticky; top: 16px; max-height: calc(100vh - 80px); padding: 14px; }
+  .dossier-viewer { padding: 22px 20px; }
+  .viewer-title { font-size: 1.7rem; }
+  .sim-choices-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .organisms-matrix-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .flowchart-viewport { padding: 18px; }
+  .flow-branch-track { min-width: 200px; }
 }
 
 @media(max-width:760px) {
@@ -457,9 +467,89 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .chapter-choice input[type="checkbox"] { width:22px; height:22px; }
   .source-header { padding:max(14px, env(safe-area-inset-top)) 16px 14px; }
   .source-header button { min-width:44px; min-height:44px; }
-  .organisms-grid, .heuristics-grid { grid-template-columns:1fr; }
   .bank-stats-grid { flex-direction:column; gap:10px; }
   .matrix-controls-row { flex-direction:column; align-items:flex-start; }
+
+  /* Mobile Memorize Suite */
+  .memorize-subnav { gap: 6px; margin: 12px 0 16px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .memorize-nav-btn { padding: 8px 12px; font-size: 0.82rem; flex-shrink: 0; min-height: 40px; }
+  
+  .memorize-toolbar { padding: 14px 16px; gap: 12px; margin-bottom: 16px; }
+  .search-and-mode-row { flex-direction: column; align-items: stretch; gap: 10px; }
+  .search-input-wrap { width: 100%; min-width: 0; }
+  .search-input-wrap input { padding: 11px 36px; font-size: 16px !important; }
+  .view-mode-toggle { width: 100%; display: flex; }
+  .mode-pill { flex: 1; text-align: center; padding: 8px 10px; font-size: 0.8rem; }
+  .cat-pills-scroll { -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+  .cat-pill { padding: 6px 12px; font-size: 0.78rem; }
+  
+  /* Mobile Pathogen Directory: Horizontal Touch-Scroll Rail */
+  .dossier-workspace { display: flex; flex-direction: column; gap: 16px; }
+  .dossier-sidebar { position: static; max-height: none; padding: 12px 14px; width: 100%; }
+  .dossier-sidebar-head { padding-bottom: 8px; margin-bottom: 8px; }
+  .dossier-dir-list { flex-direction: row; overflow-x: auto; gap: 8px; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory; }
+  .dossier-dir-card { flex: 0 0 210px; scroll-snap-align: start; padding: 10px 12px; }
+  .dossier-dir-card.active { border-left-width: 1px; border-bottom: 3px solid #17231c; }
+  .dossier-dir-card.active.gram-pos { border-bottom-color: var(--gram-pos); }
+  .dossier-dir-card.active.gram-neg { border-bottom-color: var(--gram-neg); }
+  .dossier-dir-card.active.afb { border-bottom-color: var(--afb); }
+
+  /* Mobile Dossier Detail Viewer */
+  .dossier-viewer { padding: 18px 16px; border-radius: 12px; gap: 20px; }
+  .viewer-hero { gap: 14px; padding-bottom: 16px; flex-direction: column; align-items: stretch; }
+  .viewer-title { font-size: clamp(1.4rem, 6vw, 1.85rem); }
+  .viewer-hero-actions { align-items: stretch; width: 100%; gap: 10px; }
+  .viewer-quiz-btn { width: 100%; justify-content: center; min-height: 46px; font-size: 0.88rem; }
+  .viewer-slide-links { align-items: flex-start; }
+  
+  /* Mobile TSI Tube Widget & Profile Grids */
+  .tsi-widget { flex-direction: row; gap: 12px; padding: 12px 14px; }
+  .tsi-tube-visual { width: 28px; height: 84px; }
+  .tsi-tube-glass { width: 24px; height: 80px; }
+  .tsi-slant { height: 36px; }
+  .tsi-specs { gap: 5px; }
+  .tsi-spec-pill { font-size: 0.72rem; padding: 2px 7px; }
+  .lab-profile-grid, .structure-tiles-grid, .virulence-weapons-grid, .clinical-syndromes-grid, .habitat-tiles-grid, .genetics-tiles-grid {
+    grid-template-columns: 1fr; gap: 10px;
+  }
+
+  /* Mobile Flashcard Matrix Grid */
+  .organisms-matrix-grid { grid-template-columns: 1fr; gap: 14px; }
+
+  /* Mobile Diagnostic Trees & Simulator */
+  .tree-selector-bar { padding: 14px 16px; margin-bottom: 16px; }
+  .tree-pills { gap: 8px; overflow-x: auto; padding-bottom: 4px; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; }
+  .tree-pill { flex-shrink: 0; padding: 8px 14px; font-size: 0.85rem; }
+  
+  .sim-step-active { padding: 18px 16px; gap: 16px; border-radius: 12px; }
+  .sim-active-title { font-size: 1.2rem; }
+  .sim-choices-grid { grid-template-columns: 1fr; gap: 10px; }
+  .sim-choice-card { padding: 14px 16px; min-height: 48px; }
+  .sim-outcome-celebration { padding: 20px 16px; }
+  .sim-confirmed-title { font-size: 1.55rem; }
+  .sim-celebration-actions { flex-direction: column; }
+  .sim-celebration-actions .button { width: 100%; justify-content: center; min-height: 44px; }
+  .sim-breadcrumb-bar { padding: 10px 12px; font-size: 0.78rem; gap: 4px; }
+  .sim-crumb-btn { font-size: 0.76rem; padding: 2px 6px; }
+
+  /* Mobile Flowchart Viewport */
+  .flowchart-viewport { padding: 16px 12px; -webkit-overflow-scrolling: touch; }
+  .flow-step-card { max-width: 100%; padding: 12px 14px; }
+  .flow-step-title { font-size: 0.95rem; }
+  .flow-branches-container { gap: 14px; margin-left: 10px; padding-left: 10px; }
+  .flow-branch-track { min-width: 210px; }
+  .flow-outcome-card { max-width: 100%; padding: 12px 14px; }
+  .flow-outcome-name { font-size: 1.05rem; }
+
+  /* Mobile Matrices & Rules of Thumb */
+  .matrix-selector-bar { padding: 14px 16px; margin-bottom: 16px; }
+  .matrix-pills { gap: 8px; overflow-x: auto; padding-bottom: 4px; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; }
+  .matrix-pill { flex-shrink: 0; padding: 8px 14px; font-size: 0.85rem; }
+  .matrix-actions-bar { width: 100%; justify-content: space-between; }
+  .matrix-table-wrap { padding: 12px; }
+  .matrix-table th, .matrix-table td { padding: 10px 12px; font-size: 0.84rem; }
+  .heuristics-grid { grid-template-columns: 1fr; gap: 14px; }
+  .heuristic-card { padding: 18px 16px; }
 }
 
 /* Question Bank Library Bar & Filter Pills */
@@ -559,9 +649,6 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
    MASTER-DETAIL CLINICAL CONSOLE (Console View Mode)
    ========================================================================== */
 .dossier-workspace { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
-@media (max-width: 900px) {
-  .dossier-workspace { grid-template-columns: 1fr; }
-}
 
 /* Master Directory Sidebar */
 .dossier-sidebar { position: sticky; top: 20px; max-height: calc(100vh - 60px); display: flex; flex-direction: column; padding: 16px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }

@@ -262,6 +262,23 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - `python scripts/validate_content.py --subject general-microbiology`: 100% passed.
   - `python scripts/validate_content.py --subject molecular-biology`: 100% passed.
 
+## 2026-11-09 — Release 1.2.2: iPad & Mobile Responsive Ergonomics Calibration
+
+- **iPad & Tablet Calibration (761px – 1024px)**:
+  - Preserved the two-column Master-Detail Clinical Console on iPad portrait (768px) and landscape (1024px) with calibrated 260px sticky sidebar and 1fr reading pane.
+  - Configured 2-column tactile button grids for the Diagnostic Simulator choices.
+  - Added fluid horizontal touch panning with `-webkit-overflow-scrolling: touch` for the panoramic flowchart.
+- **Mobile Phone Calibration (<760px & <400px)**:
+  - Replaced the vertical sidebar bottleneck with a thumb-friendly horizontal touch-scroll card rail (`scroll-snap-type: x mandatory`). Students swipe horizontally across all 15 bacteria and tap any bug to render its detailed dossier directly below without scrolling past a wall of cards.
+  - Stacked toolbar search input and view mode switcher full-width for comfortable tapping.
+  - Calibrated touch targets (minimum 44–48px) for simulator choices, category pills, and quick-action buttons.
+  - Responsive TSI agar tube widget gracefully adapts to narrow screens.
+- **Verification**:
+  - `npm run check`: 0 errors.
+  - `npm test`: all 58 test suites passed.
+  - Cache-busted with `?v=1.2.2`.
+
+
 
 
 
