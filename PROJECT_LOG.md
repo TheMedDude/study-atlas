@@ -467,6 +467,31 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Executed Playwright end-to-end browser test (`work/test_question_id_e2e.mjs`): passed with zero errors.
   - Cache-busted assets to `v=1.2.10`.
 
+## 2026-11-10 - Release 1.2.11: Real-Time Question Library Search, Chapter/Status Filters & Fullscreen Workspace
+
+- **Problem Addressed**:
+  - User reported: `"i should be able to filter here and open the browse in a better way"` with a screenshot of the Question Library Browser.
+  - Limitations identified:
+    1. Browsing 409 questions had no search bar, no chapter filter, and no status filter, forcing students to scroll endlessly.
+    2. The table container was locked inside a small 420px box on the setup page.
+    3. Sticky table headers with `border-collapse: collapse` suffered from row-text bleed/clipping when scrolling.
+- **Implemented Live Filtering & Search**:
+  - **Live Search Input (`#bank-search-input`)**: Real-time filtering matching question prompt text, question ID (e.g. `p22-fecal`), or lecture chapter names with clear button (`✕`).
+  - **Chapter Filter Dropdown (`#bank-chapter-filter`)**: Select `All Chapters (409)` or any specific chapter (e.g., `Normal flora (41)`).
+  - **Status Filter Dropdown (`#bank-status-filter`)**: Select `All`, `• Unseen`, `✓ Mastered`, `↻ Missed`, or `★ Saved`.
+  - **Live Counter & Filter Reset**: Displays `Showing X of 409 questions` with a one-click `Reset filters` button.
+- **Full-Screen / Expanded Library Workspace**:
+  - Added a dedicated `⛶ Fullscreen` toggle button (`data-action="toggle-bank-fullscreen"`).
+  - Expands the library into a spacious fixed modal workspace (`.bank-browser.fullscreen`) utilizing the entire viewport width and height.
+  - Supports `Escape` key shortcut to exit fullscreen.
+- **Fixed Header Clipping & Visual Polish**:
+  - Converted table to `border-collapse: separate; border-spacing: 0;` with opaque header backgrounds (`#f5f2eb`) and solid borders (`2px solid #dce3dc`), completely eliminating text peeking through headers on scroll.
+- **Verification & Testing**:
+  - Added automated test in `tests/content.test.mjs` verifying search input, chapter/status filters, fullscreen toggle, and separate border-collapse styling (63/63 tests passing).
+  - Authored and executed Playwright headless Chrome test (`work/test_bank_browser_filter.mjs`): verified initial 409 rows, live keyword filtering with `"fecal"`, clearing search, chapter filtering to Normal flora (41 rows), fullscreen mode toggle, and single-item launch into Practice.
+  - Cache-busted assets to `v=1.2.11`.
+
+
 
 
 

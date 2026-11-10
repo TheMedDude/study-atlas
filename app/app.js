@@ -16,7 +16,7 @@ const names = { courses: 'Courses', home: 'Overview', memorize: 'Memorize', prac
 const symbols = { courses: '❖', home: '◈', memorize: '✦', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
-const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [] };
+const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [], bankSearch: '', bankChapter: 'all', bankStatus: 'all', bankBrowserOpen: false, bankFullscreen: false };
 let subject, subjectConfigs, lectures, chapters, concepts, activities, pages, sourceImages, uncertainties, coverage, progress, tick;
 let synthesisData = { organisms: [], trees: [], matrices: [], heuristics: [] };
 let study, lastCheckpoint = 0;
@@ -323,49 +323,116 @@ function setup(view) {
       </div>
     </section>`;
 
-    bankBrowserHTML = `<details class="panel bank-browser" id="bank-browser">
+    const bankQuery = (state.bankSearch || '').trim().toLowerCase();
+    const bankChap = state.bankChapter || 'all';
+    const bankStat = state.bankStatus || 'all';
+    const savedIds = new Set(study.bookmarks.filter(b => b.saved).map(b => b.activityId));
+
+    const filteredChoices = choices.filter(a => {
+      if (bankChap !== 'all' && a.lectureId !== bankChap) return false;
+      if (bankStat === 'unseen' && seenIds.has(a.id)) return false;
+      if (bankStat === 'mastered' && !correctIds.has(a.id)) return false;
+      if (bankStat === 'missed' && !missedIds.has(a.id)) return false;
+      if (bankStat === 'saved' && !savedIds.has(a.id)) return false;
+      if (bankQuery) {
+        const inPrompt = a.prompt.toLowerCase().includes(bankQuery);
+        const inId = a.id.toLowerCase().includes(bankQuery);
+        const inChap = (chapterTitle(a.lectureId) || '').toLowerCase().includes(bankQuery);
+        if (!inPrompt && !inId && !inChap) return false;
+      }
+      return true;
+    });
+
+    const isFiltered = Boolean(bankQuery || bankChap !== 'all' || bankStat !== 'all');
+    const isBrowserOpen = state.bankBrowserOpen || state.bankFullscreen || isFiltered;
+
+    bankBrowserHTML = `<details class="panel bank-browser ${state.bankFullscreen ? 'fullscreen' : ''}" id="bank-browser" ${isBrowserOpen ? 'open' : ''}>
       <summary class="bank-browser-summary">
-        <span>Browse Question Library (${choices.length} questions)</span>
-        <small class="muted">Inspect items, review mastery, or solve individual questions</small>
+        <div class="summary-title-group">
+          <span>Browse Question Library (${choices.length} questions)</span>
+          <small class="muted">Search by keyword or ID, filter by chapter/status, or solve individual questions</small>
+        </div>
+        <div class="summary-actions">
+          <button type="button" class="button outline small bank-expand-btn" data-action="toggle-bank-fullscreen">
+            ${state.bankFullscreen ? '✕ Exit Fullscreen' : '⛶ Fullscreen'}
+          </button>
+        </div>
       </summary>
       <div class="bank-browser-content">
+        <div class="bank-browser-toolbar">
+          <div class="bank-search-wrap">
+            <input type="search" id="bank-search-input" class="bank-search-input" placeholder="Search by question text, ID (e.g. p22-fecal), or keyword..." value="${esc(state.bankSearch || '')}" aria-label="Search question library">
+            ${state.bankSearch ? `<button type="button" class="search-clear-btn" data-action="clear-bank-search" aria-label="Clear search">✕</button>` : ''}
+          </div>
+          <div class="bank-filter-controls">
+            <label class="bank-filter-field">
+              <span class="filter-label">Chapter:</span>
+              <select id="bank-chapter-filter" class="bank-filter-select" aria-label="Filter by chapter">
+                <option value="all">All Chapters (${choices.length})</option>
+                ${chapters.map(ch => {
+                  const count = choices.filter(a => a.lectureId === ch.id).length;
+                  return `<option value="${esc(ch.id)}" ${bankChap === ch.id ? 'selected' : ''}>${esc(chapterTitle(ch.id))} (${count})</option>`;
+                }).join('')}
+              </select>
+            </label>
+            <label class="bank-filter-field">
+              <span class="filter-label">Status:</span>
+              <select id="bank-status-filter" class="bank-filter-select" aria-label="Filter by status">
+                <option value="all" ${bankStat === 'all' ? 'selected' : ''}>All Statuses (${choices.length})</option>
+                <option value="unseen" ${bankStat === 'unseen' ? 'selected' : ''}>• Unseen (${unpracticedCount})</option>
+                <option value="mastered" ${bankStat === 'mastered' ? 'selected' : ''}>✓ Mastered (${correctIds.size})</option>
+                <option value="missed" ${bankStat === 'missed' ? 'selected' : ''}>↻ Missed (${missedCount})</option>
+                <option value="saved" ${bankStat === 'saved' ? 'selected' : ''}>★ Saved (${choices.filter(a => savedIds.has(a.id)).length})</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="bank-results-bar">
+          <span class="muted small">Showing <strong>${filteredChoices.length}</strong> of ${choices.length} questions</span>
+          ${isFiltered ? `<button type="button" class="text-button small reset-filters-btn" data-action="reset-bank-filters">Reset filters</button>` : ''}
+        </div>
+        ${filteredChoices.length ? `
         <div class="bank-browser-table-wrap">
           <table class="bank-browser-table">
             <thead>
               <tr>
-                <th>#</th>
-                <th>Status</th>
-                <th>Chapter</th>
-                <th>Question Prompt</th>
-                <th>Source</th>
-                <th>Action</th>
+                <th class="col-num">#</th>
+                <th class="col-status">Status</th>
+                <th class="col-chap">Chapter</th>
+                <th class="col-prompt">Question Prompt</th>
+                <th class="col-src">Source</th>
+                <th class="col-action">Action</th>
               </tr>
             </thead>
             <tbody>
-              ${choices.map((a, i) => {
+              ${filteredChoices.map((a, i) => {
                 const isSolved = correctIds.has(a.id);
                 const isMissed = missedIds.has(a.id);
                 const isPracticed = seenIds.has(a.id);
                 const badgeCls = isSolved ? 'good' : isMissed ? 'bad' : isPracticed ? 'neutral' : 'unseen';
                 const badgeText = isSolved ? '✓ Mastered' : isMissed ? '↻ Missed' : isPracticed ? 'Solved' : '• Unseen';
-                const isSaved = study.bookmarks.some(b => b.activityId === a.id && b.saved);
+                const isSaved = savedIds.has(a.id);
                 return `<tr>
-                  <td><span class="muted small">${i + 1}</span></td>
-                  <td><span class="badge ${badgeCls}">${badgeText}</span>${isSaved ? ' <span class="bank-star" title="Saved">★</span>' : ''}</td>
-                  <td><small>${esc(chapterTitle(a.lectureId))}</small></td>
+                  <td class="col-num"><span class="muted small">${i + 1}</span></td>
+                  <td class="col-status"><span class="badge ${badgeCls}">${badgeText}</span>${isSaved ? ' <span class="bank-star" title="Saved">★</span>' : ''}</td>
+                  <td class="col-chap"><small>${esc(chapterTitle(a.lectureId))}</small></td>
                   <td class="prompt-col">
                     <div class="prompt-title-row">
                       <button type="button" class="micro-id-pill" data-copy-id="${esc(a.id)}" title="Click to copy Question ID">${esc(a.id)} <span class="copy-icon">⎘</span></button>
                     </div>
                     <strong>${esc(a.prompt)}</strong>
                   </td>
-                  <td><small class="muted">PDF p${a.sourceRefs[0]?.pdfPage || '—'}</small></td>
-                  <td><button type="button" class="text-button bank-solve-btn" data-launch-single="${esc(a.id)}">Solve ↗</button></td>
+                  <td class="col-src"><small class="muted">PDF p${a.sourceRefs[0]?.pdfPage || '—'}</small></td>
+                  <td class="col-action"><button type="button" class="text-button bank-solve-btn" data-launch-single="${esc(a.id)}">Solve ↗</button></td>
                 </tr>`;
               }).join('')}
             </tbody>
           </table>
-        </div>
+        </div>` : `
+        <div class="empty-state compact">
+          <p>No questions match your current search and filters.</p>
+          <button type="button" class="button outline small" data-action="reset-bank-filters">Reset filters</button>
+        </div>`}
       </div>
     </details>`;
   }
@@ -1231,6 +1298,9 @@ document.addEventListener('click', async event => {
     case 'close-source': closeSource(); break;
     case 'full-source': state.source.full = true; renderSource(); break;
     case 'source-zoom': state.source.zoom = !state.source.zoom; renderSource(); break;
+    case 'clear-bank-search': state.bankSearch = ''; state.bankBrowserOpen = true; render(); break;
+    case 'reset-bank-filters': state.bankSearch = ''; state.bankChapter = 'all'; state.bankStatus = 'all'; state.bankBrowserOpen = true; render(); break;
+    case 'toggle-bank-fullscreen': state.bankFullscreen = !state.bankFullscreen; state.bankBrowserOpen = true; render(); break;
   }
 });
 document.addEventListener('change', async event => {
@@ -1241,6 +1311,8 @@ document.addEventListener('change', async event => {
     const destination = new URL(location.href); destination.searchParams.set('subject', input.value); destination.hash = 'home'; location.assign(destination.href); return;
   }
   if (input.matches('.chapter-check')) updateSetup();
+  if (input.id === 'bank-chapter-filter') { state.bankChapter = input.value; state.bankBrowserOpen = true; render(); }
+  if (input.id === 'bank-status-filter') { state.bankStatus = input.value; state.bankBrowserOpen = true; render(); }
   if (input.id === 'use-timer') $('#timer-minutes').disabled = !input.checked;
   if (input.id === 'occlusion-toggle') { state.occluded = input.checked; render(); }
   if (input.id === 'progress-chapter') { state.chapterFilter = input.value; render(); }
@@ -1266,6 +1338,17 @@ document.addEventListener('change', async event => {
   }
 });
 document.addEventListener('input', event => {
+  if (event.target.id === 'bank-search-input') {
+    state.bankSearch = event.target.value;
+    state.bankBrowserOpen = true;
+    const pos = event.target.selectionStart;
+    render();
+    const input = $('#bank-search-input');
+    if (input) {
+      input.focus();
+      if (pos !== null) input.setSelectionRange(pos, pos);
+    }
+  }
   if (event.target.id === 'organism-search') {
     state.memorizeSearch = event.target.value;
     const pos = event.target.selectionStart;
@@ -1291,7 +1374,13 @@ document.addEventListener('submit', event => {
     const saved = saveSettings(storage, state.settings); render(); notice(saved ? 'Preferences saved.' : 'Preferences apply for this visit. Browser storage is unavailable.', !saved);
   }
 });
+document.addEventListener('toggle', event => {
+  if (event.target.id === 'bank-browser') {
+    state.bankBrowserOpen = event.target.open;
+  }
+}, true);
 window.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && state.bankFullscreen) { event.preventDefault(); state.bankFullscreen = false; render(); return; }
   if (event.key === 'Escape' && state.source) { event.preventDefault(); closeSource(); return; }
   if (event.defaultPrevented || event.repeat || event.ctrlKey || event.metaKey || event.altKey || event.isComposing || event.target.closest('input,select,textarea,[contenteditable="true"]')) return;
   if (document.querySelector('dialog[open]:not(.source-dialog)')) return;

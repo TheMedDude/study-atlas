@@ -585,22 +585,238 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .bank-pill:disabled { opacity: 0.45; cursor: not-allowed; }
 
 /* Question Library Browser */
-.bank-browser { margin-top: 24px; padding: 16px 20px; background: #ffffff; border: 1px solid #dce3dc; border-radius: 12px; }
-.bank-browser-summary { display: flex; justify-content: space-between; align-items: center; cursor: pointer; font-weight: 600; font-size: 1rem; color: #17231c; }
-.bank-browser-content { margin-top: 16px; }
-.bank-browser-table-wrap { max-height: 420px; overflow-y: auto; border: 1px solid #ede8de; border-radius: 8px; }
-.bank-browser-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left; }
-.bank-browser-table th { position: sticky; top: 0; background: #f5f2eb; padding: 10px 12px; font-weight: 600; border-bottom: 1px solid #dce3dc; z-index: 1; }
-.bank-browser-table td { padding: 10px 12px; border-bottom: 1px solid #f0ece3; vertical-align: middle; }
-.bank-browser-table tr:hover { background: #faf8f5; }
-.bank-browser-table .prompt-col { max-width: 380px; }
+.bank-browser {
+  margin-top: 24px;
+  padding: 18px 22px;
+  background: var(--paper, #ffffff);
+  border: 1px solid var(--line, #dce3dc);
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+.bank-browser.fullscreen {
+  position: fixed;
+  inset: 16px;
+  z-index: 1000;
+  margin: 0;
+  padding: 22px 26px;
+  background: var(--paper, #ffffff);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.32), 0 0 0 1px var(--line, #dce3dc);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 32px);
+  overflow: hidden;
+}
+.bank-browser.fullscreen .bank-browser-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+.bank-browser.fullscreen .bank-browser-table-wrap {
+  flex: 1;
+  max-height: none;
+  min-height: 0;
+}
+.bank-browser-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ink, #17231c);
+  list-style: none;
+}
+.bank-browser-summary::-webkit-details-marker { display: none; }
+.summary-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.summary-title-group span {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.summary-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bank-expand-btn {
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--surface, #f5f2eb);
+  border: 1px solid var(--line, #dce3dc);
+  color: var(--ink, #17231c);
+  font-weight: 600;
+  transition: all 0.15s ease;
+}
+.bank-expand-btn:hover {
+  background: #ede8dc;
+  border-color: var(--accent, #ed8067);
+}
+.bank-browser-content {
+  margin-top: 16px;
+}
+.bank-browser-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line, #ede8de);
+}
+.bank-search-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 250px;
+}
+.bank-search-input {
+  width: 100%;
+  padding: 8px 30px 8px 12px;
+  font-size: 0.86rem;
+  border: 1px solid var(--line, #dce3dc);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink, #17231c);
+  box-sizing: border-box;
+}
+.bank-search-input:focus {
+  outline: none;
+  border-color: var(--primary, #2a5241);
+  box-shadow: 0 0 0 3px rgba(42,82,65,0.12);
+}
+.search-clear-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--muted, #647467);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 2px 6px;
+}
+.bank-filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.bank-filter-field {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--muted, #647467);
+}
+.filter-label {
+  font-weight: 500;
+}
+.bank-filter-select {
+  padding: 6px 10px;
+  font-size: 0.82rem;
+  border: 1px solid var(--line, #dce3dc);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink, #17231c);
+  cursor: pointer;
+}
+.bank-filter-select:focus {
+  outline: none;
+  border-color: var(--primary, #2a5241);
+}
+.bank-results-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.82rem;
+}
+.reset-filters-btn {
+  font-size: 0.8rem;
+  color: var(--accent, #ed8067);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bank-browser-table-wrap {
+  max-height: 480px;
+  overflow-y: auto;
+  border: 1px solid var(--line, #ede8de);
+  border-radius: 10px;
+  background: #ffffff;
+}
+.bank-browser-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.85rem;
+  text-align: left;
+}
+.bank-browser-table th {
+  position: sticky;
+  top: 0;
+  background: #f5f2eb;
+  padding: 12px 14px;
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted, #647467);
+  border-bottom: 2px solid var(--line, #dce3dc);
+  z-index: 10;
+}
+.bank-browser-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f0ece3;
+  vertical-align: middle;
+  background: #ffffff;
+}
+.bank-browser-table tr:hover td {
+  background: #faf8f5;
+}
+.bank-browser-table .col-num { width: 44px; text-align: center; }
+.bank-browser-table .col-status { width: 110px; }
+.bank-browser-table .col-chap { width: 140px; }
+.bank-browser-table .col-src { width: 85px; }
+.bank-browser-table .col-action { width: 75px; text-align: right; }
+.bank-browser-table .prompt-col { min-width: 280px; max-width: 480px; }
 .bank-badge { display: inline-block; padding: 3px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600; }
 .bank-badge.good { background: #e2ec98; color: #17231c; }
 .bank-badge.bad { background: #fce4dc; color: #9a3412; }
 .bank-badge.neutral { background: #e8ede7; color: #35473c; }
 .bank-badge.unseen { background: #f0f0ee; color: #6b7280; }
 .bank-star { color: #f59e0b; margin-left: 4px; }
-.bank-solve-btn { font-size: 0.8rem; font-weight: 600; color: #ed8067; }
+.bank-solve-btn { font-size: 0.82rem; font-weight: 600; color: #ed8067; cursor: pointer; }
+.empty-state.compact { padding: 32px 16px; text-align: center; }
+@media (max-width: 768px) {
+  .bank-browser.fullscreen {
+    inset: 6px;
+    padding: 14px;
+    border-radius: 12px;
+  }
+  .bank-browser-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .bank-filter-controls {
+    justify-content: space-between;
+  }
+  .bank-filter-field {
+    flex: 1;
+  }
+  .bank-filter-select {
+    width: 100%;
+  }
+}
 
 /* ==========================================================================
    MEMORIZE ROOM: CLINICAL DOSSIERS, DIAGNOSTIC TREES & SYNTHESIS ENGINE

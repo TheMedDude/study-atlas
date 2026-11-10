@@ -138,3 +138,13 @@ test('question ID pill with 1-click copy and URL parameter jump are implemented'
   assert.ok(appJs.includes('b.dataset.copyId'), 'app.js must handle data-copy-id click event');
   assert.ok(appJs.includes('searchParams.get(\'q\')'), 'app.js must support direct question launch via ?q=<id>');
 });
+test('Question Library Browser supports search, chapter/status filters, and fullscreen expansion',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  const css=fs.readFileSync(path.join(root,'app/styles.css'),'utf8');
+  assert.ok(appJs.includes('bank-search-input'), 'app.js must provide bank search input');
+  assert.ok(appJs.includes('bank-chapter-filter'), 'app.js must provide chapter filter dropdown');
+  assert.ok(appJs.includes('bank-status-filter'), 'app.js must provide status filter dropdown');
+  assert.ok(appJs.includes('toggle-bank-fullscreen'), 'app.js must support fullscreen toggle');
+  assert.ok(css.includes('.bank-browser.fullscreen'), 'styles.css must style fullscreen browser view');
+  assert.ok(css.includes('border-collapse: separate'), 'styles.css must prevent sticky header clipping with separate border-collapse');
+});
