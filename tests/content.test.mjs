@@ -152,3 +152,31 @@ test('Question Library Browser supports search, chapter/status filters, and full
   assert.ok(css.includes('.bank-browser.fullscreen'), 'styles.css must style fullscreen browser view');
   assert.ok(css.includes('border-collapse: separate'), 'styles.css must prevent sticky header clipping with separate border-collapse');
 });
+test('Classification Tree provides upfront panoramic view, mode switcher, and organism pills',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  const css=fs.readFileSync(path.join(root,'app/styles.css'),'utf8');
+  const trees=read('subjects/general-microbiology/synthesis/trees.json').trees;
+  assert.ok(appJs.includes('treeViewMode'), 'app.js must track treeViewMode in state');
+  assert.ok(appJs.includes('tree-mode-btn'), 'app.js must provide tree view mode switch buttons');
+  assert.ok(appJs.includes('data-set-tree-mode'), 'app.js must handle mode toggle');
+  assert.ok(appJs.includes('tree-full-view'), 'app.js must render tree-full-view as primary view');
+  assert.ok(appJs.includes('flow-org-pill'), 'app.js must render representative organism pills');
+  assert.ok(appJs.includes('data-view-in-tree'), 'app.js must provide View in Tree button');
+  assert.ok(css.includes('.tree-mode-toggle'), 'styles.css must style tree mode toggle');
+  assert.ok(css.includes('.flow-org-pill'), 'styles.css must style flow-org-pill');
+  assert.ok(css.includes('.highlight-pulse'), 'styles.css must style highlight-pulse');
+  
+  // Verify trees have representative organisms
+  const taxTree = trees.find(t => t.id === 'bacterial-taxonomic-classification');
+  assert.ok(taxTree, 'bacterial-taxonomic-classification tree must exist');
+  const treeStr = JSON.stringify(taxTree);
+  assert.ok(treeStr.includes('viridans-streptococci'), 'taxonomic tree must link viridans-streptococci');
+  assert.ok(treeStr.includes('clostridioides-difficile'), 'taxonomic tree must link clostridioides-difficile');
+  assert.ok(treeStr.includes('bacteroides-fragilis'), 'taxonomic tree must link bacteroides-fragilis');
+  assert.ok(treeStr.includes('helicobacter-pylori'), 'taxonomic tree must link helicobacter-pylori');
+});
+test('Subject persistence via localStorage is supported in init and course selection',()=>{
+  const appJs=fs.readFileSync(path.join(root,'app/app.js'),'utf8');
+  assert.ok(appJs.includes("'study-atlas:last-subject'"), 'app.js must persist last visited subject to localStorage');
+  assert.ok(appJs.includes('data-switch-subject'), 'app.js must offer direct subject switch button in empty states');
+});

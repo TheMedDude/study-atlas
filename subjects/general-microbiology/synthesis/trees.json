@@ -5,7 +5,7 @@
     {
       "id": "bacterial-taxonomic-classification",
       "title": "Linnean Classification of Medically Important Bacteria (Table 5-1)",
-      "summary": "Master taxonomic scheme classifying bacteria by cell wall architecture (rigid, flexible, absent), free-living capacity, Gram stain, morphology, and oxygen requirements.",
+      "summary": "Master taxonomic scheme from Lecture 1 (Table 5-1, Slides 57–63) classifying bacteria by cell wall architecture (rigid, flexible, absent), free-living capacity, Gram stain, morphology, and oxygen requirements.",
       "root": {
         "step": "Nature of the Bacterial Cell Wall",
         "prompt": "Evaluate cell wall architecture: rigid peptidoglycan wall, flexible thin wall, or absent wall [L1 p57]",
@@ -34,8 +34,17 @@
                             {
                               "label": "Spherical cells (Cocci in clusters or chains)",
                               "outcome": {
-                                "name": "Gram-Positive Cocci: Staphylococcus & Streptococcus",
-                                "clues": "Staphylococcus (grape-like clusters; S. aureus, S. epidermidis) and Streptococcus (chains or pairs; S. pneumoniae, S. pyogenes) [L1 p8, 58].",
+                                "name": "Gram-Positive Cocci: Staphylococci, Streptococci & Enterococci",
+                                "clues": "Catalase-positive clusters: Staphylococcus aureus, S. epidermidis, S. saprophyticus. Catalase-negative chains/pairs: Streptococcus pneumoniae, Streptococcus pyogenes, Viridans group streptococci (S. mutans, S. mitis), and Enterococcus faecalis [L1 p8, 58; L4 p18, 21].",
+                                "organismIds": [
+                                  "staphylococcus-aureus",
+                                  "staphylococcus-epidermidis",
+                                  "staphylococcus-saprophyticus",
+                                  "streptococcus-pneumoniae",
+                                  "streptococcus-pyogenes",
+                                  "viridans-streptococci",
+                                  "enterococcus-faecalis"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
@@ -44,6 +53,14 @@
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
                                     "pdfPage": 58
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 18
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 21
                                   }
                                 ]
                               }
@@ -52,11 +69,22 @@
                               "label": "Spore-Forming Rods (Endospores present)",
                               "outcome": {
                                 "name": "Spore-Forming Gram-Positive Rods: Bacillus & Clostridium",
-                                "clues": "Bacillus (aerobic spore-former; B. anthracis) and Clostridium (anaerobic spore-former; C. tetani, C. botulinum) [L1 p52, 58].",
+                                "clues": "Aerobic spore-former: Bacillus anthracis. Obligate anaerobic spore-formers: Clostridium tetani, Clostridium botulinum, Clostridioides difficile, and Clostridium perfringens [L1 p52, 54, 58].",
+                                "organismIds": [
+                                  "bacillus-anthracis",
+                                  "clostridium-tetani",
+                                  "clostridium-botulinum",
+                                  "clostridioides-difficile",
+                                  "clostridium-perfringens"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
                                     "pdfPage": 52
+                                  },
+                                  {
+                                    "lectureId": "bacteria-and-other-microorganisms",
+                                    "pdfPage": 54
                                   },
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
@@ -68,12 +96,27 @@
                             {
                               "label": "Non-Spore-Forming Rods (No endospores)",
                               "outcome": {
-                                "name": "Non-Spore-Forming Gram-Positive Rods: Corynebacterium & Listeria",
-                                "clues": "Non-spore-forming Gram-positive bacilli include Corynebacterium (diphtheroids) and Listeria [L1 p58].",
+                                "name": "Non-Spore-Forming Gram-Positive Rods: Corynebacterium, Listeria & Commensals",
+                                "clues": "Pleomorphic club-shaped rods: Corynebacterium diphtheriae and skin/nasopharyngeal diphtheroids. Psychrotolerant motile rod: Listeria monocytogenes. Fermentative rods: Cutibacterium acnes, Lactobacillus acidophilus, and Bifidobacterium bifidum [L1 p58; L4 p18, 24].",
+                                "organismIds": [
+                                  "corynebacterium-diphtheriae",
+                                  "listeria-monocytogenes",
+                                  "cutibacterium-acnes",
+                                  "lactobacillus-species",
+                                  "bifidobacterium-bifidum"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
                                     "pdfPage": 58
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 18
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 24
                                   }
                                 ]
                               }
@@ -86,13 +129,17 @@
                         "organismGroup": "Gram-negative eubacteria [L1 p15, 59]",
                         "next": {
                           "step": "Cell Shape & Primary Clinical/Anatomic Division",
-                          "prompt": "Determine morphology (cocci, straight rods, curved rods) and primary niche [L1 p56, 59, 60]",
+                          "prompt": "Distinguish diplococci from straight rods (enteric/respiratory/zoonotic) and curved rods [L1 p8, 59]",
                           "branches": [
                             {
                               "label": "Gram-Negative Diplococci",
                               "outcome": {
                                 "name": "Gram-Negative Cocci: Neisseria Genus",
-                                "clues": "Kidney bean-shaped diplococci: Neisseria meningitidis (meningococcus) and Neisseria gonorrhoeae (gonococcus) [L1 p8, 59].",
+                                "clues": "Kidney bean-shaped diplococci: Neisseria meningitidis (encapsulated meningococcus) and Neisseria gonorrhoeae (non-encapsulated gonococcus) [L1 p8, 59].",
+                                "organismIds": [
+                                  "neisseria-meningitidis",
+                                  "neisseria-gonorrhoeae"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
@@ -109,7 +156,20 @@
                               "label": "Gram-Negative Straight Rods (Enteric, Respiratory, Zoonotic)",
                               "outcome": {
                                 "name": "Gram-Negative Straight Bacilli: Enteric, Respiratory & Zoonotic",
-                                "clues": "Enteric: E. coli, Salmonella, Shigella, Klebsiella, Proteus, Pseudomonas; Respiratory: Haemophilus, Bordetella, Legionella; Zoonotic: Brucella, Francisella, Yersinia [L1 p56, 59].",
+                                "clues": "Enteric/abdominal: Escherichia coli, Salmonella enterica, Shigella dysenteriae, Klebsiella pneumoniae, Proteus mirabilis, Pseudomonas aeruginosa, Bacteroides fragilis, Fusobacterium. Respiratory: Haemophilus influenzae, Legionella pneumophila. Zoonotic: Yersinia pestis [L1 p56, 59; L4 p18, 22].",
+                                "organismIds": [
+                                  "escherichia-coli",
+                                  "salmonella-enterica",
+                                  "shigella-dysenteriae",
+                                  "klebsiella-pneumoniae",
+                                  "proteus-mirabilis",
+                                  "pseudomonas-aeruginosa",
+                                  "bacteroides-fragilis",
+                                  "fusobacterium-nucleatum",
+                                  "haemophilus-influenzae",
+                                  "legionella-pneumophila",
+                                  "yersinia-species"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
@@ -118,6 +178,14 @@
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
                                     "pdfPage": 59
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 18
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 22
                                   }
                                 ]
                               }
@@ -126,7 +194,12 @@
                               "label": "Gram-Negative Curved Rods (Comma-shaped or helical)",
                               "outcome": {
                                 "name": "Gram-Negative Curved Rods: Vibrio, Campylobacter & Helicobacter",
-                                "clues": "Comma-shaped Vibrio cholerae, microaerophilic Campylobacter jejuni, and Helicobacter pylori [L1 p8, 60].",
+                                "clues": "Comma-shaped Vibrio cholerae (waterborne enterotoxin), microaerophilic thermophilic Campylobacter jejuni (gull-wing enteritis), and Helicobacter pylori (gastric mucosal urease) [L1 p8, 60; L4 p13].",
+                                "organismIds": [
+                                  "vibrio-cholerae",
+                                  "campylobacter-jejuni",
+                                  "helicobacter-pylori"
+                                ],
                                 "sourceRefs": [
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
@@ -135,6 +208,10 @@
                                   {
                                     "lectureId": "bacteria-and-other-microorganisms",
                                     "pdfPage": 60
+                                  },
+                                  {
+                                    "lectureId": "normal-flora",
+                                    "pdfPage": 13
                                   }
                                 ]
                               }
@@ -146,7 +223,10 @@
                         "label": "Acid-Fast Rods (Mycolic acid lipid-rich wall)",
                         "outcome": {
                           "name": "Acid-Fast Bacilli: Mycobacterium Genus",
-                          "clues": "High lipid/mycolic acid content resists standard Gram stain; retains carbolfuchsin red on Ziehl-Neelsen stain (M. tuberculosis) [L1 p33, 60].",
+                          "clues": "High lipid / mycolic acid content resists standard crystal violet Gram stain; retains red carbolfuchsin counterstain on Ziehl-Neelsen acid-fast stain (Mycobacterium tuberculosis) [L1 p33, 60].",
+                          "organismIds": [
+                            "mycobacterium-tuberculosis"
+                          ],
                           "sourceRefs": [
                             {
                               "lectureId": "bacteria-and-other-microorganisms",
@@ -166,7 +246,11 @@
                   "label": "Non-Free-Living (Obligate intracellular parasites)",
                   "outcome": {
                     "name": "Obligate Intracellular Bacteria: Rickettsia & Chlamydia",
-                    "clues": "Cannot replicate on artificial cell-free media; rely strictly on host cell ATP and intracellular cytoplasm [L1 p57, 60, 63].",
+                    "clues": "Cannot replicate on artificial cell-free bacteriological media; rely strictly on host eukaryotic cell ATP and cytoplasmic intermediates (Chlamydia trachomatis, Rickettsia rickettsii, Rickettsia prowazekii) [L1 p57, 60, 63; L3 p13].",
+                    "organismIds": [
+                      "chlamydia-trachomatis",
+                      "rickettsia-species"
+                    ],
                     "sourceRefs": [
                       {
                         "lectureId": "bacteria-and-other-microorganisms",
@@ -175,6 +259,10 @@
                       {
                         "lectureId": "bacteria-and-other-microorganisms",
                         "pdfPage": 60
+                      },
+                      {
+                        "lectureId": "bacterial-growth",
+                        "pdfPage": 13
                       }
                     ]
                   }
@@ -186,11 +274,19 @@
             "label": "Flexible, Thin Cell Wall (Spirochetes)",
             "outcome": {
               "name": "Spirochetes: Treponema, Borrelia & Leptospira",
-              "clues": "Spiral, flexible, slender undulating rods; require darkfield or fluorescent microscopy (Treponema pallidum, Borrelia, Leptospira) [L1 p8, 57, 60].",
+              "clues": "Slender, flexible spiral bacteria with periplasmic axial filaments: Treponema pallidum (too thin for Gram stain; darkfield/DFA) and Borrelia species (B. burgdorferi, B. recurrentis; Giemsa/Wright stained) [L1 p8, 32, 57, 60].",
+              "organismIds": [
+                "treponema-pallidum",
+                "borrelia-species"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacteria-and-other-microorganisms",
                   "pdfPage": 8
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 32
                 },
                 {
                   "lectureId": "bacteria-and-other-microorganisms",
@@ -207,8 +303,19 @@
             "label": "Wall-Less Bacteria (Lacks Peptidoglycan Cell Wall)",
             "outcome": {
               "name": "Wall-Less Bacteria: Mycoplasma Genus",
-              "clues": "Completely lacks peptidoglycan cell wall; bounded only by a triple-layered cell membrane containing sterols; pleomorphic (Mycoplasma pneumoniae) [L1 p32, 57, 60].",
+              "clues": "Completely lacks peptidoglycan cell wall; bounded only by a flexible triple-layered cell membrane containing sterols; inherently resistant to beta-lactam antibiotics (Mycoplasma pneumoniae) [L1 p6, 14, 32, 57, 60].",
+              "organismIds": [
+                "mycoplasma-pneumoniae"
+              ],
               "sourceRefs": [
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 6
+                },
+                {
+                  "lectureId": "bacteria-and-other-microorganisms",
+                  "pdfPage": 14
+                },
                 {
                   "lectureId": "bacteria-and-other-microorganisms",
                   "pdfPage": 32
@@ -230,16 +337,21 @@
     {
       "id": "oxygen-response-classification",
       "title": "Bacterial Classification by Oxygen Response & Enzymes (Table 6.1)",
-      "summary": "Diagnostic pathway classifying bacteria by atmospheric oxygen requirement, metabolic tolerance, and presence of detoxifying enzymes (Superoxide Dismutase & Catalase).",
+      "summary": "Diagnostic pathway from Lecture 3 (Slides 14–16) classifying bacteria by atmospheric oxygen requirement, metabolic tolerance, and presence of detoxifying enzymes (Superoxide Dismutase & Catalase).",
       "root": {
         "step": "Atmospheric Oxygen Requirement & Growth Effect",
-        "prompt": "Evaluate bacterial growth in the presence vs. absence of atmospheric oxygen [L3 p14, 15]",
+        "prompt": "Evaluate growth response to atmospheric oxygen (20% O2) and enzymatic capacity to detoxify superoxide radicals [L3 p14, 15]",
         "branches": [
           {
             "label": "Requires Atmospheric Oxygen for Growth",
             "outcome": {
               "name": "Obligate Aerobe (SOD + Catalase Present)",
-              "clues": "Requires atmospheric oxygen for energy production via cellular respiration; possesses both superoxide dismutase (SOD) and catalase to detoxify O2- and H2O2 (e.g., Mycobacterium tuberculosis, Pseudomonas aeruginosa) [L3 p14, 15, 16].",
+              "clues": "Requires atmospheric oxygen for energy production via cellular respiration; possesses both superoxide dismutase (SOD) and catalase to detoxify O2- and H2O2 (e.g., Mycobacterium tuberculosis, Pseudomonas aeruginosa, Bacillus anthracis) [L3 p14, 15, 16].",
+              "organismIds": [
+                "mycobacterium-tuberculosis",
+                "pseudomonas-aeruginosa",
+                "bacillus-anthracis"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacterial-growth",
@@ -260,7 +372,12 @@
             "label": "Grows With or Without Oxygen (Respiration or Fermentation)",
             "outcome": {
               "name": "Facultative Anaerobe (SOD + Catalase Present)",
-              "clues": "Utilizes oxygen for respiration when present, but switches to anaerobic fermentation in its absence; possesses both superoxide dismutase and catalase (e.g., Escherichia coli, Staphylococcus aureus) [L3 p14, 15, 16].",
+              "clues": "Utilizes oxygen for respiration when present, but switches to anaerobic fermentation in its absence; possesses both superoxide dismutase and catalase (e.g., Escherichia coli, Staphylococcus aureus, Salmonella enterica) [L3 p14, 15, 16].",
+              "organismIds": [
+                "escherichia-coli",
+                "staphylococcus-aureus",
+                "salmonella-enterica"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacterial-growth",
@@ -281,7 +398,13 @@
             "label": "Killed by Atmospheric Oxygen (Lacks Detoxifying Enzymes)",
             "outcome": {
               "name": "Obligate Anaerobe (SOD & Catalase Absent)",
-              "clues": "Incapable of aerobic respiration; killed by toxic oxygen radicals because it completely lacks both superoxide dismutase and catalase (e.g., Clostridium tetani, Clostridium botulinum) [L3 p14, 15, 16].",
+              "clues": "Incapable of aerobic respiration; killed by toxic oxygen radicals because it completely lacks both superoxide dismutase and catalase (e.g., Clostridium tetani, Clostridium botulinum, Clostridioides difficile, Bacteroides fragilis) [L3 p14, 15, 16; L4 p22].",
+              "organismIds": [
+                "clostridium-tetani",
+                "clostridium-botulinum",
+                "clostridioides-difficile",
+                "bacteroides-fragilis"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacterial-growth",
@@ -294,6 +417,10 @@
                 {
                   "lectureId": "bacterial-growth",
                   "pdfPage": 16
+                },
+                {
+                  "lectureId": "normal-flora",
+                  "pdfPage": 22
                 }
               ]
             }
@@ -302,7 +429,11 @@
             "label": "Requires Low Oxygen Tension (Microaerophilic)",
             "outcome": {
               "name": "Microaerophile (Grows at Low O2 Concentrations)",
-              "clues": "Grows best in low oxygen tensions; damaged by atmospheric 20% oxygen levels; possesses superoxide dismutase and catalase (e.g., Campylobacter jejuni, Helicobacter pylori) [L3 p15, 16].",
+              "clues": "Grows best in reduced oxygen tension (typically ~5% O2); damaged by atmospheric 20% oxygen levels; possesses superoxide dismutase and catalase (e.g., Campylobacter jejuni, Helicobacter pylori) [L3 p15, 16; L4 p13].",
+              "organismIds": [
+                "campylobacter-jejuni",
+                "helicobacter-pylori"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacterial-growth",
@@ -311,6 +442,10 @@
                 {
                   "lectureId": "bacterial-growth",
                   "pdfPage": 16
+                },
+                {
+                  "lectureId": "normal-flora",
+                  "pdfPage": 13
                 }
               ]
             }
@@ -319,7 +454,11 @@
             "label": "Exclusively Fermentative but Tolerates Oxygen",
             "outcome": {
               "name": "Aerotolerant Anaerobe (SOD Present, Catalase Absent)",
-              "clues": "Exclusively fermentative metabolism; tolerates oxygen presence because it possesses superoxide dismutase, but lacks catalase [L3 p15, 16].",
+              "clues": "Exclusively fermentative metabolism; tolerates oxygen presence because it possesses superoxide dismutase to scavenge superoxide radicals, but lacks catalase (e.g., Streptococcus pyogenes, Lactobacillus species) [L3 p15, 16; L4 p24].",
+              "organismIds": [
+                "streptococcus-pyogenes",
+                "lactobacillus-species"
+              ],
               "sourceRefs": [
                 {
                   "lectureId": "bacterial-growth",
@@ -328,6 +467,10 @@
                 {
                   "lectureId": "bacterial-growth",
                   "pdfPage": 16
+                },
+                {
+                  "lectureId": "normal-flora",
+                  "pdfPage": 24
                 }
               ]
             }
@@ -341,17 +484,17 @@
       "summary": "Step-by-step metabolic flowchart from Lecture 3 Slide 32 classifying organisms by primary carbon source (CO2 autotroph vs organic heterotroph) and energy source (photo- vs chemo-).",
       "root": {
         "step": "Primary Carbon Source for Growth",
-        "prompt": "Evaluate whether the organism uses inorganic CO2 or organic compounds as its principal carbon source [L3 p32]",
+        "prompt": "Evaluate the carbon substrate utilized for biosynthesis: inorganic carbon dioxide (CO2) vs organic carbon compounds [L3 p32]",
         "branches": [
           {
             "label": "Autotrophs (Use Inorganic CO2 as Sole Carbon Source)",
-            "organismGroup": "Self-nourishing photosynthetic/chemosynthetic organisms [L3 p32, 33]",
+            "organismGroup": "Self-sustaining lithotrophs [L3 p32, 33]",
             "next": {
-              "step": "Energy Source for Autotrophs",
-              "prompt": "Determine the source of energy: sunlight vs inorganic chemical oxidation [L3 p32, 33]",
+              "step": "Primary Energy Source for Autotrophs",
+              "prompt": "Determine energy origin: sunlight/photons vs chemical redox reactions [L3 p32, 33]",
               "branches": [
                 {
-                  "label": "Light Energy (Sunlight)",
+                  "label": "Photoautotrophs (Energy from Sunlight)",
                   "outcome": {
                     "name": "Photoautotrophs",
                     "clues": "Use light energy to fix inorganic CO2 into organic carbon (e.g., photosynthetic cyanobacteria) [L3 p32, 33].",
@@ -368,7 +511,7 @@
                   }
                 },
                 {
-                  "label": "Inorganic Chemical Compounds",
+                  "label": "Chemoautotrophs (Energy from Inorganic Compounds)",
                   "outcome": {
                     "name": "Chemoautotrophs (Chemolithotrophs)",
                     "clues": "Oxidize inorganic chemical compounds (iron, sulfur, nitrifying bacteria) to obtain energy while using CO2 as carbon source [L3 p32, 33].",
@@ -389,13 +532,13 @@
           },
           {
             "label": "Heterotrophs (Require Organic Compounds as Carbon Source)",
-            "organismGroup": "Organotrophs requiring preformed organic nutrients [L3 p32, 34]",
+            "organismGroup": "Consumers of organic carbon [L3 p32, 34]",
             "next": {
-              "step": "Energy Source for Heterotrophs",
-              "prompt": "Determine the source of energy: sunlight vs organic chemical oxidation [L3 p32, 34]",
+              "step": "Primary Energy Source for Heterotrophs",
+              "prompt": "Determine energy origin: sunlight vs oxidation of organic chemical substrates [L3 p32, 34]",
               "branches": [
                 {
-                  "label": "Light Energy (Sunlight)",
+                  "label": "Photoheterotrophs (Energy from Sunlight)",
                   "outcome": {
                     "name": "Photoheterotrophs",
                     "clues": "Use sunlight for energy but require organic compounds as their source of carbon (e.g., purple non-sulfur bacteria) [L3 p32, 34].",
@@ -412,10 +555,16 @@
                   }
                 },
                 {
-                  "label": "Organic Chemical Oxidation (Metabolic Catabolism)",
+                  "label": "Chemoheterotrophs (Energy from Organic Chemical Compounds)",
                   "outcome": {
                     "name": "Chemoheterotrophs (Medical Bacteria & Human Pathogens)",
-                    "clues": "Derive both carbon and energy from organic compounds (glucose, amino acids); includes all medically important bacteria, normal flora, and parasites feeding on living organic host matter [L3 p32, 34, 35].",
+                    "clues": "Derive both carbon and energy from organic compounds (glucose, amino acids); includes all medically important bacteria, human normal flora, and infectious bacterial pathogens [L3 p32, 34, 35].",
+                    "organismIds": [
+                      "escherichia-coli",
+                      "staphylococcus-aureus",
+                      "streptococcus-pneumoniae",
+                      "viridans-streptococci"
+                    ],
                     "sourceRefs": [
                       {
                         "lectureId": "bacterial-growth",

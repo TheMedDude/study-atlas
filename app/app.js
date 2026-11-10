@@ -16,7 +16,7 @@ const names = { courses: 'Courses', home: 'Overview', memorize: 'Memorize', prac
 const symbols = { courses: '❖', home: '◈', memorize: '✦', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
-const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [], bankSearch: '', bankChapter: 'all', bankStatus: 'all', bankBrowserOpen: false, bankFullscreen: false };
+const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [], treeViewMode: 'tree', bankSearch: '', bankChapter: 'all', bankStatus: 'all', bankBrowserOpen: false, bankFullscreen: false };
 let subject, subjectConfigs, lectures, chapters, concepts, activities, pages, sourceImages, uncertainties, coverage, progress, tick;
 let synthesisData = { organisms: [], trees: [], matrices: [], heuristics: [] };
 let study, lastCheckpoint = 0;
@@ -728,6 +728,9 @@ function renderOrganismsTab() {
                 Practice MCQs (${qCount})
               </button>
             ` : ''}
+            <button type="button" class="button outline micro-btn" data-view-in-tree="${esc(selectedOrg.id)}">
+              View in Tree ⬡
+            </button>
             ${study?.sessions?.some(s => !s.deleted && s.mode === 'practice' && !s.done) ? `
               <button type="button" class="button outline micro-btn" data-go="practice">
                 Resume Practice ↗
@@ -808,19 +811,44 @@ function renderTreesTab() {
   }
 
   function renderDiagramOutcome(outcome, depth, pathId) {
-    const org = outcome.organismId ? synthesisData.organisms.find(o => o.id === outcome.organismId) : null;
-    const gramClass = org ? (org.gram.toLowerCase().includes('positive') ? 'gram-pos' : org.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb') : 'neutral';
+    const orgIds = outcome.organismIds || (outcome.organismId ? [outcome.organismId] : []);
+    const orgs = orgIds.map(id => synthesisData.organisms.find(o => o.id === id)).filter(Boolean);
+    const primaryOrg = orgs[0];
+    const isGramPos = primaryOrg && (primaryOrg.category === 'gram-positive-cocci' || primaryOrg.category === 'gram-positive-bacilli');
+    const isAFB = primaryOrg && primaryOrg.category === 'acid-fast-bacteria';
+    const isAtypical = primaryOrg && primaryOrg.category === 'spirochetes-and-atypicals';
+    const gramClass = !primaryOrg ? 'neutral' : isGramPos ? 'gram-pos' : isAFB ? 'afb' : isAtypical ? 'atypical' : 'gram-neg';
     
     return `
       <div class="flow-outcome-card ${gramClass}" data-outcome-path="${esc(pathId)}">
         <div class="flow-outcome-header">
-          <span class="flow-outcome-flag">IDENTIFIED</span>
+          <span class="flow-outcome-flag">TAXONOMIC GROUP</span>
           <h4 class="flow-outcome-name"><em>${esc(outcome.name)}</em></h4>
         </div>
         <p class="flow-outcome-clues">${esc(outcome.clues)}</p>
+        ${orgs.length ? `
+          <div class="flow-orgs-list">
+            <span class="flow-orgs-label">Representative Bacteria:</span>
+            <div class="flow-org-pills">
+              ${orgs.map(o => {
+                const isOrgGramPos = o.category === 'gram-positive-cocci' || o.category === 'gram-positive-bacilli';
+                const isOrgAFB = o.category === 'acid-fast-bacteria';
+                const isOrgAtypical = o.category === 'spirochetes-and-atypicals';
+                const oClass = isOrgAFB ? 'afb' : isOrgAtypical ? 'atypical' : isOrgGramPos ? 'gram-pos' : 'gram-neg';
+                const stain = isOrgAFB ? 'AFB' : isOrgAtypical ? 'Atyp' : isOrgGramPos ? 'G+' : 'G-';
+                return `
+                  <button type="button" class="flow-org-pill ${oClass}" data-open-dossier="${esc(o.id)}" title="View ${esc(o.name)} in Bacteria Summary">
+                    <span class="microbe-stain-badge ${oClass}">${stain}</span>
+                    <span><em>${esc(o.name)}</em></span>
+                    <span class="pill-arrow">↗</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        ` : ''}
         <div class="flow-outcome-actions">
-          ${outcome.organismId ? `<button type="button" class="button outline micro-btn" data-open-dossier="${esc(outcome.organismId)}">View Summary ↗</button>` : ''}
-          ${outcome.organismId ? `<button type="button" class="button primary micro-btn" data-quiz-organism="${esc(outcome.organismId)}">Quiz</button>` : ''}
+          ${primaryOrg ? `<button type="button" class="button primary micro-btn" data-quiz-organism="${esc(primaryOrg.id)}">Quiz Group</button>` : ''}
           ${outcome.sourceRefs ? `<div class="source-links">${outcome.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ p${r.pdfPage}</button>`).join('')}</div>` : ''}
         </div>
       </div>
@@ -831,8 +859,13 @@ function renderTreesTab() {
   let simContent = '';
   if (simNode.outcome) {
     const out = simNode.outcome;
-    const org = out.organismId ? synthesisData.organisms.find(o => o.id === out.organismId) : null;
-    const gramClass = org ? (org.gram.toLowerCase().includes('positive') ? 'gram-pos' : org.gram.toLowerCase().includes('negative') ? 'gram-neg' : 'afb') : 'neutral';
+    const orgIds = out.organismIds || (out.organismId ? [out.organismId] : []);
+    const orgs = orgIds.map(id => synthesisData.organisms.find(o => o.id === id)).filter(Boolean);
+    const primaryOrg = orgs[0];
+    const isGramPos = primaryOrg && (primaryOrg.category === 'gram-positive-cocci' || primaryOrg.category === 'gram-positive-bacilli');
+    const isAFB = primaryOrg && primaryOrg.category === 'acid-fast-bacteria';
+    const isAtypical = primaryOrg && primaryOrg.category === 'spirochetes-and-atypicals';
+    const gramClass = !primaryOrg ? 'neutral' : isGramPos ? 'gram-pos' : isAFB ? 'afb' : isAtypical ? 'atypical' : 'gram-neg';
     
     simContent = `
       <div class="sim-outcome-celebration panel ${gramClass}">
@@ -841,9 +874,30 @@ function renderTreesTab() {
           <h3 class="sim-confirmed-title"><em>${esc(out.name)}</em></h3>
         </div>
         <p class="sim-confirmed-clues">${esc(out.clues)}</p>
+        ${orgs.length ? `
+          <div class="flow-orgs-list" style="margin: 12px 0;">
+            <span class="flow-orgs-label">Representative Bacteria:</span>
+            <div class="flow-org-pills">
+              ${orgs.map(o => {
+                const isOrgGramPos = o.category === 'gram-positive-cocci' || o.category === 'gram-positive-bacilli';
+                const isOrgAFB = o.category === 'acid-fast-bacteria';
+                const isOrgAtypical = o.category === 'spirochetes-and-atypicals';
+                const oClass = isOrgAFB ? 'afb' : isOrgAtypical ? 'atypical' : isOrgGramPos ? 'gram-pos' : 'gram-neg';
+                const stain = isOrgAFB ? 'AFB' : isOrgAtypical ? 'Atyp' : isOrgGramPos ? 'G+' : 'G-';
+                return `
+                  <button type="button" class="flow-org-pill ${oClass}" data-open-dossier="${esc(o.id)}" title="View ${esc(o.name)} in Bacteria Summary">
+                    <span class="microbe-stain-badge ${oClass}">${stain}</span>
+                    <span><em>${esc(o.name)}</em></span>
+                    <span class="pill-arrow">↗</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        ` : ''}
         <div class="sim-celebration-actions">
-          ${out.organismId ? `<button type="button" class="button primary" data-open-dossier="${esc(out.organismId)}">Open Bacteria Summary ↗</button>` : ''}
-          ${out.organismId ? `<button type="button" class="button outline" data-quiz-organism="${esc(out.organismId)}">Quiz Organism</button>` : ''}
+          ${primaryOrg ? `<button type="button" class="button primary" data-open-dossier="${esc(primaryOrg.id)}">Open Bacteria Summary ↗</button>` : ''}
+          ${primaryOrg ? `<button type="button" class="button outline" data-quiz-organism="${esc(primaryOrg.id)}">Quiz Group</button>` : ''}
           <button type="button" class="button outline" data-tree-sim-reset="true">↺ Start Over</button>
         </div>
         ${out.sourceRefs ? `<div class="source-links" style="margin-top:0.75rem"><span class="dossier-refs-label">Slide references: </span>${out.sourceRefs.map(r => `<button class="text-button source-link" data-source="${esc(r.lectureId)}" data-page="${r.pdfPage}">↗ ${esc(lectureTitle(r.lectureId))} p${r.pdfPage}</button>`).join('')}</div>` : ''}
@@ -890,38 +944,54 @@ function renderTreesTab() {
     </div>
   `;
 
+  const treeViewMode = state.treeViewMode || 'tree';
+
   return `
-    <!-- Top Tree Selector -->
+    <!-- Top Tree Selector & Mode Switcher -->
     <div class="tree-selector-bar panel">
-      <div class="tree-pills">
-        ${synthesisData.trees.map(t => `
-          <button type="button" class="tree-pill ${t.id===currentTree.id?'active':''}" data-select-tree="${esc(t.id)}">
-            ${esc(t.title)}
+      <div class="tree-bar-top">
+        <div class="tree-pills">
+          ${synthesisData.trees.map(t => `
+            <button type="button" class="tree-pill ${t.id===currentTree.id?'active':''}" data-select-tree="${esc(t.id)}">
+              ${esc(t.title)}
+            </button>
+          `).join('')}
+        </div>
+        <div class="tree-mode-toggle" role="group" aria-label="Tree view mode">
+          <button type="button" class="tree-mode-btn ${treeViewMode==='tree'?'active':''}" data-set-tree-mode="tree">
+            ⬡ Complete Tree View
           </button>
-        `).join('')}
+          <button type="button" class="tree-mode-btn ${treeViewMode==='sim'?'active':''}" data-set-tree-mode="sim">
+            ➔ Diagnostic Simulator
+          </button>
+        </div>
       </div>
       <p class="tree-summary-text">${esc(currentTree.summary)}</p>
     </div>
 
-    <!-- Interactive Classification Simulator -->
-    <section class="tree-sim-section">
-      <div class="sim-section-header">
-        <span class="sim-section-kicker">INTERACTIVE CLASSIFICATION SIMULATOR</span>
-        <h2>Walk through the taxonomic & metabolic schemes</h2>
-      </div>
-      ${breadcrumbBar}
-      ${simContent}
-    </section>
-
-    <!-- Complete Panoramic Flowchart Accordion -->
-    <details class="flowchart-details panel" open>
-      <summary class="flowchart-summary">
-        <span>Classification Flowchart (Complete Scheme)</span>
-      </summary>
-      <div class="flowchart-viewport">
-        ${renderDiagramNode(currentTree.root)}
-      </div>
-    </details>
+    ${treeViewMode === 'tree' ? `
+      <!-- Complete Panoramic Flowchart Tree (Primary View) -->
+      <section class="tree-full-view panel" aria-label="Complete Classification Tree">
+        <div class="tree-view-header">
+          <span class="tree-view-badge">COMPLETE TAXONOMIC SCHEME</span>
+          <h2 class="tree-view-title">${esc(currentTree.title)}</h2>
+          <p class="tree-view-desc">Trace the branching hierarchy from cell wall structure to specific bacterial taxa and representative clinical organisms.</p>
+        </div>
+        <div class="flowchart-viewport">
+          ${renderDiagramNode(currentTree.root)}
+        </div>
+      </section>
+    ` : `
+      <!-- Interactive Classification Simulator -->
+      <section class="tree-sim-section">
+        <div class="sim-section-header">
+          <span class="sim-section-kicker">INTERACTIVE CLASSIFICATION SIMULATOR</span>
+          <h2>Walk through the taxonomic & metabolic schemes</h2>
+        </div>
+        ${breadcrumbBar}
+        ${simContent}
+      </section>
+    `}
   `;
 }
 
@@ -1019,7 +1089,23 @@ function memorizeView() {
 
   if (!hasOrganisms && !hasTrees && !hasMatrices && !hasHeuristics) {
     return pageHead('THE MEMORIZE ROOM', 'Synthesis modules in progress.', 'Study notes and clinical summaries for this subject are being prepared.') +
-      `<div class="empty-state"><h2>No synthesis modules yet for ${esc(subject.title)}.</h2><p>Practice questions and full source slides remain fully active.</p><button class="button primary" data-go="practice">Open Practice ↗</button></div>`;
+      `<div class="empty-state panel" style="text-align:center;padding:3rem 1.5rem;margin:1.5rem auto;max-width:680px">
+        <h2>No synthesis modules yet for ${esc(subject.title)}.</h2>
+        <p style="margin:12px 0 20px;color:#637568;line-height:1.6">The interactive <strong>Classification Trees</strong>, <strong>Bacteria Summary</strong> dossiers, and <strong>Comparison Matrices</strong> are currently featured in <strong>General Microbiology</strong>.</p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+          <button class="button primary" data-switch-subject="general-microbiology">Open General Microbiology Memorize Room ➔</button>
+          <button class="button outline" data-go="practice">Open ${esc(subject.title)} Practice ↗</button>
+        </div>
+      </div>`;
+  }
+
+  let savedTab = null;
+  try {
+    savedTab = storage.getItem('study-atlas:last-memorize-tab');
+    if (savedTab) storage.removeItem('study-atlas:last-memorize-tab');
+  } catch {}
+  if (savedTab && ['organisms', 'trees', 'matrices', 'heuristics'].includes(savedTab)) {
+    state.memorizeTab = savedTab;
   }
 
   if (!['organisms', 'trees', 'matrices', 'heuristics'].includes(state.memorizeTab) ||
@@ -1034,7 +1120,7 @@ function memorizeView() {
 
   const subnav = `<nav class="memorize-subnav" aria-label="Memorize Room sections">
     ${hasOrganisms ? `<button class="memorize-nav-btn ${state.memorizeTab==='organisms'?'active':''}" data-memorize-tab="organisms">Bacteria Summary <small>${synthesisData.organisms.length}</small></button>` : ''}
-    ${hasTrees ? `<button class="memorize-nav-btn ${state.memorizeTab==='trees'?'active':''}" data-memorize-tab="trees">Classification Trees <small>${synthesisData.trees.length}</small></button>` : ''}
+    ${hasTrees ? `<button class="memorize-nav-btn ${state.memorizeTab==='trees'?'active':''}" data-memorize-tab="trees">Classification Trees <small>${synthesisData.trees.length}</small></button>` : `<button class="memorize-nav-btn switch-course-subnav-btn" data-switch-subject="general-microbiology" data-switch-tab="trees" title="Classification Trees & Bacteria Summary are available in General Microbiology">Classification Trees ➔ <small>Microbiology</small></button>`}
     ${hasMatrices ? `<button class="memorize-nav-btn ${state.memorizeTab==='matrices'?'active':''}" data-memorize-tab="matrices">Comparison Matrices <small>${synthesisData.matrices.length}</small></button>` : ''}
     ${hasHeuristics ? `<button class="memorize-nav-btn ${state.memorizeTab==='heuristics'?'active':''}" data-memorize-tab="heuristics">Rules of Thumb <small>${synthesisData.heuristics.length}</small></button>` : ''}
   </nav>`;
@@ -1173,7 +1259,23 @@ document.addEventListener('click', async event => {
   if (state.session?.mode === 'exam' && !state.session.done && state.session.deadline && Date.now() >= state.session.deadline) { event.preventDefault(); finishSession(true); return; }
   if (b.dataset.resume) { resumePractice(b.dataset.resume); return; }
   if (b.dataset.removeSession) { if(await confirmAction('Remove this unfinished session? Completed answers stay in progress.','Remove session')){study=removeSession(study,b.dataset.removeSession);saveStudyState();render();} return; }
-  if (b.dataset.selectSubject) { event.preventDefault(); location.href = `?subject=${encodeURIComponent(b.dataset.selectSubject)}#home`; return; }
+  if (b.dataset.selectSubject) {
+    event.preventDefault();
+    try { storage.setItem('study-atlas:last-subject', b.dataset.selectSubject); } catch {}
+    location.href = `?subject=${encodeURIComponent(b.dataset.selectSubject)}#home`;
+    return;
+  }
+  if (b.dataset.switchSubject) {
+    try {
+      storage.setItem('study-atlas:last-subject', b.dataset.switchSubject);
+      if (b.dataset.switchTab) storage.setItem('study-atlas:last-memorize-tab', b.dataset.switchTab);
+    } catch {}
+    const dest = new URL(location.href);
+    dest.searchParams.set('subject', b.dataset.switchSubject);
+    dest.hash = 'memorize';
+    location.assign(dest.href);
+    return;
+  }
   if (b.dataset.bookmark) { try{const saved=study.bookmarks.some(r=>r.activityId===b.dataset.bookmark&&r.saved);study=bookmark(study,b.dataset.bookmark,!saved);saveStudyState();render();}catch(error){notice(error.message,true);}return; }
   if (b.dataset.go) { event.preventDefault(); go(b.dataset.go); return; }
   if (b.dataset.source) { openSource(b.dataset.source, b.dataset.page); return; }
@@ -1187,6 +1289,26 @@ document.addEventListener('click', async event => {
   if (b.dataset.selectOrganism) { state.selectedOrganism = b.dataset.selectOrganism; render(); return; }
   if (b.dataset.organismViewMode) { state.organismViewMode = b.dataset.organismViewMode; render(); return; }
   if (b.dataset.clearOrganismSearch) { state.memorizeSearch = ''; state.memorizeCat = 'all'; render(); return; }
+  if (b.dataset.setTreeMode) { state.treeViewMode = b.dataset.setTreeMode; render(); return; }
+  if (b.dataset.viewInTree) {
+    const orgId = b.dataset.viewInTree;
+    const treeWithOrg = synthesisData.trees.find(t => JSON.stringify(t.root).includes(`"${orgId}"`)) || synthesisData.trees[0];
+    if (treeWithOrg) state.selectedTree = treeWithOrg.id;
+    state.view = 'memorize';
+    state.memorizeTab = 'trees';
+    state.treeViewMode = 'tree';
+    history.pushState(null, '', '#memorize');
+    render(true);
+    requestAnimationFrame(() => {
+      const el = document.querySelector(`.flowchart-viewport [data-open-dossier="${CSS.escape(orgId)}"]`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.classList.add('highlight-pulse');
+        setTimeout(() => el.classList.remove('highlight-pulse'), 2500);
+      }
+    });
+    return;
+  }
   if (b.dataset.selectTree) { state.selectedTree = b.dataset.selectTree; state.treeSimPath = []; render(); return; }
   if (b.dataset.treeSimChoice !== undefined) {
     state.treeSimPath = state.treeSimPath || [];
@@ -1315,6 +1437,7 @@ document.addEventListener('change', async event => {
   if (input.id === 'subject-select' && input.value !== subject.id) {
     if (state.session?.mode==='exam' && !state.session.done && !await confirmAction('An unfinished exam will be left unscored.', 'Change subject')) { input.value = subject.id; return; }
     pauseSession();state.session = null; clearInterval(tick);
+    try { storage.setItem('study-atlas:last-subject', input.value); } catch {}
     const destination = new URL(location.href); destination.searchParams.set('subject', input.value); destination.hash = 'home'; location.assign(destination.href); return;
   }
   if (input.matches('.chapter-check')) updateSetup();
@@ -1452,9 +1575,13 @@ async function init() {
   const registry = await json('subjects/index.json');
   subjectConfigs = await Promise.all(registry.subjects.map(selected => json(`subjects/${selected.config}`)));
   document.documentElement.dataset.multiSubject = subjectConfigs.length > 1;
-  const requested = new URL(location.href).searchParams.get('subject');
-  subject = subjectConfigs.find(config => config.id === requested) || subjectConfigs[0];
-  if (!requested && (!location.hash || location.hash === '#courses')) state.view = 'courses';
+  const urlSubject = new URL(location.href).searchParams.get('subject');
+  let savedSubject = null;
+  try { savedSubject = storage.getItem('study-atlas:last-subject'); } catch {}
+  const requested = urlSubject || (location.hash && location.hash !== '#courses' ? savedSubject : null);
+  subject = subjectConfigs.find(config => config.id === requested) || subjectConfigs.find(c => c.id === 'general-microbiology') || subjectConfigs[0];
+  try { storage.setItem('study-atlas:last-subject', subject.id); } catch {}
+  if (!urlSubject && (!location.hash || location.hash === '#courses')) state.view = 'courses';
   if (!explanationLanguages().includes(state.settings.explanationLanguage)) state.settings.explanationLanguage = explanationLanguages()[0];
   const prefix = `subjects/${subject.id}/`;
   const results = await Promise.all([json(prefix + (subject.scope.sourceManifest || 'sources/manifest.json')), json(prefix + subject.paths.chapters), json(prefix + subject.paths.concepts), json(prefix + subject.paths.activities), json(prefix + subject.paths.pages), json(prefix + subject.paths.uncertainties), json(prefix + subject.paths.coverage), subject.paths.pageImages ? json(prefix + subject.paths.pageImages) : Promise.resolve({pages:[]})]);

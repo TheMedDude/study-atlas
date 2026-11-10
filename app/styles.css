@@ -1009,9 +1009,31 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .sim-confirmed-clues { margin: 0; font-size: 0.95rem; color: #35473c; line-height: 1.6; }
 .sim-celebration-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
 
-/* Panoramic Visual Flowchart */
-.flowchart-details { border: 1px solid #dce3dc; border-radius: 14px; background: #ffffff; overflow: hidden; }
-.flowchart-summary { padding: 16px 20px; font-weight: 700; font-size: 1.05rem; cursor: pointer; color: #17231c; background: #fdfbf7; border-bottom: 1px solid #ede8de; user-select: none; }
+/* Tree Mode Switcher & Full Panoramic View */
+.tree-bar-top { display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
+.tree-mode-toggle { display: inline-flex; background: #ede8de; padding: 3px; border-radius: 9px; gap: 4px; }
+.tree-mode-btn { border: 0; background: transparent; padding: 7px 14px; border-radius: 7px; font-size: 0.82rem; font-weight: 700; color: #637568; cursor: pointer; transition: all 0.15s ease; display: inline-flex; align-items: center; gap: 6px; }
+.tree-mode-btn:hover { color: #17231c; }
+.tree-mode-btn.active { background: #ffffff; color: #17231c; box-shadow: 0 1px 5px rgba(0,0,0,0.08); }
+
+.tree-full-view { border: 1px solid #dce3dc; border-radius: 14px; background: #ffffff; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.04); }
+.tree-view-header { padding: 18px 22px; background: #fdfbf7; border-bottom: 1px solid #ede8de; }
+.tree-view-badge { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em; color: #10b981; margin-bottom: 4px; }
+.tree-view-title { margin: 0 0 6px; font-size: 1.3rem; color: #17231c; font-weight: 800; }
+.tree-view-desc { margin: 0; font-size: 0.85rem; color: #637568; line-height: 1.45; }
+
+@keyframes treeNodePulse {
+  0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); transform: scale(1); }
+  50% { box-shadow: 0 0 0 12px rgba(16, 185, 129, 0); transform: scale(1.03); }
+  100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); transform: scale(1); }
+}
+.flow-org-pill.highlight-pulse,
+.flow-outcome-card.highlight-pulse {
+  animation: treeNodePulse 1.2s ease 2;
+  border-color: #10b981 !important;
+}
+
+/* Panoramic Visual Flowchart Viewport */
 .flowchart-viewport { padding: 24px; overflow-x: auto; background: #faf9f6; }
 
 .flow-node-wrapper { display: flex; flex-direction: column; gap: 18px; }
@@ -1022,16 +1044,16 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .flow-step-result { margin-top: 6px; display: inline-block; padding: 2px 8px; border-radius: 4px; background: #e0f2fe; color: #0369a1; font-size: 0.78rem; font-weight: 600; }
 
 .flow-branches-container { display: flex; gap: 24px; flex-wrap: wrap; margin-left: 20px; border-left: 2px dashed #dce3dc; padding-left: 20px; }
-.flow-branch-track { display: flex; flex-direction: column; gap: 14px; min-width: 240px; }
+.flow-branch-track { display: flex; flex-direction: column; gap: 14px; min-width: 260px; max-width: 420px; }
 .flow-branch-connector { display: flex; align-items: center; gap: 6px; }
 .flow-connector-line { width: 12px; height: 2px; background: #dce3dc; }
-.flow-branch-badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 0.8rem; background: #f0ece3; color: #17231c; border: 1px solid #dce3dc; }
+.flow-branch-badge { display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px; font-size: 0.82rem; background: #f0ece3; color: #17231c; border: 1px solid #dce3dc; font-weight: 600; }
 .flow-branch-badge.pos { background: #ecfdf5; color: #047857; border-color: #a7f3d0; }
 .flow-branch-badge.neg { background: #fff1f2; color: #be123c; border-color: #fecdd3; }
 .flow-group-tag { font-size: 0.72rem; color: #637568; }
 .flow-connector-arrow { color: #88968d; font-size: 0.9rem; }
 
-.flow-outcome-card { padding: 14px 18px; background: #ffffff; border: 2px solid #dce3dc; border-radius: 12px; max-width: 380px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; gap: 10px; }
+.flow-outcome-card { padding: 16px 20px; background: #ffffff; border: 2px solid #dce3dc; border-radius: 12px; max-width: 440px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; gap: 10px; }
 .flow-outcome-card.gram-pos { border-color: var(--gram-pos-border); border-left: 4px solid var(--gram-pos); }
 .flow-outcome-card.gram-neg { border-color: var(--gram-neg-border); border-left: 4px solid var(--gram-neg); }
 .flow-outcome-card.afb { border-color: var(--afb-border); border-left: 4px solid var(--afb); }
@@ -1040,7 +1062,30 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .flow-outcome-flag { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em; color: #10b981; }
 .flow-outcome-name { margin: 0; font-size: 1.15rem; color: #17231c; }
 .flow-outcome-clues { margin: 0; font-size: 0.84rem; color: #35473c; line-height: 1.45; }
-.flow-outcome-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding-top: 6px; border-top: 1px solid #f0ece3; }
+
+/* Representative Bacteria Pills in Tree Leaves */
+.flow-orgs-list { display: flex; flex-direction: column; gap: 6px; padding: 6px 0; border-top: 1px dashed #ede8de; border-bottom: 1px dashed #ede8de; }
+.flow-orgs-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; color: #88968d; }
+.flow-org-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.flow-org-pill { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; border: 1px solid #dce3dc; background: #fdfbf7; font-size: 0.78rem; color: #17231c; cursor: pointer; transition: all 0.15s ease; text-align: left; }
+.flow-org-pill:hover { background: #ffffff; border-color: #17231c; transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+.flow-org-pill.gram-pos { border-left: 3px solid var(--gram-pos); }
+.flow-org-pill.gram-neg { border-left: 3px solid var(--gram-neg); }
+.flow-org-pill.afb { border-left: 3px solid var(--afb); }
+.flow-org-pill.atypical { border-left: 3px solid var(--atypical); }
+.flow-org-pill .pill-arrow { font-size: 0.72rem; color: #88968d; }
+
+.flow-outcome-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding-top: 4px; }
+
+.memorize-nav-btn.switch-course-subnav-btn {
+  border: 1px dashed #a7f3d0;
+  color: #047857;
+  background: #f0fdf4;
+}
+.memorize-nav-btn.switch-course-subnav-btn:hover {
+  background: #dcfce7;
+  border-color: #10b981;
+}
 
 /* ==========================================================================
    COMPARISON MATRICES & ACTIVE OCCLUSION

@@ -517,6 +517,33 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Playwright E2E browser test (`work/test_expanded_organisms_e2e.mjs`): verified 40 directory cards, category filter counts, `"viridans"` search, active dossier viewer with 6 slide facts, and Spirochetes & Atypicals filter.
   - Cache-busted assets to `v=1.2.12`.
 
+## 2026-11-10 - Release 1.2.13: Complete Classification Tree as Upfront Hero View, Mode Toggle, Organism Pills, and Bidirectional Tree-to-Dossier Navigation
+
+- **Problem Addressed**:
+  - User reported: `"now memrize doesnt even have the tree something is down there"`.
+  - Identified two core UX issues:
+    1. The Classification Tree tab previously rendered the interactive step-by-step diagnostic simulator upfront at the top, showing only 1 isolated criterion step (which looked like a question/quiz rather than a classification tree), while the entire comprehensive flowchart was pushed thousands of pixels down into a collapsed/accordion section (`<details class="flowchart-details panel" open>`).
+    2. Visiting without an explicit `?subject=` query parameter caused the app to default to `molecular-biology` (which has no trees or bacteria summaries), causing the Classification Trees tab to disappear entirely.
+    3. Taxonomic tree outcome leaves only listed generic groups without interactive representative organism pills, and Bacteria Summary dossiers had no reverse navigation back into their branch in the tree.
+- **Architectural & UX Solution**:
+  - **Complete Panoramic Tree View Made Upfront & Primary**:
+    - Promoted the complete hierarchical classification flowchart to the primary default view (`treeViewMode: 'tree'`) rendered directly at the top in full view.
+    - Added an intuitive view mode switcher in the tree header bar: `[ ⬡ Complete Tree View ]` vs `[ ➔ Diagnostic Simulator ]`.
+  - **Representative Bacteria Pills in Tree Leaves**:
+    - Mapped all 40 clinical microorganisms (including *Viridans group streptococci*, *C. difficile*, *C. perfringens*, *B. fragilis*, *H. pylori*, *T. pallidum*, *M. pneumoniae*, etc.) directly into their respective taxonomic leaves in `subjects/general-microbiology/synthesis/trees.json`.
+    - Rendered interactive color-coded pills (`.flow-org-pill`) with stain badges (`G+`, `G-`, `AFB`, `Atyp`) that jump directly to the organism's dossier in the Bacteria Summary.
+  - **Bidirectional Tree-to-Dossier & Dossier-to-Tree Navigation**:
+    - Added `View in Tree ⬡` button in the Bacteria Summary dossier header that switches directly to the Classification Trees tab, finds the organism's branch in the tree, smoothly centers the viewport, and triggers a gentle green glow animation (`.highlight-pulse`).
+  - **Course Persistence & Cross-Course Navigation**:
+    - Added `study-atlas:last-subject` persistence via `localStorage` in `init()`, subject selector change events, and course selection buttons so returning students or direct `#memorize` visits retain General Microbiology.
+    - In Molecular Biology's Memorize room, added a subnav bridge button `[ Classification Trees ➔ Microbiology ]` with dashed green styling that switches directly to General Microbiology and automatically selects the Classification Trees tab.
+- **Verification & Testing**:
+  - Content structure validation: `python scripts/validate_content.py --subject general-microbiology` and `python scripts/validate_content.py --subject molecular-biology` passed cleanly.
+  - Automated tests: `npm test` passed 65/65 tests (added 2 new regression tests in `tests/content.test.mjs`).
+  - Linting: `npm run check` passed with zero errors.
+  - Playwright E2E browser test (`work/test_tree_view_e2e.mjs`): verified 10 automated test steps covering loading, tree full view visibility, mode switcher toggle, Viridans pill in tree, 1-click jump to dossier, View in Tree ⬡ reverse jump with pulse highlight, Diagnostic Simulator operation, `localStorage` course retention, and cross-course subnav link from Molecular Biology.
+  - Cache-busted assets to `v=1.2.13`.
+
 
 
 
