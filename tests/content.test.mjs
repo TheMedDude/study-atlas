@@ -75,6 +75,10 @@ test('synthesis data links strictly to verified teaching pages across subjects',
       };
       if(module==='organisms'){
         assert.ok(Array.isArray(data.organisms)&&data.organisms.length>0);
+        if(subDir.includes('general-microbiology')){
+          assert.ok(data.organisms.some(o=>o.id==='viridans-streptococci'),'viridans-streptococci missing from general-microbiology organisms');
+          assert.ok(data.organisms.length>=40,'expected at least 40 organisms in general-microbiology organisms');
+        }
         for(const o of data.organisms){
           assert.ok(o.id&&o.name);
           verifyRefs(o.sourceRefs,o.id);

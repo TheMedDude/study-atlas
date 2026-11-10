@@ -520,6 +520,7 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .bacteria-dir-card.active.gram-pos, .dossier-dir-card.active.gram-pos { border-bottom-color: var(--gram-pos); }
   .bacteria-dir-card.active.gram-neg, .dossier-dir-card.active.gram-neg { border-bottom-color: var(--gram-neg); }
   .bacteria-dir-card.active.afb, .dossier-dir-card.active.afb { border-bottom-color: var(--afb); }
+  .bacteria-dir-card.active.atypical, .dossier-dir-card.active.atypical { border-bottom-color: var(--atypical); }
 
   /* Mobile Detail Viewer */
   .bacteria-viewer, .dossier-viewer { padding: 18px 14px; border-radius: 12px; gap: 20px; }
@@ -833,6 +834,9 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   --afb: #b91c1c;
   --afb-bg: #fef2f2;
   --afb-border: #fecaca;
+  --atypical: #0284c7;
+  --atypical-bg: #f0f9ff;
+  --atypical-border: #bae6fd;
   --spore: #d97706;
   --spore-bg: #fffbeb;
   --spore-border: #fde68a;
@@ -876,6 +880,7 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .microbe-stain-badge.gram-pos { background: var(--gram-pos-bg); color: var(--gram-pos); border: 1px solid var(--gram-pos-border); }
 .microbe-stain-badge.gram-neg { background: var(--gram-neg-bg); color: var(--gram-neg); border: 1px solid var(--gram-neg-border); }
 .microbe-stain-badge.afb { background: var(--afb-bg); color: var(--afb); border: 1px solid var(--afb-border); }
+.microbe-stain-badge.atypical { background: var(--atypical-bg); color: var(--atypical); border: 1px solid var(--atypical-border); }
 .microbe-stain-badge.neutral { background: #f0ece3; color: #17231c; border: 1px solid #dce3dc; }
 
 /* ==========================================================================
@@ -895,6 +900,7 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .bacteria-dir-card.active.gram-pos, .dossier-dir-card.active.gram-pos { border-left-color: var(--gram-pos); }
 .bacteria-dir-card.active.gram-neg, .dossier-dir-card.active.gram-neg { border-left-color: var(--gram-neg); }
 .bacteria-dir-card.active.afb, .dossier-dir-card.active.afb { border-left-color: var(--afb); }
+.bacteria-dir-card.active.atypical, .dossier-dir-card.active.atypical { border-left-color: var(--atypical); }
 
 .dir-card-top { display: flex; align-items: center; gap: 8px; }
 .dir-org-name { font-size: 0.95rem; color: #17231c; font-weight: 700; }
@@ -1029,6 +1035,7 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
 .flow-outcome-card.gram-pos { border-color: var(--gram-pos-border); border-left: 4px solid var(--gram-pos); }
 .flow-outcome-card.gram-neg { border-color: var(--gram-neg-border); border-left: 4px solid var(--gram-neg); }
 .flow-outcome-card.afb { border-color: var(--afb-border); border-left: 4px solid var(--afb); }
+.flow-outcome-card.atypical { border-color: var(--atypical-border); border-left: 4px solid var(--atypical); }
 .flow-outcome-header { display: flex; flex-direction: column; gap: 2px; }
 .flow-outcome-flag { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.1em; color: #10b981; }
 .flow-outcome-name { margin: 0; font-size: 1.15rem; color: #17231c; }

@@ -1684,6 +1684,1370 @@
           "pdfPage": 25
         }
       ]
+    },
+    {
+      "id": "viridans-streptococci",
+      "name": "Viridans group streptococci (S. mutans, S. mitis)",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-Positive Coccus in Chains (Alpha-Hemolytic)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 50,
+          "fact": "Synthesizes an extracellular polysaccharide glycocalyx / dextran from dietary sucrose, forming structured microbial communities (biofilms) in dental plaque that adhere tenaciously to enamel.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Glycocalyx forms, biofilms, and clinical persistence"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 37,
+          "fact": "Uses its abundant glycocalyx as a surface adhesin to bind tenaciously to damaged heart valves (endocardium), promoting biofilm formation and colonization.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Adherence to cell surfaces"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 12,
+          "fact": "Can be displaced into the bloodstream following tooth extraction, dental manipulation, or tonsillectomy, causing subacute bacterial endocarditis (infective endocarditis) on damaged valves.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Examples of displaced normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "Constitutes the predominant resident normal flora of the mouth and nasopharynx/throat, producing characteristic alpha-hemolytic green colonies on blood agar.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 20,
+          "fact": "Abundantly colonizes the oral cavity and throat where it exerts colonization resistance, competitively inhibiting the invasion of the major throat pathogen Streptococcus pyogenes.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Respiratory-tract normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 21,
+          "fact": "Streptococcus mutans, a leading member of the viridans group, is found in large numbers in dental plaque (the precursor of dental caries) and causes subacute bacterial (infective) endocarditis.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Viridans streptococci in mouth"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 21
+        }
+      ]
+    },
+    {
+      "id": "clostridioides-difficile",
+      "name": "Clostridioides (Clostridium) difficile",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Spore-Forming Anaerobic Bacillus",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 16,
+          "fact": "Normally suppressed by dense resident intestinal microflora; broad-spectrum antibiotic treatment (such as clindamycin) eliminates competing flora, allowing rare toxin-producing C. difficile to overgrow and cause severe colitis.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Clindamycin and neomycin examples"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 28,
+          "fact": "Recurrent C. difficile infection refractory to standard antimicrobial therapy is effectively treated by fecal microbiota transplantation (FMT), which restores complex microbial diversity and colonization resistance.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Clinical microbiome therapies"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 52,
+          "fact": "Toxins A and B cause mucosal injury resulting in pseudomembranous colitis, characterized by yellow-white inflammatory pseudomembranes (exudates of fibrin, dead epithelial cells, and inflammatory cells) on damaged colonic mucosa.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Pseudomembranes"
+        }
+      ],
+      "slideCount": 3,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 52
+        }
+      ]
+    },
+    {
+      "id": "clostridium-perfringens",
+      "name": "Clostridium perfringens",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Spore-Forming Anaerobic Bacillus",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 54,
+          "fact": "Spore-forming anaerobic bacillus whose environmental endospores contaminate traumatic crushed wounds, germinating under low oxygen tension into vegetative cells that produce destructive toxins and gas gangrene.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Features of spores and medical implications"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43,
+          "fact": "Secretes aggressive tissue-degrading enzymes including collagenase and lecithinase (alpha toxin) that rapidly hydrolyze collagen in muscle and subcutaneous tissues, facilitating necrotizing spread.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Tissue invasion enzymes and coagulase"
+        }
+      ],
+      "slideCount": 2,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43
+        }
+      ]
+    },
+    {
+      "id": "bacteroides-fragilis",
+      "name": "Bacteroides fragilis",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Obligate Anaerobic Bacillus (Capsulated)",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 12,
+          "fact": "Displaced from its normal colonic habitat following intestinal wall perforation (due to abdominal trauma, ruptured appendicitis, or diverticulitis), leading to polymicrobial peritonitis and intra-abdominal abscesses.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Examples of displaced normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "The predominant obligate anaerobe colonizing the adult human colon / lower gastrointestinal tract.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22,
+          "fact": "Obligate anaerobes make up more than 90% of adult fecal flora; B. fragilis is a prominent anaerobic representative present at densities up to 10¹¹ bacteria per gram of feces.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Intestinal-tract normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 23,
+          "fact": "When bowel wall integrity is compromised by surgery, tumor, or inflammation, B. fragilis enters the sterile peritoneal cavity causing intra-abdominal abscesses and peritonitis.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Extra-intestinal disease from intestinal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 25,
+          "fact": "The most frequent cause of endogenous intra-abdominal anaerobic infections and peritonitis originating from displaced intestinal normal flora.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Summary of diseases caused by normal flora"
+        }
+      ],
+      "slideCount": 5,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 25
+        }
+      ]
+    },
+    {
+      "id": "helicobacter-pylori",
+      "name": "Helicobacter pylori",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Curved/Spiral Microaerophilic Bacillus",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 13,
+          "fact": "Colonizes the gastric mucosal lining; chronic colonization and altered gastric microbiome dynamics are clinically associated with chronic gastritis, peptic ulcer disease, gastric adenocarcinoma, and MALT lymphoma.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Microbiome in systemic disease and cancer"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43,
+          "fact": "Produces immense amounts of the invasive enzyme urease, which breaks down urea into ammonia and CO2, creating an alkaline neutralizing microcloud that protects the organism from harsh gastric hydrochloric acid.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Tissue invasion enzymes and coagulase"
+        }
+      ],
+      "slideCount": 2,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43
+        }
+      ]
+    },
+    {
+      "id": "corynebacterium-diphtheriae",
+      "name": "Corynebacterium diphtheriae & Diphtheroids",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Non-Spore-Forming Pleomorphic Club-Shaped Bacillus",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8,
+          "fact": "Gram-positive rods with clubbed ends (tapered at one end) that arrange in characteristic V, L, or 'Chinese letter' angular patterns due to incomplete separation after snapping division.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacterial classification by shape and morphology"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 41,
+          "fact": "Contains volutin/metachromatic polyphosphate storage granules in its cytoplasm that stain metachromatically reddish-purple with Albert or methylene blue stain.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Ribosome subunit comparison and storage granules"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 58,
+          "fact": "Classified among the rigid, thick-walled, non-spore-forming Gram-positive bacilli along with Listeria.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog"
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 30,
+          "fact": "Acquires the tox gene encoding diphtheria exotoxin through lysogenic conversion mediated by the corynephage beta bacteriophage.",
+          "lectureName": "Lecture 2: Bacterial Genetics",
+          "slideTitle": "Transduction and lysogenic conversion"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 15,
+          "fact": "Classic example of a pathogen causing disease through a single major virulence factor: diphtheria exotoxin (ADP-ribosylates EF-2 to shut down host cellular protein synthesis).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Single versus multiple virulence determinants"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 52,
+          "fact": "Toxin-induced mucosal cell necrosis causes diphtheria pseudomembrane formation: a thick, grayish-white, firmly adherent inflammatory exudate over the tonsils and pharynx.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Pseudomembranes"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "Diphtheroids (non-toxigenic Corynebacterium species) are ubiquitous, harmless commensal normal flora of human skin, nose/pharynx, and urethra.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24,
+          "fact": "Diphtheroids colonize the external genitalia and anterior urethra, where they constitute part of the protective resident genitourinary flora.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora"
+        }
+      ],
+      "slideCount": 8,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 58
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 52
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24
+        }
+      ]
+    },
+    {
+      "id": "treponema-pallidum",
+      "name": "Treponema pallidum",
+      "category": "spirochetes-and-atypicals",
+      "gram": "Thin Spirochete (Not Visualized by Gram Stain; Dark-Field/Fluorescence)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8,
+          "fact": "Slender, tightly coiled spiral bacterium with flexible cell walls and periplasmic endoflagella (axial filaments) providing undulating corkscrew motility.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacterial classification by shape and morphology"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32,
+          "fact": "Too thin (~0.2 μm width) to be seen under conventional brightfield light microscopy or standard Gram stain; diagnostic visualization requires darkfield microscopy, silver impregnation, or fluorescent antibody staining.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 6,
+          "fact": "Extremely slow grower in vivo with a generation time of approximately 30 hours; fastidious and cannot be cultivated on artificial cell-free bacteriological agar media.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Table 19.1 Generation times under optimum conditions"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 26,
+          "fact": "Transmitted horizontally through intimate sexual contact, and vertically across the maternal placenta to infect the developing fetus (congenital syphilis).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-1: Important modes of transmission"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34,
+          "fact": "Portal of entry is the mucous membranes of the genital tract or microscopic skin abrasions, producing primary painless genital lesions (chancres) followed by systemic dissemination.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-3: Obligatory portals/pathogens/species"
+        }
+      ],
+      "slideCount": 5,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34
+        }
+      ]
+    },
+    {
+      "id": "borrelia-species",
+      "name": "Borrelia species (B. burgdorferi, B. recurrentis)",
+      "category": "spirochetes-and-atypicals",
+      "gram": "Flexible Spirochete (Loose Coils, Giemsa/Wright Stained)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8,
+          "fact": "Larger, flexible spirochetes with loose, irregular wavy turns; unlike thin treponemes, Borrelia organisms can be stained and visualized with Giemsa or Wright stains in peripheral blood smears.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacterial classification by shape and morphology"
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 22,
+          "fact": "Borrelia recurrentis undergoes programmed DNA rearrangement of silent variable major protein (VMP) genes into an active expression site, changing surface antigenicity and causing periodic waves of relapsing fever.",
+          "lectureName": "Lecture 2: Bacterial Genetics",
+          "slideTitle": "Programmed rearrangement and antigenic change"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 26,
+          "fact": "Vector-borne spirochete transmitted indirectly to humans through the bite of infected arthropods (ticks and lice) from animal reservoir hosts.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-1: Important modes of transmission"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 31,
+          "fact": "Borrelia burgdorferi is transmitted to humans through the bite of infected hard-bodied Ixodes ticks, causing Lyme disease characterized by erythema migrans, arthritis, and carditis.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Vector-borne transmission"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32,
+          "fact": "Ixodes tick vector mediates transmission of Borrelia burgdorferi (Lyme disease), whereas body lice and soft ticks transmit Borrelia recurrentis (relapsing fever).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-6: Insect vectors — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 36,
+          "fact": "Maintains a complex zoonotic transmission cycle with small rodents (white-footed mice) and deer acting as primary reservoir hosts in endemic forested environments.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-7 continuation — third-year reference"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 36
+        }
+      ]
+    },
+    {
+      "id": "mycoplasma-pneumoniae",
+      "name": "Mycoplasma pneumoniae",
+      "category": "spirochetes-and-atypicals",
+      "gram": "Wall-Less Bacterium (Sterols in Membrane, Resistant to Beta-Lactams)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 6,
+          "fact": "Unique among prokaryotic bacteria in incorporating sterols (cholesterol) into its triple-layered cell membrane, which provides mechanical stability in the complete absence of a cell wall.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Organelles, ribosomes, peptidoglycan and sterol distribution"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 10,
+          "fact": "The smallest free-living bacteria capable of independent self-replication (0.2–0.3 μm), small enough to pass through standard bacterial filters.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacterial size ranges and comparisons"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 14,
+          "fact": "Completely lacks peptidoglycan (no murein cell wall); inherently resistant to all cell-wall-targeting beta-lactams (penicillins, cephalosporins) and lysozyme enzyme.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Cell wall functions and peptidoglycan"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32,
+          "fact": "Cannot be visualized on Gram stain because of the absence of a rigid peptidoglycan cell wall; identified clinically by cold agglutinins, serology, or PCR.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 40,
+          "fact": "Enclosed only by a flexible cytoplasmic membrane containing sterols, exhibiting marked pleomorphism from spherical to filamentous shapes.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Cytoplasmic membrane composition and four primary functions"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60,
+          "fact": "Classified under the wall-less bacteria (class Mollicutes); causative agent of community-acquired primary atypical ('walking') pneumonia.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60
+        }
+      ]
+    },
+    {
+      "id": "chlamydia-trachomatis",
+      "name": "Chlamydia trachomatis & Chlamydia species",
+      "category": "spirochetes-and-atypicals",
+      "gram": "Obligate Intracellular Bacterium (EB/RB Cycle, Not Seen on Gram Stain)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32,
+          "fact": "Obligate intracellular bacteria that replicate inside eukaryotic cytoplasm and are too small to be seen under conventional Gram staining; detected using Giemsa stain, direct fluorescent antibodies (DFA), or NAAT.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60,
+          "fact": "Classified as obligate intracellular bacteria unable to generate sufficient metabolic ATP on their own ('energy parasites').",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13,
+          "fact": "Incapable of growing on cell-free artificial nutrient media; requires living host cells (tissue cell culture, embryonated eggs, or experimental animals) for propagation.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Prepared culture media and obligate intracellular bacteria"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11,
+          "fact": "Strict obligate intracellular pathogen whose entire life cycle depends on replicating within host vacuoles (inclusions).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Obligate versus facultative intracellular pathogens"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34,
+          "fact": "Sexually transmitted pathogen entering via mucosal surfaces of the genitourinary tract; also transmitted during childbirth causing neonatal conjunctivitis.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-3: Obligatory portals/pathogens/species"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53,
+          "fact": "Undergoes a unique dimorphic life cycle alternating between the small infectious extracellular elementary body (EB) and the metabolically active, intracellular replicative reticulate body (RB).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular pathogen categories"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53
+        }
+      ]
+    },
+    {
+      "id": "rickettsia-species",
+      "name": "Rickettsia species (R. rickettsii, R. prowazekii)",
+      "category": "spirochetes-and-atypicals",
+      "gram": "Obligate Intracellular Bacterium (Endothelial Tropism, Vector-Borne)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32,
+          "fact": "Small coccobacilli that multiply strictly within eukaryotic host cells and take up Gram counterstains very poorly; visualized using Giemsa or Gimenez stain.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60,
+          "fact": "Categorized alongside Chlamydia as obligate intracellular bacteria that depend upon eukaryotic host cell energy and intermediates.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13,
+          "fact": "Cannot replicate outside host cells; strict obligate intracellular lifestyle requires cell cultures or living animal systems.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Prepared culture media and obligate intracellular bacteria"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11,
+          "fact": "Classic obligate intracellular pathogen exhibiting specific tropism for vascular endothelial cells.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Obligate versus facultative intracellular pathogens"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32,
+          "fact": "Transmitted by blood-sucking arthropod vectors: ticks transmit Rickettsia rickettsii (Rocky Mountain spotted fever); human body lice transmit Rickettsia prowazekii (epidemic typhus).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-6: Insect vectors — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34,
+          "fact": "Enters human host tissue through the bite or feces of arthropod vectors, penetrating vascular endothelial cells and causing widespread microvascular vasculitis.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-3: Obligatory portals/pathogens/species"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53,
+          "fact": "Multiplies inside endothelial cytoplasm and escapes phagolysosomal degradation, leading to endothelial cell lysis, vascular leakage, and petechial rashes.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular pathogen categories"
+        }
+      ],
+      "slideCount": 7,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53
+        }
+      ]
+    },
+    {
+      "id": "legionella-pneumophila",
+      "name": "Legionella pneumophila",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Fastidious Pleomorphic Bacillus (Intracellular)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 7,
+          "fact": "Named according to Linnean binomial nomenclature from the 1976 outbreak among American Legion convention attendees in Philadelphia.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Binomial Linnean nomenclature and naming conventions"
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32,
+          "fact": "Gram-negative pleomorphic rod that stains very poorly with safranin in clinical tissue smears; requires prolonged basic fuchsin counterstaining, silver stain, or specialized BCYE agar.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacteria not visualized by Gram stain and alternative diagnostic approaches"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 30,
+          "fact": "A major waterborne bacterial pathogen transmitted through the respiratory inhalation of contaminated water aerosols produced by air conditioning systems, cooling towers, and humidifiers.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-4: Waterborne diseases — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53,
+          "fact": "Classified as a facultative intracellular pathogen capable of invading and replicating inside human alveolar macrophages.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular pathogen categories"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 54,
+          "fact": "Intracellular survival mechanism: Prevents phagosome-lysosome fusion upon internalization by alveolar macrophages, establishing a protected intracellular vacuole for replication.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular survival mechanisms"
+        }
+      ],
+      "slideCount": 5,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 54
+        }
+      ]
+    },
+    {
+      "id": "haemophilus-influenzae",
+      "name": "Haemophilus influenzae",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Fastidious Coccobacillus (Polysaccharide Capsule)",
+      "points": [
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 33,
+          "fact": "Naturally competent bacterium capable of taking up naked homologous linear DNA from its extracellular environment via natural transformation.",
+          "lectureName": "Lecture 2: Bacterial Genetics",
+          "slideTitle": "Natural and laboratory transformation"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 9,
+          "fact": "An opportunistic and potential pathogen inhabiting the human upper respiratory tract that causes invasive disease (meningitis, epiglottitis, otitis media) when host immunity is compromised.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Potential/opportunistic pathogens"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34,
+          "fact": "Portal of entry is the respiratory tract epithelium, spreading locally to cause sinusitis and otitis media, or invading the bloodstream to cause meningitis in young children.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-3: Obligatory portals/pathogens/species"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 44,
+          "fact": "Secretes an IgA1 protease enzyme that specifically hydrolyzes host secretory IgA on respiratory mucous membranes, aiding colonization and persistence.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Immunoglobulin proteases and leukocidins"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 49,
+          "fact": "Surface virulence factor: Surrounded by a polysaccharide capsule (especially serotype b / polyribosylribitol phosphate capsule) that inhibits opsonization and phagocytic clearance.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-8: Surface virulence factors"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "Member of the resident normal flora of the human nasopharynx, colonizing the mucosal surfaces of healthy individuals.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-genetics",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 44
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 49
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        }
+      ]
+    },
+    {
+      "id": "listeria-monocytogenes",
+      "name": "Listeria monocytogenes",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Non-Spore-Forming Bacillus (Psychrotolerant, Tumbling Motility)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 58,
+          "fact": "Classified among rigid, thick-walled, non-spore-forming Gram-positive bacilli; exhibits characteristic end-over-end tumbling motility at 20–25°C.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Rigid thick-walled Gram-positive bacteria catalog"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11,
+          "fact": "Classified as a facultative intracellular pathogen, meaning it can survive and replicate both inside host cells and extracellularly on culture media.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Obligate versus facultative intracellular pathogens"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35,
+          "fact": "Important zoonotic pathogen transmitted by ingestion of contaminated unpasteurized milk, soft cheeses, deli meats, and cabbage; psychrotolerant (grows at refrigerator temperatures of 4°C).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-7: Zoonotic diseases — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53,
+          "fact": "Multiplies within macrophages and epithelial cells, crossing endothelial and placental barriers to cause neonatal sepsis, meningitis, and granulomatosis infantiseptica.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular pathogen categories"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 54,
+          "fact": "Escapes from phagosomes into host cell cytoplasm before phagolysosomal fusion occurs, mediated by secretion of the pore-forming hemolysin listeriolysin O (LLO).",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Intracellular survival mechanisms"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 56,
+          "fact": "Once inside the host cytoplasm, polymerizes host cellular actin filaments at one pole (forming 'actin rocket tails') to propel itself directly into neighboring cells without extracellular exposure.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Actin motility and cell-to-cell spread"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 58
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 53
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 56
+        }
+      ]
+    },
+    {
+      "id": "cutibacterium-acnes",
+      "name": "Cutibacterium (Propionibacterium) acnes",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Anaerobic/Microaerophilic Pleomorphic Diphtheroid Rod",
+      "points": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24,
+          "fact": "Anaerobic fermentation pathways produce propionic acid as a primary metabolic end-product, contributing to the acidic pH mantle of human skin.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Fermentation products overview"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "The major resident anaerobic Gram-positive rod colonizing the human skin, particularly concentrated in areas rich in sebaceous glands.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 19,
+          "fact": "Resides deep in hair follicles and sebaceous glands; secretes bacterial lipases that hydrolyze sebum triglycerides into free fatty acids, triggering localized inflammation in acne vulgaris.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Skin normal flora"
+        }
+      ],
+      "slideCount": 3,
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 19
+        }
+      ]
+    },
+    {
+      "id": "staphylococcus-saprophyticus",
+      "name": "Staphylococcus saprophyticus",
+      "category": "gram-positive-cocci",
+      "gram": "Gram-Positive Coccus (CoNS, Novobiocin-Resistant)",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24,
+          "fact": "Coagulase-negative staphylococcus (CoNS) that is inherently resistant to novobiocin, distinguishing it in the laboratory from novobiocin-sensitive Staphylococcus epidermidis.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26,
+          "fact": "Part of the transient/resident periurethral and genitourinary flora; second only to E. coli as a leading cause of acute community-acquired urinary tract infections (UTIs/cystitis) in young sexually active females.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora-associated diseases"
+        }
+      ],
+      "slideCount": 2,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26
+        }
+      ]
+    },
+    {
+      "id": "lactobacillus-species",
+      "name": "Lactobacillus species (L. acidophilus)",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Non-Spore-Forming Fermentative Bacillus (Acidophilic)",
+      "points": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 6,
+          "fact": "Non-spore-forming Gram-positive fermentative bacillus that thrives under aerotolerant microaerophilic conditions.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Table 19.1 Generation times under optimum conditions"
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24,
+          "fact": "Performs lactic acid fermentation, metabolizing glucose and glycogen into abundant lactic acid as its primary metabolic end-product.",
+          "lectureName": "Lecture 3: Bacterial Growth & Culture",
+          "slideTitle": "Fermentation products overview"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "Prominent resident normal flora of both the human gastrointestinal tract and the adult female genital tract.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22,
+          "fact": "Inhabits the small intestine and colon in moderate numbers, fermenting dietary sugars and contributing to colon mucosal protection.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Intestinal-tract normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24,
+          "fact": "The predominant resident organism of the adult vagina; metabolizes estrogen-stimulated mucosal glycogen into lactic acid, maintaining an acidic vaginal pH (~4.5).",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26,
+          "fact": "Maintains a protective acidic vaginal barrier; broad-spectrum antibiotic depletion of Lactobacillus elevates vaginal pH and permits overgrowth of Candida albicans and Gardnerella vaginalis.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora-associated diseases"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 29,
+          "fact": "Prototypic probiotic organism (Lactobacillus acidophilus): live beneficial bacteria consumed in adequate amounts to restore intestinal and vaginal mucosal barrier resistance.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Properties and examples of probiotics"
+        }
+      ],
+      "slideCount": 7,
+      "sourceRefs": [
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "bacterial-growth",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 29
+        }
+      ]
+    },
+    {
+      "id": "bifidobacterium-bifidum",
+      "name": "Bifidobacterium bifidum",
+      "category": "gram-positive-bacilli",
+      "gram": "Gram-Positive Branched/Bifid Anaerobic Bacillus (Infant Gut Commensal)",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22,
+          "fact": "Predominant obligate anaerobic commensal colonizing the intestinal tract of breast-fed infants, constituting the major protective fecal bacterium in early life.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Intestinal-tract normal flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 29,
+          "fact": "Major probiotic bacterium utilized in dietary supplements to provide clinical health benefits, synthesizing short-chain fatty acids that suppress enteropathogens.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Properties and examples of probiotics"
+        }
+      ],
+      "slideCount": 2,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 29
+        }
+      ]
+    },
+    {
+      "id": "fusobacterium-nucleatum",
+      "name": "Fusobacterium species (F. nucleatum)",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Spindle-Shaped (Fusiform) Anaerobic Bacillus",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8,
+          "fact": "Morphologically distinguished as elongated, spindle-shaped (fusiform) Gram-negative rods with sharply pointed, tapered ends.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Bacterial classification by shape and morphology"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 13,
+          "fact": "Oral and gut commensal bacterium whose local expansion and enrichment in colonic tissue is clinically linked to colorectal cancer and chronic gut inflammation.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Microbiome in systemic disease and cancer"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 23,
+          "fact": "Obligate anaerobe of the mouth and bowel that participates as a pathogen in polymicrobial abdominal abscesses and necrotizing mixed anaerobic infections.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Extra-intestinal disease from intestinal flora"
+        }
+      ],
+      "slideCount": 3,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 23
+        }
+      ]
+    },
+    {
+      "id": "campylobacter-jejuni",
+      "name": "Campylobacter jejuni",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Curved/Gull-Wing Microaerophilic Thermophilic Rod",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60,
+          "fact": "Curved, comma- or gull-wing-shaped Gram-negative rod possessing a single polar flagellum at one or both ends.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Table 5-1: Curved rods, acid-fast, intracellular, spirochetes, wall-less catalog"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 30,
+          "fact": "Important cause of waterborne diarrhea transmitted via consumption of contaminated municipal water or recreational water bodies.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-4: Waterborne diseases — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35,
+          "fact": "Major zoonotic enteric pathogen acquired from domestic poultry, unpasteurized milk, and contaminated livestock, causing acute enterocolitis with inflammatory bloody diarrhea.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-7: Zoonotic diseases — third-year reference"
+        }
+      ],
+      "slideCount": 3,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 60
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35
+        }
+      ]
+    },
+    {
+      "id": "yersinia-species",
+      "name": "Yersinia species (Y. pestis, Y. enterocolitica)",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Negative Coccobacillus with Bipolar Staining (Safety-Pin)",
+      "points": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 41,
+          "fact": "Demonstrates characteristic bipolar staining ('safety-pin' appearance) where the two poles take up stain intensely while the center remains pale.",
+          "lectureName": "Lecture 1: Bacteria & Other Microorganisms",
+          "slideTitle": "Ribosome subunit comparison and storage granules"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32,
+          "fact": "Yersinia pestis is transmitted to humans by flea vectors (Xenopsylla cheopis) from infected rodent reservoir hosts, causing bubonic plague.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-6: Insect vectors — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35,
+          "fact": "Zoonotic pathogen maintaining natural reservoirs in rodents and wild animals; Y. enterocolitica causes foodborne enterocolitis from contaminated pork or dairy.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-7: Zoonotic diseases — third-year reference"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43,
+          "fact": "Secretes coagulase and plasminogen activator protease that dissolve fibrin clots and facilitate rapid invasive spread through lymphatics.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Tissue invasion enzymes and coagulase"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 49,
+          "fact": "Expresses antiphagocytic surface antigens (F1 capsular antigen and V/W antigens) that inhibit opsonization and phagocytic killing by neutrophils.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Table 7-8: Surface virulence factors"
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 57,
+          "fact": "Injects Yop effector proteins directly into macrophages via a Type III secretion needle, disrupting actin cytoskeleton dynamics and blocking cytokine production.",
+          "lectureName": "Lecture 5: Bacterial Pathogenesis",
+          "slideTitle": "Yersinia outer proteins"
+        }
+      ],
+      "slideCount": 6,
+      "sourceRefs": [
+        {
+          "lectureId": "bacteria-and-other-microorganisms",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 43
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 49
+        },
+        {
+          "lectureId": "bacterial-pathogenesis",
+          "pdfPage": 57
+        }
+      ]
+    },
+    {
+      "id": "gardnerella-vaginalis",
+      "name": "Gardnerella vaginalis",
+      "category": "gram-negative-bacilli",
+      "gram": "Gram-Variable Pleomorphic Coccobacillus (Bacterial Vaginosis)",
+      "points": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18,
+          "fact": "Present in low numbers as part of the normal vaginal flora of healthy women.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Table 6-1: Normal flora and anatomic locations"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24,
+          "fact": "Gram-variable pleomorphic rod colonizing the female genital tract in balance with normal lactobacilli.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora"
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26,
+          "fact": "Overgrows when protective Lactobacillus flora is depleted, resulting in bacterial vaginosis characterized by a thin fishy vaginal discharge and 'clue cells' on wet mount.",
+          "lectureName": "Lecture 4: Normal Flora",
+          "slideTitle": "Genitourinary flora-associated diseases"
+        }
+      ],
+      "slideCount": 3,
+      "sourceRefs": [
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "normal-flora",
+          "pdfPage": 26
+        }
+      ]
     }
   ]
 }

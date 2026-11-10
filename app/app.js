@@ -633,9 +633,10 @@ function renderOrganismsTab() {
     { id: 'all', label: 'All Bacteria', count: synthesisData.organisms.length },
     { id: 'gram-positive-cocci', label: 'Gram+ Cocci', count: synthesisData.organisms.filter(o => o.category === 'gram-positive-cocci').length },
     { id: 'gram-negative-bacilli', label: 'Gram- Bacilli', count: synthesisData.organisms.filter(o => o.category === 'gram-negative-bacilli').length },
-    { id: 'gram-positive-bacilli', label: 'Spore-Forming Bacilli', count: synthesisData.organisms.filter(o => o.category === 'gram-positive-bacilli').length },
+    { id: 'gram-positive-bacilli', label: 'Gram+ Bacilli', count: synthesisData.organisms.filter(o => o.category === 'gram-positive-bacilli').length },
     { id: 'gram-negative-cocci', label: 'Gram- Cocci', count: synthesisData.organisms.filter(o => o.category === 'gram-negative-cocci').length },
-    { id: 'acid-fast-bacteria', label: 'Acid-Fast Bacilli', count: synthesisData.organisms.filter(o => o.category === 'acid-fast-bacteria').length }
+    { id: 'acid-fast-bacteria', label: 'Acid-Fast Bacilli', count: synthesisData.organisms.filter(o => o.category === 'acid-fast-bacteria').length },
+    { id: 'spirochetes-and-atypicals', label: 'Spirochetes & Atypicals', count: synthesisData.organisms.filter(o => o.category === 'spirochetes-and-atypicals').length }
   ];
 
   let selectedOrg = filtered.find(o => o.id === state.selectedOrganism) || filtered[0] || synthesisData.organisms[0];
@@ -674,7 +675,10 @@ function renderOrganismsTab() {
   }
 
   const qCount = selectedOrg ? countOrganismActivities(selectedOrg) : 0;
-  const selectedGramClass = selectedOrg ? (selectedOrg.category === 'gram-positive-cocci' || selectedOrg.category === 'gram-positive-bacilli' ? 'gram-pos' : selectedOrg.category === 'acid-fast-bacteria' ? 'afb' : 'gram-neg') : 'neutral';
+  const isGramPos = selectedOrg && (selectedOrg.category === 'gram-positive-cocci' || selectedOrg.category === 'gram-positive-bacilli');
+  const isAFB = selectedOrg && selectedOrg.category === 'acid-fast-bacteria';
+  const isAtypical = selectedOrg && selectedOrg.category === 'spirochetes-and-atypicals';
+  const selectedGramClass = !selectedOrg ? 'neutral' : isGramPos ? 'gram-pos' : isAFB ? 'afb' : isAtypical ? 'atypical' : 'gram-neg';
 
   return toolbarHTML + `
     <div class="bacteria-workspace">
@@ -687,8 +691,11 @@ function renderOrganismsTab() {
         <div class="bacteria-dir-list" role="tablist">
           ${filtered.map(o => {
             const isSelected = o.id === selectedOrg.id;
-            const gramClass = o.category === 'gram-positive-cocci' || o.category === 'gram-positive-bacilli' ? 'gram-pos' : o.category === 'acid-fast-bacteria' ? 'afb' : 'gram-neg';
-            const stainShort = o.category === 'acid-fast-bacteria' ? 'AFB' : o.category.includes('positive') ? 'G+' : 'G-';
+            const isOrgGramPos = o.category === 'gram-positive-cocci' || o.category === 'gram-positive-bacilli';
+            const isOrgAFB = o.category === 'acid-fast-bacteria';
+            const isOrgAtypical = o.category === 'spirochetes-and-atypicals';
+            const gramClass = isOrgGramPos ? 'gram-pos' : isOrgAFB ? 'afb' : isOrgAtypical ? 'atypical' : 'gram-neg';
+            const stainShort = isOrgAFB ? 'AFB' : isOrgAtypical ? 'Atyp' : isOrgGramPos ? 'G+' : 'G-';
             return `
               <button type="button" class="bacteria-dir-card ${gramClass} ${isSelected ? 'active' : ''}" data-select-organism="${esc(o.id)}" role="tab" aria-selected="${isSelected}">
                 <div class="dir-card-top">

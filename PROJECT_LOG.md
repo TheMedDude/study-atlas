@@ -491,6 +491,32 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Authored and executed Playwright headless Chrome test (`work/test_bank_browser_filter.mjs`): verified initial 409 rows, live keyword filtering with `"fecal"`, clearing search, chapter filtering to Normal flora (41 rows), fullscreen mode toggle, and single-item launch into Practice.
   - Cache-busted assets to `v=1.2.11`.
 
+## 2026-11-10 - Release 1.2.12: Expansion of Bacteria Summary & Slide Facts to 40 Clinical Organisms
+
+- **Problem Addressed**:
+  - User reported: `"i beleive u didnt include all bavteria or organisims in the bacteria summary for exm i noticed the s.verdiants which was mentioned couple of times through the slides its not even there"`.
+  - Identified that the initial Bacteria Summary synthesis only indexed 18 prototype organisms and omitted critical normal flora, opportunists, and atypical pathogens taught across the 5 General Microbiology lectures, including Viridans group streptococci (*Streptococcus mutans*), *Clostridioides difficile*, *Bacteroides fragilis*, *Helicobacter pylori*, *Corynebacterium diphtheriae*, *Treponema pallidum*, *Borrelia burgdorferi/recurrentis*, *Mycoplasma pneumoniae*, *Chlamydia trachomatis*, *Rickettsia species*, *Legionella pneumophila*, *Listeria monocytogenes*, *Cutibacterium acnes*, *Staphylococcus saprophyticus*, *Lactobacillus acidophilus*, *Bifidobacterium bifidum*, *Fusobacterium nucleatum*, *Campylobacter jejuni*, *Yersinia pestis*, and *Gardnerella vaginalis*.
+- **Comprehensive Taxonomic & Clinical Expansion**:
+  - Expanded `subjects/general-microbiology/synthesis/organisms.json` from 18 to 40 organisms.
+  - Added **`viridans-streptococci`** (*Viridans group streptococci / S. mutans, S. mitis*) with 6 verified slide extractions:
+    1. Lecture 1 p.50: Dextran/glycocalyx biofilm synthesis in dental plaque.
+    2. Lecture 4 p.12: Transient bacteremia after tooth extraction or tonsillectomy leading to subacute infective endocarditis on damaged valves.
+    3. Lecture 4 p.18: Major normal flora of mouth and throat forming alpha-hemolytic green colonies.
+    4. Lecture 4 p.20: Throat competitive barrier inhibiting pathogenic invasion by *Streptococcus pyogenes*.
+    5. Lecture 4 p.21: *Streptococcus mutans* concentration in dental plaque (caries precursor) and subacute bacterial endocarditis etiology.
+    6. Lecture 5 p.37: Glycocalyx adhesin binding damaged heart valve endocardium.
+  - Added 21 additional clinical organisms covering every bacterium taught in the 5 lectures, strictly linked to verified teaching pages in `page-ledger.json` (102 verified slide references).
+- **UI & Filtering Enhancements in Memorize Room**:
+  - Category Pills updated with live counts: All Bacteria (40), Gram+ Cocci (7), Gram- Bacilli (15), Gram+ Bacilli (10), Gram- Cocci (2), Acid-Fast Bacilli (1), Spirochetes & Atypicals (5).
+  - Added `--atypical` token (`#0284c7`), `.microbe-stain-badge.atypical` (`Atyp`), and matching active border styling in `styles.css`.
+  - Directory cards and dossier viewer dynamically format Gram-positive, Gram-negative, Acid-fast, and Atypical/Spirochete taxonomy.
+- **Verification & Testing**:
+  - Content structure validation: `python scripts/validate_content.py --subject general-microbiology` passed (224 pages, 488 concepts, 428 activities, 4 synthesis modules).
+  - Automated tests: `npm test` passed 63/63 tests, including new regression asserting `viridans-streptococci` and >=40 organisms in `tests/content.test.mjs`.
+  - Linting: `npm run check` passed with zero errors.
+  - Playwright E2E browser test (`work/test_expanded_organisms_e2e.mjs`): verified 40 directory cards, category filter counts, `"viridans"` search, active dossier viewer with 6 slide facts, and Spirochetes & Atypicals filter.
+  - Cache-busted assets to `v=1.2.12`.
+
 
 
 
