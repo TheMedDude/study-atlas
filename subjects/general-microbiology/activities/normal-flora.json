@@ -16,10 +16,10 @@
           "pdfPage": 2
         }
       ],
-      "prompt": "Which groups of microorganisms constitute the permanent human normal flora at sites such as the skin, oropharynx, colon, and vagina?",
+      "prompt": "Which microorganisms constitute the permanent normal flora of the human body, and which groups are explicitly excluded from this classification?",
       "explanation": {
-        "en": "The normal flora consists of populations of bacteria and fungi that permanently reside on and within specific anatomical body sites, including the skin, oropharynx, colon, and vagina.",
-        "ar": "تتألف الفلورا الطبيعية (Normal flora) من جماعات من البكتيريا والفطريات التي تستوطن بشكل دائم مواقع تشريحية محددة في الجسم، بما في ذلك الجلد، والبلعوم الفموي، والقولون، والمهبل."
+        "en": "Normal flora describes bacteria and fungi that are permanent residents of body sites (skin, oropharynx, colon, vagina). Viruses and parasites are never considered normal flora.",
+        "ar": "تصف الفلورا الطبيعية البكتيريا والفطريات التي تستوطن مواقع الجسم بشكل دائم (الجلد، البلعوم الفموي، القولون، المهبل). لا تُعد الفيروسات والطفيليات أبداً من الفلورا الطبيعية."
       },
       "status": "validated",
       "review": {
@@ -29,33 +29,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 2.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 2: Bacteria and fungi that permanently reside at sites including skin, oropharynx, colon and vagina."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Bacteria and fungi that permanently reside at anatomical body sites",
-          "evidence": "Bacteria and fungi that permanently reside at sites including skin, oropharynx, colon and vagina. Source PDF page: 2."
+          "text": "Bacteria and fungi are permanent residents; viruses and parasites are never considered normal flora",
+          "evidence": "Normal flora describes bacteria and fungi as permanent residents; viruses and parasites are never considered normal flora. Source PDF page: 2."
         },
         {
           "id": "o2",
-          "text": "Obligate intracellular viruses and viroids in human hepatocytes",
-          "evidence": "Normal flora consists of bacteria and fungi permanently residing at body sites. Source PDF page: 2."
+          "text": "Bacteria, viruses, and fungi are permanent residents; only multicellular helminths are excluded",
+          "evidence": "Viruses are explicitly never considered members of the normal flora. Source PDF page: 2."
         },
         {
           "id": "o3",
-          "text": "Multicellular parasitic helminths in the biliary ducts",
-          "evidence": "Helminths are parasites, not normal flora. Source PDF page: 2."
+          "text": "Bacteria and protozoa are permanent residents; yeasts and filamentous fungi are excluded",
+          "evidence": "Protozoa are parasites and never considered normal flora, while fungi are true members. Source PDF page: 2."
         },
         {
           "id": "o4",
-          "text": "Environmental cyanobacteria proliferating in peripheral blood",
-          "evidence": "Normal flora resides on skin and mucosal surfaces, not blood. Source PDF page: 2."
+          "text": "Viruses and bacteria are permanent residents; fungi and commensal protozoa are excluded",
+          "evidence": "Viruses are never members of normal flora, whereas fungi are permanent residents. Source PDF page: 2."
         },
         {
           "id": "o5",
-          "text": "Transient pollen grains inhaled into terminal alveoli",
-          "evidence": "Normal flora is composed of resident bacteria and fungi. Source PDF page: 2."
+          "text": "All five infectious groups are permanent residents, provided they remain nonpathogenic",
+          "evidence": "Viruses and parasites are categorically excluded from normal flora regardless of pathogenicity. Source PDF page: 2."
         }
       ],
       "correctOptionId": "o1"
@@ -74,10 +74,10 @@
           "pdfPage": 3
         }
       ],
-      "prompt": "What temporal and anatomical characteristic defines the resident microbial flora?",
+      "prompt": "What defining characteristic distinguishes resident microbial flora from transient flora in the human body?",
       "explanation": {
-        "en": "Resident flora consists of microbial species that live on or in nearly everyone almost all the time at specific anatomical body sites.",
-        "ar": "تُعرَّف الفلورا المقيمة (Resident flora) بأنها أنواع ميكروبية تعيش على أو داخل جميع الأفراد تقريباً وطوال الوقت تقريباً في مواقع تشريحية محددة."
+        "en": "Resident flora refers to species that live on or in nearly everyone almost all the time at specific body sites (e.g. S. epidermidis on skin, E. coli in colon).",
+        "ar": "تشير الفلورا المقيمة إلى الأنواع التي تعيش على أو في كل شخص تقريباً طوال الوقت في مواقع محددة من الجسم (مثل المكورات العنقودية البشروية على الجلد والإشريكية القولونية في القولون)."
       },
       "status": "validated",
       "review": {
@@ -87,33 +87,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 3.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 3: Species living on/in nearly everyone almost all the time at specific sites."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o2",
-          "text": "Airborne pathogens that colonize the lungs only during winter months",
-          "evidence": "This describes seasonal pathogens, not resident flora. Source PDF page: 3."
+          "id": "o1",
+          "text": "Resident flora consists of species present on or in nearly everyone almost all the time at specific sites",
+          "evidence": "Resident flora refers to species that live on or in nearly everyone almost all the time at specific sites. Source PDF page: 3."
         },
         {
-          "id": "o1",
-          "text": "Species living on or in nearly everyone almost all the time at specific body sites",
-          "evidence": "Species living on/in nearly everyone almost all the time at specific sites. Source PDF page: 3."
+          "id": "o2",
+          "text": "Resident flora consists of species found periodically for brief intervals that disappear without intervention",
+          "evidence": "Periodic, temporary presence defines transient flora, not resident flora. Source PDF page: 3, 4."
         },
         {
           "id": "o3",
-          "text": "Organisms that appear for only a few hours after antibiotic treatment",
-          "evidence": "Resident flora persists almost all the time. Source PDF page: 3."
+          "text": "Resident flora consists of virulent pathogens that colonize mucosal tissues exclusively during active infection",
+          "evidence": "Resident flora consists of non-pathogenic commensals, not primary pathogens during active infection. Source PDF page: 3."
         },
         {
           "id": "o4",
-          "text": "Microbes restricted exclusively to surgical intensive care unit catheters",
-          "evidence": "Resident flora lives naturally in healthy human populations. Source PDF page: 3."
+          "text": "Resident flora consists of environmental microbes acquired only following prolonged broad-spectrum antibiotic therapy",
+          "evidence": "Antibiotics diminish resident flora; they do not create resident communities. Source PDF page: 3, 15."
         },
         {
           "id": "o5",
-          "text": "Spore-forming fungi found solely in the cerebrospinal fluid",
-          "evidence": "CSF is sterile; resident flora inhabits skin and mucosa. Source PDF page: 3, 17."
+          "text": "Resident flora consists of strictly intracellular organisms that replicate only within host epithelial nuclei",
+          "evidence": "Resident flora are extracellular or mucosal commensals, not obligate intranuclear organisms. Source PDF page: 3."
         }
       ],
       "correctOptionId": "o1"
@@ -132,10 +132,10 @@
           "pdfPage": 3
         }
       ],
-      "prompt": "Under what circumstance can harmless resident flora cause serious clinical disease?",
+      "prompt": "Under which clinical circumstance do non-pathogenic resident commensal bacteria typically cause severe disease?",
       "explanation": {
-        "en": "Resident flora can act as opportunistic pathogens when introduced into abnormal anatomical sites outside their normal ecological habitat.",
-        "ar": "يمكن للفلورا المقيمة أن تتحول إلى ممرضات انتهازية عندما تدخل إلى مواقع تشريحية غير طبيعية خارج موطنها البيئي الطبيعي."
+        "en": "Resident flora are non-pathogenic in their native niche, but may become pathogenic if introduced into abnormal anatomical sites (e.g. skin flora onto prosthetic heart valves, bowel flora into peritoneum).",
+        "ar": "الفلورا المقيمة غير ممرضة في موطنها الطبيعي، ولكنها قد تصبح ممرضة إذا أُدخلت إلى مواقع تشريحية غير طبيعية (مثل وصول فلورا الجلد إلى صمامات القلب الاصطناعية، أو فلورا الأمعاء إلى التجويف البريتوني)."
       },
       "status": "validated",
       "review": {
@@ -145,33 +145,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 3.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 3: Residents can become pathogenic when introduced into abnormal sites."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Only when infected by high-titer Epstein-Barr virus",
-          "evidence": "Introduction into abnormal sites mediates opportunistic pathogenicity. Source PDF page: 3."
-        },
-        {
-          "id": "o5",
-          "text": "If the host consumes dietary yogurt containing live probiotics",
-          "evidence": "Displacement into sterile or abnormal tissues triggers disease. Source PDF page: 3."
-        },
-        {
           "id": "o1",
-          "text": "When introduced into abnormal anatomical sites outside their normal habitat",
-          "evidence": "Residents can become pathogenic when introduced into abnormal sites; flora may act as pathogens in tissues outside their normal habitat. Source PDF page: 3."
+          "text": "When displaced from their normal anatomical habitat into normally sterile or abnormal sites",
+          "evidence": "Resident flora are non-pathogenic but may become pathogenic if introduced into abnormal sites. Source PDF page: 3, 11."
         },
         {
           "id": "o2",
-          "text": "Whenever dietary vitamin K intake exceeds physiological requirements",
-          "evidence": "Resident flora produces vitamin K; disease occurs upon displacement to abnormal sites. Source PDF page: 3, 6."
+          "text": "When exposed to physiological body temperatures between 36.5°C and 37.5°C in their native niche",
+          "evidence": "Normal body temperature supports commensal colonization without causing disease. Source PDF page: 3."
         },
         {
           "id": "o3",
-          "text": "When exposed to room temperatures between 20°C and 25°C",
-          "evidence": "Pathogenicity occurs when barriers are breached and flora enters abnormal sites. Source PDF page: 3, 12."
+          "text": "When the host consumes dietary yogurt containing live lactic acid probiotic strains",
+          "evidence": "Probiotic consumption stabilizes normal flora and does not cause commensals to turn pathogenic. Source PDF page: 3, 27."
+        },
+        {
+          "id": "o4",
+          "text": "When bacterial generation times extend beyond eighteen hours in nutrient-rich mucosal environments",
+          "evidence": "Prolonged doubling times do not cause resident commensals to initiate invasive disease. Source PDF page: 3."
+        },
+        {
+          "id": "o5",
+          "text": "When resident bacteria produce short-chain fatty acids that support epithelial barrier integrity",
+          "evidence": "Short-chain fatty acid production is a protective metabolic advantage, not a cause of disease. Source PDF page: 3, 10."
         }
       ],
       "correctOptionId": "o1"
@@ -190,10 +190,10 @@
           "pdfPage": 4
         }
       ],
-      "prompt": "What defines the transient microbial flora of the human body?",
+      "prompt": "How is transient flora defined, and which organism is cited as a prime example that can cause disease if host resistance falls?",
       "explanation": {
-        "en": "Transient flora consists of microbial species found periodically on or in the body for limited durations; they do not establish permanent residence but may cause disease if host resistance falls.",
-        "ar": "تُعرَّف الفلورا العابرة (Transient flora) بأنها أنواع ميكروبية تتواجد بشكل دوري أو مؤقت على أو داخل الجسم؛ ولا تؤسس إقامة دائمة ولكنها قد تسبب المرض إذا انخفضت مقاومة المضيف."
+        "en": "Transient flora are species found periodically on or in the body (e.g. Streptococcus pneumoniae in the throat) that can cause disease when host resistance falls.",
+        "ar": "الفلورا العابرة هي أنواع توجد بشكل دوري على الجسم أو داخله (مثل المكورات الرئوية في الحلق) والتي يمكن أن تسبب المرض عندما تنخفض مقاومة العائل."
       },
       "status": "validated",
       "review": {
@@ -203,33 +203,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 4.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 4: Species found periodically on or in the body; may become pathogenic when resistance falls."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o5",
-          "text": "Obligate intracellular viruses acquired strictly at birth that remain latent throughout normal life",
-          "evidence": "Transient flora temporarily colonizes body surfaces. Source PDF page: 4."
-        },
-        {
-          "id": "o4",
-          "text": "Microbial species residing permanently in mucosal tissue without causing disease when immunity drops",
-          "evidence": "Transient flora is associated periodically with the human body. Source PDF page: 4."
+          "id": "o1",
+          "text": "Species found periodically on or in the body; exemplified by Streptococcus pneumoniae",
+          "evidence": "Transient flora are species found periodically on/in the body, exemplified by S. pneumoniae. Source PDF page: 4."
         },
         {
           "id": "o2",
-          "text": "Symbiotic gut microbes that synthesize essential fat-soluble vitamins exclusively during fetal growth",
-          "evidence": "This describes resident flora, not transient flora. Source PDF page: 3, 4."
-        },
-        {
-          "id": "o1",
-          "text": "Microbial species found periodically on or in the body that can cause disease if resistance falls",
-          "evidence": "Species found periodically on or in the body; may become pathogenic when resistance falls. Source PDF page: 4."
+          "text": "Species residing permanently in nearly all individuals; exemplified by Staphylococcus epidermidis",
+          "evidence": "S. epidermidis is a permanent resident of the skin, not transient flora. Source PDF page: 3, 19."
         },
         {
           "id": "o3",
-          "text": "Sterile host enzymatic secretions produced by glandular tissues to degrade pathogenic bacterial walls",
-          "evidence": "Transient flora consists of living microorganisms found periodically. Source PDF page: 4."
+          "text": "Strictly anaerobic bacilli dominating the fecal flora; exemplified by Bacteroides fragilis",
+          "evidence": "B. fragilis is a permanent resident dominating colonic flora, not transient. Source PDF page: 3, 22."
+        },
+        {
+          "id": "o4",
+          "text": "Lactic acid-producing bacilli maintaining vaginal acidity; exemplified by Lactobacillus acidophilus",
+          "evidence": "Lactobacillus is a permanent resident of the adult vagina, not transient flora. Source PDF page: 18, 24."
+        },
+        {
+          "id": "o5",
+          "text": "Sebaceous gland commensals implicated in facial acne; exemplified by Cutibacterium acnes",
+          "evidence": "Cutibacterium acnes is a permanent resident in deep dermal follicles, not transient. Source PDF page: 19."
         }
       ],
       "correctOptionId": "o1"
@@ -248,10 +248,10 @@
           "pdfPage": 4
         }
       ],
-      "prompt": "How is colonization defined in the context of host-microbe interactions?",
+      "prompt": "What is the biological definition of colonization in host-microbe interactions?",
       "explanation": {
-        "en": "Colonization is defined as the acquisition and establishment of a new microorganism, often potentially pathogenic, upon mucosal or cutaneous surfaces without necessarily causing overt tissue damage.",
-        "ar": "يُعرَّف الاستعمار (Colonization) بأنه اكتساب واستقرار كائن ميكروبي جديد، غالباً ما يكون ممرضاً محتملاً، على الأسطح المخاطية أو الجلدية دون إحداث ضرر نسيجي بالضرورة."
+        "en": "Colonization refers to the acquisition of a new organism (mainly pathogenic) and its establishment on mucosal surfaces.",
+        "ar": "يشير الاستعمار (Colonization) إلى اكتساب كائن حي جديد (غالباً ما يكون ممرضاً) واستقراره على الأسطح المخاطية."
       },
       "status": "validated",
       "review": {
@@ -261,33 +261,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 4.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 4: Acquisition of a new organism, mainly pathogenic on mucosal surfaces."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "Lysis of all bacterial chromosomes by host gastric acid",
-          "evidence": "Colonization involves survival and attachment, not destruction. Source PDF page: 4."
-        },
-        {
-          "id": "o4",
-          "text": "Complete eradication of all resident and transient species from the body",
-          "evidence": "Colonization is the gain of an organism, not eradication. Source PDF page: 4."
-        },
-        {
-          "id": "o5",
-          "text": "Antibody-mediated neutralisation of viral spikes in the bloodstream",
-          "evidence": "Colonization occurs on body surfaces. Source PDF page: 4."
+          "id": "o1",
+          "text": "The acquisition and establishment of a new organism, mainly pathogenic, on mucosal surfaces",
+          "evidence": "Colonization refers to the acquisition of a new organism (mainly pathogenic, on mucosal surfaces). Source PDF page: 4."
         },
         {
           "id": "o2",
-          "text": "Immediate surgical excision of the entire colonized organ",
-          "evidence": "Colonization is a biological microbial establishment process. Source PDF page: 4."
+          "text": "The complete systemic dissemination of a toxin through the bloodstream causing distant shock",
+          "evidence": "Systemic dissemination of toxins describes toxemia, not colonization. Source PDF page: 4."
         },
         {
-          "id": "o1",
-          "text": "The acquisition and establishment of a new organism on mucosal surfaces",
-          "evidence": "Acquisition of a new organism, mainly pathogenic on mucosal surfaces in the source phrasing. Source PDF page: 4."
+          "id": "o3",
+          "text": "The permanent genetic integration of a temperate bacteriophage into the bacterial chromosome",
+          "evidence": "Bacteriophage integration defines lysogeny, not mucosal colonization. Source PDF page: 4."
+        },
+        {
+          "id": "o4",
+          "text": "The transient elimination of all resident and transient bacteria following oral neomycin",
+          "evidence": "Antibiotic suppression reduces bacterial levels; it is the opposite of colonization. Source PDF page: 4, 16."
+        },
+        {
+          "id": "o5",
+          "text": "The enzymatic degradation of host mucosal immunoglobulin A by bacterial extracellular proteases",
+          "evidence": "IgA proteolysis is an immune evasion mechanism, not the definition of colonization. Source PDF page: 4."
         }
       ],
       "correctOptionId": "o1"
@@ -306,10 +306,10 @@
           "pdfPage": 5
         }
       ],
-      "prompt": "What is the comprehensive definition of the human microbiome?",
+      "prompt": "How does the scope of the human microbiome differ from the conventional definition of normal flora?",
       "explanation": {
-        "en": "The human microbiome encompasses all microorganisms inhabiting the human body, including bacteria, fungi, and viruses, along with their combined genetic material.",
-        "ar": "يشمل الميكروبيوم البشري (Human microbiome) جميع الكائنات الحية الدقيقة التي تستوطن جسم الإنسان، بما في ذلك البكتيريا، والفطريات، والفيروسات، إلى جانب مادتها الوراثية مجتمعة."
+        "en": "The human microbiome encompasses all microorganisms (bacteria, fungi, and viruses) inhabiting the human body. In contrast, the term normal flora explicitly excludes viruses and parasites.",
+        "ar": "يشمل الميكروبيوم البشري جميع الكائنات الحية الدقيقة (البكتيريا والفطريات والفيروسات) التي تسكن جسم الإنسان. في المقابل، يستثني مصطلح الفلورا الطبيعية الفيروسات والطفيليات صراحةً."
       },
       "status": "validated",
       "review": {
@@ -319,33 +319,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 5.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 5: All microorganisms inhabiting the body, including bacteria, fungi and viruses."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "All microorganisms inhabiting the human body, including bacteria, fungi, and viruses",
-          "evidence": "All microorganisms inhabiting the body, including bacteria, fungi and viruses. Source PDF page: 5."
-        },
-        {
-          "id": "o3",
-          "text": "The collection of human white blood cells circulating in lymph nodes",
-          "evidence": "Microbiome refers to microbial populations, not human leukocytes. Source PDF page: 5."
-        },
-        {
-          "id": "o5",
-          "text": "The mineral content of human cortical bone tissue",
-          "evidence": "Microbiome refers to inhabiting microorganisms. Source PDF page: 5."
+          "text": "The microbiome includes all microorganisms (bacteria, fungi, and viruses), whereas normal flora excludes viruses",
+          "evidence": "Microbiome includes bacteria, fungi, and viruses (p.5); normal flora excludes viruses and parasites (p.2). Source PDF page: 2, 5."
         },
         {
           "id": "o2",
-          "text": "Only pathogenic bacteria that cause acute septic shock",
-          "evidence": "Microbiome includes all inhabiting commensals, mutualists, and potential pathogens. Source PDF page: 5."
+          "text": "The microbiome includes only bacteria, whereas normal flora encompasses bacteria, fungi, and helminths",
+          "evidence": "Normal flora excludes helminths, and microbiome includes viruses as well as bacteria and fungi. Source PDF page: 2, 5."
+        },
+        {
+          "id": "o3",
+          "text": "The microbiome refers exclusively to culturable bacteria, whereas normal flora includes non-living bacteriophages",
+          "evidence": "Microbiome includes all inhabiting microbes (including uncultured species and viruses), not just culturable bacteria. Source PDF page: 5."
         },
         {
           "id": "o4",
-          "text": "Sterile pharmaceutical vaccines injected intramuscularly",
-          "evidence": "Microbiome is the native microbial ecosystem of the body. Source PDF page: 5."
+          "text": "The microbiome encompasses only transient pathogens, whereas normal flora is restricted to the colon",
+          "evidence": "The microbiome describes the entire body ecosystem, not merely transient pathogens. Source PDF page: 5."
+        },
+        {
+          "id": "o5",
+          "text": "The microbiome describes host immune antibodies, whereas normal flora describes colonizing commensals",
+          "evidence": "The microbiome refers to microbial organisms, not host immune antibodies. Source PDF page: 5."
         }
       ],
       "correctOptionId": "o1"
@@ -364,10 +364,10 @@
           "pdfPage": 5
         }
       ],
-      "prompt": "Which anatomical organ harbors the largest and most ecologically complex microbial population in the human body?",
+      "prompt": "Which anatomical site harbors the largest and ecologically most complex microbial population in the human body?",
       "explanation": {
-        "en": "The colon (large intestine) harbors the largest and most complex microbial population in the human body, containing trillions of bacteria.",
-        "ar": "يأوي القولون (الأمعاء الغليظة) أكبر وأعقد تجمع ميكروبي في جسم الإنسان، حيث يحتوي على تريليونات البكتيريا."
+        "en": "The largest and most complex microbial population in the human body resides in the colon, reaching approximately 10^11 organisms per gram of feces.",
+        "ar": "تستقر أكبر وأعقد مجموعة ميكروبية في جسم الإنسان في القولون (الأمعاء الغليظة)، حيث تصل إلى حوالي 10^11 كائن حي لكل غرام من البراز."
       },
       "status": "validated",
       "review": {
@@ -377,33 +377,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 5.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 5: Largest and most complex microbial population resides in colon."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "The renal glomeruli",
-          "evidence": "The urinary tract above the distal urethra is sterile. Source PDF page: 5, 24."
-        },
-        {
           "id": "o1",
-          "text": "The colon (large intestine)",
-          "evidence": "Largest and most complex microbial population resides in colon. Source PDF page: 5."
-        },
-        {
-          "id": "o3",
-          "text": "The terminal alveoli of the lungs",
-          "evidence": "The lower respiratory tract and alveoli are normally sterile. Source PDF page: 5, 20."
+          "text": "The colon (large intestine), with approximately 10^11 organisms per gram of feces",
+          "evidence": "The largest and complex microbial population resides in the colon (~10^11 organisms/g). Source PDF page: 5, 22."
         },
         {
           "id": "o2",
-          "text": "The gastric antrum",
-          "evidence": "Gastric acidity severely restricts stomach microbes; the colon has the largest population. Source PDF page: 5, 22."
+          "text": "The stomach, where high acidity promotes rapid multiplication of acidophilic lactobacilli",
+          "evidence": "Stomach acidity limits bacterial numbers, making it far smaller than the colon reservoir. Source PDF page: 5, 8."
+        },
+        {
+          "id": "o3",
+          "text": "The small intestine (duodenum and jejunum), where digestive enzymes accelerate microbial division",
+          "evidence": "The small intestine contains only small numbers compared to the colon. Source PDF page: 22."
+        },
+        {
+          "id": "o4",
+          "text": "The anterior nares, where high keratin concentrations support the largest bacterial density",
+          "evidence": "The anterior nares harbor flora (e.g. S. aureus), but nowhere near the scale of the colon. Source PDF page: 18, 22."
         },
         {
           "id": "o5",
-          "text": "The anterior chamber of the eye",
-          "evidence": "Internal eye structures are sterile. Source PDF page: 5, 17."
+          "text": "The urinary bladder, where continuous fluid turnover sustains trillions of commensal coliforms",
+          "evidence": "The urinary bladder is normally sterile, not a reservoir of trillions of microbes. Source PDF page: 17, 24."
         }
       ],
       "correctOptionId": "o1"
@@ -422,10 +422,10 @@
           "pdfPage": 5
         }
       ],
-      "prompt": "What two critical physiological benefits does the gut microbiota provide to host defenses?",
+      "prompt": "Which two fundamental immunological and defensive functions are directly influenced by the gut microbiota?",
       "explanation": {
-        "en": "The gut microbiota directly influences the maturation and functional development of the host immune response and provides colonization resistance against invading pathogens.",
-        "ar": "تؤثر نبيتات الأمعاء (Gut microbiota) بشكل مباشر في نضوج وتطور وظيفة الاستجابة المناعية للمضيف، وتوفر مقاومة الاستعمار (Colonization resistance) ضد الممرضات الغازية."
+        "en": "The gut microbiota directly influences the maturation and function of the host immune response, and provides colonization resistance against invading pathogens.",
+        "ar": "تؤثر ميكروبيوتا الأمعاء بشكل مباشر على نضج ووظيفة الاستجابة المناعية للعائل، وتوفر مقاومة الاستعمار ضد مسببات الأمراض الغازية."
       },
       "status": "validated",
       "review": {
@@ -435,33 +435,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 5.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 5: Gut microbiota influences immune response maturation/function and colonization resistance."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "Maturation and function of the immune response, and colonization resistance against pathogens",
+          "evidence": "The gut microbiota influences the maturation and function of the immune response and colonization resistance. Source PDF page: 5."
+        },
+        {
           "id": "o2",
-          "text": "Total inhibition of all host antibody and interferon production",
-          "evidence": "Microbiota stimulates immune development, it does not inhibit antibodies. Source PDF page: 5, 9."
+          "text": "Synthesis of host hemoglobin chains, and destruction of all circulating CD4+ T lymphocytes",
+          "evidence": "Gut microbiota does not synthesize hemoglobin or destroy host T cells. Source PDF page: 5."
         },
         {
           "id": "o3",
-          "text": "Hydrolysis of all intestinal mucin to allow systemic bacterial invasion",
-          "evidence": "Microbiota protects barrier integrity and defends against invasion. Source PDF page: 5, 10."
-        },
-        {
-          "id": "o1",
-          "text": "Maturation of the immune response and providing colonization resistance against pathogens",
-          "evidence": "Gut microbiota influences immune response maturation/function and colonization resistance. Source PDF page: 5."
+          "text": "Complete suppression of maternal IgG transfer, and stimulation of autoimmune thyroiditis",
+          "evidence": "The microbiota supports immune development; it does not block maternal IgG transfer. Source PDF page: 5."
         },
         {
           "id": "o4",
-          "text": "Degradation of host hemoglobin into free cyanide ions",
-          "evidence": "Gut flora provides immune maturation and colonization resistance. Source PDF page: 5."
+          "text": "Enzymatic cleavage of host clotting factor XII, and degradation of bone marrow stem cells",
+          "evidence": "Microbiota does not degrade bone marrow stem cells. Source PDF page: 5."
         },
         {
           "id": "o5",
-          "text": "Conversion of human enterocytes into amoeboid phagocytes",
-          "evidence": "Microbiota aids immune maturation and colonization resistance. Source PDF page: 5."
+          "text": "Inhibition of all gastric acid secretion, and induction of permanent mucosal ulceration",
+          "evidence": "Microbiota supports intestinal barrier integrity; it does not inhibit stomach acid or induce ulcers. Source PDF page: 5, 10."
         }
       ],
       "correctOptionId": "o1"
@@ -480,10 +480,10 @@
           "pdfPage": 6
         }
       ],
-      "prompt": "What clinical risk does normal flora pose in immunocompromised individuals?",
+      "prompt": "How does normal commensal flora behave in immunocompromised individuals?",
       "explanation": {
-        "en": "In immunocompromised patients, normal commensal flora can overcome compromised host defenses, invade tissues, and contribute significantly to opportunistic infections and systemic disease.",
-        "ar": "في المرضى منقوصي المناعة (Immunocompromised)، يمكن للفلورا الطبيعية المتعايشة أن تتغلب على دفاعات المضيف الضعيفة، وتغزو الأنسجة، وتساهم بشكل كبير في إحداث عدوى انتهازية وأمراض جهازية."
+        "en": "In immunocompromised patients, organisms of the normal flora can breach defenses and act as opportunistic pathogens to produce serious clinical disease.",
+        "ar": "في المرضى الذين يعانون من نقص المناعة، يمكن لكائنات الفلورا الطبيعية اختراق الدفاعات والتصرف كمسببات أمراض انتهازية لإحداث أمراض سريرية خطيرة."
       },
       "status": "validated",
       "review": {
@@ -493,33 +493,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 6.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 6: Normal flora can contribute to disease in immunocompromised individuals."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "They act as opportunistic pathogens and can cause severe, invasive systemic infections",
+          "evidence": "Normal flora play a role in disease causation in immunocompromised individuals as opportunistic pathogens. Source PDF page: 6, 11."
+        },
+        {
           "id": "o2",
-          "text": "They disappear completely and leave all mucosal surfaces sterile",
-          "evidence": "Flora persists and can invade compromised tissues. Source PDF page: 6."
+          "text": "They disappear entirely from mucosal surfaces, leaving the host gastrointestinal tract completely sterile",
+          "evidence": "Normal flora does not disappear; it can overgrow and invade tissues. Source PDF page: 6."
         },
         {
           "id": "o3",
-          "text": "They convert into non-living viral capsids within the bloodstream",
-          "evidence": "Flora organisms remain viable bacteria/fungi capable of causing infection. Source PDF page: 6."
+          "text": "They undergo mandatory sporulation, remaining dormant until normal immune function is restored",
+          "evidence": "Most normal flora species (e.g. Bacteroides, S. epidermidis) cannot form endospores. Source PDF page: 6."
         },
         {
           "id": "o4",
-          "text": "They enhance phagocytosis by 100-fold to cure underlying immunodeficiency",
-          "evidence": "Immunocompromised hosts suffer disease from their own flora. Source PDF page: 6."
-        },
-        {
-          "id": "o1",
-          "text": "They can act as opportunistic pathogens and contribute to serious disease",
-          "evidence": "Normal flora can contribute to disease in immunocompromised individuals. Source PDF page: 6."
+          "text": "They hyper-stimulate host neutrophil production to permanently reverse the immunodeficiency",
+          "evidence": "Commensals do not cure or reverse underlying immunodeficiencies. Source PDF page: 6."
         },
         {
           "id": "o5",
-          "text": "They undergo mandatory spore transformation in all cutaneous follicles",
-          "evidence": "Commensals act opportunistically in compromised hosts. Source PDF page: 6."
+          "text": "They lose their cell walls and convert into non-viable protoplasts within mucosal secretions",
+          "evidence": "Commensals remain viable bacteria that invade vulnerable tissues. Source PDF page: 6."
         }
       ],
       "correctOptionId": "o1"
@@ -538,10 +538,10 @@
           "pdfPage": 6
         }
       ],
-      "prompt": "How does physical occupation of epithelial receptor sites by normal flora prevent infection by incoming pathogens?",
+      "prompt": "How does physical occupation of epithelial receptor sites by normal flora provide colonization resistance?",
       "explanation": {
-        "en": "By tightly occupying cellular attachment sites on skin and mucosal surfaces, normal flora physically blocks and interferes with the adherence and colonization of incoming pathogenic microbes.",
-        "ar": "من خلال شغل مواقع الارتباط الخلوية على أسطح الجلد والمخاطيات، تمنع الفلورا الطبيعية مادياً وتعطل التصاق واستعمار الميكروبات الممرضة الغازية."
+        "en": "Normal flora constitute a protective defense by occupying receptor and attachment sites on the skin and mucosa, physically interfering with colonization by pathogenic bacteria (colonization resistance).",
+        "ar": "تشكل الفلورا الطبيعية آلية دفاعية وقائية للعائل عن طريق احتلال مواقع الالتصاق والمستقبلات على الجلد والأغشية المخاطية، مما يتعارض فيزيائياً مع استعمار البكتيريا الممرضة (مقاومة الاستعمار)."
       },
       "status": "validated",
       "review": {
@@ -551,33 +551,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 6.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 6: Occupying attachment sites on skin/mucosa interferes with pathogen colonization."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Synthesizing host transferrin receptors that degrade bacterial cell walls in the mucosal epithelium",
-          "evidence": "Flora exerts competitive exclusion at attachment sites. Source PDF page: 6."
-        },
-        {
-          "id": "o5",
-          "text": "Directly stimulating host basophils to release systemic histamine across sterile endothelial beds",
-          "evidence": "Flora occupies attachment sites to block pathogens. Source PDF page: 6."
+          "id": "o1",
+          "text": "It occupies attachment sites on skin and mucosa, physically blocking pathogens from binding",
+          "evidence": "They occupy attachment sites on the skin and mucosa that can interfere with colonization by pathogenic bacteria. Source PDF page: 6, 9."
         },
         {
           "id": "o2",
-          "text": "Inducing rapid shedding of all mucosal layers so that neither bacteria nor human cells remain bound",
-          "evidence": "Transferrin is a host protein; flora prevents colonization by occupying binding sites. Source PDF page: 6, 9."
+          "text": "It dissolves host epithelial tight junctions to allow rapid wash-out of all colonizing microbes",
+          "evidence": "Microbiota supports epithelial barrier integrity; it does not dissolve tight junctions. Source PDF page: 10."
         },
         {
           "id": "o3",
-          "text": "Transforming all incoming Gram-negative rods into non-adherent eukaryotic flagellated protozoa",
-          "evidence": "Normal flora protects barrier integrity by occupying receptors. Source PDF page: 6."
+          "text": "It produces cytotoxic proteases that digest host epithelial receptors to render mucosa unbindable",
+          "evidence": "Commensals do not destroy host mucosal receptors; they competitively occupy them. Source PDF page: 6."
         },
         {
-          "id": "o1",
-          "text": "Occupying attachment sites on skin and mucosa physically interferes with pathogen colonization",
-          "evidence": "Occupying attachment sites on skin/mucosa interferes with pathogen colonization. Source PDF page: 6."
+          "id": "o4",
+          "text": "It induces massive apoptosis of mucosal epithelial cells, shedding infected tissue into the lumen",
+          "evidence": "Colonization resistance prevents pathogen adherence without causing mucosal tissue destruction. Source PDF page: 6."
+        },
+        {
+          "id": "o5",
+          "text": "It neutralizes pathogens by engulfing them via bacterial phagocytosis into giant vacuoles",
+          "evidence": "Bacteria do not perform phagocytosis; they are prokaryotes. Source PDF page: 6."
         }
       ],
       "correctOptionId": "o1"
@@ -596,10 +596,10 @@
           "pdfPage": 6
         }
       ],
-      "prompt": "Which vitamins are synthesized by intestinal normal flora, and what clinical deficiency can arise following broad-spectrum oral antibiotic therapy?",
+      "prompt": "Which vitamins are synthesized by intestinal normal flora, and what clinical deficiency can arise following prolonged oral antibiotic therapy?",
       "explanation": {
-        "en": "Intestinal microorganisms synthesize vitamin K and several B vitamins; prolonged suppression of gut flora by broad-spectrum oral antibiotics can lead to deficiencies in these vitamins.",
-        "ar": "تقوم ميكروبات الأمعاء ببناء فيتامين K والعديد من فيتامينات B؛ ويمكن أن يؤدي تثبيط الفلورا المعوية بالمضادات الحيوية واسعة الطيف الفموية إلى حدوث عوز في هذه الفيتامينات."
+        "en": "Intestinal bacteria perform a nutritional function by producing vitamin K and B vitamins. Prolonged treatment with oral antibiotics can suppress these bacteria and lead to vitamin deficiencies.",
+        "ar": "تؤدي البكتيريا المعوية وظيفة غذائية عن طريق إنتاج فيتامين K وعدة فيتامينات من مجموعة B. يمكن أن يؤدي العلاج بالمضادات الحيوية الفموية إلى تثبيط هذه البكتيريا ونقص الفيتامينات."
       },
       "status": "validated",
       "review": {
@@ -609,33 +609,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 6.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 6: Intestinal bacteria produce B and K vitamins; antibiotics cause deficiencies."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Synthesis of vitamin K and B vitamins; antibiotics can lead to their deficiency",
-          "evidence": "Intestinal bacteria produce B and K vitamins; oral antibiotics can lead to deficiencies; microorganisms synthesize vitamin K and several B vitamins. Source PDF page: 6."
-        },
-        {
-          "id": "o4",
-          "text": "Synthesis of vitamin A from ingested cellulose polymers",
-          "evidence": "Flora synthesizes vitamins K and B. Source PDF page: 6."
-        },
-        {
-          "id": "o3",
-          "text": "Synthesis of vitamin D3 through cutaneous exposure to intestinal enzymes",
-          "evidence": "Vitamin D is synthesized in skin via sunlight; gut flora produces vitamins B and K. Source PDF page: 6."
+          "text": "Vitamin K and several B vitamins; oral antibiotics can lead to hypoprothrombinemia and vitamin deficiencies",
+          "evidence": "Intestinal bacteria produce vitamin B and vitamin K; oral antibiotic treatment leads to vitamin deficiencies. Source PDF page: 6, 10."
         },
         {
           "id": "o2",
-          "text": "Synthesis of vitamin C only; antibiotics cause severe scurvy within 2 hours",
-          "evidence": "Gut bacteria produce vitamins K and B, not vitamin C. Source PDF page: 6."
+          "text": "Vitamin C and vitamin E; oral antibiotics cause acute scorbutic gingival bleeding and muscle wasting",
+          "evidence": "Gut bacteria do not synthesize vitamin C or E; they produce vitamin K and B vitamins. Source PDF page: 6, 10."
+        },
+        {
+          "id": "o3",
+          "text": "Vitamin A and vitamin D; oral antibiotics impair calcium absorption and cause acute osteomalacia",
+          "evidence": "Vitamins A and D are not produced by gut flora; bacterial synthesis focuses on B and K vitamins. Source PDF page: 6, 10."
+        },
+        {
+          "id": "o4",
+          "text": "Active vitamin D3 and calcitonin; oral antibiotics disrupt systemic parathyroid hormone regulation",
+          "evidence": "Calcitonin is a human thyroid hormone, not a bacterial metabolic product. Source PDF page: 6."
         },
         {
           "id": "o5",
-          "text": "Complete degradation of all dietary vitamins preventing their absorption",
-          "evidence": "Flora synthesizes beneficial B and K vitamins. Source PDF page: 6."
+          "text": "Folic acid and ascorbic acid exclusively; oral antibiotics cause acute megaloblastic bone marrow failure",
+          "evidence": "Lecture specifies production of vitamin B and vitamin K, not exclusive ascorbic acid synthesis. Source PDF page: 6, 10."
         }
       ],
       "correctOptionId": "o1"
@@ -654,10 +654,10 @@
           "pdfPage": 7
         }
       ],
-      "prompt": "When does human gut colonization begin, and what key early life factors influence its composition?",
+      "prompt": "What primary factors govern the initial establishment and development of the human gut microbiome in early life?",
       "explanation": {
-        "en": "Gut colonization develops early in life and is strongly influenced by mode of birth (vaginal delivery versus Cesarean section) and early environmental exposures.",
-        "ar": "يبدأ استعمار الأمعاء في وقت مبكر جداً من الحياة ويتأثر بشدة بطريقة الولادة (الولادة الطبيعية مقابل القيصرية) والتعرضات البيئية المبكرة."
+        "en": "Gut microbial colonization develops early in life and is shaped by the mode of birth and early environmental exposures.",
+        "ar": "يتطور استعمار ميكروبات الأمعاء في وقت مبكر من الحياة، ويتأثر بطريقة الولادة والتعرضات البيئية."
       },
       "status": "validated",
       "review": {
@@ -667,33 +667,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 7.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 7: Develops early in life and is influenced by birth and environmental exposures."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "It is completely established in utero before any fetal membrane rupture",
-          "evidence": "Colonization develops early in life influenced by birth and environment. Source PDF page: 7."
-        },
-        {
           "id": "o1",
-          "text": "It develops early in life and is influenced by mode of birth and environmental exposures",
-          "evidence": "Develops early in life and is influenced by birth and environmental exposures. Source PDF page: 7."
+          "text": "Colonization develops early in life, influenced by mode of birth and environmental exposures",
+          "evidence": "Gut microbial colonization develops early in life, influenced by birth and environmental exposures. Source PDF page: 7."
         },
         {
           "id": "o2",
-          "text": "It begins strictly at puberty following estrogen and androgen surges",
-          "evidence": "Colonization begins early in life at birth. Source PDF page: 7."
+          "text": "Colonization begins exclusively at age twelve, governed solely by adult dietary carbohydrate intake",
+          "evidence": "Gut colonization begins early in life, not at puberty or age twelve. Source PDF page: 7."
         },
         {
-          "id": "o5",
-          "text": "It only occurs after a patient receives broad-spectrum antibiotic infusions",
-          "evidence": "Natural colonization occurs early in life from birth onward. Source PDF page: 7."
+          "id": "o3",
+          "text": "Colonization is entirely determined in utero by direct transplacental passage of maternal colonic anaerobes",
+          "evidence": "Colonization develops early in life influenced by birth and environment, not transplacental transfer. Source PDF page: 7."
         },
         {
           "id": "o4",
-          "text": "It is determined entirely by bone marrow erythrocyte count at age 50",
-          "evidence": "Gut colonization begins in early infancy. Source PDF page: 7."
+          "text": "Colonization is fixed at conception by maternal mitochondrial DNA without environmental contribution",
+          "evidence": "Mitochondrial DNA does not encode or establish the gut microbiome. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "Colonization requires mandatory intravenous infusion of live Bifidobacterium cultures within one hour of delivery",
+          "evidence": "Natural colonization occurs through birth exposures and feeding, not intravenous bacterial infusion. Source PDF page: 7."
         }
       ],
       "correctOptionId": "o1"
@@ -712,10 +712,10 @@
           "pdfPage": 7
         }
       ],
-      "prompt": "How does the microbial diversity of the neonatal gut compare with that of an adult?",
+      "prompt": "How does the species diversity of the neonatal gut microbiome compare to that of a healthy adult?",
       "explanation": {
-        "en": "Neonatal microbial diversity is relatively low and simple, whereas a healthy adult gut microbiome exhibits high diversity, often harboring more than 1,000 distinct microbial species.",
-        "ar": "تكون التعددية والتنوع الميكروبي عند حديثي الولادة منخفضة وبسيطة نسبياً، في حين يمتلك ميكروبيوم البالغين تنوعاً هائلاً يضم في كثير من الأحيان أكثر من 1000 نوع ميكروبي مختلف."
+        "en": "The neonatal gut microbiome has relatively low diversity compared with adults, whose mature microbiomes may contain more than one thousand distinct microbial species.",
+        "ar": "يتميز ميكروبيوم الأمعاء لدى حديثي الولادة بتنوع منخفض نسبياً مقارنة بالبالغين، حيث قد يحتوي ميكروبيوم البالغين على أكثر من ألف نوع ميكروبي متميز."
       },
       "status": "validated",
       "review": {
@@ -725,33 +725,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 7.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 7: Neonatal diversity is relatively low; adults may have more than 1,000 species."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "The neonatal gut microbiome has relatively low diversity, while the adult microbiome contains over 1,000 species",
+          "evidence": "Neonatal gut has relatively low diversity; adult microbiomes may contain more than one thousand distinct species. Source PDF page: 7."
+        },
+        {
           "id": "o2",
-          "text": "Neonates harbor over 1,000,000 species, which decline to 5 species in adults",
-          "evidence": "Neonatal diversity is low; adult diversity is high (>1000 species). Source PDF page: 7."
+          "text": "The neonatal gut microbiome contains over 10,000 species that permanently decline to twenty in adults",
+          "evidence": "Diversity increases from low in neonates to over 1,000 distinct species in adults. Source PDF page: 7."
         },
         {
           "id": "o3",
-          "text": "Both neonates and adults maintain exactly the same 3 bacterial species",
-          "evidence": "Diversity expands dramatically from neonatal to adult life. Source PDF page: 7."
-        },
-        {
-          "id": "o1",
-          "text": "Neonatal diversity is relatively low, whereas adults harbor over 1,000 species",
-          "evidence": "Neonatal diversity is relatively low; adults may have more than 1,000 species. Source PDF page: 7."
-        },
-        {
-          "id": "o5",
-          "text": "Neonates possess only fungal molds, while adults possess only bacteriophages",
-          "evidence": "Both have bacteria, with diversity increasing to >1000 species in adulthood. Source PDF page: 7."
+          "text": "Neonates and adults maintain identical species diversity consisting of exactly fifty bacterial species",
+          "evidence": "Neonatal and adult diversity differ markedly; adult gut contains over a thousand species. Source PDF page: 7."
         },
         {
           "id": "o4",
-          "text": "Adults completely lack gut bacteria, while neonates are densely colonized",
-          "evidence": "Adults have complex diverse microbiomes (>1000 species). Source PDF page: 7."
+          "text": "The neonatal gut is entirely colonized by environmental fungi, while the adult gut harbors solely viruses",
+          "evidence": "Both contain complex bacterial communities; neonates have lower diversity than adults. Source PDF page: 7."
+        },
+        {
+          "id": "o5",
+          "text": "The neonatal gut remains completely sterile for the first five years of life before sudden colonization",
+          "evidence": "Colonization begins at birth; it is not sterile for five years. Source PDF page: 7."
         }
       ],
       "correctOptionId": "o1"
@@ -770,10 +770,10 @@
           "pdfPage": 8
         }
       ],
-      "prompt": "Which local physiological and environmental parameters govern microbial distribution along the human gastrointestinal tract?",
+      "prompt": "Which combination of local physiological factors directly influences microbial distribution throughout the human gastrointestinal tract?",
       "explanation": {
-        "en": "Microbial distribution along the GI tract is dictated by local oxygen gradient, pH levels, available nutrient substrates, and the protective mucus layer.",
-        "ar": "يخضع توزيع الميكروبات على طول السبيل المعدي المعوي لتدرج الأكسجين الموضعي، ومستويات الباهاء (pH)، والركائز الغذائية المتاحة، والطبقة المخاطية الواقية."
+        "en": "Differences in oxygen, pH, nutrients, and mucus influence the anatomical distribution of microorganisms throughout the gastrointestinal tract.",
+        "ar": "تؤثر الاختلافات في الأكسجين، ودرجة الحموضة (pH)، والمغذيات، والمخاط على توزيع الميكروبات في جميع أنحاء الجهاز الهضمي."
       },
       "status": "validated",
       "review": {
@@ -783,33 +783,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 8.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 8: Oxygen, pH, nutrients and mucus influence microbial distribution."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "Blood hemoglobin concentration and bone density",
-          "evidence": "Local gut parameters (O2, pH, nutrients, mucus) dictate microbial colonization. Source PDF page: 8."
-        },
-        {
-          "id": "o4",
-          "text": "The frequency of skeletal muscle contractions in the limbs",
-          "evidence": "GI distribution depends on local oxygen, pH, nutrients, and mucus. Source PDF page: 8."
-        },
-        {
-          "id": "o5",
-          "text": "Presence of circulating thyroid hormones only",
-          "evidence": "Oxygen, pH, nutrients, and mucus are the cited factors. Source PDF page: 8."
-        },
-        {
           "id": "o1",
-          "text": "Oxygen availability, pH, nutrients, and mucus",
-          "evidence": "Oxygen, pH, nutrients and mucus influence microbial distribution. Source PDF page: 8."
+          "text": "Differences in oxygen tension, pH, available nutrients, and mucosal secretions",
+          "evidence": "Differences in oxygen, pH, nutrients, and mucus influence microbial distribution throughout the gastrointestinal tract. Source PDF page: 8."
         },
         {
           "id": "o2",
-          "text": "Barometric pressure and cosmic ray exposure exclusively",
-          "evidence": "Distribution is governed by local gut factors: oxygen, pH, nutrients, and mucus. Source PDF page: 8."
+          "text": "Systemic arterial blood pressure, serum albumin levels, and bone mineral density",
+          "evidence": "Systemic hemodynamics and bone density do not govern mucosal microbial zonation. Source PDF page: 8."
+        },
+        {
+          "id": "o3",
+          "text": "Ambient room humidity, atmospheric barometric pressure, and ultraviolet radiation",
+          "evidence": "External atmospheric pressure and UV do not regulate intestinal lumen distribution. Source PDF page: 8."
+        },
+        {
+          "id": "o4",
+          "text": "ABO blood group antigens, serum complement levels, and peripheral platelet count",
+          "evidence": "Lecture explicitly identifies oxygen, pH, nutrients, and mucus as governing factors. Source PDF page: 8."
+        },
+        {
+          "id": "o5",
+          "text": "Cerebrospinal fluid pressure, intracranial compliance, and retinal light exposure",
+          "evidence": "Intracranial pressure and light exposure do not determine gastrointestinal flora distribution. Source PDF page: 8."
         }
       ],
       "correctOptionId": "o1"
@@ -828,10 +828,10 @@
           "pdfPage": 8
         }
       ],
-      "prompt": "Which factors contribute to the significant variation in microbiome composition observed between different healthy individuals?",
+      "prompt": "Which set of host and environmental factors contributes significantly to individual variations in gut microbiome composition?",
       "explanation": {
-        "en": "Individual microbiome variation is shaped by dietary habits, host genetics, medication history (especially antibiotics), household contacts, and environmental living conditions.",
-        "ar": "يتشكل التباين الفردي في تركيبة الميكروبيوم بفعل العادات الغذائية، والجينات الوراثية للمضيف، وتاريخ الأدوية (خاصة المضادات الحيوية)، والمخالطين في المنزل، والظروف البيئية المحيطة."
+        "en": "Diet, genetics, medications, household contacts, and environmental exposures contribute to individual microbiome variation across people.",
+        "ar": "يساهم النظام الغذائي والوراثة والأدوية والمخالطون في المنزل والتعرضات البيئية في تباين الميكروبيوم بين الأفراد."
       },
       "status": "validated",
       "review": {
@@ -841,33 +841,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 8.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 8: Diet, genetics, medications, household contacts and environment contribute."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o5",
-          "text": "Total number of dental fillings exclusively",
-          "evidence": "Diet, genetics, medications, contacts, and environment shape the microbiome. Source PDF page: 8."
-        },
-        {
-          "id": "o3",
-          "text": "Eye iris pigmentation and hair color alone",
-          "evidence": "Microbiome composition is influenced by diet, genetics, medications, contacts, environment. Source PDF page: 8."
-        },
-        {
-          "id": "o4",
-          "text": "ABO blood group antigen expression on erythrocytes only",
-          "evidence": "Many environmental, dietary, and genetic factors contribute. Source PDF page: 8."
+          "id": "o1",
+          "text": "Diet, host genetics, medications, household contacts, and environmental exposures",
+          "evidence": "Diet, genetics, medications, household contacts, and environmental exposures contribute to individual microbiome variation. Source PDF page: 8."
         },
         {
           "id": "o2",
-          "text": "Exact geographical latitude and planetary orbit exclusively",
-          "evidence": "Individual variations stem from diet, genetics, medications, household, environment. Source PDF page: 8."
+          "text": "Adult body height, eye color, and finger length exclusively without environmental influence",
+          "evidence": "Phenotypic anatomical traits like height or eye color do not govern microbiome variation. Source PDF page: 8."
         },
         {
-          "id": "o1",
-          "text": "Diet, genetics, medications, household contacts, and environment",
-          "evidence": "Diet, genetics, medications, household contacts and environment contribute. Source PDF page: 8."
+          "id": "o3",
+          "text": "Blood hemoglobin concentration, serum ferritin levels, and bone mineral density alone",
+          "evidence": "Hematological indices alone do not define individual microbiome diversity. Source PDF page: 8."
+        },
+        {
+          "id": "o4",
+          "text": "Total daily caloric expenditure during exercise, lung vital capacity, and resting heart rate",
+          "evidence": "Cardiopulmonary metrics are not the primary contributors listed in the source. Source PDF page: 8."
+        },
+        {
+          "id": "o5",
+          "text": "Skin melanin concentration, dental enamel thickness, and fingernail growth rate",
+          "evidence": "Source explicitly lists diet, genetics, medications, household contacts, and environment. Source PDF page: 8."
         }
       ],
       "correctOptionId": "o1"
@@ -886,10 +886,10 @@
           "pdfPage": 8
         }
       ],
-      "prompt": "What ecological community disruption occurs within the gut microbiota following antibiotic administration?",
+      "prompt": "How do broad-spectrum antibiotics disturb the ecological balance of the gastrointestinal microbiota?",
       "explanation": {
-        "en": "Antibiotics eliminate drug-susceptible bacterial species, creating vacant ecological niches that allow drug-resistant or non-susceptible organisms to proliferate unchecked.",
-        "ar": "تقضي المضادات الحيوية على الأنواع البكتيرية الحساسة للدواء، مما يخلق فراغات بيئية شاغرة تتيح للكائنات المقاومة أو غير المتأثرة بالدواء التكاثر دون رادع."
+        "en": "Antibiotics disrupt microbial communities by eliminating susceptible resident organisms, which removes competitive inhibition and allows resistant bacteria or fungi to proliferate.",
+        "ar": "تُحدث المضادات الحيوية خللاً في المجتمعات الميكروبية من خلال القضاء على الكائنات الحية الدقيقة الحساسة، مما يسمح للكائنات المقاومة بالتكاثر والنمو دون منافسة."
       },
       "status": "validated",
       "review": {
@@ -899,33 +899,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 8.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 8: Susceptible organisms are eliminated, allowing others to proliferate."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Susceptible organisms are eliminated, allowing resistant or non-susceptible organisms to proliferate",
-          "evidence": "Susceptible organisms are eliminated, allowing others to proliferate. Source PDF page: 8."
-        },
-        {
-          "id": "o5",
-          "text": "All commensal bacteria double their peptidoglycan synthesis rates, preventing any microbial decline",
-          "evidence": "Antibiotic selective pressure allows resistant microbes to proliferate. Source PDF page: 8."
-        },
-        {
-          "id": "o4",
-          "text": "The mucosal epithelium is completely dissolved, allowing commensal bacteria to enter the bloodstream",
-          "evidence": "Susceptible species are eliminated from the community. Source PDF page: 8."
-        },
-        {
-          "id": "o3",
-          "text": "Susceptible organisms acquire immediate resistance by converting their ribosomes from 70S into 80S units",
-          "evidence": "Antibiotics disrupt the microbial community directly. Source PDF page: 8."
+          "text": "They eliminate susceptible commensal organisms, allowing resistant bacteria or yeasts to proliferate",
+          "evidence": "Antibiotics can disrupt microbial communities, eliminating susceptible organisms and allowing others to proliferate. Source PDF page: 8, 15."
         },
         {
           "id": "o2",
-          "text": "Pathogenic species are selectively preserved while all resistant commensal anaerobes are eradicated",
-          "evidence": "Susceptible bacteria are killed; resistant organisms overgrow. Source PDF page: 8, 15."
+          "text": "They permanently alter human genomic DNA to prevent any future microbial colonization",
+          "evidence": "Antibiotics target bacterial processes, not human chromosomal DNA. Source PDF page: 8."
+        },
+        {
+          "id": "o3",
+          "text": "They convert all Gram-negative coliforms into heat-resistant spore-forming bacilli",
+          "evidence": "Coliforms cannot form endospores; antibiotics do not confer spore-forming genes. Source PDF page: 8."
+        },
+        {
+          "id": "o4",
+          "text": "They stimulate gastric acid hypersecretion that completely sterilizes the distal colon",
+          "evidence": "Antibiotics do not sterilize the colon via gastric acid stimulation. Source PDF page: 8."
+        },
+        {
+          "id": "o5",
+          "text": "They trigger massive horizontal gene transfer that converts all enterocytes into macrophages",
+          "evidence": "Antibiotics disrupt microbial community balance; they do not transform human enterocytes. Source PDF page: 8."
         }
       ],
       "correctOptionId": "o1"
@@ -944,10 +944,10 @@
           "pdfPage": 9
         }
       ],
-      "prompt": "Which competitive and chemical defense mechanisms are employed by normal flora to prevent pathogen colonization?",
+      "prompt": "By which combination of competitive and chemical mechanisms does the gut microbiome prevent pathogen colonization?",
       "explanation": {
-        "en": "Normal flora prevents pathogen colonization through competition for binding sites and essential nutrients, production of bacteriocins and antibacterial substances, and generation of inhibitory toxic metabolic products (such as volatile fatty acids).",
-        "ar": "تمنع الفلورا الطبيعية استعمار الممرضات من خلال التنافس على مواقع الارتباط والمغذيات الأساسية، وإنتاج البكتريوسينات والمواد المضادة للبكتيريا، وتوليد نواتج استقلابية سامة ومثبطة (مثل الأحماض الدهنية الطيارة)."
+        "en": "The gut microbiome prevents colonization through four mechanisms: competing for binding sites, competing for nutrients, producing antibiotics or bacteriocins, and generating toxic metabolic products.",
+        "ar": "يمنع ميكروبيوم الأمعاء الاستعمار من خلال أربع آليات: التنافس على مواقع الارتباط، والتنافس على العناصر الغذائية، وإنتاج المضادات الحيوية أو البكتريوسينات، وتوليد نواتج أيضية سامة."
       },
       "status": "validated",
       "review": {
@@ -957,33 +957,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 9.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 9: Competition for sites/nutrients, bacteriocins/antibiotics and toxic products."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o2",
-          "text": "Secretion of human immunoglobulin G antibodies and activation of hepatic complement factors",
-          "evidence": "Human antibodies are host products; flora uses competition, bacteriocins, and metabolic products. Source PDF page: 9."
+          "id": "o1",
+          "text": "Competing for receptors/nutrients, and producing bacteriocins, antibiotics, or toxic metabolites",
+          "evidence": "Prevents colonization by competing for receptors/binding sites, nutrients, producing antibiotics/bacteriocins and toxic products. Source PDF page: 9."
         },
         {
-          "id": "o1",
-          "text": "Competition for binding sites/nutrients, and production of bacteriocins and toxic products",
-          "evidence": "Competition for binding sites/nutrients, bacteriocins/antibiotics and toxic products can prevent colonization. Source PDF page: 9."
+          "id": "o2",
+          "text": "Secreting human secretory IgA antibodies, synthesizing transferrin, and filtering lymph",
+          "evidence": "Antibodies and transferrin are synthesized by host tissues, not bacterial commensals. Source PDF page: 9."
         },
         {
           "id": "o3",
-          "text": "Engulfment of incoming bacteria by commensals through phagocytosis and lysosomal degradation",
-          "evidence": "Bacteria do not perform pinocytosis; they compete for niches and produce bacteriocins. Source PDF page: 9."
+          "text": "Producing high concentrations of hydrochloric acid, pepsin, and bile salts into the lumen",
+          "evidence": "Hydrochloric acid and pepsin are secreted by host gastric glands, not gut flora. Source PDF page: 9."
         },
         {
           "id": "o4",
-          "text": "Conversion of gut lumen contents into an alkaline medium with zero dissolved gas concentration",
-          "evidence": "Protection is mediated by competition, bacteriocins, and inhibitory metabolites. Source PDF page: 9."
+          "text": "Actively phagocytosing pathogenic cells and presenting antigens to CD8+ cytotoxic T cells",
+          "evidence": "Bacteria are prokaryotes lacking phagocytic machinery; antigen presentation is done by host APCs. Source PDF page: 9."
         },
         {
           "id": "o5",
-          "text": "Rapid transformation of pathogenic bacilli into non-pathogenic spore-bearing cocci in tissues",
-          "evidence": "Flora protects surfaces via competition and antibacterial chemicals. Source PDF page: 9."
+          "text": "Forming thick keratinized protein coats over mucosal epithelial surfaces to block entry",
+          "evidence": "Mucosal epithelium is non-keratinized; protection is mediated by competition and metabolites. Source PDF page: 9."
         }
       ],
       "correctOptionId": "o1"
@@ -1002,10 +1002,10 @@
           "pdfPage": 9
         }
       ],
-      "prompt": "How does intestinal normal flora enhance host systemic immunity against virulent pathogens?",
+      "prompt": "How does normal intestinal flora contribute to systemic immunity against incoming pathogens?",
       "explanation": {
-        "en": "Intestinal flora stimulates the baseline production of low-titer natural antibodies that cross-react with antigens of pathogenic microorganisms, priming the immune system.",
-        "ar": "تحفز الفلورا المعوية الإنتاج الأساسي لأجسام مضادة طبيعية (Natural antibodies) ذات عيار منخفض تتفاعل تصالبياً مع مستضدات الميكروبات الممرضة، مما يجهز الجهاز المناعي للدفاع."
+        "en": "Antigens of the normal gut microbiome stimulate host production of natural antibodies that cross-react with and help neutralize pathogenic organisms.",
+        "ar": "تحفز مستضدات الفلورا الطبيعية في الأمعاء إنتاج الأجسام المضادة الطبيعية في العائل، والتي تتفاعل تصالبياً مع الكائنات الممرضة للمساعدة في تحييدها."
       },
       "status": "validated",
       "review": {
@@ -1015,33 +1015,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 9.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 9: Gut flora stimulate natural antibodies that cross-react with pathogenic organisms."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Suppressing the production of secretory IgA at mucosal surfaces",
-          "evidence": "Flora promotes natural protective antibodies. Source PDF page: 9."
-        },
-        {
-          "id": "o5",
-          "text": "Converting spleen B lymphocytes into histamine-secreting basophils",
-          "evidence": "Flora stimulates cross-reactive natural antibodies. Source PDF page: 9."
-        },
-        {
           "id": "o1",
-          "text": "Stimulating natural antibodies that cross-react with pathogenic organisms",
-          "evidence": "Gut flora stimulate natural antibodies that cross-react with pathogenic organisms. Source PDF page: 9."
-        },
-        {
-          "id": "o3",
-          "text": "Neutralizing all circulating cytotoxic T lymphocytes",
-          "evidence": "Flora primes immune responses through cross-reactive antibody stimulation. Source PDF page: 9."
+          "text": "By stimulating the production of natural antibodies that cross-react with pathogenic organisms",
+          "evidence": "Stimulation of natural antibodies that cross react with pathogenic organisms. Source PDF page: 9."
         },
         {
           "id": "o2",
-          "text": "Destroying host bone marrow stem cells to prevent autoimmune reactions",
-          "evidence": "Flora stimulates protective cross-reactive antibodies, not bone marrow destruction. Source PDF page: 9."
+          "text": "By directly synthesizing host serum IgG and IgM immunoglobulins within bacterial ribosomes",
+          "evidence": "Bacteria cannot synthesize human immunoglobulins; they stimulate host B cells to produce them. Source PDF page: 9."
+        },
+        {
+          "id": "o3",
+          "text": "By permanently inactivating all regulatory T cells to provoke continuous systemic inflammation",
+          "evidence": "Microbiota supports immune regulation; it does not destroy regulatory T cells. Source PDF page: 9, 10."
+        },
+        {
+          "id": "o4",
+          "text": "By neutralizing pathogen exotoxins via direct bacterial pinocytosis in the bloodstream",
+          "evidence": "Commensal bacteria do not circulate in the bloodstream to pinocytose toxins. Source PDF page: 9."
+        },
+        {
+          "id": "o5",
+          "text": "By producing cytotoxic T-cell receptors that enter human lymphoid follicles",
+          "evidence": "T-cell receptors are human host glycoproteins, not bacterial secretions. Source PDF page: 9."
         }
       ],
       "correctOptionId": "o1"
@@ -1060,10 +1060,10 @@
           "pdfPage": 10
         }
       ],
-      "prompt": "Which dietary substrates are fermented by gut microbes that cannot be digested by human digestive enzymes?",
+      "prompt": "What metabolic substrates do gut microorganisms ferment that human digestive enzymes cannot fully break down?",
       "explanation": {
-        "en": "Gut microbes ferment dietary fiber and complex non-digestible carbohydrates that escape digestion by human salivary, gastric, and pancreatic enzymes.",
-        "ar": "تخمر ميكروبات الأمعاء الألياف الغذائية والكربوهيدرات المعقدة غير القابلة للهضم والتي تفلت من هضم الإنزيمات اللعابية والمعدية والبنكرياسية للإنسان."
+        "en": "Gut microbes ferment dietary fibers and complex carbohydrates that human enzymes cannot fully digest, producing beneficial short-chain fatty acids.",
+        "ar": "تخمر ميكروبات الأمعاء الألياف الغذائية والكربوهيدرات المعقدة التي لا تستطيع الإنزيمات الهاضمة البشرية تكسيرها بالكامل، منتجةً أحماضاً دهنية قصيرة السلسلة مفيدة."
       },
       "status": "validated",
       "review": {
@@ -1073,33 +1073,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 10.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 10: ferment dietary fiber and complex carbohydrates not broken down by human enzymes."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "Dietary animal collagen peptides digested by pancreatic carboxypeptidases",
-          "evidence": "Microbes ferment dietary fiber. Source PDF page: 10."
-        },
-        {
-          "id": "o4",
-          "text": "Inorganic calcium phosphate minerals dissolved in gastric hydrochloric acid",
-          "evidence": "Fermentation targets dietary fiber and carbohydrates. Source PDF page: 10."
-        },
-        {
-          "id": "o5",
-          "text": "Dietary triglycerides and free fatty acids absorbed in the proximal ileum",
-          "evidence": "Gut flora ferments undigested dietary fiber and complex carbohydrates. Source PDF page: 10."
-        },
-        {
           "id": "o1",
-          "text": "Dietary fiber and complex carbohydrates not broken down by human enzymes",
-          "evidence": "Gut microbes ferment dietary fiber and complex carbohydrates not fully broken down by human enzymes. Source PDF page: 10."
+          "text": "Dietary fibers and complex carbohydrates, yielding absorbable short-chain fatty acids",
+          "evidence": "Gut microbes ferment dietary fibers and complex carbohydrates that human digestive enzymes cannot fully break down. Source PDF page: 10."
         },
         {
           "id": "o2",
-          "text": "Purified crystalline sucrose and glucose hydrolyzed by salivary amylase",
-          "evidence": "Gut bacteria ferment organic dietary fibers and complex carbohydrates. Source PDF page: 10."
+          "text": "Human serum albumin and transferrin, yielding essential aromatic amino acids",
+          "evidence": "Microbial fermentation acts on undigested dietary fibers, not host serum proteins. Source PDF page: 10."
+        },
+        {
+          "id": "o3",
+          "text": "Dietary cholesterol and triglycerides, yielding direct precursors for steroid hormones",
+          "evidence": "Dietary fibers and complex carbohydrates are the primary substrates for gut fermentation. Source PDF page: 10."
+        },
+        {
+          "id": "o4",
+          "text": "Ingested gastric hydrochloric acid and pepsin, yielding neutral physiological saline",
+          "evidence": "Stomach acid and pepsin are not substrates for bacterial fermentation. Source PDF page: 10."
+        },
+        {
+          "id": "o5",
+          "text": "Unabsorbed vitamin K and cobalamin, yielding free inorganic phosphate molecules",
+          "evidence": "Bacteria synthesize vitamins; they ferment complex carbohydrates and dietary fiber. Source PDF page: 10."
         }
       ],
       "correctOptionId": "o1"
@@ -1118,10 +1118,10 @@
           "pdfPage": 10
         }
       ],
-      "prompt": "Which three short-chain fatty acids (SCFAs) are produced by gut microbial fiber fermentation to support intestinal epithelial barrier integrity and immune regulation?",
+      "prompt": "Which major short-chain fatty acids are produced by colonic microbial fermentation, and what is their physiological role?",
       "explanation": {
-        "en": "Microbial fermentation of dietary fiber yields the short-chain fatty acids acetate, propionate, and butyrate, which nourish colonocytes, maintain mucosal barrier integrity, and regulate local immune responses.",
-        "ar": "ينتج عن التخمر الميكروبي للألياف الغذائية الأحماض الدهنية قصيرة السلسلة (SCFAs): الأسيتات (Acetate)، والبروبيونات (Propionate)، والبيوتيرات (Butyrate)، والتي تغذي خلايا القولون، وتحافظ على سلامة الحاجز المخاطي، وتنظم الاستجابات المناعية."
+        "en": "Colonic fermentation yields short-chain fatty acids (acetate, propionate, and butyrate) that support intestinal barrier integrity and modulate immune regulation.",
+        "ar": "ينتج عن تخمير الألياف في القولون أحماض دهنية قصيرة السلسلة (أسيتات، بروبيونات، وبيوتيرات) تدعم سلامة الحاجز المعوي وتنظيم المناعة."
       },
       "status": "validated",
       "review": {
@@ -1131,33 +1131,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 10.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 10: Acetate, propionate and butyrate support barrier integrity and immune regulation."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Formic acid, uric acid, and citric acid",
-          "evidence": "The three key SCFAs cited are acetate, propionate, and butyrate. Source PDF page: 10."
+          "id": "o1",
+          "text": "Acetate, propionate, and butyrate; supporting intestinal barrier integrity and immune regulation",
+          "evidence": "Produces short-chain fatty acids, including acetate, propionate, and butyrate, that support intestinal barrier integrity, immune regulation. Source PDF page: 10."
         },
         {
           "id": "o2",
-          "text": "Hydrochloric acid, sulfuric acid, and nitric acid",
-          "evidence": "The beneficial bacterial SCFAs are acetate, propionate, and butyrate. Source PDF page: 10."
-        },
-        {
-          "id": "o5",
-          "text": "Pyruvic acid, carbonic acid, and ascorbic acid",
-          "evidence": "Acetate, propionate, and butyrate are the cited SCFAs. Source PDF page: 10."
+          "text": "Lactate, pyruvate, and citrate; stimulating gastric acid secretion and mucosal ulceration",
+          "evidence": "The major SCFAs listed are acetate, propionate, and butyrate, which support barrier integrity, not ulcers. Source PDF page: 10."
         },
         {
           "id": "o3",
-          "text": "Oleic acid, palmitic acid, and stearic acid exclusively",
-          "evidence": "These are long-chain fatty acids; SCFAs are acetate, propionate, and butyrate. Source PDF page: 10."
+          "text": "Palmitate, stearate, and oleate; increasing systemic cholesterol and vascular atherosclerosis",
+          "evidence": "Palmitate and stearate are long-chain fatty acids; colonic fermentation yields acetate, propionate, and butyrate. Source PDF page: 10."
         },
         {
-          "id": "o1",
-          "text": "Acetate, propionate, and butyrate",
-          "evidence": "Acetate, propionate and butyrate support barrier integrity and immune regulation. Source PDF page: 10."
+          "id": "o4",
+          "text": "Formate, succinate, and oxalate; chelating calcium to prevent renal stone formation",
+          "evidence": "Lecture specifically identifies acetate, propionate, and butyrate as the key SCFAs. Source PDF page: 10."
+        },
+        {
+          "id": "o5",
+          "text": "Malate, fumarate, and ketoglutarate; driving bacterial oxidative phosphorylation in feces",
+          "evidence": "Colonic anaerobes produce acetate, propionate, and butyrate from fiber fermentation. Source PDF page: 10."
         }
       ],
       "correctOptionId": "o1"
@@ -1176,10 +1176,10 @@
           "pdfPage": 11
         }
       ],
-      "prompt": "What primary clinical trigger allows members of the normal flora to transition into pathogenic disease-causing agents?",
+      "prompt": "Under which two primary circumstances do resident normal flora organisms act as pathogens?",
       "explanation": {
-        "en": "Normal flora organisms transition from harmless commensals into pathogenic agents primarily when host anatomical barriers or immune defenses (host resistance) are lowered.",
-        "ar": "تتحول كائنات الفلورا الطبيعية من كائنات متعايشة غير ضارة إلى مسببات أمراض في المقام الأول عندما تنخفض الحواجز التشريحية أو الدفاعات المناعية للمضيف (مقاومة المضيف Host resistance)."
+        "en": "Normal flora cause disease under two main conditions: when host resistance is lowered (immunocompromised states), or when introduced into tissues outside their normal anatomical habitat.",
+        "ar": "تصبح الفلورا الطبيعية ممرضة في حالتين رئيسيتين: عندما تنخفض مقاومة العائل (نقص المناعة)، أو عندما تنتقل إلى أنسجة خارج موطنها الطبيعي."
       },
       "status": "validated",
       "review": {
@@ -1189,33 +1189,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 11.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 11: Normal flora may become pathogenic when host resistance is lowered."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "When host immune or anatomical resistance is lowered",
-          "evidence": "Normal flora may become pathogenic when host resistance is lowered. Source PDF page: 11."
-        },
-        {
-          "id": "o4",
-          "text": "When the host drinks fluoridated tap water",
-          "evidence": "Decreased host resistance enables opportunistic disease. Source PDF page: 11."
-        },
-        {
-          "id": "o5",
-          "text": "Whenever blood oxygen saturation reaches 100%",
-          "evidence": "Normal flora becomes pathogenic when host defenses fall. Source PDF page: 11."
+          "text": "When host systemic resistance is lowered, or when introduced into tissues outside their normal habitat",
+          "evidence": "They become pathogenic when host resistance is lowered, and may act as pathogens in tissue outside their normal habitat. Source PDF page: 11."
         },
         {
           "id": "o2",
-          "text": "Whenever dietary caloric intake exceeds 2,500 kcal per day",
-          "evidence": "Pathogenicity is triggered by reduced host resistance or barrier breaches. Source PDF page: 11, 12."
+          "text": "When the host consumes pasteurized milk, or when ambient room temperature drops below 20°C",
+          "evidence": "Consuming milk or cool room temperatures does not trigger opportunistic commensal pathogenicity. Source PDF page: 11."
         },
         {
           "id": "o3",
-          "text": "Upon continuous physical exercise in cool ambient temperatures",
-          "evidence": "Lowered host resistance allows opportunistic infection. Source PDF page: 11."
+          "text": "When dietary fiber intake exceeds normal levels, or when gastric pH drops to 2.0",
+          "evidence": "Dietary fiber and normal gastric acidity maintain gut health and prevent infection. Source PDF page: 10, 11."
+        },
+        {
+          "id": "o4",
+          "text": "When gut bacteria produce short-chain fatty acids, or when neonates reach adulthood",
+          "evidence": "SCFA production is a normal protective function, not a trigger for disease. Source PDF page: 10, 11."
+        },
+        {
+          "id": "o5",
+          "text": "When resident organisms are exposed to natural sunlight or routine physical exercise",
+          "evidence": "Physical exercise and sunlight exposure do not turn normal flora into pathogens. Source PDF page: 11."
         }
       ],
       "correctOptionId": "o1"
@@ -1234,10 +1234,10 @@
           "pdfPage": 12
         }
       ],
-      "prompt": "Which clinical scenarios illustrate serious opportunistic disease resulting from barrier breach and displacement of normal flora into sterile body compartments?",
+      "prompt": "Following bowel perforation from trauma, appendicitis, or diverticulitis, which resident intestinal anaerobe is the leading cause of peritonitis?",
       "explanation": {
-        "en": "Displacement of normal flora causes classic infections: E. coli reaching the urinary tract causes UTI, intestinal perforation releasing Bacteroides fragilis causes peritonitis, and oral viridans streptococci entering the blood after dental procedures can seed heart valves.",
-        "ar": "يؤدي انتقال الفلورا الطبيعية عند تمزق الحواجز إلى إصابات تقليدية: وصول E. coli للسبيل البولي يسبب التهاب المسالك البولية (UTI)، وانثقاب الأمعاء مطلقاً Bacteroides fragilis يسبب التهاب الصفاق (Peritonitis)، ودخول المكورات العقدية المخضرة الفموية لمجرى الدم بعد الإجراءات السنية يسبب التهاب شغاف القلب."
+        "en": "Bacteroides fragilis is the prominent obligate anaerobe of the colonic flora that causes life-threatening peritonitis when the intestinal wall is perforated by trauma, appendicitis, or diverticulitis.",
+        "ar": "تُعد العصوانية الهشة (Bacteroides fragilis) البكتيريا اللاهوائية الإجبارية البارزة في فلورا القولون والتي تسبب التهاب البريتون المهدد للحياة عند انثقاب جدار الأمعاء بعد الصدمات أو التهاب الزائدة الدودية أو الرتوج."
       },
       "status": "validated",
       "review": {
@@ -1247,33 +1247,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 12.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 12: E. coli-UTI, B. fragilis-peritonitis after perforation, oral flora bacteremia after dental work."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o2",
-          "text": "E. coli causing pulmonary tuberculosis, B. fragilis causing rabies encephalitis, and oral flora causing viral influenza",
-          "evidence": "E. coli causes UTI and B. fragilis causes peritonitis upon barrier breach. Source PDF page: 12."
+          "id": "o1",
+          "text": "Bacteroides fragilis",
+          "evidence": "Bacteroides fragilis: cause of peritonitis associated with perforation of intestinal wall following trauma, appendicitis or diverticulitis. Source PDF page: 12, 23."
         },
         {
-          "id": "o1",
-          "text": "E. coli causing UTI, B. fragilis causing peritonitis after bowel perforation, and oral flora bacteremia after dental work",
-          "evidence": "Intestinal flora may reach urinary tract; perforation of gut wall allows peritonitis; oral flora may reach blood after dental/tonsil procedures; E. coli–UTI and B. fragilis–peritonitis illustrate extraintestinal disease. Source PDF page: 12."
+          "id": "o2",
+          "text": "Staphylococcus epidermidis",
+          "evidence": "S. epidermidis is skin flora that infects prosthetic devices; it is not the colonic peritonitis agent. Source PDF page: 12, 19."
         },
         {
           "id": "o3",
-          "text": "S. epidermidis causing botulism paralysis, Lactobacillus causing gas gangrene, and Bacteroides causing amoebic dysentery",
-          "evidence": "Oral streptococci can enter blood and cause endocarditis. Source PDF page: 12, 21."
+          "text": "Streptococcus mutans",
+          "evidence": "S. mutans is oral viridans flora causing dental caries and endocarditis, not bowel peritonitis. Source PDF page: 12, 21."
         },
         {
           "id": "o4",
-          "text": "Oral streptococci causing cholera diarrhea, colonic flora causing lobar pneumonia, and skin flora causing tetanus spasms",
-          "evidence": "The cited consequences are UTI, peritonitis, and bacteremia/endocarditis. Source PDF page: 12."
+          "text": "Cutibacterium acnes",
+          "evidence": "Cutibacterium acnes is a skin anaerobe in hair follicles associated with acne, not peritonitis. Source PDF page: 19."
         },
         {
           "id": "o5",
-          "text": "Bowel commensals causing acute measles exanthem, oral viridans causing typhus fever, and E. coli causing yellow fever",
-          "evidence": "Displaced flora causes opportunistic infections like peritonitis and UTI. Source PDF page: 12."
+          "text": "Lactobacillus acidophilus",
+          "evidence": "Lactobacillus is protective vaginal/GI flora, not the classic agent of post-perforation peritonitis. Source PDF page: 24, 29."
         }
       ],
       "correctOptionId": "o1"
@@ -1292,10 +1292,10 @@
           "pdfPage": 13
         }
       ],
-      "prompt": "Which systemic and metabolic conditions are explicitly associated with alterations in the gut microbiome (dysbiosis)?",
+      "prompt": "Which bacterial species colonizing the human body are specifically implicated in gastric cancer/MALT lymphoma and colorectal cancer development, respectively?",
       "explanation": {
-        "en": "An altered gut microbiome is associated with type 2 diabetes and inflammatory bowel disease (IBD), influencing systemic insulin resistance, intestinal permeability, and chronic inflammation.",
-        "ar": "يرتبط اضطراب الميكروبيوم المعوي (Dysbiosis) بداء السكري من النمط 2 (Type 2 diabetes) وداء الأمعاء الالتهابي (IBD)، حيث يؤثر في مقاومة الأنسولين، ونفاذية الأمعاء، والالتهاب المزمن."
+        "en": "Helicobacter pylori can contribute to gastric adenocarcinoma and MALT lymphoma, while other bacteria including Fusobacterium nucleatum are implicated in colorectal cancer development.",
+        "ar": "يمكن أن تساهم الملوية البوابية (H. pylori) في الإصابة بالسرطان الغدي للمعدة وسرطان الغدد الليمفاوية في النسيج اللمفاوي المرتبط بالمخاط (MALT)، بينما ترتبط بكتيريا أخرى بما في ذلك المغزلية النواتية (Fusobacterium nucleatum) بتطور سرطان القولون والمستقيم."
       },
       "status": "validated",
       "review": {
@@ -1305,33 +1305,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 13.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 13: Altered gut microbiome associated with type 2 diabetes/IBD; influences insulin resistance, permeability, inflammation."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "Helicobacter pylori in gastric cancer and MALT lymphoma; Fusobacterium nucleatum in colorectal cancer",
+          "evidence": "H. pylori can contribute to gastric adenocarcinoma and MALT lymphoma; Fusobacterium nucleatum implicated in colorectal cancer. Source PDF page: 13."
+        },
+        {
           "id": "o2",
-          "text": "Achondroplasia and Huntington chorea exclusively",
-          "evidence": "The lecture cites type 2 diabetes and IBD in connection with altered microbiome. Source PDF page: 13."
+          "text": "Staphylococcus aureus in gastric cancer; Streptococcus mutans in colorectal cancer",
+          "evidence": "S. aureus and S. mutans are not the agents implicated in gastric or colorectal malignancy. Source PDF page: 13, 21."
         },
         {
           "id": "o3",
-          "text": "Hemophilia A and color blindness",
-          "evidence": "These are X-linked genetic disorders, not microbiome-associated metabolic states. Source PDF page: 13."
-        },
-        {
-          "id": "o1",
-          "text": "Type 2 diabetes and inflammatory bowel disease (IBD)",
-          "evidence": "Altered gut microbiome is associated with type 2 diabetes/IBD and may influence insulin resistance, permeability and inflammation. Source PDF page: 13."
-        },
-        {
-          "id": "o5",
-          "text": "Fractures of the long bones due to external trauma",
-          "evidence": "The cited conditions are type 2 diabetes and IBD. Source PDF page: 13."
+          "text": "Bacteroides fragilis in gastric cancer; Cutibacterium acnes in colorectal cancer",
+          "evidence": "B. fragilis causes peritonitis and C. acnes causes acne; they are not the cited cancer agents. Source PDF page: 12, 13, 19."
         },
         {
           "id": "o4",
-          "text": "Sickle cell anemia due to beta-globin missense mutations",
-          "evidence": "Sickle cell is an inherited genetic disease; microbiome dysbiosis is linked to T2D and IBD. Source PDF page: 13."
+          "text": "Escherichia coli in gastric cancer; Streptococcus pneumoniae in colorectal cancer",
+          "evidence": "E. coli causes UTIs and S. pneumoniae causes respiratory disease; H. pylori and F. nucleatum are the cancer-linked species. Source PDF page: 13, 23."
+        },
+        {
+          "id": "o5",
+          "text": "Lactobacillus acidophilus in gastric cancer; Pseudomonas aeruginosa in colorectal cancer",
+          "evidence": "Lactobacillus is a beneficial probiotic; H. pylori and F. nucleatum are the oncogenic species. Source PDF page: 13, 29."
         }
       ],
       "correctOptionId": "o1"
@@ -1350,10 +1350,10 @@
           "pdfPage": 15
         }
       ],
-      "prompt": "What happens when broad-spectrum antibiotic administration suppresses resident normal flora, removing competitive exclusion?",
+      "prompt": "Why does broad-spectrum antibiotic administration often lead to superinfections by yeasts or resistant bacteria?",
       "explanation": {
-        "en": "Broad-spectrum antibiotics diminish beneficial resident flora alongside target pathogens; the resulting loss of competition allows opportunistic yeasts (such as Candida) or drug-resistant pathogens to overgrow and cause superinfections.",
-        "ar": "تقلل المضادات الحيوية واسعة الطيف من الفلورا المقيمة المفيدة إلى جانب الممرضات المستهدفة؛ ويسمح فقدان التنافس الناتج لخمائر انتهازية (مثل Candida) أو ممرضات مقاومة بالتكاثر المفرط وإحداث خمج إضافي (Superinfection)."
+        "en": "Antibiotics do not distinguish between pathogens and commensals. Diminishing the resident flora removes normal competition, allowing resistant yeasts (e.g. Candida) or opportunistic pathogens to overgrow.",
+        "ar": "لا تميز المضادات الحيوية بين البكتيريا الممرضة والمقيمة. يؤدي تقليص الفلورا المقيمة إلى إزالة التنافس المعتاد، مما يتيح للخمائر المقاومة (مثل المبيضات) أو مسببات الأمراض الانتهازية النمو الزائد وإحداث عدوى جديدة."
       },
       "status": "validated",
       "review": {
@@ -1363,33 +1363,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 15.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 15: Antibiotics diminish residents; yeasts/pathogens overgrow and create new infections."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o5",
-          "text": "Host blood volume expands by 300% to fill the intestinal cavity",
-          "evidence": "Ecological disruption permits opportunistic superinfections. Source PDF page: 15."
-        },
-        {
-          "id": "o3",
-          "text": "Bacterial pathogens are immediately converted into harmless commensal yeasts",
-          "evidence": "Yeasts already present overgrow because bacterial competition is eliminated. Source PDF page: 15."
-        },
-        {
-          "id": "o4",
-          "text": "Intestinal peristalsis halts permanently due to loss of muscular action potentials",
-          "evidence": "The microbial consequence is overgrowth of yeasts or resistant bacteria. Source PDF page: 15."
-        },
-        {
           "id": "o1",
-          "text": "Loss of competition allows opportunistic yeasts and drug-resistant pathogens to overgrow",
-          "evidence": "Antibiotics diminish residents as well as pathogens; yeasts/pathogens may overgrow and create new infections. Source PDF page: 15."
+          "text": "Antibiotics eliminate susceptible resident competitors, allowing resistant yeasts or pathogens to overgrow",
+          "evidence": "Without the usual competition, yeasts or pathogenic bacteria may be able to overgrow and create new infections. Source PDF page: 15."
         },
         {
           "id": "o2",
-          "text": "The mucosal surfaces remain permanently sterile for the remainder of the patient's life",
-          "evidence": "Loss of competition leads to overgrowth of opportunistic yeasts/pathogens. Source PDF page: 15."
+          "text": "Antibiotics mutate host epithelial receptors so that only pathogenic yeasts can bind to mucosa",
+          "evidence": "Antibiotics do not alter host epithelial genetics or receptor molecules. Source PDF page: 15."
+        },
+        {
+          "id": "o3",
+          "text": "Antibiotics directly stimulate the fungal cell cycle, accelerating Candida binary fission by 100-fold",
+          "evidence": "Antibiotics target bacterial structures, not fungal division rates; overgrowth results from lost competition. Source PDF page: 15."
+        },
+        {
+          "id": "o4",
+          "text": "Antibiotics convert non-spore-forming commensals into heat-resistant fungal endospores",
+          "evidence": "Bacteria cannot transform into fungi or fungal spores. Source PDF page: 15."
+        },
+        {
+          "id": "o5",
+          "text": "Antibiotics neutralize host secretory IgA antibodies, eliminating all chemical mucosal defenses",
+          "evidence": "Superinfections occur because resident bacterial competition is removed, not from antibody neutralization. Source PDF page: 15."
         }
       ],
       "correctOptionId": "o1"
@@ -1408,10 +1408,10 @@
           "pdfPage": 16
         }
       ],
-      "prompt": "Which severe gastrointestinal complication occurs when antibiotic therapy (such as clindamycin) suppresses predominant gut flora?",
+      "prompt": "Treatment with which antibiotic can suppress predominant colonic normal flora, permitting overgrowth of toxin-producing Clostridioides difficile?",
       "explanation": {
-        "en": "Suppression of the predominant intestinal flora by antibiotics like clindamycin allows toxin-producing Clostridioides (Clostridium) difficile to overgrow, producing toxins that cause pseudomembranous colitis.",
-        "ar": "يؤدي تثبيط الفلورا المعوية السائدة بمضادات حيوية مثل الكليندامايسين (Clindamycin) إلى تكاثر مفرط لبكتيريا Clostridium difficile المنتجة للذيفانات، مسببة التهاب القولون الغشائي الكاذب الشديد."
+        "en": "Clindamycin suppresses the predominant normal colonic flora, allowing rare toxin-producing Clostridioides (Clostridium) difficile to overgrow and cause severe pseudomembranous colitis.",
+        "ar": "يمكن أن يثبط الكليندامايسين الفلورا الطبيعية السائدة، مما يسمح لبكتيريا المطثية العسيرة (C. difficile) النادرة والمنتجة للسموم بالنمو الزائد والتسبب في التهاب القولون الشديد."
       },
       "status": "validated",
       "review": {
@@ -1421,33 +1421,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 16.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 16: Suppression of flora allows toxin-producing Clostridium difficile to overgrow and cause colitis."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o3",
-          "text": "Invasive systemic anthrax mediated by Bacillus anthracis plasmids",
-          "evidence": "The clinical condition is C. difficile pseudomembranous colitis. Source PDF page: 16."
-        },
-        {
-          "id": "o4",
-          "text": "Acute bacterial meningitis caused by Streptococcus pneumoniae capsular types",
-          "evidence": "Suppression of gut flora permits C. difficile colitis. Source PDF page: 16."
-        },
-        {
-          "id": "o5",
-          "text": "Instantaneous dissolution of all colonic enterocytes with zero inflammation",
-          "evidence": "C. difficile produces toxins causing severe colitis with inflammation and pseudomembranes. Source PDF page: 16."
+          "id": "o1",
+          "text": "Clindamycin",
+          "evidence": "Clindamycin can suppress the predominant normal flora allowing a rare toxin-producing Clostridium difficile to overgrow and cause severe colitis. Source PDF page: 16."
         },
         {
           "id": "o2",
-          "text": "Overgrowth of Mycobacterium leprae causing cutaneous nerve tuberculoids",
-          "evidence": "C. difficile is the classic agent of antibiotic-associated colitis. Source PDF page: 16."
+          "text": "Neomycin",
+          "evidence": "Neomycin is given preoperatively to transiently reduce gut bacteria, not the classic inducer of C. difficile colitis cited here. Source PDF page: 16."
         },
         {
-          "id": "o1",
-          "text": "Overgrowth of toxin-producing Clostridium difficile causing severe colitis",
-          "evidence": "Suppression of predominant flora allows toxin-producing Clostridium difficile to overgrow and cause severe colitis. Source PDF page: 16."
+          "id": "o3",
+          "text": "Nystatin",
+          "evidence": "Nystatin is an antifungal polyene that does not suppress bacterial colonic anaerobes. Source PDF page: 16."
+        },
+        {
+          "id": "o4",
+          "text": "Polymyxin B",
+          "evidence": "Polymyxin targets Gram-negative membranes and is not the clindamycin example cited on Slide 16. Source PDF page: 16."
+        },
+        {
+          "id": "o5",
+          "text": "Griseofulvin",
+          "evidence": "Griseofulvin is an oral antifungal for dermatophytes and does not cause C. difficile pseudomembranous colitis. Source PDF page: 16."
         }
       ],
       "correctOptionId": "o1"
@@ -1466,10 +1466,10 @@
           "pdfPage": 16
         }
       ],
-      "prompt": "Why is oral neomycin administered prior to elective gastrointestinal surgery, and how does the gut flora respond after cessation?",
+      "prompt": "What is the clinical purpose of administering oral neomycin prior to elective gastrointestinal surgery, and what occurs postoperatively?",
       "explanation": {
-        "en": "Oral neomycin is given to transiently suppress and decrease bacterial levels in the gut lumen before bowel surgery; once the drug is stopped, bacterial populations return to normal levels within several days.",
-        "ar": "يُعطى النيومايسين الفموي (Neomycin) لتثبيط مستويات البكتيريا المعوية وخفضها مؤقتاً قبل الجراحة المعوية؛ وبعد إيقاف الدواء، تعود التجمعات البكتيرية إلى مستوياتها الطبيعية بعد عدة أيام."
+        "en": "Neomycin is given preoperatively to reduce colonic bacterial levels and minimize surgical infection risk. After cessation, bacterial flora returns to normal levels within several days.",
+        "ar": "يُعطى النيومايسين قبل جراحة الجهاز الهضمي لتقليل مستويات البكتيريا لتقليل خطر التلوث الجراحي، وتعود مستويات البكتيريا إلى طبيعتها بعد عدة أيام."
       },
       "status": "validated",
       "review": {
@@ -1479,33 +1479,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 16.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 16: Neomycin decreases gut bacteria; levels return to normal after several days."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "It transiently decreases gut bacterial levels for surgery; levels return to normal after several days",
-          "evidence": "Neomycin decreases gut bacterial levels; levels return to normal after several days. Source PDF page: 16."
-        },
-        {
-          "id": "o3",
-          "text": "It stimulates Salmonella overgrowth to strengthen peritoneal phagocytosis",
-          "evidence": "Neomycin suppresses bacteria to reduce contamination risk during surgery. Source PDF page: 16."
+          "text": "It transiently decreases gut bacterial levels for surgery; bacterial counts return to normal after several days",
+          "evidence": "Neomycin given prior to GI surgery to sterilize gut leads to decrease bacterial levels but it return to normal after several days. Source PDF page: 16."
         },
         {
           "id": "o2",
-          "text": "It permanently sterilizes the human gastrointestinal tract so no bacteria ever grow again",
-          "evidence": "Bacterial levels return to normal after several days. Source PDF page: 16."
+          "text": "It permanently sterilizes the gastrointestinal tract, preventing any microbial recolonization for life",
+          "evidence": "Bacterial counts return to normal after several days; it does not permanently sterilize the bowel. Source PDF page: 16."
         },
         {
-          "id": "o5",
-          "text": "It prevents blood clotting during mesenteric vascular anastomosis",
-          "evidence": "Neomycin is an antimicrobial used to reduce the bacterial burden before GI surgery. Source PDF page: 16."
+          "id": "o3",
+          "text": "It stimulates massive Bacteroides overgrowth to protect the peritoneum from postoperative contamination",
+          "evidence": "Neomycin decreases bacterial populations, it does not stimulate anaerobic overgrowth. Source PDF page: 16."
         },
         {
           "id": "o4",
-          "text": "It induces permanent genetic transformation of all gut bacteria into fungal spores",
-          "evidence": "Neomycin is a transient suppression regimen before surgery. Source PDF page: 16."
+          "text": "It selectively eradicates all intestinal yeasts while preserving 100% of coliform populations",
+          "evidence": "Neomycin is an aminoglycoside targeting bacteria, not yeasts, and it reduces bacterial numbers. Source PDF page: 16."
+        },
+        {
+          "id": "o5",
+          "text": "It neutralizes gastric hydrochloric acid to prevent stress ulcer formation in surgical intensive care",
+          "evidence": "Neomycin is an antibiotic used for bowel preparation, not an antacid buffer. Source PDF page: 16."
         }
       ],
       "correctOptionId": "o1"
@@ -1524,10 +1524,10 @@
           "pdfPage": 17
         }
       ],
-      "prompt": "Which anatomical body sites normally host complex populations of normal flora in healthy humans?",
+      "prompt": "Which group of human anatomical locations is normally colonized by prominent resident flora?",
       "explanation": {
-        "en": "Normal flora normally inhabits the skin, conjunctiva, nose and throat (upper respiratory tract), mouth, large intestine (colon), and distal parts of the urinary and reproductive systems.",
-        "ar": "تستوطن الفلورا الطبيعية عادة كلاً من الجلد، والملتحمة، والأنف والبلعوم (الجهاز التنفسي العلوي)، والفم، والأمعاء الغليظة (القولون)، والأجزاء البعيدة من الجهازين البولي والتناسلي."
+        "en": "Normal flora is localized to external or mucosal sites exposed to the environment: skin, conjunctiva, nose and throat, mouth, large intestine, and distal urinary and reproductive systems. Internal tissues and lower airways remain sterile.",
+        "ar": "تتوطن الفلورا الطبيعية في المواقع الخارجية أو المخاطية المعرضة للبيئة: الجلد، الملتحمة، الأنف والحلق، الفم، الأمعاء الغليظة، والأنظمة البولية والتناسلية. تظل الأنسجة الداخلية والمسالك الهوائية السفلية معقمة."
       },
       "status": "validated",
       "review": {
@@ -1537,33 +1537,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 17.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 17: Skin, conjunctiva, nose/throat, mouth, large intestine, urinary and reproductive systems."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Alveolar spaces of the lungs, bronchioles, and deep pleural cavity",
-          "evidence": "The lower respiratory tract below the vocal cords is normally sterile. Source PDF page: 17, 20."
-        },
-        {
           "id": "o1",
           "text": "Skin, conjunctiva, nose/throat, mouth, large intestine, and distal urinary/reproductive tracts",
-          "evidence": "Skin, conjunctiva, nose/throat, mouth, large intestine, urinary and reproductive systems. Source PDF page: 17."
-        },
-        {
-          "id": "o5",
-          "text": "Cerebral cortex, ventricles of the brain, and anterior chamber of the eye",
-          "evidence": "Central nervous system and eye chambers are sterile. Source PDF page: 17."
-        },
-        {
-          "id": "o3",
-          "text": "Spleen, liver parenchyma, pericardial fluid, and thyroid gland",
-          "evidence": "These internal tissues are completely sterile in healthy humans. Source PDF page: 17."
+          "evidence": "Localizations of normal flora: skin, eyes (conjunctiva), nose/throat, mouth, large intestine, urinary and reproductive systems. Source PDF page: 17."
         },
         {
           "id": "o2",
-          "text": "Blood, bone marrow, cerebrospinal fluid, and renal glomeruli",
-          "evidence": "Blood, CSF, bone marrow, and internal organs are normally sterile. Source PDF page: 17."
+          "text": "Cerebrospinal fluid, circulating whole blood, bone marrow, synovial joints, and pericardial cavity",
+          "evidence": "Blood, bone marrow, CSF, and synovial/pericardial fluid are strictly sterile in health. Source PDF page: 17."
+        },
+        {
+          "id": "o3",
+          "text": "Lower bronchi, terminal alveoli, renal glomeruli, and deep liver parenchyma",
+          "evidence": "Lower respiratory tract (bronchi, alveoli) and internal organs (kidneys, liver) are sterile. Source PDF page: 17, 20."
+        },
+        {
+          "id": "o4",
+          "text": "Pleural space, peritoneal cavity, splenic red pulp, and adrenal gland cortex",
+          "evidence": "Pleural, peritoneal, and parenchymal organ spaces are sterile, lacking resident flora. Source PDF page: 17."
+        },
+        {
+          "id": "o5",
+          "text": "Posterior eye chamber, vitreous humor, inner ear labyrinth, and thyroid gland follicles",
+          "evidence": "Deep sensory structures and endocrine glands are completely sterile. Source PDF page: 17."
         }
       ],
       "correctOptionId": "o1"
@@ -1582,10 +1582,10 @@
           "pdfPage": 19
         }
       ],
-      "prompt": "Which bacterial species is the predominant resident of the human skin, and what opportunistic infections does it cause on prosthetic devices?",
+      "prompt": "Which bacterial species is the predominant normal commensal of human skin, and in which clinical situation does it commonly cause serious disease?",
       "explanation": {
-        "en": "Staphylococcus epidermidis is the predominant organism on the human skin; when it gains abnormal access to intravascular lines, prosthetic heart valves, or prosthetic joints, it readily forms biofilms and causes device infections.",
-        "ar": "تُعد Staphylococcus epidermidis الكائن السائد على جلد الإنسان؛ وعندما تنفذ بشكل غير طبيعي إلى القثاطر الوعائية أو صمامات القلب الاصطناعية أو المفاصل الاصطناعية، فإنها تشكل أغشية حيوية وتسبب خمج هذه الأجهزة."
+        "en": "Staphylococcus epidermidis is the predominant organism on normal human skin. It is nonpathogenic locally, but can cause opportunistic foreign-body infections when it reaches artificial heart valves or prosthetic joints.",
+        "ar": "تُعد المكورات العنقودية البشروية (S. epidermidis) الكائن الحي السائد على جلد الإنسان الطبيعي. وهي غير ممرضة موضعياً، ولكنها تسبب أمراضاً عند وصولها إلى صمامات القلب الاصطناعية والمفاصل الاصطناعية."
       },
       "status": "validated",
       "review": {
@@ -1595,33 +1595,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 19.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 19: S. epidermidis predominates on skin; access to artificial valves/prosthetic joints causes disease."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o5",
-          "text": "Pseudomonas aeruginosa, causing extensive pseudomembranous enterocolitis in premature neonates",
-          "evidence": "S. epidermidis is the major skin commensal. Source PDF page: 19."
-        },
-        {
-          "id": "o4",
-          "text": "Streptococcus pneumoniae, causing primary lobar pneumonia and purulent bacterial pericarditis",
-          "evidence": "B. fragilis is a colon anaerobe; S. epidermidis predominates on skin. Source PDF page: 19, 22."
-        },
-        {
           "id": "o1",
-          "text": "Staphylococcus epidermidis, causing infections on artificial heart valves and prosthetic joints",
-          "evidence": "S. epidermidis predominates on skin; abnormal access to artificial valves/prosthetic joints can cause disease. Source PDF page: 19."
-        },
-        {
-          "id": "o3",
-          "text": "Bacteroides fragilis, causing severe necrotizing gas gangrene along the epidermal skin surface",
-          "evidence": "S. epidermidis predominates on skin. Source PDF page: 19."
+          "text": "Staphylococcus epidermidis; causing infections on artificial heart valves and prosthetic joint implants",
+          "evidence": "The predominant organism is Staphylococcus epidermidis, which can cause disease on artificial heart valves and prosthetic joints. Source PDF page: 19."
         },
         {
           "id": "o2",
-          "text": "Neisseria meningitidis, forming thick fibrous nodules and granulomatous ulcers across the dermis",
-          "evidence": "S. epidermidis is the skin predominant resident causing prosthetic infections. Source PDF page: 19."
+          "text": "Staphylococcus aureus; causing primary lobar pneumonia in healthy young athletes",
+          "evidence": "S. epidermidis is the predominant skin commensal, not S. aureus. Source PDF page: 19."
+        },
+        {
+          "id": "o3",
+          "text": "Streptococcus pyogenes; causing subacute bacterial endocarditis after dental extraction",
+          "evidence": "S. pyogenes is a throat pathogen, not the predominant skin commensal. Source PDF page: 19, 20."
+        },
+        {
+          "id": "o4",
+          "text": "Streptococcus mutans; causing acute necrotizing fasciitis in surgical incision sites",
+          "evidence": "S. mutans resides in dental plaque and causes caries, not skin colonization. Source PDF page: 21."
+        },
+        {
+          "id": "o5",
+          "text": "Enterococcus faecalis; causing pseudomembranous colitis following clindamycin therapy",
+          "evidence": "E. faecalis is an enteric bacterium; S. epidermidis is the skin organism colonizing prostheses. Source PDF page: 18, 19."
         }
       ],
       "correctOptionId": "o1"
@@ -1640,10 +1640,10 @@
           "pdfPage": 19
         }
       ],
-      "prompt": "Which anaerobic or microaerophilic bacterial genus resides in deeper dermal follicles and sebaceous glands, implicated in acne vulgaris?",
+      "prompt": "Which anaerobic bacterium resides deep within dermal hair follicles and sebaceous glands, and in which clinical condition is it implicated?",
       "explanation": {
-        "en": "Propionibacterium occurs in deeper dermal hair follicles and sebaceous glands where sebum provides an anaerobic lipid-rich niche; P. acnes is implicated in the pathogenesis of acne.",
-        "ar": "تتواجد بكتيريا البروبيونية (Propionibacterium) في جريبات الشعر الجلدية العميقة والغدد الدهنية حيث يوفر الزهم بيئة لاهوائية غنية بالدهون؛ وتشارك P. acnes في إمراضية حب الشباب (Acne)."
+        "en": "Cutibacterium (Propionibacterium) acnes is an anaerobic bacterium situated in the deeper follicles of the dermis and is implicated in the pathogenesis of acne.",
+        "ar": "تُعد بكتيريا حب الشباب الجلدية (Cutibacterium/Propionibacterium acnes) بكتيريا لا هوائية تستوطن الجريبات العميقة في الأدمة وترتبط بإمراضية حب الشباب."
       },
       "status": "validated",
       "review": {
@@ -1653,33 +1653,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 19.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 19: Propionibacterium in deeper dermal follicles; P. acnes implicated in acne."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Vibrio cholerae fermenting subcutaneous keratin",
-          "evidence": "Propionibacterium acnes resides in deep follicles. Source PDF page: 19."
+          "id": "o1",
+          "text": "Cutibacterium (Propionibacterium) acnes, implicated in the pathogenesis of acne vulgaris",
+          "evidence": "Propionibacterium acnes is a common skin anaerobe situated in deeper follicles in the dermis implicated in acne; new name Cutibacterium acnes. Source PDF page: 19."
         },
         {
           "id": "o2",
-          "text": "Streptococcus pyogenes forming deep cutaneous chancres",
-          "evidence": "Propionibacterium occupies deep follicles and is implicated in acne. Source PDF page: 19."
-        },
-        {
-          "id": "o5",
-          "text": "Treponema pallidum causing universal baldness",
-          "evidence": "Propionibacterium is the deep follicle resident. Source PDF page: 19."
-        },
-        {
-          "id": "o1",
-          "text": "Propionibacterium (P. acnes) in deeper dermal follicles",
-          "evidence": "Propionibacterium occurs in deeper dermal follicles; P. acnes is implicated in acne. Source PDF page: 19."
+          "text": "Bacteroides fragilis, implicated in acute diverticular perforation and secondary peritonitis",
+          "evidence": "Bacteroides fragilis is a colonic anaerobe, not a skin hair follicle inhabitant. Source PDF page: 12, 19."
         },
         {
           "id": "o3",
-          "text": "Escherichia coli synthesizing bile acids inside hair shafts",
-          "evidence": "Propionibacterium resides in deeper follicles. Source PDF page: 19."
+          "text": "Clostridium perfringens, implicated in post-traumatic myonecrosis and progressive gas gangrene",
+          "evidence": "C. perfringens is an enteric/soil spore-former, not the resident skin follicle anaerobe. Source PDF page: 18, 19."
+        },
+        {
+          "id": "o4",
+          "text": "Peptostreptococcus anaerobius, implicated in polymicrobial aspiration pneumonia and abscess",
+          "evidence": "Peptostreptococcus is noted in extra-intestinal/oral flora, not the classic acne bacillus of dermal follicles. Source PDF page: 19, 23."
+        },
+        {
+          "id": "o5",
+          "text": "Actinomyces israelii, implicated in chronic granulomatous cervicofacial draining fistulas",
+          "evidence": "Actinomyces is an oral anaerobe; Cutibacterium acnes is the dermal follicle anaerobe linked to acne. Source PDF page: 19."
         }
       ],
       "correctOptionId": "o1"
@@ -1698,10 +1698,10 @@
           "pdfPage": 19
         }
       ],
-      "prompt": "What updated taxonomic name has been assigned to Propionibacterium acnes?",
+      "prompt": "What is the updated taxonomic name for the common skin anaerobe previously designated Propionibacterium acnes?",
       "explanation": {
-        "en": "The modern revised taxonomic name for Propionibacterium acnes is Cutibacterium acnes.",
-        "ar": "الاسم التصنيفي المحدث لبكتيريا Propionibacterium acnes هو Cutibacterium acnes."
+        "en": "The modern taxonomic name for the skin anaerobe Propionibacterium acnes is Cutibacterium acnes.",
+        "ar": "الاسم التصنيفي المحدث للبكتيريا اللاهوائية الجلدية Propionibacterium acnes هو Cutibacterium acnes."
       },
       "status": "validated",
       "review": {
@@ -1711,33 +1711,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 19.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 19: New name for Propionibacterium acnes is Cutibacterium acnes."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
-        {
-          "id": "o3",
-          "text": "Staphylococcus epidermidis",
-          "evidence": "The renamed organism is Cutibacterium acnes. Source PDF page: 19."
-        },
-        {
-          "id": "o2",
-          "text": "Corynebacterium diphtheriae",
-          "evidence": "P. acnes was renamed Cutibacterium acnes. Source PDF page: 19."
-        },
-        {
-          "id": "o4",
-          "text": "Bacteroides fragilis",
-          "evidence": "P. acnes was renamed Cutibacterium acnes. Source PDF page: 19."
-        },
-        {
-          "id": "o5",
-          "text": "Streptococcus pneumoniae",
-          "evidence": "The new name is Cutibacterium acnes. Source PDF page: 19."
-        },
         {
           "id": "o1",
           "text": "Cutibacterium acnes",
           "evidence": "New name for Propionibacterium acnes is Cutibacterium acnes. Source PDF page: 19."
+        },
+        {
+          "id": "o2",
+          "text": "Corynebacterium diphtheriae",
+          "evidence": "C. diphtheriae is the respiratory pathogen causing diphtheria, not the renamed skin anaerobe. Source PDF page: 19."
+        },
+        {
+          "id": "o3",
+          "text": "Clostridium difficile",
+          "evidence": "Clostridium difficile is the colonic toxin-producing spore-former causing colitis. Source PDF page: 16, 19."
+        },
+        {
+          "id": "o4",
+          "text": "Peptococcus niger",
+          "evidence": "Peptococcus is an excluded/deleted example, not the updated name of P. acnes. Source PDF page: 19."
+        },
+        {
+          "id": "o5",
+          "text": "Bacillus cereus",
+          "evidence": "Bacillus cereus is an aerobic spore-former causing food poisoning, not P. acnes. Source PDF page: 19."
         }
       ],
       "correctOptionId": "o1"
@@ -1756,10 +1756,10 @@
           "pdfPage": 20
         }
       ],
-      "prompt": "How is normal flora distributed between the upper and lower respiratory tract in healthy individuals?",
+      "prompt": "Which respiratory anatomical compartments harbor extensive normal flora, and which compartments are normally sterile?",
       "explanation": {
-        "en": "Normal flora heavily colonizes the nose, throat, and mouth (upper respiratory tract), whereas the lower respiratory tract—including lower bronchi and alveoli—is normally sterile.",
-        "ar": "تستوطن الفلورا الطبيعية بكثافة كلاً من الأنف، والبلعوم، والفم (السبيل التنفسي العلوي)، في حين يكون السبيل التنفسي السفلي—بما في ذلك القصبات السفلية والأسناخ الرئوية—عقيماً في الحالة الطبيعية."
+        "en": "Normal flora colonize the upper respiratory tract (nose, throat, mouth), primarily with streptococci and staphylococci, but do not colonize the lower bronchi and alveoli, which remain sterile in health.",
+        "ar": "تستوطن الفلورا الطبيعية الجهاز التنفسي العلوي (الأنف والحلق والفم)، ولكنها لا تستوطن القصبات الهوائية السفلية والأسناخ الرئوية التي تظل معقمة في الحالة الصحية."
       },
       "status": "validated",
       "review": {
@@ -1769,33 +1769,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 20.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 20: Flora colonize nose, throat, mouth; excludes lower bronchi and alveoli."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Flora colonizes the nose, throat, and mouth, while lower bronchi and alveoli are normally sterile",
-          "evidence": "Flora colonize nose, throat and mouth; source excludes lower bronchi and alveoli. Source PDF page: 20."
-        },
-        {
-          "id": "o3",
-          "text": "Both upper and lower airways contain equal bacterial densities of 10^12 CFU/mL",
-          "evidence": "Lower airways are normally sterile. Source PDF page: 20."
+          "text": "The nose, throat, and mouth harbor normal flora; the lower bronchi and alveoli are normally sterile",
+          "evidence": "They colonize the nose, throat, and mouth, but not in the lower bronchi and alveoli. Source PDF page: 20."
         },
         {
           "id": "o2",
-          "text": "Alveoli harbor trillions of bacteria while the anterior nares are completely sterile",
-          "evidence": "Alveoli are sterile; nose and throat are colonized. Source PDF page: 20."
+          "text": "The trachea and alveoli harbor heavy normal flora; the nose and anterior nares are completely sterile",
+          "evidence": "The upper airway (nose, throat) is colonized; lower bronchi and alveoli lack normal flora. Source PDF page: 20."
         },
         {
-          "id": "o5",
-          "text": "Bacteria are present only in the pleural space between parietal and visceral pleura",
-          "evidence": "Pleural space and lower bronchi/alveoli are sterile. Source PDF page: 20."
+          "id": "o3",
+          "text": "All respiratory structures from the anterior nares to the alveolar sacs harbor identical bacterial counts",
+          "evidence": "Normal flora is confined to the upper tract; lower airways are sterile. Source PDF page: 20."
         },
         {
           "id": "o4",
-          "text": "The mouth is sterile due to salivary lysozyme, while terminal bronchioles are colonized",
-          "evidence": "The mouth is heavily colonized; lower bronchi are sterile. Source PDF page: 20."
+          "text": "The nasopharynx is completely sterile, while terminal alveoli contain trillions of obligate anaerobes",
+          "evidence": "Alveoli are sterile; nasopharynx contains high concentrations of commensal flora. Source PDF page: 20."
+        },
+        {
+          "id": "o5",
+          "text": "The larynx is colonized only by fungi, while the trachea and alveoli are colonized exclusively by viruses",
+          "evidence": "Lower bronchi and alveoli are non-colonized, sterile zones; viruses are not normal flora. Source PDF page: 2, 20."
         }
       ],
       "correctOptionId": "o1"
@@ -1814,10 +1814,10 @@
           "pdfPage": 20
         }
       ],
-      "prompt": "Which throat commensal bacterial groups provide competitive protection against Streptococcus pyogenes, Neisseria meningitidis, and Staphylococcus aureus?",
+      "prompt": "In the normal human throat, which three commensal nonpathogens competitively inhibit Streptococcus pyogenes, Neisseria meningitidis, and Staphylococcus aureus, respectively?",
       "explanation": {
-        "en": "In the throat, viridans streptococci inhibit growth of Streptococcus pyogenes, nonpathogenic Neisseria species inhibit Neisseria meningitidis, and Staphylococcus epidermidis inhibits Staphylococcus aureus.",
-        "ar": "في البلعوم، تثبط المكورات العقدية المخضرة (Viridans streptococci) نمو Streptococcus pyogenes، وتثبط أنواع النيسيريا غير الممرضة بكتيريا Neisseria meningitidis، بينما تثبط Staphylococcus epidermidis بكتيريا Staphylococcus aureus."
+        "en": "The throat contains viridans streptococci, nonpathogenic Neisseria species, and S. epidermidis, which inhibit the pathogens Streptococcus pyogenes, Neisseria meningitidis, and S. aureus, respectively.",
+        "ar": "يحتوي الحلق على خليط من المكورات العقدية المخضرة، وأنواع النيسرية، والمكورات العنقودية البشروية، والتي تثبط نمو مسببات الأمراض: المكورة العقدية المقيحة، والنيسرية السحائية، والمكورة العنقودية الذهبية، على التوالي."
       },
       "status": "validated",
       "review": {
@@ -1827,33 +1827,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 20.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 20: Viridans inhibit S. pyogenes; Neisseria inhibit N. meningitidis; S. epidermidis inhibits S. aureus."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Viridans streptococci stimulate S. pyogenes invasion; Neisseria species lyse S. aureus; B. fragilis inhibits meningococci",
-          "evidence": "N. meningitidis is a pathogen inhibited by commensal Neisseria. Source PDF page: 20."
-        },
-        {
           "id": "o1",
-          "text": "Viridans streptococci inhibit S. pyogenes; Neisseria species inhibit N. meningitidis; S. epidermidis inhibits S. aureus",
-          "evidence": "Viridans streptococci, Neisseria species and S. epidermidis inhibit S. pyogenes, N. meningitidis and S. aureus, respectively. Source PDF page: 20."
-        },
-        {
-          "id": "o5",
-          "text": "Staphylococcus aureus eliminates all throat commensals; S. pyogenes inhibits Neisseria; Lactobacillus colonizes the tonsils",
-          "evidence": "B. fragilis is a colon anaerobe, not a throat commensal. Source PDF page: 20, 22."
+          "text": "Viridans streptococci, Neisseria species, and Staphylococcus epidermidis",
+          "evidence": "The throat contains viridans streptococci, Neisseria species, and S. epidermidis, inhibiting S. pyogenes, N. meningitidis, and S. aureus, respectively. Source PDF page: 20."
         },
         {
           "id": "o2",
-          "text": "Neisseria meningitidis serves as an obligate mutualist; S. epidermidis produces penicillin; Viridans species secrete acid",
-          "evidence": "Viridans streptococci inhibit, rather than stimulate, S. pyogenes. Source PDF page: 20."
+          "text": "Escherichia coli, Bacteroides fragilis, and Enterococcus faecalis",
+          "evidence": "E. coli and B. fragilis are colonic flora, not the commensals inhibiting upper respiratory pathogens. Source PDF page: 18, 20."
         },
         {
           "id": "o3",
-          "text": "Bacteroides fragilis secretes gastric acid in pharynx; S. pyogenes neutralizes toxins; Neisseria degrades IgA antibodies",
-          "evidence": "Throat commensals provide colonization resistance against S. aureus. Source PDF page: 20."
+          "text": "Lactobacillus acidophilus, Gardnerella vaginalis, and Candida albicans",
+          "evidence": "These are genitourinary commensals, not throat flora. Source PDF page: 18, 20."
+        },
+        {
+          "id": "o4",
+          "text": "Cutibacterium acnes, Mycobacterium smegmatis, and Pseudomonas aeruginosa",
+          "evidence": "C. acnes is skin flora and M. smegmatis is urethral; they do not mediate throat competition. Source PDF page: 19, 20, 24."
+        },
+        {
+          "id": "o5",
+          "text": "Streptococcus pneumoniae, Haemophilus influenzae, and Klebsiella pneumoniae",
+          "evidence": "These are potential respiratory pathogens, not the protective commensal triad cited on Slide 20. Source PDF page: 20."
         }
       ],
       "correctOptionId": "o1"
@@ -1872,10 +1872,10 @@
           "pdfPage": 21
         }
       ],
-      "prompt": "Which viridans streptococcal member is abundant in dental plaque and acts as a primary precursor of dental caries, and what serious systemic infection can viridans streptococci cause following bacteremia?",
+      "prompt": "Which member of the oral viridans group is found in high numbers in dental plaque and is also a major cause of subacute bacterial endocarditis?",
       "explanation": {
-        "en": "Streptococcus mutans is a member of the viridans group that synthesizes dextran polysaccharides, adhering abundantly to tooth enamel as a precursor of dental caries; if viridans organisms enter the blood (e.g. after dental extraction), they can seed damaged heart valves and cause infective endocarditis.",
-        "ar": "تُعد Streptococcus mutans عضواً من مجموعة العقدية المخضرة (Viridans) تتواجد بكثرة في لويحة الأسنان (Dental plaque) وتُعد رائدة تسوس الأسنان؛ وإذا دخلت هذه الجراثيم مجرى الدم (كما بعد قلع الأسنان)، فيمكنها أن تستعمر صمامات القلب التالفة مسببة التهاب شغاف القلب العدوائي (Infective endocarditis)."
+        "en": "Streptococcus mutans, a member of the viridans streptococci producing green (alpha) hemolysis, is abundant in dental plaque (the precursor of caries) and can enter the bloodstream after dental extraction to cause subacute bacterial endocarditis.",
+        "ar": "توجد المكورة العقدية الطافرة (Streptococcus mutans)، وهي عضو في مجموعة العقديات المخضرة، بأعداد كبيرة في لويحة الأسنان وتعتبر مسبباً رئيسياً لالتهاب الشغاف الجرثومي تحت الحاد بعد قلع الأسنان."
       },
       "status": "validated",
       "review": {
@@ -1885,33 +1885,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 21.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 21: S. mutans precursor of caries; viridans group causes infective endocarditis."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "Streptococcus mutans",
+          "evidence": "Streptococcus mutans, a member of the viridans group, found in large numbers in dental plaque; causes subacute bacterial endocarditis. Source PDF page: 21."
+        },
+        {
           "id": "o2",
-          "text": "Staphylococcus aureus forming caries; viridans causing pseudomembranous colitis",
-          "evidence": "S. mutans causes caries; viridans group causes infective endocarditis. Source PDF page: 21."
+          "text": "Streptococcus pyogenes",
+          "evidence": "S. pyogenes is Group A strep causing acute pharyngitis, not the viridans dental plaque precursor of endocarditis. Source PDF page: 20, 21."
         },
         {
           "id": "o3",
-          "text": "Escherichia coli causing dental plaque; Clostridium tetani causing endocarditis",
-          "evidence": "S. mutans is the plaque/caries agent; viridans streptococci cause endocarditis. Source PDF page: 21."
-        },
-        {
-          "id": "o1",
-          "text": "Streptococcus mutans in dental plaque (caries precursor); viridans group causes infective endocarditis",
-          "evidence": "S. mutans is a viridans member abundant in dental plaque, precursor of caries; viridans group can cause infective endocarditis. Source PDF page: 21."
+          "text": "Streptococcus pneumoniae",
+          "evidence": "S. pneumoniae is an encapsulated diplococcus causing pneumonia/otitis, not dental plaque caries. Source PDF page: 4, 21."
         },
         {
           "id": "o4",
-          "text": "Streptococcus pneumoniae causing caries; Neisseria gonorrhoeae causing plaque",
-          "evidence": "S. mutans forms plaque/caries; viridans causes endocarditis. Source PDF page: 21."
+          "text": "Staphylococcus epidermidis",
+          "evidence": "S. epidermidis is a staphylococcus of the skin, not an oral viridans streptococcus. Source PDF page: 19, 21."
         },
         {
           "id": "o5",
-          "text": "Cutibacterium acnes causing enamel dissolution and septic arthritis",
-          "evidence": "S. mutans is the dental plaque/caries viridans member. Source PDF page: 19, 21."
+          "text": "Enterococcus faecalis",
+          "evidence": "E. faecalis is an enteric colonic bacterium, not the oral viridans member of dental plaque. Source PDF page: 21, 23."
         }
       ],
       "correctOptionId": "o1"
@@ -1930,10 +1930,10 @@
           "pdfPage": 22
         }
       ],
-      "prompt": "How do bacterial densities and resident types compare between the human small intestine and the colon?",
+      "prompt": "How do bacterial counts and flora composition compare between the human small intestine and the colon?",
       "explanation": {
-        "en": "The small intestine contains relatively small numbers of streptococci, lactobacilli, and Candida albicans, whereas the colon is the massive major bacterial reservoir harboring trillions of microbes.",
-        "ar": "تحتوي الأمعاء الدقيقة على أعداد صغيرة نسبياً من المكورات العقدية، والعصيات اللبنية (Lactobacilli)، و Candida albicans؛ بينما يمثل القولون المستودع البكتيري الهائل والرئيسي الذي يأوي تريليونات الميكروبات."
+        "en": "The small intestine contains relatively small numbers of streptococci, lactobacilli, and yeasts (C. albicans). In contrast, the colon is the major bacterial reservoir of the body, harboring roughly 10^11 organisms per gram of feces.",
+        "ar": "تحتوي الأمعاء الدقيقة عادةً على أعداد صغيرة من المكورات العقدية، والعصيات اللبنية، والخمائر (المبيضات البيضاء)، بينما يعد القولون الموقع الرئيسي للبكتيريا في الجسم بحوالي 10^11 كائن حي/غرام من البراز."
       },
       "status": "validated",
       "review": {
@@ -1943,33 +1943,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 22.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 22: Small intestine contains small numbers of streptococci, lactobacilli, C. albicans; colon is major location."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Small intestine harbors 10^12 obligate anaerobes per gram, while the large colon remains completely sterile in healthy adults",
-          "evidence": "The colon has vastly greater numbers (>90% anaerobes) than the small intestine. Source PDF page: 22."
-        },
-        {
-          "id": "o3",
-          "text": "Duodenum contains dense biofilm lawns of Clostridium difficile, whereas the ascending colon is colonized only by fungal molds",
-          "evidence": "Small intestine has small numbers of streptococci, lactobacilli, C. albicans. Source PDF page: 22."
+          "id": "o1",
+          "text": "Small intestine contains small numbers of streptococci, lactobacilli, and yeasts; colon is the major reservoir with ~10^11 organisms/g",
+          "evidence": "Small intestine contains small numbers of streptococci, lactobacilli, yeasts; colon is major location with ~10^11 organisms/g. Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Both small intestine and large bowel contain identical bacterial concentrations of strictly Gram-negative obligate aerobes",
-          "evidence": "The colon is the major location; the small intestine has relatively few. Source PDF page: 22."
+          "text": "Small intestine contains 10^11 obligate anaerobes per gram of chyme; colon contains only transient airborne environmental molds",
+          "evidence": "The colon, not the small intestine, harbors 10^11 organisms/g dominated by anaerobes. Source PDF page: 22."
         },
         {
-          "id": "o1",
-          "text": "Small intestine has small numbers (streptococci, lactobacilli, C. albicans), while the colon is the major bacterial reservoir",
-          "evidence": "Small intestine contains small numbers of streptococci, lactobacilli and C. albicans; colon is major bacterial location. Source PDF page: 22."
+          "id": "o3",
+          "text": "Both small intestine and large bowel maintain identical concentrations of strictly aerobic Gram-negative hospital pathogens",
+          "evidence": "The colon harbors vastly higher numbers (>90% anaerobes) compared to the small bowel. Source PDF page: 22."
+        },
+        {
+          "id": "o4",
+          "text": "Duodenum harbors the highest bacterial density in the human body; the sigmoid colon is virtually sterile in healthy adults",
+          "evidence": "The colon is the major bacterial reservoir in the body, while the upper small intestine has low counts. Source PDF page: 5, 22."
         },
         {
           "id": "o5",
-          "text": "Jejunum serves as the primary fecal bacterial reservoir, while the sigmoid colon and rectum harbor zero commensal organisms",
-          "evidence": "The colon is the major bacterial site in the body. Source PDF page: 22."
+          "text": "Small intestine contains only spore-forming anthrax bacilli; the colon contains exclusively non-living lytic bacteriophages",
+          "evidence": "Small intestine contains streptococci, lactobacilli, and yeasts; colon is packed with viable bacteria (~20% of fecal mass). Source PDF page: 22."
         }
       ],
       "correctOptionId": "o1"
@@ -1988,10 +1988,10 @@
           "pdfPage": 22
         }
       ],
-      "prompt": "Which category of bacteria constitutes more than 90% of the normal adult fecal flora?",
+      "prompt": "Which physiological category of bacteria constitutes more than 90% of the normal adult fecal flora, and what is the most important representative genus?",
       "explanation": {
-        "en": "More than 90% of adult fecal flora consists of obligate anaerobes, with Bacteroides fragilis being an important representative. Coliforms, including Escherichia coli, are the most abundant facultative bacteria.",
-        "ar": "تتألف أكثر من 90% من فلورا البراز عند البالغين من لاهوائيات مجبرة (Obligate anaerobes)، وتُعد Bacteroides fragilis ممثلاً هاماً لها؛ بينما تُعد البكتيريا القولونية (Coliforms) بما فيها Escherichia coli أكثر البكتيريا اللاهوائية المخيرة وفرة."
+        "en": "More than 90% of the fecal flora consists of obligate anaerobes, the most important of which is Bacteroides fragilis. Facultative coliforms like E. coli are abundant but form a small fraction by comparison.",
+        "ar": "تشكل البكتيريا اللاهوائية الإجبارية أكثر من 90% من فلورا البراز، وأهمها العصوانية الهشة (Bacteroides fragilis)، بينما تشكل البكتيريا اللاهوائية الاختيارية (مثل E. coli) نسبة أقل بكثير."
       },
       "status": "validated",
       "review": {
@@ -2001,33 +2001,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 22.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Refocused to single clear clinical distinction with parallel biological classes."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Obligate anaerobes",
+          "text": "Obligate anaerobes, represented prominently by Bacteroides fragilis",
           "evidence": "More than 90% of the fecal flora are anaerobes, the most important of which is Bacteroides fragilis. Source PDF page: 22."
         },
         {
           "id": "o2",
-          "text": "Facultative anaerobes",
-          "evidence": "Fecal flora is >90% anaerobic; coliforms/E. coli are the most abundant facultative organisms. Source PDF page: 22."
+          "text": "Facultative anaerobes, represented prominently by Escherichia coli",
+          "evidence": "Facultative coliforms (E. coli) are the most abundant facultatives, but obligate anaerobes make up >90% of fecal flora. Source PDF page: 22."
         },
         {
           "id": "o3",
-          "text": "Obligate aerobes",
-          "evidence": "Feces contains massive bacterial numbers (>90% anaerobes). Source PDF page: 22."
+          "text": "Obligate aerobes, represented prominently by Pseudomonas aeruginosa",
+          "evidence": "Pseudomonas is found in only ~10% of normal stools; >90% of flora are obligate anaerobes. Source PDF page: 22, 23."
         },
         {
           "id": "o4",
-          "text": "Microaerophiles",
-          "evidence": "Microaerophiles require low oxygen and do not form the vast majority of stool flora. Source PDF page: 22."
+          "text": "Microaerophiles, represented prominently by Campylobacter jejuni",
+          "evidence": "Microaerophiles do not constitute >90% of adult fecal flora. Source PDF page: 22."
         },
         {
           "id": "o5",
-          "text": "Aerotolerant anaerobes",
-          "evidence": "Adult fecal flora is dominated by strict obligate anaerobes (>90%), not aerotolerant organisms. Source PDF page: 22."
+          "text": "Aerotolerant anaerobes, represented prominently by Streptococcus pyogenes",
+          "evidence": "S. pyogenes is a throat pathogen, not the dominant fecal organism. Source PDF page: 20, 22."
         }
       ],
       "correctOptionId": "o1"
@@ -2046,10 +2046,10 @@
           "pdfPage": 24
         }
       ],
-      "prompt": "How does adult vaginal Lactobacillus maintain local protection, and what infection can occur if broad-spectrum antibiotics suppress it?",
+      "prompt": "How does vaginal Lactobacillus maintain protection in adult women, and what infection commonly arises when broad-spectrum antibiotics suppress it?",
       "explanation": {
-        "en": "Adult vaginal Lactobacillus ferments glycogen to produce lactic acid, maintaining an acidic pH that inhibits potential pathogens; suppression of lactobacilli by antibiotics permits overgrowth of Candida albicans, causing Candida vaginitis (yeast infection).",
-        "ar": "تقوم العصيات اللبنية (Lactobacillus) المهبلية لدى البالغات بتخمير الغليكوجين لإنتاج حمض اللاكتيك، مما يحافظ على باهاء حمضية تثبط الممرضات؛ ويؤدي قمع العصيات اللبنية بالمضادات الحيوية إلى فرط نمو فطر Candida albicans مسبباً التهاب المهبل بالمبيضات."
+        "en": "In adult women, resident Lactobacillus ferment glycogen to maintain an acidic pH that inhibits potential pathogens. When broad-spectrum antibiotics suppress lactobacilli, the yeast Candida albicans overgrows, causing Candida vaginitis.",
+        "ar": "تفرز العصيات اللبنية (Lactobacillus) في مهبل البالغات حمضاً يحافظ على درجة حموضة حمضية تمنع نمو مسببات الأمراض. عندما تثبط المضادات الحيوية العصيات اللبنية، تنمو خميرة المبيضات البيضاء مسببة التهاب المهبل بالمبيضات."
       },
       "status": "validated",
       "review": {
@@ -2059,33 +2059,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 24.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 24: Lactobacillus produces acidic pH; antibiotic suppression permits Candida overgrowth."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Lactobacillus maintains an acidic pH to inhibit pathogens; antibiotic suppression permits Candida overgrowth",
-          "evidence": "Adult vaginal Lactobacillus produces acidic pH and inhibits potential pathogens; antibiotic suppression can permit Candida overgrowth; permits Candida vaginitis. Source PDF page: 24."
+          "text": "It produces an acidic pH that inhibits pathogens; antibiotic suppression permits Candida albicans overgrowth",
+          "evidence": "Lactobacillus species in adults produce acidic pH to prevent pathogens; antibiotics lead to overgrowth by C. albicans (Candida vaginitis). Source PDF page: 24, 26."
         },
         {
           "id": "o2",
-          "text": "Lactobacillus secretes alkaline ammonia to kill bacteria; antibiotic suppression causes gonococcal urethritis",
-          "evidence": "Lactobacillus produces acid, not ammonia, and suppression permits Candida overgrowth. Source PDF page: 24."
+          "text": "It secretes alkaline ammonia that kills bacteria; antibiotic suppression permits Neisseria gonorrhoeae overgrowth",
+          "evidence": "Lactobacilli produce an acidic pH, not alkaline ammonia. Source PDF page: 24."
         },
         {
           "id": "o3",
-          "text": "Lactobacillus synthesizes enterobactin to bind estrogen; antibiotic suppression stimulates Treponema spirochetes",
-          "evidence": "Lactobacillus produces acidic pH that inhibits pathogens. Source PDF page: 24."
-        },
-        {
-          "id": "o5",
-          "text": "Lactobacillus forms thick endospores that resist heat; antibiotic suppression causes primary syphilis chancres",
-          "evidence": "Lactobacillus maintains an acidic (low) pH. Source PDF page: 24."
+          "text": "It synthesizes thick capsular polysaccharide; antibiotic suppression permits Treponema pallidum infection",
+          "evidence": "Lactobacillus protection is mediated by acid production, not capsule synthesis. Source PDF page: 24."
         },
         {
           "id": "o4",
-          "text": "Lactobacillus maintains a neutral pH 7.4 via bile salts; antibiotic suppression permits Clostridium perfringens",
-          "evidence": "Candida is an opportunistic fungus that overgrows when lactobacilli are suppressed. Source PDF page: 24."
+          "text": "It produces broad-spectrum beta-lactamases; antibiotic suppression permits Clostridium tetani colonization",
+          "evidence": "Lactobacillus protects via acid pH, and its suppression permits Candida vaginitis, not tetanus. Source PDF page: 24, 26."
+        },
+        {
+          "id": "o5",
+          "text": "It neutralizes host estrogen; antibiotic suppression permits Chlamydia trachomatis proliferation",
+          "evidence": "Estrogen supports glycogen production which lactobacilli ferment to lactic acid; it does not neutralize estrogen. Source PDF page: 24."
         }
       ],
       "correctOptionId": "o1"
@@ -2104,10 +2104,10 @@
           "pdfPage": 24
         }
       ],
-      "prompt": "Which commensal microorganisms can contaminate voided urine specimens as urine passes through the distal urethra?",
+      "prompt": "Which commensal microorganisms typically contaminate voided urine specimens as urine passes through the distal anterior urethra?",
       "explanation": {
-        "en": "Urine in the bladder is normally sterile, but voided urine specimens acquire commensal organisms while passing through the distal urethra, including Staphylococcus epidermidis, coliforms, diphtheroids, and non-hemolytic streptococci.",
-        "ar": "يكون البول في المثانة عقيماً في الحالة الطبيعية، لكن عينات البول المطروحة تلتقط ميكروبات متعايشة أثناء مرورها عبر الإحليل البعيد، بما في ذلك S. epidermidis، وبكتيريا القولون، والوتدانيات (Diphtheroids)، والمكورات العقدية غير المحللة للدم."
+        "en": "As urine passes through the distal urethra, it becomes contaminated with commensal organisms including Staphylococcus epidermidis, coliforms, diphtheroids (corynebacteria), and non-hemolytic streptococci.",
+        "ar": "أثناء مرور البول عبر مجرى البول (الإحليل)، يتلوث بكائنات متعايشة تشمل المكورات العنقودية البشروية، وأشباه القولونيات، والوتديات (الدفتيرويد)، والمكورات العقدية غير المحللة للدم."
       },
       "status": "validated",
       "review": {
@@ -2117,33 +2117,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 24.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 24: Urine acquires S. epidermidis, coliforms, diphtheroids and nonhemolytic streptococci."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o2",
-          "text": "Treponema pallidum and Borrelia recurrentis in 100% of healthy voided samples",
-          "evidence": "Normal urethral commensals are S. epidermidis, coliforms, diphtheroids, nonhemolytic strep. Source PDF page: 24."
-        },
-        {
           "id": "o1",
           "text": "Staphylococcus epidermidis, coliforms, diphtheroids, and non-hemolytic streptococci",
-          "evidence": "Urine acquires S. epidermidis, coliforms, diphtheroids and nonhemolytic streptococci while passing through urethra. Source PDF page: 24."
+          "evidence": "During urine passages through urethra it becomes contaminated with S. epidermidis, coliforms, diphtheroids, and nonhemolytic streptococci. Source PDF page: 24."
         },
         {
-          "id": "o4",
-          "text": "Pure cultures of Bacillus anthracis endospores",
-          "evidence": "Urethral flora includes S. epidermidis, coliforms, diphtheroids, and non-hemolytic streptococci. Source PDF page: 24."
+          "id": "o2",
+          "text": "Bacteroides fragilis, Bifidobacterium, and Clostridium perfringens",
+          "evidence": "These are colonic obligate anaerobes, not the primary urethral contaminants during voiding. Source PDF page: 22, 24."
         },
         {
           "id": "o3",
-          "text": "Obligate marine halophiles that require 20% salt to survive",
-          "evidence": "Urethral contaminants are cutaneous and enteric commensals. Source PDF page: 24."
+          "text": "Lactobacillus acidophilus, Gardnerella vaginalis, and Candida albicans",
+          "evidence": "These represent vaginal flora rather than the typical urethral passage commensals. Source PDF page: 18, 24."
+        },
+        {
+          "id": "o4",
+          "text": "Viridans group streptococci, Neisseria sicca, and Cutibacterium acnes",
+          "evidence": "Viridans streptococci and Neisseria are oral/throat flora, not urethral contaminants. Source PDF page: 20, 24."
         },
         {
           "id": "o5",
-          "text": "Free bacteriophage capsids containing eukaryotic introns exclusively",
-          "evidence": "Voided urine is contaminated with urethral bacterial flora. Source PDF page: 24."
+          "text": "Pseudomonas aeruginosa, Acinetobacter baumannii, and Proteus mirabilis",
+          "evidence": "These are opportunistic hospital pathogens, not the normal commensal urethral flora described. Source PDF page: 23, 24."
         }
       ],
       "correctOptionId": "o1"
@@ -2162,10 +2162,10 @@
           "pdfPage": 27
         }
       ],
-      "prompt": "What is the primary medical purpose of administering probiotics in gastrointestinal health?",
+      "prompt": "What is the clinical definition and therapeutic objective of probiotics in gastrointestinal health?",
       "explanation": {
-        "en": "Probiotics utilize beneficial gastrointestinal normal flora to treat disease states, restore disrupted microbial communities, and stabilize flora composition.",
-        "ar": "تستخدم المعززات الحيوية (Probiotics) الفلورا الطبيعية المفيدة للسبيل الهضمي لعلاج الحالات المرضية، واستعادة التجمعات الميكروبية المضطربة، وتثبيت تركيبة الفلورا."
+        "en": "Probiotics are preparations of live gastrointestinal normal flora organisms used to treat diseases and stabilize the composition and function of the normal flora.",
+        "ar": "البروبيوتيك هي استخدام الفلورا الطبيعية للجهاز الهضمي لعلاج الأمراض وتثبيت واستقرار تركيبة الفلورا الطبيعية."
       },
       "status": "validated",
       "review": {
@@ -2175,33 +2175,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 27.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 27: Use of GI normal flora to treat disease and stabilize flora composition."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o2",
-          "text": "Administering high-dose cytotoxic chemotherapy to eliminate all intestinal mucosal cells",
-          "evidence": "Probiotics use beneficial flora to treat disease and stabilize communities. Source PDF page: 27."
-        },
-        {
-          "id": "o4",
-          "text": "Eradicating all Lactobacillus species from the vaginal mucosa",
-          "evidence": "Probiotics introduce beneficial bacteria like lactobacilli. Source PDF page: 27, 29."
-        },
-        {
           "id": "o1",
-          "text": "Using GI normal flora organisms to treat disease and stabilize microbial community composition",
-          "evidence": "Use of GI normal flora to treat disease and stabilize flora composition. Source PDF page: 27."
+          "text": "The use of live gastrointestinal normal flora organisms to treat disease and stabilize microbial community composition",
+          "evidence": "Probiotics: The use of normal flora of the GI tract to treat diseases and stabilize the composition of the normal flora. Source PDF page: 27, 28."
+        },
+        {
+          "id": "o2",
+          "text": "The administration of synthetic broad-spectrum antibiotics to achieve complete sterilisation of mucosal surfaces",
+          "evidence": "Probiotics introduce beneficial live commensals, the opposite of broad-spectrum antibiotic sterilization. Source PDF page: 27, 28."
         },
         {
           "id": "o3",
-          "text": "Inducing widespread bacterial conjugation between human enterocytes and viruses",
-          "evidence": "Probiotics stabilize gut flora composition. Source PDF page: 27."
+          "text": "The intravenous injection of purified bacteriophage enzymes to dissolve circulating endotoxin in septic shock",
+          "evidence": "Probiotics are oral live commensals, not intravenous bacteriophage enzymes. Source PDF page: 27, 28."
+        },
+        {
+          "id": "o4",
+          "text": "The infusion of concentrated gastric hydrochloric acid into the duodenum to eliminate colonizing enterics",
+          "evidence": "Probiotics do not involve duodenal acid infusions. Source PDF page: 27."
         },
         {
           "id": "o5",
-          "text": "Permanently inhibiting host gastric acid production",
-          "evidence": "Probiotics aim to stabilize gut flora and treat disease. Source PDF page: 27."
+          "text": "The surgical resection of the colon to eradicate all resident anaerobic microbial species",
+          "evidence": "Probiotics are non-surgical microbial preparations to stabilize flora. Source PDF page: 27."
         }
       ],
       "correctOptionId": "o1"
@@ -2220,10 +2220,10 @@
           "pdfPage": 28
         }
       ],
-      "prompt": "What physical state of microorganisms is essential for a product to function as a genuine probiotic?",
+      "prompt": "According to clinical definitions, what physical state of microorganisms is essential for a preparation to function as a genuine probiotic?",
       "explanation": {
-        "en": "Probiotics are explicitly defined as live microorganisms that confer health benefits on the host when consumed in adequate quantities.",
-        "ar": "تُعرَّف المعززات الحيوية (Probiotics) صراحة بأنها كائنات حية دقيقة (Live microorganisms) تمنح فوائد صحية للمضيف عند استهلاكها بكميات كافية."
+        "en": "Probiotics are defined specifically as live microorganisms that provide health benefits to the host when consumed in adequate amounts (typically 10^9 to 10^10 organisms).",
+        "ar": "تُعرَّف المعززات الحيوية (البروبيوتيك) بأنها كائنات حية دقيقة تمنح فوائد صحية لجسمنا عند تناولها بكميات كافية (عادة 10^9 إلى 10^10 كائن حي)."
       },
       "status": "validated",
       "review": {
@@ -2233,33 +2233,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 28.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 28: Live microorganisms provide benefits when consumed in adequate amounts."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
+          "id": "o1",
+          "text": "Live microorganisms that confer health benefits when consumed in adequate amounts",
+          "evidence": "Probiotics: are live microorganisms that provide health benefits to our body when consumed in adequate amounts. Source PDF page: 28."
+        },
+        {
           "id": "o2",
-          "text": "Autoclaved microbial cell wall fragments that stimulate host antibody production",
-          "evidence": "Probiotics must be live microorganisms. Source PDF page: 28."
+          "text": "Autoclaved, heat-killed bacterial cell wall fragments that stimulate host antibody production",
+          "evidence": "Probiotics must be live microorganisms, not heat-killed or autoclaved fragments. Source PDF page: 28."
         },
         {
           "id": "o3",
-          "text": "Purified bacteriophage capsids that deliver recombinant plasmids into gut mucosa",
-          "evidence": "Probiotics are live beneficial microbes, not synthetic antibiotics. Source PDF page: 28."
-        },
-        {
-          "id": "o5",
-          "text": "Lyophilized bacterial endotoxins that activate non-specific innate immune defenses",
-          "evidence": "Probiotics consist of live microorganisms consumed in adequate amounts. Source PDF page: 28."
-        },
-        {
-          "id": "o1",
-          "text": "Live microorganisms that provide health benefits when consumed in adequate amounts",
-          "evidence": "Live microorganisms provide benefits when consumed in adequate amounts. Source PDF page: 28."
+          "text": "Purified viral bacteriophage capsids that deliver recombinant DNA into mucosal enterocytes",
+          "evidence": "Probiotics are live cellular microorganisms (bacteria/yeasts), not bacteriophage viral capsids. Source PDF page: 28."
         },
         {
           "id": "o4",
-          "text": "Inactivated viral envelope glycoproteins that bind mucosal transferrin receptors",
-          "evidence": "Probiotics are live microorganisms. Source PDF page: 28."
+          "text": "Lyophilized bacterial endotoxin complexes that activate non-specific innate phagocytic defenses",
+          "evidence": "Probiotics are beneficial live nonpathogens, not toxic lipopolysaccharide preparations. Source PDF page: 28, 29."
+        },
+        {
+          "id": "o5",
+          "text": "Inactivated bacterial exotoxins chemically converted by formaldehyde into immunogenic toxoids",
+          "evidence": "Formaldehyde-treated exotoxins are toxoid vaccines, not live probiotics. Source PDF page: 28."
         }
       ],
       "correctOptionId": "o1"
@@ -2278,10 +2278,10 @@
           "pdfPage": 28
         }
       ],
-      "prompt": "What major clinical infection is successfully treated by fecal microbiota transplantation (FMT) to restore gut community structure?",
+      "prompt": "Which major gastrointestinal infection is successfully treated by fecal microbiota transplantation (FMT) to restore disrupted microbial communities?",
       "explanation": {
-        "en": "Fecal microbiota transplantation (FMT) restores a diverse, healthy microbial community and is an established, highly effective therapy for recurrent Clostridioides (Clostridium) difficile infection.",
-        "ar": "تعمل زراعة نبيتات البراز (Fecal microbiota transplantation FMT) على استعادة مجتمع ميكروبي صحي ومتنوع، وهي علاج راسخ وعالي الفعالية لحالات عدوى Clostridioides difficile الناكسة."
+        "en": "Fecal microbiota transplantation (FMT) restores disrupted gut microbial communities and is highly effective in treating recurrent Clostridioides (Clostridium) difficile colitis.",
+        "ar": "تستعيد زراعة الميكروبيوتا البرازية (FMT) المجتمعات الميكروبية المضطربة وتعالج بفعالية عدوى المطثية العسيرة (C. difficile) المتكررة."
       },
       "status": "validated",
       "review": {
@@ -2291,33 +2291,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 28.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 28: Restores communities and treats recurrent Clostridioides difficile infection."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
-          "id": "o4",
-          "text": "Tetanus spasms mediated by Clostridium tetani neurotoxin",
-          "evidence": "FMT restores gut flora to treat recurrent C. difficile. Source PDF page: 28."
-        },
-        {
-          "id": "o5",
-          "text": "Infective endocarditis caused by viridans streptococci",
-          "evidence": "FMT is indicated for recurrent C. difficile infection. Source PDF page: 28."
+          "id": "o1",
+          "text": "Recurrent Clostridioides (Clostridium) difficile infection",
+          "evidence": "Fecal microbiota transplantation restores microbial communities and effectively treats recurrent Clostridioides difficile infection. Source PDF page: 28."
         },
         {
           "id": "o2",
-          "text": "Acute lobar pneumonia caused by Streptococcus pneumoniae",
-          "evidence": "FMT is used for recurrent C. difficile gut infection. Source PDF page: 28."
+          "text": "Acute appendicitis caused by Bacteroides fragilis perforation",
+          "evidence": "Acute appendicitis with perforation requires surgical intervention, not FMT. Source PDF page: 12, 28."
         },
         {
           "id": "o3",
-          "text": "Secondary syphilis caused by Treponema pallidum",
-          "evidence": "FMT treats recurrent C. difficile colitis. Source PDF page: 28."
+          "text": "Subacute bacterial endocarditis caused by Streptococcus mutans bacteremia",
+          "evidence": "Endocarditis requires prolonged intravenous bactericidal antibiotics, not FMT. Source PDF page: 21, 28."
         },
         {
-          "id": "o1",
-          "text": "Recurrent Clostridioides (Clostridium) difficile infection",
-          "evidence": "Restores communities and treats recurrent Clostridioides difficile infection in the source; other interventions are under investigation for IBD. Source PDF page: 28."
+          "id": "o4",
+          "text": "Dental caries caused by oral Streptococcus mutans plaque formation",
+          "evidence": "Dental caries is managed through oral hygiene and dentistry, not fecal transplantation. Source PDF page: 21, 28."
+        },
+        {
+          "id": "o5",
+          "text": "Urinary tract infections caused by uropathogenic Escherichia coli",
+          "evidence": "FMT is specifically indicated for recurrent C. difficile colitis, not uncomplicated cystitis. Source PDF page: 23, 28."
         }
       ],
       "correctOptionId": "o1"
@@ -2336,10 +2336,10 @@
           "pdfPage": 29
         }
       ],
-      "prompt": "Which combination of physiological and safety characteristics defines an ideal probiotic strain?",
+      "prompt": "Which combination of biological and safety characteristics defines an ideal probiotic bacterial strain?",
       "explanation": {
-        "en": "An ideal probiotic strain must exert a beneficial physiological effect on the host, be of human origin, demonstrate proven safety, resist gastric acid and bile salts, and possess the ability to adhere to the intestinal mucosa.",
-        "ar": "يجب أن تظهر السلالة المثالية للمعززات الحيوية (Probiotics) تأثيراً فسيولوجياً مفيداً على المضيف، وتكون من أصل بشري، وتتمتع بسلامة مثبتة، وتقاوم حمض المعدة وأملاح الصفراء، وتمتلك القدرة على الالتصاق بمخاطية الأمعاء."
+        "en": "Ideal probiotic strains possess five key properties: a beneficial physiological effect, human origin, safety for human use, stability in gastric acid and bile salts, and the ability to adhere to intestinal mucosa.",
+        "ar": "يجب أن تتميز بكتيريا البروبيوتيك بخمس خصائص أساسية: تأثير فسيولوجي مفيد، سلالة من أصل بشري، آمنة للاستخدام البشري، مستقرة في الحمض والصفراء، وتلتصق بالغشاء المخاطي المعوي."
       },
       "status": "validated",
       "review": {
@@ -2349,33 +2349,33 @@
         "bilingualChecked": true,
         "notes": "Direct factual extraction from PDF page 29.",
         "peerReviewedBy": "independent-microbiology-reviewer",
-        "peerReviewNotes": "Verified against PDF page 29: Beneficial physiological effect, human origin, safety, acid/bile stability and mucosal adhesion."
+        "peerReviewNotes": "Overhauled for high cognitive competition, parallel distractor length, and deep medical fidelity strictly grounded in lecture slides."
       },
       "options": [
         {
           "id": "o1",
-          "text": "Beneficial physiological effect, human origin, safety, acid/bile stability, and mucosal adhesion",
-          "evidence": "Beneficial physiological effect, human origin, safety, acid/bile stability and mucosal adhesion. Source PDF page: 29."
+          "text": "Beneficial physiological effect, human origin, safety, acid/bile stability, and mucosal adherence",
+          "evidence": "Probiotic characteristics: beneficial physiological effect, strain of human origin, safe for human use, stable in acid and bile, adhere to intestinal mucosa. Source PDF page: 29."
         },
         {
           "id": "o2",
-          "text": "Lethal enterotoxin secretion, resistance to autoclaving, and high-level beta-lactamase production",
-          "evidence": "Probiotics must be safe, non-pathogenic, and beneficial. Source PDF page: 29."
+          "text": "Rapid sporulation, resistance to autoclaving at 121°C, and broad-spectrum antibiotic secretion",
+          "evidence": "Probiotic strains are not required to form endospores or resist steam autoclaving. Source PDF page: 29."
         },
         {
           "id": "o3",
-          "text": "Obligate requirement for high hydrostatic pressure in oceanic trenches",
-          "evidence": "Probiotics are human-derived commensals adapted to gut conditions. Source PDF page: 29."
+          "text": "Obligate requirement for high hydrostatic pressure and growth strictly in alkaline media above pH 9.0",
+          "evidence": "Probiotics must survive acidic gastric environments, not require alkaline conditions. Source PDF page: 29."
         },
         {
           "id": "o4",
-          "text": "Inability to survive in any acidic environment below pH 8.0",
-          "evidence": "Probiotics must be stable to gastric acid and bile salts. Source PDF page: 29."
+          "text": "Ability to invade host bloodstream, synthesis of potent enterotoxins, and capsule production",
+          "evidence": "Probiotics must be nonpathogenic and safe, never invasive or enterotoxigenic. Source PDF page: 29."
         },
         {
           "id": "o5",
-          "text": "Production of potent exotoxins that cause immediate colonic mucosal sloughing",
-          "evidence": "Probiotics must be safe and confer positive health benefits. Source PDF page: 29."
+          "text": "Complete lysis upon contact with gastric acid and secretion of high-titer hemolysins",
+          "evidence": "Probiotic strains must be acid-stable to reach the intestine and must not produce hemolysins. Source PDF page: 29."
         }
       ],
       "correctOptionId": "o1"

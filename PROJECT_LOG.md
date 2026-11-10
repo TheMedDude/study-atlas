@@ -443,6 +443,31 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
   - Ran `npm run check; npm test`: 62/62 tests passing.
   - Ran `python scripts/validate_content.py --subject general-microbiology` and `--subject molecular-biology`: both passed cleanly.
 
+## 2026-11-10 - Release 1.2.10: Complete Pedagogical Overhaul of Normal Flora (High Cognitive Competition & Deep Medical Discrimination)
+
+- **Pedagogical Motivation & Root Cause Analysis**:
+  - Addressed user feedback regarding lack of competition between choices and superficiality in General Microbiology compared to Molecular Biology.
+  - Root cause: Distractors previously contained cartoonish, non-competing throwaway choices (e.g. "cyanobacteria in peripheral blood", "pollen grains in alveoli", "marine halophiles requiring 20% salt", "oceanic trenches", "cyanide from hemoglobin") that allowed solving questions by process of elimination without biological memorization.
+- **Complete Overhaul of Normal Flora (41 MCQs)**:
+  - Systematically rewrote all 41 MCQs in `subjects/general-microbiology/activities/normal-flora.json` and compiled to `activities.json`:
+    1. **Strict Biological Competition**: Every distractor is a genuine, confusable biological entity drawn strictly from the 33 lecture slides:
+       - Urethral passage contamination contrasts anterior urethral flora (*S. epidermidis*, coliforms, diphtheroids, nonhemolytic strep) against colonic anaerobes, vaginal flora, oropharyngeal commensals, and hospital opportunists.
+       - Displaced flora peritonitis contrasts *Bacteroides fragilis* against *S. epidermidis*, *S. mutans*, *C. acnes*, and *Lactobacillus*.
+       - Oral plaque caries and endocarditis contrasts *Streptococcus mutans* against *S. pyogenes*, *S. pneumoniae*, *S. epidermidis*, and *E. faecalis*.
+       - Upper respiratory throat inhibition explicitly tests the slide's competitive triad (viridans strep, Neisseria, *S. epidermidis* inhibiting *S. pyogenes*, *N. meningitidis*, and *S. aureus*).
+       - Vaginal acidity and antibiotic superinfection contrasts *Lactobacillus* and *Candida albicans* with other reproductive pathogens.
+       - Gut fermentation and SCFAs test acetate, propionate, and butyrate supporting barrier integrity and immune regulation.
+       - Probiotic criteria tests genuine slide properties (human origin, safety, acid/bile stability, mucosal adherence) against plausible microbiological alternatives.
+    2. **Balanced Option Lengths & Anti-Cueing**: Equalized option lengths and eliminated all giveaway parentheticals and asymmetric list structures across all 41 items.
+    3. **Bilingual Fidelity**: Fully updated English and Arabic explanations with precise medical terminology and exact slide provenance references.
+- **Verification & Testing**:
+  - Recompiled bank using `scripts/build_bank.py --subject general-microbiology` and verified all provenance/coverage gates passed cleanly.
+  - Verified with `python scripts/validate_content.py --subject general-microbiology` (488 concepts, 428 activities, 0 deferrals).
+  - Executed full test suite: 62/62 tests passed (`npm test`).
+  - Executed Playwright end-to-end browser test (`work/test_question_id_e2e.mjs`): passed with zero errors.
+  - Cache-busted assets to `v=1.2.10`.
+
+
 
 
 
