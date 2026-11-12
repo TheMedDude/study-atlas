@@ -603,3 +603,12 @@ Added PRODUCT.md, DESIGN.md, portable entry guide and authoring/architecture/dec
 Passed npm run check and all 77 JS tests. Committed optional browser regression covers 11 routes plus four Memorize sections at six sizes, menu interactions, matrices, source viewing/rotation, practice Arabic feedback and save/reload/resume. Zero document overflow/page errors; actual synthesized horizontal/vertical touch swipes passed at 390px. Existing question banks and model/storage/study modules remain unchanged. Physical iPhone/iPad Safari and real keyboard/browser-chrome testing remain unverified.
 
 Inspected final desktop/phone/tablet renders. Impeccable detector findings were triaged: touched stripes removed, SVG navigation unified, shared tokens documented; legacy color/type/radius variants remain incremental consolidation work. Portable docs distinguish implemented behavior, proposals and future subscription requirements. See docs/QA.md for exact scope.
+
+
+## 2026-11-12 — 1.3.0 published and verified
+
+Functional release `b646709c0e8b90db39d546c100ec9352cc329f2d` passed [CI 43282719110](https://github.com/TheMedDude/study-atlas/actions/runs/43282719110) and [Pages deployment 43282718610](https://github.com/TheMedDude/study-atlas/actions/runs/43282718610). The Pages API reports that exact commit built with no error. CLI identity was TheMedDude, ID 352966162, before publication.
+
+The committed responsive browser regression passed against the actual public website at all six sizes: 11 routes, four Memorize sections, compact menu, practice/Arabic feedback, dock bounds, source viewing/rotation and save/reload/resume. Synthesized horizontal/vertical rail swipes passed at 390px. No page errors/document overflow. Evidence: ignored work/design-1.3/public-browser-results.json. This is Chromium emulation/synthesized input, not physical Safari/hardware testing.
+
+Shared tokens, responsive layouts and portable project records are released. Existing banks, scoring and progress contracts are unchanged. Pharmacology Memorize tools and subscription services remain clearly labeled proposals. Later documentation-only commits do not change the verified app bytes.

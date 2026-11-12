@@ -4,7 +4,7 @@ Read this first when continuing in Codex, Claude or another development environm
 
 ## What exists
 
-Development release **1.3.0** follows published **1.2.14**. It starts with a documented design system, phone/iPad fixes and reusable development records. Check PROJECT_LOG.md for deployment evidence; a version string alone does not prove a live release.
+Published release **1.3.0** follows **1.2.14**. It starts with a documented design system, phone/iPad fixes and reusable development records. Check PROJECT_LOG.md for deployment evidence; a version string alone does not prove a live release.
 
 Three courses contain 1,660 activities: Molecular Biology 694, General Microbiology 428, Pharmacology 538. MCQs: 601, 409 and 483. All banks are preserved in this design task. Microbiology synthesis was inspected for interface behavior, not independently revalidated scientifically here.
 

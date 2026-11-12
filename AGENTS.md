@@ -4,6 +4,8 @@ Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` 
 
 ## Current stage
 
+Version 1.3.0 publishes shared design tokens, compact phone/tablet navigation and responsive Memorize/source/study controls. Portable continuation begins at docs/START_HERE.md. See the latest PROJECT_LOG.md and docs/QA.md for deployment and device-test evidence. Pharmacology Memorize additions and paid services remain proposals.
+
 Version 1.2.14 adds Pharmacology to the existing Molecular Biology and Antigravity General Microbiology subjects. Pharmacology has 538 independently reviewed activities (483 five-option MCQs, 51 matching, 4 ordering) from 283 reviewed PDF pages: 269 teaching and 14 exclusions. Its 576-entry source index preserves 66 source notes and explicit coverage deferrals. Chapters 1–3 prioritize principles over illustrative drug-name/function recall; chapter 4 assesses ANS foundations and drug-specific distinctions. Do not restart the superseded Microbiology task or overwrite its completed bank.
 
 Molecular Biology remains 694 activities (601 MCQs); General Microbiology remains 428 (409 MCQs). The shared static app includes the existing study modes, source viewing, device progress, backups, saved questions, resumable practice, Question Library and Memorize features. Current release QA and deployment evidence belong in PROJECT_LOG.md, docs/QA.md and docs/PHARMACOLOGY_HANDOFF.md. A push is not proof of live deployment.
