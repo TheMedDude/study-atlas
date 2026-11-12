@@ -1,0 +1,4059 @@
+{
+  "lectureId": "introduction-and-roa",
+  "activities": [
+    {
+      "id": "introduction-and-roa-pk-pd",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-pk-pd-direction",
+        "introduction-and-roa-pk-adme",
+        "introduction-and-roa-pd-effects"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which pair correctly distinguishes pharmacokinetics from pharmacodynamics?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "PK: biological effects; PD: distribution and excretion",
+          "evidence": "This reverses effects and handling."
+        },
+        {
+          "id": "o1",
+          "text": "PK: absorption and excretion; PD: biological and therapeutic effects",
+          "evidence": "PK includes ADME; PD includes effects."
+        },
+        {
+          "id": "o2",
+          "text": "PK: therapeutic effects; PD: absorption and excretion",
+          "evidence": "This reverses the PK and PD roles."
+        },
+        {
+          "id": "o5",
+          "text": "PK: adverse effects alone; PD: metabolism alone",
+          "evidence": "Neither is the stated definition; metabolism belongs to PK."
+        },
+        {
+          "id": "o3",
+          "text": "PK: receptor effects; PD: distribution and metabolism",
+          "evidence": "Effects belong to PD and handling to PK."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "PK describes what the body does to the drug through ADME; PD describes what the drug does to the body.",
+        "ar": "يصف PK ما يفعله الجسم بالدواء عبر ADME، ويصف PD ما يفعله الدواء بالجسم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of pk-pd against Introduction/ROA PDF pages 5, 6. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-drug-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-drug-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "A substance produces a physiological effect for disease diagnosis. Which additional purpose must it fulfill to qualify as a drug?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Neither treatment nor prevention is required in addition",
+          "evidence": "Diagnosis is an included drug purpose in its own right."
+        },
+        {
+          "id": "o2",
+          "text": "Treatment is required; prevention is not",
+          "evidence": "The definition does not require treatment in addition to diagnosis."
+        },
+        {
+          "id": "o5",
+          "text": "Cure is required even if neither prevention nor treatment occurs",
+          "evidence": "Cure is not a mandatory additional purpose for a diagnostic drug."
+        },
+        {
+          "id": "o3",
+          "text": "Prevention is required; treatment is not",
+          "evidence": "The definition does not require prevention in addition to diagnosis."
+        },
+        {
+          "id": "o4",
+          "text": "Both treatment and prevention are required",
+          "evidence": "The definition lists alternative purposes rather than cumulative requirements."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A drug may be used for prevention, treatment or diagnosis without fulfilling every role.",
+        "ar": "قد يُستخدم Drug للوقاية أو العلاج أو التشخيص، ولا يُشترط جمع الأدوار الثلاثة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of drug-definition against Introduction/ROA PDF pages 4. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Second independent pass rebuilt the full alternative set to remove strong cue/length and wrong-domain clues."
+      }
+    },
+    {
+      "id": "introduction-and-roa-therapeutics",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-therapeutics"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which task primarily represents pharmacotherapeutics?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Measuring drug absorption into blood",
+          "evidence": "Absorption is PK."
+        },
+        {
+          "id": "o3",
+          "text": "Measuring drug distribution into tissues",
+          "evidence": "Distribution is PK."
+        },
+        {
+          "id": "o4",
+          "text": "Measuring drug metabolism",
+          "evidence": "Metabolism is PK."
+        },
+        {
+          "id": "o1",
+          "text": "Selecting a drug for disease prevention or treatment",
+          "evidence": "This is the proper selection/use focus of pharmacotherapeutics."
+        },
+        {
+          "id": "o5",
+          "text": "Measuring drug excretion",
+          "evidence": "Excretion is PK."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pharmacotherapeutics concerns proper selection and use of drugs for prevention and treatment.",
+        "ar": "يهتم Pharmacotherapeutics باختيار الدواء واستخدامه المناسب للوقاية والعلاج."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of therapeutics against Introduction/ROA PDF pages 6. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-toxicology",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-toxicology",
+        "introduction-and-roa-adverse-effects"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which investigation most directly concerns toxicology?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Measuring the desired biological effect of receptor stimulation",
+          "evidence": "Biological drug effects are the PD focus; undesirable effects define toxicology here."
+        },
+        {
+          "id": "o2",
+          "text": "Measuring the rate of drug absorption into the blood",
+          "evidence": "Absorption is a PK process."
+        },
+        {
+          "id": "o3",
+          "text": "Mapping drug distribution between plasma and tissues",
+          "evidence": "Distribution is a PK process."
+        },
+        {
+          "id": "o5",
+          "text": "Selecting a suitable drug for prevention or treatment",
+          "evidence": "This is the pharmacotherapeutics focus."
+        },
+        {
+          "id": "o1",
+          "text": "Characterizing undesirable drug effects on biological processes",
+          "evidence": "This is the toxicology definition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Toxicology focuses on undesirable drug effects on biological processes.",
+        "ar": "يركز Toxicology على التأثيرات الدوائية غير المرغوبة في العمليات الحيوية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of toxicology against Introduction/ROA PDF pages 6, 9. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-adverse",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-adverse-effects"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "A drug produces the intended benefit and an additional unintended action. How is that additional action classified?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Selection of the drug for treatment",
+          "evidence": "Selection/use belongs to pharmacotherapeutics rather than the unintended response."
+        },
+        {
+          "id": "o4",
+          "text": "Metabolic conversion of the drug",
+          "evidence": "Metabolism is a PK process;the premise describes an effect,not a chemical conversion."
+        },
+        {
+          "id": "o3",
+          "text": "Drug absorption into the circulation",
+          "evidence": "Absorption describes handling,not the classification of an unintended effect."
+        },
+        {
+          "id": "o1",
+          "text": "An adverse or side effect",
+          "evidence": "An unintended drug action is the stated definition."
+        },
+        {
+          "id": "o2",
+          "text": "The intended therapeutic response",
+          "evidence": "The additional action is explicitly unintended."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "An unintended drug action is an adverse or side effect; benefit does not exclude its occurrence.",
+        "ar": "يُسمى التأثير الدوائي غير المقصود Adverse effect أو Side effect، وقد يحدث مع الفائدة المطلوبة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of adverse against Introduction/ROA PDF pages 6, 9. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-generic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-generic-name",
+        "introduction-and-roa-trade-name",
+        "introduction-and-roa-name-confusion"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Two branded products have different proprietary names but share one nonproprietary name. Which pair identifies the shared and differing naming levels?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Shared trade name; differing generic names",
+          "evidence": "This reverses the premise and definitions."
+        },
+        {
+          "id": "o4",
+          "text": "Shared therapeutic class; differing chemical names",
+          "evidence": "Therapeutic class groups uses,not the two specified naming levels."
+        },
+        {
+          "id": "o1",
+          "text": "Shared generic name; differing trade names",
+          "evidence": "Generic means nonproprietary;trade means proprietary."
+        },
+        {
+          "id": "o5",
+          "text": "Shared pharmacologic class; differing generic names",
+          "evidence": "Pharmacologic class groups characteristics;the premise explicitly shares a generic name."
+        },
+        {
+          "id": "o3",
+          "text": "Shared chemical name; differing generic names",
+          "evidence": "The shared name is explicitly nonproprietary,and the differing names proprietary."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Generic names are nonproprietary; trade names are proprietary registered names. Generic naming reduces confusion.",
+        "ar": "Generic names أسماء غير تجارية، بينما Trade names أسماء تجارية مسجلة؛ يساعد الاسم غير التجاري في تقليل الالتباس."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of generic against Introduction/ROA PDF pages 10, 11, 12. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-chemical",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-chemical-name"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which information distinguishes a chemical name from generic and trade naming?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "A proprietary registered trademark",
+          "evidence": "This identifies trade naming."
+        },
+        {
+          "id": "o2",
+          "text": "The shared nonproprietary identifier",
+          "evidence": "This identifies generic naming."
+        },
+        {
+          "id": "o4",
+          "text": "The common treatment goal of a drug group",
+          "evidence": "This defines therapeutic grouping rather than chemical naming."
+        },
+        {
+          "id": "o1",
+          "text": "Chemical composition and molecular structure",
+          "evidence": "Chemical naming describes composition and structure."
+        },
+        {
+          "id": "o5",
+          "text": "The shared pharmacologic characteristics of a family",
+          "evidence": "This defines pharmacologic classification rather than chemical naming."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chemical names describe composition and molecular structure.",
+        "ar": "يصف Chemical name التركيب الكيميائي والبنية الجزيئية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of chemical against Introduction/ROA PDF pages 10, 12. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-trade",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-trade-name",
+        "introduction-and-roa-generic-name"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which description identifies a trade name?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "A group defined by pharmacologic characteristics",
+          "evidence": "This describes a pharmacologic class."
+        },
+        {
+          "id": "o1",
+          "text": "A proprietary registered name restricted by its owner",
+          "evidence": "This is the stated trade-name definition."
+        },
+        {
+          "id": "o4",
+          "text": "A group defined by therapeutic use",
+          "evidence": "This describes a therapeutic class."
+        },
+        {
+          "id": "o2",
+          "text": "A nonproprietary name used to reduce confusion",
+          "evidence": "This describes a generic name."
+        },
+        {
+          "id": "o3",
+          "text": "A description of chemical composition",
+          "evidence": "This describes a chemical name."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A trade name is proprietary and associated with a registered trademark.",
+        "ar": "Trade name اسم تجاري Proprietary يرتبط بعلامة تجارية مسجلة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of trade against Introduction/ROA PDF pages 10. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-class-properties",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-class-basis"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which grouping is based on pharmacologic class rather than therapeutic class?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Grouping drugs by a common treatment goal despite different pharmacologic properties",
+          "evidence": "This is therapeutic classification."
+        },
+        {
+          "id": "o1",
+          "text": "Grouping drugs by similar pharmacologic characteristics",
+          "evidence": "This is the stated basis of a pharmacologic family."
+        },
+        {
+          "id": "o4",
+          "text": "Grouping preparations solely by the specified administration time",
+          "evidence": "Timing is one administration right,not a pharmacologic-family definition."
+        },
+        {
+          "id": "o5",
+          "text": "Grouping prescriptions solely by the patient named on the order",
+          "evidence": "Patient identification is a prescription/administration feature."
+        },
+        {
+          "id": "o3",
+          "text": "Grouping products solely by a common registered trademark",
+          "evidence": "A trademark is a proprietary naming feature."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pharmacologic classes group similar characteristics; therapeutic classes group therapeutic uses.",
+        "ar": "يجمع Pharmacologic class الأدوية ذات الخصائص المتشابهة، ويجمع Therapeutic class الأدوية حسب الاستخدام العلاجي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of class-properties against Introduction/ROA PDF pages 12, 14, 15. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-class-use",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-class-basis"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Drugs with different pharmacologic properties are grouped because they lower blood pressure. What is the grouping basis?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Identical chemical structure",
+          "evidence": "No identical structure is specified."
+        },
+        {
+          "id": "o5",
+          "text": "Identical delivery route",
+          "evidence": "No identical administration route is specified."
+        },
+        {
+          "id": "o4",
+          "text": "Identical dosage form",
+          "evidence": "No identical preparation is specified."
+        },
+        {
+          "id": "o1",
+          "text": "Therapeutic use",
+          "evidence": "The shared feature is the treatment goal."
+        },
+        {
+          "id": "o3",
+          "text": "Shared trademark ownership",
+          "evidence": "The treatment goal does not establish common ownership."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Therapeutic classes are based on use even when pharmacologic properties differ.",
+        "ar": "يعتمد Therapeutic class على الاستخدام المشترك حتى مع اختلاف الخصائص الدوائية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of class-use against Introduction/ROA PDF pages 12. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-prescription-order",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-definition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "A practitioner sends a pharmacist an electronic order for a specified medication but leaves the intended patient unidentified. Which change completes the patient-specific element?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Identify the group of patients in a drug information leaflet",
+          "evidence": "A drug leaflet population does not identify the intended individual."
+        },
+        {
+          "id": "o1",
+          "text": "Identify the individual for whom the medication is ordered",
+          "evidence": "The definition requires a specific patient."
+        },
+        {
+          "id": "o4",
+          "text": "Identify the pharmacy’s general patient population",
+          "evidence": "This still does not identify the individual for this medication order."
+        },
+        {
+          "id": "o2",
+          "text": "Identify the patient population for which the drug is marketed",
+          "evidence": "A general population is not the individual receiving this order."
+        },
+        {
+          "id": "o3",
+          "text": "Identify the practitioner’s usual patient population",
+          "evidence": "This still does not identify the individual for this medication order."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Prescriptions may be written, verbal or electronic and concern a specific patient and medication.",
+        "ar": "قد تكون Prescription مكتوبة أو شفوية أو إلكترونية، وترتبط بمريض ودواء محددين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of prescription-order against Introduction/ROA PDF pages 14. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Second independent pass rebuilt the full alternative set to remove strong cue/length and wrong-domain clues. Second independent pass rebuilt the full alternative set to remove strong cue/length and wrong-domain clues."
+      }
+    },
+    {
+      "id": "introduction-and-roa-right-patient",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-parts",
+        "introduction-and-roa-five-rights"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "An administration has the intended medication, dose, route and time but identifies another patient. Which right is violated?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Right time",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o1",
+          "text": "Right patient",
+          "evidence": "This is the mismatch explicitly described."
+        },
+        {
+          "id": "o3",
+          "text": "Right dose",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o4",
+          "text": "Right route",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o2",
+          "text": "Right drug",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The five rights independently require the right drug, dose, time, route and patient; the described mismatch identifies the violated right.",
+        "ar": "تشمل Five rights الدواء والجرعة والوقت والطريق والمريض الصحيحين، ويحدد الخطأ المذكور الشرط المخالف."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of right-patient against Introduction/ROA PDF pages 13, 15, 18. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-right-route",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-parts",
+        "introduction-and-roa-five-rights"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "An administration has the intended drug, dose, patient and time but specifies IM instead of the intended IV route. Which right is violated?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Right drug",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o5",
+          "text": "Right time",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o2",
+          "text": "Right patient",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o1",
+          "text": "Right route",
+          "evidence": "This is the mismatch explicitly described."
+        },
+        {
+          "id": "o4",
+          "text": "Right dose",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The five rights independently require the right drug, dose, time, route and patient; the described mismatch identifies the violated right.",
+        "ar": "تشمل Five rights الدواء والجرعة والوقت والطريق والمريض الصحيحين، ويحدد الخطأ المذكور الشرط المخالف."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of right-route against Introduction/ROA PDF pages 13, 15, 18. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-right-dose",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-parts",
+        "introduction-and-roa-five-rights"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "An administration has the intended drug, patient, route and time but twice the prescribed amount is given. Which right is violated?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Right patient",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o3",
+          "text": "Right drug",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o4",
+          "text": "Right route",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o5",
+          "text": "Right time",
+          "evidence": "This administration condition is stated to be correct in the premise."
+        },
+        {
+          "id": "o1",
+          "text": "Right dose",
+          "evidence": "This is the mismatch explicitly described."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The five rights independently require the right drug, dose, time, route and patient; the described mismatch identifies the violated right.",
+        "ar": "تشمل Five rights الدواء والجرعة والوقت والطريق والمريض الصحيحين، ويحدد الخطأ المذكور الشرط المخالف."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of right-dose against Introduction/ROA PDF pages 13, 15, 18. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-prescription-format",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-format"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which sequence identifies the prescription form’s labelled regions from top to bottom?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Closing, body, heading",
+          "evidence": "This reverses the order."
+        },
+        {
+          "id": "o1",
+          "text": "Heading, body, closing",
+          "evidence": "These regions occur in this vertical order."
+        },
+        {
+          "id": "o2",
+          "text": "Body, heading, closing",
+          "evidence": "This reverses the first two regions."
+        },
+        {
+          "id": "o4",
+          "text": "Heading, closing, body",
+          "evidence": "The body occurs before closing."
+        },
+        {
+          "id": "o5",
+          "text": "Body, closing, heading",
+          "evidence": "The heading is at the top."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The form is grouped into heading, body and closing.",
+        "ar": "يقسم النموذج Prescription إلى Heading ثم Body ثم Closing من الأعلى للأسفل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of prescription-format against Introduction/ROA PDF pages 16. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-frequency",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-prescription-parts"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which prescription component specifies how often medication is taken?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Route",
+          "evidence": "Route identifies how it is administered."
+        },
+        {
+          "id": "o1",
+          "text": "Frequency",
+          "evidence": "This specifies how often the medication is taken."
+        },
+        {
+          "id": "o4",
+          "text": "Patient date of birth",
+          "evidence": "This identifies the patient."
+        },
+        {
+          "id": "o5",
+          "text": "Refill count",
+          "evidence": "Refills concern further dispensing."
+        },
+        {
+          "id": "o2",
+          "text": "Strength",
+          "evidence": "Strength is distinct from how often it is taken."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Frequency is separate from strength, route, identification and refill count.",
+        "ar": "تختلف Frequency عن Strength وRoute وبيانات المريض وعدد Refills."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of frequency against Introduction/ROA PDF pages 13. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-mucosal-abbreviations",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-route-abbreviations",
+        "introduction-and-roa-enteral-routes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which pair denotes placement under the tongue and between cheek and gum, respectively?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "ID and IN",
+          "evidence": "These are intradermal and intranasal."
+        },
+        {
+          "id": "o1",
+          "text": "SL and BUCC",
+          "evidence": "SL is sublingual and BUCC is buccal."
+        },
+        {
+          "id": "o3",
+          "text": "IV and IM",
+          "evidence": "These are intravenous and intramuscular."
+        },
+        {
+          "id": "o5",
+          "text": "TP and IP",
+          "evidence": "These are topical and intraperitoneal."
+        },
+        {
+          "id": "o2",
+          "text": "PO and PR",
+          "evidence": "These mean by mouth and per rectum."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "SL denotes sublingual; BUCC denotes buccal.",
+        "ar": "SL يعني Sublingual وBUCC يعني Buccal."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of mucosal-abbreviations against Introduction/ROA PDF pages 18, 25. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-control-risk",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-controlled-substances"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What explains the tighter control of a controlled substance ?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Electronic prescription format",
+          "evidence": "This is an order format, not the risk definition."
+        },
+        {
+          "id": "o5",
+          "text": "Membership in a single therapeutic class",
+          "evidence": "The definition is based on abuse potential or risk."
+        },
+        {
+          "id": "o2",
+          "text": "Its shared generic name",
+          "evidence": "Generic naming does not define the control rationale."
+        },
+        {
+          "id": "o1",
+          "text": "Abuse potential or risk",
+          "evidence": "This is the stated basis for tight control."
+        },
+        {
+          "id": "o4",
+          "text": "Its obligatory intravenous route",
+          "evidence": "The definition does not require IV administration."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Controlled-substance use and distribution are tightly controlled because of abuse potential or risk.",
+        "ar": "تُشدد الرقابة على استخدام Controlled substances وتوزيعها بسبب احتمال إساءة الاستخدام أو المخاطر."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of control-risk against Introduction/ROA PDF pages 20, 21. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-route-factors",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-route-selection",
+        "introduction-and-roa-route-summary",
+        "introduction-and-roa-route-effect"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which combination directly guides route selection?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Intended treatment duration,with the drug physical properties disregarded",
+          "evidence": "Treatment duration does not remove physical-property constraints."
+        },
+        {
+          "id": "o2",
+          "text": "Drug trademark,desired onset,and manufacturer ownership",
+          "evidence": "Trademark ownership does not substitute for drug properties relevant to route selection."
+        },
+        {
+          "id": "o1",
+          "text": "Drug solubility and ionization,desired onset,and intended site of effect",
+          "evidence": "The route combines drug properties and therapeutic objectives."
+        },
+        {
+          "id": "o4",
+          "text": "Intended effect site,with absorption and release behavior disregarded",
+          "evidence": "Absorption/release behavior contributes to route selection."
+        },
+        {
+          "id": "o3",
+          "text": "Drug solubility and ionization,with therapeutic objectives disregarded",
+          "evidence": "Both properties and therapeutic objectives matter."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Route selection reflects drug properties and therapeutic objectives, including onset, local delivery and long-term treatment.",
+        "ar": "يعكس اختيار Route خصائص الدواء وأهداف العلاج، ومنها Onset والتأثير الموضعي والعلاج طويل الأمد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of route-factors against Introduction/ROA PDF pages 24, 47. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Added the exact concept-definition page to the supporting route reference."
+      }
+    },
+    {
+      "id": "introduction-and-roa-buccal-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-enteral-routes",
+        "introduction-and-roa-sublingual-buccal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "A drug is placed between the cheek and gum for bloodstream absorption. Which route is used?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Buccal",
+          "evidence": "Buccal placement is between cheek and gum."
+        },
+        {
+          "id": "o2",
+          "text": "Sublingual",
+          "evidence": "Sublingual placement is under the tongue."
+        },
+        {
+          "id": "o5",
+          "text": "Intranasal",
+          "evidence": "The drug is delivered into the nose."
+        },
+        {
+          "id": "o4",
+          "text": "Rectal",
+          "evidence": "The drug is delivered through the rectum."
+        },
+        {
+          "id": "o3",
+          "text": "Swallowed oral",
+          "evidence": "The drug is swallowed for GI delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Buccal and sublingual placements differ anatomically, although both can enter systemic circulation directly.",
+        "ar": "يختلف Buccal عن Sublingual في موضع الدواء، رغم إمكانية الامتصاص المباشر إلى الدوران الجهازي في كليهما."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of buccal-location against Introduction/ROA PDF pages 25, 33. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-oral-advantage",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-oral-advantages",
+        "introduction-and-roa-oral-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which feature favors oral administration in a conscious patient able to swallow?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Convenient self-administration with low infection risk",
+          "evidence": "These are stated oral-route advantages."
+        },
+        {
+          "id": "o4",
+          "text": "Complete avoidance of first-pass metabolism",
+          "evidence": "Swallowed drugs may undergo first-pass metabolism."
+        },
+        {
+          "id": "o5",
+          "text": "Protection from digestive destruction for every drug",
+          "evidence": "Acid and digestive juices can destroy susceptible drugs."
+        },
+        {
+          "id": "o2",
+          "text": "Absorption unaffected by gastric pH",
+          "evidence": "Gastric pH can affect absorption."
+        },
+        {
+          "id": "o3",
+          "text": "Guaranteed immediate onset in emergencies",
+          "evidence": "Oral effects can be too slow for emergencies."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Oral administration is convenient and low-risk for infection, but absorption, digestion and first-pass loss can limit it.",
+        "ar": "من مزايا Oral administration سهولة الاستخدام وانخفاض خطر العدوى، لكن الامتصاص والهضم وFirst-pass loss قد تحد منه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of oral-advantage against Introduction/ROA PDF pages 26, 27. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-oral-limitation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-oral-limitations",
+        "introduction-and-roa-rectal-route",
+        "introduction-and-roa-parenteral-selection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which condition rules out swallowed oral administration in this situation?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "The patient can swallow comfortably",
+          "evidence": "Ability to swallow does not produce this limitation."
+        },
+        {
+          "id": "o1",
+          "text": "The patient is unconscious",
+          "evidence": "The source explicitly lists unconsciousness as an oral-route limitation."
+        },
+        {
+          "id": "o3",
+          "text": "A low infection risk is desired",
+          "evidence": "This is an oral-route advantage."
+        },
+        {
+          "id": "o5",
+          "text": "The medication has acceptable taste",
+          "evidence": "Acceptable taste removes rather than creates that stated limitation."
+        },
+        {
+          "id": "o4",
+          "text": "The patient wants self-administration",
+          "evidence": "This is an oral-route advantage."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Inability to take oral medication is a reason to consider an appropriate alternative route.",
+        "ar": "عدم القدرة على تناول الدواء بالفم سبب للنظر في Route بديل مناسب."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of oral-limitation against Introduction/ROA PDF pages 27, 35, 36. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-first-pass-path",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-first-pass",
+        "introduction-and-roa-first-pass-pathway"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which pathway places the liver before general systemic delivery after a swallowed dose?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Liver → digestive system → hepatic portal system → rest of body",
+          "evidence": "This reverses the initial sequence."
+        },
+        {
+          "id": "o4",
+          "text": "Rest of body → hepatic portal system → digestive system → liver",
+          "evidence": "A swallowed dose starts in the digestive system."
+        },
+        {
+          "id": "o5",
+          "text": "Hepatic portal system → liver → digestive system → rest of body",
+          "evidence": "The digestive system precedes portal-liver passage."
+        },
+        {
+          "id": "o1",
+          "text": "Digestive system → hepatic portal system → liver → rest of body",
+          "evidence": "This is the illustrated pathway."
+        },
+        {
+          "id": "o2",
+          "text": "Digestive system → rest of body → liver → hepatic portal system",
+          "evidence": "Systemic entry is incorrectly placed before the portal-liver passage."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The swallowed-drug pathway includes digestive system, portal circulation and liver before delivery to the rest of the body.",
+        "ar": "يمر الدواء المبتلع عبر Digestive system ثم Hepatic portal system والكبد قبل وصوله إلى باقي الجسم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of first-pass-path against Introduction/ROA PDF pages 27, 28, 29. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-first-pass-more",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-first-pass"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Two oral doses deliver the same amount to portal circulation. One undergoes greater first-pass degradation. What follows?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Less unchanged active drug reaches systemic circulation",
+          "evidence": "More active drug is removed before general circulation."
+        },
+        {
+          "id": "o2",
+          "text": "More unchanged active drug reaches systemic circulation",
+          "evidence": "This reverses the stated relationship."
+        },
+        {
+          "id": "o5",
+          "text": "The liver is bypassed entirely",
+          "evidence": "The premise specifically describes first-pass degradation."
+        },
+        {
+          "id": "o4",
+          "text": "Bioavailability necessarily becomes100%",
+          "evidence": "Greater first-pass loss does not establish complete availability."
+        },
+        {
+          "id": "o3",
+          "text": "The absorption phase is absent",
+          "evidence": "Greater degradation does not convert oral delivery into IV delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "With the portal input held equal, greater first-pass degradation reduces unchanged active drug reaching systemic circulation.",
+        "ar": "عند تساوي الكمية الداخلة، تقل كمية الدواء الفعال غير المتغير الواصلة إلى Systemic circulation بزيادة First-pass degradation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of first-pass-more against Introduction/ROA PDF pages 28. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-enteric-rationale",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-enteric-coating"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Which formulation feature addresses both acid instability and irritation of the stomach?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "An envelope that remains intact in both stomach and upper intestine",
+          "evidence": "The enteric coat must dissolve in the upper intestine."
+        },
+        {
+          "id": "o1",
+          "text": "A coat resisting stomach fluids but dissolving in the upper intestine",
+          "evidence": "This protects acid-unstable drug or limits stomach exposure to an irritant."
+        },
+        {
+          "id": "o4",
+          "text": "Ingredients controlling release speed without establishing stomach resistance",
+          "evidence": "Rate control alone does not establish enteric protection."
+        },
+        {
+          "id": "o2",
+          "text": "A coat dissolving promptly in the stomach before intestinal passage",
+          "evidence": "This removes the stomach-resistance property."
+        },
+        {
+          "id": "o3",
+          "text": "A formulation releasing its full dose immediately throughout the stomach",
+          "evidence": "This does not provide the stated stomach protection."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Enteric coating can protect acid-unstable drugs or reduce stomach exposure to irritating drugs.",
+        "ar": "قد تحمي Enteric coating دواء غير ثابت في الحمض أو تقلل تعرض المعدة لدواء مهيج."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of enteric-rationale against Introduction/ROA PDF pages 31. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-enteric-vs-er",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-enteric-coating",
+        "introduction-and-roa-extended-release",
+        "introduction-and-roa-oral-preparations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which comparison correctly distinguishes enteric coating from extended release?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Both terms identify stomach resistance without a release-rate distinction",
+          "evidence": "ER specifically controls the speed of release."
+        },
+        {
+          "id": "o5",
+          "text": "Enteric coating requires gastric dissolution;ER requires immediate release",
+          "evidence": "Both behaviors oppose the definitions."
+        },
+        {
+          "id": "o2",
+          "text": "Enteric coating controls release rate;ER establishes stomach resistance alone",
+          "evidence": "This reverses the formulation purposes."
+        },
+        {
+          "id": "o4",
+          "text": "Both terms identify slow release without a dissolution-site distinction",
+          "evidence": "Enteric coating specifically distinguishes stomach from upper intestine."
+        },
+        {
+          "id": "o1",
+          "text": "Enteric coating controls dissolution site;ER ingredients control release rate",
+          "evidence": "Stomach resistance/intestinal dissolution differs from rate control."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Enteric protection and controlled release rate are different formulation purposes.",
+        "ar": "الحماية المعوية والتحكم بسرعة التحرر هدفان مختلفان لـ Formulation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of enteric-vs-er against Introduction/ROA PDF pages 31, 32, 30. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-er-short-half-life",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-extended-release"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Why may extended release benefit a short-half-life drug?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "It establishes only a stomach-resistant envelope without rate control",
+          "evidence": "This is the enteric-coating property,not the ER benefit."
+        },
+        {
+          "id": "o1",
+          "text": "It prolongs drug delivery and can maintain concentrations over a longer period",
+          "evidence": "Controlled release can extend delivery and support the therapeutic range."
+        },
+        {
+          "id": "o5",
+          "text": "It necessarily raises dose frequency by shortening release duration",
+          "evidence": "Prolonged release is associated with improved compliance,not this shortening."
+        },
+        {
+          "id": "o2",
+          "text": "It delivers the entire dose immediately and shortens the delivery period",
+          "evidence": "This reverses controlled prolonged release."
+        },
+        {
+          "id": "o3",
+          "text": "It stops drug elimination instead of controlling release",
+          "evidence": "The formulation changes release;cessation of elimination is not established."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "ER can prolong drug delivery, support therapeutic-range maintenance and improve compliance.",
+        "ar": "قد يطيل ER توصيل الدواء ويساعد في الحفاظ على Therapeutic range وتحسين الالتزام."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of er-short-half-life against Introduction/ROA PDF pages 32. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sublingual-bypass",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sublingual-buccal",
+        "introduction-and-roa-first-pass"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "What explains avoidance of the initial hepatic first-pass pathway with sublingual administration?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Absence of an absorption phase because the drug is injected into blood",
+          "evidence": "That is IV delivery;the sublingual route still involves absorption."
+        },
+        {
+          "id": "o2",
+          "text": "Absorption from intestinal capillaries into portal circulation first",
+          "evidence": "This follows the swallowed GI/portal pathway."
+        },
+        {
+          "id": "o3",
+          "text": "Initial delivery to liver before entry into systemic circulation",
+          "evidence": "This is first-pass passage rather than its avoidance."
+        },
+        {
+          "id": "o4",
+          "text": "Gastric resistance followed only by upper-intestinal dissolution",
+          "evidence": "This is enteric-coating behavior."
+        },
+        {
+          "id": "o1",
+          "text": "Absorption from local capillaries directly into systemic circulation",
+          "evidence": "This is the sublingual mechanism."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Sublingual delivery enters systemic circulation directly through the capillary network.",
+        "ar": "يدخل Sublingual delivery إلى Systemic circulation مباشرة عبر شبكة الشعيرات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sublingual-bypass against Introduction/ROA PDF pages 27, 33. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Added the exact concept-definition page to the supporting route reference."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sublingual-limit",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sublingual-limitations",
+        "introduction-and-roa-sublingual-buccal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "Which limitation is specifically listed for sublingual and buccal administration?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Mandatory exposure to gastric acid before absorption",
+          "evidence": "The paired routes bypass the harsh GI environment."
+        },
+        {
+          "id": "o4",
+          "text": "A mandatory injection-site infection risk",
+          "evidence": "They do not require injection,and low infection risk is listed."
+        },
+        {
+          "id": "o5",
+          "text": "Absence of capillary absorption",
+          "evidence": "The mechanism explicitly depends on capillary absorption."
+        },
+        {
+          "id": "o1",
+          "text": "Small dose capacity",
+          "evidence": "Small doses are listed as a limitation."
+        },
+        {
+          "id": "o2",
+          "text": "An obligatory initial portal-liver pathway",
+          "evidence": "These routes avoid initial first-pass metabolism."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Small dose capacity, inconvenience and unpleasant taste can limit these mucosal routes.",
+        "ar": "قد تحد سعة الجرعة الصغيرة وعدم الملاءمة والطعم غير المستساغ من Sublingual/Buccal routes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sublingual-limit against Introduction/ROA PDF pages 33, 34. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-rectal-nausea",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-rectal-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "A vomiting patient has a nonirritating drug suitable for rectal absorption. Which comparison supports rectal delivery?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "It is unsuitable whenever a local bowel effect is desired",
+          "evidence": "Bowel-acting drugs are among the stated uses."
+        },
+        {
+          "id": "o3",
+          "text": "It permits irritating drugs because local effects cannot occur",
+          "evidence": "Irritating drugs are unsuitable,and local bowel effects are possible."
+        },
+        {
+          "id": "o4",
+          "text": "It bypasses absorption by introducing drug directly into blood",
+          "evidence": "Rectal delivery requires absorption."
+        },
+        {
+          "id": "o2",
+          "text": "It guarantees identical absorption despite patient differences",
+          "evidence": "Rectal absorption may vary."
+        },
+        {
+          "id": "o1",
+          "text": "It can avoid a swallowed dose when vomiting limits oral use",
+          "evidence": "Rectal delivery is listed as useful during nausea/vomiting."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Rectal delivery may help when nausea or vomiting limits oral use, although absorption and irritation still matter.",
+        "ar": "قد يفيد Rectal delivery عندما يحد الغثيان أو القيء من الاستخدام الفموي، مع مراعاة الامتصاص والتهيّج."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of rectal-nausea against Introduction/ROA PDF pages 35. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-rectal-irritation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-rectal-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "Which property argues against rectal drug delivery?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Use during nausea",
+          "evidence": "Nausea is a reason the route may be useful."
+        },
+        {
+          "id": "o2",
+          "text": "A desired bowel effect",
+          "evidence": "Local bowel action is a listed use."
+        },
+        {
+          "id": "o5",
+          "text": "A desire to terminate exposure easily",
+          "evidence": "This is listed as an advantage."
+        },
+        {
+          "id": "o1",
+          "text": "Local irritation",
+          "evidence": "The source lists irritating drugs as contraindicated for this route."
+        },
+        {
+          "id": "o4",
+          "text": "Use when a swallowed dose is unsuitable",
+          "evidence": "The route is a listed alternative in some such circumstances."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Rectal absorption may vary, and irritating drugs are unsuitable .",
+        "ar": "قد يتفاوت Rectal absorption، ولا يناسب هذا المسار الأدوية المهيجة موضعيًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of rectal-irritation against Introduction/ROA PDF pages 35. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-parenteral-reason",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-parenteral-selection"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which circumstance most directly favors parenteral delivery over a swallowed preparation?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "GI instability of the drug and inability to take oral medication",
+          "evidence": "Both are listed reasons to consider a suitable parenteral route."
+        },
+        {
+          "id": "o5",
+          "text": "A desire to keep an enteric envelope intact until the upper intestine",
+          "evidence": "This describes a swallowed enteric preparation rather than bypassing GI handling."
+        },
+        {
+          "id": "o2",
+          "text": "A stable orally absorbed drug and a patient able to swallow",
+          "evidence": "These conditions do not present the stated GI or administration barriers."
+        },
+        {
+          "id": "o4",
+          "text": "A need for local airway delivery of an inhalable preparation",
+          "evidence": "This supports inhalation rather than the specified GI-barrier rationale."
+        },
+        {
+          "id": "o3",
+          "text": "A need for local skin treatment at an accessible surface",
+          "evidence": "This supports considering local skin application instead of the specified parenteral reasons."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Parenteral routes can address GI handling limitations or inability to take oral medication.",
+        "ar": "قد تعالج Parenteral routes قيود التعامل مع الدواء في GI tract أو عدم القدرة على تناوله فمويًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of parenteral-reason against Introduction/ROA PDF pages 36. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Second independent pass rebuilt the full alternative set to remove strong cue/length and wrong-domain clues."
+      }
+    },
+    {
+      "id": "introduction-and-roa-injection-destinations",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-injection-locations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 37
+        }
+      ],
+      "prompt": "Which pairing correctly matches injection route and destination?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "IM:subcutaneous tissue;IV:skeletal muscle",
+          "evidence": "Neither destination matches the specified route."
+        },
+        {
+          "id": "o3",
+          "text": "IM:skeletal muscle;IV:subcutaneous tissue",
+          "evidence": "IV enters the bloodstream,not subcutaneous tissue."
+        },
+        {
+          "id": "o4",
+          "text": "IM:bloodstream;IV:skeletal muscle",
+          "evidence": "The destinations are reversed."
+        },
+        {
+          "id": "o1",
+          "text": "IM:skeletal muscle;IV:bloodstream",
+          "evidence": "Both destinations match the route definitions."
+        },
+        {
+          "id": "o2",
+          "text": "IM:subcutaneous tissue;IV:bloodstream",
+          "evidence": "The IM destination is muscle,not subcutaneous tissue."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IM, IV and SC specify muscle, intravascular and subcutaneous destinations.",
+        "ar": "تحدد IM وIV وSC مواضع الإيصال داخل العضلات والأوعية والنسيج تحت الجلد على الترتيب."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of injection-destinations against Introduction/ROA PDF pages 37. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-absorption",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-iv-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        }
+      ],
+      "prompt": "Which route bypasses an absorption phase and provides100% bioavailability ?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Transdermal",
+          "evidence": "Drug is absorbed through skin."
+        },
+        {
+          "id": "o3",
+          "text": "Subcutaneous",
+          "evidence": "Drug diffuses from the tissue."
+        },
+        {
+          "id": "o4",
+          "text": "Intramuscular depot",
+          "evidence": "Drug dissolves and is absorbed from the site."
+        },
+        {
+          "id": "o2",
+          "text": "Swallowed oral",
+          "evidence": "GI absorption is needed and first pass can occur."
+        },
+        {
+          "id": "o1",
+          "text": "Intravenous",
+          "evidence": "IV directly introduces drug into bloodstream."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IV bypasses an absorption phase because the drug is placed directly into the bloodstream.",
+        "ar": "يتجاوز IV مرحلة Absorption لأن الدواء يدخل مباشرة إلى الدورة الدموية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-absorption against Introduction/ROA PDF pages 38. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-control",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-iv-properties",
+        "introduction-and-roa-iv-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which route combines precise delivered-dose control and almost immediate onset with risk from overly rapid high concentrations?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Transdermal",
+          "evidence": "Skin absorption is variable rather than immediate direct bloodstream delivery."
+        },
+        {
+          "id": "o4",
+          "text": "Rectal",
+          "evidence": "Absorption may be variable rather than precise direct bloodstream delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Swallowed oral",
+          "evidence": "Absorption may vary and onset can be too slow for emergencies."
+        },
+        {
+          "id": "o1",
+          "text": "Intravenous",
+          "evidence": "All three features are stated IV properties."
+        },
+        {
+          "id": "o2",
+          "text": "Intramuscular depot",
+          "evidence": "The depot is designed for slow sustained release."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IV provides delivery control and almost immediate onset but requires care with rapid high concentrations.",
+        "ar": "يوفر IV تحكمًا دقيقًا وبداية شبه فورية، مع ضرورة الحذر من الإيصال السريع لتركيز مرتفع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-control against Introduction/ROA PDF pages 38, 39. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-unrecoverable",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-iv-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Why cannot an IV dose already in the bloodstream be recalled by binding drug to activated charcoal in the GI tract?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "The delivered dose depends on a stomach-resistant envelope dissolving later",
+          "evidence": "This describes an oral enteric preparation."
+        },
+        {
+          "id": "o4",
+          "text": "The delivered dose first forms a reservoir in skeletal muscle",
+          "evidence": "This is not the IV destination."
+        },
+        {
+          "id": "o2",
+          "text": "The delivered dose remains in the stomach until a second absorption phase",
+          "evidence": "IV bypasses GI absorption."
+        },
+        {
+          "id": "o1",
+          "text": "The delivered dose has already entered systemic circulation rather than remaining in the GI tract",
+          "evidence": "The IV limitation explicitly contrasts delivered bloodstream drug with the GI binding strategy."
+        },
+        {
+          "id": "o3",
+          "text": "The delivered dose must pass through the intestine before entering blood",
+          "evidence": "The dose is already in blood."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A dose already given IV cannot be recalled by GI-directed charcoal binding.",
+        "ar": "لا يمكن استرجاع جرعة أُعطيت عبر IV باستراتيجية الارتباط بـ Activated charcoal في GI tract."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-unrecoverable against Introduction/ROA PDF pages 39. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-infection",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-oral-advantages",
+        "introduction-and-roa-iv-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which comparison accurately describes the infection considerations of oral and IV administration?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Both require the same injection-site exposure",
+          "evidence": "Oral delivery does not require an injection site."
+        },
+        {
+          "id": "o2",
+          "text": "Oral delivery requires an injection site;IV avoids penetrating defenses",
+          "evidence": "This reverses the anatomical distinction."
+        },
+        {
+          "id": "o1",
+          "text": "Oral delivery has low infection risk;IV may introduce infection at the injection site",
+          "evidence": "Both statements follow the route descriptions."
+        },
+        {
+          "id": "o4",
+          "text": "IV infection risk is eliminated because absorption is bypassed",
+          "evidence": "Bypassing absorption does not remove the stated injection-site infection risk."
+        },
+        {
+          "id": "o5",
+          "text": "Oral infection risk is defined by the presence of a muscle depot",
+          "evidence": "A muscle depot is an IM formulation rather than an oral-route property."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Oral delivery has low infection risk, whereas IV can introduce infection at the injection site.",
+        "ar": "ينخفض خطر العدوى مع Oral delivery، بينما قد يسبب IV عدوى في موضع الحقن."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-infection against Introduction/ROA PDF pages 26, 39. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-depot-slow-step",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-depot-sequence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "An IM depot contains precipitated drug at the injection site. Which process provides sustained delivery?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Slow dissolution of the precipitated drug",
+          "evidence": "Slow dissolution supplies drug over time."
+        },
+        {
+          "id": "o3",
+          "text": "Permanent prevention of dissolution",
+          "evidence": "Without dissolution,the described depot cannot release its drug."
+        },
+        {
+          "id": "o4",
+          "text": "Absorption before any vehicle has left the muscle or drug has precipitated",
+          "evidence": "The question specifies the source mechanism after precipitation."
+        },
+        {
+          "id": "o2",
+          "text": "Immediate dissolution and delivery of the entire deposit",
+          "evidence": "This contradicts the sustained slow-dissolution mechanism."
+        },
+        {
+          "id": "o5",
+          "text": "Dissolution only after the deposit returns to the stomach",
+          "evidence": "The described mechanism occurs at the muscle injection site."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "This precipitated-drug depot mechanism sustains delivery through slow dissolution at the injection site.",
+        "ar": "تدعم آلية Depot الموصوفة الإيصال المستمر عبر الذوبان البطيء في موضع الحقن."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of depot-slow-step against Introduction/ROA PDF pages 41. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sc-flow",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sc-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which feature explains why circulatory problems can alter subcutaneous absorption?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "SC administration supplies drug directly into cerebrospinal fluid",
+          "evidence": "That is a CSF-route destination,not SC delivery."
+        },
+        {
+          "id": "o3",
+          "text": "SC delivery requires initial hepatic first-pass passage",
+          "evidence": "The SC mechanism is diffusion from tissue,not swallowed portal delivery."
+        },
+        {
+          "id": "o2",
+          "text": "SC delivery introduces drug directly into blood without absorption",
+          "evidence": "This is an IV rather than SC property."
+        },
+        {
+          "id": "o4",
+          "text": "SC release requires an upper-intestinal envelope to dissolve",
+          "evidence": "This is enteric oral formulation behavior."
+        },
+        {
+          "id": "o1",
+          "text": "Absorption from the tissue is limited by local blood flow",
+          "evidence": "This dependence is explicitly stated for SC absorption."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "SC absorption depends on local blood flow and is affected by circulatory problems.",
+        "ar": "يعتمد SC absorption على تدفق الدم الموضعي ويتأثر بمشكلات الدورة الدموية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sc-flow against Introduction/ROA PDF pages 42. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sc-irritation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sc-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which drug property is a reason to avoid subcutaneous administration?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Suitability for gradual absorption",
+          "evidence": "This is compatible with the described SC behavior."
+        },
+        {
+          "id": "o3",
+          "text": "Suitability for slow sustained delivery",
+          "evidence": "This matches a stated possible advantage."
+        },
+        {
+          "id": "o4",
+          "text": "A need to reduce IV-associated thrombosis risk",
+          "evidence": "Reduced IV-associated risks are listed as an SC advantage."
+        },
+        {
+          "id": "o2",
+          "text": "Capacity for simple diffusion",
+          "evidence": "Simple diffusion is the described SC mechanism."
+        },
+        {
+          "id": "o1",
+          "text": "Tissue irritation",
+          "evidence": "Tissue-irritating drugs should not be given SC in the comparison."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The SC route is unsuitable for drugs causing tissue irritation.",
+        "ar": "لا تناسب SC route الأدوية التي تسبب Tissue irritation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sc-irritation against Introduction/ROA PDF pages 42. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-inhalation-speed",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-inhalation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 43
+        }
+      ],
+      "prompt": "Which combination explains rapid circulatory access with inhalation?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Large surface area,thin alveolar barrier,high blood flow",
+          "evidence": "All three favor rapid access in the route description."
+        },
+        {
+          "id": "o5",
+          "text": "Large surface area,thick alveolar barrier,high blood flow",
+          "evidence": "The barrier is thin rather than thick."
+        },
+        {
+          "id": "o4",
+          "text": "Small surface area,thick alveolar barrier,high blood flow",
+          "evidence": "The surface area and barrier thickness oppose the described factors."
+        },
+        {
+          "id": "o3",
+          "text": "Small surface area,thin alveolar barrier,low blood flow",
+          "evidence": "Surface area and blood flow oppose the described favorable factors."
+        },
+        {
+          "id": "o2",
+          "text": "Large surface area,thick alveolar barrier,low blood flow",
+          "evidence": "The barrier thickness and blood-flow directions oppose the description."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Inhaled agents benefit from large surface area, a thin barrier and high blood flow.",
+        "ar": "تستفيد المواد المستنشقة من Large surface area وحاجز رقيق وتروية دموية مرتفعة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of inhalation-speed against Introduction/ROA PDF pages 43. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-nasal-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-nasal-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 44
+        }
+      ],
+      "prompt": "Which placement defines nasal administration?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Between cheek and gum",
+          "evidence": "This is buccal placement."
+        },
+        {
+          "id": "o5",
+          "text": "Into skeletal muscle",
+          "evidence": "This is IM delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Under the tongue",
+          "evidence": "This is sublingual placement."
+        },
+        {
+          "id": "o1",
+          "text": "Directly into the nose",
+          "evidence": "This is the stated nasal route."
+        },
+        {
+          "id": "o4",
+          "text": "Into cerebrospinal fluid",
+          "evidence": "This is intrathecal/intraventricular delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Nasal administration places drug directly into the nose.",
+        "ar": "يوضع الدواء في Nasal administration مباشرة داخل الأنف."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of nasal-location against Introduction/ROA PDF pages 44. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-csf-route",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-csf-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "A drug cannot cross the blood-brain barrier and a rapid local CNS effect is needed. Which delivery destination directly bypasses that barrier?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cerebrospinal fluid via an appropriate intrathecal or intraventricular route",
+          "evidence": "These routes directly introduce drug into CSF."
+        },
+        {
+          "id": "o3",
+          "text": "Skeletal muscle via a slowly dissolving depot",
+          "evidence": "The drug must still reach the CNS across the stated barrier."
+        },
+        {
+          "id": "o2",
+          "text": "Bloodstream via IV delivery with the blood-brain barrier still interposed",
+          "evidence": "IV enters blood,but does not by itself constitute direct CSF delivery."
+        },
+        {
+          "id": "o5",
+          "text": "Systemic circulation via a transdermal patch",
+          "evidence": "The route gives systemic absorption through skin,not direct CSF entry."
+        },
+        {
+          "id": "o4",
+          "text": "Systemic circulation via sublingual absorption",
+          "evidence": "The route avoids initial portal first pass but is not direct CSF entry."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Intrathecal/intraventricular delivery introduces drug directly into CSF to address this barrier and local-effect requirement.",
+        "ar": "يُدخل Intrathecal/Intraventricular delivery الدواء مباشرة إلى CSF عند وجود مشكلة Blood-brain barrier أو الحاجة لتأثير موضعي سريع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of csf-route against Introduction/ROA PDF pages 33, 38, 40, 45, 46. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-dermal-systemic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-dermal-transdermal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Which pairing distinguishes dermal from transdermal administration?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Dermal:systemic skin absorption;transdermal:local skin action",
+          "evidence": "The purposes are reversed."
+        },
+        {
+          "id": "o4",
+          "text": "Dermal:systemic skin absorption;transdermal:direct CSF introduction",
+          "evidence": "Neither part matches the stated distinction."
+        },
+        {
+          "id": "o1",
+          "text": "Dermal:local skin action;transdermal:systemic absorption through skin",
+          "evidence": "These are the two stated purposes."
+        },
+        {
+          "id": "o5",
+          "text": "Dermal:local skin action;transdermal:initial portal passage after swallowing",
+          "evidence": "Transdermal delivery uses skin rather than swallowed portal delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Dermal:local skin action;transdermal:direct bloodstream injection",
+          "evidence": "Transdermal delivery still requires absorption through skin."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Dermal application is local, whereas transdermal delivery provides systemic absorption through skin.",
+        "ar": "يكون Dermal application موضعيًا، بينما يوفر Transdermal delivery امتصاصًا جهازيًا عبر الجلد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of dermal-systemic against Introduction/ROA PDF pages 46. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-patch-size",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-transdermal-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Why does a transdermal system favor a potent drug when patch size is constrained?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Lower potency necessarily permits a smaller patch",
+          "evidence": "This reverses the stated relationship."
+        },
+        {
+          "id": "o4",
+          "text": "Potency guarantees the same absorption rate in every patient",
+          "evidence": "The description separately notes variable absorption."
+        },
+        {
+          "id": "o1",
+          "text": "A less potent drug may require an excessively large patch",
+          "evidence": "The source explicitly links sufficient potency to avoiding excessive patch size."
+        },
+        {
+          "id": "o3",
+          "text": "Potency eliminates the need for skin absorption",
+          "evidence": "Transdermal delivery still requires absorption."
+        },
+        {
+          "id": "o5",
+          "text": "A skin patch delivers drug directly into a vein without absorption",
+          "evidence": "That is an IV delivery feature,not the transdermal mechanism."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Sufficient potency helps avoid an excessively large patch.",
+        "ar": "تساعد Potency الكافية في تجنب الحاجة إلى رقعة كبيرة جدًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of patch-size against Introduction/ROA PDF pages 46. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-patch-availability",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-transdermal-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Which combination describes transdermal delivery?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Direct blood injection, no absorption phase and immediate onset",
+          "evidence": "This describes IV delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Local eye effects with no systemic skin absorption",
+          "evidence": "This is local topical rather than systemic transdermal delivery."
+        },
+        {
+          "id": "o5",
+          "text": "Muscle precipitation with slow depot dissolution",
+          "evidence": "This describes the supplied IM depot."
+        },
+        {
+          "id": "o4",
+          "text": "Stomach resistance with upper-intestinal dissolution",
+          "evidence": "This describes enteric coating."
+        },
+        {
+          "id": "o1",
+          "text": "Systemic skin absorption, no first pass and variable absorption rate",
+          "evidence": "These are stated transdermal properties."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Transdermal delivery can support stable blood levels and avoid first pass, while absorption can vary.",
+        "ar": "قد يدعم Transdermal delivery ثبات المستويات ويتجنب First pass، مع إمكانية تفاوت الامتصاص."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of patch-availability against Introduction/ROA PDF pages 46. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-division-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-pk-pd-direction",
+        "introduction-and-roa-pk-adme",
+        "introduction-and-roa-pd-effects",
+        "introduction-and-roa-therapeutics",
+        "introduction-and-roa-toxicology",
+        "introduction-and-roa-pharmacology-scope"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Match pharmacology and its main divisions with their scope.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Pharmacokinetics",
+          "right": "Absorption, distribution, metabolism and excretion"
+        },
+        {
+          "id": "p2",
+          "left": "Pharmacodynamics",
+          "right": "Biological and therapeutic effects"
+        },
+        {
+          "id": "p3",
+          "left": "Pharmacotherapeutics",
+          "right": "Proper drug selection and use"
+        },
+        {
+          "id": "p4",
+          "left": "Toxicology",
+          "right": "Undesirable effects on biological processes"
+        },
+        {
+          "id": "p5",
+          "left": "Pharmacology",
+          "right": "Chemical interactions with living systems, including drug handling, effects, uses and adverse effects"
+        }
+      ],
+      "explanation": {
+        "en": "Pharmacology is the broad study of drug interactions with living systems. Its divisions distinguish handling, effects, selection/use and undesirable effects.",
+        "ar": "Pharmacology هو المجال الأوسع لدراسة تفاعل المواد مع الأنظمة الحية. وتفصل فروعه بين حركة الدواء وتأثيراته واختياره واستخدامه وآثاره غير المرغوبة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of division-match against Introduction/ROA PDF pages 5, 6. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Broad pharmacology scope integrated as a fifth distinct mapping instead of a cued MCQ."
+      }
+    },
+    {
+      "id": "introduction-and-roa-names-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-chemical-name",
+        "introduction-and-roa-generic-name",
+        "introduction-and-roa-trade-name"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Match each naming category with its defining feature.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Chemical name",
+          "right": "Composition and molecular structure"
+        },
+        {
+          "id": "p2",
+          "left": "Generic name",
+          "right": "Nonproprietary name"
+        },
+        {
+          "id": "p3",
+          "left": "Trade name",
+          "right": "Proprietary registered trademark"
+        }
+      ],
+      "explanation": {
+        "en": "Chemical, generic and trade naming refer to different identifying features.",
+        "ar": "تشير Chemical وGeneric وTrade names إلى خصائص تعريفية مختلفة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of names-match against Introduction/ROA PDF pages 10. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-injection-sites-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-injection-locations",
+        "introduction-and-roa-csf-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "Match each administration route with its delivery destination.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Intravenous",
+          "right": "Bloodstream"
+        },
+        {
+          "id": "p2",
+          "left": "Intramuscular",
+          "right": "Skeletal muscle"
+        },
+        {
+          "id": "p3",
+          "left": "Subcutaneous",
+          "right": "Subcutaneous tissue"
+        },
+        {
+          "id": "p4",
+          "left": "Intrathecal/intraventricular",
+          "right": "Cerebrospinal fluid"
+        }
+      ],
+      "explanation": {
+        "en": "The route specifies the anatomical delivery destination.",
+        "ar": "يحدد Route موضع إيصال الدواء تشريحيًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of injection-sites-match against Introduction/ROA PDF pages 37, 45. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-formulations-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-enteric-coating",
+        "introduction-and-roa-extended-release",
+        "introduction-and-roa-depot-sequence",
+        "introduction-and-roa-dermal-transdermal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Match each preparation or application with its characteristic.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Enteric coating",
+          "right": "Resists stomach fluids and dissolves in upper intestine"
+        },
+        {
+          "id": "p2",
+          "left": "Extended-release preparation",
+          "right": "Ingredients control drug-release rate"
+        },
+        {
+          "id": "p3",
+          "left": "IM depot with a precipitated drug",
+          "right": "Precipitated drug dissolves slowly at injection site"
+        },
+        {
+          "id": "p4",
+          "left": "Dermal application",
+          "right": "Local action after skin application"
+        },
+        {
+          "id": "p5",
+          "left": "Transdermal administration",
+          "right": "Systemic delivery through skin"
+        }
+      ],
+      "explanation": {
+        "en": "These preparations differ in site, release behavior and local/systemic purpose.",
+        "ar": "تختلف هذه المستحضرات في الموضع وسلوك التحرر والهدف الموضعي أو الجهازي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of formulations-match against Introduction/ROA PDF pages 31, 32, 41, 46. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Specified depot premise directly in the mapping label."
+      }
+    },
+    {
+      "id": "introduction-and-roa-first-pass-organs",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-first-pass",
+        "introduction-and-roa-first-pass-pathway"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which sites are explicitly included in the first-pass degradation of a swallowed drug?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Intestinal and hepatic sites",
+          "evidence": "The definition and diagram include intestinal and hepatic degradation."
+        },
+        {
+          "id": "o4",
+          "text": "Skeletal muscle and subcutaneous tissue",
+          "evidence": "These are injection-site tissues, not the defined oral first-pass sites."
+        },
+        {
+          "id": "o3",
+          "text": "Intestinal sites only, with hepatic degradation excluded",
+          "evidence": "The source explicitly includes the hepatic component."
+        },
+        {
+          "id": "o2",
+          "text": "Hepatic sites only, with intestinal degradation excluded",
+          "evidence": "The source explicitly includes the intestinal component."
+        },
+        {
+          "id": "o5",
+          "text": "Skin and cerebrospinal fluid",
+          "evidence": "These are not the defined first-pass degradation sites."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "First-pass loss can occur in the intestine and liver before general circulation.",
+        "ar": "قد يحدث First-pass loss في الأمعاء والكبد قبل وصول الدواء إلى الدوران العام."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of first-pass-organs against Introduction/ROA PDF pages 28, 29. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-release-coated-case",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-enteric-coating",
+        "introduction-and-roa-extended-release"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "A tablet coating withstands stomach fluids but dissolves readily in the upper intestine. What does that behavior establish?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Neither enteric protection nor site-selective dissolution",
+          "evidence": "The premise supplies both stomach resistance and intestinal dissolution."
+        },
+        {
+          "id": "o1",
+          "text": "Enteric protection;prolonged release is not established by site resistance alone",
+          "evidence": "The envelope behavior defines enteric protection,while ER requires rate control."
+        },
+        {
+          "id": "o3",
+          "text": "Both prolonged release and enteric protection from the dissolution site alone",
+          "evidence": "The release-rate property has not been supplied."
+        },
+        {
+          "id": "o5",
+          "text": "Immediate gastric release followed by obligatory portal bypass",
+          "evidence": "The coating resists gastric release and does not establish portal bypass."
+        },
+        {
+          "id": "o2",
+          "text": "Prolonged release;stomach resistance is not established",
+          "evidence": "Stomach resistance is explicitly given;prolonged release is not."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A stomach-resistant, upper-intestine-dissolving envelope establishes enteric protection. ER requires release-controlling ingredients or coating.",
+        "ar": "تثبت مقاومة المعدة والذوبان في الأمعاء العلوية وجود Enteric protection؛ أما ER فيحتاج خاصية تتحكم بسرعة التحرر."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of release-coated-case against Introduction/ROA PDF pages 31, 32. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-mucosal-shared",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sublingual-buccal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which pair of properties is shared by sublingual and buccal delivery in this situation?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Large patch requirement and variable skin absorption",
+          "evidence": "These concern transdermal delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Muscle precipitation and slow depot dissolution",
+          "evidence": "These describe an IM depot."
+        },
+        {
+          "id": "o1",
+          "text": "Rapid absorption and avoidance of first-pass metabolism",
+          "evidence": "Both are listed advantages for the paired routes."
+        },
+        {
+          "id": "o5",
+          "text": "No absorption phase and direct vein injection",
+          "evidence": "These are IV properties, not mucosal capillary absorption."
+        },
+        {
+          "id": "o2",
+          "text": "GI degradation and obligatory portal passage",
+          "evidence": "These routes bypass the harsh GI environment and first pass."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Sublingual/buccal placement allows rapid capillary absorption with avoidance of the initial first-pass pathway.",
+        "ar": "يسمح Sublingual/Buccal placement بامتصاص شعيري سريع وتجنب مسار First pass الأولي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of mucosal-shared against Introduction/ROA PDF pages 33. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-oral-vs-mucosal",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-oral-limitations",
+        "introduction-and-roa-sublingual-buccal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which comparison explains a delivery difference between swallowed oral and sublingual administration?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Swallowed oral requires muscle injection; sublingual requires a depot",
+          "evidence": "Neither part describes these routes."
+        },
+        {
+          "id": "o4",
+          "text": "Swallowed oral has no absorption phase; sublingual has direct IV entry",
+          "evidence": "Both statements incorrectly assign IV features."
+        },
+        {
+          "id": "o2",
+          "text": "Swallowed oral bypasses first pass; sublingual necessarily enters portal circulation first",
+          "evidence": "This reverses the stated comparison."
+        },
+        {
+          "id": "o5",
+          "text": "Swallowed oral acts only on skin; sublingual acts only in rectum",
+          "evidence": "Neither destination describes the route."
+        },
+        {
+          "id": "o1",
+          "text": "Swallowed oral may face acid/first-pass loss; sublingual enters systemic circulation through local capillaries",
+          "evidence": "Both parts follow the route descriptions."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Swallowed oral delivery can encounter GI destruction and first pass; sublingual absorption enters systemic circulation directly.",
+        "ar": "قد يتعرض Swallowed oral delivery للهضم وFirst pass، بينما يدخل Sublingual absorption مباشرة إلى الدوران الجهازي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of oral-vs-mucosal against Introduction/ROA PDF pages 27, 33. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-rectal-case-limits",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-rectal-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "Which pair combines a rectal-route advantage with a limitation?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Mandatory muscle depot; absence of absorption",
+          "evidence": "These do not describe rectal administration."
+        },
+        {
+          "id": "o1",
+          "text": "Useful during vomiting; absorption may vary",
+          "evidence": "Both are explicitly described."
+        },
+        {
+          "id": "o2",
+          "text": "Guaranteed complete absorption; unsuitable during nausea",
+          "evidence": "Neither part matches the stated comparison."
+        },
+        {
+          "id": "o4",
+          "text": "No local bowel effect; irritating drugs preferred",
+          "evidence": "This reverses the local-action and irritation considerations."
+        },
+        {
+          "id": "o3",
+          "text": "Direct CSF entry; requires a skin patch",
+          "evidence": "Neither is a rectal-route property."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Rectal administration may be useful during nausea/vomiting, but absorption is variable and local irritation matters.",
+        "ar": "قد يفيد Rectal administration مع الغثيان أو القيء، لكن الامتصاص متغير والتهيّج الموضعي مهم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of rectal-case-limits against Introduction/ROA PDF pages 35. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-parenteral-iv-distinction",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-parenteral-selection",
+        "introduction-and-roa-injection-locations",
+        "introduction-and-roa-iv-properties",
+        "introduction-and-roa-im-formulation",
+        "introduction-and-roa-sc-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 36
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which comparison correctly identifies the absorption step for IV, IM and SC delivery?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "IV enters blood directly; IM and SC absorb from tissue",
+          "evidence": "IV bypasses absorption while IM and SC involve tissue absorption."
+        },
+        {
+          "id": "o3",
+          "text": "IV and SC enter blood directly; IM absorbs from tissue",
+          "evidence": "SC is delivered to subcutaneous tissue and requires absorption."
+        },
+        {
+          "id": "o2",
+          "text": "IV and IM enter blood directly; SC absorbs from tissue",
+          "evidence": "IM is delivered to muscle and requires absorption."
+        },
+        {
+          "id": "o5",
+          "text": "IV, IM and SC each absorb from the injected tissue before blood entry",
+          "evidence": "IV is placed directly into blood rather than first into extravascular tissue."
+        },
+        {
+          "id": "o4",
+          "text": "IM and SC enter blood directly; IV absorbs from tissue",
+          "evidence": "This reverses the distinction."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Parenteral is a broad group. The no-absorption-phase property belongs specifically to direct intravascular administration.",
+        "ar": "Parenteral مجموعة واسعة؛ تختص خاصية تجاوز Absorption phase بالإعطاء المباشر داخل الأوعية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of parenteral-iv-distinction against Introduction/ROA PDF pages 36, 37, 38, 40, 42. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring. Second independent pass rebuilt the full alternative set to remove strong cue/length and wrong-domain clues."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-speed-risk",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-iv-properties",
+        "introduction-and-roa-iv-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Why can an IV dose be hazardous if delivered too rapidly despite precise quantity control?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "A rapidly injected IV dose necessarily forms a slowly dissolving muscle depot",
+          "evidence": "The IV destination is blood rather than muscle."
+        },
+        {
+          "id": "o3",
+          "text": "The delivery rate determines whether a generic name becomes proprietary",
+          "evidence": "Naming is independent of the stated concentration risk."
+        },
+        {
+          "id": "o1",
+          "text": "High concentrations reach plasma and tissues rapidly and can trigger adverse reactions",
+          "evidence": "This is the stated rate-related IV risk."
+        },
+        {
+          "id": "o5",
+          "text": "Precise quantity control guarantees absence of adverse reactions",
+          "evidence": "The source explicitly lists rapid high-concentration reactions as a risk."
+        },
+        {
+          "id": "o2",
+          "text": "The dose remains unabsorbed in the GI tract for an extended period",
+          "evidence": "IV bypasses GI absorption."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IV delivery can rapidly expose plasma and tissues to high concentrations, so precise quantity alone does not eliminate delivery-rate risk.",
+        "ar": "قد يعرّض IV delivery البلازما والأنسجة سريعًا لتركيز مرتفع؛ دقة الكمية وحدها لا تلغي خطر سرعة الإيصال."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-speed-risk against Introduction/ROA PDF pages 38, 39. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-iv-other-risks",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-iv-limitations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which pair of complications is explicitly listed for IV administration?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Injection-site infection and embolism",
+          "evidence": "Both are listed IV disadvantages."
+        },
+        {
+          "id": "o3",
+          "text": "Excessively large patch and variable skin absorption",
+          "evidence": "These concern transdermal delivery."
+        },
+        {
+          "id": "o5",
+          "text": "Cheek irritation and placement under the tongue",
+          "evidence": "These refer to mucosal delivery sites rather than the listed IV complications."
+        },
+        {
+          "id": "o4",
+          "text": "Gastric degradation and intestinal dissolution",
+          "evidence": "These concern GI delivery."
+        },
+        {
+          "id": "o2",
+          "text": "Unpleasant taste and tablet swallowing difficulty",
+          "evidence": "These relate to oral administration rather than the specified IV risks."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IV disadvantages include infection, embolism and reactions from overly rapid high concentrations.",
+        "ar": "تشمل عيوب IV العدوى وEmbolism والتفاعلات الناتجة عن الإيصال السريع لتركيز مرتفع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of iv-other-risks against Introduction/ROA PDF pages 39. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-im-aqueous-vs-depot",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-im-formulation",
+        "introduction-and-roa-depot-sequence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Two IM preparations differ: one is aqueous;the other leaves a slowly dissolving precipitate. Which comparison follows?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Both have the same release profile because the injection route is identical",
+          "evidence": "Formulation changes release despite the shared route."
+        },
+        {
+          "id": "o2",
+          "text": "Both bypass absorption because both are injections",
+          "evidence": "IM drugs still require absorption from tissue."
+        },
+        {
+          "id": "o5",
+          "text": "Only the aqueous preparation can ever supply drug to circulation",
+          "evidence": "A depot also supplies drug through slow dissolution."
+        },
+        {
+          "id": "o1",
+          "text": "The aqueous preparation may absorb rapidly;the depot can provide sustained delivery",
+          "evidence": "The formulation-dependent difference is explicit."
+        },
+        {
+          "id": "o3",
+          "text": "The depot must deliver its complete dose before the aqueous preparation",
+          "evidence": "The depot mechanism is slow dissolution."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The same route can give different absorption/release profiles because formulation differs.",
+        "ar": "قد ينتج Route نفسه أنماطًا مختلفة للامتصاص والتحرر بسبب اختلاف Formulation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of im-aqueous-vs-depot against Introduction/ROA PDF pages 40, 41. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-depot-vehicle-step",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-depot-sequence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "In an IM depot whose vehicle diffuses out of muscle,which sequence follows?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Drug bypasses tissue absorption by entering a vein before precipitation",
+          "evidence": "The premise is a muscle depot rather than IV injection."
+        },
+        {
+          "id": "o3",
+          "text": "Drug remains permanently undissolved after the vehicle leaves",
+          "evidence": "The described depot subsequently dissolves slowly."
+        },
+        {
+          "id": "o4",
+          "text": "Drug moves to the stomach before precipitation can occur",
+          "evidence": "The described sequence occurs at the injection site."
+        },
+        {
+          "id": "o1",
+          "text": "Drug precipitates at the injection site and then dissolves slowly",
+          "evidence": "This is the source-specific depot sequence."
+        },
+        {
+          "id": "o2",
+          "text": "Drug dissolves completely before precipitation and then enters blood instantly",
+          "evidence": "This reverses the order and removes sustained dissolution."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Vehicle diffusion is followed by drug precipitation and then slow dissolution at the injection site.",
+        "ar": "بعد انتشار Vehicle خارج العضلة يترسب الدواء في موضع الحقن ثم يذوب ببطء."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of depot-vehicle-step against Introduction/ROA PDF pages 41. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sc-diffusion",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sc-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which process describes drug absorption from subcutaneous tissue?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Direct delivery into CSF followed by local CNS distribution",
+          "evidence": "This describes the CSF-route destination."
+        },
+        {
+          "id": "o4",
+          "text": "Mandatory precipitation from a nonaqueous vehicle before every SC dose",
+          "evidence": "The specified precipitation mechanism is a described IM depot,not a universal SC requirement."
+        },
+        {
+          "id": "o1",
+          "text": "Simple diffusion from the tissue,with local blood-flow limitation",
+          "evidence": "Both features are explicitly stated for SC delivery."
+        },
+        {
+          "id": "o3",
+          "text": "Initial intestinal absorption followed by portal-liver passage",
+          "evidence": "This is the swallowed oral pathway."
+        },
+        {
+          "id": "o2",
+          "text": "Direct intravascular placement without an absorption phase",
+          "evidence": "This is IV administration."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "SC delivery involves absorption by simple diffusion, with blood-flow limitation.",
+        "ar": "يتضمن SC delivery امتصاصًا عبر Simple diffusion ويتأثر بتدفق الدم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sc-diffusion against Introduction/ROA PDF pages 42. Rebuilt alternatives for closer parallel pharmacology/route distinctions; key and every distractor independently checked. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-sc-vs-iv",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sc-properties",
+        "introduction-and-roa-iv-properties"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which comparison correctly distinguishes SC from IV delivery?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "SC always enters CSF; IV always enters skeletal muscle",
+          "evidence": "Neither destination matches the routes."
+        },
+        {
+          "id": "o5",
+          "text": "SC has no blood-flow dependence; IV must form a depot",
+          "evidence": "SC is blood-flow limited, and IV is not an IM depot."
+        },
+        {
+          "id": "o1",
+          "text": "SC may provide slow sustained absorption; IV bypasses absorption",
+          "evidence": "These are the stated route differences."
+        },
+        {
+          "id": "o2",
+          "text": "SC bypasses absorption; IV depends on diffusion from subcutaneous tissue",
+          "evidence": "This reverses the two mechanisms."
+        },
+        {
+          "id": "o4",
+          "text": "SC requires upper-intestinal release; IV requires swallowing",
+          "evidence": "Neither requirement matches the routes."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "SC absorption can be slow and sustained, whereas IV directly introduces drug into blood.",
+        "ar": "قد يكون SC absorption بطيئًا ومستمرًا، بينما يُدخل IV الدواء مباشرة إلى الدم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of sc-vs-iv against Introduction/ROA PDF pages 38, 42. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-route-goal-local",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-route-selection",
+        "introduction-and-roa-route-summary",
+        "introduction-and-roa-dermal-transdermal"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 47
+        }
+      ],
+      "prompt": "Which therapeutic objective supports choosing a dermal ointment rather than systemic transdermal delivery?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Restricting the intended effect to the local skin site",
+          "evidence": "Dermal application is described as local action."
+        },
+        {
+          "id": "o4",
+          "text": "Introducing the drug directly into CSF",
+          "evidence": "This is intrathecal/intraventricular delivery."
+        },
+        {
+          "id": "o2",
+          "text": "Obtaining systemic absorption through skin",
+          "evidence": "This is the transdermal purpose."
+        },
+        {
+          "id": "o5",
+          "text": "Creating an intramuscular drug reservoir",
+          "evidence": "This is the depot route/formulation."
+        },
+        {
+          "id": "o3",
+          "text": "Bypassing all absorption by injecting into a vein",
+          "evidence": "This is IV delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Route choice reflects the desired site of action; dermal application serves local skin action.",
+        "ar": "يعكس اختيار Route موضع التأثير المطلوب؛ يخدم Dermal application التأثير الموضعي في الجلد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of route-goal-local against Introduction/ROA PDF pages 24, 46, 47. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-route-abbreviations-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-route-abbreviations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Match each abbreviation with its route.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "PR",
+          "right": "Per rectum"
+        },
+        {
+          "id": "p2",
+          "left": "ID",
+          "right": "Intradermal"
+        },
+        {
+          "id": "p3",
+          "left": "IN",
+          "right": "Intranasal"
+        },
+        {
+          "id": "p4",
+          "left": "IP",
+          "right": "Intraperitoneal"
+        },
+        {
+          "id": "p5",
+          "left": "PO",
+          "right": "By mouth"
+        }
+      ],
+      "explanation": {
+        "en": "These abbreviations identify distinct administration routes.",
+        "ar": "تحدد هذه الاختصارات Routes مختلفة لإعطاء الدواء."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of route-abbreviations-match against Introduction/ROA PDF pages 18. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-route-advantages-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-sublingual-buccal",
+        "introduction-and-roa-rectal-route",
+        "introduction-and-roa-iv-properties",
+        "introduction-and-roa-inhalation",
+        "introduction-and-roa-csf-route"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 43
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "Match each route with the most specific defining feature in this set.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Sublingual",
+          "right": "Drug placed under the tongue"
+        },
+        {
+          "id": "p2",
+          "left": "Rectal",
+          "right": "Absorption through rectum"
+        },
+        {
+          "id": "p3",
+          "left": "Intravenous",
+          "right": "Direct delivery into bloodstream"
+        },
+        {
+          "id": "p4",
+          "left": "Oral inhalation",
+          "right": "Delivery of gases, volatile agents or aerosols"
+        },
+        {
+          "id": "p5",
+          "left": "Intrathecal/intraventricular",
+          "right": "Direct introduction into cerebrospinal fluid"
+        }
+      ],
+      "explanation": {
+        "en": "The mappings use anatomical placement or delivery form, avoiding overlap between shared advantages.",
+        "ar": "تعتمد الروابط على الموضع التشريحي أو شكل الإيصال لتجنب تداخل المزايا المشتركة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of route-advantages-match against Introduction/ROA PDF pages 33, 35, 38, 43, 45. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    },
+    {
+      "id": "introduction-and-roa-enteral-group",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "introduction-and-roa",
+      "conceptIds": [
+        "introduction-and-roa-route-groups",
+        "introduction-and-roa-enteral-routes",
+        "introduction-and-roa-injection-locations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "introduction-and-roa",
+          "pdfPage": 37
+        }
+      ],
+      "prompt": "Which set contains only enteral administration routes?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Swallowed oral, intramuscular and rectal",
+          "evidence": "Intramuscular is parenteral."
+        },
+        {
+          "id": "o2",
+          "text": "Intravenous, sublingual and rectal",
+          "evidence": "Intravenous is parenteral."
+        },
+        {
+          "id": "o1",
+          "text": "Swallowed oral, sublingual and rectal",
+          "evidence": "All three are grouped as enteral in the supplied classification."
+        },
+        {
+          "id": "o4",
+          "text": "Swallowed oral, sublingual and subcutaneous",
+          "evidence": "Subcutaneous is parenteral."
+        },
+        {
+          "id": "o5",
+          "text": "Intravenous, intramuscular and subcutaneous",
+          "evidence": "All three form the parenteral group rather than enteral."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The enteral grouping includes oral, sublingual and rectal delivery; IV, IM and SC are parenteral routes.",
+        "ar": "تشمل Enteral routes الإعطاء الفموي وSublingual وRectal، بينما تُعد IV وIM وSC من Parenteral routes."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "independent-ans-reviewer-intro",
+        "peerReviewNotes": "Independent review of enteral-group against Introduction/ROA PDF pages 23, 24, 25, 37. Key, all alternatives or mapping pairs, stated conditions and source-page alignment independently checked; no unresolved claim used. EN/AR explanations retain the same scientific relationship; illustrative drug names are not required for scoring."
+      }
+    }
+  ],
+  "coverageDeferrals": [],
+  "independentReviewSummary": {
+    "reviewer": "independent-ans-reviewer-intro",
+    "candidateCount": 77,
+    "acceptedCount": 66,
+    "reworkedOptionSets": 33,
+    "removedDuplicateKeys": [
+      "csf-vs-patch",
+      "enteric-release",
+      "er-frequency-case",
+      "first-pass-meaning",
+      "im-formulation",
+      "inhalation-barrier",
+      "local-vs-systemic-skin",
+      "right-drug",
+      "right-time",
+      "scope",
+      "formulation-failure"
+    ],
+    "secondPassNotes": "Broad scope merged into division-match; four remaining option sets rebuilt; repeated enteric failure variant removed. All 46 current clear core concepts remain covered."
+  }
+}

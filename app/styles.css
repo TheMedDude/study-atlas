@@ -1155,3 +1155,6 @@ html[data-reduced-motion=true] *,html[data-reduced-motion=true] *::before,html[d
   .note-refs { font-size:8pt; overflow-wrap:anywhere; }
   .note-refs a { text-decoration:none; }
 }
+
+.matrix-cell-toggle { display:block; width:100%; border:0; background:transparent; color:inherit; padding:0; font:inherit; text-align:inherit; cursor:pointer; }
+.matrix-cell-toggle:focus-visible { outline:2px solid var(--ink); outline-offset:5px; }

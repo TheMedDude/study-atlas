@@ -1,0 +1,1086 @@
+{
+  "lectureId": "introduction-and-roa",
+  "title": "Introduction & ROA",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Introduction to Pharmacology",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "administrative",
+      "title": "Learning objectives",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Definition and scope of pharmacology",
+      "topics": [
+        "Definition and scope of pharmacology"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-pharmacology-scope",
+          "label": "Scope of pharmacology",
+          "detail": "Study of substances interacting with living systems through chemical processes; includes sources, properties, dosage forms, administration, ADME, actions, uses and adverse effects.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": "4",
+      "kind": "teaching",
+      "title": "Definition of a drug",
+      "topics": [
+        "Definition of a drug"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-drug-definition",
+          "label": "Drug definition",
+          "detail": "A substance producing a physiological effect, used for prevention, treatment or diagnosis.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": "5",
+      "kind": "teaching",
+      "title": "Pharmacology, pharmacodynamics and pharmacokinetics",
+      "topics": [
+        "Pharmacology, pharmacodynamics and pharmacokinetics"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-pk-pd-direction",
+          "label": "PK versus PD",
+          "detail": "PD concerns what a drug does to the body; PK concerns what the body does to a drug.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only chart: drug = exogenous chemical molecule producing biological response/effect. Pharmacology = science of drugs (Pharmacon drug; logos discourse in). PD (dynamis power) = what drug does to body. PK (kinesis movement) = what body does to drug.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": "6",
+      "kind": "teaching",
+      "title": "Main divisions of pharmacology",
+      "topics": [
+        "Main divisions of pharmacology"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-pk-adme",
+          "label": "Pharmacokinetics and ADME",
+          "detail": "PK studies absorption, distribution, metabolism and excretion.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-pd-effects",
+          "label": "Pharmacodynamics",
+          "detail": "PD studies biological and therapeutic effects.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-therapeutics",
+          "label": "Pharmacotherapeutics",
+          "detail": "Proper drug selection and use for disease prevention and treatment.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-toxicology",
+          "label": "Toxicology",
+          "detail": "Undesirable effects of drugs on biological processes.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Branches of pharmacology",
+      "topics": [
+        "Branches of pharmacology"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-branches",
+          "label": "Listed branches",
+          "detail": "Fourteen named branches are preserved; undeveloped branch definitions are not invented.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Food and Drug Administration",
+      "topics": [
+        "Food and Drug Administration"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-fda-role",
+          "label": "FDA role in the course",
+          "detail": "Federal US agency described as responsible for drug safety and efficacy, food and cosmetics.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adverse effects",
+      "topics": [
+        "Adverse effects"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-adverse-effects",
+          "label": "Adverse effects",
+          "detail": "Unintended drug actions; all drugs can produce adverse effects. The slide associates them with lack of specificity.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-adverse-specificity",
+          "description": "The slide attributes adverse effects to lack of specificity without qualification. Preserve wording; do not use an exclusive universal-cause claim in scoring.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Chemical, generic and trade names",
+      "topics": [
+        "Chemical, generic and trade names"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-chemical-name",
+          "label": "Chemical names",
+          "detail": "Chemical composition and molecular structure.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-generic-name",
+          "label": "Generic names",
+          "detail": "Nonproprietary name; slide attributes naming to United States Adopted Name Council.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-trade-name",
+          "label": "Trade names",
+          "detail": "Proprietary registered trademark restricted by its owner.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "Naming example and generic-name preference",
+      "topics": [
+        "Naming example and generic-name preference"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-name-confusion",
+          "label": "Generic-name preference",
+          "detail": "Generic names are preferred to avoid confusion; one generic name illustrated with multiple trade names.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-ibuprofen-example",
+          "label": "Drug naming example",
+          "detail": "Illustrative ibuprofen chemical/generic/trade naming preserved, not a direct memorization target.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image naming example: chemical name p-isobutylhydratropic acid; generic ibuprofen; trade names Advil, Genpril, Haltran, Ibuprin, Menadol, Midol IB, Motrin, Motrin IB, Nuprin, Saleto-200, Actiprofen (CAN). This is illustrative naming detail.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "13",
+      "kind": "teaching",
+      "title": "Pharmacologic and therapeutic classes",
+      "topics": [
+        "Pharmacologic and therapeutic classes"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-class-basis",
+          "label": "Pharmacologic versus therapeutic classes",
+          "detail": "Pharmacologic class groups similar characteristics; therapeutic class groups by therapeutic use. Examples beta-adrenergic blockers and antihypertensives.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Annotated prescription",
+      "topics": [
+        "Annotated prescription"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-prescription-parts",
+          "label": "Prescription components",
+          "detail": "Patient name, date of birth, medication, strength, amount, frequency, route, amount dispensed, refills, date and signature are labelled.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Prescription annotations label patient name and date of birth; medication Colace100mg; strength, amount1tab, frequencyqhs, routePO; dispense#30(thirty), refills0, date and signature. Preserve annotations for components only; example regimen is not a direct drug memorization target.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "15",
+      "kind": "teaching",
+      "title": "Definition of a prescription",
+      "topics": [
+        "Definition of a prescription"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-prescription-definition",
+          "label": "Prescription definition",
+          "detail": "Written, verbal or electronic order from practitioner or designated agent to pharmacist for a specific patient and medication.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Five rights of medication administration",
+      "topics": [
+        "Five rights of medication administration"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-five-rights",
+          "label": "Five rights",
+          "detail": "Right drug, dose, time, route and patient; the list is not a temporal sequence.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": "17",
+      "kind": "teaching",
+      "title": "Prescription formatting",
+      "topics": [
+        "Prescription formatting"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-prescription-format",
+          "label": "Prescription format",
+          "detail": "Diagram groups the form into heading, body and closing; patient fields and prescriber details remain visible.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Heading: prescriber/clinic identity and patient identifiers; body: Rx/medication writing region; closing: refill and signature fields. The form is a teaching illustration.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": "18",
+      "kind": "teaching",
+      "title": "Dosage-form abbreviations",
+      "topics": [
+        "Dosage-form abbreviations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-dosage-forms",
+          "label": "Dosage forms and abbreviations",
+          "detail": "Tablets tab; capsule cap; syrup syr; suspension susp; injection Inj; metered-dose inhaler and lotion written as such.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": "19",
+      "kind": "teaching",
+      "title": "Route abbreviations",
+      "topics": [
+        "Route abbreviations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-route-abbreviations",
+          "label": "Route abbreviations",
+          "detail": "PO mouth; PR rectum; IM intramuscular; IV intravenous; ID intradermal; IN intranasal; TP topical; SL sublingual; BUCC buccal; IP intraperitoneal.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": "20",
+      "kind": "teaching",
+      "title": "Prescription abbreviation caution",
+      "topics": [
+        "Prescription abbreviation caution"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-abbreviation-caution",
+          "label": "Abbreviation caution",
+          "detail": "The slide warns against the displayed Latin abbreviations. Preserve meanings as reference without presenting the table as recommended prescribing practice.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Image-only table reconstructed below. Red marks appear under selected abbreviations; heading broadly says not to use the following abbreviations. Do not infer an exact safe/unsafe subset from underline alone.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-abbreviation-scope",
+          "description": "The heading discourages the listed abbreviations while red underlines mark only some rows. Preserve all meanings as reference; do not invent an authoritative acceptable subset.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": "21",
+      "kind": "teaching",
+      "title": "Prescription-based drug categories",
+      "topics": [
+        "Prescription-based drug categories"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-prescription-categories",
+          "label": "Drug supply categories in the source",
+          "detail": "General Sales List; Pharmacy Medicines/OTC; Prescription Only Medicines/POM; Controlled Drugs/CD.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": "22",
+      "kind": "teaching",
+      "title": "Controlled substances",
+      "topics": [
+        "Controlled substances"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-controlled-substances",
+          "label": "Controlled-substance rationale",
+          "detail": "Use and distribution tightly controlled because of abuse potential or risk; stricter regulation.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Importance of administration route",
+      "topics": [
+        "Importance of administration route"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-route-effect",
+          "label": "Route and drug action",
+          "detail": "Route influences the speed and efficiency of drug action.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": "24",
+      "kind": "teaching",
+      "title": "Route classification diagram",
+      "topics": [
+        "Route classification diagram"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-route-groups",
+          "label": "Route groups",
+          "detail": "Diagram groups enteral oral/sublingual/rectal; parenteral intravenous/intramuscular/subcutaneous; topical intranasal/inhalation/intravaginal.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Classification diagram: Enteral→oral,sublingual,rectal. Parenteral(injectable)→intravenous,intramuscular,subcutaneous. Topical→intranasal,inhalation,intravaginal. Later slides distinguish local topical and systemic transdermal actions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": "25",
+      "kind": "teaching",
+      "title": "Selecting an administration route",
+      "topics": [
+        "Selecting an administration route"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-route-selection",
+          "label": "Route selection factors",
+          "detail": "Water/lipid solubility and ionization; desired onset, long-term treatment and local delivery; enteral, parenteral and other routes.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": "26",
+      "kind": "teaching",
+      "title": "Enteral routes",
+      "topics": [
+        "Enteral routes"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-enteral-routes",
+          "label": "Enteral routes",
+          "detail": "Swallowed oral drug enters GI tract; sublingual under tongue and buccal between gums/cheek enter bloodstream directly; rectal absorption through rectum.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": "27",
+      "kind": "teaching",
+      "title": "Oral route advantages",
+      "topics": [
+        "Oral route advantages"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-oral-advantages",
+          "label": "Oral advantages",
+          "detail": "Convenient, self-administered, pain free, absorption along GI tract, cheap, low infection risk. Source also mentions charcoal for overdose; do not generalize to all poisons.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-charcoal-generalization",
+          "description": "The broad overdose statement does not specify which agents or timing. Do not score universal charcoal efficacy.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": "28",
+      "kind": "teaching",
+      "title": "Oral route disadvantages",
+      "topics": [
+        "Oral route disadvantages"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-oral-limitations",
+          "label": "Oral limitations",
+          "detail": "Incomplete absorption, pH effects, first pass via portal vein/liver, acid/digestive destruction, mucosal irritation, slow emergency onset, taste and inability to use in unconscious patients.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "First-pass effect",
+      "topics": [
+        "First-pass effect"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-first-pass",
+          "label": "First-pass metabolism",
+          "detail": "Intestinal/hepatic degradation or alteration before general circulation reduces active drug reaching systemic circulation; greater first pass reduces oral systemic availability.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "First-pass pathway diagram",
+      "topics": [
+        "First-pass pathway diagram"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-first-pass-pathway",
+          "label": "First-pass pathway",
+          "detail": "Swallowed drug passes digestive system, hepatic portal system and liver before the rest of body; gut-wall and hepatic metabolism plus fecal loss are pictured.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Upper image labels Dose→Absorption through gut wall→Portal vein→Liver→Bioavailability; arrows show gut-wall metabolism, hepatic metabolism and loss to faeces. Lower pathway: Swallowed drug→Digestive system→Hepatic portal system→Liver→Rest of body.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": "31",
+      "kind": "teaching",
+      "title": "Oral preparations",
+      "topics": [
+        "Oral preparations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-oral-preparations",
+          "label": "Modified oral preparations",
+          "detail": "Enteric-coated and extended-release preparations are distinguished.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": "32",
+      "kind": "teaching",
+      "title": "Enteric-coated preparations",
+      "topics": [
+        "Enteric-coated preparations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-enteric-coating",
+          "label": "Enteric coating",
+          "detail": "Envelope resists stomach fluids/enzymes and dissolves in upper intestine; useful for acid-unstable or stomach-irritating drugs.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-enteric-drug-examples",
+          "label": "Enteric examples",
+          "detail": "Omeprazole and aspirin are illustrative examples retained without direct name-function recall priority.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": "33",
+      "kind": "teaching",
+      "title": "Extended-release preparations",
+      "topics": [
+        "Extended-release preparations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-extended-release",
+          "label": "Extended release",
+          "detail": "Coating/ingredients control release; prolonged duration, compliance and therapeutic-range maintenance; useful for short half-lives.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-morphine-example",
+          "label": "Extended-release example",
+          "detail": "Morphine 2–4hour half-life, six conventional daily doses versus twice-daily controlled release is a source illustration, not a treatment instruction or direct memorization target.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-adsorption-wording",
+          "description": "The slide says slower adsorption under extended release; preserve this spelling in full extraction and assess clear controlled-release relationships without relying on adsorption/absorption interchangeability.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": "34",
+      "kind": "teaching",
+      "title": "Sublingual and buccal advantages",
+      "topics": [
+        "Sublingual and buccal advantages"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-sublingual-buccal",
+          "label": "Sublingual and buccal delivery",
+          "detail": "Under tongue versus cheek/gum; capillary diffusion directly into systemic circulation; rapid absorption, low infection risk, avoids harsh GI environment and first pass.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": "35",
+      "kind": "teaching",
+      "title": "Sublingual and buccal limitations",
+      "topics": [
+        "Sublingual and buccal limitations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-sublingual-limitations",
+          "label": "Sublingual/buccal limitations",
+          "detail": "Inconvenience, small doses and unpleasant taste.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Rectal administration",
+      "topics": [
+        "Rectal administration"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-rectal-route",
+          "label": "Rectal route",
+          "detail": "Useful when unconscious, in children or nausea/vomiting and local bowel effects; exposure easily terminated; variable absorption and irritating-drug limitation.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": "37",
+      "kind": "teaching",
+      "title": "Parenteral routes and indications",
+      "topics": [
+        "Parenteral routes and indications"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-parenteral-selection",
+          "label": "Parenteral selection",
+          "detail": "Across barrier defenses; useful for poor GI absorption or GI instability, inability to take oral medication, or rapid onset.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-parenteral-examples",
+          "label": "Parenteral examples",
+          "detail": "Heparin and insulin illustrate poor absorption or instability; examples supporting, not direct name-function targets.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-parenteral-circulation",
+          "description": "The umbrella wording introduces drugs directly into systemic circulation, while following IM/SC slides explicitly describe absorption. Assess direct bloodstream/no-absorption properties only for intravascular administration.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": "39",
+      "kind": "teaching",
+      "title": "Main parenteral locations",
+      "topics": [
+        "Main parenteral locations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-injection-locations",
+          "label": "Injection locations",
+          "detail": "Intravascular IV/IA directly bloodstream; IM skeletal muscle; SC subcutaneous tissue.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Injection cross-section labels IM entering muscle, IV entering vessel and SC terminating in subcutaneous tissue.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": "40",
+      "kind": "teaching",
+      "title": "Intravenous advantages",
+      "topics": [
+        "Intravenous advantages"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-iv-properties",
+          "label": "IV properties",
+          "detail": "Bypasses absorption phase,100% bioavailability, precise control and almost immediate onset; can deliver large quantities and drugs poorly absorbed orally.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": "41",
+      "kind": "teaching",
+      "title": "Intravenous disadvantages",
+      "topics": [
+        "Intravenous disadvantages"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-iv-limitations",
+          "label": "IV limitations",
+          "detail": "Cannot recall dose with charcoal; injection-site infection, embolism and adverse reactions from rapid high concentrations.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": "42",
+      "kind": "teaching",
+      "title": "Intramuscular delivery",
+      "topics": [
+        "Intramuscular delivery"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-im-formulation",
+          "label": "IM formulation and absorption",
+          "detail": "Aqueous solution can absorb rapidly; slow-release preparations provide depot effect; certain drugs cause injection pain.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "IM injection diagram labels muscle, skin, subcutaneous tissue and90° injection angle; angle remains supporting diagram detail.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": "43",
+      "kind": "teaching",
+      "title": "Depot preparations",
+      "topics": [
+        "Depot preparations"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-depot-sequence",
+          "label": "Depot mechanism",
+          "detail": "Suspension in nonaqueous vehicle; vehicle diffuses out; drug precipitates at site; slow dissolution supplies sustained dose.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": [
+        {
+          "id": "introduction-and-roa-u-depot-generalization",
+          "description": "Depot vehicle precipitation/dissolution is a described preparation mechanism, not evidence that every IM preparation follows it.",
+          "handling": "Preserve source; exclude unresolved/generalized claim from scored answers."
+        }
+      ]
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": "44",
+      "kind": "teaching",
+      "title": "Subcutaneous delivery",
+      "topics": [
+        "Subcutaneous delivery"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-sc-properties",
+          "label": "SC properties",
+          "detail": "Simple diffusion; slower than IV, sustained effects possible; blood-flow limitation and poor-circulation influence; irritating drugs unsuitable; minimizes IV-associated hemolysis/thrombosis risks.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram contrasts SC injection below epidermis/dermis into subcutaneous tissue with deeper intramuscular injection.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": "45",
+      "kind": "teaching",
+      "title": "Oral inhalation",
+      "topics": [
+        "Oral inhalation"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-inhalation",
+          "label": "Inhalation properties",
+          "detail": "Gases, volatile agents and aerosols; rapid onset from large surface, thin alveolar barrier and high blood flow; useful for respiratory complaints.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Illustrations show inhaler with labelled mouthpiece/cap, upright position and for oral inhalation only.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": "46",
+      "kind": "teaching",
+      "title": "Nasal inhalation",
+      "topics": [
+        "Nasal inhalation"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-nasal-route",
+          "label": "Nasal administration",
+          "detail": "Drug directly into nose.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-nasal-examples",
+          "label": "Nasal examples",
+          "detail": "Oxymetazoline nasal decongestant and mometasone furoate anti-inflammatory corticosteroid preserved as supporting examples.",
+          "priority": "supporting",
+          "rationale": "Supporting illustration/reference; drug-name recall reduced by explicit user instruction."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": "47",
+      "kind": "teaching",
+      "title": "Intrathecal and intraventricular delivery",
+      "topics": [
+        "Intrathecal and intraventricular delivery"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-csf-route",
+          "label": "CSF administration",
+          "detail": "Direct CSF delivery for drugs unable to cross blood-brain barrier or requiring local rapid effects.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Illustrations show intrathecal spinal placement into labelled Intrathecal Space and ventricular access.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": "48",
+      "kind": "teaching",
+      "title": "Topical, dermal and transdermal delivery",
+      "topics": [
+        "Topical, dermal and transdermal delivery"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-dermal-transdermal",
+          "label": "Dermal versus transdermal",
+          "detail": "Dermal oil/ointment produces local action; transdermal absorption systemic action.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        },
+        {
+          "id": "introduction-and-roa-transdermal-properties",
+          "label": "Transdermal properties",
+          "detail": "Stable blood levels, no first pass; requires potent drug to avoid excessively large patch; variable absorption.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Images contrast local eye drops/dermal application with systemic transdermal delivery.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Route selection synthesis",
+      "topics": [
+        "Route selection synthesis"
+      ],
+      "concepts": [
+        {
+          "id": "introduction-and-roa-route-summary",
+          "label": "Route selection synthesis",
+          "detail": "Physical drug properties, absorption/release speed, bypassing hepatic metabolism and achieving high local concentrations guide ROA.",
+          "priority": "core",
+          "rationale": "Explicit general definition, mechanism, route distinction or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked; text and any illustrative labels agree with extraction.",
+      "uncertainties": []
+    }
+  ]
+}

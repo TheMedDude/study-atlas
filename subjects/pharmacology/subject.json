@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "pharmacology",
+  "title": "Pharmacology",
+  "description": "General principles, drug handling and adrenergic pharmacology.",
+  "scope": {
+    "id": "midterm",
+    "title": "Midterm",
+    "authority": "supplied-lecture-pdfs-only",
+    "sourceManifest": "sources/manifest.json",
+    "allTeachingContent": true,
+    "assessmentEmphasis": {
+      "introduction-and-roa": "principles-over-illustrative-drug-recall",
+      "pharmacokinetics": "principles-over-illustrative-drug-recall",
+      "pharmacodynamics": "principles-over-illustrative-drug-recall",
+      "ans-and-adrenergic-drugs": "foundations-and-drug-specific-distinctions"
+    }
+  },
+  "languages": {
+    "questions": "en",
+    "explanations": [
+      "en",
+      "ar"
+    ],
+    "retainEnglishTechnicalTerms": true
+  },
+  "assessment": {
+    "mcqOptionCount": 5,
+    "recommendedPracticeCount": 10,
+    "examCount": "student-selected",
+    "optionalExamTimer": true,
+    "allowedDrillTypes": [
+      "match",
+      "order",
+      "diagram"
+    ],
+    "allowTypedAnswers": false,
+    "allowConfidencePrompts": false,
+    "allowSelfGrading": false
+  },
+  "paths": {
+    "activities": "activities.json",
+    "concepts": "source-analysis/concept-index.json",
+    "pages": "source-analysis/page-ledger.json",
+    "chapters": "source-analysis/chapters.json",
+    "uncertainties": "source-analysis/uncertainties.json",
+    "coverage": "source-analysis/coverage-summary.json",
+    "studySource": "source-analysis/pharmacology_detailed_structured_study_source.md",
+    "pageImages": "sources/page-images.json"
+  },
+  "chapterLabels": {
+    "introduction-and-roa": "Introduction & administration routes",
+    "pharmacokinetics": "Pharmacokinetics",
+    "pharmacodynamics": "Pharmacodynamics",
+    "ans-and-adrenergic-drugs": "ANS & adrenergic drugs"
+  },
+  "catalog": {
+    "lectures": 4,
+    "pages": 269,
+    "pdfPages": 283,
+    "mcqs": 483,
+    "total": 538
+  }
+}

@@ -1,0 +1,1426 @@
+{
+  "lectureId": "pharmacodynamics",
+  "title": "Pharmacodynamics",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Pharmacodynamics",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "teaching",
+      "title": "Drug definition and sites of action",
+      "topics": [
+        "Drug definition and sites of action"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-drug-action-sites",
+          "label": "Sites of drug action",
+          "detail": "Drugs interact with enzymes, ion channels, neurotransmitter transport systems, nucleic acids and receptors to change biological function.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-drug-definition",
+          "label": "Drug definition and purposes",
+          "detail": "Chemical agents alter biological function and are used to treat, cure, prevent or diagnose disease or promote well-being.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Receptor definition, types and transduction",
+      "topics": [
+        "Receptor definition, types and transduction"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-receptor-types",
+          "label": "Four receptor classes",
+          "detail": "Ligand-gated ion channels; G-protein-coupled receptors; receptor-enzymes; cytosolic-nuclear receptors.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-signal-transduction",
+          "label": "Receptor transduction and amplification",
+          "detail": "Regulatory receptor proteins interact with drugs/hormones to initiate cellular responses; post-receptor signal transduction amplifies the signal.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": "4",
+      "kind": "teaching",
+      "title": "Ligand-gated ion channels",
+      "topics": [
+        "Ligand-gated ion channels"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-ligand-gated-channels",
+          "label": "Ligand-gated ion-channel signaling",
+          "detail": "Ligand binding permits ion movement and changes membrane potential or intracellular ionic concentration.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram A: cholinergic nicotinic receptor example; ions pass through ligand-gated channel, changing membrane potential or intracellular ion concentration.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": "5",
+      "kind": "teaching",
+      "title": "G-protein-coupled receptor activation",
+      "topics": [
+        "G-protein-coupled receptor activation"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-gpcr-gdp-gtp",
+          "label": "GPCR activation and nucleotide exchange",
+          "detail": "Occupied receptor changes shape, interacts with Gs and causes release of GDP and binding of GTP.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-gpcr-resting-state",
+          "label": "Resting GPCR signaling components",
+          "detail": "Unoccupied receptor does not interact with Gs; Gs has bound GDP and adenylyl cyclase is inactive.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "GPCR example alpha/beta adrenoceptors; alpha, beta, gamma Gs subunits; GDP/GTP exchange shown in steps1–2. Left summary bottom is cropped after INTRACELLU...; do not reconstruct missing words.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-cropped-gpcr-panel",
+          "description": "Left GPCR summary panel is cropped after INTRACELLU...; its final wording is unavailable.",
+          "handling": "Retain visible labels; do not reconstruct or assess missing text.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": "6",
+      "kind": "teaching",
+      "title": "G-protein activation of adenylyl cyclase and termination",
+      "topics": [
+        "G-protein activation of adenylyl cyclase and termination"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-gs-camp",
+          "label": "Gs, adenylyl cyclase and cAMP",
+          "detail": "The Gs alpha subunit dissociates and activates adenylyl cyclase; ATP is converted to cAMP plus PPi.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-gpcr-termination",
+          "label": "Termination of Gs signaling",
+          "detail": "When hormone is absent the receptor returns to rest, alpha-subunit GTP is hydrolyzed to GDP and adenylyl cyclase is deactivated.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Steps3–4 of Gs cycle: alpha-GTP activates adenylyl cyclase, ATP → cAMP+PPi; GTP → GDP+Pi on termination.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Enzyme-linked receptor sequence",
+      "topics": [
+        "Enzyme-linked receptor sequence"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-enzyme-linked-signaling",
+          "label": "Receptor tyrosine-kinase signaling sequence",
+          "detail": "Insulin binding activates intracellular beta-subunit receptor tyrosine kinase; beta tyrosines autophosphorylate; receptor kinase phosphorylates IRS; phosphorylated IRS activates other kinases/phosphatases and biological pathways.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-enzyme-receptor-example",
+          "label": "Insulin receptor illustration",
+          "detail": "Insulin is the illustrative ligand for the receptor tyrosine-kinase sequence; the mechanism takes priority over drug-name recall.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four numbered insulin-receptor steps reconstructed: kinase activation, beta-subunit tyrosine autophosphorylation, IRS phosphorylation, downstream kinases/phosphatases. Alpha/beta subunits, S–S links, tyrosine and P labels preserved.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": "8",
+      "kind": "teaching",
+      "title": "Intracellular receptor sequence",
+      "topics": [
+        "Intracellular receptor sequence"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-intracellular-signaling",
+          "label": "Intracellular receptor and gene transcription",
+          "detail": "A lipid-soluble drug crosses the membrane and binds an intracellular receptor; the activated drug-receptor complex binds chromatin, activates transcription of specific genes, and produces mRNA, proteins and biological effects.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Two-panel Figure2.5: lipid-soluble drug crosses membrane; binds inactive receptor; activated complex binds chromatin; gene→mRNA→specific proteins→biologic effects. Cytosol and nucleus labelled; mRNA=messenger RNA.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": "9",
+      "kind": "teaching",
+      "title": "Affinity and efficacy",
+      "topics": [
+        "Affinity and efficacy"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-affinity",
+          "label": "Affinity",
+          "detail": "Chemical forces causing a drug to associate with its receptor.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-efficacy",
+          "label": "Efficacy",
+          "detail": "Ability of a drug to elicit a response when it interacts with a receptor.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "10",
+      "kind": "teaching",
+      "title": "Graded dose-response: potency and efficacy",
+      "topics": [
+        "Graded dose-response: potency and efficacy"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-potency",
+          "label": "Potency",
+          "detail": "Amount of drug necessary to produce a specified effect magnitude; receptor density, stimulus-response efficiency, affinity and efficacy are listed determinants.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-maximal-response",
+          "label": "Maximal response",
+          "detail": "Efficacy is the magnitude of the maximal response; the source also makes an absolute intrinsic-efficacy-only claim that is preserved but not used as a general scored rule.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-efficacy-absolute",
+          "description": "The slide says maximal efficacy is solely dependent upon intrinsic efficacy, an unqualified statement while later material discusses receptor reserve.",
+          "handling": "Preserve wording; assess qualitative potency/efficacy distinctions, not an absolute exhaustive determinant rule.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Equal efficacy with differing potency",
+      "topics": [
+        "Equal efficacy with differing potency"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-equal-maxima-potency",
+          "label": "Equal maxima and horizontal curve position",
+          "detail": "Curves A, B and C reach the same maximal effect; A is leftmost, B middle, C rightmost. Smaller required exposure at a common effect indicates greater potency.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Vertical effect0–100; horizontal dose/concentration/other exposure. A/B/C have equal maxima and progressively more rightward placement. Potency arrow: more to left, less to right.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "EC50 on a log dose-response plot",
+      "topics": [
+        "EC50 on a log dose-response plot"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-ec50",
+          "label": "EC50",
+          "detail": "Drug concentration giving a response halfway between baseline and maximum under specified exposure conditions; shown at the midpoint of a sigmoid plot.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Response vs Dose[log], with dashed midpoint projection labelled EC50.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": "13",
+      "kind": "teaching",
+      "title": "Linear and logarithmic plots of EC50",
+      "topics": [
+        "Linear and logarithmic plots of EC50"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-ec50-potency",
+          "label": "EC50 and potency comparison",
+          "detail": "The figure compares Drug A and Drug B: smaller EC50 corresponds to higher potency, both on concentration and log-concentration plots.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-linear-log-plots",
+          "label": "Linear versus logarithmic concentration axes",
+          "detail": "The same dose-response relationship appears hyperbolic on a linear concentration plot and sigmoid on a log-concentration plot in the supplied figure.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "PanelA:[Drug] linear; PanelB:log[Drug]. Both label DrugA/B and EC50. Caption: EC50 is concentration producing50% maximal response; smaller EC50 means more potent.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Multiple potency and efficacy illustrations",
+      "topics": [
+        "Multiple potency and efficacy illustrations"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-equal-maxima-potency",
+          "label": "Equal maxima and horizontal curve position",
+          "detail": "Top-left: A and B attain equal maxima but A needs less dose; top-right equal-maxima potency order is A then B then C then D.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-slope-versus-ec50",
+          "label": "Slope and EC50 differ",
+          "detail": "Bottom-left A and B share an EC50 and Emax but have different slopes/dose intervals from EC50 to Emax.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-potency-versus-efficacy",
+          "label": "Potency versus efficacy",
+          "detail": "Bottom-right B has a smaller maximum response than A but rises at lower doses; different maxima must be distinguished from horizontal dose position.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four independent panels reuse A/B labels. Top-left A left of B with equal maxima; top-right A/B/C/D equal maxima with A leftmost. Bottom-left A/B share EC50/Emax but different slopes, A needs smaller dose increase from EC50 to Emax. Bottom-right B maximum≈2 units and A≈4 units, with B leftward.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-panel-letter-scope",
+          "description": "Different diagrams reuse DrugA/DrugB with different relationships.",
+          "handling": "Keep each panel independent; never infer a single global A/B ranking across the whole page.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": "15",
+      "kind": "teaching",
+      "title": "Five-drug response illustration",
+      "topics": [
+        "Five-drug response illustration"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-graph-common-effect",
+          "label": "Graph comparisons need a specified effect",
+          "detail": "The plot has A, X, B, C and D with different shapes and maxima; comparisons at a stated common response can be read, but D has no visible plateau and C has a slight downturn.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Response vs dose with20/40/60/80mg labels. A blue steep low-dose curve, X black intermediate curve, B red higher-dose curve reach similar depicted maxima; C green low plateau/slight decline; D purple rises beyond others without reaching a visible plateau. No unique unconditional potency/efficacy ordering supplied.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-unequal-maxima-ranking",
+          "description": "Different maxima, an unplateaued D curve and slight downturn in C prevent a unique unconditional ranking of all five drugs.",
+          "handling": "Only compare at an explicitly specified readable common effect; do not invent Emax or EC50 for D.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": "16",
+      "kind": "teaching",
+      "title": "Unkeyed potency practice illustration",
+      "topics": [
+        "Unkeyed potency practice illustration"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-unkeyed-potency-plot",
+          "label": "Unkeyed unequal-maxima practice plot",
+          "detail": "A practice plot asks the most potent drug among A/B/C/D/all equal; B has a lower plateau and the graph supplies no numeric common effect or answer key. Preserve without imposing a scored answer.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Embedded practice question Which drug is the most potent? options A/B/C/D/All with same potency. Log-dose plot shows B lower plateau, A/C/D higher maxima; no numeric response axis or answer key.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-unkeyed-potency-question",
+          "description": "The embedded most-potent question has unequal maxima, no quantitative common-effect criterion and no marked answer.",
+          "handling": "Preserve question and graph but do not use its unkeyed choice as a scored fact.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": "17",
+      "kind": "teaching",
+      "title": "Maximal response and spare-receptor qualification",
+      "topics": [
+        "Maximal response and spare-receptor qualification"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-receptor-occupancy-qualification",
+          "label": "Receptor occupancy qualification",
+          "detail": "The statement linking maximal response to all receptors occupied is explicitly qualified as holding only without spare receptors.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-clinical-efficacy-generalization",
+          "label": "Clinical efficacy generalization",
+          "detail": "The source states that greater efficacy is more therapeutically beneficial than greater potency; retained as an overbroad source statement, not a universal clinical-scoring rule.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Inset spare-receptor/reserve cartoon explicitly says magnitude of response is NOT proportional to receptor occupancy; MAX response shown with only some receptor ligands.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-benefit-generalization",
+          "description": "The slide broadly states that greater efficacy is more therapeutically beneficial than greater potency without specifying drug, indication or safety conditions.",
+          "handling": "Retain as written; block a universal clinical-benefit inference. Clear graph distinctions remain assessable.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": "18",
+      "kind": "teaching",
+      "title": "Threshold, graded ED50, EC50 and ceiling",
+      "topics": [
+        "Threshold, graded ED50, EC50 and ceiling"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-threshold",
+          "label": "Threshold dose",
+          "detail": "Dose producing a just-noticeable effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-graded-ed50",
+          "label": "Graded ED50",
+          "detail": "In this graded-response context ED50 is the dose giving50% of maximal response, distinct from population ED50 later.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-ceiling",
+          "label": "Ceiling dose",
+          "detail": "Lowest dose producing a maximal effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-ec50",
+          "label": "EC50",
+          "detail": "Concentration giving response halfway between baseline and maximum after specified exposure time.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": "19",
+      "kind": "teaching",
+      "title": "Threshold and ceiling dose-response graph",
+      "topics": [
+        "Threshold and ceiling dose-response graph"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-threshold",
+          "label": "Threshold dose",
+          "detail": "Graph labels the onset of a just-noticeable response at the lower end.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-graded-ed50",
+          "label": "Graded ED50",
+          "detail": "In the illustration the50% response occurs at dose-axis value1.0; threshold is near0.01 and the upper plateau is the ceiling/maximum effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-ceiling",
+          "label": "Ceiling dose",
+          "detail": "The graph labels the top plateau ceiling or maximum effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure6.8 Threshold and Ceiling Doses, original drawing credited Raymond M.Quock. Percent response0/25/50/75/100; log-dose values0.01,0.1,1,10,100; ED50 marked1.0 and plateau labelled ceiling/maximum.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": "20",
+      "kind": "teaching",
+      "title": "Ceiling effect",
+      "topics": [
+        "Ceiling effect"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-ceiling-effect",
+          "label": "Response plateau after ceiling",
+          "detail": "Beyond the plateau further dose increases do not increase the plotted response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Dose of drug vs %of response; yellow curve rises and plateaus; annotation After this point increase in dose does not increase the response.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": "21",
+      "kind": "teaching",
+      "title": "Dose-response curve parameters",
+      "topics": [
+        "Dose-response curve parameters"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-dose-response-slope",
+          "label": "Dose-response slope",
+          "detail": "The diagram separates curve slope, EC50/potency, threshold/minimum dose and maximum effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-ec50",
+          "label": "EC50",
+          "detail": "The50% response line identifies EC50 near concentration1 on the illustrated log axis.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Response percent0–100 vs log drug concentration0.001–1000; maximum at plateau, potency EC50 at50%, triangle labels slope, initial minimum/threshold dose.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": "22",
+      "kind": "teaching",
+      "title": "Graded response illustrated by cardiac contraction",
+      "topics": [
+        "Graded response illustrated by cardiac contraction"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-graded-response",
+          "label": "Graded response",
+          "detail": "Increasing log norepinephrine dose produces dose-dependent cardiac contraction intensity; marked regions are sub-effective dose, threshold and ceiling/maximal effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cardiac contraction intensity vs log norepinephrine dose. Four labels:1 sub-effective;2 ceiling/maximal;3 threshold;4 graded dose-dependent response.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": "23",
+      "kind": "teaching",
+      "title": "Onset, peak and duration",
+      "topics": [
+        "Onset, peak and duration"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-onset",
+          "label": "Onset of action",
+          "detail": "Time needed to elicit a therapeutic response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-peak",
+          "label": "Peak response time",
+          "detail": "Time needed to reach maximum therapeutic response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-duration",
+          "label": "Duration of action",
+          "detail": "Time during which drug concentration is sufficient to elicit a therapeutic response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": "24",
+      "kind": "teaching",
+      "title": "Concentration-time graph and therapeutic range",
+      "topics": [
+        "Concentration-time graph and therapeutic range"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-concentration-time",
+          "label": "Concentration-time phases",
+          "detail": "Graph labels absorption, post-absorption and elimination phases, Cmax, tmax, onset and termination of action.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-therapeutic-range-graph",
+          "label": "Therapeutic-range illustration",
+          "detail": "Duration extends between upward and downward crossing of MEC; onset time precedes the first crossing. The upper line is labelled minimum safe concentration (MSC), with toxic level above it.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-auc",
+          "label": "Area under the concentration-time curve",
+          "detail": "AUC is labelled under the plasma-drug-concentration versus time curve.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Plasma drug concentration vs time. Cmax labelled absorption rate=elimination rate; absorption/post-absorption/elimination phases; toxic level; minimum safe concentration MSC; therapeutic range between upper MSC line and MEC; subtherapeutic level below MEC; onset/termination and duration bracket; AUC; onset time and tmax.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-msc-label",
+          "description": "The graph labels its upper therapeutic-range boundary minimum safe concentration(MSC) while also placing toxic level above it.",
+          "handling": "Preserve exact source label and geometry; do not silently replace the term or use it as a general safety-definition question.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": "25",
+      "kind": "teaching",
+      "title": "Spare receptors",
+      "topics": [
+        "Spare receptors"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-spare-receptors",
+          "label": "Spare receptors",
+          "detail": "Only a fraction of a cell's total receptors may need occupation for maximal response; response magnitude is not proportional to occupancy.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-spare-receptor-examples",
+          "label": "Spare-receptor numerical examples",
+          "detail": "Source examples:99% of insulin receptors and5–10% of total cardiac beta-adrenoceptors are spare. Supporting examples rather than core drug-name recall.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full text reads99% insulin receptors spare and5–10% total cardiac beta-adrenoceptors spare; raw extraction scrambled the latter line. Spare-receptor inset repeats p17.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": "26",
+      "kind": "teaching",
+      "title": "Desensitization and tachyphylaxis",
+      "topics": [
+        "Desensitization and tachyphylaxis"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-desensitization",
+          "label": "Receptor desensitization",
+          "detail": "Receptors remain on the cell surface but become unresponsive to ligand.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-tachyphylaxis",
+          "label": "Tachyphylaxis",
+          "detail": "Repeated administration produces diminished effect; later pages distinguish rapid onset from gradual tolerance.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": "27",
+      "kind": "teaching",
+      "title": "Down-regulation and receptor sequestration",
+      "topics": [
+        "Down-regulation and receptor sequestration"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-downregulation",
+          "label": "Down-regulation",
+          "detail": "Continual agonist stimulation produces receptor molecular changes, endocytosis and intracellular sequestration, making receptors unavailable for further agonist interaction.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-up-down-regulation-figure",
+          "label": "Up- and down-regulation illustration",
+          "detail": "Inset shows surface receptor number increasing over time in an upregulation row and decreasing in a downregulation row.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Inset two rows depicts upregulation (increasing surface receptors over time) and downregulation (decreasing receptors). Text describes endocytosis/sequestration.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": "28",
+      "kind": "teaching",
+      "title": "Tolerance versus tachyphylaxis",
+      "topics": [
+        "Tolerance versus tachyphylaxis"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-tolerance",
+          "label": "Tolerance",
+          "detail": "Gradual adaptation requiring an increased dose for the previous therapeutic effect; morphine is an illustrative example.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-tachyphylaxis",
+          "label": "Tachyphylaxis",
+          "detail": "Rapid decrease in effectiveness after initial administration or only a few doses, within a short time frame.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": "29",
+      "kind": "teaching",
+      "title": "Full agonist",
+      "topics": [
+        "Full agonist"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-full-agonist",
+          "label": "Full agonist",
+          "detail": "Binds a receptor and produces a maximal biological response mimicking the endogenous ligand; strong affinity and good efficacy are described as general features.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-full-agonist-example",
+          "label": "Full agonist illustrative example",
+          "detail": "Phenylephrine at alpha1-adrenoceptors is compared with endogenous norepinephrine. Supporting illustration, not a name-function memorization target in this chapter.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": "30",
+      "kind": "teaching",
+      "title": "Partial agonists",
+      "topics": [
+        "Partial agonists"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-partial-agonist",
+          "label": "Partial agonist",
+          "detail": "Intrinsic activity greater than zero but less than a full agonist; cannot produce a full response even at high dose.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-partial-affinity",
+          "label": "Partial agonist affinity",
+          "detail": "May be greater than, less than or equal to full-agonist affinity.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-partial-antagonism",
+          "label": "Partial agonist antagonism",
+          "detail": "Under appropriate conditions a partial agonist can antagonize a full agonist.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-partial-agonist-example",
+          "label": "Partial agonist illustrative example",
+          "detail": "Aripiprazole at selected dopamine receptors is the supporting illustration.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": "31",
+      "kind": "teaching",
+      "title": "Full versus partial receptor activation",
+      "topics": [
+        "Full versus partial receptor activation"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-intrinsic-activity",
+          "label": "Intrinsic activity",
+          "detail": "The degree of receptor conformational change/activation determines the maximal response; full agonist achieves maximal activation while partial agonist does not.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-partial-agonist",
+          "label": "Partial agonist",
+          "detail": "A plotted partial agonist reaches a lower maximum than the full agonist even as dose rises.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full agonist induces maximal receptor conformational change/response; intrinsic activity measures activation-producing conformational changes. Partial agonist induces some activation insufficient for maximal response. Log-dose plot full reaches100%, partial≈60%.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": "32",
+      "kind": "teaching",
+      "title": "Partial agonists can differ in potency",
+      "topics": [
+        "Partial agonists can differ in potency"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-partial-potency-independence",
+          "label": "Partial agonist potency can vary",
+          "detail": "Partial agonist A lies to the left and partial agonist B to the right of a full agonist, while both have lower maxima. Potency and efficacy must be distinguished.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Green full agonist maximum100%; orange partialA and pink partialB lower maxima. Orange leftward increased potency and pink rightward decreased potency. Original labels use lower/higher Km and lower Vmax, preserved as source terminology only.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-km-vmax-labels",
+          "description": "Drug dose-response illustration labels potency using Km and reduced efficacy using Vmax, while other lecture pages use EC50 and maximum response.",
+          "handling": "Preserve labels explicitly; assess supported qualitative differences using clear surrounding pages, not equivalence of Km with EC50 or enzyme constants.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": "33",
+      "kind": "teaching",
+      "title": "Inverse agonists and intrinsic activity",
+      "topics": [
+        "Inverse agonists and intrinsic activity"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-inverse-agonist",
+          "label": "Inverse agonist",
+          "detail": "Produces an effect opposite to agonist and stabilizes inactive receptors.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-intrinsic-activity-sign",
+          "label": "Intrinsic activity signs",
+          "detail": "Plot: agonist positive intrinsic activity; antagonist zero; inverse agonist negative.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Graph response% vs log10[dose](g): agonist positive intrinsic activity, antagonist zero, inverse negative. Inactive-state stabilization text.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": "34",
+      "kind": "teaching",
+      "title": "Full, partial and inverse agonists above basal activity",
+      "topics": [
+        "Full, partial and inverse agonists above basal activity"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-constitutive-activity",
+          "label": "Constitutive activity and inverse agonism",
+          "detail": "The example has approximately12% constitutive receptor activity without agonist. Inverse agonist lowers response below that baseline; full and partial agonists raise activity by differing maxima.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure2.10: full/partial/inverse effects on receptor activity vs log concentration. Basal constitutive activity approximately12% without agonist; full reaches near100%, partial<100%, inverse below baseline. All callouts preserved in concepts/full text.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": "35",
+      "kind": "teaching",
+      "title": "Antagonists, competitive and irreversible examples",
+      "topics": [
+        "Antagonists, competitive and irreversible examples"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-neutral-antagonist",
+          "label": "Neutral antagonist",
+          "detail": "Has affinity but no efficacy, prevents agonist response and maintains the active/inactive equilibrium.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-competitive-antagonist",
+          "label": "Reversible competitive antagonist",
+          "detail": "Binds the same site as agonist reversibly.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-irreversible-site-antagonist",
+          "label": "Irreversible same-site antagonist",
+          "detail": "This page calls irreversible same-site binding noncompetitive; preserve that stated example without treating it as an exhaustive definition of all noncompetitive mechanisms.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": [
+        {
+          "id": "pharmacodynamics-u-noncompetitive-narrow-definition",
+          "description": "This page defines noncompetitive antagonist as irreversible binding at the agonist site; later pages separately describe allosteric inhibition at another site.",
+          "handling": "Assess the specifically stated irreversible same-site example and different-site allosteric mechanism separately; avoid claiming this is an exhaustive definition of all noncompetitive antagonism.",
+          "status": "unresolved",
+          "scoring": "blocked-for-uncertain-claim"
+        }
+      ]
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": "36",
+      "kind": "teaching",
+      "title": "Competitive antagonist dose-response shift",
+      "topics": [
+        "Competitive antagonist dose-response shift"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-competitive-curve",
+          "label": "Competitive antagonist curve",
+          "detail": "Agonist with competitive antagonist has a rightward/dextral shift and increased required concentration for a given effect, while maximum efficacy is unchanged.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Competitive antagonist blue curve right of red agonist alone; maximum efficacy unchanged at100%; C and C-prime indicate increased concentration at equal50% response.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": "37",
+      "kind": "teaching",
+      "title": "Noncompetitive insurmountable antagonist curve",
+      "topics": [
+        "Noncompetitive insurmountable antagonist curve"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-insurmountable-curve",
+          "label": "Insurmountable antagonist curve",
+          "detail": "Agonist maximum is reduced from100% to roughly70% in the plotted antagonist condition; blue curve is also to the right in this illustration. Do not infer an invariant potency rule from this one drawing.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Blue noncompetitive/insurmountable antagonist curve has reduced maximum≈70% and lies right of red agonist alone reaching100%; C/C1 dashed at reference50% shown. No universal potency inference imposed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": "38",
+      "kind": "teaching",
+      "title": "Agonist and antagonist receptor occupancy diagram",
+      "topics": [
+        "Agonist and antagonist receptor occupancy diagram"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-agonist-antagonist-occupancy",
+          "label": "Occupancy versus activation",
+          "detail": "Agonist alone gives full activation; agonist plus antagonist gives less activation; antagonist alone occupies but does not activate the receptor.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Occupancy diagram: agonist alone full activation; agonist+antagonist less activation; antagonist alone no activation.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": "39",
+      "kind": "teaching",
+      "title": "Drug examples of receptor activation",
+      "topics": [
+        "Drug examples of receptor activation"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-agonist-drug-illustrations",
+          "label": "Agonist-class illustrative drug names",
+          "detail": "Heroin is labelled full agonist, buprenorphine partial agonist and naloxone antagonist; diagrams distinguish affinity zone and activity zone. Supporting illustrations, not first-three-chapter drug-name targets.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Heroin full agonist; buprenorphine partial; naloxone antagonist. Shapes reach different depths in labelled affinity zone/activity zone.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": "40",
+      "kind": "teaching",
+      "title": "Allosteric binding sites",
+      "topics": [
+        "Allosteric binding sites"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-allosteric-sites",
+          "label": "Allosteric sites",
+          "detail": "Agonist and antagonist bind different sites on the same receptor, drawn as a green rectangular site and separate red triangular site.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Green rectangular and red triangular ligands, separately shaped sites on membrane receptor; both initially unbound.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": "41",
+      "kind": "teaching",
+      "title": "Allosteric illustrated agonist binding",
+      "topics": [
+        "Allosteric illustrated agonist binding"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-allosteric-sites",
+          "label": "Allosteric sites",
+          "detail": "Green rectangular ligand occupies one site while red triangular ligand remains separate.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Green rectangle occupies its site; red triangle unbound.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": "42",
+      "kind": "teaching",
+      "title": "Allosteric illustrated unoccupied sites",
+      "topics": [
+        "Allosteric illustrated unoccupied sites"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-allosteric-sites",
+          "label": "Allosteric sites",
+          "detail": "Both differently shaped ligand sites are empty; green and red ligands are separately positioned above them.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Both shapes unbound; both receptor binding-site outlines visible.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": "43",
+      "kind": "teaching",
+      "title": "Allosteric illustrated site change",
+      "topics": [
+        "Allosteric illustrated site change"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-allosteric-conformation",
+          "label": "Allosteric conformational interference",
+          "detail": "Red ligand occupies the triangular site while the separate rectangular binding shape is visibly altered and the green ligand is unbound; the diagram illustrates interference at a different site.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Red triangle occupies separate site and rectangular site is altered; green rectangle remains unbound.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": "44",
+      "kind": "teaching",
+      "title": "Competitive and allosteric modulators compared",
+      "topics": [
+        "Competitive and allosteric modulators compared"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-allosteric-modulation",
+          "label": "Allosteric activation and inhibition",
+          "detail": "A agonist acts at agonist site; B competitive inhibitor acts at that site; C allosteric activator and D allosteric inhibitor bind separate sites. C can increase agonist efficacy or binding affinity; D decreases agonist response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-modulator-curves",
+          "label": "Modulator dose-response patterns",
+          "detail": "Graph: A+B right-shift with similar maximum; A+C increased maximum; A+D reduced maximum. Caption says an affinity increase would yield a leftward shift.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure1–3: agonistA and competitive inhibitorB at same site; allosteric activatorC and inhibitorD at separate sites. A+C curve maximum increased; A+B rightward similar maximum; A+D maximum reduced. Full caption: allosteric activators may increase agonist efficacy or binding affinity; illustrated increase is efficacy, while increased affinity would shift curve leftward.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": "45",
+      "kind": "teaching",
+      "title": "Chemical antagonism",
+      "topics": [
+        "Chemical antagonism"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-chemical-antagonism",
+          "label": "Chemical antagonism",
+          "detail": "Direct/simple chemical reaction with no receptor involvement.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-chemical-antagonism-examples",
+          "label": "Chemical-antagonism illustrations",
+          "detail": "Heparin with protamine sulfate, and iron with deferoxamine, are the named examples; supporting detail.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": "46",
+      "kind": "teaching",
+      "title": "Physiological antagonism",
+      "topics": [
+        "Physiological antagonism"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-physiological-antagonism",
+          "label": "Physiological antagonism",
+          "detail": "Opposing physiological effects through different receptors.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-physiological-antagonism-examples",
+          "label": "Physiological-antagonism illustrations",
+          "detail": "Norepinephrine causes vasoconstriction and raised BP; histamine relaxes vascular smooth muscle and lowers BP. Preserve the example, prioritize the different-receptor principle.",
+          "priority": "supporting",
+          "rationale": "Illustrative drug-name, numerical or unresolved detail retained for fidelity; reduced direct-question emphasis under user instructions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": "47",
+      "kind": "teaching",
+      "title": "Quantal doses and therapeutic index",
+      "topics": [
+        "Quantal doses and therapeutic index"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-quantal-ed50",
+          "label": "Population ED50",
+          "detail": "Dose at which50% of population/sample manifests a given effect, distinct from graded ED50.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-td50",
+          "label": "TD50",
+          "detail": "Dose at which50% of population manifests a specified toxic effect.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-ld50",
+          "label": "LD50",
+          "detail": "Dose that kills50% of subjects.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-therapeutic-index",
+          "label": "Therapeutic index",
+          "detail": "Source formula gives TD50 or LD50 divided by ED50; population endpoints must be specified.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": "48",
+      "kind": "teaching",
+      "title": "Therapeutic-index worked graph",
+      "topics": [
+        "Therapeutic-index worked graph"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-therapeutic-index-calculation",
+          "label": "Therapeutic-index calculation",
+          "detail": "Graph gives ED50=100mg and LD50=400mg, so LD50/ED50=4; effective endpoint is hypnosis and lethal endpoint death.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-quantal-curves",
+          "label": "Quantal response curves",
+          "detail": "Axes are percent individuals responding and dose(mg); separate hypnosis and death curves illustrate population response rather than graded effect in one subject.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Quantal graph: hypnosis and death; dose(mg) versus percentage individuals responding. ED50=100, LD50=400; TI=400/100=4. ED99 and LD1 markers are present between curves, not used as precisely measured numerical endpoints.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": "49",
+      "kind": "teaching",
+      "title": "Unusual response terminology",
+      "topics": [
+        "Unusual response terminology"
+      ],
+      "concepts": [
+        {
+          "id": "pharmacodynamics-idiosyncratic",
+          "label": "Idiosyncratic response",
+          "detail": "An unusual response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-hypo-hyper-reactivity",
+          "label": "Hyporeactive versus hyperreactive",
+          "detail": "Less-than-normal versus greater-than-normal response.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-hypersensitivity",
+          "label": "Hypersensitivity",
+          "detail": "Allergic or other immunological reaction.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-tolerance",
+          "label": "Tolerance",
+          "detail": "Decreased response with continued administration.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        },
+        {
+          "id": "pharmacodynamics-tachyphylaxis",
+          "label": "Tachyphylaxis",
+          "detail": "Rapidly developing tolerance.",
+          "priority": "core",
+          "rationale": "Explicitly taught principle, relationship, mechanism or graph distinction; priority reflects source emphasis, not predicted examination frequency."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Visible English text and printed slide number reviewed; extracted text preserves the teaching claims and conditions.",
+      "uncertainties": []
+    }
+  ],
+  "tablePolicies": [],
+  "reviewSummary": {
+    "reviewer": "independent-pharma-pd-review",
+    "allPdfPagesVisuallyReviewed": 49,
+    "fullPageEnlargements": [
+      5,
+      6,
+      7,
+      8,
+      14,
+      15,
+      16,
+      24,
+      31,
+      34,
+      44,
+      48
+    ],
+    "sourceOnly": true,
+    "drugExamples": "supporting; mechanism-first assessment"
+  }
+}

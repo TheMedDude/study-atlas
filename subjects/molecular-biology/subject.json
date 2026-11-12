@@ -53,5 +53,12 @@
     "rna-metabolism-1": "RNA metabolism I",
     "rna-metabolism-2": "RNA processing",
     "techniques": "PCR, sequencing & RFLP"
+  },
+  "catalog": {
+    "lectures": 6,
+    "pages": 183,
+    "pdfPages": 191,
+    "mcqs": 601,
+    "total": 694
   }
 }

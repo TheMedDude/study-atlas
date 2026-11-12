@@ -1,12 +1,12 @@
 # Study Atlas project handoff
 
-Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` before starting. The user's latest requirements take precedence over older drafts.
+Read `docs/DISCOVERY.md` and `subjects/molecular-biology/sources/manifest.json` before starting. For Pharmacology work, also read `subjects/pharmacology/DISCOVERY.md`, its source manifest and `docs/PHARMACOLOGY_HANDOFF.md`. The user's latest requirements take precedence over older drafts.
 
 ## Current stage
 
-Product discovery, source extraction, source QA, activity authoring and independent content review are complete. All 191 PDF pages are reviewed: 183 teaching pages, 8 cover/administrative exclusions, 303 indexed concepts and 50 uncertainty records. The compiled bank has 694 validated activities (601 five-option MCQs), covering all 227 core concepts and 278 total concepts; 25 supporting/uncertain concepts have explicit deferrals. See source-analysis/INDEX.md, QA.md and activity-review-summary.json.
+Version 1.2.14 adds Pharmacology to the existing Molecular Biology and Antigravity General Microbiology subjects. Pharmacology has 538 independently reviewed activities (483 five-option MCQs, 51 matching, 4 ordering) from 283 reviewed PDF pages: 269 teaching and 14 exclusions. Its 576-entry source index preserves 66 source notes and explicit coverage deferrals. Chapters 1–3 prioritize principles over illustrative drug-name/function recall; chapter 4 assesses ANS foundations and drug-specific distinctions. Do not restart the superseded Microbiology task or overwrite its completed bank.
 
-The shared static application is implemented with Practice, Exam, concept drills, weak-area review, source page viewing, device progress and backup/restore. Version 1.1 adds resumable practice, Previous/Skip/early Finish, All available, an elapsed clock, fixed navigation, keyboard shortcuts, saved questions, direct PDF study notes and chronological Updates with a one-time returning-user popup. Read docs/QA.md and the latest PROJECT_LOG.md entry for verification and deployment status. A public repository and a live website remain separate facts; do not infer deployment from a push alone.
+Molecular Biology remains 694 activities (601 MCQs); General Microbiology remains 428 (409 MCQs). The shared static app includes the existing study modes, source viewing, device progress, backups, saved questions, resumable practice, Question Library and Memorize features. Current release QA and deployment evidence belong in PROJECT_LOG.md, docs/QA.md and docs/PHARMACOLOGY_HANDOFF.md. A push is not proof of live deployment.
 
 ## Account constraint
 
@@ -30,10 +30,12 @@ The consolidated Markdown and per-lecture source records are complete. Run scrip
 
 ## Development and release checks
 
-Use the existing checkout; do not create a new checkout for routine continuation. The browser app has no dependencies. Run npm run check and npm test; source/content builds use scripts/build_bank.py. Faithful page renders under sources/pages/ make the viewer work without a native PDF plug-in. Preserve their source/hash provenance and original PDFs.
+Use the existing checkout; do not create a new checkout for routine continuation. The browser app has no dependencies. Run npm run check and npm test, plus `python -m unittest discover -s tests -p test_bank_transaction.py -v`; source/content builds use scripts/build_bank.py. Faithful page renders under sources/pages/ make the viewer work without a native PDF plug-in. Preserve their source/hash provenance and original PDFs.
 
 Do not overwrite reviewed banks with obsolete work/ authoring scripts. Keep stable IDs and increment revisions when scored meaning changes. Only independently validated records enter the compiled bank. Progress files and QA browser history must never be committed.
 
 Settings and subject/scope progress are separate. Cross-tab saves reconcile; clears use resetProgress, not an empty old-generation snapshot. Archived responses are excluded from current evidence. Keep backup compatibility, retention-window notices, and failure copy truthful.
 
 Saved questions and resumable sessions use a separate subject/scope study-state key. Preserve existing answer-history keys and legacy backups. Practice answers count when checked; leaving or skipping never erases checked history or fabricates evidence. Resume keeps stable attempt IDs and shuffled order; closed-session tombstones must prevent stale-tab resurrection. Updates is a plain oldest-to-newest list, opening scrolled to the newest entry at the bottom.
+
+Bank builds now validate a staged subject tree before replacing compiled content. Use `--subject pharmacology` for its source/content scripts. Keep source-based deferrals explicit and never score a blocked concept. Reviewed lecture records must exactly match the compiled bank.

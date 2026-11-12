@@ -5,7 +5,7 @@ import { emptyStudy, validateStudy, studyKey, loadStudy, saveStudy, mergeStudy, 
 import { studyNotes } from './notes.js';
 import { notesPdf } from './pdf.js';
 
-const RELEASE = '1.2';
+const RELEASE = '1.2.14';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const base = new URL('../', import.meta.url);
@@ -128,15 +128,19 @@ function notesPreview() {
   dialog.querySelector('#print-notes').onclick=async()=>{const button=dialog.querySelector('#print-notes');button.disabled=true;button.textContent='Creating PDF…';try{const blob=await notesPdf(items,concepts,lectures,state.settings.explanationLanguage,subject.title),link=document.createElement('a'),objectURL=URL.createObjectURL(blob);link.href=objectURL;link.download=`study-atlas-${subject.id}-notes.pdf`;link.click();setTimeout(()=>URL.revokeObjectURL(objectURL),1000);}catch(error){notice(error.message,true);}finally{button.disabled=false;button.textContent='Download PDF';}};
 }
 function releaseHTML(version) {
+  if (version === '1.2.14') {
+    return `<p class="eyebrow">VERSION 1.2.14 · NOVEMBER 12, 2026</p><h2>Pharmacology joins your atlas.</h2><ul><li>Four midterm lectures with 483 five-option MCQs and 55 concept drills.</li><li>General principles lead the introductory chapters; ANS and adrenergic drugs include drug-specific comparisons.</li><li>English and Arabic explanations link back to exact source pages.</li><li>Course cards show accurate counts and recorded answers across subjects.</li><li>Hidden comparison values work with mouse and keyboard. Question Library labels show the last answer result.</li></ul><p class="small muted">Existing Molecular Biology and Microbiology questions and progress stay available.</p>`;
+  }
+
   if (version === '1.2') {
-    return `<p class="eyebrow">VERSION 1.2 · NOVEMBER 9, 2026</p><h2>The Memorize Room & Question Bank Library.</h2><ul><li><strong>The Memorize Room</strong>: High-yield cognitive synthesis engine featuring Bacteria Summaries, interactive Classification Trees (Table 5-1 Linnean Scheme, Oxygen Response, Nutritional Flowchart), side-by-side Comparison Matrices with Active Occlusion (Blindfold Mode), and high-yield Rules of Thumb.</li><li><strong>Question Bank Library in Practice</strong>: Practice from All, Unpracticed Only (New), Missed / Needs Review, or Re-solve Practiced items.</li><li><strong>Question Library Browser</strong>: Inspect every question in the chapter bank with live status badges (✓ Mastered, ↻ Missed, • Unseen, ★ Saved) and instant single-question launching.</li><li><strong>General Microbiology Midterm Bank</strong>: 428 validated activities (409 discrete 5-option MCQs) with 100% core concept coverage across all 5 lectures.</li><li><strong>Bi-directional Synaptic Linking</strong>: Practice questions link directly to Organism Summaries, and Organism Summaries launch targeted micro-drills.</li></ul><p class="small muted">Fully slide-grounded in authoritative lecture PDFs. Private on-device progress with JSON backup.</p>`;
+    return `<p class="eyebrow">VERSION 1.2 · NOVEMBER 9, 2026</p><h2>The Memorize Room & Question Bank Library.</h2><ul><li><strong>The Memorize Room</strong>: High-yield cognitive synthesis engine featuring Bacteria Summaries, interactive Classification Trees (Table 5-1 Linnean Scheme, Oxygen Response, Nutritional Flowchart), side-by-side Comparison Matrices with Active Occlusion (Blindfold Mode), and high-yield Rules of Thumb.</li><li><strong>Question Bank Library in Practice</strong>: Practice from All, Unpracticed Only (New), Missed / Needs Review, or Re-solve Practiced items.</li><li><strong>Question Library Browser</strong>: Inspect every question in the chapter bank with live status badges (✓ Last answer correct, ↻ Missed, • Unseen, ★ Saved) and instant single-question launching.</li><li><strong>General Microbiology Midterm Bank</strong>: 428 validated activities (409 discrete 5-option MCQs) with 100% core concept coverage across all 5 lectures.</li><li><strong>Bi-directional Synaptic Linking</strong>: Practice questions link directly to Organism Summaries, and Organism Summaries launch targeted micro-drills.</li></ul><p class="small muted">Fully slide-grounded in authoritative lecture PDFs. Private on-device progress with JSON backup.</p>`;
   }
   return version==='1.1'?`<p class="eyebrow">VERSION 1.1 · NOVEMBER 7, 2026</p><h2>Pick up where you left off.</h2><ul><li>Previous, skip, finish anytime, and All available in practice.</li><li>Your place and elapsed study time save automatically.</li><li>Save questions and turn them into PDF study notes.</li><li>Navigation stays visible when explanations open.</li><li>Keyboard: 1–5 choose, Enter check/next, + slide, − previous.</li></ul><p class="small muted">Checked answers count even when you leave. Backups include saved questions and sessions.</p>`:
     `<p class="eyebrow">VERSION 1.0 · NOVEMBER 5, 2026</p><h2>Your first Study Atlas.</h2><ul><li>601 multiple-choice questions and 93 concept activities.</li><li>Practice, exams, English/Arabic explanations and source slides.</li><li>Progress on your device, with backup and restore.</li></ul>`;
 }
-function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy">${releaseHTML('1.1')}</section><section class="panel release-copy" id="release-latest">${releaseHTML('1.2')}</section></div>`;}
+function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy">${releaseHTML('1.1')}</section><section class="panel release-copy">${releaseHTML('1.2')}</section><section class="panel release-copy" id="release-latest">${releaseHTML(RELEASE)}</section></div>`;}
 function showRelease() {
-  const dialog=document.createElement('dialog');dialog.className='release-dialog';dialog.setAttribute('aria-label','What’s new in Study Atlas 1.1');
+  const dialog=document.createElement('dialog');dialog.className='release-dialog';dialog.setAttribute('aria-label',`What’s new in Study Atlas ${RELEASE}`);
   dialog.innerHTML=`${releaseHTML(RELEASE)}<div class="button-row"><button class="button primary" id="release-close">Got it</button><button class="text-button" id="release-details">View updates</button></div>`;
   document.body.append(dialog);dialog.showModal();
   const close=()=>{dialog.close();dialog.remove();};dialog.querySelector('#release-close').onclick=close;
@@ -189,19 +193,21 @@ function shell() {
 }
 
 function coursesView() {
-  const mbStats = { lectures: 6, pages: 183, mcqs: 601, total: 694, scope: 'Midterm Scope' };
-  const microStats = { lectures: 5, pages: 217, mcqs: 409, total: 428, scope: 'Midterm Scope' };
+  const totals = subjectConfigs.reduce((sum, cfg) => {
+    const c = cfg.catalog;
+    return { total: sum.total + c.total, mcqs: sum.mcqs + c.mcqs, pdfPages: sum.pdfPages + c.pdfPages };
+  }, { total: 0, mcqs: 0, pdfPages: 0 });
   
   return pageHead('CURRICULUM', 'Choose your course.', 'Evidence-based assessment banks, clinical distinctions, and faithful slide-grounded study.') +
     `<div class="courses-grid">${subjectConfigs.map(cfg => {
       const isCurrent = cfg.id === subject?.id;
       let attemptsCount = 0;
       try {
-        const stored = JSON.parse(storage.getItem(`study-atlas:progress:${cfg.id}:${cfg.scope.id}`));
-        attemptsCount = stored?.attempts?.length || 0;
+        const stored = JSON.parse(storage.getItem(progressKey(cfg.id, cfg.scope.id)));
+        attemptsCount = (Array.isArray(stored?.attempts) ? stored.attempts.length : 0)
+          + (Array.isArray(stored?.archivedAttempts) ? stored.archivedAttempts.length : 0);
       } catch {}
-      const isMB = cfg.id === 'molecular-biology';
-      const stats = isMB ? mbStats : microStats;
+      const stats = { ...cfg.catalog, scope: cfg.scope.title };
       return `<article class="panel course-card ${isCurrent ? 'active-course' : ''}">
         <div class="course-card-top">
           <span class="course-tag">${esc(stats.scope)}</span>
@@ -218,7 +224,7 @@ function coursesView() {
         <div class="course-footer">
           <div class="course-progress-badge">
             <span class="progress-dot ${attemptsCount ? 'in-progress' : ''}"></span>
-            <span>${attemptsCount ? `${attemptsCount} questions practiced` : 'Ready to start'}</span>
+            <span>${attemptsCount ? `${attemptsCount} answers recorded` : 'Ready to start'}</span>
           </div>
           <button class="button primary select-course-btn" data-select-subject="${esc(cfg.id)}">
             ${isCurrent ? 'Continue course ↗' : 'Enter course ↗'}
@@ -228,12 +234,12 @@ function coursesView() {
     }).join('')}</div>
     <section class="platform-features-strip">
       <div class="feature-item">
-        <strong>1,122 Activities</strong>
-        <span>1,010 discrete 5-option MCQs across 2 medical courses</span>
+        <strong>${totals.total.toLocaleString()} Activities</strong>
+        <span>${totals.mcqs.toLocaleString()} five-option MCQs across ${subjectConfigs.length} courses</span>
       </div>
       <div class="feature-item">
         <strong>100% Slide Grounded</strong>
-        <span>Directly mapped to 400 authoritative lecture PDF pages</span>
+        <span>Mapped to ${totals.pdfPages.toLocaleString()} supplied PDF pages</span>
       </div>
       <div class="feature-item">
         <strong>Bilingual Support</strong>
@@ -282,7 +288,7 @@ function setup(view) {
   let bankSummaryHTML = '';
   let bankBrowserHTML = '';
   if (isPractice) {
-    const currentAtts = currentAttempts(progress.attempts, activities);
+    const currentAtts = currentAttempts(progress.attempts, choices);
     const seenIds = new Set(currentAtts.map(a => a.activityId));
     const latestByActivity = new Map();
     for (const att of currentAtts) {
@@ -305,7 +311,7 @@ function setup(view) {
         </div>
         <div class="bank-stat-item">
           <span class="stat-number">${practicedCount}</span>
-          <span class="stat-label">Solved (${correctIds.size} ✓ / ${missedCount} ↻)</span>
+          <span class="stat-label">Answered (${correctIds.size} ✓ / ${missedCount} ↻)</span>
         </div>
         <div class="bank-stat-item highlight">
           <span class="stat-number">${unpracticedCount}</span>
@@ -361,7 +367,7 @@ function setup(view) {
       <div class="bank-browser-content">
         <div class="bank-browser-toolbar">
           <div class="bank-search-wrap">
-            <input type="search" id="bank-search-input" class="bank-search-input" placeholder="Search by question text, ID (e.g. p22-fecal), or keyword..." value="${esc(state.bankSearch || '')}" aria-label="Search question library">
+            <input type="search" id="bank-search-input" class="bank-search-input" placeholder="Search question text, ID or keyword..." value="${esc(state.bankSearch || '')}" aria-label="Search question library">
             ${state.bankSearch ? `<button type="button" class="search-clear-btn" data-action="clear-bank-search" aria-label="Clear search">✕</button>` : ''}
           </div>
           <div class="bank-filter-controls">
@@ -380,7 +386,7 @@ function setup(view) {
               <select id="bank-status-filter" class="bank-filter-select" aria-label="Filter by status">
                 <option value="all" ${bankStat === 'all' ? 'selected' : ''}>All Statuses (${choices.length})</option>
                 <option value="unseen" ${bankStat === 'unseen' ? 'selected' : ''}>• Unseen (${unpracticedCount})</option>
-                <option value="mastered" ${bankStat === 'mastered' ? 'selected' : ''}>✓ Mastered (${correctIds.size})</option>
+                <option value="mastered" ${bankStat === 'mastered' ? 'selected' : ''}>✓ Last answer correct (${correctIds.size})</option>
                 <option value="missed" ${bankStat === 'missed' ? 'selected' : ''}>↻ Missed (${missedCount})</option>
                 <option value="saved" ${bankStat === 'saved' ? 'selected' : ''}>★ Saved (${choices.filter(a => savedIds.has(a.id)).length})</option>
               </select>
@@ -410,7 +416,7 @@ function setup(view) {
                 const isMissed = missedIds.has(a.id);
                 const isPracticed = seenIds.has(a.id);
                 const badgeCls = isSolved ? 'good' : isMissed ? 'bad' : isPracticed ? 'neutral' : 'unseen';
-                const badgeText = isSolved ? '✓ Mastered' : isMissed ? '↻ Missed' : isPracticed ? 'Solved' : '• Unseen';
+                const badgeText = isSolved ? '✓ Last answer correct' : isMissed ? '↻ Missed' : isPracticed ? 'Answered' : '• Unseen';
                 const isSaved = savedIds.has(a.id);
                 return `<tr>
                   <td class="col-num"><span class="muted small">${i + 1}</span></td>
@@ -1013,7 +1019,7 @@ function renderMatricesTab() {
         <p class="small muted">${esc(currentMatrix.summary)}</p>
         <div class="matrix-actions-bar">
           <label class="toggle-row occlusion-toggle-label">
-            <span>Blindfold Mode (Hide cells to test recall)</span>
+            <span>Hide matrix values</span>
             <input type="checkbox" id="occlusion-toggle" role="switch" ${isOccluded ? 'checked' : ''}>
           </label>
           ${isOccluded ? `
@@ -1038,8 +1044,7 @@ function renderMatricesTab() {
               <td><strong>${esc(row[0])}</strong></td>
               ${row.slice(1).map(val => `
                 <td class="${isOccluded ? 'occluded-cell' : ''}" title="${isOccluded ? 'Click to reveal' : ''}">
-                  <span class="cell-text">${esc(val)}</span>
-                  ${isOccluded ? '<span class="cell-cover">Tap to reveal</span>' : ''}
+                  ${isOccluded ? `<button type="button" class="matrix-cell-toggle" aria-expanded="false" aria-label="Reveal comparison value"><span class="cell-text" aria-hidden="true">${esc(val)}</span><span class="cell-cover" aria-hidden="true">Tap to reveal</span></button>` : `<span class="cell-text">${esc(val)}</span>`}
                 </td>
               `).join('')}
             </tr>
@@ -1088,13 +1093,13 @@ function memorizeView() {
   const hasHeuristics = synthesisData.heuristics && synthesisData.heuristics.length > 0;
 
   if (!hasOrganisms && !hasTrees && !hasMatrices && !hasHeuristics) {
-    return pageHead('THE MEMORIZE ROOM', 'Synthesis modules in progress.', 'Study notes and clinical summaries for this subject are being prepared.') +
+    return pageHead('THE MEMORIZE ROOM', 'Study with the available tools.', 'Practice, concept drills and saved study notes are available for this subject.') +
       `<div class="empty-state panel" style="text-align:center;padding:3rem 1.5rem;margin:1.5rem auto;max-width:680px">
-        <h2>No synthesis modules yet for ${esc(subject.title)}.</h2>
+        <h2>Continue studying ${esc(subject.title)}.</h2>
         <p style="margin:12px 0 20px;color:#637568;line-height:1.6">The interactive <strong>Classification Trees</strong>, <strong>Bacteria Summary</strong> dossiers, and <strong>Comparison Matrices</strong> are currently featured in <strong>General Microbiology</strong>.</p>
         <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
           <button class="button primary" data-switch-subject="general-microbiology">Open General Microbiology Memorize Room ➔</button>
-          <button class="button outline" data-go="practice">Open ${esc(subject.title)} Practice ↗</button>
+          <button class="button outline" data-go="practice">Open practice ↗</button><button class="button outline" data-go="drills">Open concept drills ↗</button>
         </div>
       </div>`;
   }
@@ -1116,7 +1121,7 @@ function memorizeView() {
     state.memorizeTab = hasOrganisms ? 'organisms' : hasTrees ? 'trees' : hasMatrices ? 'matrices' : 'heuristics';
   }
 
-  const head = pageHead('THE MEMORIZE ROOM', 'Synthesize, connect, remember.', 'Clinical bacterial profiles, classification trees, side-by-side contrast matrices, and clinical rules of thumb.');
+  const head = pageHead('THE MEMORIZE ROOM', 'Synthesize, connect, remember.', 'Review connected ideas, comparisons and original source pages.');
 
   const subnav = `<nav class="memorize-subnav" aria-label="Memorize Room sections">
     ${hasOrganisms ? `<button class="memorize-nav-btn ${state.memorizeTab==='organisms'?'active':''}" data-memorize-tab="organisms">Bacteria Summary <small>${synthesisData.organisms.length}</small></button>` : ''}
@@ -1253,7 +1258,17 @@ function closeSource() {
   else $('#main h1')?.focus({ preventScroll: true });
 }
 
+function setMatrixCell(cell, revealed) {
+  cell.classList.toggle('revealed', revealed);
+  const button = cell.querySelector('.matrix-cell-toggle');
+  button?.setAttribute('aria-expanded', String(revealed));
+  button?.setAttribute('aria-label', revealed ? `Hide comparison value: ${cell.querySelector('.cell-text')?.textContent || ''}` : 'Reveal comparison value');
+  cell.querySelector('.cell-text')?.setAttribute('aria-hidden', String(!revealed));
+}
+
 document.addEventListener('click', async event => {
+  const cell = event.target.closest('.occluded-cell');
+  if (cell) { setMatrixCell(cell, !cell.classList.contains('revealed')); return; }
   const b = event.target.closest('button, a'); if (!b) return;
   if (b.classList.contains('skip-link')) { event.preventDefault(); $('#main')?.focus(); return; }
   if (state.session?.mode === 'exam' && !state.session.done && state.session.deadline && Date.now() >= state.session.deadline) { event.preventDefault(); finishSession(true); return; }
@@ -1323,11 +1338,11 @@ document.addEventListener('click', async event => {
     return;
   }
   if (b.dataset.revealAllOccluded) {
-    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => c.classList.add('revealed'));
+    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => setMatrixCell(c, true));
     return;
   }
   if (b.dataset.hideAllOccluded) {
-    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => c.classList.remove('revealed'));
+    document.querySelectorAll('.matrix-table .occluded-cell').forEach(c => setMatrixCell(c, false));
     return;
   }
   if (b.dataset.selectMatrix) { state.selectedMatrix = b.dataset.selectMatrix; render(); return; }
@@ -1390,8 +1405,6 @@ document.addEventListener('click', async event => {
     if (act) launch([act], 'practice');
     return;
   }
-  const occludedCell = event.target.closest('.occluded-cell');
-  if (occludedCell) { occludedCell.classList.toggle('revealed'); return; }
   const s = state.session, a = s?.items[s.index];
   if (b.dataset.option && a && !s.done && !s.recorded.has(a.id)) {
     s.responses[a.id] = b.dataset.option;
@@ -1571,6 +1584,16 @@ document.addEventListener('visibilitychange',()=>{
   if(document.hidden)pauseSession();else{s.runningSince=Date.now();startClock();}
 });
 
+function hasAnyAnswerHistory(configs, store) {
+  return configs.some(config => {
+    try {
+      const saved = JSON.parse(store.getItem(progressKey(config.id, config.scope.id)) || 'null');
+      return Boolean((Array.isArray(saved?.attempts) && saved.attempts.length) ||
+        (Array.isArray(saved?.archivedAttempts) && saved.archivedAttempts.length));
+    } catch { return false; }
+  });
+}
+
 async function init() {
   const registry = await json('subjects/index.json');
   subjectConfigs = await Promise.all(registry.subjects.map(selected => json(`subjects/${selected.config}`)));
@@ -1615,7 +1638,7 @@ async function init() {
     }
   }
   render();
-  try{if((progress.attempts.length||progress.archivedAttempts.length)&&storage.getItem('study-atlas:release-seen')!==RELEASE)showRelease();else storage.setItem('study-atlas:release-seen',RELEASE);}catch{}
+  try{if(hasAnyAnswerHistory(subjectConfigs, storage)&&storage.getItem('study-atlas:release-seen')!==RELEASE)showRelease();else storage.setItem('study-atlas:release-seen',RELEASE);}catch{}
 }
 matchMedia('(max-width: 1100px)').addEventListener('change', () => { if (state.source) renderSource(); });
 init().catch(error => { $('#app').innerHTML = `<main class="loading error-state"><img src="${url('app/atlas.svg')}" width="48" height="48" alt=""><h1>We couldn’t open the atlas.</h1><p>${esc(error.message)}</p><button class="button primary" onclick="location.reload()">Try again</button><p class="small">Use a local HTTP server or the published site to load the study files.</p></main>`; });

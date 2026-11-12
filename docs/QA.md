@@ -68,3 +68,12 @@ Existing progress retains its v1 keys/schema. Study state is independent and app
 
 
 Version 1.1 functional release `30ee7c403b982261a7c05f14830c311ef8ab683b` passed [CI 42388487151](https://github.com/TheMedDude/study-atlas/actions/runs/42388487151) with all 56 tests. [Pages 42388486189](https://github.com/TheMedDude/study-atlas/actions/runs/42388486189) and build 1349343996 succeeded for the same commit. Seven published application/assets returned HTTP 200 and matched committed bytes; the public bank still contains 694 activities / 601 MCQs. Subsequent handoff changes affect documentation only.
+## Pharmacology 1.2.14 — local release verification
+
+The four-PDF Pharmacology bank is complete and independently reviewed: 538 activities (483 MCQs, 51 matching, 4 ordering), covering 483 assessable core concepts with explicit deferrals for other source-index entries. All283pages are reviewed;269are teaching pages. See subjects/pharmacology/source-analysis/QA.md and ACTIVITY_REVIEW.md.
+
+Syntax checks,77JavaScript tests and3Python bank-build regressions pass. The Python regressions now run in CI. All three subject content validators pass, and the compiled Pharmacology bank exactly matches its frozen reviewed lecture records. Final answer-format/framing audit has no remaining flags under the checked cue rules.
+
+Isolated Chrome verified three course cards and exact counts; instant checking; Arabic feedback; bookmarking and exact source images; restored shuffled order/checked state without duplicate history; course progress isolation; delayed exam feedback and1answered/1unanswered results; Saved and All available; honest library status; chronological Updates at bottom; and cross-subject returning-history popup behavior. Desktop/390px screenshots inspected. Separate matrix checks passed mouse/Enter/Space/hide/reveal-all/accessibility/mobile overflow. This is responsive emulation, not physical-device testing.
+
+The existing Molecular Biology and General Microbiology bank JSON content matches HEAD08f2b6a; Windows checkout line endings differ from Git bytes but no bank-content change is present. No private progress, QA screenshots, working drafts or credentials are included in the release. Production publication and verification follow separately.

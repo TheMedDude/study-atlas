@@ -13,7 +13,10 @@
   },
   "languages": {
     "questions": "en",
-    "explanations": ["en", "ar"],
+    "explanations": [
+      "en",
+      "ar"
+    ],
     "retainEnglishTechnicalTerms": true
   },
   "assessment": {
@@ -21,7 +24,11 @@
     "recommendedPracticeCount": 10,
     "examCount": "student-selected",
     "optionalExamTimer": true,
-    "allowedDrillTypes": ["match", "order", "diagram"],
+    "allowedDrillTypes": [
+      "match",
+      "order",
+      "diagram"
+    ],
     "allowTypedAnswers": false,
     "allowConfidencePrompts": false,
     "allowSelfGrading": false
@@ -48,5 +55,12 @@
     "bacterial-growth": "Bacterial growth",
     "normal-flora": "Normal flora",
     "bacterial-pathogenesis": "Bacterial pathogenesis"
+  },
+  "catalog": {
+    "lectures": 5,
+    "pages": 217,
+    "pdfPages": 224,
+    "mcqs": 409,
+    "total": 428
   }
 }

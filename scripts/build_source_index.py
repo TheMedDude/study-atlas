@@ -3,8 +3,9 @@ import json, pathlib, csv, io, hashlib, re, argparse
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--subject', default='molecular-biology')
+parser.add_argument('--subject-root', type=pathlib.Path, help='Explicit subject directory for staged validation')
 args=parser.parse_args()
-BASE=ROOT/'subjects'/args.subject; ANALYSIS=BASE/'source-analysis'
+BASE=(args.subject_root or ROOT/'subjects'/args.subject).resolve(); ANALYSIS=BASE/'source-analysis'
 def read(path): return json.loads(path.read_text(encoding='utf-8-sig'))
 def write(path,value): path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 manifest=read(BASE/'sources/manifest.json')

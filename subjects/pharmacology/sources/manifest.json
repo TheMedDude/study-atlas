@@ -1,0 +1,79 @@
+{
+  "subject": "Pharmacology",
+  "purpose": "Midterm",
+  "total_pdf_pages": 283,
+  "lectures": [
+    {
+      "id": "introduction-and-roa",
+      "title": "Introduction & ROA",
+      "original_filename": "1) Introduction & ROA.pdf",
+      "path": "slides/01-introduction-and-roa.pdf",
+      "pdf_pages": 47,
+      "sha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "question_emphasis": "general principles; illustrative drug names/functions supporting, not direct memorization targets",
+      "extraction_status": "Complete: all pages visually reviewed, faithful Markdown and page/concept/source-note records",
+      "question_bank_status": "Complete: independently reviewed, source-linked activities compiled",
+      "teaching_pages": 45,
+      "excluded_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "pharmacokinetics",
+      "title": "Pharmacokinetics",
+      "original_filename": "2) Pharmacokinetics.pdf",
+      "path": "slides/02-pharmacokinetics.pdf",
+      "pdf_pages": 95,
+      "sha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "question_emphasis": "general principles; illustrative drug names/functions supporting, not direct memorization targets",
+      "extraction_status": "Complete: all pages visually reviewed, faithful Markdown and page/concept/source-note records",
+      "question_bank_status": "Complete: independently reviewed, source-linked activities compiled",
+      "teaching_pages": 90,
+      "excluded_pages": [
+        1,
+        32,
+        61,
+        63,
+        79
+      ]
+    },
+    {
+      "id": "pharmacodynamics",
+      "title": "Pharmacodynamics",
+      "original_filename": "3) Pharmacodynamics.pdf",
+      "path": "slides/03-pharmacodynamics.pdf",
+      "pdf_pages": 49,
+      "sha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "question_emphasis": "general principles; illustrative drug names/functions supporting, not direct memorization targets",
+      "extraction_status": "Complete: all pages visually reviewed, faithful Markdown and page/concept/source-note records",
+      "question_bank_status": "Complete: independently reviewed, source-linked activities compiled",
+      "teaching_pages": 48,
+      "excluded_pages": [
+        1
+      ]
+    },
+    {
+      "id": "ans-and-adrenergic-drugs",
+      "title": "Introduction To Ans And Adrenergic Drugs",
+      "original_filename": "4) Introduction To Ans And Adrenergic Drugs.pdf",
+      "path": "slides/04-ans-and-adrenergic-drugs.pdf",
+      "pdf_pages": 92,
+      "sha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "question_emphasis": "drug-specific mechanisms, receptor effects and uses supported by this chapter",
+      "extraction_status": "Complete: all pages visually reviewed, faithful Markdown and page/concept/source-note records",
+      "question_bank_status": "Complete: independently reviewed, source-linked activities compiled",
+      "teaching_pages": 86,
+      "excluded_pages": [
+        1,
+        14,
+        23,
+        63,
+        71,
+        80
+      ]
+    }
+  ],
+  "authority": "Four unchanged supplied PDFs only",
+  "stage": "Independently reviewed bank compiled; integrated release candidate"
+}

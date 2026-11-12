@@ -1,6 +1,6 @@
 # Study Atlas — Comprehensive Project Handoff & AI Workflow Guide
 
-> **Current Status**: Complete midterm question bank for **General Microbiology** authored, reviewed, balanced, and compiled into the application (**404 discrete five-option MCQs + 18 concept matches + 1 sequence ordering = 423 validated activities**, achieving 100% core coverage across all 403 core concepts on 217 teaching pages). **Molecular Biology v1.1** remains fully intact (**694 validated activities**, 100% core coverage). Full automated test suite passing (**56/56 tests passing**).
+> **Current status:** Three subjects are now integrated. Molecular Biology has 694 activities; General Microbiology has 428; Pharmacology adds 538 (483 MCQs and 55 concept drills). For the latest source policy, app audit, checks and deployment evidence, read [the Pharmacology handoff](PHARMACOLOGY_HANDOFF.md) and PROJECT_LOG.md. Older milestone counts below are historical.
 
 ---
 

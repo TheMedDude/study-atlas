@@ -18,3 +18,4 @@ jobs:
           node-version: '22'
       - run: npm run check
       - run: npm test
+      - run: python3 -m unittest discover -s tests -p test_bank_transaction.py -v

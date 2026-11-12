@@ -1,0 +1,3051 @@
+{
+  "lectureId": "ans-and-adrenergic-drugs",
+  "title": "Introduction to ANS and Adrenergic Drugs",
+  "reviewer": "independent-ans-source-reviewer",
+  "sourceOnly": true,
+  "tablePolicies": [],
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Introduction to Autonomic nervous system",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nervous system organization",
+      "topics": [
+        "Nervous system organization"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p002-c01",
+          "label": "Nervous system organization",
+          "detail": "Nervous System -> CNS and PNS. CNS -> Brain (receives/processes sensory information; initiates responses; stores memories; generates thoughts/emotions) and Spinal cord (signals to/from brain; controls reflex activities). PNS -> Motor neurons (CNS to muscles/glands) and Sensory neurons (sensory organs to CNS). Motor neurons -> Somatic (voluntary movements) and Autonomic (involuntary responses). ANS -> Sympathetic (Fight or Flight), Parasympathetic (Rest or Digest).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Nervous System -> CNS and PNS. CNS -> Brain (receives/processes sensory information; initiates responses; stores memories; generates thoughts/emotions) and Spinal cord (signals to/from brain; controls reflex activities). PNS -> Motor neurons (CNS to muscles/glands) and Sensory neurons (sensory organs to CNS). Motor neurons -> Somatic (voluntary movements) and Autonomic (involuntary responses). ANS -> Sympathetic (Fight or Flight), Parasympathetic (Rest or Digest).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "PNS branches",
+      "topics": [
+        "PNS branches"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p003-c01",
+          "label": "PNS branches — relationship 1",
+          "detail": "Peripheral Nervous System (PNS)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p003-c02",
+          "label": "PNS branches — relationship 2",
+          "detail": "Somatic branch – Nerves innervate skeletal muscle; Voluntary",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p003-c03",
+          "label": "PNS branches — relationship 3",
+          "detail": "Autonomic branch – Controls internal organs; – Generally involuntary – Innervates the following:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Somatic and autonomic pathways",
+      "topics": [
+        "Somatic and autonomic pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p004-c01",
+          "label": "Somatic and autonomic pathways",
+          "detail": "Somatic: one myelinated neuron from CNS releases acetylcholine at skeletal muscle. Sympathetic: myelinated preganglionic neuron releases acetylcholine at ganglion; unmyelinated postganglionic neuron releases norepinephrine. Adrenal medulla: preganglionic acetylcholine -> medulla -> epinephrine/norepinephrine in blood. Parasympathetic: preganglionic acetylcholine -> ganglion near target -> postganglionic acetylcholine. Autonomic effector labels: smooth muscle (blood vessel example), glands, cardiac muscle. Key distinguishes sympathetic and parasympathetic preganglionic/postganglionic fibers and myelination.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Somatic: one myelinated neuron from CNS releases acetylcholine at skeletal muscle. Sympathetic: myelinated preganglionic neuron releases acetylcholine at ganglion; unmyelinated postganglionic neuron releases norepinephrine. Adrenal medulla: preganglionic acetylcholine -> medulla -> epinephrine/norepinephrine in blood. Parasympathetic: preganglionic acetylcholine -> ganglion near target -> postganglionic acetylcholine. Autonomic effector labels: smooth muscle (blood vessel example), glands, cardiac muscle. Key distinguishes sympathetic and parasympathetic preganglionic/postganglionic fibers and myelination.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Anatomical differences between ANS divisions",
+      "topics": [
+        "Anatomical differences between ANS divisions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p005-c01",
+          "label": "Anatomical differences between ANS divisions",
+          "detail": "| Difference | Sympathetic | Parasympathetic |\n| --- | --- | --- |\n| CNS origin | Thoracolumbar | Craniosacral |\n| Ganglia | Close to spinal cord in chain | Close to target organs |\n| Postganglionic length | Long | Short |\n| Postganglionic branching | Lots; mobilizes multiple organs at once | Very little |\nDiagram labels: brain stem, cranial, cervical, thoracic, lumbar, sacral, T1, L1, sympathetic ganglia; eye, skin*, salivary glands, heart, lungs, stomach, pancreas, liver/gallbladder, adrenal gland, bladder, genitals. Skin asterisk has no expanded footnote.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Difference | Sympathetic | Parasympathetic |\n| --- | --- | --- |\n| CNS origin | Thoracolumbar | Craniosacral |\n| Ganglia | Close to spinal cord in chain | Close to target organs |\n| Postganglionic length | Long | Short |\n| Postganglionic branching | Lots; mobilizes multiple organs at once | Very little |\nDiagram labels: brain stem, cranial, cervical, thoracic, lumbar, sacral, T1, L1, sympathetic ganglia; eye, skin*, salivary glands, heart, lungs, stomach, pancreas, liver/gallbladder, adrenal gland, bladder, genitals. Skin asterisk has no expanded footnote.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Autonomic outflow anatomy",
+      "topics": [
+        "Autonomic outflow anatomy"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p006-c01",
+          "label": "Autonomic outflow anatomy",
+          "detail": "Paired diagrams map sympathetic/parasympathetic outflow from brain, brain stem and spinal cord. Effector labels: lacrimal glands, eye, salivary glands, trachea, lungs, heart, liver, stomach, pancreas, intestines, kidney, bladder, reproductive organs. Sympathetic chain/collateral ganglia and parasympathetic ganglia near targets are shown. Legend distinguishes solid preganglionic and dotted postganglionic fibers. Levels labeled cranial/cervical/thoracic/lumbar/sacral. No numeric segment ranges are inferred.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Paired diagrams map sympathetic/parasympathetic outflow from brain, brain stem and spinal cord. Effector labels: lacrimal glands, eye, salivary glands, trachea, lungs, heart, liver, stomach, pancreas, intestines, kidney, bladder, reproductive organs. Sympathetic chain/collateral ganglia and parasympathetic ganglia near targets are shown. Legend distinguishes solid preganglionic and dotted postganglionic fibers. Levels labeled cranial/cervical/thoracic/lumbar/sacral. No numeric segment ranges are inferred.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Opposing autonomic organ effects",
+      "topics": [
+        "Opposing autonomic organ effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p007-c01",
+          "label": "Opposing autonomic organ effects",
+          "detail": "Red=sympathetic; blue=parasympathetic.\n\n| Target | Sympathetic/red | Parasympathetic/blue |\n| --- | --- | --- |\n| Eye | Radial iris contraction; pupil dilates | Sphincter contraction; pupil contracts; ciliary contraction accommodates near vision |\n| Trachea/bronchioles | Dilates | Constricts, increases secretions |\n| Adrenal medulla | Epinephrine/NE secreted | No blue label |\n| Kidney | Renin secretion: beta1 increases, alpha1 decreases | No blue label |\n| Ureters/bladder | Detrusor relaxes; trigone/sphincter contract | Detrusor contracts; trigone/sphincter relax |\n| Male genitalia | Ejaculation | Erection |\n| Lacrimal glands | No red label | Tears stimulated |\n| Salivary glands | Thick/viscous secretion | Copious/watery secretion |\n| Heart | Increased rate/contractility | Decreased rate/contractility |\n| GI tract | Decreased motility/tone; sphincter contraction | Increased motility/tone |\n| Female genitalia | Uterine relaxation | No blue label |\n| Skeletal-muscle vessels | Dilation | No blue label |\n| Skin/mucous-membrane/splanchnic vessels | Constriction | No blue label |",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Red=sympathetic; blue=parasympathetic.\n\n| Target | Sympathetic/red | Parasympathetic/blue |\n| --- | --- | --- |\n| Eye | Radial iris contraction; pupil dilates | Sphincter contraction; pupil contracts; ciliary contraction accommodates near vision |\n| Trachea/bronchioles | Dilates | Constricts, increases secretions |\n| Adrenal medulla | Epinephrine/NE secreted | No blue label |\n| Kidney | Renin secretion: beta1 increases, alpha1 decreases | No blue label |\n| Ureters/bladder | Detrusor relaxes; trigone/sphincter contract | Detrusor contracts; trigone/sphincter relax |\n| Male genitalia | Ejaculation | Erection |\n| Lacrimal glands | No red label | Tears stimulated |\n| Salivary glands | Thick/viscous secretion | Copious/watery secretion |\n| Heart | Increased rate/contractility | Decreased rate/contractility |\n| GI tract | Decreased motility/tone; sphincter contraction | Increased motility/tone |\n| Female genitalia | Uterine relaxation | No blue label |\n| Skeletal-muscle vessels | Dilation | No blue label |\n| Skin/mucous-membrane/splanchnic vessels | Constriction | No blue label |",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fight-or-flight responses",
+      "topics": [
+        "Fight-or-flight responses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p008-c01",
+          "label": "Fight-or-flight responses — relationship 1",
+          "detail": "Sympathetic Reaction: Fight or Flight",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p008-c02",
+          "label": "Fight-or-flight responses — relationship 2",
+          "detail": "During rage or fright the sympathetic system can discharge as a unit --affecting multi-organ systems.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p008-c03",
+          "label": "Fight-or-flight responses — relationship 3",
+          "detail": "Increase blood flow to skeletal muscles and heart",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p008-c04",
+          "label": "Fight-or-flight responses — relationship 4",
+          "detail": "Pupils dilatation: contraction of iris radial muscle",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p008-c05",
+          "label": "Fight-or-flight responses — relationship 5",
+          "detail": "Many of these effects are primarily due to epinephrine release from the adrenal medulla.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Rest-and-digest responses",
+      "topics": [
+        "Rest-and-digest responses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p009-c01",
+          "label": "Rest-and-digest responses — relationship 1",
+          "detail": "Parasympathetic Responses: Rest and Digest",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p009-c02",
+          "label": "Rest-and-digest responses — relationship 2",
+          "detail": "Parasympathetic system controls more discretely, reducing the level of resting organ function.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p009-c03",
+          "label": "Rest-and-digest responses — relationship 3",
+          "detail": "Increases gastrointestinal motility",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p009-c04",
+          "label": "Rest-and-digest responses — relationship 4",
+          "detail": "Protects retina from excessive light ( Pupil: constricts): contraction iris sphincter",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p009-c05",
+          "label": "Rest-and-digest responses — relationship 5",
+          "detail": "Promotes absorption of nutrients",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "General innervation",
+      "topics": [
+        "General innervation"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p010-c01",
+          "label": "General innervation — relationship 1",
+          "detail": "Innervation: General Characteristics",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p010-c02",
+          "label": "General innervation — relationship 2",
+          "detail": "Most organs are innervated by both branches",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p010-c03",
+          "label": "General innervation — relationship 3",
+          "detail": "When both innervate an organ, they usually oppose one another",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p010-c04",
+          "label": "General innervation — relationship 4",
+          "detail": "One system usually predominant in controlling the activity (e.g;. Vagus nerve is the predominant factor for controlling heart rate)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p010-c05",
+          "label": "General innervation — relationship 5",
+          "detail": "Some effector organs (adrenal medulla, kidney, pilomotor muscles, and sweat gland) receive only sympathetic innervation",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Transmitter pathways",
+      "topics": [
+        "Transmitter pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p011-c01",
+          "label": "Transmitter pathways",
+          "detail": "| Pathway | Ganglion | Effector |\n| --- | --- | --- |\n| Sympathetic adrenal medulla | Acetylcholine/nicotinic | Epi/NE into blood; adrenergic receptors |\n| Sympathetic | Acetylcholine/nicotinic | NE/adrenergic |\n| Parasympathetic | Acetylcholine/nicotinic | Acetylcholine/muscarinic |\n| Somatic | No ganglia | Acetylcholine/nicotinic at skeletal muscle |",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Pathway | Ganglion | Effector |\n| --- | --- | --- |\n| Sympathetic adrenal medulla | Acetylcholine/nicotinic | Epi/NE into blood; adrenergic receptors |\n| Sympathetic | Acetylcholine/nicotinic | NE/adrenergic |\n| Parasympathetic | Acetylcholine/nicotinic | Acetylcholine/muscarinic |\n| Somatic | No ganglia | Acetylcholine/nicotinic at skeletal muscle |",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Neurotransmitter-receptor map",
+      "topics": [
+        "Neurotransmitter-receptor map"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p012-c01",
+          "label": "Neurotransmitter-receptor map",
+          "detail": "Sympathetic cholinergic postganglionic ACh acts on M receptors; renal dopaminergic diagram labels D/D1.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram rows: Parasympathetic(Vagus): ACh -> ganglionic N -> ACh -> M at heart/vessels. Sympathetic adrenergic: ACh/N -> NE -> alpha/beta at heart/vessels. Sympathetic cholinergic: ACh/N -> ACh -> M; label reads sweat glands and vessels. Sympathetic dopaminergic: ACh/N -> D -> D1 at renal vessels. Adrenal: ACh/N -> EPI/NE in blood -> alpha/beta at heart/vessels. Abbreviations: CNS central nervous system; Pre preganglionic; Post postganglionic; ACh acetylcholine; N nicotinic; NE norepinephrine; EPI epinephrine; D dopamine; M muscarinic; beta beta-adrenoceptor; alpha alpha-adrenoceptor; D1 dopaminergic receptor.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u012",
+          "description": "Parasympathetic M effectors include heart/vessels and sympathetic cholinergic effectors sweat glands/vessels without vascular-bed qualifications. Do not score a universal vascular innervation rule.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ANS receptor families",
+      "topics": [
+        "ANS receptor families"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p013-c01",
+          "label": "ANS receptor families",
+          "detail": "Nicotinic subtypes:Nn,Nm; muscarinic:M1–M5; adrenergic:alpha1/alpha2,beta1/beta2/beta3.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Table ANS label | Receptor | Subtypes |\n| --- | --- | --- |\n| Parasympathetic | Nicotinic cholinergic | Nn,Nm |\n| Parasympathetic | Muscarinic cholinergic | M1,M2,M3,M4,M5 |\n| Sympathetic | Alpha adrenergic | alpha1,alpha2 |\n| Sympathetic | Beta adrenergic | beta1,beta2,beta3 |\nLower sympathetic diagram: preganglionic ACh at ganglion, postganglionic NE at adrenergic effector. Parasympathetic diagram: ACh at ganglion and ACh at muscarinic effector. Table grouping is preserved but does not override additional pathways on pp11–12.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u013",
+          "description": "The table groups Nn/Nm under parasympathetic and alpha/beta under sympathetic; pp11–12 show ganglionic,somatic and sympathetic-cholinergic exceptions. No division-exclusive receptor inference.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Adrenergic agonists",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adrenergic neurotransmission",
+      "topics": [
+        "Adrenergic neurotransmission"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p015-c01",
+          "label": "Adrenergic neurotransmission — relationship 1",
+          "detail": "Neurotransmission at adrenergic neurons",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p015-c02",
+          "label": "Adrenergic neurotransmission — relationship 2",
+          "detail": "Neurotransmission takes place at numerous bead-like enlargements called varicosities.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p015-c03",
+          "label": "Adrenergic neurotransmission — relationship 3",
+          "detail": "The process involves five steps:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p015-c04",
+          "label": "Adrenergic neurotransmission — relationship 4",
+          "detail": "Removal of the neurotransmitter",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Varicosity and drug targets",
+      "topics": [
+        "Varicosity and drug targets"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p016-c01",
+          "label": "Varicosity and drug targets",
+          "detail": "Drug overlays: reserpine at vesicular storage; guanethidine at release; cocaine/imipramine at reuptake.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Varicosity: tyrosine -> Dopa (TH), Dopa -> dopamine (DD), vesicular dopamine -> NE (DbetaH). MAO at mitochondrion; liver COMT/MAO. NE exocytosis, effector receptor binding, vascular entry and reuptake drawn. Drug overlays: reserpine at storage, guanethidine at release, cocaine/imipramine at reuptake. Callouts:1 synthesis,2 storage,3 release,4 binding,6 reuptake. Footer literally reads TH: thyroxin hydroxylase; DD: dopamine decarboxylase; DbetaH: dopamine beta-hydroxylase; COMT: catehol-O-methyltransferase; MAO: monoamine oxidase.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u016",
+          "description": "TH footer reads thyroxin hydroxylase but the pathway/p17 describe tyrosine hydroxylation. Reuptake is numbered6 here, whereas p17 removal5/metabolism6. Block erroneous enzyme expansion and arbitrary numbering questions.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NE synthesis-storage-release-removal",
+      "topics": [
+        "NE synthesis-storage-release-removal"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p017-c01",
+          "label": "NE synthesis-storage-release-removal",
+          "detail": "1.Synthesis of NE: tyrosine hydroxylation is rate-limiting; Na+ accompanies tyrosine uptake; tyrosine -> DOPA -> dopamine.\n2.Uptake into storage vesicles: dopamine enters and becomes NE; vesicular NE protected from degradation; reserpine inhibits transport into vesicle.\n3.Release: calcium influx triggers vesicle/cell-membrane fusion(exocytosis); guanethidine and bretylium block release.\n4.Binding: neurotransmitter activates postsynaptic receptor; presynaptic receptor also drawn.\n5.Removal: released NE rapidly taken into neuron; cocaine/imipramine inhibit reuptake.\n6.Metabolism: COMT methylates NE; MAO oxidizes it. Inactive metabolites -> urine. Other labels: synaptic space, intracellular response, cell membrane, COMT.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "1.Synthesis of NE: tyrosine hydroxylation is rate-limiting; Na+ accompanies tyrosine uptake; tyrosine -> DOPA -> dopamine.\n2.Uptake into storage vesicles: dopamine enters and becomes NE; vesicular NE protected from degradation; reserpine inhibits transport into vesicle.\n3.Release: calcium influx triggers vesicle/cell-membrane fusion(exocytosis); guanethidine and bretylium block release.\n4.Binding: neurotransmitter activates postsynaptic receptor; presynaptic receptor also drawn.\n5.Removal: released NE rapidly taken into neuron; cocaine/imipramine inhibit reuptake.\n6.Metabolism: COMT methylates NE; MAO oxidizes it. Inactive metabolites -> urine. Other labels: synaptic space, intracellular response, cell membrane, COMT.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adrenoceptors and second messengers",
+      "topics": [
+        "Adrenoceptors and second messengers"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p018-c01",
+          "label": "Adrenoceptors and second messengers — relationship 1",
+          "detail": "Alpha1 couples to Gq/IP3/DAG; alpha2 to Gi/cAMP inhibition; beta1/beta2/beta3 to Gs/cAMP activation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p018-c02",
+          "label": "Adrenoceptors and second messengers — relationship 2",
+          "detail": "Alpha1 contracts vascular,iris radial,prostate and sphincter smooth muscle; beta2 relaxes several smooth-muscle targets.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Upper chart: alpha1=vasoconstriction, increased resistance/BP, mydriasis, increased internal-bladder-sphincter closure. Alpha2=inhibition of NE/ACh/insulin release. Beta1=tachycardia, increased lipolysis, myocardial contractility, renin release. Beta2=vasodilation, slightly decreased resistance, bronchodilation, increased muscle/liver glycogenolysis, glucagon release, uterine relaxation.\n\n| Receptor | Lower-table location/function | Mechanism |\n| --- | --- | --- |\n| alpha1 | Contraction: most vascular smooth muscle, pupillary radial muscle, pilomotor smooth muscle, prostate, urinary/anal sphincters | IP3/DAG(Gq) |\n| alpha2 | Presynaptic CNS: decreases sympathetic flow; GIT heterotropic receptors-relaxation; pancreas | cAMP inhibition(Gi) |\n| beta1 | Heart, juxtaglomerular cells | cAMP activation(Gs) |\n| beta2 | Relaxation: GIT, urinary bladder, uterus, bronchi; ciliary epithelium, skeletal vascular muscle, liver | cAMP activation(Gs) |\n| beta3 | Fat cells | cAMP activation(Gs) |",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u018",
+          "description": "Upper chart attributes lipolysis to beta1; p22/p36 associate adipose lipolysis with beta3. Preserve both, block upper-chart lipolysis receptor identity.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha1 versus alpha2",
+      "topics": [
+        "Alpha1 versus alpha2"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p019-c01",
+          "label": "Alpha1 versus alpha2 — relationship 1",
+          "detail": "Presynaptic alpha2 reduces cAMP and further NE release; alpha1 increases DAG/IP3 and intracellular calcium.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p019-c02",
+          "label": "Alpha1 versus alpha2 — relationship 2",
+          "detail": "Alpha1 agonists phenylephrine/methoxamine; antagonist prazosin. Alpha2 agonist clonidine; antagonist yohimbine.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Left diagrams: alpha2 activation lowers cAMP and inhibits further NE release; alpha1 activation raises DAG/IP3 and intracellular calcium.\n\n| Feature | Alpha1 | Alpha2 |\n| --- | --- | --- |\n| Location | Postjunctional: skin/mucosal vessels, pilomotor muscle, sweat gland, iris radial muscle | Prejunctional |\n| Function | Stimulatory-GU, vasoconstriction, gland secretion, gut relaxation, glycogenolysis | Transmitter-release inhibition, vasoconstriction, decreased central sympathetic outflow, platelet aggregation |\n| Agonist | Phenylephrine,methoxamine | Clonidine |\n| Antagonist | Prazosin | Yohimbine |",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u019",
+          "description": "Alpha1 sweat-gland/general gland/GU/gut labels lack qualifications and differ from the specific cholinergic sweat-gland map on p12. Preserve but do not score generalized gland/gut rules.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Adrenergic overview",
+      "topics": [
+        "Adrenergic overview"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p020-c01",
+          "label": "Adrenergic overview — relationship 1",
+          "detail": "The adrenergic drugs affect receptors that are stimulated by NE or E.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p020-c02",
+          "label": "Adrenergic overview — relationship 2",
+          "detail": "These receptors known as adrenergic receptors or adrenoceptors",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p020-c03",
+          "label": "Adrenergic overview — relationship 3",
+          "detail": "Drugs affecting adrenergic system:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p020-c04",
+          "label": "Adrenergic overview — relationship 4",
+          "detail": "Direct acting agonists: direct activation of the adrenergic receptor",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p020-c05",
+          "label": "Adrenergic overview — relationship 5",
+          "detail": "Indirect acting agonists: enhancing release or blocking reuptake of NE Sympatholytics (antagonists): block the action of the neurotransmitters at the receptors",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Tissue effects I",
+      "topics": [
+        "Tissue effects I"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p021-c01",
+          "label": "Tissue effects I",
+          "detail": "| Tissue | Receptor | Action | Opposing action |\n| --- | --- | --- | --- |\n| Heart sinus/AV | beta1 | Increased automaticity | Cholinergic |\n| Cardiac conduction | beta1 | Increased conduction velocity/automaticity | Cholinergic |\n| Myofibrils | beta1 | Increased contractility/automaticity | Cholinergic |\n| Vascular smooth muscle | beta2 | Vasodilation | Alpha-adrenergic |\n| Bronchial smooth muscle | beta2 | Bronchodilation | Cholinergic |\n| Kidney | beta1 | Increased renin | Alpha1-adrenergic |\n| Liver | beta2,alpha1 | Increased glycogenolysis/gluconeogenesis | Dash |",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Tissue | Receptor | Action | Opposing action |\n| --- | --- | --- | --- |\n| Heart sinus/AV | beta1 | Increased automaticity | Cholinergic |\n| Cardiac conduction | beta1 | Increased conduction velocity/automaticity | Cholinergic |\n| Myofibrils | beta1 | Increased contractility/automaticity | Cholinergic |\n| Vascular smooth muscle | beta2 | Vasodilation | Alpha-adrenergic |\n| Bronchial smooth muscle | beta2 | Bronchodilation | Cholinergic |\n| Kidney | beta1 | Increased renin | Alpha1-adrenergic |\n| Liver | beta2,alpha1 | Increased glycogenolysis/gluconeogenesis | Dash |",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Tissue effects II",
+      "topics": [
+        "Tissue effects II"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p022-c01",
+          "label": "Tissue effects II",
+          "detail": "| Tissue | Receptor | Action | Opposing action |\n| --- | --- | --- | --- |\n| Adipose | beta3 | Increased lipolysis | Alpha2-adrenergic |\n| Skeletal muscle | beta2 | Increased contractility,potassium uptake,glycogenolysis; arterial dilation;tremor | Dash |\n| Ciliary muscle | beta2 | Relaxation | Cholinergic |\n| GI tract | beta2 | Decreased motility | Cholinergic |\n| Gallbladder | beta2 | Relaxation | Cholinergic |\n| Detrusor | beta2 | Relaxation | Cholinergic |\n| Uterus | beta2 | Relaxation | Oxytocin |",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Tissue | Receptor | Action | Opposing action |\n| --- | --- | --- | --- |\n| Adipose | beta3 | Increased lipolysis | Alpha2-adrenergic |\n| Skeletal muscle | beta2 | Increased contractility,potassium uptake,glycogenolysis; arterial dilation;tremor | Dash |\n| Ciliary muscle | beta2 | Relaxation | Cholinergic |\n| GI tract | beta2 | Decreased motility | Cholinergic |\n| Gallbladder | beta2 | Relaxation | Cholinergic |\n| Detrusor | beta2 | Relaxation | Cholinergic |\n| Uterus | beta2 | Relaxation | Oxytocin |",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Adrenergic agonists",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha agonist rank",
+      "topics": [
+        "Alpha agonist rank"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p024-c01",
+          "label": "Alpha agonist rank — relationship 1",
+          "detail": "Show weak response to the synthetic agonist isoproterenol",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p024-c02",
+          "label": "Alpha agonist rank — relationship 2",
+          "detail": "They are responsive to the naturally occurring catecholamines epinephrine and norepinephrine.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p024-c03",
+          "label": "Alpha agonist rank — relationship 3",
+          "detail": "For α receptors, the rank order of potency and affinity epinephrine ≥ norepinephrine >> isoproterenol",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta agonist rank",
+      "topics": [
+        "Beta agonist rank"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p025-c01",
+          "label": "Beta agonist rank",
+          "detail": "Broad beta-adrenoceptor ranking printed:isoproterenol>epinephrine>norepinephrine; no subtype inference.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u025",
+          "description": "Broad beta potency rank has no subtype restriction. Do not infer identical ranking at every beta subtype.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Catecholamine structure",
+      "topics": [
+        "Catecholamine structure"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p026-c01",
+          "label": "Catecholamine structure",
+          "detail": "Catecholamine group is3,4-dihydroxybenzene; examples include epinephrine,NE,dopamine,isoproterenol.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u026",
+          "description": "Example5 says Doputamine, while p46 uses Dobutamine. Preserve spelling difference, do not test as distinct drugs.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Catecholamine properties",
+      "topics": [
+        "Catecholamine properties"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p027-c01",
+          "label": "Catecholamine properties",
+          "detail": "Catecholamines rapidly inactivated by COMT/MAO; polarity associated with poor CNS penetration.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u027",
+          "description": "Poor CNS penetration due to polarity is followed by CNS attribution of anxiety/tremor/headache, while p47 says no BBB penetration. Preserve differing absolute/relative claims; block absolute CNS-entry and unsupported symptom localization.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Structure and beta affinity",
+      "topics": [
+        "Structure and beta affinity"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p028-c01",
+          "label": "Structure and beta affinity",
+          "detail": "Structures labeled NE, epinephrine, isoproterenol and dopamine. Arrows from epinephrine's N-methyl and isoproterenol's N-isopropyl substituents point to 'Increases the affinity for beta receptors'. Ring hydroxyls and side-chain hydroxyl/amino groups remain visible; no other structure–activity rule added.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Structures labeled NE, epinephrine, isoproterenol and dopamine. Arrows from epinephrine's N-methyl and isoproterenol's N-isopropyl substituents point to 'Increases the affinity for beta receptors'. Ring hydroxyls and side-chain hydroxyl/amino groups remain visible; no other structure–activity rule added.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Noncatecholamines",
+      "topics": [
+        "Noncatecholamines"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p029-c01",
+          "label": "Noncatecholamines — relationship 1",
+          "detail": "Increased lipid solubility better access to the CNS.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p029-c02",
+          "label": "Noncatecholamines — relationship 2",
+          "detail": "Note: Ephedrine and amphetamine may act indirectly by causing the release of stored catecholamines.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Direct and indirect mechanisms",
+      "topics": [
+        "Direct and indirect mechanisms"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p030-c01",
+          "label": "Direct and indirect mechanisms — relationship 1",
+          "detail": "Mechanism of action of the adrenergic agonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p030-c02",
+          "label": "Direct and indirect mechanisms — relationship 2",
+          "detail": "They act directly on α or β receptors",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p030-c03",
+          "label": "Direct and indirect mechanisms — relationship 3",
+          "detail": "Examples of direct-acting agonists:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p030-c04",
+          "label": "Direct and indirect mechanisms — relationship 4",
+          "detail": "Block the reuptake of norepinephrine (uptake blockers) e.g. cocaine, imipramine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p030-c05",
+          "label": "Direct and indirect mechanisms — relationship 5",
+          "detail": "Cause the release of norepinephrine from the cytoplasmic pools or vesicles of the adrenergic neuron. e.g. amphetamines",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mixed-action agonists",
+      "topics": [
+        "Mixed-action agonists"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p031-c01",
+          "label": "Mixed-action agonists",
+          "detail": "Agonists that have the capacity to: 1.Stimulate adrenoceptors directly 2.Release norepinephrine from the adrenergic neuron.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure6.8: indirect action enhances vesicular NE release; direct action activates postsynaptic receptor; mixed action acts directly and indirectly. Labels: neuron,synapse,postsynaptic cell membrane.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Direct agonist signaling",
+      "topics": [
+        "Direct agonist signaling"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p032-c01",
+          "label": "Direct agonist signaling — relationship 1",
+          "detail": "DIRECT-ACTING ADRENERGIC AGONISTS",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p032-c02",
+          "label": "Direct agonist signaling — relationship 2",
+          "detail": "They bind to adrenergic receptors without interacting with the presynaptic neuron.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p032-c03",
+          "label": "Direct agonist signaling — relationship 3",
+          "detail": "The activated receptor initiates synthesis of second messengers and subsequent intracellular signals.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p032-c04",
+          "label": "Direct agonist signaling — relationship 4",
+          "detail": "These agents are widely used clinically.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine dose dependence",
+      "topics": [
+        "Epinephrine dose dependence"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p033-c01",
+          "label": "Epinephrine dose dependence — relationship 1",
+          "detail": "Epinephrine is synthesized in the adrenal medulla and released into the bloodstream.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p033-c02",
+          "label": "Epinephrine dose dependence — relationship 2",
+          "detail": "Epinephrine interacts with both α and β receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p033-c03",
+          "label": "Epinephrine dose dependence — relationship 3",
+          "detail": "At low doses, β effects (vasodilation) on the vascular system predominate,",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p033-c04",
+          "label": "Epinephrine dose dependence — relationship 4",
+          "detail": "At high doses, α effects (vasoconstriction) are the strongest.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine cardiovascular actions",
+      "topics": [
+        "Epinephrine cardiovascular actions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p034-c01",
+          "label": "Epinephrine cardiovascular actions — relationship 1",
+          "detail": "Adrenergic Agonists: Epinephrine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p034-c02",
+          "label": "Epinephrine cardiovascular actions — relationship 2",
+          "detail": "Epinephrine is a potent activator of a and ß adrenergic receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p034-c03",
+          "label": "Epinephrine cardiovascular actions — relationship 3",
+          "detail": "Prominent cardiovascular effects particularly on blood pressure: potent vasopressor.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p034-c04",
+          "label": "Epinephrine cardiovascular actions — relationship 4",
+          "detail": "Systolic pressure increases to a greater extent than diastolic (diastolic pressure may decrease).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p034-c05",
+          "label": "Epinephrine cardiovascular actions — relationship 5",
+          "detail": "Epinephrine increases blood pressure by: Enhancing cardiac contractility (positive inotropic effect): ß1- receptor effects. Increasing heart rate (positive chronotropic effect): ß1-receptor effects. (↑ Oxygen demand on myocardium). Activates β1 receptors on the kidney to cause renin release. Renin results in production of angiotensin II, a potent vasoconstrictor",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine respiratory actions",
+      "topics": [
+        "Epinephrine respiratory actions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p035-c01",
+          "label": "Epinephrine respiratory actions — relationship 1",
+          "detail": "Adrenergic Agonists: Epinephrine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p035-c02",
+          "label": "Epinephrine respiratory actions — relationship 2",
+          "detail": "Epinephrine is a significant respiratory tract bronchodilator through ß2-receptor activation that mediate smooth muscle relaxation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p035-c03",
+          "label": "Epinephrine respiratory actions — relationship 3",
+          "detail": "ß2-receptor activation also decreases mast cell secretion (histamines).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p035-c04",
+          "label": "Epinephrine respiratory actions — relationship 4",
+          "detail": "This decrease may be beneficial is management of asthma",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine metabolic actions",
+      "topics": [
+        "Epinephrine metabolic actions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p036-c01",
+          "label": "Epinephrine metabolic actions — relationship 1",
+          "detail": "Adrenergic Agonists: Epinephrine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p036-c02",
+          "label": "Epinephrine metabolic actions — relationship 2",
+          "detail": "Epinephrine has a significant hyperglycemic effect because of:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p036-c03",
+          "label": "Epinephrine metabolic actions — relationship 3",
+          "detail": "Increased glycogenolysis in the liver (β2 effect)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p036-c04",
+          "label": "Epinephrine metabolic actions — relationship 4",
+          "detail": "Increased release of glucagon (β2 effect)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p036-c05",
+          "label": "Epinephrine metabolic actions — relationship 5",
+          "detail": "Decreased release of insulin (α2 effect). Epinephrine initiates lipolysis through its agonist activity on the β3 receptors of adipose tissue",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine bronchospasm/anaphylaxis uses",
+      "topics": [
+        "Epinephrine bronchospasm/anaphylaxis uses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p037-c01",
+          "label": "Epinephrine bronchospasm/anaphylaxis uses — relationship 1",
+          "detail": "Emergency in cases of brochoconstricton resulted in diminished respiratory exchange",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p037-c02",
+          "label": "Epinephrine bronchospasm/anaphylaxis uses — relationship 2",
+          "detail": "Selective β2 agonists, such as albuterol, are presently favored because",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p037-c03",
+          "label": "Epinephrine bronchospasm/anaphylaxis uses — relationship 3",
+          "detail": "Minimal cardiac stimulatory effect.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p037-c04",
+          "label": "Epinephrine bronchospasm/anaphylaxis uses — relationship 4",
+          "detail": "Drug of choice for Type I hypersensitivity to allergens",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine other uses",
+      "topics": [
+        "Epinephrine other uses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p038-c01",
+          "label": "Epinephrine other uses — relationship 1",
+          "detail": "2% solution topical can reduce intra-ocular pressure",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p038-c02",
+          "label": "Epinephrine other uses — relationship 2",
+          "detail": "Provides vasoconstriction (1:100000):",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p038-c03",
+          "label": "Epinephrine other uses — relationship 3",
+          "detail": "increases the duration of the local anesthesia.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p038-c04",
+          "label": "Epinephrine other uses — relationship 4",
+          "detail": "Epinephrine may be used to restore cardiac rhythm in patients with cardiac arrest regardless of the cause.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine PK/adverse effects",
+      "topics": [
+        "Epinephrine PK/adverse effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p039-c01",
+          "label": "Epinephrine PK/adverse effects — relationship 1",
+          "detail": "Short Duration (rapid degradation by COMT and MAO)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p039-c02",
+          "label": "Epinephrine PK/adverse effects — relationship 2",
+          "detail": "Metabolite in Urine, Orally Ineffective",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p039-c03",
+          "label": "Epinephrine PK/adverse effects — relationship 3",
+          "detail": "Routes: IM ,IV , Sub Q, Endotracheal Tube, Inhalation",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p039-c04",
+          "label": "Epinephrine PK/adverse effects — relationship 4",
+          "detail": "CNS: Headache, anxiety, fear, tension, tremor",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p039-c05",
+          "label": "Epinephrine PK/adverse effects — relationship 5",
+          "detail": "Hemorrhage: marked elevation in BP",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Epinephrine interactions",
+      "topics": [
+        "Epinephrine interactions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p040-c01",
+          "label": "Epinephrine interactions — relationship 1",
+          "detail": "Increased production of adrenergic receptors on the vasculature leading to a hypersensitive response.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p040-c02",
+          "label": "Epinephrine interactions — relationship 2",
+          "detail": "Epinephrine enhances cardiovascular actions in these patients.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p040-c03",
+          "label": "Epinephrine interactions — relationship 3",
+          "detail": "The dose of epinephrine must be reduced.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p040-c04",
+          "label": "Epinephrine interactions — relationship 4",
+          "detail": "Epinephrine increases the release of endogenous stores of glucose.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p040-c05",
+          "label": "Epinephrine interactions — relationship 5",
+          "detail": "In the diabetic, dosages of insulin may have to be increased.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Norepinephrine profile",
+      "topics": [
+        "Norepinephrine profile"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p041-c01",
+          "label": "Norepinephrine profile — relationship 1",
+          "detail": "Norepinephrine is the primary neurotransmitter released by postganglionic neurons of the SANS.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p041-c02",
+          "label": "Norepinephrine profile — relationship 2",
+          "detail": "Norepinephrine (Levophed®) is a potent activator of a and ß1 adrenergic receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p041-c03",
+          "label": "Norepinephrine profile — relationship 3",
+          "detail": "In therapeutic doses, the α- receptor is most affected",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p041-c04",
+          "label": "Norepinephrine profile — relationship 4",
+          "detail": "Potent vasopressor: systolic and diastolic pressure increase.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p041-c05",
+          "label": "Norepinephrine profile — relationship 5",
+          "detail": "Vasoconstriction a1 receptor effects: precapillary resistance vessels of the skin, kidney, and mucosa. Therapeutic use: in treatment of shock. (Limited use).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Norepinephrine vasoconstriction",
+      "topics": [
+        "Norepinephrine vasoconstriction"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p042-c01",
+          "label": "Norepinephrine vasoconstriction — relationship 1",
+          "detail": "Adrenergic Agonists: Norepinephrine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p042-c02",
+          "label": "Norepinephrine vasoconstriction — relationship 2",
+          "detail": "In therapeutic doses, the α- receptor is most affected.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p042-c03",
+          "label": "Norepinephrine vasoconstriction — relationship 3",
+          "detail": "Increases peripheral resistance: due to intense vasoconstriction of most vascular beds, including the kidney (α1 effect).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p042-c04",
+          "label": "Norepinephrine vasoconstriction — relationship 4",
+          "detail": "Both systolic and diastolic blood pressures increase.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Norepinephrine reflex",
+      "topics": [
+        "Norepinephrine reflex"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p043-c01",
+          "label": "Norepinephrine reflex",
+          "detail": "Raised BP stimulates baroreceptors, increases vagal activity and causes reflex bradycardia.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u043",
+          "description": "Negligible cardiac stimulation must not be treated as absence of direct beta1 action (p41). The pressure-vagal-bradycardia reflex is explicit. Atropine pretreatment is an unanswered prompt; no outcome is supplied.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Dopamine",
+      "topics": [
+        "Dopamine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p044-c01",
+          "label": "Dopamine — relationship 1",
+          "detail": "Immediate precursor of norepinephrine.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p044-c02",
+          "label": "Dopamine — relationship 2",
+          "detail": "Dopamine is a CNS neurotransmitter associated with the basal ganglia",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p044-c03",
+          "label": "Dopamine — relationship 3",
+          "detail": "Activate both α and β adrenoceptors and dopamine receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p044-c04",
+          "label": "Dopamine — relationship 4",
+          "detail": "Unique among catecholamines in that dopamine can simultaneously increase:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p044-c05",
+          "label": "Dopamine — relationship 5",
+          "detail": "Renal blood flow. (dilates renal arterioles (D1)) Therapeutic use: treatment of shock, ↑ BP & kidney perfusion. Continuous IV infusion.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Isoproterenol",
+      "topics": [
+        "Isoproterenol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p045-c01",
+          "label": "Isoproterenol — relationship 1",
+          "detail": "Direct-acting synthetic catecholamine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p045-c02",
+          "label": "Isoproterenol — relationship 2",
+          "detail": "Activates ß adrenergic receptors (both ß1 - and ß2 -receptor subtypes).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p045-c03",
+          "label": "Isoproterenol — relationship 3",
+          "detail": "Has limited action at alpha adrenergic receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p045-c04",
+          "label": "Isoproterenol — relationship 4",
+          "detail": "Rarely used therapeutically (non-selective).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Dobutamine",
+      "topics": [
+        "Dobutamine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p046-c01",
+          "label": "Dobutamine — relationship 1",
+          "detail": "Synthatic direct acting catecholamines",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p046-c02",
+          "label": "Dobutamine — relationship 2",
+          "detail": "Pharmacological effects exerted through interaction with ß1 receptor agonist.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p046-c03",
+          "label": "Dobutamine — relationship 3",
+          "detail": "No action through dopamine receptors.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p046-c04",
+          "label": "Dobutamine — relationship 4",
+          "detail": "Short-term management of heart failure following surgery, during acute congestive heart failure, or post -myocardial infarction: ↑ cardiac output, little change in heart rate.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p046-c05",
+          "label": "Dobutamine — relationship 5",
+          "detail": "Should be used with caution in patients with atrial fibrillation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Catecholamine table",
+      "topics": [
+        "Catecholamine table"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p047-c01",
+          "label": "Catecholamine table",
+          "detail": "Table compares epinephrine,NE,isoproterenol,dopamine,dobutamine receptor profiles and printed uses; BBB absolute blocked.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Drug | Receptor specificity | Printed uses |\n| --- | --- | --- |\n| Epinephrine | alpha1,alpha2,beta1,beta2 | Acute asthma;anaphylactic shock;prolong local anesthesia |\n| NE | alpha1,alpha2,beta1 | Shock |\n| Isoproterenol | beta1,beta2 | Cardiac stimulant |\n| Dopamine | Dopaminergic,alpha1,beta1 | Shock;congestive heart failure;raise BP |\n| Dobutamine | beta1 | Acute heart failure |\nCatecholamine callout: rapid onset, brief duration, not administered orally, do not penetrate BBB. The absolute BBB claim is flagged.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u047",
+          "description": "Absolute no BBB penetration conflicts in degree with poor penetration on p27. Block absolute claim. Preserve source uses as lecture teaching, not current universal treatment advice.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha1 agonist effects",
+      "topics": [
+        "Alpha1 agonist effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p048-c01",
+          "label": "Alpha1 agonist effects — relationship 1",
+          "detail": "a1 Selective Adrenergic Agonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p048-c02",
+          "label": "Alpha1 agonist effects — relationship 2",
+          "detail": "a1 adrenergic agonists are used clinically in management of hypotension / shock.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p048-c03",
+          "label": "Alpha1 agonist effects — relationship 3",
+          "detail": "Phenylephrine and Methoxamine are direct-acting vasoconstrictors drugs.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p048-c04",
+          "label": "Alpha1 agonist effects — relationship 4",
+          "detail": "Activate a1 adrenergic receptors in vascular smooth muscle producing vasoconstriction",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p048-c05",
+          "label": "Alpha1 agonist effects — relationship 5",
+          "detail": "Peripheral vascular resistance is increased . Blood pressure may be increased , causing a reflex reduction heart rate (Bradycardia).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phenylephrine/methoxamine",
+      "topics": [
+        "Phenylephrine/methoxamine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p049-c01",
+          "label": "Phenylephrine/methoxamine — relationship 1",
+          "detail": "Phenylephrine uses include hypotension,nasal decongestion,mydriasis.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p049-c02",
+          "label": "Phenylephrine/methoxamine — relationship 2",
+          "detail": "Methoxamine used during halothane anesthesia; source says it does not trigger anesthetic-sensitized arrhythmia.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u049",
+          "description": "No effect on heart is unqualified whereas p48 explicitly gives reflex bradycardia. Distinguish direct receptor action from reflex; no absolute no-heart-effect claim.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Central alpha2 agonism",
+      "topics": [
+        "Central alpha2 agonism"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p050-c01",
+          "label": "Central alpha2 agonism — relationship 1",
+          "detail": "a2 Selective Adrenergic Agonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p050-c02",
+          "label": "Central alpha2 agonism — relationship 2",
+          "detail": "a2 selective adrenergic agonists are used to treat essential hypertension.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p050-c03",
+          "label": "Central alpha2 agonism — relationship 3",
+          "detail": "Activation of central a2 adrenergic receptors at cardiovascular control centers.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p050-c04",
+          "label": "Central alpha2 agonism — relationship 4",
+          "detail": "Activation decreases sympathetic outflow, reducing sympathetic vascular tone.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clonidine feedback",
+      "topics": [
+        "Clonidine feedback"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p051-c01",
+          "label": "Clonidine feedback",
+          "detail": "Synaptic diagram: NE release -> alpha2 autoreceptor negative feedback; NE also reaches alpha1 effector receptor. Clonidine and dexmedetomidine labeled at alpha2. No dexmedetomidine indications supplied.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Synaptic diagram: NE release -> alpha2 autoreceptor negative feedback; NE also reaches alpha1 effector receptor. Clonidine and dexmedetomidine labeled at alpha2. No dexmedetomidine indications supplied.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clonidine actions",
+      "topics": [
+        "Clonidine actions"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p052-c01",
+          "label": "Clonidine actions — relationship 1",
+          "detail": "a2 Selective Adrenergic Agonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p052-c02",
+          "label": "Clonidine actions — relationship 2",
+          "detail": "Therapeutic use: in treating essential hypertension.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p052-c03",
+          "label": "Clonidine actions — relationship 3",
+          "detail": "Clonidine acts in the brain at pre-synaptic a2 receptors by inhibiting adrenergic outflow from the brainstem.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p052-c04",
+          "label": "Clonidine actions — relationship 4",
+          "detail": "Inhibition of sympathetic outflow results in a decrease in blood pressure.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p052-c05",
+          "label": "Clonidine actions — relationship 5",
+          "detail": "Clonidine reduces cardiac output (by reducing both stroke volume and heart rate) and peripheral resistance. A prolonged hypotensive response results.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Clonidine adverse effects/related drugs",
+      "topics": [
+        "Clonidine adverse effects/related drugs"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p053-c01",
+          "label": "Clonidine adverse effects/related drugs — relationship 1",
+          "detail": "Clonidine adverse effects:lethargy,xerostomia,sedation,sexual dysfunction.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p053-c02",
+          "label": "Clonidine adverse effects/related drugs — relationship 2",
+          "detail": "Related drugs:guanabenz,guanfacine,methyldopa; methyldopa converted to alpha-methylNE and highlighted during pregnancy.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u053",
+          "description": "Same mechanism,indication,side effects broadly groups agents without detailed individual comparison; do not infer identity of every adverse-effect profile.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Short-acting beta2 agonists",
+      "topics": [
+        "Short-acting beta2 agonists"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p054-c01",
+          "label": "Short-acting beta2 agonists",
+          "detail": "Albuterol/terbutaline:short-acting beta2 bronchodilators, targeted by inhalation; bronchial relaxation and reduced histamine/leukotriene release.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u054",
+          "description": "Short agonist duration less than3hours has no precise duration definition; preserve but avoid exact cut-off items.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta2 adverse effects",
+      "topics": [
+        "Beta2 adverse effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p055-c01",
+          "label": "Beta2 adverse effects — relationship 1",
+          "detail": "ß2 Selective Adrenergic Agonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p055-c02",
+          "label": "Beta2 adverse effects — relationship 2",
+          "detail": "Excessive cardiovascular stimulation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p055-c03",
+          "label": "Beta2 adverse effects — relationship 3",
+          "detail": "Skeletal muscle tremor (tolerance develops, unknown mechanism) due to ß2 adrenergic receptor activation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p055-c04",
+          "label": "Beta2 adverse effects — relationship 4",
+          "detail": "Over-usage may be a factor in morbidity and mortality in asthmatics.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Long-acting beta2 agonists",
+      "topics": [
+        "Long-acting beta2 agonists"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p056-c01",
+          "label": "Long-acting beta2 agonists",
+          "detail": "Salmeterol/formoterol:LABA bronchodilators, source-stated12hour duration, nocturnal asthma alongside other medication.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u056",
+          "description": "Delayed onset jointly attributed to salmeterol/formoterol without distinguishing the drugs; block drug-specific onset comparisons and unqualified shared delayed onset.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta2 uterine relaxants",
+      "topics": [
+        "Beta2 uterine relaxants"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p057-c01",
+          "label": "Beta2 uterine relaxants — relationship 1",
+          "detail": "ß2 Agonist: Uterine Relaxant Ritodrine (Yutopar®), Terbutaline (Brethine®)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p057-c02",
+          "label": "Beta2 uterine relaxants — relationship 2",
+          "detail": "ß2 adrenergic receptor-selective: developed as a uterine relaxant.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p057-c03",
+          "label": "Beta2 uterine relaxants — relationship 3",
+          "detail": "May be administered by I.V. In certain patients for arresting premature labor; If successful, oral therapy may be started.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p057-c04",
+          "label": "Beta2 uterine relaxants — relationship 4",
+          "detail": "ß2 adrenergic receptor-selective agonists may not improve perinatal mortality and may increase maternal morbidity.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p057-c05",
+          "label": "Beta2 uterine relaxants — relationship 5",
+          "detail": "In women being treated for premature labor, may have pulmonary edema.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ephedrine",
+      "topics": [
+        "Ephedrine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p058-c01",
+          "label": "Ephedrine",
+          "detail": "Ephedrine:plant-derived mixed-action noncatechol; good oral availability,long duration,CNS entry; direct alpha/beta stimulation plus catecholamine release.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u058",
+          "description": "No longer recommended lacks indication/context, while p62 lists uses. Block universal recommendation status.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Amphetamine",
+      "topics": [
+        "Amphetamine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p059-c01",
+          "label": "Amphetamine — relationship 1",
+          "detail": "Indirect acting Sympathomimetic Amphetamine (Global®)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p059-c02",
+          "label": "Amphetamine — relationship 2",
+          "detail": "CNS stimulant - more than ephedrine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p059-c03",
+          "label": "Amphetamine — relationship 3",
+          "detail": "Peripheral actions mainly through release of catecholamines from nerve terminals",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 60,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Tyramine",
+      "topics": [
+        "Tyramine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p060-c01",
+          "label": "Tyramine — relationship 1",
+          "detail": "Releases NE from nerve terminals",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p060-c02",
+          "label": "Tyramine — relationship 2",
+          "detail": "Found in fermented foods (e.g. wine, cheese)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p060-c03",
+          "label": "Tyramine — relationship 3",
+          "detail": "May produce hypertensive crisis in patients taking MAO inhibitors",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 61,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cocaine",
+      "topics": [
+        "Cocaine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p061-c01",
+          "label": "Cocaine — relationship 1",
+          "detail": "Blocks NE reuptake into nerve terminal",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p061-c02",
+          "label": "Cocaine — relationship 2",
+          "detail": "Peripheral sympathomimetic effects prominent",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p061-c03",
+          "label": "Cocaine — relationship 3",
+          "detail": "Smoked, snorted and injected for rapid onset",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 62,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Noncatecholamine table",
+      "topics": [
+        "Noncatecholamine table"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p062-c01",
+          "label": "Noncatecholamine table",
+          "detail": "Table compares alpha1/alpha2/beta2 agents with mixed/indirect agonists; unqualified/unsupported table inferences blocked.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "| Drug | Specificity | Printed uses |\n| --- | --- | --- |\n| Oxymetazoline | alpha1 | Nasal decongestant |\n| Phenylephrine | alpha1 | Nasal decongestant;raise BP;paroxysmal supraventricular tachycardia |\n| Methoxamine | alpha1 | Supraventricular tachycardia |\n| Clonidine | alpha2 | Hypertension |\n| Albuterol,terbutaline | beta2 | Short-acting bronchospasm treatment |\n| Salmeterol,formoterol | beta2 | Long-acting bronchospasm treatment |\n| Amphetamine | alpha,beta,CNS | CNS stimulant for childhood attention deficit syndrome,narcolepsy,appetite control |\n| Ephedrine,pseudoephedrine | alpha,beta,CNS | Nasal decongestant;raise BP |\nCallout: noncatecholamines have longer duration than catecholamines; all can be administered orally. Preserve shorthand, do not equate amphetamine alpha/beta label with direct-receptor binding.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u062",
+          "description": "Table-only SVT indications for phenylephrine/methoxamine lack explanatory context. Amphetamine alpha/beta shorthand does not imply direct receptor binding. All noncatecholamines can be oral is unqualified. Preserve but block unsupported treatment/generalization inferences.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 63,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Adrenergic antagonists",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 64,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Antagonist mechanism",
+      "topics": [
+        "Antagonist mechanism"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p064-c01",
+          "label": "Antagonist mechanism — relationship 1",
+          "detail": "These drugs act by attaching to the receptor, thus preventing its activation by endogenous catecholamine.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p064-c02",
+          "label": "Antagonist mechanism — relationship 2",
+          "detail": "Adrenergic antagonists are classified according to their relative affinities for α or β receptors in the peripheral nervous system:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 65,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Antagonist classification",
+      "topics": [
+        "Antagonist classification"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p065-c01",
+          "label": "Antagonist classification",
+          "detail": "Tree: Alpha blockers -> nonselective (irreversible phenoxybenzamine;reversible phentolamine), alpha1-selective prazosin, alpha2-selective yohimbine. Beta blockers -> nonselective propranolol,beta1-selective atenolol,beta2-selective butoxamine.\n\n| Alpha blocker | Brand label |\n| --- | --- |\n| Alfuzosin | Uroxatral |\n| Doxazosin | Cardura |\n| Phenoxybenzamine | Dibenzyline |\n| Phentolamine | Regitine |\n| Prazosin | Minipress |\n| Tamsulosin | Flomax |\n| Terazosin | Hytrin |\n| Yohimbine | Yocon |\n\n| Beta blocker | Brand labels |\n| --- | --- |\n| Acebutolol | Sectral |\n| Atenolol | Tenormin |\n| Betaxolol | Betoptic-S,Kerlone |\n| Bisoprolol | Zebeta |\n| Carteolol | Cartrol |\n| Carvedilol | Coreg,Coreg CR |\n| Esmolol | Brevibloc |\n| Labetalol | Trandate |\n| Metoprolol | Lopressor,Toprol-XL |\n| Nadolol | Corgard |\n| Nebivolol | Bystolic |\n| Penbutolol | Levatol |\n| Pindolol | Visken |\n| Propranolol | Inderal LA,Innopran XL |\n| Timolol | Betimol,Istalol,Timoptic |\nUptake/release drugs: Guanethidine(Ismelin),Reserpine(Serpasil). Brand catalog retained as supporting reference.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Tree: Alpha blockers -> nonselective (irreversible phenoxybenzamine;reversible phentolamine), alpha1-selective prazosin, alpha2-selective yohimbine. Beta blockers -> nonselective propranolol,beta1-selective atenolol,beta2-selective butoxamine.\n\n| Alpha blocker | Brand label |\n| --- | --- |\n| Alfuzosin | Uroxatral |\n| Doxazosin | Cardura |\n| Phenoxybenzamine | Dibenzyline |\n| Phentolamine | Regitine |\n| Prazosin | Minipress |\n| Tamsulosin | Flomax |\n| Terazosin | Hytrin |\n| Yohimbine | Yocon |\n\n| Beta blocker | Brand labels |\n| --- | --- |\n| Acebutolol | Sectral |\n| Atenolol | Tenormin |\n| Betaxolol | Betoptic-S,Kerlone |\n| Bisoprolol | Zebeta |\n| Carteolol | Cartrol |\n| Carvedilol | Coreg,Coreg CR |\n| Esmolol | Brevibloc |\n| Labetalol | Trandate |\n| Metoprolol | Lopressor,Toprol-XL |\n| Nadolol | Corgard |\n| Nebivolol | Bystolic |\n| Penbutolol | Levatol |\n| Pindolol | Visken |\n| Propranolol | Inderal LA,Innopran XL |\n| Timolol | Betimol,Istalol,Timoptic |\nUptake/release drugs: Guanethidine(Ismelin),Reserpine(Serpasil). Brand catalog retained as supporting reference.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 66,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha-blocker hemodynamics",
+      "topics": [
+        "Alpha-blocker hemodynamics"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p066-c01",
+          "label": "Alpha-blocker hemodynamics — relationship 1",
+          "detail": "Alpha-adrenergic Receptor Antagonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p066-c02",
+          "label": "Alpha-blocker hemodynamics — relationship 2",
+          "detail": "α adrenoceptors blockers profoundly affect blood pressure.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p066-c03",
+          "label": "Alpha-blocker hemodynamics — relationship 3",
+          "detail": "Blockade of these receptors reduces the sympathetic tone of the blood vessels, resulting in decreased peripheral vascular resistance.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p066-c04",
+          "label": "Alpha-blocker hemodynamics — relationship 4",
+          "detail": "This induces a reflex tachycardia.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p066-c05",
+          "label": "Alpha-blocker hemodynamics — relationship 5",
+          "detail": "β receptors are not affected by α blockers.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 67,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phenoxybenzamine/phentolamine",
+      "topics": [
+        "Phenoxybenzamine/phentolamine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p067-c01",
+          "label": "Phenoxybenzamine/phentolamine — relationship 1",
+          "detail": "Phenoxybenzamine irreversible/about24hours; phentolamine reversible/about4hours; comparable alpha1/alpha2 inhibition.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p067-c02",
+          "label": "Phenoxybenzamine/phentolamine — relationship 2",
+          "detail": "Pheochromocytoma:adrenal medullary tumor releases catecholamines; source treatment setting for the named alpha blockers.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u067",
+          "description": "BPH appears under a joint phenoxybenzamine/phentolamine heading without individual allocation; do not infer preferred or unique BPH drug.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 68,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Selective alpha1 blockers",
+      "topics": [
+        "Selective alpha1 blockers"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p068-c01",
+          "label": "Selective alpha1 blockers — relationship 1",
+          "detail": "Prazosin/terazosin/doxazosin are selective alpha1 blockers reducing peripheral resistance and preload.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p068-c02",
+          "label": "Selective alpha1 blockers — relationship 2",
+          "detail": "Source uses:essential hypertension,CHF; tamsulosin/alfuzosin highlighted for BPH.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u068",
+          "description": "No significant HR/CO increase conflicts with p69 explicit reflex HR/CO increases. Preserve conflict; block unconditional net-HR/output predictions. Vasodilation/BP reduction remains clear.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 69,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha1 cardiovascular effects",
+      "topics": [
+        "Alpha1 cardiovascular effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p069-c01",
+          "label": "Alpha1 cardiovascular effects",
+          "detail": "Alpha1 blockade inhibits catecholamine vasoconstriction, producing arteriolar/venular dilation and reduced BP.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u069",
+          "description": "Reflex HR/CO increase differs from p68 net no-significant-increase statement. Preserve reflex mechanism without scoring unconditional net comparisons.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 70,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alpha1 adverse effects",
+      "topics": [
+        "Alpha1 adverse effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p070-c01",
+          "label": "Alpha1 adverse effects — relationship 1",
+          "detail": "a1-adrenergic Blocking Drugs: Prazosin, Terazosin & Doxazosin.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p070-c02",
+          "label": "Alpha1 adverse effects — relationship 2",
+          "detail": "Significant orthostatic hypotension following first-dose (use ¼ Dose at Bed time)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p070-c03",
+          "label": "Alpha1 adverse effects — relationship 3",
+          "detail": "Additive effect with Diuretics or ß Blockers (reduce Dose)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p070-c04",
+          "label": "Alpha1 adverse effects — relationship 4",
+          "detail": "Dizziness, lack of energy, nasal congestion, headache",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 71,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Beta-blocking agents",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 72,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker selectivity/naming",
+      "topics": [
+        "Beta-blocker selectivity/naming"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p072-c01",
+          "label": "Beta-blocker selectivity/naming",
+          "detail": "Beta blockers competitive; propranolol beta1/beta2; metoprolol/atenolol primarily beta1.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u072",
+          "description": "All beta-blocker names ending -olol except labetalol/carvedilol is an unqualified mnemonic; do not classify arbitrary new drug names from it.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 73,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker cardiovascular effects",
+      "topics": [
+        "Beta-blocker cardiovascular effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p073-c01",
+          "label": "Beta-blocker cardiovascular effects",
+          "detail": "Beta blockade lowers HR,contractility,myocardial oxygen demand; long-term reduction of resistance/output emphasized.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u073",
+          "description": "BP reduction in hypertensive but not normal subjects is unqualified. Do not score universal absence of BP effect in normal subjects.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 74,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker pulmonary effects",
+      "topics": [
+        "Beta-blocker pulmonary effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p074-c01",
+          "label": "Beta-blocker pulmonary effects — relationship 1",
+          "detail": "In asthmatic patients or patients with COPD (chronic obstructive pulmonary disease) ß receptor blockers cause dangerous bronchiolar constriction.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p074-c02",
+          "label": "Beta-blocker pulmonary effects — relationship 2",
+          "detail": "This effect is particularly prominent with nonselective ß receptor blockers, such as Propranolol.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 75,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker metabolic effects",
+      "topics": [
+        "Beta-blocker metabolic effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p075-c01",
+          "label": "Beta-blocker metabolic effects — relationship 1",
+          "detail": "Patient with type 1 diabetes is to be given propranolol, very careful monitoring of blood glucose is essential, because pronounced hypoglycemia may occur after insulin injection.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p075-c02",
+          "label": "Beta-blocker metabolic effects — relationship 2",
+          "detail": "β Blockers also attenuate the normal physiologic response to hypoglycemia.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p075-c03",
+          "label": "Beta-blocker metabolic effects — relationship 3",
+          "detail": "Because of its ability to suppress glycogenolysis and mask tachycardia, propranolol must be used with caution by diabetic patients.\"",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 76,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Propranolol uses",
+      "topics": [
+        "Propranolol uses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p076-c01",
+          "label": "Propranolol uses — relationship 1",
+          "detail": "Nonselective-ß adrenergic Receptor Antagonists: Propranolol",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p076-c02",
+          "label": "Propranolol uses — relationship 2",
+          "detail": "Lipophillic nonselective ß adrenergic receptor antagonist.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p076-c03",
+          "label": "Propranolol uses — relationship 3",
+          "detail": "Glaucoma: ↓ Secretion of Aq. Humor (chronic).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p076-c04",
+          "label": "Propranolol uses — relationship 4",
+          "detail": "Migraine: Chronic, reduce incidence and severity.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p076-c05",
+          "label": "Propranolol uses — relationship 5",
+          "detail": "Hyperthyroidism: blunt sympathetic Stimulation.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 77,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Propranolol adverse effects",
+      "topics": [
+        "Propranolol adverse effects"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p077-c01",
+          "label": "Propranolol adverse effects",
+          "detail": "Arrhythmias (if treatment is stopped quickly)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 78,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker adverse-effect diagram",
+      "topics": [
+        "Beta-blocker adverse-effect diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p078-c01",
+          "label": "Beta-blocker adverse-effect diagram",
+          "detail": "Pictograms:fatigue,bronchoconstriction,sexual dysfunction,abrupt-withdrawal arrhythmia; source instructs tapering over weeks.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Pictograms: fatigue,bronchoconstriction,sexual dysfunction,arrhythmias upon abrupt withdrawal. Beside sexual dysfunction: reasons not clear and may be independent of beta-receptor blockade. Beside arrhythmia: beta blockers must be tapered off gradually for at least a few weeks.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u078",
+          "description": "Sexual-dysfunction mechanism explicitly unclear/possibly independent of beta blockade. Do not invent it.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 79,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nadolol/timolol",
+      "topics": [
+        "Nadolol/timolol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p079-c01",
+          "label": "Nadolol/timolol — relationship 1",
+          "detail": "Nonselective-ß adrenergic Receptor Antagonists:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p079-c02",
+          "label": "Nadolol/timolol — relationship 2",
+          "detail": "May accumulate in patient with renal dysfunction.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p079-c03",
+          "label": "Nadolol/timolol — relationship 3",
+          "detail": "Ocular use: treatment of glaucoma.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p079-c04",
+          "label": "Nadolol/timolol — relationship 4",
+          "detail": "↓ Secretion of Aq. Humor (chronic).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p079-c05",
+          "label": "Nadolol/timolol — relationship 5",
+          "detail": "Systemic effects common after ocular application.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 80,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Selective beta1 antagonists",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 81,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Metoprolol",
+      "topics": [
+        "Metoprolol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p081-c01",
+          "label": "Metoprolol — relationship 1",
+          "detail": "Selective- ß1 Receptor Antagonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p081-c02",
+          "label": "Metoprolol — relationship 2",
+          "detail": "Effective in treating essential hypertension.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p081-c03",
+          "label": "Metoprolol — relationship 3",
+          "detail": "Effective in treating symptoms of coronary artery disease.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p081-c04",
+          "label": "Metoprolol — relationship 4",
+          "detail": "Lower risk than non-selective in patients with patients with impaired pulmonary function or Diabetic hypertensive patients.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 82,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Esmolol",
+      "topics": [
+        "Esmolol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p082-c01",
+          "label": "Esmolol — relationship 1",
+          "detail": "Selective- ß1 Receptor Antagonists",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p082-c02",
+          "label": "Esmolol — relationship 2",
+          "detail": "Very short duration of action (9 minutes).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p082-c03",
+          "label": "Esmolol — relationship 3",
+          "detail": "Effective in rapid termination of supraventricular arrhythmias.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p082-c04",
+          "label": "Esmolol — relationship 4",
+          "detail": "Beneficial in management of intra-operative adverse BP/heart rate increases associated with noxious stimulation (e.g. During tracheal intubation).",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 83,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Atenolol",
+      "topics": [
+        "Atenolol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p083-c01",
+          "label": "Atenolol",
+          "detail": "Atenolol beta1-selective,used for hypertension,with somewhat longer action than metoprolol.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u083",
+          "description": "Most cardioselective atenolol is a superlative without comparison set. Block universal ranking; beta1 selectivity/longer action than metoprolol remain explicit.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 84,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cardioselective-blocker uses",
+      "topics": [
+        "Cardioselective-blocker uses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p084-c01",
+          "label": "Cardioselective-blocker uses",
+          "detail": "Cardioselective beta blockers are taught for hypertension with impaired pulmonary function or diabetes.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u084",
+          "description": "Pulmonary advantage explained with peripheral vascular beta2 localization. Preserve wording but do not score that anatomical explanation; relative selectivity/lower pulmonary risk separately supported p81.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 85,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Pindolol/acebutolol",
+      "topics": [
+        "Pindolol/acebutolol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p085-c01",
+          "label": "Pindolol/acebutolol — relationship 1",
+          "detail": "Pindolol/acebutolol have intrinsic sympathomimetic activity/partial agonism.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p085-c02",
+          "label": "Pindolol/acebutolol — relationship 2",
+          "detail": "Less further HR reduction with moderate bradycardia; carbohydrate/lipid metabolism less affected than other beta blockers.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u085",
+          "description": "Cannot use in patients with arrhythmia due to ISA is a broad unqualified exclusion. Preserve; avoid universal contraindication item.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 86,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ISA-agent uses",
+      "topics": [
+        "ISA-agent uses"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p086-c01",
+          "label": "ISA-agent uses — relationship 1",
+          "detail": "Hypertensive patients with moderate bradycardia: because a further decrease in heart rate is less pronounced with these drugs.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p086-c02",
+          "label": "ISA-agent uses — relationship 2",
+          "detail": "Diabetic hypertensive patients: carbohydrate metabolism is less affected.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 87,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Labetalol/carvedilol",
+      "topics": [
+        "Labetalol/carvedilol"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p087-c01",
+          "label": "Labetalol/carvedilol — relationship 1",
+          "detail": "Antagonists of both α and β adrenoceptors: Labetalol and carvedilol Actions:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p087-c02",
+          "label": "Labetalol/carvedilol — relationship 2",
+          "detail": "α1-blocking actions: produce peripheral vasodilation, thereby reducing blood pressure.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p087-c03",
+          "label": "Labetalol/carvedilol — relationship 3",
+          "detail": "They do not alter serum lipid or blood glucose levels.",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p087-c04",
+          "label": "Labetalol/carvedilol — relationship 4",
+          "detail": "Carvedilol also decreases lipid peroxidation and vascular wall thickening, effects that have benefit in heart failure. Therapeutic use in:",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p087-c05",
+          "label": "Labetalol/carvedilol — relationship 5",
+          "detail": "Emergency hypertension and Pregnancy induced Hypertension (labetalol) Adverse effects: associated with α1 blockade",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 88,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Beta-blocker table",
+      "topics": [
+        "Beta-blocker table"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p088-c01",
+          "label": "Beta-blocker table",
+          "detail": "Table compares nonselective,beta1-selective,ISA and alpha/beta blockers; nebivolol beta1 with NOincrease; acebutolol/pindolol footnoted partial agonists.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Figure7.13. NO=nitric oxide; superscript1 means acebutolol/pindolol are partial agonists.\n\n| Drug | Specificity | Printed uses |\n| --- | --- | --- |\n| Propranolol | beta1,beta2 | Hypertension,migraine,hyperthyroidism,angina pectoris,MI |\n| Nadolol | beta1,beta2 | Hypertension |\n| Timolol | beta1,beta2 | Glaucoma,hypertension |\n| Acebutolol1,atenolol,esmolol,metoprolol | beta1 | Hypertension |\n| Nebivolol | beta1;NO increase | Hypertension |\n| Pindolol1 | beta1,beta2 | Hypertension |\n| Carvedilol,labetalol | alpha1,beta1,beta2 | Hypertension;congestive heart failure |\nGrouped uses are not allocated automatically to every individual member; see specific p87 statements.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u088",
+          "description": "Grouped carvedilol/labetalol uses must not allocate every listed use to both drugs. Individual use emphases specified p87.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 89,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Release/uptake drugs",
+      "topics": [
+        "Release/uptake drugs"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p089-c01",
+          "label": "Release/uptake drugs — relationship 1",
+          "detail": "DRUGS AFFECTING NEUROTRANSMITTER RELEASE OR UPTAKE",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p089-c02",
+          "label": "Release/uptake drugs — relationship 2",
+          "detail": "Prevent normal physiologic release or storage of NE",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p089-c03",
+          "label": "Release/uptake drugs — relationship 3",
+          "detail": "These agents are seldom used therapeutically A. Reserpine B. Guanethidine",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 90,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Guanethidine",
+      "topics": [
+        "Guanethidine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p090-c01",
+          "label": "Guanethidine — relationship 1",
+          "detail": "Enters the neuron via the amine pump",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p090-c02",
+          "label": "Guanethidine — relationship 2",
+          "detail": "Inhibits NE release from sympathetic nerves (anti-release action)",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p090-c03",
+          "label": "Guanethidine — relationship 3",
+          "detail": "Depletes NE in peripheral tissues",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 91,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Guanethidine diagram",
+      "topics": [
+        "Guanethidine diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p091-c01",
+          "label": "Guanethidine diagram",
+          "detail": "Guanethidine diagram has terminal G,NE and MAO labels; unkeyed numeric steps supporting only.",
+          "priority": "supporting",
+          "rationale": "Supporting anatomy/summary/catalog detail retained; avoid inferring properties from brand lists or grouped rows."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Guanethidine(Ismelin) terminal diagram: G enters at arrow1; intracellular NE and MAO labeled; arrow2 from NE toward MAO; arrow3 along outward terminal route; arrow4 toward terminal-release region. No written numeric key; p90 supplies textual action. Do not invent meanings for unkeyed numbers.",
+      "uncertainties": [
+        {
+          "id": "ans-and-adrenergic-drugs-u091",
+          "description": "Numbers1–4 have no written legend; no scored question can depend on invented numeric meanings.",
+          "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible."
+        }
+      ]
+    },
+    {
+      "pdfPage": 92,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reserpine",
+      "topics": [
+        "Reserpine"
+      ],
+      "concepts": [
+        {
+          "id": "ans-and-adrenergic-drugs-p092-c01",
+          "label": "Reserpine — relationship 1",
+          "detail": "Inhibits transport of dopamine and NE into the storage granule",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p092-c02",
+          "label": "Reserpine — relationship 2",
+          "detail": "Depletes NE from peripheral and central neurons",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        },
+        {
+          "id": "ans-and-adrenergic-drugs-p092-c03",
+          "label": "Reserpine — relationship 3",
+          "detail": "Major side-effects: Depression and gut problems",
+          "priority": "core",
+          "rationale": "Explicit mechanism,comparison,organ response or drug-specific relationship taught in the fourth chapter."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Written content and layout visually checked; no additional unreadable teaching labels identified.",
+      "uncertainties": []
+    }
+  ]
+}

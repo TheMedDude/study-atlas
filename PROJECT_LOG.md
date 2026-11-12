@@ -554,3 +554,27 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
 
 
 
+
+## 2026-11-12 — Pharmacology switch and current-code audit checkpoint
+
+- User canceled the unfinished Microbiology preparation; preserved the independently completed Antigravity work at1.2.13/08f2b6a. Current tree was clean before this task.
+- Imported four unchanged Pharmacology PDFs from the new ZIP (47+95+49+92=283pages). Stored hashes/original names in the manifest; extracted embedded text and rendered every page under ignored work/pharmacology. Full visual/structured source QA and question authoring remain pending. Captured chapter-specific drug emphasis and continuation steps in subjects/pharmacology/DISCOVERY.md.
+- Fixed confirmed course-chooser regressions: wrong progress storage key, hard-coded subject metrics/aggregate counts, and misleading questions-practiced label for answer totals. Catalog metrics now derive from validated source/bank data and refresh on successful bank builds. Existing question banks and answer-history schema were not edited.
+- Syntax checks and68 tests passed, including three new meaningful catalog/renderer regressions. Both existing subjects passed structural/provenance validation. Full semantic review of new Microbiology synthesis and full browser audit remain open; do not describe the app as perfect from tests alone.
+- No push, release or website deployment in this checkpoint. Pharmacology is not yet visible in the app and no Pharmacology questions have been generated.
+
+### Pharmacology source gate and independent review — continuing
+
+- Completed and validated all283page records:269teaching,14cover/administrative/divider exclusions,576unique indexed concepts and66source notes. All four detailed lecture extractions and the consolidated study source are saved. Intro image-only diagram/table transcriptions received an independent sample review and two corrected table tokens.
+- Generated283lossless source-page WebPs (32,881,018bytes), checking decoded pixels, source hashes and page/image provenance. Manifest status updates preserve the same original PDF hashes.
+- Candidate authoring is now underway across all four chapters, with separate independent chapter reviewers. Candidates stay outside compiled banks. Explicit unresolved concept IDs are now rejected by the content validator.
+- Continued app audit: corrected individual matrix-cell reveal routing and added real keyboard buttons/accessible reveal state; an independent review added revealed-value screen-reader names and included archived answers in course badges. Real isolated Chrome checks passed click, Enter, Space, reveal/hide-all,390px overflow and no page errors.70automated tests passed at this checkpoint.
+- Corrected Question Library's single-answer Mastered claim to Last answer correct and restricted summary status sets to the displayed question pool. Recognition and historical answers remain distinct from sustained concept evidence. No source bank or answer-history schema was altered by the app fixes.
+
+## 2026-11-12 — Pharmacology 1.2.14 release candidate verified
+
+- Final bank:538reviewed activities, comprising483five-option MCQs,51matching and4ordering. Independent review removed65of603submitted candidates and repaired weak alternatives, ambiguous keys, page references, calculation conditions and bilingual explanations. Final cue audit is clear. All483assessablecore concepts have activities;33othercore-index entries have explicit deferrals,76deferrals overall. Source reference details remain visible.
+- Integrated Pharmacology as the third course, preserved first-three-chapter principle emphasis and fourth-chapter drug focus, and appended a plain chronological1.2.14What's New entry. Existing source banks and progress schemas remain unchanged.
+- Fixed course counts/progress, matrix reveal/accessibility, single-answer mastery labels, MCQ library counts, cross-subject update detection and stale release-dialog copy. Bank compilation now validates a temporary tree before replacing content; failed gates preserve existing published artifacts.
+- Local release checks passed:77JS tests,3Python regressions,syntax and all3subjectvalidators. Real browser checks cover main Pharmacology modes,sourceimages,Arabicfeedback,resume,savedquestions,courseseparation,examfeedback,Allavailable andUpdates. Desktop/mobile screenshots inspected; no page errors/overflow. See docs/QA.md for precise scope.
+- Full requested process and writing handoff:docs/PHARMACOLOGY_HANDOFF.md. Publication is authorized; CI/Pages/public verification is still a separate next milestone at this entry.

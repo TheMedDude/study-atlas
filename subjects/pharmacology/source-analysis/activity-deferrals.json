@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "conceptId": "pharmacokinetics-p002-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p005-2",
+      "reason": "Illustration labels and attribution; the ADME relationships are tested through p005-1, not attribution or caption recall.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p019-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p020-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p026-2",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p036-2",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p045-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p046-3",
+      "reason": "Allele-symbol legend on a figure without a named gene or substrate; defer symbol-identification drill until a suitable source crop and unambiguous prompt are available.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p047-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p047-2",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p047-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p048-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p048-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p049-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p049-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p051-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p051-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p053-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p053-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p054-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p054-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p055-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p055-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p055-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p056-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p056-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p056-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p056-4",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p057-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p058-2",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p060-1",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p064-3",
+      "reason": "Small anatomical illustration labels; core renal functions are covered, not caption/label memorization.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p065-4",
+      "reason": "Figure caption and urine outlet label; the diagram’s functional relationships are assessed separately.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p068-2",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p070-1",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p070-2",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p073-3",
+      "reason": "Supporting named-drug, population, or numerical-reference example; retained in the source but not direct memorization per user’s first-three-chapter policy.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p075-1",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p075-2",
+      "reason": "Editorial source-limit note, not a new pharmacological fact. The underlying universal dosing/sex claim is blocked.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p078-1",
+      "reason": "Unresolved source claim: excluded from scoring.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacokinetics-p078-2",
+      "reason": "Editorial source-limit note rather than a separately assessable fact; the unqualified binding-to-half-life claim is blocked.",
+      "lectureId": "pharmacokinetics"
+    },
+    {
+      "conceptId": "pharmacodynamics-unkeyed-potency-plot",
+      "reason": "Unkeyed unequal-maxima practice plot does not specify a numeric common-effect criterion; no score inferred.",
+      "lectureId": "pharmacodynamics"
+    },
+    {
+      "conceptId": "pharmacodynamics-clinical-efficacy-generalization",
+      "reason": "Unqualified higher-efficacy-is-better clinical statement not used as a universal treatment rule.",
+      "lectureId": "pharmacodynamics"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p003-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p006-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p008-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p009-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p010-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p015-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p020-c03",
+      "reason": "List-introduction label, not a distinct factual proposition; direct/indirect/antagonist relationships are assessed separately.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p030-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p032-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p032-c04",
+      "reason": "Unqualified frequency-of-clinical-use statement without time/setting context; retained as source context, not scored as a universal current recommendation.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p034-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p035-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p036-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p042-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p045-c04",
+      "reason": "Unqualified frequency-of-clinical-use statement without time/setting context; retained as source context, not scored as a universal current recommendation.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p047-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p048-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p050-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p052-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p055-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p057-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p059-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p062-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p065-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p066-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p070-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p076-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p079-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p082-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p088-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p089-c01",
+      "reason": "Heading/section label, not an additional distinct testable claim; substantive relationships from this page are separately indexed and assessed.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p089-c03",
+      "reason": "Unqualified frequency-of-clinical-use statement without time/setting context; retained as source context, not scored as a universal current recommendation.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    },
+    {
+      "conceptId": "ans-and-adrenergic-drugs-p091-c01",
+      "reason": "Supporting diagram/summary/brand-catalog detail retained for reference; no dedicated direct-memory question required.",
+      "lectureId": "ans-and-adrenergic-drugs"
+    }
+  ]
+}

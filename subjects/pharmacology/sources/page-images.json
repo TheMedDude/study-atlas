@@ -1,0 +1,2878 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "pharmacology",
+  "description": "Faithful full-page renders of unchanged authoritative lecture PDFs. Covers and administrative pages are included for exact PDF-page navigation.",
+  "pathBase": "sources/",
+  "format": "image/webp",
+  "lossless": true,
+  "renderScale": 2.0,
+  "renderDpi": 144.0,
+  "encoderQuality": null,
+  "renderEngine": "pypdfium2",
+  "imageEncoder": "Pillow 13.0.0",
+  "manifestSha256": "7b0c74208c779188eaf7dc6ff4540fc5a018f796cc08884fb5f62a80d46b1027",
+  "totalPages": 283,
+  "totalBytes": 32881018,
+  "sourcePdfs": [
+    {
+      "lectureId": "introduction-and-roa",
+      "path": "slides/01-introduction-and-roa.pdf",
+      "sha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "pdfPages": 47,
+      "renderBytes": 5447226
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "path": "slides/02-pharmacokinetics.pdf",
+      "sha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "pdfPages": 95,
+      "renderBytes": 9771636
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "path": "slides/03-pharmacodynamics.pdf",
+      "sha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "pdfPages": 49,
+      "renderBytes": 6933342
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "path": "slides/04-ans-and-adrenergic-drugs.pdf",
+      "sha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "pdfPages": 92,
+      "renderBytes": 10728814
+    }
+  ],
+  "pages": [
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 1,
+      "path": "pages/introduction-and-roa/page-001.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "527ee309db43f5d3b5e26ddd79d9bfb7af92e5aa215e764ae9e38475b1bddaef",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 52584
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 2,
+      "path": "pages/introduction-and-roa/page-002.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "8cbf3fd428c8144cd3f8198023f9acc7212ddd5ac5ce598e06ff8404670c3591",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 90418
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 3,
+      "path": "pages/introduction-and-roa/page-003.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "74b9f7c84f205767737ec720df3687e853f4bea039a9aa6b0fa0b55375e52d70",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 73688
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 4,
+      "path": "pages/introduction-and-roa/page-004.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "90d3f04c586c22ae5f21ffa7dfec4f85490680cfa7a62576c6e548e16d04d9de",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 33306
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 5,
+      "path": "pages/introduction-and-roa/page-005.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "3db9521ff3f23098fd26573e746cf0c307bec0833f5364be03385985c9e1cd37",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 421640
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 6,
+      "path": "pages/introduction-and-roa/page-006.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "b7e7af243c8ae2a988473ee074f327610fb9a3de3d90cb4963362530e7e83557",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 99586
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 7,
+      "path": "pages/introduction-and-roa/page-007.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "9b7be48b442efb8c0997c3c540f29958a10bbb7996e5ba8bbdee556963c81c18",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 63752
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 8,
+      "path": "pages/introduction-and-roa/page-008.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "a5ff280a7d665e65f2719d28be64f1aed31d9e2e4b22fa83c12c601013e3447f",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 38828
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 9,
+      "path": "pages/introduction-and-roa/page-009.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "d1428c2545fef76e1e99f155b95677a824bfbc2f9a24514e00f996a8693e37ea",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 44918
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 10,
+      "path": "pages/introduction-and-roa/page-010.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "a2bc21013019d459e04fb4446c2bec22dea6a9ea8e9dd5ca6c332c54bc9814f6",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 63768
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 11,
+      "path": "pages/introduction-and-roa/page-011.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "7e089d3379e90f781cc7b6ad11e7d18d4200670961d5ea4246ea529cec4e11b1",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 82494
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 12,
+      "path": "pages/introduction-and-roa/page-012.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "c1c576751590e864b89604c5c19e75a263a6bb3e2cf24676f6e0add22f19f617",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 74520
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 13,
+      "path": "pages/introduction-and-roa/page-013.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "45ddb76905db3413cd16e93099234cb14afdd9836c2f95b483168be6e1dbec9d",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 116650
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 14,
+      "path": "pages/introduction-and-roa/page-014.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "430929b34268be16e6e6e21f2260c79eebdeecda7caca688545ce36ce28a3466",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 167302
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 15,
+      "path": "pages/introduction-and-roa/page-015.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "55bc1097a4ad4a72cee9aac637b1ef9ba70fbe3ac1cf370cd4a6d8df3dad9927",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 25174
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 16,
+      "path": "pages/introduction-and-roa/page-016.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "40c07105462d0833fb9fb26f036207d4f7bb98b3345c04943b3d0f8a88767974",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 153604
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 17,
+      "path": "pages/introduction-and-roa/page-017.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "45f695767e9beb5dab506e2c7bc54a9d94926aa24d63fec17feb06f26dfae0cf",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 21058
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 18,
+      "path": "pages/introduction-and-roa/page-018.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "f65ef141ebcd7080a7a40b7b871ecb1eddc7b1223527c74209f398dbcc531302",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 24402
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 19,
+      "path": "pages/introduction-and-roa/page-019.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "d34647ae519c782339c271b9071f19da864ece8a85002b05b68bf1e0ccbffd61",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 325438
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 20,
+      "path": "pages/introduction-and-roa/page-020.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "b9a632c2c192a7125a688faceb6238fb24394a87ac6d0e4f6f265c9bb957e2ab",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 41282
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 21,
+      "path": "pages/introduction-and-roa/page-021.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "eb9253518450a0ace5a67a1039fe5b36f5f1ede19f0ea46c69c08a4beadb61f9",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 47780
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 22,
+      "path": "pages/introduction-and-roa/page-022.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "0f80e6b3d8c4b0e50b73804ff73ce40d4a40af4f6c69cdda23e9964e78040b90",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 36076
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 23,
+      "path": "pages/introduction-and-roa/page-023.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "a0f07404f87f0293c0ac4fb913e91f50fe6fc360eb5fd5f6cf694e2bf47d2759",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 457670
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 24,
+      "path": "pages/introduction-and-roa/page-024.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "94c7d07cc1d509f9d09a3c8e8f5fa912e573a3df40652127fdfbfe6747f39053",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 62856
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 25,
+      "path": "pages/introduction-and-roa/page-025.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "c7b0dce1c7dd8f07063ed7c09972aea4df8a29383a4ebbafd727daec165ea374",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 62340
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 26,
+      "path": "pages/introduction-and-roa/page-026.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "b980a9c93302482267979c08c25640a9974bde31bfd967b3775e6390a6d23402",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 37190
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 27,
+      "path": "pages/introduction-and-roa/page-027.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "405ba51b6b2afe78b26e21059cc204af804adfa7683b2208ac47b76bf9040e00",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 47584
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 28,
+      "path": "pages/introduction-and-roa/page-028.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "5767e0b76ac6ae74e403afbf4dc62b472e33399e6fe795c900d469a92d037f2e",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 75278
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 29,
+      "path": "pages/introduction-and-roa/page-029.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "288ca5eecf3aa35c365404f6615f5a9d8ecb222d71a7050af28030ad242d0851",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 327256
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 30,
+      "path": "pages/introduction-and-roa/page-030.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "b75460a1b16ea4587cadf45aa93a1f36c1a6cfc1fc7f132d16d06bf337ff7d9d",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 19830
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 31,
+      "path": "pages/introduction-and-roa/page-031.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "3dd76adb7f0aee1e9a2352de65c0419c7d1c08878bc2dd8b21177680ba799247",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 179188
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 32,
+      "path": "pages/introduction-and-roa/page-032.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "927fe279608d412b50db4c15be913284e2f347a265b75bb634d246f6d4b09af1",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 66446
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 33,
+      "path": "pages/introduction-and-roa/page-033.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "3d5812fe1f7e787124b6f3f3aea37a6985bf851877467fe46f89bd9a7b69b21e",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 127676
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 34,
+      "path": "pages/introduction-and-roa/page-034.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "a7fac9943d573f6feca07b7464aa44befe6ddb3f50e097df8a324c20f6c02fd5",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 79674
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 35,
+      "path": "pages/introduction-and-roa/page-035.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "1324368a6d350ec4fec6f3284f87f6d2bbcdbc945d0c8f381f364badd8a4043c",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 54024
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 36,
+      "path": "pages/introduction-and-roa/page-036.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "dabc6693fc82aaf1c87f8fef1f2f2d4fd888ff6e26d4adbf38b031e17c697eca",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 61720
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 37,
+      "path": "pages/introduction-and-roa/page-037.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "ffd4201aad887da32e24c2d3cf550ecd9676bfaf40ae70561fd38adc62a6f7ff",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 311862
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 38,
+      "path": "pages/introduction-and-roa/page-038.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "b8331ab390e9a21518cf0465951a21e57b8eecf33aebdb09ba67fed597f8da6b",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 141176
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 39,
+      "path": "pages/introduction-and-roa/page-039.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "9e04593262e3f6ede772bff24e9cc6fc3f734c3135dcd9d9c02f6f30a3176be7",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 63916
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 40,
+      "path": "pages/introduction-and-roa/page-040.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "39d080436023cd8d6e275a7dc81ad3dc169ac11d570dce52b842ea34d602b310",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 45904
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 41,
+      "path": "pages/introduction-and-roa/page-041.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "84404286564999a9b2f3a39b8c97eeda768547ada3c97beb5e2ed9539dba10f8",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 61448
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 42,
+      "path": "pages/introduction-and-roa/page-042.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "ae6eb62f1ffbd47f5095af1d7553517e795beb51b427e61811152e50c86e3f38",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 239884
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 43,
+      "path": "pages/introduction-and-roa/page-043.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "57a0760bb1b492101a5f8ec11ea0b70c7f9c598833db64d3511ff23b58aba968",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 128906
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 44,
+      "path": "pages/introduction-and-roa/page-044.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "81aaa177555f07a0a3c63157c82306b58ba5d4a1589bdb76fefe2934af27fcae",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 197304
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 45,
+      "path": "pages/introduction-and-roa/page-045.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "a1349c46c2af95a4fb0ea2f7823c5009c6ecbd6a6b514f3273ca2c8a7193ad4d",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 163952
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 46,
+      "path": "pages/introduction-and-roa/page-046.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "8e0c428f8e15f15af1151dfe69efde47c2166bf53291af67e7edda43ab17dbfb",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 277116
+    },
+    {
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 47,
+      "path": "pages/introduction-and-roa/page-047.webp",
+      "width": 1561,
+      "height": 1080,
+      "sha256": "235b0df560f343b5ba64aefa3de5c28ea223540e046e3091e324c722bc366c66",
+      "sourceSha256": "0c19f06fdd36f3982166ba0dab7ce434852d4062dc2d1e159b235df6f319e645",
+      "sizeBytes": 58758
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 1,
+      "path": "pages/pharmacokinetics/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "256f4e8ba7cfecd5b26d3fc4e9441231ae5573343ec36f588c5304b311037006",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 27530
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 2,
+      "path": "pages/pharmacokinetics/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "32e68132d68b206c72059af84bf2574a5123612d33f0ee59c1a3fefb26313adb",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 46378
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 3,
+      "path": "pages/pharmacokinetics/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ef82965e47134237e10c1a327682a0ee37d504fe2f61b21a4c2b57ba4e671041",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 59626
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 4,
+      "path": "pages/pharmacokinetics/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c05dcf09239090c636f4b76c753efd8fa8306a85edf1d02b50957e923f3c0d47",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 334128
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 5,
+      "path": "pages/pharmacokinetics/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0e0dbd371e6a95ae733b93b0a051e56f82141bb342b30d130536b0f8126fa617",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 162762
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 6,
+      "path": "pages/pharmacokinetics/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "09d9358101328e0d3e2d19cedbca5ac6bdb73ec69e9b1b754fe72460a11e2aea",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 62838
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 7,
+      "path": "pages/pharmacokinetics/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "27dd150941c1f7affea7256de324c99a4b69ba8d239f38428d835e6037b0dbc7",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 38196
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 8,
+      "path": "pages/pharmacokinetics/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a3aed4715d1d263f291180723ddf4209bad83e35aa6cfcd4438287bcf57b0e0c",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 166718
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 9,
+      "path": "pages/pharmacokinetics/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5287fb73dbb5bff450a8eb0af89cc6b9a9a9fa80f3e8976146e1a7784ffcf1be",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 112324
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 10,
+      "path": "pages/pharmacokinetics/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0561af8a65850ad0190e18011bf1736e6a05dfbf7b06fd8b8293760c07a4e0ca",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 38578
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 11,
+      "path": "pages/pharmacokinetics/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b19c0b6a5599fcca98d8e5bdf91acbb65a4614bbeba9be87af130c2e16f5a9a3",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 286044
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 12,
+      "path": "pages/pharmacokinetics/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "82a488b424936045b0762db3be307c2866538ab2f8409bbebcd0a9eb3ec1f564",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 101564
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 13,
+      "path": "pages/pharmacokinetics/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "26029086c250a5a47b4ef421ff634dc2e368c3d70564b21779c4db61307b45cc",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 349304
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 14,
+      "path": "pages/pharmacokinetics/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "662826dfead3ea37e29bbe9bc55edd1bf05c73201412677579eaef8acaa3853b",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 341000
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 15,
+      "path": "pages/pharmacokinetics/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5142b28144379f99545ba30656f5b59345fddccc1b16e5084e29310cab5dea18",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 89612
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 16,
+      "path": "pages/pharmacokinetics/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "85315e04b0614307b2eac96710af878458775e00bab38971f8f62d8f04d12ffb",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 52568
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 17,
+      "path": "pages/pharmacokinetics/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d5fc41c35c85d18716d6afb48a49a08027ee6529c1265c5f6de3ad69b78e429a",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 239184
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 18,
+      "path": "pages/pharmacokinetics/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c45f8aedf3202426a27971b82d54abf02288dea76f7fac5c199a323045b178df",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 57836
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 19,
+      "path": "pages/pharmacokinetics/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6482ee92d2da8c788081b9be40bfc63b3db8bc21b5c2c4069811bee126033b7e",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 190698
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 20,
+      "path": "pages/pharmacokinetics/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7a81cf92a0f68ac2c9fca708531f94f779d3f1b2f3fb1f4247783b342efea889",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 47058
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 21,
+      "path": "pages/pharmacokinetics/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "318817dbfde85fc19e6ef8c226b12bb25b3c2c32197eba1315f94961c1de864b",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 53174
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 22,
+      "path": "pages/pharmacokinetics/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13f1ef5b3df93a0f5ea2a419325c4b124f597faf95110173312e903571fb45ce",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 67274
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 23,
+      "path": "pages/pharmacokinetics/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "63fc5f4ab8b99ca1d7cbabbb350278da43cb51144d0e06b1e76398af4398f15c",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 46548
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 24,
+      "path": "pages/pharmacokinetics/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "744722fd7d0796ab4aa88a9037be263e1024b50f3b91661e49d12f93a35e216d",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 229162
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 25,
+      "path": "pages/pharmacokinetics/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "299455919a9d4055eae688846e4b04e4f4de2b6636a3970df92ef5b64a2d1121",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 45670
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 26,
+      "path": "pages/pharmacokinetics/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bcbda322a0a05724d618a279ca4bb599e7aaafd7323ef9a60c4e7742da837bd1",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 40108
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 27,
+      "path": "pages/pharmacokinetics/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4301a396d802634c76fc9968de621553cb13faba314235c85d0f8913024f87ae",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 220308
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 28,
+      "path": "pages/pharmacokinetics/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4a844b43350c8970b880980757aa7e61ac2d79913882b8c2261c153adfc93e32",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 232418
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 29,
+      "path": "pages/pharmacokinetics/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1bc26967002b5c11a97b687b27122cc78364363e5be4df1b629f09727c16d2ab",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 67006
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 30,
+      "path": "pages/pharmacokinetics/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d13aa591e74e7ec98181e39244f3179255c781c502b4346a322cf041ae90943f",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 270072
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 31,
+      "path": "pages/pharmacokinetics/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4b779ea4883a4c3aff979f0c56a8bf10ec66d02b61441969f5ff3fdd65cd11bc",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 42460
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 32,
+      "path": "pages/pharmacokinetics/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "75f4a6b7705edeba64edf38905e656f0b1839f505743e1a3cdb14a33285b1fd0",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 4998
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 33,
+      "path": "pages/pharmacokinetics/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "50fa4c4019cde32acac2b49728ec8b6ced4f77230e76449613049079738be165",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 49848
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 34,
+      "path": "pages/pharmacokinetics/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fcdaf4d96814f417cec8956c6b72fc4cf3c74a07a83cc23751ed6142ad53bd01",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 26440
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 35,
+      "path": "pages/pharmacokinetics/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "16edb7c2b285335850ff0b27e7728fb60fb554a67d19c549d7530529eb154c0e",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 152032
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 36,
+      "path": "pages/pharmacokinetics/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a615dc3a5c975723173afb7b12eb4d3bab57b0ed444d2e0b2988dea5d0c25ee4",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 51388
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 37,
+      "path": "pages/pharmacokinetics/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d6a9493095fbfb286df54772e4fe8326320035ed3b54cd11f25d051b977e3da0",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 130658
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 38,
+      "path": "pages/pharmacokinetics/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0f668baa8058fabb8b493ab0590bf70b93d8518f72aee9a57e6ce61cced46d21",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 254628
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 39,
+      "path": "pages/pharmacokinetics/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6667db44d4afb41a7c77d4aeefe2d3f1950ebc841cfa29642f339e074f6b2a91",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 56262
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 40,
+      "path": "pages/pharmacokinetics/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f778bfcc9ae17d0b2b1c546b62072998cebd7e3f5a3244a366f63d819fb1dab8",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 97076
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 41,
+      "path": "pages/pharmacokinetics/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a0364164f84837976a77f7c34ddea86843f2d8c529e5d81be256918032917852",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 41654
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 42,
+      "path": "pages/pharmacokinetics/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8920a756b0eb5b2591f97361bbae0b6886d5c875ae498e1d789407c5ce02ee20",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 322678
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 43,
+      "path": "pages/pharmacokinetics/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d7a2210104a7fda6db63df1852c428d8573a3deeb0ef0c7c200847bf175fea54",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 179492
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 44,
+      "path": "pages/pharmacokinetics/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5b438f1acbc7eea3cb1593414ef4b7a8477cb922b99b183296ff026deb7e04c9",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 49454
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 45,
+      "path": "pages/pharmacokinetics/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ad43a753cc7a49e440e1131321ab47422aa9ebbab3d372e66089a3108d37f3b3",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 162186
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 46,
+      "path": "pages/pharmacokinetics/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3609ba2c57a75a1984b137e2c25d729a88ca9923d292d1249e9e4abf8f9eed95",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 188998
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 47,
+      "path": "pages/pharmacokinetics/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3daab542a359c599e5de37782e42b9d6604ef5b5824a5b982d84faa2d7fced3a",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 118140
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 48,
+      "path": "pages/pharmacokinetics/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "54ed7625d95f1ce373d6adcbdec7aba7c50453dfb00da9a1bfc69c57092077a6",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 95612
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 49,
+      "path": "pages/pharmacokinetics/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "57f0113e0b1b88f8c1f858f9f3485d54b6ed6df788db6d7f61721554b98e1a39",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 60426
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 50,
+      "path": "pages/pharmacokinetics/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b494ffe04498fdc9b5b6e3eb410b2b6b9ebdcd5d0239fcb075c4fa05a894dde2",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 40924
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 51,
+      "path": "pages/pharmacokinetics/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f6a366ca71770d27f173307f18c3a2b0fc113d22124cf97930594066e1abeb5a",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 150104
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 52,
+      "path": "pages/pharmacokinetics/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "54bbc9a4ebe22a6cb69d872ee52404a67a26ec83aef5a9189469c33b5e1b6eb6",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 39954
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 53,
+      "path": "pages/pharmacokinetics/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ddf5d78597b17271ebc5712fd853fababd5218775ea043cd28b813192914ca61",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 39206
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 54,
+      "path": "pages/pharmacokinetics/page-054.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2d13c79eec5a16c6a3902f56ef9614184b1cc67746b5c7c9604f75b3c30cbe0f",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 41628
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 55,
+      "path": "pages/pharmacokinetics/page-055.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e1a956f7e0062eed7bb4f33e656115d5f3b5b1c795756acc0f366cd85d0b96ce",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 255978
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 56,
+      "path": "pages/pharmacokinetics/page-056.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c07ef7650ba35f5de2a4d5b3df4d0b1075e7242c21d47839b927febba7ce861d",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 46916
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 57,
+      "path": "pages/pharmacokinetics/page-057.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae67035620d39dde738377a4ba18f9b4d9af454069f02c2a334669ef95e9aa06",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 40690
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 58,
+      "path": "pages/pharmacokinetics/page-058.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "70f5a3cda560387bc4c159161b9b3e8355098d7f6d3cc2ac9f462492a018d6ac",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 43666
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 59,
+      "path": "pages/pharmacokinetics/page-059.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a7e5643d28a9dadfbca514f990574c54e986034dcd0744e505c5670977227d97",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 42280
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 60,
+      "path": "pages/pharmacokinetics/page-060.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "934ab8f5e7e84760011bb3ec42669417e356b2b8de0bef3804246b6b7dfc1d4d",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 226892
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 61,
+      "path": "pages/pharmacokinetics/page-061.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "52999bce368193f817018c35c2ac9d79e26239d313ff84e4b17e3f7895823b2e",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 5326
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 62,
+      "path": "pages/pharmacokinetics/page-062.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2cf680dfdf4fafe5a1f349bc258b3b0927c57ae6c119612798ea70974d5f74fe",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 31580
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 63,
+      "path": "pages/pharmacokinetics/page-063.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1f5c3b0eb589f986b2df568243366e1886f54308d75a0e02d955bbdbfab20b51",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 4814
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 64,
+      "path": "pages/pharmacokinetics/page-064.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff7b25c1e126440f57dd58903a5f0f938178b0d6af6863c0ec761cf6be4133cc",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 120254
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 65,
+      "path": "pages/pharmacokinetics/page-065.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b9e1719f416ca72d7ba06fc5e50ae9b860f90cf07d10dc7354ff9f9cab3d8b13",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 29054
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 66,
+      "path": "pages/pharmacokinetics/page-066.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8eeede01ba6e74667c4f319c6196b91811d56f09f6a891070fbade0704696e56",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 35796
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 67,
+      "path": "pages/pharmacokinetics/page-067.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "062347a57a99c0f7613f4093eb9f7ab5059b08d15d6e24fb6b2bf7de486c6f25",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 62454
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 68,
+      "path": "pages/pharmacokinetics/page-068.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6cfc26646ee9837d65e88708d292852a20b90a658fb76a18d86b71051d9749cb",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 28842
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 69,
+      "path": "pages/pharmacokinetics/page-069.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "70be2dd00e440c6d24dab1a1a9908297b62ce3ecd5a8c56763f6c2e764ef7729",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 50254
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 70,
+      "path": "pages/pharmacokinetics/page-070.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7771c21dfa98a850aaa64d5d27185e4880384fac2c63875f564e0bbb475c52b3",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 67240
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 71,
+      "path": "pages/pharmacokinetics/page-071.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "93ec388e65acac27f213b19d796204243ce0c3a057f4452f9079ad299500ec8c",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 80282
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 72,
+      "path": "pages/pharmacokinetics/page-072.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c000fd526f7b7e39873ec4b5a8ea0f45d8dd080d1201be45e3a89458517aa650",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 78406
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 73,
+      "path": "pages/pharmacokinetics/page-073.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74e41fc57b8d2d0eb5ed69cd18b9e1f28d4b20013c4c7ee0185920fa0dbbb921",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 47044
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 74,
+      "path": "pages/pharmacokinetics/page-074.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "61f850360977a784f859b6adf4c1fbf67ac181d30287a601f39fd739bd34d3f4",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 56822
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 75,
+      "path": "pages/pharmacokinetics/page-075.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6cff8601ee87278531236857c7f2f16212a4c78933f97ded4affff46fa34a969",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 55486
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 76,
+      "path": "pages/pharmacokinetics/page-076.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "af3942936e0ea286c196549acba780476ed56eab4c93f1376fb82ca190116cce",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 42008
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 77,
+      "path": "pages/pharmacokinetics/page-077.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e128d3c01fc296b3c31eb5b6b980c4b1290c42b21f556ecada59bc9587c61d12",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 62422
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 78,
+      "path": "pages/pharmacokinetics/page-078.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c5f3a8978f307115b94c2c8cfcd0941b055c8ad9a58d7659082cc220de8df078",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 36478
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 79,
+      "path": "pages/pharmacokinetics/page-079.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "55fed89440a80cf358b027b5f79c530f903395c145f19673a2273f79912394cd",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 5894
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 80,
+      "path": "pages/pharmacokinetics/page-080.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f843c0b29bb40afdb893d23163f08c9de0582f7f170cbc2ab12829ba6733c421",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 28740
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 81,
+      "path": "pages/pharmacokinetics/page-081.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d91cd45a9f2bf04a8fde8d14222448e62e7f74dbe8cf3a077af8afed452cc381",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 64350
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 82,
+      "path": "pages/pharmacokinetics/page-082.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f0118055dd83987cb04fad3d4581f1b3b8d0db2c935df052676cbb3c8b219d83",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 19872
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 83,
+      "path": "pages/pharmacokinetics/page-083.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff8e092477ba3a2361f86932e7c4905bf64b84ab7bd7dc2dc27645d8997137ff",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 35802
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 84,
+      "path": "pages/pharmacokinetics/page-084.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df68bda00d93f89ba7aceac79896da0c6f8794c67f62f6e0c24c2fff3300ee13",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 174026
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 85,
+      "path": "pages/pharmacokinetics/page-085.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e51d1c3b1d567a2495e2d52dc1a5baceb66e2ec2fc09742ba45c795d706e5852",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 313180
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 86,
+      "path": "pages/pharmacokinetics/page-086.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74a6a5cbbbdf726a79a2ddd1f81c0a796a909c2ea155f3fb2264929f0cc8028b",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 267106
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 87,
+      "path": "pages/pharmacokinetics/page-087.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "51d5d0a8d335dcc4913a7c4032fb98ad258d369417dd950682a0c8115216ebab",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 45594
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 88,
+      "path": "pages/pharmacokinetics/page-088.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2615b5aa8132cfd734c2ec1ca3fd5c3e963f1a5ebae20eaf2cfb011ea2427cfb",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 90762
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 89,
+      "path": "pages/pharmacokinetics/page-089.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3175ddc9a6d8e3fd28667667c9d9ba3c12f60010be579400b00ad477ab82a31a",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 346506
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 90,
+      "path": "pages/pharmacokinetics/page-090.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8652e0f5949b956e194811b65552cb15024b0291359e634f7c3d864ac71a25ab",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 45630
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 91,
+      "path": "pages/pharmacokinetics/page-091.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0ef693f4f5c4cf88dcd683b0c6fae467d1773dc577345c04b0d16e92ec88ea4e",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 74806
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 92,
+      "path": "pages/pharmacokinetics/page-092.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "482e2fd2cdc73f3fb3171056d664af0e5129a0cd7e69bc3b00d7b9cc2d0b1775",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 46600
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 93,
+      "path": "pages/pharmacokinetics/page-093.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9d2be90212e30a0f467baa9ebb8fe73c5b1ef59b400ac2cd07c3430f0e0d729c",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 45486
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 94,
+      "path": "pages/pharmacokinetics/page-094.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e49c5b07819fb539469b72707af300c7f4b63faae70a2b69435a81f64f093336",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 45976
+    },
+    {
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 95,
+      "path": "pages/pharmacokinetics/page-095.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e98c10e9c456d916a81364eaa5e8296bda52a07dceea8175a97b70c06a984d3f",
+      "sourceSha256": "f46431609e29b080774d185c29dcb591075931e064cfa39d32d6e6bce380ae5d",
+      "sizeBytes": 98390
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 1,
+      "path": "pages/pharmacodynamics/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0436b706a8a8e2b0e8fcf883b420d4c9c396795c0008395d47137328419d0dad",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 8840
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 2,
+      "path": "pages/pharmacodynamics/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8e487a97e0c25c65ea1fe11f397e5d8c2291ebdd4061ceefe54b6d7205a43bf1",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 69000
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 3,
+      "path": "pages/pharmacodynamics/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "003354cf8e306f8b10e3f1b8b3d08e55799a09221f0912399bea12c574f63641",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 100284
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 4,
+      "path": "pages/pharmacodynamics/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "21891d4ca64d6188882f5cb54e62de8ec83bf32364fc08b297702b2c1c51a0c2",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 24390
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 5,
+      "path": "pages/pharmacodynamics/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f4df410527e50faf2f3e0e1de461a032e0e4d25658d790188a03fe747bfb5fd9",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 335904
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 6,
+      "path": "pages/pharmacodynamics/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "903ce2c5082070e061095c4fb9b2bb04dc916303212469d569de0c1bf526db1b",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 232706
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 7,
+      "path": "pages/pharmacodynamics/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74687aee8018f0d9cfd144cdbdd90dc311b20ae376c9b0bd15f79a8411dff727",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 263450
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 8,
+      "path": "pages/pharmacodynamics/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5aa3528830d264414fe64e06e138f0e12ff655d0c98282ed57adc538f900d7b5",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 193374
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 9,
+      "path": "pages/pharmacodynamics/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ee59cbcdff796a8450547dbf9bcee01c55c58619b896a4ca033572b59b4caf3a",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 115436
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 10,
+      "path": "pages/pharmacodynamics/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "725d678417f147565c3194632dd7cc6b873ec739d00769b173743c2cb2764901",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 40344
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 11,
+      "path": "pages/pharmacodynamics/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "549ad271b8749ccb8c6c2b6f74a33258e31628b3b3bb423ed7e0147f6802cfb3",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 102370
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 12,
+      "path": "pages/pharmacodynamics/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "799d9b72c20eb1abe931ad9a174d6521bca3cf600698ffed36c3ed50fb66429d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 63088
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 13,
+      "path": "pages/pharmacodynamics/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cc90ed8f5e9442114f7f88d4eae35d188ef5227bfddba8ab2cd44df8f2f9d05a",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 322910
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 14,
+      "path": "pages/pharmacodynamics/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "42845ed154f4c01efbc2d3fb0bec27a7cfec9b72ec05ec08a54959bd56239fc4",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 243940
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 15,
+      "path": "pages/pharmacodynamics/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "079368558f042b86529c57917b4eaa16938c79e76f7826b11d4a78cad8a7e9a8",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 242648
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 16,
+      "path": "pages/pharmacodynamics/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5cf9525206dc5a43afc18828c5dca3ac60cd0c23ade35a4b7850642ad539f44f",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 123118
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 17,
+      "path": "pages/pharmacodynamics/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fa7b7883c1a0fbb5bd4eca559de865eafefb59d3515823a01413f97bdb460886",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 242580
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 18,
+      "path": "pages/pharmacodynamics/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "69dfb8538b3a0bf256ea6ca96fa38ecf1f94d7b546da97b70ec65fde7f588270",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 130776
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 19,
+      "path": "pages/pharmacodynamics/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a209debf4468d6be212771f84b16bef4f3f9af6744181b046c3d1ad21862e54d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 172046
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 20,
+      "path": "pages/pharmacodynamics/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3edb43d184cdfa676860d4120f8edf1b396791723c9aae68bdd51578cb6aa83d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 282304
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 21,
+      "path": "pages/pharmacodynamics/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9e1343612d5055b3bf3f15353433da945ecb354e578ad7368a87b5302e10178f",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 104156
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 22,
+      "path": "pages/pharmacodynamics/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74ef99e0aa50965c80a2640b9e62757ecd731a3d61edd300a3e2293c619cd018",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 202226
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 23,
+      "path": "pages/pharmacodynamics/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "932f7ef67d9de25a1f2363b885b2b35d2a60c2355862f9bfb3c1c0158d4e3601",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 31528
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 24,
+      "path": "pages/pharmacodynamics/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f78362f01f05e135eee9f9927b5f0b32016f24c4af2b01deb9595d64951ee5ed",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 139874
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 25,
+      "path": "pages/pharmacodynamics/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c26ecb089a77f74f0d299e201432511195be58b325d2c617d361b8868295da39",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 211088
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 26,
+      "path": "pages/pharmacodynamics/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13046d30772f0b7fb8d40a560826cee4f443b3c04aa89e7cc41fd41e164d801f",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 76770
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 27,
+      "path": "pages/pharmacodynamics/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9a8ea725fc6da52ff6dd88cc7505278926e071c56122a0768ccf8a809214e8e0",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 228110
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 28,
+      "path": "pages/pharmacodynamics/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "aae8614718c2661538afdc8978f90a857584940e4131a1a6d991b03c60ff889d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 42124
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 29,
+      "path": "pages/pharmacodynamics/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1760a5464e0a75d3def64bcfecf3bbff457f47967c35c6b157f47c88b5a16a53",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 89352
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 30,
+      "path": "pages/pharmacodynamics/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1b76cfafef611d9e00745cd8fe99126a17e3b6e354ba0e52b86b5209ba55ac95",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 56214
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 31,
+      "path": "pages/pharmacodynamics/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f48e084e386b0736bec9ab06ca0cb6010d7f86e6baf213cbf8738cf86ef95c1d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 259652
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 32,
+      "path": "pages/pharmacodynamics/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "64f50668b5da4261e0335351c3099eb3ed220c4a3f55c06557ec25ca800ebc2a",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 198618
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 33,
+      "path": "pages/pharmacodynamics/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6eceaf6aecd62957adfe858f63fcb5f6d00e1cafa1e535efa7ec300c28d7c558",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 146598
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 34,
+      "path": "pages/pharmacodynamics/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9b2a390a320bafd8ca89fe9f2f128cbdd3dbf69d3c200890eb889014a1799aab",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 141508
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 35,
+      "path": "pages/pharmacodynamics/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df2cb801fe720705bbb0f6ca8488b2f6c2bef7dcb509798701202563784c1338",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 83234
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 36,
+      "path": "pages/pharmacodynamics/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "16a0f9c0f767fa71220f8475578b40e45445f1fdf400652cd1fe455b848dbcb7",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 234980
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 37,
+      "path": "pages/pharmacodynamics/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4756bc475d7796e4bb1704f5d6683c0adc25ff0bbf3b9248826ad494b3011328",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 165280
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 38,
+      "path": "pages/pharmacodynamics/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "22c9d09a3a667086b2d500c72a6138b225d10664502fe5aea0453a589e702291",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 198092
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 39,
+      "path": "pages/pharmacodynamics/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6f5baec858200473f3b284550af50bfb7926980b13519a2534b5ffb85d036527",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 161204
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 40,
+      "path": "pages/pharmacodynamics/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5f55fa50c49833d90f371166663ba66d840d6539d6f32ad665c0a0aeb7f14fc6",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 22096
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 41,
+      "path": "pages/pharmacodynamics/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e656b584c50e5ffc821d90b1a236942b05895bcb3417dc6472fdb4bfd3fc5cb8",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 7990
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 42,
+      "path": "pages/pharmacodynamics/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f5ad276f373bb732b918b4ea28773615040d6da3b43965b2a28de24aefbe1691",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 11266
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 43,
+      "path": "pages/pharmacodynamics/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "250629346b8aa23d5d1288bcca3a39ac43d72d223f925404565754737c7b207f",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 10594
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 44,
+      "path": "pages/pharmacodynamics/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "446311a6a4b37416d1fdaa86144114f8d6b1f93bd096661fbe57232aa181bd68",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 388062
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 45,
+      "path": "pages/pharmacodynamics/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5e4ec2a160ec5b08d71b4080d45f76383541e9fd1f4d12a73355e765239feadf",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 35760
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 46,
+      "path": "pages/pharmacodynamics/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9646c057c2df8bdae0ddb2fd405da9a713b2253a157f5f0224f689f50c90b24d",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 37614
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 47,
+      "path": "pages/pharmacodynamics/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bf4c13d8c2b77180632c398eaebabb31d1aba163b6e8a8bfc48bb3ece54e97a1",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 72722
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 48,
+      "path": "pages/pharmacodynamics/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0c5fc0d29abcdba62c81ea339033f88eb994831962ac71df450e5e0425473c69",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 191868
+    },
+    {
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 49,
+      "path": "pages/pharmacodynamics/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "99f55f9db477e4809e16e228eb847e9b047a1c0c3082843e89502569f1d853ac",
+      "sourceSha256": "49e2255b49038d6c257785da2e78b73d0b96a98726e341345e3c3008108578a3",
+      "sizeBytes": 75254
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 1,
+      "path": "pages/ans-and-adrenergic-drugs/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4b60c65b69e36a3b25eb3b3022cb1d02a4203450a085176ba7daed238cca8b39",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 197076
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 2,
+      "path": "pages/ans-and-adrenergic-drugs/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cd2bdb2b2c6150d53d3509d01c8f3194535dfe5d7a7dbfe5f87d5bedd59a96c2",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 315604
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 3,
+      "path": "pages/ans-and-adrenergic-drugs/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "acc7586eab2ab915aa0d42b3adb5bbe9c74346440cdae139aafe92b355a4a3f9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 42102
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 4,
+      "path": "pages/ans-and-adrenergic-drugs/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a7a383306c14504dfd93f47223cbb4635ef055102bb4f2658f36ba48b46a1f1c",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 409548
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 5,
+      "path": "pages/ans-and-adrenergic-drugs/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fbcf9f701e1b3a18c061467c90cd2bcef3f12175ebe3937f9207f07ea5ad416a",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 714984
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 6,
+      "path": "pages/ans-and-adrenergic-drugs/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "20045848f42690427eebe8920c157942d7891270d8d70898f67907e341764420",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 511418
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 7,
+      "path": "pages/ans-and-adrenergic-drugs/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "964e7028c39be79956b08ff80f1bb7c7a26c02ef9881464e2524e992774b84fc",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 762394
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 8,
+      "path": "pages/ans-and-adrenergic-drugs/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ea47f82f8f376751d3b68590ee4b7792e6fc6cefc797e4f1c101bf9af926ff0e",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 42756
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 9,
+      "path": "pages/ans-and-adrenergic-drugs/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6c3487d875b19f539c6f1f714a1914aacef4e7a489862bb244a489fcc3c3a00a",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 66758
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 10,
+      "path": "pages/ans-and-adrenergic-drugs/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d765f0afc36e69e7d17ac2ddaea14ecf854731f01b5360cb2a23133e5fa0eab9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 46584
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 11,
+      "path": "pages/ans-and-adrenergic-drugs/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b613dcb6df7d71fa6a1b58ff50b3d0497f1602fb79f963ca782d2fcc2fbc83e2",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 173228
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 12,
+      "path": "pages/ans-and-adrenergic-drugs/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1b11040c89496854cac7f5f6cc3a5203120862cb181858a09ab9a91801433807",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 171786
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 13,
+      "path": "pages/ans-and-adrenergic-drugs/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0c534121504ef052c8aa917eb3b334a0d9851f444c87e6a92efeb0998fa6197e",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 457242
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 14,
+      "path": "pages/ans-and-adrenergic-drugs/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b5af1b28f8bea1cf9cf8fb4b26e44adfa368b1b8baa130e6cb264e18b08c5db",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 40414
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 15,
+      "path": "pages/ans-and-adrenergic-drugs/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0611f9738b0726e65929f525f02b591f239cfc58dad5a61e74b09a0fc21b70d9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 52192
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 16,
+      "path": "pages/ans-and-adrenergic-drugs/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "62b231c63cb756868e297b494e9be48a94016b64328b77ae41b86dca60bd1c37",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 248194
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 17,
+      "path": "pages/ans-and-adrenergic-drugs/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f8c21cc37f633e500d8e424c887009816eaf041d3d1b6ff0b455c9dea776fcfc",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 288940
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 18,
+      "path": "pages/ans-and-adrenergic-drugs/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "33ac8adace2359c39c2423472a70659d48392d86db675a7b4bcfd6d1ff17317c",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 522614
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 19,
+      "path": "pages/ans-and-adrenergic-drugs/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "37a68371c51fa41cf95b8af1cadf95576a062e743ef109ffce95bf10e629f0bc",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 322052
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 20,
+      "path": "pages/ans-and-adrenergic-drugs/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f7384fbfcb883661ba3c4e50117b861c857f5b31bc99bf1098c641ff91982aea",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 73694
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 21,
+      "path": "pages/ans-and-adrenergic-drugs/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a5d49ca48213f3bec9a09110acb057d6b537e2e5556551d34ecca2db442c5894",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 92334
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 22,
+      "path": "pages/ans-and-adrenergic-drugs/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b90c19c39bf006c5daf66490b213689798e155fa8b6e3c0d25487122a038f3f1",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 90968
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 23,
+      "path": "pages/ans-and-adrenergic-drugs/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae5a764bc92e488aaae2d6dcc3b359d7c0096e071aa4cd73bd0b8430c6230165",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 9468
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 24,
+      "path": "pages/ans-and-adrenergic-drugs/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "04b98573914342ec7ba185ea269fe51ab19278b3815f4dc64f8340a7acb70698",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 144584
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 25,
+      "path": "pages/ans-and-adrenergic-drugs/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "91d8b167b75535787a57c064462024b87da4b8612398cac7d40b7047f217c077",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 157846
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 26,
+      "path": "pages/ans-and-adrenergic-drugs/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c1aee21e04b63c5580ff8b59ddab26bf5a86fa4a4dbef9322ecbe67169c5a8ce",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 54090
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 27,
+      "path": "pages/ans-and-adrenergic-drugs/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f1b7bd112f6cd74ae7a5db5abd73ae56193125494940850bbb9857bb2506b1ce",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 79598
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 28,
+      "path": "pages/ans-and-adrenergic-drugs/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7a10a5ad703a760eac8cde34661be80f45f63da243748deef12406650f7593dd",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 67106
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 29,
+      "path": "pages/ans-and-adrenergic-drugs/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ec8c7b34eb92031eb9612c5c25606e2b62fc765ba4d7dc0f4f017aa2fe91f4f0",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 65024
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 30,
+      "path": "pages/ans-and-adrenergic-drugs/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4d1583e0267cad5a5e5a9b444ad069dc90ee3e0e002581997cf0c587e65c2061",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 80626
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 31,
+      "path": "pages/ans-and-adrenergic-drugs/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f9a5c6d0a7fbdb3af49204c4f9b3664533c10a8287ddec436f3cbe96aa2a8977",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 175404
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 32,
+      "path": "pages/ans-and-adrenergic-drugs/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3b36109536c991b4cf74c7eec8a5eb203133190b3cf32faa138d2df69f275934",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 58666
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 33,
+      "path": "pages/ans-and-adrenergic-drugs/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d33fbdda98c1e138f679fac2b20cef41d8485823fbd9af3239099ce9c7311e57",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 54250
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 34,
+      "path": "pages/ans-and-adrenergic-drugs/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bd34e2a41e139d7d8c934a76850fdb7707fad51bc2d6a05c9f0e84bd9d49a209",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 81012
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 35,
+      "path": "pages/ans-and-adrenergic-drugs/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d327978a08a6b4f2e1cfe53b68e4787853de2487994bfb3882fbd59826827a0b",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 61778
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 36,
+      "path": "pages/ans-and-adrenergic-drugs/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e01fd7953dae547c18032f90d170deb4c17198a18b243e36dfb207de845cb428",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 48346
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 37,
+      "path": "pages/ans-and-adrenergic-drugs/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5b02987ca51f1694229dc36f503f474736c201dbb2c589e5a296439210b2f3a8",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 68700
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 38,
+      "path": "pages/ans-and-adrenergic-drugs/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "37dfd95e0d93f4afb25e3d054019c67d3c6e5b06179169af18e869512b31b5ab",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 69926
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 39,
+      "path": "pages/ans-and-adrenergic-drugs/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7cb19cc1a053a035966bb7da01e5da8e57611f6e7903c65fc094bfac87e81458",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 44286
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 40,
+      "path": "pages/ans-and-adrenergic-drugs/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7fe1a600fd6b851aff65e1cfbc9de4f02c21fa89fcaa126453564f4fcdf45960",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 52930
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 41,
+      "path": "pages/ans-and-adrenergic-drugs/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "43e5f1923bae074a89c70ded7c606d3bb27957a3b926391463ede5345e07bf11",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 78454
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 42,
+      "path": "pages/ans-and-adrenergic-drugs/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4d5d64f3c26e4272febd9c9b83948b8e3f6cf7af96adfbb43fda5803207ac531",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 54414
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 43,
+      "path": "pages/ans-and-adrenergic-drugs/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dc96a23b595bbae29a97dcd024b40447fb49b6018d37475c03e8c05857f5abc4",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 39344
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 44,
+      "path": "pages/ans-and-adrenergic-drugs/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0a861d72349f33f343ef8fd0199e41770aba1709990d7daf0b021516acc6b097",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 68064
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 45,
+      "path": "pages/ans-and-adrenergic-drugs/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6ad472e3d99774420a86ee811278eda4a487c7ad00095b17c72992d886e99c28",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 57078
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 46,
+      "path": "pages/ans-and-adrenergic-drugs/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "71e062e382d6da94a8ec83d4d489bc78a1473824649c782bb504bc38b5def340",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 62050
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 47,
+      "path": "pages/ans-and-adrenergic-drugs/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6c67d20ab60e48bb68e9f59f1e3b8836bb56a40903d5e2ba30971825059d2b61",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 111332
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 48,
+      "path": "pages/ans-and-adrenergic-drugs/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "95a5380c4c366dfddb0869cbdf84bafafb88fd63f587bc24e63339603f2769cc",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 79500
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 49,
+      "path": "pages/ans-and-adrenergic-drugs/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c35c4ed103b529dbbcc519cf39c1ab737360fd16dc5870774b6e70b7380fbee4",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 54308
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 50,
+      "path": "pages/ans-and-adrenergic-drugs/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "71aaf62a25551d29a965cb9c91e5c218b6c5a84bd4da2e9e5a6d857c9cab66ad",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 62820
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 51,
+      "path": "pages/ans-and-adrenergic-drugs/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ca9453299696117d6dbd47f2907a8bcbe0b55f0057de29af2694055d2c235f67",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 355952
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 52,
+      "path": "pages/ans-and-adrenergic-drugs/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "50f8afb130ceeb4cfdb013dbd61f90eb3b52bb6059b8039b108236eab13bc78b",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 62338
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 53,
+      "path": "pages/ans-and-adrenergic-drugs/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eeb31f8f8d0daa2acd4d02223d5bf74bd2bf6e9117aa195e5054596e801f03cd",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 66436
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 54,
+      "path": "pages/ans-and-adrenergic-drugs/page-054.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0071985d673f1503a7d2b0b087c3a8dcf1c3b67fc26c2d0299f0e3c485978df0",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 125972
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 55,
+      "path": "pages/ans-and-adrenergic-drugs/page-055.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "861dd5f70b531d46e257a584c3f3e05bc3858cf141aab63356e0f9445941604d",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 58404
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 56,
+      "path": "pages/ans-and-adrenergic-drugs/page-056.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46825207bdbbf7b68f357c542c0478e68d31aac1458dfa35b7e987553c5330da",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 61476
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 57,
+      "path": "pages/ans-and-adrenergic-drugs/page-057.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "38d1bcf873d9b85ace3a44870b5ad3385bd758e7182e66a3787ed056900195f0",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 53444
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 58,
+      "path": "pages/ans-and-adrenergic-drugs/page-058.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3cb2342707ee4654a9f4afcaa02684f8248946f6814ce6c8f1ee9dbb60b7afaa",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 71238
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 59,
+      "path": "pages/ans-and-adrenergic-drugs/page-059.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6e0df1113873e7827ee0b6411517251280913b53293bf55a2e2fac632f8c5021",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 43978
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 60,
+      "path": "pages/ans-and-adrenergic-drugs/page-060.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "da1461bd336d916e3efe9eb1ce8e7e512fa0a1e9a0f5fb9ea8aba72a17691da4",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 40220
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 61,
+      "path": "pages/ans-and-adrenergic-drugs/page-061.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "42cf7a9e26411f97d65424ec69ee356d0f8f3a4fe8271f85e39fb46b42508f89",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 45962
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 62,
+      "path": "pages/ans-and-adrenergic-drugs/page-062.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6e1a94ba7ca96e1d87fec8ca151c53c83685de225c868be9678e3f1c9827470b",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 152428
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 63,
+      "path": "pages/ans-and-adrenergic-drugs/page-063.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cda9758166360b433d0cf6eede101eb143e1fb596eebb561255c71c765023c8f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 49002
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 64,
+      "path": "pages/ans-and-adrenergic-drugs/page-064.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e9b06e859bffbabff888d15265fdfecaca42887d7725d34bf6b6880cfd851b0f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 55992
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 65,
+      "path": "pages/ans-and-adrenergic-drugs/page-065.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0da1a915df96b01245b730bf943b88b7f98acfd2b2e9dbe0061632446a2f2a0a",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 185466
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 66,
+      "path": "pages/ans-and-adrenergic-drugs/page-066.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "326d62981f6fbeee9c7f2bcf6315cab79abdcf5784c37db481ee52339b2fbbe8",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 65644
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 67,
+      "path": "pages/ans-and-adrenergic-drugs/page-067.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "afc34960afc0bf453cb412953f38f2f653547226c9b39af46b24b28197ecef9f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 69968
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 68,
+      "path": "pages/ans-and-adrenergic-drugs/page-068.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a034c0002f6772f27bcbcdbb43116c4cc9d15a2b35d9f7995c0e2b6546c947ad",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 64738
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 69,
+      "path": "pages/ans-and-adrenergic-drugs/page-069.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ec4f98faff6338477a508ebd5bc94cae822b097fb937ed92725209c919106a18",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 63786
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 70,
+      "path": "pages/ans-and-adrenergic-drugs/page-070.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "40ba4d420b653afdd15366fdc8fa6b1e75f98a6ac6d0f87647841d23f9496680",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 65398
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 71,
+      "path": "pages/ans-and-adrenergic-drugs/page-071.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "98a5ff76e518337da8965ff01589147ead57d04ea5818cab03da0c5655f5c591",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 11804
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 72,
+      "path": "pages/ans-and-adrenergic-drugs/page-072.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ec5969ba69c88be1611352801e67e729cd9c184f716465c38267c0949cc2f1f9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 78264
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 73,
+      "path": "pages/ans-and-adrenergic-drugs/page-073.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8b0a8c3eed771d67768d148df7a316314499509de10023277fff40d93a4d41aa",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 74098
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 74,
+      "path": "pages/ans-and-adrenergic-drugs/page-074.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0a56bb5d880fcfb5321ac3476cf9d7602ddb7594b39065d125522358bad51392",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 52892
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 75,
+      "path": "pages/ans-and-adrenergic-drugs/page-075.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ea00d58c72dcd7829fabddb6c22dd0e34ad9f35b55140ea30b034b5a483a935f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 57710
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 76,
+      "path": "pages/ans-and-adrenergic-drugs/page-076.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c7ed4656f647a068479848caee39ca5529b9783a06c5dd2e4fc29e62a87b6901",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 72728
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 77,
+      "path": "pages/ans-and-adrenergic-drugs/page-077.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e4b0c1a7c2fbc24f3b0f1b5f3b0df296b8ec351ae373b7c11517c8a82dbbfadb",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 35154
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 78,
+      "path": "pages/ans-and-adrenergic-drugs/page-078.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "22273950a51f012f4c4665d3abbd1c12ea0b60a8e2ae5140e95833832ded2ee9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 87520
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 79,
+      "path": "pages/ans-and-adrenergic-drugs/page-079.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "83b1e78db9568048039bb2d7197e51f8cc770192bf8154cbff3683929c516d0e",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 47776
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 80,
+      "path": "pages/ans-and-adrenergic-drugs/page-080.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5eb1e06d310e2fdc7eaea05a0378fa7b63e7846e5bf558abec064669c8d0c015",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 12804
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 81,
+      "path": "pages/ans-and-adrenergic-drugs/page-081.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1553af3605c0c5e88ce3c2587138dd4c4f712df5d4de79d4c67e2cb6be3919b",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 58620
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 82,
+      "path": "pages/ans-and-adrenergic-drugs/page-082.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "85f749332125b5099e6791776d2a481ea3fbf56a3c6f636c1491f6d3224721c9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 62812
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 83,
+      "path": "pages/ans-and-adrenergic-drugs/page-083.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0a0c693c11284130a9a1296885c7753aca4f7bc84a8430a5066e67d3ada31320",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 41580
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 84,
+      "path": "pages/ans-and-adrenergic-drugs/page-084.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "978f7d5760903193f9ef037d52219b32a8c6ef98939415d471db8a3d43d9cf7f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 57726
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 85,
+      "path": "pages/ans-and-adrenergic-drugs/page-085.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "75a14d27f26a95467880d5d266eaafc5b74be517eb90b3d8e31f2cbc2cd16046",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 75344
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 86,
+      "path": "pages/ans-and-adrenergic-drugs/page-086.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ccb4c8d0b2627c68997c27795e4672377bdb0e337f4cf18d6882cee14ba9a555",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 49216
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 87,
+      "path": "pages/ans-and-adrenergic-drugs/page-087.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8f49b1f5a262a8652e62c4e06efa3c3c1c8355c5b413abc336c6f4a0a13b451f",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 75932
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 88,
+      "path": "pages/ans-and-adrenergic-drugs/page-088.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "36dc0f8790fabfa9a0f1fd8f6fe0c43f3ffd8fe38365c6b2450ff543fab6ebe9",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 89578
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 89,
+      "path": "pages/ans-and-adrenergic-drugs/page-089.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ab3aa1616f5385f9a1345761141983a1c046568cb6a810827f0db0f2e56c6213",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 38712
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 90,
+      "path": "pages/ans-and-adrenergic-drugs/page-090.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6dd0b60cdfd55eca34de0f3de7bafe97217789aff75209a9a0b9732aef7d9825",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 48696
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 91,
+      "path": "pages/ans-and-adrenergic-drugs/page-091.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9458063027e4567b1c381acd402d50b11936fd98182abfe76ab7bc57fbe60cf8",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 113906
+    },
+    {
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 92,
+      "path": "pages/ans-and-adrenergic-drugs/page-092.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9e49058d86c62c7e349529605686696bc7beb9c84d6b957a5f9e1674c5309c4a",
+      "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
+      "sizeBytes": 44214
+    }
+  ]
+}

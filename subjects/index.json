@@ -8,6 +8,10 @@
     {
       "id": "general-microbiology",
       "config": "general-microbiology/subject.json"
+    },
+    {
+      "id": "pharmacology",
+      "config": "pharmacology/subject.json"
     }
   ]
 }

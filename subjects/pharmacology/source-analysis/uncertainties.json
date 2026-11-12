@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "pharmacology",
+  "items": [
+    {
+      "id": "introduction-and-roa-u-adverse-specificity",
+      "description": "The slide attributes adverse effects to lack of specificity without qualification. Preserve wording; do not use an exclusive universal-cause claim in scoring.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 9,
+      "printedSlide": null
+    },
+    {
+      "id": "introduction-and-roa-u-abbreviation-scope",
+      "description": "The heading discourages the listed abbreviations while red underlines mark only some rows. Preserve all meanings as reference; do not invent an authoritative acceptable subset.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 19,
+      "printedSlide": "20"
+    },
+    {
+      "id": "introduction-and-roa-u-charcoal-generalization",
+      "description": "The broad overdose statement does not specify which agents or timing. Do not score universal charcoal efficacy.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 26,
+      "printedSlide": "27"
+    },
+    {
+      "id": "introduction-and-roa-u-adsorption-wording",
+      "description": "The slide says slower adsorption under extended release; preserve this spelling in full extraction and assess clear controlled-release relationships without relying on adsorption/absorption interchangeability.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 32,
+      "printedSlide": "33"
+    },
+    {
+      "id": "introduction-and-roa-u-parenteral-circulation",
+      "description": "The umbrella wording introduces drugs directly into systemic circulation, while following IM/SC slides explicitly describe absorption. Assess direct bloodstream/no-absorption properties only for intravascular administration.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 36,
+      "printedSlide": "37"
+    },
+    {
+      "id": "introduction-and-roa-u-depot-generalization",
+      "description": "Depot vehicle precipitation/dissolution is a described preparation mechanism, not evidence that every IM preparation follows it.",
+      "handling": "Preserve source; exclude unresolved/generalized claim from scored answers.",
+      "lectureId": "introduction-and-roa",
+      "pdfPage": 41,
+      "printedSlide": "43"
+    },
+    {
+      "id": "pk-p014-passive-figure",
+      "description": "Adjacent figure contains an ATP/ADP carrier while text defines passive diffusion without energy; do not conflate the adjacent symbol with passive diffusion.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p016-bioavailability-definition",
+      "description": "Two formulations are given: fraction reaching systemic circulation, and rate plus extent. Avoid asking which formulation the source uniquely defines.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 16,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p017-auc-dose-condition",
+      "description": "AUC ratio is printed without dose normalization or explicit equal-dose condition. Use equal-dose assumptions explicitly in any later calculation.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p018-clipped-text",
+      "description": "Bottom text extends below the visible page. Embedded PDF text recovers the concluding solubility/weak-acid-base lines; distinguish that recovery from fully visible text.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p026-manufacturer-vd",
+      "description": "Vd is called a drug property determined by its manufacturer, without patient/context qualifications; retain but do not score the unqualified assertion.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 26,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p027-rounded-compartments",
+      "description": "Percentage and volume figures are rounded source values:6% of70kg is labelled4L,14% is10L. Avoid exact arithmetic requiring both to be simultaneously precise.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 27,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p031-vd-half-life-condition",
+      "description": "Vd-to-half-life inference requires clearance to be held constant, as implied by t1/2=0.69Vd/CL on p30; do not score an unconditional change if CL also changes.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 31,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p035-elimination-scope",
+      "description": "The unqualified exponential statement is limited by the first-order versus zero-order distinction on p37.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 35,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p036-clearance-definition",
+      "description": "Clearance is described as amount removed per unit time; this is not interchangeable with the CL quantity in later equations. Preserve wording and block a scored dimensional definition.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 36,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p046-figure-overlay",
+      "description": "Figure overlays the lower part of the written efficacy/adverse-events sentence; full sentence is recoverable in embedded text. The metabolic-ratio substrate is not identified, so no drug-specific allele inference is supported.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 46,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p047-polymorphism-percentages",
+      "description": "The listed population percentages do not explicitly label the measured phenotype/category; keep as reference detail, not scored population claims.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 47,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p048-cyp-figure-typo",
+      "description": "Figure spells CPY2C19 while prose says CYP2C19. Preserve the distinction; never test the typo.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 48,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p050-metabolic-outcome-condition",
+      "description": "The final decreased-therapeutic-effect line lacks the active/inactive metabolite condition explicitly stated in the preceding lines. Test only conditional mechanism relationships.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 50,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p055-clipped-figure",
+      "description": "The lower figure caption/right-hand text meets or exceeds the page edge. The inhibitor/inducer identities and directional graph changes are visible; do not infer exact point values.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 55,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p058-neonatal-causality",
+      "description": "The clause following chloramphenicol conjugation says resulting in gray baby syndrome, leaving causality ambiguous relative to the stated neonatal deficiency. Retain without silently repairing and exclude that causal claim from scoring.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 58,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p060-prodrug-example",
+      "description": "Acetylsalicylate is listed as a prodrug example without explanation. Preserve the named example but do not score its classification.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 60,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p068-filtrate-retention",
+      "description": "The phrase retain certain drugs in the glomerular filtrate follows immature secretion but does not explain the intended retention location. Preserve, do not score the locational inference.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 68,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p070-treatment-example-limit",
+      "description": "Specific overdose-treatment statements are preserved as illustrative source content; they are not verified contemporary treatment guidance and not drug-name recall targets.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 70,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p073-clipped-gas-examples",
+      "description": "Anesthetic-gas examples at the lower edge are clipped in the rendering but readable in the embedded text; recovered wording is noted as text-layer evidence.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 73,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p075-blanket-dose-rule",
+      "description": "Universal20% sex difference and must-reduce-dose instruction lack drug/patient conditions. Do not score universal percentage or prescribing rules.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 75,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p078-binding-half-life-condition",
+      "description": "Decreased binding is listed as decreasing half-life without conditions on Vd/CL. Preserve and exclude unconditional predictions.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 78,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p082-continuous-grouping",
+      "description": "The slide groups fixed-dose/fixed-interval regimens under continuous administration; preserve its organizational list without asserting constant infusion kinetics for intermittent doses.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 82,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p084-clipped-first-order",
+      "description": "First-order-elimination text is partly below the visible page edge; embedded text recovers the full parenthesis.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 84,
+      "printedSlide": null
+    },
+    {
+      "id": "pk-p089-garbled-steady-state-line",
+      "description": "The second written sentence is grammatically incomplete; p86 and the graph support unchanged steady-state approach time for otherwise comparable regimens. Do not score verbatim garbled wording.",
+      "handling": "Preserve source wording/provenance; do not let the unresolved or unqualified claim determine a scored answer.",
+      "lectureId": "pharmacokinetics",
+      "pdfPage": 89,
+      "printedSlide": null
+    },
+    {
+      "id": "pharmacodynamics-u-cropped-gpcr-panel",
+      "description": "Left GPCR summary panel is cropped after INTRACELLU...; its final wording is unavailable.",
+      "handling": "Retain visible labels; do not reconstruct or assess missing text.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 5,
+      "printedSlide": "5"
+    },
+    {
+      "id": "pharmacodynamics-u-efficacy-absolute",
+      "description": "The slide says maximal efficacy is solely dependent upon intrinsic efficacy, an unqualified statement while later material discusses receptor reserve.",
+      "handling": "Preserve wording; assess qualitative potency/efficacy distinctions, not an absolute exhaustive determinant rule.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 10,
+      "printedSlide": "10"
+    },
+    {
+      "id": "pharmacodynamics-u-panel-letter-scope",
+      "description": "Different diagrams reuse DrugA/DrugB with different relationships.",
+      "handling": "Keep each panel independent; never infer a single global A/B ranking across the whole page.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 14,
+      "printedSlide": "14"
+    },
+    {
+      "id": "pharmacodynamics-u-unequal-maxima-ranking",
+      "description": "Different maxima, an unplateaued D curve and slight downturn in C prevent a unique unconditional ranking of all five drugs.",
+      "handling": "Only compare at an explicitly specified readable common effect; do not invent Emax or EC50 for D.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 15,
+      "printedSlide": "15"
+    },
+    {
+      "id": "pharmacodynamics-u-unkeyed-potency-question",
+      "description": "The embedded most-potent question has unequal maxima, no quantitative common-effect criterion and no marked answer.",
+      "handling": "Preserve question and graph but do not use its unkeyed choice as a scored fact.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 16,
+      "printedSlide": "16"
+    },
+    {
+      "id": "pharmacodynamics-u-benefit-generalization",
+      "description": "The slide broadly states that greater efficacy is more therapeutically beneficial than greater potency without specifying drug, indication or safety conditions.",
+      "handling": "Retain as written; block a universal clinical-benefit inference. Clear graph distinctions remain assessable.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 17,
+      "printedSlide": "17"
+    },
+    {
+      "id": "pharmacodynamics-u-msc-label",
+      "description": "The graph labels its upper therapeutic-range boundary minimum safe concentration(MSC) while also placing toxic level above it.",
+      "handling": "Preserve exact source label and geometry; do not silently replace the term or use it as a general safety-definition question.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 24,
+      "printedSlide": "24"
+    },
+    {
+      "id": "pharmacodynamics-u-km-vmax-labels",
+      "description": "Drug dose-response illustration labels potency using Km and reduced efficacy using Vmax, while other lecture pages use EC50 and maximum response.",
+      "handling": "Preserve labels explicitly; assess supported qualitative differences using clear surrounding pages, not equivalence of Km with EC50 or enzyme constants.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 32,
+      "printedSlide": "32"
+    },
+    {
+      "id": "pharmacodynamics-u-noncompetitive-narrow-definition",
+      "description": "This page defines noncompetitive antagonist as irreversible binding at the agonist site; later pages separately describe allosteric inhibition at another site.",
+      "handling": "Assess the specifically stated irreversible same-site example and different-site allosteric mechanism separately; avoid claiming this is an exhaustive definition of all noncompetitive antagonism.",
+      "status": "unresolved",
+      "scoring": "blocked-for-uncertain-claim",
+      "lectureId": "pharmacodynamics",
+      "pdfPage": 35,
+      "printedSlide": "35"
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u012",
+      "description": "Parasympathetic M effectors include heart/vessels and sympathetic cholinergic effectors sweat glands/vessels without vascular-bed qualifications. Do not score a universal vascular innervation rule.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 12,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u013",
+      "description": "The table groups Nn/Nm under parasympathetic and alpha/beta under sympathetic; pp11–12 show ganglionic,somatic and sympathetic-cholinergic exceptions. No division-exclusive receptor inference.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 13,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u016",
+      "description": "TH footer reads thyroxin hydroxylase but the pathway/p17 describe tyrosine hydroxylation. Reuptake is numbered6 here, whereas p17 removal5/metabolism6. Block erroneous enzyme expansion and arbitrary numbering questions.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 16,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u018",
+      "description": "Upper chart attributes lipolysis to beta1; p22/p36 associate adipose lipolysis with beta3. Preserve both, block upper-chart lipolysis receptor identity.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u019",
+      "description": "Alpha1 sweat-gland/general gland/GU/gut labels lack qualifications and differ from the specific cholinergic sweat-gland map on p12. Preserve but do not score generalized gland/gut rules.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 19,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u025",
+      "description": "Broad beta potency rank has no subtype restriction. Do not infer identical ranking at every beta subtype.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 25,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u026",
+      "description": "Example5 says Doputamine, while p46 uses Dobutamine. Preserve spelling difference, do not test as distinct drugs.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 26,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u027",
+      "description": "Poor CNS penetration due to polarity is followed by CNS attribution of anxiety/tremor/headache, while p47 says no BBB penetration. Preserve differing absolute/relative claims; block absolute CNS-entry and unsupported symptom localization.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 27,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u043",
+      "description": "Negligible cardiac stimulation must not be treated as absence of direct beta1 action (p41). The pressure-vagal-bradycardia reflex is explicit. Atropine pretreatment is an unanswered prompt; no outcome is supplied.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 43,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u047",
+      "description": "Absolute no BBB penetration conflicts in degree with poor penetration on p27. Block absolute claim. Preserve source uses as lecture teaching, not current universal treatment advice.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 47,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u049",
+      "description": "No effect on heart is unqualified whereas p48 explicitly gives reflex bradycardia. Distinguish direct receptor action from reflex; no absolute no-heart-effect claim.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 49,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u053",
+      "description": "Same mechanism,indication,side effects broadly groups agents without detailed individual comparison; do not infer identity of every adverse-effect profile.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 53,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u054",
+      "description": "Short agonist duration less than3hours has no precise duration definition; preserve but avoid exact cut-off items.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 54,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u056",
+      "description": "Delayed onset jointly attributed to salmeterol/formoterol without distinguishing the drugs; block drug-specific onset comparisons and unqualified shared delayed onset.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 56,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u058",
+      "description": "No longer recommended lacks indication/context, while p62 lists uses. Block universal recommendation status.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 58,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u062",
+      "description": "Table-only SVT indications for phenylephrine/methoxamine lack explanatory context. Amphetamine alpha/beta shorthand does not imply direct receptor binding. All noncatecholamines can be oral is unqualified. Preserve but block unsupported treatment/generalization inferences.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 62,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u067",
+      "description": "BPH appears under a joint phenoxybenzamine/phentolamine heading without individual allocation; do not infer preferred or unique BPH drug.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 67,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u068",
+      "description": "No significant HR/CO increase conflicts with p69 explicit reflex HR/CO increases. Preserve conflict; block unconditional net-HR/output predictions. Vasodilation/BP reduction remains clear.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 68,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u069",
+      "description": "Reflex HR/CO increase differs from p68 net no-significant-increase statement. Preserve reflex mechanism without scoring unconditional net comparisons.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 69,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u072",
+      "description": "All beta-blocker names ending -olol except labetalol/carvedilol is an unqualified mnemonic; do not classify arbitrary new drug names from it.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 72,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u073",
+      "description": "BP reduction in hypertensive but not normal subjects is unqualified. Do not score universal absence of BP effect in normal subjects.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 73,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u078",
+      "description": "Sexual-dysfunction mechanism explicitly unclear/possibly independent of beta blockade. Do not invent it.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 78,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u083",
+      "description": "Most cardioselective atenolol is a superlative without comparison set. Block universal ranking; beta1 selectivity/longer action than metoprolol remain explicit.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 83,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u084",
+      "description": "Pulmonary advantage explained with peripheral vascular beta2 localization. Preserve wording but do not score that anatomical explanation; relative selectivity/lower pulmonary risk separately supported p81.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 84,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u085",
+      "description": "Cannot use in patients with arrhythmia due to ISA is a broad unqualified exclusion. Preserve; avoid universal contraindication item.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 85,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u088",
+      "description": "Grouped carvedilol/labetalol uses must not allocate every listed use to both drugs. Individual use emphases specified p87.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 88,
+      "printedSlide": null
+    },
+    {
+      "id": "ans-and-adrenergic-drugs-u091",
+      "description": "Numbers1–4 have no written legend; no scored question can depend on invented numeric meanings.",
+      "handling": "Preserve source wording. Unresolved component excluded from scored-answer determination; clear independent claims remain eligible.",
+      "lectureId": "ans-and-adrenergic-drugs",
+      "pdfPage": 91,
+      "printedSlide": null
+    }
+  ]
+}

@@ -4,8 +4,9 @@ import hashlib, json, pathlib, re, sys, argparse
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--subject', default='molecular-biology')
+parser.add_argument('--subject-root', type=pathlib.Path, help='Explicit subject directory for staged validation')
 args = parser.parse_args()
-BASE = ROOT / 'subjects' / args.subject
+BASE = (args.subject_root or ROOT / 'subjects' / args.subject).resolve()
 def read(path):
     return json.loads(path.read_text(encoding='utf-8-sig'))
 def require(condition, message):
@@ -17,6 +18,11 @@ pages = read(BASE / 'source-analysis/page-ledger.json')['pages']
 concepts = read(BASE / 'source-analysis/concept-index.json')['concepts']
 page_map = {(p['lectureId'], p['pdfPage']): p for p in pages}
 concept_map = {c['id']: c for c in concepts}
+blocked_concepts = set()
+for lecture in manifest['lectures']:
+    reviewed = read(BASE / 'source-analysis/lectures' / (lecture['id'] + '.json'))
+    blocked_concepts.update(reviewed.get('blockedConceptIds', []))
+
 require(len(page_map) == manifest['total_pdf_pages'] == len(pages), 'PDF page ledger is incomplete or duplicated')
 for lecture in manifest['lectures']:
     path = BASE / 'sources' / lecture['path']
@@ -51,6 +57,7 @@ for a in bank['activities']:
     require(a['type'] in ('mcq', 'match', 'order', 'diagram'), f'Unsupported interaction: {label}')
     type_counts[a['type']] = type_counts.get(a['type'], 0) + 1
     require(a['conceptIds'] and all(c in concept_map for c in a['conceptIds']), f'Unknown concepts: {label}')
+    require(not blocked_concepts.intersection(a['conceptIds']), f'Unresolved source concept used for scoring: {label}')
     require(all(concept_map[c]['lectureId'] == a['lectureId'] for c in a['conceptIds']), f'Cross-lecture concepts need explicit support: {label}')
     require(a['sourceRefs'], f'No source refs: {label}')
     for ref in a['sourceRefs']:
