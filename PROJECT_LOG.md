@@ -587,3 +587,19 @@ Functional release `34a35eeb3613297a08267899f39cffee6c694968` passed [CI 4327862
 All seven grouped release workflows passed on the actual public website in isolated Chrome. Seventeen public resources returned HTTP 200 and exactly matched committed SHA-256 bytes, including all four original PDFs, the 538-activity bank, consolidated source, manifests and sampled source images. Bank SHA-256: `1a57a2fd6101c384c6154118c278b6aee0535a1d09702af9b647d9f7726cf327`. Local evidence: ignored `work/pharmacology/public-verification.json` and release QA outputs.
 
 The complete source-to-question process, independent review, app audit, limitations and continuation instructions are recorded in [the Pharmacology handoff](docs/PHARMACOLOGY_HANDOFF.md). The canonical workspace remains Documents; the earlier checkout remains a backup. Existing Molecular Biology and Microbiology banks are preserved. Follow-up documentation commits do not alter verified functional artifacts.
+
+
+## 2026-11-12 — 1.3.0 design and touch experience started
+
+User requested portable authoring/architecture/decision records for a future subscription site, Impeccable design-system work, Pharmacology Memorize ideas and phone/iPad fixes. Inspected 1.2.14 and started feature release 1.3.0. User permits style improvement and prioritizes simple organization.
+
+Rendered baseline reproduced Memorize overflow: 374px at 320px, 304px at 390px, 208px at 768px and 156px at 820px. Later desktop CSS overrode earlier device rules. Added tokens/final responsive owner, compact navigation <=1100px, phone directory <=600px, flexible tablet detail, safe-area source viewer and coarse-pointer targets. Existing banks/storage unchanged. Initial 30-route/viewport rerun shows zero document overflow/no browser errors; interaction verification follows.
+
+Added PRODUCT.md, DESIGN.md, portable entry guide and authoring/architecture/decision records. Future paid-service and Pharmacology synthesis plans are explicitly proposals.
+
+
+### 1.3.0 release candidate verification
+
+Passed npm run check and all 77 JS tests. Committed optional browser regression covers 11 routes plus four Memorize sections at six sizes, menu interactions, matrices, source viewing/rotation, practice Arabic feedback and save/reload/resume. Zero document overflow/page errors; actual synthesized horizontal/vertical touch swipes passed at 390px. Existing question banks and model/storage/study modules remain unchanged. Physical iPhone/iPad Safari and real keyboard/browser-chrome testing remain unverified.
+
+Inspected final desktop/phone/tablet renders. Impeccable detector findings were triaged: touched stripes removed, SVG navigation unified, shared tokens documented; legacy color/type/radius variants remain incremental consolidation work. Portable docs distinguish implemented behavior, proposals and future subscription requirements. See docs/QA.md for exact scope.

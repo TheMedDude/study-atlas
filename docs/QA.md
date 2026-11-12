@@ -86,3 +86,16 @@ Functional release `34a35eeb3613297a08267899f39cffee6c694968` passed [CI 4327862
 All seven grouped release workflows passed on the actual public website in isolated Chrome. Seventeen public resources returned HTTP 200 and exactly matched committed SHA-256 bytes, including all four original PDFs, the 538-activity bank, consolidated source, manifests and sampled source images. Bank SHA-256: `1a57a2fd6101c384c6154118c278b6aee0535a1d09702af9b647d9f7726cf327`. Local evidence: ignored `work/pharmacology/public-verification.json` and release QA outputs.
 
 The complete source-to-question process, independent review, app audit, limitations and continuation instructions are recorded in [the Pharmacology handoff](PHARMACOLOGY_HANDOFF.md). The canonical workspace remains Documents; the earlier checkout remains a backup. Existing Molecular Biology and Microbiology banks are preserved. Follow-up documentation commits do not alter verified functional artifacts.
+
+
+## 1.3.0 — design-system and responsive verification
+
+Syntax checks and all 77 JavaScript tests pass. No subject files or scoring/history/study modules changed. The optional committed browser regression `scripts/test_responsive.mjs` runs against an isolated local server or QA_URL. It passed 11 routes and all four Microbiology Memorize sections at 320x740, 390x844, 768x1024, 820x1180, 1024x768 and 1366x900. No document overflow or page errors were found. Matrices/diagrams remain locally scrollable.
+
+Verified compact-menu open/select/close, phone directory selection, matrix reveal/hide, touch target heights, fixed question dock bounds, instant checking, Arabic feedback, exact source load/page navigation/zoom, source rotation, save/reload/resume and one recorded attempt without duplication. At 390px Chrome DevTools touch events performed an actual horizontal directory swipe and a vertical swipe across it; the former moved the rail and the latter scrolled the page. Other scroll-container checks use DOM scroll positions. Desktop/phone/tablet screenshots were inspected.
+
+Evidence is Chromium viewport emulation plus synthesized touch, not physical iPhone/iPad Safari, browser chrome, real onscreen keyboard or hardware performance testing. These remain explicit verification gaps. The old 30-case baseline found 304px phone and 156px tablet Memorize document overflow; final runs show zero.
+
+Impeccable context/playbooks and the mechanical detector were used. Fixed touched accent stripes and navigation icon consistency. The detector also reported legacy color/type/radius variants; those are documented consolidation debt, not a clean-detector claim. Inter remains the confirmed bundled family rather than being replaced due to a generic font warning. Hook setup was not modified as a side effect.
+
+Release publication is recorded separately in PROJECT_LOG.md. No private progress, QA histories/screenshots, credentials or source-bank changes are committed.

@@ -1,0 +1,1 @@
+{"breakpoints":{"compact":"1100px","phone":"600px"},"motion":{"reducedMotion":"Respect prefers-reduced-motion and existing user setting"},"rules":["Do not hide document overflow to mask layout failures","Touch targets at least 44px tall","Revealing never creates a scored attempt"]}

@@ -1,0 +1,17 @@
+/* Shared primitives. Component styles consume these; avoid duplicate palettes. */
+:root {
+  --cream:#f6f3e9; --paper:#fffdf7; --ink:#26352e; --muted:#596659;
+  --line:#dcded1; --coral:#ed8067; --lime:#e2ec98;
+  --soft-coral:#fae9e2; --soft-lime:#eef2d7; --focus:#397052;
+  --panel-bg:var(--paper); --text:var(--ink); --accent:var(--coral);
+  --radius:16px; --radius-control:8px;
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px;
+  --space-6:24px; --space-8:32px; --touch-target:44px;
+  --font-ui:"Inter","Noto Sans Arabic",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-ar:"Noto Sans Arabic","Inter",sans-serif;
+  color-scheme:light; font-family:var(--font-ui); font-size:16px;
+  font-optical-sizing:auto; color:var(--ink); background:var(--cream);
+}
+::selection { background:var(--lime); color:var(--ink); }
+input,textarea { caret-color:var(--ink); }
+:root { scrollbar-color:#a4b09e var(--cream); }

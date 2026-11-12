@@ -39,3 +39,8 @@ Settings and subject/scope progress are separate. Cross-tab saves reconcile; cle
 Saved questions and resumable sessions use a separate subject/scope study-state key. Preserve existing answer-history keys and legacy backups. Practice answers count when checked; leaving or skipping never erases checked history or fabricates evidence. Resume keeps stable attempt IDs and shuffled order; closed-session tombstones must prevent stale-tab resurrection. Updates is a plain oldest-to-newest list, opening scrolled to the newest entry at the bottom.
 
 Bank builds now validate a staged subject tree before replacing compiled content. Use `--subject pharmacology` for its source/content scripts. Keep source-based deferrals explicit and never score a blocked concept. Reviewed lecture records must exactly match the compiled bank.
+
+
+## Portable continuation and design work
+
+Read docs/START_HERE.md, PRODUCT.md, DESIGN.md, docs/QUESTION_AUTHORING.md, docs/ARCHITECTURE.md and docs/DECISIONS.md. Record authoring methods, architecture changes and decisions as they evolve. Subscription foundations and Pharmacology Memorize ideas are proposals, not shipped capabilities. app/tokens.css owns shared primitives; app/responsive.css loads last and owns touched device layouts. Verify phone/tablet interactions and report physical-device limitations honestly.

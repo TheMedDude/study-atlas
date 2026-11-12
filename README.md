@@ -1,5 +1,8 @@
 # Study Atlas
 
+**Start here:** [Portable guide](docs/START_HERE.md) · [Question authoring](docs/QUESTION_AUTHORING.md) · [Design system](DESIGN.md) · [Architecture](docs/ARCHITECTURE.md) · [Decisions](docs/DECISIONS.md)
+
+
 A study platform that turns course materials into focused practice, interactive drills, and clear progress across subjects.
 
 **[Open Study Atlas](https://themeddude.github.io/study-atlas/)** · [GitHub repository](https://github.com/TheMedDude/study-atlas)

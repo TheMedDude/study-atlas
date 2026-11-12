@@ -5,7 +5,7 @@ import { emptyStudy, validateStudy, studyKey, loadStudy, saveStudy, mergeStudy, 
 import { studyNotes } from './notes.js';
 import { notesPdf } from './pdf.js';
 
-const RELEASE = '1.2.14';
+const RELEASE = '1.3.0';
 const $ = selector => document.querySelector(selector);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const base = new URL('../', import.meta.url);
@@ -13,7 +13,6 @@ const url = path => new URL(path, base).href;
 const json = async path => { const r = await fetch(url(path), { cache: 'no-cache' }); if (!r.ok) throw new Error(`Could not load ${path} (${r.status}).`); return r.json(); };
 const routes = ['courses', 'home', 'memorize', 'practice', 'exam', 'drills', 'review', 'saved', 'progress', 'materials', 'updates', 'settings'];
 const names = { courses: 'Courses', home: 'Overview', memorize: 'Memorize', practice: 'Practice', exam: 'Exam', drills: 'Concept drills', review: 'Weak areas', saved: 'Saved', progress: 'Progress', materials: 'Materials', updates: 'Updates', settings: 'Settings' };
-const symbols = { courses: '❖', home: '◈', memorize: '✦', practice: '↗', exam: '▤', drills: '⌘', review: '↻', saved: '☆', progress: '◷', materials: '▱', updates: '✧', settings: '⚙' };
 let storage;
 try { storage = window.localStorage; } catch { storage = { getItem: () => null, setItem: () => { throw new Error('Storage unavailable'); } }; }
 const state = { view: routes.includes(location.hash.slice(1)) ? location.hash.slice(1) : (new URL(location.href).searchParams.get('subject') ? 'home' : 'courses'), settings: loadSettings(storage), session: null, source: null, notice: null, progressFilter: 'all', chapterFilter: 'all', memorizeTab: 'organisms', memorizeSearch: '', memorizeCat: 'all', selectedTree: null, selectedMatrix: null, occluded: false, bankFilter: 'all', selectedOrganism: null, organismViewMode: 'console', treeSimPath: [], treeViewMode: 'tree', bankSearch: '', bankChapter: 'all', bankStatus: 'all', bankBrowserOpen: false, bankFullscreen: false };
@@ -128,6 +127,9 @@ function notesPreview() {
   dialog.querySelector('#print-notes').onclick=async()=>{const button=dialog.querySelector('#print-notes');button.disabled=true;button.textContent='Creating PDF…';try{const blob=await notesPdf(items,concepts,lectures,state.settings.explanationLanguage,subject.title),link=document.createElement('a'),objectURL=URL.createObjectURL(blob);link.href=objectURL;link.download=`study-atlas-${subject.id}-notes.pdf`;link.click();setTimeout(()=>URL.revokeObjectURL(objectURL),1000);}catch(error){notice(error.message,true);}finally{button.disabled=false;button.textContent='Download PDF';}};
 }
 function releaseHTML(version) {
+  if (version === '1.3.0') {
+    return `<p class="release-version">VERSION 1.3.0 · NOVEMBER 12, 2026</p><h2>Made for the screen you study on.</h2><ul><li>A compact navigation menu gives phones and tablets more room for studying.</li><li>Microbiology Memorize reflows into a phone directory and a tablet list-and-detail view.</li><li>Larger touch targets, readable controls, and source-viewer safe-area support.</li><li>A shared design system keeps colors, typography, and controls consistent.</li></ul><p class="small muted">Your question banks, saved sessions and progress formats are unchanged.</p>`;
+  }
   if (version === '1.2.14') {
     return `<p class="eyebrow">VERSION 1.2.14 · NOVEMBER 12, 2026</p><h2>Pharmacology joins your atlas.</h2><ul><li>Four midterm lectures with 483 five-option MCQs and 55 concept drills.</li><li>General principles lead the introductory chapters; ANS and adrenergic drugs include drug-specific comparisons.</li><li>English and Arabic explanations link back to exact source pages.</li><li>Course cards show accurate counts and recorded answers across subjects.</li><li>Hidden comparison values work with mouse and keyboard. Question Library labels show the last answer result.</li></ul><p class="small muted">Existing Molecular Biology and Microbiology questions and progress stay available.</p>`;
   }
@@ -138,7 +140,7 @@ function releaseHTML(version) {
   return version==='1.1'?`<p class="eyebrow">VERSION 1.1 · NOVEMBER 7, 2026</p><h2>Pick up where you left off.</h2><ul><li>Previous, skip, finish anytime, and All available in practice.</li><li>Your place and elapsed study time save automatically.</li><li>Save questions and turn them into PDF study notes.</li><li>Navigation stays visible when explanations open.</li><li>Keyboard: 1–5 choose, Enter check/next, + slide, − previous.</li></ul><p class="small muted">Checked answers count even when you leave. Backups include saved questions and sessions.</p>`:
     `<p class="eyebrow">VERSION 1.0 · NOVEMBER 5, 2026</p><h2>Your first Study Atlas.</h2><ul><li>601 multiple-choice questions and 93 concept activities.</li><li>Practice, exams, English/Arabic explanations and source slides.</li><li>Progress on your device, with backup and restore.</li></ul>`;
 }
-function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy">${releaseHTML('1.1')}</section><section class="panel release-copy">${releaseHTML('1.2')}</section><section class="panel release-copy" id="release-latest">${releaseHTML(RELEASE)}</section></div>`;}
+function updatesView(){return pageHead('UPDATES','What’s new?')+`<div class="release-history"><section class="panel release-copy">${releaseHTML('1.0')}</section><section class="panel release-copy">${releaseHTML('1.1')}</section><section class="panel release-copy">${releaseHTML('1.2')}</section><section class="panel release-copy">${releaseHTML('1.2.14')}</section><section class="panel release-copy" id="release-latest">${releaseHTML(RELEASE)}</section></div>`;}
 function showRelease() {
   const dialog=document.createElement('dialog');dialog.className='release-dialog';dialog.setAttribute('aria-label',`What’s new in Study Atlas ${RELEASE}`);
   dialog.innerHTML=`${releaseHTML(RELEASE)}<div class="button-row"><button class="button primary" id="release-close">Got it</button><button class="text-button" id="release-details">View updates</button></div>`;
@@ -184,11 +186,29 @@ function answerTotalsHTML() {
 }
 function summary() { return progressSummary(concepts, progress.attempts, activities); }
 function badge(text, cls = '') { return `<span class="badge ${cls}">${esc(text)}</span>`; }
-function pageHead(kicker, title, copy = '') { return `<header class="page-head"><p class="eyebrow">${esc(kicker)}</p><h1 tabindex="-1">${title}</h1>${copy ? `<p class="lead">${copy}</p>` : ''}</header>`; }
+function pageHead(kicker, title, copy = '') { return `<header class="page-head"><h1 tabindex="-1">${title}</h1>${copy ? `<p class="lead">${copy}</p>` : ''}</header>`; }
+
+// Shared navigation icons use a single stroke vocabulary across input methods.
+function navIcon(view) {
+  const paths = {
+    home: '<path d="m3 10 9-7 9 7v10H3Z"/><path d="M9 20v-7h6v7"/>',
+    memorize: '<path d="M4 4h6a3 3 0 0 1 2 1 3 3 0 0 1 2-1h6v15h-6a3 3 0 0 0-2 1 3 3 0 0 0-2-1H4Z"/><path d="M12 5v15"/>',
+    practice: '<path d="m5 12 4 4L19 6"/>',
+    exam: '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M9 10h6M9 15h6"/>',
+    drills: '<path d="m12 3 9 9-9 9-9-9Z"/><path d="M8 12h8M12 8v8"/>',
+    review: '<path d="M4 9a8 8 0 1 1 0 6M4 3v6h6"/>',
+    saved: '<path d="M6 3h12v18l-6-4-6 4Z"/>',
+    progress: '<path d="M4 20V4M4 20h16M9 16v-5M14 16V7M19 16v-8"/>',
+    materials: '<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>',
+    updates: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    settings: '<path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/>'
+  };
+  return `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[view] || paths.home}</svg>`;
+}
 
 function shell() {
   const isCourses = state.view === 'courses';
-  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="courses"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>Medical Curriculum</small></span></button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><div class="subject-sub-row"><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span><button class="text-button all-courses-btn" data-go="courses">❖ All Courses</button></div></div><nav aria-label="Study navigation">${routes.filter(r => r !== 'courses').map(view => `<button data-go="${view}"><span aria-hidden="true">${symbols[view]}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span><span id="topbar-prefix">${isCourses ? 'Study Atlas' : esc(subject.title)}</span> <span class="muted">/</span> <span id="view-label">${isCourses ? 'All Courses' : (names[state.view] || '')}</span></span><span class="scope-tag" id="topbar-scope">${isCourses ? `${subjectConfigs.length} Courses` : esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
+  $('#app').innerHTML = `<div class="app-frame"><aside class="sidebar"><button class="brand" data-go="courses"><img src="${url('app/atlas.svg')}" alt="" width="38" height="38"><span>Study Atlas<small>Medical Curriculum</small></span></button><button type="button" class="menu-toggle" aria-controls="study-navigation" aria-expanded="false" data-action="toggle-menu">Menu</button><div class="subject-switch"><label for="subject-select">YOUR SUBJECT</label><select id="subject-select" aria-label="Current subject"><option value="${esc(subject.id)}">${esc(subject.title)}</option></select><div class="subject-sub-row"><span>${esc(subject.scope.title)} · ${lectures.length} lectures</span><button class="text-button all-courses-btn" data-go="courses">❖ All Courses</button></div></div><nav id="study-navigation" aria-label="Study navigation">${routes.filter(r => r !== 'courses').map(view => `<button data-go="${view}"><span aria-hidden="true">${navIcon(view)}</span>${names[view]}</button>`).join('')}</nav><div class="sidebar-foot"><span class="device-dot"></span> Progress on this device<button class="text-button" data-go="progress">Back up & restore ↗</button></div></aside><div class="workspace"><header class="topbar"><span><span id="topbar-prefix">${isCourses ? 'Study Atlas' : esc(subject.title)}</span> <span class="muted">/</span> <span id="view-label">${isCourses ? 'All Courses' : (names[state.view] || '')}</span></span><span class="scope-tag" id="topbar-scope">${isCourses ? `${subjectConfigs.length} Courses` : esc(subject.scope.title)}</span></header><div id="notice"></div><main id="main" tabindex="-1"></main><footer class="workspace-foot"><span>From your course materials, with a clear path back.</span><button class="text-button" data-go="materials">Browse sources ↗</button></footer></div></div><div id="source-host"></div><input id="backup-file" type="file" accept="application/json,.json" hidden>`;
   if (state.notice) notice(state.notice.message, state.notice.error);
 }
 
@@ -443,7 +463,7 @@ function setup(view) {
     </details>`;
   }
 
-  return (isExam?'':savedSessionsHTML()) + bankSummaryHTML + pageHead(isExam ? 'EXAM' : isDrill ? 'CONCEPT DRILLS' : isReview ? 'WEAK-AREA REVIEW' : 'PRACTICE', title, copy) + `<form id="session-setup" data-mode="${view}" class="setup-grid"><section class="panel chapter-picker"><div class="section-head compact"><h2>Choose your chapters</h2><button type="button" class="text-button" data-action="toggle-chapters">Select all / clear</button></div>${chapters.map((ch, i) => {
+  return pageHead(isExam ? 'EXAM' : isDrill ? 'CONCEPT DRILLS' : isReview ? 'WEAK-AREA REVIEW' : 'PRACTICE', title, copy) + (isExam?'':savedSessionsHTML()) + bankSummaryHTML + `<form id="session-setup" data-mode="${view}" class="setup-grid"><section class="panel chapter-picker"><div class="section-head compact"><h2>Choose your chapters</h2><button type="button" class="text-button" data-action="toggle-chapters">Select all / clear</button></div>${chapters.map((ch, i) => {
     const n = choices.filter(a => a.lectureId === ch.id).length;
     return `<label class="chapter-choice ${n ? '' : 'unavailable'}"><input class="chapter-check" type="checkbox" name="lecture" value="${esc(ch.id)}" ${n && (!state.pendingChapter || state.pendingChapter === ch.id) ? 'checked' : ''} ${n ? '' : 'disabled'}><span class="chapter-index">${String(i + 1).padStart(2, '0')}</span><span><strong>${esc(chapterTitle(ch.id))}</strong><small>${n} ${isDrill || isReview ? 'activities' : 'questions'} available</small></span></label>`;
   }).join('')}</section><aside class="panel session-config"><p class="eyebrow">YOUR SESSION</p><h2>${isExam ? 'Build your exam' : 'Start small. Keep going.'}</h2><label class="field" for="session-count">${isDrill || isReview ? 'Activities' : 'Questions'}<input id="session-count" name="count" type="number" min="1" max="${choices.length}" value="${Math.min(subject.assessment.recommendedPracticeCount, choices.length)}" required></label><div class="count-presets">${[10, 25, 50, 100].filter(n => n <= choices.length).map(n => `<button type="button" data-count="${n}">${n}</button>`).join('')}<button type="button" data-action="all-available">All available</button></div><p class="muted small" id="available-count">${choices.length} available in your selection</p>${isExam ? `<label class="toggle-row"><span>Use a timer</span><input id="use-timer" name="timed" type="checkbox" role="switch"></label><label class="field timer-field" for="timer-minutes">Minutes<input id="timer-minutes" name="minutes" type="number" min="1" max="240" value="20" disabled></label>` : `<div class="session-note"><span>↗</span><p>${isDrill ? 'Matching and ordering check on submission. Diagram choices follow your practice preference.' : state.settings.instantCheck ? 'Answers check when you click an option.' : 'Select an option, then confirm your answer.'} <button type="button" class="text-button" data-go="settings">Change in Settings</button></p></div>`}<button class="button primary wide" id="start-session" type="submit">${isExam ? 'Begin exam' : isDrill ? 'Begin drills' : 'Begin practice'} ↗</button><p class="small muted">Progress stays on this device.</p></aside></form>` + bankBrowserHTML;
@@ -1035,13 +1055,13 @@ function renderMatricesTab() {
       <table class="matrix-table ${isOccluded ? 'is-occluded' : ''}">
         <thead>
           <tr>
-            ${currentMatrix.columns.map(c => `<th>${esc(c)}</th>`).join('')}
+            ${currentMatrix.columns.map(c => `<th scope="col">${esc(c)}</th>`).join('')}
           </tr>
         </thead>
         <tbody>
           ${currentMatrix.rows.map(row => `
             <tr>
-              <td><strong>${esc(row[0])}</strong></td>
+              <th scope="row">${esc(row[0])}</th>
               ${row.slice(1).map(val => `
                 <td class="${isOccluded ? 'occluded-cell' : ''}" title="${isOccluded ? 'Click to reveal' : ''}">
                   ${isOccluded ? `<button type="button" class="matrix-cell-toggle" aria-expanded="false" aria-label="Reveal comparison value"><span class="cell-text" aria-hidden="true">${esc(val)}</span><span class="cell-cover" aria-hidden="true">Tap to reveal</span></button>` : `<span class="cell-text">${esc(val)}</span>`}
@@ -1270,6 +1290,16 @@ document.addEventListener('click', async event => {
   const cell = event.target.closest('.occluded-cell');
   if (cell) { setMatrixCell(cell, !cell.classList.contains('revealed')); return; }
   const b = event.target.closest('button, a'); if (!b) return;
+  if (b.dataset.action === 'toggle-menu') {
+    const open = b.getAttribute('aria-expanded') !== 'true';
+    b.setAttribute('aria-expanded', String(open));
+    b.closest('.sidebar').classList.toggle('nav-open', open);
+    return;
+  }
+  if (b.dataset.go) {
+    document.querySelector('.sidebar')?.classList.remove('nav-open');
+    document.querySelector('.menu-toggle')?.setAttribute('aria-expanded', 'false');
+  }
   if (b.classList.contains('skip-link')) { event.preventDefault(); $('#main')?.focus(); return; }
   if (state.session?.mode === 'exam' && !state.session.done && state.session.deadline && Date.now() >= state.session.deadline) { event.preventDefault(); finishSession(true); return; }
   if (b.dataset.resume) { resumePractice(b.dataset.resume); return; }
