@@ -578,3 +578,12 @@ The Codex app now confirms `Build Study Atlas` (01a1ac87-ac3b-71e1-a4e7-befadf40
 - Fixed course counts/progress, matrix reveal/accessibility, single-answer mastery labels, MCQ library counts, cross-subject update detection and stale release-dialog copy. Bank compilation now validates a temporary tree before replacing content; failed gates preserve existing published artifacts.
 - Local release checks passed:77JS tests,3Python regressions,syntax and all3subjectvalidators. Real browser checks cover main Pharmacology modes,sourceimages,Arabicfeedback,resume,savedquestions,courseseparation,examfeedback,Allavailable andUpdates. Desktop/mobile screenshots inspected; no page errors/overflow. See docs/QA.md for precise scope.
 - Full requested process and writing handoff:docs/PHARMACOLOGY_HANDOFF.md. Publication is authorized; CI/Pages/public verification is still a separate next milestone at this entry.
+
+
+## 2026-11-12 — Pharmacology 1.2.14 published and verified
+
+Functional release `34a35eeb3613297a08267899f39cffee6c694968` passed [CI 43278629249](https://github.com/TheMedDude/study-atlas/actions/runs/43278629249) and [Pages deployment 43278629239](https://github.com/TheMedDude/study-atlas/actions/runs/43278629239). Pages build 1363932003 succeeded for that exact commit. The initial CI manifest-hash failure was corrected with explicit UTF-8/LF metadata normalization; final CI passes all 77 JavaScript and three Python tests. PDF/image binary hashes were unchanged.
+
+All seven grouped release workflows passed on the actual public website in isolated Chrome. Seventeen public resources returned HTTP 200 and exactly matched committed SHA-256 bytes, including all four original PDFs, the 538-activity bank, consolidated source, manifests and sampled source images. Bank SHA-256: `1a57a2fd6101c384c6154118c278b6aee0535a1d09702af9b647d9f7726cf327`. Local evidence: ignored `work/pharmacology/public-verification.json` and release QA outputs.
+
+The complete source-to-question process, independent review, app audit, limitations and continuation instructions are recorded in [the Pharmacology handoff](docs/PHARMACOLOGY_HANDOFF.md). The canonical workspace remains Documents; the earlier checkout remains a backup. Existing Molecular Biology and Microbiology banks are preserved. Follow-up documentation commits do not alter verified functional artifacts.

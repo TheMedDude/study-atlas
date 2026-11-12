@@ -2,7 +2,7 @@
 
 Prepared for Study Atlas version 1.2.14 on November 12, 2026.
 
-**Release status:** the reviewed bank is integrated and local checks pass. Production deployment verification is recorded below when complete. The canonical checkout remains `C:\Users\musta\OneDrive\Documents\study-atlas`.
+**Release status:** version 1.2.14 is published and verified on the public website. CI, Pages deployment, live workflows and exact-byte public resources passed verification. The canonical checkout remains `C:\Users\musta\OneDrive\Documents\study-atlas`.
 
 ## Scope and preserved work
 
@@ -85,4 +85,14 @@ For future content changes:
 
 ## Production verification
 
-Pending at the local release-candidate checkpoint. The final deployment commit, CI/Pages results and public bank verification are added here after publication.
+Functional release commit: `34a35eeb3613297a08267899f39cffee6c694968`.
+
+- [CI 43278629249](https://github.com/TheMedDude/study-atlas/actions/runs/43278629249) completed successfully, including 77 JavaScript tests and three Python transaction regressions.
+- [Pages deployment 43278629239](https://github.com/TheMedDude/study-atlas/actions/runs/43278629239) succeeded; Pages build 1363932003 reports the same commit and no error.
+- [Published Pharmacology course](https://themeddude.github.io/study-atlas/?subject=pharmacology): all seven grouped release-workflow checks passed in isolated Chrome against the actual public site.
+- Seventeen public resources returned HTTP 200 and matched committed SHA-256 bytes: the app files, registry, subject configuration, compiled bank, source manifest/page index, detailed study source, all four original PDFs and one rendered page per lecture.
+- Published bank SHA-256: `1a57a2fd6101c384c6154118c278b6aee0535a1d09702af9b647d9f7726cf327` (1,356,156 bytes).
+
+The initial release attempt exposed a Windows-to-Linux metadata hash mismatch in CI. Commit 34a35ee corrected manifest hashing to explicit UTF-8 without BOM and LF newlines, and the final CI passed. Original PDF and rendered-image hashes remain exact binary hashes. Later documentation-only commits do not change these application or bank bytes.
+
+Detailed local verification evidence is retained under ignored `work/pharmacology/`; no private progress or browser history is published.

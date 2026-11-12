@@ -77,3 +77,12 @@ Syntax checks,77JavaScript tests and3Python bank-build regressions pass. The Pyt
 Isolated Chrome verified three course cards and exact counts; instant checking; Arabic feedback; bookmarking and exact source images; restored shuffled order/checked state without duplicate history; course progress isolation; delayed exam feedback and1answered/1unanswered results; Saved and All available; honest library status; chronological Updates at bottom; and cross-subject returning-history popup behavior. Desktop/390px screenshots inspected. Separate matrix checks passed mouse/Enter/Space/hide/reveal-all/accessibility/mobile overflow. This is responsive emulation, not physical-device testing.
 
 The existing Molecular Biology and General Microbiology bank JSON content matches HEAD08f2b6a; Windows checkout line endings differ from Git bytes but no bank-content change is present. No private progress, QA screenshots, working drafts or credentials are included in the release. Production publication and verification follow separately.
+
+
+## 2026-11-12 — Pharmacology 1.2.14 published and verified
+
+Functional release `34a35eeb3613297a08267899f39cffee6c694968` passed [CI 43278629249](https://github.com/TheMedDude/study-atlas/actions/runs/43278629249) and [Pages deployment 43278629239](https://github.com/TheMedDude/study-atlas/actions/runs/43278629239). Pages build 1363932003 succeeded for that exact commit. The initial CI manifest-hash failure was corrected with explicit UTF-8/LF metadata normalization; final CI passes all 77 JavaScript and three Python tests. PDF/image binary hashes were unchanged.
+
+All seven grouped release workflows passed on the actual public website in isolated Chrome. Seventeen public resources returned HTTP 200 and exactly matched committed SHA-256 bytes, including all four original PDFs, the 538-activity bank, consolidated source, manifests and sampled source images. Bank SHA-256: `1a57a2fd6101c384c6154118c278b6aee0535a1d09702af9b647d9f7726cf327`. Local evidence: ignored `work/pharmacology/public-verification.json` and release QA outputs.
+
+The complete source-to-question process, independent review, app audit, limitations and continuation instructions are recorded in [the Pharmacology handoff](PHARMACOLOGY_HANDOFF.md). The canonical workspace remains Documents; the earlier checkout remains a backup. Existing Molecular Biology and Microbiology banks are preserved. Follow-up documentation commits do not alter verified functional artifacts.
