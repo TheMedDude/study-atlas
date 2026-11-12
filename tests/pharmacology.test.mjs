@@ -16,7 +16,8 @@ test('Pharmacology originals, all pages and faithful viewer images retain proven
  assert.equal(ledger.length,283);
  const images=read('sources/page-images.json');
  assert.equal(images.pages.length,ledger.length);
- assert.equal(images.manifestSha256,hash(new URL('sources/manifest.json',base)));
+ assert.equal(images.manifestHashNormalization,'UTF-8 without BOM; LF newlines');
+ assert.equal(images.manifestSha256,createHash('sha256').update(fs.readFileSync(new URL('sources/manifest.json',base),'utf8').replace(/^\uFEFF/,'').replace(/\r\n?/g,'\n')).digest('hex')); 
  for(const lecture of manifest.lectures){
   assert.equal(hash(new URL('sources/'+lecture.path,base)),lecture.sha256);
   assert.deepEqual(ledger.filter(p=>p.lectureId===lecture.id).map(p=>p.pdfPage),Array.from({length:lecture.pdf_pages},(_,i)=>i+1));

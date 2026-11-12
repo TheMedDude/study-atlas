@@ -10,7 +10,7 @@
   "encoderQuality": null,
   "renderEngine": "pypdfium2",
   "imageEncoder": "Pillow 13.0.0",
-  "manifestSha256": "7b0c74208c779188eaf7dc6ff4540fc5a018f796cc08884fb5f62a80d46b1027",
+  "manifestSha256": "955a77deff11c9bd0cbf634955e70ce8bdbdc45b3e6b6c90e90309b9e364840e",
   "totalPages": 283,
   "totalBytes": 32881018,
   "sourcePdfs": [
@@ -2874,5 +2874,6 @@
       "sourceSha256": "8b3bd6f0d3030710f0ea92566a6fa080c1e0720f0ca412306c81efc8e9f068f2",
       "sizeBytes": 44214
     }
-  ]
+  ],
+  "manifestHashNormalization": "UTF-8 without BOM; LF newlines"
 }

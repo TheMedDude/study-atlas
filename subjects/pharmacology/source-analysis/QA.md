@@ -29,3 +29,5 @@ Use the bundled Python runtime with pypdf, pypdfium2 and Pillow. Existing script
 - scripts/build_bank.py requires independently reviewed activities, rebuilds coverage, enforces clear-core coverage or explicit deferrals, and updates course-catalog metadata.
 
 Structural checks supplement content review. Candidate recommendations remain under work/pharmacology/candidates; only independently accepted records may enter activities/ and the compiled bank. At this source checkpoint no Pharmacology bank has yet been compiled or deployed.
+
+Manifest metadata hash normalization is explicit: UTF-8 without BOM and LF newlines, matching Git text normalization across Windows/Linux. Original PDF and rendered-image hashes remain hashes of the exact binary files.
