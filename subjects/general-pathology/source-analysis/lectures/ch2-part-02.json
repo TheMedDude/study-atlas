@@ -1,0 +1,1166 @@
+{
+  "lectureId": "ch2-part-02",
+  "title": "Inflammation — Part 2",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "teaching",
+      "title": "Mediator action and origin",
+      "topics": [
+        "Mediator action and origin"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p002-topic",
+          "label": "Mediator action and origin",
+          "detail": "Chemical Mediators of\n                   Inflammation:\n• Direct vascular &    cellular  events in inflammation\n\n• Locally   produced &   Plasma-derived mediators\n  (systemic).\n\n• Most mediators      induce their effects by binding to\n  specific receptors     on target cells.\n\n• Some have     direct enzymatic and/or toxic\n  activities  (e.g., lysosomal proteases or reactive\n  oxygen species).",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Microbial recognition and inflammasome",
+      "topics": [
+        "Microbial recognition and inflammasome"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p003-topic",
+          "label": "Microbial recognition and inflammasome",
+          "detail": "3\nRecognition diagram: extracellular bacterial cell-wall lipid via TLR and fungal polysaccharide via lectin; cytosolic bacterial lipid and viral RNA; endosomal microbial DNA/RNA via TLR lead to cytokines (TNF) and increased adhesion molecules, producing acute inflammation. NLRP3 inflammasome responds to pathogenic bacteria/extracellular ATP, K+ efflux/ROS, endogenous crystals (MSU, CPP, cholesterol), exogenous crystals (alum, asbestos). Inactive caspase-1 becomes active, converting pro-IL1beta to secreted IL1beta.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Recognition diagram: extracellular bacterial cell-wall lipid via TLR and fungal polysaccharide via lectin; cytosolic bacterial lipid and viral RNA; endosomal microbial DNA/RNA via TLR lead to cytokines (TNF) and increased adhesion molecules, producing acute inflammation. NLRP3 inflammasome responds to pathogenic bacteria/extracellular ATP, K+ efflux/ROS, endogenous crystals (MSU, CPP, cholesterol), exogenous crystals (alum, asbestos). Inactive caspase-1 becomes active, converting pro-IL1beta to secreted IL1beta.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": "4",
+      "kind": "teaching",
+      "title": "Mediator sources illustrated",
+      "topics": [
+        "Mediator sources illustrated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p004-topic",
+          "label": "Mediator sources illustrated",
+          "detail": "Chemical Mediators of Inflammation\nCell-derived preformed mediators: histamine from mast cells/basophils/platelets; serotonin from platelets. Newly synthesized: prostaglandins and leukotrienes from all leukocytes/mast cells; PAF from all leukocytes/endothelial cells; ROS from all leukocytes; NO from macrophages/endothelial cells; cytokines from macrophages/lymphocytes/endothelial cells/mast cells; neuropeptides from leukocytes/nerve fibers. Liver is major source of plasma protein mediators. Complement: C3a/C5a anaphylatoxins, C3b, C5b-9 MAC. Factor XII activation links kinin (bradykinin) and coagulation/fibrinolysis.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Cell-derived preformed mediators: histamine from mast cells/basophils/platelets; serotonin from platelets. Newly synthesized: prostaglandins and leukotrienes from all leukocytes/mast cells; PAF from all leukocytes/endothelial cells; ROS from all leukocytes; NO from macrophages/endothelial cells; cytokines from macrophages/lymphocytes/endothelial cells/mast cells; neuropeptides from leukocytes/nerve fibers. Liver is major source of plasma protein mediators. Complement: C3a/C5a anaphylatoxins, C3b, C5b-9 MAC. Factor XII activation links kinin (bradykinin) and coagulation/fibrinolysis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": "5",
+      "kind": "teaching",
+      "title": "Local versus plasma mediators",
+      "topics": [
+        "Local versus plasma mediators"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p005-topic",
+          "label": "Local versus plasma mediators",
+          "detail": "Chemical Mediators of Inflammation\n• Locally produced:        • Plasma derived:\n• Histamine                • Kinins\n• Serotonin / 5HT          • Complements\n• Platelet activating      • Coagulation\n  factor (PAF)               system\n• Prostaglandins           • Plasminolysis\n• Leukotrienes               system\n\n• Nitric oxide",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": "6",
+      "kind": "teaching",
+      "title": "Mediator classes",
+      "topics": [
+        "Mediator classes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p006-topic",
+          "label": "Mediator classes",
+          "detail": "Chemical Mediators of Inflammation\n• Vasoactive amines         -  Histamine,  Serotonin\n• Complement system            – C1 to 9 cytolysis,  opsonins.\n• Kinin System       – Kallikreins →  Bradykinin\n• Clotting system       – FXII, FX, Fibrin, Plasmin\n• Arachidonic acid metabolites:\n   – Prostaglandins   - (cyclooxygenase)\n   – Leukotrienes   – (Lipoxygenase)\n   – Lipoxins\n• Others:\n   – Nitric Oxide,  Lysozymes,  oxygen  free radicals",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Mediator control and cytokines",
+      "topics": [
+        "Mediator control and cytokines"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p007-topic",
+          "label": "Mediator control and cytokines",
+          "detail": "Chemical Mediators of Inflammation\n•  Once activated and released from the cell, most\n   mediators quickly decay, are inactivated          by\n   enzymes, are eliminated, or are inhibited\n\n•  Most mediators have the potential to cause harmful\n   effects.\n\n•  Cytokines:    are polypeptide products of many cell\n   types (but principally activated lymphocytes and\n   macrophages) that modulate the function of other\n\n                                                             7\n   cell types, e.g. TNF and IL-1",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": "8",
+      "kind": "teaching",
+      "title": "Cytokine systemic responses",
+      "topics": [
+        "Cytokine systemic responses"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p008-topic",
+          "label": "Cytokine systemic responses",
+          "detail": "More specific mediators: Cytokines\n•  Cytokines:        Protein  cell products that act as a message  to\n   other cells, telling  them how to behave  & modulate  their\n   function// (pleiotropic  effect)\n•  Products of many  cell types (principally  activated  lymphocytes\n   & macrophages)\n•  Produced  during immune  and inflammatory  responses\n•  IL-1, TNF-    and   -, IFN-  are especially  important  in\n   inflammation.\n•  Induce   the  systemic acute      -phase responses        ,  these include\n   fever, lethargy    , hepatic synthesis of various proteins            ,\n   metabolic  wasting (cachexia),  neutrophil  release  into the\n   circulation,  and release  of adrenocorticotropic hormone\n                                                                             8\n   (inducing corticosteroid  synthesis  and release)",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": "9",
+      "kind": "teaching",
+      "title": "Cytokine sources and functions",
+      "topics": [
+        "Cytokine sources and functions"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p009-topic",
+          "label": "Cytokine sources and functions",
+          "detail": "9\nTable: IL-1 from macrophages (main), endothelial cells and some epithelial cells; TNF from macrophages/T cells. IL-1 stimulates hypothalamic CRH -> pituitary ACTH -> adrenal cortisol; PGE2 synthesis in anterior hypothalamus causes fever; hepatic APR synthesis, endothelial adhesion molecules, Th17 differentiation. TNF: apoptosis, endothelial/neutrophil activation, cachexia. IL-6 from macrophages/endothelial/T cells: primary increased hepatic APR synthesis (e.g. C-reactive protein), Th17 differentiation and B-cell proliferation. IL-8 from macrophages/epithelial/endothelial/airway smooth muscle: neutrophil chemotaxis/respiratory burst and granule release. IL-10 from T cells inhibits activated macrophages/dendritic cells, IL-12 production, costimulators and class II MHC expression.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table: IL-1 from macrophages (main), endothelial cells and some epithelial cells; TNF from macrophages/T cells. IL-1 stimulates hypothalamic CRH -> pituitary ACTH -> adrenal cortisol; PGE2 synthesis in anterior hypothalamus causes fever; hepatic APR synthesis, endothelial adhesion molecules, Th17 differentiation. TNF: apoptosis, endothelial/neutrophil activation, cachexia. IL-6 from macrophages/endothelial/T cells: primary increased hepatic APR synthesis (e.g. C-reactive protein), Th17 differentiation and B-cell proliferation. IL-8 from macrophages/epithelial/endothelial/airway smooth muscle: neutrophil chemotaxis/respiratory burst and granule release. IL-10 from T cells inhibits activated macrophages/dendritic cells, IL-12 production, costimulators and class II MHC expression.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "10",
+      "kind": "teaching",
+      "title": "Interleukin mnemonic",
+      "topics": [
+        "Interleukin mnemonic"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p010-topic",
+          "label": "Interleukin mnemonic",
+          "detail": "10\nSource mnemonic: Hot T-bone stEAK: IL-1 fever; IL-2 stimulates T cells; IL-3 stimulates bone marrow; IL-4 stimulates IgE; IL-5 stimulates IgA; IL-6 stimulates acute-phase proteins.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Source mnemonic: Hot T-bone stEAK: IL-1 fever; IL-2 stimulates T cells; IL-3 stimulates bone marrow; IL-4 stimulates IgE; IL-5 stimulates IgA; IL-6 stimulates acute-phase proteins.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Histamine and serotonin",
+      "topics": [
+        "Histamine and serotonin"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p011-topic",
+          "label": "Histamine and serotonin",
+          "detail": "Cell-derived mediators (locally produced):\n• Histamine:\n-synthesized and stored in mast cells, platelets and\n  basophils\n-diffuses rapidly through the blood stream\n-promotes vasodilation, and increased vascular\n  permeability\n-recognized by specific receptors (H1, H2 and H3)\n• Serotonin:\n-stored in platelets, mast cells and enterochromaffin\n  cells  of the GI tract\n\n                                                             11\n-has vasoactive     properties",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u011",
+          "description": "Serotonin storage includes mast cells while p4 source table lists platelets; avoid exclusivity claims.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "Platelet activating factor",
+      "topics": [
+        "Platelet activating factor"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p012-topic",
+          "label": "Platelet activating factor",
+          "detail": "Cell-derived mediators (locally produced):\n• Platelet activating factor      (PAF):\n- it is generated from the membrane phospholipids of\n  neutrophils, monocytes, basophils, endothelium, and\n  platelets (and other cells) by the action of\n  phospholipase A2.\n- platelet stimulation, vasoconstriction          and\n  vasodilation, increased vascular permeability              and\n  bronchoconstriction, enhances leukocyte adhesion,\n  chemotaxis, leukocyte degranulation, and the\n                                                             12\n  oxidative burst",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": "13",
+      "kind": "teaching",
+      "title": "Prostaglandins",
+      "topics": [
+        "Prostaglandins"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p013-topic",
+          "label": "Prostaglandins",
+          "detail": "Cell-derived mediators:                     Prostaglandins:\n\n•  oxidized derivatives of arachidonic acid            produced via\n   cyclooxygenase pathway\n\n•  Products of this pathway  include  prostaglandin  (PGE2), PGD2,\n   PGF2a, PGI2 (prostacyclin),  and thromboxane  A           2 (TXA2)\n\n•  major  sources in the acute inflammatory  response  include\n   monocytes,  macrophages,  endothelial  cells and platelets\n\n•  augmented  by a number  of stimuli including: bacterial\n   endotoxin,  immune  complex  formation,  C       3a, bradykinin  & IL  -1\n\n•  promote   pain, fever, vasodilation       and  increased vascular\n   permeability",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Arachidonic acid pathways and inhibitors",
+      "topics": [
+        "Arachidonic acid pathways and inhibitors"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p014-topic",
+          "label": "Arachidonic acid pathways and inhibitors",
+          "detail": "14\nPathway: membrane phospholipids -> phospholipase A2 -> arachidonic acid; glucocorticoids inhibit upstream. 5-lipoxygenase (inhibited by zileuton) -> leukotrienes; montelukast/zafirlukast antagonize leukotriene receptors. LTC4/LTD4/LTE4 increase bronchial tone; LTB4 increases neutrophil chemotaxis. Cyclooxygenase: celecoxib COX2; aspirin irreversible and other NSAIDs reversible inhibit COX1/2. PGI2 decreases platelet aggregation and vascular tone; PGE1 decreases vascular tone; PGE2/PGF2alpha increase uterine tone; TXA2 increases platelet aggregation and vascular tone. Named analogues: epoprostenol, alprostadil, dinoprostone, carboprost.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Pathway: membrane phospholipids -> phospholipase A2 -> arachidonic acid; glucocorticoids inhibit upstream. 5-lipoxygenase (inhibited by zileuton) -> leukotrienes; montelukast/zafirlukast antagonize leukotriene receptors. LTC4/LTD4/LTE4 increase bronchial tone; LTB4 increases neutrophil chemotaxis. Cyclooxygenase: celecoxib COX2; aspirin irreversible and other NSAIDs reversible inhibit COX1/2. PGI2 decreases platelet aggregation and vascular tone; PGE1 decreases vascular tone; PGE2/PGF2alpha increase uterine tone; TXA2 increases platelet aggregation and vascular tone. Named analogues: epoprostenol, alprostadil, dinoprostone, carboprost.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": "15",
+      "kind": "teaching",
+      "title": "Arachidonic acid pathway illustration",
+      "topics": [
+        "Arachidonic acid pathway illustration"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p015-topic",
+          "label": "Arachidonic acid pathway illustration",
+          "detail": "15\nDiagram: phospholipase A2 (corticosteroids inhibit; calcium enhances) releases arachidonic acid from phospholipids; linoleic acid -> arachidonic acid. 5-lipoxygenase -> LTB4/LTC4/LTD4/LTE4 (group labeled bronchoconstrictors), and LXA4/LXB4. Zileuton inhibits 5-lipoxygenase; montelukast inhibits LTC/D/E4 receptors. Cyclooxygenase -> PGG2 -> PGH2 -> TXA2 via platelet thromboxane synthase (aggregation, vasoconstriction); PGI2 via endothelial prostacyclin synthase (inhibits aggregation, vasodilator; dipyridamole enhances). PGD2/PGE2/PGF2 also shown. Aspirin label: irreversible, 3–5 days to reverse platelet effect (must synthesize enzyme); NSAIDs reversible, <24 hours.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram: phospholipase A2 (corticosteroids inhibit; calcium enhances) releases arachidonic acid from phospholipids; linoleic acid -> arachidonic acid. 5-lipoxygenase -> LTB4/LTC4/LTD4/LTE4 (group labeled bronchoconstrictors), and LXA4/LXB4. Zileuton inhibits 5-lipoxygenase; montelukast inhibits LTC/D/E4 receptors. Cyclooxygenase -> PGG2 -> PGH2 -> TXA2 via platelet thromboxane synthase (aggregation, vasoconstriction); PGI2 via endothelial prostacyclin synthase (inhibits aggregation, vasodilator; dipyridamole enhances). PGD2/PGE2/PGF2 also shown. Aspirin label: irreversible, 3–5 days to reverse platelet effect (must synthesize enzyme); NSAIDs reversible, <24 hours.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u015",
+          "description": "LTB4 is grouped under bronchoconstrictors, unlike p14 and p17 which separate LTB4 chemotaxis from LTC4/D4/E4 bronchospasm. Aspirin platelet-effect reversal 3–5 days/must synthesize enzyme is also unclear. Preserve and block these claims.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": "16",
+      "kind": "teaching",
+      "title": "Leukotrienes",
+      "topics": [
+        "Leukotrienes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p016-topic",
+          "label": "Leukotrienes",
+          "detail": "Cell-derived mediators: Leukotrienes:\n\n• oxidized derivatives of arachidonic acid produced\n  via lipoxygenase pathway\n• synthesized and released from neutrophils, basophils\n  and mast cells\n• LTA4 can be taken up by platelets, RBCs and\n  endothelial cells and converted to LTB4 and LTC4\n• lead to vasoconstriction, increased vascular\n  permeability, increased endothelial adhesiveness,\n  bronchoconstriction, neutrophil activation and\n  chemotaxis (LTB4)",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": "17",
+      "kind": "teaching",
+      "title": "Eicosanoid effects illustrated",
+      "topics": [
+        "Eicosanoid effects illustrated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p017-topic",
+          "label": "Eicosanoid effects illustrated",
+          "detail": "17\nDiagram: COX1/2 inhibitors aspirin and indomethacin inhibit cyclooxygenase. Arachidonic acid -> PGG2 -> PGH2 -> PGI2 vasodilation/inhibits platelet aggregation; TXA2 vasoconstriction/promotes aggregation; PGD2/PGE2 vasodilation/increased permeability. 5-lipoxygenase -> 5-HPETE -> 5-HETE (chemotaxis); LTA4 -> LTB4 (chemotaxis) or LTC4 -> LTD4 -> LTE4 (bronchospasm/increased permeability). 12-lipoxygenase participates in LXA4/LXB4 production, inhibiting neutrophil adhesion and chemotaxis. Other lipoxygenases -> HPETEs -> HETEs. Steroids inhibit phospholipases.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram: COX1/2 inhibitors aspirin and indomethacin inhibit cyclooxygenase. Arachidonic acid -> PGG2 -> PGH2 -> PGI2 vasodilation/inhibits platelet aggregation; TXA2 vasoconstriction/promotes aggregation; PGD2/PGE2 vasodilation/increased permeability. 5-lipoxygenase -> 5-HPETE -> 5-HETE (chemotaxis); LTA4 -> LTB4 (chemotaxis) or LTC4 -> LTD4 -> LTE4 (bronchospasm/increased permeability). 12-lipoxygenase participates in LXA4/LXB4 production, inhibiting neutrophil adhesion and chemotaxis. Other lipoxygenases -> HPETEs -> HETEs. Steroids inhibit phospholipases.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": "18",
+      "kind": "teaching",
+      "title": "Nitric oxide",
+      "topics": [
+        "Nitric oxide"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p018-topic",
+          "label": "Nitric oxide",
+          "detail": "Cell-derived mediators: Nitric oxide:\n\n• short-acting soluble free-radical gas       with many\n  functions\n\n• may be released from endothelial cells          upon\n  stimulation by acetylcholine and bradykinin where it\n  acts as a potent vasodilator      and inhibitor of\n  platelet aggregation\n\n• may also be released from macrophagesupon\n  stimulation with IFN-alpha and TNF-alpha",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u018",
+          "description": "Original rendered slide reads IFN-alpha/TNF-alpha for macrophage NO stimulation; text extraction gives IFN-g. Preserve the printed alpha subtype and defer this disputed stimulus.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": "19",
+      "kind": "teaching",
+      "title": "Nitric oxide synthesis illustration",
+      "topics": [
+        "Nitric oxide synthesis illustration"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p019-topic",
+          "label": "Nitric oxide synthesis illustration",
+          "detail": "19\nChemical diagram: arginine plus O2, eNOS and BH4 -> citrulline plus NO, with BH2 product. Vessel inset labels endothelial cells, blood, smooth muscle cells, elastin-rich intima and tissue.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chemical diagram: arginine plus O2, eNOS and BH4 -> citrulline plus NO, with BH2 product. Vessel inset labels endothelial cells, blood, smooth muscle cells, elastin-rich intima and tissue.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": "20",
+      "kind": "teaching",
+      "title": "Mediator sources repeated",
+      "topics": [
+        "Mediator sources repeated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p020-topic",
+          "label": "Mediator sources repeated",
+          "detail": "Chemical Mediators of Inflammation\nRepeated mediator/source figure as PDF p4.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Repeated mediator/source figure as PDF p4.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": "21",
+      "kind": "teaching",
+      "title": "Plasma mediator cascades",
+      "topics": [
+        "Plasma mediator cascades"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p021-topic",
+          "label": "Plasma mediator cascades",
+          "detail": "Interrelationships  between the four plasma mediator systems\n      triggered by activation of factor XII (Hageman factor).\n\n\n\n                                                           Thrombin: enhancing\n                                                           leukocyte adhesion,\n                                                           vascular permeability\n             1                                             and chemotactic\n                                        2\n\n\n\n\n                     3\n\n\n\n\n\nBradykinin causes           4\nincreased vascular\npermeability,                                                                    21\nvasodilation & pain                           C3a: increase vascular permeability\nFour plasma cascades linked by factor XII/Hageman activation on collagen, basement membrane, activated platelets, with HMWK cofactor. XIIa converts prekallikrein to kallikrein, which feeds back to XII and cleaves HMWK to bradykinin. Clotting cascade XIIa -> XIa -> Xa -> thrombin from prothrombin; thrombin forms fibrin from fibrinogen and fibrinopeptides, activates protease-activated receptors to inflammation. Kallikrein forms plasmin from plasminogen; plasmin causes fibrin split products and complement cleavage C3 -> C3a. Bradykinin: permeability, vasodilation, pain; thrombin: adhesion, permeability, chemotaxis; C3a: permeability.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Four plasma cascades linked by factor XII/Hageman activation on collagen, basement membrane, activated platelets, with HMWK cofactor. XIIa converts prekallikrein to kallikrein, which feeds back to XII and cleaves HMWK to bradykinin. Clotting cascade XIIa -> XIa -> Xa -> thrombin from prothrombin; thrombin forms fibrin from fibrinogen and fibrinopeptides, activates protease-activated receptors to inflammation. Kallikrein forms plasmin from plasminogen; plasmin causes fibrin split products and complement cleavage C3 -> C3a. Bradykinin: permeability, vasodilation, pain; thrombin: adhesion, permeability, chemotaxis; C3a: permeability.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": "22",
+      "kind": "teaching",
+      "title": "Kinin pathway and bradykinin",
+      "topics": [
+        "Kinin pathway and bradykinin"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p022-topic",
+          "label": "Kinin pathway and bradykinin",
+          "detail": "Plasma-derived mediators: Kinins:\n\n•  group of serine proteases,  whose        ultimate product is\n   bradykinin\n•  Initiated by   a number of by-products  of tissue damage\n   including: collagen,  cartilage,  basement  membranes,\n   endotoxin  and plasmin\n•  activated  factor XII (Hageman  factor) cleaves  prekallikrein  to\n   kallikrein  which in turn cleaves  the proenzyme  kininogen  to\n   bradykinin\n•  activated  factor XII also   generates plasmin       from plasminogen\n•  induces bronchial     smooth muscle constriction,\n   vasodilation, increased vascular permeability, and pain22",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u022",
+          "description": "Heading describes kinins as serine proteases; distinguish cascade enzymes from bradykinin product without scoring this category wording.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": "23",
+      "kind": "teaching",
+      "title": "Intrinsic clotting and kinin pathways",
+      "topics": [
+        "Intrinsic clotting and kinin pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p023-topic",
+          "label": "Intrinsic clotting and kinin pathways",
+          "detail": "23\nIntrinsic clotting diagram: collagen/basement membrane/activated platelets activate XII -> XIIa -> XIa -> IXa -> Xa (with Va); prothrombin II -> thrombin IIa -> fibrinogen I -> fibrin Ia. Kallikrein feedback enhances XII activation; prekallikrein -> kallikrein; HMWK -> bradykinin, causing increased pain sensitivity, permeability, vasodilation.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Intrinsic clotting diagram: collagen/basement membrane/activated platelets activate XII -> XIIa -> XIa -> IXa -> Xa (with Va); prothrombin II -> thrombin IIa -> fibrinogen I -> fibrin Ia. Kallikrein feedback enhances XII activation; prekallikrein -> kallikrein; HMWK -> bradykinin, causing increased pain sensitivity, permeability, vasodilation.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": "24",
+      "kind": "teaching",
+      "title": "Fibrinolysis and complement",
+      "topics": [
+        "Fibrinolysis and complement"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p024-topic",
+          "label": "Fibrinolysis and complement",
+          "detail": "Plasma-derived mediators\n\nFibrinolytic (Plasminolysis) system:\n\n• activation of factor XII ultimately results in the\n  cleavage of fibrinogen to fibrin        and smaller\n  fibrinopeptides which serve as inflammatory\n  mediators\n\n• activated factor XII also activates the fibrinolytic\n  system via plasmin formation\n\n• plasmin activates the complement pathway",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": "25",
+      "kind": "teaching",
+      "title": "Complement actions",
+      "topics": [
+        "Complement actions"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p025-topic",
+          "label": "Complement actions",
+          "detail": "Plasma     -derived mediators:\n                  Complement system                 :\n• Components C1-C9 present in inactive form\n   – Activated via      classic (C1) or alternative (C3)\n     pathways      to generate MAC (C5 –          C9) that punch\n     holes in microbe membranes\n   – In acute inflammation:\n\n       • Vasodilation,  vascular  permeability,  mast cell\n         degranulation  (C3a, C5a)\n       • Leukocyte  chemotaxin,  increases integrin  avidity  (C 5a)\n       • As an opsonin,  increases  phagocytosis  (C   3b, C 3bi)",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": "26",
+      "kind": "teaching",
+      "title": "Complement activation overview",
+      "topics": [
+        "Complement activation overview"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p026-topic",
+          "label": "Complement activation overview",
+          "detail": "Plasma-derived mediators:      Complement system:\nClassical antibody-dependent, alternative microbial and lectin/mannose-binding lectin pathways deposit C3b on microbes; C3a/C5a recruit/activate leukocytes; C3b recognition by C3b receptor promotes phagocytosis; MAC lyses microbes.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Classical antibody-dependent, alternative microbial and lectin/mannose-binding lectin pathways deposit C3b on microbes; C3a/C5a recruit/activate leukocytes; C3b recognition by C3b receptor promotes phagocytosis; MAC lyses microbes.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": "27",
+      "kind": "teaching",
+      "title": "Complement convertases",
+      "topics": [
+        "Complement convertases"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p027-topic",
+          "label": "Complement convertases",
+          "detail": "27\nDiagram labels alternative spontaneous/microbial-surface C3 activation -> C3b, factor B -> Bb via D; C3bBb C3 convertase; C3bBb3b C5 convertase. Lectin microbial mannose -> C1-like complex; classical antigen-antibody -> C1; C4 -> C4b and C2 -> C2b form C4b2b C3 convertase; C4b2b3b C5 convertase. C3 cleavage releases C3a and C3b; C5 cleavage releases C5a and C5b; C5b plus C6–C9 -> MAC -> lysis/cytotoxicity. Footnote: larger C2 fragment historically C2a, now C2b.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Diagram labels alternative spontaneous/microbial-surface C3 activation -> C3b, factor B -> Bb via D; C3bBb C3 convertase; C3bBb3b C5 convertase. Lectin microbial mannose -> C1-like complex; classical antigen-antibody -> C1; C4 -> C4b and C2 -> C2b form C4b2b C3 convertase; C4b2b3b C5 convertase. C3 cleavage releases C3a and C3b; C5 cleavage releases C5a and C5b; C5b plus C6–C9 -> MAC -> lysis/cytotoxicity. Footnote: larger C2 fragment historically C2a, now C2b.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": "28",
+      "kind": "teaching",
+      "title": "Mediator effect comparisons",
+      "topics": [
+        "Mediator effect comparisons"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p028-topic",
+          "label": "Mediator effect comparisons",
+          "detail": "Action of Mediators in Inflammation\n\n• Vasodilatation:   Histamine, PGI2,    NO\n\n• Blood vessel permeability:      histamine, C3a, C5a,\n\n  kinins, PAF, and leukotrienes C, D, and E.\n\n• Leukocyte adhesion:      IL8, LB4, C5a, TNFα\n\n• Chemotaxis:    C5a, LTB4, and the chemokines\n\n• Pain:  Prostaglandins & Bradykinin.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": "29",
+      "kind": "teaching",
+      "title": "Local systemic and harmful cytokine effects",
+      "topics": [
+        "Local systemic and harmful cytokine effects"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p029-topic",
+          "label": "Local systemic and harmful cytokine effects",
+          "detail": "29\nLocal: TNF/IL1 endothelial adhesion molecule expression, TNF permeability; TNF/IL1 leukocyte activation; IL1/IL6/chemokines produced. Systemic protective: TNF/IL1/IL6 fever and marrow leukocyte production; IL1/IL6 hepatic acute-phase proteins. Systemic pathological: TNF cardiac low output, endothelial thrombus and permeability; TNF/IL1 tissue insulin resistance.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Local: TNF/IL1 endothelial adhesion molecule expression, TNF permeability; TNF/IL1 leukocyte activation; IL1/IL6/chemokines produced. Systemic protective: TNF/IL1/IL6 fever and marrow leukocyte production; IL1/IL6 hepatic acute-phase proteins. Systemic pathological: TNF cardiac low output, endothelial thrombus and permeability; TNF/IL1 tissue insulin resistance.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": "30",
+      "kind": "teaching",
+      "title": "Acute inflammation outcomes",
+      "topics": [
+        "Acute inflammation outcomes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p030-topic",
+          "label": "Acute inflammation outcomes",
+          "detail": "Outcomes of Acute Inflammation\n•  The process of acute inflammation is designed to\n   neutralize injurious agents and to restore the tissue to\n   useful function.\n•  There are four main outcomes of acute inflammation\n   if the patient survives:\n      1. resolution\n      2. abscess formation\n      3. healing by fibrosis\n      4. progression to chronic inflammation",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": "31",
+      "kind": "teaching",
+      "title": "Outcome determinants",
+      "topics": [
+        "Outcome determinants"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p031-topic",
+          "label": "Outcome determinants",
+          "detail": "Outcomes of Acute Inflammation\n\n• Three factors determine which of these\n  outcomes occurs:\n1)the  severity   of tissue damage\n2)the capacity of specialized cells within the\n  damaged tissue to divide and replace\n  themselves, a process termed        regeneration\n3)the  type of agent    which has caused the\n  tissue damage.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": "32",
+      "kind": "teaching",
+      "title": "Outcome table",
+      "topics": [
+        "Outcome table"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p032-topic",
+          "label": "Outcome table",
+          "detail": "32\nOutcome table: persistent acute inflammation remains active without resolution or chronic progression (IL8). Resolution with regeneration: macrophages remove debris/pathogen, lymphatics resorb edema, stem cells proliferate (IL10,TGFbeta). Resolution with scarring: debris/pathogen/edema cleared but insufficient stem cells; fibrotic replacement (PDGF,FGF2,TGFbeta). Abscess: pus/tissue necrosis, fibrous separation from healthy tissue; septic infectious or sterile noninfectious after persistent injected substances (glucocorticoids,synthol,oils) or formerly septic abscess after pathogen cleared (IL1beta,TNFalpha). Chronic: persistent cause, macrophage/APC presentation to helper T cells, CD4+ infiltration (IL1,TNFalpha,IL12,IL6).",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Outcome table: persistent acute inflammation remains active without resolution or chronic progression (IL8). Resolution with regeneration: macrophages remove debris/pathogen, lymphatics resorb edema, stem cells proliferate (IL10,TGFbeta). Resolution with scarring: debris/pathogen/edema cleared but insufficient stem cells; fibrotic replacement (PDGF,FGF2,TGFbeta). Abscess: pus/tissue necrosis, fibrous separation from healthy tissue; septic infectious or sterile noninfectious after persistent injected substances (glucocorticoids,synthol,oils) or formerly septic abscess after pathogen cleared (IL1beta,TNFalpha). Chronic: persistent cause, macrophage/APC presentation to helper T cells, CD4+ infiltration (IL1,TNFalpha,IL12,IL6).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": "33",
+      "kind": "teaching",
+      "title": "Outcome pathways",
+      "topics": [
+        "Outcome pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p033-topic",
+          "label": "Outcome pathways",
+          "detail": "1\n\n               2\n\n4              3\nFlowchart: injury (infarction,bacteria,toxins,trauma) -> acute inflammation (vascular changes,neutrophils,mediators); resolution clears stimuli/mediators/cells,replaces injured cells, restores function. Abscess heals by scar; acute can heal by scar or progress chronic. Chronic stimuli include viruses,chronic infections,persistent injury,autoimmune disease. Chronic has angiogenesis, mononuclear cells,fibrosis; can heal by scar (dense fibrosis,loss of function) or regeneration (clearance,remodeling,normal function).",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Flowchart: injury (infarction,bacteria,toxins,trauma) -> acute inflammation (vascular changes,neutrophils,mediators); resolution clears stimuli/mediators/cells,replaces injured cells, restores function. Abscess heals by scar; acute can heal by scar or progress chronic. Chronic stimuli include viruses,chronic infections,persistent injury,autoimmune disease. Chronic has angiogenesis, mononuclear cells,fibrosis; can heal by scar (dense fibrosis,loss of function) or regeneration (clearance,remodeling,normal function).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": "34",
+      "kind": "teaching",
+      "title": "Resolution and abscess",
+      "topics": [
+        "Resolution and abscess"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p034-topic",
+          "label": "Resolution and abscess",
+          "detail": "Outcomes of Acute Inflammation\n\n1)  Resolution:     When the injury is limited or short-lived,\n    when there has been no or        minimal tissue damage,\n    and when the tissue is capable of replacing any\n    irreversibly  injured cells.\n2)  Abscess formation:        takes place when the acute\n    inflammatory reaction fails to destroy/remove the\n    cause of tissue damage and continues with a\n    component of chronic inflammation. This is most\n    common in the case of infection by pyogenic bacteria.\n    As the acute inflammation progresses, there is\n    liquefaction of the tissue to form pus. Abscess\n    formation may occur where the only outcome is\n    scarring.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": "35",
+      "kind": "teaching",
+      "title": "Fibrosis and chronic progression",
+      "topics": [
+        "Fibrosis and chronic progression"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p035-topic",
+          "label": "Fibrosis and chronic progression",
+          "detail": "Outcomes of Acute Inflammation\n3)   Healing by fibrosis (scar formation):          results after\n     substantial tissue destruction or when inflammation\n     occurs in tissues  that do not regenerate. In\n     addition, extensive fibrinous exudates may not be\n     completely absorbed with resultant fibrosis.\n4)   Progression to chronic inflammation            may follow\n     acute inflammation depending on the extent of the\n     initial and ongoing tissue injury, and the capacity of the\n     affected tissues to regrow, chronic inflammation may\n     be followed by regeneration of normal structure and\n     function or may lead to scarring.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": "36",
+      "kind": "teaching",
+      "title": "Outcome flowchart",
+      "topics": [
+        "Outcome flowchart"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p036-topic",
+          "label": "Outcome flowchart",
+          "detail": "Cell injury\n\n\n\n                          Acute inflammation\n\n\n\n\n                                              suppuration\nCells can regrow               Cells cannot                    Damaging agent\n                                  regrow                            persists\n\n1  Healing by                 2 Healing by                     3   Chronic\n regeneration                      repair                       inflammation\nResolution                Scarring or fibrosis",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": "37",
+      "kind": "teaching",
+      "title": "Acute morphologic patterns",
+      "topics": [
+        "Acute morphologic patterns"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p037-topic",
+          "label": "Acute morphologic patterns",
+          "detail": "Morphologic patterns of acute\n             inflammation:\n\n•Serous inflammation\n\n•Fibrinous inflammation\n\n•Suppurative   “purulent” inflammation\n\n•Ulceration",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": "38",
+      "kind": "teaching",
+      "title": "Serous inflammation",
+      "topics": [
+        "Serous inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p038-topic",
+          "label": "Serous inflammation",
+          "detail": "1. Serous inflammation:\n\n• describes a pattern of acute inflammation where the\n  main tissue response is an accumulation of fluid\n  with a low plasma protein         and cell content. This\n  is often called a transudate.\n• most commonly seen in the skin, e.g. burn, or in\n  skin blisters   resulting from viral infection.\n• inflammation in body cavities, e.g. pleural\n  effusion, peritoneal effusion “ascites”.\n\n• Resolution is the outcome.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u038",
+          "description": "Serous fluid called transudate; preserve source-specific wording, avoid universal equivalence.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": "39",
+      "kind": "teaching",
+      "title": "Serous fluid image",
+      "topics": [
+        "Serous fluid image"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p039-topic",
+          "label": "Serous fluid image",
+          "detail": "39\nGross image shows straw-colored fluid within a body cavity; no additional source caption.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Gross image shows straw-colored fluid within a body cavity; no additional source caption.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": "40",
+      "kind": "teaching",
+      "title": "Fibrinous inflammation",
+      "topics": [
+        "Fibrinous inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p040-topic",
+          "label": "Fibrinous inflammation",
+          "detail": "2. Fibrinous inflammation:\n\n• a pattern of acute inflammation where the acute\n  inflammatory exudate has a high plasma protein\n  content.\n\n• Exudation of fibrinogen, due to vascular\n  permeability\n\n• Fibrinogen     derived from plasma is converted to\n  fibrin, which is deposited in tissues.\n\n• Caused by bacterial infection",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u040",
+          "description": "Bacterial infection is listed as a cause of fibrinous inflammation; no exclusive causation claim is justified.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": "41",
+      "kind": "teaching",
+      "title": "Fibrinous sites and outcomes",
+      "topics": [
+        "Fibrinous sites and outcomes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p041-topic",
+          "label": "Fibrinous sites and outcomes",
+          "detail": "2. Fibrinous inflammation:\n\n• This pattern is particularly associated with\n  membrane-lined cavities        such as the pleura,\n  pericardium     and peritoneum      where the fibrin\n  strands form a mat-like sheet causing adhesion\n  between adjacent surfaces\n\n• Outcome:     either complete resolution       if the fibrin is\n  degraded by fibrinolysis, or organization        with growth\n  of blood vessels and fibroblasts may occur.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": "42",
+      "kind": "teaching",
+      "title": "Fibrinous pericarditis",
+      "topics": [
+        "Fibrinous pericarditis"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p042-topic",
+          "label": "Fibrinous pericarditis",
+          "detail": "Fibrinous inflammation:\n\n Fibrinous pericarditis:\n A) Adhesion between\n visceral  and parietal\n pericardium.\n B) A pink meshwork of\n fibrin exudate (F) overlies\n the pericardial surface (P)\n\n\n\nadhesions\n\n\n\n                                                                  42\nA                               B",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": "43",
+      "kind": "teaching",
+      "title": "Fibrinous pericarditis repeated",
+      "topics": [
+        "Fibrinous pericarditis repeated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p043-topic",
+          "label": "Fibrinous pericarditis repeated",
+          "detail": "43\nCaption: fibrinous pericarditis; deposits of fibrin on pericardium; pink fibrin meshwork F overlies pericardial surface P.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Caption: fibrinous pericarditis; deposits of fibrin on pericardium; pink fibrin meshwork F overlies pericardial surface P.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": "44",
+      "kind": "teaching",
+      "title": "Fibrinous surface image",
+      "topics": [
+        "Fibrinous surface image"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p044-topic",
+          "label": "Fibrinous surface image",
+          "detail": "44\nUncaptioned gross photograph shows a rough white fibrinous surface; no additional diagnosis is supplied.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Uncaptioned gross photograph shows a rough white fibrinous surface; no additional diagnosis is supplied.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": "45",
+      "kind": "teaching",
+      "title": "Suppurative inflammation and pus",
+      "topics": [
+        "Suppurative inflammation and pus"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p045-topic",
+          "label": "Suppurative inflammation and pus",
+          "detail": "3. Suppurative (purulent)\n• refers to acute inflammation in which the acute inflammation\n\n  inflammatory exudate is particularly rich in\n  neutrophil    leukocytes.\n• most commonly seen as a result of infection by\n  bacteria.\n• Pus:   a semi-liquid material formed from a mixture\n  of neutrophils    (viable and dead), necrotic tissue,\n  and edema     fluid in the acute inflammatory exudate.\n• Within cavities, is termed an abscess.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u045",
+          "description": "Pus within cavities called abscess without circumscription qualification; use circumscribed definition on p46.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": "46",
+      "kind": "teaching",
+      "title": "Abscess morphology and pyogenic organisms",
+      "topics": [
+        "Abscess morphology and pyogenic organisms"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p046-topic",
+          "label": "Abscess morphology and pyogenic organisms",
+          "detail": "3. Suppurative (purulent)\n• Abscess:     a circumscribed collectioninflammationof semi-\n\n  liquid pus with central area of necrosis\n  surrounded by a zone of viable neutrophils& then\n  a zone of dilated vessels & fibroblastic reaction\n• Pyogenic     bacteria:    Bacteria which produce\n  purulent inflammation, include Staphylococci, some\n  Streptococci (S. pyogenes, S. pneumoniae),\n  Escherichia coli and the Neisseriae (meningococci\n  and gonococci).\n\n                                                          46\n• Outcome: healing is always by scarring & fibrosis",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-02-u046",
+          "description": "Abscess healing always by scarring/fibrosis is absolute; preserve but avoid unqualified universal scoring.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": "47",
+      "kind": "teaching",
+      "title": "Abscess formation illustration",
+      "topics": [
+        "Abscess formation illustration"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p047-topic",
+          "label": "Abscess formation illustration",
+          "detail": "47\nStages illustrated: bacteria enter via hair follicle,sweat duct or epidermal injury; multiply causing tissue injury/inflammation with dilation,fluid exudation and neutrophils; continued multiplication and neutrophil emigration produce liquefactive necrosis/suppuration; pus/necrosis walled by fibrosis forms abscess, may discharge through follicle/epidermis.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Stages illustrated: bacteria enter via hair follicle,sweat duct or epidermal injury; multiply causing tissue injury/inflammation with dilation,fluid exudation and neutrophils; continued multiplication and neutrophil emigration produce liquefactive necrosis/suppuration; pus/necrosis walled by fibrosis forms abscess, may discharge through follicle/epidermis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": "48",
+      "kind": "teaching",
+      "title": "Skin abscess images",
+      "topics": [
+        "Skin abscess images"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p048-topic",
+          "label": "Skin abscess images",
+          "detail": "48\nClinical skin photographs show erythematous raised lesions with central purulent material; no additional source diagnosis.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Clinical skin photographs show erythematous raised lesions with central purulent material; no additional source diagnosis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": "49",
+      "kind": "teaching",
+      "title": "Abscess constituents",
+      "topics": [
+        "Abscess constituents"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p049-topic",
+          "label": "Abscess constituents",
+          "detail": "Suppurative (purulent) inflammation\n\nA) Subcutaneous bacterial abscess with collections of\n   pus.\n\nA) The abscess contains neutrophils, edema fluid, and\n   cellular debris.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": "50",
+      "kind": "teaching",
+      "title": "Pulmonary abscess images",
+      "topics": [
+        "Pulmonary abscess images"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p050-topic",
+          "label": "Pulmonary abscess images",
+          "detail": "50\nCaption: multiple bacterial abscesses in lung in bronchopneumonia; neutrophils and cellular debris surrounded by congested vessels.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Caption: multiple bacterial abscesses in lung in bronchopneumonia; neutrophils and cellular debris surrounded by congested vessels.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": "51",
+      "kind": "teaching",
+      "title": "Ulceration",
+      "topics": [
+        "Ulceration"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p051-topic",
+          "label": "Ulceration",
+          "detail": "4. Ulceration:\n\n   – A site of inflammation where the epithelial\n\n     surface is necrotic and eroded.\n\n   – Caused     by toxic or traumatic injury      to the\n     epithelium or due to vascular       compromise.\n\n   – Has 3 layers:    neutrophilic    exudates, vascular\n\n     proliferation, & fibroblastic    proliferating layer\n\n   – Outcome:     Resolution or fibrosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": "52",
+      "kind": "teaching",
+      "title": "Duodenal ulcer",
+      "topics": [
+        "Duodenal ulcer"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p052-topic",
+          "label": "Duodenal ulcer",
+          "detail": "Ulceration:                    The morphology of ulcer\n                               A) A chronic duodenal ulcer.\n                               B) Low-power cross-section\n                                  of a duodenal ulcer crater\n                                  with an acute\n                                  inflammatory exudate in\nA\n                                  the base.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": "53",
+      "kind": "teaching",
+      "title": "Morphologic examples",
+      "topics": [
+        "Morphologic examples"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-02-p053-topic",
+          "label": "Morphologic examples",
+          "detail": "53\nUncaptioned panel of clinical/gross morphologic examples; no organism or specific diagnosis can be inferred from unlabeled photographs.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Uncaptioned panel of clinical/gross morphologic examples; no organism or specific diagnosis can be inferred from unlabeled photographs.",
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": []
+}

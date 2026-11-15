@@ -1,0 +1,3084 @@
+{
+  "lectureId": "citric-acid-cycle-and-pdh",
+  "author": "Codex chapter writing agent",
+  "scope": "Metabolic Biochemistry midterm; supplied lecture PDF only; owner approved source tables p30 and p32",
+  "reviewStatus": "Every accepted activity checked by a fresh second Codex agent; Antigravity and Claude review pending",
+  "activities": [
+    {
+      "id": "citric-acid-cycle-and-pdh-energy-comparison",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-glycolysis-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Which comparison of standard free-energy changes is correct for glucose breakdown?",
+      "explanation": {
+        "en": "Full glucose oxidation has ΔG′° = −2,840 kJ/mol, compared with −146 kJ/mol for glycolysis to pyruvate.",
+        "ar": "تبلغ ΔG′° للأكسدة الكاملة للـglucose مقدار −2,840 kJ/mol، مقابل −146 kJ/mol لتحويله إلى pyruvate عبر Glycolysis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p3 gives −146 and −2,840 kJ/mol, both negative. Five alternatives cleanly distinguish sign, equality and relative magnitude; Arabic keeps the comparison and units. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Full oxidation has positive ΔG′°, while glycolysis to pyruvate has negative ΔG′°.",
+          "evidence": "Both illustrated values are negative."
+        },
+        {
+          "id": "o3",
+          "text": "Full oxidation and glycolysis to pyruvate have the same ΔG′°.",
+          "evidence": "The diagram gives different values."
+        },
+        {
+          "id": "o1",
+          "text": "Full oxidation has a much more negative ΔG′° than glycolysis to pyruvate.",
+          "evidence": "Full oxidation is −2,840 kJ/mol; glycolysis is −146 kJ/mol."
+        },
+        {
+          "id": "o2",
+          "text": "Glycolysis to pyruvate has a much more negative ΔG′° than full oxidation.",
+          "evidence": "This reverses −146 and −2,840 kJ/mol."
+        },
+        {
+          "id": "o5",
+          "text": "Full oxidation has negative ΔG′°, while glycolysis to pyruvate has positive ΔG′°.",
+          "evidence": "The glycolytic value is also negative."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-respiration-stage-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-respiration-stages"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Arrange the three major stages of cellular respiration in order.",
+      "explanation": {
+        "en": "Fuel oxidation first supplies acetyl-CoA; acetyl groups are then oxidized, and electron transfer supports oxidative phosphorylation.",
+        "ar": "يُنتَج acetyl-CoA أولاً من أكسدة الوقود، ثم تُؤكسَد مجموعات acetyl، وبعدها يدعم انتقال الإلكترونات عملية Oxidative phosphorylation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p4 explicitly lists acetyl-CoA production, acetyl-CoA oxidation, then electron transfer/oxidative phosphorylation. The three sequence groups are unique and source-established. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "items": [
+        {
+          "id": "s2",
+          "text": "Acetyl-CoA oxidation"
+        },
+        {
+          "id": "s3",
+          "text": "Electron transfer and oxidative phosphorylation"
+        },
+        {
+          "id": "s1",
+          "text": "Acetyl-CoA production"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-fuel-convergence-point",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-fuel-convergence",
+        "citric-acid-cycle-and-pdh-stage-one"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which compound is the convergence point for glucose, fatty-acid and amino-acid breakdown in stage 1 of cellular respiration?",
+      "explanation": {
+        "en": "Breakdown of amino acids, fatty acids and glucose-derived carbon converges on acetyl-CoA.",
+        "ar": "تتقارب مسارات تفكيك amino acids وfatty acids والكربون المشتق من glucose عند acetyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p5 shows all three fuel arrows converging on acetyl-CoA; pyruvate is the glucose-route intermediate. Compared the other cycle labels with p6, not outside knowledge. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Carbon dioxide",
+          "evidence": "CO2 is released during oxidation, not the illustrated common fuel-entry compound."
+        },
+        {
+          "id": "o1",
+          "text": "Acetyl-CoA",
+          "evidence": "The three fuel routes converge on acetyl-CoA."
+        },
+        {
+          "id": "o2",
+          "text": "Pyruvate",
+          "evidence": "Glucose passes through pyruvate, but fatty-acid and amino-acid routes converge farther downstream."
+        },
+        {
+          "id": "o4",
+          "text": "Oxaloacetate",
+          "evidence": "Oxaloacetate participates in the cycle rather than being the stage 1 fuel-convergence endpoint."
+        },
+        {
+          "id": "o3",
+          "text": "Citrate",
+          "evidence": "Citrate belongs to acetyl-CoA oxidation in stage 2."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-respiratory-locations",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-stage-one",
+        "citric-acid-cycle-and-pdh-stage-two",
+        "citric-acid-cycle-and-pdh-stage-three"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match each energy-producing process to its cellular location.",
+      "explanation": {
+        "en": "Glycolysis is cytoplasmic, TCA is in the mitochondrial matrix, and oxidative phosphorylation uses the inner mitochondrial membrane.",
+        "ar": "تحدث Glycolysis في cytoplasm، وTCA cycle في mitochondrial matrix، وOxidative phosphorylation عند inner mitochondrial membrane."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Images p5–7 state cytoplasm, matrix and inner membrane respectively. Three process/location mappings are unique within this set; both explanation languages agree. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Glycolysis",
+          "right": "Cytoplasm",
+          "evidence": "Page5 explicitly gives cytoplasm."
+        },
+        {
+          "id": "p2",
+          "left": "Citric acid cycle",
+          "right": "Mitochondrial matrix",
+          "evidence": "Page6 explicitly gives the mitochondrial matrix."
+        },
+        {
+          "id": "p3",
+          "left": "Oxidative phosphorylation",
+          "right": "Mitochondrial inner membrane",
+          "evidence": "Page7 explicitly gives the inner membrane."
+        }
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-reaction-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-overall"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which products result when pyruvate undergoes oxidative decarboxylation by the PDH complex?",
+      "explanation": {
+        "en": "PDH converts pyruvate to acetyl-CoA, releases CO2 and reduces NAD+ to NADH.",
+        "ar": "يحوّل PDH جزيء pyruvate إلى acetyl-CoA، ويحرّر CO2 ويختزل NAD+ إلى NADH."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p8 complete reaction shows acetyl-CoA, CO2 and NADH. Each alternative changes a carbon product, bicarbonate or NAD oxidation state; no second key. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Oxaloacetate, CO2 and NADH",
+          "evidence": "PDH forms acetyl-CoA, not oxaloacetate."
+        },
+        {
+          "id": "o1",
+          "text": "Acetyl-CoA, CO2 and NADH",
+          "evidence": "The reaction removes a carboxyl group as CO2, transfers acetyl to CoA and reduces NAD+."
+        },
+        {
+          "id": "o4",
+          "text": "Acetyl-CoA, HCO3− and FADH2",
+          "evidence": "The overall drawing shows CO2 and NADH as products."
+        },
+        {
+          "id": "o5",
+          "text": "Citrate, CO2 and NADH",
+          "evidence": "Citrate is made later by citrate synthase, not PDH."
+        },
+        {
+          "id": "o2",
+          "text": "Acetyl-CoA, CO2 and NAD+",
+          "evidence": "NAD+ is a reactant that is reduced to NADH."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-reaction-character",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-overall"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which description correctly characterizes the conversion of pyruvate to acetyl-CoA?",
+      "explanation": {
+        "en": "PDH performs irreversible oxidative decarboxylation: a pyruvate carboxyl group is removed as CO2 while acetyl-CoA forms.",
+        "ar": "يحفّز PDH عملية Oxidative decarboxylation غير عكوسة؛ تُزال مجموعة carboxyl من pyruvate على هيئة CO2 ويتكوّن acetyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p8 explicitly calls PDH conversion irreversible oxidative decarboxylation. All alternatives change reversibility or reaction type; EN/AR preserve removal of CO2. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Reversible oxidative decarboxylation",
+          "evidence": "The stated PDH reaction is irreversible."
+        },
+        {
+          "id": "o1",
+          "text": "Irreversible oxidative decarboxylation",
+          "evidence": "The slide explicitly identifies irreversible oxidation with carboxyl-group removal."
+        },
+        {
+          "id": "o5",
+          "text": "Irreversible substrate-level phosphorylation",
+          "evidence": "The overall PDH reaction does not generate ATP/GTP by phosphate transfer."
+        },
+        {
+          "id": "o4",
+          "text": "Reversible nonoxidative hydration",
+          "evidence": "The reaction includes oxidation and CO2 release, not hydration."
+        },
+        {
+          "id": "o3",
+          "text": "Irreversible reductive carboxylation",
+          "evidence": "The reaction oxidizes pyruvate and removes, rather than adds, a carboxyl group."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-cofactor-requirement",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-cofactor-count"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "How many cofactors does the PDH complex require, and how many are vitamin-derived?",
+      "explanation": {
+        "en": "PDH requires five cofactors, four of which are derived from vitamins.",
+        "ar": "يحتاج PDH إلى خمسة cofactors، أربعة منها مشتقة من vitamins."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p8 states five cofactors/four vitamin-derived. All numeric alternatives differ from one or both explicit counts; no grammar/length cue. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Three cofactors; two vitamin-derived",
+          "evidence": "These numbers do not describe PDH cofactor requirements."
+        },
+        {
+          "id": "o1",
+          "text": "Five cofactors; four vitamin-derived",
+          "evidence": "These are the two counts explicitly given on the slide."
+        },
+        {
+          "id": "o4",
+          "text": "Four cofactors; three vitamin-derived",
+          "evidence": "Both counts differ from the stated five and four."
+        },
+        {
+          "id": "o3",
+          "text": "Four cofactors; four vitamin-derived",
+          "evidence": "The complex requires five cofactors."
+        },
+        {
+          "id": "o2",
+          "text": "Five cofactors; three vitamin-derived",
+          "evidence": "The slide states four vitamin-derived cofactors."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-enzyme-identities",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-enzymes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Match each component of the PDH complex to its enzyme name.",
+      "explanation": {
+        "en": "The multienzyme PDH complex contains multiple copies of E1, E2 and E3 with these distinct enzyme identities.",
+        "ar": "يحتوي PDH complex متعدد الإنزيمات على نسخ متعددة من E1 وE2 وE3، ولكل منها هوية إنزيمية مختلفة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p9 identifies E1, E2 and E3 with three different enzyme names. Matching is unique and retains exact enzyme identities in EN/AR. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "E1",
+          "right": "Pyruvate dehydrogenase",
+          "evidence": "E1 is named pyruvate dehydrogenase."
+        },
+        {
+          "id": "p2",
+          "left": "E2",
+          "right": "Dihydrolipoyl transacetylase",
+          "evidence": "E2 is named dihydrolipoyl transacetylase."
+        },
+        {
+          "id": "p3",
+          "left": "E3",
+          "right": "Dihydrolipoyl dehydrogenase",
+          "evidence": "E3 is named dihydrolipoyl dehydrogenase."
+        }
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-vitamin-origins",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-cofactors"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Match each PDH cofactor to its vitamin precursor.",
+      "explanation": {
+        "en": "The vitamin-derived PDH cofactors are TPP from B1, FAD from B2, NAD from B3 and CoA from B5.",
+        "ar": "تُشتق cofactors الخاصة بـPDH على النحو الآتي: TPP من B1، وFAD من B2، وNAD من B3، وCoA من B5."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p9 directly pairs TPP/B1, FAD/B2, NAD/B3 and CoA/B5. No duplicate vitamin choice or inferred origin for lipoate. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Thiamine pyrophosphate (TPP)",
+          "right": "Vitamin B1",
+          "evidence": "TPP is derived from B1."
+        },
+        {
+          "id": "p2",
+          "left": "Flavin adenine dinucleotide (FAD)",
+          "right": "Vitamin B2",
+          "evidence": "FAD is derived from B2."
+        },
+        {
+          "id": "p3",
+          "left": "Nicotinamide adenine dinucleotide (NAD)",
+          "right": "Vitamin B3",
+          "evidence": "NAD is derived from B3."
+        },
+        {
+          "id": "p4",
+          "left": "Coenzyme A",
+          "right": "Vitamin B5",
+          "evidence": "CoA is derived from B5."
+        }
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-lipoyl-transfer",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-e1-steps"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "During the second PDH step, where are the electrons and acetyl group transferred from TPP?",
+      "explanation": {
+        "en": "E1 transfers the acetyl group and electrons from TPP to the lipoyllysyl group carried by E2.",
+        "ar": "ينقل E1 مجموعة acetyl والإلكترونات من TPP إلى lipoyllysyl group التابعة لـE2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p10 step2 transfers electrons and acetyl from TPP to E2 lipoyllysyl group. Checked E3 carriers there, and the separate OAA/GDP roles on p18/p23; no conflation of acetyl and electron acceptors. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "To the FAD cofactor of E3",
+          "evidence": "FAD participates in later electron transfer, not acetyl-group acceptance from TPP."
+        },
+        {
+          "id": "o2",
+          "text": "To the NAD+ cofactor of E3",
+          "evidence": "NAD+ receives electrons at the final regeneration step, not the acetyl group."
+        },
+        {
+          "id": "o1",
+          "text": "To the lipoyllysyl group of E2",
+          "evidence": "The source explicitly identifies E2 lipoyllysyl group as acceptor."
+        },
+        {
+          "id": "o4",
+          "text": "To free oxaloacetate at citrate synthase",
+          "evidence": "Citrate formation is a later separate reaction."
+        },
+        {
+          "id": "o5",
+          "text": "To the GDP substrate of succinyl-CoA synthetase",
+          "evidence": "GDP participates in TCA substrate-level phosphorylation, not this PDH transfer."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-e2-function",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-e2-product"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which PDH component forms acetyl-CoA during step 3?",
+      "explanation": {
+        "en": "E2, dihydrolipoyl transacetylase, produces acetyl-CoA after receiving the acetyl group from E1.",
+        "ar": "ينتج E2، أي Dihydrolipoyl transacetylase، جزيء acetyl-CoA بعد تلقّي مجموعة acetyl من E1."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p10 assigns acetyl-CoA formation to E2 step3. E1/E3 alternatives contradict labelled roles; kinase/phosphatase roles checked on p12. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "PDH phosphatase",
+          "evidence": "Phosphatase activates PDH by dephosphorylation rather than forming acetyl-CoA directly."
+        },
+        {
+          "id": "o4",
+          "text": "PDH kinase",
+          "evidence": "Kinase regulates PDH phosphorylation rather than transferring acetyl to CoA."
+        },
+        {
+          "id": "o1",
+          "text": "Dihydrolipoyl transacetylase (E2)",
+          "evidence": "E2 forms acetyl-CoA in the third step."
+        },
+        {
+          "id": "o2",
+          "text": "Pyruvate dehydrogenase (E1)",
+          "evidence": "E1 performs the initial decarboxylation and transfer steps."
+        },
+        {
+          "id": "o3",
+          "text": "Dihydrolipoyl dehydrogenase (E3)",
+          "evidence": "E3 regenerates oxidized lipoyllysine/FAD and forms NADH."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-reaction-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-e1-steps",
+        "citric-acid-cycle-and-pdh-pdh-e2-product",
+        "citric-acid-cycle-and-pdh-pdh-e3-regeneration"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Arrange the five PDH chemical steps in order.",
+      "explanation": {
+        "en": "E1 handles steps1–2, E2 forms acetyl-CoA in step 3, and E3 regenerates the oxidized carriers in steps4–5.",
+        "ar": "ينفّذ E1 الخطوتين 1 و2، ويكوّن E2 جزيء acetyl-CoA في الخطوة 3، ثم يجدّد E3 النواقل المؤكسدة في الخطوتين 4 و5."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p10 explicitly numbers five chemical steps. Correct ordering retains E1 steps1–2, E2 step3 and E3 steps4–5; no invented intermediate order. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "items": [
+        {
+          "id": "s3",
+          "text": "Form acetyl-CoA"
+        },
+        {
+          "id": "s1",
+          "text": "Decarboxylate pyruvate to the hydroxyethyl derivative"
+        },
+        {
+          "id": "s4",
+          "text": "Regenerate oxidized lipoyllysyl group by electron transfer"
+        },
+        {
+          "id": "s2",
+          "text": "Oxidize the hydroxyethyl group and transfer acetyl/electrons to E2 lipoyllysyl group"
+        },
+        {
+          "id": "s5",
+          "text": "Regenerate oxidized FAD while forming NADH"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ]
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-high-energy-response",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-allosteric-inhibition",
+        "citric-acid-cycle-and-pdh-pdh-control-types"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "What is the effect of high ATP and NADH on mammalian PDH activity?",
+      "explanation": {
+        "en": "High ATP and NADH indicate sufficient energy and inhibit PDH, slowing conversion of pyruvate toward acetyl-CoA.",
+        "ar": "يشير ارتفاع ATP وNADH إلى كفاية الطاقة، فيثبّطان PDH ويبطّئان تحويل pyruvate نحو acetyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p11 states high ATP/NADH inhibition and slower decarboxylation. All four alternatives reverse an effector or invoke the calcium-phosphatase route checked on p12. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "ATP activates PDH while NADH inhibits it.",
+          "evidence": "Both ATP and NADH inhibit the complex."
+        },
+        {
+          "id": "o4",
+          "text": "ATP inhibits PDH while NADH activates it.",
+          "evidence": "NADH is also an inhibitor."
+        },
+        {
+          "id": "o1",
+          "text": "They inhibit PDH and slow pyruvate decarboxylation.",
+          "evidence": "High ATP/NADH signal sufficient energy and inhibit the complex."
+        },
+        {
+          "id": "o5",
+          "text": "They activate PDH phosphatase as the energy signal.",
+          "evidence": "The phosphatase activation signal shown is calcium; high energy promotes inhibition."
+        },
+        {
+          "id": "o2",
+          "text": "They activate PDH and accelerate pyruvate decarboxylation.",
+          "evidence": "This reverses the stated high-energy response."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-activator-set",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-allosteric-activation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which set contains three allosteric activators of the PDH complex?",
+      "explanation": {
+        "en": "AMP, CoA and NAD+ allosterically activate PDH; ATP, acetyl-CoA and NADH inhibit it.",
+        "ar": "تنشّط AMP وCoA وNAD+ إنزيم PDH ألوستيرياً، بينما تثبّطه ATP وacetyl-CoA وNADH."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p11 lists AMP/CoA/NAD+ activation and ATP/acetyl-CoA/NADH inhibition. Each alternative substitutes an explicitly inhibitory molecule; Arabic retains all signs. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "ATP, acetyl-CoA and NADH",
+          "evidence": "All three are in the stated inhibitor set."
+        },
+        {
+          "id": "o1",
+          "text": "AMP, CoA and NAD+",
+          "evidence": "The prose explicitly lists this activator set."
+        },
+        {
+          "id": "o4",
+          "text": "AMP, CoA and NADH",
+          "evidence": "NADH is a stated inhibitor."
+        },
+        {
+          "id": "o3",
+          "text": "AMP, acetyl-CoA and NAD+",
+          "evidence": "Acetyl-CoA is a stated inhibitor."
+        },
+        {
+          "id": "o2",
+          "text": "ATP, CoA and NAD+",
+          "evidence": "ATP is a stated inhibitor, not an activator."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-phosphorylation-state",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-phosphorylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which PDH state is produced by PDH kinase?",
+      "explanation": {
+        "en": "PDH kinase uses ATP to phosphorylate PDH, making the complex inactive.",
+        "ar": "يستخدم PDH kinase جزيء ATP لفسفرة PDH، فيصبح المعقّد غير نشط."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p12 kinase arrow uses ATP and yields inactive phosphorylated PDH; phosphatase reverses the state. Checked all state combinations and cleaned Arabic complex noun only. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Dephosphorylated and inactive",
+          "evidence": "Kinase phosphorylates rather than dephosphorylates PDH."
+        },
+        {
+          "id": "o1",
+          "text": "Phosphorylated and inactive",
+          "evidence": "Kinase converts active PDH to the phosphorylated inactive form."
+        },
+        {
+          "id": "o4",
+          "text": "Dephosphorylated and active",
+          "evidence": "This state results from phosphatase, not kinase."
+        },
+        {
+          "id": "o5",
+          "text": "Unmodified and active",
+          "evidence": "The kinase reaction changes the phosphorylation state and inactivates PDH."
+        },
+        {
+          "id": "o2",
+          "text": "Phosphorylated and active",
+          "evidence": "The phosphorylated form is labeled inactive."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-ratio-response",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-phosphorylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which combination of metabolite ratios promotes PDH inactivation?",
+      "explanation": {
+        "en": "High product/reduced-carrier/energy ratios favor PDH inactivation: acetyl-CoA/CoASH, NADH/NAD and ATP/ADP.",
+        "ar": "تعزّز النِّسَب المرتفعة acetyl-CoA/CoASH وNADH/NAD وATP/ADP تعطيل PDH، بما يعكس وفرة النواتج والطاقة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p12 explicitly prints all three high ratios as promoting inactivation. Each distractor changes at least one ratio direction; NADH/NAD typography preserved. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Low acetyl-CoA/CoASH and NADH/NAD but high ATP/ADP ratio",
+          "evidence": "The source prints all three ratios as high."
+        },
+        {
+          "id": "o3",
+          "text": "High acetyl-CoA/CoASH but low NADH/NAD and ATP/ADP ratios",
+          "evidence": "Only the first ratio matches the stated combination."
+        },
+        {
+          "id": "o2",
+          "text": "Low acetyl-CoA/CoASH, NADH/NAD and ATP/ADP ratios",
+          "evidence": "This reverses each printed high-ratio condition."
+        },
+        {
+          "id": "o4",
+          "text": "Low acetyl-CoA/CoASH but high NADH/NAD and ATP/ADP ratios",
+          "evidence": "The stated acetyl-CoA/CoASH ratio is high."
+        },
+        {
+          "id": "o1",
+          "text": "High acetyl-CoA/CoASH, NADH/NAD and ATP/ADP ratios",
+          "evidence": "All three high ratios are printed as promoting inactivation."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-deficiency-genetic-link",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-deficiency-genetics"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which PDH component is most commonly linked to the X-linked form of PDH deficiency?",
+      "explanation": {
+        "en": "PDH deficiency is most commonly linked to the E1 alpha unit and an X-linked pattern; autosomal-recessive variants also exist.",
+        "ar": "يرتبط PDH deficiency غالباً بالوحدة alpha من E1 وبوراثة X-linked، مع وجود أنواع أخرى ذات وراثة Autosomal recessive."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p13 identifies the common E1 alpha X-linked link and allows autosomal-recessive variants. Replaced invented alpha-unit distractor labels by actual E2/E3/kinase/phosphatase entities from p9/p12; key unchanged, revision raised. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Dihydrolipoyl transacetylase E2",
+          "evidence": "The slide specifically identifies E1, not E2."
+        },
+        {
+          "id": "o3",
+          "text": "Dihydrolipoyl dehydrogenase E3",
+          "evidence": "The slide specifically identifies E1, not E3."
+        },
+        {
+          "id": "o5",
+          "text": "PDH phosphatase",
+          "evidence": "The stated common link is E1 alpha, not phosphatase."
+        },
+        {
+          "id": "o1",
+          "text": "Pyruvate dehydrogenase E1 alpha unit",
+          "evidence": "This is the component and inheritance link stated on the slide."
+        },
+        {
+          "id": "o4",
+          "text": "PDH kinase",
+          "evidence": "The source links the common form to E1 alpha and also notes other variants."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-pdh-deficiency-metabolites",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-deficiency-effects"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which serum-metabolite pattern is associated with PDH deficiency?",
+      "explanation": {
+        "en": "PDH deficiency causes increased serum lactate, pyruvate and alanine and is associated with lactic acidosis.",
+        "ar": "يسبب PDH deficiency ارتفاع lactate وpyruvate وalanine في المصل، ويرتبط بـLactic acidosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p13 explicitly elevates serum lactate, pyruvate and alanine. Distractors invert one or all directions; no claim that every PDH case has an exclusive phenotype. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Elevated pyruvate and alanine with reduced lactate",
+          "evidence": "The source states lactate is elevated."
+        },
+        {
+          "id": "o3",
+          "text": "Elevated lactate and alanine with reduced pyruvate",
+          "evidence": "The source states pyruvate is elevated."
+        },
+        {
+          "id": "o5",
+          "text": "Reduced lactate, pyruvate and alanine",
+          "evidence": "This reverses the entire stated biochemical pattern."
+        },
+        {
+          "id": "o1",
+          "text": "Elevated lactate, pyruvate and alanine",
+          "evidence": "All three are explicitly stated as elevated."
+        },
+        {
+          "id": "o2",
+          "text": "Elevated lactate and pyruvate with reduced alanine",
+          "evidence": "The source states alanine is elevated."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-ketogenic-diet-composition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-ketogenic-diet"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which dietary composition promotes fat metabolism in a ketogenic approach to PDH deficiency?",
+      "explanation": {
+        "en": "A ketogenic diet is high in fat, adequate in protein and low in carbohydrate, prioritizing fat metabolism.",
+        "ar": "يتكوّن Ketogenic diet من دهون مرتفعة وبروتين كافٍ وكربوهيدرات منخفضة، مما يدفع الجسم إلى إعطاء الأولوية لاستقلاب الدهون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p14 specifies high fat, adequate protein, low carbohydrate. All alternatives change a stated nutrient proportion; this is source-based recognition, not individualized treatment advice. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Low fat, adequate protein and high carbohydrate",
+          "evidence": "This reverses the fat/carbohydrate emphasis."
+        },
+        {
+          "id": "o3",
+          "text": "High fat, low protein and high carbohydrate",
+          "evidence": "Protein is adequate and carbohydrate is low in the source."
+        },
+        {
+          "id": "o5",
+          "text": "High fat, adequate protein and high carbohydrate",
+          "evidence": "Carbohydrate is low, not high."
+        },
+        {
+          "id": "o1",
+          "text": "High fat, adequate protein and low carbohydrate",
+          "evidence": "This is the printed ketogenic composition."
+        },
+        {
+          "id": "o4",
+          "text": "Low fat, high protein and low carbohydrate",
+          "evidence": "The source specifies high fat, not low fat."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-dca-enzyme-target",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-pdh-dca"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which enzyme action explains how dichloroacetic acid stimulates PDH activity?",
+      "explanation": {
+        "en": "DCA inhibits PDH kinase, thereby stimulating PDH activity and favoring mitochondrial oxidation.",
+        "ar": "يثبّط DCA إنزيم PDH kinase، فيحفّز نشاط PDH ويدفع الاستقلاب نحو Mitochondrial oxidation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p14 names DCA inhibition of PDH kinase. Checked kinase inactivation direction on p12 and E1/E2/E3 roles on p10; all alternatives conflict with the stated target/action. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Inhibition of E1 pyruvate dehydrogenase",
+          "evidence": "The source describes PDH stimulation, not inhibition of E1."
+        },
+        {
+          "id": "o5",
+          "text": "Inhibition of E3 dihydrolipoyl dehydrogenase",
+          "evidence": "The source names PDH kinase, not E3."
+        },
+        {
+          "id": "o2",
+          "text": "Activation of PDH kinase",
+          "evidence": "Kinase activation would favor the inactive phosphorylated PDH form."
+        },
+        {
+          "id": "o4",
+          "text": "Inhibition of E2 dihydrolipoyl transacetylase",
+          "evidence": "The source names PDH kinase as the inhibited enzyme."
+        },
+        {
+          "id": "o1",
+          "text": "Inhibition of PDH kinase",
+          "evidence": "DCA inhibits the kinase and stimulates PDH activity."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-oxaloacetate-cycle-balance",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-stoichiometry"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "What is the net fate of oxaloacetate during one complete citric acid cycle turn?",
+      "explanation": {
+        "en": "Oxaloacetate participates in citrate formation and is regenerated, so the complete cycle does not remove it on net.",
+        "ar": "يشارك Oxaloacetate في تكوين citrate ثم يُعاد توليده؛ لذا لا يُستهلك صافيّاً خلال دورة كاملة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p17 states one OAA used and one regenerated. Numeric and consumption alternatives are distinct and contradicted by the source balance. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "One molecule is used and two are regenerated.",
+          "evidence": "The stated regeneration is one molecule."
+        },
+        {
+          "id": "o3",
+          "text": "Two molecules are used and one is regenerated.",
+          "evidence": "Only one OAA molecule is used to form citrate."
+        },
+        {
+          "id": "o1",
+          "text": "One molecule is used to form citrate and one is regenerated.",
+          "evidence": "The source explicitly states use and regeneration of one OAA."
+        },
+        {
+          "id": "o5",
+          "text": "One molecule enters as acetyl-CoA and is released as CO2.",
+          "evidence": "The acetyl group enters as acetyl-CoA; OAA is regenerated."
+        },
+        {
+          "id": "o4",
+          "text": "One molecule is used without regeneration.",
+          "evidence": "OAA is regenerated at the end of the cycle."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-cycle-carbon-entry-release",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-stoichiometry"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "What enters and leaves the citric acid cycle during one turn?",
+      "explanation": {
+        "en": "Each cycle turn receives one acetyl group from acetyl-CoA and releases two molecules of CO2.",
+        "ar": "تستقبل كل دورة مجموعة acetyl واحدة من acetyl-CoA وتحرّر جزيئين من CO2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p17 states one acetyl group enters and two CO2 leave per turn. Distinct from OAA regeneration; all count alternatives checked against the explicit per-turn denominator. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Two acetyl groups enter and two CO2 molecules are released.",
+          "evidence": "The stated turn has one acetyl group entering."
+        },
+        {
+          "id": "o2",
+          "text": "Two acetyl groups enter and one CO2 molecule is released.",
+          "evidence": "This reverses the stated entry/release counts."
+        },
+        {
+          "id": "o3",
+          "text": "One acetyl group enters and one CO2 molecule is released.",
+          "evidence": "Two CO2 molecules are released per turn."
+        },
+        {
+          "id": "o1",
+          "text": "One acetyl group enters and two CO2 molecules are released.",
+          "evidence": "The stated turn takes one acetyl group and releases two CO2."
+        },
+        {
+          "id": "o5",
+          "text": "One acetyl group enters and no CO2 is released.",
+          "evidence": "Two decarboxylations release CO2."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-oxidation-step-count",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-oxidations"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "How many of the eight citric acid cycle steps involve oxidation reactions?",
+      "explanation": {
+        "en": "Four of the eight steps are oxidations that conserve energy in reduced NADH and FADH2.",
+        "ar": "تتضمن أربع خطوات من أصل ثمانٍ عمليات أكسدة، وتُحفَظ طاقتها في NADH وFADH2 المختزلين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p17 states four of eight oxidation steps and links reduced carriers. All five numerical options are parallel; preserved four/eight in Arabic. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Four",
+          "evidence": "The source states four of eight steps involve oxidation."
+        },
+        {
+          "id": "o5",
+          "text": "Six",
+          "evidence": "This exceeds the stated four oxidation steps."
+        },
+        {
+          "id": "o4",
+          "text": "Five",
+          "evidence": "This exceeds the stated four oxidation steps."
+        },
+        {
+          "id": "o2",
+          "text": "Two",
+          "evidence": "This undercounts the stated four oxidation steps."
+        },
+        {
+          "id": "o3",
+          "text": "Three",
+          "evidence": "This undercounts the stated four oxidation steps."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-tca-intermediate-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-sequence"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Starting with citrate, arrange the major citric acid cycle intermediates through regeneration of oxaloacetate.",
+      "explanation": {
+        "en": "The major cycle intermediates proceed citrate → isocitrate → α-ketoglutarate → succinyl-CoA → succinate → fumarate → malate → oxaloacetate.",
+        "ar": "يتدرّج المسار من citrate إلى isocitrate ثم α-ketoglutarate وsuccinyl-CoA وsuccinate وfumarate وmalate، وينتهي بتجديد oxaloacetate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p17 cycle arrows establish the eight major intermediate order starting at citrate. Cis-aconitate is an intermediate of isomerization, not a second selectable major item; no alternative order is imposed on parallel routes. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "items": [
+        {
+          "id": "s6",
+          "text": "Fumarate"
+        },
+        {
+          "id": "s7",
+          "text": "Malate"
+        },
+        {
+          "id": "s5",
+          "text": "Succinate"
+        },
+        {
+          "id": "s2",
+          "text": "Isocitrate"
+        },
+        {
+          "id": "s1",
+          "text": "Citrate"
+        },
+        {
+          "id": "s8",
+          "text": "Oxaloacetate"
+        },
+        {
+          "id": "s3",
+          "text": "α-Ketoglutarate"
+        },
+        {
+          "id": "s4",
+          "text": "Succinyl-CoA"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ],
+        [
+          "s6"
+        ],
+        [
+          "s7"
+        ],
+        [
+          "s8"
+        ]
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-citrate-synthase-substrates",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-citrate-synthase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which pair condenses to form citrate in the citrate synthase reaction?",
+      "explanation": {
+        "en": "Citrate synthase condenses the acetyl group of acetyl-CoA with oxaloacetate to form citrate.",
+        "ar": "يحفّز Citrate synthase تكاثف مجموعة acetyl من acetyl-CoA مع oxaloacetate لتكوين citrate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p18 directly combines acetyl-CoA/OAA to citrate; p8 and p26 support pyruvate-before-acetyl-CoA and malate-before-OAA distractor explanations. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Acetyl-CoA and isocitrate",
+          "evidence": "Isocitrate is formed downstream of citrate."
+        },
+        {
+          "id": "o3",
+          "text": "Succinyl-CoA and oxaloacetate",
+          "evidence": "The acetyl donor is acetyl-CoA, not succinyl-CoA."
+        },
+        {
+          "id": "o1",
+          "text": "Acetyl-CoA and oxaloacetate",
+          "evidence": "These are the stated condensation substrates."
+        },
+        {
+          "id": "o4",
+          "text": "Pyruvate and oxaloacetate",
+          "evidence": "Pyruvate must first supply acetyl-CoA through PDH in this pathway."
+        },
+        {
+          "id": "o2",
+          "text": "Acetyl-CoA and malate",
+          "evidence": "Malate must first be oxidized to OAA."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-citrate-transient-intermediate",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-citrate-synthase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which transient intermediate is formed during citrate synthesis?",
+      "explanation": {
+        "en": "Citrate synthesis passes through transient citroyl-CoA before citrate and CoA-SH are produced.",
+        "ar": "يمرّ تكوين citrate بوسيط مؤقت هو citroyl-CoA قبل إنتاج citrate وCoA-SH."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p18 names transient citroyl-CoA. Compared other named intermediates with p10/20/21/22. All alternatives are real nearby source intermediates with a distinct role. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Hydroxyethyl-TPP",
+          "evidence": "This intermediate belongs to PDH pyruvate decarboxylation."
+        },
+        {
+          "id": "o4",
+          "text": "Oxalosuccinate",
+          "evidence": "Oxalosuccinate occurs in isocitrate oxidation."
+        },
+        {
+          "id": "o2",
+          "text": "Succinyl-CoA",
+          "evidence": "Succinyl-CoA is formed later from α-ketoglutarate."
+        },
+        {
+          "id": "o3",
+          "text": "Cis-aconitate",
+          "evidence": "Cis-aconitate is the aconitase intermediate after citrate forms."
+        },
+        {
+          "id": "o1",
+          "text": "Citroyl-CoA",
+          "evidence": "The prose explicitly names transient citroyl-CoA."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-citrate-ordered-binding",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-citrate-induced-fit"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which binding sequence creates the acetyl-CoA binding site in citrate synthase?",
+      "explanation": {
+        "en": "Free citrate synthase lacks the acetyl-CoA binding site; oxaloacetate binding creates it through induced fit.",
+        "ar": "يفتقر Citrate synthase الحر إلى موقع ارتباط acetyl-CoA؛ ويؤدي ارتباط oxaloacetate إلى تكوينه عبر Induced fit."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p19 says OAA binds first, closes the enzyme and creates the acetyl-CoA site. All alternatives change the inducer or binding order; no inference beyond the visible mechanism. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Succinyl-CoA binds first and closes the enzyme.",
+          "evidence": "Succinyl-CoA is not the stated inducing substrate."
+        },
+        {
+          "id": "o5",
+          "text": "Oxaloacetate binds only after acetyl-CoA has been hydrolyzed.",
+          "evidence": "OAA binding precedes acetyl-CoA binding and reduces premature cleavage."
+        },
+        {
+          "id": "o3",
+          "text": "Citrate binds first and creates both substrate sites.",
+          "evidence": "The stated inducing substrate is OAA, not citrate."
+        },
+        {
+          "id": "o1",
+          "text": "Oxaloacetate binds first and induces the closed conformation.",
+          "evidence": "OAA binding creates the acetyl-CoA site by conformational change."
+        },
+        {
+          "id": "o2",
+          "text": "Acetyl-CoA binds first and induces the oxaloacetate site.",
+          "evidence": "This reverses the stated binding order."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-aconitase-intermediate",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-aconitase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Through which intermediate does aconitase convert citrate to isocitrate?",
+      "explanation": {
+        "en": "Aconitase reversibly interconverts citrate and isocitrate through cis-aconitate.",
+        "ar": "يحوّل Aconitase جزيء citrate بصورة عكوسة إلى isocitrate عبر الوسيط cis-aconitate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p20 names cis-aconitate for citrate/isocitrate interconversion. Checked the four neighbouring named intermediates on p10/18/21/22; key unique. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Citroyl-CoA",
+          "evidence": "Citroyl-CoA is transient in citrate synthesis."
+        },
+        {
+          "id": "o1",
+          "text": "Cis-aconitate",
+          "evidence": "The source explicitly names cis-aconitate."
+        },
+        {
+          "id": "o4",
+          "text": "Succinyl-CoA",
+          "evidence": "Succinyl-CoA is formed after α-ketoglutarate oxidation."
+        },
+        {
+          "id": "o5",
+          "text": "Hydroxyethyl-TPP",
+          "evidence": "Hydroxyethyl-TPP belongs to PDH."
+        },
+        {
+          "id": "o2",
+          "text": "Oxalosuccinate",
+          "evidence": "Oxalosuccinate is in isocitrate dehydrogenase chemistry."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-isocitrate-oxidation-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-isocitrate-dehydrogenase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which carbon products are formed by isocitrate dehydrogenase?",
+      "explanation": {
+        "en": "Isocitrate dehydrogenase oxidatively decarboxylates isocitrate to α-ketoglutarate and CO2.",
+        "ar": "يحفّز Isocitrate dehydrogenase عملية Oxidative decarboxylation للـisocitrate، فتنتج α-ketoglutarate وCO2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p21 explicitly yields α-ketoglutarate/CO2; other product pairs belong to different depicted cycle reactions, verified on p18/22/23/25. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Succinyl-CoA and CO2",
+          "evidence": "These arise from α-ketoglutarate dehydrogenase."
+        },
+        {
+          "id": "o4",
+          "text": "Citrate and CoA-SH",
+          "evidence": "These arise from citrate synthase."
+        },
+        {
+          "id": "o5",
+          "text": "Fumarate and H2O",
+          "evidence": "Isocitrate dehydrogenase does not perform the succinate/fumarate or fumarate/malate steps."
+        },
+        {
+          "id": "o3",
+          "text": "Succinate and CoA-SH",
+          "evidence": "These arise from succinyl-CoA synthetase."
+        },
+        {
+          "id": "o1",
+          "text": "α-Ketoglutarate and CO2",
+          "evidence": "Isocitrate undergoes oxidative decarboxylation to these products."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-isocitrate-isozyme-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-isocitrate-isozymes"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which cofactor/location pairing correctly describes isocitrate dehydrogenase isozymes?",
+      "explanation": {
+        "en": "NADP+-specific isozymes occur in cytosol and mitochondria; the NAD+-specific isozyme is mitochondrial.",
+        "ar": "توجد Isozymes المعتمدة على NADP+ في cytosol وmitochondria، بينما يكون الشكل المعتمد على NAD+ ميتوكوندرياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p21 states NADP-specific cytosolic+mitochondrial versus NAD-specific mitochondrial isozymes. All location/cofactor combinations remain parallel; no outside isozyme detail added. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "NADP+-specific: cytosolic and mitochondrial; NAD+-specific: cytosolic only",
+          "evidence": "The NAD+-specific form is stated as mitochondrial."
+        },
+        {
+          "id": "o2",
+          "text": "NADP+-specific: mitochondrial only; NAD+-specific: cytosolic and mitochondrial",
+          "evidence": "This reverses the stated distributions."
+        },
+        {
+          "id": "o1",
+          "text": "NADP+-specific: cytosolic and mitochondrial; NAD+-specific: mitochondrial",
+          "evidence": "This is the stated distribution."
+        },
+        {
+          "id": "o5",
+          "text": "NADP+-specific: mitochondrial only; NAD+-specific: cytosolic only",
+          "evidence": "Both distributions differ from those printed."
+        },
+        {
+          "id": "o3",
+          "text": "NADP+-specific: cytosolic only; NAD+-specific: mitochondrial only",
+          "evidence": "The NADP+-specific forms are also mitochondrial."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-substrate-level-phosphorylation-step",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-succinyl-coa-synthetase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which citric acid cycle conversion directly supports substrate-level phosphorylation?",
+      "explanation": {
+        "en": "Succinyl-CoA synthetase uses thioester cleavage energy to form a phosphoanhydride bond in GTP or ATP.",
+        "ar": "يستخدم Succinyl-CoA synthetase طاقة شطر الرابطة thioester لتكوين رابطة phosphoanhydride في GTP أو ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p23 explicitly couples succinyl-CoA thioester cleavage to GTP/ATP formation. Other conversions checked on p20/21/24/26; none is that direct phosphorylation step. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Malate to oxaloacetate",
+          "evidence": "This oxidation reduces NAD+ rather than directly forming GTP/ATP."
+        },
+        {
+          "id": "o1",
+          "text": "Succinyl-CoA to succinate",
+          "evidence": "Thioester cleavage powers GTP or ATP phosphoanhydride formation."
+        },
+        {
+          "id": "o4",
+          "text": "Succinate to fumarate",
+          "evidence": "This oxidation reduces FAD rather than phosphorylating GDP/ADP."
+        },
+        {
+          "id": "o2",
+          "text": "Citrate to isocitrate",
+          "evidence": "Aconitase performs dehydration/rehydration, not substrate-level phosphorylation."
+        },
+        {
+          "id": "o3",
+          "text": "Isocitrate to α-ketoglutarate",
+          "evidence": "This is oxidative decarboxylation with reduced-carrier formation."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-succinyl-synthetase-synonym",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-succinyl-coa-synthetase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which alternative name refers to succinyl-CoA synthetase?",
+      "explanation": {
+        "en": "Succinyl-CoA synthetase is also called succinic thiokinase.",
+        "ar": "يُسمّى Succinyl-CoA synthetase أيضاً Succinic thiokinase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p23 prints succinic thiokinase as the synonym. Other names are distinct source enzymes checked on p9/18/20/26; Arabic preserves the synonym. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Dihydrolipoyl transacetylase",
+          "evidence": "This is E2 of PDH."
+        },
+        {
+          "id": "o1",
+          "text": "Succinic thiokinase",
+          "evidence": "This synonym is printed in parentheses."
+        },
+        {
+          "id": "o2",
+          "text": "Aconitate hydratase",
+          "evidence": "This is a synonym for aconitase."
+        },
+        {
+          "id": "o3",
+          "text": "L-malate dehydrogenase",
+          "evidence": "This enzyme oxidizes malate to OAA."
+        },
+        {
+          "id": "o5",
+          "text": "Citrate synthase",
+          "evidence": "This enzyme condenses acetyl-CoA and OAA."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-succinate-enzyme-location",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-succinate-dehydrogenase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which statement distinguishes succinate dehydrogenase in eukaryotes?",
+      "explanation": {
+        "en": "Succinate dehydrogenase is an integral inner mitochondrial membrane protein in eukaryotes.",
+        "ar": "يُعد Succinate dehydrogenase بروتيناً مدمجاً في inner mitochondrial membrane لدى حقيقيات النوى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p24 explicitly places eukaryotic succinate dehydrogenase integral in the inner mitochondrial membrane. Five location choices are parallel; scope eukaryotes retained. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "It is an integral protein of the mitochondrial outer membrane.",
+          "evidence": "The source specifies the inner membrane."
+        },
+        {
+          "id": "o4",
+          "text": "It is confined to the intermembrane space without membrane attachment.",
+          "evidence": "The enzyme is stated to be integral to the inner membrane."
+        },
+        {
+          "id": "o1",
+          "text": "It is an integral protein of the mitochondrial inner membrane.",
+          "evidence": "The source explicitly identifies this membrane location."
+        },
+        {
+          "id": "o5",
+          "text": "It is attached to the cytoplasmic face of the plasma membrane.",
+          "evidence": "The printed location is the mitochondrial inner membrane."
+        },
+        {
+          "id": "o2",
+          "text": "It is a freely soluble cytoplasmic enzyme.",
+          "evidence": "The stated location is integral inner mitochondrial membrane."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-succinate-enzyme-cofactors",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-succinate-dehydrogenase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which cofactor composition characterizes succinate dehydrogenase?",
+      "explanation": {
+        "en": "Succinate dehydrogenase is a flavoprotein containing three Fe-S clusters and covalently bound FAD.",
+        "ar": "إن Succinate dehydrogenase هو Flavoprotein يحتوي على ثلاث Fe-S clusters وعلى FAD مرتبط تساهمياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p24 states three Fe-S clusters and covalently bound FAD. Other cluster/cofactor combinations directly differ; no respiratory-chain table-only content needed. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Three iron-sulfur clusters and covalently bound NAD+",
+          "evidence": "The stated covalently bound cofactor is FAD."
+        },
+        {
+          "id": "o1",
+          "text": "Three iron-sulfur clusters and covalently bound FAD",
+          "evidence": "Both the cluster count and bound flavin are explicitly stated."
+        },
+        {
+          "id": "o4",
+          "text": "Three iron-sulfur clusters and covalently bound TPP",
+          "evidence": "TPP is not the stated bound cofactor."
+        },
+        {
+          "id": "o3",
+          "text": "One iron-sulfur cluster and covalently bound FAD",
+          "evidence": "The source gives three iron-sulfur clusters."
+        },
+        {
+          "id": "o5",
+          "text": "Five iron-sulfur clusters and covalently bound CoA",
+          "evidence": "Neither the cluster count nor the cofactor matches the source."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-succinate-redox-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-succinate-dehydrogenase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which pair of changes occurs in the succinate dehydrogenase reaction?",
+      "explanation": {
+        "en": "Oxidation of succinate to fumarate is coupled to reduction of enzyme-bound FAD to FADH2.",
+        "ar": "تقترن أكسدة succinate إلى fumarate باختزال FAD المرتبط بالإنزيم إلى FADH2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p24 shows succinate→fumarate and FAD→FADH2 together. Distractors invert cofactor state or substitute adjacent substrate/product/cofactor; both languages preserve coupled directions. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Succinate becomes fumarate while FADH2 becomes FAD.",
+          "evidence": "This reverses the flavin redox change for succinate oxidation."
+        },
+        {
+          "id": "o3",
+          "text": "Succinate becomes malate while FAD becomes FADH2.",
+          "evidence": "Fumarate, not malate, is the direct product."
+        },
+        {
+          "id": "o1",
+          "text": "Succinate becomes fumarate while FAD becomes FADH2.",
+          "evidence": "The diagram shows this substrate oxidation and flavin reduction."
+        },
+        {
+          "id": "o4",
+          "text": "Fumarate becomes oxaloacetate while FAD becomes FADH2.",
+          "evidence": "The depicted reaction is succinate to fumarate."
+        },
+        {
+          "id": "o2",
+          "text": "Succinate becomes fumarate while NAD+ becomes NADH.",
+          "evidence": "The displayed acceptor for this step is FAD."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-fumarase-product-stereochemistry",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-fumarase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which product is formed by fumarase-mediated hydration of fumarate?",
+      "explanation": {
+        "en": "Fumarase catalyzes reversible hydration of fumarate to L-malate.",
+        "ar": "يحفّز Fumarase إضافة الماء بصورة عكوسة إلى fumarate لتكوين L-malate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p25 explicitly forms L-malate, with D-malate drawn for comparison. Compared the adjacent cycle metabolites on p20/24/26; no stereoisomer ambiguity. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "D-Malate",
+          "evidence": "The D isomer is drawn for comparison, but the stated enzymatic product is L-malate."
+        },
+        {
+          "id": "o5",
+          "text": "Cis-aconitate",
+          "evidence": "Cis-aconitate is an intermediate of aconitase, not fumarase."
+        },
+        {
+          "id": "o1",
+          "text": "L-Malate",
+          "evidence": "The source explicitly identifies L-malate."
+        },
+        {
+          "id": "o3",
+          "text": "Oxaloacetate",
+          "evidence": "OAA is formed later by malate oxidation."
+        },
+        {
+          "id": "o4",
+          "text": "Succinate",
+          "evidence": "Succinate precedes fumarate in the cycle."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-malate-oxidation-pair",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-malate-dehydrogenase"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which paired changes describe the L-malate dehydrogenase reaction?",
+      "explanation": {
+        "en": "Malate dehydrogenase oxidizes L-malate to oxaloacetate while reducing NAD+ to NADH.",
+        "ar": "يؤكسد Malate dehydrogenase جزيء L-malate إلى oxaloacetate، مع اختزال NAD+ إلى NADH."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p26 shows L-malate oxidation to OAA coupled to NAD+ reduction. All alternatives change the product, oxidation direction or coupling; key and both explanations agree. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "L-Malate is oxidized to oxaloacetate, and FAD is reduced to FADH2.",
+          "evidence": "The source shows NAD+, not FAD, in this reaction."
+        },
+        {
+          "id": "o3",
+          "text": "L-Malate is oxidized to fumarate, and NAD+ is reduced to NADH.",
+          "evidence": "The direct product is OAA, not fumarate."
+        },
+        {
+          "id": "o2",
+          "text": "L-Malate is reduced to oxaloacetate, and NADH is oxidized to NAD+.",
+          "evidence": "This reverses both redox descriptions for the stated direction."
+        },
+        {
+          "id": "o1",
+          "text": "L-Malate is oxidized to oxaloacetate, and NAD+ is reduced to NADH.",
+          "evidence": "This is the substrate/cofactor change shown."
+        },
+        {
+          "id": "o5",
+          "text": "L-Malate is hydrated to oxaloacetate, and GDP is phosphorylated to GTP.",
+          "evidence": "The reaction is NAD+-linked oxidation, not hydration/substrate-level phosphorylation."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-cycle-energy-yield",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-net-products"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which energy-containing products are generated per acetyl-CoA oxidized in one citric acid cycle turn?",
+      "explanation": {
+        "en": "One cycle turn yields 3 NADH, 1 FADH2 and 1 GTP; the GTP can be converted to ATP.",
+        "ar": "تنتج الدورة الواحدة 3 NADH و1 FADH2 و1 GTP، ويمكن تحويل GTP إلى ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p27 states 3 NADH/1 FADH2/1 GTP per acetyl-CoA. All options keep the same product categories and vary counts; per-turn denominator explicit. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "1 NADH, 3 FADH2 and 1 GTP",
+          "evidence": "This interchanges NADH and FADH2 counts."
+        },
+        {
+          "id": "o2",
+          "text": "2 NADH, 1 FADH2 and 1 GTP",
+          "evidence": "This undercounts NADH by one."
+        },
+        {
+          "id": "o4",
+          "text": "3 NADH, 1 FADH2 and 2 GTP",
+          "evidence": "This overcounts GTP by one."
+        },
+        {
+          "id": "o1",
+          "text": "3 NADH, 1 FADH2 and 1 GTP",
+          "evidence": "These counts are explicitly stated per turn."
+        },
+        {
+          "id": "o3",
+          "text": "3 NADH, 2 FADH2 and 1 GTP",
+          "evidence": "This overcounts FADH2 by one."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-cycle-carbon-numbers",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-carbon-count"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "What are the carbon counts of citrate, isocitrate, α-ketoglutarate and succinate, respectively?",
+      "explanation": {
+        "en": "Citrate and isocitrate have six carbons; the first CO2 loss gives five-carbon α-ketoglutarate, and the second leads ultimately to four-carbon succinate.",
+        "ar": "يحتوي citrate وisocitrate على ست ذرات كربون؛ ويعطي فقد CO2 الأول جزيء α-ketoglutarate خماسي الكربون، ثم يؤدي الفقد الثاني في النهاية إلى succinate رباعي الكربون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p28 explicitly gives citrate/isocitrate6, α-ketoglutarate5 and succinate4. Checked each count and the two CO2-loss directions in Arabic. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "6, 5, 5 and 4",
+          "evidence": "Citrate isomerization does not remove a carbon; isocitrate remains six-carbon."
+        },
+        {
+          "id": "o4",
+          "text": "5, 5, 4 and 3",
+          "evidence": "Each listed count is lower than the source count."
+        },
+        {
+          "id": "o3",
+          "text": "6, 6, 4 and 4",
+          "evidence": "The first CO2 loss gives five-carbon α-ketoglutarate."
+        },
+        {
+          "id": "o5",
+          "text": "6, 6, 5 and 5",
+          "evidence": "Succinate is four-carbon after the second CO2 loss."
+        },
+        {
+          "id": "o1",
+          "text": "6, 6, 5 and 4",
+          "evidence": "Citrate/isocitrate have six carbons; successive CO2 losses produce five and then four carbons."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-biosynthetic-precursor-links",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-biosynthetic-withdrawals"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Match each cycle intermediate to its biosynthetic role.",
+      "explanation": {
+        "en": "Oxaloacetate and α-ketoglutarate provide aspartate and glutamate by transamination; succinyl-CoA contributes to porphyrin/heme synthesis.",
+        "ar": "يوفّر oxaloacetate وα-ketoglutarate جزيئَي aspartate وglutamate عبر Transamination، بينما يساهم succinyl-CoA في تكوين porphyrin وheme."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p29 prose and arrows map OAA/aspartate, αKG/glutamate and succinyl-CoA/heme. Unique mappings within the selected three-pair set; no exclusive whole-organism claims. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Oxaloacetate",
+          "right": "Aspartate precursor by transamination",
+          "evidence": "The prose pairs OAA with aspartate."
+        },
+        {
+          "id": "p2",
+          "left": "α-Ketoglutarate",
+          "right": "Glutamate precursor by transamination",
+          "evidence": "The prose pairs α-ketoglutarate with glutamate."
+        },
+        {
+          "id": "p3",
+          "left": "Succinyl-CoA",
+          "right": "Precursor for the porphyrin ring of heme",
+          "evidence": "The prose assigns this role to succinyl-CoA."
+        }
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-citrate-diagram-effectors",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-regulation-diagram"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Which regulatory pair correctly describes citrate synthase?",
+      "explanation": {
+        "en": "ADP activates citrate synthase; citrate, ATP, NADH and succinyl-CoA inhibit it.",
+        "ar": "ينشّط ADP إنزيم Citrate synthase، بينما تثبّطه citrate وATP وNADH وsuccinyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p31 gives ADP activation and citrate inhibition of citrate synthase, with ATP/NADH/succinyl-CoA inhibitory. All paired directions checked; feedback rewritten as direct science. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "ADP activates; NADH activates.",
+          "evidence": "NADH is shown as an inhibitor."
+        },
+        {
+          "id": "o2",
+          "text": "Citrate activates; ADP inhibits.",
+          "evidence": "This reverses the two diagram relationships."
+        },
+        {
+          "id": "o4",
+          "text": "ATP activates; citrate inhibits.",
+          "evidence": "ATP is shown as an inhibitor, not activator."
+        },
+        {
+          "id": "o1",
+          "text": "ADP activates; citrate inhibits.",
+          "evidence": "Both directions are printed in the separate pathway diagram."
+        },
+        {
+          "id": "o5",
+          "text": "Succinyl-CoA activates; ADP inhibits.",
+          "evidence": "Succinyl-CoA inhibits and ADP activates in the diagram."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-alpha-ketoglutarate-regulation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-cycle-regulation-diagram"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Which set correctly describes α-ketoglutarate dehydrogenase regulation?",
+      "explanation": {
+        "en": "Ca2+ activates α-ketoglutarate dehydrogenase; NADH and succinyl-CoA inhibit it.",
+        "ar": "ينشّط Ca2+ إنزيم α-Ketoglutarate dehydrogenase، بينما يثبّطه NADH وsuccinyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p31 assigns Ca activation and NADH/succinyl-CoA inhibition to αKG dehydrogenase. Each distractor flips a named sign; direct EN/AR explanation rechecked. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Ca2+ and NADH activate; succinyl-CoA inhibits.",
+          "evidence": "NADH is a diagrammed inhibitor."
+        },
+        {
+          "id": "o2",
+          "text": "NADH activates; Ca2+ and succinyl-CoA inhibit.",
+          "evidence": "NADH inhibits, while calcium activates."
+        },
+        {
+          "id": "o3",
+          "text": "Succinyl-CoA activates; Ca2+ and NADH inhibit.",
+          "evidence": "Succinyl-CoA inhibits, while calcium activates."
+        },
+        {
+          "id": "o1",
+          "text": "Ca2+ activates; NADH and succinyl-CoA inhibit.",
+          "evidence": "These are the diagram labels and directions."
+        },
+        {
+          "id": "o5",
+          "text": "Ca2+ and succinyl-CoA activate; NADH inhibits.",
+          "evidence": "Succinyl-CoA is a diagrammed inhibitor."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-exergonic-control",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-regulation-exergonic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "At what type of step does citric acid cycle regulation occur, and what affects flux?",
+      "explanation": {
+        "en": "Regulation occurs at strongly exergonic steps, and pathway flux responds to substrate and product concentrations.",
+        "ar": "يحدث التنظيم عند الخطوات Strongly exergonic، ويتأثر تدفّق المسار بتركيزات substrates وproducts."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Image p32 prose states strongly exergonic regulation and flux effects of substrates/products. Five paired alternatives distinguish both properties without numerical ΔG memorization. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Strongly exergonic steps; substrate and product concentrations affect flux.",
+          "evidence": "Both properties are explicitly taught in the prose."
+        },
+        {
+          "id": "o4",
+          "text": "Strongly exergonic steps; flux is independent of substrate and product concentrations.",
+          "evidence": "The source explicitly states substrate/product concentration effects."
+        },
+        {
+          "id": "o5",
+          "text": "Near-equilibrium steps; flux is independent of substrate and product concentrations.",
+          "evidence": "Both step classification and concentration independence contradict the source."
+        },
+        {
+          "id": "o3",
+          "text": "Near-equilibrium steps; substrate and product concentrations affect flux.",
+          "evidence": "The stated control points are strongly exergonic, not described as near-equilibrium steps."
+        },
+        {
+          "id": "o2",
+          "text": "Strongly endergonic steps; substrate and product concentrations affect flux.",
+          "evidence": "The source identifies strongly exergonic steps."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-anaplerotic-pyruvate-cost",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-anaplerotic-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which nucleotide conversion accompanies pyruvate carboxylase-mediated formation of oxaloacetate?",
+      "explanation": {
+        "en": "Pyruvate carboxylase-mediated oxaloacetate formation couples ATP conversion to ADP and Pi.",
+        "ar": "يقترن تكوين oxaloacetate بواسطة Pyruvate carboxylase بتحويل ATP إلى ADP وPi."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved Table16-2 p30 pairs ATP→ADP+Pi with pyruvate carboxylase OAA formation. No reversible claim used; distractors correspond to different table row nucleotide/redox pairs or reverse consumption. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "ADP + Pi to ATP",
+          "evidence": "This reverses the listed nucleotide consumption for OAA formation."
+        },
+        {
+          "id": "o1",
+          "text": "ATP to ADP + Pi",
+          "evidence": "The row lists pyruvate + HCO3− + ATP and OAA + ADP + Pi."
+        },
+        {
+          "id": "o4",
+          "text": "NAD(P)H to NAD(P)+",
+          "evidence": "This redox pair belongs to the malic-enzyme row."
+        },
+        {
+          "id": "o5",
+          "text": "GTP to GDP + Pi",
+          "evidence": "This is not the ATP-to-ADP+Pi combination in the pyruvate carboxylase row."
+        },
+        {
+          "id": "o3",
+          "text": "GDP to GTP",
+          "evidence": "This is the nucleotide pair in the PEP carboxykinase row."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-anaplerotic-pep-nucleotide",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-anaplerotic-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which enzyme catalyzes the reaction pairing phosphoenolpyruvate, CO2 and GDP with oxaloacetate and GTP?",
+      "explanation": {
+        "en": "PEP carboxykinase connects PEP + CO2 + GDP with oxaloacetate + GTP.",
+        "ar": "يربط PEP carboxykinase بين PEP وCO2 وGDP وبين oxaloacetate وGTP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved Table16-2 p30 explicitly pairs PEP/CO2/GDP with OAA/GTP under PEP carboxykinase. Reworded Which reaction to Which enzyme for grammatical agreement; no scored change. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Citrate synthase",
+          "evidence": "It combines OAA and acetyl-CoA rather than PEP/CO2/GDP."
+        },
+        {
+          "id": "o4",
+          "text": "Malic enzyme",
+          "evidence": "Its row links pyruvate/malate with NAD(P)H/NAD(P)+."
+        },
+        {
+          "id": "o1",
+          "text": "PEP carboxykinase",
+          "evidence": "This is the exact substrate/product set in Table16-2."
+        },
+        {
+          "id": "o3",
+          "text": "Pyruvate carboxylase",
+          "evidence": "Its row uses pyruvate and ATP rather than PEP and GDP."
+        },
+        {
+          "id": "o2",
+          "text": "PEP carboxylase",
+          "evidence": "Its row uses HCO3− and releases Pi, without GDP/GTP."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-anaplerotic-pep-carboxylase",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-anaplerotic-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which substrate/product combination belongs to PEP carboxylase?",
+      "explanation": {
+        "en": "PEP carboxylase links PEP + HCO3− with oxaloacetate + Pi.",
+        "ar": "يربط PEP carboxylase بين PEP وHCO3− وبين oxaloacetate وPi."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved Table16-2 p30 pairs PEP/HCO3− with OAA/Pi for PEP carboxylase. Other options are different complete source reaction pairs; no reversibility inference. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "PEP + CO2 + GDP with oxaloacetate + GTP",
+          "evidence": "This belongs to PEP carboxykinase."
+        },
+        {
+          "id": "o1",
+          "text": "PEP + HCO3− with oxaloacetate + Pi",
+          "evidence": "This is the PEP carboxylase row."
+        },
+        {
+          "id": "o5",
+          "text": "Acetyl-CoA + oxaloacetate with citrate + CoA-SH",
+          "evidence": "This describes citrate synthase, not PEP carboxylase."
+        },
+        {
+          "id": "o3",
+          "text": "Pyruvate + HCO3− + ATP with oxaloacetate + ADP + Pi",
+          "evidence": "This belongs to pyruvate carboxylase."
+        },
+        {
+          "id": "o4",
+          "text": "Pyruvate + HCO3− + NAD(P)H with malate + NAD(P)+",
+          "evidence": "This belongs to malic enzyme."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-anaplerotic-malic-enzyme",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-anaplerotic-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which anaplerotic enzyme links pyruvate with malate using the NAD(P)H/NAD(P)+ redox pair?",
+      "explanation": {
+        "en": "Malic enzyme links pyruvate and malate with NAD(P)H/NAD(P)+.",
+        "ar": "يربط Malic enzyme بين pyruvate وmalate باستخدام الزوج NAD(P)H/NAD(P)+."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved Table16-2 p30 links pyruvate/malate and NAD(P)H/NAD(P)+ to malic enzyme. Other anaplerotic rows differ; fumarase hydration contrast checked on p25. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "PEP carboxykinase",
+          "evidence": "This uses PEP/CO2/GDP and yields OAA/GTP."
+        },
+        {
+          "id": "o1",
+          "text": "Malic enzyme",
+          "evidence": "The row lists pyruvate + HCO3− + NAD(P)H and malate + NAD(P)+."
+        },
+        {
+          "id": "o2",
+          "text": "Pyruvate carboxylase",
+          "evidence": "This uses ATP and yields OAA in its listed row."
+        },
+        {
+          "id": "o5",
+          "text": "Fumarase",
+          "evidence": "Fumarase hydrates fumarate to malate without the listed pyruvate/redox-pair combination."
+        },
+        {
+          "id": "o4",
+          "text": "PEP carboxylase",
+          "evidence": "This uses PEP/HCO3− and yields OAA/Pi."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-regulatory-energy-ratios",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-regulatory-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Which change activates isocitrate dehydrogenase?",
+      "explanation": {
+        "en": "A low ATP/ADP ratio activates isocitrate dehydrogenase; high ATP/ADP and high NADH/NAD+ inhibit it.",
+        "ar": "تنشّط نسبة ATP/ADP المنخفضة إنزيم Isocitrate dehydrogenase، بينما تثبّطه النسب المرتفعة ATP/ADP وNADH/NAD+."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved regulation table p32 puts low ATP/ADP under activation and high ATP/ADP/NADH:NAD+ under inhibition. Calcium-loss distractor checked against calcium activation; directions preserved in Arabic. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Replacement of low ATP/ADP by high NADH/NAD+",
+          "evidence": "This replaces an activation condition with an inhibition condition."
+        },
+        {
+          "id": "o2",
+          "text": "An increase in ATP/ADP",
+          "evidence": "The inhibition cell explicitly shows ↑ATP/ADP."
+        },
+        {
+          "id": "o1",
+          "text": "A decrease in ATP/ADP",
+          "evidence": "The activation cell explicitly shows ↓ATP/ADP."
+        },
+        {
+          "id": "o4",
+          "text": "A decrease in Ca2+ activation signaling",
+          "evidence": "Calcium is a listed activator, so losing it is not the listed activating change."
+        },
+        {
+          "id": "o3",
+          "text": "An increase in NADH/NAD+",
+          "evidence": "The inhibition cell explicitly shows ↑NADH/NAD+."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-regulatory-gain-nadh",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-regulatory-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "How does an increased NADH/NAD+ ratio affect citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase?",
+      "explanation": {
+        "en": "An increased NADH/NAD+ ratio inhibits citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase.",
+        "ar": "تثبّط زيادة نسبة NADH/NAD+ إنزيمات Citrate synthase وIsocitrate dehydrogenase وα-Ketoglutarate dehydrogenase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved p32 table lists increased NADH/NAD+ as inhibitory in all three enzyme rows. All mixed-direction alternatives checked individually; direct explanation retains the shared effect. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Activation of citrate synthase with inhibition of the two dehydrogenases",
+          "evidence": "Citrate synthase is also inhibited."
+        },
+        {
+          "id": "o5",
+          "text": "Activation of isocitrate dehydrogenase with inhibition of the other two",
+          "evidence": "Isocitrate dehydrogenase is also inhibited."
+        },
+        {
+          "id": "o1",
+          "text": "Inhibition of citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase",
+          "evidence": "The increased ratio appears in all three inhibition cells."
+        },
+        {
+          "id": "o2",
+          "text": "Activation of all three enzymes",
+          "evidence": "This reverses the shared effect."
+        },
+        {
+          "id": "o4",
+          "text": "Inhibition of citrate synthase with activation of the two dehydrogenases",
+          "evidence": "Both dehydrogenases are inhibited."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh-alpha-ketoglutarate-gtp",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "conceptIds": [
+        "citric-acid-cycle-and-pdh-regulatory-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "citric-acid-cycle-and-pdh",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Which pair inhibits α-ketoglutarate dehydrogenase?",
+      "explanation": {
+        "en": "α-Ketoglutarate dehydrogenase is inhibited by GTP and succinyl-CoA, as well as high NADH/NAD+ and ATP/ADP ratios.",
+        "ar": "تثبّط GTP وsuccinyl-CoA إنزيم α-Ketoglutarate dehydrogenase، وكذلك النسب المرتفعة NADH/NAD+ وATP/ADP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_citric",
+        "peerReviewNotes": "Approved p32 αKG-dehydrogenase row lists GTP/succinyl-CoA inhibition and Ca activation. Every wrong pair substitutes an activator/activation-related condition; EN/AR retain all directions. Checked by a fresh second Codex agent against actual page images; Antigravity and Claude review remain pending. This is not an independent reviewer from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "ADP and low ATP/ADP",
+          "evidence": "These are activation-related entries elsewhere rather than this inhibitor pair."
+        },
+        {
+          "id": "o3",
+          "text": "GTP and Ca2+",
+          "evidence": "Calcium is an activator, not an inhibitor."
+        },
+        {
+          "id": "o4",
+          "text": "Succinyl-CoA and Ca2+",
+          "evidence": "Calcium is an activator, not an inhibitor."
+        },
+        {
+          "id": "o2",
+          "text": "ADP and Ca2+",
+          "evidence": "ADP activates citrate synthase; calcium activates α-ketoglutarate dehydrogenase."
+        },
+        {
+          "id": "o1",
+          "text": "GTP and succinyl-CoA",
+          "evidence": "Both appear in that inhibition cell."
+        }
+      ],
+      "correctOptionId": "o1"
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerotic-reversibility",
+      "reason": "Blocked source claim citric-U001: pyruvate carboxylation is described/drawn reversible; doubtful reversibility is preserved and never scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-biosynthetic-map",
+      "reason": "Supporting image-only extended amino-acid/purine/pyrimidine branches remain faithfully available in the source. Core prose precursor relations are assessed; additional branch-name recall is deferred to keep emphasis on the taught central relationships."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerotic-table",
+      "reason": "The approved enzyme/reaction relationships are assessed. Tissue/organism distributions are preserved on source-linked reference cards, but distribution-only matching is deferred because broad groups overlap and the source does not establish exclusive tissue specificity."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-respiration-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 2, 3) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-pdh-dephosphorylation",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 23) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-thiamine-requirement",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 29) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-beriberi",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 30, 31) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-alpha-ketoglutarate-dehydrogenase",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 48) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-amphibolic-cycle",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 61) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerosis-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 64) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-pyruvate-carboxylase",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 65) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-cycle-regulation-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 66) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored."
+    }
+  ],
+  "reviewSummary": {
+    "reviewer": "second-codex-agent-check_citric",
+    "method": "Fresh second Codex agent; not an independent reviewer from another tool",
+    "inputCandidates": 78,
+    "accepted": 50,
+    "removed": 28,
+    "allInputIdsHaveFindings": true
+  }
+}

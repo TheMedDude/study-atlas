@@ -1,0 +1,3998 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-pathology",
+  "description": "Faithful full-page renders of unchanged authoritative lecture PDFs. Covers and administrative pages are included for exact PDF-page navigation.",
+  "pathBase": "sources/",
+  "format": "image/webp",
+  "lossless": true,
+  "renderScale": 2.0,
+  "renderDpi": 144.0,
+  "encoderQuality": null,
+  "renderEngine": "pypdfium2",
+  "imageEncoder": "Pillow 13.0.0",
+  "manifestSha256": "6e1eb2f462375382a839c918bdaed0cd4ba0aead35f56553ba42b938251bed83",
+  "manifestHashNormalization": "UTF-8 without BOM; LF newlines",
+  "totalPages": 390,
+  "totalBytes": 131487534,
+  "sourcePdfs": [
+    {
+      "lectureId": "ch1-part-01",
+      "path": "slides/1.CH 1 - Introduction to Pathology.pdf",
+      "sha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "pdfPages": 32,
+      "renderBytes": 7034502
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "path": "slides/2.CH 1 - Cell injury I causes and targets 4.pdf",
+      "sha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "pdfPages": 36,
+      "renderBytes": 8905000
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "path": "slides/3.CH 1 - Cell Injury II cellular adaptation.pdf",
+      "sha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "pdfPages": 33,
+      "renderBytes": 10277000
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "path": "slides/4.CH 1 - Cell Injury III Subcellular responses to injury.pdf",
+      "sha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "pdfPages": 15,
+      "renderBytes": 4552400
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "path": "slides/5.CH 1 - Cell Injury IV reversible vs irreversible.pdf",
+      "sha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "pdfPages": 30,
+      "renderBytes": 9687088
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "path": "slides/6.CH 1 - cell injury V Types of necrosis.pdf",
+      "sha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "pdfPages": 23,
+      "renderBytes": 11904420
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "path": "slides/7.CH 1 - cell injury VI Apoptosis.pdf",
+      "sha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "pdfPages": 23,
+      "renderBytes": 7437660
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "path": "slides/8.CH 1 - Cell Injury VII Intracellular accumulation and Pathologic Calcification.pdf",
+      "sha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "pdfPages": 36,
+      "renderBytes": 20993958
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "path": "slides/CH 2 - Inflammation I.pdf",
+      "sha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "pdfPages": 51,
+      "renderBytes": 12122656
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "path": "slides/CH 2 - Inflammation II.pdf",
+      "sha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "pdfPages": 53,
+      "renderBytes": 13923824
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "path": "slides/CH 2 - Inflammation III.pdf",
+      "sha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "pdfPages": 58,
+      "renderBytes": 24649026
+    }
+  ],
+  "pages": [
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-01/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "598d14b4010eddce2dc77aead61b808fe5341a6cf3988799a5f415cb1f5ba11b",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 74354
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-01/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5cc2e7964664f61f040c7c619409ce17152e691d30d050a885eeaadafb2e8e53",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 93038
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-01/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b3a06409c74a542a10d02976b4c5ccfa6c1875379f8e5b785b9ff54a1d731b99",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 92300
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-01/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a2341289dd7ef276dedfd687d5750233692b0313dd6914f3747f56df377adf73",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 38772
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-01/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f35770d0408bd92d89414bcd346bae3c40958f126b2a610ffe9715e91ddf22c9",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 75282
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-01/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e42044e55d107476d82190107c035a7fdb8652cda1abe9b1bd045b49977d3670",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 70480
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-01/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c3cd1efe4359cc9df486aebda4900f4b7ce283a9da3b1ed5eb244b22195474b",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 60994
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-01/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eab0155906d978197eccc08d616886c8ddd02dd6d50f5bb6cd992c6fd478807e",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 73912
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-01/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eda919cc1d74a3d8a81572b845cd7497e22fbc78a38ea9ed5b3cf2b9a383e284",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 58242
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-01/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "221b752fd2d86f9f7c1e672fef3af9f7760fa7c9d7299372d64fa490225e3172",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 56420
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-01/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9766a0f7c2be93f1f6f9244f98006f916198b12bdf1b3e5911e285f3238c2dec",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 58626
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-01/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7f019c7763ef29165cfbb3eb796c2d66b00329dafb1bb84c0c86b37cb6f6a8a1",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 578242
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-01/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a0c35fd081dbe4ea2147851f3ffe548d8a6d2d7882d625f6e55900c5e8aa766d",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 1009400
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-01/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d3aa017f503f74f57416517ae7cf7b994c201031210ceb548ccdc4fb24430c27",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 58176
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-01/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8e2264324c4df28c54d048643c5df824d88dd887bb7c9a405856a0cc08e90989",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 257502
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-01/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d0614f799bfff5d009c540f876bdffb28ce2dba634094a2dc13f5eac1f525cc2",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 43952
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-01/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0db5e5d62b52b6756e258830b3d88a0c9ac7b222cee7a4cac72a7a1409d3c03f",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 76694
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-01/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "33d88081fc9573519efd5b378591733cc2b00e8ddd16e359b9a03c98f8780058",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 23654
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-01/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9c6ae1b1a443479ebe35280647b175826d369dda7869ac6b39f4562747830545",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 75608
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-01/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "281a9e8cfe65c34ea33aa78e89e25e4a856026d4e5de95b9e6a63ee77864de12",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 73772
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-01/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "15adfed4ed7c5e1ee408ea815a3c7027b122aacd4a229e68e0d13f3e5fa8808e",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 78212
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-01/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5512c18a38f648997ebee5cfc6dcd342199689fc26a427a59480fcc02de80207",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 646002
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-01/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "30757dd9af5ba6f5ec69e4df20e1e7001636a449394749c3297a6362e3b2a480",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 405430
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 24,
+      "path": "pages/ch1-part-01/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c90ae8a72d171efc93b3439bd7845b461537346e60479ab5ba0d323707308e32",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 456026
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 25,
+      "path": "pages/ch1-part-01/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "77bfda6cce9ff416ba51fbc7ff24666a5e13717ee8f679411c8ae84bbd2b35f8",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 300304
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 26,
+      "path": "pages/ch1-part-01/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c964c2b618cc6b3604321409c06f7d4e327e2129e531178cf501eff72057c603",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 232788
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 27,
+      "path": "pages/ch1-part-01/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2910a73d0ffe8ceec75d4bbad86d4ac7f60bce1c533c6e2478b5a8305f46df07",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 133180
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 28,
+      "path": "pages/ch1-part-01/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9789a3ceb910754c503a138c1921afd0b74bab3b6068f3f6b5677450cbc1e078",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 459664
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 29,
+      "path": "pages/ch1-part-01/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8fa88004193554e16bbada40a13dd9b2a2841fdc67e0bb8912c0e6b92b75475e",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 319608
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 30,
+      "path": "pages/ch1-part-01/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "97f7a8cab125178a2415fe54138a713ba80a86e73de9c391de6515ba7200f771",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 41368
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 31,
+      "path": "pages/ch1-part-01/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a90530c8fa5858ff30893443a0a2f0b15aa47d21ec7e38322de20fac9482eb9f",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 53854
+    },
+    {
+      "lectureId": "ch1-part-01",
+      "pdfPage": 32,
+      "path": "pages/ch1-part-01/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9ad438404ff03c11ff092d6063d53bb81e1a87417653f63faacdcb0358800bf3",
+      "sourceSha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "sizeBytes": 958646
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-02/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7dd60f7026cf4a9ef38a5b0b2b1f7220bd688a49afd2601b6a54b1ad5469e3a7",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 491718
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-02/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "11326bed124692bae46d7b22de56bb2d8c0276355ecb7af79550eafd8227ff54",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 42150
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-02/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "19cc84a5e33449024820a0364b0bcda6e5e75bfe479570f5af6e9e7e9a3585c4",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 80844
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-02/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46b7e237352042d3990e1b35fba8d1a8a9bff4528404e21fafbc66eddc7e4eac",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 245458
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-02/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "82de82f4644ab6abd63bf9769b5244706dd525a47c352afcf74def1bb30db20b",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 217036
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-02/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ef35bd4c3afe7a207e6fee38c4fb6a0d8087b8afa5252600f68e09a51792663f",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 223600
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-02/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff62402c20a4910d7168551a76720156afab73faa45708b8a2f1a47f78981ae0",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 154078
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-02/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c53ad277c46e0c9c12bdc5fd02bccb897b813a270400e99957e2afc994d4ee50",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 230470
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-02/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9924aad1bcfd1860e19ef56247be621eef9b3e1705c5a7a90a49bd3b752cdecb",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 354558
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-02/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1d1c4aa5978e5cbd45a43c3a6167123ea7e48e86986ee6b73ee9860db26e460a",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 136712
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-02/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "67ae2fd57019c31ee62a98a81e34bf53e25531d395259558129233fbe046c7f4",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 234996
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-02/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "67e45c369c4d0350bd99f3abb1c81259c639b3acc5f1f44b0ba2bf31827af580",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 219406
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-02/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1a34c8ee9cb7468b988e749915c83357a4a3186dca056622016422957c6a0f31",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 378694
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-02/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46b6176a9be61cf16b58221869879415ca0bd7f0e26ccd220b7f929b8ce52d74",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 125808
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-02/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eada212965050f358e2cd591174e3538a0b495d7d999e4f84c8b7c439087c090",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 58980
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-02/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "be6dff92947f58d100134864c92bf5338145d07c969678d153e28a11812b31a3",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 535024
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-02/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e51309355495ef3d20b386620be10699ee5145fed9857da87a9fd73062788cd6",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 199274
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-02/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a5f60fe5f9b4e406973d49e331e00273d8a43eb0a81c3ec1a96105ab2439bb8f",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 456986
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-02/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b72cc9ab1fae4c8d3fcd1daa3215ca0b0114e597689104bd5ee44ce3a96a931e",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 326908
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-02/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "da90432d9e0e7aa54b83c3024ff27b1b3121343074bf501229753fe44c22f0cc",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 49764
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-02/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e8d3cc3196dbfef506dc275cec47af65ee7fc36b5710319c7cab7383a47a345d",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 317266
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-02/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ff4a430b2c8e74c3c3c722bb9f4141872fd2be6be9b1541cfdf699e66b86c927",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 353934
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-02/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "42e57568ec50c5b8e84eb36eab2b59b5e5ad83f85889a3fe78de49944ee04edd",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 144546
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 24,
+      "path": "pages/ch1-part-02/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "94448037df707d7e6ed8e08e0841a1f421de07ab3064b7d5e1b51828b63500da",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 231998
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 25,
+      "path": "pages/ch1-part-02/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2eaa9d8d7aaada530c8b5ecb91a5f7bd6c5ffdfccf3061d8271840d54d0c88dd",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 369872
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 26,
+      "path": "pages/ch1-part-02/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "99e2c928c48610371c1cecc317e88d469b1c1cba4c33272aab4d3dd7bcef47d1",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 419034
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 27,
+      "path": "pages/ch1-part-02/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "144480f67da9fea6170c434fbfc54b8234705abb8a01b3f9bbbe61c943a7b3b6",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 140844
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 28,
+      "path": "pages/ch1-part-02/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f32158ef824885b9bee8ea7d2117dc2996445b232b4a5386651a9385cdc79d72",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 299510
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 29,
+      "path": "pages/ch1-part-02/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a22ba55e8ba64ef0e3e6526e127aeb144d205083a5f0d774d4ea797803d0e7d1",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 73556
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 30,
+      "path": "pages/ch1-part-02/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dcf84d5e71ccc7b8f35d7344a63866e2389c29577f5044144ba8d82ddff290ae",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 180850
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 31,
+      "path": "pages/ch1-part-02/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "512b3702189684d2ec5955b979eaa8b39f925707c6894811cd61190308a690df",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 520694
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 32,
+      "path": "pages/ch1-part-02/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d7e4f509f86969a57f6be8d6fac6e0ca381dc95b8c0df750895f89b018d8a423",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 179370
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 33,
+      "path": "pages/ch1-part-02/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fb67c6789ee88f71fa061b9456cb03ecf7da2cd4cadf9b4eab46fdd339c4e79a",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 341610
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 34,
+      "path": "pages/ch1-part-02/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "40de2d17872b8ccdc1a8b80f249473ea6b89f07daa400df7f2e5f3c7cc32c27c",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 104152
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 35,
+      "path": "pages/ch1-part-02/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4b67fc68e95e5ca8ab1790d6075ac9372beaf036bc76447ba10a6b9081264069",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 97288
+    },
+    {
+      "lectureId": "ch1-part-02",
+      "pdfPage": 36,
+      "path": "pages/ch1-part-02/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9eeb6796313a787813e9f6ca5c954e4a8900a4df4a157f578d094dfa8acc9430",
+      "sourceSha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "sizeBytes": 368012
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-03/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "af1c41aeaeb9edbea1cd1c1c036dc66be0d6c8df0d040945defd8112e23f8afb",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 505252
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-03/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8a2d3a73a6a2ade1db0bd46dc23012ccca1fb5f717ed8273260557b840fea128",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 40216
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-03/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6fd58d9a44e2a8c8dee7c9e6e8218218f0b9bf454b874c413c8e58d3605e3047",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 181912
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-03/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b880b40d373cfa08917092aff67aaf0dfbf7cef3da1f73dd35f550043a0b007",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 110348
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-03/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2420be28a91e0835b652b5cabe42cacc35c1036585457c9f2d5b17fb3e442b43",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 61662
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-03/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "effd10e58aa44058ba80a9ad813feb81009a0088c0e3430d6d221465fb545456",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 69242
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-03/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "099b343ddf5413c2c94534852247b7ff1f94c331397bbe68573aa9932dd8ba5d",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 377170
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-03/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f99a476a4ea07bfb2adbe782fabace9cbbecb21c57f7713508d252e190e26ff5",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 73718
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-03/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0f88f64e53fc5fdb8d7d7cc8025ec0fcbca2d2dcb8e2bbff10095f593f39c963",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 94944
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-03/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7de386991873ba140466054679c5672fda42a3a6be81145199f0391048c2aa10",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 516734
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-03/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9efe4e5a59e6ffe2d0b2b2e305ef13a52339ec3accddff42c29eaa84e2bac31c",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 455902
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-03/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1f173308af51617268141335ea6a3cab270097075e473e75e80509dcd95a358e",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 75576
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-03/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "53a43b6dd4aa5436b74518a3e470849af2cdc53e824e10aa8355517cc55ac36e",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 66704
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-03/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "33bd1676c154161ace5c271f15437ce2a4d6d1ed4035cc68a6228ff83505bb64",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 687614
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-03/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c1e656998c4e122a97d62478908c32ada79f43d2131c02c8545ce1f9a1d0bce1",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 71270
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-03/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "868fe6be1b33a835a7a468ffab0af20d591466023a959c7a70f978a8a0a7c1fa",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 757994
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-03/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "60020ed16680a97548a4d461c6beb4baa76781b8a2119b87a3ac58ea41125a83",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 607294
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-03/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b033b9a275c0defb3379089b5f9a57d04e9f7a575a9f5e747687672b3ee92b7c",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 101592
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-03/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1c778e007a232fdb4629cb99ae8830ae80cd5734404e83bc5d2ebd32fd89612b",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 95788
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-03/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1b3afb8f568ddf5d36588588f8a734aec02b0850aa7f9d389a0f691123e75c19",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 37956
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-03/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "989ebd7fbe8036356778ac8d19634618caf2053d737247a59ef2aaaebebdf6c7",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 601752
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-03/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "06cb1fd730187734c2a6ce2d1300199f094582bd04ec8bbfa936f09cfcef2e96",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 47424
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-03/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "035936b9eb623f3d30cdedac4d30aef7439e86c7414758f6254d9ac14f8fe676",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 838312
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 24,
+      "path": "pages/ch1-part-03/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d2d0448c30a20f2a5779b48aa1b851d99dcf06ba9c1bfc4474102001bd8ea8a0",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 71478
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 25,
+      "path": "pages/ch1-part-03/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "882ead6acb2c69de8b91205340cb70c5c00bba675dd4e0fc921facbf0dc19449",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 365400
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 26,
+      "path": "pages/ch1-part-03/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d29fecb97dcb0470d919242bf27a915e39a7da041ddce1c759cc6186b2cecd4a",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 114982
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 27,
+      "path": "pages/ch1-part-03/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6426643c3243e30763a9704cc6b59c8df5454a3d9cb28991d5ade69e96199e09",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 115654
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 28,
+      "path": "pages/ch1-part-03/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "001d898c9bf7866f4b33e1b1c7a5b0680b519e98ef493fcb150e969f368a1173",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 944526
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 29,
+      "path": "pages/ch1-part-03/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74ee4927230c0b22f0d2141442d8b1a9720512372504e4ebac608a8ab5e72bd0",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 135428
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 30,
+      "path": "pages/ch1-part-03/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a8e5282e8bc1c613642648db0b601a3f38cad9cf388f8c4b5f3f9d8a9a1973a4",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 997138
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 31,
+      "path": "pages/ch1-part-03/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "68fcf6a3e56113b42a63f8fde1853c60f6e3dd2022352a46dc75867c6d873c5f",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 700782
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 32,
+      "path": "pages/ch1-part-03/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b2f6ea2ea21325acb3295d11e2dd0d7b6fbafef3448fc98469cfbfd2172a4708",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 37680
+    },
+    {
+      "lectureId": "ch1-part-03",
+      "pdfPage": 33,
+      "path": "pages/ch1-part-03/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "866eae202b9846aa521efcfd48baf262a1c8c17ea52cd37e857949a4c74210d6",
+      "sourceSha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "sizeBytes": 317556
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-04/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "10a5ac7e1feaba4900e28b6b931f5ad5e426c502a65a886ed5b1ad5e159bb125",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 506676
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-04/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d30a62f0dc08604f44f3998075e4cb93285354865e9ca83b52f5767fe4a9d07d",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 50794
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-04/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d4242191a3524a53933ea6c955ad8a55917e2b2b4c2cc2ad4b192343c6312842",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 73802
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-04/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a34fb3bc3454d976902904b9259bdefa0b228a6e3eb94df968b92c48ed9bfde6",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 743704
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-04/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0784c533ed476a846dd813c23fbfded6608cb72ae5cc96385a679f4dbeed59e1",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 589052
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-04/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b0a6d16557cdeceee2257cc51abfccc5134690ea2fd4d8e40a2c5c2a2e17f7a",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 520864
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-04/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "24fba2cb7a110b704a9cffb17e001bb9b1512f8946acdaff3527ad5be39fdc43",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 868874
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-04/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f5a1f05b926e2e82e025f9ba1b0fbbf562799bdd9fd6f3f3e932f5a3c9410b77",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 82814
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-04/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d51a78a27cfeafccdd73450ed4c0ebf6ce3f0969b650028ce678e0a6fb53e25e",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 143162
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-04/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae07861f7cf6b1eec327ca7e9421fa06d60632d517c4ffab6c4951a898505df7",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 116502
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-04/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d85e1d7d74554758400acab4daebfe0e6d3e961d73dd812d08008032bde25811",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 70746
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-04/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "45b44a30b9e0ee06c171f0014e6fe8346e504943ad67ecb9ce70c64b3b6f0bba",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 86218
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-04/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bc4d51b6cb7ec9c85f3d36f37a3274cf599877d416b7d70f65d9bf86baa4fd65",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 97918
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-04/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b8bfa190eabf5e6ff3685d180555e2875403d4306f90f8bedc9c6bf4fcd2f374",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 94552
+    },
+    {
+      "lectureId": "ch1-part-04",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-04/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7d2472ba7136e969b52f417cfc0c2771901b8d9e0d31fa320b3daf37939be755",
+      "sourceSha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "sizeBytes": 506722
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-05/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "10d0ce1151ca058bba07f62b78974707f28fd1a72f6a99158314e647e9c3959e",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 553714
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-05/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e5f130deb34b663f0df28803066ab890784e056c0c6920e553fcba987e198ea7",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 380560
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-05/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "29db9e184876fa8be28c0ba9792084d25ec29851addff57a0a88edcc4bc74fd2",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 261794
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-05/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "74dfac998e6521b310d028ca6733a99946d510e986bdb07305965dbc4526c0a7",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 244662
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-05/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ebaede835f3d68dae10d11dc1ddd5db268eeb30cfac4ef85b21102ce1f12e6bd",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 749974
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-05/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "474869f27f1fe6c339d76f9015a955aa188f74be8ce04b8d36ac3250d2a5efee",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 260614
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-05/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "93ba271542ae497e4ad8db9acd74386f8665feb831d91b878669230dc91f648c",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 621936
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-05/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "45047833aec9125b0741d414102745105dd94a364f6dc486e044a2c9c8d86b6b",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 73866
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-05/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6c49d075dbb14019e2c95399c53cbfc9e33440ab54fa82103576c78cb90f3041",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 84866
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-05/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "075a1dfe1592606e0ee09de9408e3ed87f8bf7e889b1319f7fbe400d1a6fc6c3",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 27410
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-05/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "78a2176694390f50c1229979a43b7a1cdf4b05700126a2eea30d3e551b93ea9a",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 56522
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-05/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a22d146b0380f7cfe72bbe16b07a3d0688b2b097648a91d82229887469302270",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 56540
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-05/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "31a59f7ded8ab55976c5181339cba4169c412dc1cef417570c80d75738997b7e",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 743726
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-05/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1b70094744bd495669d68aea3801839e95e9b12cc0972635f3597a4822741c7b",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 39384
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-05/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0a5ecbe8a9c68db8c26fd35c69c02233d8a08fbfd3ec9fa2d021ca129241e1a2",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 1520036
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-05/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d81f7ebf28f425035cb540a5c0c95e58f69b7b304a1ccb4da0de0bdd88cf6085",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 90504
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-05/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b01d598f9174b34bde2868f7f70132de935c8289dc1254d7a664384a8a955a15",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 398098
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-05/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b133281f73fe22de3a95e4946a057df1ae9d693f9746e781fc67570249f3d763",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 74388
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-05/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae24b279b865ba080e7f7c61ab065f27b6b1e2423963ffe122b3fa05c6edba52",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 101746
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-05/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e8bec9601280028592f52d09e307cc74f8453b3532161df382fde6bc65dacee0",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 87466
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-05/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "59e929a158111ced976dc14db4525f1b680679e3cae8b67fb7c9c82e81dc083a",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 73824
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-05/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d648331f160afe64ef7942bf8f98c5e8276eb697b4e135a3d92a00f56994c33e",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 1076816
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-05/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cb18f33dab74e53c9bc694060bf59744a21df04af037b4166da0d8de62dd0100",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 95036
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 24,
+      "path": "pages/ch1-part-05/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d54aab7b9e05ab98cb63f69bd634fd0e498a9867524ee76fe2b400919ce7e637",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 113670
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 25,
+      "path": "pages/ch1-part-05/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6fcb163dc1fec6006f44b9c68afeeeb38d0feb222d8564641127616df2117317",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 80594
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 26,
+      "path": "pages/ch1-part-05/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b9fc8552dc00b1a7c42bbb240264fc1a780558987eca8af0fa4b6da36b5fa9a9",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 319826
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 27,
+      "path": "pages/ch1-part-05/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fa3ab810452626130c756c56f1cd8e62e87ca9344fde9dcc6a5a91f57076c80a",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 336840
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 28,
+      "path": "pages/ch1-part-05/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c08f4e30b435980786b02b7e8f57c4399493a6058517a8775c8697fc135d250d",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 722160
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 29,
+      "path": "pages/ch1-part-05/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2594d759d9947a8f1891de48e35db80e027fca79b204bbce22280ecefc2a629b",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 177430
+    },
+    {
+      "lectureId": "ch1-part-05",
+      "pdfPage": 30,
+      "path": "pages/ch1-part-05/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "001532d64609e1ff109bb606af78b5e474091d572c2211da1435e7d4e5c2e118",
+      "sourceSha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "sizeBytes": 263086
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-06/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ded6435ed8f656539aa9678b56617ea9f7c043db77816434558a0da04a5bedcd",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 548206
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-06/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cd07dcdf453d742913abc5c1c51d353c35fdb12b8f2d8eac9f24fc5985d33b11",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 84880
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-06/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b0265ffd7b1f6273bee8732a27a95bd44e5b28054f0091e9eb243da273adc80",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 103192
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-06/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a3378b19a8ab3fdfc4e1d7b4e87d3f938ac57dc2261b6c9828a74e11783bdd30",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 395402
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-06/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "122d19a00128d33970c6fa242be560eb6cd51d88071b73c4a611277044a1d8fb",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 509626
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-06/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3985fec068c7132cc35be30064bfb34f272a97d219840c50eb6a43e58b8cedbe",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 1031990
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-06/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ba1437499362754944fce252161c1f7fa9a31c8ef475fc8c83a648ea468d7112",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 1764364
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-06/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "957f6b80de5211244f0bf3cfb7786e0d7f639b4ea6800dfb05ddcf6555c82835",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 412366
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-06/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e9ea1ca638c6169bd8759b162736f93959bce9d8759117932cc4e56bff2a4768",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 597364
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-06/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8162456131f9dac7814be92b6fcf4bc42ead297883485f221d2c8a482fcdda1d",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 299988
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-06/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "628157307f575b080e2eabe831a5b916edb5bd1e53160788763eb9c93f2e0770",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 110406
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-06/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f1689dc8d7ce9aff6243dfbeb7ae29dab5f9c850841fea33d696ed8c9cfc676b",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 611896
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-06/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1fa7084accd010496cb7f73f711c9af1237ca5d31772207a080c905eee23515d",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 749128
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-06/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3dfdfa931f5f3d0deb23de11b60a73dd777681a46837c2b3d1768768af261c79",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 55130
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-06/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "2a267bd245d6412cbaa324545ece7df3830ae47caf4cf35361f586b66507707a",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 1027100
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-06/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6268f00616e2457742577cb350b0cbe659bbb97129adf0d836a91a64bdaf4944",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 707920
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-06/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "845c1658bab25024bfeea146a1a4f114b9c63843d3bf23b74e1dcfd15dd7d1ea",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 69050
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-06/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b8ca9c956a25e5104a455d41b11f17330ab39c9b00b1de8454dfc3ea83340220",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 925898
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-06/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dc5286bdde12a77e83864690ff9a0320abab1f734c514e37a4bd54388793bc47",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 67494
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-06/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "28ea809bb1a02eab89c94f1e0818eb67bf63a87fc1892c4a19abf8174b84a7ff",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 660944
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-06/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b04fe709718804b9f94ea46b4463ab2fe8c7977283eb76435fe0509d3b3d9751",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 51342
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-06/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9ad88e6a1cd93cb634883a10f0f5230251fade1ec4588d37bcef744ef9e02a09",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 893910
+    },
+    {
+      "lectureId": "ch1-part-06",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-06/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b1dd883681554e9fc59d52ec6f7131da421b7e4994827f9523582e14ab18e9c5",
+      "sourceSha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "sizeBytes": 226824
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-07/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d2d54399a46df6a84024a4e70b04db371232a6bb71b51e421dcc10168012d1d6",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 441160
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-07/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5759c8a3cb7832cda6968af533c632336200be1c2ee934ed66f1156fc78019fe",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 116222
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-07/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c401bdf85ac747392f64def860e5ecab2d8ac7598835f9c20ca7f45aae3a7e78",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 87348
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-07/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "51ae436fa6973c27adc3670eb4c1d81f91a3cb675fbe9d8f299445eddac64b5e",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 183016
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-07/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ae3d94b09d34acb964bb8cfc19279745d6d6c158fba6b0ede96a20205d7cdd06",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 57936
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-07/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c6a16645c6337e69aa16daf2483881da2e1482ee3615a8b311388b0e57c84048",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 91026
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-07/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1a640c63d0b8b1e4c8954ef397a7741c09378801f335f88c34945d9b3997a04",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 111740
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-07/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1cb4d6e180f2f7d89d7a77eaca660dc649baef3af4c18fb04641b038d4498570",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 114748
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-07/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dec1f6f92306d33035aa508f652a94d624e6ecc26e0a7d7ad3f2b66bec4c39c7",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 638002
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-07/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7b9ab992cbf1334d312e740ec25d6fdd1c63cb5a9c6cb08421d41ea5df39087e",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 101904
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-07/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "47dfea40731f582f4b53fffeced9a9280ca983d3c5aa26190c51a2b47f428aa5",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 1030136
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-07/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46f533b589a9cb39988d8bb7ee1f9b1757091822c033a5d348f4abc9b91bb67a",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 106392
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-07/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c3afed32a914becb9d4986195f85b01be0253bc557ebcffd573864b44748dcd1",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 344124
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-07/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "75b4ff58a6e325bdb9f61381eb9f0aa43d9ec954539476952af4e98a4c254eb4",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 700970
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-07/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d37fde2f43d5239e1eae96f06dbea1cfd0fa5a6d52fec389681b3fb721f95e68",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 493924
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-07/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d3e2860a6c8e2c41e5bc4a877bd7b3eaa92c2fe6b6be159d979634e89877fea8",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 459282
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-07/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1dc8627ae61042ff8f31f94894d81ed7cc30c1e74c209640e98106e7792ac75",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 87742
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-07/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bfd16c0439868f91a2580022c8b4376a84b97bdb3f9036f01234f434c2252ac7",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 409598
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-07/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e16d388a433e0e78d5add53774f7d46759e832c254a7216105e429e67ac23f25",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 419986
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-07/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0fc7a22279d41934f4e2b427c7232092a8babd9d956fa1f2871816bdf5417a9a",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 655476
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-07/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8b85834b822461c8d538107b71e113a496d9676c5a79f32eec7d81eb4eca95ed",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 215916
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-07/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c88991b4fa955f0646e479ea642f638da3c5069d3970fd921cbc852444a6d0de",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 125208
+    },
+    {
+      "lectureId": "ch1-part-07",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-07/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "abd395b00d298690e14d09b61df77ac9ca692f30a4c22316516876e020155579",
+      "sourceSha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "sizeBytes": 445804
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 1,
+      "path": "pages/ch1-part-08/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f6e8a2d5ff050d708266d9cbb40c61a70bc902c80e59ccc8e8fa1f52519cc229",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 526966
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 2,
+      "path": "pages/ch1-part-08/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "12134883d24d0c8ba27288b20b3cef791d6e6a70680bfd6512dadf69bb7dce08",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 88882
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 3,
+      "path": "pages/ch1-part-08/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "468051ddcd5e1cc697f4da0934ed185f30e9972700e3c7577e489446277c15c4",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 716366
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 4,
+      "path": "pages/ch1-part-08/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3cb9d4513bc0a0a4ab0ca10032f8c4110124fde1037b2387aa2c82ad41bc6a09",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 114902
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 5,
+      "path": "pages/ch1-part-08/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d44b6ad7faf5797222c365de52da9df321066dab8d5bde51a4d03773fd7ee608",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 644020
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 6,
+      "path": "pages/ch1-part-08/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "af3afc6d3334abe4296ef00eb7912e66de26c98d8fe44c2fbc56fac9c9f5b4d1",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 593910
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 7,
+      "path": "pages/ch1-part-08/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "86706b59e75a5fc04e958be7ba016d8f183c78e376d36ec037dcf6cee4906875",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 82982
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 8,
+      "path": "pages/ch1-part-08/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fbee63f003fadfcba9396ee4ea98a8371c9f7dac1c195be7f36a5b570fb14898",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 90982
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 9,
+      "path": "pages/ch1-part-08/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0177369f7007d467eb3546043563f4764d5f877703eea1992afa90366732e6c9",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 83450
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 10,
+      "path": "pages/ch1-part-08/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "409969c51552ea1109a67a662b8530f3a420d40b7c7af1ab4e418b25289775ea",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 32144
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 11,
+      "path": "pages/ch1-part-08/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "29436edd650e78e142e9adabcb66f210db7bc844df73ec6278fb401c877b27b0",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 1299742
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 12,
+      "path": "pages/ch1-part-08/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a9c9811835524fac911a07ed9cf6eb2d53911f6b063deb64f76d5123c7055f5a",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 719374
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 13,
+      "path": "pages/ch1-part-08/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df7be6791837a09516a90893cb5e72bc64cef381e4d701ae00c14f9f5a9588a8",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 904164
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 14,
+      "path": "pages/ch1-part-08/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4ed5565b17740a6a28ba7bcd08429f779d294eb85d50bdac88aa0c5740594faa",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 1364164
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 15,
+      "path": "pages/ch1-part-08/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5cece1c5d0e04411ef0c50043f8bc5ade95ff0b1a562543bec64bf24a74c38e4",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 401286
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 16,
+      "path": "pages/ch1-part-08/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "faaa38b8c337f73deec90d04701db128e05d4d2b20222786b9865138b3208b6a",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 356198
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 17,
+      "path": "pages/ch1-part-08/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d74a44e53aae4fc34185667c125a2cbbef980d70b0ea6ef780603b95ad4b897e",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 78112
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 18,
+      "path": "pages/ch1-part-08/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "930d9d19a0c8f2c0cbb73639c8767465bd29884df02a92315775027667ea37e7",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 92268
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 19,
+      "path": "pages/ch1-part-08/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "48eb6b4bfbe65331aa271857139769e43caeae780c467eeb604e72266006478c",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 713334
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 20,
+      "path": "pages/ch1-part-08/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "605670acba7a7489b8f6e545601288ed4a5760d0f9eb1073c1848476845efda7",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 331326
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 21,
+      "path": "pages/ch1-part-08/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "043c47496fedb718535388bb4856629bc99cc4944accba2c0540a4f01c3d9404",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 85504
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 22,
+      "path": "pages/ch1-part-08/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "280f087b72df7ea62434b205882998af2a7364817c01364369f249537e4813fa",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 87816
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 23,
+      "path": "pages/ch1-part-08/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "40c936ea6ef458bb314c40c517c884a9e819317c43f9c774198768177dadd37c",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 843742
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 24,
+      "path": "pages/ch1-part-08/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "db539155b0112dd485ca8349e2f2735b0f61026d5ac21d122b3153ae74794a4a",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 2205648
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 25,
+      "path": "pages/ch1-part-08/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1e106606d3f0450db5ff37f84de5da3f2cfc14b04a327eb392f5a06233b8d97",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 94654
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 26,
+      "path": "pages/ch1-part-08/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "35e43ac9ea5666c5e61327b3fc8d3ed801c77d5acc4ea9743bdca5d994a354c7",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 918228
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 27,
+      "path": "pages/ch1-part-08/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5efdbead238e861fd3deeb1c9505193669302dab409ccf9f5fbc33dede067c1c",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 271342
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 28,
+      "path": "pages/ch1-part-08/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "652e899adc0496251bb5b9895de1c36ccc4d430996611634089e5d8b8a7d1f36",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 1173878
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 29,
+      "path": "pages/ch1-part-08/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "797174b4ab9f21c5ea8e09475329cc50adcfd3a62f987ff344b5ec3788251dc1",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 603230
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 30,
+      "path": "pages/ch1-part-08/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "14ed06bad402cb1d673fae6b7f43f525a132550ae05976bf2fa1092be4e575af",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 2171950
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 31,
+      "path": "pages/ch1-part-08/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8be91a57ba903f61fced91012c94c89e35dde0dd7902a131c84414336fcd6ff4",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 90678
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 32,
+      "path": "pages/ch1-part-08/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a20c017e72dc3f2dc3d699c2854c67cefcaec5e1d872d341540e365356cbed5b",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 105820
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 33,
+      "path": "pages/ch1-part-08/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3e19b0cc9da141bf1089c7114c1704fed02ea7e3dfca3426c65d68bf2b2a9127",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 1936716
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 34,
+      "path": "pages/ch1-part-08/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "53baa77a843afba0dd193c923eb7113d5d0f13ef126f5e2a933dcd682c442a46",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 92876
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 35,
+      "path": "pages/ch1-part-08/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "664c5c46ab4d646597b8d823ffc74adc3f8a0c9310ec42eed31fe5c4165921b6",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 512024
+    },
+    {
+      "lectureId": "ch1-part-08",
+      "pdfPage": 36,
+      "path": "pages/ch1-part-08/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "40b657900523bd9bb3c3bb1cff2196ba57a0d668be644efed39f73b25363284c",
+      "sourceSha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "sizeBytes": 565280
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 1,
+      "path": "pages/ch2-part-01/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e54c67aade432c9e743fab5878ea9d0e919181ccbbf9959c383c1ffcada9cfe6",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 85726
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 2,
+      "path": "pages/ch2-part-01/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ad220796646ca0c5cf5366125185a7fb5fe30b65909299d4c641067bf93f4626",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 40656
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 3,
+      "path": "pages/ch2-part-01/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "26a76dc1924db8dd2f215adcd9fae69e2f5a07e4be1453035c4be1a829d7a91a",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 75720
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 4,
+      "path": "pages/ch2-part-01/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5ae2bdf219715ea098f34ce165083868cfc3c974a6b5033d2a5c20eeede04e7b",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 37354
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 5,
+      "path": "pages/ch2-part-01/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4f754233e513b2c628e21caf95fa642a21d17ee42be56fd82030f485638c160a",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 75124
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 6,
+      "path": "pages/ch2-part-01/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "58976d9dd7e5090589b277af19d682c29a04efe6a7c5afee1ecec8fc5ae6367e",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 87580
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 7,
+      "path": "pages/ch2-part-01/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "88e9c7187d3b449356d599bfbe661bbef08f4aa5b8431f3bb6b85b8dc63a0288",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 800356
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 8,
+      "path": "pages/ch2-part-01/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dc7d5005d84e919de519d15aca7275abec243c8c51564476fc622895f06dd79c",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 59692
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 9,
+      "path": "pages/ch2-part-01/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cd6dc79a1132d011d680ac5f31ea4b8e06177dd9ac9193bf8862828935e413d3",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 40726
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 10,
+      "path": "pages/ch2-part-01/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "13f588683c77aa07ec81a5883382b2fa809f7702f854e0462eaca55272d04363",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 69666
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 11,
+      "path": "pages/ch2-part-01/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "82d38e07b9807da2d575aae9831ce506bbd64a5df2d86cb184e5ea6c70978914",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 682168
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 12,
+      "path": "pages/ch2-part-01/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "921cdc4db0b62ba508d8a024fba34b4b0a1b40b9b6436df711b440e04ad9e31f",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 60368
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 13,
+      "path": "pages/ch2-part-01/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e5e5be287e1dc7ab8b1749c3d08428b7508be20e9b7d7f484489f315d8463432",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 537042
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 14,
+      "path": "pages/ch2-part-01/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "68c794658ec226e691e748e623eb8d6360aa8736873ae967a0d2f1d524f92af4",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 456704
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 15,
+      "path": "pages/ch2-part-01/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "02744c15e9febb47de8c26539c6ccfaed520c5a6e08906ad4d39a01d9b68c834",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 83302
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 16,
+      "path": "pages/ch2-part-01/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e10d0ce710dff4ae39e46a44e20ebd2141f5f5ff0c08d77047037c14e04f4e44",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 22786
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 17,
+      "path": "pages/ch2-part-01/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "422f81ec39afe7410d57eac81507860e0ebda58474a75329a43006deaf1e63a4",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 57708
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 18,
+      "path": "pages/ch2-part-01/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "89a8dbab81e75fc233980a883d26a83de23b9546884fcdf6b956a78e8cb81457",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 106116
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 19,
+      "path": "pages/ch2-part-01/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c4311a509a2139551263e0f6e030688e437633fb3975336ecec82d4bf3510ba5",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 353964
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 20,
+      "path": "pages/ch2-part-01/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d74c5a6956974305f4d5c410974d393768eb892d76b47984654559df0d5256c5",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 85548
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 21,
+      "path": "pages/ch2-part-01/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "45cafbabc3bccbd77ebbc02c43ad4756e3337460d93db29337c9b0566bab4151",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 53832
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 22,
+      "path": "pages/ch2-part-01/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f72ee27270b9125fe2adb22197eed5c716b08b592d788ad030ae22a238d5bc1e",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 258014
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 23,
+      "path": "pages/ch2-part-01/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "50c23e29061b4915e00b7016fac45e2d2c4b0b21c7e108f9e4e067d7490e089c",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 427072
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 24,
+      "path": "pages/ch2-part-01/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "60c95e3db3b159424131f47b7f3ed636deed56574acdbbe8a51b41d9a6caa1b6",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 217698
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 25,
+      "path": "pages/ch2-part-01/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a1aba8958418a16ccc4cee589058b7abb69549af3ed46ac46337624bee9fe889",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 255394
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 26,
+      "path": "pages/ch2-part-01/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9d38da00146f35350609d30c97bf038c507718ea2dd93dd161df826df35a1f7c",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 238160
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 27,
+      "path": "pages/ch2-part-01/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "61ff6f8fe09ca1c54046c34decd856f45f2d3c97d50b991666b11eb15fce559c",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 223004
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 28,
+      "path": "pages/ch2-part-01/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7b72a4678c2813e867839fd6a5cacb5a355ffcc903a1e8102014be1709ee7884",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 78210
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 29,
+      "path": "pages/ch2-part-01/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3fe1224424dc364fcebf7c2b1815ccb5c267bb19424e13c4e330f25a745e26ba",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 89290
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 30,
+      "path": "pages/ch2-part-01/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "82372849621c65dfc7808d01ee2630d1a49b143d2b8d0af584636932b40e02a8",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 69526
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 31,
+      "path": "pages/ch2-part-01/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0e560e16b79ab9197546fd036b6ea7b8dd2bb311a2996ae259cf1e2771f4bc6c",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 51790
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 32,
+      "path": "pages/ch2-part-01/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ee0e1709081410fbd573c65ed3ac63c25670dcc393f91d9ee5befa5379831c91",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 532740
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 33,
+      "path": "pages/ch2-part-01/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "652df48dc8bccae10152e86f32b315ca439ebae044b0ce91f64f38d3c687a846",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 379924
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 34,
+      "path": "pages/ch2-part-01/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c90f680e7cba1742480f8a6598b07ccc07a6cab86eea65f9ec0c303714e337d3",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 303424
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 35,
+      "path": "pages/ch2-part-01/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7b4fd1273ae487aae5843729ceac3a8b3e1152a434ac218032c1755773163b48",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 76354
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 36,
+      "path": "pages/ch2-part-01/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "779d17785678822bf748fc7412207b7ba22d4ffae4afa5bd86ec07555a69f288",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 320612
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 37,
+      "path": "pages/ch2-part-01/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c41ad7fee6e4ec49036af10d2ed67224dc2b47af74861d2cfcb151c859a3aaee",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 73696
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 38,
+      "path": "pages/ch2-part-01/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "cba6e433fe2a3fb4f6e8bae18f63d2c3cd3d410c0854673398d6451e6619c434",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 370402
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 39,
+      "path": "pages/ch2-part-01/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1485902925b98b8a89256e135a4a7f3281cd0c4d2cb52a8994dfea58fad73fac",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 93176
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 40,
+      "path": "pages/ch2-part-01/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "91bfeb5079f1a1b7ed2da4a1f572460b6fde7aabf726489a220bf159b6a6f0d3",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 321840
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 41,
+      "path": "pages/ch2-part-01/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c10337f0c49beee455a5ae6cd6533d8ad52b177923c63b0415f6f5ce7709b968",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 61102
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 42,
+      "path": "pages/ch2-part-01/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "48d2700e9855cd1916291a0187ab1abdb8d2e1e0a359894b9038f8670010d384",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 53602
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 43,
+      "path": "pages/ch2-part-01/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f07f70776ad4cb8a40bf0c75ea96c4683859d49f8129420f2934c265004614fd",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 750188
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 44,
+      "path": "pages/ch2-part-01/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c53f5da54186f5982e3f61d1fe5c0f6aed3f835a19ef8df05381371ac7c4e647",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 1386378
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 45,
+      "path": "pages/ch2-part-01/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b2d366c4b1399c48a33232e221a7fdef7e503805fea49c73afce3d4a5fdd5571",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 44338
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 46,
+      "path": "pages/ch2-part-01/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "23eb1beaa79e374ad663ac661c30a6a8cb5a6f81aeebb63237b3d67791c606a3",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 469898
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 47,
+      "path": "pages/ch2-part-01/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "caca2766503eea286da6c03b7657909caa06ea805b903886f3c9d547acf3f87a",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 300262
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 48,
+      "path": "pages/ch2-part-01/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "414f9578cf7c1b3654cfc1c3402c059ce08174a804baf9c418b29337a9c4627d",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 375572
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 49,
+      "path": "pages/ch2-part-01/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "34e9144307dd0336cfe213a32a75487b807e5cf7ae5f99dbb65c69109ffc1836",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 316472
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 50,
+      "path": "pages/ch2-part-01/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4998bd23249597b90f59ce52d767306420c9f311578e95198634b20876b05557",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 64414
+    },
+    {
+      "lectureId": "ch2-part-01",
+      "pdfPage": 51,
+      "path": "pages/ch2-part-01/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "bb501c679b9d374f9f23e8f5084b9ea984cb51a0448e442cda192a1a0f5c217a",
+      "sourceSha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "sizeBytes": 47966
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 1,
+      "path": "pages/ch2-part-02/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "df060b94ec487cc027de6a8c5f90ef53775837f03c3317732d122ddd3705eb2c",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 85632
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 2,
+      "path": "pages/ch2-part-02/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "66f482408eeceadd88fd99144a24b7869ce178be164f287a67c94d8b8bbba2dd",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 72012
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 3,
+      "path": "pages/ch2-part-02/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6ba30c3b348c7d840cf38bdecfd17af8002b55ebe96c1ce2b3a1a196fdedf03c",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 460562
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 4,
+      "path": "pages/ch2-part-02/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8f0c08a5d4812e66dbb8e2ed6e0f45a448147fa3ab4b36a08c52af3a2a429921",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 221676
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 5,
+      "path": "pages/ch2-part-02/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a6b58777cf469750f54fc4e3f6756ae58c671b75119d1dd069043e21f213cc99",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 67670
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 6,
+      "path": "pages/ch2-part-02/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "30abd7e5aaeab0c5568931ed8a367412c7850005e3d191fc09df7c95d8bc8154",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 62112
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 7,
+      "path": "pages/ch2-part-02/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "63d3c97620b093d4186cdf0e052c6ae0cb864ab23c7f7527ee1370adfc9979ed",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 79084
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 8,
+      "path": "pages/ch2-part-02/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "085b1bf95a59025a56ee897ca129cfa11df476a058ba3203488164ce5ec38c82",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 71742
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 9,
+      "path": "pages/ch2-part-02/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "70b1abea9a402ec6774bde479069406a058f81b9ba111c79c93846ab01bf4fea",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 536930
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 10,
+      "path": "pages/ch2-part-02/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "1781bb082221e7e43c928da7f8930db5ec5ebd7922f46563c09fa4f11ed1a166",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 103960
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 11,
+      "path": "pages/ch2-part-02/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8aca1214ad2dfacdbfeadfffc0abc65ab575762b73d9a9989708b59e01a0398a",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 72456
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 12,
+      "path": "pages/ch2-part-02/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "79c32e4311dadf7f0f495122191a6bef7bcb5e00bd579c6aa0834d23999464cd",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 85730
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 13,
+      "path": "pages/ch2-part-02/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e8e3200d9e147de599b62c93c035c3c7c75b93516cc5f7d0bc5f01d1b81583c2",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 73842
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 14,
+      "path": "pages/ch2-part-02/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9626e363502b9cb58e8d10eb95b2e83b158ef479fc4715cd9c79865f6e3b0cab",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 198604
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 15,
+      "path": "pages/ch2-part-02/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "87f2e4087f0ea8a2af1a7a6caca88c8381e09080af0f3744792354d64547f05a",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 281804
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 16,
+      "path": "pages/ch2-part-02/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "92ac90177affb3505444bf38f80f30ff2a18d2242a0fb55bf984e51996749c78",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 84864
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 17,
+      "path": "pages/ch2-part-02/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e5073246955073c67b1912f228410be9751f39cef90ccf12b5699db466a3f839",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 301924
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 18,
+      "path": "pages/ch2-part-02/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0d63dbfae20ed5b924ccf5c35f98552d2afba14ebd541b693576b774ea68f96a",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 62906
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 19,
+      "path": "pages/ch2-part-02/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9c4aaaeafd63a96b2e46e115656c9d31bebd66af012c13d3ebe33bf1a18140ef",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 210028
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 20,
+      "path": "pages/ch2-part-02/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "48ab809bee4341bf4a1d4560804a5f45408b25fbbd637b9f5e862361f67806c6",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 222112
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 21,
+      "path": "pages/ch2-part-02/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "aa5b175158f6dd7d046521777aaa953fd2bf1d4dba9712033726787e77bd1f15",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 186392
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 22,
+      "path": "pages/ch2-part-02/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e711ee818c1f30a13ec833cc08059343759c23fc0cbd0a2f55730f02b14e9d80",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 62308
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 23,
+      "path": "pages/ch2-part-02/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "35e9e58328f63dc75b50ca08b8464fb4b1be4f0947eab5622720f0f29c9e94b1",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 123004
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 24,
+      "path": "pages/ch2-part-02/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d7f622beafa042141c5dc1b0108f220db2e50fc297e902ca5783e6d13a650c0d",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 65222
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 25,
+      "path": "pages/ch2-part-02/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6eaaba6c2b78a6f0ff6285b1d260ad52482e2608a476851191bf550b6d3f539c",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 73756
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 26,
+      "path": "pages/ch2-part-02/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "739a3bb5ef07fa4f1a396617bf78a22fdb1486c35a430d1baaec5684095a34b9",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 274164
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 27,
+      "path": "pages/ch2-part-02/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46c46a6a6d73966e13e5e6ed81c6b3a086609e747b0da2e9cf7f9d27cee4a165",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 103924
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 28,
+      "path": "pages/ch2-part-02/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6628ca26d32b062f8a24d36fa1888718187f96ed280399ddf0afce5a2cb54a35",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 54404
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 29,
+      "path": "pages/ch2-part-02/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d1133b901810d022e27893dd6583c28f644a9b8d88d8e8afaeda5f2fdcb37e18",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 316288
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 30,
+      "path": "pages/ch2-part-02/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4e7affd9337583cec43bb253aaf29423ab4bb071ec0935f053d2b38acdb70a56",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 64514
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 31,
+      "path": "pages/ch2-part-02/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7fc95bea16208b098fe717c3f9ae99733a3e1f149bee1f08f2ba9e9958ef303f",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 75260
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 32,
+      "path": "pages/ch2-part-02/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d5d8c2c19e39f75671b0f7c681fd2feb569a546180154e819ace1b9e34e36a3d",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 125636
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 33,
+      "path": "pages/ch2-part-02/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "643355e33209892dc034dcbd1fd5cf9dfb99f85a4a80f0a3ced2148a159616b9",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 635764
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 34,
+      "path": "pages/ch2-part-02/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "eac6f2f86e9487556de8167e29b9e5e6c556c41fd95ae3610ba53e13f77ccc79",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 110026
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 35,
+      "path": "pages/ch2-part-02/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "60b6f0d1bc8cd8f2cf18fbc4f57f5b59a57d38ad16cc77187c73aa14d236fe49",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 102716
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 36,
+      "path": "pages/ch2-part-02/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7940e7097545f82c82bfd5ff847a27086977efd4ec5c00eaa6803d48aab001cc",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 76894
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 37,
+      "path": "pages/ch2-part-02/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f85987587c1b0193924667eec3cb98da77e0d4fcfd955c6bc648f7b0d10593be",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 69946
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 38,
+      "path": "pages/ch2-part-02/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9ff4cbef47fed06e9e44b072cf50fdfb5d79fa2d769985aff325fa464da267c9",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 72840
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 39,
+      "path": "pages/ch2-part-02/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ef44f48e8d9115cfe35f8f2cfdf48e600141b5a2cc7e92f1f6ec5d74ad6fe724",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 633790
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 40,
+      "path": "pages/ch2-part-02/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "94e6357d2f2d34dc4c2800190b2b0a8665816bff894a0150bcb9f37abc77a3e6",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 57714
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 41,
+      "path": "pages/ch2-part-02/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "46bb24b8206d2e42f66f4a00c1d1947446c9e074b3d8cd86f191fa6a5c04591f",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 70542
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 42,
+      "path": "pages/ch2-part-02/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "38042bc21cd3ee84c7a3d6a99af12c6efd5d93e4963cc67e9b02fc42c41b0b45",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 1277796
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 43,
+      "path": "pages/ch2-part-02/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "d22432e16553c4a7146bcb6d4e0a3fc49793e727538f12bad8d045882796b17a",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 800468
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 44,
+      "path": "pages/ch2-part-02/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c3b3103f93222af927aafbeab801d31b17784d86e93a8d1ac0b0c18b01a3732d",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 1225282
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 45,
+      "path": "pages/ch2-part-02/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ca47cf823656feebf553b82c1c0f8dd397e03eb210e7a8b4b6a333daedbd0751",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 76772
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 46,
+      "path": "pages/ch2-part-02/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "9e3e0461f2be63adbe6e4fb500af15835b1f0b5f1679be2318dbf777e5ca09ff",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 96084
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 47,
+      "path": "pages/ch2-part-02/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4692179cb8f9d2e2d75e4e018cf5762115023bcbaee1cd6ccfa35733b41c59b6",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 315680
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 48,
+      "path": "pages/ch2-part-02/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "60df43e680b42e426f2502ce57b195f15897ce26b360e9d99a51975157974d2c",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 649920
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 49,
+      "path": "pages/ch2-part-02/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b4360d101227a048f82eeeb5edc7c10c6ac8391ba4da948190595748b1efb7c5",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 33380
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 50,
+      "path": "pages/ch2-part-02/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b5e219c8a10b9eac25333d10d6dad9f68c746a1409f4629742c643467fd8ec65",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 967240
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 51,
+      "path": "pages/ch2-part-02/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "83d7db8f2556f5d0cf2d383e9754fb881f16c51dfd445e48b9db3b9c6a6e352d",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 56952
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 52,
+      "path": "pages/ch2-part-02/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4cce5f7e57127a146e9fa9c936d976711dbd96635e55b611cb7d698f6e5017ab",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 489652
+    },
+    {
+      "lectureId": "ch2-part-02",
+      "pdfPage": 53,
+      "path": "pages/ch2-part-02/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f2fc7242a9306f5afef9b1c9452448b13b385a16db968986f28eb750954b1e86",
+      "sourceSha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "sizeBytes": 1223844
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 1,
+      "path": "pages/ch2-part-03/page-001.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "42ef5f3f1196718e916839b738ce4207c297bd4ec41c69026153115ec293dd43",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 85970
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 2,
+      "path": "pages/ch2-part-03/page-002.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "479d7bc9fd4cc7d9593dcc6c47b50f5997f25afd0f90ed402653971d1bde217a",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 86034
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 3,
+      "path": "pages/ch2-part-03/page-003.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e9200a5cdb38ee0bdcf419b06684fbba12e696c2864cef32f4a413aa8da0248a",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 117314
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 4,
+      "path": "pages/ch2-part-03/page-004.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "805a36f69d3a27122224fe0459a041cc08ca9abbce3c3d0e2888e1ef886eb3e5",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 99790
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 5,
+      "path": "pages/ch2-part-03/page-005.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "151f82da1305829035a3b1ee4f903e0108edf20413ad814f902354dbbc6e9bc8",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 104012
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 6,
+      "path": "pages/ch2-part-03/page-006.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "99fd98e78c4354ec760ab7acee9ef75a803f9cf4bfad11df689c2ae94b7372fa",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 200462
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 7,
+      "path": "pages/ch2-part-03/page-007.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6a5e9410b068f023674aa4e873646aeb4bf9d2a20866e6f2545b0b8d8f829e88",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 75574
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 8,
+      "path": "pages/ch2-part-03/page-008.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f935583cd635f846dfd77bc4e7ecb7916f5960531157089f9c63c40e610cc2f4",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 98934
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 9,
+      "path": "pages/ch2-part-03/page-009.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "90ef92e52e43ea4fb6fb33d7ac1463e5d1f017ebcc99131bcaf4420206699ed6",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 786354
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 10,
+      "path": "pages/ch2-part-03/page-010.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e0604bfbc548fd921b8900e342b816aebf341c93bafd479998f904f25606cc50",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 434630
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 11,
+      "path": "pages/ch2-part-03/page-011.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "66b72922b971164b0d344c87dc89467056f98f5c5962d93084dd1d34a158cd63",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 79134
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 12,
+      "path": "pages/ch2-part-03/page-012.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0b6347549db090fe328c86294f8dc22caeb915ed989da2e9c0efa9bdd060b474",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 105998
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 13,
+      "path": "pages/ch2-part-03/page-013.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "be670b0bec857ead9ff1ee23676dc975caf069b3060deb19a032ef174192b4b4",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 233960
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 14,
+      "path": "pages/ch2-part-03/page-014.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f5289a9dc1a4d1fbcf20d2b7a97fd68bb4d2501e1e5c90553767a98c418a4d86",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 262298
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 15,
+      "path": "pages/ch2-part-03/page-015.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "aa40e3c18c3fb04ca6d393bfea5b6c8377736d6ce55f42693821ad62e0101691",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 137810
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 16,
+      "path": "pages/ch2-part-03/page-016.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c9b6f498ddcd09b5c3f45e78f514c5e368e0ae5a332a8315335ea77456d1a7aa",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 66158
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 17,
+      "path": "pages/ch2-part-03/page-017.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a89a2d66c40117f0d6d5873d028d045d9b2a345b29c1acb066d3315b5be2d841",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1144620
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 18,
+      "path": "pages/ch2-part-03/page-018.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "a47055f0847aa696e6da4c3e0b573250437690855a9728033554f69865c7b62c",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1009188
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 19,
+      "path": "pages/ch2-part-03/page-019.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3348b195b3bb5ad70abf5fdaaa2cb42e01c45346cfbe4693e42310e4dc014741",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 90828
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 20,
+      "path": "pages/ch2-part-03/page-020.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "15509a27cde74ba09f7205b117626591b9ddfd4e0f963972d0f8931d77e3b36f",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1151724
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 21,
+      "path": "pages/ch2-part-03/page-021.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "daae4af2051de89dfb4da5a89dc03543b2e1cd57cc8a2cccc64e14455cc78677",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 102804
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 22,
+      "path": "pages/ch2-part-03/page-022.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6ec87119f083841d881e77244df9c42ba4924071186fe4b50a8a8e589c816431",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 187686
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 23,
+      "path": "pages/ch2-part-03/page-023.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b80d5f948b7112ab5e665ed2d29b3374123ffc606ecbdb548ca2e6265fbbc2f9",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 87046
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 24,
+      "path": "pages/ch2-part-03/page-024.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "4b0e915ed3c60f4ccf33eda757634e422cedfb8dc92837d59576e316aca8993e",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 376876
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 25,
+      "path": "pages/ch2-part-03/page-025.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "76ee410d87630363350ee533fa4854045527c7c197e08e5f151647baeb349047",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1573902
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 26,
+      "path": "pages/ch2-part-03/page-026.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6b6e02a4a6d97b451a0e407423f877d40a24709c9e342394163ef52eb1da9b8d",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 329900
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 27,
+      "path": "pages/ch2-part-03/page-027.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "edbc547fb7f6197d84e62f0106efc31e5836931c40a2a6da5efcbb8d4bf50580",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 82312
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 28,
+      "path": "pages/ch2-part-03/page-028.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "68eac50e19cfc6482653eaa4a80805025ff05fdc8b3aa76101bc62af6104a9bb",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 87372
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 29,
+      "path": "pages/ch2-part-03/page-029.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8f05200b0eff545c0281baa021f88bd3dc140785cbd3cd8328edbc4cf134a334",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 77562
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 30,
+      "path": "pages/ch2-part-03/page-030.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "52e1f789e45551927b1333d8d1bdc05a372b7a49fee7778248129b7d907944c2",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1326728
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 31,
+      "path": "pages/ch2-part-03/page-031.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "f14c3a2b15a07075f0b27d8bf0ddf3ac21825abbb3fd84405268a4dc3faa8097",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1331696
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 32,
+      "path": "pages/ch2-part-03/page-032.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c96c0977a3c26d08d98162e64292bac204e3d99d62cdb9a6594dbb11dec5076",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 940452
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 33,
+      "path": "pages/ch2-part-03/page-033.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "38e686707747bde89d74b1d42dfa78eef5ff6b3694ac7339e367cc0e9f8e210b",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 114492
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 34,
+      "path": "pages/ch2-part-03/page-034.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "689ce69afe889ac021bf0fcd734926db36541690c0087a1b496f7a7cc0883025",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 323082
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 35,
+      "path": "pages/ch2-part-03/page-035.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "e3bead1b7b6275cb0939f5acd9709976d68a775e3398e62fb898b8447db199a4",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 208628
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 36,
+      "path": "pages/ch2-part-03/page-036.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "0cab1ff8c7109a8d9e2acea8a220a74352775b92fe65fcf9c16230653a2b1d1b",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1122384
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 37,
+      "path": "pages/ch2-part-03/page-037.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "02dcc61940ca9e18c7cbcdb5ddb7b62bfcc011adce99121fa31493f0a11b520b",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 257000
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 38,
+      "path": "pages/ch2-part-03/page-038.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b0a04dd4cf61ed2c16a25c8e96ed5804c24000790aed5553ae37fe4e9a27af81",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 399236
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 39,
+      "path": "pages/ch2-part-03/page-039.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "b9e35bbdd930cc91ba9ba12eeb7f9e60e9322d7da7a38e97a872f09a48f40d48",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 1130358
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 40,
+      "path": "pages/ch2-part-03/page-040.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "c7ef48b981417196cc55f24fd6f1121e8fd23a3ad6fe0c74dbd672499cc98eb3",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 515710
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 41,
+      "path": "pages/ch2-part-03/page-041.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8c931b55800ecc1103e887d841e981beb4b06fe4391030aef58c920603bd3f2b",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 766982
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 42,
+      "path": "pages/ch2-part-03/page-042.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "390eee261357b0172db177779b4a986365fcbb4e4696aad64ed1969888aebf84",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 906036
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 43,
+      "path": "pages/ch2-part-03/page-043.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "dad69fc3c51bf58c551b5ab6d4f1fa9a39dd74540bca670e2f7c885b0d2e40e4",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 974728
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 44,
+      "path": "pages/ch2-part-03/page-044.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "610c4c85a5f4cef15f073952290da28c8da0674c3c3e0a9b0b59c7b08f5db3f0",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 590922
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 45,
+      "path": "pages/ch2-part-03/page-045.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "75c184ed8c7b5a84337dc26b22a75fbadf15a66448722ae0d3fe251125dd45e5",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 107826
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 46,
+      "path": "pages/ch2-part-03/page-046.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "50a9638bb02d32d6992fa429f8d014b00c2b06fc3763d752a7629db8d55e11b0",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 117542
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 47,
+      "path": "pages/ch2-part-03/page-047.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "99f7839bfc9182b73de67cb1f22adf31c4ac6ffe950dcb7d9efbd3a9b7d2c13c",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 114294
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 48,
+      "path": "pages/ch2-part-03/page-048.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "912aea886c128adf86bf57231c62570dcaebfa31e6561f6f4110b845e62b8af7",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 324434
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 49,
+      "path": "pages/ch2-part-03/page-049.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ace70ef0186fe05a52fdbfe3a051576abac729cb2b6d3cd2acc55def984156e3",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 405714
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 50,
+      "path": "pages/ch2-part-03/page-050.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "6b8a56013555872ac825ca7871be6a3da2deb525365b9c23c527ade5fb1ee8ce",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 103158
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 51,
+      "path": "pages/ch2-part-03/page-051.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "8c12af851557781dee16965811eb7d30524b3f27790d64abdd0b8a8403831cd3",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 124582
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 52,
+      "path": "pages/ch2-part-03/page-052.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "ab2c2d0ac6ad3751e132eb79525893e96d62be906a1e65704432965869fd4026",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 651266
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 53,
+      "path": "pages/ch2-part-03/page-053.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "256d951a5105c5e64e5751414fe5377828e1113b55305e41f02c356c11870e79",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 757450
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 54,
+      "path": "pages/ch2-part-03/page-054.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "5c49df3233e33d1fcc51a201c0e0024e7e51e30f5f3890f145d8cb26bf49594b",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 710654
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 55,
+      "path": "pages/ch2-part-03/page-055.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "3935b04e4f1736345605ffcb4380df6bfec15fdc21ebc5b37dbb85f72a6045c2",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 549246
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 56,
+      "path": "pages/ch2-part-03/page-056.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "65286fedeb4b3d3a1d381c92597b95387b9400aa0cf0c5fd109c8b56849afb11",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 104696
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 57,
+      "path": "pages/ch2-part-03/page-057.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "7a940cb3f9b7307acb2d4daf3797a3d041a555589e2b92654b3ef3aa0ff1aae9",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 80002
+    },
+    {
+      "lectureId": "ch2-part-03",
+      "pdfPage": 58,
+      "path": "pages/ch2-part-03/page-058.webp",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "240bf9308f50b716f744c6dd17a5d9ee65708a43f9f1c4fd718a3df5c8b6e009",
+      "sourceSha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "sizeBytes": 313476
+    }
+  ]
+}

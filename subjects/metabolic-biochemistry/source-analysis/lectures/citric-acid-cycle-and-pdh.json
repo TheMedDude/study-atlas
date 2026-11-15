@@ -1,0 +1,922 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "lectureId": "citric-acid-cycle-and-pdh",
+  "title": "The Citric Acid Cycle and PDH",
+  "scope": "Midterm; supplied PDF only",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "title": "Metabolic Biochemistry — course cover",
+      "kind": "cover",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [],
+      "text": "                                     Dr. Osama Essawi 2025\n                Metabolic\n          Biochemistry\n\n\n            Dr.Osama    Essawi\n           Faculty of Medicine\nDepartment of Biochemistry & Molecular\n                 Biology\n         Metabolic Biochemistry\n             Course Number\n                 6105212",
+      "visualNotes": "Al-Quds University; Dr. Osama Essawi; Faculty of Medicine; Department of Biochemistry & Molecular Biology; course number 6105212; year 2025.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "title": "The Citric Acid Cycle — Chapter 16",
+      "kind": "cover",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [],
+      "text": "                                                                                         Dr. Osama Essawi 2025\n\n\n\n\n\n\n\n\n\n\nChapter 16",
+      "visualNotes": "Title: The Citric Acid Cycle, Chapter 16. Book image: Lehninger Principles of Biochemistry, Sixth Edition, David L. Nelson and Michael M. Cox. This cover names a reference but is not permission to use any external book content.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "title": "Glucose Energy",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Glucose Energy"
+      ],
+      "text": "                                                                                            Dr. Osama Essawi 2025\n\nGlucose Energy",
+      "visualNotes": "Two molecular reaction schemes contrast glucose → 2 pyruvate (glycolysis; ΔG′° = −146 kJ/mol) with glucose + 6 O2 → 6 CO2 + 6 H2O (full oxidation; ΔG′° = −2,840 kJ/mol).",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-glycolysis-energy",
+          "label": "Glycolysis and full oxidation energy",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "The illustrated glycolytic conversion of glucose to 2 pyruvate has ΔG′° = −146 kJ/mol; full oxidation with 6 O2 yields 6 CO2 + 6 H2O with ΔG′° = −2,840 kJ/mol."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "title": "Cellular Respiration",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Cellular Respiration"
+      ],
+      "text": "                                                                                                             Dr. Osama Essawi 2025\n\n   Cellular Respiration\n\n\n\n⬣   Cellular respiration is a process by which the pyruvate produced\n    by glycolysis is further oxidized to H2O and CO2\n\n           - Used by animals, plants, and many microorganisms\n           - Provides more energy (ATP) from glucose than glycolysis\n           - Also captures energy stored in lipids and amino           acids\n\n\n⬣   Occurs in three major stages       :\n\n           - Acetyl CoA production\n           - Acetyl CoA oxidation\n           - Electron transfer and oxidative phosphorylation",
+      "visualNotes": "",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-respiration-purpose",
+          "label": "Cellular respiration and energy capture",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Pyruvate from glycolysis is further oxidized to H2O and CO2; used by animals, plants and many microorganisms; provides more ATP from glucose than glycolysis and captures energy in lipids and amino acids."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-respiration-stages",
+          "label": "Three stages of cellular respiration",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "The stated order is acetyl-CoA production, acetyl-CoA oxidation, then electron transfer and oxidative phosphorylation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "title": "Cellular Respiration: Stage 1 — Acetyl-CoA Production",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Cellular Respiration: Stage 1 — Acetyl-CoA Production"
+      ],
+      "text": "                                                                                   Dr. Osama Essawi 2025\n         Cellular Respiration: Stage 1\n              Acetyl-CoA Production\n\n\n\n⬣  Stage 1: oxidation of fuels to\n   acetyl-CoA\n\n\n⬣  Generates ATP, NADH,\n   FADH2\n\n\n⬣  Glycolysis occurs in the\n   cytoplasm.",
+      "visualNotes": "Diagram labels: Stage1 Acetyl-CoA production; amino acids; fatty acids; glucose; glycolysis; pyruvate; pyruvate dehydrogenase complex; CO2; acetyl-CoA; e−. Blue arrows show fuel conversion, red e− arrows show electron removal.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-stage-one",
+          "label": "Fuel oxidation to acetyl-CoA",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Stage1 oxidizes fuels to acetyl-CoA and generates ATP, NADH and FADH2; glycolysis occurs in the cytoplasm."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-fuel-convergence",
+          "label": "Amino acids, fatty acids and glucose converge on acetyl-CoA",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "The diagram shows amino acids, fatty acids and glucose feeding acetyl-CoA; glucose passes through glycolysis to pyruvate and then PDH with CO2 release; electron removals feed reduced carriers."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "title": "Cellular Respiration: Stage 2 — Acetyl-CoA Oxidation",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Cellular Respiration: Stage 2 — Acetyl-CoA Oxidation"
+      ],
+      "text": "                                                                                        Dr. Osama Essawi 2025\n          Cellular Respiration: Stage 2\n                Acetyl-CoA Oxidation\n\n\n⬣  Stage 2: Oxidation of acetyl\n   groups to CO2 in the citric\n   acid cycle (tricarboxylic acid\n   (TCA) cycle, Krebs cycle)\n\n\n⬣  Generates 3 NADH, 1 FADH2,\n   and one GTP\n\n\n⬣  Citric acid cycle occurs in    the\n   mitochondrial     matrix",
+      "visualNotes": "Diagram: acetyl entry at oxaloacetate → citrate; two CO2 releases; e− collected in NADH and FADH2, labeled reduced e− carriers.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-stage-two",
+          "label": "TCA oxidation, products and location",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Acetyl groups are oxidized to CO2 in the citric acid/TCA/Krebs cycle; generates 3 NADH, 1 FADH2 and 1 GTP; located in mitochondrial matrix."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "title": "Cellular Respiration: Stage 3 — Oxidative Phosphorylation",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Cellular Respiration: Stage 3 — Oxidative Phosphorylation"
+      ],
+      "text": "                                                                                     Dr. Osama Essawi 2025\n           Cellular Respiration: Stage 3\n            Oxidative Phosphorylation\n\n\n\n⬣  Stage 3: electron transfer\n   chain and oxidative\n   phosphorylation\n\n\n⬣  Generates the vast majority\n   of ATP from catabolism\n\n\n⬣  Oxidative phosphorylation\n   occurs in the mitochondrial\n   inner membrane",
+      "visualNotes": "Diagram: NADH/FADH2 reduced e− carriers donate electrons to respiratory (electron-transfer) chain; 2H+ + 1/2 O2 → H2O; ADP + Pi → ATP.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-stage-three",
+          "label": "Electron transfer and oxidative phosphorylation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Stage3 is electron transfer chain and oxidative phosphorylation, generates vast majority of ATP from catabolism, and occurs in mitochondrial inner membrane."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "title": "Conversion of Pyruvate to Acetyl-CoA",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Conversion of Pyruvate to Acetyl-CoA"
+      ],
+      "text": "                                                                                                Dr. Osama Essawi 2025\n\nConversion of Pyruvate to Acetyl-CoA\n\n\n\n                                                                    ⬣   Oxidative decarboxylation of\n                                                                        pyruvate is an irreversible\n                                                                        oxidation process in which the\n                                                                        carboxyl group is removed,\n                                                                        forming CO2 and acetyl-CoA\n\n\n                                                                    ⬣   Catalyzed by the pyruvate\n                                                                        dehydrogenase complex\n\n\n                                                                    ⬣   Requires five cofactors, four of\n                                                                        which are derived from vitamins.",
+      "visualNotes": "Reaction: pyruvate + CoA-SH + NAD+ → acetyl-CoA + CO2 + NADH. Enzyme label: pyruvate dehydrogenase complex (E1 + E2 + E3); auxiliary labels TPP, lipoate, FAD; ΔG′° = −33.4 kJ/mol. The removed pyruvate carboxyl is highlighted.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-overall",
+          "label": "PDH oxidative decarboxylation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Pyruvate undergoes irreversible oxidative decarboxylation to CO2 and acetyl-CoA, catalyzed by PDH complex; NAD+ is reduced to NADH."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-cofactor-count",
+          "label": "PDH cofactor requirement",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Five cofactors are required; four are vitamin-derived."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "title": "Pyruvate Dehydrogenase Complex (PDH)",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Pyruvate Dehydrogenase Complex (PDH)"
+      ],
+      "text": "                                                                                                  Dr. Osama Essawi 2025\n           Pyruvate Dehydrogenase Complex (PDH)\n\n\n⬣   The PDH is a large multienzyme       Complex Employs Three Enzymes and Five\n    Coenzymes to Oxidize Pyruvate\n\n\n⬣   Contains multiple copies of three enzymes\n          - Pyruvate dehydrogenase (E1)\n          - Dihydrolipoyl   transacetylase   (E2)\n          - Dihydrolipoyl   dehydrogenase (E3)\n\n\n⬣   Requires five different coenzymes or prosthetic groups\n          - Lipoate  (lipoicacid)\n          - Thiamine pyrophosphate (TPP) derived from vitamin (B1)\n          - Flavin adenine dinucleotide (FAD) derived from vitamin (B2)\n          - Nicotinamide adenine dinucleotide (NAD) derived from vitamin (B3)\n          - Coenzyme A (CoA, CoA-SH) derived from vitamin (B5)",
+      "visualNotes": "",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-enzymes",
+          "label": "Three enzymes of PDH",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "PDH contains multiple copies of pyruvate dehydrogenase E1, dihydrolipoyl transacetylase E2 and dihydrolipoyl dehydrogenase E3."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-cofactors",
+          "label": "Five PDH coenzymes and vitamin origins",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Lipoate/lipoic acid; TPP from B1; FAD from B2; NAD from B3; CoA/CoA-SH from B5."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "title": "Oxidative decarboxylation of pyruvate by the PDH complex",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Oxidative decarboxylation of pyruvate by the PDH complex"
+      ],
+      "text": "                                                                                                                     Dr. Osama Essawi 2025\n   Oxidative decarboxylation of pyruvate by the PDH complex\n\n⬣   Enzyme 1\n    Step 1: Decarboxylation of pyruvate to the\n    hydroxyethyl derivative\n    Step 2: Oxidation of the hydroxyethyl derivative to\n    an acetyl group\n            ‒ Electrons and the acetyl group are\ntransferred from TPP to the lipoyllysyl   group of E2\n\n⬣   Enzyme 2\n   Step 3: Formation of acetyl-CoA (product 1)\n\n⬣   Enzyme 3\n    Step 4: Electron transfer to regenerate the oxidized\n    form of the lipoyllysyl  group\n\n   Step 5: Regeneration of the oxidized FAD cofactor\n            ‒ Forming NADH (product 2)",
+      "visualNotes": "Five-step figure labels: pyruvate; CO2; TPP; hydroxyethyl TPP; acetyl lipoyllysine; oxidized lipoyllysine (S−S); reduced lipoyllysine (SH/SH); CoA-SH; acetyl-CoA; Lys; FAD; FADH2; NAD+; NADH + H+. Domains E1 pyruvate dehydrogenase, E2 dihydrolipoyl transacetylase, E3 dihydrolipoyl dehydrogenase. Arrows carry hydroxyethyl/acetyl group via swinging lipoyllysine, then electrons to FAD and NAD+.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-e1-steps",
+          "label": "E1 decarboxylation and acetyl transfer",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "E1 step1 decarboxylates pyruvate to hydroxyethyl derivative; step2 oxidizes this derivative to acetyl group and transfers electrons/acetyl from TPP to E2 lipoyllysyl group."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-e2-product",
+          "label": "E2 forms acetyl-CoA",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "E2 step3 forms acetyl-CoA, labeled product1."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-e3-regeneration",
+          "label": "E3 regenerates oxidized cofactors",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "E3 step4 transfers electrons to regenerate oxidized lipoyllysyl group; step5 regenerates oxidized FAD while producing NADH, product2."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "title": "Regulation of Pyruvate dehydrogenase Complex",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Regulation of Pyruvate dehydrogenase Complex"
+      ],
+      "text": "                                                                                                           Dr. Osama Essawi 2025\n            Regulation of Pyruvate dehydrogenase Complex\n\n\n⬣   The pyruvate dehydrogenase complex (PDH) is regulated through a combination of covalent\n    modification and allosteric mechanisms\n\n\n⬣   The PDH complex in mammals is allosterically inhibited by ATP, acetyl-CoA, and NADH\n\n\n⬣    AMP, CoA, and NAD+, which accumulate when acetate flow into the citric acid cycle is\n    insufficient, allosterically  activates the PDH complex      .\n\n\n⬣   High levels of ATP and NADH, indicative of sufficient energy production, inhibit the PDH\n    complex, slowing down pyruvate decarboxylation            .\n\n\n⬣   Elevated levels of ADP and calcium ions activate the complex, promoting the conversion of\n    pyruvate to acetyl   -CoA when more energy is needed",
+      "visualNotes": "",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-control-types",
+          "label": "Covalent and allosteric PDH regulation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "PDH regulation combines covalent modification and allosteric mechanisms."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-allosteric-inhibition",
+          "label": "High-energy PDH inhibition",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "ATP, acetyl-CoA and NADH allosterically inhibit mammalian PDH; high ATP and NADH signal sufficient energy and slow pyruvate decarboxylation."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-allosteric-activation",
+          "label": "Low-energy/need-related PDH activation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "AMP, CoA and NAD+ activate PDH when acetate flow into TCA is insufficient; elevated ADP and calcium activate conversion of pyruvate to acetyl-CoA when energy is needed."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "title": "Regulation of Pyruvate dehydrogenase Complex — diagram",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Regulation of Pyruvate dehydrogenase Complex — diagram"
+      ],
+      "text": "                                                                 Dr. Osama Essawi 2025\nRegulation of Pyruvate dehydrogenase Complex",
+      "visualNotes": "Circular diagram: PDH active → PDH inactive [phosphorylated] via PDH kinase, ATP → ADP; inactive → active via PDH phosphatase, H2O → Pi. Left caption: inactivation promoted by high ratios AcCoA:CoASH, NADH:NAD & ATP:ADP. Right caption: activation promoted by sudden cellular demands signaled by Ca++. Bottom active-PDH reaction: pyruvate + CoASH + NAD+ → acetyl-CoA + CO2 + NADH.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-phosphorylation",
+          "label": "PDH phosphorylation inactivates",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "PDH kinase uses ATP to make inactive phosphorylated PDH and ADP; high AcCoA:CoASH, NADH:NAD and ATP:ADP promote inactivation."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-dephosphorylation",
+          "label": "PDH phosphatase and calcium activate",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "PDH phosphatase uses H2O, releases Pi and produces active PDH; Ca++ signals sudden cellular demand and promotes activation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "title": "Pyruvate dehydrogenase deficiency",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Pyruvate dehydrogenase deficiency"
+      ],
+      "text": "                                                                                                 Dr. Osama Essawi 2025\n\nPyruvate dehydrogenase deficiency\n\n\n    ⬣   Pyruvate dehydrogenase deficiency is a rare genetic mitochondrial disorder that\n        results from mutations in the genes encoding components of the PDH complex,\n        leading to a dysfunctional enzyme.\n\n\n    ⬣   PDH deficiency is most commonly linked to the alpha unit of E1, which is X-linked,\n        but autosomal recessive variants also exist.\n\n\n    ⬣   It causes elevated serum lactate, pyruvate and alanine.\n\n\n    ⬣   Associated with lactic acidosis, progressive neurological and neuromuscular\n        degeneration, and, usually, death during childhood.",
+      "visualNotes": "",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-deficiency-genetics",
+          "label": "PDH deficiency genetics",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Rare genetic mitochondrial disorder caused by mutations in PDH component genes; most commonly E1 alpha unit, X-linked; autosomal-recessive variants also exist."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-deficiency-effects",
+          "label": "PDH deficiency biochemical/clinical effects",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Elevated serum lactate, pyruvate and alanine; lactic acidosis, progressive neurological/neuromuscular degeneration and usually death during childhood."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "title": "Therapeutic Approaches for PDH Deficiency",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Therapeutic Approaches for PDH Deficiency"
+      ],
+      "text": "                                                                                                  Dr. Osama Essawi 2025\n\nTherapeutic Approaches for PDH Deficiency\n\n\n⬣   Use of a ketogenic diet:\n\n          - High-fat, adequate protein, low-carb diet.\n          - Forces the body to prioritize fat metabolism.\n          - Mitigates metabolic challenges in PDH Deficiency.\n\n\n⬣   Dichloroacetic    Acid (DCA):\n\n          - Investigated for treating lactic acidosis in PDH Deficiency.\n          - Stimulates pyruvate dehydrogenase activity.\n          - Inhibits pyruvate dehydrogenase kinase.\n          - Shifts metabolism toward mitochondrial oxidation,\n          reducing lactate production.",
+      "visualNotes": "Chemical figure labeled Dichloroacetate shows two Cl substituents on CH attached to a carboxylate.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-ketogenic-diet",
+          "label": "Ketogenic diet in PDH deficiency",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "High fat, adequate protein, low carbohydrate diet prioritizes fat metabolism and mitigates metabolic challenges."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pdh-dca",
+          "label": "Dichloroacetate mechanism in PDH deficiency",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Dichloroacetic acid (DCA) is investigated for lactic acidosis; stimulates PDH, inhibits PDH kinase, shifts toward mitochondrial oxidation and reduces lactate production."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "title": "Thiamin (Vitamin B1) deficiency causes Beriberi",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Thiamin (Vitamin B1) deficiency causes Beriberi"
+      ],
+      "text": "                                                                                                     Dr. Osama Essawi 2025\n\nThiamin (Vitamin B1) deficiency causes Beriberi\n\n\n\n  ⬣   Thiamine is an essential dietary requirement for most vertebrates.\n\n\n  ⬣   Most vertebrates do not synthesize or store thiamine in significant amounts.\n\n\n  ⬣   Thiamine pyrophosphate (TPP) serves as a crucial coenzyme for the pyruvate\n      dehydrogenase complex (PDH) in glucose metabolism.\n\n\n  ⬣   Thiamine deficiency leads to Beriberi, a fatal disease, that is characterized by neurological\n      disturbances, paralysis, limb atrophy, and cardiac failure.\n\n\n  ⬣   Beriberi is rare in developed countries due to vitamin-enriched foods. It is more prevalent in\n      individuals who abuse alcohol, as excess alcohol impairs thiamine absorption and storage,\n      leading to poor nutrition.",
+      "visualNotes": "",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-thiamine-requirement",
+          "label": "Thiamine intake and TPP",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Thiamine is essential in most vertebrates, which do not synthesize/store significant amounts; TPP is crucial PDH coenzyme in glucose metabolism."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-beriberi",
+          "label": "Thiamine deficiency and Beriberi",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Source calls Beriberi fatal and lists neurological disturbances, paralysis, limb atrophy and cardiac failure; rare in developed countries with vitamin-enriched foods; alcohol abuse impairs absorption/storage and causes poor nutrition."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "title": "Reactions of the Citric Acid Cycle — section divider",
+      "kind": "divider",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [],
+      "text": "                                                            Dr. Osama Essawi 2025\n\n\nReactions of the Citric Acid Cycle",
+      "visualNotes": "Section title only; no teaching statement or diagram.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "title": "Reactions of the Citric Acid Cycle",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Reactions of the Citric Acid Cycle"
+      ],
+      "text": "                                                                                                               Dr. Osama Essawi 2025\n           Reactions of the\n            Citric Acid Cycle\n\n\n⬣   In each cycle turn, one acetyl group enters\n    as acetyl-CoA, and two molecules of CO2\n    are released.\n\n⬣   One molecule of oxaloacetate is used to\n    form citrate, and one is regenerated.\n\n\n⬣   Four of the eight steps involve oxidations,\n    conserving energy in the form of NADH\n    and FADH2.\n\n⬣   NADH and FADH2 donate electrons to the\n    respiratory chain, driving ATP synthesis.",
+      "visualNotes": "Full labeled cycle: 1 aldol condensation; 2a dehydration and 2b rehydration reposition citrate OH in isocitrate to set up next decarboxylation; 3 oxidative decarboxylation, OH oxidized to carbonyl and CO2 lost; 4 oxidative decarboxylation with PDH-like mechanism dependent on carbonyl on adjacent carbon; 5 substrate-level phosphorylation, thioester energy conserved in GTP/ATP phosphoanhydride; 6 dehydrogenation introduces double bond and initiates methylene oxidation sequence; 7 hydration introduces OH for next oxidation; 8 OH dehydrogenation gives carbonyl positioned for aldol condensation. NADH at isocitrate, α-ketoglutarate and malate steps; FADH2 at succinate step; GTP/ATP at succinyl-CoA step; two CO2 at steps3 and4; CoA-SH at step1 and5; CoA-SH entry at step4.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-stoichiometry",
+          "label": "Cycle entry, CO2 and oxaloacetate regeneration",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Each turn takes one acetyl group as acetyl-CoA, releases two CO2, uses one oxaloacetate to make citrate and regenerates one oxaloacetate."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-oxidations",
+          "label": "Four oxidation steps conserve energy",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Four of eight steps oxidize substrates and conserve energy in NADH/FADH2; those carriers donate to respiratory chain and drive ATP synthesis."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-sequence",
+          "label": "Citric acid cycle sequence and enzymes",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Citrate synthase: OAA+acetyl-CoA→citrate; aconitase: citrate↔cis-aconitate↔isocitrate; isocitrate dehydrogenase→α-ketoglutarate; α-ketoglutarate dehydrogenase→succinyl-CoA; succinyl-CoA synthetase→succinate; succinate dehydrogenase→fumarate; fumarase→malate; malate dehydrogenase→OAA."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "title": "Formation of Citrate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Formation of Citrate"
+      ],
+      "text": "                                                                                                      Dr. Osama Essawi 2025\n\nFormation of Citrate\n\n\n\n  ⬣   Citrate synthase catalyzes the condensation of acetyl-CoA with oxaloacetate to form citrate\n             - Involves the formation of a transient intermediate, citroyl-CoA\n             - Large, negative ∆G′°    is needed because [oxaloacetate] is normally very low",
+      "visualNotes": "Reaction drawing: acetyl-CoA + oxaloacetate + H2O → citrate + CoA-SH, catalyzed by citrate synthase; ΔG′° = −32.2 kJ/mol.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-citrate-synthase",
+          "label": "Citrate synthase condensation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Acetyl-CoA condenses with oxaloacetate to citrate through transient citroyl-CoA; large negative ΔG′° matters because OAA concentration is normally very low."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "title": "Induced Fit in the Citrate Synthase",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Induced Fit in the Citrate Synthase"
+      ],
+      "text": "                                                                                                   Dr. Osama Essawi 2025\n\nInduced Fit in the Citrate Synthase\n\n\n\n ⬣    Binding of oxaloacetate causes a conformational\n      change creating a binding site for acetyl-CoA\n\n\n        ○    Open conformation:\n             Free enzyme does not have a binding site for\n             acetyl-CoA.\n        ○    Closed conformation:\n             Binding of OAA creates binding for acetyl-CoA.\n\n\n ⬣    Induced fit decreases the likelihood of premature\n      cleavage of the thioester bond of acetyl-CoA",
+      "visualNotes": "Two enzyme structures show open and closed conformations; labels oxaloacetate and acetyl-CoA analog. OAA-bound structure closes around binding site.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-citrate-induced-fit",
+          "label": "Ordered binding and citrate synthase induced fit",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Free/open enzyme lacks acetyl-CoA binding site; OAA binding creates closed conformation and acetyl-CoA site; induced fit reduces premature cleavage of acetyl-CoA thioester bond."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "title": "Formation of Isocitrate via Cis-Aconitate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Formation of Isocitrate via Cis-Aconitate"
+      ],
+      "text": "                                                                                                         Dr. Osama Essawi 2025\n\n      Formation of Isocitrate via Cis-Aconitate\n\n\n\n⬣   Aconitase   (aconitate   hydratase)\n    catalyzes the reversible transformation\n    of citrate to isocitrate  through the\n    intermediate cis-aconitate\n\n           -Addition of H2O to cis-aconitate\n           is stereospecific\n           -Low [isocitrate] pulls the\n           reaction forward",
+      "visualNotes": "Structural reaction drawing: citrate ⇌ cis-aconitate + H2O; cis-aconitate + H2O ⇌ isocitrate, both aconitase. Hydroxyl position changes; ΔG′° = 13.3 kJ/mol.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-aconitase",
+          "label": "Aconitase isomerization via cis-aconitate",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Aconitase/aconitate hydratase reversibly converts citrate to isocitrate through cis-aconitate; water addition stereospecific; low isocitrate pulls forward."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "title": "Oxidation of Isocitrate to α-Ketoglutarate and CO2",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Oxidation of Isocitrate to α-Ketoglutarate and CO2"
+      ],
+      "text": "                                                                                                         Dr. Osama Essawi 2025\n\n  Oxidation of Isocitrate                     to α-Ketoglutarate                    and CO2\n\n\n\n⬣   Isocitrate dehydrogenase catalyzes the oxidative decarboxylation of isocitrate           to α-ketoglutarate\n\n          - Mn2+ interacts with the carbonyl group of the        oxalosuccinate    and stabilizes the\n          transiently-formed enol\n          - Specific isozymes for NADP+ (cytosolic and mitochondrial) or NAD+ (mitochondrial)",
+      "visualNotes": "Three-part mechanism: 1 hydride transfer to NAD+ or NADP+ depending on isozyme creates oxalosuccinate, NAD(P)H+H+; 2 adjacent carbonyl and coordinated Mn2+ facilitate CO2 loss/electron withdrawal; 3 enol rearrangement regenerates α-ketoglutarate.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-isocitrate-dehydrogenase",
+          "label": "Isocitrate oxidative decarboxylation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Isocitrate dehydrogenase converts isocitrate to α-ketoglutarate with CO2 release; Mn2+ interacts with oxalosuccinate carbonyl and stabilizes transient enol."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-isocitrate-isozymes",
+          "label": "NAD versus NADP isocitrate dehydrogenase isozymes",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "NADP+-specific isozymes are cytosolic and mitochondrial; NAD+-specific form is mitochondrial."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "title": "Oxidation of α-Ketoglutarate to Succinyl-CoA and CO2",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Oxidation of α-Ketoglutarate to Succinyl-CoA and CO2"
+      ],
+      "text": "                                                                                                Dr. Osama Essawi 2025\n\nOxidation of α-Ketoglutarate                       to Succinyl-CoA and CO2\n\n\n    ⬣   α-ketoglutarate   dehydrogenase complex catalyzes the oxidative decarboxylation of α-\n        ketoglutarate   to succinyl-CoA and CO2\n\n              -Energy of oxidation is conserved in the thioester bond of succinyl-CoA",
+      "visualNotes": "Reaction: α-ketoglutarate + CoA-SH + NAD+ → succinyl-CoA + CO2 + NADH; ΔG′° = −33.5 kJ/mol.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-alpha-ketoglutarate-dehydrogenase",
+          "label": "α-Ketoglutarate oxidative decarboxylation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "α-Ketoglutarate dehydrogenase complex makes succinyl-CoA and CO2; oxidation energy conserved in succinyl-CoA thioester."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "title": "Conversion of Succinyl-CoA to Succinate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Conversion of Succinyl-CoA to Succinate"
+      ],
+      "text": "                                                                                                 Dr. Osama Essawi 2025\n\nConversion of Succinyl-CoA to Succinate\n\n\n ⬣    Succinyl-CoA synthetase     (succinic thiokinase) catalyzes the breakage of the thioester bond\n      of succinyl-CoA to form succinate\n            - Energy released drives the synthesis of a phosphoanhydride           bond in either GTP or\n            ATP (substrate level phosphorylation)",
+      "visualNotes": "Reaction drawing: succinyl-CoA + GDP + Pi ⇌ succinate + GTP + CoA-SH; ΔG′° = −2.9 kJ/mol. Text explicitly allows GTP or ATP.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-succinyl-coa-synthetase",
+          "label": "Succinyl-CoA substrate-level phosphorylation",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Succinyl-CoA synthetase/succinic thiokinase breaks thioester to succinate; energy drives GTP or ATP phosphoanhydride formation by substrate-level phosphorylation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "title": "Oxidation of Succinate to Fumarate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Oxidation of Succinate to Fumarate"
+      ],
+      "text": "                                                                                                 Dr. Osama Essawi 2025\n\nOxidation of Succinate to Fumarate\n\n ⬣    Succinate dehydrogenase is a flavoprotein        that catalyzes the reversible oxidation of\n      succinate to fumarate\n            - Integral protein of the mitochondrial inner membrane in eukaryotes\n            - Contains three iron-sulfur clusters and covalently bound FAD",
+      "visualNotes": "Reaction drawing: succinate + FAD ⇌ fumarate + FADH2 via succinate dehydrogenase; ΔG′° = 0 kJ/mol. Separate molecular structures labeled malonate and succinate are shown side by side; no inhibitory relationship is explicitly labeled here, so no such relationship is added.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-succinate-dehydrogenase",
+          "label": "Succinate dehydrogenase location/cofactor",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Flavoprotein reversibly oxidizes succinate to fumarate; eukaryotic mitochondrial inner-membrane integral protein; three Fe-S clusters and covalently bound FAD."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "title": "Hydration of Fumarate to Malate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Hydration of Fumarate to Malate"
+      ],
+      "text": "                                                                                                   Dr. Osama Essawi 2025\n\n      Hydration of Fumarate to Malate\n\n\n\n\n⬣   Fumarase   catalyzes the\n    reversible hydration of\n    fumarate to L-malate\n\n-Transition state is a carbanion",
+      "visualNotes": "Mechanism drawing: fumarate + OH− → carbanion transition state; H+ addition gives L-malate. Separate structures label fumarate, L-malate and D-malate. ΔG′° = −3.8 kJ/mol.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-fumarase",
+          "label": "Fumarase stereospecific hydration",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Fumarase reversibly hydrates fumarate to L-malate; transition state is carbanion."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "title": "Oxidation of Malate to Oxaloacetate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Oxidation of Malate to Oxaloacetate"
+      ],
+      "text": "                                                                                                    Dr. Osama Essawi 2025\n\n    Oxidation of Malate to Oxaloacetate\n\n⬣   L-malate dehydrogenase catalyzes the oxidation of  L-malate to oxaloacetate, coupled to\n    the reduction of NAD+\n\n          - Low [oxaloacetate] pulls the reaction forward\n          - Regenerates oxaloacetate for citrate synthesis",
+      "visualNotes": "Reaction drawing: L-malate + NAD+ ⇌ oxaloacetate + NADH + H+; ΔG′° = 29.7 kJ/mol.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-malate-dehydrogenase",
+          "label": "Malate dehydrogenase and OAA pull",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "L-malate dehydrogenase oxidizes L-malate to oxaloacetate with NAD+ reduction; low OAA pulls forward and regenerated OAA serves citrate synthesis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "title": "Net Result of the Citric Acid Cycle",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Net Result of the Citric Acid Cycle"
+      ],
+      "text": "                                                                                        Dr. Osama Essawi 2025\n\nNet Result of the Citric Acid Cycle\n\n\n\n ⬣   Net oxidation of two carbons to CO2\n\n\n ⬣   The energy released by oxidation is\n     conserved in the production of:\n\n\n    3 NADH\n    1 FADH2\n\n\n ⬣   Generates 1 GTP, which can be\n     converted to ATP\n\n\nAcetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2 H2O \n2CO2 + 3NADH + FADH2 + GTP + CoA + 3H+",
+      "visualNotes": "Net equation as printed: Acetyl-CoA + 3NAD+ + FAD + GDP + Pi + 2 H2O → 2CO2 + 3NADH + FADH2 + GTP + CoA + 3H+. Cycle diagram positions NADH at isocitrate→α-ketoglutarate, α-ketoglutarate→succinyl-CoA and malate→OAA; FADH2 at succinate→fumarate; GTP(ATP) at succinyl-CoA→succinate.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-net-products",
+          "label": "Net TCA products per acetyl-CoA",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Net oxidation of two carbons to CO2; 3 NADH, 1 FADH2 and 1 GTP, convertible to ATP; CoA and 3 H+ also appear in stated net equation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "title": "Summary",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Summary"
+      ],
+      "text": "                                                                                                                         Dr. Osama Essawi 2025\n                           Summary\n\n\n\n⬣   Acetyl-CoA initiates the cycle by donating its acetyl group to oxaloacetate, forming citrate, a six-carbon\n    compound.\n⬣   Citrate is converted into isocitrate, another six-carbon molecule. Dehydrogenation of isocitrate, with\n    the loss of CO2, produces α-ketoglutarate, a five-carbon compound.\n⬣   α-Ketoglutarate     undergoes further decarboxylation, losing a second CO2 molecule, ultimately yielding\n    succinate, a four-carbon compound.\n⬣   Succinate is enzymatically converted in three steps into oxaloacetate, completing the cycle.\n⬣   Each cycle turnover involves the entry of one acetyl group (two carbons) from acetyl-CoA. Two\n    molecules of CO2 are released. One molecule of oxaloacetate is used to form citrate, and one molecule\n    is regenerated, ensuring no net removal of oxaloacetate.\n⬣   Four of the eight steps in the cycle are oxidation reactions, leading to the efficient conservation of\n    energy in the form of reduced coenzymes NADH and FADH2.\n⬣   Oxaloacetate is present in cells in very low concentrations, allowing it theoretically to participate in the\n    oxidation of numerous acetyl groups.",
+      "visualNotes": "The summary restates one acetyl group/two CO2 per turnover, four oxidation reactions of eight steps conserving NADH/FADH2, and very low cellular OAA permitting repeated acetyl-group oxidation.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-carbon-count",
+          "label": "Carbon counts through the TCA cycle",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Acetyl-CoA donates two-carbon group to OAA to form six-carbon citrate; six-carbon isocitrate loses CO2 to five-carbon α-ketoglutarate; further decarboxylation ultimately yields four-carbon succinate; three steps convert succinate to OAA. One OAA used and regenerated without net removal."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "title": "Role of the Citric Acid Cycle in Anabolism",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Role of the Citric Acid Cycle in Anabolism"
+      ],
+      "text": "                                                                                                              Dr. Osama Essawi 2025\n     Role of the Citric Acid\n     Cycle in Anabolism\n\n\n⬣   The citric acid cycle serves both catabolic and\n    anabolic processes in aerobic organisms.\n\n\n⬣   Oxaloacetate and α-ketoglutarate       serve as\n    precursors for aspartate and glutamate\n    through simple transamination.\n\n\n⬣   Succinyl-CoA, is crucial for synthesizing the\n    porphyrin ring of heme     groups.\n\n⬣   Oxaloacetate from the cycle can be\n    converted to glucose through\n    gluconeogenesis.",
+      "visualNotes": "Anabolic diagram: OAA ↔ phosphoenolpyruvate (PEP), labeled PEP carboxykinase on outward arrow and PEP carboxylase on return; PEP → glucose and serine/glycine/cysteine/phenylalanine/tyrosine/tryptophan. OAA → aspartate/asparagine → pyrimidines. Citrate → fatty acids/sterols. α-Ketoglutarate → glutamate → glutamine/proline/arginine and purines. Succinyl-CoA → porphyrins/heme. Red replenishing arrows: pyruvate → OAA (pyruvate carboxylase), PEP → OAA (PEP carboxylase), pyruvate → malate (malic enzyme).",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-amphibolic-cycle",
+          "label": "Catabolic and anabolic TCA roles",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "TCA serves both catabolic and anabolic processes in aerobic organisms."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-biosynthetic-withdrawals",
+          "label": "TCA intermediates as biosynthetic precursors",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "OAA and α-ketoglutarate become aspartate and glutamate by transamination; succinyl-CoA supplies heme porphyrin ring; OAA can support glucose formation through gluconeogenesis."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-biosynthetic-map",
+          "label": "Additional biosynthetic branches in TCA diagram",
+          "priority": "supporting",
+          "rationale": "Source detail retained without mandatory assessment emphasis; table authoring waits for owner where stated.",
+          "detail": "Diagram connects citrate to fatty acids/sterols; α-ketoglutarate through glutamate to glutamine/proline/arginine and purines; OAA through aspartate/asparagine to pyrimidines; PEP to serine/glycine/cysteine/phenylalanine/tyrosine/tryptophan; succinyl-CoA to porphyrins/heme."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "title": "Anaplerotic Reactions",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Anaplerotic Reactions"
+      ],
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n                      Anaplerotic                Reactions\n\n\n⬣    Intermediates in the citric acid cycle can be used in biosynthetic pathways (removed from cycle).\n\n⬣    Must replenish the intermediates in order for          the cycle and central metabolic pathway to          continue\n\n\n⬣    The most important anaplerotic        reaction in mammalian liver, kidney, and brown adipose tissue is\n     the reversible carboxylation of pyruvate        to form oxaloacetate, catalyzed by pyruvate carboxylase.",
+      "visualNotes": "TABLE16-2, Anaplerotic Reactions, columns Reaction and Tissue(s)/organism(s). Row1: Pyruvate + HCO3− + ATP ⇌ oxaloacetate + ADP + Pi; pyruvate carboxylase; liver, kidney. Row2: phosphoenolpyruvate + CO2 + GDP ⇌ oxaloacetate + GTP; PEP carboxykinase; heart, skeletal muscle. Row3: phosphoenolpyruvate + HCO3− ⇌ oxaloacetate + Pi; PEP carboxylase; higher plants, yeast, bacteria. Row4: pyruvate + HCO3− + NAD(P)H ⇌ malate + NAD(P)+; malic enzyme; widely distributed in eukaryotes and bacteria. Arrows are preserved as drawn, without validating their biochemical reversibility. Table material is preserved for source fidelity; questions/Memorize on table-only facts wait for the owner’s choice.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-anaplerosis-purpose",
+          "label": "Replenishing withdrawn cycle intermediates",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "TCA intermediates removed for biosynthesis must be replenished for cycle/central metabolism to continue."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-pyruvate-carboxylase",
+          "label": "Pyruvate carboxylase replenishes oxaloacetate",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Body text names pyruvate carboxylation to OAA by pyruvate carboxylase as most important anaplerotic reaction in mammalian liver, kidney and brown adipose tissue."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-anaplerotic-reversibility",
+          "label": "Source-described reversibility of pyruvate carboxylation",
+          "priority": "supporting",
+          "rationale": "Source detail retained without mandatory assessment emphasis; table authoring waits for owner where stated.",
+          "detail": "Source describes carboxylation of pyruvate as reversible. Preserve this as a doubtful source claim without outside repair; do not score reversibility."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-anaplerotic-table",
+          "label": "Table16-2 anaplerotic reactions and distribution",
+          "priority": "supporting",
+          "rationale": "Source detail retained without mandatory assessment emphasis; table authoring waits for owner where stated.",
+          "detail": "Four rows: pyruvate carboxylase in liver/kidney; PEP carboxykinase in heart/skeletal muscle; PEP carboxylase in higher plants/yeast/bacteria; malic enzyme widely in eukaryotes/bacteria. Table-derived authoring approved, except the flagged reversibility claim."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "citric-U001",
+          "claim": "Pyruvate carboxylation is described as reversible in body text and drawn with a reversible arrow in Table16-2.",
+          "issue": "Reversibility is doubtful; source preserved without external correction. Do not use this exact claim to determine a scored answer.",
+          "status": "unresolved",
+          "blockedConceptIds": [
+            "citric-acid-cycle-and-pdh-anaplerotic-reversibility"
+          ]
+        }
+      ],
+      "sourceTableReview": {
+        "status": "approved",
+        "tableIds": [
+          "citric-table-16-2"
+        ]
+      }
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "title": "Citric Acid Cycle Regulation",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Citric Acid Cycle Regulation"
+      ],
+      "text": "                                                                                                     Dr. Osama Essawi 2025\n\n   Citric Acid Cycle Regulation\n\n\n\n⬣   Regulation balances the supply of key\n    intermediates with the demands of energy\n    production and biosynthetic processes\n\n\n⬣   Regulation occurs at several points:\n\n          - PDH complex\n          - Citrate synthase\n          - Isocitrate dehydrogenase complex\n          - α-ketoglutarate    dehydrogenase complex",
+      "visualNotes": "Regulation diagram names all cycle intermediates/enzymes and energy products as on p27, with red inhibition symbols and green activation symbols. PDH: ATP, acetyl-CoA, NADH, fatty acids inhibit; AMP, CoA, NAD+, Ca2+ activate. Citrate synthase: NADH, succinyl-CoA, citrate, ATP inhibit; ADP activates. Isocitrate dehydrogenase: ATP inhibits; Ca2+, ADP activate. α-Ketoglutarate dehydrogenase: succinyl-CoA and NADH inhibit; Ca2+ activates.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-regulation-purpose",
+          "label": "Regulation balances energy and biosynthesis",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Regulation balances intermediate supply against energy and biosynthetic demand; regulatory points PDH, citrate synthase, isocitrate dehydrogenase complex and α-ketoglutarate dehydrogenase complex."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-cycle-regulation-diagram",
+          "label": "Regulatory effectors in pathway diagram",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "PDH inhibited ATP/acetyl-CoA/NADH/fatty acids, activated AMP/CoA/NAD+/Ca2+; citrate synthase inhibited NADH/succinyl-CoA/citrate/ATP, activated ADP; isocitrate dehydrogenase inhibited ATP, activated Ca2+/ADP; α-ketoglutarate dehydrogenase inhibited succinyl-CoA/NADH, activated Ca2+."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "title": "Citric Acid Cycle Regulation — effector table",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [
+        "Citric Acid Cycle Regulation — effector table"
+      ],
+      "text": "                                                                                                      Dr. Osama Essawi 2025\n\nCitric Acid Cycle Regulation\n\n\n  ⬣   Regulation occurs at strongly exergonic steps\n\n\n  ⬣    Fluxes are affected by the concentrations of substrates and products\n\n\n       Regulatory enzyme                Activation                        Inhibition\n\n       Citrate synthase                     ADP                           ↑  NADH / NAD+, ATP\n                                                                              succinyl-CoA\n                                                                              long chain F.A, citrate\n       Isocitrate dehydrogenase         ↓  ATP / ADP                      ↑  NADH / NAD+\n                                            Ca2+                          ↑  ATP / ADP\n       A-ketoglutarate                      Ca2+                          ↑  NADH / NAD+\n       dehydrogenase                                                      ↑ ATP / ADP\n                                                                            GTP\n                                                                             succinyl-CoA",
+      "visualNotes": "Columns: Regulatory enzyme | Activation | Inhibition. Citrate synthase | ADP | ↑NADH/NAD+, ATP; succinyl-CoA; long chain F.A., citrate. Isocitrate dehydrogenase | ↓ATP/ADP; Ca2+ | ↑NADH/NAD+; ↑ATP/ADP. A-ketoglutarate dehydrogenase | Ca2+ | ↑NADH/NAD+; ↑ATP/ADP; GTP; succinyl-CoA. The printed A-ketoglutarate spelling is retained here; the chapter elsewhere prints α-ketoglutarate. Table questions/Memorize approved by owner.",
+      "concepts": [
+        {
+          "id": "citric-acid-cycle-and-pdh-regulation-exergonic",
+          "label": "Regulation at strongly exergonic steps",
+          "priority": "core",
+          "rationale": "Explicit source-taught distinction or relationship.",
+          "detail": "Regulation occurs at strongly exergonic steps; fluxes affected by substrate/product concentrations."
+        },
+        {
+          "id": "citric-acid-cycle-and-pdh-regulatory-table",
+          "label": "Regulatory enzyme activation/inhibition table",
+          "priority": "supporting",
+          "rationale": "Source detail retained without mandatory assessment emphasis; table authoring waits for owner where stated.",
+          "detail": "Citrate synthase activated ADP, inhibited ↑NADH/NAD+, ATP, succinyl-CoA, long-chain F.A., citrate; isocitrate dehydrogenase activated ↓ATP/ADP and Ca2+, inhibited ↑NADH/NAD+ and ↑ATP/ADP; α-ketoglutarate dehydrogenase activated Ca2+, inhibited ↑NADH/NAD+, ↑ATP/ADP, GTP, succinyl-CoA. Table-only facts approved by owner."
+        }
+      ],
+      "uncertainties": [],
+      "sourceTableReview": {
+        "status": "approved",
+        "tableIds": [
+          "citric-regulation-table"
+        ]
+      }
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "title": "Thanks — closing course slide",
+      "kind": "administrative",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writer; source inspection, not independent review",
+      "topics": [],
+      "text": "                                                                               Dr. Osama Essawi 2025\n\nThanks!",
+      "visualNotes": "Thanks! Dr. Osama Essawi, Faculty of Medicine, Department of Biochemistry & Molecular Biology, Metabolic Biochemistry, Course Number6105212. No teaching content.",
+      "concepts": [],
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": [
+    "citric-acid-cycle-and-pdh-anaplerotic-reversibility"
+  ],
+  "sourceTables": [
+    {
+      "id": "citric-table-16-2",
+      "pdfPage": 30,
+      "title": "Table16-2 Anaplerotic Reactions",
+      "status": "approved"
+    },
+    {
+      "id": "citric-regulation-table",
+      "pdfPage": 32,
+      "title": "Citric Acid Cycle Regulation",
+      "status": "approved"
+    }
+  ],
+  "ownerTableDecision": "Owner selected Table16-2 p30 and regulation table p32. Uncertain pyruvate-carboxylation reversibility remains blocked."
+}

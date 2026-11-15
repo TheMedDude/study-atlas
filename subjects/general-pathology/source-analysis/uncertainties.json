@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-pathology",
+  "items": [
+    {
+      "id": "ch1-part-01-u030",
+      "claim": "Prefix table gives Ana- as absence with Anaphylaxis example. Example/meaning pairing is doubtful; preserve without correction, exclude this table from scoring.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-01",
+      "pdfPage": 30,
+      "printedSlide": "30"
+    },
+    {
+      "id": "ch1-part-01-u031",
+      "claim": "Suffix table gives -emia as vascular with ischemia example, and -plasia as disorder of growth. Terminology is insufficiently precise for scored distinctions; preserved, table excluded from scoring.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-01",
+      "pdfPage": 31,
+      "printedSlide": "31"
+    },
+    {
+      "id": "ch1-part-02-u029",
+      "claim": "Slide groups H2O2 under oxygen free radicals/ROS and says reactive nitrite species. Do not score whether every listed ROS is itself a free radical, or the nitrite terminology; use only clear definition/other pages.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-02",
+      "pdfPage": 29,
+      "printedSlide": "29"
+    },
+    {
+      "id": "ch1-part-03-u007",
+      "claim": "Diagram groups dysplasia with adaptations, whereas p6 lists four main adaptations and does not define dysplasia. Do not score its categorization.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-03",
+      "pdfPage": 7,
+      "printedSlide": "7"
+    },
+    {
+      "id": "ch1-part-03-u020-checker",
+      "claim": "Source p20 links increased structural synthesis to increased workload, whereas p19 presents workload as the trigger. Preserve both; do not score causal reversal. Increased synthesis and cell size remain clear.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-03",
+      "pdfPage": 20,
+      "printedSlide": "20"
+    },
+    {
+      "id": "ch1-part-04-u012-checker",
+      "claim": "Gout example specifically attributes symptoms to macrophage migration toward urate crystals. Preserve literal wording without extending it to a universal cell-specific therapeutic claim; microtubule/leukocyte mechanism remains assessable.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-04",
+      "pdfPage": 12,
+      "printedSlide": "12"
+    },
+    {
+      "id": "ch1-part-04-u014",
+      "claim": "Slide states HSP60/90 always produced and HSP70 only under stress. Absolute expression claims are not qualified; defer those claims, retain protein-refolding/degradation pathway.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-04",
+      "pdfPage": 14,
+      "printedSlide": "14"
+    },
+    {
+      "id": "ch1-part-05-u009",
+      "claim": "Slide calls mitochondrial alteration the earliest manifestation and gives phospholipid-rich amorphous densities; irreversible p23 gives calcium-rich densities. Avoid unqualified earliest/density questions; preserve both.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-05",
+      "pdfPage": 9,
+      "printedSlide": "9"
+    },
+    {
+      "id": "ch1-part-05-u025",
+      "claim": "Liver alkaline phosphatase is listed as a leakage example without context. Preserve it but do not use that isolated marker attribution as a scored target.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-05",
+      "pdfPage": 25,
+      "printedSlide": "25"
+    },
+    {
+      "id": "ch1-part-05-u029-checker",
+      "claim": "Diagram branches from normal nucleus to three changes. Do not infer a universal pyknosis-karyorrhexis-karyolysis ordering; individual meanings remain assessable.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-05",
+      "pdfPage": 29,
+      "printedSlide": "29"
+    },
+    {
+      "id": "ch1-part-07-u007-checker",
+      "claim": "Source assigns initiators to certain cell types and effectors to all cell types. Defer these absolute distribution claims; the functional initiator/executioner distinction remains clear.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-07",
+      "pdfPage": 7,
+      "printedSlide": "7"
+    },
+    {
+      "id": "ch1-part-07-u008",
+      "claim": "Detailed BCL2 wording includes binding/sequestering cytochrome c and stabilizing Apaf; later diagrams describe regulation of permeability. Preserve wording, defer that detailed molecular binding claim.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-07",
+      "pdfPage": 8,
+      "printedSlide": "8"
+    },
+    {
+      "id": "ch1-part-07-u009",
+      "claim": "AIF is depicted converging on caspase activation; this specific simplified route is unqualified. Do not score the AIF-caspase link.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-07",
+      "pdfPage": 9,
+      "printedSlide": "9"
+    },
+    {
+      "id": "ch1-part-07-u010",
+      "claim": "Slide says cytochrome c/Apaf activates effector caspases directly, while p15 includes initiator then executioner stages. Assess overall mitochondrial/caspase route, not direct activation distinction.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-07",
+      "pdfPage": 10,
+      "printedSlide": "10"
+    },
+    {
+      "id": "ch1-part-07-u022-checker",
+      "claim": "Table says apoptosis affects one cell, but p17 allows single cells or groups. Do not score a prohibition against apoptotic groups.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-07",
+      "pdfPage": 22,
+      "printedSlide": null
+    },
+    {
+      "id": "ch1-part-08-u009",
+      "claim": "Some diagram-adjacent text is clipped in original, not merely missing from extraction. Preserve legible pathways and flag clipped text; do not guess it.",
+      "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-08",
+      "pdfPage": 9,
+      "printedSlide": "9"
+    },
+    {
+      "id": "ch1-part-08-u034-checker",
+      "claim": "Renal failure appears in an unqualified hypercalcemia-cause list. Preserve the source but do not infer that all renal failure causes hypercalcemia.",
+      "resolution": "Unresolved; doubtful claim excluded from scoring.",
+      "blockedFromScoring": true,
+      "lectureId": "ch1-part-08",
+      "pdfPage": 34,
+      "printedSlide": "34"
+    },
+    {
+      "id": "ch2-part-01-u042",
+      "description": "Text says degradation and secretion of lysosomal enzymes whereas figure p43 labels secretion/degranulation; preserve wording and avoid scoring the degradation/degranulation substitution.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-01",
+      "pdfPage": 42,
+      "printedSlide": "42"
+    },
+    {
+      "id": "ch2-part-01-u048",
+      "description": "HOCl is called hypochlorous radical/powerful free radical, while p49 uses HOCl/hypochlorite; preserve source terminology, do not assess chemical classification.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-01",
+      "pdfPage": 48,
+      "printedSlide": "48"
+    },
+    {
+      "id": "ch2-part-02-u011",
+      "description": "Serotonin storage includes mast cells while p4 source table lists platelets; avoid exclusivity claims.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 11,
+      "printedSlide": "11"
+    },
+    {
+      "id": "ch2-part-02-u015",
+      "description": "LTB4 is grouped under bronchoconstrictors, unlike p14 and p17 which separate LTB4 chemotaxis from LTC4/D4/E4 bronchospasm. Aspirin platelet-effect reversal 3–5 days/must synthesize enzyme is also unclear. Preserve and block these claims.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 15,
+      "printedSlide": "15"
+    },
+    {
+      "id": "ch2-part-02-u018",
+      "description": "Original rendered slide reads IFN-alpha/TNF-alpha for macrophage NO stimulation; text extraction gives IFN-g. Preserve the printed alpha subtype and defer this disputed stimulus.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 18,
+      "printedSlide": "18"
+    },
+    {
+      "id": "ch2-part-02-u022",
+      "description": "Heading describes kinins as serine proteases; distinguish cascade enzymes from bradykinin product without scoring this category wording.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 22,
+      "printedSlide": "22"
+    },
+    {
+      "id": "ch2-part-02-u038",
+      "description": "Serous fluid called transudate; preserve source-specific wording, avoid universal equivalence.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 38,
+      "printedSlide": "38"
+    },
+    {
+      "id": "ch2-part-02-u040",
+      "description": "Bacterial infection is listed as a cause of fibrinous inflammation; no exclusive causation claim is justified.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 40,
+      "printedSlide": "40"
+    },
+    {
+      "id": "ch2-part-02-u045",
+      "description": "Pus within cavities called abscess without circumscription qualification; use circumscribed definition on p46.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 45,
+      "printedSlide": "45"
+    },
+    {
+      "id": "ch2-part-02-u046",
+      "description": "Abscess healing always by scarring/fibrosis is absolute; preserve but avoid unqualified universal scoring.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-02",
+      "pdfPage": 46,
+      "printedSlide": "46"
+    },
+    {
+      "id": "ch2-part-03-u020",
+      "description": "Image labeled chronic glomerulonephritis; diagnosis cannot be independently established from this image; not a scored identification.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-03",
+      "pdfPage": 20,
+      "printedSlide": "20"
+    },
+    {
+      "id": "ch2-part-03-u038",
+      "description": "Diagram equates infectious granulomas with caseation and noninfectious with noncaseation; etiologic tables p36/37 are broader. Do not score as universal diagnostic rule.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-03",
+      "pdfPage": 38,
+      "printedSlide": "38"
+    },
+    {
+      "id": "ch2-part-03-u056",
+      "description": "Summary table uses minus signs for chronic edema/cardinal signs; interpret as typical contrast, never absolute absence.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-03",
+      "pdfPage": 56,
+      "printedSlide": "56"
+    },
+    {
+      "id": "ch2-part-03-u057",
+      "description": "Summary usually absent acute necrosis/fibrosis is qualified; retain usually and avoid absolute contrasts.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not use the flagged claim to determine a scored answer.",
+      "lectureId": "ch2-part-03",
+      "pdfPage": 57,
+      "printedSlide": "57"
+    }
+  ]
+}

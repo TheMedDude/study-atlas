@@ -1,0 +1,3041 @@
+{
+  "lectureId": "ch2-part-01",
+  "coverageDeferrals": [],
+  "author": "Codex chapter2 writer, GPT-6.1 Sol session designation",
+  "reviewStage": "Accepted for local use after fresh second Codex check; Antigravity and Claude pending",
+  "activities": [
+    {
+      "id": "ch2-part-01-definition",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p002-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which response defines inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "Definition versus regeneration, scarring, emigration and exudation; primary PDF p2. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "A dynamic vascularized-tissue response to injury",
+          "evidence": "PDF p2 defines inflammation as the dynamic response of vascularized tissue to injury."
+        },
+        {
+          "id": "o2",
+          "text": "Replacement of damaged parenchyma by new parenchymal cells",
+          "evidence": "PDF p3 assigns this to regeneration, one route of repair, rather than the definition of inflammation."
+        },
+        {
+          "id": "o3",
+          "text": "Filling a residual tissue defect with a fibrous scar",
+          "evidence": "PDF p3 assigns this to scar repair, rather than the overall injury response."
+        },
+        {
+          "id": "o4",
+          "text": "Movement of white cells from microcirculation into tissue",
+          "evidence": "PDF p12 defines the cellular component; it is one component rather than the full response."
+        },
+        {
+          "id": "o5",
+          "text": "Movement of protein-rich fluid into extravascular tissue",
+          "evidence": "PDF p20 defines exudation, one vascular event rather than the full response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Inflammation is a dynamic, protective response of vascularized tissue that brings defense and healing mechanisms to injury.",
+        "ar": "Inflammation استجابة ديناميكية واقية في النسيج ذي الأوعية، توصل آليات الدفاع والالتئام إلى موضع الأذية."
+      }
+    },
+    {
+      "id": "ch2-part-01-repair",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p003-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "How can damaged tissue be replaced during repair after inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "Alternative/combined regeneration and scarring routes on p3; no mandatory sequence inferred. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Parenchymal regeneration, fibrous scarring, or both",
+          "evidence": "PDF p3 explicitly permits regeneration and/or filling by fibrous scar tissue."
+        },
+        {
+          "id": "o2",
+          "text": "Parenchymal regeneration, with scarring excluded",
+          "evidence": "PDF p3 also permits fibrous scar formation, so regeneration is not the sole route."
+        },
+        {
+          "id": "o3",
+          "text": "Fibrous scarring, with regeneration excluded",
+          "evidence": "PDF p3 also permits parenchymal regeneration."
+        },
+        {
+          "id": "o4",
+          "text": "Regeneration followed obligatorily by fibrous scarring",
+          "evidence": "The and/or wording on PDF p3 permits either route and does not require this sequence."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrous scarring followed obligatorily by regeneration",
+          "evidence": "PDF p3 presents alternative or combined routes, not a compulsory reverse sequence."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Repair replaces damaged tissue through parenchymal regeneration, fibrous scar tissue, or both.",
+        "ar": "يستبدل Repair النسيج المتضرر بتجدد الخلايا البرنشيمية أو النسيج الندبي الليفي أو كليهما."
+      }
+    },
+    {
+      "id": "ch2-part-01-causes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p004-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Match each inflammatory trigger with its category.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "Trauma/radiation -> physical; microbes -> infection; acid/alkali/toxins -> chemical on p4; mappings unique.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Trauma or radiation",
+          "right": "Physical agents",
+          "evidence": "Trauma or radiation: Physical agents."
+        },
+        {
+          "id": "p2",
+          "left": "Microbial agents",
+          "right": "Infection",
+          "evidence": "Microbial agents: Infection."
+        },
+        {
+          "id": "p3",
+          "left": "Acid, alkali or toxins",
+          "right": "Chemical agents",
+          "evidence": "Acid, alkali or toxins: Chemical agents."
+        }
+      ],
+      "explanation": {
+        "en": "Physical, infectious and chemical injuries are distinct trigger categories; ischemia and immune reactions are also listed.",
+        "ar": "تشمل المحفزات Physical agents وInfection وChemical agents، إضافة إلى Ischemia والتفاعلات المناعية."
+      }
+    },
+    {
+      "id": "ch2-part-01-acute-pattern",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p005-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Which combination characterizes acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p5 early exudative/neutrophilic pattern contrasted with delayed mononuclear/scarring pattern. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Delayed response, lymphocyte influx and scarring",
+          "evidence": "PDF p5 places delayed lymphocyte influx and scarring in chronic inflammation."
+        },
+        {
+          "id": "o5",
+          "text": "Delayed response, scarring without cellular influx",
+          "evidence": "PDF p5 describes chronic inflammation with macrophage/lymphocyte influx, not scarring without cellular influx."
+        },
+        {
+          "id": "o1",
+          "text": "Early response, fluid/protein exudation and predominant neutrophils",
+          "evidence": "PDF p5 defines the acute pattern as early, with fluid/protein exudation and predominant neutrophils."
+        },
+        {
+          "id": "o2",
+          "text": "Delayed response, macrophage influx and vascular proliferation",
+          "evidence": "PDF p5 places delayed macrophage influx and vascular proliferation in chronic inflammation."
+        },
+        {
+          "id": "o4",
+          "text": "Early response, fibrosis without exudation",
+          "evidence": "PDF p5 emphasizes exudation and neutrophils in acute inflammation, rather than fibrosis without exudation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Acute inflammation lasts minutes to days and prominently involves fluid/plasma protein exudation and neutrophils; the delayed macrophage/lymphocyte pattern is chronic.",
+        "ar": "يكون Acute inflammation مبكرًا ويستمر دقائق إلى أيام، مع خروج السوائل وبروتينات البلازما وغلبة Neutrophils؛ أما النمط المتأخر بالـMacrophages وLymphocytes فمزمن."
+      }
+    },
+    {
+      "id": "ch2-part-01-components",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p006-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Match each component of inflammation with its function or contents.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p6 smooth-muscle tone, fibroblast matrix synthesis, plasma proteins and fibronectin connections; unique function/content mappings.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Underlying vascular smooth muscle",
+          "right": "Controls vessel tone",
+          "evidence": "Underlying vascular smooth muscle: Controls vessel tone."
+        },
+        {
+          "id": "p2",
+          "left": "Fibroblasts",
+          "right": "Synthesize extracellular matrix",
+          "evidence": "Fibroblasts: Synthesize extracellular matrix."
+        },
+        {
+          "id": "p3",
+          "left": "Circulating plasma proteins",
+          "right": "Clotting factors, kininogens and complement",
+          "evidence": "Circulating plasma proteins: Clotting factors, kininogens and complement."
+        },
+        {
+          "id": "p4",
+          "left": "Adhesive glycoproteins such as fibronectin",
+          "right": "Connect cells to ECM and ECM to ECM",
+          "evidence": "Adhesive glycoproteins such as fibronectin: Connect cells to ECM and ECM to ECM."
+        }
+      ],
+      "explanation": {
+        "en": "Vascular, circulating and connective-tissue components perform different roles in the response.",
+        "ar": "تؤدي المكونات الوعائية والجائلة ومكونات النسيج الضام أدوارًا مختلفة؛ تضبط Smooth muscle التوتر الوعائي وتصنع Fibroblasts الـECM."
+      }
+    },
+    {
+      "id": "ch2-part-01-early-aim",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p008-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "What is an immediate aim of the early acute inflammatory response?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p8 immediate delivery of leukocytes distinguished from later repair and cell replacement. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Deliver leukocytes to the injured tissue",
+          "evidence": "PDF p8 states leukocyte delivery as an immediate early aim."
+        },
+        {
+          "id": "o2",
+          "text": "Replace injured parenchymal cells by regeneration",
+          "evidence": "PDF p3 describes repair rather than the immediate cellular-delivery aim."
+        },
+        {
+          "id": "o3",
+          "text": "Fill a residual tissue defect with fibrous scar",
+          "evidence": "PDF p3 describes scar repair rather than early leukocyte delivery."
+        },
+        {
+          "id": "o4",
+          "text": "Establish vascular proliferation and scarring",
+          "evidence": "PDF p5 gives this as a chronic inflammatory pattern."
+        },
+        {
+          "id": "o5",
+          "text": "Replace early neutrophils with macrophages and lymphocytes",
+          "evidence": "PDF p41 describes later changes in cellular predominance, not the immediate delivery aim."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The immediate early response aims to deliver leukocytes to the injured site.",
+        "ar": "تهدف الاستجابة المبكرة في Acute inflammation إلى إيصال Leukocytes لموضع الأذية."
+      }
+    },
+    {
+      "id": "ch2-part-01-cardinal-signs",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p009-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Match each cardinal sign with its meaning.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p9 all five Latin terms mapped to exact meanings; paired hyperemia/exudation explanation faithful in both languages.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Calor",
+          "right": "Heat",
+          "evidence": "Calor: Heat."
+        },
+        {
+          "id": "p2",
+          "left": "Rubor",
+          "right": "Redness",
+          "evidence": "Rubor: Redness."
+        },
+        {
+          "id": "p3",
+          "left": "Dolor",
+          "right": "Pain",
+          "evidence": "Dolor: Pain."
+        },
+        {
+          "id": "p4",
+          "left": "Tumor",
+          "right": "Swelling",
+          "evidence": "Tumor: Swelling."
+        },
+        {
+          "id": "p5",
+          "left": "Functio laesa",
+          "right": "Loss of function",
+          "evidence": "Functio laesa: Loss of function."
+        }
+      ],
+      "explanation": {
+        "en": "Calor and rubor accompany hyperemia; tumor accompanies exudation, and dolor involves nerves/chemical mediators.",
+        "ar": "يعني Calor الحرارة وRubor الاحمرار وDolor الألم وTumor التورم وFunctio laesa فقد الوظيفة؛ ترتبط الحرارة والاحمرار بالـHyperemia والتورم بالـExudation."
+      }
+    },
+    {
+      "id": "ch2-part-01-nomenclature-a",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p010-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Match each inflamed tissue with its corresponding term.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p10 meninges/brain/pleura/bone/bladder terms; all five exact tissue-name mappings unique.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Meninges",
+          "right": "Meningitis",
+          "evidence": "Meninges: Meningitis."
+        },
+        {
+          "id": "p2",
+          "left": "Brain",
+          "right": "Encephalitis",
+          "evidence": "Brain: Encephalitis."
+        },
+        {
+          "id": "p3",
+          "left": "Pleura",
+          "right": "Pleurisy",
+          "evidence": "Pleura: Pleurisy."
+        },
+        {
+          "id": "p4",
+          "left": "Bone",
+          "right": "Osteomyelitis",
+          "evidence": "Bone: Osteomyelitis."
+        },
+        {
+          "id": "p5",
+          "left": "Urinary bladder",
+          "right": "Cystitis",
+          "evidence": "Urinary bladder: Cystitis."
+        }
+      ],
+      "explanation": {
+        "en": "Inflammation is named according to the affected tissue; bone inflammation is osteomyelitis and bladder inflammation is cystitis.",
+        "ar": "تُسمى الاستجابة حسب النسيج المصاب؛ التهاب العظم Osteomyelitis والتهاب المثانة Cystitis."
+      }
+    },
+    {
+      "id": "ch2-part-01-nomenclature-b",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p010-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Match each inflammatory example with its listed cause.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p10 appendicitis/obstruction, pancreatitis/enzyme release, sunburn/UV and arteritis/immune complexes; listed-cause scope retained, no exclusivity implied.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Appendicitis",
+          "right": "Faecal obstruction",
+          "evidence": "Appendicitis: Faecal obstruction."
+        },
+        {
+          "id": "p2",
+          "left": "Pancreatitis",
+          "right": "Pancreatic enzyme release",
+          "evidence": "Pancreatitis: Pancreatic enzyme release."
+        },
+        {
+          "id": "p3",
+          "left": "Sunburn",
+          "right": "UV radiation",
+          "evidence": "Sunburn: UV radiation."
+        },
+        {
+          "id": "p4",
+          "left": "Arteritis",
+          "right": "Immune complex deposition",
+          "evidence": "Arteritis: Immune complex deposition."
+        }
+      ],
+      "explanation": {
+        "en": "Appendicitis can follow faecal obstruction; pancreatitis can follow pancreatic enzyme release. UV radiation produces sunburn, and immune complex deposition can cause arteritis.",
+        "ar": "قد ينتج Appendicitis عن انسداد برازي، وPancreatitis عن تحرر إنزيمات البنكرياس. تسبب UV radiation حروق الشمس، وقد يسبب ترسب Immune complexes التهاب الشرايين Arteritis."
+      }
+    },
+    {
+      "id": "ch2-part-01-components-acute",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p012-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which change belongs to the vascular rather than cellular component of acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p12 vascular permeability/protein delivery contrasted with distinct leukocyte recruitment events. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased permeability permitting plasma protein delivery",
+          "evidence": "PDF p12 places altered caliber/permeability and plasma protein delivery in the vascular component."
+        },
+        {
+          "id": "o2",
+          "text": "Emigration of WBCs into the inflammatory focus",
+          "evidence": "PDF p12 explicitly identifies WBC emigration as the cellular component."
+        },
+        {
+          "id": "o3",
+          "text": "Rolling of leukocytes along endothelial surfaces",
+          "evidence": "PDF p35 describes a leukocyte recruitment event."
+        },
+        {
+          "id": "o4",
+          "text": "Firm sticking of leukocytes through integrins",
+          "evidence": "PDF p37 describes the cellular adhesion step."
+        },
+        {
+          "id": "o5",
+          "text": "Leukocyte passage between endothelial cells",
+          "evidence": "PDF p39 describes cellular transmigration rather than plasma-protein delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The vascular component changes caliber and permeability; cellular emigration moves WBCs from the microcirculation to the inflammatory focus.",
+        "ar": "تغير المكونات الوعائية قطر الأوعية ونفوذيتها لتوصيل بروتينات البلازما؛ أما Cellular emigration فتنقل WBCs إلى البؤرة الالتهابية."
+      }
+    },
+    {
+      "id": "ch2-part-01-warmth",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p015-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "What directly accounts for erythema and warmth in acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p15 vascular dilation causes warmth/erythema; adjacent recruitment/edema events distinguished. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Dilation of local blood vessels",
+          "evidence": "PDF p15 links vascular dilation to erythema and warmth."
+        },
+        {
+          "id": "o2",
+          "text": "Extravasation of plasma fluid and proteins",
+          "evidence": "PDF p15 links this primarily to edema/swelling."
+        },
+        {
+          "id": "o3",
+          "text": "Transient sticking of leukocytes to endothelium",
+          "evidence": "PDF p35 defines rolling, a separate cellular recruitment event."
+        },
+        {
+          "id": "o4",
+          "text": "Migration of leukocytes along a chemical gradient",
+          "evidence": "PDF p41 defines chemotaxis, a separate cellular event."
+        },
+        {
+          "id": "o5",
+          "text": "Engulfment of a microbe into a phagocytic vacuole",
+          "evidence": "PDF p45 defines engulfment, a later phagocytic event."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Vascular dilation causes erythema and warmth, whereas fluid/protein extravasation produces edema.",
+        "ar": "يسبب Vascular dilation الاحمرار والدفء، بينما يسبب خروج السوائل والبروتينات Edema."
+      }
+    },
+    {
+      "id": "ch2-part-01-stasis",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p017-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "What explains slowing of the circulation during acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p17 increased viscosity/stasis distinguished from transient constriction, early increased flow and reversed fluid retention. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased blood viscosity after vascular fluid loss",
+          "evidence": "PDF p17 associates the slowing with increased viscosity/stasis; p18 documents fluid/protein escape."
+        },
+        {
+          "id": "o2",
+          "text": "Decreased blood viscosity after vascular fluid loss",
+          "evidence": "PDF p17 gives increased, rather than decreased, viscosity."
+        },
+        {
+          "id": "o3",
+          "text": "Sustained arteriolar constriction instead of dilation",
+          "evidence": "PDF p17 describes transient constriction followed by arteriolar dilation, not sustained constriction."
+        },
+        {
+          "id": "o4",
+          "text": "Increased flow through dilated arterioles alone",
+          "evidence": "PDF p17 associates this phase with warmth; the later slowing is associated with viscosity/stasis."
+        },
+        {
+          "id": "o5",
+          "text": "Retention of protein-rich fluid within the circulation",
+          "evidence": "PDF pp17–18 describe increased permeability and outward fluid movement, not retention."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The sequence includes dilation, increased permeability and then slowing associated with increased viscosity and stasis.",
+        "ar": "يتضمن التسلسل توسع الأوعية وزيادة النفوذية ثم بطء الجريان المرتبط بزيادة لزوجة الدم وStasis."
+      }
+    },
+    {
+      "id": "ch2-part-01-osmotic-shift",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p018-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "How does loss of plasma protein during inflammatory exudation alter osmotic pressure?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p18 direction of intravascular/interstitial osmotic changes; every alternative checked for the exact reversal. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Neither compartment changes osmotic pressure",
+          "evidence": "PDF p18 explicitly gives a change in both compartments rather than unchanged pressures."
+        },
+        {
+          "id": "o2",
+          "text": "Intravascular pressure increases; interstitial pressure decreases",
+          "evidence": "This reverses both compartment changes explicitly stated on PDF p18."
+        },
+        {
+          "id": "o3",
+          "text": "Both intravascular and interstitial pressures decrease",
+          "evidence": "PDF p18 gives increased, rather than decreased, interstitial osmotic pressure."
+        },
+        {
+          "id": "o1",
+          "text": "Intravascular pressure decreases; interstitial pressure increases",
+          "evidence": "PDF p18 states decreased intravascular and increased interstitial osmotic pressure after plasma protein loss."
+        },
+        {
+          "id": "o4",
+          "text": "Both intravascular and interstitial pressures increase",
+          "evidence": "PDF p18 gives decreased, rather than increased, intravascular osmotic pressure."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Protein loss lowers intravascular osmotic pressure and increases interstitial osmotic pressure, promoting outward fluid movement.",
+        "ar": "يخفض فقد بروتين البلازما الضغط الأسموزي داخل الأوعية ويرفعه في السائل الخلالي، فيعزز خروج السوائل."
+      }
+    },
+    {
+      "id": "ch2-part-01-edema",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p018-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which vascular combination promotes inflammatory edema?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p18 hydrostatic increase plus protein escape; osmotic and permeability reversals checked separately. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Reduced vessel flow with no permeability change",
+          "evidence": "PDF p18 specifies increased permeability and increased flow through dilated vessels, not reduced flow without a permeability change."
+        },
+        {
+          "id": "o4",
+          "text": "Decreased interstitial osmotic pressure with protein-rich extravasation",
+          "evidence": "PDF p18 describes increased interstitial osmotic pressure after protein escape."
+        },
+        {
+          "id": "o2",
+          "text": "Decreased hydrostatic pressure with protein retention",
+          "evidence": "PDF p18 describes increased hydrostatic pressure and protein escape, not decreased pressure with retention."
+        },
+        {
+          "id": "o1",
+          "text": "Increased hydrostatic pressure with protein-rich extravasation",
+          "evidence": "PDF p18 combines increased hydrostatic pressure from dilation with protein escape and outward fluid accumulation."
+        },
+        {
+          "id": "o3",
+          "text": "Increased intravascular osmotic pressure with protein retention",
+          "evidence": "PDF p18 describes reduced intravascular osmotic pressure after protein loss, not increased pressure with retention."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Dilation increases hydrostatic pressure while protein escape alters osmotic forces; together these promote extravascular fluid accumulation.",
+        "ar": "يرفع التوسع الوعائي الضغط الهيدروستاتيكي، ويغير خروج البروتين القوى الأسموزية؛ فيتراكم السائل خارج الأوعية مسببًا Edema."
+      }
+    },
+    {
+      "id": "ch2-part-01-transudate",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p020-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which pair correctly contrasts transudation and exudation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p20 low-protein hydrostatic ultrafiltration versus protein-rich permeability leakage; all paired permutations checked. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Transudation: little protein from permeability; exudation: protein-rich fluid without permeability change",
+          "evidence": "PDF p20 assigns transudation to hydrostatic pressure and exudation to increased permeability, the reverse of these mechanisms."
+        },
+        {
+          "id": "o5",
+          "text": "Both require protein-rich fluid from increased permeability",
+          "evidence": "PDF p20 distinguishes low-protein transudation from protein-rich exudation rather than assigning both the latter profile."
+        },
+        {
+          "id": "o2",
+          "text": "Transudation: protein-rich fluid from permeability; exudation: little protein from hydrostatic pressure",
+          "evidence": "This reverses the protein content and mechanism assigned to each fluid on PDF p20."
+        },
+        {
+          "id": "o4",
+          "text": "Transudation: protein-rich fluid from hydrostatic pressure; exudation: protein-poor fluid from permeability",
+          "evidence": "This reverses the low-protein versus protein-rich contrast on PDF p20."
+        },
+        {
+          "id": "o1",
+          "text": "Transudation: little protein from hydrostatic pressure; exudation: protein-rich fluid from increased permeability",
+          "evidence": "PDF p20 contrasts low-protein hydrostatic ultrafiltration with protein-rich leakage due to increased permeability."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Transudation is low-protein ultrafiltration under hydrostatic pressure; exudation is protein-rich movement through more permeable vessels.",
+        "ar": "Transudation ترشيح قليل البروتين بفعل الضغط الهيدروستاتيكي؛ أما Exudation فخروج سائل غني بالبروتين بسبب زيادة النفوذية."
+      }
+    },
+    {
+      "id": "ch2-part-01-contraction",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which permeability mechanism produces the immediate transient response in venules?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p22 immediate transient venular contraction; distractor mechanisms individually supported on pp22/24–26. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Leukocyte-dependent pulmonary capillary injury",
+          "evidence": "PDF p25 assigns this to leukocyte-dependent injury rather than the transient contraction response."
+        },
+        {
+          "id": "o3",
+          "text": "Severe direct injury throughout arterioles, capillaries and venules",
+          "evidence": "PDF p24 assigns severe direct injury to immediate sustained leakage in multiple vessel types."
+        },
+        {
+          "id": "o5",
+          "text": "VEGF-induced vesicular transport",
+          "evidence": "PDF p26 assigns VEGF vesicular transport to transcytosis."
+        },
+        {
+          "id": "o1",
+          "text": "Reversible endothelial contraction creating intercellular gaps",
+          "evidence": "PDF p22 associates reversible contraction and intercellular gaps with immediate transient venular leakage."
+        },
+        {
+          "id": "o2",
+          "text": "Endothelial retraction mediated by TNF/IL-1",
+          "evidence": "PDF p22 assigns TNF/IL-1-mediated retraction to a delayed response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Histamine, bradykinins and leukotrienes mediate endothelial contraction and immediate transient venular gaps; TNF/IL-1 retraction is delayed.",
+        "ar": "تسبب Histamine وBradykinins وLeukotrienes انقباض البطانة وفجوات وريدية عابرة وفورية؛ أما Retraction بوساطة TNF/IL-1 فمتأخر."
+      }
+    },
+    {
+      "id": "ch2-part-01-retraction",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "What distinguishes endothelial retraction from contraction?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p22 delayed reversible cytoskeletal retraction with TNF/IL-1; differentiated from contraction, direct injury and transcytosis. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Permanent gaps despite withdrawal of the stimulus",
+          "evidence": "PDF p22 explicitly states contraction and retraction are completely reversible."
+        },
+        {
+          "id": "o4",
+          "text": "Immediate transient response to histamine alone",
+          "evidence": "PDF p22 associates histamine-mediated immediate transient leakage with contraction."
+        },
+        {
+          "id": "o1",
+          "text": "Cytoskeletal rearrangement and a delayed TNF/IL-1-mediated response",
+          "evidence": "PDF p22 describes cytoskeletal rearrangement, delayed response, and TNF/IL-1 mediation."
+        },
+        {
+          "id": "o2",
+          "text": "Cell necrosis and an immediate sustained response",
+          "evidence": "PDF p24 describes direct endothelial injury with immediate sustained leakage, distinct from reversible retraction."
+        },
+        {
+          "id": "o3",
+          "text": "Vesicular transport induced by VEGF",
+          "evidence": "PDF p26 describes VEGF-mediated transcytosis, not cytoskeletal retraction."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Retraction rearranges cytoskeletal proteins and is delayed; contraction and retraction are both reversible.",
+        "ar": "تعيد Retraction ترتيب بروتينات الهيكل الخلوي وتكون متأخرة بوساطة TNF/IL-1؛ وكل من Contraction وRetraction قابل للعكس."
+      }
+    },
+    {
+      "id": "ch2-part-01-direct-injury",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p024-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "How do severe and mild direct endothelial injury differ in their leakage patterns?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p24 severe immediate sustained versus mild delayed prolonged; timing is target, distinct from distribution item. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Severe: delayed prolonged; mild: immediate transient",
+          "evidence": "PDF p24 gives immediate sustained severe leakage and delayed prolonged mild leakage."
+        },
+        {
+          "id": "o3",
+          "text": "Severe: immediate transient; mild: delayed transient",
+          "evidence": "PDF p24 gives sustained severe leakage and prolonged mild leakage, rather than transient patterns."
+        },
+        {
+          "id": "o1",
+          "text": "Severe: immediate sustained; mild: delayed prolonged",
+          "evidence": "PDF p24 pairs severe injury with immediate sustained leakage and mild injury with delayed prolonged leakage."
+        },
+        {
+          "id": "o2",
+          "text": "Severe: delayed transient; mild: immediate sustained",
+          "evidence": "PDF p24 gives immediate sustained for severe and delayed prolonged for mild; this reverses onset and pattern."
+        },
+        {
+          "id": "o5",
+          "text": "Severe: immediate sustained; mild: immediate transient",
+          "evidence": "The severe pattern is correct, but PDF p24 assigns mild injury a delayed prolonged response, not immediate transient."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Severe injury produces immediate sustained leakage in arterioles, capillaries and venules; milder injury produces delayed prolonged leakage in capillaries and venules.",
+        "ar": "تسبب الأذية الشديدة Immediate sustained leakage في الشُرينات والشعيرات والوريدات؛ وتسبب الأذية الأخف Delayed prolonged leakage في الشعيرات والوريدات."
+      }
+    },
+    {
+      "id": "ch2-part-01-direct-sites",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p024-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which vessel distribution distinguishes severe from mild direct endothelial injury?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p24 severe includes arterioles whereas mild is capillaries/venules; all five distribution pairs made parallel. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Made stem direct and self-contained. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Severe: arterioles, capillaries, venules; mild: capillaries, venules",
+          "evidence": "PDF p24 includes arterioles only in the severe pattern."
+        },
+        {
+          "id": "o2",
+          "text": "Severe: capillaries, venules; mild: arterioles, capillaries, venules",
+          "evidence": "This reverses the severe and mild distributions on PDF p24."
+        },
+        {
+          "id": "o3",
+          "text": "Severe: arterioles, venules; mild: capillaries, venules",
+          "evidence": "PDF p24 includes capillaries in the severe pattern as well."
+        },
+        {
+          "id": "o4",
+          "text": "Severe: arterioles, capillaries, venules; mild: arterioles, capillaries",
+          "evidence": "PDF p24 gives capillaries/venules, not arterioles/capillaries, for the mild pattern."
+        },
+        {
+          "id": "o5",
+          "text": "Severe: arterioles, capillaries; mild: capillaries, venules",
+          "evidence": "PDF p24 also includes venules in the severe pattern."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Severe direct injury involves arterioles, capillaries and venules; the mild pattern is limited to venules and capillaries.",
+        "ar": "تشمل الأذية المباشرة الشديدة Arterioles وCapillaries وVenules، بينما يقتصر النمط الأخف على الشعيرات والوريدات."
+      }
+    },
+    {
+      "id": "ch2-part-01-leukocyte-injury",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p025-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Where does leukocyte-dependent endothelial injury occur?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p25 systemic venules and pulmonary capillaries; five parallel site pairs checked. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Systemic venules and pulmonary capillaries",
+          "evidence": "PDF p25 explicitly names these two sites."
+        },
+        {
+          "id": "o2",
+          "text": "Systemic arterioles and pulmonary capillaries",
+          "evidence": "The systemic site on PDF p25 is venules, not arterioles."
+        },
+        {
+          "id": "o3",
+          "text": "Systemic venules and pulmonary arterioles",
+          "evidence": "The pulmonary site on PDF p25 is capillaries, not arterioles."
+        },
+        {
+          "id": "o4",
+          "text": "Systemic capillaries and pulmonary venules",
+          "evidence": "Both site assignments differ from systemic venules/pulmonary capillaries on PDF p25."
+        },
+        {
+          "id": "o5",
+          "text": "Systemic arterioles and pulmonary venules",
+          "evidence": "PDF p25 identifies systemic venules and pulmonary capillaries instead."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Leukocyte-dependent endothelial injury occurs in systemic venules and pulmonary capillaries.",
+        "ar": "تحدث Leukocyte-dependent endothelial injury في الوريدات الجهازية والشعيرات الرئوية."
+      }
+    },
+    {
+      "id": "ch2-part-01-transcytosis",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p026-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "What mediates increased endothelial transcytosis in venules?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p26 VEGF-induced vesicular transport; neighboring gap/injury mechanisms contrast without fabricated enzyme roles. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "VEGF-stimulated transport through endothelial cytoplasmic vesicles",
+          "evidence": "PDF p26 explicitly associates VEGF, vesicles and venular transcytosis."
+        },
+        {
+          "id": "o2",
+          "text": "Histamine-stimulated endothelial contraction opening intercellular gaps",
+          "evidence": "PDF p22 describes the immediate transient gap mechanism rather than vesicular transport."
+        },
+        {
+          "id": "o3",
+          "text": "TNF/IL-1-stimulated endothelial cytoskeletal retraction",
+          "evidence": "PDF p22 describes delayed retraction rather than transcytosis."
+        },
+        {
+          "id": "o4",
+          "text": "Direct injury producing sustained endothelial leakage",
+          "evidence": "PDF p24 describes direct injury rather than vesicular transport."
+        },
+        {
+          "id": "o5",
+          "text": "Leukocyte-dependent damage to venules and pulmonary capillaries",
+          "evidence": "PDF p25 describes leukocyte-dependent endothelial injury rather than transcytosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "VEGF induces increased transport through vesicles in venular endothelial cells.",
+        "ar": "يحفز VEGF زيادة النقل عبر الحويصلات داخل خلايا بطانة الوريدات، أي Transcytosis."
+      }
+    },
+    {
+      "id": "ch2-part-01-new-vessels",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p027-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which development ends the stated leakage from newly formed vessels?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p27 angiogenic leakage ends when intercellular junctions form; alternatives are real permeability mechanisms from pp22/25–26. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Made stem direct and self-contained. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Formation of intercellular junctions",
+          "evidence": "PDF p27 states leakage persists until these junctions form."
+        },
+        {
+          "id": "o2",
+          "text": "Opening of intercellular gaps by endothelial contraction",
+          "evidence": "PDF p22 describes a permeability-increasing mechanism, rather than maturation of junctions."
+        },
+        {
+          "id": "o3",
+          "text": "Retraction of the endothelial cytoskeleton",
+          "evidence": "PDF p22 describes another gap-forming permeability mechanism."
+        },
+        {
+          "id": "o4",
+          "text": "Increased vesicular transport induced by VEGF",
+          "evidence": "PDF p26 describes increased transcytosis rather than junctional maturation."
+        },
+        {
+          "id": "o5",
+          "text": "Leukocyte-dependent endothelial injury",
+          "evidence": "PDF p25 describes endothelial damage rather than formation of intact junctions."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Newly formed vessels at angiogenic sites can leak until intercellular junctions develop.",
+        "ar": "قد تستمر الأوعية الحديثة في مواقع Angiogenesis بالتسرب حتى تتكون Intercellular junctions."
+      }
+    },
+    {
+      "id": "ch2-part-01-pus",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p028-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which mixture forms pus in severe acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p28 severe-acute mixture neutrophils/debris/bacteria/edema fluid; no universal requirement that all pus contain viable bacteria. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Fibroblasts, collagen and intact parenchymal cells",
+          "evidence": "PDF p6 assigns fibroblasts and matrix components to connective tissue; PDF p28 identifies the pus mixture instead."
+        },
+        {
+          "id": "o1",
+          "text": "Neutrophils, cellular debris, bacteria and edema fluid",
+          "evidence": "PDF p28 explicitly lists neutrophils, cellular debris, bacteria and edema fluid in severe acute inflammation."
+        },
+        {
+          "id": "o4",
+          "text": "Lymphocytes, mature scar and elastic fibers",
+          "evidence": "PDF p5 associates lymphocytes/scarring with the chronic pattern, rather than the pus mixture on p28."
+        },
+        {
+          "id": "o5",
+          "text": "Endothelial cells, smooth muscle and calcified matrix",
+          "evidence": "PDF p6 describes vascular wall elements; PDF p28 identifies the neutrophil/debris mixture for pus."
+        },
+        {
+          "id": "o3",
+          "text": "Platelets, erythrocytes and protein-free ultrafiltrate",
+          "evidence": "PDF p20 describes protein-poor ultrafiltration, whereas p28 lists the neutrophil/debris/bacteria mixture for pus."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pus contains accumulated neutrophils, cellular debris, bacteria and edema fluid.",
+        "ar": "يتكون Pus من Neutrophils والحطام الخلوي والبكتيريا وسائل الوذمة."
+      }
+    },
+    {
+      "id": "ch2-part-01-neutrophil-profile",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p028-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which profile describes neutrophils in acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p28 marrow origin/motility/short tissue lifespan; parallel permutations replace absurd cell conversions. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Bone marrow origin; motile; short lifespan in tissue",
+          "evidence": "PDF p28 states marrow production, motility and a tissue lifespan measured in hours."
+        },
+        {
+          "id": "o2",
+          "text": "Bone marrow origin; nonmotile; short lifespan in tissue",
+          "evidence": "PDF p28 describes neutrophils as motile and capable of entering tissue."
+        },
+        {
+          "id": "o3",
+          "text": "Bone marrow origin; motile; long lifespan in tissue",
+          "evidence": "PDF p28 describes a short, rather than long, tissue lifespan."
+        },
+        {
+          "id": "o4",
+          "text": "Connective-tissue origin; motile; short lifespan in tissue",
+          "evidence": "PDF p28 locates neutrophil production in bone marrow."
+        },
+        {
+          "id": "o5",
+          "text": "Connective-tissue origin; nonmotile; long lifespan in tissue",
+          "evidence": "All three features conflict with the marrow-derived, motile, short-lived profile on PDF p28."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Neutrophils arise in bone marrow, move into tissues by directional chemotaxis, and survive for hours in tissues.",
+        "ar": "تنشأ Neutrophils في نقي العظم وتتحرك إلى الأنسجة بالـChemotaxis الاتجاهي، وعمرها في النسيج قصير يُقاس بالساعات."
+      }
+    },
+    {
+      "id": "ch2-part-01-activation-effects",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p029-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which change accompanies neutrophil activation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p29 increased adhesion/motility/killing; each reversed direction checked; no additional outcome inferred. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Reduced motility with increased tissue migration",
+          "evidence": "PDF p29 links increased motility to emigration, not reduced motility."
+        },
+        {
+          "id": "o1",
+          "text": "Increased adhesion, motility and bacterial killing capacity",
+          "evidence": "PDF p29 states increased adhesion molecule expression, motility and bacterial killing."
+        },
+        {
+          "id": "o4",
+          "text": "Reduced killing capacity with enhanced bacterial survival",
+          "evidence": "PDF p29 states increased bacterial killing capacity, not reduced killing."
+        },
+        {
+          "id": "o5",
+          "text": "Loss of adhesion molecules with stable endothelial attachment",
+          "evidence": "PDF p29 links adhesion molecule expression to endothelial attachment, not loss of those molecules."
+        },
+        {
+          "id": "o2",
+          "text": "Reduced adhesion with increased vascular confinement",
+          "evidence": "PDF p29 states increased adhesion and emigration, rather than reduced adhesion and vascular confinement."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activation increases adhesion molecule expression, motility for emigration, and bacterial killing.",
+        "ar": "يزيد تنشيط Neutrophils التعبير عن جزيئات الالتصاق والحركة اللازمة للهجرة والقدرة على قتل البكتيريا."
+      }
+    },
+    {
+      "id": "ch2-part-01-recruitment-order",
+      "revision": 2,
+      "type": "order",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p030-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Arrange the steps of leukocyte emigration from the vessel center to the extravascular space.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p30 and arrow diagram p32 support margination -> rolling -> adhesion -> transmigration. Activation not globally ranked after chemotaxis. Rechecked revised English/Arabic explanations for equivalent meaning. Removed activation-after-chemotaxis ranking because integrin activation is also shown before adhesion; retained the four-step arrow-supported emigration sequence. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Margination"
+        },
+        {
+          "id": "s2",
+          "text": "Rolling"
+        },
+        {
+          "id": "s3",
+          "text": "Adhesion"
+        },
+        {
+          "id": "s4",
+          "text": "Transmigration by diapedesis"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ],
+      "explanation": {
+        "en": "Margination precedes rolling, firm adhesion and transmigration between endothelial cells.",
+        "ar": "يسبق Margination مرحلة Rolling، ثم Firm adhesion، ثم Transmigration بين خلايا البطانة."
+      }
+    },
+    {
+      "id": "ch2-part-01-margination",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p035-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "Which change defines leukocyte margination?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p35 peripheral accumulation/stasis versus firm adhesion, crossing, gradient migration and engulfment. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Migration through tissue along a chemical gradient",
+          "evidence": "PDF p41 defines chemotaxis along a chemical gradient."
+        },
+        {
+          "id": "o3",
+          "text": "Crawling between endothelial cells using PECAM-1",
+          "evidence": "PDF p39 defines transmigration using PECAM-1, distinct from margination."
+        },
+        {
+          "id": "o2",
+          "text": "Firm integrin binding to endothelial ICAM-1",
+          "evidence": "PDF p37 defines firm integrin-mediated adhesion, distinct from peripheral accumulation."
+        },
+        {
+          "id": "o5",
+          "text": "Engulfment of an opsonized microorganism",
+          "evidence": "PDF p45 defines phagocytic engulfment, a later event."
+        },
+        {
+          "id": "o1",
+          "text": "Accumulation at the vessel periphery, augmented by stasis",
+          "evidence": "PDF p35 defines peripheral leukocyte accumulation augmented by permeability/stasis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Margination is peripheral leukocyte accumulation, promoted by increased permeability and stasis; rolling is transient sticking.",
+        "ar": "Margination تراكم الكريات البيضاء على محيط الوعاء ويعززه Stasis وزيادة النفوذية؛ أما Rolling فهو التصاق عابر متدحرج."
+      }
+    },
+    {
+      "id": "ch2-part-01-selectins",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p035-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        }
+      ],
+      "prompt": "Match each selectin with its characteristic expression or mobilization.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p35 E induced by IL-1/TNF, endothelial P storage/mobilization and constitutive leukocyte L; all three distinct expression profiles.  All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "E-selectin",
+          "right": "Endothelial expression induced by IL-1/TNF",
+          "evidence": "E-selectin: Endothelial expression induced by IL-1/TNF."
+        },
+        {
+          "id": "p2",
+          "left": "P-selectin",
+          "right": "Endothelial Weibel-Palade storage; mobilized by histamine/thrombin",
+          "evidence": "P-selectin: Endothelial Weibel-Palade storage; mobilized by histamine/thrombin."
+        },
+        {
+          "id": "p3",
+          "left": "L-selectin",
+          "right": "Constitutively expressed on leukocytes",
+          "evidence": "L-selectin: Constitutively expressed on leukocytes."
+        }
+      ],
+      "explanation": {
+        "en": "E-selectin is induced on endothelium; P-selectin is stored in endothelial Weibel-Palade bodies and also occurs on platelets; L-selectin is expressed on leukocytes.",
+        "ar": "يُحفز E-selectin على البطانة، ويُخزن P-selectin في Weibel-Palade bodies ويوجد أيضًا على الصفائح، ويظهر L-selectin على Leukocytes."
+      }
+    },
+    {
+      "id": "ch2-part-01-firm-adhesion",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p037-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "What converts leukocyte integrins into stronger endothelial binders?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p37 integrin affinity/conformational activation versus selectin mobilization/induction and PECAM crossing. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "An affinity-increasing conformational change in leukocyte integrins",
+          "evidence": "PDF p37 explicitly states integrin stimulation and conformational changes increase ligand binding."
+        },
+        {
+          "id": "o2",
+          "text": "An affinity-decreasing conformational change in leukocyte integrins",
+          "evidence": "PDF p37 states increased integrin affinity."
+        },
+        {
+          "id": "o3",
+          "text": "Endothelial mobilization of stored P-selectin",
+          "evidence": "PDF p35 assigns this to selectin-mediated rolling rather than integrin activation."
+        },
+        {
+          "id": "o4",
+          "text": "Induction of endothelial E-selectin expression",
+          "evidence": "PDF p35 assigns E-selectin to the rolling system rather than affinity change in leukocyte integrins."
+        },
+        {
+          "id": "o5",
+          "text": "PECAM-1 interaction during endothelial crossing",
+          "evidence": "PDF p39 assigns this to transmigration rather than integrin activation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chemokines, C5a and PAF increase integrin affinity; conformational changes permit binding to endothelial ligands.",
+        "ar": "ترفع Chemokines وC5a وPAF ألفة Integrins؛ وتسمح التغيرات الشكلية لها بالارتباط بربيطات البطانة."
+      }
+    },
+    {
+      "id": "ch2-part-01-integrin-ligands",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p037-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which integrin–ligand combination supports firm leukocyte adhesion?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p37 LFA-1/Mac-1 share ICAM-1 and VLA-4 binds VCAM-1; repaired nonunique matching to single-key paired MCQ. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Made stem direct and self-contained. Rechecked revised English/Arabic explanations for equivalent meaning. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "explanation": {
+        "en": "LFA-1 and Mac-1 both bind ICAM-1; VLA-4 binds VCAM-1.",
+        "ar": "يرتبط LFA-1 وMac-1 كلاهما بـICAM-1، بينما يرتبط VLA-4 بـVCAM-1."
+      },
+      "correctOptionId": "o1",
+      "options": [
+        {
+          "id": "o1",
+          "text": "LFA-1/Mac-1: ICAM-1; VLA-4: VCAM-1",
+          "evidence": "PDF p37 gives shared ICAM-1 binding for LFA-1/Mac-1 and VCAM-1 binding for VLA-4."
+        },
+        {
+          "id": "o2",
+          "text": "LFA-1/Mac-1: VCAM-1; VLA-4: ICAM-1",
+          "evidence": "This reverses both ligand assignments on PDF p37."
+        },
+        {
+          "id": "o3",
+          "text": "LFA-1/Mac-1: ICAM-1; VLA-4: ICAM-1",
+          "evidence": "The shared LFA-1/Mac-1 assignment is correct, but p37 assigns VLA-4 to VCAM-1."
+        },
+        {
+          "id": "o4",
+          "text": "LFA-1/Mac-1: VCAM-1; VLA-4: VCAM-1",
+          "evidence": "The VLA-4 assignment is correct, but p37 assigns LFA-1/Mac-1 to ICAM-1."
+        },
+        {
+          "id": "o5",
+          "text": "LFA-1/Mac-1: PECAM-1; VLA-4: PECAM-1",
+          "evidence": "PDF p37 gives ICAM-1/VCAM-1 ligands; p39 assigns PECAM-1 to transmigration."
+        }
+      ]
+    },
+    {
+      "id": "ch2-part-01-endothelial-ligands",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p037-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Which cytokine pair induces endothelial ICAM-1/VCAM-1 in the adhesion response?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p37 TNF/IL-1 endothelial ligand induction versus P-selectin mobilization/integrin-affinity/chemotaxis mediator roles. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "TNF and IL-1",
+          "evidence": "PDF p37 identifies TNF/IL-1 induction of endothelial ICAM-1/VCAM-1."
+        },
+        {
+          "id": "o3",
+          "text": "C5a and PAF",
+          "evidence": "PDF p37 associates C5a/PAF with increased leukocyte integrin affinity rather than the stated endothelial induction pair."
+        },
+        {
+          "id": "o5",
+          "text": "MCP-1 and MIP-1alpha",
+          "evidence": "PDF p41 associates MCP-1/MIP-1alpha with monocyte chemotaxis."
+        },
+        {
+          "id": "o2",
+          "text": "Histamine and thrombin",
+          "evidence": "PDF p35 associates histamine/thrombin with surface redistribution of P-selectin."
+        },
+        {
+          "id": "o4",
+          "text": "IL-8 and eotaxin",
+          "evidence": "PDF p41 associates IL-8/eotaxin with neutrophil/eosinophil chemotaxis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "TNF and IL-1 induce the endothelial immunoglobulin-family ligands; chemokines, C5a and PAF increase leukocyte integrin affinity.",
+        "ar": "يحفز TNF وIL-1 ربيطات البطانة من عائلة Immunoglobulin؛ بينما تزيد Chemokines وC5a وPAF ألفة Integrins على الكريات البيضاء."
+      }
+    },
+    {
+      "id": "ch2-part-01-diapedesis",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p039-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        }
+      ],
+      "prompt": "Which molecule participates in leukocyte transmigration and is present on both leukocytes and endothelium?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p39 PECAM-1/CD31 on endothelium and leukocytes; selectins/integrins have distinct source roles. Made stem direct and self-contained. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "E-selectin",
+          "evidence": "PDF p35 assigns endothelial E-selectin to the rolling system."
+        },
+        {
+          "id": "o3",
+          "text": "L-selectin",
+          "evidence": "PDF p35 assigns leukocyte L-selectin to the rolling system."
+        },
+        {
+          "id": "o1",
+          "text": "PECAM-1 (CD31)",
+          "evidence": "PDF p39 identifies shared leukocyte/endothelial PECAM-1 (CD31) in transmigration."
+        },
+        {
+          "id": "o4",
+          "text": "VLA-4",
+          "evidence": "PDF p37 identifies VLA-4 as a leukocyte integrin binding VCAM-1."
+        },
+        {
+          "id": "o5",
+          "text": "Mac-1",
+          "evidence": "PDF p37 identifies Mac-1 as a leukocyte integrin binding ICAM-1."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "PECAM-1/CD31 is shared by leukocytes and endothelial cells and mediates transmigration, mainly in systemic venules.",
+        "ar": "يوجد PECAM-1/CD31 على Leukocytes وخلايا البطانة، ويساهم في Transmigration التي تحدث أساسًا في الوريدات الجهازية."
+      }
+    },
+    {
+      "id": "ch2-part-01-basement-crossing",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p039-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "How do leukocytes cross the basement membrane during transmigration?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p39 leukocyte collagenase degradation versus supported rolling/adhesion/chemotaxis/phagolysosome events. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Release of collagenases that degrade the membrane",
+          "evidence": "PDF p39 assigns basement-membrane degradation to leukocyte collagenases."
+        },
+        {
+          "id": "o2",
+          "text": "Selectin-mediated transient sticking to endothelium",
+          "evidence": "PDF p35 defines rolling, which precedes crossing the basement membrane."
+        },
+        {
+          "id": "o3",
+          "text": "Integrin-mediated firm binding to endothelial ligands",
+          "evidence": "PDF p37 defines adhesion, not basement-membrane proteolysis."
+        },
+        {
+          "id": "o4",
+          "text": "Chemotactic movement along a chemical gradient",
+          "evidence": "PDF p41 defines directed tissue migration, not degradation of the membrane."
+        },
+        {
+          "id": "o5",
+          "text": "Fusion of a phagocytic vacuole with lysosomes",
+          "evidence": "PDF p45 defines phagolysosome formation during phagocytosis, not basement crossing."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Leukocyte collagenases degrade basement membrane after cells crawl between endothelial cells.",
+        "ar": "تهدم Collagenases الصادرة عن Leukocytes الغشاء القاعدي بعد مرورها بين خلايا البطانة."
+      }
+    },
+    {
+      "id": "ch2-part-01-chemotaxis-definition",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p041-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which event is chemotaxis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p41 directional gradient migration; alternatives are neighboring specifically defined recruitment events. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Passage between endothelial cells by diapedesis",
+          "evidence": "PDF p39 defines diapedesis/transmigration between endothelial cells."
+        },
+        {
+          "id": "o3",
+          "text": "Transient sticking on the endothelial surface",
+          "evidence": "PDF p35 defines rolling as transient sticking."
+        },
+        {
+          "id": "o4",
+          "text": "Firm sticking to endothelial integrin ligands",
+          "evidence": "PDF p37 defines adhesion as firm endothelial sticking."
+        },
+        {
+          "id": "o1",
+          "text": "Migration toward injury along a chemical gradient",
+          "evidence": "PDF p41 defines leukocyte migration toward injury along a chemical gradient."
+        },
+        {
+          "id": "o2",
+          "text": "Peripheral accumulation caused by vascular stasis",
+          "evidence": "PDF p35 defines margination as peripheral accumulation enhanced by stasis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chemotaxis is directional leukocyte migration along a chemical gradient toward injury.",
+        "ar": "Chemotaxis هجرة اتجاهية للكريات البيضاء على طول تدرج كيميائي نحو موضع الأذية."
+      }
+    },
+    {
+      "id": "ch2-part-01-chemokines",
+      "revision": 2,
+      "type": "match",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p041-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Match each chemokine with its target cell group.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p41 IL-8/neutrophils, eotaxin/eosinophils, MCP1+MIP1alpha/monocytes; overlapping RANTES pair removed. Removed RANTES pair because monocytes overlaps its lymphocyte/monocyte target set; three remaining mappings have distinct supported cell targets. RANTES retained in explanation/source. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "IL-8",
+          "right": "Neutrophils",
+          "evidence": "IL-8: Neutrophils."
+        },
+        {
+          "id": "p2",
+          "left": "Eotaxin",
+          "right": "Eosinophils",
+          "evidence": "Eotaxin: Eosinophils."
+        },
+        {
+          "id": "p3",
+          "left": "MCP-1 and MIP-1alpha",
+          "right": "Monocytes",
+          "evidence": "MCP-1 and MIP-1alpha: Monocytes."
+        }
+      ],
+      "explanation": {
+        "en": "Chemokines direct different leukocyte groups: IL-8 attracts neutrophils, eotaxin eosinophils, MCP-1/MIP-1alpha monocytes, and RANTES lymphocytes/monocytes.",
+        "ar": "تجذب IL-8 الـNeutrophils، وEotaxin الـEosinophils، وMCP-1/MIP-1alpha الـMonocytes، وRANTES الـLymphocytes والـMonocytes."
+      }
+    },
+    {
+      "id": "ch2-part-01-cell-stimulus",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p041-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which cell predominance is associated with allergic reactions and parasitic infestation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p41 allergy/parasites -> eosinophils; all options now comparable cell names with real neighboring roles. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Eosinophils",
+          "evidence": "PDF p41 associates eosinophil predominance with allergy and parasitic infestation."
+        },
+        {
+          "id": "o2",
+          "text": "Neutrophils",
+          "evidence": "PDF p41 emphasizes neutrophils in the first 24 hours of acute inflammation."
+        },
+        {
+          "id": "o3",
+          "text": "Lymphocytes",
+          "evidence": "PDF p41 emphasizes lymphocytes in viral infection."
+        },
+        {
+          "id": "o4",
+          "text": "Macrophages",
+          "evidence": "PDF p41 describes macrophages replacing early neutrophils rather than the allergy/parasite predominance."
+        },
+        {
+          "id": "o5",
+          "text": "Fibroblasts",
+          "evidence": "PDF p6 assigns fibroblasts an extracellular-matrix and wound-filling role; p41 identifies eosinophils for this setting."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Eosinophils predominate in allergic/parasitic settings; neutrophils dominate the first 24 hours of acute inflammation, and lymphocytes are emphasized in viral infection.",
+        "ar": "تغلب Eosinophils في الحساسية والطفيليات؛ وتغلب Neutrophils أول 24 ساعة من الالتهاب الحاد، بينما تُبرز العدوى الفيروسية Lymphocytes."
+      }
+    },
+    {
+      "id": "ch2-part-01-activation-receptor",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p042-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 47
+        }
+      ],
+      "prompt": "Which interaction initiates chemoattractant-dependent leukocyte activation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p42 chemoattractant binding GPCR distinguished from actual adhesion/opsonin receptor interactions. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Made stem direct and self-contained. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Chemoattractant binding to a G-protein-coupled receptor",
+          "evidence": "PDF p42 explicitly states chemoattractant binding to a cell-surface GPCR."
+        },
+        {
+          "id": "o2",
+          "text": "Selectin binding during transient endothelial sticking",
+          "evidence": "PDF p35 defines rolling, not chemoattractant receptor signaling."
+        },
+        {
+          "id": "o3",
+          "text": "Integrin binding to an endothelial ICAM-1 ligand",
+          "evidence": "PDF p37 defines firm adhesion rather than initial chemoattractant-GPCR binding."
+        },
+        {
+          "id": "o4",
+          "text": "PECAM-1 binding during endothelial transmigration",
+          "evidence": "PDF p39 defines the crossing mechanism rather than initial chemoattractant signaling."
+        },
+        {
+          "id": "o5",
+          "text": "Opsonin-receptor binding during microorganism attachment",
+          "evidence": "PDF p47 illustrates target attachment for phagocytosis rather than chemoattractant receptor activation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A chemoattractant binds a G-protein-coupled receptor on the inflammatory-cell surface, initiating activation responses.",
+        "ar": "يرتبط Chemoattractant بمستقبل سطحي مقترن ببروتين G على الخلية الالتهابية ليبدأ التنشيط."
+      }
+    },
+    {
+      "id": "ch2-part-01-activation-calcium",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p042-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 43
+        }
+      ],
+      "prompt": "Which intracellular change modulates adhesion molecules during leukocyte activation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp42–43 calcium increases adhesion-molecule number/affinity; separate activation outputs are alternatives; disputed p42 degradation wording excluded. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased intracellular calcium",
+          "evidence": "PDF p42 states increased calcium modulates adhesion molecules; p43 shows calcium increasing their number/affinity."
+        },
+        {
+          "id": "o2",
+          "text": "Decreased intracellular calcium",
+          "evidence": "This reverses the calcium change on PDF pp42–43."
+        },
+        {
+          "id": "o3",
+          "text": "Generation of arachidonic acid metabolites",
+          "evidence": "PDF pp42–43 list this as another activation output, separate from the calcium-linked modulation of adhesion molecules."
+        },
+        {
+          "id": "o4",
+          "text": "Formation of reactive oxygen species in an oxidative burst",
+          "evidence": "PDF pp42–43 identify oxidative burst as a separate activation output."
+        },
+        {
+          "id": "o5",
+          "text": "Secretion of lysosomal granule contents",
+          "evidence": "PDF p43 shows degranulation as another output rather than the signal that increases adhesion-molecule number/affinity."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Increased intracellular calcium modulates adhesion molecules during activation; oxidative burst and arachidonic acid metabolite generation are also listed responses.",
+        "ar": "تعدل زيادة Calcium داخل الخلية جزيئات الالتصاق أثناء التنشيط، وتشمل الاستجابات أيضًا Oxidative burst وتوليد مستقلبات Arachidonic acid."
+      }
+    },
+    {
+      "id": "ch2-part-01-phagocytosis-order",
+      "revision": 2,
+      "type": "order",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p045-topic",
+        "ch2-part-01-p048-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        }
+      ],
+      "prompt": "Arrange phagocytosis from initial target recognition through microbial degradation.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp45/48 recognition/attachment -> engulfment -> phagolysosome -> killing -> degradation; source numbered stages establish sequence. Made stem direct and self-contained. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Recognition and attachment"
+        },
+        {
+          "id": "s2",
+          "text": "Pseudopod engulfment into a phagocytic vacuole"
+        },
+        {
+          "id": "s3",
+          "text": "Fusion with lysosomes to form a phagolysosome"
+        },
+        {
+          "id": "s4",
+          "text": "Microbial killing"
+        },
+        {
+          "id": "s5",
+          "text": "Degradation by acid hydrolases"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ],
+        [
+          "s5"
+        ]
+      ],
+      "explanation": {
+        "en": "Recognition/attachment precedes engulfment and phagolysosome formation; killing is followed by acid-hydrolase degradation.",
+        "ar": "يسبق التعرف والالتصاق Engulfment وتكوين Phagolysosome، ثم يحدث القتل الميكروبي ويتبعه التفكيك بواسطة Acid hydrolases."
+      }
+    },
+    {
+      "id": "ch2-part-01-engulfment",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p045-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        }
+      ],
+      "prompt": "What is produced when a pseudopod surrounds a microorganism during engulfment?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p45 initial enclosing vacuole precedes lysosome fusion; options are five supported different stages rather than unrelated structures. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "A vacuole enclosing the microorganism before lysosomal fusion",
+          "evidence": "PDF p45 states engulfment forms a phagocytic vacuole, which subsequently fuses with lysosomes."
+        },
+        {
+          "id": "o2",
+          "text": "A vacuole already fused with lysosomes",
+          "evidence": "PDF p45 places phagolysosome formation after the initial engulfment vacuole."
+        },
+        {
+          "id": "o3",
+          "text": "An extracellular microbe attached to an opsonin receptor",
+          "evidence": "PDF pp45–47 place attachment before engulfment."
+        },
+        {
+          "id": "o4",
+          "text": "Degraded microbial material after acid-hydrolase action",
+          "evidence": "PDF p48 places degradation after killing, later than initial engulfment."
+        },
+        {
+          "id": "o5",
+          "text": "A bacterium exposed to the oxidative killing system",
+          "evidence": "PDF p48 describes microbial killing after the vacuole/lysosome stages."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A pseudopod encloses the object in a phagocytic vacuole, which subsequently fuses with lysosomes.",
+        "ar": "يحيط Pseudopod بالجسم ليكوّن Phagocytic vacuole، ثم تندمج الفجوة مع Lysosomes."
+      }
+    },
+    {
+      "id": "ch2-part-01-opsonin-receptor",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p047-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        }
+      ],
+      "prompt": "Which coating–receptor pairing supports attachment during phagocytosis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p47 antibody/Fc versus C3b/C3b-receptor; paired permutations remove direct stem-to-key name repetition. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Made stem direct and self-contained. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Antibody coating: Fc receptor; C3b coating: C3b receptor",
+          "evidence": "PDF p47 shows antibody/Fc and complement C3b/C3b-receptor pairings."
+        },
+        {
+          "id": "o2",
+          "text": "Antibody coating: C3b receptor; C3b coating: Fc receptor",
+          "evidence": "This reverses the two recognition pairs in PDF p47."
+        },
+        {
+          "id": "o3",
+          "text": "Antibody coating: Fc receptor; C3b coating: Fc receptor",
+          "evidence": "The antibody assignment is correct, but p47 assigns C3b coating to the C3b receptor."
+        },
+        {
+          "id": "o4",
+          "text": "Antibody coating: C3b receptor; C3b coating: C3b receptor",
+          "evidence": "The C3b assignment is correct, but p47 assigns antibody coating to the Fc receptor."
+        },
+        {
+          "id": "o5",
+          "text": "Antibody coating: ICAM-1; C3b coating: VCAM-1",
+          "evidence": "PDF p37 identifies ICAM-1/VCAM-1 as endothelial adhesion ligands; p47 shows Fc/C3b receptors for these coatings."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The macrophage C3b receptor binds C3b-coated bacteria; the Fc receptor recognizes antibody-coated targets.",
+        "ar": "يرتبط C3b receptor على Macrophage بالبكتيريا المغطاة بـC3b، بينما يتعرف Fc receptor على الأهداف المغطاة بالأجسام المضادة."
+      }
+    },
+    {
+      "id": "ch2-part-01-oxidative-burst",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p048-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which enzyme initiates the reactive oxygen species generation of the oxidative burst?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p48 NADPH oxidase initiates ROS generation; enzyme distractors have separately evidenced roles. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "NADPH oxidase",
+          "evidence": "PDF p48 assigns generation of reactive oxygen species to NADPH oxidase activation."
+        },
+        {
+          "id": "o3",
+          "text": "Acid hydrolase",
+          "evidence": "PDF p48 assigns acid hydrolases to degradation after killing."
+        },
+        {
+          "id": "o5",
+          "text": "Phospholipase A2",
+          "evidence": "PDF p42 assigns phospholipase A2 to arachidonic-acid metabolite generation."
+        },
+        {
+          "id": "o2",
+          "text": "Myeloperoxidase",
+          "evidence": "PDF p48 assigns MPO the later H2O2/chloride reaction."
+        },
+        {
+          "id": "o4",
+          "text": "Collagenase",
+          "evidence": "PDF p39 assigns collagenase to basement-membrane degradation during transmigration."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "NADPH oxidase initiates reactive oxygen species generation; MPO acts on H2O2 with chloride later in microbial killing.",
+        "ar": "يبدأ NADPH oxidase توليد Reactive oxygen species؛ ويعمل MPO لاحقًا على H2O2 بوجود Chloride أثناء القتل الميكروبي."
+      }
+    },
+    {
+      "id": "ch2-part-01-mpo",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p048-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 49
+        }
+      ],
+      "prompt": "Which substrate combination is used by neutrophil myeloperoxidase during microbial killing?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp48–49 H2O2/chloride substrate relation only; contested HOCl radical terminology excluded from scoring and explanations. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. Rechecked revised English/Arabic explanations for equivalent meaning. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "H2O2 and chloride",
+          "evidence": "PDF p48 states MPO acts on H2O2 in the presence of chloride."
+        },
+        {
+          "id": "o2",
+          "text": "Superoxide and chloride",
+          "evidence": "PDF p49 places H2O2 between superoxide generation and the MPO reaction."
+        },
+        {
+          "id": "o3",
+          "text": "H2O2 and NADPH",
+          "evidence": "PDF p49 assigns NADPH to the upstream oxidase system; chloride is the named MPO partner."
+        },
+        {
+          "id": "o4",
+          "text": "Superoxide and NADPH",
+          "evidence": "PDF p49 places these in the upstream oxidase/superoxide steps rather than the MPO substrate combination."
+        },
+        {
+          "id": "o5",
+          "text": "Oxygen and chloride",
+          "evidence": "PDF pp48–49 assign MPO H2O2 with chloride, after the initial oxygen-reduction step."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Myeloperoxidase in neutrophil azurophilic granules acts on H2O2 in the presence of chloride during microbial killing.",
+        "ar": "يعمل Myeloperoxidase في Azurophilic granules للـNeutrophils على H2O2 بوجود Chloride أثناء قتل الميكروبات."
+      }
+    },
+    {
+      "id": "ch2-part-01-degradation",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p048-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 42
+        }
+      ],
+      "prompt": "Which enzymes carry out degradation after microbial killing?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p48 acid hydrolases distinguished from four source-named enzymes with actual different functions. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Acid hydrolases",
+          "evidence": "PDF p48 assigns post-killing degradation to acid hydrolases."
+        },
+        {
+          "id": "o2",
+          "text": "NADPH oxidase",
+          "evidence": "PDF p48 assigns this to oxidative-burst generation."
+        },
+        {
+          "id": "o3",
+          "text": "Myeloperoxidase",
+          "evidence": "PDF p48 assigns this to the H2O2/chloride killing reaction."
+        },
+        {
+          "id": "o4",
+          "text": "Collagenases",
+          "evidence": "PDF p39 assigns these to basement-membrane degradation during transmigration."
+        },
+        {
+          "id": "o5",
+          "text": "Phospholipase A2",
+          "evidence": "PDF p42 assigns this to arachidonic-acid metabolite generation during activation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Acid hydrolases perform degradation; adhesion molecules and chemokines serve recruitment rather than this degradative step.",
+        "ar": "تقوم Acid hydrolases بالتفكيك؛ أما جزيئات الالتصاق وChemokines فتؤدي أدوارًا في تجنيد الخلايا."
+      }
+    },
+    {
+      "id": "ch2-part-01-lad1",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p050-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 47
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Which defect produces leukocyte adhesion deficiency type 1 (LAD-1)?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p50 LFA1/Mac1 integrin defect versus LAD2, Chediak-Higashi, CGD and opsonization roles. Made stem direct and self-contained. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Deficiency of NADPH oxidase",
+          "evidence": "PDF p51 assigns NADPH oxidase deficiency to chronic granulomatous disease."
+        },
+        {
+          "id": "o1",
+          "text": "LFA-1 and Mac-1 integrin subunit defects",
+          "evidence": "PDF p50 explicitly assigns LFA-1/Mac-1 subunit defects to LAD-1."
+        },
+        {
+          "id": "o3",
+          "text": "Defective microtubule assembly",
+          "evidence": "PDF p50 assigns microtubule assembly defects to Chediak-Higashi syndrome."
+        },
+        {
+          "id": "o5",
+          "text": "Loss of C3b opsonization",
+          "evidence": "PDF p47 shows C3b-mediated phagocytic attachment, whereas p50 identifies the LAD-1 defect in integrins."
+        },
+        {
+          "id": "o2",
+          "text": "Absence of sialyl-Lewis X",
+          "evidence": "PDF p50 assigns absence of sialyl-Lewis X to LAD-2."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "LAD-1 involves integrin subunit defects in LFA-1/Mac-1; absence of sialyl-Lewis X is LAD-2.",
+        "ar": "ينتج LAD-1 عن خلل وحدات Integrins في LFA-1 وMac-1؛ أما غياب Sialyl-Lewis X فيرتبط بـLAD-2."
+      }
+    },
+    {
+      "id": "ch2-part-01-lad2",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p050-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        }
+      ],
+      "prompt": "Which adhesion interaction is impaired by absence of sialyl-Lewis X in LAD-2?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p50 sialyl-Lewis X E/P-selectin binding; other binding/killing pathways explicitly contrasted. Made stem direct and self-contained. Replaced generic evidence with a specific source-based contrast for each alternative. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "PECAM-1-mediated diapedesis",
+          "evidence": "PDF p39 assigns PECAM-1 to transmigration, separate from selectin binding."
+        },
+        {
+          "id": "o5",
+          "text": "MPO use of H2O2",
+          "evidence": "PDF p48 assigns MPO/H2O2 to microbial killing, not the LAD-2 binding defect."
+        },
+        {
+          "id": "o3",
+          "text": "Binding of LFA-1 to ICAM-1",
+          "evidence": "PDF p37 assigns LFA-1 binding to ICAM-1, not the sialyl-Lewis X/selectin interaction."
+        },
+        {
+          "id": "o1",
+          "text": "Binding to E- and P-selectin",
+          "evidence": "PDF p50 states sialyl-Lewis X binds E- and P-selectin and its absence is LAD-2."
+        },
+        {
+          "id": "o2",
+          "text": "Binding of VLA-4 to VCAM-1",
+          "evidence": "PDF p37 assigns VLA-4 binding to VCAM-1, not the sialyl-Lewis X/selectin interaction."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Sialyl-Lewis X binds E- and P-selectin; its absence defines the described LAD-2 defect.",
+        "ar": "يرتبط Sialyl-Lewis X بـE-selectin وP-selectin؛ ويُعرّف غيابه خلل LAD-2 المذكور."
+      }
+    },
+    {
+      "id": "ch2-part-01-chediak",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p050-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "What links impaired locomotion and lysosomal degranulation in Chediak-Higashi syndrome?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p50 microtubule assembly links locomotion/degranulation; neighboring named defects replace unsupported endothelial-TNF distractor. Rechecked revised English/Arabic explanations for equivalent meaning. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Defective microtubule assembly",
+          "evidence": "PDF p50 links this defect to impaired locomotion/degranulation in Chediak-Higashi syndrome."
+        },
+        {
+          "id": "o2",
+          "text": "Deficient NADPH oxidase activity",
+          "evidence": "PDF p51 assigns this defect to chronic granulomatous disease."
+        },
+        {
+          "id": "o3",
+          "text": "Absent sialyl-Lewis X expression",
+          "evidence": "PDF p50 assigns this defect to LAD-2."
+        },
+        {
+          "id": "o4",
+          "text": "Defective LFA-1/Mac-1 integrin subunits",
+          "evidence": "PDF p50 assigns this defect to LAD-1."
+        },
+        {
+          "id": "o5",
+          "text": "Impaired myeloperoxidase-mediated killing",
+          "evidence": "PDF p48 assigns MPO to microbial killing; p50 identifies microtubule assembly as the Chediak-Higashi defect."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chediak-Higashi syndrome is associated with defective microtubule assembly, impaired locomotion and lysosomal degranulation, and autosomal recessive inheritance.",
+        "ar": "يرتبط Chediak-Higashi syndrome بخلل تجميع Microtubules وضعف الحركة وLysosomal degranulation، مع وراثة Autosomal recessive."
+      }
+    },
+    {
+      "id": "ch2-part-01-cgd",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-01",
+      "conceptIds": [
+        "ch2-part-01-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 50
+        }
+      ],
+      "prompt": "Why is oxygen-dependent microbial killing impaired in chronic granulomatous disease?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 NADPH oxidase/superoxide defect contrasted with specific adhesion, microtubule and degradation defects; no universal inheritance statement tested. Rebuilt parallel alternatives and item-specific option evidence; rechecked all five against cited original pages. All key/alternative or mapping/order relationships, exact pages, EN/AR meaning, cues and duplicates checked against original page images. No Antigravity or Claude review."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Deficient NADPH oxidase prevents normal superoxide generation",
+          "evidence": "PDF p51 explicitly links this defect to impaired oxygen-dependent microbial killing."
+        },
+        {
+          "id": "o2",
+          "text": "Defective LFA-1/Mac-1 impairs firm endothelial adhesion",
+          "evidence": "PDF p50 assigns this to LAD-1 rather than the CGD killing defect."
+        },
+        {
+          "id": "o3",
+          "text": "Absent sialyl-Lewis X impairs selectin binding",
+          "evidence": "PDF p50 assigns this to LAD-2 rather than CGD."
+        },
+        {
+          "id": "o4",
+          "text": "Defective microtubule assembly impairs locomotion and degranulation",
+          "evidence": "PDF p50 assigns this to Chediak-Higashi syndrome."
+        },
+        {
+          "id": "o5",
+          "text": "Reduced acid-hydrolase action impairs degradation after killing",
+          "evidence": "PDF p48 assigns acid hydrolases to degradation; p51 identifies the CGD defect as NADPH oxidase deficiency."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "NADPH oxidase deficiency impairs superoxide production and oxygen-dependent killing in the described chronic granulomatous disease.",
+        "ar": "يضعف نقص NADPH oxidase إنتاج Superoxide والقتل المعتمد على الأكسجين في Chronic granulomatous disease الموصوف."
+      }
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "/root/check_inflammation",
+    "candidateCount": 49,
+    "acceptedCount": 48,
+    "removedIds": [
+      "ch2-part-01-harm"
+    ],
+    "externalIndependentReview": "Not performed; Antigravity and Claude pending"
+  }
+}

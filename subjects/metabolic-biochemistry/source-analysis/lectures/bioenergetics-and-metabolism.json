@@ -1,0 +1,1277 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "lectureId": "bioenergetics-and-metabolism",
+  "title": "Bioenergetics and Metabolism",
+  "scope": "Midterm material only; supplied Chapter 13 PDF",
+  "authority": "Unchanged supplied PDF only",
+  "sourceTableAssessmentStatus": "Owner selected p12. p25 table and p17 column examples excluded from assessment/Memorize; separate prose remains eligible.",
+  "blockedConceptIds": [
+    "bioenergetics-and-metabolism-glucose-table-label",
+    "bioenergetics-and-metabolism-ppi-table-values"
+  ],
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Metabolic Biochemistry — course cover",
+      "topics": [
+        "Course identity"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                Dr. Osama Essawi 2025\n                Metabolic\n          Biochemistry\n\n\n            Dr.Osama    Essawi\n           Faculty of Medicine\nDepartment of Biochemistry & Molecular\n                 Biology\n         Metabolic Biochemistry\n             Course Number\n                 6105212",
+      "visualDetails": "Dr. Osama Essawi; Faculty of Medicine; Department of Biochemistry & Molecular Biology; course number 6105212; 2025. Al-Quds University logo.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Bioenergetics and introduction to metabolism — Chapter 13",
+      "topics": [
+        "Chapter identity"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                     Dr. Osama Essawi 2025\nBIOENERGETICS AND\nINTRODUCTION TO\nMETABOLISM\n\n\n\n\n\n\n\n                    Chapter 1 3",
+      "visualDetails": "Chapter 13. Illustrated textbook cover: Lehninger Principles of Biochemistry. This is a chapter title page, not permission to use the textbook as an additional source.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Life needs energy",
+      "topics": [
+        "Metabolism and energy"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                      Dr. Osama Essawi 2025\n\n   Life needs energy\n\n\n\n⬣   Recall that living organisms are built of complex\n    structures\n\n\n⬣   Building complex structures that are low in entropy\n    is only possible when energy is spent in the process\n\n\n⬣   The ultimate source of this energy on Earth is the\n    sunlight",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-complexity-energy",
+          "label": "Complex structures require energy",
+          "detail": "Living organisms have complex, low-entropy structures; building them requires expenditure of energy.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-sunlight",
+          "label": "Ultimate energy source",
+          "detail": "The slide names sunlight as the ultimate source of this energy on Earth.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Life needs energy — carbon sources",
+      "topics": [
+        "Metabolism and energy"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n\n               Life needs energy\n\n\n  ⬣    Two large groups of living organisms based on carbon source\n\n-Autotrophs use atmospheric CO2 to construct carbon-containing\n               biomolecules\n-Heterotrophs obtain carbon from complex organic molecules like glucose\n\n  ⬣    Autotrophs can be photosynthetic, using sunlight for energy, while\n       heterotrophs rely on organic nutrients\n\n  ⬣    Autotrophs and heterotrophs exist in an interdependent cycle, exchanging\n       carbon, oxygen, and water\n\n  ⬣    Solar energy is the driving force behind the global cycling of carbon,\n       oxygen, and nitrogen",
+      "visualDetails": "Diagram: sunlight enters photosynthetic autotrophs; organic products and O2 pass toward heterotrophs; CO2 and H2O return toward autotrophs.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-carbon-sources",
+          "label": "Autotroph and heterotroph carbon sources",
+          "detail": "Autotrophs construct carbon-containing biomolecules using atmospheric CO2; heterotrophs obtain carbon from complex organic molecules such as glucose.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-energy-sources",
+          "label": "Photosynthetic and organic-nutrient energy",
+          "detail": "Autotrophs can use sunlight by photosynthesis; heterotrophs rely on organic nutrients.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-global-cycle",
+          "label": "Interdependent cycling",
+          "detail": "Autotrophs and heterotrophs exchange carbon, oxygen and water; solar energy drives global carbon, oxygen and nitrogen cycling.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Metabolism is the sum of all chemical reactions in the cell",
+      "topics": [
+        "Metabolic pathways"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                       Dr. Osama Essawi 2025\n      Metabolism is the sum of all\n     chemical reactions in the cell\n\n\n●   Series of related reactions form metabolic pathways\n\n●   Some pathways are primarily energy-producing\n            –This is catabolism the degradative phase of\n           metabolism\n\n●   Some pathways are primarily using energy to build complex\n    structures\n\n\n\n●   Catabolic reactions provide the energy that drives Anabolic\n    Reactions forward",
+      "visualDetails": "Diagram: cell macromolecules (proteins, polysaccharides, lipids, nucleic acids) arise by anabolism from precursor molecules (amino acids, sugars, fatty acids, nitrogenous bases). Catabolism of energy-containing nutrients (carbohydrates, fats, proteins) yields energy-depleted end products (CO2, H2O, NH3). The central carriers show ADP + HPO4(2−), NAD+, NADP+, FAD opposite ATP, NADH, NADPH, FADH2; chemical energy links the pathways. The blue body-text line omitted by extraction reads: This is anabolism or biosynthesis, the building phase of metabolism.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-metabolism-pathways",
+          "label": "Metabolism and pathways",
+          "detail": "Metabolism is the sum of cellular chemical reactions; related reaction series form metabolic pathways.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-catabolism-anabolism",
+          "label": "Catabolism and anabolism",
+          "detail": "Catabolism is the energy-producing degradative phase. Anabolism/biosynthesis uses energy to build complex structures. Catabolic reactions drive anabolic reactions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Metabolic Pathways",
+      "topics": [
+        "Metabolic pathways"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                         Dr. Osama Essawi 2025\n\nMetabolic Pathways\n\n\n\n⬣   Metabolic pathways\n    can be linear,\n    branched, or cyclic\n⬣   Catabolic pathways are\n    convergent.\n⬣   Anabolic pathways are\n    divergent",
+      "visualDetails": "Converging catabolism figure: phospholipids and triacylglycerols → fatty acids; starch, glycogen, sucrose → glucose; glucose, alanine, serine and phenylalanine feed toward pyruvate and acetate (acetyl-CoA); fatty acids and leucine/isoleucine also feed toward acetate (acetyl-CoA). Diverging anabolism figure labels: acetoacetyl-CoA, mevalonate, isopentenyl-pyrophosphate, rubber, carotenoid pigments, cholesterol, steroid hormones, bile acids, cholesteryl esters, vitamin K, fatty acids, eicosanoids, triacylglycerols, CDP-diacylglycerol and phospholipids. Cyclic pathway labels: oxaloacetate, citrate and two CO2 exits. These are illustrative labels, not an inferred complete pathway.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-pathway-shapes",
+          "label": "Pathway shapes",
+          "detail": "Metabolic pathways may be linear, branched or cyclic.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-convergent-divergent",
+          "label": "Convergent catabolism and divergent anabolism",
+          "detail": "Catabolic pathways converge; anabolic pathways diverge.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-pathway-map-examples",
+          "label": "Illustrative pathway map",
+          "detail": "The figure illustrates multiple nutrient inputs converging on acetate/acetyl-CoA, divergent products from acetyl-CoA, and a cyclic pathway.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reactions in Metabolic Pathways",
+      "topics": [
+        "Metabolic reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                Dr. Osama Essawi 2025\nReactions in Metabolic Pathways\n\n\n\n\n                                                                      Coupled reactions\n                                                                       Energy releasing reactions are\n                                                                      coupled to energy requiring\n                                                                      reactions\n                                                                      Electron transfer reactions\n                                                                      Reductions and oxidation reactions\n\n\n                                                                       Activation\n                                                                      Formation of a more reactive\n                                                                      species",
+      "visualDetails": "Coupled-reaction figure: A + B → C + D + Energy (catabolic reaction); E + F + Energy → G + H (anabolic reaction).",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-coupling",
+          "label": "Energy coupling",
+          "detail": "Energy-releasing reactions are coupled to energy-requiring reactions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-electron-transfer",
+          "label": "Electron transfer",
+          "detail": "Reduction and oxidation reactions transfer electrons.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-activation",
+          "label": "Activation",
+          "detail": "Activation forms a more reactive species.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Bioenergetics and Thermodynamics",
+      "topics": [
+        "Thermodynamics"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                           Dr. Osama Essawi 2025\n\n                   Bioenergetics and Thermodynamics\n\n\n⬣  Thermodynamics: is the study of\n   energy.\n\n\n\n⬣  Bioenergetics describe the transfer\n   and utilization of energy in living\n   systems.",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-thermodynamics-bioenergetics",
+          "label": "Thermodynamics and bioenergetics",
+          "detail": "Thermodynamics studies energy. Bioenergetics describes energy transfer and utilization in living systems.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energy Laws — Laws of Thermodynamics",
+      "topics": [
+        "Thermodynamics"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                      Dr. Osama Essawi 2025\n              Energy Laws -                Laws of Thermodynamics\n\n\n●   The first law of thermodynamics is the principle of the\n    conservation of energy: for any physical or chemical\n    change, the total amount of energy in the universe\n    remains constant; energy may        change form or it may be\n    transported from one region to another, but it         cannot be\n    created or destroyed.\n\n●   The second law of thermodynamics, states that the\n    universe always tends toward increasing disorder: in all\n    natural processes, the entropy of the universe increases.",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-first-law",
+          "label": "First law",
+          "detail": "Total energy in the universe remains constant during physical or chemical change. Energy changes form or location but cannot be created or destroyed.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-second-law",
+          "label": "Second law",
+          "detail": "The slide states that the entropy of the universe increases in all natural processes.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Thermodynamic quantities describing energy changes",
+      "topics": [
+        "Thermodynamics"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                      Dr. Osama Essawi 2025\n               Thermodynamic quantities describing energy changes\n\n\n\n⬣    Free energy (ΔG) is the energy that can perform work during a reaction.\n            - Exergonic reactions release free energy (ΔG < 0)\n            - Endergonic reactions gain free energy (ΔG > 0).\n\n⬣    Enthalpy (ΔH) is the heat content of the reacting system.\n            - Exothermic reactions release heat (ΔH < 0)\n            - Endothermic reactions absorb heat (ΔH > 0).\n\n⬣    Entropy (ΔS) is a measure of randomness or disorder in a system. Reactions\n     with a gain in entropy involve more disordered products.\n\n⬣    The relationship between ΔG, ΔH, and ΔS is given by the equation\n                                   ΔG = ΔH –      TΔS",
+      "visualDetails": "Graph axes: potential energy of molecules versus progress of reaction. Exergonic graph has higher reactant than product energy and shows energy output; endergonic graph has higher product than reactant energy and shows energy input.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-gibbs-sign",
+          "label": "Free energy and reaction sign",
+          "detail": "Free energy ΔG is energy capable of performing work. Exergonic reactions release free energy (ΔG < 0); endergonic reactions gain free energy (ΔG > 0).",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-enthalpy-sign",
+          "label": "Enthalpy and heat sign",
+          "detail": "Enthalpy ΔH is the heat content of the reacting system. Exothermic reactions release heat (ΔH < 0); endothermic reactions absorb heat (ΔH > 0).",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-entropy",
+          "label": "Entropy",
+          "detail": "Entropy ΔS measures randomness/disorder. Gain of entropy corresponds to more disordered products.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-gibbs-equation",
+          "label": "Gibbs energy equation",
+          "detail": "ΔG = ΔH − TΔS.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gibbs free energy and equilibrium constant",
+      "topics": [
+        "Equilibrium"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n\n     Gibbs free energy and equilibrium constan                                                       t\n\n⬣    Equilibrium constant (Keq) is defined by the concentrations of reactants and products at equilibrium in\n     a general reaction\n\n\n\n\n\n\n\n⬣    Standard free-energy change ΔG′°       is the force driving a system toward equilibrium under standard\n     conditions of temperature, pressure, and initial concentrations.\n\n⬣    The relationship between     ΔG′°  and K′ eq  can be represented by the equation:\n                                              ΔG′°    = −RT lnK′eq",
+      "visualDetails": "The concentration expression is image-only and was transcribed by visual inspection. Subscripts eq refer to equilibrium; superscripts a,b,c,d are the coefficients shown. No numerical R or temperature is supplied.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-equilibrium-expression",
+          "label": "Equilibrium concentration expression",
+          "detail": "The displayed equilibrium expression is K_eq = [C]_eq^c [D]_eq^d / ([A]_eq^a [B]_eq^b).",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-standard-free-energy",
+          "label": "Standard free-energy change",
+          "detail": "ΔG′° drives a system toward equilibrium under standard conditions of temperature, pressure and initial concentrations.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-equilibrium-gibbs",
+          "label": "Standard free energy and equilibrium constant",
+          "detail": "ΔG′° = −RT ln K′eq.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gibbs free energy and equilibrium constant — Table 13-3",
+      "topics": [
+        "Equilibrium"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                Dr. Osama Essawi 2025\nGibbs free energy and equilibrium constant\n               ΔG′°   = −RT lnK′ eq",
+      "visualDetails": "TABLE 13-3 Relationships among K′eq, ΔG′°, and the Direction of Chemical Reactions. Columns: When K′eq is ...; ΔG′° is ...; Starting with all components at 1 M, the reaction ... . Rows: >1.0 | negative | proceeds forward; 1.0 | zero | is at equilibrium; <1.0 | positive | proceeds in reverse. The equation above repeats ΔG′° = −RT ln K′eq. SOURCE TABLE: selected by owner for assessment/Memorize.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-equilibrium-direction-table",
+          "label": "K′eq, ΔG′° and reaction direction",
+          "detail": "For all components initially at 1 M: K′eq > 1.0 corresponds to negative ΔG′° and forward reaction; K′eq = 1.0 to zero ΔG′° and equilibrium; K′eq < 1.0 to positive ΔG′° and reverse reaction.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Energetics of Some Chemical Reactions",
+      "topics": [
+        "Reaction energetics"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                            Dr. Osama Essawi 2025\n\n       Energetics of Some Chemical Reactions\n\n\n\n⬣    Hydrolysis reactions tend to be strongly favorable(spontaneous)\n\n⬣    Isomerization reactions have smaller free-energy changes\n             -Isomerization between enantiomers: ΔG′°            = 0\n\n⬣    Complete oxidation of reduced compounds is strongly favorable\n\n             -This is how chemotrophs       obtain most of their energy\n             - In biochemistry, the oxidation of reduced fuels with O2 is stepwise and controlled\n             -Recall that being thermodynamically favorable is not the same as being kinetically rapid\n\n     More examples can be found in TABLE 13-4Standard Free-Energy Changes of Some Chemical Reactions",
+      "visualDetails": "Footer refers to TABLE 13-4 Standard Free-Energy Changes of Some Chemical Reactions. The actual table is not reproduced on this slide and is not a supplied source.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-hydrolysis-favorable",
+          "label": "Hydrolysis energetics",
+          "detail": "Hydrolysis reactions tend to be strongly favorable/spontaneous.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-isomerization-energy",
+          "label": "Isomerization energetics",
+          "detail": "Isomerizations have smaller free-energy changes; isomerization between enantiomers has ΔG′° = 0.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-oxidation-kinetics",
+          "label": "Favorable oxidation versus reaction rate",
+          "detail": "Complete oxidation of reduced compounds is strongly favorable; chemotrophs obtain much of their energy this way. Oxidation with O2 is stepwise and controlled. Thermodynamically favorable does not mean kinetically rapid.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "MB-BIO-U001",
+          "statement": "Table 13-4 is referenced but not supplied on this page.",
+          "resolution": "No values or examples are imported from the absent textbook table.",
+          "blocksScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Review of Organic Chemistry",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                     Dr. Osama Essawi 2025\n\n           Review of Organic Chemistry\n\n\n⬣    Most reactions in biochemistry are thermal heterolytic        processes\n\n⬣    Nucleophiles react with electrophiles\n\n⬣    Heterolytic  bond breakage often gives rise to transferable groups, such as protons\n\n⬣    Oxidation of reduced fuels often occurs via the transfer of electrons and protons\n     to a dedicated redox cofactor",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-heterolytic-reactions",
+          "label": "Common biochemical reaction character",
+          "detail": "Most biochemical reactions are thermal heterolytic processes; nucleophiles react with electrophiles; heterolytic bond breakage can yield transferable groups such as protons.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-redox-cofactor-transfer",
+          "label": "Fuel oxidation and cofactors",
+          "detail": "Oxidation of reduced fuels often transfers electrons and protons to a dedicated redox cofactor.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Chemical Reactivity",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                  Dr. Osama Essawi 2025\n\n       Chemical Reactivity\n\n\n\n⬣   Most of the reactions in living cells fall into one of five general categories:\n          1) Reactions that make or break carbon–carbon bonds\n          2) Internal rearrangements, isomerizations, and eliminations\n          3) Free-radical reactions\n          4) Group transfers\n          5) Oxidation-reductions",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-reaction-categories",
+          "label": "Five general reaction categories",
+          "detail": "The listed categories are making/breaking C–C bonds; internal rearrangements/isomerizations/eliminations; free-radical reactions; group transfers; oxidation-reductions. This is a list, not a temporal sequence.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Homolytic vs. Heterolytic Cleavage",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                   Dr. Osama Essawi 2025\nHomolytic             vs. Heterolytic\nCleavage\n\n\n ⬣    Covalent bonds can be broken in two ways\n\n ⬣    Homolytic   cleavage is very rare\n\n ⬣    Heterolytic  cleavage is common, but the products are\n      highly unstable and this dictates the chemistry that\n      occurs",
+      "visualDetails": "Aligned reaction diagrams label carbon radical, H atom, carbon radicals, carbanion, proton, carbocation and hydride. Dots indicate radical electrons; pairs/charges distinguish ionic products. This is a comparison diagram rather than a printed data table.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-cleavage-products",
+          "label": "Homolytic and heterolytic cleavage products",
+          "detail": "Homolytic C–H cleavage produces carbon radical + H atom; homolytic C–C cleavage produces carbon radicals. Heterolytic C–H cleavage can give carbanion + proton or carbocation + hydride; heterolytic C–C cleavage gives carbanion + carbocation.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-cleavage-frequency",
+          "label": "Relative cleavage frequency",
+          "detail": "Homolytic cleavage is described as very rare; heterolytic cleavage is common, with highly unstable products that dictate subsequent chemistry.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Nucleophiles and Electrophiles in Biochemistry",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                               Dr. Osama Essawi 2025\nNucleophiles and Electrophiles in\nBiochemistry\n\n\n\n\n ⬣    Nucleophiles are electron donors\n\n ⬣    Electrophiles are electron acceptors",
+      "visualDetails": "Two-column comparison figure headed Nucleophiles / Electrophiles. Carbonyl caption: the more electronegative carbonyl oxygen pulls electrons away from carbon. Protonated imine caption: carbon is activated for nucleophilic attack by protonation of the imine. Structures and curved arrows locate electron donation/acceptance. The owner did not select these column examples for assessment/Memorize.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-nucleophile-electrophile",
+          "label": "Donor and acceptor roles",
+          "detail": "Nucleophiles are electron donors; electrophiles are electron acceptors.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-nucleophile-examples",
+          "label": "Illustrative nucleophiles",
+          "detail": "Figure examples: negatively charged oxygen (unprotonated hydroxyl group or ionized carboxylic acid), negatively charged sulfhydryl, carbanion, uncharged amine group, imidazole and hydroxide ion.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-electrophile-examples",
+          "label": "Illustrative electrophiles",
+          "detail": "Figure examples: carbon of a carbonyl group, protonated imine group, phosphorus of a phosphate group and proton.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reactions that form and break C–C bonds in biological systems",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                    Dr. Osama Essawi 2025\n\nReactions that form and break C—C bonds in\nbiological systems\n\n\n ⬣   C-C bond is formed in both the\n     aldol condensation and the\n     Claisen ester condensation\n\n\n ⬣   In the decarboxylation of a Beta\n     Keto acid a C-C bond is broken.",
+      "visualDetails": "Three mechanism diagrams are labeled Aldol condensation, Claisen ester condensation, and Decarboxylation of a β-keto acid. The decarboxylation diagram shows loss of CO2, an enol intermediate and conversion to a carbonyl product. No external mechanism is supplied.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-carbon-bond-formation",
+          "label": "C–C bond formation",
+          "detail": "Aldol condensation and Claisen ester condensation both form a C–C bond.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-decarboxylation",
+          "label": "C–C bond breaking",
+          "detail": "Decarboxylation of a β-keto acid breaks a C–C bond.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Isomerization",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                             Dr. Osama Essawi 2025\n\nIsomerization",
+      "visualDetails": "Panel (a): glucose 6-phosphate ⇌ fructose 6-phosphate, enzyme phosphohexose isomerase. Panel (b), numbered mechanism: 1 B1 abstracts a proton; 2 this allows formation of a C=C double bond; 3 carbonyl electrons form an O–H bond with H donated by B2; 4 B2 abstracts a proton, allowing C=O formation; 5 an electron pair from C=C forms a C–H bond with the proton donated by B1. Central structure labeled Enediol intermediate. The displayed adjacent electron transfers are not assumed to be five independently separable temporal events.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-hexose-isomerization",
+          "label": "Glucose/fructose phosphate isomerization",
+          "detail": "Phosphohexose isomerase interconverts glucose 6-phosphate and fructose 6-phosphate.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-enediol-mechanism",
+          "label": "Enediol intermediate",
+          "detail": "The figure depicts acid/base proton transfers through an enediol intermediate in the glucose 6-phosphate/fructose 6-phosphate isomerization.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Addition–Elimination Reactions",
+      "topics": [
+        "Chemical reactions"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                           Dr. Osama Essawi 2025\n                  Addition–Elimination Reactions\n\n\n\n⬣   An example of an elimination reaction that does not affect overall oxidation\n    state is the loss of water from an alcohol, resulting in the introduction of a C═C\n    bond\n⬣   Similar reactions can result from eliminations in amines.",
+      "visualDetails": "Reaction diagram shows adjacent H and OH groups leaving as H2O, with the corresponding C=C double bond appearing; reversible addition is drawn in the reverse direction.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-elimination-water",
+          "label": "Elimination without redox change",
+          "detail": "Elimination of water from an alcohol can introduce a C=C bond without changing overall oxidation state. Similar eliminations occur in amines.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Group Transfer Reactions",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                    Dr. Osama Essawi 2025\n          Group Transfer Reactions\n\n\n⬣  The transfer of acyl, glycosyl, and phosphoryl groups from one nucleophile to\n   another is common in living cells.\n\n\n⬣  Acyl group transfer generally involves the addition of a nucleophile to the\n   carbonyl carbon of an acyl group to form a tetrahedral intermediate",
+      "visualDetails": "Mechanism: incoming :Y attacks carbonyl carbon of R–C(=O)–X; tetrahedral intermediate bears X and Y with oxygen negative; carbonyl reforms and X leaves, giving R–C(=O)–Y plus :X−.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-group-transfer-types",
+          "label": "Common transferred groups",
+          "detail": "Transfer of acyl, glycosyl and phosphoryl groups between nucleophiles is common in living cells.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-acyl-intermediate",
+          "label": "Acyl-transfer intermediate",
+          "detail": "Nucleophilic addition to the carbonyl carbon of an acyl group forms a tetrahedral intermediate.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phosphoryl Transfer from ATP",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                           Dr. Osama Essawi 2025\n                Phosphoryl Transfer from ATP\n\n\n\n⬣   Phosphoryl group transfers are significant in\n    metabolic pathways.\n⬣   Inorganic orthophosphate (Pi) and inorganic\n    pyrophosphate (PPi) are common leaving\n    groups in nucleophilic substitution reactions.\n⬣   Nucleophilic substitutions are facilitated by\n    attaching a phosphoryl group to a poor leaving\n    groups, such as hydroxyl (OH).\n⬣   In metabolic reactions, a phosphoryl group is\n    often transferred from ATP to form a\n    phosphate ester.",
+      "visualDetails": "Figure: glucose hydroxyl attacks the terminal phosphoryl group of ATP, yielding ADP and glucose 6-phosphate, labeled a phosphate ester. Body text also states that attaching a phosphoryl group facilitates substitution involving a poor leaving group such as hydroxyl (OH).",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-phosphoryl-transfer",
+          "label": "ATP phosphoryl transfer",
+          "detail": "Phosphoryl transfer from ATP commonly forms a phosphate ester in metabolism.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-phosphate-leaving-groups",
+          "label": "Phosphate leaving groups",
+          "detail": "Inorganic orthophosphate Pi and inorganic pyrophosphate PPi are common leaving groups in nucleophilic substitution reactions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hydrolysis of ATP is highly favorable under standard conditions",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                   Dr. Osama Essawi 2025\n Hydrolysis of ATP is highly favorable under\n                standard conditions\n\n\n\n\n⬣ Better charge separation in products\n\n⬣ More favorable resonance stabilization\n  of products\n\n⬣ Energy is released from ATP through\n  the loss of phosphate groups",
+      "visualDetails": "Figure labels hydrolysis with relief of charge repulsion, resonance stabilization of phosphate, and ionization of ADP. Body text says energy is released through loss of phosphate groups; this is preserved as a description of the overall hydrolysis process, not an added claim that bond cleavage alone releases energy.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-atp-hydrolysis-stabilization",
+          "label": "ATP hydrolysis stabilization",
+          "detail": "Better charge separation and more favorable resonance stabilization of products help make ATP hydrolysis favorable.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-atp-standard-value",
+          "label": "ATP hydrolysis standard energy",
+          "detail": "Displayed ATP4− + H2O → ADP3− + HPO4(2−) + H+ has ΔG′° = −30.5 kJ/mol.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Actual ΔG of ATP hydrolysis differs from ΔG′°",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                             Dr. Osama Essawi 2025\n       Actual ΔG of ATP hydrolysis differs from ΔG’∘\n\n\n⬣   The actual free  -energy change in a process depends on:\n            -The standard free energy\n            -The actual concentrations of reactants and products\n\n⬣   Cellular concentrations of ATP, ADP, and Pi are not\n    identical and are lower than standard conditions.\n\n⬣   The true reactant and the product are Mg        -ATP and Mg    -\n    ADP, respectively\n⬣   ΔG’∘  of ATP hydrolysis is Mg++ dependent",
+      "visualDetails": "Structures labeled MgATP2− and MgADP− illustrate Mg2+ complexation to phosphate groups.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-actual-versus-standard",
+          "label": "Actual versus standard free energy",
+          "detail": "Actual free-energy change depends on standard free energy and actual reactant/product concentrations. Cellular ATP, ADP and Pi concentrations differ and are below standard conditions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-magnesium-atp",
+          "label": "Magnesium complexes",
+          "detail": "The slide identifies Mg-ATP and Mg-ADP as true reactant/product, and says ΔG′° of ATP hydrolysis depends on Mg2+.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Several phosphorylated compounds have large ΔG′° for hydrolysis",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                Dr. Osama Essawi 2025\nSeveral phosphorylated compounds have large ΔG’∘                                                  for hydrolysis\n\n\n⬣   Compounds with large, negative, standard\n    free energies of hydrolysis give products that\n    are more stable than the reactants because of\n    one or more of the following:\n\n-   The bond in reactants due to electrostatic\n    repulsion is relieved by charge separation\n\n-   The products are stabilized by ionization\n    (resonance).\n\n-   The products are stabilized by isomerization\n    (tautomerization).",
+      "visualDetails": "SOURCE TABLE (not selected for assessment/Memorize): Compound | ΔG′° (kJ/mol) | ΔG′° (kcal/mol). Phosphoenolpyruvate | −61.9 | −14.8; 1,3-Bisphosphoglycerate (→ 3-phosphoglycerate + Pi) | −49.3 | −11.8; Phosphocreatine | −43.0 | −10.3; ADP (→ AMP + Pi) | −32.8 | −7.8; ATP (→ ADP + Pi) | −30.5 | −7.3; ATP (→ AMP + PPi) | −45.6 | −10.9; AMP (→ adenosine + Pi) | −14.2 | −3.4; PPi (→ 2Pi) | −19.2 | −4.0; Glucose 3-phosphate | −20.9 | −5.0. Values/labels preserved as printed, including uncertain rows.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-high-energy-stabilization",
+          "label": "Why high-energy hydrolysis is favorable",
+          "detail": "More stable hydrolysis products can result from relief of electrostatic repulsion by charge separation, ionization/resonance stabilization, or isomerization/tautomerization.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-hydrolysis-comparison-table",
+          "label": "Hydrolysis energy comparison table",
+          "detail": "Source table compares standard hydrolysis energies in kJ/mol and kcal/mol for PEP, 1,3-BPG, phosphocreatine, ADP, ATP (two products), AMP, PPi and a row labeled Glucose 3-phosphate.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-glucose-table-label",
+          "label": "Uncertain glucose-phosphate row",
+          "detail": "Last row is literally labeled Glucose 3-phosphate; no correction is made.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-ppi-table-values",
+          "label": "Inconsistent PPi energy-unit pair",
+          "detail": "PPi → 2Pi is printed as −19.2 kJ/mol and −4.0 kcal/mol; this unit pair is held unresolved.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "MB-BIO-U002",
+          "statement": "The final hydrolysis-table row is labeled Glucose 3-phosphate.",
+          "resolution": "Preserved literally; no silent correction or scored item based on its identity.",
+          "blocksScoring": true
+        },
+        {
+          "id": "MB-BIO-U003",
+          "statement": "The PPi → 2Pi row gives −19.2 kJ/mol and −4.0 kcal/mol, an inconsistent conversion pair.",
+          "resolution": "Both values preserved. Do not score this numeric pair.",
+          "blocksScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phosphoenolpyruvate (PEP) hydrolysis",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                               Dr. Osama Essawi 2025\n                    Phosphoenolpyruvate (PEP) hydrolysis\n\n\n⬣    Phosphoenolpyruvate (PEP) undergoes\n     hydrolysis in glycolysis, contributing to a\n     high standard free energy (ΔG′°      = -61.9\n     kJ/mol).\n\n⬣    Hydrolysis of PEP involved in ATP\n     synthesis is catalyzed by pyruvate kinase\n     and yields the enol form of pyruvate,\n     which can tautomerize      to the more stable\n     keto form.\n\n\n\n⬣    PEP hydrolysis involves the release of Pi\n     from ester linkage, and the greater\n     resonance stabilization in the released Pi\n     contributes to the negative ΔG′°.",
+      "visualDetails": "Upper diagram: PEP plus ADP yields ATP and enolpyruvate, then pyruvate. Lower hydrolysis diagram: water releases Pi from PEP and produces pyruvate (enol form), followed by tautomerization to pyruvate (keto form). Displayed hydrolysis: PEP3− + H2O → pyruvate− + HPO4(2−), ΔG′° = −61.9 kJ/mol. Hydrolysis and kinase transfer are shown as related but distinct depictions.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-pep-energy",
+          "label": "PEP hydrolysis energy",
+          "detail": "PEP hydrolysis has ΔG′° = −61.9 kJ/mol.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-pep-tautomerization",
+          "label": "PEP and pyruvate stabilization",
+          "detail": "Pyruvate kinase catalyzes the ATP-synthesis reaction involving PEP, yielding enolpyruvate, which tautomerizes to more stable ketopyruvate. Pi resonance stabilization contributes to negative ΔG′°.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "1,3-Bisphosphoglycerate Hydrolysis",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                    Dr. Osama Essawi 2025\n              1,3-Bisphosphoglycerate Hydrolysis\n\n⬣   1,3-bisphosphoglycerate, an\n    intermediate in glycolysis\n\n\n⬣   Water addition across the\n    anhydride bond leads to the direct\n    product 3-phosphoglyceric acid,\n    contributing to the forward\n    reaction.\n\n\n⬣   Further metabolism of 3-\n    phosphoglyceric acid and formation\n    of a resonance-stabilized ion favor\n    the forward reaction",
+      "visualDetails": "Diagram: 1,3-bisphosphoglycerate + water → 3-phosphoglyceric acid + Pi; ionization releases H+ and yields resonance-stabilized 3-phosphoglycerate. Net formula: 1,3-bisphosphoglycerate4− + H2O → 3-phosphoglycerate3− + HPO4(2−) + H+.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-bpg-hydrolysis",
+          "label": "1,3-BPG hydrolysis",
+          "detail": "1,3-BPG is a glycolytic intermediate. Water addition across its anhydride bond gives 3-phosphoglyceric acid, which ionizes to resonance-stabilized 3-phosphoglycerate, favoring hydrolysis.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-bpg-energy",
+          "label": "1,3-BPG hydrolysis energy",
+          "detail": "Displayed hydrolysis of 1,3-bisphosphoglycerate has ΔG′° = −49.3 kJ/mol.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ATP hydrolysis in two steps",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                      Dr. Osama Essawi 2025\n               ATP hydrolysis in two steps\n\n\n⬣    ATP participates covalently in enzyme-catalyzed\n     reactions, contributing free energy to the process.\n\n\n⬣    In the first step part of the ATP molecule, such as a\n     phosphoryl or pyrophosphoryl         group is transferred\n     to a substrate or an amino acid residue in an\n     enzyme.\n\n⬣    This covalent attachment raises the free-energy\n     content of the substrate or enzyme, activating it.\n\n⬣    In the second step, the phosphate transferred in the\n     first step is displaced, generating Pi, Ppi     as the\n     leaving group.",
+      "visualDetails": "Upper figure: overall glutamate + NH3 + ATP → glutamine + ADP + Pi. Actual two-step diagram: ATP phosphorylates glutamate forming enzyme-bound glutamyl phosphate; NH3 attacks, phosphate is released, glutamine forms. Body text generically lists Pi and PPi as possible leaving groups; the illustrated glutamine example releases Pi.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-atp-covalent-activation",
+          "label": "ATP-coupled covalent activation",
+          "detail": "ATP can contribute a phosphoryl or pyrophosphoryl group to a substrate or enzyme amino-acid residue. Covalent attachment raises its free-energy content, activating it; the transferred group is displaced in a later step.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-glutamine-activation",
+          "label": "Glutamine synthesis example",
+          "detail": "The figure shows glutamate activated to enzyme-bound glutamyl phosphate using ATP → ADP; NH3 then replaces phosphate to form glutamine and Pi.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "MB-BIO-U004",
+          "statement": "Generic body text lists Pi, PPi as leaving groups; the illustrated glutamine reaction specifically releases Pi.",
+          "resolution": "Keep the generic and illustrated scopes distinct; do not apply PPi to the glutamine example.",
+          "blocksScoring": false
+        }
+      ]
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "ATP as Energy Source in Metabolism",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                      Dr. Osama Essawi 2025\n\n                  ATP as Energy Source in Metabolism\n\n⬣    Intermediate Energy Release:\n\n              -While compounds like PEP release more energy, ATP's intermediate release is suitable for cellular processes.\n              -Releasing too much energy at once could be inefficient or harmful.\n\n⬣    Regulation:\n\n              -Controlled ATP hydrolysis ensures a managed and regulated energy release.\n              -Tuning energy release is crucial for specific cellular activities.\n\n⬣    Economic Considerations:\n\n              -ATP synthesis and hydrolysis are efficiently coupled to metabolic pathways.\n              -The cost of ATP synthesis and usage is reasonable, making it an economical choice for cells               .\n\n⬣    Buffering Capacity:\n\n              -ATP is present in high concentrations, providing a readily available energy reservoir.",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-atp-intermediate-energy",
+          "label": "ATP intermediate energy release",
+          "detail": "ATP is presented as an intermediate-energy-release carrier relative to PEP, suitable for controlled cellular energy transfer.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-atp-coupling-regulation",
+          "label": "ATP coupling and regulation",
+          "detail": "Controlled ATP hydrolysis regulates release; ATP synthesis and hydrolysis are coupled to pathways. The slide describes ATP as economical and present at high concentrations, providing an available reservoir.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hydrolysis of Thioesters",
+      "topics": [
+        "Group transfer and ATP"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                    Dr. Osama Essawi 2025\n                  Hydrolysis of Thioesters\n\n\n\n ⬣    Hydrolysis of thioesters is strongly favorable\n            - Such as acetyl-CoA\n\n\n⬣Hydrolysis of acetyl-coenzyme A. is a thioester with a large,\n negative, standard free energy of hydrolysis.\n\n\n ⬣    Acetyl-CoA is an important donor of acyl groups\n            - Feeding two-carbon units into metabolic pathways\n            - Synthesis of fatty acids",
+      "visualDetails": "Figure: acetyl-CoA + water → acetic acid + CoASH; ionization gives acetate + H+. Resonance stabilization of acetate is shown. Net equation acetyl-CoA + H2O → acetate + CoA-SH + H+, ΔG′° = −31.4 kJ/mol.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-thioester-energy",
+          "label": "Thioester hydrolysis",
+          "detail": "Thioester hydrolysis, such as acetyl-CoA hydrolysis, is strongly favorable. The figure gives ΔG′° = −31.4 kJ/mol.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-acetyl-coa-donor",
+          "label": "Acetyl-CoA acyl donation",
+          "detail": "Acetyl-CoA donates acyl groups, feeding two-carbon units into pathways and supporting fatty acid synthesis.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Oxidation-Reduction Reactions",
+      "topics": [
+        "Redox chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                Dr. Osama Essawi 2025\n                               Oxidation-Reduction Reactions\n\n\n\n⬣   Dehydrogenations are common biological oxidations where a\n    compound loses two electrons and two hydrogen ions.\n\n⬣   In some biological oxidations, carbon atoms become covalently\n    bonded to oxygen.\n\n⬣   Oxidations must be accompanied by reductions, where an electron\n    acceptor acquires the electrons removed during oxidation.\n\n⬣   Oxidation reactions generally release energy, and most living cells\n    obtain energy by oxidizing metabolic fuels like carbohydrates or\n    fats.",
+      "visualDetails": "Vertical labeled structures: –CH2–CH3 (alkane); –CH2–CH2OH (alcohol); –CH2–C(=O)H(R) (aldehyde/ketone); –CH2–C(=O)OH (carboxylic acid); O=C=O (carbon dioxide). No numerical oxidation states are printed.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-dehydrogenation",
+          "label": "Dehydrogenation",
+          "detail": "Dehydrogenations commonly remove two electrons and two hydrogen ions in biological oxidations.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-redox-pairing",
+          "label": "Oxidation requires reduction",
+          "detail": "Electron acceptors acquire electrons removed by oxidation. In some oxidations carbon becomes bonded to oxygen; cells obtain energy by oxidizing carbohydrate/fat fuels.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-carbon-oxidation-series",
+          "label": "Carbon oxidation illustrations",
+          "detail": "The figure lists alkane, alcohol, aldehyde (ketone), carboxylic acid and carbon dioxide with their structures.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Reversible Oxidation of a Secondary Alcohol to a Ketone",
+      "topics": [
+        "Redox chemistry"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                       Dr. Osama Essawi 2025\n\n    Reversible Oxidation of a Secondary Alcohol to a Ketone\n\n\n\n\n⬣  Many biochemical oxidation-reduction reactions involve the transfer of two\n   electrons\n⬣  To keep charges in balance, proton transfer often accompanies electron transfer\n⬣  In many dehydrogenases, the reaction proceeds by stepwise transfers of proton\n   (H+) and hydride (: H –)",
+      "visualDetails": "Diagram: lactate ⇌ pyruvate via lactate dehydrogenase. The alcohol OH and adjacent H are highlighted in lactate; carbonyl oxygen highlighted in pyruvate; curved arrows show 2H+ + 2e− leaving or entering according to direction.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-two-electron-transfer",
+          "label": "Two-electron redox transfer",
+          "detail": "Many biochemical redox reactions transfer two electrons; proton transfer often accompanies electron transfer to balance charges.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-proton-hydride",
+          "label": "Proton and hydride transfer",
+          "detail": "Many dehydrogenases operate through stepwise proton (H+) and hydride (:H−) transfers.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-lactate-pyruvate",
+          "label": "Lactate/pyruvate redox example",
+          "detail": "Lactate dehydrogenase interconverts lactate (secondary alcohol) and pyruvate (ketone), with the oxidation direction releasing 2H+ + 2e−.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "NAD and NADP are common redox cofactors",
+      "topics": [
+        "Redox cofactors"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                               Dr. Osama Essawi 2025\nNAD and NADP are common redox cofactors",
+      "visualDetails": "Image-only content. NAD+ structure labels Adenine and the ribose hydroxyl modified in NADP+. Upper reaction indicates reduction with 2e− and 2H+ and depicts NADH with an alternative representation plus H+. Spectrum axes: Absorbance 0–1.0 versus Wavelength (nm), ticks 220,240,260,280,300,320,340,360,380. Red curve oxidized NAD+; blue reduced NADH. Read approximate peak locations only, not unprinted quantitative extinction coefficients.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-nad-forms",
+          "label": "NAD oxidized and reduced forms",
+          "detail": "Figure labels NAD+ as oxidized and NADH as reduced; the nicotinamide ring participates in electron/proton transfer.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-nadp-phosphate",
+          "label": "NADP phosphate difference",
+          "detail": "In NADP+, the indicated ribose hydroxyl is esterified with phosphate.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-nadh-absorbance",
+          "label": "NADH absorbance distinction",
+          "detail": "The plotted reduced NADH spectrum has an additional absorption band near 340 nm, absent from the oxidized NAD+ curve; both show a main band near 260 nm.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Flavin cofactors allow one- or two-electron transfers",
+      "topics": [
+        "Redox cofactors"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                Dr. Osama Essawi 2025\n        Flavin cofactors allow one-                                     or two electron transfers\n\n\n⬣   Flavin nucleotides coenzymes (FAD & FMN)\n    consist of the isoalloxazine  ring that can\n    reversibly accept one or two electrons,\n    along with protons, from a reduced\n    substrate.\n\n⬣   When a fully oxidized flavin   nucleotide\n    accepts only one electron and proton, a\n    Semiquinone    form is produced denoted as\n    FADH∙ and FMNH∙\n\n⬣   When accepting two electrons and protons\n    a fully reduced form is produced denoted\n    as FADH2 and FMNH2.",
+      "visualDetails": "Structure brackets distinguish FMN from the longer FAD nucleotide containing the adenine moiety. Reaction sequence: oxidized ring ⇌ semiquinone FADH• (FMNH•) ⇌ fully reduced FADH2 (FMNH2), each arrow adding H+ + e−. Ring caption: isoalloxazine ring.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-flavin-ring",
+          "label": "Flavin redox ring",
+          "detail": "FAD and FMN contain an isoalloxazine ring capable of reversible one- or two-electron acceptance with protons.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-flavin-semiquinone",
+          "label": "Flavin semiquinone",
+          "detail": "One electron and one proton added to oxidized flavin produce semiquinone FADH• or FMNH•.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-flavin-fully-reduced",
+          "label": "Fully reduced flavins",
+          "detail": "Two-electron/proton acceptance gives fully reduced FADH2 or FMNH2.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "How Enzymes Work — substrate binding",
+      "topics": [
+        "Enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n           How Enzymes Work\n\n⬣    Enzymes are biological catalysts that facilitate and\n     accelerate biochemical reactions in living\n     organisms.\n\n⬣    Substrate Binding:\n\n            - Enzymes have a specific active site for\n            substrate binding.\n            - The binding forms an enzyme-substrate\n            complex.\n            - This complex brings the reactive groups of\n            the substrate(s) into proximity, facilitating\n            the biochemical reaction.\n            - Induced fit occurs as a result of the\n            enzyme-substrate complex",
+      "visualDetails": "Protein image: substrate (glucose) binds enzyme (hexokinase); two protein conformations illustrate induced fit.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-enzyme-catalyst",
+          "label": "Enzymes as catalysts",
+          "detail": "Enzymes are biological catalysts that facilitate and accelerate biochemical reactions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-enzyme-substrate",
+          "label": "Binding and induced fit",
+          "detail": "Specific active-site binding forms an enzyme–substrate complex, brings reactive groups into proximity and results in induced fit.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "How Enzymes Work — catalysis and release",
+      "topics": [
+        "Enzymes"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n                  How Enzymes Work\n\n⬣    Catalysis of the Reaction:\n\n            - Enzymes stabilize the transition state, lowering\n            activation energy.\n            - This accelerates specific biochemical reactions.\n\n⬣    Product Formation and Release:\n\n            - Catalyzed reactions result in product formation.\n            - Products are released, and enzymes remain unchanged.\n            - Enzymes are available for reuse, catalyzing multiple\n            reactions.",
+      "visualDetails": "Upper graph: free energy G versus reaction coordinate; S and P ground states, transition state ‡, forward activation ΔG‡ S→P, reverse activation ΔG‡ P→S, and ΔG′° between S/P. Lower comparison: uncatalyzed black high barrier versus blue catalyzed route through ES and EP with lower barriers, labels ΔG‡ uncat and ΔG‡ cat. Endpoints S and P are shared.",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-transition-state",
+          "label": "Transition-state stabilization",
+          "detail": "Enzymes stabilize the transition state, lowering activation energy and accelerating reaction.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-enzyme-reuse",
+          "label": "Product release and reuse",
+          "detail": "Products are released; enzymes remain unchanged and can catalyze further reactions.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-activation-versus-equilibrium",
+          "label": "Activation barrier versus reaction free-energy difference",
+          "detail": "Energy profiles distinguish transition-state activation energies from the S/P ground-state free-energy difference; catalysis lowers the activation barrier.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Metabolism",
+      "topics": [
+        "Enzyme regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                      Dr. Osama Essawi 2025\n\n                                Regulation of Metabolism\n\n\n\n⬣    Allosteric Regulation:\n\n   -   Enzyme function can be modulated by the binding of molecules to allosteric sites.\n   -   Stimulation or inhibition of enzyme activity occurs through allosteric regulation.\n\n⬣    Feedback Inhibition:\n\n   -The end product of a metabolic pathway can act as an allosteric inhibitor.\n   -Allosteric inhibition helps regulate and control metabolic processes effectively.",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-allosteric-regulation",
+          "label": "Allosteric regulation",
+          "detail": "Binding to allosteric sites can stimulate or inhibit enzyme activity.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        },
+        {
+          "id": "bioenergetics-and-metabolism-feedback-inhibition",
+          "label": "Feedback inhibition",
+          "detail": "A pathway end product can act as an allosteric inhibitor to regulate the pathway.",
+          "priority": "core",
+          "rationale": "Source explicitly teaches this relationship or distinction."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Maximizing Cellular Efficiency",
+      "topics": [
+        "Enzyme regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\n\n                        Maximizing Cellular Efficiency\n\n\n\n⬣    Utilizing ATP as an Optimal Energy Source:\n\n   -   ATP participates in a wide range of cellular reactions.\n   -   It is directly involved in various cellular processes.\n   -   Minimal energy wastage during intermediate phosphorylation.\n\n⬣    Utilizing Enzymes enhances reaction specificity and decreases randomness in cellular reactions.\n\n⬣    Enzyme Regulation governs the regulation and optimization of cellular reactions.",
+      "visualDetails": "",
+      "concepts": [
+        {
+          "id": "bioenergetics-and-metabolism-cellular-efficiency",
+          "label": "ATP, enzyme specificity and regulation",
+          "detail": "ATP participates in many cellular reactions; the slide emphasizes minimal wastage during intermediate phosphorylation, enzyme specificity and regulation that optimizes cellular reactions.",
+          "priority": "supporting",
+          "rationale": "Preserved source detail or illustration; lighter assessment emphasis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Thanks — closing page",
+      "topics": [
+        "Course identity"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewBy": "Codex chapter writer (second-agent content review still pending)",
+      "visualReviewNotes": "Inspected rendered page in a contact sheet; image-only content was checked at full-page resolution where needed. No printed slide number is visible.",
+      "text": "                                                                          Dr. Osama Essawi 2025\n\nThanks!",
+      "visualDetails": "Dr. Osama Essawi; Faculty of Medicine; Department of Biochemistry & Molecular Biology; Metabolic Biochemistry; course 6105212; Al-Quds logo.",
+      "concepts": [],
+      "uncertainties": []
+    }
+  ],
+  "ownerTableDecision": "Owner selected p12. p25 table and p17 column examples excluded from assessment/Memorize; separate prose remains eligible."
+}

@@ -1,0 +1,78 @@
+{
+  "subject": "Metabolic Biochemistry",
+  "purpose": "Midterm material only; exam date not supplied",
+  "total_pdf_pages": 154,
+  "lectures": [
+    {
+      "id": "bioenergetics-and-metabolism",
+      "title": "Bioenergetics and Metabolism",
+      "original_filename": "1) Chapter 13 - Bioenergetics and Metabolism.pdf",
+      "path": "slides/1) Chapter 13 - Bioenergetics and Metabolism.pdf",
+      "pdf_pages": 39,
+      "sha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "extraction_status": "Complete: every page visually reviewed; faithful extraction and figure/table transcription",
+      "question_bank_status": "See source-analysis/QA.md for current chapter acceptance; Antigravity and Claude reviews outstanding",
+      "teaching_pages": 36,
+      "excluded_pages": [
+        1,
+        2,
+        39
+      ]
+    },
+    {
+      "id": "glycolysis-and-fermentation",
+      "title": "Glycolysis and Fermentation",
+      "original_filename": "2) Chapter 14 - Glycolysis and Fermentation.pdf",
+      "path": "slides/2) Chapter 14 - Glycolysis and Fermentation.pdf",
+      "pdf_pages": 61,
+      "sha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "extraction_status": "Complete: every page visually reviewed; faithful extraction and figure/table transcription",
+      "question_bank_status": "See source-analysis/QA.md for current chapter acceptance; Antigravity and Claude reviews outstanding",
+      "teaching_pages": 54,
+      "excluded_pages": [
+        1,
+        2,
+        11,
+        19,
+        31,
+        48,
+        61
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh",
+      "title": "The citric acid cycle and PDH",
+      "original_filename": "3) Chapter 16 - The citric acid cycle and PDH_OES.pdf",
+      "path": "slides/3) Chapter 16 - The citric acid cycle and PDH_OES.pdf",
+      "pdf_pages": 33,
+      "sha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "extraction_status": "Complete: every page visually reviewed; faithful extraction and figure/table transcription",
+      "question_bank_status": "See source-analysis/QA.md for current chapter acceptance; Antigravity and Claude reviews outstanding",
+      "teaching_pages": 29,
+      "excluded_pages": [
+        1,
+        2,
+        16,
+        33
+      ]
+    },
+    {
+      "id": "oxidative-phosphorylation",
+      "title": "Oxidative Phosphorylation",
+      "original_filename": "4) Chapter 19 - Oxidative Phosphorylation.pdf",
+      "path": "slides/4) Chapter 19 - Oxidative Phosphorylation.pdf",
+      "pdf_pages": 21,
+      "sha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "extraction_status": "Complete: every page visually reviewed; faithful extraction and figure/table transcription",
+      "question_bank_status": "See source-analysis/QA.md for current chapter acceptance; Antigravity and Claude reviews outstanding",
+      "teaching_pages": 18,
+      "excluded_pages": [
+        1,
+        2,
+        21
+      ]
+    }
+  ],
+  "authority": "Four unchanged owner-supplied PDFs only",
+  "stage": "Source extraction and visual inspection complete; chapter acceptance and outstanding reviews are recorded in source-analysis/QA.md"
+}

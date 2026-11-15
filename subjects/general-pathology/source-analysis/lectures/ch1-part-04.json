@@ -1,0 +1,331 @@
+{
+  "lectureId": "ch1-part-04",
+  "title": "Chapter 1 — Part 4: 4.CH 1 - Cell Injury III Subcellular responses to injury",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "teaching",
+      "title": "Subcellular responses overview",
+      "topics": [
+        "Subcellular responses overview"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p002-content",
+          "label": "Subcellular responses overview",
+          "detail": "Subcellular responses to injury\n1. Lysosomal Catabolism\n\n     ➢  Heterophagy\n     ➢  Autophagy\n2. Induction (Hypertrophy) of Smooth\n   Endoplasmic Reticulum\n3. Mitochondrial Alterations\n4. Cytoskeletal Abnormalities\n5. Heat Shock Proteins",
+          "priority": "supporting",
+          "rationale": "Repeated overview, contextual illustration or unqualified claim retained for source fidelity; detailed assessable distinctions indexed on adjacent core pages."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Primary and secondary lysosomes",
+      "topics": [
+        "Primary and secondary lysosomes"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p003-content",
+          "label": "Primary and secondary lysosomes",
+          "detail": "Subcellular responses to injury:\n\n1.  Lysosomal catabolism:\n   –  Primary lysosomes: membrane bound\n      intracellular organelles containing a variety of\n      hydrolytic enzymes\n\n\n   –  Secondary lysosomes, “phagolysosome” :\n      when the primary lysosomes fuse with vacuoles\n      containing material for digestion.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": "4",
+      "kind": "teaching",
+      "title": "Autophagy and heterophagy",
+      "topics": [
+        "Autophagy and heterophagy"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p004-content",
+          "label": "Autophagy and heterophagy",
+          "detail": "1.Lysosomal catabolism:\n\n• Two ways:\n\n     1.autophagy\n\n     2.heterophagy\nVisual transcription: Heterophagy diagram: external material -> phagocytic vacuole -> primary lysosome fusion -> heterophagic phagolysosome/secondary lysosome -> residual body/exocytosis. Autophagy: intracellular organelles -> autophagic vacuole -> lysosome fusion -> residual body/lipofuscin. Electron micrograph highlights a vacuole.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Heterophagy diagram: external material -> phagocytic vacuole -> primary lysosome fusion -> heterophagic phagolysosome/secondary lysosome -> residual body/exocytosis. Autophagy: intracellular organelles -> autophagic vacuole -> lysosome fusion -> residual body/lipofuscin. Electron micrograph highlights a vacuole.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lysosomal pathways diagram",
+      "topics": [
+        "Lysosomal pathways diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p005-content",
+          "label": "Lysosomal pathways diagram",
+          "detail": "\nVisual transcription: Fluid -> pinocytosis -> pinocytotic absorptive vacuole. Particles -> phagocytosis -> phagosome. Primary lysosomes with acid hydrolases from Golgi fuse to form secondary lysosomal compartments. Autophagosome encloses mitochondria. Residual body -> exocytosis. Enzymes shown through DNA -> RNA -> RER -> Golgi, with PTM label.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Fluid -> pinocytosis -> pinocytotic absorptive vacuole. Particles -> phagocytosis -> phagosome. Primary lysosomes with acid hydrolases from Golgi fuse to form secondary lysosomal compartments. Autophagosome encloses mitochondria. Residual body -> exocytosis. Enzymes shown through DNA -> RNA -> RER -> Golgi, with PTM label.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lysosomal processing diagram",
+      "topics": [
+        "Lysosomal processing diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p006-content",
+          "label": "Lysosomal processing diagram",
+          "detail": "\nVisual transcription: Bacterial phagocytosis -> heterophagosome -> secondary lysosome -> residual body. Intracellular organelle -> autophagosome -> lysosomal processing -> residual body/lipofuscin. Golgi produces primary lysosomes; RER and nucleus labelled.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Bacterial phagocytosis -> heterophagosome -> secondary lysosome -> residual body. Intracellular organelle -> autophagosome -> lysosomal processing -> residual body/lipofuscin. Golgi produces primary lysosomes; RER and nucleus labelled.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Autophagy",
+      "topics": [
+        "Autophagy"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p007-content",
+          "label": "Autophagy",
+          "detail": "Type of phagocytosis:\n\n• Autophagy:\n   –  When intracellular organelles are sequestered from the\n      cytoplasm in an autophagic vacuole. This combines with\n      primary lysosome to form autophagolysosome.\n   –  seen especially with atrophy and aging.\nVisual transcription: Autophagy sequence labels effete organelle, ER-derived membrane, early autophagic body, lysosomal hydrolase, tubulovesicular body, late autophagic body, residual body.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Autophagy sequence labels effete organelle, ER-derived membrane, early autophagic body, lysosomal hydrolase, tubulovesicular body, late autophagic body, residual body.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": "8",
+      "kind": "teaching",
+      "title": "Heterophagy and uptake types",
+      "topics": [
+        "Heterophagy and uptake types"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p008-content",
+          "label": "Heterophagy and uptake types",
+          "detail": "Type of phagocytosis:\n• Heterophagy:\n   – Inflammatory cells engulf and destroy foreign\n     bodies\n   – e.g. bacteria are ingested and degraded by\n     neutrophils\n   – e.g. macrophages engulf and catabolize necrotic\n     cells.\nPinocytosis:  is engulfment of soluble small material\nPhagocytosis: engulfment of large material",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": "9",
+      "kind": "teaching",
+      "title": "Residual bodies and pigments",
+      "topics": [
+        "Residual bodies and pigments"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p009-content",
+          "label": "Residual bodies and pigments",
+          "detail": "Type of phagocytosis:\n\n• Lysosomes      can completely catabolize most\n  proteins and carbohydrates\n• Lysosomes      with undigested debris may persist\n  within cells as residual bodies       or may be extruded\n• Lipofuscin pigment       granules represent indigestible\n  material   resulting from intracellular lipid peroxidation.\n  Certain indigestible pigments, such as carbon\n  particles  inhaled from the atmosphere, can persist in\n  phagolysosomes of macrophages for decades.\n• Lysosomal storage diseases.                                9",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "10",
+      "kind": "teaching",
+      "title": "Smooth ER induction",
+      "topics": [
+        "Smooth ER induction"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p010-content",
+          "label": "Smooth ER induction",
+          "detail": "2.    Hypertrophy of the           smooth endoplasmic\n                             reticulum:\n• Stimulation and activation of SER and its\n  enzymes     (P-450 oxidase) to increase the solubility\n  and excretion of various compounds.\n• Increase solubility of drugs        (e.g., steroids, alcohol,\n  insecticides) and thereby facilitate their excretion.\n• E.g:  patients who increase their alcohol intake while\n  taking phenobarbital      for epilepsy may end up with\n  subtherapeutic levels.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Mitochondrial alterations",
+      "topics": [
+        "Mitochondrial alterations"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p011-content",
+          "label": "Mitochondrial alterations",
+          "detail": "3.   Mitochondrial alternations:\n\n\n\n• Increase number in hypertrophy\n\n• Decrease number in atrophy\n\n\n• Example: alcoholic liver disease\n\n  – large and abnormal shapes (megamitochondria)",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "Cytoskeletal abnormalities",
+      "topics": [
+        "Cytoskeletal abnormalities"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p012-content",
+          "label": "Cytoskeletal abnormalities",
+          "detail": "4.      Cytoskeletal abnormalities\n\n•  Increase   or decrease with hypertrophy or atrophy\n•  functional modification to withstand more stress.\ne.g. immobilizing cilia of the respiratory epithelium, resulting in\n   chronic infections due to defective clearance of inhaled bacteria\n   (Kartagener, or the immotile cilia syndrome).\n•  Microtubules are essential for leukocyte migration and\n   phagocytosis.\ne.g. Drugs that prevent microtubule polymerization (colchicine)\n   are therefore useful in treating gout, in which symptoms are due\n   to movement of macrophages toward urate             crystals with\n   subsequent frustrated attempts at phagocytosis.                        12",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-04-u012-checker",
+          "claim": "Gout example specifically attributes symptoms to macrophage migration toward urate crystals. Preserve literal wording without extending it to a universal cell-specific therapeutic claim; microtubule/leukocyte mechanism remains assessable.",
+          "resolution": "Unresolved; doubtful claim excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": "13",
+      "kind": "teaching",
+      "title": "Heat shock proteins",
+      "topics": [
+        "Heat shock proteins"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p013-content",
+          "label": "Heat shock proteins",
+          "detail": "5.   Heat shock proteins;              HSP\n\n• Synonymous: stress proteins, molecular\n  chaperones\n• Cytoplasmic     proteins that are involved in\n  protein kinesis and repair, like protein\n  folding, disaggregation and transport         .\n• Important adaptive response found in all\n  species",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Heat shock protein responses",
+      "topics": [
+        "Heat shock protein responses"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p014-content",
+          "label": "Heat shock protein responses",
+          "detail": "Heat shock proteins;              HSP\n\n•   Two families:\n   1.  Produced always in normal cells; HSP 60, 90\n   2.  Produced only under stress; HSP 70\n•   HSP   induced after injurious stimuli leads:\n   1.  Refolding denatured proteins         before   causing\n       death.\n   2.  If not responding, the protein is directed to bind\n       with ubiquitin-proteasome pathway, leading to\n       degradation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-04-u014",
+          "claim": "Slide states HSP60/90 always produced and HSP70 only under stress. Absolute expression claims are not qualified; defer those claims, retain protein-refolding/degradation pathway.",
+          "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": "15",
+      "kind": "teaching",
+      "title": "Protein repair or degradation",
+      "topics": [
+        "Protein repair or degradation"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-04-p015-content",
+          "label": "Protein repair or degradation",
+          "detail": "Heat Shock Proteins;     HSP\nVisual transcription: Stress (UV, heat, free radical injury) -> nonfunctional protein aggregates -> cell death unless repaired/removed. Chaperone route refolds protein; ubiquitin -> proteasome route generates degraded peptide fragments.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Stress (UV, heat, free radical injury) -> nonfunctional protein aggregates -> cell death unless repaired/removed. Chaperone route refolds protein; ubiquitin -> proteasome route generates degraded peptide fragments.",
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": [],
+  "sourceReview": {
+    "reviewer": "Codex Chapter 1 writer — second-agent item check pending",
+    "method": "All original PDF pages visually inspected through labelled four-page sheets at 2400x1800; image-only teaching content transcribed separately.",
+    "originalPageCount": 15
+  }
+}

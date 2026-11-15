@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "chapters": [
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "candidatesChecked": 65,
+      "accepted": 42,
+      "removed": 23,
+      "types": {
+        "mcq": 36,
+        "match": 4,
+        "order": 2
+      },
+      "cards": 10,
+      "factsChecked": 32,
+      "acceptedFacts": 32
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "candidatesChecked": 86,
+      "accepted": 69,
+      "removed": 17,
+      "types": {
+        "match": 4,
+        "mcq": 62,
+        "order": 3
+      },
+      "cards": 18,
+      "factsChecked": 46,
+      "acceptedFacts": 46
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "candidatesChecked": 78,
+      "accepted": 50,
+      "removed": 28,
+      "types": {
+        "mcq": 43,
+        "order": 3,
+        "match": 4
+      },
+      "cards": 15,
+      "factsChecked": 55,
+      "acceptedFacts": 55
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "candidatesChecked": 41,
+      "accepted": 32,
+      "removed": 9,
+      "types": {
+        "mcq": 27,
+        "match": 4,
+        "order": 1
+      },
+      "cards": 9,
+      "factsChecked": 28,
+      "acceptedFacts": 28
+    }
+  ],
+  "allCandidateFindings": 270,
+  "acceptedActivities": 193,
+  "removedCandidates": 77,
+  "cards": 52,
+  "factFindings": 161,
+  "antigravityChecked": false,
+  "claudeReviewed": false,
+  "auditScope": "Structural completeness of recorded checks, exact candidate/fact IDs, accepted authority compilation and coverage deferrals. Not scientific or independent-tool review."
+}

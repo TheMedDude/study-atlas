@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "conceptId": "bioenergetics-and-metabolism-pathway-map-examples",
+      "reason": "Illustrative converging/diverging pathway labels are retained in the extraction; the taught organizational distinction is assessed without requiring recall of an illustrative map.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-nucleophile-examples",
+      "reason": "Owner did not select the optional p17 two-column structural-example figure. Column-only examples are excluded from assessment/Memorize; prose donor/acceptor definitions remain assessed separately.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-electrophile-examples",
+      "reason": "Owner did not select the optional p17 two-column structural-example figure. Column-only examples are excluded from assessment/Memorize; prose donor/acceptor definitions remain assessed separately.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-hydrolysis-comparison-table",
+      "reason": "Owner did not select the p25 phosphate-hydrolysis table. Table-only numeric comparisons are excluded from assessment/Memorize; separately taught prose and reaction-page facts remain eligible.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-glucose-table-label",
+      "reason": "Unresolved source label or numeric-unit inconsistency; blocked from deciding a scored answer. Preserved in the uncertainty register.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-ppi-table-values",
+      "reason": "Unresolved source label or numeric-unit inconsistency; blocked from deciding a scored answer. Preserved in the uncertainty register.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-carbon-oxidation-series",
+      "reason": "Illustrative structural oxidation series retained; no numerical oxidation states are supplied, and redox distinctions are assessed directly.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-cellular-efficiency",
+      "reason": "Closing synthesis repeats ATP coupling, enzyme specificity and regulation already assessed; no separate distinct target added.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-complexity-energy",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-complex-structures-energy: p3 supports the energy/low-entropy claim, but the four alternatives are conspicuously implausible (all stored energy, disorder, creation of energy, no transfer). Remove this weak set rather than preserve a count. The sunlight tag is also not actually tested by this stem.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-sunlight",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-complex-structures-energy: p3 supports the energy/low-entropy claim, but the four alternatives are conspicuously implausible (all stored energy, disorder, creation of energy, no transfer). Remove this weak set rather than preserve a count. The sunlight tag is also not actually tested by this stem.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-energy-sources",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-photosynthetic-energy: p4 supports the key, but three alternatives describe oxygen/water/CO2 as light energy rather than plausible competing energy sources. Remove weak alternatives; the global-cycle tag is broader than the scored pairing.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-global-cycle",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-photosynthetic-energy: p4 supports the key, but three alternatives describe oxygen/water/CO2 as light energy rather than plausible competing energy sources. Remove weak alternatives; the global-cycle tag is broader than the scored pairing.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-pathway-shapes",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-pathway-forms: p6 supports linear/branched/cyclic, but the alternatives are unrelated energetic states, redox states, molecule positions or enzyme terms. The key is exposed by category alone. Remove weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-thermodynamics-bioenergetics",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-bioenergetics-scope: p8 supports bioenergetics, but three alternatives are obviously unrelated naming/carbon/product topics and the remaining option creates energy. Remove the weak option set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-second-law",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-second-law-entropy: p9 supports the entropy statement, but rate equality and universal product enthalpy are unrelated distractors and the other alternatives are absolute energy/disorder claims. Remove the weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-heterolytic-reactions",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-heterolytic-biochemistry: p14 supports the key, but the correct option bundles two source statements and is much longer while the alternatives use conspicuous only/exclude/prevents/no-electron absolutes. Remove this weak/cued set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-redox-cofactor-transfer",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-heterolytic-biochemistry: p14 supports the key, but the correct option bundles two source statements and is much longer while the alternatives use conspicuous only/exclude/prevents/no-electron absolutes. Remove this weak/cued set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-cleavage-frequency",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. Supporting detail retained faithfully; no distinct source-grounded scored target in the accepted set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-phosphate-leaving-groups",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-phosphate-leaving-groups: p22 supports Pi/PPi, but the stem asks for phosphate species while every distractor pair is explicitly sugars, redox carriers or CoA species. Category cue exposes the answer. Remove weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-magnesium-atp",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-magnesium-complexes: p24 supports Mg-ATP/Mg-ADP, but the key is the only paired ATP/ADP answer while three distractors are unrelated NAD/FAD or AMP pairs. Remove weak set; retain the supported reference fact.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-high-energy-stabilization",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-hydrolysis-stabilization-mechanisms: p25 prose is separately eligible, but the scored charge-separation distinction repeats atp-product-stability on p23. Remove redundant target; this is not a blanket exclusion of p25 prose.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-atp-intermediate-energy",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-atp-energy-carrier: p29 supports ATP usefulness, but all four distractors carry conspicuous every/cannot/only/must-absent assertions. Remove weak set rather than defend count.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-atp-coupling-regulation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-atp-energy-carrier: p29 supports ATP usefulness, but all four distractors carry conspicuous every/cannot/only/must-absent assertions. Remove weak set rather than defend count.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-acetyl-coa-donor",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-acetyl-coa-acyl-role: p30 supports acetyl-CoA acyl donation, but entropy measurement/radical cleavage/flavin acceptance/hexose isomerization are unrelated distractors. Remove weak set; keep the useful source fact available in extraction.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-dehydrogenation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenation-transfer: p31 supports two-electron/two-H+ loss, but alternatives are nucleotide pairs, acyl/glycosyl groups or phosphate/carbon removal. These are not plausible competing dehydrogenation distinctions. Remove weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-two-electron-transfer",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenase-proton-hydride: p32 supports proton/hydride transfer, but three options substitute unrelated acyl/glycosyl/phosphoryl/CO2 transfer and the last imposes every-reaction radical transfer. Remove weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-proton-hydride",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenase-proton-hydride: p32 supports proton/hydride transfer, but three options substitute unrelated acyl/glycosyl/phosphoryl/CO2 transfer and the last imposes every-reaction radical transfer. Remove weak set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-flavin-ring",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-flavin-electron-capacity: p34 supports one-/two-electron flavin acceptance, but alternatives are phosphate transfer, acyl transfer, three-electron irreversible uptake or CO2 production. Remove unrelated/cued set; order item retains flavin-state distinction.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-catalyst",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-binding-induced-fit: p35 supports ES formation, but the key is markedly longer and every alternative invokes permanent consumption, no specificity or obligatory unchanged release. Remove weak/cued set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-substrate",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-binding-induced-fit: p35 supports ES formation, but the key is markedly longer and every alternative invokes permanent consumption, no specificity or obligatory unchanged release. Remove weak/cued set.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-transition-state",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-transition-state: p36 supports barrier lowering, but this repeats the activation-barrier component of barrier-versus-endpoints and has four extreme alternatives. Retain the richer endpoints distinction instead.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-reuse",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-after-release: p36 supports reuse, but four alternatives are all obligatory/permanent enzyme conversion or rebinding claims. Remove weak set; supported reuse remains a reference fact.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-allosteric-regulation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-allosteric-effects: p37 supports stimulation or inhibition, but all distractors are unrelated substrate destruction/phosphate release/permanent product conversion or no modulation. Remove weak set; supported allostery remains in reference cards.",
+      "lectureId": "bioenergetics-and-metabolism"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-respiration-yield-conflict",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-hexokinase-km-conflict",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-aldolase-reversibility-wording",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-alanine-cycle-heading",
+      "reason": "Alanine cycle is named only, with no mechanism supplied on this page; no outside mechanism is added.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-energy-table-step9-conflict",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-energy-table-range-unclear",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-pep-nucleotide-conflict",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-glucose-only-wording",
+      "reason": "Unresolved source wording, numerical discrepancy or figure conflict is preserved and blocked from deciding scored answers.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-glucogenic-entry-table",
+      "reason": "Owner did not select Table14-4 on PDFp47; amino-acid entry-group lists remain in the source but are excluded from questions and Memorize.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-hexokinase-induced-fit",
+      "reason": "Fresh second Codex checker removed the candidate as weak/duplicative; no accepted question currently assesses this core target. Remove the induced-fit MCQ: cleft transfer into glucose and unchanged release are conspicuously implausible distractors. The figure remains in the faithful source; coverage deferred.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "glycolysis-and-fermentation-lactate-route",
+      "reason": "Removed after browser-QA-triggered source-image recheck of PDF p41: the correct cytosolic NADH relationship is supported, but the distractor set is weak. The no-enzyme-reactions choice is implausible; the all-cytosolic-NADH choice uses an absolute cue; transporter and intermediate-elimination alternatives are not four plausible parallel confusions. The relationship remains in the checked reference card and detailed source.",
+      "lectureId": "glycolysis-and-fermentation"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerotic-reversibility",
+      "reason": "Blocked source claim citric-U001: pyruvate carboxylation is described/drawn reversible; doubtful reversibility is preserved and never scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-biosynthetic-map",
+      "reason": "Supporting image-only extended amino-acid/purine/pyrimidine branches remain faithfully available in the source. Core prose precursor relations are assessed; additional branch-name recall is deferred to keep emphasis on the taught central relationships.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerotic-table",
+      "reason": "The approved enzyme/reaction relationships are assessed. Tissue/organism distributions are preserved on source-linked reference cards, but distribution-only matching is deferred because broad groups overlap and the source does not establish exclusive tissue specificity.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-respiration-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 2, 3) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-pdh-dephosphorylation",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 23) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-thiamine-requirement",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 29) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-beriberi",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 30, 31) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-alpha-ketoglutarate-dehydrogenase",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 48) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-amphibolic-cycle",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 61) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-anaplerosis-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 64) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-pyruvate-carboxylase",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 65) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "citric-acid-cycle-and-pdh-cycle-regulation-purpose",
+      "reason": "Fresh second Codex agent removed the candidate set for this target (input indices 66) because its distractors/cues or uniqueness did not meet the authoring method. Source detail remains preserved and available in reference cards/extraction; no unchecked or weak replacement is scored.",
+      "lectureId": "citric-acid-cycle-and-pdh"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-reduction-potentials-table",
+      "reason": "Owner did not select PDF p7 reduction-potential table; no table-only potential values assessed.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-protein-components-table",
+      "reason": "Owner did not select PDF p8 component table; no mass, subunit-count or table-only prosthetic-group recall. Separate p8 prose and p10 figure remain eligible.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-ten-protons-generalization",
+      "reason": "OP-U02: unqualified10-proton statement omits entry route; route-specific pump relationships assessed instead.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-interference-table",
+      "reason": "Owner did not select PDF p14 inhibitor table. Graph-specific effects on p13 remain separately eligible, but no table-only target or compound claims are assessed.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-myxothiazol-grouping",
+      "reason": "OP-U03: source grouping doubtful and p14 table unselected; no target mapping scored.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-mass-action-grouping",
+      "reason": "OP-U06: denominator grouping in printed ratio is ambiguous; qualitative ADP control assessed without arithmetic.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-regulatory-figure",
+      "reason": "Detailed enzyme-by-enzyme regulator pairs repeat material assessed in earlier chapters; this chapter assesses the integrated cellular energy-demand relationship.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-reduced-fuels",
+      "reason": "Fresh second Codex checker removed weak/cued question sets for this target: oxidative-phosphorylation-fuel-carrier-role. Clear source detail remains preserved; no replacement is accepted merely to fill coverage.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-mitochondrial-atp",
+      "reason": "Fresh second Codex checker removed weak/cued question sets for this target: oxidative-phosphorylation-fuel-carrier-role. Clear source detail remains preserved; no replacement is accepted merely to fill coverage.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-cristae",
+      "reason": "Fresh second Codex checker removed weak/cued question sets for this target: oxidative-phosphorylation-cristae-function. Clear source detail remains preserved; no replacement is accepted merely to fill coverage.",
+      "lectureId": "oxidative-phosphorylation"
+    },
+    {
+      "conceptId": "oxidative-phosphorylation-glycerol-carriers",
+      "reason": "Fresh second Codex checker removed weak/cued question sets for this target: oxidative-phosphorylation-glycerol-shuttle-intermediates. Clear source detail remains preserved; no replacement is accepted merely to fill coverage.",
+      "lectureId": "oxidative-phosphorylation"
+    }
+  ]
+}

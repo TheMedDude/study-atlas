@@ -1,0 +1,2404 @@
+{
+  "lectureId": "ch2-part-03",
+  "coverageDeferrals": [],
+  "author": "Codex chapter2 writer, GPT-6.1 Sol session designation",
+  "reviewStage": "Accepted for local use after fresh second Codex check; Antigravity and Claude pending",
+  "activities": [
+    {
+      "id": "ch2-part-03-simultaneous",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p002-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "Which processes proceed simultaneously in chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p2 concurrent inflammation/injury/healing rather than obligatory separate phases. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Active inflammation, tissue injury and healing",
+          "evidence": "PDF p2 explicitly defines chronic inflammation by concurrent inflammation, injury and healing."
+        },
+        {
+          "id": "o2",
+          "text": "Active inflammation and tissue injury, followed by healing after inflammation ends",
+          "evidence": "PDF p2 says healing proceeds simultaneously rather than only after inflammation ends."
+        },
+        {
+          "id": "o3",
+          "text": "Tissue injury and healing, with no active inflammation",
+          "evidence": "PDF p2 explicitly includes active inflammation."
+        },
+        {
+          "id": "o4",
+          "text": "Active inflammation and healing, with no tissue injury",
+          "evidence": "PDF p2 explicitly includes tissue injury."
+        },
+        {
+          "id": "o5",
+          "text": "Tissue injury followed by inflammation and then healing in separate phases",
+          "evidence": "PDF p2 emphasizes concurrency rather than separate obligatory phases."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chronic inflammation is prolonged and combines active inflammation, tissue injury and healing at the same time.",
+        "ar": "Chronic inflammation مطول ويجمع الالتهاب النشط والأذية النسيجية والالتئام في الوقت نفسه."
+      }
+    },
+    {
+      "id": "ch2-part-03-chronic-features",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p003-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Which combination characterizes chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p3 mononuclear infiltrate, injury, angiogenesis/fibrosis; absent-repair/injury/infiltrate variants rejected. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mononuclear infiltration, tissue destruction, angiogenesis and fibrosis",
+          "evidence": "PDF p3 explicitly combines these features."
+        },
+        {
+          "id": "o2",
+          "text": "Mononuclear infiltration, tissue destruction and no concurrent repair",
+          "evidence": "PDF p3 includes healing/repair through angiogenesis/fibrosis."
+        },
+        {
+          "id": "o3",
+          "text": "Mononuclear infiltration, angiogenesis and no tissue destruction",
+          "evidence": "PDF p3 explicitly includes tissue destruction."
+        },
+        {
+          "id": "o4",
+          "text": "Neutrophil-predominant fluid exudation with a short early course",
+          "evidence": "PartI p5 describes this as an acute pattern rather than the chronic combination on p3."
+        },
+        {
+          "id": "o5",
+          "text": "Angiogenesis and fibrosis without an inflammatory-cell infiltrate",
+          "evidence": "PDF p3 explicitly includes macrophages, lymphocytes and plasma cells."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chronic inflammation includes macrophages, lymphocytes/plasma cells, tissue destruction, new vessel formation and fibrosis.",
+        "ar": "يتضمن Chronic inflammation ارتشاح Macrophages وLymphocytes وPlasma cells مع التخرب النسيجي وAngiogenesis وFibrosis."
+      }
+    },
+    {
+      "id": "ch2-part-03-settings",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p004-topic",
+        "ch2-part-03-p005-topic",
+        "ch2-part-03-p007-topic",
+        "ch2-part-03-p008-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Match each chronic inflammatory setting with its example.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp4/5/7/8 exact named example-setting associations; all five mappings checked, no universal etiology claims.  All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Unresolved acute inflammation",
+          "right": "Chronic abscess",
+          "evidence": "Unresolved acute inflammation: Chronic abscess."
+        },
+        {
+          "id": "p2",
+          "left": "Repeated acute inflammation",
+          "right": "Chronic pancreatitis",
+          "evidence": "Repeated acute inflammation: Chronic pancreatitis."
+        },
+        {
+          "id": "p3",
+          "left": "Repeated contact sensitivity",
+          "right": "Contact dermatitis",
+          "evidence": "Repeated contact sensitivity: Contact dermatitis."
+        },
+        {
+          "id": "p4",
+          "left": "Autoimmune disease",
+          "right": "Hashimoto disease",
+          "evidence": "Autoimmune disease: Hashimoto disease."
+        },
+        {
+          "id": "p5",
+          "left": "Unknown cause",
+          "right": "Sarcoidosis",
+          "evidence": "Unknown cause: Sarcoidosis."
+        }
+      ],
+      "explanation": {
+        "en": "The examples distinguish unresolved/repeated acute episodes, hypersensitivity, autoimmunity and an unknown cause.",
+        "ar": "تميز الأمثلة بين الالتهاب الحاد غير المنحل أو المتكرر وHypersensitivity وAutoimmunity والأسباب غير المعروفة."
+      }
+    },
+    {
+      "id": "ch2-part-03-foreign-body",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p007-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Which pair correctly classifies foreign materials that can trigger chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p7 endogenous fat/urate versus exogenous suture/asbestos/silica; pair permutations checked. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Fat: exogenous; silica: endogenous",
+          "evidence": "PDF p7 identifies fat as endogenous and silica as exogenous, reversing these labels."
+        },
+        {
+          "id": "o4",
+          "text": "Asbestos: endogenous; fat: exogenous",
+          "evidence": "PDF p7 identifies asbestos as exogenous and fat as endogenous, reversing these labels."
+        },
+        {
+          "id": "o1",
+          "text": "Uric acid crystals: endogenous; suture material: exogenous",
+          "evidence": "PDF p7 identifies uric-acid crystals as endogenous and sutures as exogenous."
+        },
+        {
+          "id": "o2",
+          "text": "Uric acid crystals: exogenous; suture material: endogenous",
+          "evidence": "This reverses both classifications on PDF p7."
+        },
+        {
+          "id": "o5",
+          "text": "Suture material: endogenous; silica: endogenous",
+          "evidence": "PDF p7 places both sutures and silica under exogenous rather than endogenous material."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Fat and uric acid crystals are endogenous examples; sutures, asbestos and silica are exogenous.",
+        "ar": "Fat وUric acid crystals أمثلة داخلية المنشأ، بينما Sutures وAsbestos وSilica خارجية المنشأ."
+      }
+    },
+    {
+      "id": "ch2-part-03-macrophage-names",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p011-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Match each tissue with its named macrophage form.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p11 liver/Kupffer, node+spleen/sinus histiocytes, lung/alveolar, CNS/microglia, bone/osteoclast mapping unique.  All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Liver",
+          "right": "Kupffer cells",
+          "evidence": "Liver: Kupffer cells."
+        },
+        {
+          "id": "p2",
+          "left": "Lymph nodes and spleen",
+          "right": "Sinus histiocytes",
+          "evidence": "Lymph nodes and spleen: Sinus histiocytes."
+        },
+        {
+          "id": "p3",
+          "left": "Lung",
+          "right": "Alveolar macrophages",
+          "evidence": "Lung: Alveolar macrophages."
+        },
+        {
+          "id": "p4",
+          "left": "CNS",
+          "right": "Microglial cells",
+          "evidence": "CNS: Microglial cells."
+        },
+        {
+          "id": "p5",
+          "left": "Bone",
+          "right": "Osteoclasts",
+          "evidence": "Bone: Osteoclasts."
+        }
+      ],
+      "explanation": {
+        "en": "Tissue macrophage names vary by location while retaining their place in the mononuclear phagocyte system.",
+        "ar": "تختلف أسماء Macrophages حسب الموقع: Kupffer في الكبد وSinus histiocytes في العقد والطحال وAlveolar macrophages في الرئة وMicroglia في CNS وOsteoclasts في العظم."
+      }
+    },
+    {
+      "id": "ch2-part-03-monocyte-time",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p012-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "When do blood monocytes begin to emigrate after the onset of acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p12 begin emigration within24–48hours; five comparable onset windows with no only/late-month cues. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Within the first 24–48 hours",
+          "evidence": "PDF p12 states monocytes begin to emigrate within this window."
+        },
+        {
+          "id": "o2",
+          "text": "Within the first 0–6 hours",
+          "evidence": "This is earlier than the stated 24–48-hour onset window on p12."
+        },
+        {
+          "id": "o3",
+          "text": "Within the first 6–12 hours",
+          "evidence": "This is earlier than the stated 24–48-hour onset window on p12."
+        },
+        {
+          "id": "o4",
+          "text": "Beginning at 48–72 hours",
+          "evidence": "This delays the beginning beyond the stated first 24–48 hours on p12."
+        },
+        {
+          "id": "o5",
+          "text": "Beginning at 5–7 days",
+          "evidence": "This is later than the stated 24–48-hour beginning on p12."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Blood monocytes begin emigration in the first 24–48 hours and become larger phagocytic macrophages in tissue.",
+        "ar": "تبدأ Monocytes الدموية بالهجرة خلال أول 24–48 ساعة ثم تتحول إلى Macrophages كبيرة قادرة على البلعمة."
+      }
+    },
+    {
+      "id": "ch2-part-03-macrophage-activation",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p012-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which change accompanies macrophage activation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p12 increased size/lysosomal enzymes/metabolism/killing; each directional reversal checked. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Increased enzymes but reduced metabolism and killing",
+          "evidence": "PDF p12 describes increased metabolic activity and killing, not reductions."
+        },
+        {
+          "id": "o2",
+          "text": "Increased size but reduced lysosomal enzymes and killing",
+          "evidence": "PDF p12 describes increased rather than reduced lysosomal enzymes and killing."
+        },
+        {
+          "id": "o1",
+          "text": "Increased size, lysosomal enzymes, metabolism and killing ability",
+          "evidence": "PDF p12 explicitly describes increases in cell size, lysosomal enzymes, metabolic activity and killing ability."
+        },
+        {
+          "id": "o5",
+          "text": "Increased metabolism with reduced size and enzyme content",
+          "evidence": "PDF p12 describes increased size and enzyme content rather than reductions."
+        },
+        {
+          "id": "o3",
+          "text": "Reduced size with increased metabolism and killing",
+          "evidence": "PDF p12 describes increased rather than reduced size."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated macrophages enlarge, increase lysosomal enzymes/metabolic activity and gain greater ability to kill ingested organisms.",
+        "ar": "تكبر Macrophages المنشطة وتزداد إنزيماتها الليسوسومية ونشاطها الاستقلابي وقدرتها على قتل الكائنات المبتلعة."
+      }
+    },
+    {
+      "id": "ch2-part-03-m1-stimuli",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p014-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which stimuli favor classical M1 macrophage activation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p14 microbes/IFNgamma classical M1 versus IL4/IL13 M2 and repair/inhibitory products. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "IL-4 and IL-13",
+          "evidence": "PDF p14 places IL-4/IL-13 on the alternative M2 route."
+        },
+        {
+          "id": "o1",
+          "text": "Microbes and IFN-gamma",
+          "evidence": "PDF p14 places microbes and IFN-gamma on the classical M1 activation route."
+        },
+        {
+          "id": "o5",
+          "text": "Histamine and serotonin",
+          "evidence": "PartII p11 describes vasoactive amines rather than the p14 M1 activation stimuli."
+        },
+        {
+          "id": "o4",
+          "text": "PDGF and FGF",
+          "evidence": "PDF p17 presents PDGF/FGF among repair/fibrosis growth factors, not the p14 M1 stimulus pair."
+        },
+        {
+          "id": "o3",
+          "text": "IL-10 and TGF-beta",
+          "evidence": "PDF p14 presents IL-10/TGF-beta as M2 anti-inflammatory products, not the M1 stimulus pair."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Microbes and IFN-gamma favor M1; IL-4/IL-13 favor the alternatively activated M2 pathway.",
+        "ar": "تحفز Microbes وIFN-gamma نمط M1، بينما تحفز IL-4 وIL-13 نمط M2 البديل."
+      }
+    },
+    {
+      "id": "ch2-part-03-m2-products",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p014-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which product combination is linked to M2 anti-inflammatory effects?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p14 IL10/TGFbeta anti-inflammatory M2 branch; M1 cytokine and microbicidal sets contrasted. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "NO and microbial products",
+          "evidence": "PDF p14 assigns NO to M1 microbicidal products and microbes to M1 stimuli, not the M2 anti-inflammatory pair."
+        },
+        {
+          "id": "o3",
+          "text": "IL-1 and IL-12",
+          "evidence": "PDF p14 assigns IL-1/IL-12 to M1 inflammatory products."
+        },
+        {
+          "id": "o4",
+          "text": "IL-23 and chemokines",
+          "evidence": "PDF p14 assigns IL-23/chemokines to M1 inflammatory products."
+        },
+        {
+          "id": "o2",
+          "text": "ROS and lysosomal enzymes",
+          "evidence": "PDF p14 assigns ROS/lysosomal enzymes to the M1 microbicidal branch."
+        },
+        {
+          "id": "o1",
+          "text": "IL-10 and TGF-beta",
+          "evidence": "PDF p14 explicitly connects M2 IL-10/TGF-beta with anti-inflammatory effects."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "M2 macrophages release IL-10/TGF-beta for anti-inflammatory effects and growth factors/TGF-beta for repair and fibrosis.",
+        "ar": "تفرز M2 macrophages الـIL-10 وTGF-beta لتأثيرات مضادة للالتهاب، وعوامل نمو مع TGF-beta للإصلاح والتليف."
+      }
+    },
+    {
+      "id": "ch2-part-03-m1-products",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p014-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        }
+      ],
+      "prompt": "Which M1 products directly support microbicidal activity?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p14 ROS/NO/lysosomal enzymes M1 microbicidal branch; repair/matrix/amine/fibrin alternatives supported separately. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "IL-10, TGF-beta and repair growth factors",
+          "evidence": "PDF p14 assigns anti-inflammatory/repair products to the M2 route."
+        },
+        {
+          "id": "o3",
+          "text": "Collagen, elastin and proteoglycans",
+          "evidence": "PartI p6 describes collagen/elastin/proteoglycans as extracellular-matrix components, not the M1 microbicidal set."
+        },
+        {
+          "id": "o1",
+          "text": "ROS, NO and lysosomal enzymes",
+          "evidence": "PDF p14 assigns ROS/NO/lysosomal enzymes to M1 microbicidal actions."
+        },
+        {
+          "id": "o4",
+          "text": "Histamine, serotonin and stored amines",
+          "evidence": "PartII p11 describes histamine/serotonin as vasoactive amines, not the M1 set on p14."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrinogen, fibrin and mature scar",
+          "evidence": "PartII pp40–41 describe fibrin deposition and organization, not the M1 killing set."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "M1 ROS, NO and lysosomal enzymes support phagocytosis/killing; the repair and anti-inflammatory program is assigned to M2.",
+        "ar": "تدعم ROS وNO وLysosomal enzymes في M1 البلعمة والقتل؛ بينما يُنسب برنامج الإصلاح ومضادة الالتهاب إلى M2."
+      }
+    },
+    {
+      "id": "ch2-part-03-injury-products",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p015-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which macrophage products can contribute to tissue injury?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p15 macrophage protease/ROS/NO/eicosanoid injury products versus M2 repair/inhibitory and Bcell/fibroblast functions. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Proteases, ROS, NO and arachidonic-acid metabolites",
+          "evidence": "PDF p15 includes all these among macrophage products contributing to injury."
+        },
+        {
+          "id": "o2",
+          "text": "Growth factors, TGF-beta and angiogenic factors",
+          "evidence": "PDF pp14/16 associate these with repair/fibrosis rather than the p15 injury-product grouping."
+        },
+        {
+          "id": "o3",
+          "text": "IL-10 and TGF-beta anti-inflammatory products",
+          "evidence": "PDF p14 places this combination under M2 anti-inflammatory effects."
+        },
+        {
+          "id": "o4",
+          "text": "Antibodies released after B-cell plasma-cell differentiation",
+          "evidence": "PDF pp21–22 assign this to the B-cell/plasma-cell pathway rather than macrophage injury products."
+        },
+        {
+          "id": "o5",
+          "text": "Collagen and extracellular matrix made by proliferating fibroblasts",
+          "evidence": "PDF p16 describes fibroblast/matrix production in fibrosis rather than the macrophage injury-product list."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated macrophages release proteases, plasminogen activator, complement/coagulation components, ROS/NO, eicosanoids and cytokines that can injure tissue.",
+        "ar": "قد تؤذي Macrophages المنشطة النسيج بإفراز Proteases وPlasminogen activator ومكونات Complement وCoagulation وROS وNO ومستقلبات AA وCytokines."
+      }
+    },
+    {
+      "id": "ch2-part-03-fibrosis-growth",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p016-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "How do macrophage growth factors contribute to fibrosis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p16 growth-factor effects on smooth muscle/fibroblast proliferation and ECM production; directions checked. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Increasing fibroblast proliferation while preventing ECM production",
+          "evidence": "PDF p16 gives ECM production rather than prevention of production."
+        },
+        {
+          "id": "o2",
+          "text": "Promoting smooth-muscle proliferation while inhibiting fibroblasts",
+          "evidence": "PDF p16 gives fibroblast proliferation rather than inhibition."
+        },
+        {
+          "id": "o4",
+          "text": "Reducing fibroblast proliferation and increasing matrix degradation",
+          "evidence": "PDF p16 gives fibroblast proliferation/ECM production rather than reduced proliferation and increased degradation."
+        },
+        {
+          "id": "o1",
+          "text": "Promoting smooth-muscle/fibroblast proliferation and ECM production",
+          "evidence": "PDF p16 explicitly states proliferation of smooth muscle/fibroblasts and ECM production."
+        },
+        {
+          "id": "o5",
+          "text": "Suppressing both smooth-muscle and fibroblast proliferation",
+          "evidence": "PDF p16 gives increased rather than suppressed proliferation of both cell groups."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Growth factors promote smooth-muscle/fibroblast proliferation and extracellular matrix production; angiogenesis factors and cytokines also participate.",
+        "ar": "تحفز Growth factors تكاثر Smooth muscle cells وFibroblasts وإنتاج ECM؛ وتشارك Cytokines وعوامل Angiogenesis أيضًا."
+      }
+    },
+    {
+      "id": "ch2-part-03-resolution-role",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p018-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "How can macrophages promote resolution of acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p18 clearance of fluid/apoptotic neutrophils/debris versus actual injury/fibrosis/feedback/fusion macrophage actions. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Engulfing excess fluid, apoptotic neutrophils and debris",
+          "evidence": "PDF p18 explicitly connects this clearance to resolution of acute inflammation."
+        },
+        {
+          "id": "o2",
+          "text": "Releasing proteases and reactive oxygen species into tissue",
+          "evidence": "PDF p15 associates these macrophage products with tissue injury."
+        },
+        {
+          "id": "o3",
+          "text": "Promoting fibroblast proliferation and matrix production",
+          "evidence": "PDF p16 associates these actions with fibrosis."
+        },
+        {
+          "id": "o4",
+          "text": "Maintaining reciprocal stimulation with T lymphocytes",
+          "evidence": "PDF p23 describes persistence of chronic inflammatory activation."
+        },
+        {
+          "id": "o5",
+          "text": "Fusing with other macrophages to form giant cells",
+          "evidence": "PDF p19 describes giant-cell formation rather than the clearance mechanism on p18."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Macrophages clear apoptotic neutrophils and debris and help remove excess fluid during resolution.",
+        "ar": "تزيل Macrophages الـApoptotic neutrophils والحطام وتساعد على إزالة السائل الزائد أثناء Resolution."
+      }
+    },
+    {
+      "id": "ch2-part-03-epithelioid",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p019-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Why are some activated macrophages called epithelioid?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p19 enlarged eosinophilic epithelial-like macrophages versus fusion, Bcell differentiation and other cell morphologies. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Enlarged eosinophilic cytoplasm creates an epithelial-like appearance",
+          "evidence": "PDF p19 explicitly explains the epithelioid name this way."
+        },
+        {
+          "id": "o2",
+          "text": "Cell fusion creates many nuclei in a shared cytoplasm",
+          "evidence": "PDF p19 describes this separately as multinucleated giant-cell formation."
+        },
+        {
+          "id": "o3",
+          "text": "Differentiation produces an antibody-secreting plasma cell",
+          "evidence": "PDF p21 assigns this pathway to B lymphocytes, not epithelioid macrophages."
+        },
+        {
+          "id": "o4",
+          "text": "A segmented nucleus identifies a neutrophil-like cell",
+          "evidence": "PDF p9 labels segmented neutrophils; p19 describes macrophage epithelial-like cytoplasm instead."
+        },
+        {
+          "id": "o5",
+          "text": "A small round cell with scant cytoplasm resembles a lymphocyte",
+          "evidence": "PDF p9 contrasts lymphocyte morphology with the enlarged eosinophilic macrophage profile on p19."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated macrophages may acquire enlarged eosinophilic cytoplasm and an epithelial-like appearance, hence epithelioid macrophages.",
+        "ar": "قد تكتسب Macrophages المنشطة سيتوبلازمًا كبيرًا Eosinophilic ومظهرًا شبيهًا بالظهارة، لذلك تسمى Epithelioid macrophages."
+      }
+    },
+    {
+      "id": "ch2-part-03-giant-cell-fusion",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p019-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 29
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "How do multinucleated giant cells form during the macrophage response?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p19 macrophage fusion under IL4/IFNgamma versus enlargement, Bcell differentiation, pus or granulation. Made question direct and self-contained. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Fibroblast proliferation during granulation tissue formation",
+          "evidence": "PDF p29 describes fibroblast-rich granulation tissue rather than macrophage giant cells."
+        },
+        {
+          "id": "o1",
+          "text": "Fusion of several macrophages under IL-4 or IFN-gamma influence",
+          "evidence": "PDF p19 states several macrophages may fuse under IL-4 or IFN-gamma influence to form giant cells."
+        },
+        {
+          "id": "o2",
+          "text": "Differentiation of B lymphocytes into plasma cells",
+          "evidence": "PDF p21 assigns this to B-cell/plasma-cell differentiation rather than giant-cell formation."
+        },
+        {
+          "id": "o3",
+          "text": "Increase in macrophage size without cell fusion",
+          "evidence": "PDF p19 separately describes enlargement/epithelioid transformation; multinucleation involves fusion."
+        },
+        {
+          "id": "o4",
+          "text": "Aggregation of neutrophils into pus",
+          "evidence": "PartII p45 describes neutrophil-rich purulent exudate rather than macrophage fusion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Several macrophages may fuse into multinucleated giant cells under IL-4 or IFN-gamma influence.",
+        "ar": "قد تندمج عدة Macrophages تحت تأثير IL-4 أوIFN-gamma لتكوين Multinucleated giant cells."
+      }
+    },
+    {
+      "id": "ch2-part-03-t-cell",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p021-topic",
+        "ch2-part-03-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which comparison distinguishes T-lymphocyte and B-lymphocyte functions?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp21–22 paired Tcell cellular/macrophage versus Bcell plasma-antibody comparison; weak separate conversion item removed. Rebuilt parallel source-supported options and specific per-option evidence. Made question direct and self-contained. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "T cells: cellular immunity/macrophage interaction; B cells: plasma-cell antibody production",
+          "evidence": "PDF pp21–22 explicitly give these contrasting pathways."
+        },
+        {
+          "id": "o2",
+          "text": "T cells: plasma-cell antibody production; B cells: cellular immunity/macrophage interaction",
+          "evidence": "This reverses the T/B assignments on PDF pp21–22."
+        },
+        {
+          "id": "o3",
+          "text": "T cells: cellular immunity/macrophage interaction; B cells: giant-cell fusion",
+          "evidence": "PDF p19 assigns giant-cell fusion to macrophages; pp21–22 assign B cells plasma-cell differentiation."
+        },
+        {
+          "id": "o4",
+          "text": "T cells: giant-cell fusion; B cells: plasma-cell antibody production",
+          "evidence": "PDF p19 assigns giant-cell fusion to macrophages rather than T cells."
+        },
+        {
+          "id": "o5",
+          "text": "T cells: plasma-cell antibody production; B cells: plasma-cell antibody production",
+          "evidence": "PDF pp21–22 give this antibody pathway to B cells and cellular/macrophage interaction to T cells."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "T lymphocytes mediate cellular immunity and macrophage interactions; B lymphocytes differentiate to plasma cells for antibody-mediated immunity.",
+        "ar": "تشارك T lymphocytes في Cellular immunity والتفاعل مع Macrophages؛ بينما تتمايز B cells إلى Plasma cells للمناعة بوساطة الأجسام المضادة."
+      }
+    },
+    {
+      "id": "ch2-part-03-feedback-ifn",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p023-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which lymphocyte-derived mediator activates macrophages in their reciprocal inflammatory loop?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p23 lymphocyte IFNgamma -> macrophage activation versus macrophage IL1/TNF feedback direction. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "IL-1",
+          "evidence": "PDF p23 identifies IL-1 among macrophage-derived feedback mediators to lymphocytes."
+        },
+        {
+          "id": "o5",
+          "text": "Bradykinin",
+          "evidence": "PartII p22 identifies bradykinin as a kinin-cascade product rather than this lymphocyte cytokine."
+        },
+        {
+          "id": "o3",
+          "text": "TNF",
+          "evidence": "PDF p23 identifies TNF among macrophage-derived feedback mediators to lymphocytes."
+        },
+        {
+          "id": "o4",
+          "text": "C3b",
+          "evidence": "PartII p25 assigns C3b an opsonization role, not the lymphocyte mediator in this loop."
+        },
+        {
+          "id": "o1",
+          "text": "IFN-gamma",
+          "evidence": "PDF p23 identifies lymphocyte IFN-gamma activation of macrophages."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated lymphocytes release IFN-gamma to activate macrophages; macrophage IL-1/TNF then further activate lymphocytes and other cells.",
+        "ar": "تحرر Lymphocytes المنشطة IFN-gamma لتنشيط Macrophages؛ ثم تزيد IL-1 وTNF الصادرة عن Macrophages تنشيط اللمفاويات وخلايا أخرى."
+      }
+    },
+    {
+      "id": "ch2-part-03-feedback-persistence",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p023-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "What can sustain macrophage–T-cell activation in a chronic inflammatory focus?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p23 reciprocal stimulation until antigen removal/modulation; each omitted limb versus interrupting condition checked. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Reciprocal macrophage–T-cell stimulation while antigen persists",
+          "evidence": "PDF p23 explicitly describes mutual stimulation until antigen removal or modulation."
+        },
+        {
+          "id": "o2",
+          "text": "Macrophage antigen presentation without subsequent T-cell stimulation",
+          "evidence": "PDF p23 describes initial lymphocyte activation after macrophage presentation."
+        },
+        {
+          "id": "o3",
+          "text": "T-cell activation without macrophage stimulation by lymphocyte mediators",
+          "evidence": "PDF p23 describes lymphocyte IFN-gamma stimulating macrophages."
+        },
+        {
+          "id": "o4",
+          "text": "Macrophage activation without cytokine feedback to lymphocytes",
+          "evidence": "PDF p23 describes macrophage IL-1/TNF further activating lymphocytes."
+        },
+        {
+          "id": "o5",
+          "text": "Antigen removal or modulation interrupting the activation loop",
+          "evidence": "PDF p23 describes this as ending or modulating persistence rather than sustaining it."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Macrophages and T cells can persistently stimulate each other until antigen removal or modulation interrupts the loop.",
+        "ar": "يمكن أن تستمر Macrophages وT cells في تنشيط بعضها حتى تُزال Antigen المحفزة أو تحدث آلية تعديل تكسر الحلقة."
+      }
+    },
+    {
+      "id": "ch2-part-03-eosinophil",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p026-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which eosinophil granule protein is toxic to parasites and can damage tissue?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p26 major basic protein parasite toxicity/tissue injury; no reliance on outside granule facts. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Fibrinogen",
+          "evidence": "PDF p51 identifies fibrinogen among liver-produced plasma proteins rather than the p26 granule toxin."
+        },
+        {
+          "id": "o4",
+          "text": "ICAM-1",
+          "evidence": "PartI p37 identifies ICAM-1 as an endothelial adhesion ligand rather than an eosinophil granule toxin."
+        },
+        {
+          "id": "o5",
+          "text": "Kininogen",
+          "evidence": "PartII p22 identifies kininogen as the precursor of bradykinin rather than the p26 granule protein."
+        },
+        {
+          "id": "o2",
+          "text": "C-reactive protein",
+          "evidence": "PartII p9 identifies C-reactive protein as an acute-phase reactant rather than this eosinophil granule toxin."
+        },
+        {
+          "id": "o1",
+          "text": "Major basic protein",
+          "evidence": "PDF p26 specifically identifies eosinophil granule major basic protein as toxic to parasites and tissue."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Eosinophil major basic protein is toxic to parasites and can cause tissue injury; eotaxin directs eosinophil recruitment.",
+        "ar": "Major basic protein في حبيبات Eosinophils سام للطفيليات وقد يؤذي النسيج؛ ويوجه Eotaxin تجنيد هذه الخلايا."
+      }
+    },
+    {
+      "id": "ch2-part-03-mast-ige",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p027-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "What enables mast cells to participate in allergic reactions and anaphylactic shock?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p27 IgE receptors allergy/anaphylaxis versus real neighboring cell functions/recruitment molecules. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Receptors for IgE",
+          "evidence": "PDF p27 explicitly links mast-cell IgE receptors to allergy and anaphylaxis."
+        },
+        {
+          "id": "o2",
+          "text": "Differentiation into antibody-secreting plasma cells",
+          "evidence": "PDF p21 assigns this to B lymphocytes rather than mast cells."
+        },
+        {
+          "id": "o3",
+          "text": "Fusion into multinucleated giant cells",
+          "evidence": "PDF p19 assigns fusion to macrophages rather than mast cells."
+        },
+        {
+          "id": "o4",
+          "text": "Expression of integrins for firm endothelial adhesion",
+          "evidence": "PartI p37 gives this leukocyte recruitment mechanism, not the mast-cell IgE mechanism on p27."
+        },
+        {
+          "id": "o5",
+          "text": "Expression of PECAM-1 for endothelial transmigration",
+          "evidence": "PartI p39 gives this recruitment mechanism, not the mast-cell allergy mechanism on p27."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mast cells possess IgE receptors and participate in allergic reactions/anaphylaxis; their histamine and TNF connect acute and chronic responses.",
+        "ar": "تمتلك Mast cells مستقبلات IgE فتشارك في الحساسية وAnaphylaxis؛ ويربط Histamine وTNF الصادران عنها الاستجابات الحادة والمزمنة."
+      }
+    },
+    {
+      "id": "ch2-part-03-mast-mediators",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p027-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which mediator pair links mast cells to acute and chronic inflammation respectively?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p27 histamine acute and TNF chronic participation; alternate pairs distinguished from complement/Bcell sources. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Histamine for acute effects; TNF for chronic participation",
+          "evidence": "PDF p27 explicitly makes this mast-cell mediator distinction."
+        },
+        {
+          "id": "o2",
+          "text": "TNF for acute effects; histamine for chronic participation",
+          "evidence": "This reverses the acute/chronic allocation on PDF p27."
+        },
+        {
+          "id": "o3",
+          "text": "Histamine for acute effects; plasma-cell antibody for chronic participation",
+          "evidence": "PDF p21 assigns plasma-cell antibody production to B cells, while p27 identifies mast-cell cytokines such as TNF."
+        },
+        {
+          "id": "o4",
+          "text": "Complement C3b for acute effects; TNF for chronic participation",
+          "evidence": "PartII p25 describes complement C3b opsonization; p27 names histamine for mast-cell acute effects."
+        },
+        {
+          "id": "o5",
+          "text": "Complement C3b for acute effects; plasma-cell antibody for chronic participation",
+          "evidence": "These are distinct complement and B-cell functions rather than the mast-cell histamine/TNF pair on p27."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mast-cell histamine mediates acute inflammation; cytokines such as TNF support chronic inflammation.",
+        "ar": "يتوسط Histamine الصادر عن Mast cells الالتهاب الحاد؛ وتشارك Cytokines مثل TNF في الالتهاب المزمن."
+      }
+    },
+    {
+      "id": "ch2-part-03-granulation",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p029-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 29
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Which composition characterizes granulation tissue?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p29 vessels/inflammatory cells/fibroblasts/collagen versus granuloma, abscess, serous fluid and ulceration. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "New vessels, inflammatory cells, fibroblasts and collagen",
+          "evidence": "PDF p29 lists these components of granulation tissue."
+        },
+        {
+          "id": "o2",
+          "text": "Activated epithelioid macrophages forming an aggregate",
+          "evidence": "PDF p33 defines granulomatous inflammation, distinct from granulation tissue."
+        },
+        {
+          "id": "o3",
+          "text": "A central necrotic focus with a viable neutrophil rim",
+          "evidence": "PartII p46 describes abscess architecture rather than granulation tissue."
+        },
+        {
+          "id": "o4",
+          "text": "A relatively low-cell fluid collection",
+          "evidence": "PartII p38 describes serous inflammation rather than granulation tissue."
+        },
+        {
+          "id": "o5",
+          "text": "An eroded necrotic epithelial surface",
+          "evidence": "PartII p51 defines ulceration rather than the components of granulation tissue."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Granulation tissue combines new vessels, inflammatory cells, fibroblasts and collagen to repair injured tissue by fibrous replacement.",
+        "ar": "يجمع Granulation tissue أوعية جديدة وخلايا التهابية وFibroblasts وCollagen لإصلاح الأذية بالاستبدال الليفي."
+      }
+    },
+    {
+      "id": "ch2-part-03-granuloma-definition",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p033-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 29
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        }
+      ],
+      "prompt": "What defines a granuloma in granulomatous inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p33 activated epithelioid-macrophage aggregate distinguished from granulation/abscess/ulcer/serous patterns. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "A circumscribed collection of neutrophil-rich pus",
+          "evidence": "PartII p46 defines the circumscribed pus collection as an abscess."
+        },
+        {
+          "id": "o1",
+          "text": "An aggregate of activated epithelioid macrophages",
+          "evidence": "PDF p33 explicitly defines aggregates of activated epithelioid macrophages."
+        },
+        {
+          "id": "o5",
+          "text": "An accumulation of low-cell serous fluid",
+          "evidence": "PartII p38 describes serous fluid rather than an epithelioid-macrophage aggregate."
+        },
+        {
+          "id": "o2",
+          "text": "An accumulation of newly formed vessels and collagen alone",
+          "evidence": "PDF p29 describes granulation tissue with new vessels/inflammatory cells/fibroblasts/collagen, distinct from granuloma."
+        },
+        {
+          "id": "o4",
+          "text": "A necrotic and eroded epithelial surface",
+          "evidence": "PartII p51 defines epithelial necrosis/erosion as ulceration."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A granuloma is an aggregate of activated macrophages with epithelial/squamoid-like appearance; it is distinct from granulation tissue.",
+        "ar": "Granuloma تجمع من Macrophages منشطة ذات مظهر Epithelioid، ويختلف عن Granulation tissue."
+      }
+    },
+    {
+      "id": "ch2-part-03-granuloma-etiologies",
+      "revision": 2,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p036-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Match each granulomatous example with its etiologic group.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p36 bacterial/parasitic/fungal/dust/unknown associations; source taxonomy copied without inferring etiology from caseation. Rechecked revised bilingual explanation. Made question direct and self-contained. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Tuberculosis and leprosy",
+          "right": "Bacterial infection",
+          "evidence": "Tuberculosis and leprosy: Bacterial infection."
+        },
+        {
+          "id": "p2",
+          "left": "Schistosomiasis",
+          "right": "Parasitic infection",
+          "evidence": "Schistosomiasis: Parasitic infection."
+        },
+        {
+          "id": "p3",
+          "left": "Histoplasma capsulatum",
+          "right": "Fungal infection",
+          "evidence": "Histoplasma capsulatum: Fungal infection."
+        },
+        {
+          "id": "p4",
+          "left": "Silicosis and berylliosis",
+          "right": "Inorganic metals or dusts",
+          "evidence": "Silicosis and berylliosis: Inorganic metals or dusts."
+        },
+        {
+          "id": "p5",
+          "left": "Sarcoidosis",
+          "right": "Unknown cause",
+          "evidence": "Sarcoidosis: Unknown cause."
+        }
+      ],
+      "explanation": {
+        "en": "Granulomatous inflammation can have bacterial, parasitic, fungal, dust-related, foreign-body or unknown causes.",
+        "ar": "قد تكون أسباب Granulomatous inflammation بكتيرية أوطفيلية أوفطرية أو مرتبطة بالغبار أوالأجسام الغريبة أوغير معروفة."
+      }
+    },
+    {
+      "id": "ch2-part-03-cat-scratch",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p036-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which organism causes cat-scratch disease?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p36 Bartonella henselae cat-scratch association; five source-named organisms and their distinct roles checked. Made question direct and self-contained. Rechecked revised bilingual explanation. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Mycobacterium leprae",
+          "evidence": "PDF p36 pairs Mycobacterium leprae with leprosy."
+        },
+        {
+          "id": "o4",
+          "text": "Histoplasma capsulatum",
+          "evidence": "PDF p36 lists Histoplasma capsulatum as a fungal cause, distinct from the Bartonella/cat-scratch pair."
+        },
+        {
+          "id": "o1",
+          "text": "Bartonella henselae",
+          "evidence": "PDF p36 explicitly pairs cat-scratch disease with Bartonella henselae."
+        },
+        {
+          "id": "o5",
+          "text": "Coccidioides immitis",
+          "evidence": "PDF p36 lists Coccidioides immitis among fungal causes, not the cat-scratch agent."
+        },
+        {
+          "id": "o3",
+          "text": "Treponema pallidum",
+          "evidence": "PDF p36 pairs Treponema pallidum with syphilitic gumma."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Cat-scratch disease is associated with Bartonella henselae.",
+        "ar": "يرتبط Cat-scratch disease بكائن Bartonella henselae."
+      }
+    },
+    {
+      "id": "ch2-part-03-epithelioid-morphology",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p042-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which morphology explains the epithelial resemblance of epithelioid macrophages?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p42 abundant pink cytoplasm and long nuclei; morphology-specific permutations, distinct from p19 activation/name target. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Abundant pink cytoplasm and elongated nuclei",
+          "evidence": "PDF p42 explicitly describes abundant pink cytoplasm and nuclei tending to be long."
+        },
+        {
+          "id": "o2",
+          "text": "Scant pink cytoplasm and elongated nuclei",
+          "evidence": "PDF p42 describes abundant rather than scant cytoplasm."
+        },
+        {
+          "id": "o3",
+          "text": "Abundant pink cytoplasm and a segmented nucleus",
+          "evidence": "PDF p42 describes nuclei tending to be long; p9 labels segmented nuclei in neutrophils."
+        },
+        {
+          "id": "o4",
+          "text": "Scant cytoplasm and a small round lymphocyte-like nucleus",
+          "evidence": "PDF p9 shows the lymphocyte contrast; p42 describes abundant cytoplasm and long nuclei."
+        },
+        {
+          "id": "o5",
+          "text": "Granular cytoplasm and a bilobed eosinophil-like nucleus",
+          "evidence": "PDF p9 labels eosinophils; p42 gives the long-nucleus/pink-cytoplasm epithelioid description."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Epithelioid cells have abundant pink cytoplasm resembling squamous epithelial cells and nuclei that tend to be long.",
+        "ar": "تمتلك Epithelioid cells سيتوبلازمًا ورديًا وفيرًا يشبه الخلايا الحرشفية ونوى تميل إلى الاستطالة."
+      }
+    },
+    {
+      "id": "ch2-part-03-lymphatic-drainage",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p045-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "What is drained through lymphatics into lymph nodes during inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p45 fluid/leukocytes/debris/microorganisms travel together to nodes; no invented bone/collagen transport options. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Edema fluid, leukocytes, debris and microorganisms",
+          "evidence": "PDF p45 explicitly lists all four drained components."
+        },
+        {
+          "id": "o2",
+          "text": "Edema fluid without leukocytes, debris or microorganisms",
+          "evidence": "PDF p45 states the cellular/microbial/debris components travel with the fluid."
+        },
+        {
+          "id": "o3",
+          "text": "Leukocytes and debris without edema fluid",
+          "evidence": "PDF p45 explicitly includes edema fluid."
+        },
+        {
+          "id": "o4",
+          "text": "Microorganisms without fluid or inflammatory cells",
+          "evidence": "PDF p45 describes drainage together with fluid and leukocytes."
+        },
+        {
+          "id": "o5",
+          "text": "Edema fluid and leukocytes with debris and microorganisms excluded",
+          "evidence": "PDF p45 explicitly includes debris and microorganisms."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Lymphatics carry edema fluid, leukocytes, debris and microorganisms to nodes, potentially producing lymphangitis/lymphadenitis.",
+        "ar": "تنقل Lymphatics سائل الوذمة وLeukocytes والحطام والكائنات الدقيقة إلى العقد، وقد يحدث Lymphangitis وLymphadenitis."
+      }
+    },
+    {
+      "id": "ch2-part-03-bacteremia",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p046-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "When does bacteremia develop after failure of regional lymph-node defense?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p46 escape from nodal containment plus blood entry, distinguished from lymphatic-only or contained local infection. Rebuilt parallel source-supported options and specific per-option evidence. Made question direct and self-contained. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Microorganisms escape lymph-node containment and enter blood",
+          "evidence": "PDF p46 explicitly describes this sequence."
+        },
+        {
+          "id": "o2",
+          "text": "Microorganisms remain contained within regional lymph nodes",
+          "evidence": "PDF p46 requires failure of containment with bloodstream entry."
+        },
+        {
+          "id": "o3",
+          "text": "Microorganisms enter lymphatics but do not gain bloodstream access",
+          "evidence": "PDF p45 describes lymphatic drainage; p46 adds blood entry for bacteremia."
+        },
+        {
+          "id": "o4",
+          "text": "Phagocytes clear microorganisms within liver or spleen without blood entry",
+          "evidence": "PDF p46 describes these phagocytes as a further defense line; bacteremia requires bloodstream access."
+        },
+        {
+          "id": "o5",
+          "text": "A local inflammatory focus clears without microbial bloodstream entry",
+          "evidence": "PDF p46 requires organisms to enter blood rather than a fully contained local response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Failure of nodal containment allows microorganisms into the bloodstream, producing bacteremia and possible distant seeding.",
+        "ar": "يسمح فشل احتواء الكائنات في العقد بدخولها إلى الدم وحدوث Bacteremia وربما انتشارها إلى مواقع بعيدة."
+      }
+    },
+    {
+      "id": "ch2-part-03-distant-seeding",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p046-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Match each seeded site with the resulting inflammatory condition.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p46 valves/endocarditis, meninges/meningitis, kidney/abscess, joints/septic arthritis; unique source mappings.  All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Heart valves",
+          "right": "Endocarditis",
+          "evidence": "Heart valves: Endocarditis."
+        },
+        {
+          "id": "p2",
+          "left": "Meninges",
+          "right": "Meningitis",
+          "evidence": "Meninges: Meningitis."
+        },
+        {
+          "id": "p3",
+          "left": "Kidney",
+          "right": "Renal abscesses",
+          "evidence": "Kidney: Renal abscesses."
+        },
+        {
+          "id": "p4",
+          "left": "Joints",
+          "right": "Septic arthritis",
+          "evidence": "Joints: Septic arthritis."
+        }
+      ],
+      "explanation": {
+        "en": "Bloodstream spread can seed valves, meninges, kidneys and joints; liver, spleen and marrow phagocytes form a further defense line.",
+        "ar": "قد ينشر الدم العدوى إلى الصمامات والسحايا والكلى والمفاصل؛ وتشكل بلعميات الكبد والطحال ونقي العظم خط دفاع لاحقًا."
+      }
+    },
+    {
+      "id": "ch2-part-03-systemic-terms",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p047-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 47
+        }
+      ],
+      "prompt": "Match each systemic inflammatory manifestation with its meaning.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p47 malaise/anorexia/somnolence/wasting exact meanings, all four matching relationships checked.  All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Malaise",
+          "right": "General discomfort",
+          "evidence": "Malaise: General discomfort."
+        },
+        {
+          "id": "p2",
+          "left": "Anorexia",
+          "right": "Loss of appetite",
+          "evidence": "Anorexia: Loss of appetite."
+        },
+        {
+          "id": "p3",
+          "left": "Somnolence",
+          "right": "Tendency to sleep",
+          "evidence": "Somnolence: Tendency to sleep."
+        },
+        {
+          "id": "p4",
+          "left": "Wasting",
+          "right": "Accelerated skeletal-muscle degeneration",
+          "evidence": "Wasting: Accelerated skeletal-muscle degeneration."
+        }
+      ],
+      "explanation": {
+        "en": "These terms describe distinct acute-phase manifestations rather than local cardinal signs.",
+        "ar": "تصف هذه المصطلحات مظاهر مختلفة للـAcute-phase response: التوعك وفقد الشهية والميل للنوم والهزال العضلي."
+      }
+    },
+    {
+      "id": "ch2-part-03-cytokine-sequence",
+      "revision": 2,
+      "type": "order",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p050-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 50
+        }
+      ],
+      "prompt": "Arrange the induction pathway beginning with TNF and ending with IL-6.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p50 explicitly linked TNF -> IL1 -> IL6 induction; ordering supported, not an arbitrary cytokine list. Made question direct and self-contained. Rechecked revised bilingual explanation. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "TNF production"
+        },
+        {
+          "id": "s2",
+          "text": "IL-1 production induced by TNF"
+        },
+        {
+          "id": "s3",
+          "text": "IL-6 production stimulated by IL-1"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ],
+      "explanation": {
+        "en": "TNF induces IL-1 production; IL-1 then stimulates IL-6 production.",
+        "ar": "يحفز TNF إنتاج IL-1، ثم يحفز IL-1 إنتاج IL-6."
+      }
+    },
+    {
+      "id": "ch2-part-03-fever",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p050-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 50
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "How do TNF and IL-1 cause fever?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p50 TNF/IL1 hypothalamic prostaglandin mechanism distinguished from hepatic/marrow/local vascular/opsonin pathways. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Fibrinogen production by the liver",
+          "evidence": "PDF p51 assigns hepatic plasma-protein synthesis primarily to IL-6, a different systemic effect."
+        },
+        {
+          "id": "o3",
+          "text": "Leukocyte production by bone marrow",
+          "evidence": "PDF p51 assigns IL-1/TNF marrow leukocyte production, distinct from the hypothalamic fever mechanism."
+        },
+        {
+          "id": "o1",
+          "text": "Prostaglandin production at the thermoregulatory center",
+          "evidence": "PDF p50 assigns TNF/IL-1 fever to prostaglandin production at the thermoregulatory center."
+        },
+        {
+          "id": "o4",
+          "text": "C3b-mediated opsonization in tissue",
+          "evidence": "PartII p25 assigns C3b opsonization rather than central fever generation."
+        },
+        {
+          "id": "o5",
+          "text": "Histamine-induced local vasodilation",
+          "evidence": "PartII p11 describes local histamine vascular effects rather than the TNF/IL-1 central prostaglandin route."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "TNF and IL-1 act on the thermoregulatory center through prostaglandin production to produce fever.",
+        "ar": "يعمل TNF وIL-1 على المركز المنظم للحرارة بإنتاج Prostaglandins، فتحدث الحمى."
+      }
+    },
+    {
+      "id": "ch2-part-03-marrow-response",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which mediator pair increases leukocyte production by bone marrow?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 IL1/TNF marrow leukocyte production versus M2 anti-inflammatory, amine, complement and dilation roles. Checked and recorded each option support/error separately. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Histamine and serotonin",
+          "evidence": "PartII p11 groups histamine/serotonin as vasoactive amines rather than marrow-stimulating cytokines."
+        },
+        {
+          "id": "o4",
+          "text": "C3b and C3bi",
+          "evidence": "PartII p25 gives C3b/C3bi opsonization roles."
+        },
+        {
+          "id": "o1",
+          "text": "IL-1 and TNF",
+          "evidence": "PDF p51 explicitly assigns increased marrow leukocyte production to IL-1/TNF."
+        },
+        {
+          "id": "o2",
+          "text": "IL-10 and TGF-beta",
+          "evidence": "PDF p14 presents IL-10/TGF-beta as M2 anti-inflammatory products."
+        },
+        {
+          "id": "o5",
+          "text": "PGI2 and NO",
+          "evidence": "PartII pp17–18 describe PGI2/NO dilation and platelet inhibition rather than the p51 marrow response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IL-1 and TNF stimulate increased marrow leukocyte production during the acute-phase response.",
+        "ar": "يحفز IL-1 وTNF زيادة إنتاج Leukocytes من نقي العظم أثناء Acute-phase response."
+      }
+    },
+    {
+      "id": "ch2-part-03-blood-cell-patterns",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Match each infectious or allergic setting with its selective leukocyte increase.",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 bacteria/PMNs, parasite+allergy/eosinophils, viral/lymphocytes; complete three-way matching adds bacterial/viral distinctions beyond PartI allergy item.  All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Bacterial infection",
+          "right": "PMNs",
+          "evidence": "Bacterial infection: PMNs."
+        },
+        {
+          "id": "p2",
+          "left": "Parasites with allergy",
+          "right": "Eosinophils",
+          "evidence": "Parasites with allergy: Eosinophils."
+        },
+        {
+          "id": "p3",
+          "left": "Viral infection",
+          "right": "Lymphocytes",
+          "evidence": "Viral infection: Lymphocytes."
+        }
+      ],
+      "explanation": {
+        "en": "Bacterial infections emphasize PMNs, parasitic/allergic settings eosinophils, and viral infections lymphocytes.",
+        "ar": "تُبرز العدوى البكتيرية PMNs، والطفيليات مع الحساسية Eosinophils، والعدوى الفيروسية Lymphocytes."
+      }
+    },
+    {
+      "id": "ch2-part-03-acute-chronic-vascular",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p056-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 56
+        }
+      ],
+      "prompt": "Which vascular comparison best distinguishes acute from chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p56 characteristic acute caliber/permeability versus chronic angiogenesis; no absolute exclusion of overlapping events. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Acute: active dilation/permeability; chronic: angiogenesis",
+          "evidence": "PDF p56 contrasts these characteristic vascular patterns."
+        },
+        {
+          "id": "o2",
+          "text": "Acute: angiogenesis; chronic: active dilation/permeability",
+          "evidence": "This reverses the emphasis of the comparison on PDF p56."
+        },
+        {
+          "id": "o3",
+          "text": "Acute: active dilation/permeability; chronic: no new vessel formation",
+          "evidence": "PDF p56 explicitly includes chronic new vessel formation."
+        },
+        {
+          "id": "o4",
+          "text": "Acute: no caliber/permeability change; chronic: angiogenesis",
+          "evidence": "PDF p56 explicitly includes active dilation and increased permeability acutely."
+        },
+        {
+          "id": "o5",
+          "text": "Acute: angiogenesis; chronic: no new vessel formation",
+          "evidence": "Both emphasis assignments differ from PDF p56."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The comparison emphasizes active dilation/increased permeability acutely and angiogenesis/granulation tissue chronically.",
+        "ar": "تؤكد المقارنة التوسع الوعائي وزيادة النفوذية في الالتهاب الحاد، وAngiogenesis وGranulation tissue في المزمن."
+      }
+    },
+    {
+      "id": "ch2-part-03-acute-chronic-course",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p056-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 56
+        }
+      ],
+      "prompt": "Which onset and duration comparison characterizes acute and chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p56 short acute versus insidious prolonged chronic course; parallel onset/duration variants. Rebuilt parallel source-supported options and specific per-option evidence. Made question direct and self-contained. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Acute: short course in days; chronic: insidious course over weeks to months",
+          "evidence": "PDF p56 contrasts a short acute course with insidious prolonged chronic inflammation."
+        },
+        {
+          "id": "o2",
+          "text": "Acute: insidious course over weeks to months; chronic: short course in days",
+          "evidence": "This reverses the duration/onset comparison on PDF p56."
+        },
+        {
+          "id": "o3",
+          "text": "Acute: short course in days; chronic: insidious course limited to days",
+          "evidence": "The acute assignment agrees, but p56 gives weeks/months for chronic inflammation."
+        },
+        {
+          "id": "o4",
+          "text": "Acute: insidious course over weeks to months; chronic: insidious course over weeks to months",
+          "evidence": "PDF p56 describes acute as short rather than the chronic duration/onset."
+        },
+        {
+          "id": "o5",
+          "text": "Acute: short course in days; chronic: immediate short course in days",
+          "evidence": "PDF p56 describes chronic as insidious and prolonged."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The table contrasts a short acute course with an insidious prolonged chronic course.",
+        "ar": "يقارن الجدول المسار الحاد القصير بالأيام مع المسار المزمن البطيء الممتد لأسابيع أوأشهر."
+      }
+    },
+    {
+      "id": "ch2-part-03-chronic-systemic",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p057-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 57
+        }
+      ],
+      "prompt": "Which systemic pattern is emphasized in chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p57 low-grade fever/weight loss/anemia characteristic pattern, not a universal exclusion rule. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Low-grade fever, weight loss and anemia",
+          "evidence": "PDF p57 explicitly lists this chronic systemic pattern."
+        },
+        {
+          "id": "o2",
+          "text": "High fever without weight loss or anemia",
+          "evidence": "PDF p57 emphasizes low-grade fever with weight loss/anemia chronically and often high fever acutely."
+        },
+        {
+          "id": "o3",
+          "text": "Low-grade fever and weight loss without anemia",
+          "evidence": "PDF p57 includes anemia among the chronic features."
+        },
+        {
+          "id": "o4",
+          "text": "Low-grade fever and anemia without weight loss",
+          "evidence": "PDF p57 includes weight loss among the chronic features."
+        },
+        {
+          "id": "o5",
+          "text": "Weight loss and anemia without systemic temperature change",
+          "evidence": "PDF p57 includes low-grade fever in the chronic combination."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The chronic comparison lists low-grade fever, weight loss and anemia; acute fever may be high.",
+        "ar": "تذكر المقارنة المزمنة حمى منخفضة الدرجة وفقد الوزن وAnemia؛ وقد تكون الحمى الحادة مرتفعة."
+      }
+    },
+    {
+      "id": "ch2-part-03-chronic-blood",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-03",
+      "conceptIds": [
+        "ch2-part-03-p057-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 57
+        }
+      ],
+      "prompt": "Which peripheral-blood pattern is emphasized in chronic inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p57 variable or absent leukocyte changes plus increased immunoglobulins; no compulsory leukocyte subtype claim. Rebuilt parallel source-supported options and specific per-option evidence. All keys, options/mappings/sequence, source pagination, EN/AR meaning, cue and duplicate risks checked against original page images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Variable leukocyte changes, sometimes none; increased plasma immunoglobulins",
+          "evidence": "PDF p57 describes variable or absent leukocyte changes and increased plasma IG."
+        },
+        {
+          "id": "o2",
+          "text": "Uniform neutrophilia; decreased plasma immunoglobulins",
+          "evidence": "PDF p57 describes variable leukocyte changes and increased rather than decreased IG."
+        },
+        {
+          "id": "o3",
+          "text": "Variable leukocyte changes, sometimes none; decreased plasma immunoglobulins",
+          "evidence": "The variability agrees, but p57 gives increased IG."
+        },
+        {
+          "id": "o4",
+          "text": "Uniform lymphocytosis; unchanged plasma immunoglobulins",
+          "evidence": "PDF p57 does not give a uniform chronic leukocyte increase and describes increased IG."
+        },
+        {
+          "id": "o5",
+          "text": "Uniform eosinophilia; decreased plasma immunoglobulins",
+          "evidence": "PDF p57 gives variable leukocyte changes and increased IG, not this uniform pattern."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Chronic inflammation may have no leukocyte change or variable changes, with increased plasma immunoglobulins in the comparison.",
+        "ar": "قد لا يغير Chronic inflammation عدد Leukocytes أويسبب تغيرات متفاوتة، وتذكر المقارنة زيادة Immunoglobulins البلازمية."
+      }
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "/root/check_inflammation",
+    "candidateCount": 43,
+    "acceptedCount": 38,
+    "removedIds": [
+      "ch2-part-03-b-cell",
+      "ch2-part-03-eotaxin",
+      "ch2-part-03-hepatic-response",
+      "ch2-part-03-delayed-setting",
+      "ch2-part-03-granuloma-purpose"
+    ],
+    "externalIndependentReview": "Not performed; Antigravity and Claude pending"
+  }
+}

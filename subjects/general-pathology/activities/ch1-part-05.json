@@ -1,0 +1,952 @@
+{
+  "lectureId": "ch1-part-05",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-05-timing-functional-morphologic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p002-content",
+        "ch1-part-05-p019-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which sequence correctly orders functional impairment and detectable morphologic changes during progressive cell injury?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Functional change, gross change, light microscopic change, ultrastructural change",
+          "evidence": "Gross morphology is later than microscopic changes."
+        },
+        {
+          "id": "o2",
+          "text": "Gross change, light microscopic change, ultrastructural change, functional change",
+          "evidence": "This reverses the depicted order."
+        },
+        {
+          "id": "o5",
+          "text": "Ultrastructural change, gross change, functional change, light microscopic change",
+          "evidence": "This places function too late and gross change too early."
+        },
+        {
+          "id": "o4",
+          "text": "Light microscopic change, functional change, gross change, ultrastructural change",
+          "evidence": "Function changes first; ultrastructure precedes light microscopy."
+        },
+        {
+          "id": "o1",
+          "text": "Functional change, ultrastructural change, light microscopic change, gross change",
+          "evidence": "The duration graph orders these forms of detection."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Function changes before morphology; ultrastructural abnormalities become detectable before light microscopic and gross changes.",
+        "ar": "تتغير الوظيفة قبل المظهر؛ وتكشف التغيرات Ultrastructural قبل التغيرات بالمجهر الضوئي ثم التغيرات العيانية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 19; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p2 graph and p19 text support functional change before ultrastructure, light microscopy and gross morphology. All five order alternatives inspected; removed unseen-illustration framing. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-reversible-nuclear",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which nuclear alteration is described in reversible cell injury?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Loss of chromatin basophilia from DNase activity",
+          "evidence": "This defines karyolysis in necrosis."
+        },
+        {
+          "id": "o1",
+          "text": "Clumping of nuclear chromatin",
+          "evidence": "This is the reversible nuclear alteration."
+        },
+        {
+          "id": "o2",
+          "text": "Fragmentation of a pyknotic nucleus",
+          "evidence": "This defines karyorrhexis in necrosis."
+        },
+        {
+          "id": "o4",
+          "text": "Complete nuclear disappearance after one to two days",
+          "evidence": "This is a post-death change."
+        },
+        {
+          "id": "o5",
+          "text": "Shrinkage with increased nuclear basophilia",
+          "evidence": "This defines pyknosis in the necrosis discussion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Reversible injury can cause chromatin clumping; necrotic nuclear changes include pyknosis, karyorrhexis and karyolysis.",
+        "ar": "قد تسبب الأذية العكوسة تكتل Chromatin؛ وتشمل تغيرات النواة في Necrosis كلاً من Pyknosis وKaryorrhexis وKaryolysis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10, 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 chromatin clumping distinguished from p28 pyknosis, karyorrhexis, karyolysis and post-death disappearance. All nuclear alternatives are source-supported neighboring changes. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-05-reversible-light",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p011-content",
+        "ch1-part-05-p013-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which pair contains the two light-microscopic patterns of reversible injury?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cellular swelling and fatty change",
+          "evidence": "These two patterns are listed."
+        },
+        {
+          "id": "o5",
+          "text": "Apoptotic bodies and nuclear fragmentation",
+          "evidence": "These describe apoptotic morphology."
+        },
+        {
+          "id": "o3",
+          "text": "Membrane rupture and lysosomal rupture",
+          "evidence": "These are destructive irreversible features."
+        },
+        {
+          "id": "o2",
+          "text": "Pyknosis and karyolysis",
+          "evidence": "These are necrotic nuclear changes."
+        },
+        {
+          "id": "o4",
+          "text": "Karyorrhexis and calcium-rich mitochondrial deposits",
+          "evidence": "These belong to irreversible injury."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Cellular swelling and fatty change are the two light-microscopic patterns of reversible injury.",
+        "ar": "Cellular swelling وFatty change هما نمطا الأذية العكوسة بالمجهر الضوئي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 11, 13, 20, 23, 28, 17, 19; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p11 supplies cellular swelling/fatty change. Added exact p13 and irreversible/nuclear/apoptosis pages supporting each distractor; fatty-change page group tagged only for its tested pattern, not all its details. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-hydropic-mechanism",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "What produces hydropic change?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Maintenance of normal ion and water balance",
+          "evidence": "This contradicts the stated mechanism."
+        },
+        {
+          "id": "o3",
+          "text": "Loss of cytoplasmic lipid only",
+          "evidence": "Fatty change involves lipid vacuoles; hydropic change is fluid imbalance."
+        },
+        {
+          "id": "o4",
+          "text": "Accumulation of denatured proteins without fluid change",
+          "evidence": "The hydropic mechanism is ionic/fluid imbalance."
+        },
+        {
+          "id": "o1",
+          "text": "Loss of ionic and fluid homeostasis",
+          "evidence": "This is the stated mechanism of cellular swelling."
+        },
+        {
+          "id": "o5",
+          "text": "Fragmentation of nuclear DNA as its defining cause",
+          "evidence": "This concerns nuclear injury rather than the stated swelling mechanism."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hydropic change, or vacuolar degeneration, reflects loss of ionic and fluid homeostasis.",
+        "ar": "تعكس Hydropic change أوVacuolar degeneration فقدان اتزان الأيونات والسوائل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 11, 12, 13, 27, 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 explicitly attributes swelling to ionic/fluid disequilibrium; other options describe unchanged balance or different nuclear/protein/lipid processes. Added exact comparison pages. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-hydropic-vacuoles",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "What are the clear cytoplasmic vacuoles of hydropic change described as?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Calcium-rich mitochondrial matrix deposits",
+          "evidence": "These appear in irreversible injury."
+        },
+        {
+          "id": "o3",
+          "text": "Fragmented pyknotic nuclei",
+          "evidence": "These are karyorrhectic fragments."
+        },
+        {
+          "id": "o5",
+          "text": "Dilated extracellular fluid spaces",
+          "evidence": "p12 states that hydropic vacuoles are intracellular ER-derived spaces."
+        },
+        {
+          "id": "o1",
+          "text": "Distended and pinched-off ER segments",
+          "evidence": "This is the structural explanation given."
+        },
+        {
+          "id": "o4",
+          "text": "Lipid droplets limited to fat-metabolizing cells",
+          "evidence": "This describes fatty change rather than hydropic vacuoles."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The clear vacuoles are distended and pinched-off ER segments.",
+        "ar": "تمثل الفجوات الصافية أجزاء متوسعة ومنفصلة من ER."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12, 13, 23, 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 identifies distended pinched-off ER segments. Replaced unreferenced apoptotic-body option with extracellular-space contrast; added pp13,23,28 for actual adjacent structures. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-gross-reversible",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p014-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which paired gross changes accompany reversible cellular injury?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Increased organ weight and pallor",
+          "evidence": "p14 explicitly states both."
+        },
+        {
+          "id": "o5",
+          "text": "Decreased organ weight and unchanged color",
+          "evidence": "Neither feature matches the stated pair."
+        },
+        {
+          "id": "o4",
+          "text": "Increased organ weight and unchanged color",
+          "evidence": "The stated color change is pallor."
+        },
+        {
+          "id": "o2",
+          "text": "Decreased organ weight and pallor",
+          "evidence": "Weight increases rather than decreases."
+        },
+        {
+          "id": "o3",
+          "text": "Unchanged organ weight and pallor",
+          "evidence": "The stated weight change is an increase."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Reversible changes can increase organ weight and produce pallor.",
+        "ar": "قد تزيد التغيرات العكوسة وزن العضو وتسبب شحوبه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 14; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p14 gives increased weight and pallor. Rebuilt all five options as parallel organ-weight/color pairs, removing obligatory calcification and outline-loss distractions. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-no-return",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p020-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which pair characterizes irreversible cell injury?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Persistent mitochondrial dysfunction and severe membrane damage",
+          "evidence": "These are the two phenomena defining irreversibility."
+        },
+        {
+          "id": "o5",
+          "text": "Restored oxidative phosphorylation and reversible swelling",
+          "evidence": "Restoration/reversibility contradicts irreversible injury."
+        },
+        {
+          "id": "o3",
+          "text": "Cellular swelling and normal mitochondrial function",
+          "evidence": "Swelling alone does not define irreversibility."
+        },
+        {
+          "id": "o2",
+          "text": "Reversible ER dilation and chromatin clumping",
+          "evidence": "These are reversible changes."
+        },
+        {
+          "id": "o4",
+          "text": "Fatty change and preserved membrane integrity",
+          "evidence": "These do not establish the stated point of no return."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Inability to reverse mitochondrial dysfunction together with severe membrane damage marks the point of no return.",
+        "ar": "يمثل العجز عن عكس Mitochondrial dysfunction مع أذية غشائية شديدة نقطة اللاعودة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10, 11, 13, 20; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p20 requires inability to reverse mitochondrial dysfunction and severe membrane damage. Added exact reversible-change pages; no claim that swelling alone establishes irreversible injury. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-autolysis-heterolysis",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p018-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which pairing correctly distinguishes autolysis from heterolysis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Autolysis: no digestive enzymes; heterolysis: other-cell enzymes",
+          "evidence": "Autolysis also requires digestive enzymes, supplied by the affected cell itself."
+        },
+        {
+          "id": "o3",
+          "text": "Autolysis: own enzymes; heterolysis: own enzymes",
+          "evidence": "The heterolytic enzymes come from other cells."
+        },
+        {
+          "id": "o1",
+          "text": "Autolysis: own enzymes; heterolysis: other-cell enzymes",
+          "evidence": "p18 directly defines both sources."
+        },
+        {
+          "id": "o2",
+          "text": "Autolysis: other-cell enzymes; heterolysis: own enzymes",
+          "evidence": "This reverses the two definitions."
+        },
+        {
+          "id": "o4",
+          "text": "Autolysis: other-cell enzymes; heterolysis: other-cell enzymes",
+          "evidence": "Autolysis uses the dead cell own enzymes."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Autolysis uses the dead cell’s own enzymes; heterolysis uses lysosomal enzymes supplied by other cells.",
+        "ar": "يستخدم Autolysis إنزيمات الخلية نفسها، ويستخدم Heterolysis إنزيمات ليزوزومية من خلايا أخرى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 18; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p18 defines own versus other-cell lysosomal enzymes. Rebuilt five parallel enzyme-source pairs, removing calcium/lipid/no-digestion distractions; EN/AR direction checked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-membrane-damage-routes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p021-content",
+        "ch1-part-05-p022-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Match each membrane-injury route to its mechanism.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Calcium-activated phospholipases",
+          "right": "Progressive loss of membrane phospholipids",
+          "evidence": "The text and diagram connect these."
+        },
+        {
+          "id": "p2",
+          "left": "Cytoskeletal disruption",
+          "right": "Loss of supporting cytoplasm-membrane filaments",
+          "evidence": "This loosens the membrane and favors rupture."
+        },
+        {
+          "id": "p3",
+          "left": "Toxic oxygen radicals",
+          "right": "Membrane lipid peroxidation",
+          "evidence": "This is the oxidative route."
+        },
+        {
+          "id": "p4",
+          "left": "Lipid breakdown products",
+          "right": "Detergent action on membranes",
+          "evidence": "This is their stated damaging action."
+        }
+      ],
+      "explanation": {
+        "en": "Membrane injury can result from lipid loss, cytoskeletal failure, oxidative peroxidation or detergent-like breakdown products.",
+        "ar": "قد تنتج أذية الغشاء عن فقد الدهون أو فشل الهيكل الخلوي أوPeroxidation أوعمل نواتج تفتت الدهون كمنظفات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 21, 22; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp21–22 support phospholipid loss, cytoskeletal support loss, ROS lipid peroxidation and detergent-like lipid products. Four unique routes checked; only one overlaps an earlier calcium map and the other three add distinctions. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-05-mitochondrial-density",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p023-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Which mitochondrial finding is described for irreversible injury, with its composition specified?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Normal matrix with preserved oxidative phosphorylation",
+          "evidence": "Irreversible dysfunction impairs phosphorylation."
+        },
+        {
+          "id": "o2",
+          "text": "Phospholipid-rich densities described in sublethal injury",
+          "evidence": "p9 assigns those to the reversible discussion."
+        },
+        {
+          "id": "o4",
+          "text": "Increased ATP production with normal membrane potential",
+          "evidence": "The source describes ATP decrease."
+        },
+        {
+          "id": "o5",
+          "text": "Ribosome loss confined to ER without mitochondrial alteration",
+          "evidence": "This does not identify the stated mitochondrial finding."
+        },
+        {
+          "id": "o1",
+          "text": "Vacuolization with calcium-rich amorphous matrix densities",
+          "evidence": "This is the explicit irreversible description."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Irreversible mitochondrial injury includes vacuolization and calcium-rich matrix densities and impairs oxidative phosphorylation.",
+        "ar": "تشمل أذية الميتوكوندريا غير العكوسة Vacuolization وكثافات غنية بالكالسيوم في Matrix، وتضعف Oxidative phosphorylation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 9, 23; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp9,23 distinguish phospholipid-rich reversible from calcium-rich irreversible matrix densities. Key specifies composition and vacuolization, so ambiguous bare-density claim cannot decide score. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-05-necrosis-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p024-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "What does necrosis describe morphologically?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Changes following cell death in living tissue",
+          "evidence": "This is the definition."
+        },
+        {
+          "id": "o3",
+          "text": "A steady state that preserves viability",
+          "evidence": "This defines adaptation."
+        },
+        {
+          "id": "o5",
+          "text": "A change from one viable adult cell type to another",
+          "evidence": "This defines metaplasia."
+        },
+        {
+          "id": "o4",
+          "text": "An increase in cell number after stimulation",
+          "evidence": "This defines hyperplasia."
+        },
+        {
+          "id": "o2",
+          "text": "Every change that precedes functional impairment",
+          "evidence": "Function changes first, and necrosis follows death."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Necrosis is the sequence of morphologic changes following cell death in living tissue and takes hours to develop.",
+        "ar": "Necrosis تسلسل التغيرات الشكلية بعد موت الخلايا في نسيج حي، ويحتاج ساعات كي يتطور."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 24, 2, 24, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p24 defines morphology following death in living tissue. Added exact Chapter1 Part03 pages for adaptive-response alternatives and p2 for timing. No unsupported original-source repair. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-cytoplasmic-features",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p026-content",
+        "ch1-part-05-p027-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Match each cytoplasmic feature of necrosis to its underlying change.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Increased eosinophilia",
+          "right": "Denatured-protein binding with loss of RNA basophilia",
+          "evidence": "p27 supplies both causes."
+        },
+        {
+          "id": "p2",
+          "left": "Glassy appearance",
+          "right": "Loss of glycogen",
+          "evidence": "p27 explicitly links these."
+        },
+        {
+          "id": "p3",
+          "left": "Vacuolated appearance",
+          "right": "Degeneration of organelles",
+          "evidence": "p27 explicitly links these."
+        },
+        {
+          "id": "p4",
+          "left": "Lysosomal rupture",
+          "right": "Release of digestive enzymes",
+          "evidence": "p26/p18 describe the ultrastructural feature and consequence."
+        }
+      ],
+      "explanation": {
+        "en": "The necrotic cytoplasmic features reflect protein, RNA, glycogen and organelle changes.",
+        "ar": "تعكس مظاهر السيتوبلازم النخري تغيرات البروتين وRNA وGlycogen والعضيات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 18, 26, 27; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp26–27 support staining, glassiness and vacuolization; added p18 for lysosomal enzyme leakage. Each of four mappings checked, with no forced sequence. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-nuclear-changes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p028-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Match each necrotic nuclear change with its meaning.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Pyknosis",
+          "right": "Nuclear shrinkage with increased basophilia",
+          "evidence": "This is the explicit definition."
+        },
+        {
+          "id": "p2",
+          "left": "Karyorrhexis",
+          "right": "Fragmentation of a pyknotic nucleus",
+          "evidence": "This is the explicit definition."
+        },
+        {
+          "id": "p3",
+          "left": "Karyolysis",
+          "right": "Loss of chromatin basophilia from DNase activity",
+          "evidence": "This is the explicit definition."
+        }
+      ],
+      "explanation": {
+        "en": "Pyknosis is nuclear shrinkage, karyorrhexis is fragmentation of a pyknotic nucleus, and karyolysis is loss of chromatin basophilia through DNase activity.",
+        "ar": "Pyknosis هو انكماش النواة، وKaryorrhexis تفتت النواة المنكمشة، وKaryolysis فقد قاعدية الكروماتين بفعل DNase."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p28 directly defines all three nuclear changes. Removed editorial diagram/order discussion from student explanation; mapping assesses meanings rather than an unsupported mandatory sequence. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-05-nuclear-disappearance",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-05",
+      "conceptIds": [
+        "ch1-part-05-p028-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-05",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "What is the time window for complete nuclear disappearance following cell death?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Six to eight hours",
+          "evidence": "The stated interval is one to two days."
+        },
+        {
+          "id": "o5",
+          "text": "One to two months",
+          "evidence": "The stated interval is days, not months."
+        },
+        {
+          "id": "o1",
+          "text": "One to two days",
+          "evidence": "This is explicitly stated."
+        },
+        {
+          "id": "o4",
+          "text": "One to two weeks",
+          "evidence": "The stated interval is days, not weeks."
+        },
+        {
+          "id": "o2",
+          "text": "Two to four hours",
+          "evidence": "The stated interval is one to two days, not hours."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The nucleus disappears completely one to two days after cell death.",
+        "ar": "تختفي النواة تماماً خلال يوم إلى يومين بعد موت الخلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p28 explicitly states one to two days after death. All numerical alternatives parallel and unkeyed ranges distinguish the source window; removed source-framed stem/explanation. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-05-p007-content",
+      "reason": "PDF p7 comparison diagram repeats reversible swelling versus destructive necrotic changes. Its distinct relationships are assessed by reversible-light, reversible-nuclear, no-return, mitochondrial-density and cytoplasmic-features on pp10–28."
+    },
+    {
+      "conceptId": "ch1-part-05-p016-content",
+      "reason": "PDF p16 introduces the calcium-mediated irreversible injury route, repeated in Part02 p24. Retained ch1-part-02-calcium-enzyme-effects assesses the same enzyme consequences; no duplicate cross-part score."
+    },
+    {
+      "conceptId": "ch1-part-05-p017-content",
+      "reason": "PDF p17 calcium/enzyme map duplicates Part02 p24 and ch1-part-02-calcium-enzyme-effects. Removed the repeated matching item while preserving both original page extractions."
+    },
+    {
+      "conceptId": "ch1-part-05-p025-content",
+      "reason": "PDF p25 digestion-versus-denaturation mechanism is assessed as a real contrast in ch1-part-06-coagulative-digestion (Part06 pp3,11). Leakage marker examples remain preserved but are not separately assessed by a weak item."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 22,
+    "acceptedCount": 14,
+    "removedCount": 8,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

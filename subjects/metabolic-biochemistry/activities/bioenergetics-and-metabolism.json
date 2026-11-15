@@ -1,0 +1,2541 @@
+{
+  "lectureId": "bioenergetics-and-metabolism",
+  "author": "Codex chapter writer (GPT-6.1 Sol, medium effort per owner-confirmed session configuration)",
+  "scope": "Midterm material only; owner-selected p12 table and clear non-table claims",
+  "activities": [
+    {
+      "id": "bioenergetics-and-metabolism-carbon-source-distinction",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-carbon-sources"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which pair correctly distinguishes the carbon sources of autotrophs and heterotrophs?",
+      "explanation": {
+        "en": "Autotrophs use atmospheric CO2 as carbon; heterotrophs obtain carbon from complex organic molecules such as glucose.",
+        "ar": "تستخدم Autotrophs غاز CO2 الجوي مصدرًا للكربون، بينما تحصل Heterotrophs على الكربون من جزيئات عضوية معقدة مثل Glucose."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 4. p4 explicitly separates atmospheric CO2 carbon from complex-organic carbon. Reversed source roles and carbon-versus-energy/exchange confusions are distinguishable; EN/AR direction agrees. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Autotrophs: complex organic molecules; heterotrophs: atmospheric CO2",
+          "evidence": "This reverses the carbon sources."
+        },
+        {
+          "id": "o3",
+          "text": "Autotrophs: sunlight; heterotrophs: oxygen",
+          "evidence": "Sunlight supplies energy rather than carbon, and oxygen is not the stated heterotroph carbon source."
+        },
+        {
+          "id": "o4",
+          "text": "Autotrophs: water; heterotrophs: sunlight",
+          "evidence": "Neither water nor sunlight is the listed carbon source."
+        },
+        {
+          "id": "o5",
+          "text": "Autotrophs: oxygen; heterotrophs: water",
+          "evidence": "The specified carbon sources are CO2 and complex organic molecules, not oxygen and water."
+        },
+        {
+          "id": "o1",
+          "text": "Autotrophs: atmospheric CO2; heterotrophs: complex organic molecules",
+          "evidence": "Autotrophs use atmospheric CO2 to construct biomolecules, whereas heterotrophs obtain carbon from organic molecules such as glucose."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-metabolism-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-metabolism-pathways"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "How are metabolism and a metabolic pathway related?",
+      "explanation": {
+        "en": "Metabolism includes all cellular chemical reactions; a metabolic pathway is a series of related reactions.",
+        "ar": "يشمل Metabolism جميع التفاعلات الكيميائية في الخلية، أما Metabolic pathway فهو سلسلة من تفاعلات مترابطة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 5. p5 directly distinguishes the sum of cellular reactions from a related reaction series. Broader/narrower scope confusions are false under these definitions; bilingual scope is retained. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Metabolism is one enzyme reaction; a pathway is the total cellular energy",
+          "evidence": "The source defines metabolism as the sum of chemical reactions, not one enzyme event."
+        },
+        {
+          "id": "o5",
+          "text": "Metabolism is sunlight capture; a pathway is an unchanged substrate",
+          "evidence": "Metabolism is cellular chemistry, and related reactions form a pathway."
+        },
+        {
+          "id": "o1",
+          "text": "Metabolism includes all cellular chemical reactions; a pathway is a related reaction series",
+          "evidence": "Metabolism is the sum of chemical reactions in a cell. A metabolic pathway consists of a series of related reactions."
+        },
+        {
+          "id": "o2",
+          "text": "Metabolism includes only degradative reactions; a pathway includes all cellular reactions",
+          "evidence": "Metabolism includes both degradative and building reactions; this reverses the broader and narrower scopes."
+        },
+        {
+          "id": "o3",
+          "text": "Metabolism includes only biosynthesis; a pathway is a single energy carrier",
+          "evidence": "Metabolism is broader than biosynthesis, and a pathway is a reaction series."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-catabolism-anabolism",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-catabolism-anabolism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Which relationship correctly links catabolism and anabolism?",
+      "explanation": {
+        "en": "Catabolism releases energy through degradation; anabolism uses energy to build complex structures.",
+        "ar": "يطلق Catabolism الطاقة عبر الهدم، بينما يستخدم Anabolism الطاقة لبناء تراكيب معقدة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 5. p5 explicitly contrasts energy-producing degradation with energy-using biosynthesis and links them. The alternatives reverse the taught roles; Arabic preserves the direction. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Anabolism supplies energy by converting end products into nutrients without energy input",
+          "evidence": "The source explicitly describes anabolism as energy-using construction."
+        },
+        {
+          "id": "o1",
+          "text": "Catabolism releases energy that can drive anabolic construction",
+          "evidence": "Catabolism is the degradative, energy-producing phase; anabolism uses energy to build complex structures."
+        },
+        {
+          "id": "o2",
+          "text": "Anabolism releases energy by degrading cellular nutrients",
+          "evidence": "Degradation and energy production characterize catabolism, not anabolism."
+        },
+        {
+          "id": "o3",
+          "text": "Catabolism uses energy primarily to build complex macromolecules",
+          "evidence": "Building complex structures is the anabolic role."
+        },
+        {
+          "id": "o4",
+          "text": "Catabolism and anabolism both primarily degrade complex molecules",
+          "evidence": "Anabolism builds complex structures rather than primarily degrading them."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-convergence-divergence",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-convergent-divergent"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Which organization is characteristic of catabolic compared with anabolic pathways?",
+      "explanation": {
+        "en": "Catabolic pathways converge from different inputs; anabolic pathways diverge toward different products.",
+        "ar": "تتقارب Catabolic pathways من مدخلات مختلفة، بينما تتفرع Anabolic pathways نحو نواتج مختلفة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 6. p6 teaches convergent catabolism/divergent anabolism. Replace the unrelated/exclusive architecture alternatives with parallel convergence/divergence combinations, all checked against the two source statements; scored distinction unchanged. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Catabolism converges; anabolism diverges",
+          "evidence": "p6 states convergent catabolism and divergent anabolism; this option retains both roles."
+        },
+        {
+          "id": "o2",
+          "text": "Catabolism diverges; anabolism converges",
+          "evidence": "p6 states convergent catabolism and divergent anabolism; this option changes at least one of those roles."
+        },
+        {
+          "id": "o3",
+          "text": "Catabolism and anabolism both converge",
+          "evidence": "p6 states convergent catabolism and divergent anabolism; this option changes at least one of those roles."
+        },
+        {
+          "id": "o4",
+          "text": "Catabolism and anabolism both diverge",
+          "evidence": "p6 states convergent catabolism and divergent anabolism; this option changes at least one of those roles."
+        },
+        {
+          "id": "o5",
+          "text": "Catabolism and anabolism both lack branching",
+          "evidence": "p6 states convergent catabolism and divergent anabolism; this option changes at least one of those roles."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-reaction-roles-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-coupling",
+        "bioenergetics-and-metabolism-electron-transfer",
+        "bioenergetics-and-metabolism-activation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match each metabolic reaction role with its description.",
+      "explanation": {
+        "en": "Coupling links energy release to energy use, electron transfer is redox, and activation forms a more reactive species.",
+        "ar": "يربط Coupling إطلاق الطاقة باستخدامها، ويتضمن Electron transfer الأكسدة والاختزال، بينما يُكوّن Activation نوعًا أشد تفاعلًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 7. p7 explicitly supplies three unique roles: coupling, oxidation/reduction, and activation of a more reactive species. No imposed order, unique mappings and faithful Arabic checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Coupling",
+          "right": "Linking an energy-releasing reaction to an energy-requiring reaction"
+        },
+        {
+          "id": "p2",
+          "left": "Electron transfer",
+          "right": "Oxidation and reduction"
+        },
+        {
+          "id": "p3",
+          "left": "Activation",
+          "right": "Formation of a more reactive species"
+        }
+      ]
+    },
+    {
+      "id": "bioenergetics-and-metabolism-first-law-energy",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-first-law"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which statement expresses the first law of thermodynamics?",
+      "explanation": {
+        "en": "Total energy is conserved: it can change form or move, but cannot be created or destroyed.",
+        "ar": "تُحفظ الطاقة الكلية؛ فقد يتغير شكلها أو تنتقل، لكنها لا تُخلق ولا تُفنى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 9. p9 explicitly conserves total universal energy while allowing form/location change. Each alternative violates a stated part of that law; EN/AR preserves conservation. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Energy can change form or location while total energy remains constant",
+          "evidence": "The first law conserves total energy: energy may change form or be transported, but it is not created or destroyed."
+        },
+        {
+          "id": "o2",
+          "text": "Energy is created whenever a reaction proceeds forward",
+          "evidence": "The first law excludes creation of energy."
+        },
+        {
+          "id": "o3",
+          "text": "Energy is destroyed when a cell consumes ATP",
+          "evidence": "Use of energy changes its form or location, not total universal energy."
+        },
+        {
+          "id": "o4",
+          "text": "Energy remains confined to the region in which it first appeared",
+          "evidence": "Energy may be transported from one region to another."
+        },
+        {
+          "id": "o5",
+          "text": "Energy changes require a decrease in the total energy of the universe",
+          "evidence": "The total energy of the universe remains constant."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-thermodynamic-quantities-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-gibbs-sign",
+        "bioenergetics-and-metabolism-enthalpy-sign",
+        "bioenergetics-and-metabolism-entropy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Match each thermodynamic quantity to the property it describes.",
+      "explanation": {
+        "en": "Free energy describes energy available for work, enthalpy describes heat content, and entropy describes disorder.",
+        "ar": "تصف Free energy الطاقة المتاحة لأداء شغل، وتصف Enthalpy المحتوى الحراري، بينما تصف Entropy عدم الانتظام."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 10. p10 supplies three distinct quantity definitions. Work, heat and disorder have unique mappings; free energy is not confused with heat in Arabic. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Free energy, ΔG",
+          "right": "Energy available to perform work during a reaction"
+        },
+        {
+          "id": "p2",
+          "left": "Enthalpy, ΔH",
+          "right": "Heat content of the reacting system"
+        },
+        {
+          "id": "p3",
+          "left": "Entropy, ΔS",
+          "right": "Randomness or disorder in a system"
+        }
+      ]
+    },
+    {
+      "id": "bioenergetics-and-metabolism-exergonic-sign",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-gibbs-sign"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "A reaction releases free energy. Which description fits it?",
+      "explanation": {
+        "en": "Exergonic reactions release free energy and have negative ΔG.",
+        "ar": "تطلق Exergonic reactions طاقة حرة وتكون قيمة ΔG فيها سالبة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 10. p10 explicitly pairs free-energy release with exergonic and negative ΔG. Options distinguish energy/heat and sign; no additional claim is needed. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Endergonic, with ΔG = 0",
+          "evidence": "The source assigns energy gain and positive ΔG to endergonic reactions."
+        },
+        {
+          "id": "o5",
+          "text": "Exothermic, defined by ΔG = 0",
+          "evidence": "Exothermic describes heat release and ΔH, not zero ΔG."
+        },
+        {
+          "id": "o1",
+          "text": "Exergonic, with ΔG < 0",
+          "evidence": "Exergonic reactions release free energy and have negative ΔG."
+        },
+        {
+          "id": "o2",
+          "text": "Exergonic, with ΔG > 0",
+          "evidence": "Positive ΔG is assigned to endergonic reactions."
+        },
+        {
+          "id": "o3",
+          "text": "Endergonic, with ΔG < 0",
+          "evidence": "The negative sign fits release, but the endergonic label does not."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-heat-sign",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-enthalpy-sign"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which pair correctly describes heat exchange?",
+      "explanation": {
+        "en": "Exothermic reactions release heat with negative ΔH; endothermic reactions absorb heat with positive ΔH.",
+        "ar": "تطلق Exothermic reactions الحرارة وتكون ΔH سالبة، بينما تمتص Endothermic reactions الحرارة وتكون ΔH موجبة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 10. p10 explicitly pairs exothermic with negative ΔH and endothermic with positive ΔH. Free-energy/entropy distractors are neighbouring quantity confusions, not alternative true heat definitions. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Exothermic: heat absorption; endothermic: heat release",
+          "evidence": "This reverses the heat-flow descriptions."
+        },
+        {
+          "id": "o1",
+          "text": "Exothermic: ΔH < 0; endothermic: ΔH > 0",
+          "evidence": "Exothermic reactions release heat with negative ΔH; endothermic reactions absorb heat with positive ΔH."
+        },
+        {
+          "id": "o2",
+          "text": "Exothermic: ΔH > 0; endothermic: ΔH < 0",
+          "evidence": "This reverses the signs for heat release and absorption."
+        },
+        {
+          "id": "o3",
+          "text": "Exothermic: ΔG < 0; endothermic: ΔG > 0",
+          "evidence": "Those signs describe exergonic and endergonic free-energy changes, not the definitions of heat exchange."
+        },
+        {
+          "id": "o4",
+          "text": "Exothermic: ΔS = 0; endothermic: ΔS = 0",
+          "evidence": "The source defines these terms through enthalpy, not zero entropy change."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-gibbs-relation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-gibbs-equation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which expression relates free energy, enthalpy and entropy?",
+      "explanation": {
+        "en": "The relationship is ΔG = ΔH − TΔS.",
+        "ar": "العلاقة هي ΔG = ΔH − TΔS؛ أي تغير Enthalpy ناقص حاصل ضرب درجة الحرارة في تغير Entropy."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 10. p10 prints ΔG=ΔH−TΔS. All four alternative expressions change sign, temperature placement, variable order or operation; EN/AR equation checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "ΔG = ΔH − TΔS",
+          "evidence": "Free-energy change equals enthalpy change minus the temperature-weighted entropy change: ΔG = ΔH − TΔS."
+        },
+        {
+          "id": "o2",
+          "text": "ΔG = ΔH + TΔS",
+          "evidence": "The source equation subtracts TΔS."
+        },
+        {
+          "id": "o3",
+          "text": "ΔG = TΔH − ΔS",
+          "evidence": "Temperature multiplies entropy change, not enthalpy change."
+        },
+        {
+          "id": "o4",
+          "text": "ΔG = ΔS − TΔH",
+          "evidence": "This swaps the roles of enthalpy and entropy."
+        },
+        {
+          "id": "o5",
+          "text": "ΔG = ΔH ÷ TΔS",
+          "evidence": "The relationship is a difference, not a ratio."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-entropy-term-effect",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-gibbs-equation",
+        "bioenergetics-and-metabolism-entropy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "At fixed temperature and unchanged ΔH, how does an increase in positive ΔS affect ΔG?",
+      "explanation": {
+        "en": "At fixed temperature and ΔH, increasing positive ΔS increases the subtracted TΔS term and lowers ΔG.",
+        "ar": "عند ثبات درجة الحرارة وΔH، تزيد قيمة ΔS الموجبة الحد المطروح TΔS، فتُخفض ΔG."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 10. p10 equation supports this conditional algebraic inference: fixed ΔH and positive fixed T, larger positive ΔS lowers ΔG. This applies the relation rather than repeats its formula. No new biochemical fact added. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "It raises ΔG because TΔS is added to ΔH",
+          "evidence": "The equation subtracts TΔS rather than adding it."
+        },
+        {
+          "id": "o3",
+          "text": "It leaves ΔG unchanged because entropy is absent from the equation",
+          "evidence": "ΔS is explicitly included in ΔG = ΔH − TΔS."
+        },
+        {
+          "id": "o4",
+          "text": "It makes ΔG equal to ΔH regardless of temperature",
+          "evidence": "ΔG equals ΔH only when the TΔS contribution vanishes, not when positive ΔS increases."
+        },
+        {
+          "id": "o5",
+          "text": "It changes only ΔH while ΔG stays fixed",
+          "evidence": "ΔH is held unchanged in the stem; the entropy term changes ΔG."
+        },
+        {
+          "id": "o1",
+          "text": "It lowers ΔG because the subtracted TΔS term increases",
+          "evidence": "In ΔG = ΔH − TΔS, a larger positive entropy term lowers ΔG when ΔH and temperature are fixed."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-equilibrium-expression",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-equilibrium-expression"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "For aA + bB ⇌ cC + dD, which concentration expression represents Keq?",
+      "explanation": {
+        "en": "Keq uses equilibrium product concentrations over equilibrium reactant concentrations, each raised to its reaction coefficient.",
+        "ar": "يستخدم Keq تراكيز النواتج عند الاتزان في البسط وتراكيز المتفاعلات عند الاتزان في المقام، مع رفع كل تركيز إلى معامله في التفاعل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 11. p11 shows product equilibrium concentrations over reactant equilibrium concentrations raised to coefficients. Reciprocal, sum, mixed grouping and initial-concentration distractors each conflict with that expression. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "([C]eq + [D]eq) / ([A]eq + [B]eq)",
+          "evidence": "The expression multiplies concentration terms raised to coefficients; it does not add them."
+        },
+        {
+          "id": "o4",
+          "text": "[A]eq^a[C]eq^c / ([B]eq^b[D]eq^d)",
+          "evidence": "This mixes a reactant and product in each part rather than separating them."
+        },
+        {
+          "id": "o5",
+          "text": "[C]initial^c[D]initial^d / ([A]initial^a[B]initial^b)",
+          "evidence": "Keq uses equilibrium concentrations, not arbitrary initial concentrations."
+        },
+        {
+          "id": "o1",
+          "text": "[C]eq^c[D]eq^d / ([A]eq^a[B]eq^b)",
+          "evidence": "Keq uses equilibrium product concentrations in the numerator and equilibrium reactant concentrations in the denominator, each raised to its coefficient."
+        },
+        {
+          "id": "o2",
+          "text": "[A]eq^a[B]eq^b / ([C]eq^c[D]eq^d)",
+          "evidence": "This places reactants above products, reversing the displayed expression."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-standard-gibbs-equilibrium",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-equilibrium-gibbs",
+        "bioenergetics-and-metabolism-standard-free-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which equation links standard free-energy change to the equilibrium constant?",
+      "explanation": {
+        "en": "Standard free-energy change and equilibrium constant are related by ΔG′° = −RT ln K′eq.",
+        "ar": "يرتبط تغير الطاقة الحرة القياسي بثابت الاتزان بالعلاقة ΔG′° = −RT ln K′eq."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 11. p11 prints −RT ln K′eq. Negative sign, logarithm placement and factor positions are correctly distinguished; bilingual notation agrees. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "ΔG′° = −RT / K′eq",
+          "evidence": "The relationship uses the logarithm of K′eq, not its reciprocal directly."
+        },
+        {
+          "id": "o5",
+          "text": "ΔG′° = ΔH + TΔS",
+          "evidence": "This is neither the stated equilibrium relationship nor the correct sign in the Gibbs equation."
+        },
+        {
+          "id": "o1",
+          "text": "ΔG′° = −RT ln K′eq",
+          "evidence": "The standard free-energy relationship is ΔG′° = −RT ln K′eq."
+        },
+        {
+          "id": "o2",
+          "text": "ΔG′° = +RT ln K′eq",
+          "evidence": "The source equation has a negative sign."
+        },
+        {
+          "id": "o3",
+          "text": "ΔG′° = −K′eq ln RT",
+          "evidence": "The equation places RT outside the logarithm and K′eq inside it."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-hydrolysis-isomerization",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-hydrolysis-favorable",
+        "bioenergetics-and-metabolism-isomerization-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which comparison of reaction energetics is correct?",
+      "explanation": {
+        "en": "Hydrolysis tends to be strongly favourable; isomerizations have smaller changes, with ΔG′° = 0 for enantiomer interconversion.",
+        "ar": "يميل Hydrolysis إلى أن يكون مفضلًا بقوة، بينما تكون تغيرات الطاقة في Isomerization أصغر؛ ويكون ΔG′° = 0 عند التحول بين Enantiomers."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 13. p13 explicitly contrasts favourable hydrolysis with smaller isomerization changes and gives zero for enantiomer interconversion. Alternative universal values/directions contradict these particular stated relationships. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Complete oxidation is unfavorable while hydrolysis has no energetic tendency",
+          "evidence": "Complete oxidation is described as strongly favorable and hydrolysis as tending to be favorable."
+        },
+        {
+          "id": "o1",
+          "text": "Hydrolysis tends to be strongly favorable; isomerization has smaller free-energy changes",
+          "evidence": "Hydrolysis tends to be strongly favorable, whereas isomerizations have smaller changes; enantiomer interconversion has ΔG′° = 0."
+        },
+        {
+          "id": "o2",
+          "text": "Hydrolysis is defined by zero ΔG′°; all isomerizations are strongly unfavorable",
+          "evidence": "The source describes favorable hydrolysis and smaller isomerization changes, with zero specifically for enantiomers."
+        },
+        {
+          "id": "o3",
+          "text": "Hydrolysis and all isomerizations require the same positive free-energy change",
+          "evidence": "No common positive energy value is given."
+        },
+        {
+          "id": "o4",
+          "text": "Isomerization between enantiomers has a large negative ΔG′°",
+          "evidence": "The source gives ΔG′° = 0 for this specific isomerization."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-favorable-versus-fast",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-oxidation-kinetics"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Why does a strongly favorable oxidation not necessarily occur rapidly?",
+      "explanation": {
+        "en": "Thermodynamic favourability does not determine kinetic speed; fuel oxidation can be favourable yet proceed in controlled steps.",
+        "ar": "لا يحدد التفضيل الديناميكي الحراري سرعة التفاعل؛ فقد تكون أكسدة الوقود مفضلة ومع ذلك تجري بخطوات مضبوطة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 13. p13 explicitly warns that thermodynamically favourable is not kinetically rapid and describes controlled, stepwise oxidation. No rate is inferred from ΔG; bilingual distinction checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Thermodynamic favorability and kinetic speed are different properties",
+          "evidence": "Complete oxidation can be strongly favorable yet proceed through controlled steps; thermodynamics does not by itself specify reaction speed."
+        },
+        {
+          "id": "o2",
+          "text": "A negative free-energy change requires instantaneous reaction",
+          "evidence": "The source explicitly warns that favorable is not the same as kinetically rapid."
+        },
+        {
+          "id": "o3",
+          "text": "A favorable reaction cannot be divided into controlled steps",
+          "evidence": "Fuel oxidation with O2 is described as stepwise and controlled."
+        },
+        {
+          "id": "o4",
+          "text": "Complete oxidation cannot provide energy to chemotrophs",
+          "evidence": "The source identifies this as a major chemotroph energy source."
+        },
+        {
+          "id": "o5",
+          "text": "Reaction speed alone defines the standard free-energy change",
+          "evidence": "The source distinguishes kinetic rate from thermodynamic favorability."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-reaction-categories-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-reaction-categories",
+        "bioenergetics-and-metabolism-carbon-bond-formation",
+        "bioenergetics-and-metabolism-decarboxylation",
+        "bioenergetics-and-metabolism-hexose-isomerization",
+        "bioenergetics-and-metabolism-elimination-water",
+        "bioenergetics-and-metabolism-group-transfer-types",
+        "bioenergetics-and-metabolism-redox-pairing"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Match each example with its reaction category.",
+      "explanation": {
+        "en": "These examples identify carbon-bond formation, isomerization, elimination, group transfer and redox; they are process types, not a sequence.",
+        "ar": "تميز الأمثلة بين تكوين رابطة كربونية وIsomerization وElimination ونقل المجموعات والأكسدة والاختزال؛ وهي أنواع تفاعلات وليست خطوات متتابعة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 15, 18, 19, 20, 21, 31. p15 categories plus p18/19/20/21/31 examples support five unique mappings. Isomerization and elimination are distinct process labels within the broader rearrangement grouping; no unique temporal order is implied. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Aldol condensation",
+          "right": "Carbon–carbon bond formation"
+        },
+        {
+          "id": "p2",
+          "left": "Glucose 6-phosphate ⇌ fructose 6-phosphate",
+          "right": "Isomerization"
+        },
+        {
+          "id": "p3",
+          "left": "Loss of water from an alcohol to introduce C=C",
+          "right": "Elimination"
+        },
+        {
+          "id": "p4",
+          "left": "Acyl transfer between nucleophiles",
+          "right": "Group transfer"
+        },
+        {
+          "id": "p5",
+          "left": "Fuel oxidation with electron acceptance elsewhere",
+          "right": "Oxidation–reduction"
+        }
+      ]
+    },
+    {
+      "id": "bioenergetics-and-metabolism-homolytic-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-cleavage-products"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What products result from homolytic cleavage of a C–H bond?",
+      "explanation": {
+        "en": "Homolytic C–H cleavage gives a carbon radical and a hydrogen atom.",
+        "ar": "يعطي Homolytic cleavage لرابطة C–H جذرًا كربونيًا وذرة هيدروجين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 16. p16 explicitly draws homolytic C–H cleavage into carbon radical plus H atom. Heterolytic ion pairs are valid distractor contrasts. Remove unseen-figure wording; science and key unchanged. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "A carbanion and a carbocation",
+          "evidence": "This is the shown heterolytic C–C cleavage pair, not homolytic C–H cleavage."
+        },
+        {
+          "id": "o5",
+          "text": "A carbonyl compound and water",
+          "evidence": "These are not the displayed bond-cleavage products."
+        },
+        {
+          "id": "o1",
+          "text": "A carbon radical and a hydrogen atom",
+          "evidence": "Homolytic C–H cleavage gives a carbon radical and H atom; homolytic cleavage is described as very rare relative to common heterolytic cleavage."
+        },
+        {
+          "id": "o2",
+          "text": "A carbanion and a proton",
+          "evidence": "These are one possible heterolytic C–H cleavage product pair."
+        },
+        {
+          "id": "o3",
+          "text": "A carbocation and a hydride ion",
+          "evidence": "These are another heterolytic C–H cleavage product pair."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-heterolytic-hydride",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-cleavage-products"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which product pair represents heterolytic C–H cleavage with the bonding electron pair retained by hydrogen?",
+      "explanation": {
+        "en": "Retention of the bonding electron pair by hydrogen yields hydride and a carbocation.",
+        "ar": "يؤدي احتفاظ الهيدروجين بزوج إلكترونات الرابطة إلى تكوّن Hydride مع Carbocation."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 16. p16 draws electron-pair retention by H yielding hydride and carbocation. Radical and carbanion/proton pairs represent different explicitly drawn cleavage modes. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "A carbanion and a carbocation",
+          "evidence": "This is the heterolytic C–C cleavage illustration."
+        },
+        {
+          "id": "o1",
+          "text": "A carbocation and a hydride ion",
+          "evidence": "The illustrated heterolytic C–H cleavage can place the electron pair on hydrogen, forming hydride and a carbocation."
+        },
+        {
+          "id": "o2",
+          "text": "A carbon radical and a hydrogen atom",
+          "evidence": "This splits the electrons into radicals and represents homolytic cleavage."
+        },
+        {
+          "id": "o3",
+          "text": "A carbanion and a proton",
+          "evidence": "This places the electron pair on carbon rather than hydrogen."
+        },
+        {
+          "id": "o4",
+          "text": "Two carbon radicals",
+          "evidence": "This is the homolytic C–C cleavage illustration."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-nucleophile-role",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-nucleophile-electrophile"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which pairing correctly identifies nucleophiles and electrophiles?",
+      "explanation": {
+        "en": "Nucleophiles donate electrons; electrophiles accept electrons.",
+        "ar": "Nucleophiles مانحة للإلكترونات، بينما Electrophiles مستقبلة للإلكترونات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 17. p17 prose defines electron donor versus acceptor. This uses only the eligible prose, not the excluded structural-column examples. EN/AR donor/acceptor direction agrees. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Nucleophiles donate electrons; electrophiles accept electrons",
+          "evidence": "Nucleophiles are electron donors and electrophiles are electron acceptors."
+        },
+        {
+          "id": "o2",
+          "text": "Nucleophiles accept electrons; electrophiles donate electrons",
+          "evidence": "This reverses the roles stated in the prose."
+        },
+        {
+          "id": "o3",
+          "text": "Both nucleophiles and electrophiles only accept electrons",
+          "evidence": "The nucleophile is defined as an electron donor."
+        },
+        {
+          "id": "o4",
+          "text": "Both nucleophiles and electrophiles only donate electrons",
+          "evidence": "The electrophile is defined as an electron acceptor."
+        },
+        {
+          "id": "o5",
+          "text": "Nucleophiles transfer only heat; electrophiles transfer only carbon",
+          "evidence": "The definitions concern electron donation and acceptance."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-carbon-bond-reactions",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-carbon-bond-formation",
+        "bioenergetics-and-metabolism-decarboxylation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Which pair correctly distinguishes C–C bond formation from C–C bond breaking?",
+      "explanation": {
+        "en": "Aldol and Claisen ester condensations form C–C bonds; β-keto-acid decarboxylation breaks a C–C bond.",
+        "ar": "يُكوّن كل من Aldol condensation وClaisen ester condensation رابطة C–C، بينما يكسر Decarboxylation لحمض β-keto رابطة C–C."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 18. p18 explicitly identifies aldol/Claisen condensation as C–C formation and β-keto-acid decarboxylation as C–C cleavage. Reversal and phosphate distractors do not fit those mechanisms. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Aldol condensation breaks a C–C bond; β-keto acid decarboxylation forms one",
+          "evidence": "This reverses the stated roles."
+        },
+        {
+          "id": "o3",
+          "text": "Claisen ester condensation breaks a C–C bond; aldol condensation leaves all C–C bonds unchanged",
+          "evidence": "Both condensations are listed as C–C bond-forming reactions."
+        },
+        {
+          "id": "o4",
+          "text": "β-Keto acid decarboxylation forms a C–C bond; Claisen ester condensation breaks one",
+          "evidence": "Decarboxylation breaks a bond, while Claisen condensation forms one."
+        },
+        {
+          "id": "o5",
+          "text": "Aldol condensation and β-keto acid decarboxylation both only transfer phosphate",
+          "evidence": "These examples concern carbon–carbon bonds rather than phosphoryl transfer."
+        },
+        {
+          "id": "o1",
+          "text": "Aldol condensation forms a C–C bond; β-keto acid decarboxylation breaks one",
+          "evidence": "Aldol and Claisen ester condensations form C–C bonds; decarboxylation of a β-keto acid breaks a C–C bond."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-hexose-isomerase",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-hexose-isomerization",
+        "bioenergetics-and-metabolism-enediol-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which conversion is catalyzed by phosphohexose isomerase?",
+      "explanation": {
+        "en": "Phosphohexose isomerase interconverts glucose 6-phosphate and fructose 6-phosphate.",
+        "ar": "يحفز Phosphohexose isomerase التحول المتبادل بين Glucose 6-phosphate وFructose 6-phosphate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 19. p19 names phosphohexose isomerase between G6P and F6P. Other options are distinct redox/hydrolysis examples inspected on p23/27/30/32. Remove displayed-diagram framing; key and explanation remain source faithful. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "ATP + water → ADP + Pi",
+          "evidence": "This is ATP hydrolysis rather than the hexose isomerization."
+        },
+        {
+          "id": "o4",
+          "text": "Acetyl-CoA + water → acetate + CoA-SH",
+          "evidence": "This is thioester hydrolysis rather than the hexose isomerization."
+        },
+        {
+          "id": "o5",
+          "text": "1,3-Bisphosphoglycerate + water → 3-phosphoglycerate + Pi",
+          "evidence": "This is hydrolysis of a glycolytic intermediate, not the shown isomerase conversion."
+        },
+        {
+          "id": "o1",
+          "text": "Glucose 6-phosphate ⇌ fructose 6-phosphate",
+          "evidence": "Phosphohexose isomerase interconverts glucose 6-phosphate and fructose 6-phosphate through the illustrated enediol intermediate."
+        },
+        {
+          "id": "o2",
+          "text": "Lactate ⇌ pyruvate",
+          "evidence": "The redox example is catalyzed by lactate dehydrogenase, not phosphohexose isomerase."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-enediol-role",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-enediol-mechanism"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "Which intermediate forms during glucose 6-phosphate–fructose 6-phosphate isomerization?",
+      "explanation": {
+        "en": "This hexose-phosphate isomerization passes through an enediol intermediate.",
+        "ar": "يمر تحول Hexose phosphate هذا عبر Enediol intermediate."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 19. p19 labels the enediol intermediate. Tetrahedral acyl transfer, glutamyl phosphate and flavin semiquinone belong to the separately inspected p21/28/34 mechanisms; no unseen figure is needed after stem repair. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "A flavin semiquinone intermediate",
+          "evidence": "That is a one-electron flavin redox state."
+        },
+        {
+          "id": "o5",
+          "text": "A pyrophosphate intermediate carrying an adenine ring",
+          "evidence": "No such intermediate is shown in the hexose isomerization diagram."
+        },
+        {
+          "id": "o1",
+          "text": "An enediol intermediate",
+          "evidence": "The isomerization diagram labels an enediol intermediate formed during proton-transfer steps."
+        },
+        {
+          "id": "o2",
+          "text": "A tetrahedral acyl-transfer intermediate",
+          "evidence": "That intermediate is shown for acyl group transfer, not this isomerization."
+        },
+        {
+          "id": "o3",
+          "text": "An enzyme-bound glutamyl phosphate intermediate",
+          "evidence": "That intermediate belongs to the illustrated glutamine-synthesis example."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-elimination-oxidation-state",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-elimination-water"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "What can result from eliminating water from an alcohol without changing the overall oxidation state?",
+      "explanation": {
+        "en": "Eliminating H2O from an alcohol can introduce C=C without an overall oxidation-state change.",
+        "ar": "قد يؤدي حذف H2O من كحول إلى تكوين رابطة C=C دون تغير حالة الأكسدة الكلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 20. p20 explicitly shows loss of water from alcohol introducing C=C without overall oxidation-state change. The other choices identify separately taught condensation/redox/hydrolysis/decarboxylation processes. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Release of CO2 from a β-keto acid",
+          "evidence": "This describes decarboxylation, not the stated elimination."
+        },
+        {
+          "id": "o1",
+          "text": "Formation of a C=C double bond",
+          "evidence": "Loss of H2O from an alcohol can introduce a C=C bond without an overall oxidation-state change."
+        },
+        {
+          "id": "o2",
+          "text": "Formation of a new C–C single bond by aldol condensation",
+          "evidence": "Aldol condensation is a separate C–C bond-forming example."
+        },
+        {
+          "id": "o3",
+          "text": "Reduction of a flavin to its semiquinone",
+          "evidence": "This is a redox-cofactor change rather than water elimination."
+        },
+        {
+          "id": "o4",
+          "text": "Hydrolysis of an ATP phosphoanhydride bond",
+          "evidence": "The described example removes water from an alcohol, not ATP hydrolysis."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-acyl-transfer-intermediate",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-acyl-intermediate"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What forms when a nucleophile adds to the carbonyl carbon during acyl group transfer?",
+      "explanation": {
+        "en": "Nucleophilic addition to an acyl carbonyl produces a tetrahedral intermediate before leaving-group departure.",
+        "ar": "تؤدي إضافة Nucleophile إلى كربون Carbonyl في Acyl group إلى تكوين Tetrahedral intermediate قبل مغادرة المجموعة المغادرة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 21. p21 directly names the tetrahedral intermediate after nucleophilic addition to the acyl carbonyl. Other named intermediates are adjacent source distinctions. No outside mechanism extension required. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "A tetrahedral intermediate",
+          "evidence": "Nucleophilic addition to the acyl carbonyl carbon produces a tetrahedral intermediate before the leaving group departs."
+        },
+        {
+          "id": "o2",
+          "text": "A flavin semiquinone",
+          "evidence": "Semiquinone is the one-electron-reduced flavin state."
+        },
+        {
+          "id": "o3",
+          "text": "An enediol intermediate",
+          "evidence": "An enediol is shown for hexose isomerization."
+        },
+        {
+          "id": "o4",
+          "text": "A carbon radical and hydrogen atom",
+          "evidence": "This pair is shown for homolytic C–H cleavage."
+        },
+        {
+          "id": "o5",
+          "text": "A molecule of NADH with an added ribose phosphate",
+          "evidence": "This is not the intermediate in the acyl-transfer mechanism."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-atp-phosphate-ester",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-phosphoryl-transfer"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "What forms when ATP transfers a phosphoryl group to glucose?",
+      "explanation": {
+        "en": "Glucose receives a phosphoryl group from ATP, forming glucose 6-phosphate and ADP.",
+        "ar": "تستقبل Glucose مجموعة Phosphoryl من ATP، فيتكون Glucose 6-phosphate مع ADP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 22. p22 drawing labels ATP→ADP and glucose→glucose6-phosphate. The AMP/PPi alternative confuses terminal phosphoryl transfer with a different phosphate departure. Remove unseen-illustration framing. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Fructose 6-phosphate and NADH",
+          "evidence": "Those are not the products of the ATP-to-glucose transfer shown."
+        },
+        {
+          "id": "o4",
+          "text": "Pyruvate and ATP",
+          "evidence": "Those products belong to the PEP kinase illustration rather than phosphorylation of glucose."
+        },
+        {
+          "id": "o5",
+          "text": "Glucose and inorganic phosphate without ADP",
+          "evidence": "The diagram forms a glucose phosphate ester and ADP."
+        },
+        {
+          "id": "o1",
+          "text": "Glucose 6-phosphate and ADP",
+          "evidence": "The glucose hydroxyl receives a phosphoryl group from ATP, yielding glucose 6-phosphate, a phosphate ester, and ADP."
+        },
+        {
+          "id": "o2",
+          "text": "Glucose 6-phosphate and AMP plus PPi",
+          "evidence": "The illustrated terminal phosphoryl transfer yields ADP, not AMP plus PPi."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-atp-product-stability",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-atp-hydrolysis-stabilization"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Which product properties help make ATP hydrolysis favorable?",
+      "explanation": {
+        "en": "Relief of charge repulsion and resonance stabilization of products help favour ATP hydrolysis.",
+        "ar": "يسهم تخفيف تنافر الشحنات وResonance stabilization للنواتج في تفضيل Hydrolysis لـ ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 23. p23 explicitly lists improved charge separation and resonance stabilization. Other alternatives reverse the stabilizing factors or eliminate all charge, whereas the diagram retains charged products. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Creation of a less stable product state than the reactants",
+          "evidence": "The explanation relies on more favorable stabilization of products."
+        },
+        {
+          "id": "o1",
+          "text": "Better charge separation and greater resonance stabilization",
+          "evidence": "ATP hydrolysis is favored in part by relief of charge repulsion and resonance stabilization of the products."
+        },
+        {
+          "id": "o2",
+          "text": "Greater electrostatic repulsion and less resonance stabilization",
+          "evidence": "These changes reverse the stated stabilizing effects."
+        },
+        {
+          "id": "o3",
+          "text": "Less charge separation and loss of phosphate resonance",
+          "evidence": "The source attributes favorability to improved separation and stabilization."
+        },
+        {
+          "id": "o4",
+          "text": "Permanent removal of every charge from ATP and ADP",
+          "evidence": "The displayed products remain charged; complete charge removal is not required."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-atp-hydrolysis-sign",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-atp-standard-value"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "What is the standard free-energy change of ATP hydrolysis to ADP and Pi?",
+      "explanation": {
+        "en": "Standard ATP hydrolysis to ADP and Pi has ΔG′° = −30.5 kJ/mol.",
+        "ar": "يبلغ تغير الطاقة الحرة القياسي لـ Hydrolysis من ATP إلى ADP وPi قيمة −30.5 kJ/mol."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 23. p23 full-page equation visibly gives −30.5kJ/mol for ATP→ADP+Pi; this value is taught separately from the excluded p25 table. PEP/1,3-BPG values on p26/27 are plausible neighbouring distractors. Remove source-framed wording. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "−30.5 kJ/mol",
+          "evidence": "The displayed ATP-to-ADP hydrolysis has a standard free-energy change of −30.5 kJ/mol."
+        },
+        {
+          "id": "o2",
+          "text": "+30.5 kJ/mol",
+          "evidence": "This reverses the sign for the hydrolysis direction."
+        },
+        {
+          "id": "o3",
+          "text": "−61.9 kJ/mol",
+          "evidence": "That value is given for PEP hydrolysis on page 26."
+        },
+        {
+          "id": "o4",
+          "text": "−49.3 kJ/mol",
+          "evidence": "That value is given for 1,3-BPG hydrolysis on page 27."
+        },
+        {
+          "id": "o5",
+          "text": "0 kJ/mol",
+          "evidence": "The shown ATP hydrolysis is favorable, not a zero-standard-free-energy change."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-actual-free-energy",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-actual-versus-standard"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Why can the actual ΔG of ATP hydrolysis differ from ΔG′°?",
+      "explanation": {
+        "en": "Actual ΔG depends on standard free energy and actual reactant/product concentrations, which differ from standard conditions.",
+        "ar": "تعتمد ΔG الفعلية على الطاقة الحرة القياسية والتراكيز الفعلية للمتفاعلات والنواتج، وهي تختلف عن الظروف القياسية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 24. p24 states actual ΔG depends on standard free energy and actual concentrations and that ATP/ADP/Pi differ from standard conditions. The alternatives deny one of those explicit conditions. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Actual ΔG depends on enzyme name but not concentration",
+          "evidence": "The source explicitly includes actual concentrations among the determining factors."
+        },
+        {
+          "id": "o3",
+          "text": "ATP, ADP and Pi always have identical cellular concentrations",
+          "evidence": "The source says their cellular concentrations are not identical."
+        },
+        {
+          "id": "o4",
+          "text": "The standard free-energy change is absent from the actual free-energy change",
+          "evidence": "Actual free energy depends on both the standard value and actual concentrations."
+        },
+        {
+          "id": "o5",
+          "text": "Cellular concentrations are defined as exactly the standard concentrations",
+          "evidence": "The source states that cellular concentrations differ and are lower than standard conditions."
+        },
+        {
+          "id": "o1",
+          "text": "Actual reactant and product concentrations differ from standard conditions",
+          "evidence": "Actual free-energy change depends on the standard value and actual concentrations; cellular ATP, ADP and Pi are not all at standard concentrations."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-pep-keto-stability",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-pep-tautomerization"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "What occurs after the enol form of pyruvate is produced in the PEP reaction?",
+      "explanation": {
+        "en": "Enolpyruvate tautomerizes to the more stable keto form, helping favour the PEP reaction.",
+        "ar": "يتحول Enolpyruvate بعملية Tautomerization إلى صورة Keto الأكثر استقرارًا، مما يسهم في تفضيل تفاعل PEP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 26. p26 explicitly shows enolpyruvate→more stable ketopyruvate. Other options substitute different source mechanisms; EN/AR stabilization and direction checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "It remains an obligatory terminal enol with no further rearrangement",
+          "evidence": "The source explicitly shows tautomerization to ketopyruvate."
+        },
+        {
+          "id": "o1",
+          "text": "It tautomerizes to the more stable keto form",
+          "evidence": "The enol product can tautomerize to a more stable keto form, contributing to the favorable PEP reaction."
+        },
+        {
+          "id": "o2",
+          "text": "It is converted into the less stable form by adding another phosphate",
+          "evidence": "The source depicts loss of the phosphate and stabilization by enol-to-keto tautomerization."
+        },
+        {
+          "id": "o3",
+          "text": "It becomes a flavin semiquinone by accepting one electron",
+          "evidence": "This describes a flavin redox state rather than pyruvate tautomerization."
+        },
+        {
+          "id": "o4",
+          "text": "It releases CO2 to form an acyl-transfer tetrahedral intermediate",
+          "evidence": "That sequence is not shown for the PEP reaction."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-pep-kinase-products",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-pep-tautomerization",
+        "bioenergetics-and-metabolism-pep-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which pairing correctly describes the ATP-producing reaction involving PEP?",
+      "explanation": {
+        "en": "Pyruvate kinase couples PEP conversion to ATP formation from ADP and produces pyruvate. The separately shown PEP hydrolysis value is −61.9 kJ/mol.",
+        "ar": "يربط Pyruvate kinase تحول PEP بتكوين ATP من ADP وتكوين Pyruvate. وتبلغ قيمة Hydrolysis المنفصل لـ PEP مقدار −61.9 kJ/mol."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 26. p26 distinguishes pyruvate kinase/ADP→ATP in its upper mechanism from a separately printed PEP hydrolysis value. Key does not assign −61.9 to the coupled ATP-forming reaction. Adjacent enzyme/reaction distractors checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pyruvate kinase; transfer to ADP with formation of pyruvate",
+          "evidence": "Pyruvate kinase links PEP to ATP synthesis from ADP and pyruvate formation; the separate PEP hydrolysis value shown is −61.9 kJ/mol."
+        },
+        {
+          "id": "o2",
+          "text": "Phosphohexose isomerase; transfer to NAD+ with formation of fructose 6-phosphate",
+          "evidence": "Phosphohexose isomerase interconverts hexose phosphates rather than catalyzing this PEP reaction."
+        },
+        {
+          "id": "o3",
+          "text": "Lactate dehydrogenase; transfer to AMP with formation of lactate",
+          "evidence": "Lactate dehydrogenase catalyzes the lactate/pyruvate redox example."
+        },
+        {
+          "id": "o4",
+          "text": "Hexokinase; removal of ATP phosphate to produce acetyl-CoA",
+          "evidence": "This is not the enzyme or products shown for PEP."
+        },
+        {
+          "id": "o5",
+          "text": "Pyruvate kinase; consumption of ATP to phosphorylate glucose",
+          "evidence": "The PEP diagram produces ATP from ADP, rather than using ATP to phosphorylate glucose."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-bpg-hydrolysis-product",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-bpg-hydrolysis",
+        "bioenergetics-and-metabolism-bpg-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "What is the immediate acid product of hydrolysis at the anhydride linkage of 1,3-bisphosphoglycerate?",
+      "explanation": {
+        "en": "Hydrolysis first gives 3-phosphoglyceric acid, which ionizes to resonance-stabilized 3-phosphoglycerate.",
+        "ar": "يعطي Hydrolysis أولًا حمض 3-Phosphoglyceric acid، الذي يتأين إلى 3-Phosphoglycerate المثبت بالرنين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 27. p27 shows immediate3-phosphoglyceric acid then ionization to3-phosphoglycerate. Other reaction/intermediate sequences correspond to p19/26/28/30, all inspected. Remove figure-reference stem wording. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Fructose 6-phosphate, followed by conversion to glucose 6-phosphate",
+          "evidence": "These are the hexose isomerization products, not the shown hydrolysis products."
+        },
+        {
+          "id": "o3",
+          "text": "Enolpyruvate, followed by conversion to ketopyruvate",
+          "evidence": "That sequence is shown for PEP."
+        },
+        {
+          "id": "o4",
+          "text": "Acetic acid, followed by conversion to acetate",
+          "evidence": "That sequence is shown for acetyl-CoA thioester hydrolysis."
+        },
+        {
+          "id": "o5",
+          "text": "Glutamyl phosphate, followed by conversion to glutamine",
+          "evidence": "That sequence is the ATP-coupled glutamine example."
+        },
+        {
+          "id": "o1",
+          "text": "3-Phosphoglyceric acid, followed by ionization to 3-phosphoglycerate",
+          "evidence": "Hydrolysis gives 3-phosphoglyceric acid, which ionizes to a resonance-stabilized ion; the displayed ΔG′° is −49.3 kJ/mol."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-glutamine-activation-order",
+      "revision": 2,
+      "type": "order",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-glutamine-activation",
+        "bioenergetics-and-metabolism-atp-covalent-activation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Arrange the steps of the ATP-coupled conversion of glutamate to glutamine; events in the same chemical step may share a group.",
+      "explanation": {
+        "en": "ATP first forms enzyme-bound glutamyl phosphate and ADP. NH3 reaction and Pi departure belong to the second chemical step, which produces glutamine.",
+        "ar": "يُكوّن ATP أولًا Glutamyl phosphate المرتبط بالإنزيم وADP. وينتمي تفاعل NH3 ومغادرة Pi إلى الخطوة الكيميائية الثانية التي تُنتج Glutamine."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 28. p28 numbers TWO steps: glutamyl-phosphate formation, then NH3 reaction/Pi departure. Candidate imposed a separate order inside the second depicted step. Repair acceptedGroups to allow s2/s3 together, revision2, and recheck both explanations. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "ATP phosphorylates glutamate, producing ADP and enzyme-bound glutamyl phosphate"
+        },
+        {
+          "id": "s2",
+          "text": "NH3 reacts with the activated glutamyl phosphate intermediate"
+        },
+        {
+          "id": "s3",
+          "text": "Phosphate is displaced and glutamine is formed"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2",
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "bioenergetics-and-metabolism-glutamine-leaving-group",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-glutamine-activation"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which group leaves glutamyl phosphate when NH3 converts it to glutamine?",
+      "explanation": {
+        "en": "Pi leaves glutamyl phosphate during its reaction with NH3; ADP was produced in the earlier activation step.",
+        "ar": "تغادر Pi وسيط Glutamyl phosphate أثناء تفاعله مع NH3، بينما تكوّن ADP في خطوة التنشيط السابقة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 28. p28 full-page diagram clearly labels Pi leaving during NH3 reaction; ADP leaves earlier. Pi versus PPi/ADP is a distinct useful leaving-group contrast. Remove unseen-figure framing. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "NADH",
+          "evidence": "No NADH formation or departure is shown in this glutamine example."
+        },
+        {
+          "id": "o1",
+          "text": "Pi",
+          "evidence": "The illustrated second step displaces Pi from glutamyl phosphate to form glutamine."
+        },
+        {
+          "id": "o2",
+          "text": "PPi",
+          "evidence": "The particular glutamine diagram shows Pi; the generic text does not make PPi the product of this example."
+        },
+        {
+          "id": "o3",
+          "text": "ADP",
+          "evidence": "ADP is formed during initial phosphorylation, not as the displaced group in the ammonia step."
+        },
+        {
+          "id": "o4",
+          "text": "CoA-SH",
+          "evidence": "CoA-SH appears in the thioester hydrolysis example, not this reaction."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-thioester-hydrolysis",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-thioester-energy"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "What are the net products of acetyl-CoA hydrolysis?",
+      "explanation": {
+        "en": "Acetyl-CoA hydrolysis gives acetate, CoA-SH and H+.",
+        "ar": "يعطي Hydrolysis لـ Acetyl-CoA نواتج Acetate وCoA-SH وH+."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 30. p30 net equation explicitly shows acetate, CoA-SH and H+ and −31.4kJ/mol. Other product sets are separately inspected neighbouring reactions. Remove shown-in-net wording; direct reaction question remains. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Glutamine, ADP and Pi",
+          "evidence": "These belong to the ATP-coupled glutamine example."
+        },
+        {
+          "id": "o3",
+          "text": "Pyruvate, ATP and CO2",
+          "evidence": "The acetyl-CoA hydrolysis diagram does not show this set."
+        },
+        {
+          "id": "o4",
+          "text": "3-Phosphoglycerate, Pi and H+",
+          "evidence": "These are the 1,3-BPG hydrolysis products."
+        },
+        {
+          "id": "o5",
+          "text": "Glucose 6-phosphate and ADP",
+          "evidence": "These are the products of ATP-dependent glucose phosphorylation."
+        },
+        {
+          "id": "o1",
+          "text": "Acetate, CoA-SH and H+",
+          "evidence": "Acetyl-CoA hydrolysis gives acetate + CoA-SH + H+ and has a displayed ΔG′° of −31.4 kJ/mol."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-lactate-secondary-alcohol",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-lactate-pyruvate"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Which structural change occurs when lactate is oxidized to pyruvate?",
+      "explanation": {
+        "en": "Lactate oxidation converts a secondary alcohol to the ketone group of pyruvate; LDH catalyzes the reversible interconversion.",
+        "ar": "تحول أكسدة Lactate الكحول الثانوي إلى مجموعة Ketone في Pyruvate؛ ويحفز LDH التحول العكوس بينهما."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 32. p32 directly identifies lactate secondary alcohol and pyruvate ketone with reversible LDH reaction. Other transformations are source-neighbouring process distinctions, not alternative structures of this conversion. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "A carbonyl is converted to a phosphoryl group",
+          "evidence": "The figure shows alcohol-to-ketone redox chemistry, not phosphoryl formation."
+        },
+        {
+          "id": "o3",
+          "text": "A thioester is hydrolyzed to acetate",
+          "evidence": "This describes acetyl-CoA hydrolysis rather than lactate oxidation."
+        },
+        {
+          "id": "o4",
+          "text": "A glucose phosphate is rearranged into a fructose phosphate",
+          "evidence": "This is the separate hexose isomerization."
+        },
+        {
+          "id": "o5",
+          "text": "An acyl group is transferred to form glutamyl phosphate",
+          "evidence": "This is not the lactate/pyruvate redox change."
+        },
+        {
+          "id": "o1",
+          "text": "A secondary alcohol is converted to a ketone",
+          "evidence": "Lactate dehydrogenase catalyzes the reversible secondary-alcohol/ketone conversion between lactate and pyruvate."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-nad-oxidized-reduced",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-nad-forms"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which pair correctly identifies the NAD redox forms?",
+      "explanation": {
+        "en": "NAD+ is the oxidized form and NADH is the reduced form.",
+        "ar": "NAD+ هو الصورة المؤكسدة، وNADH هو الصورة المختزلة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 33. p33 labels oxidized NAD+ and reduced NADH. Reversed/both-oxidized/both-reduced forms and NADP phosphorylation confusion are distinguishable; Arabic agrees. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "NAD+ and NADH are both fully oxidized",
+          "evidence": "The figure labels NADH as reduced."
+        },
+        {
+          "id": "o4",
+          "text": "NAD+ and NADH are both fully reduced",
+          "evidence": "The figure labels NAD+ as oxidized."
+        },
+        {
+          "id": "o5",
+          "text": "NADH is a phosphate ester of NADP+ with no redox change",
+          "evidence": "The figure distinguishes redox reduction from the extra phosphate of NADP+."
+        },
+        {
+          "id": "o1",
+          "text": "NAD+ is oxidized; NADH is reduced",
+          "evidence": "The structure diagram labels NAD+ as the oxidized form and NADH as the reduced form."
+        },
+        {
+          "id": "o2",
+          "text": "NAD+ is reduced; NADH is oxidized",
+          "evidence": "This reverses the labels in the figure."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-nadp-structural-difference",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-nadp-phosphate"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "What structural distinction is indicated for NADP+ compared with NAD+?",
+      "explanation": {
+        "en": "NADP+ differs by phosphate esterification of a ribose hydroxyl.",
+        "ar": "يختلف NADP+ بأسترة مجموعة OH على Ribose بالفوسفات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 33. p33 annotation marks phosphate esterification of a ribose hydroxyl in NADP+. It does not replace adenine/remove nicotinamide/form flavin semiquinone; structure and Arabic checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Every phosphate in NAD+ is replaced by a proton",
+          "evidence": "The figure shows addition of a phosphate ester at an indicated hydroxyl."
+        },
+        {
+          "id": "o5",
+          "text": "NADP+ is defined by a semiquinone radical",
+          "evidence": "Semiquinone is a flavin state, not the marked NADP+ difference."
+        },
+        {
+          "id": "o1",
+          "text": "An indicated ribose hydroxyl is esterified with phosphate",
+          "evidence": "The NADP+ annotation points to a ribose hydroxyl that is esterified with phosphate."
+        },
+        {
+          "id": "o2",
+          "text": "The adenine group is replaced by a flavin ring",
+          "evidence": "The figure retains adenine; it marks an added phosphate on a ribose hydroxyl."
+        },
+        {
+          "id": "o3",
+          "text": "The nicotinamide ring is removed",
+          "evidence": "The indicated difference is phosphate esterification, not loss of the redox ring."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-nadh-340-band",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-nadh-absorbance"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which absorption feature distinguishes reduced NADH from oxidized NAD+?",
+      "explanation": {
+        "en": "NADH has an additional absorption band near 340 nm; oxidized NAD+ lacks that band.",
+        "ar": "يملك NADH حزمة امتصاص إضافية قرب 340 nm لا تظهر في NAD+ المؤكسد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 33. p33 full-page absorption curves show extra reduced-NADH band near340nm and both forms absorbing near260nm. Replace the540nm alternative (outside the plotted domain, absent evidence is insufficient) with a false within-domain comparison. Remove graph-dependent wording and recheck. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Greater NAD+ than NADH absorption near 340 nm",
+          "evidence": "The p33 curves show greater NADH, not NAD+, absorption near340nm; this tests an observed within-domain contrast."
+        },
+        {
+          "id": "o1",
+          "text": "An additional NADH absorption band near 340 nm",
+          "evidence": "The reduced NADH curve has an additional band near 340 nm; the oxidized NAD+ curve does not."
+        },
+        {
+          "id": "o2",
+          "text": "A NAD+-specific absorption band near 340 nm",
+          "evidence": "The additional band belongs to the blue reduced NADH curve."
+        },
+        {
+          "id": "o3",
+          "text": "Complete absence of NADH absorption near 260 nm",
+          "evidence": "Both plotted forms absorb in the region near 260 nm."
+        },
+        {
+          "id": "o4",
+          "text": "Identical NAD+ and NADH absorption near 340 nm",
+          "evidence": "The curves differ, especially around 340 nm."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-flavin-reduction-order",
+      "revision": 1,
+      "type": "order",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-flavin-semiquinone",
+        "bioenergetics-and-metabolism-flavin-fully-reduced"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "Arrange the flavin states during successive addition of one electron and one proton at each step.",
+      "explanation": {
+        "en": "Successive one-electron/proton additions take oxidized flavin through semiquinone to fully reduced FADH2 or FMNH2.",
+        "ar": "ينقل استقبال إلكترون وبروتون في كل خطوة Flavin المؤكسد عبر Semiquinone إلى الصورة المختزلة بالكامل FADH2 أو FMNH2."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 34. p34 explicitly shows successive one-electron/proton additions through semiquinone to fully reduced flavin. Stem fixes reduction direction; unique order and bilingual state labels checked. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Oxidized FAD or FMN"
+        },
+        {
+          "id": "s2",
+          "text": "Semiquinone FADH• or FMNH•"
+        },
+        {
+          "id": "s3",
+          "text": "Fully reduced FADH2 or FMNH2"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ]
+      ]
+    },
+    {
+      "id": "bioenergetics-and-metabolism-barrier-versus-endpoints",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-activation-versus-equilibrium"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "How do catalyzed and uncatalyzed reaction energy profiles compare?",
+      "explanation": {
+        "en": "Catalysis lowers the activation barrier while preserving the substrate and product ground-state energies.",
+        "ar": "يخفض Catalysis حاجز التنشيط مع بقاء طاقتي الحالة الأساسية للركيزة والناتج دون تغير."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 36. p36 full-page profiles share S/P endpoints and show lower catalyzed barrier. Replace graph-object/time-axis distractors with parallel barrier/end-state comparisons; remove unseen-graph wording. Key unchanged; no new energetic effect inferred. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Lower activation barrier; unchanged substrate and product ground-state energies",
+          "evidence": "The p36 catalyzed path has lower barriers and shares the S/P endpoints."
+        },
+        {
+          "id": "o2",
+          "text": "Higher activation barrier; unchanged substrate and product ground-state energies",
+          "evidence": "The catalyzed barrier is lower, not higher."
+        },
+        {
+          "id": "o3",
+          "text": "Unchanged activation barrier; lower product ground-state energy",
+          "evidence": "The barrier changes while the product endpoint remains shared."
+        },
+        {
+          "id": "o4",
+          "text": "Lower activation barrier; higher product ground-state energy",
+          "evidence": "The product ground-state energy is unchanged, not raised."
+        },
+        {
+          "id": "o5",
+          "text": "Unchanged activation barrier; higher substrate ground-state energy",
+          "evidence": "The substrate endpoint is shared, and the catalyzed barrier is lower."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-feedback-inhibition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-feedback-inhibition"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 37
+        }
+      ],
+      "prompt": "Which interaction exemplifies the feedback inhibition described?",
+      "explanation": {
+        "en": "A pathway end product can regulate the pathway by acting as an allosteric inhibitor.",
+        "ar": "يمكن للناتج النهائي لمسار أيضي أن ينظم المسار بعمله بوصفه Allosteric inhibitor."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 37. p37 explicitly defines pathway-end-product allosteric inhibition. Contrasts with activation, active-site binding and ordinary catalytic steps are meaningful source-supported distinctions. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "An enzyme releases product and remains available for reuse",
+          "evidence": "This describes the catalytic cycle, not an end product inhibiting a pathway."
+        },
+        {
+          "id": "o5",
+          "text": "An enzyme binds substrate and brings its reactive groups close together",
+          "evidence": "This describes catalytic substrate binding rather than feedback inhibition."
+        },
+        {
+          "id": "o1",
+          "text": "A pathway end product acts as an allosteric inhibitor",
+          "evidence": "A metabolic pathway can be regulated when its end product acts as an allosteric inhibitor."
+        },
+        {
+          "id": "o2",
+          "text": "A pathway end product acts as an allosteric activator",
+          "evidence": "Allosteric stimulation can occur, but feedback inhibition specifically reduces activity."
+        },
+        {
+          "id": "o3",
+          "text": "A substrate binds its active site without any regulatory effect",
+          "evidence": "Active-site substrate binding alone is not the described end-product inhibition."
+        }
+      ],
+      "correctOptionId": "o1"
+    },
+    {
+      "id": "bioenergetics-and-metabolism-equilibrium-direction-match",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "bioenergetics-and-metabolism",
+      "conceptIds": [
+        "bioenergetics-and-metabolism-equilibrium-direction-table"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "bioenergetics-and-metabolism",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Starting with all reaction components at 1 M, match K′eq with the standard free-energy sign and reaction direction.",
+      "explanation": {
+        "en": "With all components initially at 1 M, K′eq >1 gives negative ΔG′° and forward reaction; K′eq =1 gives equilibrium; K′eq <1 gives positive ΔG′° and reverse reaction.",
+        "ar": "عندما يبدأ كل مكوّن بتركيز 1 M، تقابل K′eq >1 قيمة ΔG′° سالبة واتجاهًا أماميًا؛ وتقابل K′eq =1 الاتزان؛ وتقابل K′eq <1 قيمة ΔG′° موجبة واتجاهًا عكسيًا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second-codex-agent-check_bioenergetics",
+        "peerReviewNotes": "Second Codex agent check against PDF page images 12. p12 owner-approved table has three unique K′eq/sign/direction mappings. All-components-initially1M condition is retained, avoiding an unwarranted universal direction claim; Arabic conditions and signs agree. Every alternative/mapping/order and both languages checked. Antigravity and Claude review pending; not independent review from another tool."
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "K′eq > 1.0",
+          "right": "Negative ΔG′°; proceeds forward"
+        },
+        {
+          "id": "p2",
+          "left": "K′eq = 1.0",
+          "right": "Zero ΔG′°; at equilibrium"
+        },
+        {
+          "id": "p3",
+          "left": "K′eq < 1.0",
+          "right": "Positive ΔG′°; proceeds in reverse"
+        }
+      ]
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "bioenergetics-and-metabolism-pathway-map-examples",
+      "reason": "Illustrative converging/diverging pathway labels are retained in the extraction; the taught organizational distinction is assessed without requiring recall of an illustrative map."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-nucleophile-examples",
+      "reason": "Owner did not select the optional p17 two-column structural-example figure. Column-only examples are excluded from assessment/Memorize; prose donor/acceptor definitions remain assessed separately."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-electrophile-examples",
+      "reason": "Owner did not select the optional p17 two-column structural-example figure. Column-only examples are excluded from assessment/Memorize; prose donor/acceptor definitions remain assessed separately."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-hydrolysis-comparison-table",
+      "reason": "Owner did not select the p25 phosphate-hydrolysis table. Table-only numeric comparisons are excluded from assessment/Memorize; separately taught prose and reaction-page facts remain eligible."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-glucose-table-label",
+      "reason": "Unresolved source label or numeric-unit inconsistency; blocked from deciding a scored answer. Preserved in the uncertainty register."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-ppi-table-values",
+      "reason": "Unresolved source label or numeric-unit inconsistency; blocked from deciding a scored answer. Preserved in the uncertainty register."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-carbon-oxidation-series",
+      "reason": "Illustrative structural oxidation series retained; no numerical oxidation states are supplied, and redox distinctions are assessed directly."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-cellular-efficiency",
+      "reason": "Closing synthesis repeats ATP coupling, enzyme specificity and regulation already assessed; no separate distinct target added."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-complexity-energy",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-complex-structures-energy: p3 supports the energy/low-entropy claim, but the four alternatives are conspicuously implausible (all stored energy, disorder, creation of energy, no transfer). Remove this weak set rather than preserve a count. The sunlight tag is also not actually tested by this stem."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-sunlight",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-complex-structures-energy: p3 supports the energy/low-entropy claim, but the four alternatives are conspicuously implausible (all stored energy, disorder, creation of energy, no transfer). Remove this weak set rather than preserve a count. The sunlight tag is also not actually tested by this stem."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-energy-sources",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-photosynthetic-energy: p4 supports the key, but three alternatives describe oxygen/water/CO2 as light energy rather than plausible competing energy sources. Remove weak alternatives; the global-cycle tag is broader than the scored pairing."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-global-cycle",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-photosynthetic-energy: p4 supports the key, but three alternatives describe oxygen/water/CO2 as light energy rather than plausible competing energy sources. Remove weak alternatives; the global-cycle tag is broader than the scored pairing."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-pathway-shapes",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-pathway-forms: p6 supports linear/branched/cyclic, but the alternatives are unrelated energetic states, redox states, molecule positions or enzyme terms. The key is exposed by category alone. Remove weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-thermodynamics-bioenergetics",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-bioenergetics-scope: p8 supports bioenergetics, but three alternatives are obviously unrelated naming/carbon/product topics and the remaining option creates energy. Remove the weak option set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-second-law",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-second-law-entropy: p9 supports the entropy statement, but rate equality and universal product enthalpy are unrelated distractors and the other alternatives are absolute energy/disorder claims. Remove the weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-heterolytic-reactions",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-heterolytic-biochemistry: p14 supports the key, but the correct option bundles two source statements and is much longer while the alternatives use conspicuous only/exclude/prevents/no-electron absolutes. Remove this weak/cued set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-redox-cofactor-transfer",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-heterolytic-biochemistry: p14 supports the key, but the correct option bundles two source statements and is much longer while the alternatives use conspicuous only/exclude/prevents/no-electron absolutes. Remove this weak/cued set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-cleavage-frequency",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. Supporting detail retained faithfully; no distinct source-grounded scored target in the accepted set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-phosphate-leaving-groups",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-phosphate-leaving-groups: p22 supports Pi/PPi, but the stem asks for phosphate species while every distractor pair is explicitly sugars, redox carriers or CoA species. Category cue exposes the answer. Remove weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-magnesium-atp",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-magnesium-complexes: p24 supports Mg-ATP/Mg-ADP, but the key is the only paired ATP/ADP answer while three distractors are unrelated NAD/FAD or AMP pairs. Remove weak set; retain the supported reference fact."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-high-energy-stabilization",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-hydrolysis-stabilization-mechanisms: p25 prose is separately eligible, but the scored charge-separation distinction repeats atp-product-stability on p23. Remove redundant target; this is not a blanket exclusion of p25 prose."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-atp-intermediate-energy",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-atp-energy-carrier: p29 supports ATP usefulness, but all four distractors carry conspicuous every/cannot/only/must-absent assertions. Remove weak set rather than defend count."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-atp-coupling-regulation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-atp-energy-carrier: p29 supports ATP usefulness, but all four distractors carry conspicuous every/cannot/only/must-absent assertions. Remove weak set rather than defend count."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-acetyl-coa-donor",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-acetyl-coa-acyl-role: p30 supports acetyl-CoA acyl donation, but entropy measurement/radical cleavage/flavin acceptance/hexose isomerization are unrelated distractors. Remove weak set; keep the useful source fact available in extraction."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-dehydrogenation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenation-transfer: p31 supports two-electron/two-H+ loss, but alternatives are nucleotide pairs, acyl/glycosyl groups or phosphate/carbon removal. These are not plausible competing dehydrogenation distinctions. Remove weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-two-electron-transfer",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenase-proton-hydride: p32 supports proton/hydride transfer, but three options substitute unrelated acyl/glycosyl/phosphoryl/CO2 transfer and the last imposes every-reaction radical transfer. Remove weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-proton-hydride",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-dehydrogenase-proton-hydride: p32 supports proton/hydride transfer, but three options substitute unrelated acyl/glycosyl/phosphoryl/CO2 transfer and the last imposes every-reaction radical transfer. Remove weak set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-flavin-ring",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-flavin-electron-capacity: p34 supports one-/two-electron flavin acceptance, but alternatives are phosphate transfer, acyl transfer, three-electron irreversible uptake or CO2 production. Remove unrelated/cued set; order item retains flavin-state distinction."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-catalyst",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-binding-induced-fit: p35 supports ES formation, but the key is markedly longer and every alternative invokes permanent consumption, no specificity or obligatory unchanged release. Remove weak/cued set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-substrate",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-binding-induced-fit: p35 supports ES formation, but the key is markedly longer and every alternative invokes permanent consumption, no specificity or obligatory unchanged release. Remove weak/cued set."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-transition-state",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-transition-state: p36 supports barrier lowering, but this repeats the activation-barrier component of barrier-versus-endpoints and has four extreme alternatives. Retain the richer endpoints distinction instead."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-enzyme-reuse",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-enzyme-after-release: p36 supports reuse, but four alternatives are all obligatory/permanent enzyme conversion or rebinding claims. Remove weak set; supported reuse remains a reference fact."
+    },
+    {
+      "conceptId": "bioenergetics-and-metabolism-allosteric-regulation",
+      "reason": "Removed weak/redundant draft candidate(s) after fresh second-agent check; no accepted scored activity currently assesses this concept. bioenergetics-and-metabolism-allosteric-effects: p37 supports stimulation or inhibition, but all distractors are unrelated substrate destruction/phosphate release/permanent product conversion or no modulation. Remove weak set; supported allostery remains in reference cards."
+    }
+  ],
+  "reviewSummary": {
+    "reviewer": "second-codex-agent-check_bioenergetics",
+    "reviewType": "fresh second Codex agent source-image check",
+    "candidateCount": 65,
+    "acceptedCount": 42,
+    "removedCount": 23,
+    "antigravityChecked": false,
+    "claudeReviewed": false
+  }
+}

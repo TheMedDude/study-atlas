@@ -1,0 +1,118 @@
+{
+  "subject": "General Pathology",
+  "purpose": "Midterm",
+  "authority": "Eleven unchanged PDFs from owner-supplied ZIP only",
+  "total_pdf_pages": 390,
+  "lectures": [
+    {
+      "id": "ch1-part-01",
+      "title": "1.CH 1 - Introduction to Pathology",
+      "original_filename": "1.CH 1 - Introduction to Pathology.pdf",
+      "path": "slides/1.CH 1 - Introduction to Pathology.pdf",
+      "pdf_pages": 32,
+      "sha256": "57c8525966448c052fdb9fee07007c2cfe7e0315e5f8319e094f6c9f7482b521",
+      "chapter": 1,
+      "part": 1
+    },
+    {
+      "id": "ch1-part-02",
+      "title": "2.CH 1 - Cell injury I causes and targets 4",
+      "original_filename": "2.CH 1 - Cell injury I causes and targets 4.pdf",
+      "path": "slides/2.CH 1 - Cell injury I causes and targets 4.pdf",
+      "pdf_pages": 36,
+      "sha256": "5cd826a836a7037604ce38634581727f0b7c3a8e6425d961f0f544a7c7793ab2",
+      "chapter": 1,
+      "part": 2
+    },
+    {
+      "id": "ch1-part-03",
+      "title": "3.CH 1 - Cell Injury II cellular adaptation",
+      "original_filename": "3.CH 1 - Cell Injury II cellular adaptation.pdf",
+      "path": "slides/3.CH 1 - Cell Injury II cellular adaptation.pdf",
+      "pdf_pages": 33,
+      "sha256": "1fb7f20543d16fc2438cf6973ec0faca1e34870cd96496b89eaee1674e82e296",
+      "chapter": 1,
+      "part": 3
+    },
+    {
+      "id": "ch1-part-04",
+      "title": "4.CH 1 - Cell Injury III Subcellular responses to injury",
+      "original_filename": "4.CH 1 - Cell Injury III Subcellular responses to injury.pdf",
+      "path": "slides/4.CH 1 - Cell Injury III Subcellular responses to injury.pdf",
+      "pdf_pages": 15,
+      "sha256": "0b1bef3b6c8e936d6383597a79a4fc2644b5dbd57c9f8d0b0337b7abf4741438",
+      "chapter": 1,
+      "part": 4
+    },
+    {
+      "id": "ch1-part-05",
+      "title": "5.CH 1 - Cell Injury IV reversible vs irreversible",
+      "original_filename": "5.CH 1 - Cell Injury IV reversible vs irreversible.pdf",
+      "path": "slides/5.CH 1 - Cell Injury IV reversible vs irreversible.pdf",
+      "pdf_pages": 30,
+      "sha256": "06fabaaddd2e3c26bf7ab91ae8036bfb1e28c0169fd52899c713d4b8fcd1eebc",
+      "chapter": 1,
+      "part": 5
+    },
+    {
+      "id": "ch1-part-06",
+      "title": "6.CH 1 - cell injury V Types of necrosis",
+      "original_filename": "6.CH 1 - cell injury V Types of necrosis.pdf",
+      "path": "slides/6.CH 1 - cell injury V Types of necrosis.pdf",
+      "pdf_pages": 23,
+      "sha256": "7fb779dc998966ad90b73eb77b46bd4029fcb2b60f5f5f7b6b392ca796748dbf",
+      "chapter": 1,
+      "part": 6
+    },
+    {
+      "id": "ch1-part-07",
+      "title": "7.CH 1 - cell injury VI Apoptosis",
+      "original_filename": "7.CH 1 - cell injury VI Apoptosis.pdf",
+      "path": "slides/7.CH 1 - cell injury VI Apoptosis.pdf",
+      "pdf_pages": 23,
+      "sha256": "fd66930abb91f1510bc57e25f4bd721ed07cf31e5c445eedb91c180cb93fe131",
+      "chapter": 1,
+      "part": 7
+    },
+    {
+      "id": "ch1-part-08",
+      "title": "8.CH 1 - Cell Injury VII Intracellular accumulation and Pathologic Calcification",
+      "original_filename": "8.CH 1 - Cell Injury VII Intracellular accumulation and Pathologic Calcification.pdf",
+      "path": "slides/8.CH 1 - Cell Injury VII Intracellular accumulation and Pathologic Calcification.pdf",
+      "pdf_pages": 36,
+      "sha256": "ffd0fb34ec1a5319c52790f18e485f37e1231e3ca81fba57fea7b018aa95b1ea",
+      "chapter": 1,
+      "part": 8
+    },
+    {
+      "id": "ch2-part-01",
+      "title": "CH 2 - Inflammation I",
+      "original_filename": "CH 2 - Inflammation I.pdf",
+      "path": "slides/CH 2 - Inflammation I.pdf",
+      "pdf_pages": 51,
+      "sha256": "1d06448be573293a4b63a2df5a6029906617ab2f6338bf9fc951657736d311c9",
+      "chapter": 2,
+      "part": 1
+    },
+    {
+      "id": "ch2-part-02",
+      "title": "CH 2 - Inflammation II",
+      "original_filename": "CH 2 - Inflammation II.pdf",
+      "path": "slides/CH 2 - Inflammation II.pdf",
+      "pdf_pages": 53,
+      "sha256": "d6f7fbbae443b5661967ebd720121ae3bf6b11a5e131b12493eec928fe09c5bf",
+      "chapter": 2,
+      "part": 2
+    },
+    {
+      "id": "ch2-part-03",
+      "title": "CH 2 - Inflammation III",
+      "original_filename": "CH 2 - Inflammation III.pdf",
+      "path": "slides/CH 2 - Inflammation III.pdf",
+      "pdf_pages": 58,
+      "sha256": "5eacbd5ebce989abc19707e7c81f6e6a52d08c8f3b2d2d39ba954b906a436d1d",
+      "chapter": 2,
+      "part": 3
+    }
+  ]
+}

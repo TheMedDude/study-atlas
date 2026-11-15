@@ -1,0 +1,967 @@
+{
+  "lectureId": "ch1-part-06",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-06-coagulative-preservation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p003-content",
+        "ch1-part-06-p006-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which necrosis pattern preserves basic cellular outlines and tissue architecture for days?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Fibrinoid necrosis",
+          "evidence": "This involves blood-vessel injury with fibrin/plasma-protein accumulation."
+        },
+        {
+          "id": "o1",
+          "text": "Coagulative necrosis",
+          "evidence": "Protein denaturation predominates and outlines persist."
+        },
+        {
+          "id": "o2",
+          "text": "Liquefactive necrosis",
+          "evidence": "Complete digestion destroys architecture."
+        },
+        {
+          "id": "o4",
+          "text": "Fat necrosis",
+          "evidence": "This describes focal fat destruction and saponification."
+        },
+        {
+          "id": "o3",
+          "text": "Caseous necrosis",
+          "evidence": "Architecture is obliterated by amorphous granular debris."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Coagulative necrosis preserves structural outlines because protein denaturation predominates over enzymatic digestion.",
+        "ar": "يحفظ Coagulative necrosis الحدود البنيوية لأن تمسخ البروتين يغلب الهضم الإنزيمي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 6, 11, 14, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp3,6 support structural-outline preservation with denaturation predominance. Each other option is checked against its own necrosis-pattern page; property distinction is unique. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-coagulative-brain-exception",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which organ is the stated exception to coagulative necrosis following hypoxia or ischemia?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Liver",
+          "evidence": "The stated ischemic exception is brain, not liver."
+        },
+        {
+          "id": "o3",
+          "text": "Kidney",
+          "evidence": "Renal infarction is a coagulative example."
+        },
+        {
+          "id": "o1",
+          "text": "Brain",
+          "evidence": "Brain ischemia is assigned to liquefactive necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Heart",
+          "evidence": "Myocardial ischemia is a coagulative example."
+        },
+        {
+          "id": "o5",
+          "text": "Lung",
+          "evidence": "The stated ischemic exception is brain, not lung."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hypoxic or ischemic necrosis in most organs is coagulative, with the brain as the stated exception.",
+        "ar": "يكون النخر بنقص الأكسجة أوالإقفار Coagulative في معظم الأعضاء، والدماغ هو الاستثناء المذكور."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 4, 6, 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p3 expressly names brain as the ischemic exception and p11 shows liquefactive brain injury. Added p4/6 for myocardial/renal examples; did not infer an unprovided organ exception. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-coagulative-digestion",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "How do coagulative and liquefactive necrosis differ in the predominant process?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Both destroy architecture by complete digestion",
+          "evidence": "Coagulation preserves basic outlines."
+        },
+        {
+          "id": "o3",
+          "text": "Both preserve architecture by denaturation",
+          "evidence": "Liquefaction destroys architecture."
+        },
+        {
+          "id": "o2",
+          "text": "Coagulative: enzymatic digestion; liquefactive: denaturation",
+          "evidence": "This reverses the processes."
+        },
+        {
+          "id": "o1",
+          "text": "Coagulative: denaturation; liquefactive: enzymatic digestion",
+          "evidence": "This matches both definitions."
+        },
+        {
+          "id": "o5",
+          "text": "Coagulative: saponification; liquefactive: fibrin deposition",
+          "evidence": "These belong to fat and fibrinoid necrosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Denaturation predominates in coagulative necrosis, whereas digestion predominates in liquefactive necrosis.",
+        "ar": "يغلب التمسخ في Coagulative necrosis، ويغلب الهضم في Liquefactive necrosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 11, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp3,11 directly contrast denaturation versus enzymatic-digestion predominance. Architecture alternatives and fat/fibrinoid mechanisms checked on exact comparison pages. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-red-pale-infarct",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which pairing correctly links infarct color with its vascular setting?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Red: venous occlusion or reperfusion; pale: end-arterial solid organ",
+          "evidence": "This matches the comparison table."
+        },
+        {
+          "id": "o4",
+          "text": "Red: single cardiac arterial supply; pale: venous occlusion",
+          "evidence": "This reverses the table."
+        },
+        {
+          "id": "o3",
+          "text": "Red: single renal arterial supply; pale: multiple blood supplies",
+          "evidence": "This reverses the table."
+        },
+        {
+          "id": "o2",
+          "text": "Red: end-arterial solid organ; pale: reperfusion",
+          "evidence": "This reverses the table."
+        },
+        {
+          "id": "o5",
+          "text": "Red: reperfusion; pale: multiple blood supplies",
+          "evidence": "p10 places multiple blood supplies with red rather than pale infarcts."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Red infarcts are associated with venous occlusion, multiple supplies or reperfusion; pale infarcts occur in solid end-arterial organs.",
+        "ar": "يرتبط Red infarct بالانسداد الوريدي أوتعدد التروية أوReperfusion؛ ويحدث Pale infarct في الأعضاء الصلبة ذات التروية الشريانية النهائية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 table supports red venous/reperfusion/multiple-supply versus pale end-arterial solid organs. Replaced absent-blood-flow-change distractor with a parallel vascular-setting mismatch. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-liquefactive-settings",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which pair of settings is associated with liquefactive necrosis?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Brain ischemia and bacterial or fungal infection",
+          "evidence": "Both are explicitly listed."
+        },
+        {
+          "id": "o3",
+          "text": "Tuberculosis and pancreatic fat saponification",
+          "evidence": "These illustrate caseous and fat necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Heart ischemia and kidney arterial infarction",
+          "evidence": "These are coagulative examples."
+        },
+        {
+          "id": "o4",
+          "text": "Dry limb gangrene and preserved renal infarct outlines",
+          "evidence": "These illustrate coagulative necrosis."
+        },
+        {
+          "id": "o5",
+          "text": "Small-vessel fibrin deposits and pancreatic chalky fat",
+          "evidence": "These illustrate fibrinoid and fat necrosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Liquefactive necrosis occurs in ischemic brain injury and infections with WBC enzyme release.",
+        "ar": "يحدث Liquefactive necrosis في أذية الدماغ الإقفارية وفي العدوى المصحوبة بتحرير إنزيمات WBCs."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 6, 11, 14, 17, 19, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p11 supplies brain ischemia and bacterial/fungal infection with WBC enzymes. Added exact adjacent-pattern references for every distractor; no exclusive-all-infections claim added. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-caseous-gross",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p014-content",
+        "ch1-part-06-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which gross and microscopic pairing identifies caseous necrosis?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Cheesy white focus; structureless amorphous granular debris",
+          "evidence": "Both are caseous features."
+        },
+        {
+          "id": "o2",
+          "text": "Chalky white fat; calcified cell shadows",
+          "evidence": "These are fat-necrosis features."
+        },
+        {
+          "id": "o5",
+          "text": "Damaged vessel wall; fibrin and plasma proteins",
+          "evidence": "These are fibrinoid features."
+        },
+        {
+          "id": "o4",
+          "text": "Completely digested cells; enzymatic liquefaction",
+          "evidence": "These are liquefactive features."
+        },
+        {
+          "id": "o3",
+          "text": "Preserved tissue outlines; denaturation predominance",
+          "evidence": "These are coagulative features."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Caseous necrosis has a cheesy white gross appearance and amorphous granular debris microscopically, with lost architecture.",
+        "ar": "يبدو Caseous necrosis جبنياً أبيض عيانياً، ويحوي حطاماً حبيبياً غير متشكل مجهرياً مع طمس البنية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 11, 14, 16, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp14,16 support cheesy gross focus with structureless granular debris; other pairs belong to the four adjacent patterns. Gross/microscopic meanings remain equivalent in Arabic. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-06-caseous-association",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p014-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which setting is specifically linked to caseous necrosis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Immune-complex injury of small vessels",
+          "evidence": "This is linked to fibrinoid necrosis."
+        },
+        {
+          "id": "o4",
+          "text": "Dry ischemic gangrene of a limb",
+          "evidence": "This is linked to coagulative necrosis."
+        },
+        {
+          "id": "o1",
+          "text": "Tuberculous infection",
+          "evidence": "This is the stated association."
+        },
+        {
+          "id": "o3",
+          "text": "Acute pancreatic enzyme release into fat",
+          "evidence": "This is linked to fat necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Hypoxic injury of the brain",
+          "evidence": "This is linked to liquefactive necrosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Tuberculous infection is associated with caseous necrosis.",
+        "ar": "ترتبط العدوى السلية بـCaseous necrosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 11, 14, 17, 19, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p14 directly supplies tuberculous infection. Other named settings belong to fibrinoid, gangrenous, fat or liquefactive mechanisms on the cited pages; no claim caseation occurs only in TB. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-fat-saponification",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p017-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which necrosis pattern produces gross white chalky areas of saponification?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Liquefactive necrosis",
+          "evidence": "This completely digests tissue."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrinoid necrosis",
+          "evidence": "This involves vessel-wall fibrin/plasma proteins."
+        },
+        {
+          "id": "o4",
+          "text": "Caseous necrosis",
+          "evidence": "This produces cheesy amorphous debris."
+        },
+        {
+          "id": "o1",
+          "text": "Fat necrosis",
+          "evidence": "The source explicitly links fat destruction to chalky saponification."
+        },
+        {
+          "id": "o2",
+          "text": "Coagulative necrosis",
+          "evidence": "This preserves tissue outlines."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Fat necrosis in acute pancreatitis produces chalky saponification and microscopically calcified cell shadows.",
+        "ar": "ينتج Fat necrosis في Acute pancreatitis تصبناً طباشيرياً، وتظهر مجهرياً ظلال خلايا مع تكلس."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 11, 14, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p17 supports focal fat destruction, chalky saponification and calcified cell shadows; four alternative pattern labels independently checked. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-06-pancreatic-fat-mechanism",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p017-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What initiates fat necrosis in acute pancreatitis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "A tuberculous focus producing cheesy debris",
+          "evidence": "This describes caseous necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Protein denaturation preserving all fat architecture",
+          "evidence": "Fat necrosis is described as focal destruction."
+        },
+        {
+          "id": "o1",
+          "text": "Enzyme release from the injured pancreas",
+          "evidence": "This causes focal fat destruction."
+        },
+        {
+          "id": "o3",
+          "text": "Immune-complex deposition in small vessels",
+          "evidence": "This belongs to fibrinoid injury."
+        },
+        {
+          "id": "o4",
+          "text": "A brain infarct that preserves cellular outlines",
+          "evidence": "Brain ischemia is liquefactive, and not this mechanism."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Enzymes released from the injured pancreas cause focal fat destruction and saponification.",
+        "ar": "تسبب الإنزيمات المتحررة من البنكرياس المصاب تخرباً بؤرياً للدهن وحدوث Saponification."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 11, 14, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p17 explicitly initiates fat destruction with enzyme release from injured pancreas. Added exact pages for other-pattern alternatives; no enzyme name or external mechanism invented. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-dry-wet-gangrene",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p019-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 19
+        }
+      ],
+      "prompt": "What converts the dry-gangrene description into wet gangrene?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Superimposed infection with a liquefactive component",
+          "evidence": "p19 states both added features define wet gangrene."
+        },
+        {
+          "id": "o3",
+          "text": "Superimposed infection without a liquefactive component",
+          "evidence": "The stated wet description includes a liquefactive component."
+        },
+        {
+          "id": "o4",
+          "text": "Ischemic coagulative necrosis without added liquefaction",
+          "evidence": "This retains the dry pattern rather than adding the wet component."
+        },
+        {
+          "id": "o2",
+          "text": "Coagulative necrosis without superimposed infection",
+          "evidence": "This is the dry-gangrene description."
+        },
+        {
+          "id": "o5",
+          "text": "Liquefactive infection without an ischemic necrotic substrate",
+          "evidence": "p19 describes wet gangrene as infection superimposed on ischemic coagulative necrosis, not an isolated liquefactive infection."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Dry gangrene is ischemic coagulative necrosis; superimposed infection and liquefaction produce wet gangrene.",
+        "ar": "Dry gangrene نخر Coagulative إقفاري؛ وتؤدي العدوى المضافة والمكون Liquefactive إلى Wet gangrene."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 19; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p19 distinguishes dry ischemic coagulative necrosis from superimposed infection/liquefaction. Replaced unrelated apoptosis/recovery alternatives with parallel component/setting differences. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-gangrene-term",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p019-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "How is gangrenous necrosis categorized?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "A unique cellular pattern unrelated to coagulative necrosis",
+          "evidence": "The source connects dry gangrene to coagulative necrosis."
+        },
+        {
+          "id": "o5",
+          "text": "A term reserved for tuberculous cheesy debris",
+          "evidence": "This is caseous necrosis."
+        },
+        {
+          "id": "o3",
+          "text": "A term defined only by immune-complex vessel-wall injury",
+          "evidence": "This describes the fibrinoid setting on p21, not the gangrene qualification."
+        },
+        {
+          "id": "o1",
+          "text": "A surgical term rather than a distinctive pattern of cell death",
+          "evidence": "This qualification is explicit."
+        },
+        {
+          "id": "o4",
+          "text": "A term reserved for pancreatic saponification",
+          "evidence": "This is fat necrosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Gangrene is a commonly used surgical term; dry and wet forms combine ischemia with different necrotic components.",
+        "ar": "Gangrene مصطلح جراحي شائع؛ وتتضمن صورتاه الجافة والرطبة الإقفار مع مكونات نخرية مختلفة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 14, 17, 19, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p19 qualifies gangrene as a surgical term, not a distinctive cellular pattern. Removed source framing and replaced physiological-apoptosis distractor with another actual neighboring necrosis category. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-06-fibrinoid-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p021-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which description identifies fibrinoid necrosis?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Small-vessel injury with accumulation of fibrin and plasma proteins",
+          "evidence": "This is the definition in the supplied table."
+        },
+        {
+          "id": "o5",
+          "text": "Focal fat destruction with chalky deposits",
+          "evidence": "This is fat necrosis."
+        },
+        {
+          "id": "o3",
+          "text": "Complete cellular digestion in a brain infarct",
+          "evidence": "This is liquefactive necrosis."
+        },
+        {
+          "id": "o4",
+          "text": "Cheesy debris in a tuberculous focus",
+          "evidence": "This is caseous necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Preserved organ architecture after protein denaturation",
+          "evidence": "This is coagulative necrosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Fibrinoid necrosis involves small blood-vessel injury and fibrin/plasma-protein accumulation, staining intensely red.",
+        "ar": "يتضمن Fibrinoid necrosis أذية الأوعية الصغيرة وتراكم Fibrin وبروتينات البلازما، مع تلون أحمر شديد."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 11, 14, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p21 table directly defines small-vessel injury/fibrin/plasma protein accumulation and intense red staining. Every other option maps to a different named necrosis pattern. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-06-brain-liquefaction-cyst",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-06",
+      "conceptIds": [
+        "ch1-part-06-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-06",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "What gross outcome can remain at a previous site of brain liquefactive necrosis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Vessel-wall fibrin deposition",
+          "evidence": "This is fibrinoid necrosis."
+        },
+        {
+          "id": "o4",
+          "text": "Chalky fat saponification",
+          "evidence": "This is fat necrosis."
+        },
+        {
+          "id": "o1",
+          "text": "Cyst formation",
+          "evidence": "The image caption explicitly identifies a cyst at the previous necrotic site."
+        },
+        {
+          "id": "o3",
+          "text": "Cheesy caseous focus",
+          "evidence": "This is caseous necrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Preserved tissue outlines",
+          "evidence": "This is the coagulative description."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "A cyst can form at the site of previous brain liquefactive necrosis.",
+        "ar": "قد تتكون كيسة في موضع Liquefactive necrosis الدماغي السابق."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 12, 14, 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 explicitly captions cyst formation at previous brain necrosis. Rebuilt options into parallel short morphology labels, removing short-key/long-distractor cue. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-06-p013-content",
+      "reason": "PDF p13 fungal renal abscess illustrates complete digestion/obliteration of architecture. This distinction is assessed in coagulative-preservation and coagulative-digestion on pp3,6,11; its duplicate example-only candidate was removed, while the full caption/image remains in the source."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 16,
+    "acceptedCount": 13,
+    "removedCount": 3,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

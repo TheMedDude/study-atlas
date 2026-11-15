@@ -1,0 +1,391 @@
+lecture_id,pdf_page,printed_slide,kind,title,concept_ids,visual_review,uncertainty_ids,activity_ids
+ch1-part-01,1,1,cover,Cover,,reviewed,,
+ch1-part-01,2,,teaching,Pathology: definition,ch1-part-01-p002-content,reviewed,,ch1-part-01-pathology-scope
+ch1-part-01,3,3,teaching,Pathology bridges basic and clinical science,ch1-part-01-p003-content,reviewed,,ch1-part-01-pathology-scope
+ch1-part-01,4,4,teaching,Disease: definition,ch1-part-01-p004-content,reviewed,,ch1-part-01-disease-definition
+ch1-part-01,5,5,teaching,Disease classifications,ch1-part-01-p005-content,reviewed,,ch1-part-01-acute-chronic
+ch1-part-01,6,,teaching,Aspects of disease,ch1-part-01-p006-content,reviewed,,
+ch1-part-01,7,7,teaching,Etiology overview,ch1-part-01-p007-content,reviewed,,
+ch1-part-01,8,8,teaching,Etiology categories,ch1-part-01-p008-content,reviewed,,ch1-part-01-etiology-question
+ch1-part-01,9,9,teaching,Pathogenesis overview,ch1-part-01-p009-content,reviewed,,
+ch1-part-01,10,10,teaching,Pathogenesis definition,ch1-part-01-p010-content,reviewed,,ch1-part-01-pathogenesis-sequence
+ch1-part-01,11,11,teaching,Morphologic changes overview,ch1-part-01-p011-content,reviewed,,
+ch1-part-01,12,12,teaching,Morphologic changes,ch1-part-01-p012-content,reviewed,,ch1-part-01-morphology
+ch1-part-01,13,13,teaching,Unlabelled morphology illustrations,ch1-part-01-p013-content,reviewed,,
+ch1-part-01,14,14,teaching,Clinical significance overview,ch1-part-01-p014-content,reviewed,,
+ch1-part-01,15,15,teaching,Clinical features,ch1-part-01-p015-content,reviewed,,ch1-part-01-clinical-significance
+ch1-part-01,16,16,teaching,Diagnosis,ch1-part-01-p016-content,reviewed,,
+ch1-part-01,17,17,teaching,Diagnostic levels,ch1-part-01-p017-content,reviewed,,ch1-part-01-diagnostic-levels
+ch1-part-01,18,18,teaching,Pathology divisions,ch1-part-01-p018-content,reviewed,,
+ch1-part-01,19,19,teaching,General pathology,ch1-part-01-p019-content,reviewed,,ch1-part-01-general-systemic
+ch1-part-01,20,20,teaching,Systemic pathology,ch1-part-01-p020-content,reviewed,,ch1-part-01-general-systemic
+ch1-part-01,21,21,teaching,Pathology subdivisions,ch1-part-01-p021-content,reviewed,,
+ch1-part-01,22,22,teaching,Histopathology,ch1-part-01-p022-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,23,23,teaching,Cytopathology,ch1-part-01-p023-content,reviewed,,ch1-part-01-fna-field;ch1-part-01-subdivision-definitions
+ch1-part-01,24,24,teaching,Tissue and cell illustrations,ch1-part-01-p024-content,reviewed,,
+ch1-part-01,25,25,teaching,Hematology,ch1-part-01-p025-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,26,26,teaching,Forensic pathology,ch1-part-01-p026-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,27,27,teaching,Chemical pathology,ch1-part-01-p027-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,28,28,teaching,Immunology,ch1-part-01-p028-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,29,29,teaching,Microbiology,ch1-part-01-p029-content,reviewed,,ch1-part-01-subdivision-definitions
+ch1-part-01,30,30,teaching,Prefixes,ch1-part-01-p030-content,reviewed,ch1-part-01-u030,
+ch1-part-01,31,31,teaching,Suffixes,ch1-part-01-p031-content,reviewed,ch1-part-01-u031,
+ch1-part-01,32,32,administrative,Closing quotation,,reviewed,,
+ch1-part-02,1,1,cover,Cover,,reviewed,,
+ch1-part-02,2,,teaching,Stress responses,ch1-part-02-p002-content,reviewed,,ch1-part-02-transient-severe
+ch1-part-02,3,3,teaching,Stages of cell injury,ch1-part-02-p003-content,reviewed,,ch1-part-02-transient-severe
+ch1-part-02,4,4,teaching,Adaptive responses diagram,ch1-part-02-p004-content,reviewed,,
+ch1-part-02,5,5,teaching,Reversible and irreversible morphology,ch1-part-02-p005-content,reviewed,,
+ch1-part-02,6,6,teaching,Causes of cell injury,ch1-part-02-p006-content,reviewed,,ch1-part-02-causes-examples
+ch1-part-02,7,7,teaching,Physical agents,ch1-part-02-p007-content,reviewed,,ch1-part-02-causes-examples;ch1-part-02-physical-group
+ch1-part-02,8,8,teaching,Chemical agents,ch1-part-02-p008-content,reviewed,,ch1-part-02-causes-examples
+ch1-part-02,9,9,teaching,Infectious agents,ch1-part-02-p009-content,reviewed,,ch1-part-02-causes-examples
+ch1-part-02,10,10,teaching,Immune reactions,ch1-part-02-p010-content,reviewed,,ch1-part-02-causes-examples;ch1-part-02-immune-self-foreign
+ch1-part-02,11,11,teaching,Immune complex injury,ch1-part-02-p011-content,reviewed,,ch1-part-02-immune-complex
+ch1-part-02,12,12,teaching,Nutritional imbalance,ch1-part-02-p012-content,reviewed,,ch1-part-02-causes-examples;ch1-part-02-nutrition-comparison
+ch1-part-02,13,13,teaching,Genetic defects,ch1-part-02-p013-content,reviewed,,ch1-part-02-causes-examples
+ch1-part-02,14,14,teaching,Hypoxia versus ischemia,ch1-part-02-p014-content,reviewed,,ch1-part-02-ischemia-hypoxia
+ch1-part-02,15,15,teaching,Oxygen deprivation diagram,ch1-part-02-p015-content,reviewed,,ch1-part-02-ischemia-hypoxia
+ch1-part-02,16,16,teaching,Aging illustration,ch1-part-02-p016-content,reviewed,,
+ch1-part-02,17,17,teaching,Cellular aging mechanisms,ch1-part-02-p017-content,reviewed,,ch1-part-02-aging-mechanisms
+ch1-part-02,18,18,administrative,Closing meme,,reviewed,,
+ch1-part-02,19,19,teaching,Targets and determinants of injury,ch1-part-02-p019-content,reviewed,,ch1-part-02-organelle-targets
+ch1-part-02,20,20,teaching,Biochemical mechanisms,ch1-part-02-p020-content,reviewed,,
+ch1-part-02,21,,teaching,Cell injury morphology diagram,ch1-part-02-p021-content,reviewed,,
+ch1-part-02,22,22,teaching,Mechanisms overview diagram,ch1-part-02-p022-content,reviewed,,ch1-part-02-organelle-targets
+ch1-part-02,23,23,teaching,Biochemical injury pathways,ch1-part-02-p023-content,reviewed,,ch1-part-02-organelle-targets
+ch1-part-02,24,24,teaching,Calcium homeostasis,ch1-part-02-p024-content,reviewed,,ch1-part-02-calcium-enzyme-effects
+ch1-part-02,25,25,teaching,ATP pathways and functions,ch1-part-02-p025-content,reviewed,,ch1-part-02-atp-synthesis
+ch1-part-02,26,26,teaching,Mitochondrial dysfunction,ch1-part-02-p026-content,reviewed,,ch1-part-02-mitochondrial-fates
+ch1-part-02,27,27,teaching,Mitochondrial cell death pathways,ch1-part-02-p027-content,reviewed,,ch1-part-02-mitochondrial-fates
+ch1-part-02,28,28,teaching,Consequences of ATP depletion,ch1-part-02-p028-content,reviewed,,ch1-part-02-atp-pump;ch1-part-02-glycolysis-ph;ch1-part-02-ribosomes-fat
+ch1-part-02,29,29,teaching,Free radical definition and species,ch1-part-02-p029-content,reviewed,ch1-part-02-u029,
+ch1-part-02,30,30,teaching,ROS generation,ch1-part-02-p030-content,reviewed,,ch1-part-02-sod-role
+ch1-part-02,31,,teaching,ROS sources and targets,ch1-part-02-p031-content,reviewed,,ch1-part-02-ros-target-effects
+ch1-part-02,32,32,teaching,ROS injury and removal,ch1-part-02-p032-content,reviewed,,ch1-part-02-ros-target-effects;ch1-part-02-sod-role
+ch1-part-02,33,,teaching,Antioxidant activity,ch1-part-02-p033-content,reviewed,,ch1-part-02-antioxidant-action
+ch1-part-02,34,34,teaching,Direct chemical injury,ch1-part-02-p034-content,reviewed,,ch1-part-02-chemical-direct
+ch1-part-02,35,35,teaching,Metabolic activation of chemicals,ch1-part-02-p035-content,reviewed,,ch1-part-02-chemical-activation
+ch1-part-02,36,36,teaching,Carbon tetrachloride injury,ch1-part-02-p036-content,reviewed,,
+ch1-part-03,1,1,cover,Cover,,reviewed,,
+ch1-part-03,2,2,teaching,Adaptation definition,ch1-part-03-p002-content,reviewed,,ch1-part-03-adaptation-definition
+ch1-part-03,3,,teaching,Adaptive size number and type changes,ch1-part-03-p003-content,reviewed,,
+ch1-part-03,4,4,teaching,Physiological and pathological adaptation,ch1-part-03-p004-content,reviewed,,ch1-part-03-hyperplasia-settings
+ch1-part-03,5,5,teaching,Adaptation mechanisms,ch1-part-03-p005-content,reviewed,,
+ch1-part-03,6,6,teaching,Types of adaptation,ch1-part-03-p006-content,reviewed,,ch1-part-03-adaptation-types
+ch1-part-03,7,7,teaching,Stress response diagram,ch1-part-03-p007-content,reviewed,ch1-part-03-u007,
+ch1-part-03,8,8,teaching,Atrophy definition,ch1-part-03-p008-content,reviewed,,ch1-part-03-adaptation-types;ch1-part-03-atrophy-viability
+ch1-part-03,9,9,teaching,Causes of atrophy,ch1-part-03-p009-content,reviewed,,ch1-part-03-atrophy-causes
+ch1-part-03,10,10,teaching,Brain atrophy,ch1-part-03-p010-content,reviewed,,ch1-part-03-atrophy-causes;ch1-part-03-brain-atrophy
+ch1-part-03,11,11,teaching,Ischemic renal atrophy,ch1-part-03-p011-content,reviewed,,ch1-part-03-atrophy-causes
+ch1-part-03,12,12,teaching,Mechanisms of atrophy,ch1-part-03-p012-content,reviewed,,ch1-part-03-protein-balance
+ch1-part-03,13,13,teaching,Lysosomal proteolysis,ch1-part-03-p013-content,reviewed,,ch1-part-03-lysosome-targets
+ch1-part-03,14,,teaching,Autophagy sequence,ch1-part-03-p014-content,reviewed,,
+ch1-part-03,15,15,teaching,Ubiquitin proteasome pathway,ch1-part-03-p015-content,reviewed,,ch1-part-03-ubiquitin-function
+ch1-part-03,16,,teaching,Ubiquitin recycling diagram,ch1-part-03-p016-content,reviewed,,ch1-part-03-ubiquitin-function
+ch1-part-03,17,,teaching,Muscle micrograph,ch1-part-03-p017-content,reviewed,,
+ch1-part-03,18,18,teaching,Hypertrophy definition,ch1-part-03-p018-content,reviewed,,ch1-part-03-adaptation-types;ch1-part-03-hypertrophy-nondividing
+ch1-part-03,19,19,teaching,Causes of hypertrophy,ch1-part-03-p019-content,reviewed,,ch1-part-03-gravid-uterus;ch1-part-03-hypertrophy-demand
+ch1-part-03,20,20,teaching,Hypertrophy mechanism,ch1-part-03-p020-content,reviewed,ch1-part-03-u020-checker,
+ch1-part-03,21,21,teaching,Cardiac hypertrophy triggers,ch1-part-03-p021-content,reviewed,,ch1-part-03-hypertrophy-demand
+ch1-part-03,22,22,teaching,Limits of adaptation,ch1-part-03-p022-content,reviewed,,
+ch1-part-03,23,23,teaching,Skeletal muscle hypertrophy,ch1-part-03-p023-content,reviewed,,
+ch1-part-03,24,24,teaching,Hyperplasia definition,ch1-part-03-p024-content,reviewed,,ch1-part-03-adaptation-types
+ch1-part-03,25,25,teaching,Uterine growth,ch1-part-03-p025-content,reviewed,,ch1-part-03-gravid-uterus
+ch1-part-03,26,26,teaching,Causes of hyperplasia,ch1-part-03-p026-content,reviewed,,ch1-part-03-hyperplasia-settings
+ch1-part-03,27,27,teaching,Reversibility and cancer risk,ch1-part-03-p027-content,reviewed,,ch1-part-03-growth-stimulus-removal
+ch1-part-03,28,28,teaching,Hypertrophy hyperplasia summary,ch1-part-03-p028-content,reviewed,,
+ch1-part-03,29,29,teaching,Metaplasia definition and mechanism,ch1-part-03-p029-content,reviewed,,ch1-part-03-adaptation-types;ch1-part-03-metaplasia-mechanism;ch1-part-03-metaplasia-purpose
+ch1-part-03,30,30,teaching,Metaplasia examples,ch1-part-03-p030-content,reviewed,,ch1-part-03-metaplasia-examples
+ch1-part-03,31,31,teaching,Barrett metaplasia,ch1-part-03-p031-content,reviewed,,ch1-part-03-metaplasia-examples
+ch1-part-03,32,,teaching,Source practice question,ch1-part-03-p032-content,reviewed,,
+ch1-part-03,33,,administrative,Closing quotation,,reviewed,,
+ch1-part-04,1,1,cover,Cover,,reviewed,,
+ch1-part-04,2,2,teaching,Subcellular responses overview,ch1-part-04-p002-content,reviewed,,
+ch1-part-04,3,3,teaching,Primary and secondary lysosomes,ch1-part-04-p003-content,reviewed,,ch1-part-04-primary-secondary
+ch1-part-04,4,4,teaching,Autophagy and heterophagy,ch1-part-04-p004-content,reviewed,,ch1-part-04-autophagy-substrate
+ch1-part-04,5,,teaching,Lysosomal pathways diagram,ch1-part-04-p005-content,reviewed,,
+ch1-part-04,6,,teaching,Lysosomal processing diagram,ch1-part-04-p006-content,reviewed,,
+ch1-part-04,7,7,teaching,Autophagy,ch1-part-04-p007-content,reviewed,,ch1-part-04-autophagy-substrate
+ch1-part-04,8,8,teaching,Heterophagy and uptake types,ch1-part-04-p008-content,reviewed,,ch1-part-04-uptake-processes
+ch1-part-04,9,9,teaching,Residual bodies and pigments,ch1-part-04-p009-content,reviewed,,ch1-part-04-lipofuscin-origin
+ch1-part-04,10,10,teaching,Smooth ER induction,ch1-part-04-p010-content,reviewed,,
+ch1-part-04,11,11,teaching,Mitochondrial alterations,ch1-part-04-p011-content,reviewed,,ch1-part-04-mitochondrial-alterations
+ch1-part-04,12,12,teaching,Cytoskeletal abnormalities,ch1-part-04-p012-content,reviewed,ch1-part-04-u012-checker,ch1-part-04-immotile-cilia
+ch1-part-04,13,13,teaching,Heat shock proteins,ch1-part-04-p013-content,reviewed,,ch1-part-04-hsp-role
+ch1-part-04,14,14,teaching,Heat shock protein responses,ch1-part-04-p014-content,reviewed,ch1-part-04-u014,ch1-part-04-failed-refolding
+ch1-part-04,15,15,teaching,Protein repair or degradation,ch1-part-04-p015-content,reviewed,,ch1-part-04-failed-refolding
+ch1-part-05,1,,cover,Cover,,reviewed,,
+ch1-part-05,2,2,teaching,Timing of injury changes,ch1-part-05-p002-content,reviewed,,ch1-part-05-timing-functional-morphologic
+ch1-part-05,3,3,teaching,Cell injury progression,ch1-part-05-p003-content,reviewed,,
+ch1-part-05,4,4,teaching,Membrane alterations diagram,ch1-part-05-p004-content,reviewed,,
+ch1-part-05,5,5,teaching,Hydropic change micrograph,ch1-part-05-p005-content,reviewed,,
+ch1-part-05,6,6,teaching,Reversible injury and point of no return,ch1-part-05-p006-content,reviewed,,
+ch1-part-05,7,7,teaching,Morphologic comparison,ch1-part-05-p007-content,reviewed,,
+ch1-part-05,8,8,teaching,Ultrastructural reversible changes,ch1-part-05-p008-content,reviewed,,
+ch1-part-05,9,9,teaching,Membrane and mitochondrial changes,ch1-part-05-p009-content,reviewed,ch1-part-05-u009,
+ch1-part-05,10,10,teaching,ER and nuclear changes,ch1-part-05-p010-content,reviewed,,ch1-part-05-reversible-nuclear
+ch1-part-05,11,11,teaching,Light microscopic reversible changes,ch1-part-05-p011-content,reviewed,,ch1-part-05-reversible-light
+ch1-part-05,12,12,teaching,Hydropic change,ch1-part-05-p012-content,reviewed,,ch1-part-05-hydropic-mechanism;ch1-part-05-hydropic-vacuoles
+ch1-part-05,13,13,teaching,Fatty change,ch1-part-05-p013-content,reviewed,,ch1-part-05-reversible-light
+ch1-part-05,14,14,teaching,Gross reversible changes,ch1-part-05-p014-content,reviewed,,ch1-part-05-gross-reversible
+ch1-part-05,15,,teaching,Recovery versus death,ch1-part-05-p015-content,reviewed,,
+ch1-part-05,16,16,teaching,Irreversible injury pathways,ch1-part-05-p016-content,reviewed,,
+ch1-part-05,17,17,teaching,Calcium activated enzymes,ch1-part-05-p017-content,reviewed,,
+ch1-part-05,18,18,teaching,Autolysis versus heterolysis,ch1-part-05-p018-content,reviewed,,ch1-part-05-autolysis-heterolysis
+ch1-part-05,19,19,teaching,Timing clearance and calcification,ch1-part-05-p019-content,reviewed,,ch1-part-05-timing-functional-morphologic
+ch1-part-05,20,20,teaching,Point of no return,ch1-part-05-p020-content,reviewed,,ch1-part-05-no-return
+ch1-part-05,21,,teaching,Membrane damage mechanisms,ch1-part-05-p021-content,reviewed,,ch1-part-05-membrane-damage-routes
+ch1-part-05,22,22,teaching,Membrane injury diagram,ch1-part-05-p022-content,reviewed,,ch1-part-05-membrane-damage-routes
+ch1-part-05,23,23,teaching,Irreversible mitochondrial changes,ch1-part-05-p023-content,reviewed,,ch1-part-05-mitochondrial-density
+ch1-part-05,24,24,teaching,Necrosis definition,ch1-part-05-p024-content,reviewed,,ch1-part-05-necrosis-definition
+ch1-part-05,25,25,teaching,Digestion denaturation and leakage,ch1-part-05-p025-content,reviewed,ch1-part-05-u025,
+ch1-part-05,26,,teaching,Necrosis ultrastructure,ch1-part-05-p026-content,reviewed,,ch1-part-05-cytoplasmic-features
+ch1-part-05,27,27,teaching,Necrotic cytoplasm,ch1-part-05-p027-content,reviewed,,ch1-part-05-cytoplasmic-features
+ch1-part-05,28,,teaching,Nuclear changes,ch1-part-05-p028-content,reviewed,,ch1-part-05-nuclear-changes;ch1-part-05-nuclear-disappearance
+ch1-part-05,29,29,teaching,Nuclear morphology diagram,ch1-part-05-p029-content,reviewed,ch1-part-05-u029-checker,
+ch1-part-05,30,30,teaching,Injury summary,ch1-part-05-p030-content,reviewed,,
+ch1-part-06,1,1,cover,Cover,,reviewed,,
+ch1-part-06,2,2,teaching,Necrosis classification,ch1-part-06-p002-content,reviewed,,
+ch1-part-06,3,3,teaching,Coagulative necrosis,ch1-part-06-p003-content,reviewed,,ch1-part-06-coagulative-brain-exception;ch1-part-06-coagulative-digestion;ch1-part-06-coagulative-preservation
+ch1-part-06,4,4,teaching,Ischemic organ examples,ch1-part-06-p004-content,reviewed,,
+ch1-part-06,5,,teaching,Renal infarct,ch1-part-06-p005-content,reviewed,,
+ch1-part-06,6,6,teaching,Coagulative renal morphology,ch1-part-06-p006-content,reviewed,,ch1-part-06-coagulative-preservation
+ch1-part-06,7,,teaching,Normal kidney labels,ch1-part-06-p007-content,reviewed,,
+ch1-part-06,8,,teaching,Myocardial infarction,ch1-part-06-p008-content,reviewed,,
+ch1-part-06,9,,teaching,Red and pale infarct illustrations,ch1-part-06-p009-content,reviewed,,
+ch1-part-06,10,,teaching,Red and pale infarct comparison,ch1-part-06-p010-content,reviewed,,ch1-part-06-red-pale-infarct
+ch1-part-06,11,11,teaching,Liquefactive necrosis,ch1-part-06-p011-content,reviewed,,ch1-part-06-liquefactive-settings
+ch1-part-06,12,12,teaching,Brain liquefaction,ch1-part-06-p012-content,reviewed,,ch1-part-06-brain-liquefaction-cyst
+ch1-part-06,13,13,teaching,Fungal renal abscess,ch1-part-06-p013-content,reviewed,,
+ch1-part-06,14,14,teaching,Caseous necrosis,ch1-part-06-p014-content,reviewed,,ch1-part-06-caseous-association;ch1-part-06-caseous-gross
+ch1-part-06,15,15,teaching,Tuberculosis examples,ch1-part-06-p015-content,reviewed,,
+ch1-part-06,16,,teaching,Caseous lung morphology,ch1-part-06-p016-content,reviewed,,ch1-part-06-caseous-gross
+ch1-part-06,17,17,teaching,Fat necrosis,ch1-part-06-p017-content,reviewed,,ch1-part-06-fat-saponification;ch1-part-06-pancreatic-fat-mechanism
+ch1-part-06,18,18,teaching,Pancreatitis fat destruction,ch1-part-06-p018-content,reviewed,,
+ch1-part-06,19,19,teaching,Dry and wet gangrene,ch1-part-06-p019-content,reviewed,,ch1-part-06-dry-wet-gangrene;ch1-part-06-gangrene-term
+ch1-part-06,20,20,teaching,Gangrene illustrations,ch1-part-06-p020-content,reviewed,,
+ch1-part-06,21,,teaching,Fibrinoid necrosis,ch1-part-06-p021-content,reviewed,,ch1-part-06-fibrinoid-definition
+ch1-part-06,22,,teaching,Vascular micrograph,ch1-part-06-p022-content,reviewed,,
+ch1-part-06,23,,administrative,Closing illustration,,reviewed,,
+ch1-part-07,1,1,cover,Cover,,reviewed,,
+ch1-part-07,2,2,teaching,Apoptosis and physiological examples,ch1-part-07-p002-content,reviewed,,ch1-part-07-apoptosis-examples;ch1-part-07-physiological-pathological
+ch1-part-07,3,3,teaching,Additional apoptosis examples,ch1-part-07-p003-content,reviewed,,ch1-part-07-apoptosis-examples;ch1-part-07-physiological-pathological
+ch1-part-07,4,,teaching,Interdigital apoptosis,ch1-part-07-p004-content,reviewed,,ch1-part-07-apoptosis-examples
+ch1-part-07,5,5,teaching,Apoptosis molecular players,ch1-part-07-p005-content,reviewed,,ch1-part-07-caspases-location-state
+ch1-part-07,6,6,teaching,Caspase definition,ch1-part-07-p006-content,reviewed,,ch1-part-07-caspase-name;ch1-part-07-caspases-location-state
+ch1-part-07,7,7,teaching,Initiator and effector caspases,ch1-part-07-p007-content,reviewed,ch1-part-07-u007-checker,ch1-part-07-initiator-effector
+ch1-part-07,8,8,teaching,BCL2 family,ch1-part-07-p008-content,reviewed,ch1-part-07-u008,
+ch1-part-07,9,9,teaching,Mitochondrial permeability regulation,ch1-part-07-p009-content,reviewed,ch1-part-07-u009,ch1-part-07-bcl2-family-direction
+ch1-part-07,10,10,teaching,Cytochrome c pathway,ch1-part-07-p010-content,reviewed,ch1-part-07-u010,ch1-part-07-cytochrome-compartment
+ch1-part-07,11,11,teaching,Mitochondrial apoptosis diagram,ch1-part-07-p011-content,reviewed,,
+ch1-part-07,12,12,teaching,Apoptosis stages,ch1-part-07-p012-content,reviewed,,ch1-part-07-execution-targets
+ch1-part-07,13,,teaching,Intrinsic and extrinsic pathways,ch1-part-07-p013-content,reviewed,,ch1-part-07-intrinsic-trigger
+ch1-part-07,14,14,teaching,Apoptosis integrated diagram,ch1-part-07-p014-content,reviewed,,ch1-part-07-extrinsic-receptor
+ch1-part-07,15,,teaching,Mitochondrial and death receptor pathways,ch1-part-07-p015-content,reviewed,,ch1-part-07-bcl2-family-direction;ch1-part-07-cytochrome-compartment;ch1-part-07-execution-targets;ch1-part-07-extrinsic-receptor;ch1-part-07-intrinsic-trigger
+ch1-part-07,16,,teaching,Survival signals versus apoptosis,ch1-part-07-p016-content,reviewed,,ch1-part-07-bcl2-family-direction;ch1-part-07-cytochrome-compartment;ch1-part-07-intrinsic-trigger;ch1-part-07-survival-signal
+ch1-part-07,17,17,teaching,Apoptotic morphology,ch1-part-07-p017-content,reviewed,,ch1-part-07-apoptosis-morphology
+ch1-part-07,18,18,teaching,Apoptotic bodies and removal,ch1-part-07-p018-content,reviewed,,
+ch1-part-07,19,19,teaching,Necrosis apoptosis ultrastructure,ch1-part-07-p019-content,reviewed,,ch1-part-07-contents-contrast
+ch1-part-07,20,,teaching,Necrosis apoptosis distribution,ch1-part-07-p020-content,reviewed,,ch1-part-07-contents-contrast
+ch1-part-07,21,21,teaching,Necrosis apoptosis comparison,ch1-part-07-p021-content,reviewed,,ch1-part-07-contents-contrast;ch1-part-07-membrane-contrast
+ch1-part-07,22,,teaching,Comparison summary,ch1-part-07-p022-content,reviewed,ch1-part-07-u022-checker,ch1-part-07-membrane-contrast
+ch1-part-07,23,,administrative,Closing quotation,,reviewed,,
+ch1-part-08,1,1,cover,Cover,,reviewed,,
+ch1-part-08,2,2,teaching,Intracellular accumulation definition,ch1-part-08-p002-content,reviewed,,
+ch1-part-08,3,3,teaching,Examples of intracellular accumulations,ch1-part-08-p003-content,reviewed,,
+ch1-part-08,4,4,teaching,Accumulation pathways,ch1-part-08-p004-content,reviewed,,ch1-part-08-accumulation-mechanisms
+ch1-part-08,5,5,teaching,Metabolism versus protein folding defects,ch1-part-08-p005-content,reviewed,,ch1-part-08-accumulation-mechanisms
+ch1-part-08,6,6,teaching,Enzyme deficiency versus exogenous material,ch1-part-08-p006-content,reviewed,,ch1-part-08-accumulation-mechanisms
+ch1-part-08,7,7,teaching,Steatosis definition,ch1-part-08-p007-content,reviewed,,ch1-part-08-steatosis-definition
+ch1-part-08,8,8,teaching,Causes of steatosis,ch1-part-08-p008-content,reviewed,,ch1-part-08-malnutrition-apoprotein
+ch1-part-08,9,9,teaching,Alcohol metabolism diagram,ch1-part-08-p009-content,reviewed,ch1-part-08-u009,ch1-part-08-alcohol-pathway
+ch1-part-08,10,10,teaching,Hepatic lipid handling,ch1-part-08-p010-content,reviewed,,ch1-part-08-hepatic-export
+ch1-part-08,11,11,teaching,Fatty liver mechanisms,ch1-part-08-p011-content,reviewed,,ch1-part-08-fatty-liver-hypoxia;ch1-part-08-malnutrition-apoprotein
+ch1-part-08,12,12,teaching,Steatosis morphology,ch1-part-08-p012-content,reviewed,,ch1-part-08-early-steatosis;ch1-part-08-steatosis-gross
+ch1-part-08,13,13,teaching,Fat vacuoles micrograph,ch1-part-08-p013-content,reviewed,,
+ch1-part-08,14,14,teaching,Vacuolated hepatocytes micrograph,ch1-part-08-p014-content,reviewed,,
+ch1-part-08,15,15,teaching,Cholesterol and foam cells,ch1-part-08-p015-content,reviewed,,ch1-part-08-foam-cells;ch1-part-08-xanthoma-definition
+ch1-part-08,16,,teaching,Xanthomas,ch1-part-08-p016-content,reviewed,,ch1-part-08-xanthoma-definition
+ch1-part-08,17,17,teaching,Protein droplets and Russell bodies,ch1-part-08-p017-content,reviewed,,ch1-part-08-protein-accumulations
+ch1-part-08,18,18,teaching,Mallory bodies and tangles,ch1-part-08-p018-content,reviewed,,ch1-part-08-protein-accumulations
+ch1-part-08,19,19,teaching,Protein accumulation morphology,ch1-part-08-p019-content,reviewed,,ch1-part-08-protein-accumulations
+ch1-part-08,20,20,teaching,Russell bodies micrograph,ch1-part-08-p020-content,reviewed,,ch1-part-08-protein-accumulations
+ch1-part-08,21,21,teaching,Glycogen accumulation,ch1-part-08-p021-content,reviewed,,ch1-part-08-glycogen-sites
+ch1-part-08,22,22,teaching,Exogenous and endogenous pigments,ch1-part-08-p022-content,reviewed,,ch1-part-08-carbon-anthracosis
+ch1-part-08,23,23,teaching,Anthracosis,ch1-part-08-p023-content,reviewed,,
+ch1-part-08,24,24,teaching,Carbon pigment micrograph,ch1-part-08-p024-content,reviewed,,
+ch1-part-08,25,25,teaching,Lipofuscin,ch1-part-08-p025-content,reviewed,,ch1-part-08-lipofuscin-injury
+ch1-part-08,26,26,teaching,Brown atrophy,ch1-part-08-p026-content,reviewed,,ch1-part-08-brown-atrophy;ch1-part-08-lipofuscin-injury
+ch1-part-08,27,27,teaching,Melanin,ch1-part-08-p027-content,reviewed,,ch1-part-08-melanin-source
+ch1-part-08,28,28,teaching,Melanin micrograph,ch1-part-08-p028-content,reviewed,,
+ch1-part-08,29,29,teaching,Hemosiderin,ch1-part-08-p029-content,reviewed,,ch1-part-08-hemosiderin-identity
+ch1-part-08,30,30,teaching,Prussian blue micrograph,ch1-part-08-p030-content,reviewed,,
+ch1-part-08,31,31,teaching,Pathological calcification,ch1-part-08-p031-content,reviewed,,ch1-part-08-calcification-definition
+ch1-part-08,32,32,teaching,Dystrophic calcification,ch1-part-08-p032-content,reviewed,,ch1-part-08-dystrophic-metastatic;ch1-part-08-dystrophic-morphology
+ch1-part-08,33,33,teaching,Calcified aortic valve,ch1-part-08-p033-content,reviewed,,
+ch1-part-08,34,34,teaching,Metastatic calcification,ch1-part-08-p034-content,reviewed,ch1-part-08-u034-checker,ch1-part-08-dystrophic-metastatic
+ch1-part-08,35,35,teaching,Metastatic calcification sites and severity,ch1-part-08-p035-content,reviewed,,
+ch1-part-08,36,,administrative,Closing quotation,,reviewed,,
+ch2-part-01,1,1,cover,Cover,,reviewed,,
+ch2-part-01,2,2,teaching,Definition and purpose of inflammation,ch2-part-01-p002-topic,reviewed,,ch2-part-01-definition
+ch2-part-01,3,3,teaching,Repair and harmful potential,ch2-part-01-p003-topic,reviewed,,ch2-part-01-repair
+ch2-part-01,4,4,teaching,Causes of inflammation,ch2-part-01-p004-topic,reviewed,,ch2-part-01-causes
+ch2-part-01,5,5,teaching,Acute and chronic patterns,ch2-part-01-p005-topic,reviewed,,ch2-part-01-acute-pattern
+ch2-part-01,6,6,teaching,Components of inflammation,ch2-part-01-p006-topic,reviewed,,ch2-part-01-components
+ch2-part-01,7,7,teaching,Components illustrated,ch2-part-01-p007-topic,reviewed,,
+ch2-part-01,8,8,teaching,Acute inflammation and cardinal signs,ch2-part-01-p008-topic,reviewed,,ch2-part-01-early-aim
+ch2-part-01,9,9,teaching,Cardinal signs and mechanisms,ch2-part-01-p009-topic,reviewed,,ch2-part-01-cardinal-signs
+ch2-part-01,10,10,teaching,Inflammation nomenclature and causes,ch2-part-01-p010-topic,reviewed,,ch2-part-01-nomenclature-a;ch2-part-01-nomenclature-b
+ch2-part-01,11,11,teaching,Examples of inflammation,ch2-part-01-p011-topic,reviewed,,
+ch2-part-01,12,12,teaching,Vascular and cellular components,ch2-part-01-p012-topic,reviewed,,ch2-part-01-components-acute
+ch2-part-01,13,13,teaching,Overview of acute inflammation,ch2-part-01-p013-topic,reviewed,,
+ch2-part-01,14,14,teaching,Normal and inflamed circulation,ch2-part-01-p014-topic,reviewed,,
+ch2-part-01,15,15,teaching,Local manifestations,ch2-part-01-p015-topic,reviewed,,ch2-part-01-warmth
+ch2-part-01,16,16,teaching,Vascular changes overview,ch2-part-01-p016-topic,reviewed,,
+ch2-part-01,17,17,teaching,Changes in vascular flow,ch2-part-01-p017-topic,reviewed,,ch2-part-01-stasis
+ch2-part-01,18,18,teaching,Fluid and protein movement in edema,ch2-part-01-p018-topic,reviewed,,ch2-part-01-edema;ch2-part-01-osmotic-shift
+ch2-part-01,19,19,teaching,Normal and inflammatory fluid balance,ch2-part-01-p019-topic,reviewed,,
+ch2-part-01,20,20,teaching,Transudation versus exudation,ch2-part-01-p020-topic,reviewed,,ch2-part-01-transudate
+ch2-part-01,21,21,teaching,Permeability mechanisms,ch2-part-01-p021-topic,reviewed,,
+ch2-part-01,22,22,teaching,Endothelial contraction versus retraction,ch2-part-01-p022-topic,reviewed,,ch2-part-01-contraction;ch2-part-01-retraction
+ch2-part-01,23,23,teaching,Contraction and retraction illustration,ch2-part-01-p023-topic,reviewed,,
+ch2-part-01,24,24,teaching,Direct endothelial injury,ch2-part-01-p024-topic,reviewed,,ch2-part-01-direct-injury;ch2-part-01-direct-sites
+ch2-part-01,25,25,teaching,Leukocyte-dependent injury,ch2-part-01-p025-topic,reviewed,,ch2-part-01-leukocyte-injury
+ch2-part-01,26,26,teaching,Transcytosis,ch2-part-01-p026-topic,reviewed,,ch2-part-01-transcytosis
+ch2-part-01,27,27,teaching,New vessel leakage,ch2-part-01-p027-topic,reviewed,,ch2-part-01-new-vessels
+ch2-part-01,28,28,teaching,Neutrophils and pus,ch2-part-01-p028-topic,reviewed,,ch2-part-01-neutrophil-profile;ch2-part-01-pus
+ch2-part-01,29,29,teaching,Neutrophil activation,ch2-part-01-p029-topic,reviewed,,ch2-part-01-activation-effects
+ch2-part-01,30,30,teaching,Leukocyte response sequence,ch2-part-01-p030-topic,reviewed,,ch2-part-01-recruitment-order
+ch2-part-01,31,31,teaching,Margination illustration,ch2-part-01-p031-topic,reviewed,,
+ch2-part-01,32,32,teaching,Leukocyte recruitment illustration,ch2-part-01-p032-topic,reviewed,,
+ch2-part-01,33,33,teaching,Adhesion molecule families,ch2-part-01-p033-topic,reviewed,,
+ch2-part-01,34,34,teaching,Recruitment molecules overview,ch2-part-01-p034-topic,reviewed,,
+ch2-part-01,35,35,teaching,Margination rolling and selectins,ch2-part-01-p035-topic,reviewed,,ch2-part-01-margination;ch2-part-01-selectins
+ch2-part-01,36,36,teaching,Rolling illustration,ch2-part-01-p036-topic,reviewed,,
+ch2-part-01,37,37,teaching,Firm adhesion and integrins,ch2-part-01-p037-topic,reviewed,,ch2-part-01-endothelial-ligands;ch2-part-01-firm-adhesion;ch2-part-01-integrin-ligands
+ch2-part-01,38,38,teaching,Adhesion illustration,ch2-part-01-p038-topic,reviewed,,
+ch2-part-01,39,39,teaching,Transmigration and PECAM-1,ch2-part-01-p039-topic,reviewed,,ch2-part-01-basement-crossing;ch2-part-01-diapedesis
+ch2-part-01,40,40,teaching,Transmigration illustration,ch2-part-01-p040-topic,reviewed,,
+ch2-part-01,41,41,teaching,Chemotaxis and cell recruitment,ch2-part-01-p041-topic,reviewed,,ch2-part-01-cell-stimulus;ch2-part-01-chemokines;ch2-part-01-chemotaxis-definition
+ch2-part-01,42,42,teaching,Leukocyte activation,ch2-part-01-p042-topic,reviewed,ch2-part-01-u042,ch2-part-01-activation-calcium;ch2-part-01-activation-receptor
+ch2-part-01,43,43,teaching,Activation signaling illustration,ch2-part-01-p043-topic,reviewed,,
+ch2-part-01,44,44,teaching,Leukocyte emigration micrograph,ch2-part-01-p044-topic,reviewed,,
+ch2-part-01,45,45,teaching,Phagocytosis stages,ch2-part-01-p045-topic,reviewed,,ch2-part-01-engulfment;ch2-part-01-phagocytosis-order
+ch2-part-01,46,46,teaching,Phagocytosis illustration,ch2-part-01-p046-topic,reviewed,,
+ch2-part-01,47,47,teaching,Opsonins illustration,ch2-part-01-p047-topic,reviewed,,ch2-part-01-opsonin-receptor
+ch2-part-01,48,48,teaching,Microbial killing and degradation,ch2-part-01-p048-topic,reviewed,ch2-part-01-u048,ch2-part-01-degradation;ch2-part-01-mpo;ch2-part-01-oxidative-burst;ch2-part-01-phagocytosis-order
+ch2-part-01,49,49,teaching,Oxidative killing pathway,ch2-part-01-p049-topic,reviewed,,
+ch2-part-01,50,50,teaching,Adhesion and trafficking defects,ch2-part-01-p050-topic,reviewed,,ch2-part-01-chediak;ch2-part-01-lad1;ch2-part-01-lad2
+ch2-part-01,51,51,teaching,Microbicidal defect,ch2-part-01-p051-topic,reviewed,,ch2-part-01-cgd
+ch2-part-02,1,1,cover,Cover,,reviewed,,
+ch2-part-02,2,2,teaching,Mediator action and origin,ch2-part-02-p002-topic,reviewed,,ch2-part-02-mediator-action
+ch2-part-02,3,3,teaching,Microbial recognition and inflammasome,ch2-part-02-p003-topic,reviewed,,ch2-part-02-inflammasome;ch2-part-02-tlr
+ch2-part-02,4,4,teaching,Mediator sources illustrated,ch2-part-02-p004-topic,reviewed,,
+ch2-part-02,5,5,teaching,Local versus plasma mediators,ch2-part-02-p005-topic,reviewed,,ch2-part-02-plasma-origin
+ch2-part-02,6,6,teaching,Mediator classes,ch2-part-02-p006-topic,reviewed,,
+ch2-part-02,7,7,teaching,Mediator control and cytokines,ch2-part-02-p007-topic,reviewed,,ch2-part-02-cytokine-origin;ch2-part-02-mediator-termination
+ch2-part-02,8,8,teaching,Cytokine systemic responses,ch2-part-02-p008-topic,reviewed,,ch2-part-02-acute-phase;ch2-part-02-cytokine-origin
+ch2-part-02,9,9,teaching,Cytokine sources and functions,ch2-part-02-p009-topic,reviewed,,ch2-part-02-il10;ch2-part-02-il6
+ch2-part-02,10,10,teaching,Interleukin mnemonic,ch2-part-02-p010-topic,reviewed,,
+ch2-part-02,11,11,teaching,Histamine and serotonin,ch2-part-02-p011-topic,reviewed,ch2-part-02-u011,ch2-part-02-histamine;ch2-part-02-serotonin
+ch2-part-02,12,12,teaching,Platelet activating factor,ch2-part-02-p012-topic,reviewed,,ch2-part-02-paf-effects;ch2-part-02-paf-origin
+ch2-part-02,13,13,teaching,Prostaglandins,ch2-part-02-p013-topic,reviewed,,ch2-part-02-pg-effects;ch2-part-02-pg-pathway
+ch2-part-02,14,14,teaching,Arachidonic acid pathways and inhibitors,ch2-part-02-p014-topic,reviewed,,ch2-part-02-celecoxib;ch2-part-02-ltb4;ch2-part-02-pgi-txa;ch2-part-02-zileuton
+ch2-part-02,15,15,teaching,Arachidonic acid pathway illustration,ch2-part-02-p015-topic,reviewed,ch2-part-02-u015,
+ch2-part-02,16,16,teaching,Leukotrienes,ch2-part-02-p016-topic,reviewed,,ch2-part-02-lt-origin
+ch2-part-02,17,17,teaching,Eicosanoid effects illustrated,ch2-part-02-p017-topic,reviewed,,ch2-part-02-lipoxins;ch2-part-02-ltb4;ch2-part-02-pgi-txa
+ch2-part-02,18,18,teaching,Nitric oxide,ch2-part-02-p018-topic,reviewed,ch2-part-02-u018,ch2-part-02-no-effect;ch2-part-02-no-stimulus
+ch2-part-02,19,19,teaching,Nitric oxide synthesis illustration,ch2-part-02-p019-topic,reviewed,,
+ch2-part-02,20,20,teaching,Mediator sources repeated,ch2-part-02-p020-topic,reviewed,,
+ch2-part-02,21,21,teaching,Plasma mediator cascades,ch2-part-02-p021-topic,reviewed,,
+ch2-part-02,22,22,teaching,Kinin pathway and bradykinin,ch2-part-02-p022-topic,reviewed,ch2-part-02-u022,ch2-part-02-brady-effects;ch2-part-02-kallikrein;ch2-part-02-kinin-product
+ch2-part-02,23,23,teaching,Intrinsic clotting and kinin pathways,ch2-part-02-p023-topic,reviewed,,
+ch2-part-02,24,24,teaching,Fibrinolysis and complement,ch2-part-02-p024-topic,reviewed,,ch2-part-02-plasmin
+ch2-part-02,25,25,teaching,Complement actions,ch2-part-02-p025-topic,reviewed,,ch2-part-02-complement-functions
+ch2-part-02,26,26,teaching,Complement activation overview,ch2-part-02-p026-topic,reviewed,,ch2-part-02-lectin
+ch2-part-02,27,27,teaching,Complement convertases,ch2-part-02-p027-topic,reviewed,,
+ch2-part-02,28,28,teaching,Mediator effect comparisons,ch2-part-02-p028-topic,reviewed,,ch2-part-02-chemotactic-mediators;ch2-part-02-pain-mediators
+ch2-part-02,29,29,teaching,Local systemic and harmful cytokine effects,ch2-part-02-p029-topic,reviewed,,
+ch2-part-02,30,30,teaching,Acute inflammation outcomes,ch2-part-02-p030-topic,reviewed,,ch2-part-02-outcomes
+ch2-part-02,31,31,teaching,Outcome determinants,ch2-part-02-p031-topic,reviewed,,ch2-part-02-determinants
+ch2-part-02,32,32,teaching,Outcome table,ch2-part-02-p032-topic,reviewed,,
+ch2-part-02,33,33,teaching,Outcome pathways,ch2-part-02-p033-topic,reviewed,,
+ch2-part-02,34,34,teaching,Resolution and abscess,ch2-part-02-p034-topic,reviewed,,ch2-part-02-abscess-development;ch2-part-02-resolution
+ch2-part-02,35,35,teaching,Fibrosis and chronic progression,ch2-part-02-p035-topic,reviewed,,ch2-part-02-fibrosis-setting;ch2-part-02-persistent-agent
+ch2-part-02,36,36,teaching,Outcome flowchart,ch2-part-02-p036-topic,reviewed,,ch2-part-02-persistent-agent
+ch2-part-02,37,37,teaching,Acute morphologic patterns,ch2-part-02-p037-topic,reviewed,,
+ch2-part-02,38,38,teaching,Serous inflammation,ch2-part-02-p038-topic,reviewed,ch2-part-02-u038,ch2-part-02-serous;ch2-part-02-serous-sites
+ch2-part-02,39,39,teaching,Serous fluid image,ch2-part-02-p039-topic,reviewed,,
+ch2-part-02,40,40,teaching,Fibrinous inflammation,ch2-part-02-p040-topic,reviewed,ch2-part-02-u040,ch2-part-02-fibrinogen
+ch2-part-02,41,41,teaching,Fibrinous sites and outcomes,ch2-part-02-p041-topic,reviewed,,ch2-part-02-fibrinous-outcomes;ch2-part-02-fibrinous-sites
+ch2-part-02,42,42,teaching,Fibrinous pericarditis,ch2-part-02-p042-topic,reviewed,,
+ch2-part-02,43,43,teaching,Fibrinous pericarditis repeated,ch2-part-02-p043-topic,reviewed,,
+ch2-part-02,44,44,teaching,Fibrinous surface image,ch2-part-02-p044-topic,reviewed,,
+ch2-part-02,45,45,teaching,Suppurative inflammation and pus,ch2-part-02-p045-topic,reviewed,ch2-part-02-u045,ch2-part-02-suppuration
+ch2-part-02,46,46,teaching,Abscess morphology and pyogenic organisms,ch2-part-02-p046-topic,reviewed,ch2-part-02-u046,ch2-part-02-abscess-zones;ch2-part-02-pyogenic
+ch2-part-02,47,47,teaching,Abscess formation illustration,ch2-part-02-p047-topic,reviewed,,
+ch2-part-02,48,48,teaching,Skin abscess images,ch2-part-02-p048-topic,reviewed,,
+ch2-part-02,49,49,teaching,Abscess constituents,ch2-part-02-p049-topic,reviewed,,
+ch2-part-02,50,50,teaching,Pulmonary abscess images,ch2-part-02-p050-topic,reviewed,,
+ch2-part-02,51,51,teaching,Ulceration,ch2-part-02-p051-topic,reviewed,,ch2-part-02-ulcer;ch2-part-02-ulcer-causes;ch2-part-02-ulcer-layers
+ch2-part-02,52,52,teaching,Duodenal ulcer,ch2-part-02-p052-topic,reviewed,,
+ch2-part-02,53,53,teaching,Morphologic examples,ch2-part-02-p053-topic,reviewed,,
+ch2-part-03,1,1,cover,Cover,,reviewed,,
+ch2-part-03,2,2,teaching,Chronic inflammation definition,ch2-part-03-p002-topic,reviewed,,ch2-part-03-simultaneous
+ch2-part-03,3,3,teaching,Chronic inflammation features,ch2-part-03-p003-topic,reviewed,,ch2-part-03-chronic-features
+ch2-part-03,4,4,teaching,Unresolved and repeated acute inflammation,ch2-part-03-p004-topic,reviewed,,ch2-part-03-settings
+ch2-part-03,5,5,teaching,Delayed hypersensitivity settings,ch2-part-03-p005-topic,reviewed,,ch2-part-03-settings
+ch2-part-03,6,6,teaching,Type IV hypersensitivity illustration,ch2-part-03-p006-topic,reviewed,,
+ch2-part-03,7,7,teaching,Foreign body settings,ch2-part-03-p007-topic,reviewed,,ch2-part-03-foreign-body;ch2-part-03-settings
+ch2-part-03,8,8,teaching,Autoimmune and unknown settings,ch2-part-03-p008-topic,reviewed,,ch2-part-03-settings
+ch2-part-03,9,9,teaching,White blood cells,ch2-part-03-p009-topic,reviewed,,
+ch2-part-03,10,10,teaching,Monocyte macrophage lineage,ch2-part-03-p010-topic,reviewed,,
+ch2-part-03,11,11,teaching,Tissue macrophage names,ch2-part-03-p011-topic,reviewed,,ch2-part-03-macrophage-names
+ch2-part-03,12,12,teaching,Macrophage origin and activation,ch2-part-03-p012-topic,reviewed,,ch2-part-03-macrophage-activation;ch2-part-03-monocyte-time
+ch2-part-03,13,13,teaching,Macrophage effects overview,ch2-part-03-p013-topic,reviewed,,
+ch2-part-03,14,14,teaching,Classical and alternative activation,ch2-part-03-p014-topic,reviewed,,ch2-part-03-m1-products;ch2-part-03-m1-stimuli;ch2-part-03-m2-products
+ch2-part-03,15,15,teaching,Macrophage tissue injury products,ch2-part-03-p015-topic,reviewed,,ch2-part-03-injury-products
+ch2-part-03,16,16,teaching,Macrophage fibrosis products,ch2-part-03-p016-topic,reviewed,,ch2-part-03-fibrosis-growth
+ch2-part-03,17,17,teaching,Macrophage activation pathways,ch2-part-03-p017-topic,reviewed,,
+ch2-part-03,18,18,teaching,Macrophages in resolution,ch2-part-03-p018-topic,reviewed,,ch2-part-03-resolution-role
+ch2-part-03,19,19,teaching,Epithelioid and giant cells,ch2-part-03-p019-topic,reviewed,,ch2-part-03-epithelioid;ch2-part-03-giant-cell-fusion
+ch2-part-03,20,20,teaching,Multinucleated giant cell example,ch2-part-03-p020-topic,reviewed,ch2-part-03-u020,
+ch2-part-03,21,21,teaching,T and B lymphocytes,ch2-part-03-p021-topic,reviewed,,ch2-part-03-t-cell
+ch2-part-03,22,22,teaching,Lymphocyte functions,ch2-part-03-p022-topic,reviewed,,ch2-part-03-t-cell
+ch2-part-03,23,23,teaching,Macrophage lymphocyte interaction,ch2-part-03-p023-topic,reviewed,,ch2-part-03-feedback-ifn;ch2-part-03-feedback-persistence
+ch2-part-03,24,24,teaching,Macrophage lymphocyte loop,ch2-part-03-p024-topic,reviewed,,
+ch2-part-03,25,25,teaching,Interaction loop repeated,ch2-part-03-p025-topic,reviewed,,
+ch2-part-03,26,26,teaching,Eosinophils,ch2-part-03-p026-topic,reviewed,,ch2-part-03-eosinophil
+ch2-part-03,27,27,teaching,Mast cells,ch2-part-03-p027-topic,reviewed,,ch2-part-03-mast-ige;ch2-part-03-mast-mediators
+ch2-part-03,28,28,teaching,Chronic morphologic types,ch2-part-03-p028-topic,reviewed,,
+ch2-part-03,29,29,teaching,Granulation tissue,ch2-part-03-p029-topic,reviewed,,ch2-part-03-granulation
+ch2-part-03,30,30,teaching,Increased vascularity micrograph,ch2-part-03-p030-topic,reviewed,,
+ch2-part-03,31,31,teaching,Lymphocytes and plasma cells micrograph,ch2-part-03-p031-topic,reviewed,,
+ch2-part-03,32,32,teaching,Acute inflammatory exudate micrographs,ch2-part-03-p032-topic,reviewed,,
+ch2-part-03,33,33,teaching,Granulomatous inflammation,ch2-part-03-p033-topic,reviewed,,ch2-part-03-granuloma-definition
+ch2-part-03,34,34,teaching,Immune granuloma formation,ch2-part-03-p034-topic,reviewed,,
+ch2-part-03,35,35,teaching,Granuloma cytokine sequence,ch2-part-03-p035-topic,reviewed,,
+ch2-part-03,36,36,teaching,Granulomatous etiologies table,ch2-part-03-p036-topic,reviewed,,ch2-part-03-cat-scratch;ch2-part-03-granuloma-etiologies
+ch2-part-03,37,37,teaching,Expanded granulomatous etiologies,ch2-part-03-p037-topic,reviewed,,
+ch2-part-03,38,38,teaching,Caseous and noncaseating granulomas,ch2-part-03-p038-topic,reviewed,ch2-part-03-u038,
+ch2-part-03,39,39,teaching,Granuloma architecture,ch2-part-03-p039-topic,reviewed,,
+ch2-part-03,40,40,teaching,Pulmonary tuberculosis,ch2-part-03-p040-topic,reviewed,,
+ch2-part-03,41,41,teaching,Miliary tuberculosis morphology,ch2-part-03-p041-topic,reviewed,,
+ch2-part-03,42,42,teaching,Epithelioid cell morphology,ch2-part-03-p042-topic,reviewed,,ch2-part-03-epithelioid-morphology
+ch2-part-03,43,43,teaching,Foreign body giant cell,ch2-part-03-p043-topic,reviewed,,
+ch2-part-03,44,44,teaching,Giant cell nuclear patterns,ch2-part-03-p044-topic,reviewed,,
+ch2-part-03,45,45,teaching,Lymphatic defense,ch2-part-03-p045-topic,reviewed,,ch2-part-03-lymphatic-drainage
+ch2-part-03,46,46,teaching,Bacteremia and dissemination,ch2-part-03-p046-topic,reviewed,,ch2-part-03-bacteremia;ch2-part-03-distant-seeding
+ch2-part-03,47,47,teaching,Acute phase manifestations,ch2-part-03-p047-topic,reviewed,,ch2-part-03-systemic-terms
+ch2-part-03,48,48,teaching,Fever mechanism,ch2-part-03-p048-topic,reviewed,,
+ch2-part-03,49,49,teaching,Systemic inflammatory responses illustrated,ch2-part-03-p049-topic,reviewed,,
+ch2-part-03,50,50,teaching,Acute phase cytokine sequence,ch2-part-03-p050-topic,reviewed,,ch2-part-03-cytokine-sequence;ch2-part-03-fever
+ch2-part-03,51,51,teaching,Acute phase proteins and leukocytes,ch2-part-03-p051-topic,reviewed,,ch2-part-03-blood-cell-patterns;ch2-part-03-marrow-response
+ch2-part-03,52,52,teaching,Chronic outcomes,ch2-part-03-p052-topic,reviewed,,
+ch2-part-03,53,53,teaching,Liver cirrhosis example,ch2-part-03-p053-topic,reviewed,,
+ch2-part-03,54,54,teaching,Asbestos and fibrosis example,ch2-part-03-p054-topic,reviewed,,
+ch2-part-03,55,55,teaching,Persistent gastric ulcer,ch2-part-03-p055-topic,reviewed,,
+ch2-part-03,56,56,teaching,Acute chronic comparison I,ch2-part-03-p056-topic,reviewed,ch2-part-03-u056,ch2-part-03-acute-chronic-course;ch2-part-03-acute-chronic-vascular
+ch2-part-03,57,57,teaching,Acute chronic comparison II,ch2-part-03-p057-topic,reviewed,ch2-part-03-u057,ch2-part-03-chronic-blood;ch2-part-03-chronic-systemic
+ch2-part-03,58,58,administrative,Closing image,,reviewed,,

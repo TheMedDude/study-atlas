@@ -1,0 +1,2804 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "lectureId": "oxidative-phosphorylation",
+  "reviewer": "second-codex-agent-check_oxidative",
+  "authorDifferentFromReviewer": true,
+  "author": "write_oxidative",
+  "modelConfiguration": "GPT-6.1 Sol, medium effort (owner-confirmed session configuration)",
+  "reviewScope": "All41 candidates, all28 card facts and all21 original page images inspected by this fresh checker; not a sample or automated flag pass.",
+  "pageImagesInspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "fullPagesInspected": [
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "tableScope": "Only p18 table approved. Separate p8 prose and p10/p13/p16/p17 figures/prose eligible; p7/p8-table/p14-table-only content excluded. OP-U01..06 respected.",
+  "items": [
+    {
+      "id": "oxidative-phosphorylation-fuel-carrier-role",
+      "inputIndex": 1,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 3
+        }
+      ],
+      "pageImagesInspected": [
+        3
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The slide assigns these cofactors an electron-carrying role, not phosphate delivery.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "These are listed as fuels rather than the reduced cofactors that link fuel oxidation to the respiratory chain.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "ATP and ADP are shown in ATP synthesis; NADH and FADH2 are the reduced electron carriers.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "Carbohydrates and lipids are reduced fuels; oxygen is shown as an electron acceptor ending in water.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The reduced cofactors receive electrons from fuels and supply their energy for oxidative phosphorylation.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p3 supports the reduced-carrier key, but phosphate carried by fuels and oxygen carried by carbohydrates are implausible category errors; remove the weak five-choice set.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-membrane-permeability",
+      "inputIndex": 2,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The outer membrane permits metabolite passage, whereas the inner membrane maintains a proton gradient.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The outer membrane is relatively porous and permits metabolite passage.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The inner membrane is described as impermeable to most small molecules and ions, including H+.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the stated permeability contrast.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The proton gradient is across the relatively impermeable inner membrane, not a freely permeable inner membrane.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p4 explicitly contrasts porous outer membrane with relatively impermeable inner membrane. Each alternative reverses or erases that same permeability distinction; EN/AR agree.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-compartment-proton-pair",
+      "inputIndex": 3,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The matrix has lower H+; higher H+ and higher pH are also mismatched.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Higher H+ is paired with lower, not higher, pH.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses both concentration and pH relationships.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The slide explicitly contrasts higher H+/lower pH in the intermembrane space with lower H+/higher pH in matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The slide describes a proton concentration gradient rather than equality.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p4 pairs intermembrane higher H+ with lower pH and matrix lower H+ with higher pH. All four reversed/equal alternatives are false under the stated mitochondrial condition; no conspicuous formatting cue.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-cristae-function",
+      "inputIndex": 4,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The cycle is located in the matrix, not in the intermembrane space.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source retains a proton/pH gradient across that membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The electron transport chain complexes are located in the inner membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The inner membrane is relatively impermeable; increased area is the stated function of the convolutions.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "Cristae are convolutions of the inner membrane that increase its surface area.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p4 clearly supports increased surface area, but pH equalization and relocating the TCA cycle/respiratory complexes make the distractors too remote; preserve the cristae fact in its card.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-matrix-versus-membrane",
+      "inputIndex": 5,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The cycle is in matrix and the complexes are in inner membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This interchanges the two locations.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Both processes/components have been moved away from their stated locations.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The matrix contains citric acid cycle enzymes; the inner membrane contains the respiratory electron carriers.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Neither of these locations matches the source.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p4 places TCA enzymes in matrix and respiratory complexes in inner membrane. Alternatives are parallel compartment swaps; exact source-page support and bilingual directions checked.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-nicotinamide-hydrogen-fates",
+      "inputIndex": 6,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 5
+        }
+      ],
+      "pageImagesInspected": [
+        5
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "A hydride is transferred to NAD(P)+, producing the reduced nicotinamide cofactor.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source states that one hydrogen is transferred as :H− to NAD(P)+ and one is released into the medium as H+.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "NAD(P)+ receives a hydride, not two separate protons.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This reverses the form transferred to the cofactor and the form released into the medium.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The specified transfer to NAD(P)+ is one hydride, while the other hydrogen is released as H+.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p5 explicitly gives one hydride to NAD(P)+ and one H+ to medium. Every alternative changes transferred form or destination; hydrogen-atom versus ion wording and Arabic negation checked.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-flavin-reduction-forms",
+      "inputIndex": 7,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 5
+        }
+      ],
+      "pageImagesInspected": [
+        5
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "NADH is a reduced nicotinamide cofactor; semiquinone is the one-electron flavin form.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The slide distinguishes one-electron semiquinone formation from two-electron full reduction.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The first form requires two electrons, while FMN is an oxidized flavin rather than the stated fully reduced product.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "FMNH2 is produced by two-electron flavin reduction; NADH is not a flavin form.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the electron counts associated with the two forms.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p5 supports semiquinone versus full flavin reduction, but the key alone lists both FADH2 and FMNH2 and several distractors substitute a different cofactor class. Remove the cued/weak set; retain the fact on a card.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-hydride-electron-count",
+      "inputIndex": 8,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 6
+        }
+      ],
+      "pageImagesInspected": [
+        6
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The slide defines :H− as bearing two electrons and the hydrogen atom as H+ + e−.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Only hydride is the two-electron form in this comparison.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the stated electron counts.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "A hydride bears two electrons rather than none.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The hydrogen atom includes one electron, H+ + e−.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p6 explicitly defines hydrogen atom as H+ plus one electron and hydride as two-electron form. All option electron counts checked; parallel numerical contrasts and EN/AR preserve the distinction.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-carrier-classes",
+      "inputIndex": 9,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 6
+        }
+      ],
+      "pageImagesInspected": [
+        5,
+        6
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "pairId": "p1",
+          "finding": "These are the nicotinamide examples listed on pages5–6.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p2",
+          "finding": "These are the flavin examples listed on pages5–6.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p3",
+          "finding": "Page6 explicitly gives coenzyme Q as another name for ubiquinone.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p5/p6 uniquely map NAD(P)+ to nicotinamide, FMN/FAD to flavin and ubiquinone to coenzyme Q. No mapping overlap; explanations also correctly retain the other two listed carrier classes.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-four-complex-routes",
+      "inputIndex": 10,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 8
+        }
+      ],
+      "pageImagesInspected": [
+        8
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "pairId": "p1",
+          "finding": "The prose bullet list assigns NADH-to-ubiquinone transfer to I.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p2",
+          "finding": "The prose bullet list assigns succinate-to-ubiquinone transfer to II.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p3",
+          "finding": "The prose bullet list assigns ubiquinone-to-cytochrome c transfer to III.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p4",
+          "finding": "The prose bullet list assigns cytochrome c-to-O2 transfer to IV.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "The p8 PROSE above the excluded table gives all four routes verbatim. Each complex has a unique mapping; no mass, subunit or table-only cofactor fact is imported.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-ubiquinone-convergence",
+      "inputIndex": 11,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 10
+        }
+      ],
+      "pageImagesInspected": [
+        10
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Oxygen reduction is at the end after Complex IV rather than the convergence point after I and II.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "FMN is drawn within NADH dehydrogenase, not as the shared carrier after both entry complexes.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The diagram draws both Complex I and Complex II feeding the CoQ/CoQH2 pool.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "NADH supplies the Complex I route; it is not the convergence carrier for the succinate route.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "Cytochrome c receives electrons after Complex III, rather than directly from I and II.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p10 enlarged diagram shows arrows from I and II into the CoQ/CoQH2 pool. Alternative carriers occupy different shown positions; no unseen-figure reference occurs in the stem.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-cytochrome-c-bridge",
+      "inputIndex": 12,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 10
+        }
+      ],
+      "pageImagesInspected": [
+        10
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "FAD is labelled within Complex II, rather than the mobile link between III and IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The diagram places cytochrome c between Complex III and Complex IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "NADH supplies electrons to I; it is not the displayed carrier from III to IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "FMN is labelled within Complex I, rather than the mobile link between III and IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "CoQ connects the entry complexes to III, not III to IV.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p10 places cytochrome c between III and IV, versus CoQ before III and FMN/FAD in entry complexes. All adjacent-carrier distractors checked; this tests mobile-carrier identity rather than complex identity.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-oxygen-terminal-product",
+      "inputIndex": 13,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 10
+        }
+      ],
+      "pageImagesInspected": [
+        9,
+        10
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "Succinate is converted to fumarate at II; oxygen is the terminal acceptor at IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The figures place 1/2 O2 → H2O after Complex IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The terminal step accepts electrons and reduces oxygen; it is not oxygen oxidation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Ubiquinone/ubiquinol carries electrons upstream; oxygen ends as water after IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "NADH donates electrons at I; oxygen ends as water at IV.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p9/p10 support oxygen reduction to water at IV, but conversion of oxygen to fumarate, ubiquinol or NADH supplies three chemically implausible alternatives. Remove the weak item; the accepted route order retains the terminal relation.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-proton-pumping-direction",
+      "inputIndex": 14,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        9,
+        12
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The drawn respiratory pumps establish a directed gradient rather than equal bidirectional pumping.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The displayed pumping is across the inner membrane from matrix to intermembrane space.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "That is the return direction through ATP synthase, not respiratory proton pumping.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The displayed pump arrows cross the inner membrane into intermembrane space, not both membranes.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The diagrams show outward H+ arrows from the N/matrix side to the P/intermembrane-space side.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p9/p12 arrows pump from N/matrix side to P/intermembrane side across inner membrane. Return through synthase is the opposed direction. Compartment/direction choices and Arabic verified.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-pump-pattern",
+      "inputIndex": 15,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        9,
+        12
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "This exchanges the displayed I and IV proton counts.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The diagrams label4H+ at I,4H+ at III and 2H+ at IV, with no proton pump arrow at II.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This adds pumping at II and removes the displayed pumping at IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This assigns the Complex I pump count to II.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This moves the III pump count to II, contrary to the diagrams.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p9/p12 label 4H+ at I, 4H+ at III and 2H+ at IV, with II not drawn as a pump. All alternative patterns move these labels to the wrong complexes; no universal ten-proton claim is scored. Reword feedback directly and space numerical units.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-succinate-entry-bypass",
+      "inputIndex": 16,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 9
+        }
+      ],
+      "pageImagesInspected": [
+        8,
+        9
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The succinate entry route is II, not reversed transport through I.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "Succinate transfers through II to Q; the I route and its4H+ pump are bypassed.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The source places succinate at II, not IV.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Succinate is the II substrate; cytochrome c and IV remain downstream.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Succinate feeds II, Q, III, cytochrome c and IV rather than bypassing the chain.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "Succinate entry at II is supported on p8/p9, but already appears in the accepted route mapping and pump pattern; alternatives such as direct transfer to oxygen bypassing every complex are weak. Remove redundant/cued set.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-synthase-units",
+      "inputIndex": 17,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        11,
+        12
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The source figure places the synthase in the inner membrane with F1 facing matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The labelled figure places Fo in the inner membrane and F1 on the matrix/N side.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the positions shown for Fo and F1.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The figure shows F1 on the N/matrix side and Fo within the membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "Fo is drawn as the membrane component of the membrane-bound F-type ATPase.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p11/p12 show Fo in inner membrane and F1 on matrix/N side. Position swaps are false in the diagrams; the stem and bilingual explanation state a self-contained arrangement.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-proton-return-and-atp",
+      "inputIndex": 18,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 11
+        }
+      ],
+      "pageImagesInspected": [
+        11
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source describes proton return through ATP synthase using gradient energy for ADP + Pi → ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Succinate-to-fumarate transfer is associated with Complex II rather than ATP synthase.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "NADH oxidation belongs to the respiratory electron-entry route, not the stated product reaction of ATP synthase.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "ATP synthesis uses inward return of protons, not respiratory outward pumping through synthase.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This is the reverse of the proton return and ATP-synthesis relationship described.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p11 explicitly connects inward proton return with ADP+Pi to ATP. Alternatives substitute respiratory reactions or reverse both transport/chemical directions; all are source-disprovable within scope.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-estimated-proton-cost",
+      "inputIndex": 19,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 11
+        }
+      ],
+      "pageImagesInspected": [
+        11
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "At4H+ per ATP,4 ATP would require16H+, not12H+.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "12 H+ divided by4 H+ per ATP gives 3 ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "At4H+ per ATP,6 ATP would require24H+, not12H+.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This treats each proton as one ATP rather than using the stated4H+ estimate.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "At4H+ per ATP,2 ATP would correspond to 8H+, not12H+.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p11 labels the four-proton requirement as an estimate. The prompt supplies it, so 12/4=3 is a supported application; all numerical alternatives recomputed. Feedback now calls it an estimate without referring to a lecture.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-proton-motive-components",
+      "inputIndex": 20,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        12
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The figure combines chemical potential ΔpH (inside alkaline) with electrical potential Δψ (inside negative).",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The proton-motive force contains both chemical and electrical differences rather than equality.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The electrical component matches, but the matrix is shown alkaline rather than acidic.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The chemical component matches, but the electrical sign is reversed.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses both depicted components.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p12 explicitly combines inside-alkaline chemical potential with inside-negative electrical potential. All five sign/equality combinations checked; adds electrical component beyond the p4 compartment-pH item.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-coupled-atp-synthase-inhibition",
+      "inputIndex": 21,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 13
+        }
+      ],
+      "pageImagesInspected": [
+        13
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The source states that ATP-synthesis inhibition blocks electron transfer rather than automatically restoring ATP synthesis.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The stated coupled response is blockage; faster electron transfer without ATP synthesis is illustrated only after uncoupling.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Under the stated coupled condition, inhibiting ATP synthesis also blocks electron transfer.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The prose states that inhibitors of ATP synthesis block electron transfer, as the coupled graphs illustrate.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This separates the two processes; the source shows such separation after an uncoupler, not simply after ATP-synthesis inhibition.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p13 prose explicitly says ATP-synthesis inhibition blocks electron transfer under coupled conditions. Alternative continued/accelerated responses contradict that stated condition; uncoupling is not silently assumed.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-dnp-uncoupled-outcome",
+      "inputIndex": 22,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 13
+        }
+      ],
+      "pageImagesInspected": [
+        13
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The graph shows the oxygen-consumption curve rising after DNP while the ATP-synthesis curve remains flat.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the two curves after DNP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The ATP-synthesis curve remains flat, demonstrating uncoupling.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Neither change matches the displayed uncoupled outcome.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The oxygen-consumption curve resumes after DNP.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p13 enlarged graph shows DNP after oligomycin/venturicidin restarts O2 consumption while the ATP curve stays flat. All paired outcomes checked. This comes from the eligible graph, not the excluded p14 inhibitor table.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-nucleotide-antiport",
+      "inputIndex": 23,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source moves ADP inward, not outward with ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source names an antiporter moving ADP inward and ATP outward.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Phosphate enters through phosphate translocase; adenine nucleotide translocase exchanges ADP and ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "An antiporter exchanges them in opposite directions rather than carrying both inward.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the stated transport directions.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p15 prose and arrows show ADP inward, ATP outward via antiporter. Each choice swaps direction or transporter substrate; EN/AR and exact compartment terminology verified.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-phosphate-symport",
+      "inputIndex": 24,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source describes symport of one phosphate anion and one proton into matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The stated cotransported partner for phosphate is H+, not ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The inner membrane is not permeable to NADH; phosphate translocase carries phosphate and a proton.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This is an opposite-direction exchange, whereas the source describes symport into matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The nucleotide translocase exchanges ADP and ATP in opposite directions.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p15 explicitly symports one H2PO4− and one H+ inward. Alternatives replace partner or reverse direction, including confusion with the distinct nucleotide antiporter; all checked.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-synthasome-composition",
+      "inputIndex": 25,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source groups synthase with transporters, not these respiratory complexes.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This replaces ATP synthase with Complex I.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "These are respiratory electron-transfer partners rather than the two specified translocases.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source defines the synthasome as ATP synthase with both translocases.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This omits ATP synthase and adds an electron carrier instead.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p15 names ATP synthase plus both translocases as synthasome. Three-component choices are parallel; substituted respiratory complexes/carrier omit required components. No table-only claim is involved.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-cytosolic-nadh-barrier",
+      "inputIndex": 26,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        }
+      ],
+      "pageImagesInspected": [
+        16
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The stated barrier is the inner membrane and Complex I accepts NADH in matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source states that the inner membrane is impermeable to NADH and matrix NADH supplies the dehydrogenase.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The source states that NADH dehydrogenase accepts matrix NADH and that shuttles transfer cytosolic reducing equivalents.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses both source statements.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "Both the permeability barrier and matrix-side NADH requirement are explicit.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p16 explicitly states inner-membrane NADH impermeability and matrix-only NADH acceptance by NADH dehydrogenase. All reversed barrier/side statements checked; shuttles transfer equivalents, not NADH through the membrane.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-tissue-sites",
+      "inputIndex": 27,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        16,
+        17
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "pairId": "p1",
+          "finding": "Page16 identifies these tissues for the most active NADH shuttle.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p2",
+          "finding": "Page17 names these tissues for the alternative shuttle.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p16/p17 name the two distinct tissue groups for the shuttle routes; no claim of exclusivity is made. Corrected awkward \"named for\" wording to operating/used in tissues, in prompt, feedback and matching card text.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-malate-matrix-nadh",
+      "inputIndex": 28,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        }
+      ],
+      "pageImagesInspected": [
+        16
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This matrix transamination is not the malate-dehydrogenase reaction labelled NADH production.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "This cytosolic transamination is not the displayed matrix NADH-producing oxidation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Transport brings malate into matrix; the subsequent enzyme reaction regenerates NADH.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The figure labels this matrix reaction with NAD+ → NADH + H+.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This is the cytosolic reaction consuming NADH, not the matrix reaction regenerating it.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p16 enlarged step3 shows matrix malate dehydrogenase converting malate to oxaloacetate while NAD+ becomes NADH+H+. Other choices are cytosolic oxidation/reduction, transamination or transport; every alternative checked.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-malate-carrier-exchange",
+      "inputIndex": 29,
+      "decision": "accept",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        }
+      ],
+      "pageImagesInspected": [
+        16
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Aspartate participates in the other labelled transporter, not this exchange.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the displayed exchange.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The transporter arrows bring malate inward and α-ketoglutarate outward.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The incoming transported metabolite is malate, not oxaloacetate.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The inner membrane does not transport NADH; this transporter moves malate.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p16 transporter arrows bring malate into matrix and alpha-ketoglutarate out. The other carrier exchanges glutamate/aspartate. Reversed/substituted metabolite choices and Arabic direction checked.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-glycerol-shuttle-intermediates",
+      "inputIndex": 30,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        17
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The shuttle diagram carries electrons through flavin and Q, not through the ADP–ATP exchange.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The source describes a shuttle and depicts flavin/Q intermediates rather than NADH membrane diffusion.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The figure shows a mitochondrial flavin followed by Q reduction, with QH2 feeding III.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Cytochrome c is downstream between III and IV, not the glycerol-shuttle route into III.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The depicted mitochondrial cofactor is FAD and the mobile carrier is Q; phosphate translocase is not the electron route.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p17 clearly supports flavin then Q, but ATP/nucleotide-translocase and NADPH/phosphate-translocase routes are weak category-error distractors. Keep the supported pathway in the reference fact instead of accepting this set.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-glycerol-enzyme-location",
+      "inputIndex": 31,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        17
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This substitutes the outer membrane for the specified inner membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The isozyme is mitochondrial and associated with its inner membrane, not the plasma membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "F1 is part of ATP synthase; this isozyme is on the outer face of the inner membrane.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The source places it bound to the membrane rather than freely soluble in matrix.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The text explicitly places the mitochondrial isozyme on the outer face of the inner membrane.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p17 supports outer face of inner membrane, but plasma-membrane and F1-unit placements are implausible distractors. The membrane-bound isozyme fact remains visible in the checked reference card.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-atp-comparison",
+      "inputIndex": 32,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        16,
+        17
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The malate–aspartate route is assigned about 2.5 ATP, not1.5.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "These are the respective approximate yields printed on pages16–17.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The glycerol 3-phosphate route is assigned about 1.5 ATP, not2.5.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses the approximate shuttle yields.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Neither value matches the specified approximate shuttle yields.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p16/p17 explicitly give approximate 2.5 versus1.5 ATP yields. Each paired alternative checked against the respective routes; feedback preserves approximate/per-equivalent qualification, with spacing cleaned.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-glycolytic-cytosolic-nadh-accounting",
+      "inputIndex": 33,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "These do not follow the stated shuttle yields or the table.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "These double the table values rather than account for two NADH at the stated rates.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "Two NADH give2×1.5=3 or 2×2.5=5 ATP, matching the approved ATP-yield table.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The lower total incorrectly uses2.5 per NADH and the upper total doubles that result.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "These are per-NADH yields rather than the contribution from two NADH.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "Selected p18 table assigns two cytosolic NADH 3 or5 ATP; with supplied yields the arithmetic is2×1.5 or2×2.5. Each distractor is a per-NADH/per-two-NADH accounting error. Direct ATP remains separate; feedback made direct.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-direct-glycolysis-vs-nadh",
+      "inputIndex": 34,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "Five is the higher NADH-derived contribution, not the direct glycolytic ATP row.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The table separates2 directly produced ATP from the 3-or 5 contribution of two cytosolic NADH.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This is one complete-glucose total printed in this source, not direct ATP formation in glycolysis.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "Fifteen is assigned to the six NADH from two turns of acetyl-CoA oxidation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "Three is the lower NADH-derived contribution, not the direct glycolytic ATP row.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "Selected p18 table separates two direct glycolytic ATP from3-or5 NADH-derived ATP. Other numbers are distinct stage/total rows and cannot be the direct output; EN/AR cleaned without asserting a universal total.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-pyruvate-nadh-accounting",
+      "inputIndex": 35,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This is the direct nucleotide row for acetyl-CoA oxidation rather than reduced cofactor output from pyruvate oxidation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "This corresponds to the FADH2 row for acetyl-CoA oxidation, not pyruvate oxidation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This is the NADH output from two acetyl-CoA oxidations in the cycle.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This is the glycolysis NADH row rather than the pyruvate-oxidation row.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The pyruvate-oxidation row gives 2 mitochondrial-matrix NADH and 5 final ATP.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "Selected p18 pyruvate-oxidation row gives two matrix NADH and5 ATP per glucose. All four alternatives are other explicit stage/product rows, so discriminating stage/compartment is supported. Cleaned spacing and direct feedback.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-two-turns-atp-accounting",
+      "inputIndex": 36,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "pairId": "p1",
+          "finding": "The approved table assigns15 final ATP to 6 matrix NADH.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p2",
+          "finding": "The approved table assigns3 final ATP to 2 FADH2.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "pairId": "p3",
+          "finding": "The direct nucleotide output has a contribution of 2 ATP.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "Selected p18 TCA rows uniquely map6 matrix NADH to15 ATP,2 FADH2 to3 ATP,2 ATP/GTP to2 ATP for two acetyl-CoA oxidations. All pair mappings, units and Arabic quantities checked; spacing repaired.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-major-aerobic-atp-source",
+      "inputIndex": 37,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source explicitly identifies oxidative phosphorylation as producing most ATP in aerobic cells.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The table lists 2 direct ATP orGTP per glucose, rather than the main aerobic ATP output.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "Translocase exchanges nucleotides; the source identifies oxidative phosphorylation as the principal ATP-producing process.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "The source lists only 2 direct ATP from glycolysis and states oxidative phosphorylation makes most aerobic ATP.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source contrasts this with aerobic cells and lists only 2 ATP per glucose anaerobically.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p18 supports oxidative phosphorylation as main aerobic ATP source, but ATP–ADP exchange is not a competing ATP-production route and an anaerobic process is a poor parallel alternative. Remove the weak set; preserve aerobic/anaerobic contrast in card.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-acceptor-control",
+      "inputIndex": 38,
+      "decision": "remove",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 19
+        }
+      ],
+      "pageImagesInspected": [
+        19
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This is the opposite of the stated stimulating change.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The source links increased demand and ATP breakdown to ADP formation; this option moves in the opposite direction.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "This decreases rather than supplies the ADP availability named in acceptor control.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "RemovingADP removes the availability that stimulates the stated response.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source directly states that increased ADP stimulates oxidative phosphorylation and respiration.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p19 supports increased ADP, but this direct sign recall is contained in the more informative accepted demand-to-ADP-to-respiration item39; several wrong options merely repeat decreased ADP. Remove duplicate target.",
+      "accepted": false,
+      "acceptedRevision": null
+    },
+    {
+      "id": "oxidative-phosphorylation-demand-feedback",
+      "inputIndex": 39,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 19
+        }
+      ],
+      "pageImagesInspected": [
+        19
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "The source describes ATP→ADP+Pi and increasedADP as the link between demand and regeneration.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "ATP breakdown producesADP rather than lowering it.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "The specified ATP breakdown producesADP; the resulting response is stimulation rather than inhibition.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "The source states that increasedADP stimulates rather than inhibits oxidative phosphorylation.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "The source links ATP consumption to increasedADP and an increased respiratory response.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p19 explicitly connects ATP use during protein synthesis to ADP+Pi formation, increased respiration and ATP regeneration. All sign/response combinations checked; direct English wording and spaces cleaned, Arabic remains equivalent.",
+      "accepted": true,
+      "acceptedRevision": 1
+    },
+    {
+      "id": "oxidative-phosphorylation-coordinated-energy-demand",
+      "inputIndex": 40,
+      "decision": "accept-repair",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 20
+        }
+      ],
+      "pageImagesInspected": [
+        20
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "optionId": "o1",
+          "key": true,
+          "finding": "This is the complete demand-associated pattern explicitly given on p20.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o2",
+          "key": false,
+          "finding": "This reverses all roles in the demand-associated pattern.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o3",
+          "key": false,
+          "finding": "This reverses the stated NADH-consumption/NAD+-formation relationship.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o4",
+          "key": false,
+          "finding": "This reverses the stated ATP-consumption/ADP-formation relationship.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "optionId": "o5",
+          "key": false,
+          "finding": "This reverses ATP/NADH consumption and AMP/NAD+ formation.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p20 prose explicitly gives ATP/NADH consumption and ADP/AMP/Pi/NAD+ formation. Rebuilt alternatives as parallel two-consumed/four-formed molecule sets to remove the correct-only long-list cue; rechecked every reversed relationship against p20. Revision2 records this scored-option-set repair.",
+      "accepted": true,
+      "acceptedRevision": 2
+    },
+    {
+      "id": "oxidative-phosphorylation-nadh-electron-route",
+      "inputIndex": 41,
+      "decision": "accept-reword",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 10
+        }
+      ],
+      "pageImagesInspected": [
+        8,
+        10
+      ],
+      "keySupportedBySource": true,
+      "alternativeFindings": [
+        {
+          "stepId": "s1",
+          "finding": "NADH donates electrons is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s2",
+          "finding": "Complex I is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s3",
+          "finding": "CoQ/CoQH2 is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s4",
+          "finding": "Complex III is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s5",
+          "finding": "Cytochrome c is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s6",
+          "finding": "Complex IV is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        },
+        {
+          "stepId": "s7",
+          "finding": "Oxygen is reduced to water is in the explicit NADH route shown on p10.",
+          "checkedAgainstPageImages": true
+        }
+      ],
+      "bilingualChecked": true,
+      "sourceScopeChecked": true,
+      "cueAndDuplicateFinding": "p8 prose plus p10 arrows explicitly give NADH→I→CoQ→III→cytochrome c→IV→O2/H2O; II is a separate converging route, not a forced sequential step. All seven order steps checked; feedback spacing repaired.",
+      "accepted": true,
+      "acceptedRevision": 1
+    }
+  ],
+  "cards": [
+    {
+      "id": "oxidative-phosphorylation-membrane-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-membrane-reference-f01",
+        "oxidative-phosphorylation-membrane-reference-f02",
+        "oxidative-phosphorylation-membrane-reference-f03"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-carrier-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-carrier-reference-f01",
+        "oxidative-phosphorylation-carrier-reference-f02",
+        "oxidative-phosphorylation-carrier-reference-f03"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-chain-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-chain-reference-f01",
+        "oxidative-phosphorylation-chain-reference-f02",
+        "oxidative-phosphorylation-chain-reference-f03",
+        "oxidative-phosphorylation-chain-reference-f04"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-synthase-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-synthase-reference-f01",
+        "oxidative-phosphorylation-synthase-reference-f02",
+        "oxidative-phosphorylation-synthase-reference-f03"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-coupling-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-coupling-reference-f01",
+        "oxidative-phosphorylation-coupling-reference-f02"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-transport-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-transport-reference-f01",
+        "oxidative-phosphorylation-transport-reference-f02",
+        "oxidative-phosphorylation-transport-reference-f03"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-shuttle-reference-f01",
+        "oxidative-phosphorylation-shuttle-reference-f02",
+        "oxidative-phosphorylation-shuttle-reference-f03",
+        "oxidative-phosphorylation-shuttle-reference-f04"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-accounting-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-atp-accounting-reference-f01",
+        "oxidative-phosphorylation-atp-accounting-reference-f02",
+        "oxidative-phosphorylation-atp-accounting-reference-f03",
+        "oxidative-phosphorylation-atp-accounting-reference-f04"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    },
+    {
+      "id": "oxidative-phosphorylation-demand-reference",
+      "decision": "accepted",
+      "factsChecked": [
+        "oxidative-phosphorylation-demand-reference-f01",
+        "oxidative-phosphorylation-demand-reference-f02"
+      ],
+      "finding": "All facts and exact concept-page intersections checked; only selected-table or separately taught prose/figure claims retained."
+    }
+  ],
+  "facts": [
+    {
+      "id": "oxidative-phosphorylation-membrane-reference-f01",
+      "cardId": "oxidative-phosphorylation-membrane-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "finding": "Outer membrane is relatively porous; inner membrane is relatively impermeable and contains respiratory complexes. Cristae increase its surface area. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-membrane-reference-f02",
+      "cardId": "oxidative-phosphorylation-membrane-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "finding": "Higher H+ concentration and lower pH than matrix. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-membrane-reference-f03",
+      "cardId": "oxidative-phosphorylation-membrane-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 4
+        }
+      ],
+      "pageImagesInspected": [
+        4
+      ],
+      "finding": "Lower H+ concentration and higher pH; site of the citric acid cycle. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-carrier-reference-f01",
+      "cardId": "oxidative-phosphorylation-carrier-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 5
+        }
+      ],
+      "pageImagesInspected": [
+        5
+      ],
+      "finding": "Of two hydrogen atoms removed from a substrate, one transfers as hydride to NAD(P)+ and the other is released as H+. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-carrier-reference-f02",
+      "cardId": "oxidative-phosphorylation-carrier-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 5
+        }
+      ],
+      "pageImagesInspected": [
+        5
+      ],
+      "finding": "One electron gives semiquinone; two electrons give FADH2 or FMNH2. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-carrier-reference-f03",
+      "cardId": "oxidative-phosphorylation-carrier-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 6
+        }
+      ],
+      "pageImagesInspected": [
+        6
+      ],
+      "finding": "A hydrogen atom carries one electron; a hydride ion carries two. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-chain-reference-f01",
+      "cardId": "oxidative-phosphorylation-chain-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 8
+        }
+      ],
+      "pageImagesInspected": [
+        8
+      ],
+      "finding": "I transfers from NADH to ubiquinone; II transfers from succinate to ubiquinone. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-chain-reference-f02",
+      "cardId": "oxidative-phosphorylation-chain-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 8
+        }
+      ],
+      "pageImagesInspected": [
+        8
+      ],
+      "finding": "III transfers from ubiquinone to cytochrome c; IV transfers from cytochrome c to oxygen. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-chain-reference-f03",
+      "cardId": "oxidative-phosphorylation-chain-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 10
+        }
+      ],
+      "pageImagesInspected": [
+        10
+      ],
+      "finding": "CoQ/CoQH2 connects the entry complexes to III; cytochrome c connects III to IV. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-chain-reference-f04",
+      "cardId": "oxidative-phosphorylation-chain-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        9,
+        12
+      ],
+      "finding": "For an electron pair, I, III and IV pump 4 H+, 4 H+ and 2 H+, respectively, from matrix to intermembrane space. Succinate entry at II bypasses I. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-synthase-reference-f01",
+      "cardId": "oxidative-phosphorylation-synthase-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        12
+      ],
+      "finding": "Matrix is relatively alkaline and electrically negative; both chemical and electrical components contribute to proton-motive force. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-synthase-reference-f02",
+      "cardId": "oxidative-phosphorylation-synthase-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 12
+        }
+      ],
+      "pageImagesInspected": [
+        11,
+        12
+      ],
+      "finding": "Fo spans the inner membrane; F1 projects into matrix. Proton return supports ADP + Pi → ATP. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-synthase-reference-f03",
+      "cardId": "oxidative-phosphorylation-synthase-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 11
+        }
+      ],
+      "pageImagesInspected": [
+        11
+      ],
+      "finding": "The source estimates passage of 4 H+ per ATP synthesized. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-coupling-reference-f01",
+      "cardId": "oxidative-phosphorylation-coupling-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 13
+        }
+      ],
+      "pageImagesInspected": [
+        13
+      ],
+      "finding": "Inhibiting electron transfer blocks ATP synthesis; inhibiting ATP synthesis blocks electron transfer. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-coupling-reference-f02",
+      "cardId": "oxidative-phosphorylation-coupling-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 13
+        }
+      ],
+      "pageImagesInspected": [
+        13
+      ],
+      "finding": "After oligomycin or venturicidin, DNP restores oxygen consumption while ATP synthesis remains stopped. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-transport-reference-f01",
+      "cardId": "oxidative-phosphorylation-transport-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "finding": "Adenine nucleotide translocase antiports ADP into matrix and ATP out. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-transport-reference-f02",
+      "cardId": "oxidative-phosphorylation-transport-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "finding": "Phosphate translocase symports one H2PO4− and one H+ into matrix. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-transport-reference-f03",
+      "cardId": "oxidative-phosphorylation-transport-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 15
+        }
+      ],
+      "pageImagesInspected": [
+        15
+      ],
+      "finding": "ATP synthase with the nucleotide and phosphate translocases forms the ATP synthasome. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-reference-f01",
+      "cardId": "oxidative-phosphorylation-shuttle-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        }
+      ],
+      "pageImagesInspected": [
+        16
+      ],
+      "finding": "The inner membrane is impermeable to NADH, and NADH dehydrogenase accepts matrix NADH. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-reference-f02",
+      "cardId": "oxidative-phosphorylation-shuttle-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 16
+        }
+      ],
+      "pageImagesInspected": [
+        16
+      ],
+      "finding": "Operates in liver, kidney and heart; supplies matrix NADH to Complex I, with about 2.5 ATP per NADH equivalent. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-reference-f03",
+      "cardId": "oxidative-phosphorylation-shuttle-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        17
+      ],
+      "finding": "Used in skeletal muscle and brain; mitochondrial flavin and Q intermediates deliver electrons onward to Complex III, with about 1.5 ATP per NADH equivalent. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-shuttle-reference-f04",
+      "cardId": "oxidative-phosphorylation-shuttle-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 17
+        }
+      ],
+      "pageImagesInspected": [
+        17
+      ],
+      "finding": "Glycerol 3-phosphate dehydrogenase isozyme is bound to the outer face of the inner membrane; the shuttle does not use membrane transport systems. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-accounting-reference-f01",
+      "cardId": "oxidative-phosphorylation-atp-accounting-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "finding": "Two cytosolic NADH contribute 3 or 5 ATP; direct glycolytic output contributes 2 ATP separately. Verified in the stated page text/diagram and the owner-approved ATP table.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-accounting-reference-f02",
+      "cardId": "oxidative-phosphorylation-atp-accounting-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "finding": "Two pyruvate oxidations per glucose produce 2 matrix NADH, contributing 5 ATP. Verified in the stated page text/diagram and the owner-approved ATP table.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-accounting-reference-f03",
+      "cardId": "oxidative-phosphorylation-atp-accounting-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "finding": "Six matrix NADH contribute 15 ATP; 2 FADH2 contribute 3 ATP; direct 2 ATP or 2 GTP contribute 2 ATP. Verified in the stated page text/diagram and the owner-approved ATP table.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-atp-accounting-reference-f04",
+      "cardId": "oxidative-phosphorylation-atp-accounting-reference",
+      "decision": "accepted-reworded",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 18
+        }
+      ],
+      "pageImagesInspected": [
+        18
+      ],
+      "finding": "Lactate fermentation yields 2 ATP per glucose; oxidative phosphorylation produces most ATP in aerobic cells. Verified in the stated page text/diagram and the owner-approved ATP table.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-demand-reference-f01",
+      "cardId": "oxidative-phosphorylation-demand-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 19
+        }
+      ],
+      "pageImagesInspected": [
+        19
+      ],
+      "finding": "More ADP stimulates mitochondrial oxygen consumption, oxidative phosphorylation and ATP regeneration. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    },
+    {
+      "id": "oxidative-phosphorylation-demand-reference-f02",
+      "cardId": "oxidative-phosphorylation-demand-reference",
+      "decision": "accepted",
+      "sourceRefs": [
+        {
+          "lectureId": "oxidative-phosphorylation",
+          "pdfPage": 20
+        }
+      ],
+      "pageImagesInspected": [
+        20
+      ],
+      "finding": "ATP-producing pathways accelerate with ATP/NADH consumption and ADP, AMP, Pi and NAD+ formation. Verified in the stated page text/diagram; no unselected table-only fact used.",
+      "sourceChecked": true,
+      "scopeChecked": true,
+      "conceptReferencesChecked": true
+    }
+  ],
+  "summary": {
+    "inputCandidates": 41,
+    "accepted": 32,
+    "removed": 9,
+    "types": {
+      "mcq": 27,
+      "match": 4,
+      "order": 1
+    },
+    "acceptedCards": 9,
+    "acceptedFacts": 28,
+    "coverageDeferrals": 11,
+    "scoredMeaningChangedIds": [
+      "oxidative-phosphorylation-coordinated-energy-demand"
+    ],
+    "antigravityChecked": false,
+    "claudeReviewed": false
+  },
+  "notVerified": [
+    "Antigravity has checked no items or facts.",
+    "Claude has performed no final review.",
+    "No bank build, app/browser check or physical-device check performed by this checker."
+  ]
+}

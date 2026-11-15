@@ -1,0 +1,633 @@
+{
+  "lectureId": "oxidative-phosphorylation",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "title": "Course cover",
+      "kind": "cover",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Course cover"
+      ],
+      "concepts": [],
+      "uncertainties": [],
+      "text": "                                     Dr. Osama Essawi 2025\n                Metabolic\n          Biochemistry\n\n\n            Dr.Osama    Essawi\n           Faculty of Medicine\nDepartment of Biochemistry & Molecular\n                 Biology\n         Metabolic Biochemistry\n             Course Number\n                 6105212",
+      "figureAndTableDetails": ""
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "title": "Oxidative Phosphorylation — Chapter 19",
+      "kind": "divider",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Oxidative Phosphorylation — Chapter 19"
+      ],
+      "concepts": [],
+      "uncertainties": [],
+      "text": "                                                          Dr. Osama Essawi 2025\n\n      Oxidative\nPhosphorylation\n\n\n\n\n\n\n\n\n           Chapter 19",
+      "figureAndTableDetails": ""
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "title": "Energy from reduced fuels",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Energy from reduced fuels"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-reduced-fuels",
+          "label": "Reduced fuels and reduced cofactors",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n\nEnergy from Reduced Fuels Is Used to Synthesize\nATP in Animals\n\n\n ⬣    Carbohydrates, lipids, and amino\n      acids are the main reduced fuels\n      for the cell.\n\n ⬣    Electrons from reduced fuels are\n      transferred to reduced cofactors\n      NADH or FADH2.\n\n ⬣    Oxidative phosphorylation\n      occurs in mitochondria, where\n      the energy from NADH and\n      FADH2 is used to make ATP.\n\nFigure: Stage 3 electron transfer and oxidative phosphorylation. NADH and FADH2 (reduced electron carriers) supply electrons to the respiratory chain. 2H+ + 1/2 O2 becomes H2O; ADP + Pi becomes ATP."
+        },
+        {
+          "id": "oxidative-phosphorylation-mitochondrial-atp",
+          "label": "Mitochondrial ATP production",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n\nEnergy from Reduced Fuels Is Used to Synthesize\nATP in Animals\n\n\n ⬣    Carbohydrates, lipids, and amino\n      acids are the main reduced fuels\n      for the cell.\n\n ⬣    Electrons from reduced fuels are\n      transferred to reduced cofactors\n      NADH or FADH2.\n\n ⬣    Oxidative phosphorylation\n      occurs in mitochondria, where\n      the energy from NADH and\n      FADH2 is used to make ATP.\n\nFigure: Stage 3 electron transfer and oxidative phosphorylation. NADH and FADH2 (reduced electron carriers) supply electrons to the respiratory chain. 2H+ + 1/2 O2 becomes H2O; ADP + Pi becomes ATP."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                       Dr. Osama Essawi 2025\n\nEnergy from Reduced Fuels Is Used to Synthesize\nATP in Animals\n\n\n ⬣    Carbohydrates, lipids, and amino\n      acids are the main reduced fuels\n      for the cell.\n\n ⬣    Electrons from reduced fuels are\n      transferred to reduced cofactors\n      NADH or FADH2.\n\n ⬣    Oxidative phosphorylation\n      occurs in mitochondria, where\n      the energy from NADH and\n      FADH2 is used to make ATP.",
+      "figureAndTableDetails": "Figure: Stage 3 electron transfer and oxidative phosphorylation. NADH and FADH2 (reduced electron carriers) supply electrons to the respiratory chain. 2H+ + 1/2 O2 becomes H2O; ADP + Pi becomes ATP."
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "title": "Structure of a mitochondrion",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Structure of a mitochondrion"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-membranes",
+          "label": "Outer and inner membrane permeability",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n\n              Structure of a Mitochondrion\n\n\n⬣    Outer membrane\n            – Relatively porous membrane; allows passage of metabolites\n\n⬣    Inner membrane\n            – Relatively impermeable, with proton gradient across it\n            – Location of electron transport chain complexes\n            – Convolutions called cristae serve to increase the surface area.\n\n⬣    Intermembrane space (IMS)\n            - Similar environment to cytosol\n            - Higher proton concentration ( lower pH)\n⬣    Matrix\n            – Location of the citric acid cycle and parts of lipid and amino acid\n            metabolism\n            – Lower proton concentration (higher pH)\n\nFigure labels: outer membrane freely permeable to small molecules and ions; inner membrane impermeable to most small molecules and ions, including H+. Inner membrane contains respiratory electron carriers (Complexes I–IV), ADP–ATP translocase, ATP synthase (FoF1), other membrane transporters. Cristae, ribosomes, porin channels. Matrix contains pyruvate dehydrogenase complex, citric acid cycle enzymes, fatty acid β-oxidation enzymes, amino acid oxidation enzymes, DNA, ribosomes, many other enzymes, ATP, ADP, Pi, Mg2+, Ca2+, K+, many soluble metabolic intermediates."
+        },
+        {
+          "id": "oxidative-phosphorylation-compartments",
+          "label": "Matrix versus intermembrane space",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n\n              Structure of a Mitochondrion\n\n\n⬣    Outer membrane\n            – Relatively porous membrane; allows passage of metabolites\n\n⬣    Inner membrane\n            – Relatively impermeable, with proton gradient across it\n            – Location of electron transport chain complexes\n            – Convolutions called cristae serve to increase the surface area.\n\n⬣    Intermembrane space (IMS)\n            - Similar environment to cytosol\n            - Higher proton concentration ( lower pH)\n⬣    Matrix\n            – Location of the citric acid cycle and parts of lipid and amino acid\n            metabolism\n            – Lower proton concentration (higher pH)\n\nFigure labels: outer membrane freely permeable to small molecules and ions; inner membrane impermeable to most small molecules and ions, including H+. Inner membrane contains respiratory electron carriers (Complexes I–IV), ADP–ATP translocase, ATP synthase (FoF1), other membrane transporters. Cristae, ribosomes, porin channels. Matrix contains pyruvate dehydrogenase complex, citric acid cycle enzymes, fatty acid β-oxidation enzymes, amino acid oxidation enzymes, DNA, ribosomes, many other enzymes, ATP, ADP, Pi, Mg2+, Ca2+, K+, many soluble metabolic intermediates."
+        },
+        {
+          "id": "oxidative-phosphorylation-cristae",
+          "label": "Cristae increase membrane surface area",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n\n              Structure of a Mitochondrion\n\n\n⬣    Outer membrane\n            – Relatively porous membrane; allows passage of metabolites\n\n⬣    Inner membrane\n            – Relatively impermeable, with proton gradient across it\n            – Location of electron transport chain complexes\n            – Convolutions called cristae serve to increase the surface area.\n\n⬣    Intermembrane space (IMS)\n            - Similar environment to cytosol\n            - Higher proton concentration ( lower pH)\n⬣    Matrix\n            – Location of the citric acid cycle and parts of lipid and amino acid\n            metabolism\n            – Lower proton concentration (higher pH)\n\nFigure labels: outer membrane freely permeable to small molecules and ions; inner membrane impermeable to most small molecules and ions, including H+. Inner membrane contains respiratory electron carriers (Complexes I–IV), ADP–ATP translocase, ATP synthase (FoF1), other membrane transporters. Cristae, ribosomes, porin channels. Matrix contains pyruvate dehydrogenase complex, citric acid cycle enzymes, fatty acid β-oxidation enzymes, amino acid oxidation enzymes, DNA, ribosomes, many other enzymes, ATP, ADP, Pi, Mg2+, Ca2+, K+, many soluble metabolic intermediates."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                                         Dr. Osama Essawi 2025\n\n              Structure of a Mitochondrion\n\n\n⬣    Outer membrane\n            – Relatively porous membrane; allows passage of metabolites\n\n⬣    Inner membrane\n            – Relatively impermeable, with proton gradient across it\n            – Location of electron transport chain complexes\n            – Convolutions called cristae serve to increase the surface area.\n\n⬣    Intermembrane space (IMS)\n            - Similar environment to cytosol\n            - Higher proton concentration ( lower pH)\n⬣    Matrix\n            – Location of the citric acid cycle and parts of lipid and amino acid\n            metabolism\n            – Lower proton concentration (higher pH)",
+      "figureAndTableDetails": "Figure labels: outer membrane freely permeable to small molecules and ions; inner membrane impermeable to most small molecules and ions, including H+. Inner membrane contains respiratory electron carriers (Complexes I–IV), ADP–ATP translocase, ATP synthase (FoF1), other membrane transporters. Cristae, ribosomes, porin channels. Matrix contains pyruvate dehydrogenase complex, citric acid cycle enzymes, fatty acid β-oxidation enzymes, amino acid oxidation enzymes, DNA, ribosomes, many other enzymes, ATP, ADP, Pi, Mg2+, Ca2+, K+, many soluble metabolic intermediates."
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "title": "Universal electron acceptors",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Universal electron acceptors"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-nicotinamide",
+          "label": "Nicotinamide hydride transfer",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nElectrons Are Funneled to Universal Electron Acceptors\n\n              ⬣    Dehydrogenases collect electrons from catabolic pathways and funnel them into\n                   universal electron acceptors:\n\n              1- Nicotinamide nucleotides (NAD+ or NADP+)\n                     - Catalyze reversible reactions of the general type:\n                     reduced substrate + NAD+        ⇄   oxidized substrate + NADH + H+\n                     - Two hydrogen atoms are removed from the substrates:\n                                One is transferred as a hydride ion (:H-) to NAD(P)+\n                                One is released as H+ in the medium\n\n              2- Flavin nucleotides (FMN or FAD)\n                      -The oxidized flavin   nucleotide can accept either:\n                         One electron (yielding the semiquinone        form) or\n                         Two electrons (yielding FADH2 or FMNH2)\n\n"
+        },
+        {
+          "id": "oxidative-phosphorylation-flavin",
+          "label": "Flavin one- and two-electron acceptance",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nElectrons Are Funneled to Universal Electron Acceptors\n\n              ⬣    Dehydrogenases collect electrons from catabolic pathways and funnel them into\n                   universal electron acceptors:\n\n              1- Nicotinamide nucleotides (NAD+ or NADP+)\n                     - Catalyze reversible reactions of the general type:\n                     reduced substrate + NAD+        ⇄   oxidized substrate + NADH + H+\n                     - Two hydrogen atoms are removed from the substrates:\n                                One is transferred as a hydride ion (:H-) to NAD(P)+\n                                One is released as H+ in the medium\n\n              2- Flavin nucleotides (FMN or FAD)\n                      -The oxidized flavin   nucleotide can accept either:\n                         One electron (yielding the semiquinone        form) or\n                         Two electrons (yielding FADH2 or FMNH2)\n\n"
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                                  Dr. Osama Essawi 2025\nElectrons Are Funneled to Universal Electron Acceptors\n\n              ⬣    Dehydrogenases collect electrons from catabolic pathways and funnel them into\n                   universal electron acceptors:\n\n              1- Nicotinamide nucleotides (NAD+ or NADP+)\n                     - Catalyze reversible reactions of the general type:\n                     reduced substrate + NAD+        ⇄   oxidized substrate + NADH + H+\n                     - Two hydrogen atoms are removed from the substrates:\n                                One is transferred as a hydride ion (:H-) to NAD(P)+\n                                One is released as H+ in the medium\n\n              2- Flavin nucleotides (FMN or FAD)\n                      -The oxidized flavin   nucleotide can accept either:\n                         One electron (yielding the semiquinone        form) or\n                         Two electrons (yielding FADH2 or FMNH2)",
+      "figureAndTableDetails": ""
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "title": "Electron-carrying molecules",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Electron-carrying molecules"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-transfer-types",
+          "label": "Electron, hydrogen atom and hydride transfer",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nElectrons –              carrying molecules of the Respiratory chain\n\n              ⬣    Oxidative phosphorylation begins with the entry of electrons into the series of electron\n                   carriers called the respiratory chain\n\n              ⬣    Three types of electron transfers occur in oxidative phosphorylation:\n\n                           - Direct transfer of electrons\n                           -Transfer as a hydrogen atom (H+ + e−)\n                           -Transfer as a hydride ion (:H−), which bears two electrons.\n\n              ⬣    The respiratory chain contains five types of electron-carrying molecules\n\n                      -    Nicotinamide nucleotide (NAD+       or NADP+)\n                      -    Flavin nucleotide or Flavoproteins      (FMN or FAD)\n                      -    Ubiquinone (coenzyme Q or Q)\n                      -    Cytochromes\n                      -    Iron-sulfur proteins\n\n"
+        },
+        {
+          "id": "oxidative-phosphorylation-carrier-classes",
+          "label": "Five respiratory carrier classes",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nElectrons –              carrying molecules of the Respiratory chain\n\n              ⬣    Oxidative phosphorylation begins with the entry of electrons into the series of electron\n                   carriers called the respiratory chain\n\n              ⬣    Three types of electron transfers occur in oxidative phosphorylation:\n\n                           - Direct transfer of electrons\n                           -Transfer as a hydrogen atom (H+ + e−)\n                           -Transfer as a hydride ion (:H−), which bears two electrons.\n\n              ⬣    The respiratory chain contains five types of electron-carrying molecules\n\n                      -    Nicotinamide nucleotide (NAD+       or NADP+)\n                      -    Flavin nucleotide or Flavoproteins      (FMN or FAD)\n                      -    Ubiquinone (coenzyme Q or Q)\n                      -    Cytochromes\n                      -    Iron-sulfur proteins\n\n"
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                                    Dr. Osama Essawi 2025\nElectrons –              carrying molecules of the Respiratory chain\n\n              ⬣    Oxidative phosphorylation begins with the entry of electrons into the series of electron\n                   carriers called the respiratory chain\n\n              ⬣    Three types of electron transfers occur in oxidative phosphorylation:\n\n                           - Direct transfer of electrons\n                           -Transfer as a hydrogen atom (H+ + e−)\n                           -Transfer as a hydride ion (:H−), which bears two electrons.\n\n              ⬣    The respiratory chain contains five types of electron-carrying molecules\n\n                      -    Nicotinamide nucleotide (NAD+       or NADP+)\n                      -    Flavin nucleotide or Flavoproteins      (FMN or FAD)\n                      -    Ubiquinone (coenzyme Q or Q)\n                      -    Cytochromes\n                      -    Iron-sulfur proteins",
+      "figureAndTableDetails": ""
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "title": "Standard reduction potentials",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Standard reduction potentials"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-reduction-potentials-table",
+          "label": "Reduction potentials — source table 9",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\nStandard        Reduction Potentials of Individual Electron Carriers\n\n   Table 19-2 Standard Reduction Potentials of Respiratory Chain and\n   Related Electron Carriers\n   Redox reaction (half-reaction)                                                   E′° (V)\n   2H+ + 2e−→H2                                                                     −0.414\n   NAD+  + H+ + 2e−→NADH                                                            −0.320\n   NADP+   + H+ + 2e−→NADPH                                                         −0.324\n   NADH dehydrogenase (FMN) + 2H+       + 2e−→NADH dehydrogenase (FMNH2)            −0.30\n   Ubiquinone + 2H+   + 2e−→ubiquinol                                               0.045\n   Cytochrome b   (Fe3+) + e−→cytochrome b (Fe2+)                                   0.077\n   Cytochrome c1  (Fe3+) + e−→cytochrome c1    (Fe2+)                               0.22\n   Cytochrome c   (Fe3+) + e−→cytochrome c (Fe2+)                                   0.254\n   Cytochrome a   (Fe3+) + e−→cytochrome a (Fe2+)                                   0.29\n   Cytochrome a3   (Fe3+) + e−→cytochrome a3   (Fe2+)                               0.35\n   ½ O2  + 2H+ + 2e−→H2O                                                            0.817\n\nTable 19-2 Standard Reduction Potentials of Respiratory Chain and Related Electron Carriers. Values in V.\n| Redox half-reaction | E′° (V) |\n| --- | ---: |\n| 2H+ + 2e− → H2 | −0.414 |\n| NAD+ + H+ + 2e− → NADH | −0.320 |\n| NADP+ + H+ + 2e− → NADPH | −0.324 |\n| NADH dehydrogenase (FMN) + 2H+ + 2e− → NADH dehydrogenase (FMNH2) | −0.30 |\n| Ubiquinone + 2H+ + 2e− → ubiquinol | 0.045 |\n| Cytochrome b (Fe3+) + e− → cytochrome b (Fe2+) | 0.077 |\n| Cytochrome c1 (Fe3+) + e− → cytochrome c1 (Fe2+) | 0.22 |\n| Cytochrome c (Fe3+) + e− → cytochrome c (Fe2+) | 0.254 |\n| Cytochrome a (Fe3+) + e− → cytochrome a (Fe2+) | 0.29 |\n| Cytochrome a3 (Fe3+) + e− → cytochrome a3 (Fe2+) | 0.35 |\n| 1/2 O2 + 2H+ + 2e− → H2O | 0.817 |"
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                               Dr. Osama Essawi 2025\nStandard        Reduction Potentials of Individual Electron Carriers\n\n   Table 19-2 Standard Reduction Potentials of Respiratory Chain and\n   Related Electron Carriers\n   Redox reaction (half-reaction)                                                   E′° (V)\n   2H+ + 2e−→H2                                                                     −0.414\n   NAD+  + H+ + 2e−→NADH                                                            −0.320\n   NADP+   + H+ + 2e−→NADPH                                                         −0.324\n   NADH dehydrogenase (FMN) + 2H+       + 2e−→NADH dehydrogenase (FMNH2)            −0.30\n   Ubiquinone + 2H+   + 2e−→ubiquinol                                               0.045\n   Cytochrome b   (Fe3+) + e−→cytochrome b (Fe2+)                                   0.077\n   Cytochrome c1  (Fe3+) + e−→cytochrome c1    (Fe2+)                               0.22\n   Cytochrome c   (Fe3+) + e−→cytochrome c (Fe2+)                                   0.254\n   Cytochrome a   (Fe3+) + e−→cytochrome a (Fe2+)                                   0.29\n   Cytochrome a3   (Fe3+) + e−→cytochrome a3   (Fe2+)                               0.35\n   ½ O2  + 2H+ + 2e−→H2O                                                            0.817",
+      "figureAndTableDetails": "Table 19-2 Standard Reduction Potentials of Respiratory Chain and Related Electron Carriers. Values in V.\n| Redox half-reaction | E′° (V) |\n| --- | ---: |\n| 2H+ + 2e− → H2 | −0.414 |\n| NAD+ + H+ + 2e− → NADH | −0.320 |\n| NADP+ + H+ + 2e− → NADPH | −0.324 |\n| NADH dehydrogenase (FMN) + 2H+ + 2e− → NADH dehydrogenase (FMNH2) | −0.30 |\n| Ubiquinone + 2H+ + 2e− → ubiquinol | 0.045 |\n| Cytochrome b (Fe3+) + e− → cytochrome b (Fe2+) | 0.077 |\n| Cytochrome c1 (Fe3+) + e− → cytochrome c1 (Fe2+) | 0.22 |\n| Cytochrome c (Fe3+) + e− → cytochrome c (Fe2+) | 0.254 |\n| Cytochrome a (Fe3+) + e− → cytochrome a (Fe2+) | 0.29 |\n| Cytochrome a3 (Fe3+) + e− → cytochrome a3 (Fe2+) | 0.35 |\n| 1/2 O2 + 2H+ + 2e− → H2O | 0.817 |"
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "title": "Respiratory-chain protein components",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Respiratory-chain protein components"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-complex-routes",
+          "label": "Four complexes and electron routes",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nProtein Components of the Mitochondrial Respiratory Chain\n\n     ⬣    Four unique electron-carrier complexes catalyze electron transfer through a portion of the chain:\n\n                 -Complex I (from NADH to ubiquinone)\n                 -Complex II (from succinate to ubiquinone)\n                 -Complex III (from ubiquinone to cytochrome c)\n                 -Complex IV (from cytochrome c to O2)\n\nTable 19-3 The Protein Components of the Mitochondrial Respiratory Chain.\n| Enzyme complex/protein | Mass (kDa) | Number of subunits | Prosthetic group(s) |\n| --- | ---: | --- | --- |\n| I NADH dehydrogenase | 850 | 45 (14) | FMN, Fe-S |\n| II Succinate dehydrogenase | 140 | 4 | FAD, Fe-S |\n| III Ubiquinone: cytochrome c oxidoreductase | 250 | 11 | Hemes, Fe-S |\n| Cytochrome c | 13 | 1 | Heme |\n| IV Cytochrome oxidase | 204 | 13 (3–4) | Hemes; CuA, CuB |\nParenthetical subunit counts are preserved as printed; this slide does not explain the parentheses."
+        },
+        {
+          "id": "oxidative-phosphorylation-protein-components-table",
+          "label": "Protein components — source table 10",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\nProtein Components of the Mitochondrial Respiratory Chain\n\n     ⬣    Four unique electron-carrier complexes catalyze electron transfer through a portion of the chain:\n\n                 -Complex I (from NADH to ubiquinone)\n                 -Complex II (from succinate to ubiquinone)\n                 -Complex III (from ubiquinone to cytochrome c)\n                 -Complex IV (from cytochrome c to O2)\n\nTable 19-3 The Protein Components of the Mitochondrial Respiratory Chain.\n| Enzyme complex/protein | Mass (kDa) | Number of subunits | Prosthetic group(s) |\n| --- | ---: | --- | --- |\n| I NADH dehydrogenase | 850 | 45 (14) | FMN, Fe-S |\n| II Succinate dehydrogenase | 140 | 4 | FAD, Fe-S |\n| III Ubiquinone: cytochrome c oxidoreductase | 250 | 11 | Hemes, Fe-S |\n| Cytochrome c | 13 | 1 | Heme |\n| IV Cytochrome oxidase | 204 | 13 (3–4) | Hemes; CuA, CuB |\nParenthetical subunit counts are preserved as printed; this slide does not explain the parentheses."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U01",
+          "description": "Parenthetical subunit counts in Table19-3 are not explained on this slide; preserve but do not infer their organism/scope.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                                                             Dr. Osama Essawi 2025\nProtein Components of the Mitochondrial Respiratory Chain\n\n     ⬣    Four unique electron-carrier complexes catalyze electron transfer through a portion of the chain:\n\n                 -Complex I (from NADH to ubiquinone)\n                 -Complex II (from succinate to ubiquinone)\n                 -Complex III (from ubiquinone to cytochrome c)\n                 -Complex IV (from cytochrome c to O2)",
+      "figureAndTableDetails": "Table 19-3 The Protein Components of the Mitochondrial Respiratory Chain.\n| Enzyme complex/protein | Mass (kDa) | Number of subunits | Prosthetic group(s) |\n| --- | ---: | --- | --- |\n| I NADH dehydrogenase | 850 | 45 (14) | FMN, Fe-S |\n| II Succinate dehydrogenase | 140 | 4 | FAD, Fe-S |\n| III Ubiquinone: cytochrome c oxidoreductase | 250 | 11 | Hemes, Fe-S |\n| Cytochrome c | 13 | 1 | Heme |\n| IV Cytochrome oxidase | 204 | 13 (3–4) | Hemes; CuA, CuB |\nParenthetical subunit counts are preserved as printed; this slide does not explain the parentheses."
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "title": "Respiratory chain and proton pumping",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Respiratory chain and proton pumping"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-proton-pumping",
+          "label": "Proton pumping at complexes I, III and IV",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nThe respiratory chain / Electron transfer chain (ETC)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                         For each pair of electrons transferred\n                                                         to O2, 10 protons are pumped out\n\nFigure: intermembrane space (P side) above and matrix (N side) below. NADH + H+ → NAD+ donates 2e− at I; I pumps 4H+. Succinate → fumarate at II; Q/QH2 transfers to III. III pumps 4H+, cytochrome c (2×) transfers electrons to IV, IV pumps 2H+. At IV: 2H+ + 1/2 O2 → H2O. Printed statement says 10 protons pumped out for each pair of electrons transferred to O2; diagram distinguishes the NADH route and succinate entry bypassing I."
+        },
+        {
+          "id": "oxidative-phosphorylation-ten-protons-generalization",
+          "label": "Unqualified ten-proton statement",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\nThe respiratory chain / Electron transfer chain (ETC)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                         For each pair of electrons transferred\n                                                         to O2, 10 protons are pumped out\n\nFigure: intermembrane space (P side) above and matrix (N side) below. NADH + H+ → NAD+ donates 2e− at I; I pumps 4H+. Succinate → fumarate at II; Q/QH2 transfers to III. III pumps 4H+, cytochrome c (2×) transfers electrons to IV, IV pumps 2H+. At IV: 2H+ + 1/2 O2 → H2O. Printed statement says 10 protons pumped out for each pair of electrons transferred to O2; diagram distinguishes the NADH route and succinate entry bypassing I."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U02",
+          "description": "The prose says ten protons per electron pair to O2 without naming entry; figure shows I bypass at succinate entry. Block unqualified statement; assess only a clearly specified NADH route or labelled individual pumps.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                                       Dr. Osama Essawi 2025\nThe respiratory chain / Electron transfer chain (ETC)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                         For each pair of electrons transferred\n                                                         to O2, 10 protons are pumped out",
+      "figureAndTableDetails": "Figure: intermembrane space (P side) above and matrix (N side) below. NADH + H+ → NAD+ donates 2e− at I; I pumps 4H+. Succinate → fumarate at II; Q/QH2 transfers to III. III pumps 4H+, cytochrome c (2×) transfers electrons to IV, IV pumps 2H+. At IV: 2H+ + 1/2 O2 → H2O. Printed statement says 10 protons pumped out for each pair of electrons transferred to O2; diagram distinguishes the NADH route and succinate entry bypassing I."
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "title": "Electron flow through the four complexes",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Electron flow through the four complexes"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-electron-flow",
+          "label": "Converging electron entry and mobile carriers",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nSummary of the flow of electrons and protons through\n       the four complexes of the respiratory chain.\n\nFigure: NADH + H+ → NAD+ at NADH dehydrogenase (FMN, Fe-S), Complex I. Succinate → fumarate at succinate dehydrogenase (FAD, Fe-S), Complex II. Both feed CoQ/CoQH2. Complex III contains cytochrome b, Fe-S, cytochrome c1 (cytochrome bc1); cytochrome c transfers to Complex IV containing CuA, cytochrome a, CuB–cytochrome a3 (cytochrome a + a3). At IV 1/2 O2 → H2O."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                    Dr. Osama Essawi 2025\nSummary of the flow of electrons and protons through\n       the four complexes of the respiratory chain.",
+      "figureAndTableDetails": "Figure: NADH + H+ → NAD+ at NADH dehydrogenase (FMN, Fe-S), Complex I. Succinate → fumarate at succinate dehydrogenase (FAD, Fe-S), Complex II. Both feed CoQ/CoQH2. Complex III contains cytochrome b, Fe-S, cytochrome c1 (cytochrome bc1); cytochrome c transfers to Complex IV containing CuA, cytochrome a, CuB–cytochrome a3 (cytochrome a + a3). At IV 1/2 O2 → H2O."
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "title": "ATP synthesis",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "ATP synthesis"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-atp-synthase",
+          "label": "Fo/F1 ATP synthase and proton return",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n    ATP Synthesis\n\n\n\n⬣   The higher negative charge in the matrix attracts the\n    protons (H+) back from the intermembrane space to\n    the matrix.\n⬣   ATP synthase is a membrane-bound F-type ATPase                                          F1\n    that contains two functional units Fo       and F1\n\n\n⬣   ATP synthase allows the reverse movement of most\n    of the protons back to the matrix, and uses         the\n    energy of the proton gradient to synthesize ATP                                          Fo\n    from ADP + Pi.\n\n\n⬣   Estimated passage of 4 protons (H+) per ATP\n    synthesized\n\nFigure labels: N side, P side, Fo, F1, α and β subunits, γ, δ, ε, b2, a, c10. H+ passes through Fo; red rotation arrows are drawn. F1 is on the N/matrix side; ADP + Pi → ATP is indicated there. Subunit labels are preserved without inventing detailed functions."
+        },
+        {
+          "id": "oxidative-phosphorylation-proton-cost",
+          "label": "Estimated four protons per ATP",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n    ATP Synthesis\n\n\n\n⬣   The higher negative charge in the matrix attracts the\n    protons (H+) back from the intermembrane space to\n    the matrix.\n⬣   ATP synthase is a membrane-bound F-type ATPase                                          F1\n    that contains two functional units Fo       and F1\n\n\n⬣   ATP synthase allows the reverse movement of most\n    of the protons back to the matrix, and uses         the\n    energy of the proton gradient to synthesize ATP                                          Fo\n    from ADP + Pi.\n\n\n⬣   Estimated passage of 4 protons (H+) per ATP\n    synthesized\n\nFigure labels: N side, P side, Fo, F1, α and β subunits, γ, δ, ε, b2, a, c10. H+ passes through Fo; red rotation arrows are drawn. F1 is on the N/matrix side; ADP + Pi → ATP is indicated there. Subunit labels are preserved without inventing detailed functions."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                          Dr. Osama Essawi 2025\n    ATP Synthesis\n\n\n\n⬣   The higher negative charge in the matrix attracts the\n    protons (H+) back from the intermembrane space to\n    the matrix.\n⬣   ATP synthase is a membrane-bound F-type ATPase                                          F1\n    that contains two functional units Fo       and F1\n\n\n⬣   ATP synthase allows the reverse movement of most\n    of the protons back to the matrix, and uses         the\n    energy of the proton gradient to synthesize ATP                                          Fo\n    from ADP + Pi.\n\n\n⬣   Estimated passage of 4 protons (H+) per ATP\n    synthesized",
+      "figureAndTableDetails": "Figure labels: N side, P side, Fo, F1, α and β subunits, γ, δ, ε, b2, a, c10. H+ passes through Fo; red rotation arrows are drawn. F1 is on the N/matrix side; ADP + Pi → ATP is indicated there. Subunit labels are preserved without inventing detailed functions."
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "title": "Chemiosmotic model",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Chemiosmotic model"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-proton-motive-force",
+          "label": "Chemical and electrical proton-motive force",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n    Chemiosmotic                  Model for ATP Synthesis\n\n⬣   Electron transport sets up a proton-motive force.\n⬣   Energy of proton-motive force drives synthesis of ATP.\n\nFigure: I pumps 4H+, III 4H+, IV 2H+ from matrix (N side) to intermembrane space (P side); II receives succinate/fumarate, Q/QH2 and Cyt c transfer electrons. ATP synthase Fo spans membrane and F1 projects into matrix; nH+ returns and ADP + Pi → ATP. Proton-motive force = chemical potential ΔpH (inside alkaline) + electrical potential Δψ (inside negative)."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                     Dr. Osama Essawi 2025\n    Chemiosmotic                  Model for ATP Synthesis\n\n⬣   Electron transport sets up a proton-motive force.\n⬣   Energy of proton-motive force drives synthesis of ATP.",
+      "figureAndTableDetails": "Figure: I pumps 4H+, III 4H+, IV 2H+ from matrix (N side) to intermembrane space (P side); II receives succinate/fumarate, Q/QH2 and Cyt c transfer electrons. ATP synthase Fo spans membrane and F1 projects into matrix; nH+ returns and ADP + Pi → ATP. Proton-motive force = chemical potential ΔpH (inside alkaline) + electrical potential Δψ (inside negative)."
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "title": "Coupling of electron transfer and ATP synthesis",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Coupling of electron transfer and ATP synthesis"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-coupling",
+          "label": "Coupling of electron transfer and ATP synthesis",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nCoupling of Electron Transfer and ATP Synthesis in Mitochondria\n\n\n⬣   Electron transport is coupled to ATP synthesis and vise versa.\n\n⬣   Inhibitors of electron transfer block ATP synthesis\n\n⬣   Inhibitors of ATP synthesis block electron transfer\n\nGraphs plot time versus O2 consumption (black) and ATP synthesis (red). Left: adding ADP + Pi and succinate raises both; CN− addition stops both. Right: adding succinate then ADP + Pi raises both; venturicidin or oligomycin addition stops both; DNP addition restarts O2 consumption while ATP synthesis stays flat, labelled uncoupled. No numeric axes are given."
+        },
+        {
+          "id": "oxidative-phosphorylation-uncoupling-graph",
+          "label": "Uncoupling separates oxygen consumption from ATP synthesis",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nCoupling of Electron Transfer and ATP Synthesis in Mitochondria\n\n\n⬣   Electron transport is coupled to ATP synthesis and vise versa.\n\n⬣   Inhibitors of electron transfer block ATP synthesis\n\n⬣   Inhibitors of ATP synthesis block electron transfer\n\nGraphs plot time versus O2 consumption (black) and ATP synthesis (red). Left: adding ADP + Pi and succinate raises both; CN− addition stops both. Right: adding succinate then ADP + Pi raises both; venturicidin or oligomycin addition stops both; DNP addition restarts O2 consumption while ATP synthesis stays flat, labelled uncoupled. No numeric axes are given."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                            Dr. Osama Essawi 2025\nCoupling of Electron Transfer and ATP Synthesis in Mitochondria\n\n\n⬣   Electron transport is coupled to ATP synthesis and vise versa.\n\n⬣   Inhibitors of electron transfer block ATP synthesis\n\n⬣   Inhibitors of ATP synthesis block electron transfer",
+      "figureAndTableDetails": "Graphs plot time versus O2 consumption (black) and ATP synthesis (red). Left: adding ADP + Pi and succinate raises both; CN− addition stops both. Right: adding succinate then ADP + Pi raises both; venturicidin or oligomycin addition stops both; DNP addition restarts O2 consumption while ATP synthesis stays flat, labelled uncoupled. No numeric axes are given."
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "title": "Agents that interfere with oxidative phosphorylation",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Agents that interfere with oxidative phosphorylation"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-interference-table",
+          "label": "Inhibitors and uncouplers — source table 11",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nAgents that Inhibit Oxidative Phosphorylation\n\nTable 19-4 Agents That Interfere with Oxidative Phosphorylation.\n| Type of interference | Compound | Target/mode of action as printed |\n| --- | --- | --- |\n| Inhibition of electron transfer | Cyanide; carbon monoxide | Inhibit cytochrome oxidase |\n| Inhibition of electron transfer | Antimycin A | Blocks electron transfer from cytochrome b to cytochrome c1 |\n| Inhibition of electron transfer | Myxothiazol; rotenone; amytal; piericidin A | Bracket groups these as preventing electron transfer from Fe-S center to ubiquinone |\n| Inhibition of ATP synthase | Aurovertin | Inhibit F1 |\n| Inhibition of ATP synthase | Oligomycin; venturicidin | Inhibit Fo |\n| Inhibition of ATP synthase | DCCD | Blocks proton flow through Fo |\n| Uncoupling of phosphorylation from electron transfer | FCCP; DNP | Hydrophobic proton carriers |\n| Uncoupling of phosphorylation from electron transfer | Valinomycin | K+ ionophore |\n| Uncoupling of phosphorylation from electron transfer | Uncoupling protein 1 | In brown adipose tissue, forms proton-conducting pores in inner mitochondrial membrane |\n| Inhibition of ATP–ADP exchange | Atractyloside | Inhibits adenine nucleotide translocase |\nFootnote: DCCD, dicyclohexylcarbodiimide; FCCP, cyanide-p-trifluoromethoxyphenylhydrazone; DNP, 2,4-dinitrophenol. The printed group containing myxothiazol is preserved rather than repaired."
+        },
+        {
+          "id": "oxidative-phosphorylation-myxothiazol-grouping",
+          "label": "Printed myxothiazol target grouping",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\nAgents that Inhibit Oxidative Phosphorylation\n\nTable 19-4 Agents That Interfere with Oxidative Phosphorylation.\n| Type of interference | Compound | Target/mode of action as printed |\n| --- | --- | --- |\n| Inhibition of electron transfer | Cyanide; carbon monoxide | Inhibit cytochrome oxidase |\n| Inhibition of electron transfer | Antimycin A | Blocks electron transfer from cytochrome b to cytochrome c1 |\n| Inhibition of electron transfer | Myxothiazol; rotenone; amytal; piericidin A | Bracket groups these as preventing electron transfer from Fe-S center to ubiquinone |\n| Inhibition of ATP synthase | Aurovertin | Inhibit F1 |\n| Inhibition of ATP synthase | Oligomycin; venturicidin | Inhibit Fo |\n| Inhibition of ATP synthase | DCCD | Blocks proton flow through Fo |\n| Uncoupling of phosphorylation from electron transfer | FCCP; DNP | Hydrophobic proton carriers |\n| Uncoupling of phosphorylation from electron transfer | Valinomycin | K+ ionophore |\n| Uncoupling of phosphorylation from electron transfer | Uncoupling protein 1 | In brown adipose tissue, forms proton-conducting pores in inner mitochondrial membrane |\n| Inhibition of ATP–ADP exchange | Atractyloside | Inhibits adenine nucleotide translocase |\nFootnote: DCCD, dicyclohexylcarbodiimide; FCCP, cyanide-p-trifluoromethoxyphenylhydrazone; DNP, 2,4-dinitrophenol. The printed group containing myxothiazol is preserved rather than repaired."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U03",
+          "description": "Table groups myxothiazol with Fe-S-to-ubiquinone blockers. Preserve exact grouping and defer target mapping rather than repair it from external knowledge.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                           Dr. Osama Essawi 2025\nAgents that Inhibit Oxidative Phosphorylation",
+      "figureAndTableDetails": "Table 19-4 Agents That Interfere with Oxidative Phosphorylation.\n| Type of interference | Compound | Target/mode of action as printed |\n| --- | --- | --- |\n| Inhibition of electron transfer | Cyanide; carbon monoxide | Inhibit cytochrome oxidase |\n| Inhibition of electron transfer | Antimycin A | Blocks electron transfer from cytochrome b to cytochrome c1 |\n| Inhibition of electron transfer | Myxothiazol; rotenone; amytal; piericidin A | Bracket groups these as preventing electron transfer from Fe-S center to ubiquinone |\n| Inhibition of ATP synthase | Aurovertin | Inhibit F1 |\n| Inhibition of ATP synthase | Oligomycin; venturicidin | Inhibit Fo |\n| Inhibition of ATP synthase | DCCD | Blocks proton flow through Fo |\n| Uncoupling of phosphorylation from electron transfer | FCCP; DNP | Hydrophobic proton carriers |\n| Uncoupling of phosphorylation from electron transfer | Valinomycin | K+ ionophore |\n| Uncoupling of phosphorylation from electron transfer | Uncoupling protein 1 | In brown adipose tissue, forms proton-conducting pores in inner mitochondrial membrane |\n| Inhibition of ATP–ADP exchange | Atractyloside | Inhibits adenine nucleotide translocase |\nFootnote: DCCD, dicyclohexylcarbodiimide; FCCP, cyanide-p-trifluoromethoxyphenylhydrazone; DNP, 2,4-dinitrophenol. The printed group containing myxothiazol is preserved rather than repaired."
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "title": "Transport of ADP and phosphate",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Transport of ADP and phosphate"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-translocases",
+          "label": "ADP/ATP antiport and phosphate/proton symport",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n Transport of ADP and Pi into the Matrix\n\n\n\n⬣   Adenine nucleotide translocase is\n    an antiporter that moves ADP\n    into the matrix and ATP out\n\n\n⬣   Phosphate translocase promotes\n    symport   of one H2PO4-    and one\n    H+ into the matrix\n\n\n⬣   ATP synthasome     is the complex\n    of ATP synthase and both\n    translocases\n\nFigure: adenine nucleotide translocase (antiporter) exchanges ATP4− out to intermembrane space and ADP3− into matrix. ATP synthase receives ADP3− + H2PO4− and produces ATP4−; phosphate translocase (symporter) brings H2PO4− together with H+ into matrix. IMS is positively charged and matrix negatively charged in the drawing."
+        },
+        {
+          "id": "oxidative-phosphorylation-synthasome",
+          "label": "ATP synthasome components",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n Transport of ADP and Pi into the Matrix\n\n\n\n⬣   Adenine nucleotide translocase is\n    an antiporter that moves ADP\n    into the matrix and ATP out\n\n\n⬣   Phosphate translocase promotes\n    symport   of one H2PO4-    and one\n    H+ into the matrix\n\n\n⬣   ATP synthasome     is the complex\n    of ATP synthase and both\n    translocases\n\nFigure: adenine nucleotide translocase (antiporter) exchanges ATP4− out to intermembrane space and ADP3− into matrix. ATP synthase receives ADP3− + H2PO4− and produces ATP4−; phosphate translocase (symporter) brings H2PO4− together with H+ into matrix. IMS is positively charged and matrix negatively charged in the drawing."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                            Dr. Osama Essawi 2025\n Transport of ADP and Pi into the Matrix\n\n\n\n⬣   Adenine nucleotide translocase is\n    an antiporter that moves ADP\n    into the matrix and ATP out\n\n\n⬣   Phosphate translocase promotes\n    symport   of one H2PO4-    and one\n    H+ into the matrix\n\n\n⬣   ATP synthasome     is the complex\n    of ATP synthase and both\n    translocases",
+      "figureAndTableDetails": "Figure: adenine nucleotide translocase (antiporter) exchanges ATP4− out to intermembrane space and ADP3− into matrix. ATP synthase receives ADP3− + H2PO4− and produces ATP4−; phosphate translocase (symporter) brings H2PO4− together with H+ into matrix. IMS is positively charged and matrix negatively charged in the drawing."
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "title": "Malate-aspartate shuttle",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Malate-aspartate shuttle"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-nadh-barrier",
+          "label": "Inner membrane NADH barrier",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n               The Malate-Aspartate Shuttle\n\n\n⬣    The NADH dehydrogenase of the inner\n     mitochondrial membrane accepts electrons\n     only from NADH in the matrix.\n\n⬣    The inner mitochondrial membrane is not\n     permeable to NADH, so Special shuttle\n     systems carry reducing equivalents from\n     cytosolic NADH.\n\n⬣    The malate-aspartate shuttle is the most\n     active NADH shuttle, operating in the\n     mitochondria of the liver, kidney, and heart.\n\n⬣    NADH which contributes electrons to Complex\n     I of the respiratory chain, leads to the\n     production of about 2.5 ATP molecules.\n\nFigure numbered 1–6: cytosolic malate dehydrogenase converts oxaloacetate to malate while NADH + H+ → NAD+ (1); malate–α-ketoglutarate transporter brings malate in and α-ketoglutarate out (2); matrix malate dehydrogenase converts malate to oxaloacetate and NAD+ → NADH + H+ (3); matrix aspartate aminotransferase exchanges oxaloacetate/glutamate with aspartate/α-ketoglutarate (4); glutamate–aspartate transporter exchanges cytosolic glutamate inward and matrix aspartate outward (5); cytosolic aspartate aminotransferase completes the return to oxaloacetate (6). Net effect label: NADH(P side) → NADH(N side). Molecular structures and compartment labels shown."
+        },
+        {
+          "id": "oxidative-phosphorylation-malate-shuttle",
+          "label": "Malate–aspartate shuttle tissues and ATP yield",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n               The Malate-Aspartate Shuttle\n\n\n⬣    The NADH dehydrogenase of the inner\n     mitochondrial membrane accepts electrons\n     only from NADH in the matrix.\n\n⬣    The inner mitochondrial membrane is not\n     permeable to NADH, so Special shuttle\n     systems carry reducing equivalents from\n     cytosolic NADH.\n\n⬣    The malate-aspartate shuttle is the most\n     active NADH shuttle, operating in the\n     mitochondria of the liver, kidney, and heart.\n\n⬣    NADH which contributes electrons to Complex\n     I of the respiratory chain, leads to the\n     production of about 2.5 ATP molecules.\n\nFigure numbered 1–6: cytosolic malate dehydrogenase converts oxaloacetate to malate while NADH + H+ → NAD+ (1); malate–α-ketoglutarate transporter brings malate in and α-ketoglutarate out (2); matrix malate dehydrogenase converts malate to oxaloacetate and NAD+ → NADH + H+ (3); matrix aspartate aminotransferase exchanges oxaloacetate/glutamate with aspartate/α-ketoglutarate (4); glutamate–aspartate transporter exchanges cytosolic glutamate inward and matrix aspartate outward (5); cytosolic aspartate aminotransferase completes the return to oxaloacetate (6). Net effect label: NADH(P side) → NADH(N side). Molecular structures and compartment labels shown."
+        },
+        {
+          "id": "oxidative-phosphorylation-malate-cycle",
+          "label": "Six-step malate–aspartate transport cycle",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\n               The Malate-Aspartate Shuttle\n\n\n⬣    The NADH dehydrogenase of the inner\n     mitochondrial membrane accepts electrons\n     only from NADH in the matrix.\n\n⬣    The inner mitochondrial membrane is not\n     permeable to NADH, so Special shuttle\n     systems carry reducing equivalents from\n     cytosolic NADH.\n\n⬣    The malate-aspartate shuttle is the most\n     active NADH shuttle, operating in the\n     mitochondria of the liver, kidney, and heart.\n\n⬣    NADH which contributes electrons to Complex\n     I of the respiratory chain, leads to the\n     production of about 2.5 ATP molecules.\n\nFigure numbered 1–6: cytosolic malate dehydrogenase converts oxaloacetate to malate while NADH + H+ → NAD+ (1); malate–α-ketoglutarate transporter brings malate in and α-ketoglutarate out (2); matrix malate dehydrogenase converts malate to oxaloacetate and NAD+ → NADH + H+ (3); matrix aspartate aminotransferase exchanges oxaloacetate/glutamate with aspartate/α-ketoglutarate (4); glutamate–aspartate transporter exchanges cytosolic glutamate inward and matrix aspartate outward (5); cytosolic aspartate aminotransferase completes the return to oxaloacetate (6). Net effect label: NADH(P side) → NADH(N side). Molecular structures and compartment labels shown."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                                                          Dr. Osama Essawi 2025\n               The Malate-Aspartate Shuttle\n\n\n⬣    The NADH dehydrogenase of the inner\n     mitochondrial membrane accepts electrons\n     only from NADH in the matrix.\n\n⬣    The inner mitochondrial membrane is not\n     permeable to NADH, so Special shuttle\n     systems carry reducing equivalents from\n     cytosolic NADH.\n\n⬣    The malate-aspartate shuttle is the most\n     active NADH shuttle, operating in the\n     mitochondria of the liver, kidney, and heart.\n\n⬣    NADH which contributes electrons to Complex\n     I of the respiratory chain, leads to the\n     production of about 2.5 ATP molecules.",
+      "figureAndTableDetails": "Figure numbered 1–6: cytosolic malate dehydrogenase converts oxaloacetate to malate while NADH + H+ → NAD+ (1); malate–α-ketoglutarate transporter brings malate in and α-ketoglutarate out (2); matrix malate dehydrogenase converts malate to oxaloacetate and NAD+ → NADH + H+ (3); matrix aspartate aminotransferase exchanges oxaloacetate/glutamate with aspartate/α-ketoglutarate (4); glutamate–aspartate transporter exchanges cytosolic glutamate inward and matrix aspartate outward (5); cytosolic aspartate aminotransferase completes the return to oxaloacetate (6). Net effect label: NADH(P side) → NADH(N side). Molecular structures and compartment labels shown."
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "title": "Glycerol 3-phosphate shuttle",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Glycerol 3-phosphate shuttle"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-glycerol-shuttle",
+          "label": "Glycerol 3-phosphate shuttle tissue and yield",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n      The Glycerol 3-Phosphate Shuttle\n\n\n⬣   The glycerol 3-phosphate is an alternative\n    shuttle used in skeletal muscle and brain.\n\n⬣   NADH equivalents moved in by a reaction\n    catalyzed by cytosolic glycerol 3-phosphate\n    dehydrogenase and an isozyme bound to\n    the outer face of the inner membrane.\n\n\n⬣   This shuttle does not involve membrane\n    transport systems.\n\n\n⬣   NADH which contributes electrons to\n    Complex III of the respiratory chain, leads to\n    the production of about 1.5 ATP molecules.\n\nFigure: glycolysis supplies cytosolic NADH + H+; cytosolic glycerol 3-phosphate dehydrogenase couples NADH → NAD+ to dihydroxyacetone phosphate → glycerol 3-phosphate. Mitochondrial glycerol 3-phosphate dehydrogenase has FAD/FADH2 on outer face of inner membrane; arrow passes via Q → QH2 to Complex III. Intermembrane space (P side), matrix (N side) labelled. Body shorthand says NADH contributes electrons to Complex III; diagram explicitly includes flavin and Q intermediates."
+        },
+        {
+          "id": "oxidative-phosphorylation-glycerol-carriers",
+          "label": "Flavin/Q intermediates in glycerol shuttle",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n      The Glycerol 3-Phosphate Shuttle\n\n\n⬣   The glycerol 3-phosphate is an alternative\n    shuttle used in skeletal muscle and brain.\n\n⬣   NADH equivalents moved in by a reaction\n    catalyzed by cytosolic glycerol 3-phosphate\n    dehydrogenase and an isozyme bound to\n    the outer face of the inner membrane.\n\n\n⬣   This shuttle does not involve membrane\n    transport systems.\n\n\n⬣   NADH which contributes electrons to\n    Complex III of the respiratory chain, leads to\n    the production of about 1.5 ATP molecules.\n\nFigure: glycolysis supplies cytosolic NADH + H+; cytosolic glycerol 3-phosphate dehydrogenase couples NADH → NAD+ to dihydroxyacetone phosphate → glycerol 3-phosphate. Mitochondrial glycerol 3-phosphate dehydrogenase has FAD/FADH2 on outer face of inner membrane; arrow passes via Q → QH2 to Complex III. Intermembrane space (P side), matrix (N side) labelled. Body shorthand says NADH contributes electrons to Complex III; diagram explicitly includes flavin and Q intermediates."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U04",
+          "description": "Body shorthand says NADH contributes electrons to Complex III; figure includes cytosolic enzyme, mitochondrial flavin and Q. Do not imply direct passage of NADH across membrane or direct NADH donation to Complex III.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                                                              Dr. Osama Essawi 2025\n      The Glycerol 3-Phosphate Shuttle\n\n\n⬣   The glycerol 3-phosphate is an alternative\n    shuttle used in skeletal muscle and brain.\n\n⬣   NADH equivalents moved in by a reaction\n    catalyzed by cytosolic glycerol 3-phosphate\n    dehydrogenase and an isozyme bound to\n    the outer face of the inner membrane.\n\n\n⬣   This shuttle does not involve membrane\n    transport systems.\n\n\n⬣   NADH which contributes electrons to\n    Complex III of the respiratory chain, leads to\n    the production of about 1.5 ATP molecules.",
+      "figureAndTableDetails": "Figure: glycolysis supplies cytosolic NADH + H+; cytosolic glycerol 3-phosphate dehydrogenase couples NADH → NAD+ to dihydroxyacetone phosphate → glycerol 3-phosphate. Mitochondrial glycerol 3-phosphate dehydrogenase has FAD/FADH2 on outer face of inner membrane; arrow passes via Q → QH2 to Complex III. Intermembrane space (P side), matrix (N side) labelled. Body shorthand says NADH contributes electrons to Complex III; diagram explicitly includes flavin and Q intermediates."
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "title": "ATP yield from complete glucose oxidation",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "ATP yield from complete glucose oxidation"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-glucose-yield",
+          "label": "Complete glucose oxidation versus anaerobic ATP yield",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n     ATP Yield from Complete Oxidation of Glucose\n\n\n⬣   Complete oxidation of a molecule of glucose to CO2 yields 30 or 32 ATP\n\n⬣   Glycolysis under anaerobic conditions (lactate fermentation) yields only 2 ATP per glucose\n\n⬣   Oxidative phosphorylation produces most of the ATP made in aerobic cells.\n\nTable 19-5 ATP Yield from Complete Oxidation of Glucose.\n| Process | Direct product | Final ATP |\n| --- | --- | --- |\n| Glycolysis | 2 NADH (cytosolic) | 3 or 5 |\n| Glycolysis | 2 ATP | 2 |\n| Pyruvate oxidation (two per glucose) | 2 NADH (mitochondrial matrix) | 5 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 6 NADH (mitochondrial matrix) | 15 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 FADH2 | 3 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 ATP or 2 GTP | 2 |\n| Total yield per glucose | | 30 or 32 |"
+        },
+        {
+          "id": "oxidative-phosphorylation-atp-accounting-table",
+          "label": "ATP accounting — source table 12",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n     ATP Yield from Complete Oxidation of Glucose\n\n\n⬣   Complete oxidation of a molecule of glucose to CO2 yields 30 or 32 ATP\n\n⬣   Glycolysis under anaerobic conditions (lactate fermentation) yields only 2 ATP per glucose\n\n⬣   Oxidative phosphorylation produces most of the ATP made in aerobic cells.\n\nTable 19-5 ATP Yield from Complete Oxidation of Glucose.\n| Process | Direct product | Final ATP |\n| --- | --- | --- |\n| Glycolysis | 2 NADH (cytosolic) | 3 or 5 |\n| Glycolysis | 2 ATP | 2 |\n| Pyruvate oxidation (two per glucose) | 2 NADH (mitochondrial matrix) | 5 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 6 NADH (mitochondrial matrix) | 15 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 FADH2 | 3 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 ATP or 2 GTP | 2 |\n| Total yield per glucose | | 30 or 32 |"
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U05",
+          "description": "This lecture states 30 or32 ATP total and 2.5/1.5 shuttle yields; glycolysis p5 has differing ATP totals. Preserve source-specific values and block cross-lecture universal arithmetic until resolved.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                                                             Dr. Osama Essawi 2025\n     ATP Yield from Complete Oxidation of Glucose\n\n\n⬣   Complete oxidation of a molecule of glucose to CO2 yields 30 or 32 ATP\n\n⬣   Glycolysis under anaerobic conditions (lactate fermentation) yields only 2 ATP per glucose\n\n⬣   Oxidative phosphorylation produces most of the ATP made in aerobic cells.",
+      "figureAndTableDetails": "Table 19-5 ATP Yield from Complete Oxidation of Glucose.\n| Process | Direct product | Final ATP |\n| --- | --- | --- |\n| Glycolysis | 2 NADH (cytosolic) | 3 or 5 |\n| Glycolysis | 2 ATP | 2 |\n| Pyruvate oxidation (two per glucose) | 2 NADH (mitochondrial matrix) | 5 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 6 NADH (mitochondrial matrix) | 15 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 FADH2 | 3 |\n| Acetyl-CoA oxidation in citric acid cycle (two per glucose) | 2 ATP or 2 GTP | 2 |\n| Total yield per glucose | | 30 or 32 |"
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "title": "Regulation by cellular energy needs",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Regulation by cellular energy needs"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-acceptor-control",
+          "label": "ADP-dependent acceptor control",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\n     Oxidative Phosphorylation Is Regulated by Cellular\n                                                Energy Needs\n\n\n\n⬣    The rate of O₂ consumption in mitochondria is regulated by ADP availability (acceptor control of respiration).\n\n⬣    Cellular energy status is indicated by intracellular ADP concentration and the           [ATP]/[ADP]·[Pi ]  “mass-action\n     ratio” (which is typically high  ).\n\n⬣    When energy demand increases (e.g., during protein synthesis), ATP is broken down to ADP + Pi, lowering the\n     mass-action ratio.\n\n⬣    Increased ADP availability stimulates oxidative phosphorylation, leading to higher respiration rates and ATP\n     regeneration.\n\n⬣    This cycle ensures a stable ATP supply, matching ATP formation to consumption, maintaining cellular energy\n     balance.\n\nThe visually printed mass-action ratio is [ATP]/[ADP]·[Pi], without enclosing the entire denominator in this slide. Retain the typography; avoid using its ambiguous grouping to score a calculation. Qualitative direction is explicit: ATP consumption raises ADP, stimulates respiration and ATP regeneration."
+        },
+        {
+          "id": "oxidative-phosphorylation-mass-action-grouping",
+          "label": "Printed mass-action-ratio grouping",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\n     Oxidative Phosphorylation Is Regulated by Cellular\n                                                Energy Needs\n\n\n\n⬣    The rate of O₂ consumption in mitochondria is regulated by ADP availability (acceptor control of respiration).\n\n⬣    Cellular energy status is indicated by intracellular ADP concentration and the           [ATP]/[ADP]·[Pi ]  “mass-action\n     ratio” (which is typically high  ).\n\n⬣    When energy demand increases (e.g., during protein synthesis), ATP is broken down to ADP + Pi, lowering the\n     mass-action ratio.\n\n⬣    Increased ADP availability stimulates oxidative phosphorylation, leading to higher respiration rates and ATP\n     regeneration.\n\n⬣    This cycle ensures a stable ATP supply, matching ATP formation to consumption, maintaining cellular energy\n     balance.\n\nThe visually printed mass-action ratio is [ATP]/[ADP]·[Pi], without enclosing the entire denominator in this slide. Retain the typography; avoid using its ambiguous grouping to score a calculation. Qualitative direction is explicit: ATP consumption raises ADP, stimulates respiration and ATP regeneration."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "OP-U06",
+          "description": "[ATP]/[ADP]·[Pi] lacks unambiguous denominator grouping. Qualitative ADP-response claims are clear; arithmetic using the expression is deferred.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible."
+        }
+      ],
+      "text": "                                                                                                                       Dr. Osama Essawi 2025\n     Oxidative Phosphorylation Is Regulated by Cellular\n                                                Energy Needs\n\n\n\n⬣    The rate of O₂ consumption in mitochondria is regulated by ADP availability (acceptor control of respiration).\n\n⬣    Cellular energy status is indicated by intracellular ADP concentration and the           [ATP]/[ADP]·[Pi ]  “mass-action\n     ratio” (which is typically high  ).\n\n⬣    When energy demand increases (e.g., during protein synthesis), ATP is broken down to ADP + Pi, lowering the\n     mass-action ratio.\n\n⬣    Increased ADP availability stimulates oxidative phosphorylation, leading to higher respiration rates and ATP\n     regeneration.\n\n⬣    This cycle ensures a stable ATP supply, matching ATP formation to consumption, maintaining cellular energy\n     balance.",
+      "figureAndTableDetails": "The visually printed mass-action ratio is [ATP]/[ADP]·[Pi], without enclosing the entire denominator in this slide. Retain the typography; avoid using its ambiguous grouping to score a calculation. Qualitative direction is explicit: ATP consumption raises ADP, stimulates respiration and ATP regeneration."
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "title": "Regulation of ATP-producing pathways",
+      "kind": "teaching",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Regulation of ATP-producing pathways"
+      ],
+      "concepts": [
+        {
+          "id": "oxidative-phosphorylation-energy-regulation",
+          "label": "Coordinated regulation by energy needs",
+          "priority": "core",
+          "rationale": "Explicit midterm mechanism, distinction or relationship.",
+          "detail": "Dr. Osama Essawi 2025\nRegulation of ATP-Producing Pathways\n\n\n\n\n\n\n\n                                                                  ⬣   All four pathways are\n                                                                      accelerated when the\n                                                                      consumption of ATP,\n                                                                      NADH and the\n                                                                      formation of ADP,\n                                                                      AMP, Pi and NAD+\n                                                                      increase.\n\nFigure: hexokinase inhibited by glucose 6-phosphate, Pi activation symbol; PFK-1 activated by AMP/ADP, inhibited by ATP/citrate; pyruvate kinase activated by ADP, inhibited by ATP/NADH. PDH activated by AMP/ADP/NAD+, inhibited by ATP/NADH. Citrate synthase activated by ADP, inhibited by ATP/NADH; isocitrate dehydrogenase activated by ADP, inhibited by ATP; α-ketoglutarate dehydrogenase inhibited by ATP/NADH. Oxidative phosphorylation stimulated by ADP/Pi. The drawn pathway continues to oxaloacetate and cycles to citrate. Preserve regulatory diagram as printed without inferring missing regulators."
+        },
+        {
+          "id": "oxidative-phosphorylation-regulatory-figure",
+          "label": "Regulatory figure details",
+          "priority": "supporting",
+          "rationale": "Preserved source detail; assess only clear selected claims.",
+          "detail": "Dr. Osama Essawi 2025\nRegulation of ATP-Producing Pathways\n\n\n\n\n\n\n\n                                                                  ⬣   All four pathways are\n                                                                      accelerated when the\n                                                                      consumption of ATP,\n                                                                      NADH and the\n                                                                      formation of ADP,\n                                                                      AMP, Pi and NAD+\n                                                                      increase.\n\nFigure: hexokinase inhibited by glucose 6-phosphate, Pi activation symbol; PFK-1 activated by AMP/ADP, inhibited by ATP/citrate; pyruvate kinase activated by ADP, inhibited by ATP/NADH. PDH activated by AMP/ADP/NAD+, inhibited by ATP/NADH. Citrate synthase activated by ADP, inhibited by ATP/NADH; isocitrate dehydrogenase activated by ADP, inhibited by ATP; α-ketoglutarate dehydrogenase inhibited by ATP/NADH. Oxidative phosphorylation stimulated by ADP/Pi. The drawn pathway continues to oxaloacetate and cycles to citrate. Preserve regulatory diagram as printed without inferring missing regulators."
+        }
+      ],
+      "uncertainties": [],
+      "text": "                                                                                  Dr. Osama Essawi 2025\nRegulation of ATP-Producing Pathways\n\n\n\n\n\n\n\n                                                                  ⬣   All four pathways are\n                                                                      accelerated when the\n                                                                      consumption of ATP,\n                                                                      NADH and the\n                                                                      formation of ADP,\n                                                                      AMP, Pi and NAD+\n                                                                      increase.",
+      "figureAndTableDetails": "Figure: hexokinase inhibited by glucose 6-phosphate, Pi activation symbol; PFK-1 activated by AMP/ADP, inhibited by ATP/citrate; pyruvate kinase activated by ADP, inhibited by ATP/NADH. PDH activated by AMP/ADP/NAD+, inhibited by ATP/NADH. Citrate synthase activated by ADP, inhibited by ATP/NADH; isocitrate dehydrogenase activated by ADP, inhibited by ATP; α-ketoglutarate dehydrogenase inhibited by ATP/NADH. Oxidative phosphorylation stimulated by ADP/Pi. The drawn pathway continues to oxaloacetate and cycles to citrate. Preserve regulatory diagram as printed without inferring missing regulators."
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "title": "Thanks — course closing slide",
+      "kind": "administrative",
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex parent agent (source preparation, not activity review)",
+      "topics": [
+        "Thanks — course closing slide"
+      ],
+      "concepts": [],
+      "uncertainties": [],
+      "text": "                                                                               Dr. Osama Essawi 2025\n\nThanks!",
+      "figureAndTableDetails": ""
+    }
+  ],
+  "blockedConceptIds": [
+    "oxidative-phosphorylation-ten-protons-generalization",
+    "oxidative-phosphorylation-myxothiazol-grouping",
+    "oxidative-phosphorylation-mass-action-grouping"
+  ],
+  "reviewScope": "Every page image visually inspected; this is source analysis, not a second-agent activity check.",
+  "tableSelection": "Owner selected p18 ATP-yield table only. Tables p7,p8,p14 excluded from assessment/Memorize; separate prose/figures remain eligible.",
+  "ownerTableDecision": "Owner selected p18 ATP-yield table only. Tables p7,p8,p14 excluded from assessment/Memorize; separate prose/figures remain eligible."
+}

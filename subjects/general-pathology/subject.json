@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "general-pathology",
+  "title": "General Pathology",
+  "description": "Midterm only: cell injury (8 parts) and inflammation (3 parts). Second-Codex content checks complete; Antigravity and Claude review pending.",
+  "scope": {
+    "id": "midterm",
+    "title": "Midterm",
+    "authority": "supplied-lecture-pdfs-only",
+    "sourceManifest": "sources/manifest.json",
+    "allTeachingContent": true,
+    "reviewStatus": "local-second-codex-check-only; Antigravity and Claude pending",
+    "memorizeStatus": "Dedicated recovery-boundary adapter integrated locally; limited proof awaiting owner feedback before expansion."
+  },
+  "languages": {
+    "questions": "en",
+    "explanations": [
+      "en",
+      "ar"
+    ],
+    "retainEnglishTechnicalTerms": true
+  },
+  "assessment": {
+    "mcqOptionCount": 5,
+    "recommendedPracticeCount": 10,
+    "examCount": "student-selected",
+    "optionalExamTimer": true,
+    "allowedDrillTypes": [
+      "match",
+      "order",
+      "diagram"
+    ],
+    "allowTypedAnswers": false,
+    "allowConfidencePrompts": false,
+    "allowSelfGrading": false
+  },
+  "paths": {
+    "activities": "activities.json",
+    "concepts": "source-analysis/concept-index.json",
+    "pages": "source-analysis/page-ledger.json",
+    "chapters": "source-analysis/chapters.json",
+    "uncertainties": "source-analysis/uncertainties.json",
+    "coverage": "source-analysis/coverage-summary.json",
+    "studySource": "source-analysis/general-pathology_detailed_structured_study_source.md",
+    "pageImages": "sources/page-images.json"
+  },
+  "chapterLabels": {
+    "ch1-part-01": "1.CH 1 - Introduction to Pathology",
+    "ch1-part-02": "2.CH 1 - Cell injury I causes and targets 4",
+    "ch1-part-03": "3.CH 1 - Cell Injury II cellular adaptation",
+    "ch1-part-04": "4.CH 1 - Cell Injury III Subcellular responses to injury",
+    "ch1-part-05": "5.CH 1 - Cell Injury IV reversible vs irreversible",
+    "ch1-part-06": "6.CH 1 - cell injury V Types of necrosis",
+    "ch1-part-07": "7.CH 1 - cell injury VI Apoptosis",
+    "ch1-part-08": "8.CH 1 - Cell Injury VII Intracellular accumulation and Pathologic Calcification",
+    "ch2-part-01": "CH 2 - Inflammation I",
+    "ch2-part-02": "CH 2 - Inflammation II",
+    "ch2-part-03": "CH 2 - Inflammation III"
+  },
+  "catalog": {
+    "lectures": 11,
+    "pages": 372,
+    "pdfPages": 390,
+    "mcqs": 209,
+    "total": 250
+  },
+  "chapterGroups": [
+    {
+      "id": "chapter-1",
+      "title": "Cell injury",
+      "parts": [
+        "ch1-part-01",
+        "ch1-part-02",
+        "ch1-part-03",
+        "ch1-part-04",
+        "ch1-part-05",
+        "ch1-part-06",
+        "ch1-part-07",
+        "ch1-part-08"
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Inflammation",
+      "parts": [
+        "ch2-part-01",
+        "ch2-part-02",
+        "ch2-part-03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3165 @@
+{
+  "lectureId": "ch2-part-02",
+  "coverageDeferrals": [],
+  "author": "Codex chapter2 writer, GPT-6.1 Sol session designation",
+  "reviewStage": "Accepted for local use after fresh second Codex check; Antigravity and Claude pending",
+  "activities": [
+    {
+      "id": "ch2-part-02-mediator-action",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p002-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 2
+        }
+      ],
+      "prompt": "How do most inflammatory mediators produce their effects?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p2 most mediator effects are specific-receptor mediated; direct protease/ROS actions are stated exceptions.  Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Direct proteolysis of extracellular proteins",
+          "evidence": "Some lysosomal proteases act directly; this is not the main mechanism assigned to most mediators."
+        },
+        {
+          "id": "o4",
+          "text": "Direct enzymatic injury to tissue",
+          "evidence": "Direct enzymatic activity is assigned to some mediators rather than most."
+        },
+        {
+          "id": "o5",
+          "text": "Receptor-independent toxic effects",
+          "evidence": "Some mediators have toxic effects, but most bind specific receptors."
+        },
+        {
+          "id": "o1",
+          "text": "Binding to specific receptors on target cells",
+          "evidence": "Most mediators act through specific target receptors."
+        },
+        {
+          "id": "o3",
+          "text": "Direct oxidation of cellular molecules",
+          "evidence": "ROS can act toxically; this is an exception to receptor-mediated action."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Most mediators bind specific target-cell receptors; some, such as lysosomal proteases and ROS, act directly enzymatically or toxically.",
+        "ar": "تعمل معظم Inflammatory mediators بالارتباط بمستقبلات نوعية على الخلايا الهدف؛ وبعضها مثل Lysosomal proteases وROS له نشاط مباشر إنزيمي أو سمي."
+      }
+    },
+    {
+      "id": "ch2-part-02-inflammasome",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p003-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "What results when caspase-1 is activated by the NLRP3 inflammasome?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p3 caspase1 processes proIL1beta to IL1beta; distinct cascade products provide supported distractors. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Processing of pro-IL-1beta to IL-1beta",
+          "evidence": "PDF p3 shows active caspase-1 processing pro-IL-1beta, followed by secretion."
+        },
+        {
+          "id": "o2",
+          "text": "Conversion of prothrombin to thrombin",
+          "evidence": "PDF p21 assigns this to the coagulation branch rather than caspase-1."
+        },
+        {
+          "id": "o3",
+          "text": "Conversion of prekallikrein to kallikrein",
+          "evidence": "PDF p22 assigns this to activated factor XII."
+        },
+        {
+          "id": "o4",
+          "text": "Cleavage of kininogen to bradykinin",
+          "evidence": "PDF p22 assigns this to kallikrein."
+        },
+        {
+          "id": "o5",
+          "text": "Formation of prostacyclin from arachidonic-acid intermediates",
+          "evidence": "PDF p17 assigns this to the cyclooxygenase eicosanoid pathway rather than caspase-1."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated caspase-1 processes pro-IL-1beta into IL-1beta, which is secreted to promote acute inflammation.",
+        "ar": "يعالج Caspase-1 المنشط Pro-IL-1beta ليكوّن IL-1beta الذي يُفرز ليسهم في Acute inflammation."
+      }
+    },
+    {
+      "id": "ch2-part-02-tlr",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p003-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which recognition route detects microbial DNA and RNA within endosomes?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p3 endosomal microbial DNA/RNA TLR recognition versus extracellular lipid/lectin and cytosolic NLRP3 routes. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Endosomal Toll-like receptors",
+          "evidence": "PDF p3 places microbial DNA/RNA recognition at TLRs in the endosome."
+        },
+        {
+          "id": "o2",
+          "text": "Cell-surface Toll-like receptors",
+          "evidence": "PDF p3 illustrates these with extracellular bacterial cell-wall lipid rather than endosomal nucleic acids."
+        },
+        {
+          "id": "o3",
+          "text": "Cell-surface lectin receptors",
+          "evidence": "PDF p3 illustrates these with fungal polysaccharide rather than endosomal microbial DNA/RNA."
+        },
+        {
+          "id": "o4",
+          "text": "Cytosolic NLRP3 inflammasomes",
+          "evidence": "PDF p3 shows this as a distinct cytosolic caspase-1/IL-1beta pathway."
+        },
+        {
+          "id": "o5",
+          "text": "Mannose-binding lectin of the complement pathway",
+          "evidence": "PDF p26 shows lectin-mediated complement activation, rather than endosomal TLR recognition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Endosomal TLRs recognize microbial DNA and RNA; the signals contribute to cytokine production and acute inflammation.",
+        "ar": "تتعرف TLRs داخل Endosomes على DNA وRNA الميكروبي؛ وتسهم الإشارات في إنتاج Cytokines والالتهاب الحاد."
+      }
+    },
+    {
+      "id": "ch2-part-02-plasma-origin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p005-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Which set contains plasma-derived rather than locally produced mediator systems?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p5 whole plasma-derived systems versus local mediator sets; mixed set explicitly contains local mediators. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Prostaglandins, leukotrienes, PAF and histamine",
+          "evidence": "PDF p5 places prostaglandins, leukotrienes, PAF and histamine in the local column."
+        },
+        {
+          "id": "o1",
+          "text": "Kinins, complement, coagulation and plasminolysis",
+          "evidence": "PDF p5 lists all four systems in the plasma-derived column."
+        },
+        {
+          "id": "o5",
+          "text": "Histamine, serotonin, complement and nitric oxide",
+          "evidence": "Complement is plasma-derived on p5, but histamine, serotonin and NO are in the locally produced column."
+        },
+        {
+          "id": "o2",
+          "text": "Histamine, serotonin, PAF and nitric oxide",
+          "evidence": "PDF p5 places histamine, serotonin, PAF and NO in the locally produced column."
+        },
+        {
+          "id": "o4",
+          "text": "Nitric oxide, serotonin, prostaglandins and leukotrienes",
+          "evidence": "PDF p5 places all four named mediators in the locally produced column."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Kinins, complement, coagulation and plasminolysis are listed as plasma-derived; histamine, PAF, eicosanoids and NO are locally produced.",
+        "ar": "تُصنف Kinins وComplement وCoagulation وPlasminolysis كمشتقات بلازمية؛ بينما Histamine وPAF وEicosanoids وNO موضعية الإنتاج."
+      }
+    },
+    {
+      "id": "ch2-part-02-mediator-termination",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p007-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "What usually limits the duration of mediator activity after release?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p7 rapid mediator decay/inactivation/elimination/inhibition; duration rather than receptor mechanism tested. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Rapid decay, enzymatic inactivation, elimination or inhibition",
+          "evidence": "PDF p7 gives these as the usual ways released mediator activity ends."
+        },
+        {
+          "id": "o2",
+          "text": "Persistence unchanged after release despite enzyme exposure",
+          "evidence": "PDF p7 instead describes rapid decay or inactivation."
+        },
+        {
+          "id": "o3",
+          "text": "Accumulation after release without elimination or inhibition",
+          "evidence": "PDF p7 explicitly includes elimination and inhibition among limiting mechanisms."
+        },
+        {
+          "id": "o4",
+          "text": "Permanent receptor binding without mediator inactivation",
+          "evidence": "PDF p7 states most mediators are short-lived or inactivated, not permanently active."
+        },
+        {
+          "id": "o5",
+          "text": "Continued activity after release without any decay",
+          "evidence": "PDF p7 emphasizes rapid decay rather than indefinite persistence."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Most released mediators decay rapidly, are inactivated, eliminated or inhibited, limiting their actions.",
+        "ar": "تتحلل معظم Mediators المحررة سريعًا أو تُعطل إنزيميًا أو تُطرح أو تُثبط، مما يحد مدة تأثيرها."
+      }
+    },
+    {
+      "id": "ch2-part-02-cytokine-origin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p007-topic",
+        "ch2-part-02-p008-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which cells are emphasized as principal cytokine producers?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp7–8 principal lymphocyte/macrophage cytokine sources; many producers acknowledged, not exclusive source claim. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Neutrophils and basophils",
+          "evidence": "PDF p16 emphasizes neutrophils/basophils among leukotriene sources; pp7–8 name a different principal cytokine pair."
+        },
+        {
+          "id": "o5",
+          "text": "Platelets and mast cells",
+          "evidence": "PDF pp4/11 identify platelet/mast-cell mediator roles; pp7–8 instead emphasize lymphocytes/macrophages."
+        },
+        {
+          "id": "o2",
+          "text": "Mast cells and basophils",
+          "evidence": "PDF pp4/11 emphasize mast cells/basophils for histamine, not the principal cytokine pair on pp7–8."
+        },
+        {
+          "id": "o1",
+          "text": "Activated lymphocytes and macrophages",
+          "evidence": "PDF pp7–8 emphasize activated lymphocytes and macrophages as principal cytokine producers."
+        },
+        {
+          "id": "o3",
+          "text": "Platelets and endothelial cells",
+          "evidence": "PDF p4 gives platelets/endothelium other mediator roles; pp7–8 emphasize lymphocytes/macrophages for cytokines."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Cytokines are polypeptide products of many cells, especially activated lymphocytes and macrophages, that modulate other cells.",
+        "ar": "Cytokines منتجات ببتيدية لخلايا عديدة، خصوصًا Lymphocytes المنشّطة وMacrophages، وتعدل وظيفة خلايا أخرى."
+      }
+    },
+    {
+      "id": "ch2-part-02-acute-phase",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p008-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 45
+        }
+      ],
+      "prompt": "Which effect belongs to the systemic acute-phase response induced by cytokines?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p8 systemic fever/hepatic proteins/neutrophil release contrasted with local vascular/cellular events. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Hepatic protein synthesis with fever and neutrophil release",
+          "evidence": "PDF p8 includes fever, hepatic protein synthesis and circulating neutrophil release among systemic effects."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrin deposition on a pericardial surface",
+          "evidence": "PDF pp40–43 describe local fibrinous membrane inflammation rather than the systemic acute-phase response."
+        },
+        {
+          "id": "o3",
+          "text": "Rolling followed by firm endothelial adhesion",
+          "evidence": "Rolling and firm adhesion are local leukocyte recruitment steps rather than the systemic profile in p8."
+        },
+        {
+          "id": "o2",
+          "text": "Endothelial gaps with protein-rich tissue fluid",
+          "evidence": "PDF p11 describes local vascular caliber/permeability effects rather than the systemic acute-phase profile."
+        },
+        {
+          "id": "o4",
+          "text": "Phagosome fusion with lysosomes",
+          "evidence": "Phagosome/lysosome fusion is a phagocytic intracellular event rather than the systemic effects listed on p8."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The systemic response includes fever, lethargy, hepatic protein synthesis, wasting, neutrophil release and ACTH release.",
+        "ar": "تشمل Acute-phase response الحمى والخمول وتصنيع البروتينات الكبدية والهزال وتحرير Neutrophils وACTH."
+      }
+    },
+    {
+      "id": "ch2-part-02-il6",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p009-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Which cytokine is described as the primary driver of increased hepatic acute-phase protein synthesis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p9 IL6 primary hepatic APR stimulus versus IL8/IL10 and other chemokine functions. Checked and specified the distinct error or support for every option. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "IL-8",
+          "evidence": "PDF p9 associates IL-8 with neutrophil chemotaxis/respiratory burst."
+        },
+        {
+          "id": "o1",
+          "text": "IL-6",
+          "evidence": "PDF p9 identifies IL-6 as primary for increased liver APR synthesis."
+        },
+        {
+          "id": "o3",
+          "text": "IL-10",
+          "evidence": "PDF p9 associates IL-10 with inhibition of activated macrophages/dendritic cells."
+        },
+        {
+          "id": "o4",
+          "text": "Eotaxin",
+          "evidence": "PartI p41 associates eotaxin with eosinophils, rather than hepatic APR synthesis."
+        },
+        {
+          "id": "o5",
+          "text": "RANTES",
+          "evidence": "PartI p41 associates RANTES with lymphocytes/monocytes rather than hepatic APR synthesis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "IL-6 is a primary stimulus for increased liver synthesis of acute-phase reactants such as C-reactive protein.",
+        "ar": "يُعد IL-6 محفزًا رئيسيًا لزيادة تصنيع Acute-phase reactants في الكبد مثل C-reactive protein."
+      }
+    },
+    {
+      "id": "ch2-part-02-il10",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p009-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "How does IL-10 limit macrophage and dendritic-cell activity?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p9 paired inhibition of IL12 and costimulator/classII MHC expression; four parallel reversals checked. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Decreased IL-12 production and decreased costimulator/class II MHC expression",
+          "evidence": "PDF p9 gives both decreases as IL-10 inhibitory effects."
+        },
+        {
+          "id": "o2",
+          "text": "Increased IL-12 production and increased costimulator/class II MHC expression",
+          "evidence": "Both directions reverse the inhibitory effects on PDF p9."
+        },
+        {
+          "id": "o3",
+          "text": "Decreased IL-12 production and increased costimulator/class II MHC expression",
+          "evidence": "The IL-12 direction is correct, but p9 gives decreased expression of costimulators/class II MHC."
+        },
+        {
+          "id": "o4",
+          "text": "Increased IL-12 production and decreased costimulator/class II MHC expression",
+          "evidence": "The expression direction is correct, but p9 gives decreased IL-12 production."
+        },
+        {
+          "id": "o5",
+          "text": "Unchanged IL-12 production and unchanged costimulator/class II MHC expression",
+          "evidence": "PDF p9 explicitly states inhibition of both rather than no change."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "T-cell IL-10 inhibits activated macrophages/dendritic cells, including IL-12 production and expression of costimulators and class II MHC.",
+        "ar": "يثبط IL-10 الصادر عن T cells الـMacrophages وDendritic cells المنشطة، بما يشمل إنتاج IL-12 والتعبير عن Costimulators وClass II MHC."
+      }
+    },
+    {
+      "id": "ch2-part-02-histamine",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p011-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which effect is promoted by histamine in acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p11 dilation and increased permeability; all combinations parallel, no invented collagen/complement role. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Vasodilation with increased vascular permeability",
+          "evidence": "PDF p11 explicitly states both effects."
+        },
+        {
+          "id": "o2",
+          "text": "Vasoconstriction with decreased vascular permeability",
+          "evidence": "This reverses both vascular effects on PDF p11."
+        },
+        {
+          "id": "o3",
+          "text": "Vasodilation with decreased vascular permeability",
+          "evidence": "The dilation direction is correct, but p11 gives increased permeability."
+        },
+        {
+          "id": "o4",
+          "text": "Vasoconstriction with increased vascular permeability",
+          "evidence": "The permeability direction is correct, but p11 gives dilation."
+        },
+        {
+          "id": "o5",
+          "text": "Unchanged vessel caliber with unchanged vascular permeability",
+          "evidence": "PDF p11 describes changes in both caliber and permeability."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Histamine promotes vasodilation and increased vascular permeability and is stored in mast cells, platelets and basophils.",
+        "ar": "يعزز Histamine توسع الأوعية وزيادة نفوذيتها، ويُخزن في Mast cells والصفائح وBasophils."
+      }
+    },
+    {
+      "id": "ch2-part-02-serotonin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p011-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Which storage site distinguishes serotonin from the histamine storage sites given here?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p11 distinctive GI enterochromaffin storage; platelet/mast overlap does not distinguish lists. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Enterochromaffin cells of the gastrointestinal tract",
+          "evidence": "PDF p11 specifically adds GI enterochromaffin cells to the serotonin storage list."
+        },
+        {
+          "id": "o2",
+          "text": "Mast cells",
+          "evidence": "PDF p11 lists these for both histamine and serotonin, so they do not distinguish the lists."
+        },
+        {
+          "id": "o3",
+          "text": "Platelets",
+          "evidence": "PDF p11 lists these for both mediators, so they do not distinguish the lists."
+        },
+        {
+          "id": "o4",
+          "text": "Basophils",
+          "evidence": "PDF p11 lists these under histamine rather than the distinguishing serotonin site."
+        },
+        {
+          "id": "o5",
+          "text": "Endothelial cells",
+          "evidence": "PDF p4/20 names endothelium as a source of other mediators such as NO, not the distinctive GI serotonin storage site."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Serotonin is stored in gastrointestinal enterochromaffin cells, as well as platelets and mast cells.",
+        "ar": "يُخزن Serotonin في Enterochromaffin cells بالجهاز الهضمي، إضافة إلى الصفائح وMast cells."
+      }
+    },
+    {
+      "id": "ch2-part-02-paf-origin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p012-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "How is platelet-activating factor generated?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p12 PLA2/membrane phospholipid PAF generation contrasted with actual eicosanoid/kinin conversions. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Phospholipase A2 acting on membrane phospholipids",
+          "evidence": "PDF p12 explicitly assigns PAF generation to phospholipase A2 and membrane phospholipids."
+        },
+        {
+          "id": "o2",
+          "text": "Cyclooxygenase acting on arachidonic acid",
+          "evidence": "PDF p13 assigns this to prostaglandin production."
+        },
+        {
+          "id": "o3",
+          "text": "5-Lipoxygenase acting on arachidonic acid",
+          "evidence": "PDF pp14/16 assign this to leukotriene production."
+        },
+        {
+          "id": "o4",
+          "text": "Kallikrein acting on kininogen",
+          "evidence": "PDF p22 assigns this to bradykinin production."
+        },
+        {
+          "id": "o5",
+          "text": "Activated factor XII acting on prekallikrein",
+          "evidence": "PDF p22 assigns this to kallikrein generation rather than PAF generation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "PAF is generated from membrane phospholipids through phospholipase A2 in several cell types, including neutrophils and platelets.",
+        "ar": "يتولد PAF من Phospholipids الغشاء بفعل Phospholipase A2 في خلايا متعددة، منها Neutrophils والصفائح."
+      }
+    },
+    {
+      "id": "ch2-part-02-paf-effects",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p012-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which combination belongs to PAF activity?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p12 platelet/bronchial/leukocyte PAF effects distinguished from PGI2, C3b, MAC and plasmin. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Opsonization, phagocyte recognition and enhanced engulfment",
+          "evidence": "PDF p25 assigns opsonization/phagocytosis enhancement to C3b/C3bi."
+        },
+        {
+          "id": "o1",
+          "text": "Platelet stimulation, bronchoconstriction and enhanced leukocyte activation",
+          "evidence": "PDF p12 assigns platelet stimulation, bronchoconstriction and enhanced leukocyte responses to PAF."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrin cleavage and complement activation",
+          "evidence": "PDF pp21/24 describe plasmin-associated fibrinolysis/complement connections rather than PAF."
+        },
+        {
+          "id": "o4",
+          "text": "Terminal membrane pore formation and microbial lysis",
+          "evidence": "PDF pp25–26 assign terminal membrane lysis to MAC."
+        },
+        {
+          "id": "o2",
+          "text": "Platelet inhibition, vasodilation and reduced aggregation",
+          "evidence": "PDF pp14/17 assign inhibition of platelet aggregation with vasodilation to PGI2, rather than this PAF pattern."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "PAF stimulates platelets, alters vascular tone/permeability, causes bronchoconstriction and enhances adhesion, chemotaxis, degranulation and oxidative burst.",
+        "ar": "ينشط PAF الصفائح ويغير التوتر والنفوذية الوعائية ويسبب Bronchoconstriction، ويعزز الالتصاق وChemotaxis وDegranulation وOxidative burst."
+      }
+    },
+    {
+      "id": "ch2-part-02-pg-pathway",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p013-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 48
+        }
+      ],
+      "prompt": "Which pathway produces prostaglandins from arachidonic acid?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p13 COX prostaglandin synthesis versus lipoxygenase leukotriene branch and other mediator systems. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "NADPH oxidase",
+          "evidence": "PartI p48 assigns NADPH oxidase to reactive-oxygen generation rather than prostaglandin synthesis."
+        },
+        {
+          "id": "o3",
+          "text": "Complement activation",
+          "evidence": "PDF pp25–26 describe complement-mediated inflammatory/lysis functions, a different system."
+        },
+        {
+          "id": "o1",
+          "text": "Cyclooxygenase",
+          "evidence": "PDF p13 explicitly assigns prostaglandin production to cyclooxygenase."
+        },
+        {
+          "id": "o2",
+          "text": "5-Lipoxygenase",
+          "evidence": "PDF pp14/16 assign leukotrienes to 5-lipoxygenase rather than prostaglandins."
+        },
+        {
+          "id": "o4",
+          "text": "Kallikrein-kinin cascade",
+          "evidence": "PDF p22 assigns the kallikrein-kinin cascade to bradykinin rather than prostaglandins."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Prostaglandins are oxidized arachidonic acid derivatives produced by cyclooxygenase; leukotrienes use lipoxygenase.",
+        "ar": "Prostaglandins مشتقات مؤكسدة من Arachidonic acid تُنتج عبر Cyclooxygenase، بينما تستخدم Leukotrienes مسار Lipoxygenase."
+      }
+    },
+    {
+      "id": "ch2-part-02-pg-effects",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p013-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which combination is promoted by prostaglandins in the inflammatory response?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p13 inflammatory pain/fever/vascular effects distinguished from complement, lipoxin and C5a roles. Rebuilt parallel source-supported alternatives with specific per-option evidence. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Pain, fever, vasodilation and increased permeability",
+          "evidence": "PDF p13 lists these prostaglandin effects."
+        },
+        {
+          "id": "o2",
+          "text": "Opsonization followed by increased phagocytosis",
+          "evidence": "PDF p25 assigns this to C3b/C3bi rather than prostaglandins."
+        },
+        {
+          "id": "o3",
+          "text": "Microbial membrane lysis by terminal complement pores",
+          "evidence": "PDF pp25–26 assign this to MAC rather than prostaglandins."
+        },
+        {
+          "id": "o4",
+          "text": "Inhibition of neutrophil adhesion and chemotaxis",
+          "evidence": "PDF p17 assigns this to lipoxins."
+        },
+        {
+          "id": "o5",
+          "text": "Leukocyte chemotaxis with increased integrin avidity",
+          "evidence": "PDF p25 identifies C5a for this complement effect."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Prostaglandins promote pain, fever, vasodilation and increased vascular permeability in the inflammatory response.",
+        "ar": "تعزز Prostaglandins الألم والحمى وتوسع الأوعية وزيادة نفوذيتها أثناء الاستجابة الالتهابية."
+      }
+    },
+    {
+      "id": "ch2-part-02-pgi-txa",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p014-topic",
+        "ch2-part-02-p017-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which pair correctly distinguishes prostacyclin from thromboxane A2?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp14/17 paired opposite platelet/caliber effects; five parallel permutations checked. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "PGI2: dilation and reduced aggregation; TXA2: constriction and increased aggregation",
+          "evidence": "PDF pp14/17 show these opposing vascular and platelet patterns."
+        },
+        {
+          "id": "o2",
+          "text": "PGI2: constriction and increased aggregation; TXA2: dilation and reduced aggregation",
+          "evidence": "This reverses both mediators on PDF pp14/17."
+        },
+        {
+          "id": "o3",
+          "text": "PGI2: dilation and increased aggregation; TXA2: constriction and reduced aggregation",
+          "evidence": "The vessel effects agree, but both platelet effects reverse PDF pp14/17."
+        },
+        {
+          "id": "o4",
+          "text": "PGI2: constriction and reduced aggregation; TXA2: dilation and increased aggregation",
+          "evidence": "The platelet effects agree, but both vessel effects reverse PDF pp14/17."
+        },
+        {
+          "id": "o5",
+          "text": "PGI2: dilation and reduced aggregation; TXA2: dilation and reduced aggregation",
+          "evidence": "PDF pp14/17 assign TXA2 constriction and increased aggregation, opposite to PGI2."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "PGI2 produces vasodilation and inhibits platelet aggregation; TXA2 produces the opposite vascular/platelet pattern.",
+        "ar": "يسبب PGI2 توسع الأوعية ويثبط تجمع الصفائح؛ بينما يسبب TXA2 تضيق الأوعية ويعزز تجمع الصفائح."
+      }
+    },
+    {
+      "id": "ch2-part-02-zileuton",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p014-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        }
+      ],
+      "prompt": "Which target is inhibited by zileuton?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p14 zileuton targets 5lipoxygenase; competing enzyme/receptor targets from same diagram. Removed source/unseen-image framing from stem. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "Cyclooxygenase-1 alone",
+          "evidence": "PDF p14 places aspirin/other NSAIDs with COX-1/COX-2, while zileuton targets 5-lipoxygenase."
+        },
+        {
+          "id": "o5",
+          "text": "Phospholipase A2",
+          "evidence": "PDF p14 places corticosteroids at phospholipase A2, not zileuton."
+        },
+        {
+          "id": "o2",
+          "text": "Cyclooxygenase-2 alone",
+          "evidence": "PDF p14 assigns selective COX-2 inhibition to celecoxib, not zileuton."
+        },
+        {
+          "id": "o4",
+          "text": "Leukotriene receptor",
+          "evidence": "PDF p14 assigns leukotriene receptor antagonism to montelukast/zafirlukast."
+        },
+        {
+          "id": "o1",
+          "text": "5-Lipoxygenase",
+          "evidence": "PDF p14 labels zileuton as a 5-lipoxygenase inhibitor."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Zileuton inhibits 5-lipoxygenase; montelukast/zafirlukast are shown as leukotriene receptor antagonists.",
+        "ar": "يثبط Zileuton إنزيم 5-Lipoxygenase، بينما يظهر Montelukast وZafirlukast كمضادات لمستقبلات Leukotrienes."
+      }
+    },
+    {
+      "id": "ch2-part-02-celecoxib",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p014-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which enzyme selectivity characterizes celecoxib?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p14 COX2-only label; distinct from COX1/2, 5LOX and PLA2 positions. Removed source/unseen-image framing from stem. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Thromboxane synthase only",
+          "evidence": "PDF pp14/17 place TXA2 synthesis downstream in the pathway; p14 labels celecoxib at COX-2."
+        },
+        {
+          "id": "o1",
+          "text": "COX-2 only",
+          "evidence": "PDF p14 explicitly labels celecoxib COX-2 only."
+        },
+        {
+          "id": "o2",
+          "text": "COX-1 only",
+          "evidence": "PDF p14 labels celecoxib COX-2, not COX-1 only."
+        },
+        {
+          "id": "o3",
+          "text": "5-Lipoxygenase only",
+          "evidence": "PDF p14 assigns 5-lipoxygenase inhibition to zileuton."
+        },
+        {
+          "id": "o4",
+          "text": "Phospholipase A2 only",
+          "evidence": "PDF p14 assigns phospholipase A2 inhibition to corticosteroids."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The diagram assigns celecoxib to COX-2, distinct from the COX-1/COX-2 inhibitor group.",
+        "ar": "يضع المخطط Celecoxib ضمن مثبطات COX-2 فقط، مميزًا إياه عن مجموعة مثبطات COX-1 وCOX-2."
+      }
+    },
+    {
+      "id": "ch2-part-02-lt-origin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p016-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which pathway and cellular sources produce leukotrienes?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p16 lipoxygenase/cell-source combination; broad B4 bronchoconstrictor claim excluded. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Lipoxygenase pathway; neutrophils, basophils and mast cells",
+          "evidence": "PDF p16 supplies this pathway and cell-source combination."
+        },
+        {
+          "id": "o2",
+          "text": "Cyclooxygenase pathway; neutrophils, basophils and mast cells",
+          "evidence": "The cell list agrees with p16, but p16 assigns lipoxygenase rather than cyclooxygenase."
+        },
+        {
+          "id": "o3",
+          "text": "Lipoxygenase pathway; plasma complement and kinin proteins",
+          "evidence": "PDF p5 distinguishes plasma-derived protein systems from locally produced leukotrienes."
+        },
+        {
+          "id": "o4",
+          "text": "Kallikrein pathway; neutrophils, basophils and mast cells",
+          "evidence": "PDF p22 assigns the kallikrein pathway to bradykinin rather than leukotrienes."
+        },
+        {
+          "id": "o5",
+          "text": "Coagulation pathway; plasma factor XII and fibrinogen",
+          "evidence": "PDF pp21–24 identify this as a different plasma-derived cascade."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Leukotrienes are arachidonic acid derivatives produced via lipoxygenase and released from neutrophils, basophils and mast cells.",
+        "ar": "Leukotrienes مشتقات Arachidonic acid عبر Lipoxygenase، وتُصنع وتُحرر من Neutrophils وBasophils وMast cells."
+      }
+    },
+    {
+      "id": "ch2-part-02-ltb4",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p014-topic",
+        "ch2-part-02-p017-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which leukotriene promotes neutrophil chemotaxis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp14/17 B4 chemotaxis versus CDE bronchospasm/permeability and lipoxin inhibition; disputed p15 collective label excluded. Removed source/unseen-image framing from stem. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "LTE4",
+          "evidence": "PDF p17 groups LTE4 with bronchospasm/permeability."
+        },
+        {
+          "id": "o1",
+          "text": "LTB4",
+          "evidence": "PDF pp14/17 specifically place LTB4 with neutrophil chemotaxis."
+        },
+        {
+          "id": "o3",
+          "text": "LTD4",
+          "evidence": "PDF p17 groups LTD4 with bronchospasm/permeability."
+        },
+        {
+          "id": "o5",
+          "text": "LXA4",
+          "evidence": "PDF p17 assigns LXA4 inhibition of neutrophil adhesion/chemotaxis rather than promotion."
+        },
+        {
+          "id": "o2",
+          "text": "LTC4",
+          "evidence": "PDF p17 groups LTC4 with bronchospasm/permeability rather than the B4 chemotaxis label."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "LTB4 promotes neutrophil chemotaxis; LTC4/D4/E4 are grouped with bronchospasm and increased permeability, while lipoxins inhibit neutrophil recruitment.",
+        "ar": "يعزز LTB4 انجذاب Neutrophils؛ وترتبط LTC4 وLTD4 وLTE4 بالـBronchospasm وزيادة النفوذية، بينما تثبط Lipoxins تجنيدها."
+      }
+    },
+    {
+      "id": "ch2-part-02-lipoxins",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p017-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "What effect is assigned to lipoxins A4 and B4?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p17 LXA4/LXB4 inhibit neutrophil adhesion/chemotaxis, unlike TXA2/CDE/complement/kinin effects. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Inhibition of neutrophil adhesion and chemotaxis",
+          "evidence": "PDF p17 explicitly assigns lipoxins A4/B4 inhibition of neutrophil adhesion and chemotaxis."
+        },
+        {
+          "id": "o4",
+          "text": "Formation of the membrane attack complex",
+          "evidence": "PDF pp25–26 assign MAC formation to the complement system."
+        },
+        {
+          "id": "o3",
+          "text": "Increased bronchospasm and permeability",
+          "evidence": "PDF p17 assigns bronchospasm/permeability to LTC4/D4/E4."
+        },
+        {
+          "id": "o2",
+          "text": "Promotion of platelet aggregation and vasoconstriction",
+          "evidence": "PDF p17 assigns platelet aggregation/vasoconstriction to TXA2."
+        },
+        {
+          "id": "o5",
+          "text": "Cleavage of kininogen into bradykinin",
+          "evidence": "PDF p22 assigns kininogen cleavage to kallikrein."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "LXA4 and LXB4 inhibit neutrophil adhesion and chemotaxis in the pathway figure.",
+        "ar": "يثبط LXA4 وLXB4 التصاق Neutrophils وChemotaxis في مخطط المسار."
+      }
+    },
+    {
+      "id": "ch2-part-02-no-effect",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p018-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which pair describes endothelial nitric oxide activity?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p18 endothelial NO dilation plus platelet inhibition; parallel direction permutations. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Vasodilation and inhibition of platelet aggregation",
+          "evidence": "PDF p18 explicitly states both NO effects."
+        },
+        {
+          "id": "o2",
+          "text": "Vasoconstriction and promotion of platelet aggregation",
+          "evidence": "This reverses both NO effects on PDF p18; pp14/17 associate that pattern with TXA2."
+        },
+        {
+          "id": "o3",
+          "text": "Vasodilation and promotion of platelet aggregation",
+          "evidence": "The vessel effect agrees, but p18 gives inhibition rather than promotion of aggregation."
+        },
+        {
+          "id": "o4",
+          "text": "Vasoconstriction and inhibition of platelet aggregation",
+          "evidence": "The platelet effect agrees, but p18 gives vasodilation."
+        },
+        {
+          "id": "o5",
+          "text": "No change in vessel caliber or platelet aggregation",
+          "evidence": "PDF p18 explicitly gives a vascular and platelet response."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Endothelial NO is a short-acting soluble gas that dilates vessels and inhibits platelet aggregation.",
+        "ar": "NO البطاني غاز ذائب قصير التأثير يوسع الأوعية ويثبط تجمع الصفائح."
+      }
+    },
+    {
+      "id": "ch2-part-02-no-stimulus",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p018-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Which stimulus pair promotes endothelial nitric oxide release?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p18 acetylcholine/bradykinin endothelial stimuli; disputed macrophage interferon subtype not scored. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Acetylcholine and bradykinin",
+          "evidence": "PDF p18 explicitly names these as stimuli for endothelial NO release."
+        },
+        {
+          "id": "o2",
+          "text": "IL-1 and TNF",
+          "evidence": "PDF pp7–9 group these as cytokines; p18 specifically names acetylcholine/bradykinin for endothelial NO release."
+        },
+        {
+          "id": "o3",
+          "text": "C3a and C5a",
+          "evidence": "PDF p25 associates these with permeability/mast-cell effects, not the specific endothelial stimulus pair on p18."
+        },
+        {
+          "id": "o4",
+          "text": "IL-8 and eotaxin",
+          "evidence": "Their chemotactic roles differ from the acetylcholine/bradykinin stimulus pair specified on p18."
+        },
+        {
+          "id": "o5",
+          "text": "MCP-1 and MIP-1alpha",
+          "evidence": "These chemokines are not the acetylcholine/bradykinin pair explicitly stated for endothelial NO on p18."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Acetylcholine and bradykinin stimulate endothelial nitric oxide release.",
+        "ar": "يحفز Acetylcholine وBradykinin تحرير Nitric oxide من خلايا البطانة."
+      }
+    },
+    {
+      "id": "ch2-part-02-kinin-product",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "What is the ultimate product of the kinin cascade?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p22 bradykinin ultimate kinin endpoint contrasted with clotting/fibrinolytic/complement products. Checked and specified the distinct error or support for every option. Removed source/unseen-image framing from stem. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Thrombin",
+          "evidence": "PDF p21 places thrombin in the coagulation branch."
+        },
+        {
+          "id": "o4",
+          "text": "Fibrin",
+          "evidence": "PDF pp21/24 place fibrin in the coagulation/deposition pathway."
+        },
+        {
+          "id": "o1",
+          "text": "Bradykinin",
+          "evidence": "PDF p22 identifies bradykinin as the ultimate kinin-cascade product."
+        },
+        {
+          "id": "o3",
+          "text": "Plasmin",
+          "evidence": "PDF pp21/24 place plasmin in the fibrinolytic branch."
+        },
+        {
+          "id": "o5",
+          "text": "C3a",
+          "evidence": "PDF pp21/25 identify C3a as a complement product rather than the kinin endpoint."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Activated XII generates kallikrein from prekallikrein; kallikrein cleaves kininogen to bradykinin.",
+        "ar": "يولد Factor XII المنشط Kallikrein من Prekallikrein؛ ثم يشطر Kallikrein الـKininogen إلى Bradykinin."
+      }
+    },
+    {
+      "id": "ch2-part-02-kallikrein",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Which conversion is directly attributed to kallikrein in the kinin pathway?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p22 kallikrein specifically cleaves kininogen; direct enzyme conversion distinguished from overall branch endpoint. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "C3 to C3a",
+          "evidence": "PDF p21 links C3 cleavage to complement activation rather than the named kininogen substrate."
+        },
+        {
+          "id": "o3",
+          "text": "Prothrombin to thrombin",
+          "evidence": "PDF p21 places prothrombin-to-thrombin in the clotting branch."
+        },
+        {
+          "id": "o2",
+          "text": "Prekallikrein to kallikrein",
+          "evidence": "PDF p22 assigns prekallikrein activation to factor XIIa, not kallikrein as the named direct conversion here."
+        },
+        {
+          "id": "o1",
+          "text": "Kininogen to bradykinin",
+          "evidence": "PDF p22 explicitly assigns kininogen-to-bradykinin cleavage to kallikrein."
+        },
+        {
+          "id": "o4",
+          "text": "Fibrinogen to fibrin",
+          "evidence": "PDF pp21/24 place fibrinogen-to-fibrin in the clotting/deposition branch."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Kallikrein cleaves kininogen to bradykinin after prekallikrein activation.",
+        "ar": "يشطر Kallikrein الـKininogen لتكوين Bradykinin بعد تنشيط Prekallikrein."
+      }
+    },
+    {
+      "id": "ch2-part-02-brady-effects",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p022-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which effect combination belongs to bradykinin?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p22 bradykinin bronchial/vascular/pain profile versus PGI2/NO/TXA2/complement profiles. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "Vasodilation and inhibition of platelet aggregation",
+          "evidence": "PDF p18 assigns dilation/platelet inhibition to NO, and pp14/17 give that pattern for PGI2."
+        },
+        {
+          "id": "o5",
+          "text": "Neutrophil chemotaxis with inhibited platelet aggregation",
+          "evidence": "PDF p17 gives LTB4 chemotaxis and PGI2 platelet inhibition as separate effects, not this bradykinin profile."
+        },
+        {
+          "id": "o3",
+          "text": "Platelet aggregation with vasoconstriction",
+          "evidence": "PDF pp14/17 assign aggregation/vasoconstriction to TXA2."
+        },
+        {
+          "id": "o1",
+          "text": "Bronchial constriction, vasodilation, permeability and pain",
+          "evidence": "PDF p22 explicitly gives bronchial constriction, vasodilation, permeability and pain."
+        },
+        {
+          "id": "o4",
+          "text": "Opsonization with increased phagocytosis",
+          "evidence": "PDF p25 assigns opsonization/increased phagocytosis to C3b/C3bi."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Bradykinin causes bronchial smooth-muscle constriction, vasodilation, increased permeability and pain.",
+        "ar": "يسبب Bradykinin انقباض العضلات الملساء القصبية وتوسع الأوعية وزيادة نفوذيتها والألم."
+      }
+    },
+    {
+      "id": "ch2-part-02-plasmin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p024-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "How does the fibrinolytic system connect with complement?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p24 plasmin activates complement; coagulation/kinin/prostaglandin conversions are different source pathways. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Plasmin formation leads to complement activation",
+          "evidence": "PDF p24 explicitly states plasmin activates complement."
+        },
+        {
+          "id": "o2",
+          "text": "Plasmin formation leads to complement inhibition",
+          "evidence": "This reverses the activation relationship on PDF p24."
+        },
+        {
+          "id": "o3",
+          "text": "Complement activation converts prothrombin into thrombin",
+          "evidence": "PDF p21 assigns the prothrombin/thrombin step to the clotting branch."
+        },
+        {
+          "id": "o4",
+          "text": "Complement activation converts kininogen into bradykinin",
+          "evidence": "PDF p22 assigns this step to kallikrein."
+        },
+        {
+          "id": "o5",
+          "text": "Plasmin formation directly produces prostaglandins",
+          "evidence": "PDF p13 assigns prostaglandins to the cyclooxygenase pathway rather than plasmin."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Factor XII activation promotes plasmin formation, and plasmin activates complement.",
+        "ar": "يعزز تنشيط Factor XII تكوين Plasmin، ثم ينشط Plasmin مسار Complement."
+      }
+    },
+    {
+      "id": "ch2-part-02-complement-functions",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p025-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which complement component–function combination is correct?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p25 C5a chemotaxis, C3b opsonization and MAC lysis; repaired nonunique C5a matching to single-key permutation MCQ. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "explanation": {
+        "en": "C5a promotes chemotaxis and increased integrin avidity; C3b supports opsonization; the terminal MAC damages microbial membranes.",
+        "ar": "يعزز C5a الـChemotaxis ويزيد قوة ارتباط Integrins، ويسهم C3b في Opsonization، ويؤذي MAC النهائي الأغشية الميكروبية."
+      },
+      "correctOptionId": "o1",
+      "options": [
+        {
+          "id": "o1",
+          "text": "C5a: chemotaxis; C3b: opsonization; MAC: membrane lysis",
+          "evidence": "PDF p25 assigns these three distinct roles."
+        },
+        {
+          "id": "o2",
+          "text": "C5a: opsonization; C3b: chemotaxis; MAC: membrane lysis",
+          "evidence": "The first two assignments reverse PDF p25."
+        },
+        {
+          "id": "o3",
+          "text": "C5a: chemotaxis; C3b: membrane lysis; MAC: opsonization",
+          "evidence": "PDF p25 assigns C3b to opsonization and MAC to lysis."
+        },
+        {
+          "id": "o4",
+          "text": "C5a: membrane lysis; C3b: opsonization; MAC: chemotaxis",
+          "evidence": "PDF p25 assigns C5a to chemotaxis and MAC to membrane lysis."
+        },
+        {
+          "id": "o5",
+          "text": "C5a: opsonization; C3b: membrane lysis; MAC: chemotaxis",
+          "evidence": "All three roles differ from their assignments on PDF p25."
+        }
+      ]
+    },
+    {
+      "id": "ch2-part-02-lectin",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p026-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which interaction initiates the lectin complement pathway?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p26 mannose-binding lectin recognition versus classical/alternative entry and downstream phagocytosis/lysis. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Mannose-binding lectin recognizes a microbial surface",
+          "evidence": "PDF p26 shows this recognition route initiating the lectin pathway."
+        },
+        {
+          "id": "o2",
+          "text": "Antibody recognizes a microbial surface",
+          "evidence": "PDF p26 illustrates antibody-dependent recognition under the classical pathway."
+        },
+        {
+          "id": "o3",
+          "text": "Direct alternative-pathway interaction with a microbe",
+          "evidence": "PDF p26 distinguishes the alternative route from mannose-binding lectin recognition."
+        },
+        {
+          "id": "o4",
+          "text": "C3b binds a phagocyte C3b receptor",
+          "evidence": "PDF p26 places this downstream in phagocytic recognition rather than lectin pathway initiation."
+        },
+        {
+          "id": "o5",
+          "text": "Terminal membrane attack complex inserts into the microbe",
+          "evidence": "PDF p26 places this downstream at membrane lysis rather than lectin recognition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The lectin pathway is shown with mannose-binding lectin, while the classical route is illustrated with antibodies.",
+        "ar": "يُظهر المخطط Mannose-binding lectin في مسار Lectin، بينما يُظهر الأجسام المضادة في المسار Classical."
+      }
+    },
+    {
+      "id": "ch2-part-02-pain-mediators",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p028-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 37
+        },
+        {
+          "lectureId": "ch2-part-01",
+          "pdfPage": 39
+        }
+      ],
+      "prompt": "Which pair is specifically associated with inflammatory pain?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p28 shared prostaglandin/bradykinin pain association; adhesion/opsonin molecules not misidentified as this pair. Checked and specified the distinct error or support for every option. Rechecked direct EN/AR explanation after repair. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o2",
+          "text": "C3b and C3bi",
+          "evidence": "PDF p25 assigns C3b/C3bi opsonization roles."
+        },
+        {
+          "id": "o4",
+          "text": "LFA-1 and Mac-1",
+          "evidence": "PartI p37 identifies LFA-1/Mac-1 as leukocyte adhesion integrins."
+        },
+        {
+          "id": "o1",
+          "text": "Prostaglandins and bradykinin",
+          "evidence": "PDF p28 explicitly lists prostaglandins and bradykinin under pain."
+        },
+        {
+          "id": "o5",
+          "text": "PECAM-1 and collagenase",
+          "evidence": "PartI p39 identifies PECAM-1/collagenase roles in transmigration and basement crossing."
+        },
+        {
+          "id": "o3",
+          "text": "ICAM-1 and VCAM-1",
+          "evidence": "PartI p37 identifies ICAM-1/VCAM-1 as endothelial adhesion ligands."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Prostaglandins and bradykinin contribute to inflammatory pain.",
+        "ar": "تسهم Prostaglandins وBradykinin في الألم الالتهابي."
+      }
+    },
+    {
+      "id": "ch2-part-02-chemotactic-mediators",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p028-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Which set is grouped with chemotaxis?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p28 C5a/LTB4/chemokines set versus dilation, opsonization, pain and CDE permeability groups. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "C5a, LTB4 and chemokines",
+          "evidence": "PDF p28 explicitly groups these under chemotaxis."
+        },
+        {
+          "id": "o2",
+          "text": "PGI2, nitric oxide and histamine",
+          "evidence": "PDF p28 groups these under vasodilation."
+        },
+        {
+          "id": "o3",
+          "text": "C3b, C3bi and membrane attack complex",
+          "evidence": "PDF pp25–26 assign opsonization/lysis roles rather than the p28 chemotactic set."
+        },
+        {
+          "id": "o4",
+          "text": "Prostaglandins, bradykinin and nitric oxide",
+          "evidence": "PDF p28 emphasizes pain for prostaglandins/bradykinin and dilation for NO; this is not its chemotaxis grouping."
+        },
+        {
+          "id": "o5",
+          "text": "LTC4, LTD4 and LTE4",
+          "evidence": "PDF p17 groups these with bronchospasm/permeability; p28 gives C5a/LTB4/chemokines for chemotaxis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "C5a, LTB4 and chemokines are grouped as chemotactic mediators; PGI2, NO and histamine are grouped with vasodilation.",
+        "ar": "تُجمع C5a وLTB4 وChemokines كوسائط Chemotaxis؛ بينما ترتبط PGI2 وNO وHistamine بتوسع الأوعية."
+      }
+    },
+    {
+      "id": "ch2-part-02-outcomes",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p030-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 30
+        }
+      ],
+      "prompt": "Which set gives the four main outcomes of acute inflammation if the patient survives?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p30 four surviving-patient outcomes; recruitment/phagocytic steps not confused with outcomes. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Resolution, abscess, fibrosis or chronic inflammation",
+          "evidence": "PDF p30 lists these four outcomes."
+        },
+        {
+          "id": "o2",
+          "text": "Resolution, abscess, fibrosis or leukocyte rolling",
+          "evidence": "PDF p30 lists progression to chronic inflammation, not the recruitment event rolling."
+        },
+        {
+          "id": "o3",
+          "text": "Resolution, abscess, chemotaxis or chronic inflammation",
+          "evidence": "PDF p30 lists healing by fibrosis, not chemotaxis as an outcome."
+        },
+        {
+          "id": "o4",
+          "text": "Resolution, adhesion, fibrosis or chronic inflammation",
+          "evidence": "PDF p30 lists abscess formation, not the recruitment event adhesion."
+        },
+        {
+          "id": "o5",
+          "text": "Margination, abscess, fibrosis or chronic inflammation",
+          "evidence": "PDF p30 lists resolution, not margination, as the remaining outcome."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The stated acute outcomes are resolution, abscess formation, healing by fibrosis and progression to chronic inflammation.",
+        "ar": "مآلات Acute inflammation المذكورة هي Resolution وتكون Abscess والالتئام بالتليف والتحول إلى Chronic inflammation."
+      }
+    },
+    {
+      "id": "ch2-part-02-determinants",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p031-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Which three factors determine the outcome of acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p31 severity, regenerative capacity and injurious-agent type; parallel near-miss triplets. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Damage severity, regenerative capacity and injurious-agent type",
+          "evidence": "PDF p31 explicitly gives these three determinants."
+        },
+        {
+          "id": "o2",
+          "text": "Damage severity, regenerative capacity and exudate color",
+          "evidence": "The first two agree, but p31 gives agent type rather than exudate color."
+        },
+        {
+          "id": "o3",
+          "text": "Damage severity, neutrophil nuclear shape and injurious-agent type",
+          "evidence": "PDF p31 gives tissue regenerative capacity rather than neutrophil nuclear shape."
+        },
+        {
+          "id": "o4",
+          "text": "Endothelial selectin subtype, regenerative capacity and injurious-agent type",
+          "evidence": "PDF p31 gives tissue-damage severity rather than selectin subtype."
+        },
+        {
+          "id": "o5",
+          "text": "Neutrophil nuclear shape, exudate color and endothelial selectin subtype",
+          "evidence": "None reproduces the three determinants of tissue outcome stated on p31."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The outcome depends on injury severity, the capacity of specialized cells to regenerate, and the agent causing damage.",
+        "ar": "يعتمد المآل على شدة الأذية وقدرة الخلايا المتخصصة على Regeneration ونوع العامل المسبب."
+      }
+    },
+    {
+      "id": "ch2-part-02-resolution",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p034-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which setting favors complete resolution?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p34 brief/minimal injury plus replacement capacity versus fibrosis/chronic/pyogenic abscess settings. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Extensive fibrin that cannot be absorbed",
+          "evidence": "PDF p35 associates incompletely absorbed extensive fibrin with fibrosis."
+        },
+        {
+          "id": "o2",
+          "text": "Substantial destruction in a nonregenerating tissue",
+          "evidence": "PDF p35 favors fibrosis after substantial destruction in nonregenerating tissue."
+        },
+        {
+          "id": "o1",
+          "text": "Short-lived injury with minimal damage and replaceable injured cells",
+          "evidence": "PDF p34 favors resolution when injury is brief/limited, damage minimal and injured cells replaceable."
+        },
+        {
+          "id": "o5",
+          "text": "Failure to remove pyogenic bacteria with tissue liquefaction",
+          "evidence": "PDF p34 associates persistent pyogenic bacteria/liquefaction with abscess formation."
+        },
+        {
+          "id": "o3",
+          "text": "Persistent injurious agent with ongoing destruction",
+          "evidence": "PDF pp35–36 associate persistent injury with chronic progression."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Resolution is favored by limited or brief injury, minimal damage and the ability to replace irreversibly injured cells.",
+        "ar": "تُرجح Resolution عندما تكون الأذية محدودة أو قصيرة والضرر ضئيلًا ويستطيع النسيج استبدال الخلايا المتأذية نهائيًا."
+      }
+    },
+    {
+      "id": "ch2-part-02-abscess-development",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p034-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "What favors abscess formation during acute inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p34 persistent pyogenic infection with liquefaction/pus versus other supported healing patterns. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Persistent pyogenic infection with tissue liquefaction and pus",
+          "evidence": "PDF p34 associates abscess development with failure to eliminate pyogenic bacteria and liquefaction."
+        },
+        {
+          "id": "o2",
+          "text": "Brief injury with minimal tissue damage and effective cell replacement",
+          "evidence": "PDF p34 identifies this as favorable for resolution."
+        },
+        {
+          "id": "o3",
+          "text": "Substantial destruction of tissue unable to regenerate",
+          "evidence": "PDF p35 favors healing by fibrosis in this setting."
+        },
+        {
+          "id": "o4",
+          "text": "Complete fibrin degradation on membrane surfaces",
+          "evidence": "PDF p41 permits resolution of fibrinous inflammation when fibrin is degraded."
+        },
+        {
+          "id": "o5",
+          "text": "Persistent injury producing a mainly mononuclear infiltrate and scarring",
+          "evidence": "PDF p33 labels the mononuclear/angiogenic/scarring pattern chronic inflammation rather than the pyogenic liquefaction/pus pattern."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Abscess formation commonly accompanies failure to eliminate pyogenic infection and tissue liquefaction into pus.",
+        "ar": "يرتبط تكون Abscess غالبًا بالفشل في إزالة العدوى المولدة للقيح وتميع النسيج لتكوين Pus."
+      }
+    },
+    {
+      "id": "ch2-part-02-fibrosis-setting",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p035-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "When is healing by fibrosis favored?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p35 substantial destruction, nonregenerating tissue and unresolved fibrin; distinct from resolution conditions. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "Rapid clearance of all fibrin with intact underlying tissue",
+          "evidence": "PDF p41 permits resolution after complete fibrin degradation."
+        },
+        {
+          "id": "o3",
+          "text": "Complete removal of a brief stimulus without injury",
+          "evidence": "PDF p34 instead favors resolution with limited/short-lived injury."
+        },
+        {
+          "id": "o1",
+          "text": "Substantial tissue destruction or inflammation in tissue that cannot regenerate",
+          "evidence": "PDF p35 favors fibrosis after substantial destruction or injury in tissue that does not regenerate."
+        },
+        {
+          "id": "o5",
+          "text": "Transient vasodilation without structural damage",
+          "evidence": "PDF p35 bases fibrosis on substantial destruction, inability to regenerate or unabsorbed fibrin rather than a transient caliber change alone."
+        },
+        {
+          "id": "o2",
+          "text": "Minimal damage in a tissue that readily regenerates",
+          "evidence": "PDF p34 instead favors resolution with minimal damage and regenerative capacity."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Fibrosis follows substantial destruction, nonregenerating tissue injury, or incompletely absorbed extensive fibrinous exudate.",
+        "ar": "يتبع Fibrosis تدميرًا نسيجيًا كبيرًا أو أذية نسيج غير قابل للتجدد أو بقاء Exudate فيبريني واسع غير ممتص بالكامل."
+      }
+    },
+    {
+      "id": "ch2-part-02-persistent-agent",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p035-topic",
+        "ch2-part-02-p036-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 36
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "Which outcome is associated with persistence of the damaging agent?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "pp35–36 persistent damaging agent favors chronic inflammation; no guaranteed outcome beyond stated association. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Progression to chronic inflammation",
+          "evidence": "PDF pp35–36 link persistence of injury to chronic inflammation."
+        },
+        {
+          "id": "o2",
+          "text": "Complete resolution despite continuing tissue injury",
+          "evidence": "PDF pp34–36 contrast resolution with brief/minimal damage and chronic progression with persistence."
+        },
+        {
+          "id": "o3",
+          "text": "Regeneration without an ongoing inflammatory response",
+          "evidence": "PDF pp35–36 show a persistent agent sustaining inflammation rather than eliminating the response."
+        },
+        {
+          "id": "o4",
+          "text": "Fibrinolysis alone as the complete tissue outcome",
+          "evidence": "PDF p41 describes removal of fibrin; pp35–36 identify chronic inflammation with persistent injury."
+        },
+        {
+          "id": "o5",
+          "text": "Immediate restoration of normal tissue without agent clearance",
+          "evidence": "PDF pp34–36 link complete resolution to limited injury and preserved replacement capacity, not unresolved ongoing injury."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "An ongoing injurious agent can sustain chronic inflammation; regenerative capacity and injury extent influence subsequent healing.",
+        "ar": "قد يحافظ استمرار العامل المؤذي على Chronic inflammation؛ وتتأثر عملية الالتئام اللاحقة بامتداد الأذية والقدرة على التجدد."
+      }
+    },
+    {
+      "id": "ch2-part-02-serous",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p038-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which morphologic pattern accumulates fluid with relatively low plasma-protein and cell content?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p38 low-cell/protein fluid; disputed transudate naming excluded from scoring and feedback. Rechecked direct EN/AR explanation after repair. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o5",
+          "text": "Granulomatous inflammation",
+          "evidence": "PartIII p33 defines granulomatous inflammation by epithelioid-macrophage aggregates rather than low-cell fluid."
+        },
+        {
+          "id": "o1",
+          "text": "Serous inflammation",
+          "evidence": "PDF p38 describes serous inflammation with relatively low protein and cell content."
+        },
+        {
+          "id": "o4",
+          "text": "Ulceration",
+          "evidence": "PDF p51 defines ulceration by epithelial necrosis/erosion."
+        },
+        {
+          "id": "o3",
+          "text": "Suppurative inflammation",
+          "evidence": "PDF p45 describes suppurative inflammation with neutrophil-rich exudate."
+        },
+        {
+          "id": "o2",
+          "text": "Fibrinous inflammation",
+          "evidence": "PDF p40 describes fibrinous inflammation with high plasma-protein content/fibrin."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Serous inflammation features relatively low-protein, low-cell fluid, as in skin blisters or fluid collections in body cavities.",
+        "ar": "يتميز Serous inflammation بسائل قليل البروتين والخلايا نسبيًا، كما في فقاعات الجلد أو تجمع السائل في تجاويف الجسم."
+      }
+    },
+    {
+      "id": "ch2-part-02-serous-sites",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p038-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which example is listed under serous inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p38 burn/skin-blister example versus source-defined abscess, ulcer, fibrin mat and granuloma. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o4",
+          "text": "A mat of fibrin between pericardial surfaces",
+          "evidence": "PDF p41 describes a fibrin mat between membrane surfaces in fibrinous inflammation."
+        },
+        {
+          "id": "o1",
+          "text": "A skin blister after a burn",
+          "evidence": "PDF p38 explicitly gives burns/skin blisters as serous examples."
+        },
+        {
+          "id": "o2",
+          "text": "A circumscribed collection of neutrophil-rich pus",
+          "evidence": "PDF p46 describes a circumscribed pus collection as an abscess."
+        },
+        {
+          "id": "o3",
+          "text": "An epithelial surface with a necrotic ulcer crater",
+          "evidence": "PDF p51 defines ulceration by epithelial necrosis/erosion."
+        },
+        {
+          "id": "o5",
+          "text": "An aggregate of epithelioid macrophages",
+          "evidence": "PartIII p33 defines an epithelioid-macrophage aggregate as granulomatous inflammation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Serous inflammation is illustrated by burns/skin blisters and fluid in body cavities.",
+        "ar": "تتضمن أمثلة Serous inflammation فقاعات الحروق والجلد وتجمع السائل في تجاويف الجسم."
+      }
+    },
+    {
+      "id": "ch2-part-02-fibrinogen",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p040-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        }
+      ],
+      "prompt": "What produces tissue fibrin in fibrinous inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p40 exuded fibrinogen precedes deposited fibrin; reversals/organization/fibrinolysis/serous fluid differentiated. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Plasma fibrinogen escapes and is converted to deposited fibrin",
+          "evidence": "PDF p40 explicitly gives exudation of fibrinogen and conversion to fibrin."
+        },
+        {
+          "id": "o2",
+          "text": "Plasma fibrin escapes and is converted to deposited fibrinogen",
+          "evidence": "This reverses the precursor/product relationship on PDF p40."
+        },
+        {
+          "id": "o3",
+          "text": "Fibrin is degraded completely by fibrinolysis",
+          "evidence": "PDF p41 describes fibrin removal and possible resolution, not initial deposition."
+        },
+        {
+          "id": "o4",
+          "text": "Deposited fibrin is replaced during vascular and fibroblast ingrowth",
+          "evidence": "PDF p41 describes organization after deposition, not the initial formation of fibrin."
+        },
+        {
+          "id": "o5",
+          "text": "Low-protein serous fluid accumulates without fibrinogen exudation",
+          "evidence": "PDF p38 describes serous rather than fibrinous inflammation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Increased permeability permits fibrinogen exudation, followed by conversion to fibrin deposited in tissues.",
+        "ar": "تسمح زيادة النفوذية بخروج Fibrinogen من البلازما، ثم يتحول إلى Fibrin يترسب في الأنسجة."
+      }
+    },
+    {
+      "id": "ch2-part-02-fibrinous-sites",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p041-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Why can fibrinous inflammation cause adhesions in membrane-lined cavities?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p41 fibrin mat links adjacent surfaces; no unsupported universal cause attribution. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Fibrin strands form a mat between adjacent surfaces",
+          "evidence": "PDF p41 explicitly links the fibrin mat to adhesion of adjacent membranes."
+        },
+        {
+          "id": "o2",
+          "text": "Fibrinolysis completely removes the fibrin between surfaces",
+          "evidence": "PDF p41 permits resolution after complete fibrin degradation rather than persistence of a bridging mat."
+        },
+        {
+          "id": "o3",
+          "text": "Low-protein serous fluid accumulates between surfaces",
+          "evidence": "PDF p38 describes fluid accumulation rather than a fibrin-strand mat."
+        },
+        {
+          "id": "o4",
+          "text": "A circumscribed collection of neutrophil-rich pus develops",
+          "evidence": "PDF pp45–46 describe suppuration/abscess rather than the fibrin mat linking surfaces."
+        },
+        {
+          "id": "o5",
+          "text": "Necrosis erodes an epithelial surface",
+          "evidence": "PDF p51 describes ulceration rather than fibrinous membrane adhesion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Fibrin can form a mat between pleural, pericardial or peritoneal surfaces, creating adhesions.",
+        "ar": "يمكن أن يشكل Fibrin شبكة بين سطوح Pleura أوPericardium أوPeritoneum فتحدث Adhesions."
+      }
+    },
+    {
+      "id": "ch2-part-02-fibrinous-outcomes",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p041-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "What determines whether fibrinous inflammation resolves or organizes?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p41 resolution with fibrinolysis versus organization with vessels/fibroblasts; parallel outcome/route contrasts. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Fibrinolytic removal permits resolution; vessel/fibroblast ingrowth produces organization",
+          "evidence": "PDF p41 explicitly distinguishes these two fates."
+        },
+        {
+          "id": "o2",
+          "text": "Fibrinolytic removal produces organization; vessel/fibroblast ingrowth permits resolution",
+          "evidence": "This reverses the two processes and outcomes on PDF p41."
+        },
+        {
+          "id": "o3",
+          "text": "Fibrinolytic removal and vessel/fibroblast ingrowth both require persistent fibrin",
+          "evidence": "PDF p41 describes removal of fibrin during resolution, not persistence in both paths."
+        },
+        {
+          "id": "o4",
+          "text": "Fibrinolytic removal and vessel/fibroblast ingrowth both directly form pus",
+          "evidence": "PDF pp45–46 describe neutrophil-rich suppuration, not these two fibrinous outcomes."
+        },
+        {
+          "id": "o5",
+          "text": "Fibrinolytic removal and vessel/fibroblast ingrowth both cause epithelial ulceration",
+          "evidence": "PDF p51 defines ulceration by epithelial necrosis/erosion rather than these fibrin-removal/organization routes."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Complete fibrin degradation can permit resolution; organization involves growth of vessels and fibroblasts.",
+        "ar": "قد تسمح إزالة Fibrin بالكامل بالـResolution؛ أما Organization فتتضمن نمو الأوعية وFibroblasts."
+      }
+    },
+    {
+      "id": "ch2-part-02-suppuration",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p045-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 45
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which feature defines suppurative inflammation?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p45 neutrophil-rich acute exudate; morphology naming distinct from PartI pus-composition target. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "An acute exudate particularly rich in neutrophils",
+          "evidence": "PDF p45 explicitly defines suppuration by an acute exudate particularly rich in neutrophils."
+        },
+        {
+          "id": "o4",
+          "text": "A fluid collection depleted of inflammatory cells",
+          "evidence": "PDF p38 describes relatively low-cell serous fluid, distinct from neutrophil-rich suppuration."
+        },
+        {
+          "id": "o2",
+          "text": "An exudate composed mainly of collagen fibers",
+          "evidence": "PDF pp40–41 define fibrinous exudation by fibrin deposition, while p45 defines purulence by neutrophils rather than collagen."
+        },
+        {
+          "id": "o3",
+          "text": "A macrophage aggregate with epithelial appearance",
+          "evidence": "PartIII p33 defines an epithelioid-macrophage aggregate as granulomatous inflammation."
+        },
+        {
+          "id": "o5",
+          "text": "A surface defect without inflammatory exudate",
+          "evidence": "PDF p51 defines ulceration by epithelial surface necrosis/erosion, rather than absence of inflammatory exudate."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Suppurative or purulent inflammation has a neutrophil-rich acute exudate; pus includes viable/dead neutrophils, necrotic tissue and edema fluid.",
+        "ar": "يتميز Suppurative أوPurulent inflammation بـExudate حاد غني بـNeutrophils؛ ويشمل Pus خلايا حية وميتة ونسيجًا متنخرًا وسائل وذمة."
+      }
+    },
+    {
+      "id": "ch2-part-02-abscess-zones",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p046-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        }
+      ],
+      "prompt": "Which arrangement describes an abscess from center outward?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p46 central necrosis -> viable neutrophils -> vascular/fibroblastic zone; all five alternatives permutations of same three zones. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Necrosis -> viable neutrophils -> dilated vessels/fibroblastic reaction",
+          "evidence": "PDF p46 gives this center-to-periphery arrangement."
+        },
+        {
+          "id": "o2",
+          "text": "Viable neutrophils -> necrosis -> dilated vessels/fibroblastic reaction",
+          "evidence": "PDF p46 places necrosis centrally and viable neutrophils outside it."
+        },
+        {
+          "id": "o3",
+          "text": "Dilated vessels/fibroblastic reaction -> viable neutrophils -> necrosis",
+          "evidence": "This reverses the center and outer zone in p46."
+        },
+        {
+          "id": "o4",
+          "text": "Necrosis -> dilated vessels/fibroblastic reaction -> viable neutrophils",
+          "evidence": "PDF p46 places viable neutrophils between necrosis and the outer reaction."
+        },
+        {
+          "id": "o5",
+          "text": "Viable neutrophils -> dilated vessels/fibroblastic reaction -> necrosis",
+          "evidence": "PDF p46 places necrosis centrally, not outside the vascular/fibroblastic zone."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "An abscess has central necrosis surrounded by viable neutrophils and an outer vascular/fibroblastic reaction.",
+        "ar": "يحتوي Abscess على تنخر مركزي تحيط به Neutrophils حية، ثم منطقة أوعية متوسعة وتفاعل Fibroblastic."
+      }
+    },
+    {
+      "id": "ch2-part-02-pyogenic",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p046-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 40
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "What does pyogenic mean when applied to bacteria?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p46 meaning pus-producing; example bacterial list preserved without forcing outside associations. Rebuilt parallel source-supported alternatives with specific per-option evidence. Removed source/unseen-image framing from stem. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Associated with production of purulent inflammation",
+          "evidence": "PDF p46 defines pyogenic bacteria by purulent inflammation."
+        },
+        {
+          "id": "o2",
+          "text": "Associated with production of serous inflammation",
+          "evidence": "PDF p38 characterizes serous inflammation by low-cell/protein fluid, distinct from the purulent definition on p46."
+        },
+        {
+          "id": "o3",
+          "text": "Associated with production of fibrinous inflammation",
+          "evidence": "PDF pp40–41 characterize fibrin deposition, distinct from the purulent definition on p46."
+        },
+        {
+          "id": "o4",
+          "text": "Associated with production of granulomatous inflammation",
+          "evidence": "A granuloma is a macrophage-based pattern; pyogenic on p46 means pus-producing."
+        },
+        {
+          "id": "o5",
+          "text": "Associated with epithelial regeneration without pus",
+          "evidence": "PDF p46 defines the term by purulent inflammation rather than absence of pus."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pyogenic bacteria produce purulent inflammation; the examples include staphylococci, selected streptococci, E. coli and Neisseriae.",
+        "ar": "تعني Pyogenic مولدًا للقيح؛ وتشمل الأمثلة Staphylococci وبعض Streptococci وE. coli وNeisseriae."
+      }
+    },
+    {
+      "id": "ch2-part-02-ulcer",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 38
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 41
+        },
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 46
+        },
+        {
+          "lectureId": "ch2-part-03",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which change defines ulceration?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 epithelial surface necrosis/erosion versus abscess, fibrin mat, granuloma and serous fluid. Checked and specified the distinct error or support for every option. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o3",
+          "text": "A mat of fibrin between two membranes",
+          "evidence": "PDF p41 describes a fibrin mat between membranes as fibrinous inflammation."
+        },
+        {
+          "id": "o4",
+          "text": "An aggregate of epithelioid macrophages",
+          "evidence": "PartIII p33 defines epithelioid-macrophage aggregates as granulomatous inflammation."
+        },
+        {
+          "id": "o5",
+          "text": "Fluid accumulation beneath a fully intact surface without necrosis",
+          "evidence": "PDF p38 describes serous fluid accumulation, which does not supply the necrotic/eroded surface in the ulcer definition."
+        },
+        {
+          "id": "o1",
+          "text": "Necrosis and erosion of an epithelial surface",
+          "evidence": "PDF p51 explicitly defines ulceration by necrosis and erosion of epithelium."
+        },
+        {
+          "id": "o2",
+          "text": "A deep circumscribed collection of pus with intact surface",
+          "evidence": "PDF p46 describes the circumscribed collection as an abscess rather than a surface erosion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Ulceration is inflammation with necrosis and erosion of the epithelial surface.",
+        "ar": "Ulceration موضع التهاب يحدث فيه تنخر وتآكل السطح الظهاري."
+      }
+    },
+    {
+      "id": "ch2-part-02-ulcer-layers",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Which layers are listed in an ulcer?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 neutrophilic exudate/vascular proliferation/fibroblast layer; parallel layer substitutions. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Neutrophilic exudate, vascular proliferation, proliferating fibroblasts",
+          "evidence": "PDF p51 lists these three layers."
+        },
+        {
+          "id": "o2",
+          "text": "Neutrophilic exudate, epithelial regeneration, proliferating fibroblasts",
+          "evidence": "PDF p51 lists vascular proliferation rather than epithelial regeneration as the middle layer."
+        },
+        {
+          "id": "o3",
+          "text": "Neutrophilic exudate, vascular proliferation, epithelioid macrophages",
+          "evidence": "PDF p51 names the fibroblastic proliferating layer rather than an epithelioid-macrophage layer."
+        },
+        {
+          "id": "o4",
+          "text": "Epithelioid macrophages, vascular proliferation, proliferating fibroblasts",
+          "evidence": "PDF p51 gives neutrophilic exudate rather than epithelioid macrophages as the first layer."
+        },
+        {
+          "id": "o5",
+          "text": "Serous fluid, epithelial regeneration, epithelioid macrophages",
+          "evidence": "This does not reproduce the neutrophilic/vascular/fibroblastic layers on PDF p51."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The three stated layers are neutrophilic exudate, vascular proliferation and a fibroblastic proliferating layer.",
+        "ar": "الطبقات الثلاث المذكورة هي Neutrophilic exudate وتكاثر الأوعية وطبقة Fibroblasts متكاثرة."
+      }
+    },
+    {
+      "id": "ch2-part-02-ulcer-causes",
+      "revision": 2,
+      "type": "mcq",
+      "lectureId": "ch2-part-02",
+      "conceptIds": [
+        "ch2-part-02-p051-topic"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch2-part-02",
+          "pdfPage": 51
+        }
+      ],
+      "prompt": "Which cause-and-outcome pair is supported for ulceration?",
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "peerReviewedBy": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+        "peerReviewNotes": "p51 toxic/traumatic/vascular causes and alternative resolution/fibrosis outcomes; no exclusive cause or compulsory outcome. Rebuilt parallel source-supported alternatives with specific per-option evidence. Every key/option, exact page, EN/AR meaning, cue and duplicate checked against original source images. Antigravity and Claude pending."
+      },
+      "options": [
+        {
+          "id": "o1",
+          "text": "Toxic/traumatic injury or vascular compromise; resolution or fibrosis",
+          "evidence": "PDF p51 explicitly gives these causes and outcomes."
+        },
+        {
+          "id": "o2",
+          "text": "Toxic/traumatic injury or vascular compromise; obligatory immediate resolution",
+          "evidence": "The cause agrees, but p51 also allows fibrosis and does not require immediate resolution."
+        },
+        {
+          "id": "o3",
+          "text": "Toxic/traumatic injury or vascular compromise; obligatory fibrosis",
+          "evidence": "The cause agrees, but p51 also allows resolution."
+        },
+        {
+          "id": "o4",
+          "text": "Epithelial regeneration without necrosis; resolution or fibrosis",
+          "evidence": "PDF p51 defines an ulcer by necrosis/erosion rather than regeneration without necrosis."
+        },
+        {
+          "id": "o5",
+          "text": "Plasma protein retention without erosion; resolution or fibrosis",
+          "evidence": "PDF p51 requires epithelial necrosis/erosion, not protein retention without erosion."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Ulceration can follow toxic or traumatic epithelial injury or vascular compromise, and can resolve or heal by fibrosis.",
+        "ar": "قد تتبع Ulceration أذية ظهارية سمية أو رضية أو ضعفًا وعائيًا، وقد تنتهي بـResolution أوFibrosis."
+      }
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "/root/check_inflammation",
+    "candidateCount": 49,
+    "acceptedCount": 48,
+    "removedIds": [
+      "ch2-part-02-mac"
+    ],
+    "externalIndependentReview": "Not performed; Antigravity and Claude pending"
+  }
+}

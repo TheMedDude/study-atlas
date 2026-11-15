@@ -1,0 +1,1233 @@
+{
+  "lectureId": "ch2-part-03",
+  "title": "Inflammation — Part 3",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "teaching",
+      "title": "Chronic inflammation definition",
+      "topics": [
+        "Chronic inflammation definition"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p002-topic",
+          "label": "Chronic inflammation definition",
+          "detail": "Chronic Inflammation\n\n• Chronic    - weeks to months or years\n\n  – Fibrosis  – Scarring.\n  – Lymphocytes    and macrophages\n\n\n• Definition:    Inflammation of prolonged\n  duration in which active inflammation, tissue\n  injury and healing proceed simultaneously",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Chronic inflammation features",
+      "topics": [
+        "Chronic inflammation features"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p003-topic",
+          "label": "Chronic inflammation features",
+          "detail": "Characteristics of chronic inflammation\n\n     Persistence  or recurrence      of injurious  agent\n\n     Prolonged inflammation\n\n     Tissue destruction     by the inflammatory  cells\n\n\n     Healing/repair:   involving  new vessel  formation\n     (angiogenesis)  and    fibrosis.\n\n     Infiltration by mononuclear  cells (macrophages,\n     lymphocytes,  and plasma  cells)",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": "4",
+      "kind": "teaching",
+      "title": "Unresolved and repeated acute inflammation",
+      "topics": [
+        "Unresolved and repeated acute inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p004-topic",
+          "label": "Unresolved and repeated acute inflammation",
+          "detail": "Chronic inflammation arises in\n     the following settings:\n\n\n1.   unresolved acute inflammation\n     example: chronic abscess\n\n\n2.   repeated acute inflammation\n\n     example: chronic pancreatitis",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": "5",
+      "kind": "teaching",
+      "title": "Delayed hypersensitivity settings",
+      "topics": [
+        "Delayed hypersensitivity settings"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p005-topic",
+          "label": "Delayed hypersensitivity settings",
+          "detail": "Chronic inflammation             arises in\n      the following settings:\n\n\n3.   delayed hypersensitivity reaction\n\n     intracellular infectious agents\n       example:    brucellosis, viral infections\n\n     Fungi, parasite\n\n     repeated contact sensitivity\n       example:    contact dermatitis",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": "6",
+      "kind": "teaching",
+      "title": "Type IV hypersensitivity illustration",
+      "topics": [
+        "Type IV hypersensitivity illustration"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p006-topic",
+          "label": "Type IV hypersensitivity illustration",
+          "detail": "6\nType IV hypersensitivity diagram: antigen-presenting cell displays antigen to sensitized Th1 cell; cytokines activate macrophage, producing delayed-type hypersensitivity.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Type IV hypersensitivity diagram: antigen-presenting cell displays antigen to sensitized Th1 cell; cytokines activate macrophage, producing delayed-type hypersensitivity.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Foreign body settings",
+      "topics": [
+        "Foreign body settings"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p007-topic",
+          "label": "Foreign body settings",
+          "detail": "Chronic inflammation arises in\n       the following settings:\n\n\n4.   foreign body reaction\n\n     endogenous material\n       example: fat, uric acid crystals in gout\n\n     exogenous material\n       example: suture material, asbestos, silica",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": "8",
+      "kind": "teaching",
+      "title": "Autoimmune and unknown settings",
+      "topics": [
+        "Autoimmune and unknown settings"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p008-topic",
+          "label": "Autoimmune and unknown settings",
+          "detail": "Chronic inflammation arises in\n      the following settings:\n\n\n5.  ❑ auto-immune disease\n\n    example: Hashimoto's disease\n\n\n6.  ❑ unknown\n\n    example: inflammatory bowel disease\n                sarcoidosis",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": "9",
+      "kind": "teaching",
+      "title": "White blood cells",
+      "topics": [
+        "White blood cells"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p009-topic",
+          "label": "White blood cells",
+          "detail": "White Blood Cells\n\n  Band                                                 Eosinophil\nNeutrophil\n\n\n\n\n                                           segmented\n                                           neutrophil\n\n               Lymphocyte\n                                                          Basophil\n\n\nMonocyte",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "10",
+      "kind": "teaching",
+      "title": "Monocyte macrophage lineage",
+      "topics": [
+        "Monocyte macrophage lineage"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p010-topic",
+          "label": "Monocyte macrophage lineage",
+          "detail": "Chronic inflammatory cells:      Macrophages\nStem cell -> monoblast in bone marrow -> monocyte in blood -> macrophage in tissue -> activated macrophage. Tissue forms labeled microglia (CNS), Kupffer cells (liver), alveolar macrophages (lung), osteoclasts (bone).",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Stem cell -> monoblast in bone marrow -> monocyte in blood -> macrophage in tissue -> activated macrophage. Tissue forms labeled microglia (CNS), Kupffer cells (liver), alveolar macrophages (lung), osteoclasts (bone).",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Tissue macrophage names",
+      "topics": [
+        "Tissue macrophage names"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p011-topic",
+          "label": "Tissue macrophage names",
+          "detail": "Chronic inflammatory cells:              Macrophages\n\n• The main cells in chronic inflammation.\n\n• Called:\n\n   – Kupffer cells   in the liver\n\n   – sinus histiocytes    in the lymph nodes & spleen\n\n   – alveolar macrophages       in the lungs\n\n   – microglial cells   in the CNS\n   – Osteoclasts    in the bone",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "Macrophage origin and activation",
+      "topics": [
+        "Macrophage origin and activation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p012-topic",
+          "label": "Macrophage origin and activation",
+          "detail": "Chronic inflammatory cells: Macrophages\n\n• Derived from blood monocytes, where they begin to\n\n  emigrate    within the first 24-48 hrs after the onset on acute\n\n  inflammation.\n\n• They are transformed        into big cells which are capable of\n\n  phagocytosis (macrophages).\n\n• Macrophages may also become activated, resulting in\n\n  increased cell size and lysosomal enzymes, more active\n\n  metabolism, & greater ability to kill ingested organisms.12",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": "13",
+      "kind": "teaching",
+      "title": "Macrophage effects overview",
+      "topics": [
+        "Macrophage effects overview"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p013-topic",
+          "label": "Macrophage effects overview",
+          "detail": "The effect of macrophages in\n                    inflammation\n\n  phagocytosis                            chemotaxis\n\n\n\n\n\nlysis of ECM                              multinucleated\nincrease tissue                              giant cells\n  injury\n\n\nendothelial cells                         fibroblasts\nincrease angiogenesis                 increase fibrosis13",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Classical and alternative activation",
+      "topics": [
+        "Classical and alternative activation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p014-topic",
+          "label": "Classical and alternative activation",
+          "detail": "14\nM1 classical activation induced by microbes/IFNgamma, inhibited by IL4/IL13. M1 ROS,NO,lysosomal enzymes -> microbicidal phagocytosis/killing; IL1,IL12,IL23,chemokines -> inflammation. M2 alternative activation induced IL4/IL13, inhibited microbes/IFNgamma. M2 growth factors/TGFbeta -> repair/fibrosis; IL10/TGFbeta -> anti-inflammatory effects.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "M1 classical activation induced by microbes/IFNgamma, inhibited by IL4/IL13. M1 ROS,NO,lysosomal enzymes -> microbicidal phagocytosis/killing; IL1,IL12,IL23,chemokines -> inflammation. M2 alternative activation induced IL4/IL13, inhibited microbes/IFNgamma. M2 growth factors/TGFbeta -> repair/fibrosis; IL10/TGFbeta -> anti-inflammatory effects.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": "15",
+      "kind": "teaching",
+      "title": "Macrophage tissue injury products",
+      "topics": [
+        "Macrophage tissue injury products"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p015-topic",
+          "label": "Macrophage tissue injury products",
+          "detail": "The effect of macrophages in\n                      inflammation\n• After activation, macrophages secrete a wide variety\n  of biologically active products, that can result in the\n  tissue injury and fibrosis. These products include:\n1) Tissue injury:\n   – Proteases    & plasminogen activator.\n   – Complement      component and coagulation factors.\n   – Reactive oxygen species        and  NO\n   – Arachidonic acid metabolites\n   – Cytokines",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": "16",
+      "kind": "teaching",
+      "title": "Macrophage fibrosis products",
+      "topics": [
+        "Macrophage fibrosis products"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p016-topic",
+          "label": "Macrophage fibrosis products",
+          "detail": "The effect of macrophages in\n                  inflammation\n\n2) Fibrosis:\n\n• growth factors:    influence the proliferation of\n  smooth muscle cells and fibroblasts and the\n  production of extracellular matrix\n\n• cytokines\n\n• angiogenesis factors\n\n• collagenase",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": "17",
+      "kind": "teaching",
+      "title": "Macrophage activation pathways",
+      "topics": [
+        "Macrophage activation pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p017-topic",
+          "label": "Macrophage activation pathways",
+          "detail": "Macrophages\n  in chronic\ninflammation\n                                                IMMUNE\n                                                ACTIVATION\nBlood monocyte adheres/emigrates -> tissue macrophage. Immune activation by T-cell IFNgamma; nonimmune activation by endotoxin,fibronectin,chemical mediators. Activated macrophage tissue injury products: toxic oxygen metabolites,proteases,neutrophil chemotactic factors,coagulation factors,AA metabolites,NO. Fibrosis: PDGF,FGF,TGFbeta growth factors; fibrogenic cytokines; angiogenesis factors FGF; remodeling collagenases.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Blood monocyte adheres/emigrates -> tissue macrophage. Immune activation by T-cell IFNgamma; nonimmune activation by endotoxin,fibronectin,chemical mediators. Activated macrophage tissue injury products: toxic oxygen metabolites,proteases,neutrophil chemotactic factors,coagulation factors,AA metabolites,NO. Fibrosis: PDGF,FGF,TGFbeta growth factors; fibrogenic cytokines; angiogenesis factors FGF; remodeling collagenases.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": "18",
+      "kind": "teaching",
+      "title": "Macrophages in resolution",
+      "topics": [
+        "Macrophages in resolution"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p018-topic",
+          "label": "Macrophages in resolution",
+          "detail": "Macrophages\n     in acute\ninflammtion:\nMacrophages  can\n engulf  excess\n fluid, apoptotic\n neutrophils   and\n debris  resulting\n from acute\n inflammation,  thus\n participating  in\n resolution   of acute\n inflammation",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": "19",
+      "kind": "teaching",
+      "title": "Epithelioid and giant cells",
+      "topics": [
+        "Epithelioid and giant cells"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p019-topic",
+          "label": "Epithelioid and giant cells",
+          "detail": "Chronic inflammatory cells: Macrophages\n\n• under the influence of INF-γ, endotoxins, ECM like\n\n  fibronectin and other products,  they are activated;\n\n  they increase in size, with eosinophilic cytoplasm,\n\n  assume an epithelial-like appearance so they are\n\n  called  “epithelioid macrophages”.\n\n• under the influence of IL-4 or INF-γ, several cells may\n\n  fuse to give “multinucleated giant cells”.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": "20",
+      "kind": "teaching",
+      "title": "Multinucleated giant cell example",
+      "topics": [
+        "Multinucleated giant cell example"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p020-topic",
+          "label": "Multinucleated giant cell example",
+          "detail": "20\nmultinucleated giant cells, chronic glomerulonephritis\nMicrograph labeled multinucleated giant cells, chronic glomerulonephritis; arrow identifies giant cell; large inset shows multiple nuclei. Label preserved without independent disease verification.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph labeled multinucleated giant cells, chronic glomerulonephritis; arrow identifies giant cell; large inset shows multiple nuclei. Label preserved without independent disease verification.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-03-u020",
+          "description": "Image labeled chronic glomerulonephritis; diagnosis cannot be independently established from this image; not a scored identification.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": "21",
+      "kind": "teaching",
+      "title": "T and B lymphocytes",
+      "topics": [
+        "T and B lymphocytes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p021-topic",
+          "label": "T and B lymphocytes",
+          "detail": "Chronic inflammatory cells: Lymphocytes\n\n•  They are mobilized in any specific stimulus\n   (infection), or in non-immune stimulus like in\n   infarction or tissue trauma.\n•  T-lymphocytes:      have a reciprocal relation with the\n   number of macrophages involved in the chronic\n   inflammation.\n•  B-lymphocytes:      responsible for the production of\n   antibodies    through the differentiation into plasma\n   cells.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": "22",
+      "kind": "teaching",
+      "title": "Lymphocyte functions",
+      "topics": [
+        "Lymphocyte functions"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p022-topic",
+          "label": "Lymphocyte functions",
+          "detail": "Chronic inflammatory cells: Lymphocytes\n\n\n T-lymphocytes:\n  cellular immunity\n  macrophage interaction\n                                        lymphocyte\n\n B-lymphocytes:\n antibody-mediated immunity\n transform to plasma cells                        22\n                                          plasma cells",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": "23",
+      "kind": "teaching",
+      "title": "Macrophage lymphocyte interaction",
+      "topics": [
+        "Macrophage lymphocyte interaction"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p023-topic",
+          "label": "Macrophage lymphocyte interaction",
+          "detail": "T -Lymphocytes                –macrophages interaction\n\n•  Lymphocytes  are initially  activated  by interaction  with\n   macrophages presenting  antigen  fragments  on their cell surface\n•  The activated  lymphocytes  then produce  a variety  of mediators,\n   including IFN-γ to activate  macrophages.\n\n•  Activated  macrophages  in turn release  cytokines,  including IL-1\n   & TNF, that further activate  lymphocytes  and other cell types\n\n•  The end result is an inflammatory  focus where            macrophages\n   and T cells can persistently stimulate one another until the\n   triggering antigen is removed          , or some modulating  process\n   occurs.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": "24",
+      "kind": "teaching",
+      "title": "Macrophage lymphocyte loop",
+      "topics": [
+        "Macrophage lymphocyte loop"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p024-topic",
+          "label": "Macrophage lymphocyte loop",
+          "detail": "24\nMacrophage presents antigen and IL12,IL6,IL23 to T lymphocyte -> activated Th1/Th17. IFNgamma classically activates macrophage. Activated T cells release IL17,TNF for leukocyte recruitment/inflammation. Activated macrophage TNF,IL1 recruit leukocytes and sustain inflammation.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Macrophage presents antigen and IL12,IL6,IL23 to T lymphocyte -> activated Th1/Th17. IFNgamma classically activates macrophage. Activated T cells release IL17,TNF for leukocyte recruitment/inflammation. Activated macrophage TNF,IL1 recruit leukocytes and sustain inflammation.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": "25",
+      "kind": "teaching",
+      "title": "Interaction loop repeated",
+      "topics": [
+        "Interaction loop repeated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p025-topic",
+          "label": "Interaction loop repeated",
+          "detail": "T-Lymphocytes     – macrophages interaction:\nMacrophage presents antigen and releases IL1/TNF to T lymphocyte; activated lymphocyte IFNgamma activates macrophage. Both release other inflammatory mediators.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Macrophage presents antigen and releases IL1/TNF to T lymphocyte; activated lymphocyte IFNgamma activates macrophage. Both release other inflammatory mediators.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": "26",
+      "kind": "teaching",
+      "title": "Eosinophils",
+      "topics": [
+        "Eosinophils"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p026-topic",
+          "label": "Eosinophils",
+          "detail": "Chronic inflammatory cells: Eosinophils\n\n•  found in inflammation  induced  by\n   parasitic infections     or in allergic\n   reactions   involving  IgE, Type I\n   hypersensitivity reactions.\n•  Eotaxin  is a specific chemokine  for\n   eaosinophils.\n•  major  basic protein  (MBP) is a\n   protein  found in the granules  of\n   eosinophils.\n•  It is toxic to parasites    and causes\n   tissue damage.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": "27",
+      "kind": "teaching",
+      "title": "Mast cells",
+      "topics": [
+        "Mast cells"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p027-topic",
+          "label": "Mast cells",
+          "detail": "Chronic inflammatory cells: Mast cells\n\n\n• widely distributed in tissues, especially around blood\n  vessels.\n\n• Has IgE   receptors, and so it is important in\n  allergic reactions and in anaphylactic shock.\n\n• They are the primary source of histamine,\n  mediating acute inflammation, and cytokines like\n  TNF, so participating in chronic inflammation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": "28",
+      "kind": "teaching",
+      "title": "Chronic morphologic types",
+      "topics": [
+        "Chronic morphologic types"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p028-topic",
+          "label": "Chronic morphologic types",
+          "detail": "Chronic inflammation: morphological\n                       types\n\n1.   non specific:\n     general features of inflammation\n       example:    chronic cholecystitis, chronic\n       pyelonephritis\n\n2.   Granulomatous:\n     histological pattern (   granulomas     )\n       example:   leprosy, sarcoidosis, syphilis",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": "29",
+      "kind": "teaching",
+      "title": "Granulation tissue",
+      "topics": [
+        "Granulation tissue"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p029-topic",
+          "label": "Granulation tissue",
+          "detail": "Chronic inflammation\n\n1.   non specific:\n\n  ❑ Characterized by granulation tissue\n      formation of new blood vessels\n      inflammatory cells\n      fibroblasts\n      collagen\n\n\n  ❑ aim: repair by replacement of injured\n    tissue by fibrous tissue",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": "30",
+      "kind": "teaching",
+      "title": "Increased vascularity micrograph",
+      "topics": [
+        "Increased vascularity micrograph"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p030-topic",
+          "label": "Increased vascularity micrograph",
+          "detail": "Chronic inflammation\n  1. non specific type -    morphology\n\n\n\n\n\n\n\n\n\n\n\n\n\nincreased                                   30\nvascularity\nMicrograph highlights increased vascularity in nonspecific chronic inflammation.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Micrograph highlights increased vascularity in nonspecific chronic inflammation.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": "31",
+      "kind": "teaching",
+      "title": "Lymphocytes and plasma cells micrograph",
+      "topics": [
+        "Lymphocytes and plasma cells micrograph"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p031-topic",
+          "label": "Lymphocytes and plasma cells micrograph",
+          "detail": "Chronic inflammation\n    1. non specific type - morphology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincreased numbers of\n                                                 31\nlymphocytes and plasma cells\nSame micrograph highlights increased lymphocytes and plasma cells.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Same micrograph highlights increased lymphocytes and plasma cells.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": "32",
+      "kind": "teaching",
+      "title": "Acute inflammatory exudate micrographs",
+      "topics": [
+        "Acute inflammatory exudate micrographs"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p032-topic",
+          "label": "Acute inflammatory exudate micrographs",
+          "detail": "(a)                (b)\n\n•  Formation of the acute\n   inflammatory exudate:\n(a) Early vascular changes\n(b) Migration of neutrophils            (c)\n(c) Early formation of exudate         Acute inflammation32",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": "33",
+      "kind": "teaching",
+      "title": "Granulomatous inflammation",
+      "topics": [
+        "Granulomatous inflammation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p033-topic",
+          "label": "Granulomatous inflammation",
+          "detail": "Chronic inflammation\n               2.  Granulomatous                  type\n\n•  Defined as    aggregates of activated macrophages             that\n   assume an epithelial or squamoid-like  appearance\n   (epithelioid macrophages).\n\n•  Seen in few pathological  conditions,  so once identified,  the\n   differential  diagnosis  is limited.\n\n•  Important  defense mechanism          aiming  at either eradication\n   of the causative  microorganism,  or “walling  off” of the\n   particles  that are resistant to killing and degradation,  thus\n   preventing  their spread.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": "34",
+      "kind": "teaching",
+      "title": "Immune granuloma formation",
+      "topics": [
+        "Immune granuloma formation"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p034-topic",
+          "label": "Immune granuloma formation",
+          "detail": "34\nAPC MHCII/antigen binds CD4 T-cell TCR with IL12 -> Th1. IFNgamma activates monocyte to M1 macrophage; IL12 sustains loop; TNF self-activation shown. M1 gives giant cells/epithelioid cells within granuloma; labels lymphocyte,macrophage,fibroblast.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "APC MHCII/antigen binds CD4 T-cell TCR with IL12 -> Th1. IFNgamma activates monocyte to M1 macrophage; IL12 sustains loop; TNF self-activation shown. M1 gives giant cells/epithelioid cells within granuloma; labels lymphocyte,macrophage,fibroblast.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": "35",
+      "kind": "teaching",
+      "title": "Granuloma cytokine sequence",
+      "topics": [
+        "Granuloma cytokine sequence"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p035-topic",
+          "label": "Granuloma cytokine sequence",
+          "detail": "35\nAPC/antigen -> IL12 -> Th1 -> IFNgamma -> macrophage -> TNF -> granuloma. Granuloma labels lymphocyte,fibroblast,epithelioid cell,giant cell.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "APC/antigen -> IL12 -> Th1 -> IFNgamma -> macrophage -> TNF -> granuloma. Granuloma labels lymphocyte,fibroblast,epithelioid cell,giant cell.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": "36",
+      "kind": "teaching",
+      "title": "Granulomatous etiologies table",
+      "topics": [
+        "Granulomatous etiologies table"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p036-topic",
+          "label": "Granulomatous etiologies table",
+          "detail": "Infectious\n\n\n\n\n\n\n\ninfectiousNon-\nTable of granulomatous examples. Infectious bacterial: tuberculosis (Mycobacterium tuberculosis),leprosy (M.leprae),syphilitic gumma (Treponema pallidum),cat-scratch disease (Bartonella henselae). Parasitic: schistosomiasis (Schistosoma mansoni,S.haematobium,S.japonicum). Fungal: Histoplasma capsulatum,blastomycosis,Cryptococcus neoformans,Coccidioides immitis. Noninfectious: inorganic dusts/metals—silicosis,berylliosis; foreign bodies—suture,breast prosthesis,vascular graft; unknown—sarcoidosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table of granulomatous examples. Infectious bacterial: tuberculosis (Mycobacterium tuberculosis),leprosy (M.leprae),syphilitic gumma (Treponema pallidum),cat-scratch disease (Bartonella henselae). Parasitic: schistosomiasis (Schistosoma mansoni,S.haematobium,S.japonicum). Fungal: Histoplasma capsulatum,blastomycosis,Cryptococcus neoformans,Coccidioides immitis. Noninfectious: inorganic dusts/metals—silicosis,berylliosis; foreign bodies—suture,breast prosthesis,vascular graft; unknown—sarcoidosis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": "37",
+      "kind": "teaching",
+      "title": "Expanded granulomatous etiologies",
+      "topics": [
+        "Expanded granulomatous etiologies"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p037-topic",
+          "label": "Expanded granulomatous etiologies",
+          "detail": "37\nTable infectious etiologies: mycobacteria (tuberculosis,leprosy),Bartonella henselae (cat-scratch,stellate necrotizing granulomas),Listeria monocytogenes (granulomatosis infantiseptica),Treponema pallidum (tertiary syphilis); endemic mycoses e.g.histoplasmosis; schistosomiasis; catalase-positive organisms in chronic granulomatous disease. Noninfectious: immune-mediated sarcoidosis,Crohn disease,primary biliary cholangitis,subacute de Quervain/granulomatous thyroiditis; vasculitis—granulomatosis with polyangiitis,eosinophilic granulomatosis with polyangiitis,giant-cell temporal arteritis,Takayasu arteritis; foreign bodies—berylliosis,talcosis,hypersensitivity pneumonitis.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table infectious etiologies: mycobacteria (tuberculosis,leprosy),Bartonella henselae (cat-scratch,stellate necrotizing granulomas),Listeria monocytogenes (granulomatosis infantiseptica),Treponema pallidum (tertiary syphilis); endemic mycoses e.g.histoplasmosis; schistosomiasis; catalase-positive organisms in chronic granulomatous disease. Noninfectious: immune-mediated sarcoidosis,Crohn disease,primary biliary cholangitis,subacute de Quervain/granulomatous thyroiditis; vasculitis—granulomatosis with polyangiitis,eosinophilic granulomatosis with polyangiitis,giant-cell temporal arteritis,Takayasu arteritis; foreign bodies—berylliosis,talcosis,hypersensitivity pneumonitis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": "38",
+      "kind": "teaching",
+      "title": "Caseous and noncaseating granulomas",
+      "topics": [
+        "Caseous and noncaseating granulomas"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p038-topic",
+          "label": "Caseous and noncaseating granulomas",
+          "detail": "Chronic inflammation\n               2. Granulomatous        type\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                                       38\nInfectious                                    Non-infectious\nEarly granuloma labels lymphocytes and macrophages. Caseous epithelioid granuloma labels fibroblasts producing collagen,lymphocytes/plasma cells,Langhans giant cell,epithelioid macrophages and caseous necrosis. Noncaseating epithelioid granuloma shown separately. Figure equates caseous with infectious and noncaseating with noninfectious; this is retained as a source overgeneralization and not scored as universal.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Early granuloma labels lymphocytes and macrophages. Caseous epithelioid granuloma labels fibroblasts producing collagen,lymphocytes/plasma cells,Langhans giant cell,epithelioid macrophages and caseous necrosis. Noncaseating epithelioid granuloma shown separately. Figure equates caseous with infectious and noncaseating with noninfectious; this is retained as a source overgeneralization and not scored as universal.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-03-u038",
+          "description": "Diagram equates infectious granulomas with caseation and noninfectious with noncaseation; etiologic tables p36/37 are broader. Do not score as universal diagnostic rule.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": "39",
+      "kind": "teaching",
+      "title": "Granuloma architecture",
+      "topics": [
+        "Granuloma architecture"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p039-topic",
+          "label": "Granuloma architecture",
+          "detail": "Granulomatous inflammation\nGranuloma diagram: central caseous necrosis, surrounding activated macrophages and giant cells, peripheral lymphocytes and fibroblasts.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Granuloma diagram: central caseous necrosis, surrounding activated macrophages and giant cells, peripheral lymphocytes and fibroblasts.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": "40",
+      "kind": "teaching",
+      "title": "Pulmonary tuberculosis",
+      "topics": [
+        "Pulmonary tuberculosis"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p040-topic",
+          "label": "Pulmonary tuberculosis",
+          "detail": "Granulomatous\n\ndisease:\n\nHere are numerous\n\ngranulomas     in upper\n\nlung fields in a case of\n\nactive pulmonary\n\ntuberculosis",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": "41",
+      "kind": "teaching",
+      "title": "Miliary tuberculosis morphology",
+      "topics": [
+        "Miliary tuberculosis morphology"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p041-topic",
+          "label": "Miliary tuberculosis morphology",
+          "detail": "Chronic inflammation\ngranulomatous type       -morphology\n\n\n\n                             ❑ Langhans\n                               giant cell\n\n\n\n                             ❑ caseous\n                               necrosis\n\n                             ❑ epitheloid\n                             macrophages\n\n\n\n                                         41\n miliary tuberculosis",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": "42",
+      "kind": "teaching",
+      "title": "Epithelioid cell morphology",
+      "topics": [
+        "Epithelioid cell morphology"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p042-topic",
+          "label": "Epithelioid cell morphology",
+          "detail": "These are epithelioid cells        around the center of a\ngranuloma. They get their name from the fact that they\nhave lots of pink cytoplasm similar to squamous\nepithelial cells. Their nuclei tend to be long",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": "43",
+      "kind": "teaching",
+      "title": "Foreign body giant cell",
+      "topics": [
+        "Foreign body giant cell"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p043-topic",
+          "label": "Foreign body giant cell",
+          "detail": "Here is a foreign body giant type cell            at the\nupper left of center adjacent to a segment of\n  vegetable material aspirated into the lung.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": "44",
+      "kind": "teaching",
+      "title": "Giant cell nuclear patterns",
+      "topics": [
+        "Giant cell nuclear patterns"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p044-topic",
+          "label": "Giant cell nuclear patterns",
+          "detail": "44\nPaired labeled images: foreign body giant cell has centrally clustered nuclei; Langhans giant cell has nuclei arranged near periphery in horseshoe-like arc. These visible patterns are descriptions, not exclusive disease diagnoses.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Paired labeled images: foreign body giant cell has centrally clustered nuclei; Langhans giant cell has nuclei arranged near periphery in horseshoe-like arc. These visible patterns are descriptions, not exclusive disease diagnoses.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": "45",
+      "kind": "teaching",
+      "title": "Lymphatic defense",
+      "topics": [
+        "Lymphatic defense"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p045-topic",
+          "label": "Lymphatic defense",
+          "detail": "Inflammation:           The other defense lines\n\n• The lymphatics, lymph nodes & mononuclear\n\n  phagocyte system      form the secondary defense\n\n  lines.\n\n• During inflammation, lymphatics help in draining\n\n  edema fluid together with leukocytes, debris and\n\n  micro-organisms      into the lymph nodes, resulting\n\n  in lymphangitis    and lymphadenitis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": "46",
+      "kind": "teaching",
+      "title": "Bacteremia and dissemination",
+      "topics": [
+        "Bacteremia and dissemination"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p046-topic",
+          "label": "Bacteremia and dissemination",
+          "detail": "Inflammation: The other defense lines\n\n•  Bacteremia     develops  if the micro-organisms failed  to be\n\n   contained  within the lymph nodes  and gain access into the\n\n   blood  stream.\n\n•  Failure  of containment  of the micro-organism  leads to\n\n   seeding  of distant sites. Heart valves  “endocarditis”,\n\n   meninges  “meningitis”, kidney  “renal abscesses”,  and joints\n\n   “septic arthritis” are the favored  sites.     The phagocytic\n\n   cells in the liver, spleen and bone marrow constitute the\n\n   next defense line.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": "47",
+      "kind": "teaching",
+      "title": "Acute phase manifestations",
+      "topics": [
+        "Acute phase manifestations"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p047-topic",
+          "label": "Acute phase manifestations",
+          "detail": "Systemic Effects of Inflammation\n• Called the acute phase response        that is\n  characterized by:\n   – Fever\n   – Malaise: a feeling of general discomfort\n   – Anorexia: loss of appetite\n   – Somnolence: tendency       to sleep\n   – Wasting: accelerated degeneration of skeletal\n     muscles\n   – Hypotension\n   – Alteration in the circulating leukocytes\n   – hepatic synthesis of plasma proteins",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": "48",
+      "kind": "teaching",
+      "title": "Fever mechanism",
+      "topics": [
+        "Fever mechanism"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p048-topic",
+          "label": "Fever mechanism",
+          "detail": "48\nBacteria stimulate leukocyte/macrophage TNF and IL1; hypothalamic thermoregulatory center produces prostaglandins; thermostat raised above 37C baseline -> fever.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Bacteria stimulate leukocyte/macrophage TNF and IL1; hypothalamic thermoregulatory center produces prostaglandins; thermostat raised above 37C baseline -> fever.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": "49",
+      "kind": "teaching",
+      "title": "Systemic inflammatory responses illustrated",
+      "topics": [
+        "Systemic inflammatory responses illustrated"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p049-topic",
+          "label": "Systemic inflammatory responses illustrated",
+          "detail": "49\nSystemic illustration labels headache,confusion,anorexia; hypothalamic temperature set-point change,fever,sweating,neuroendocrine/autonomic stress; flushing; increased respiratory and heart rate,flow murmur; low blood pressure; hepatic acute-phase proteins; adrenal glucocorticoids/catecholamines; pancreatic insulin; marrow neutrophil production/mobilization; enlarged draining lymph nodes; ascending lymphangitis; local cellulitis,pain,redness,swelling. Inset local bacteria/tissue damage -> mediators/cytokines -> dilation,permeability,phagocytosis,leukocyte influx.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Systemic illustration labels headache,confusion,anorexia; hypothalamic temperature set-point change,fever,sweating,neuroendocrine/autonomic stress; flushing; increased respiratory and heart rate,flow murmur; low blood pressure; hepatic acute-phase proteins; adrenal glucocorticoids/catecholamines; pancreatic insulin; marrow neutrophil production/mobilization; enlarged draining lymph nodes; ascending lymphangitis; local cellulitis,pain,redness,swelling. Inset local bacteria/tissue damage -> mediators/cytokines -> dilation,permeability,phagocytosis,leukocyte influx.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": "50",
+      "kind": "teaching",
+      "title": "Acute phase cytokine sequence",
+      "topics": [
+        "Acute phase cytokine sequence"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p050-topic",
+          "label": "Acute phase cytokine sequence",
+          "detail": "Systemic Effects of Inflammation\n\n• Cytokines IL-1, IL-6, and TNF        are the most\n  important mediators of the acute phase reaction\n• These cytokines are produced by leukocytes and\n  other cells in response to infection, immune and\n  toxic injury\n• TNF induces the production of IL-1, which in turn\n  stimulates the production of IL-6\n• TNF and IL-1     act on the thermoregulatory center to\n  cause fever by the production of prostaglandins50",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": "51",
+      "kind": "teaching",
+      "title": "Acute phase proteins and leukocytes",
+      "topics": [
+        "Acute phase proteins and leukocytes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p051-topic",
+          "label": "Acute phase proteins and leukocytes",
+          "detail": "Systemic Effects of Inflammation\n\n• IL-6 stimulates hepatic synthesis of plasma\n  proteins, mainly fibrinogen\n• IL-1 and TNF    cause increased production of\n  leukocytes    by the bone marrow\n• Some infections cause a selective increase in the\n  leukocyte count:\n   – Bacteria:  PMNs\n   – Parasites with allergy:    eosinophils\n   – Viruses:  lymphocytes",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": "52",
+      "kind": "teaching",
+      "title": "Chronic outcomes",
+      "topics": [
+        "Chronic outcomes"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p052-topic",
+          "label": "Chronic outcomes",
+          "detail": "1\n\n                               2\n\n                    4          3\n\n\n\n\n\n\n\n\nChronic inflammation- outcome\nOutcome figure repeats Part II p33, highlighting chronic inflammation with angiogenesis,mononuclear infiltrate,fibrosis. Ongoing injury from viruses,chronic infection,persistent injury or autoimmune disease; healing leads to dense scar/loss of function or regeneration with clearance/remodeling/normal function.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Outcome figure repeats Part II p33, highlighting chronic inflammation with angiogenesis,mononuclear infiltrate,fibrosis. Ongoing injury from viruses,chronic infection,persistent injury or autoimmune disease; healing leads to dense scar/loss of function or regeneration with clearance/remodeling/normal function.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": "53",
+      "kind": "teaching",
+      "title": "Liver cirrhosis example",
+      "topics": [
+        "Liver cirrhosis example"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p053-topic",
+          "label": "Liver cirrhosis example",
+          "detail": "Chronic Inflammation\noutcome   -prolonged exposure to toxic agents\n\n\n\n\n\n                                     Liver\n                                    cirrhosis\nGross liver cirrhosis shown under prolonged toxic exposure.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Gross liver cirrhosis shown under prolonged toxic exposure.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": "54",
+      "kind": "teaching",
+      "title": "Asbestos and fibrosis example",
+      "topics": [
+        "Asbestos and fibrosis example"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p054-topic",
+          "label": "Asbestos and fibrosis example",
+          "detail": "Chronic Inflammation\noutcome - prolonged exposure to toxic agents\n\n\n\n\n\n\n\n\n\n\n      normal lung\n\n\n\n                               interstitial fibrosis\n                 asbestos                          54\n                    body\nNormal lung compared with interstitial fibrosis and an asbestos body under prolonged toxic exposure.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Normal lung compared with interstitial fibrosis and an asbestos body under prolonged toxic exposure.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": "55",
+      "kind": "teaching",
+      "title": "Persistent gastric ulcer",
+      "topics": [
+        "Persistent gastric ulcer"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p055-topic",
+          "label": "Persistent gastric ulcer",
+          "detail": "Chronic Inflammation\noutcome   - persistent infection\n\n\n\n\n                        ❑ chronic\n                          ulcer  of the\n                          stomach\n                          with\n                          perforation\nChronic gastric ulcer with perforation shown under persistent infection.",
+          "priority": "supporting",
+          "rationale": "Illustration, supporting example, overview or repeated relationship retained with exact page; adjacent core concepts assess the underlying distinctions."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Chronic gastric ulcer with perforation shown under persistent infection.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": "56",
+      "kind": "teaching",
+      "title": "Acute chronic comparison I",
+      "topics": [
+        "Acute chronic comparison I"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p056-topic",
+          "label": "Acute chronic comparison I",
+          "detail": "Acute versus Chronic Inflammation:\n                  Acute                       Chronic\nDuration          Short (days)                Long (weeks to\n                                              months)\nOnset             Acute                       Insidious\n                                              Lymphocytes,\nInflammatory      Neutrophils,                plasma cells,\ncells             macrophages                 macrophages,\n                                              fibroblasts\nVascular          Active vasodilatation,      New vessel\nchanges           increased permeability      formation\n                                              (granulation tissue)\nFluid\nexudation &                    +                          –\nedema\n                                                                  56\nCardinal signs                 +                          –",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-03-u056",
+          "description": "Summary table uses minus signs for chronic edema/cardinal signs; interpret as typical contrast, never absolute absence.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": "57",
+      "kind": "teaching",
+      "title": "Acute chronic comparison II",
+      "topics": [
+        "Acute chronic comparison II"
+      ],
+      "concepts": [
+        {
+          "id": "ch2-part-03-p057-topic",
+          "label": "Acute chronic comparison II",
+          "detail": "Acute versus Chronic Inflammation:\n\n                   Acute                       Chronic\nTissue             –  (Usually)                +  (ongoing)\nnecrosis\nFibrosis           –  (Usually)                +\nSystemic           Fever, often high           Low  –grade fever,\nmanifestations                                 weight loss,\n                                               anemia\nChanges in         Neutrophil                  Frequently none;\nperipheral         leukocytosis   ;            variable leukocyte\nblood              lymphocytosis     (in       changes,    increased\n                   viral infections)           plasma IG",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, consequence or functional relationship."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually checked against extraction; text and layout retained.",
+      "uncertainties": [
+        {
+          "id": "ch2-part-03-u057",
+          "description": "Summary usually absent acute necrosis/fibrosis is qualified; retain usually and avoid absolute contrasts.",
+          "status": "unresolved",
+          "scoringPolicy": "Do not use the flagged claim to determine a scored answer."
+        }
+      ]
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": "58",
+      "kind": "administrative",
+      "title": "Closing image",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Closing meme: Enough is enough. No teaching content.",
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": []
+}

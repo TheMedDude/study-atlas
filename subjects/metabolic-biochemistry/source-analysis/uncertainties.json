@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "items": [
+    {
+      "id": "MB-BIO-U001",
+      "statement": "Table 13-4 is referenced but not supplied on this page.",
+      "resolution": "No values or examples are imported from the absent textbook table.",
+      "blocksScoring": true,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 13,
+      "printedSlide": null
+    },
+    {
+      "id": "MB-BIO-U002",
+      "statement": "The final hydrolysis-table row is labeled Glucose 3-phosphate.",
+      "resolution": "Preserved literally; no silent correction or scored item based on its identity.",
+      "blocksScoring": true,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 25,
+      "printedSlide": null
+    },
+    {
+      "id": "MB-BIO-U003",
+      "statement": "The PPi → 2Pi row gives −19.2 kJ/mol and −4.0 kcal/mol, an inconsistent conversion pair.",
+      "resolution": "Both values preserved. Do not score this numeric pair.",
+      "blocksScoring": true,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 25,
+      "printedSlide": null
+    },
+    {
+      "id": "MB-BIO-U004",
+      "statement": "Generic body text lists Pi, PPi as leaving groups; the illustrated glutamine reaction specifically releases Pi.",
+      "resolution": "Keep the generic and illustrated scopes distinct; do not apply PPi to the glutamine example.",
+      "blocksScoring": false,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 28,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-ATP-YIELD",
+      "description": "Text assigns ETC 32–34 ATP, embedded figure about28 oxidative ATP/about32 total. Do not score disputed numerical yield.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-respiration-yield-conflict"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 5,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-HK-KM",
+      "description": "Hexokinase table ~0.1mM differs from hexokinase I graph p52 0.2mM; retain both and avoid one exact generic value.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-hexokinase-km-conflict"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-ALDOLASE-WORDING",
+      "description": "Reversibility is attributed to low reactant concentrations in source; preserve wording, do not use causal wording for scoring.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-aldolase-reversibility-wording"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-TABLE9-SUBSTRATE",
+      "description": "Row9 says 3-phosphoglycerate, unlike dedicated step9 p23 2-phosphoglycerate. Preserve both; disputed row not scored.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-energy-table-step9-conflict"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 35,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-TABLE2-RANGE",
+      "description": "Row2 actual ΔG range decimal punctuation is unclear. Preserve visible text and do not assess numerical range.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-energy-table-range-unclear"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 35,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-PEPCK-NUCLEOTIDE",
+      "description": "Cytosolic PEPCK image uses ATP/ADP while p40 says GTP/GDP. Preserve both; disputed figure nucleotide not scored.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-pep-nucleotide-conflict"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 41,
+      "printedSlide": null
+    },
+    {
+      "id": "GLY-U-GLUCOSE-ONLY",
+      "description": "Unqualified absolute ONLY glucose claim lacks condition/context on source page. Preserve but do not score that absolute.",
+      "status": "unresolved",
+      "blocksScoring": true,
+      "conceptIds": [
+        "glycolysis-and-fermentation-glucose-only-wording"
+      ],
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 45,
+      "printedSlide": null
+    },
+    {
+      "id": "citric-U001",
+      "claim": "Pyruvate carboxylation is described as reversible in body text and drawn with a reversible arrow in Table16-2.",
+      "issue": "Reversibility is doubtful; source preserved without external correction. Do not use this exact claim to determine a scored answer.",
+      "status": "unresolved",
+      "blockedConceptIds": [
+        "citric-acid-cycle-and-pdh-anaplerotic-reversibility"
+      ],
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 30,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U01",
+      "description": "Parenthetical subunit counts in Table19-3 are not explained on this slide; preserve but do not infer their organism/scope.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 8,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U02",
+      "description": "The prose says ten protons per electron pair to O2 without naming entry; figure shows I bypass at succinate entry. Block unqualified statement; assess only a clearly specified NADH route or labelled individual pumps.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 9,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U03",
+      "description": "Table groups myxothiazol with Fe-S-to-ubiquinone blockers. Preserve exact grouping and defer target mapping rather than repair it from external knowledge.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 14,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U04",
+      "description": "Body shorthand says NADH contributes electrons to Complex III; figure includes cytosolic enzyme, mitochondrial flavin and Q. Do not imply direct passage of NADH across membrane or direct NADH donation to Complex III.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 17,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U05",
+      "description": "This lecture states 30 or32 ATP total and 2.5/1.5 shuttle yields; glycolysis p5 has differing ATP totals. Preserve source-specific values and block cross-lecture universal arithmetic until resolved.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 18,
+      "printedSlide": null
+    },
+    {
+      "id": "OP-U06",
+      "description": "[ATP]/[ADP]·[Pi] lacks unambiguous denominator grouping. Qualitative ADP-response claims are clear; arithmetic using the expression is deferred.",
+      "status": "unresolved",
+      "scoringPolicy": "Do not score the doubtful claim; clear unrelated claims may remain eligible.",
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 19,
+      "printedSlide": null
+    }
+  ]
+}

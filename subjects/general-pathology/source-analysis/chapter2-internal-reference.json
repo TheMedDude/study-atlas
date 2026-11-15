@@ -1,0 +1,1503 @@
+{
+  "chapter": 2,
+  "reviewStage": "All15cards51facts accepted for local reference after fresh second Codex check; Antigravity and Claude pending",
+  "sections": [
+    {
+      "id": "inflammation",
+      "title": "Inflammation connections",
+      "description": "Midterm reference comparisons and mechanisms from Chapter 2 parts I–III.",
+      "cards": [
+        {
+          "id": "path-ch2-recruitment",
+          "revision": 2,
+          "title": "Leukocyte recruitment",
+          "summary": "Distinguish rolling, firm adhesion and endothelial crossing.",
+          "facts": [
+            {
+              "id": "path-ch2-recruitment-f01",
+              "label": "Rolling",
+              "text": "Selectins mediate transient endothelial sticking; E-selectin is induced by IL-1/TNF, P-selectin mobilized by histamine/thrombin, and L-selectin expressed on leukocytes.",
+              "conceptIds": [
+                "ch2-part-01-p035-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 35
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support rolling: Selectins mediate transient endothelial sticking; E-selectin is induced by IL-1/TNF, P-selectin mobilized by histamine/thrombin, and L-selectin expressed on leukocytes. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-recruitment-f02",
+              "label": "Firm adhesion",
+              "text": "Activated leukocyte integrins bind endothelial ligands: LFA-1 and Mac-1 to ICAM-1, VLA-4 to VCAM-1.",
+              "conceptIds": [
+                "ch2-part-01-p037-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 37
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support firm adhesion: Activated leukocyte integrins bind endothelial ligands: LFA-1 and Mac-1 to ICAM-1, VLA-4 to VCAM-1. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-recruitment-f03",
+              "label": "Transmigration",
+              "text": "PECAM-1/CD31 is present on leukocytes and endothelial cells; leukocyte collagenases degrade basement membrane.",
+              "conceptIds": [
+                "ch2-part-01-p039-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 39
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support transmigration: PECAM-1/CD31 is present on leukocytes and endothelial cells; leukocyte collagenases degrade basement membrane. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p035-topic",
+            "ch2-part-01-p037-topic",
+            "ch2-part-01-p039-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 35
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 37
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 39
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-leakage",
+          "revision": 2,
+          "title": "Vascular leakage mechanisms",
+          "summary": "Compare the timing, vascular sites and mechanisms of leakage.",
+          "facts": [
+            {
+              "id": "path-ch2-leakage-f01",
+              "label": "Contraction versus retraction",
+              "text": "Histamine, bradykinins and leukotrienes produce immediate transient venular gaps; TNF/IL-1-mediated cytoskeletal retraction is delayed. Both are reversible.",
+              "conceptIds": [
+                "ch2-part-01-p022-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 22
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support contraction versus retraction: Histamine, bradykinins and leukotrienes produce immediate transient venular gaps; TNF/IL-1-mediated cytoskeletal retraction is delayed. Both are reversible. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-leakage-f02",
+              "label": "Direct injury",
+              "text": "Severe direct endothelial injury causes immediate sustained leakage in arterioles/capillaries/venules; mild injury causes delayed prolonged leakage in capillaries/venules.",
+              "conceptIds": [
+                "ch2-part-01-p024-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support direct injury: Severe direct endothelial injury causes immediate sustained leakage in arterioles/capillaries/venules; mild injury causes delayed prolonged leakage in capillaries/venules. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-leakage-f03",
+              "label": "Transcytosis",
+              "text": "VEGF induces vesicular transport through venular endothelial cells.",
+              "conceptIds": [
+                "ch2-part-01-p026-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 26
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support transcytosis: VEGF induces vesicular transport through venular endothelial cells. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-leakage-f04",
+              "label": "New vessels",
+              "text": "Angiogenic vessels can leak until intercellular junctions form.",
+              "conceptIds": [
+                "ch2-part-01-p027-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 27
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support new vessels: Angiogenic vessels can leak until intercellular junctions form. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p022-topic",
+            "ch2-part-01-p024-topic",
+            "ch2-part-01-p026-topic",
+            "ch2-part-01-p027-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 22
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 24
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 26
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 27
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-fluid",
+          "revision": 2,
+          "title": "Inflammatory fluid and pressure",
+          "summary": "Relate plasma protein escape and fluid movement to edema.",
+          "facts": [
+            {
+              "id": "path-ch2-fluid-f01",
+              "label": "Protein escape",
+              "text": "Protein escape decreases intravascular osmotic pressure and increases interstitial osmotic pressure; dilation increases hydrostatic pressure, promoting edema.",
+              "conceptIds": [
+                "ch2-part-01-p018-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support protein escape: Protein escape decreases intravascular osmotic pressure and increases interstitial osmotic pressure; dilation increases hydrostatic pressure, promoting edema. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-fluid-f02",
+              "label": "Transudation",
+              "text": "Low-protein plasma ultrafiltration driven by increased hydrostatic pressure.",
+              "conceptIds": [
+                "ch2-part-01-p020-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 20
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support transudation: Low-protein plasma ultrafiltration driven by increased hydrostatic pressure. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-fluid-f03",
+              "label": "Exudation",
+              "text": "Protein-rich fluid escape driven by increased vascular permeability.",
+              "conceptIds": [
+                "ch2-part-01-p020-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 20
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support exudation: Protein-rich fluid escape driven by increased vascular permeability. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p018-topic",
+            "ch2-part-01-p020-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 18
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 20
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-chemotaxis",
+          "revision": 2,
+          "title": "Chemotaxis targets",
+          "summary": "Connect migration gradients, chemokines and recruited cells.",
+          "facts": [
+            {
+              "id": "path-ch2-chemotaxis-f01",
+              "label": "Directional migration",
+              "text": "Chemotaxis follows a chemical gradient toward injury; bacterial products, C5a, LTB4 and chemokines are listed attractants.",
+              "conceptIds": [
+                "ch2-part-01-p041-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 41
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support directional migration: Chemotaxis follows a chemical gradient toward injury; bacterial products, C5a, LTB4 and chemokines are listed attractants. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-chemotaxis-f02",
+              "label": "Chemokine targets",
+              "text": "IL-8 attracts neutrophils; eotaxin eosinophils; MCP-1/MIP-1alpha monocytes; RANTES lymphocytes and monocytes.",
+              "conceptIds": [
+                "ch2-part-01-p041-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 41
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support chemokine targets: IL-8 attracts neutrophils; eotaxin eosinophils; MCP-1/MIP-1alpha monocytes; RANTES lymphocytes and monocytes. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-chemotaxis-f03",
+              "label": "Stimulus and cells",
+              "text": "Neutrophils predominate in early acute inflammation; eosinophils in allergy/parasitic infestation; lymphocytes in viral infection.",
+              "conceptIds": [
+                "ch2-part-01-p041-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 41
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support stimulus and cells: Neutrophils predominate in early acute inflammation; eosinophils in allergy/parasitic infestation; lymphocytes in viral infection. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p041-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 41
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-killing",
+          "revision": 2,
+          "title": "Phagocytosis and killing",
+          "summary": "Follow attachment, engulfment, killing and degradation.",
+          "facts": [
+            {
+              "id": "path-ch2-killing-f01",
+              "label": "Entry stages",
+              "text": "Recognition/attachment precedes pseudopod engulfment and fusion of the phagocytic vacuole with lysosomes.",
+              "conceptIds": [
+                "ch2-part-01-p045-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 45
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support entry stages: Recognition/attachment precedes pseudopod engulfment and fusion of the phagocytic vacuole with lysosomes. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-killing-f02",
+              "label": "Opsonin recognition",
+              "text": "The illustration shows antibody-Fc receptor and C3b-C3b receptor recognition of coated bacteria, plus C-reactive protein coating.",
+              "conceptIds": [
+                "ch2-part-01-p047-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 47
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support opsonin recognition: The illustration shows antibody-Fc receptor and C3b-C3b receptor recognition of coated bacteria, plus C-reactive protein coating. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-killing-f03",
+              "label": "Oxidative killing",
+              "text": "NADPH oxidase generates reactive oxygen species; neutrophil myeloperoxidase uses H2O2 in the presence of chloride during microbial killing.",
+              "conceptIds": [
+                "ch2-part-01-p048-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 48
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support oxidative killing: NADPH oxidase generates reactive oxygen species; neutrophil myeloperoxidase uses H2O2 in the presence of chloride during microbial killing. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-killing-f04",
+              "label": "Degradation",
+              "text": "Acid hydrolases degrade material following microbial killing.",
+              "conceptIds": [
+                "ch2-part-01-p048-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 48
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support degradation: Acid hydrolases degrade material following microbial killing. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p045-topic",
+            "ch2-part-01-p047-topic",
+            "ch2-part-01-p048-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 45
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 47
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 48
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-defects",
+          "revision": 2,
+          "title": "Leukocyte function defects",
+          "summary": "Separate adhesion, trafficking and oxidative-killing defects.",
+          "facts": [
+            {
+              "id": "path-ch2-defects-f01",
+              "label": "Adhesion",
+              "text": "LAD-1 involves LFA-1/Mac-1 integrin subunit defects; LAD-2 lacks sialyl-Lewis X that binds E/P-selectin.",
+              "conceptIds": [
+                "ch2-part-01-p050-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 50
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support adhesion: LAD-1 involves LFA-1/Mac-1 integrin subunit defects; LAD-2 lacks sialyl-Lewis X that binds E/P-selectin. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-defects-f02",
+              "label": "Trafficking",
+              "text": "Chediak-Higashi syndrome involves a microtubule assembly defect with impaired locomotion and lysosomal degranulation; inheritance is autosomal recessive.",
+              "conceptIds": [
+                "ch2-part-01-p050-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 50
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support trafficking: Chediak-Higashi syndrome involves a microtubule assembly defect with impaired locomotion and lysosomal degranulation; inheritance is autosomal recessive. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-defects-f03",
+              "label": "Oxidative defense",
+              "text": "NADPH oxidase deficiency impairs superoxide generation and oxygen-dependent killing in chronic granulomatous disease.",
+              "conceptIds": [
+                "ch2-part-01-p051-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-01",
+                  "pdfPage": 51
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support oxidative defense: NADPH oxidase deficiency impairs superoxide generation and oxygen-dependent killing in chronic granulomatous disease. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-01-p050-topic",
+            "ch2-part-01-p051-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 50
+            },
+            {
+              "lectureId": "ch2-part-01",
+              "pdfPage": 51
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-eicosanoids",
+          "revision": 2,
+          "title": "Eicosanoid contrasts",
+          "summary": "Compare the source pathways and effects of eicosanoid subtypes.",
+          "facts": [
+            {
+              "id": "path-ch2-eicosanoids-f01",
+              "label": "Cyclooxygenase",
+              "text": "Prostaglandins are arachidonic acid derivatives produced through cyclooxygenase; inflammatory effects include pain and fever.",
+              "conceptIds": [
+                "ch2-part-02-p013-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 13
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support cyclooxygenase: Prostaglandins are arachidonic acid derivatives produced through cyclooxygenase; inflammatory effects include pain and fever. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-eicosanoids-f02",
+              "label": "Platelets and tone",
+              "text": "PGI2 dilates vessels and inhibits platelet aggregation; TXA2 constricts vessels and promotes aggregation.",
+              "conceptIds": [
+                "ch2-part-02-p017-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 17
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support platelets and tone: PGI2 dilates vessels and inhibits platelet aggregation; TXA2 constricts vessels and promotes aggregation. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-eicosanoids-f03",
+              "label": "Leukotriene separation",
+              "text": "LTB4 promotes neutrophil chemotaxis; LTC4/LTD4/LTE4 promote bronchospasm and increased vascular permeability.",
+              "conceptIds": [
+                "ch2-part-02-p017-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 17
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support leukotriene separation: LTB4 promotes neutrophil chemotaxis; LTC4/LTD4/LTE4 promote bronchospasm and increased vascular permeability. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-eicosanoids-f04",
+              "label": "Lipoxins",
+              "text": "LXA4/LXB4 inhibit neutrophil adhesion and chemotaxis.",
+              "conceptIds": [
+                "ch2-part-02-p017-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 17
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support lipoxins: LXA4/LXB4 inhibit neutrophil adhesion and chemotaxis. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-02-p013-topic",
+            "ch2-part-02-p017-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 13
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 17
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-local-mediators",
+          "revision": 2,
+          "title": "Local mediator mechanisms",
+          "summary": "Connect histamine, PAF and endothelial nitric oxide to their effects.",
+          "facts": [
+            {
+              "id": "path-ch2-local-mediators-f01",
+              "label": "Histamine",
+              "text": "Stored in mast cells, platelets and basophils; promotes vasodilation and increased permeability.",
+              "conceptIds": [
+                "ch2-part-02-p011-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 11
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support histamine: Stored in mast cells, platelets and basophils; promotes vasodilation and increased permeability. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-local-mediators-f02",
+              "label": "PAF",
+              "text": "Generated from membrane phospholipids through phospholipase A2; stimulates platelets and promotes leukocyte adhesion, chemotaxis, degranulation and oxidative burst.",
+              "conceptIds": [
+                "ch2-part-02-p012-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support paf: Generated from membrane phospholipids through phospholipase A2; stimulates platelets and promotes leukocyte adhesion, chemotaxis, degranulation and oxidative burst. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-local-mediators-f03",
+              "label": "Endothelial NO",
+              "text": "Acetylcholine and bradykinin stimulate endothelial release of short-acting nitric oxide, producing vasodilation and inhibition of platelet aggregation.",
+              "conceptIds": [
+                "ch2-part-02-p018-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support endothelial no: Acetylcholine and bradykinin stimulate endothelial release of short-acting nitric oxide, producing vasodilation and inhibition of platelet aggregation. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-02-p011-topic",
+            "ch2-part-02-p012-topic",
+            "ch2-part-02-p018-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 11
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 12
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 18
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-complement",
+          "revision": 2,
+          "title": "Plasma mediator comparisons",
+          "summary": "Distinguish kinin, fibrinolytic and complement relationships.",
+          "facts": [
+            {
+              "id": "path-ch2-complement-f01",
+              "label": "Bradykinin",
+              "text": "Activated factor XII forms kallikrein from prekallikrein; kallikrein cleaves kininogen to bradykinin, which causes pain, permeability, vasodilation and bronchial constriction.",
+              "conceptIds": [
+                "ch2-part-02-p022-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 22
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support bradykinin: Activated factor XII forms kallikrein from prekallikrein; kallikrein cleaves kininogen to bradykinin, which causes pain, permeability, vasodilation and bronchial constriction. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-complement-f02",
+              "label": "Plasmin",
+              "text": "Factor XII activation connects to plasmin formation; plasmin activates complement.",
+              "conceptIds": [
+                "ch2-part-02-p024-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support plasmin: Factor XII activation connects to plasmin formation; plasmin activates complement. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-complement-f03",
+              "label": "Complement functions",
+              "text": "C3a/C5a: vascular effects and mast-cell degranulation; C5a: chemotaxis/integrin avidity; C3b/C3bi: opsonization; terminal MAC: membrane injury/lysis.",
+              "conceptIds": [
+                "ch2-part-02-p025-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 25
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support complement functions: C3a/C5a: vascular effects and mast-cell degranulation; C5a: chemotaxis/integrin avidity; C3b/C3bi: opsonization; terminal MAC: membrane injury/lysis. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-02-p022-topic",
+            "ch2-part-02-p024-topic",
+            "ch2-part-02-p025-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 22
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 24
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 25
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-outcomes",
+          "revision": 2,
+          "title": "Conditions that change the outcome",
+          "summary": "Relate damage severity, regeneration and persistent injury to outcome.",
+          "facts": [
+            {
+              "id": "path-ch2-outcomes-f01",
+              "label": "Determinants",
+              "text": "Severity of tissue damage, regenerative capacity and injurious-agent type determine the outcome.",
+              "conceptIds": [
+                "ch2-part-02-p031-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 31
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support determinants: Severity of tissue damage, regenerative capacity and injurious-agent type determine the outcome. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-outcomes-f02",
+              "label": "Resolution",
+              "text": "Limited or brief injury with minimal damage and replacement capacity favors resolution.",
+              "conceptIds": [
+                "ch2-part-02-p034-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 34
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support resolution: Limited or brief injury with minimal damage and replacement capacity favors resolution. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-outcomes-f03",
+              "label": "Abscess",
+              "text": "Failure to eliminate pyogenic infection can produce liquefaction and pus.",
+              "conceptIds": [
+                "ch2-part-02-p034-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 34
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support abscess: Failure to eliminate pyogenic infection can produce liquefaction and pus. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-outcomes-f04",
+              "label": "Fibrosis and persistence",
+              "text": "Substantial destruction, nonregenerating tissues or unabsorbed fibrinous exudate favor fibrosis; persistent injury can lead to chronic inflammation.",
+              "conceptIds": [
+                "ch2-part-02-p035-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 35
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support fibrosis and persistence: Substantial destruction, nonregenerating tissues or unabsorbed fibrinous exudate favor fibrosis; persistent injury can lead to chronic inflammation. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-02-p031-topic",
+            "ch2-part-02-p034-topic",
+            "ch2-part-02-p035-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 31
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 34
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 35
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-morphology",
+          "revision": 2,
+          "title": "Acute morphologic patterns",
+          "summary": "Distinguish serous, fibrinous, purulent and ulcerative patterns.",
+          "facts": [
+            {
+              "id": "path-ch2-morphology-f01",
+              "label": "Serous",
+              "text": "Relatively low-cell, low-protein fluid can accumulate in serous inflammation, as in skin blisters.",
+              "conceptIds": [
+                "ch2-part-02-p038-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 38
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support serous: Relatively low-cell, low-protein fluid can accumulate in serous inflammation, as in skin blisters. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-morphology-f02",
+              "label": "Fibrinous",
+              "text": "Plasma fibrinogen exudes and becomes deposited tissue fibrin.",
+              "conceptIds": [
+                "ch2-part-02-p040-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 40
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support fibrinous: Plasma fibrinogen exudes and becomes deposited tissue fibrin. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-morphology-f03",
+              "label": "Suppurative",
+              "text": "A neutrophil-rich exudate; pus combines viable/dead neutrophils, necrotic tissue and edema fluid.",
+              "conceptIds": [
+                "ch2-part-02-p045-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 45
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support suppurative: A neutrophil-rich exudate; pus combines viable/dead neutrophils, necrotic tissue and edema fluid. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-morphology-f04",
+              "label": "Ulceration",
+              "text": "Necrosis/erosion of an epithelial surface; layers include neutrophilic exudate, vascular proliferation and proliferating fibroblasts.",
+              "conceptIds": [
+                "ch2-part-02-p051-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-02",
+                  "pdfPage": 51
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support ulceration: Necrosis/erosion of an epithelial surface; layers include neutrophilic exudate, vascular proliferation and proliferating fibroblasts. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-02-p038-topic",
+            "ch2-part-02-p040-topic",
+            "ch2-part-02-p045-topic",
+            "ch2-part-02-p051-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 38
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 40
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 45
+            },
+            {
+              "lectureId": "ch2-part-02",
+              "pdfPage": 51
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-macrophage-activation",
+          "revision": 2,
+          "title": "Macrophage activation programs",
+          "summary": "Compare classical and alternative activation with resolution.",
+          "facts": [
+            {
+              "id": "path-ch2-macrophage-activation-f01",
+              "label": "M1",
+              "text": "Microbes/IFN-gamma induce classical activation: ROS/NO/lysosomal enzymes support killing; IL-1/IL-12/IL-23/chemokines support inflammation.",
+              "conceptIds": [
+                "ch2-part-03-p014-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 14
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support m1: Microbes/IFN-gamma induce classical activation: ROS/NO/lysosomal enzymes support killing; IL-1/IL-12/IL-23/chemokines support inflammation. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-macrophage-activation-f02",
+              "label": "M2",
+              "text": "IL-4/IL-13 induce alternative activation: growth factors/TGF-beta support repair/fibrosis; IL-10/TGF-beta support anti-inflammatory effects.",
+              "conceptIds": [
+                "ch2-part-03-p014-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 14
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support m2: IL-4/IL-13 induce alternative activation: growth factors/TGF-beta support repair/fibrosis; IL-10/TGF-beta support anti-inflammatory effects. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-macrophage-activation-f03",
+              "label": "Resolution",
+              "text": "Macrophages clear excess fluid, apoptotic neutrophils and debris during resolution.",
+              "conceptIds": [
+                "ch2-part-03-p018-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support resolution: Macrophages clear excess fluid, apoptotic neutrophils and debris during resolution. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-03-p014-topic",
+            "ch2-part-03-p018-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 14
+            },
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 18
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-lymphocyte-loop",
+          "revision": 2,
+          "title": "The macrophage–lymphocyte loop",
+          "summary": "Trace reciprocal cytokine signals between macrophages and lymphocytes.",
+          "facts": [
+            {
+              "id": "path-ch2-lymphocyte-loop-f01",
+              "label": "Antigen presentation",
+              "text": "Macrophages present antigen fragments to activate lymphocytes.",
+              "conceptIds": [
+                "ch2-part-03-p023-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 23
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support antigen presentation: Macrophages present antigen fragments to activate lymphocytes. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-lymphocyte-loop-f02",
+              "label": "Forward signal",
+              "text": "Activated lymphocytes produce IFN-gamma that activates macrophages.",
+              "conceptIds": [
+                "ch2-part-03-p023-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 23
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support forward signal: Activated lymphocytes produce IFN-gamma that activates macrophages. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-lymphocyte-loop-f03",
+              "label": "Feedback",
+              "text": "Macrophages release IL-1/TNF, further activating lymphocytes and other cells; reciprocal stimulation persists until antigen removal or modulation.",
+              "conceptIds": [
+                "ch2-part-03-p023-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 23
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support feedback: Macrophages release IL-1/TNF, further activating lymphocytes and other cells; reciprocal stimulation persists until antigen removal or modulation. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-03-p023-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 23
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-granulation-granuloma",
+          "revision": 2,
+          "title": "Granulation tissue versus granuloma",
+          "summary": "Separate fibrovascular repair tissue from epithelioid-macrophage aggregates.",
+          "facts": [
+            {
+              "id": "path-ch2-granulation-granuloma-f01",
+              "label": "Granulation tissue",
+              "text": "New blood vessels, inflammatory cells, fibroblasts and collagen repair injured tissue by fibrous replacement.",
+              "conceptIds": [
+                "ch2-part-03-p029-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 29
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support granulation tissue: New blood vessels, inflammatory cells, fibroblasts and collagen repair injured tissue by fibrous replacement. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-granulation-granuloma-f02",
+              "label": "Granuloma",
+              "text": "An aggregate of activated epithelioid macrophages can eradicate organisms or wall off degradation-resistant particles.",
+              "conceptIds": [
+                "ch2-part-03-p033-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 33
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support granuloma: An aggregate of activated epithelioid macrophages can eradicate organisms or wall off degradation-resistant particles. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-granulation-granuloma-f03",
+              "label": "Etiologies",
+              "text": "Examples include bacterial, fungal and parasitic infections, inorganic dusts, foreign bodies, and unknown causes such as sarcoidosis.",
+              "conceptIds": [
+                "ch2-part-03-p036-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 36
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support etiologies: Examples include bacterial, fungal and parasitic infections, inorganic dusts, foreign bodies, and unknown causes such as sarcoidosis. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-03-p029-topic",
+            "ch2-part-03-p033-topic",
+            "ch2-part-03-p036-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 29
+            },
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 33
+            },
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 36
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 3 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        },
+        {
+          "id": "path-ch2-acute-phase",
+          "revision": 2,
+          "title": "Systemic acute-phase relationships",
+          "summary": "Connect cytokines to fever, liver proteins and marrow responses.",
+          "facts": [
+            {
+              "id": "path-ch2-acute-phase-f01",
+              "label": "Cytokine sequence",
+              "text": "TNF induces IL-1, which stimulates IL-6.",
+              "conceptIds": [
+                "ch2-part-03-p050-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 50
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support cytokine sequence: TNF induces IL-1, which stimulates IL-6. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-acute-phase-f02",
+              "label": "Fever",
+              "text": "TNF/IL-1 stimulate prostaglandin production at the thermoregulatory center.",
+              "conceptIds": [
+                "ch2-part-03-p050-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 50
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support fever: TNF/IL-1 stimulate prostaglandin production at the thermoregulatory center. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-acute-phase-f03",
+              "label": "Organ responses",
+              "text": "IL-6 stimulates hepatic plasma proteins, mainly fibrinogen; IL-1/TNF increase marrow leukocyte production.",
+              "conceptIds": [
+                "ch2-part-03-p051-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 51
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support organ responses: IL-6 stimulates hepatic plasma proteins, mainly fibrinogen; IL-1/TNF increase marrow leukocyte production. Antigravity and Claude pending."
+              }
+            },
+            {
+              "id": "path-ch2-acute-phase-f04",
+              "label": "Cell pattern",
+              "text": "Bacterial infection emphasizes PMNs, parasites with allergy eosinophils, and viral infection lymphocytes.",
+              "conceptIds": [
+                "ch2-part-03-p051-topic"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch2-part-03",
+                  "pdfPage": 51
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+                "notes": "Original page image and extracted text support cell pattern: Bacterial infection emphasizes PMNs, parasites with allergy eosinophils, and viral infection lymphocytes. Antigravity and Claude pending."
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch2-part-03-p050-topic",
+            "ch2-part-03-p051-topic"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 50
+            },
+            {
+              "lectureId": "ch2-part-03",
+              "pdfPage": 51
+            }
+          ],
+          "status": "validated",
+          "review": {
+            "status": "validated",
+            "independentReviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+            "sourceChecked": true,
+            "scopeChecked": true,
+            "ambiguityChecked": true,
+            "notes": "Fresh second Codex agent checked all 4 facts against original rendered pages, exact references, concept links and conditions. Unresolved source claims are excluded. Antigravity and Claude pending."
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "status": "validated",
+    "reviewer": "second Codex agent /root/check_inflammation (not Antigravity or Claude)",
+    "reviewedCards": 15,
+    "reviewedFacts": 51,
+    "sourceChecked": true,
+    "externalIndependentReview": "Not performed; Antigravity and Claude pending"
+  },
+  "excludedClaims": [
+    "HOCl radical nomenclature",
+    "Aspirin numeric platelet recovery and enzyme-synthesis wording",
+    "Unqualified LTB4 bronchoconstriction grouping",
+    "Macrophage nitric-oxide interferon subtype",
+    "Serous-fluid transudate terminology",
+    "Universal caseation-based etiology rule"
+  ]
+}

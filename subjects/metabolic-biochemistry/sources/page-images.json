@@ -1,0 +1,1589 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "description": "Faithful full-page renders of unchanged authoritative lecture PDFs. Covers and administrative pages are included for exact PDF-page navigation.",
+  "pathBase": "sources/",
+  "format": "image/webp",
+  "lossless": true,
+  "renderScale": 2.0,
+  "renderDpi": 144.0,
+  "encoderQuality": null,
+  "renderEngine": "pypdfium2",
+  "imageEncoder": "Pillow 13.0.0",
+  "manifestSha256": "fd15e38a07b880461dc845fb658fc764c2fc9870ecd815b671c40552ee6b7752",
+  "manifestHashNormalization": "UTF-8 without BOM; LF newlines",
+  "totalPages": 154,
+  "totalBytes": 22243564,
+  "sourcePdfs": [
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "path": "slides/1) Chapter 13 - Bioenergetics and Metabolism.pdf",
+      "sha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "pdfPages": 39,
+      "renderBytes": 4618798
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "path": "slides/2) Chapter 14 - Glycolysis and Fermentation.pdf",
+      "sha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "pdfPages": 61,
+      "renderBytes": 8118004
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "path": "slides/3) Chapter 16 - The citric acid cycle and PDH_OES.pdf",
+      "sha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "pdfPages": 33,
+      "renderBytes": 5036020
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "path": "slides/4) Chapter 19 - Oxidative Phosphorylation.pdf",
+      "sha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "pdfPages": 21,
+      "renderBytes": 4470742
+    }
+  ],
+  "pages": [
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 1,
+      "path": "pages/bioenergetics-and-metabolism/page-001.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "93d1d226275d49559b48a0cc6fcf2b4f6245e1889e56d5d93dbe49c3c6c0bad3",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 185102
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 2,
+      "path": "pages/bioenergetics-and-metabolism/page-002.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4b1d3bbdea64a806543336ad6ca9ae52ff0d67bd0b6f47254e38953b020a4294",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 160080
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 3,
+      "path": "pages/bioenergetics-and-metabolism/page-003.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4dc5cd9c7770f055c5de8993afb919e55d6e08e822d577bee1cf0c1a8b466906",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 121682
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 4,
+      "path": "pages/bioenergetics-and-metabolism/page-004.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "747515d706d5c34a8e0d3e52272affea5987750f8788289436b0a689bdeef377",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 150514
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 5,
+      "path": "pages/bioenergetics-and-metabolism/page-005.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "cb3f25a7da701ea4a7ed47e2e7a640289ff293e0e829ad9aeaf4513aa6eb1ab7",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 193230
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 6,
+      "path": "pages/bioenergetics-and-metabolism/page-006.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "fd62d0ff9d43bf9f3d73c61d77ae598dc0fa9a4af45360a3cf3e166659cdc490",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 229876
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 7,
+      "path": "pages/bioenergetics-and-metabolism/page-007.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "025801dddd7f2bc8349f307f537f7538797bbf016a63222f6bb08d3fe5bd224e",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 61530
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 8,
+      "path": "pages/bioenergetics-and-metabolism/page-008.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "dee9abc82054aadaa62028b36ac2caa3bce2234d9e69c5fb6b13d0556b169ba3",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 73040
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 9,
+      "path": "pages/bioenergetics-and-metabolism/page-009.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4cb538548486bae2ddc20a3308c5245c842c5d99188c245f5097bac097a8caa8",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 123848
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 10,
+      "path": "pages/bioenergetics-and-metabolism/page-010.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "3b4be804c5370de5555c9f94f12f61402f68132b19daabc3425cca4a8bf037bb",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 152416
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 11,
+      "path": "pages/bioenergetics-and-metabolism/page-011.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a65935ae97bf476fc9d2232adf1fcd9e137697ccd879fdead728b358dfc2671e",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 107358
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 12,
+      "path": "pages/bioenergetics-and-metabolism/page-012.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2e6edd331cf51ff6638792e6e6b8d0c2c3abb4d7b0064f83d01e5480ac23c617",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 95556
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 13,
+      "path": "pages/bioenergetics-and-metabolism/page-013.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7874a8ea2f88ca396a321118f0187505bcbf4f336eb05869f5df135724492314",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 91896
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 14,
+      "path": "pages/bioenergetics-and-metabolism/page-014.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "fd32edd55d5b82e9a9bc8ce15843eec7bb0e679fcf9129c22d13e80774a71164",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 123088
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 15,
+      "path": "pages/bioenergetics-and-metabolism/page-015.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "677df6a8c212b30c351a17596696b24a684260bd7e02bb0dacd6057e0fcb6d39",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 88898
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 16,
+      "path": "pages/bioenergetics-and-metabolism/page-016.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7784fc6c0ade42a59c2b484e9b9f2a8e432a67e98a1c0bbb42891e1e13551441",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 86202
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 17,
+      "path": "pages/bioenergetics-and-metabolism/page-017.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4bb9546fe6251dc931b233999292dfe12737c92b5c4fd4f13d9d9295d83e7adb",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 133434
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 18,
+      "path": "pages/bioenergetics-and-metabolism/page-018.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "9b12d8b1aa1e634a95522e08b4a8d72769305cf140e1f3e2fdaa2388fe0ae1e9",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 110170
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 19,
+      "path": "pages/bioenergetics-and-metabolism/page-019.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b1ecb1517e0501794c6063e04cffc9ba03e3dd03e0698c891f1778629b7ad376",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 108892
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 20,
+      "path": "pages/bioenergetics-and-metabolism/page-020.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7fd37ed4b0055e151b7c613f8d6465191f62a0ad8fbf572aec74f73dc4448a1f",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 69310
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 21,
+      "path": "pages/bioenergetics-and-metabolism/page-021.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a51b85747a1b77ac6f1b1eb14c39b999db841d00d209540df52eb32bedf4cbd6",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 89730
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 22,
+      "path": "pages/bioenergetics-and-metabolism/page-022.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6cd74e4876adda4ba6a7e3d0ff41e2a94a09bb3e731d14b3d1953905d960fb4b",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 95490
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 23,
+      "path": "pages/bioenergetics-and-metabolism/page-023.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d604e244748d5279dfc75dfa7d47cf7f0226e526197d1bff05e3cd3a7a028ae6",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 76850
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 24,
+      "path": "pages/bioenergetics-and-metabolism/page-024.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "822b4668a16ef87c292481b2e208f5d1f7c31127dd45b846eb8e4c2f2e7e1694",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 89070
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 25,
+      "path": "pages/bioenergetics-and-metabolism/page-025.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4fa352ba9ac8ef1fc0667403bdb4765efdb032f9d3d88436b3b7f94b405ed2d1",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 102034
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 26,
+      "path": "pages/bioenergetics-and-metabolism/page-026.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "1f9882fe8468fd319477a546e57e2f14daaac0a6d086839cae9f12dccb0d62a1",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 137418
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 27,
+      "path": "pages/bioenergetics-and-metabolism/page-027.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7c3e4938a4c74abafc232860f6ae6abd18dcd9467b240a5630f3d0309b99a0e1",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 91254
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 28,
+      "path": "pages/bioenergetics-and-metabolism/page-028.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "de132d6eb58fa660600424a4c7974fd4f880c0f394b723a288b9ba1a16129223",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 114026
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 29,
+      "path": "pages/bioenergetics-and-metabolism/page-029.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b58f9bc862933e804bdc3c9edbbd045b3cda1f1ac2f63f6c6ad6301b68da4f82",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 77288
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 30,
+      "path": "pages/bioenergetics-and-metabolism/page-030.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "3fd4cabd630ef465b080f7a62b822353b54b66697eb93e4148cfc8169a569567",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 104920
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 31,
+      "path": "pages/bioenergetics-and-metabolism/page-031.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "74bc0047d192c970d7fb8c22ffac86fe3290433e7c094b590f675823716b5dfd",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 81808
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 32,
+      "path": "pages/bioenergetics-and-metabolism/page-032.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "601576803dbe928336c07289cbb22ac4f3e0da240dd9694764f77b425cb02bb0",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 98906
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 33,
+      "path": "pages/bioenergetics-and-metabolism/page-033.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "79bc9cc51d74f2bbd2d66c322a39d776860fe39bbb1ef914acb90c73ba3b80bd",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 99968
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 34,
+      "path": "pages/bioenergetics-and-metabolism/page-034.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "f168007d1f05804afc5c048eb03c545ffb176d69a61391ff793a528dbb84c53d",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 98938
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 35,
+      "path": "pages/bioenergetics-and-metabolism/page-035.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "53efcb737288b58bc2070348640ddb09f8299f0f1d03fed708dc8f9ccbbe59e9",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 247554
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 36,
+      "path": "pages/bioenergetics-and-metabolism/page-036.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2ee1c516634a14c785e5eccf56b8ffeaf559911dd905784edf66971a4e8a23ee",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 134356
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 37,
+      "path": "pages/bioenergetics-and-metabolism/page-037.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "71c741a4533585ab3470d7d563e586cdf4e873f348e0cc9d8ed1e632e3cea170",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 77890
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 38,
+      "path": "pages/bioenergetics-and-metabolism/page-038.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a48d1765843249df6690106c7b0a4e69a249b6dbdd8b359d4f47a6b11c6e14f8",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 69416
+    },
+    {
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 39,
+      "path": "pages/bioenergetics-and-metabolism/page-039.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "8454d010f470b5db9d4df8fa616970d90f3ce73f853dbf991ab1cefb9ebb4414",
+      "sourceSha256": "73c6898c250f717eaf3ee5bd7c9074bb7b79c778fadc9e9b35c501de83ae5f9b",
+      "sizeBytes": 265760
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 1,
+      "path": "pages/glycolysis-and-fermentation/page-001.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "285c34bcb4378501ccbaa7bd1fd377a6c4d0392bcb2e78bef8e455eb681bb996",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 164874
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 2,
+      "path": "pages/glycolysis-and-fermentation/page-002.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "c81add748b8bc6e3261396ad809751f86b837f8c4e1733f123fbaf09de8afbb7",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 267208
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 3,
+      "path": "pages/glycolysis-and-fermentation/page-003.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "1e01484faa6896b48a036cc28398f3a9ba6903a63557eaa74b442ff2e08810f7",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 133326
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 4,
+      "path": "pages/glycolysis-and-fermentation/page-004.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "dfcdf1eb26dd904cbb4545ce2f661973bd27ad73727eb0691ed9c187bf245054",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 111454
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 5,
+      "path": "pages/glycolysis-and-fermentation/page-005.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2ab5a4c1317f0ac5ba7ad7da7dcfab860dbe6fc1677ce162682a4df57644319d",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 319472
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 6,
+      "path": "pages/glycolysis-and-fermentation/page-006.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "06c2843ca581faecd1d534143afc6c0441661b02ad32da5316b21b845bc15c34",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 120838
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 7,
+      "path": "pages/glycolysis-and-fermentation/page-007.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e3ef7f8b91025b7113aeaf5c9f6a880f3b1327db4c42e3c4636a4e72b4a4f0fd",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 190580
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 8,
+      "path": "pages/glycolysis-and-fermentation/page-008.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "1154e3faa8d279e413d17ec2af6c9408b652c3be45d45079e23c2395a574ba61",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 253158
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 9,
+      "path": "pages/glycolysis-and-fermentation/page-009.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "136cffded5944270c440b5b1917a719810cc764f8045087dddff25cb4d26324a",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 109646
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 10,
+      "path": "pages/glycolysis-and-fermentation/page-010.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5356a6aefc786ef3c43b59295148234a6664cb13ce125611f765432650798dd4",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 135290
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 11,
+      "path": "pages/glycolysis-and-fermentation/page-011.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0fae30931ef771059e54ae06479f4717ebbc938a71b27edf4373be7fa662fc2d",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 77968
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 12,
+      "path": "pages/glycolysis-and-fermentation/page-012.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b2cab4042e28e7a12bcf987087151e5e84e1f365581d447815c58874134e4451",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 102484
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 13,
+      "path": "pages/glycolysis-and-fermentation/page-013.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "efad05c1c0610404c66c4fabee5f3ddcc5c06160a4be6d6a6fa8ffe5b972ec08",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 298978
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 14,
+      "path": "pages/glycolysis-and-fermentation/page-014.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ff2707e863a323044170eeab00cd51cf19c34a3fd2c8d7996c6db180d53c25c0",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 69704
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 15,
+      "path": "pages/glycolysis-and-fermentation/page-015.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "81e4bdfbe863407ec33be7600cf5bda2b69c5dfe4d7c5c5f4198394a71611452",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 91204
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 16,
+      "path": "pages/glycolysis-and-fermentation/page-016.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5e841e7e5f73c3e85d021eb09bf1350e63a515c0d8c678d9cec9db00b0410ad5",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 118600
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 17,
+      "path": "pages/glycolysis-and-fermentation/page-017.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "616693c8740f474976aaaf251cedf393600a899fe8c5c83e01dfe9f6faad986f",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 117868
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 18,
+      "path": "pages/glycolysis-and-fermentation/page-018.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "eb69727c8ad2377e8736db5eb5b7839687d97707612348093f89de7458bc0452",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 97172
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 19,
+      "path": "pages/glycolysis-and-fermentation/page-019.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "dfa6ae0b0e02ffcde4d3136b9d44c3775f97a88ba89328fa2cebfb6824fb9394",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 75744
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 20,
+      "path": "pages/glycolysis-and-fermentation/page-020.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "137976a1d6fe1d375b71ebff06386cc0aa8bed674045a057f2bbc147b4c6a7c1",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 97538
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 21,
+      "path": "pages/glycolysis-and-fermentation/page-021.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "969d3819b607d6735c88dc0ad0375d67a60bca7552dd9038e8b4e8aa974fac5c",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 106442
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 22,
+      "path": "pages/glycolysis-and-fermentation/page-022.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "52b8e78c026d52a499846c2cf212c4c98e5c4f0a8348764736747ab9ea0d86e2",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 100142
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 23,
+      "path": "pages/glycolysis-and-fermentation/page-023.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5374547c4a42da32b0da5b35d3c2fb57ceecf0b8b8307e8b8868cd94e19a16f8",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 104652
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 24,
+      "path": "pages/glycolysis-and-fermentation/page-024.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "35c9c4b933dde8e4d20d47e42032edd6f766cd3e8caa2599f0451f2ae06b467b",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 98622
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 25,
+      "path": "pages/glycolysis-and-fermentation/page-025.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d7e4323bd42cf225c6634b572ca1fcb1856a5c998e8602d8effeb6f67acdee9e",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 49566
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 26,
+      "path": "pages/glycolysis-and-fermentation/page-026.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "03f6e5043b8427d392ac605c55bfb5b168392b855c760acbdd2ee85160856fd8",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 162822
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 27,
+      "path": "pages/glycolysis-and-fermentation/page-027.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b99ed3acc956180cf8594f948103fefd36fe8ac875ce2c86b22682af063e6294",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 94346
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 28,
+      "path": "pages/glycolysis-and-fermentation/page-028.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0876fa1048aeaaaac6f83e9750c2829eafdc1d5d405721ab6c774bcaf6db8022",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 95448
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 29,
+      "path": "pages/glycolysis-and-fermentation/page-029.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e850967514f325e2bbaea80bd20f326b32ac176ad6773397c45071e67e946f20",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 211260
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 30,
+      "path": "pages/glycolysis-and-fermentation/page-030.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "fa6a00e6c441ce2791a7a51edd0c34eec98fe154f8fc5e32558e840ec6cfd768",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 147532
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 31,
+      "path": "pages/glycolysis-and-fermentation/page-031.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "dbb52cc07f20eb4341941b696213d715abef4eb09cf12c7d8d4eba13a8968853",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 59138
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 32,
+      "path": "pages/glycolysis-and-fermentation/page-032.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "231647a2a4711d1c0de66c608861c30201ab61eec75319663a945a54a316fe4b",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 188742
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 33,
+      "path": "pages/glycolysis-and-fermentation/page-033.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6ea7c81485d7324fd51965174779e2357e043e23d013bbc7b95f8ffd95a26d56",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 88426
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 34,
+      "path": "pages/glycolysis-and-fermentation/page-034.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d3505d3ab94d2539f2d086d04a4756d98214ddc63c812977335e0aaacdbcff59",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 206996
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 35,
+      "path": "pages/glycolysis-and-fermentation/page-035.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "63735f3c6875965433542d0c13cacfc949089dc9fb625796e980a5de5a23dea8",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 286116
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 36,
+      "path": "pages/glycolysis-and-fermentation/page-036.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "08960d746975540e3a4621bf0e4a296ea10f1a64f26c5ef2bb0741e83d148bb2",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 136110
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 37,
+      "path": "pages/glycolysis-and-fermentation/page-037.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "69cc53990e5cd450e4ee771b35d48dbbda06ff5eebbab6f1fedbd89bc8e0262a",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 112588
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 38,
+      "path": "pages/glycolysis-and-fermentation/page-038.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "83d2cedd54b73e9603fd4c10885f99a2c3750390884321cff4db15d652cf6577",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 210952
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 39,
+      "path": "pages/glycolysis-and-fermentation/page-039.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e4fa4f0e976e7a6e6c2aade58e3c2e2bb8f66de5d9bb36116743f5575fa68b69",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 73792
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 40,
+      "path": "pages/glycolysis-and-fermentation/page-040.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "eeeddc19155612ed3eb416d20e905fbe83eb4250a58d8e301babbd25749ce1bd",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 112112
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 41,
+      "path": "pages/glycolysis-and-fermentation/page-041.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "8901c30af677cd2d181716ed247ecb5b9c844b42d2e9b08e8d4ca573b183da90",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 191300
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 42,
+      "path": "pages/glycolysis-and-fermentation/page-042.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "79d7a6280db68e750df3511f95904b8c6d7bf0fb1b9ce18b1de3dd5b1dd9f1fa",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 65106
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 43,
+      "path": "pages/glycolysis-and-fermentation/page-043.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "1b91906bad8c3a8397e505fd47d5966ffc94eb7921babf1c626ab96da5bab532",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 88470
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 44,
+      "path": "pages/glycolysis-and-fermentation/page-044.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "42e1a7e947895864588e83491496bf87fe616f3fabe3749899c6469c4c2589c1",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 213680
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 45,
+      "path": "pages/glycolysis-and-fermentation/page-045.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4d4520d3b2dda3ef3cf7219905b65c3d8c09e275501ecbaaced34eef1182de9f",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 71096
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 46,
+      "path": "pages/glycolysis-and-fermentation/page-046.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0fb2fe7280fbae346fd5be2229bc96a56feeec8d9d859c0d3c8be59e63f91f20",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 138870
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 47,
+      "path": "pages/glycolysis-and-fermentation/page-047.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "cb1b9d34771443aba5f649ab4a04439db6ce5e045cc0ef58b30c6d9fb071b7a5",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 100080
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 48,
+      "path": "pages/glycolysis-and-fermentation/page-048.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e0645b43a4c097cbd85a541d457ef718624313ce06ae9bd9396ecf2ca62e6c1d",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 72148
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 49,
+      "path": "pages/glycolysis-and-fermentation/page-049.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ad9a1ff592fda109175317011a1cb77b73f1d25052935d67833c30031d62cb62",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 89840
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 50,
+      "path": "pages/glycolysis-and-fermentation/page-050.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0e12a2a871356d270dbbfe1e2383afbca16d2689471eefd711df719911a6a6e4",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 135226
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 51,
+      "path": "pages/glycolysis-and-fermentation/page-051.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "832fcd157740810ec12217b45998c6a63bfdaa3842cd8aa3b9165d88d740d40a",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 114682
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 52,
+      "path": "pages/glycolysis-and-fermentation/page-052.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7d553eca15259f13fa748eac041ea42007e9f77f2f05e10a9f8c0087f1b4b604",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 65410
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 53,
+      "path": "pages/glycolysis-and-fermentation/page-053.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "30590fa58b7e2bbe25ab10db06fa34407b2260cc0c9f491fb80a88de00f06132",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 103420
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 54,
+      "path": "pages/glycolysis-and-fermentation/page-054.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0377e6db2000f81c624684bf37fa53b0cc1d1b17d97efbb2ccce898369edecbc",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 204412
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 55,
+      "path": "pages/glycolysis-and-fermentation/page-055.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "cc17f0111cee8e1157f5d99e53b4eb1fca695eb5807bb3c4e753ee0c524bc28b",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 115782
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 56,
+      "path": "pages/glycolysis-and-fermentation/page-056.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "25d7b2a10ac0a15733ecf2739d631b63aeeceefb46348ccfc29fca3ac2e145c2",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 89722
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 57,
+      "path": "pages/glycolysis-and-fermentation/page-057.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "79c524e13f37ebe1c366a1e9b137346062b0ed512a3a4329781f46c8ba5675b5",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 104374
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 58,
+      "path": "pages/glycolysis-and-fermentation/page-058.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7aa4c455807baeaccc7f2ce2f8791a147d111f8c7977e1390eb4b9cb96e4da13",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 110706
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 59,
+      "path": "pages/glycolysis-and-fermentation/page-059.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ba010891291204478fddf1c3d00aa92f5c9dc7277b148191e514ef3d53187f42",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 95386
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 60,
+      "path": "pages/glycolysis-and-fermentation/page-060.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "25b242b4aa5bb45f3aa844e9f4d4979f1d0bbce341ecc913126f7cbdc4e03c7c",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 106772
+    },
+    {
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 61,
+      "path": "pages/glycolysis-and-fermentation/page-061.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0f6164301f8b1b209b92776218dd9e9eda31b9c2b0e5e23fe796d324dbc27a6d",
+      "sourceSha256": "1473b17c7ab6f058102be282ec78c5fb4f8499c6a5ae1a5b6e2e24ec7ae7a4a2",
+      "sizeBytes": 242612
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 1,
+      "path": "pages/citric-acid-cycle-and-pdh/page-001.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d2e4533e842ea0f4eb53a2105a15b8fea044342335a9d12fb67508d8e5eedda2",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 185042
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 2,
+      "path": "pages/citric-acid-cycle-and-pdh/page-002.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "916fb8f0ab368f50bc62116df010da1268d9c09f9c3da35779506216c930d620",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 245996
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 3,
+      "path": "pages/citric-acid-cycle-and-pdh/page-003.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "70d2c36ab6cfa6bad482929c89f785f90cac8d76edc991557c78b3725c0395db",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 98420
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 4,
+      "path": "pages/citric-acid-cycle-and-pdh/page-004.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0ae924edf2b547836c6f0f7415d8b5ac3e42d2ea3e2c79ee28126e7bb41c20cc",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 146000
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 5,
+      "path": "pages/citric-acid-cycle-and-pdh/page-005.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "58d5b4bf850f615b0836c253e68fcf6ecc43a821c5ff4aa3bfe2ca7f4d50405a",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 147408
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 6,
+      "path": "pages/citric-acid-cycle-and-pdh/page-006.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b5ade12c4ca1093e4245361bf46111a4d20f1a8463ed90cb64f911735b921232",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 202164
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 7,
+      "path": "pages/citric-acid-cycle-and-pdh/page-007.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e81a5b2afd29d9930c259412c3090b5240975145e59acd1b3a78567af60de533",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 171102
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 8,
+      "path": "pages/citric-acid-cycle-and-pdh/page-008.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "cf3adae85293f4400f284279424dbcb5ae962a3c75e3e4858f529407c5195762",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 147046
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 9,
+      "path": "pages/citric-acid-cycle-and-pdh/page-009.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "9367f266825f5bd803105a5e84ac47a004ce75c21de36075ab2272c10e289971",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 78184
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 10,
+      "path": "pages/citric-acid-cycle-and-pdh/page-010.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "dbb09dc1ee7db0ed72045bef8bd1d76785a51a43cb2a62f58d284ae0db15b3bb",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 224062
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 11,
+      "path": "pages/citric-acid-cycle-and-pdh/page-011.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a3ed793aec12df8739642b6ed005e420fc9b1dd5260f8a24295cb92963bae7b0",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 96162
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 12,
+      "path": "pages/citric-acid-cycle-and-pdh/page-012.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e14b5c93871337f7d0fb1da5e9fab4eaad0c5c015b905fe6cc682375e65be0b6",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 199314
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 13,
+      "path": "pages/citric-acid-cycle-and-pdh/page-013.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6a6188441e7e91b9d61695888e503add74897e34bb18d2402da00b6435f971ff",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 83956
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 14,
+      "path": "pages/citric-acid-cycle-and-pdh/page-014.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "9c7605c45c12bf038cf2d1ea21100ef459f4fdca9ae031f75cca0b151ceaf307",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 89466
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 15,
+      "path": "pages/citric-acid-cycle-and-pdh/page-015.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d2f73d7260c0398b7812ed502a537fa9c5aa3566ac8c330e25a66abc380f741b",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 91786
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 16,
+      "path": "pages/citric-acid-cycle-and-pdh/page-016.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "f45118ce72e723977753fd4b5ff59c756edf94cccf2038cd614347dbb79ba300",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 63306
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 17,
+      "path": "pages/citric-acid-cycle-and-pdh/page-017.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "92cae63534d7f9229602703fd9e711892bd626484d42866a0520ebdc5ce0d265",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 303696
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 18,
+      "path": "pages/citric-acid-cycle-and-pdh/page-018.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7b10a055db665689de970f7d66a9fafa9a960711b4e7758f6d6cd78f3edc82f6",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 95976
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 19,
+      "path": "pages/citric-acid-cycle-and-pdh/page-019.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "942d5523ebc73b169e85d35877e054b2e76d777f967cf7c7b35b0061f610ad10",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 249822
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 20,
+      "path": "pages/citric-acid-cycle-and-pdh/page-020.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6cae762c2316ea75a1f48ae9c19289bb584436d3b9388d78c14b8d6919e038a8",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 104938
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 21,
+      "path": "pages/citric-acid-cycle-and-pdh/page-021.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "02a56b7f6547e5cd4ca76680f7bd92a746c09e4c59d674b858e2c93cadc12359",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 165332
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 22,
+      "path": "pages/citric-acid-cycle-and-pdh/page-022.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d669659c5f3b7178e6f1d103f956d7cd9d4f3b085d0bc76fabd5f280154be421",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 143024
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 23,
+      "path": "pages/citric-acid-cycle-and-pdh/page-023.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ab47361ee1630cc096d55e7f8a09951fceb433f903a1b0d34905f9ba8df22070",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 135270
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 24,
+      "path": "pages/citric-acid-cycle-and-pdh/page-024.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7282a3975e050947f897e6dd5ce99175940c2e91801ad05b5ad4e0c4f2e38687",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 106906
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 25,
+      "path": "pages/citric-acid-cycle-and-pdh/page-025.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2240c89ae355d5a2be7107b34f7a761c5193057d9f5ddc6c910c987c250d87f3",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 106568
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 26,
+      "path": "pages/citric-acid-cycle-and-pdh/page-026.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "616a88cd480c321ccacc78960fefbb12807a3f79eee66636e8249334d0205397",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 121670
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 27,
+      "path": "pages/citric-acid-cycle-and-pdh/page-027.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5a8fddbf3a819d9c9521a81bf715f9ac315361e0e6fa10cdba95420cb919591e",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 123874
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 28,
+      "path": "pages/citric-acid-cycle-and-pdh/page-028.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ea5de9c8d273ebb1143b8d5b28fb935b0f1f68eb94cfb1821247fefb951d8e71",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 62068
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 29,
+      "path": "pages/citric-acid-cycle-and-pdh/page-029.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "65c019229228b78e33c4d7545516f5e2eceff270048c1bbf9f40ed32783bf3c2",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 251946
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 30,
+      "path": "pages/citric-acid-cycle-and-pdh/page-030.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b27b8264c41f350ae087cc224ebcf490b07b958efb7d111a5053b98db6b32917",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 180670
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 31,
+      "path": "pages/citric-acid-cycle-and-pdh/page-031.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ec8977e0c37dc56c0ea9947dbdb7a1bfea9babaa5a58c07d7d5092184293b682",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 266286
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 32,
+      "path": "pages/citric-acid-cycle-and-pdh/page-032.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d49eb3b004fe2928ddf893c0426ffa2ac3535755d9a892f3f2227c0e429a66d0",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 82938
+    },
+    {
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 33,
+      "path": "pages/citric-acid-cycle-and-pdh/page-033.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "3a6ae7137cb469cb23b657a6cdc748cfa313d3a4e6a477df1fa0aa3e4c386e01",
+      "sourceSha256": "b91c8b56a3a5d48c7f5168f40fcb7ecf2a9cefe9f53f08d94345cf6562e5ba71",
+      "sizeBytes": 265622
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 1,
+      "path": "pages/oxidative-phosphorylation/page-001.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b5b09ed286af984528a15ad58639428a69cf9a2bf2b654a1ebf1fee6a71ad58f",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 185124
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 2,
+      "path": "pages/oxidative-phosphorylation/page-002.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2c521fe952fe87451e5520778c61e91666c42a615b87b0c01bd1120bfe2b788a",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 154134
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 3,
+      "path": "pages/oxidative-phosphorylation/page-003.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ce6cc597ea4700da5652a77b08128e5d8a6613998bd8dad95331e9df6bf4eee4",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 176286
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 4,
+      "path": "pages/oxidative-phosphorylation/page-004.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "e34d40085884d1bdf24ac6cb30ff6ef8839e0403f6c2cdc5b37bff94eeb33e42",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 364236
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 5,
+      "path": "pages/oxidative-phosphorylation/page-005.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ba96d4d0c4832dda239b5db210d4042f77f9b64281688944bb7e38f34de6c55f",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 93880
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 6,
+      "path": "pages/oxidative-phosphorylation/page-006.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4e2e24c4bba9eeecf9f2ffd0265c64859e0e9f4d0591bf535a6d7fa4a6c4b9e4",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 88368
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 7,
+      "path": "pages/oxidative-phosphorylation/page-007.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "c34967d5d6823feaa94cecd6c579117d0b5e3158195bac717882c54c80ecbfc3",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 64524
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 8,
+      "path": "pages/oxidative-phosphorylation/page-008.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "38b1e38dc40afece4b236040ca513efe0959cf9f725c6219957d03a98935881d",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 106422
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 9,
+      "path": "pages/oxidative-phosphorylation/page-009.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "371601e65ad4910e52ea85a5d7de2701e9fe792da4f375b342d1b17924595dea",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 461866
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 10,
+      "path": "pages/oxidative-phosphorylation/page-010.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4a6ad18f7c7d2d49f312179c5dcffec4562435c8cb74187c54e905c0a1d16694",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 317194
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 11,
+      "path": "pages/oxidative-phosphorylation/page-011.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "074a027253ea7b660db9ac4b6032908474d8812d093ca2313f5db5f16bae5fd2",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 242468
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 12,
+      "path": "pages/oxidative-phosphorylation/page-012.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "c61c01a756ce97f2da72f3688b215c1dcb68c24540dd0647e00739f635d11b0d",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 479600
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 13,
+      "path": "pages/oxidative-phosphorylation/page-013.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "aa9f7e5478abb31bd4c2ced95fc6522bf85541898bfe83301930a1fcaa731e48",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 75234
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 14,
+      "path": "pages/oxidative-phosphorylation/page-014.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "ae4546cfdd41e17e5ba8c6b16fde1d6946efb2ef9fc464a775992ac52f8b227a",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 168098
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 15,
+      "path": "pages/oxidative-phosphorylation/page-015.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "3f1a4e591c6fc475d610f0eb338c775578a62ba02e45c66ace9103c3da776ff6",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 244306
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 16,
+      "path": "pages/oxidative-phosphorylation/page-016.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "d69e2b7d6ba66c1d49f79ed54facfc2b674fedd70f64eea0a3f2b59b3caba617",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 230784
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 17,
+      "path": "pages/oxidative-phosphorylation/page-017.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "23cb6a609f9e425f987c1aaccd89f6a757877c24fcac38b21262835a713fee77",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 293176
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 18,
+      "path": "pages/oxidative-phosphorylation/page-018.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a95805f177a24249b43ecbc1158b5a1934ddc742da0605ede9bbb6ffde4f377b",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 95578
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 19,
+      "path": "pages/oxidative-phosphorylation/page-019.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "24e7399c03703837c03ea250b4364b73d1e486ae1a43b2fadbbb3dec12a5b682",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 88900
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 20,
+      "path": "pages/oxidative-phosphorylation/page-020.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "c8f84305a5b51ec5ff3f16d5adfd1e1c3a208a85d9aaad057a3e88f8a62419e1",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 274630
+    },
+    {
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 21,
+      "path": "pages/oxidative-phosphorylation/page-021.webp",
+      "width": 1440,
+      "height": 810,
+      "sha256": "969c1623603f473619db883468c1ad28df3e6025d2519a599b6e0917e14f2108",
+      "sourceSha256": "dbf8d2b2342fc7374f5756ee300a3ac685ad990cf11508e4baa71fb138814cba",
+      "sizeBytes": 265934
+    }
+  ]
+}

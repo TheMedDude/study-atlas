@@ -12,6 +12,14 @@
     {
       "id": "pharmacology",
       "config": "pharmacology/subject.json"
+    },
+    {
+      "id": "metabolic-biochemistry",
+      "config": "metabolic-biochemistry/subject.json"
+    },
+    {
+      "id": "general-pathology",
+      "config": "general-pathology/subject.json"
     }
   ]
 }

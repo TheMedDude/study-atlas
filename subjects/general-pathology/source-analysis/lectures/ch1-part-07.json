@@ -1,0 +1,512 @@
+{
+  "lectureId": "ch1-part-07",
+  "title": "Chapter 1 — Part 7: 7.CH 1 - cell injury VI Apoptosis",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": "1",
+      "kind": "cover",
+      "title": "Cover",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": "2",
+      "kind": "teaching",
+      "title": "Apoptosis and physiological examples",
+      "topics": [
+        "Apoptosis and physiological examples"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p002-content",
+          "label": "Apoptosis and physiological examples",
+          "detail": "APOPTOSIS: PROGRAMMED CELL DEATH\n\n➢  important type of cell death: cell commits suicide\n\n➢  Physiological or pathological:\n\n➢  Examples:\n\n1. Programmed destruction of cells      during embryogenesis\n\n2. Hormone-dependent involution:\n\ne.g. physiological, as in endometrium     during menstrual cycle\n\ne.g. pathologic, as in the prostate atrophy after castration\n\n3.Cell deletion in proliferating tissuese.g. cell death in tumors         2\nVisual transcription: Etymology inset: ancient Greek apopiptein = falling off.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Etymology inset: ancient Greek apopiptein = falling off.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": "3",
+      "kind": "teaching",
+      "title": "Additional apoptosis examples",
+      "topics": [
+        "Additional apoptosis examples"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p003-content",
+          "label": "Additional apoptosis examples",
+          "detail": "APOPTOSIS: PROGRAMMED CELL DEATH\n\n➢ Examples:\n\n4.Immune cell death:\n\ne.g. deletion of autoreactive T-lymphocytes in thymus\n\ne.g. cell death induced by cytotoxic T cells\n\n5. Mild injurious stimuli:\n\ne.g. mild heat, radiation, cytotoxic treatment.\n\n6. Death of neurons in disease processes\n\ne.g. Alzheimer disease                                                3",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Interdigital apoptosis",
+      "topics": [
+        "Interdigital apoptosis"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p004-content",
+          "label": "Interdigital apoptosis",
+          "detail": "\nVisual transcription: Fetal hand diagram labels apoptosis of interdigital tissue; syndactyly shown alongside.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Fetal hand diagram labels apoptosis of interdigital tissue; syndactyly shown alongside.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": "5",
+      "kind": "teaching",
+      "title": "Apoptosis molecular players",
+      "topics": [
+        "Apoptosis molecular players"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p005-content",
+          "label": "Apoptosis molecular players",
+          "detail": "Mechanisms of apoptosis\n\n\n\nThe main players are:\n\n\n➢Cytosolic proteins called Caspases\n\n\n➢Mitochondrial proteins called       BCL-2  family",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": "6",
+      "kind": "teaching",
+      "title": "Caspase definition",
+      "topics": [
+        "Caspase definition"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p006-content",
+          "label": "Caspase definition",
+          "detail": "Mechanisms of apoptosis:             Caspases\n\n• Enzymes which are present in the cytoplasm and\n\n  are key players in apoptosis\n\n• Found in an inactive     form   in the cytoplasm.\n\n• They are called Caspases       from  C; from   Cysteine\n\n  active site, “asp”; from cleavage after aspartic\n\n  acid residue.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": "7",
+      "kind": "teaching",
+      "title": "Initiator and effector caspases",
+      "topics": [
+        "Initiator and effector caspases"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p007-content",
+          "label": "Initiator and effector caspases",
+          "detail": "Mechanisms of apoptosis: Caspases\n\nThere are two types:\n\n1.   Initiators: signaling of these caspases results in\n     commitment of cells to apoptotic cell death. These are\n     found in certain cell types.\n\n2.   Effectors:  these are proteases     which bring about the\n     structural degradation of the cellsto give the classical\n     morphology. They are present in all cell types.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-07-u007-checker",
+          "claim": "Source assigns initiators to certain cell types and effectors to all cell types. Defer these absolute distribution claims; the functional initiator/executioner distinction remains clear.",
+          "resolution": "Unresolved; doubtful claim excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": "8",
+      "kind": "teaching",
+      "title": "BCL2 family",
+      "topics": [
+        "BCL2 family"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p008-content",
+          "label": "BCL2 family",
+          "detail": "Mechanisms of apoptosis:                  BCL-2 family\n\n• BCL-2 family    are group of proteins that either:\n\n   –  suppress apoptosis, like BCL-2  / BCL-XL\n\n   –  enhance apoptosis   like Bax / Bad\n\n•  BCL-2   protects from apoptosis by stabilizing the\n  mitochondrial membrane, thus preventing increase\n  permeability, by binding and sequestering cytochrome-C,\n  and stabilizing proteins like the Apaf, thus preventing its\n  activation.",
+          "priority": "supporting",
+          "rationale": "Repeated overview, contextual illustration or unqualified claim retained for source fidelity; detailed assessable distinctions indexed on adjacent core pages."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-07-u008",
+          "claim": "Detailed BCL2 wording includes binding/sequestering cytochrome c and stabilizing Apaf; later diagrams describe regulation of permeability. Preserve wording, defer that detailed molecular binding claim.",
+          "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": "9",
+      "kind": "teaching",
+      "title": "Mitochondrial permeability regulation",
+      "topics": [
+        "Mitochondrial permeability regulation"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p009-content",
+          "label": "Mitochondrial permeability regulation",
+          "detail": "Mechanisms of apoptosis:                    BCL-2 family\n\n•  Factors that influence mitochondrial membrane\n   permeability are important players in regulating\n   apoptosis in the cells.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                              (Apoptosis Inducing Factor)\nVisual transcription: Mitochondrial diagram: PTPC megachannel inhibited by Bcl2/BclXL, promoted by Bax/Bad; cytochrome C and AIF (apoptosis inducing factor) connected to caspase activation.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Mitochondrial diagram: PTPC megachannel inhibited by Bcl2/BclXL, promoted by Bax/Bad; cytochrome C and AIF (apoptosis inducing factor) connected to caspase activation.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-07-u009",
+          "claim": "AIF is depicted converging on caspase activation; this specific simplified route is unqualified. Do not score the AIF-caspase link.",
+          "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": "10",
+      "kind": "teaching",
+      "title": "Cytochrome c pathway",
+      "topics": [
+        "Cytochrome c pathway"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p010-content",
+          "label": "Cytochrome c pathway",
+          "detail": "Mechanisms of apoptosis: mitochondrial damage\n\n\n• Stimuli  like toxins, or signalling   will open  permeability\n\n  transition pore complex (PTPC), or       mega channels, which\n\n  will release   material mainly cytochrome-C        from the\n\n  mitochondria to cytosol.\n\n• Cytochrome-C will bind to Apaf        “pro-apoptotic protease-\n\n  activating factor”  and activate effector caspases.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-07-u010",
+          "claim": "Slide says cytochrome c/Apaf activates effector caspases directly, while p15 includes initiator then executioner stages. Assess overall mitochondrial/caspase route, not direct activation distinction.",
+          "resolution": "Unresolved; the specified doubtful claim is excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": "11",
+      "kind": "teaching",
+      "title": "Mitochondrial apoptosis diagram",
+      "topics": [
+        "Mitochondrial apoptosis diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p011-content",
+          "label": "Mitochondrial apoptosis diagram",
+          "detail": "Mechanisms of apoptosis: mitochondrial damage\n\n\n\n\n\n\n\n              signalling\nVisual transcription: Signalling -> ATP reduction/ROS increase and membrane potential collapse; open PTPC megachannels/high-amplitude swelling -> cytochrome c -> apoptosome -> caspase activation -> apoptosis. A strip obscures part of diagram; it is not reconstructed.",
+          "priority": "supporting",
+          "rationale": "Repeated overview, contextual illustration or unqualified claim retained for source fidelity; detailed assessable distinctions indexed on adjacent core pages."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Signalling -> ATP reduction/ROS increase and membrane potential collapse; open PTPC megachannels/high-amplitude swelling -> cytochrome c -> apoptosome -> caspase activation -> apoptosis. A strip obscures part of diagram; it is not reconstructed.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": "12",
+      "kind": "teaching",
+      "title": "Apoptosis stages",
+      "topics": [
+        "Apoptosis stages"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p012-content",
+          "label": "Apoptosis stages",
+          "detail": "Mechanisms of apoptosis\n\n1. Signaling:  intrinsic or extrinsic triggers   to induce apoptosis\n\n2. Control and integration:      by the BCL-2   family that can either inhibit\n   or promote cell death.\n\n3. Execution: by caspases      that activate   cytoplasmic endonuclease\n   and proteases     that degrade cytoskeletal & nuclear proteins which\n   results in breakdown of cytoskeletonand fragmentation of\n   nuclear chromatin.\n\n4. Removal of dead cells:      the formation of apoptotic bodies\n   containing various intracellular organelles; they express new\n   ligands that mediate phagocytic cell binding and uptake.                   12",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Intrinsic and extrinsic pathways",
+      "topics": [
+        "Intrinsic and extrinsic pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p013-content",
+          "label": "Intrinsic and extrinsic pathways",
+          "detail": "\nVisual transcription: Extrinsic ligand/death receptor (FAS-L/TNF-alpha, FAS-R/TNFR) and NK/cytotoxic T-cell perforin/granzyme B routes. Intrinsic survival-signal loss, DNA damage/radiation/ROS/toxins, misfolded proteins or hypoxia -> p53; Bak/Bax/Bad increase and Bcl2 decrease -> cytochrome c/APAF1 apoptosome. Initiator caspases labelled 2,8,9,10; executioners 3,6,7 -> cytoskeletal/nuclear fragmentation, blebbing, apoptotic bodies -> macrophage uptake.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Extrinsic ligand/death receptor (FAS-L/TNF-alpha, FAS-R/TNFR) and NK/cytotoxic T-cell perforin/granzyme B routes. Intrinsic survival-signal loss, DNA damage/radiation/ROS/toxins, misfolded proteins or hypoxia -> p53; Bak/Bax/Bad increase and Bcl2 decrease -> cytochrome c/APAF1 apoptosome. Initiator caspases labelled 2,8,9,10; executioners 3,6,7 -> cytoskeletal/nuclear fragmentation, blebbing, apoptotic bodies -> macrophage uptake.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": "14",
+      "kind": "teaching",
+      "title": "Apoptosis integrated diagram",
+      "topics": [
+        "Apoptosis integrated diagram"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p014-content",
+          "label": "Apoptosis integrated diagram",
+          "detail": "Mechanisms of apoptosis\nVisual transcription: Withdrawal of growth factors/hormones, injury/radiation/toxins/free radicals, embryogenic signals, death receptor FAS/FASL or TNF/TNFR, cytotoxic T/granzyme B converge on initiator/execution caspases. BCL2/BCLXL inhibit; BAX/BAD promote. p53 and endonuclease activation -> DNA fragmentation; cytoskeleton catabolism -> buds/apoptotic bodies with phagocyte ligands -> macrophage or epithelial-cell uptake.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Withdrawal of growth factors/hormones, injury/radiation/toxins/free radicals, embryogenic signals, death receptor FAS/FASL or TNF/TNFR, cytotoxic T/granzyme B converge on initiator/execution caspases. BCL2/BCLXL inhibit; BAX/BAD promote. p53 and endonuclease activation -> DNA fragmentation; cytoskeleton catabolism -> buds/apoptotic bodies with phagocyte ligands -> macrophage or epithelial-cell uptake.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Mitochondrial and death receptor pathways",
+      "topics": [
+        "Mitochondrial and death receptor pathways"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p015-content",
+          "label": "Mitochondrial and death receptor pathways",
+          "detail": "\nVisual transcription: Intrinsic mitochondrial route: growth-factor withdrawal, DNA damage, protein misfolding/ER stress -> Bcl2 sensors/effectors Bax/Bak (inhibited by Bcl2/BclXL) -> cytochrome c/pro-apoptotic proteins. Extrinsic death receptor Fas/TNF -> adaptor proteins -> initiator caspases. Both -> executioners -> endonuclease/nuclear fragmentation and cytoskeleton breakdown -> bodies/phagocytosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Intrinsic mitochondrial route: growth-factor withdrawal, DNA damage, protein misfolding/ER stress -> Bcl2 sensors/effectors Bax/Bak (inhibited by Bcl2/BclXL) -> cytochrome c/pro-apoptotic proteins. Extrinsic death receptor Fas/TNF -> adaptor proteins -> initiator caspases. Both -> executioners -> endonuclease/nuclear fragmentation and cytoskeleton breakdown -> bodies/phagocytosis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Survival signals versus apoptosis",
+      "topics": [
+        "Survival signals versus apoptosis"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p016-content",
+          "label": "Survival signals versus apoptosis",
+          "detail": "\nVisual transcription: Survival signal -> Bcl2/BclXL -> no cytochrome c leakage -> survival. Lack of survival signal, irradiation/DNA damage or misfolded proteins -> sensors -> Bcl2 antagonism and Bax/Bak channel activation -> cytochrome c leakage -> caspases -> apoptosis.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Survival signal -> Bcl2/BclXL -> no cytochrome c leakage -> survival. Lack of survival signal, irradiation/DNA damage or misfolded proteins -> sensors -> Bcl2 antagonism and Bax/Bak channel activation -> cytochrome c leakage -> caspases -> apoptosis.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": "17",
+      "kind": "teaching",
+      "title": "Apoptotic morphology",
+      "topics": [
+        "Apoptotic morphology"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p017-content",
+          "label": "Apoptotic morphology",
+          "detail": "Apoptosis: Morphology\n\n• Single cells or groups of cells\n• Cells show intensely eosinophilic cytoplasm              and\n  condensed pyknotic nucleus\n• Cells are not surrounded by inflammatory cells\n• Rapidly removed by fragmentation and\n  engulfment by cells\n\n\nPyknosis: increased basophilia due to shrinkage of the nucleus",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": "18",
+      "kind": "teaching",
+      "title": "Apoptotic bodies and removal",
+      "topics": [
+        "Apoptotic bodies and removal"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p018-content",
+          "label": "Apoptotic bodies and removal",
+          "detail": "Apoptosis: Morphology\n\n\n\n\n\n\n\n\n\nNormal                       Apoptotic body\n\n\n\n\n\n\n\n           removed                           18\nVisual transcription: Normal epithelium -> loss of microvilli/junctions and nuclear changes -> apoptotic body -> neighboring-cell phagocytosis/removal.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Normal epithelium -> loss of microvilli/junctions and nuclear changes -> apoptotic body -> neighboring-cell phagocytosis/removal.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": "19",
+      "kind": "teaching",
+      "title": "Necrosis apoptosis ultrastructure",
+      "topics": [
+        "Necrosis apoptosis ultrastructure"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p019-content",
+          "label": "Necrosis apoptosis ultrastructure",
+          "detail": "Ultrastructural changes in necrosis & apoptosis\n\n\n\nchromatin                                                  chromatin\nclumping                                                   condensation\n\n\norganellar                                                 chromatin\nswelling                                                   fragmentation\n\nmembrane                                                   cytoplasmic\ndamage                                                     budding\n\n\n\n                 necrosis                       apoptosis              19",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Necrosis apoptosis distribution",
+      "topics": [
+        "Necrosis apoptosis distribution"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p020-content",
+          "label": "Necrosis apoptosis distribution",
+          "detail": "\nVisual transcription: Necrosis (group of cells/exogenous injury): swollen mitochondria/RER, chromatin clumping -> membrane rupture -> nuclear fragments. Apoptosis (single cell/suicide-gene activation): nuclear changes/cytoplasmic fragmentation -> apoptotic bodies -> macrophage uptake.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Necrosis (group of cells/exogenous injury): swollen mitochondria/RER, chromatin clumping -> membrane rupture -> nuclear fragments. Apoptosis (single cell/suicide-gene activation): nuclear changes/cytoplasmic fragmentation -> apoptotic bodies -> macrophage uptake.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": "21",
+      "kind": "teaching",
+      "title": "Necrosis apoptosis comparison",
+      "topics": [
+        "Necrosis apoptosis comparison"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p021-content",
+          "label": "Necrosis apoptosis comparison",
+          "detail": "Feature                     Necrosis                     Apoptosis\nCell size                   Enlarged    (swelling)       Reduced     (shrinkage)\nNucelus                     Pyknosis                     Fragmentation     into\n                            karyorrhexis                 nucleosome      size\n                            karyolysis                   fragments\nPlasma membrane             Disrupted                    Intact; altered\n                                                         structure, especially\n                                                         orientation of lipids\nCellular contents           Enzymatic digestion;         Intact; may be\n                            may leak out of cell         released in apoptotic\n                                                         bodies\nAdjacent inflammation       Frequent                     No\nPhysiologic or              Invariably pathologic        Often  physiologic    ,\npathologic role             (irreversible cell           means of eliminating\n                            injury)                      unwanted cells; may\n                                                         be pathologic after\n                                                         some forms of cell\n                                                         injury, especially DNA\n                                                         damage                 21",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Full page visually inspected; extracted text and visible layout compared. Illustrative image retained in original full-page render.",
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Comparison summary",
+      "topics": [
+        "Comparison summary"
+      ],
+      "concepts": [
+        {
+          "id": "ch1-part-07-p022-content",
+          "label": "Comparison summary",
+          "detail": "\nVisual transcription: Table: apoptosis non-inflammatory, shrinkage, blebs, intact membrane, single cell, DNA laddering, may be physiologic. Necrosis inflammatory, swelling, blebs, membrane damage, many cells, no laddering, always pathologic.",
+          "priority": "core",
+          "rationale": "Explicit source definition, mechanism, comparison, condition or labelled example."
+        }
+      ],
+      "visualReview": "reviewed",
+      "visualNotes": "Table: apoptosis non-inflammatory, shrinkage, blebs, intact membrane, single cell, DNA laddering, may be physiologic. Necrosis inflammatory, swelling, blebs, membrane damage, many cells, no laddering, always pathologic.",
+      "uncertainties": [
+        {
+          "id": "ch1-part-07-u022-checker",
+          "claim": "Table says apoptosis affects one cell, but p17 allows single cells or groups. Do not score a prohibition against apoptotic groups.",
+          "resolution": "Unresolved; doubtful claim excluded from scoring.",
+          "blockedFromScoring": true
+        }
+      ]
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Closing quotation",
+      "topics": [],
+      "concepts": [],
+      "visualReview": "reviewed",
+      "visualNotes": "Closing Arabic quotation: الأدب يستر قليل العلم، والعلم لا يستر قليل الأدب، وفقدهما عراء وجمعهما ثراء.",
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": [
+    "ch1-part-07-p008-content"
+  ],
+  "sourceReview": {
+    "reviewer": "Codex Chapter 1 writer — second-agent item check pending",
+    "method": "All original PDF pages visually inspected through labelled four-page sheets at 2400x1800; image-only teaching content transcribed separately.",
+    "originalPageCount": 23
+  }
+}

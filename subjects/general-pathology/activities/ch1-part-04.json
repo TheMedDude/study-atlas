@@ -1,0 +1,509 @@
+{
+  "lectureId": "ch1-part-04",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-04-primary-secondary",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Match each lysosomal compartment to its defining feature.",
+      "explanation": {
+        "en": "A primary lysosome contains hydrolytic enzymes; fusion with a material-containing vacuole produces a secondary lysosome.",
+        "ar": "يحتوي Primary lysosome إنزيمات حالّة؛ وينتج Secondary lysosome من اندماجه بفجوة تحوي مادة للهضم."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p3 explicitly defines enzyme-containing primary lysosome and secondary compartment after vacuole fusion. Converted weak MCQ to two directly supported definitions; format revision2 rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Primary lysosome",
+          "right": "Membrane-bound organelle containing hydrolytic enzymes",
+          "evidence": "p3 gives this definition."
+        },
+        {
+          "id": "p2",
+          "left": "Secondary lysosome",
+          "right": "Compartment formed by fusion with a material-containing digestive vacuole",
+          "evidence": "p3 states that fusion defines the secondary lysosomal compartment."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-04-autophagy-substrate",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p004-content",
+        "ch1-part-04-p007-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which material is processed by autophagy?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Bacteria ingested from outside by neutrophils",
+          "evidence": "This is the heterophagy example."
+        },
+        {
+          "id": "o1",
+          "text": "The cell’s own sequestered intracellular organelles",
+          "evidence": "Autophagy encloses intracellular organelles."
+        },
+        {
+          "id": "o4",
+          "text": "Soluble small material taken up from outside",
+          "evidence": "This is the pinocytosis example."
+        },
+        {
+          "id": "o5",
+          "text": "Large external material before phagocytic uptake",
+          "evidence": "External uptake is distinguished from autophagy."
+        },
+        {
+          "id": "o3",
+          "text": "Foreign bodies engulfed by inflammatory cells",
+          "evidence": "This is heterophagy."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Autophagy sequesters intracellular organelles in a vacuole that combines with a primary lysosome.",
+        "ar": "يعزل Autophagy العضيات داخل فجوة تندمج مع Primary lysosome."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 4, 7, 8; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp4,7 show own sequestered organelles; p8 external bacteria/foreign material/soluble uptake are adjacent distinctions. Four alternatives checked without treating autophagy as cell death. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-04-uptake-processes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p008-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Match each uptake mechanism to the size or form of material it engulfs.",
+      "pairs": [
+        {
+          "id": "p2",
+          "left": "Pinocytosis",
+          "right": "Soluble small material",
+          "evidence": "This is the explicit size/material definition."
+        },
+        {
+          "id": "p3",
+          "left": "Phagocytosis",
+          "right": "Large material",
+          "evidence": "This is the explicit large-material definition."
+        }
+      ],
+      "explanation": {
+        "en": "Heterophagy describes external-material digestion; pinocytosis and phagocytosis distinguish small soluble from large engulfed material.",
+        "ar": "يصف Heterophagy هضم المادة الخارجية؛ ويميز Pinocytosis وPhagocytosis بين المادة الصغيرة الذائبة والمادة الكبيرة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p8 distinguishes soluble small material versus large material. Removed broad heterophagy pair because it overlaps both uptake routes; two unique size/form mappings remain. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-04-lipofuscin-origin",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p009-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "What do lipofuscin pigment granules represent in lysosomal processing?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Bacteria undergoing ingestion and degradation by neutrophils",
+          "evidence": "p8 supplies a heterophagy example, not intracellular lipid-peroxidation residue."
+        },
+        {
+          "id": "o2",
+          "text": "New hydrolytic enzymes within a primary lysosome",
+          "evidence": "p3 defines primary lysosomal enzyme contents, not lipofuscin residue."
+        },
+        {
+          "id": "o1",
+          "text": "Indigestible material resulting from intracellular lipid peroxidation",
+          "evidence": "p9 gives this origin and indigestibility."
+        },
+        {
+          "id": "o3",
+          "text": "Soluble small material newly internalized by pinocytosis",
+          "evidence": "p8 defines the uptake substrate rather than residual pigment."
+        },
+        {
+          "id": "o5",
+          "text": "Intracellular organelles newly enclosed before lysosomal fusion",
+          "evidence": "p7 describes the autophagic substrate before digestion, not the retained pigment product."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Lipofuscin represents indigestible material resulting from intracellular lipid peroxidation.",
+        "ar": "يمثل Lipofuscin مادة غير قابلة للهضم ناتجة عن Lipid peroxidation داخل الخلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 3, 7, 8, 9; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p9 explicitly calls lipofuscin indigestible lipid-peroxidation material. Replaced outside-part Russell-body distractor and rebuilt adjacent lysosomal-substrate alternatives with exact pp3,7,8 refs. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-04-mitochondrial-alterations",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Match the setting with the mitochondrial change.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Hypertrophy",
+          "right": "Increased mitochondrial number",
+          "evidence": "The source explicitly gives this direction."
+        },
+        {
+          "id": "p2",
+          "left": "Atrophy",
+          "right": "Decreased mitochondrial number",
+          "evidence": "The source explicitly gives this direction."
+        },
+        {
+          "id": "p3",
+          "left": "Alcoholic liver disease",
+          "right": "Large abnormally shaped megamitochondria",
+          "evidence": "This is the supplied morphologic example."
+        }
+      ],
+      "explanation": {
+        "en": "Mitochondrial number changes with cell growth or shrinkage, while alcoholic liver disease illustrates altered size and shape.",
+        "ar": "يتغير عدد الميتوكوندريا مع نمو الخلية أو ضمورها، ويعرض Alcoholic liver disease مثالاً على تغير الحجم والشكل."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p11 gives increased number in hypertrophy, decreased number in atrophy and megamitochondria in alcoholic liver disease. All three pairings distinct. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-04-immotile-cilia",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "What mechanism connects immotile respiratory cilia with chronic infection?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Reduced retention of inhaled bacteria",
+          "evidence": "The mechanism is failure to remove bacteria, not improved removal."
+        },
+        {
+          "id": "o5",
+          "text": "Increased removal of inhaled bacteria",
+          "evidence": "This is improved clearance, contrary to the stated mechanism."
+        },
+        {
+          "id": "o4",
+          "text": "Enhanced motility of respiratory cilia",
+          "evidence": "The example concerns immotile cilia, the opposite direction."
+        },
+        {
+          "id": "o2",
+          "text": "Accelerated clearance of inhaled bacteria",
+          "evidence": "This reverses the stated clearance defect."
+        },
+        {
+          "id": "o1",
+          "text": "Defective clearance of inhaled bacteria",
+          "evidence": "p12 directly connects immotile cilia to defective clearance and chronic infection."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Immotile respiratory cilia impair clearance of inhaled bacteria and can result in chronic infection.",
+        "ar": "تعيق الأهداب التنفسية غير المتحركة إزالة البكتيريا المستنشقة، وقد ينتج عن ذلك Chronic infections."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 explicitly links impaired clearance to chronic infection. Rebuilt alternatives as parallel respiratory-clearance changes, removing unrelated pigment/receptor/ATP claims. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-04-hsp-role",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p013-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 11
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which process is mediated by molecular chaperones?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Mitochondrial number changes during growth or atrophy",
+          "evidence": "p11 describes mitochondrial alterations."
+        },
+        {
+          "id": "o5",
+          "text": "Leukocyte migration and phagocytosis",
+          "evidence": "p12 associates these functions with microtubules."
+        },
+        {
+          "id": "o3",
+          "text": "Drug-solubility increases through enzyme induction",
+          "evidence": "p10 assigns this to smooth ER/P450 induction."
+        },
+        {
+          "id": "o2",
+          "text": "Exogenous-material engulfment and lysosomal digestion",
+          "evidence": "p8 assigns this to heterophagy."
+        },
+        {
+          "id": "o1",
+          "text": "Protein folding, disaggregation and transport",
+          "evidence": "p13 assigns these functions to heat shock proteins/molecular chaperones."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Heat shock proteins, also called stress proteins or molecular chaperones, participate in protein handling and repair.",
+        "ar": "تشارك Heat shock proteins، وتسمى Stress proteins أوMolecular chaperones، في معالجة البروتينات وإصلاحها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 10, 11, 12, 13; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p13 defines molecular chaperone protein folding/disaggregation/transport. Rebuilt all four alternatives from the actual other subcellular responses on pp8,10–12, rather than unrelated calcification or lipid deposition. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-04-failed-refolding",
+      "revision": 3,
+      "type": "order",
+      "lectureId": "ch1-part-04",
+      "conceptIds": [
+        "ch1-part-04-p014-content",
+        "ch1-part-04-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-04",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Order protein disposal after chaperone-mediated refolding fails.",
+      "explanation": {
+        "en": "Failed refolding is followed by ubiquitin-dependent targeting to the proteasome, which degrades the damaged protein.",
+        "ar": "يتبع فشل إعادة الطي وسم البروتين التالف بـUbiquitin وتوجيهه إلى Proteasome الذي يقوضه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 14, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp14–15 give failure of refolding then ubiquitin/proteasome disposal. Converted nonsensical MCQ to a source-established four-step order; only the shown disposal branch is ordered, not parallel repair alternatives. Repaired sequence and EN/AR rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "items": [
+        {
+          "id": "s1",
+          "text": "Unsuccessful refolding of the damaged protein"
+        },
+        {
+          "id": "s2",
+          "text": "Ubiquitin tagging of the damaged protein"
+        },
+        {
+          "id": "s3",
+          "text": "Recognition by the proteasome"
+        },
+        {
+          "id": "s4",
+          "text": "Degradation into peptide fragments"
+        }
+      ],
+      "acceptedGroups": [
+        [
+          "s1"
+        ],
+        [
+          "s2"
+        ],
+        [
+          "s3"
+        ],
+        [
+          "s4"
+        ]
+      ]
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-04-p005-content",
+      "reason": "PDF p5 diagram repeats lysosomal fusion, uptake and residual processing. Primary-secondary, autophagy-substrate and uptake-processes assess its distinct relationships on pp3,7–8; no duplicate diagram-reading score retained."
+    },
+    {
+      "conceptId": "ch1-part-04-p006-content",
+      "reason": "PDF p6 repeats autophagic versus heterophagic processing and secondary lysosome formation; covered by primary-secondary and autophagy-substrate on pp3–8."
+    },
+    {
+      "conceptId": "ch1-part-04-p010-content",
+      "reason": "PDF p10 SER induction/solubility/excretion and unqualified alcohol–phenobarbital example remain in the detailed source. Both weak candidate sets were removed (universal or impossible alternatives); this page is not counted as assessed."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 15,
+    "acceptedCount": 8,
+    "removedCount": 7,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

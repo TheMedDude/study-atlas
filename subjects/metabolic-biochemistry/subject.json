@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "metabolic-biochemistry",
+  "title": "Metabolic Biochemistry",
+  "description": "Midterm material: bioenergetics, glycolysis and gluconeogenesis, PDH and the citric acid cycle, oxidative phosphorylation. Second Codex agent checks only; Antigravity and Claude reviews pending.",
+  "scope": {
+    "id": "midterm",
+    "title": "Midterm",
+    "authority": "supplied-lecture-pdfs-only",
+    "sourceManifest": "sources/manifest.json",
+    "allTeachingContent": true,
+    "tableSelection": "Owner-selected tables only; see blueprint.md. Tables14-2/14-3 limited to qualitative red-row interpretation, no numeric values.",
+    "reviewStatus": "Local speed-first content; second Codex agent checks required; Antigravity and Claude reviews pending."
+  },
+  "languages": {
+    "questions": "en",
+    "explanations": [
+      "en",
+      "ar"
+    ],
+    "retainEnglishTechnicalTerms": true
+  },
+  "assessment": {
+    "mcqOptionCount": 5,
+    "recommendedPracticeCount": 10,
+    "examCount": "student-selected",
+    "optionalExamTimer": true,
+    "allowedDrillTypes": [
+      "match",
+      "order",
+      "diagram"
+    ],
+    "allowTypedAnswers": false,
+    "allowConfidencePrompts": false,
+    "allowSelfGrading": false
+  },
+  "paths": {
+    "activities": "activities.json",
+    "concepts": "source-analysis/concept-index.json",
+    "pages": "source-analysis/page-ledger.json",
+    "chapters": "source-analysis/chapters.json",
+    "uncertainties": "source-analysis/uncertainties.json",
+    "coverage": "source-analysis/coverage-summary.json",
+    "studySource": "source-analysis/metabolic-biochemistry_detailed_structured_study_source.md",
+    "pageImages": "sources/page-images.json",
+    "memorize": "synthesis/memorize.json"
+  },
+  "chapterLabels": {
+    "bioenergetics-and-metabolism": "Bioenergetics & metabolism",
+    "glycolysis-and-fermentation": "Glycolysis & fermentation",
+    "citric-acid-cycle-and-pdh": "Citric acid cycle & PDH",
+    "oxidative-phosphorylation": "Oxidative phosphorylation"
+  },
+  "catalog": {
+    "lectures": 4,
+    "pages": 137,
+    "pdfPages": 154,
+    "mcqs": 168,
+    "total": 193
+  }
+}

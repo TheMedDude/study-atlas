@@ -1,0 +1,876 @@
+{
+  "lectureId": "ch1-part-07",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-07-physiological-pathological",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p002-content",
+        "ch1-part-07-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which statement correctly describes the roles of apoptosis?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "It is restricted to embryogenesis",
+          "evidence": "The source lists hormonal, immune and injury examples."
+        },
+        {
+          "id": "o4",
+          "text": "It is restricted to immune-cell deletion",
+          "evidence": "The source also lists embryonic and injury settings."
+        },
+        {
+          "id": "o2",
+          "text": "It is invariably pathological",
+          "evidence": "p21 contrasts often physiological apoptosis with invariably pathological necrosis."
+        },
+        {
+          "id": "o1",
+          "text": "It can be physiological or pathological",
+          "evidence": "Both roles are explicitly stated."
+        },
+        {
+          "id": "o5",
+          "text": "It is restricted to cell death in tumors",
+          "evidence": "The source gives multiple physiological and pathological settings."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Apoptosis is programmed cell death that can remove cells physiologically or occur after pathological injury.",
+        "ar": "Apoptosis موت خلوي مبرمج قد يزيل الخلايا فيزيولوجياً أو يحدث بعد أذية مرضية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 3, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp2–3/21 expressly state both physiological and pathological roles. Removed source-framed wording from the pathological-only alternative; all restricted-role options checked against the multiple examples. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-apoptosis-examples",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p002-content",
+        "ch1-part-07-p003-content",
+        "ch1-part-07-p004-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 4
+        }
+      ],
+      "prompt": "Match each apoptosis example to its developmental or hormonal setting.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Interdigital tissue removal",
+          "right": "Embryogenesis",
+          "evidence": "p4 illustrates fetal interdigital apoptosis."
+        },
+        {
+          "id": "p2",
+          "left": "Endometrial involution during the menstrual cycle",
+          "right": "Physiological hormone-dependent involution",
+          "evidence": "p2 labels this physiological."
+        },
+        {
+          "id": "p3",
+          "left": "Prostate atrophy after castration",
+          "right": "Pathological hormone-dependent involution",
+          "evidence": "p2 labels this pathological."
+        }
+      ],
+      "explanation": {
+        "en": "The examples show developmental, hormonal, immune and disease-associated uses of apoptosis.",
+        "ar": "تظهر الأمثلة أدوار Apoptosis التطورية والهرمونية والمناعية والمرتبطة بالمرض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 3, 4; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. Three non-overlapping developmental/hormonal mappings checked on pp2/4. Removed immune-deletion and neuronal-disease rows that merely restated their own labels. Arabic and English retain developmental and hormonal examples. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-caspases-location-state",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p005-content",
+        "ch1-part-07-p006-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "How are caspases described before apoptotic activation?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Active enzymes in cytoplasm",
+          "evidence": "The location fits, but the preactivation state is inactive."
+        },
+        {
+          "id": "o4",
+          "text": "Active enzymes in mitochondria",
+          "evidence": "Both state and location differ from the caspase description."
+        },
+        {
+          "id": "o3",
+          "text": "Inactive enzymes in mitochondria",
+          "evidence": "p5 assigns mitochondrial location to BCL2-family proteins, not caspases."
+        },
+        {
+          "id": "o1",
+          "text": "Inactive enzymes in cytoplasm",
+          "evidence": "p6 states inactive forms in cytoplasm."
+        },
+        {
+          "id": "o5",
+          "text": "Inactive enzymes inside lysosomes",
+          "evidence": "p5–6 locate caspases in cytoplasm, not the lysosomal compartment."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Caspases are cytoplasmic enzymes present in inactive form before activation.",
+        "ar": "Caspases إنزيمات سيتوبلازمية توجد بصيغة غير نشطة قبل تنشيطها."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 5, 6; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp5–6 place inactive caspases in cytoplasm, contrasted with mitochondrial BCL2-family proteins. Replaced unrelated pigments/calcium/digestive-enzyme alternatives with parallel state/location combinations; unique inactive-cytoplasm key rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-caspase-name",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p006-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Match each part of the name caspase to its meaning.",
+      "explanation": {
+        "en": "The name identifies cysteine at the active site and cleavage after aspartic acid.",
+        "ar": "يشير الاسم إلى Cysteine في الموقع الفعال والقطع بعد Aspartic acid."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 6; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p6 explains cysteine active site and aspartic-acid cleavage position. Converted weak collagen/calcium MCQ alternatives to two unique term-to-meaning mappings; no outside residue alternatives introduced. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "C",
+          "right": "Cysteine at the active site",
+          "evidence": "p6 explains C."
+        },
+        {
+          "id": "p2",
+          "left": "Asp",
+          "right": "Cleavage after aspartic-acid residue",
+          "evidence": "p6 explains asp."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-07-initiator-effector",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p007-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 7
+        }
+      ],
+      "prompt": "Match each caspase group to its function.",
+      "explanation": {
+        "en": "Initiators commit the cell to apoptosis; effectors produce structural degradation.",
+        "ar": "تلتزم الخلية بالموت المبرمج بفعل Initiator caspases، وتفكك Effector caspases البنى الخلوية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 7; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p7 explicitly distinguishes commitment from structural degradation. Converted unrelated calcium/lysosome MCQ distractors to two unique functional mappings; absolute distribution and editorial caveat omitted. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Initiator caspases",
+          "right": "Commitment to apoptotic cell death",
+          "evidence": "p7 initiation role."
+        },
+        {
+          "id": "p2",
+          "left": "Effector caspases",
+          "right": "Structural degradation of the cell",
+          "evidence": "p7 effector role."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-07-bcl2-family-direction",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p009-content",
+        "ch1-part-07-p015-content",
+        "ch1-part-07-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which BCL-2 family pairing correctly separates inhibitors from promoters of apoptosis?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Bax/Bak inhibit; BCL-2/BCL-XL promote",
+          "evidence": "This reverses the diagram."
+        },
+        {
+          "id": "o5",
+          "text": "BCL-2 and Bak inhibit; BCL-XL and Bax promote",
+          "evidence": "This mixes opposing groups."
+        },
+        {
+          "id": "o4",
+          "text": "BCL-XL and Bak inhibit; BCL-2 and Bax promote",
+          "evidence": "This mixes opposing groups."
+        },
+        {
+          "id": "o3",
+          "text": "BCL-2 and Bax inhibit; BCL-XL and Bak promote",
+          "evidence": "This mixes opposing groups."
+        },
+        {
+          "id": "o1",
+          "text": "BCL-2/BCL-XL inhibit; Bax/Bak promote",
+          "evidence": "These directions are shown in the mitochondrial pathway."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "BCL-2 and BCL-XL suppress mitochondrial pro-apoptotic release, while Bax/Bak promote the illustrated pathway.",
+        "ar": "يثبط BCL-2 وBCL-XL التحرر الميتوكوندري المحفز للموت، بينما يعزز Bax/Bak المسار المعروض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 9, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp15–16 clearly show anti-apoptotic BCL2/BCLXL and pro-apoptotic Bax/Bak. Checked all five groupings; no dubious direct cytochrome/Apaf binding used. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-07-survival-signal",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "How does a growth-factor survival signal support cell viability?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "It produces DNA damage that activates apoptotic sensors",
+          "evidence": "DNA damage is an apoptotic trigger in the opposite branch."
+        },
+        {
+          "id": "o3",
+          "text": "It releases cytochrome c and activates caspases",
+          "evidence": "This is the apoptosis branch."
+        },
+        {
+          "id": "o2",
+          "text": "It antagonizes BCL-2 and activates Bax/Bak channels",
+          "evidence": "This is the apoptosis branch."
+        },
+        {
+          "id": "o5",
+          "text": "It replaces survival proteins with misfolded proteins",
+          "evidence": "Misfolded proteins are an apoptotic trigger."
+        },
+        {
+          "id": "o1",
+          "text": "It promotes anti-apoptotic BCL-2/BCL-XL and prevents cytochrome c leakage",
+          "evidence": "This is the viable-cell branch."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Survival signaling promotes anti-apoptotic proteins and prevents mitochondrial cytochrome c leakage.",
+        "ar": "يعزز Survival signaling البروتينات المضادة لـApoptosis ويمنع تسرب Cytochrome c من الميتوكوندريا."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p16 shows survival signal -> anti-apoptotic proteins -> no cytochrome leakage. Removed unseen-diagram framing. Each alternative is a distinct neighboring death-branch reversal; no sourceflag claim scored. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-intrinsic-trigger",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p013-content",
+        "ch1-part-07-p015-content",
+        "ch1-part-07-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which group contains triggers of the intrinsic mitochondrial apoptosis pathway?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Fas ligation, TNF-receptor ligation and adaptor proteins",
+          "evidence": "These belong to the death-receptor branch."
+        },
+        {
+          "id": "o4",
+          "text": "Increased survival signals, BCL-2 protection and retained cytochrome c",
+          "evidence": "These favor cell survival."
+        },
+        {
+          "id": "o1",
+          "text": "Growth-factor withdrawal, DNA damage and protein misfolding",
+          "evidence": "All three appear on the mitochondrial branch."
+        },
+        {
+          "id": "o3",
+          "text": "Fas ligation, TNF receptor and perforin alone",
+          "evidence": "These are external death pathways rather than the listed intrinsic trigger group."
+        },
+        {
+          "id": "o5",
+          "text": "Intact survival signaling with suppression of Bax/Bak channels",
+          "evidence": "This describes the survival rather than intrinsic-death route."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Growth-factor withdrawal, DNA damage and ER protein-misfolding stress are supplied intrinsic-pathway triggers.",
+        "ar": "يعد سحب Growth factors وأذية DNA وإجهاد البروتينات سيئة الطي محفزات للمسار Intrinsic المذكور."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 13, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp13/15/16 support withdrawal/DNA damage/misfolding. Every alternative contains extrinsic branch components or survival rather than the required trigger group; no exclusive trigger-list claim. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-07-extrinsic-receptor",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p014-content",
+        "ch1-part-07-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which route identifies the extrinsic apoptosis pathway?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Growth-factor withdrawal followed by Bax/Bak activation",
+          "evidence": "This is intrinsic."
+        },
+        {
+          "id": "o1",
+          "text": "Fas or TNF receptor engagement followed by adaptor proteins and initiator caspases",
+          "evidence": "This is the death-receptor branch."
+        },
+        {
+          "id": "o5",
+          "text": "Survival signal followed by BCL-2 expression and no cytochrome c leakage",
+          "evidence": "This is the survival branch."
+        },
+        {
+          "id": "o4",
+          "text": "DNA damage followed by mitochondrial pro-apoptotic protein release",
+          "evidence": "This is intrinsic."
+        },
+        {
+          "id": "o2",
+          "text": "Protein misfolding followed by mitochondrial cytochrome c release",
+          "evidence": "This is intrinsic."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Death-receptor interactions recruit adaptor proteins and initiator caspases in the extrinsic pathway.",
+        "ar": "تجند تفاعلات Death receptors بروتينات موائمة وInitiator caspases في المسار Extrinsic."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 14, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp14–15 explicitly connect Fas/TNF receptors, adapters and initiators. Three mitochondrial alternatives and survival branch fail the extrinsic stem, with no initiator bypass. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-07-cytochrome-compartment",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p010-content",
+        "ch1-part-07-p015-content",
+        "ch1-part-07-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which movement of cytochrome c is associated with mitochondrial apoptosis?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Nucleus to cytosol",
+          "evidence": "The source organelle is mitochondria."
+        },
+        {
+          "id": "o5",
+          "text": "Lysosomes to cytosol",
+          "evidence": "The released protein in this pathway comes from mitochondria, not lysosomes."
+        },
+        {
+          "id": "o1",
+          "text": "Mitochondria to cytosol",
+          "evidence": "pp10/15/16 show mitochondrial cytochrome c release."
+        },
+        {
+          "id": "o2",
+          "text": "Cytosol to mitochondria",
+          "evidence": "Reverses the release direction."
+        },
+        {
+          "id": "o3",
+          "text": "Mitochondria to nucleus",
+          "evidence": "Release is into cytosol, not nucleus."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mitochondrial apoptosis involves release of cytochrome c into the cytosol and activation of the caspase pathway.",
+        "ar": "يتضمن Mitochondrial apoptosis تحرر Cytochrome c إلى السيتوسول وتنشيط مسار Caspases."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp10/15/16 show mitochondrial release into cytosol. Replaced long unrelated plasma/ER routes with parallel organelle-to-compartment directions; key and each direction checked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-execution-targets",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p012-content",
+        "ch1-part-07-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Match each apoptotic execution activity to its target change.",
+      "explanation": {
+        "en": "Execution activates endonucleases that fragment chromatin and proteases that break down the cytoskeleton.",
+        "ar": "ينشط التنفيذ Endonucleases لتفتيت Chromatin وProteases لتفكيك الهيكل الخلوي."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp12/15 distinguish endonuclease chromatin fragmentation from protease cytoskeletal breakdown. Replaced unrelated lipid/calcium MCQ distractors with two unique execution-target mappings; no unsupported executioner distribution. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Endonucleases",
+          "right": "Chromatin fragmentation",
+          "evidence": "pp12/15 connect endonucleases to nuclear chromatin fragmentation."
+        },
+        {
+          "id": "p2",
+          "left": "Proteases",
+          "right": "Cytoskeletal breakdown",
+          "evidence": "pp12/15 connect proteases to cytoskeletal breakdown."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-07-apoptosis-morphology",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p017-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which feature group matches apoptotic morphology?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Shrunken cells, condensed nuclei and rapid removal without surrounding inflammatory cells",
+          "evidence": "The source describes shrinkage/condensation and non-inflammatory clearance."
+        },
+        {
+          "id": "o2",
+          "text": "Swollen cells, disrupted membranes and frequent inflammation",
+          "evidence": "These are the necrotic contrast."
+        },
+        {
+          "id": "o3",
+          "text": "Enlarged cells, diffuse leakage and leukocyte accumulation",
+          "evidence": "These fit necrosis rather than apoptosis."
+        },
+        {
+          "id": "o4",
+          "text": "Cell swelling, organelle swelling and membrane rupture",
+          "evidence": "These are necrotic features."
+        },
+        {
+          "id": "o5",
+          "text": "Preserved nuclear size with progressive membrane lysis",
+          "evidence": "The source describes condensed nuclei and intact membranes in apoptosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Apoptotic cells shrink, condense chromatin and are rapidly removed without the surrounding inflammatory response typical of necrosis.",
+        "ar": "تنكمش الخلايا في Apoptosis وتكثف Chromatin وتزال سريعاً دون الاستجابة الالتهابية المحيطة المعتادة في Necrosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 17, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp17/21 support shrinkage, nuclear condensation and rapid non-inflammatory clearance. All four alternatives contain swelling, lysis or leakage inconsistent with the apoptotic pattern. Single-cell-only limitation not used. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-07-membrane-contrast",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p021-content",
+        "ch1-part-07-p022-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "Which plasma-membrane comparison separates apoptosis from necrosis?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Apoptosis: disrupted; necrosis: intact",
+          "evidence": "This reverses the table."
+        },
+        {
+          "id": "o4",
+          "text": "Both retain an unchanged membrane",
+          "evidence": "Necrosis disrupts it and apoptosis alters it."
+        },
+        {
+          "id": "o5",
+          "text": "Apoptosis: intact; necrosis: intact",
+          "evidence": "Necrosis disrupts the membrane."
+        },
+        {
+          "id": "o1",
+          "text": "Apoptosis: intact but altered; necrosis: disrupted",
+          "evidence": "This is the comparison table."
+        },
+        {
+          "id": "o3",
+          "text": "Both have obligatory complete disruption",
+          "evidence": "Apoptosis maintains an intact altered membrane."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Apoptosis preserves an intact membrane with altered lipid orientation; necrosis disrupts the membrane.",
+        "ar": "يحفظ Apoptosis غشاءً سليماً مع تغير اتجاه الدهون، بينما يعطل Necrosis سلامة الغشاء."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 21, 22; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp21–22 give intact altered versus disrupted membranes. Replaced implausible no-membrane/new-membrane alternative with intact/intact comparison; all pairs checked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-07-contents-contrast",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-07",
+      "conceptIds": [
+        "ch1-part-07-p021-content",
+        "ch1-part-07-p019-content",
+        "ch1-part-07-p020-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 20
+        },
+        {
+          "lectureId": "ch1-part-07",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "How do cellular contents differ between apoptosis and necrosis?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Apoptosis: packaged in bodies; necrosis: digested with leakage",
+          "evidence": "p21 gives this contrast."
+        },
+        {
+          "id": "o3",
+          "text": "Apoptosis: digested with leakage; necrosis: digested with leakage",
+          "evidence": "The apoptosis column packages intact contents."
+        },
+        {
+          "id": "o4",
+          "text": "Apoptosis: packaged in bodies; necrosis: packaged in bodies",
+          "evidence": "The necrosis column involves digestion and leakage."
+        },
+        {
+          "id": "o5",
+          "text": "Apoptosis: retained without fragmentation; necrosis: packaged in bodies",
+          "evidence": "Apoptosis fragments into bodies and necrosis does not form apoptotic bodies."
+        },
+        {
+          "id": "o2",
+          "text": "Apoptosis: digested with leakage; necrosis: packaged in bodies",
+          "evidence": "Reverses both columns."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Apoptotic bodies package cellular material, while necrosis involves enzymatic digestion and possible leakage.",
+        "ar": "تغلف Apoptotic bodies المادة الخلوية، بينما يتضمن Necrosis الهضم الإنزيمي واحتمال التسرب."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 19, 20, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp19–21 show intact apoptotic bodies versus digestion/leakage. Rebuilt all options into parallel packaging/leakage pairs, checked against both branches; source framing removed. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-07-p018-content",
+      "reason": "PDF p18 repeats the fragmentation-to-apoptotic-body-to-removal morphology already assessed by ch1-part-07-apoptosis-morphology on pp17/21. The dedicated ligand-recognition candidate had implausible distractors and was removed; ligand detail remains unassessed in the source."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 18,
+    "acceptedCount": 14,
+    "removedCount": 4,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

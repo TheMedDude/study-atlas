@@ -1,0 +1,1413 @@
+{
+  "lectureId": "ch1-part-08",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-08-accumulation-mechanisms",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p004-content",
+        "ch1-part-08-p005-content",
+        "ch1-part-08-p006-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 5
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 6
+        }
+      ],
+      "prompt": "Match each accumulation mechanism to its example.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Abnormal metabolism",
+          "right": "Fatty liver",
+          "evidence": "The source links these."
+        },
+        {
+          "id": "p2",
+          "left": "Defective protein folding and transport",
+          "right": "Alpha-1 antitrypsin deficiency",
+          "evidence": "The source links these."
+        },
+        {
+          "id": "p3",
+          "left": "Genetic or acquired enzyme deficiency",
+          "right": "Storage diseases",
+          "evidence": "The source links these."
+        },
+        {
+          "id": "p4",
+          "left": "Exogenous indigestible material",
+          "right": "Carbon",
+          "evidence": "The source links these."
+        }
+      ],
+      "explanation": {
+        "en": "Accumulation may reflect abnormal metabolism, faulty protein handling, enzyme deficiency or indigestible external material.",
+        "ar": "قد يعكس التراكم اضطراب الاستقلاب أوخلل معالجة البروتين أونقص الإنزيم أومادة خارجية غير مهضومة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 4, 5, 6; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp4–6 give four distinct example/mechanism mappings; genetic enzyme deficiency belongs to storage disease rather than alpha1-antitrypsin protein handling. All pairs and Arabic checked; no sequence inferred. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-steatosis-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p007-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        }
+      ],
+      "prompt": "What accumulates in steatosis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Carbon within lung and hilar nodes",
+          "evidence": "This is anthracosis."
+        },
+        {
+          "id": "o1",
+          "text": "Triglycerides within parenchymal cells",
+          "evidence": "This is the explicit definition."
+        },
+        {
+          "id": "o2",
+          "text": "Cholesterol within foam macrophages",
+          "evidence": "This is cholesterol accumulation."
+        },
+        {
+          "id": "o4",
+          "text": "Glycogen within affected cells",
+          "evidence": "This is glycogen accumulation."
+        },
+        {
+          "id": "o3",
+          "text": "Immunoglobulins within plasma-cell RER",
+          "evidence": "This defines Russell bodies."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Steatosis is abnormal triglyceride accumulation within parenchymal cells and is reversible.",
+        "ar": "Steatosis تراكم غير طبيعي لـTriglycerides داخل الخلايا المتنية، وهو عكوس."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 7, 15, 17, 21, 22; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p7 defines reversible parenchymal triglyceride accumulation. Other options describe four different material/cell accumulations, verified on pp15/17/21/22. Unique substance key retained. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-08-malnutrition-apoprotein",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p008-content",
+        "ch1-part-08-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "How does protein malnutrition contribute to fatty liver?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "It increases triglyceride export without changing apoprotein",
+          "evidence": "The diagram shows impaired export."
+        },
+        {
+          "id": "o2",
+          "text": "It increases apoprotein synthesis and accelerates export",
+          "evidence": "This reverses the source."
+        },
+        {
+          "id": "o1",
+          "text": "It reduces apoprotein synthesis and impairs triglyceride export",
+          "evidence": "Both links appear in text and diagram."
+        },
+        {
+          "id": "o4",
+          "text": "It prevents triglyceride formation by increasing export",
+          "evidence": "The stated outcome is triglyceride accumulation."
+        },
+        {
+          "id": "o5",
+          "text": "It increases fatty-acid oxidation while preserving normal export",
+          "evidence": "The malnutrition branch instead reduces apoprotein and impairs export."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Reduced apoprotein availability impairs lipoprotein-mediated triglyceride export, favoring fat accumulation.",
+        "ar": "يضعف نقص Apoprotein طرح Triglycerides عبر Lipoproteins فيساعد على تراكم الدهون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp8/11 explicitly connect protein malnutrition to reduced apoprotein and impaired TG export. Alternatives reverse apoprotein/export direction or substitute a different fatty-acid branch. Arabic preserves reduced availability. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-08-fatty-liver-hypoxia",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which fatty-acid process is reduced by hypoxia during fatty liver development?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Oxidation of free fatty acids",
+          "evidence": "p11 connects hypoxia to decreased oxidation."
+        },
+        {
+          "id": "o3",
+          "text": "Esterification into triglycerides",
+          "evidence": "p11 hypoxia arrow points to reduced oxidation, not reduced esterification."
+        },
+        {
+          "id": "o4",
+          "text": "Synthesis of apoprotein",
+          "evidence": "p11 assigns this reduction to malnutrition/toxins rather than the hypoxia branch."
+        },
+        {
+          "id": "o5",
+          "text": "Formation of cholesterol esters",
+          "evidence": "p10 shows this separate fatty-acid fate; it is not the hypoxia-associated reduction on p11."
+        },
+        {
+          "id": "o2",
+          "text": "Delivery of free fatty acids",
+          "evidence": "p11 instead connects diabetes/starvation to increased delivery."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hypoxia reduces oxidation of free fatty acids, favoring triglyceride accumulation.",
+        "ar": "تقلل Hypoxia أكسدة Free fatty acids، مما يساعد على تراكم Triglycerides."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10, 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p11 directly links hypoxia to reduced oxidation. Rebuilt options as five parallel process reductions from the diagram, removing all-fatty-acids universal claim; added p10 for cholesterol-ester branch. No displayed diagram is required. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-hepatic-export",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which component combines with triglycerides to form lipoproteins for export?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Alpha-glycerophosphate",
+          "evidence": "This participates before triglyceride formation."
+        },
+        {
+          "id": "o3",
+          "text": "Acetate",
+          "evidence": "This feeds fatty-acid production upstream."
+        },
+        {
+          "id": "o5",
+          "text": "Carbon dioxide",
+          "evidence": "This is an oxidation product, not the export protein."
+        },
+        {
+          "id": "o1",
+          "text": "Apoprotein",
+          "evidence": "The diagram explicitly shows this addition."
+        },
+        {
+          "id": "o4",
+          "text": "Ketone bodies",
+          "evidence": "These are an oxidation outcome."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Triglycerides combine with apoprotein in the illustrated lipoprotein-export pathway.",
+        "ar": "تتحد Triglycerides مع Apoprotein ضمن مسار تصدير Lipoproteins المعروض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 shows apoprotein addition to TG for lipoprotein export. All four alternative metabolites are at distinct upstream or oxidation-product positions, not the export addition. Arabic link checked. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-08-alcohol-pathway",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p009-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 9
+        }
+      ],
+      "prompt": "Which sequence describes alcohol metabolism?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Alcohol, acetate, acetyl-CoA, acetaldehyde",
+          "evidence": "Acetaldehyde appears before acetate."
+        },
+        {
+          "id": "o2",
+          "text": "Alcohol, acetate, acetaldehyde, acetyl-CoA",
+          "evidence": "This reverses the first two metabolites."
+        },
+        {
+          "id": "o3",
+          "text": "Alcohol, acetyl-CoA, acetaldehyde, acetate",
+          "evidence": "Acetyl-CoA appears last, not first."
+        },
+        {
+          "id": "o1",
+          "text": "Alcohol, acetaldehyde, acetate, acetyl-CoA",
+          "evidence": "This is the arrow sequence."
+        },
+        {
+          "id": "o4",
+          "text": "Alcohol, acetaldehyde, acetyl-CoA, acetate",
+          "evidence": "Acetate precedes acetyl-CoA."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Alcohol is converted to acetaldehyde, then acetate and then acetyl-CoA.",
+        "ar": "يتحول Alcohol إلى Acetaldehyde ثم Acetate ثم Acetyl-CoA."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 9; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p9 clearly shows alcohol -> acetaldehyde -> acetate -> acetyl-CoA. Four distractor permutations reverse explicit arrows. Clipped explanatory text is neither reconstructed nor scored; removed editorial legibility/source language. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-steatosis-gross",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which gross changes accompany progressive fat accumulation in the liver?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Enlarged, yellow, greasy and soft",
+          "evidence": "p12 gives all four changes."
+        },
+        {
+          "id": "o2",
+          "text": "Shrunken, yellow, greasy and soft",
+          "evidence": "p12 gives enlargement rather than shrinkage."
+        },
+        {
+          "id": "o4",
+          "text": "Enlarged, yellow, dry and firm",
+          "evidence": "p12 gives greasy and soft rather than dry and firm."
+        },
+        {
+          "id": "o5",
+          "text": "Shrunken, brown, dry and firm",
+          "evidence": "These size/color/texture changes do not match p12."
+        },
+        {
+          "id": "o3",
+          "text": "Enlarged, brown, greasy and soft",
+          "evidence": "p12 gives yellow rather than brown."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "As fat accumulates, the liver enlarges and becomes yellow, greasy and soft.",
+        "ar": "مع تراكم الدهون يكبر الكبد ويصبح أصفر ودهنياً ورخواً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 gives enlarged yellow greasy soft liver. Rebuilt all options as parallel liver size/color/texture descriptions, removing organ/site clues from unrelated valve/node/tendon examples. Unique full-feature key rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-early-steatosis",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "What is the stated early light-microscopic appearance of fatty change?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Basophilic calcium deposits in dead tissue",
+          "evidence": "These belong to dystrophic calcification."
+        },
+        {
+          "id": "o1",
+          "text": "Small cytoplasmic fat vacuoles around the nucleus",
+          "evidence": "This is the early morphology described."
+        },
+        {
+          "id": "o5",
+          "text": "Black carbon aggregates in lung macrophage regions",
+          "evidence": "These describe pigment deposition rather than fat vacuoles."
+        },
+        {
+          "id": "o4",
+          "text": "Immunoglobulin-filled RER in plasma cells",
+          "evidence": "These are Russell bodies."
+        },
+        {
+          "id": "o2",
+          "text": "Perinuclear electron-dense lipofuscin granules",
+          "evidence": "These belong to lipofuscin."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Early fatty change produces small fat vacuoles in the cytoplasm around the nucleus.",
+        "ar": "ينتج Fatty change المبكر فجوات دهنية صغيرة في السيتوبلازم حول النواة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12, 17, 22, 25, 26, 32; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 gives perinuclear small cytoplasmic fat vacuoles. Alternatives are other actual intracellular/deposit patterns, checked with newly added pp17/22/25/26/32; no unseen image diagnosis required. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-foam-cells",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "What accumulates in macrophages to produce cholesterol-associated foam cells?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Immunoglobulins and newly synthesized RER proteins",
+          "evidence": "These describe plasma-cell protein accumulation."
+        },
+        {
+          "id": "o3",
+          "text": "Lipofuscin lipid-protein residual granules",
+          "evidence": "These describe wear-and-tear pigment."
+        },
+        {
+          "id": "o1",
+          "text": "Cholesterol and cholesterol esters",
+          "evidence": "These are the stated substances."
+        },
+        {
+          "id": "o5",
+          "text": "Calcium salts in dead cells",
+          "evidence": "These describe dystrophic calcification."
+        },
+        {
+          "id": "o4",
+          "text": "Carbon and exogenous particles",
+          "evidence": "These describe anthracosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Cholesterol and its esters fill lipid vacuoles, producing foam cells and yellow atherosclerotic plaque color.",
+        "ar": "تملأ Cholesterol وCholesterol esters الفجوات الدهنية، فتنتج Foam cells وتسهم في لون اللويحات العصيدية الأصفر."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 15, 17, 22, 25, 32; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p15 supports cholesterol/esters within foam macrophages. Other accumulated materials verified on pp17/22/25/32; no claim that macrophages can accumulate only cholesterol. Removed source framing. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-xanthoma-definition",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p015-content",
+        "ch1-part-08-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Match each cholesterol-associated lesion to its cell pattern and site.",
+      "explanation": {
+        "en": "Xanthomas are skin or tendon foamy-macrophage masses; atherosclerotic plaques contain cholesterol-filled smooth muscle cells and macrophages.",
+        "ar": "Xanthomas كتل من البلعميات الرغوية في الجلد أو الأوتار؛ وتحتوي اللويحات العصيدية خلايا عضلية ملساء وبلعميات ممتلئة بالكوليسترول."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. Converted to two unique lesion-to-cell/site mappings: xanthomas skin/tendon foamy macrophages versus atherosclerotic plaques smooth muscle cells/macrophages. Both original examples verified on pp15–16; merged redundant atheroma-cell-types target rather than retaining duplicate MCQs. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Xanthoma",
+          "right": "Foamy macrophages in skin connective tissue or tendons",
+          "evidence": "p16 gives these cells and sites."
+        },
+        {
+          "id": "p2",
+          "left": "Atherosclerotic plaque",
+          "right": "Cholesterol-filled smooth muscle cells and macrophages in arterial lesions",
+          "evidence": "p15 gives the atherosclerotic plaque cells."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-08-protein-accumulations",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p017-content",
+        "ch1-part-08-p018-content",
+        "ch1-part-08-p019-content",
+        "ch1-part-08-p020-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Match each protein accumulation to its identity or site.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Renal tubular reabsorption droplets",
+          "right": "Pinocytic vesicles and lysosomes after increased protein reabsorption",
+          "evidence": "The nephrotic example supplies this route."
+        },
+        {
+          "id": "p2",
+          "left": "Russell bodies",
+          "right": "New immunoglobulins in plasma-cell RER",
+          "evidence": "p17 gives this identity/site."
+        },
+        {
+          "id": "p3",
+          "left": "Mallory bodies",
+          "right": "Eosinophilic prekeratin inclusions in liver cells",
+          "evidence": "p18 gives the alcoholic-liver example."
+        },
+        {
+          "id": "p4",
+          "left": "Neurofibrillary tangles",
+          "right": "Brain protein inclusions in Alzheimer disease",
+          "evidence": "p18 describes microtubule-associated proteins/neurofilaments."
+        }
+      ],
+      "explanation": {
+        "en": "The inclusions differ by protein identity, cellular compartment and site.",
+        "ar": "تختلف الاحتواءات بحسب هوية البروتين والحجرة الخلوية والموقع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 17, 18, 19, 20; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp17–19 show four distinct inclusions/sites. Russell-body image p20 additionally cited and tagged; no tau label invented for the tangle. Every mapping unique; natural EN/AR preserves identity/site distinction. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-glycogen-sites",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p021-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 21
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which cell types may accumulate glycogen in diabetes mellitus?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Renal tubular cells, plasma cells, pancreatic beta cells",
+          "evidence": "Plasma-cell accumulation on p17 is newly formed immunoglobulin, not a member of the p21 trio."
+        },
+        {
+          "id": "o3",
+          "text": "Smooth muscle cells, cardiac myocytes, pancreatic beta cells",
+          "evidence": "p15 names smooth muscle in cholesterol plaques; p21 names renal tubular cells."
+        },
+        {
+          "id": "o4",
+          "text": "Renal tubular cells, cardiac myocytes, melanocytes",
+          "evidence": "p27 assigns melanin production to melanocytes, not the p21 glycogen trio."
+        },
+        {
+          "id": "o5",
+          "text": "Plasma cells, smooth muscle cells, melanocytes",
+          "evidence": "These are protein/cholesterol/melanin examples on pp17/15/27, not the p21 trio."
+        },
+        {
+          "id": "o1",
+          "text": "Renal tubular cells, cardiac myocytes, pancreatic beta cells",
+          "evidence": "p21 names this diabetes-related trio."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The diabetes example lists renal tubules, cardiac myocytes and pancreatic islet beta cells.",
+        "ar": "يذكر مثال Diabetes الأنابيب الكلوية وCardiac myocytes وخلايا Beta في الجزر البنكرياسية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 15, 17, 21, 27; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p21 lists renal tubular, cardiac myocyte and pancreatic beta cells for diabetes. Rebuilt alternatives into parallel three-cell groups from nearby examples; exact refs to pp15/17/27 added. No exclusive distribution inferred. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-carbon-anthracosis",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p022-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "What does anthracosis describe?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Lipofuscin granules in atrophic cardiac muscle",
+          "evidence": "This is brown atrophy."
+        },
+        {
+          "id": "o1",
+          "text": "Carbon aggregates in lung and hilar lymph nodes",
+          "evidence": "This is the source definition."
+        },
+        {
+          "id": "o4",
+          "text": "Hemosiderin aggregates detected by Prussian blue",
+          "evidence": "This is iron pigment."
+        },
+        {
+          "id": "o5",
+          "text": "Cholesterol-filled macrophage masses in tendons",
+          "evidence": "These are xanthomas."
+        },
+        {
+          "id": "o3",
+          "text": "Melanin accumulation in basal keratinocytes",
+          "evidence": "This is a different endogenous pigment."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Carbon is a common exogenous pigment; its aggregates in lung and hilar nodes are termed anthracosis.",
+        "ar": "Carbon صباغ خارجي شائع، وتسمى تجمعاته في الرئة والعقد النقيرية Anthracosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 16, 22, 25, 26, 27, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p22 names carbon in lung/hilar nodes; other choices identify distinct pigment or cholesterol patterns, checked with exact pp16/25–27/29 references. Removed supplied/source framing from explanation in both languages. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-lipofuscin-injury",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p025-content",
+        "ch1-part-08-p026-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which statement characterizes lipofuscin?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "An iron-rich pigment demonstrated by Prussian blue",
+          "evidence": "This characterizes hemosiderin."
+        },
+        {
+          "id": "o1",
+          "text": "A noninjurious marker of past free-radical injury that accumulates with age or atrophy",
+          "evidence": "This combines the explicit properties."
+        },
+        {
+          "id": "o4",
+          "text": "A newly synthesized immunoglobulin in RER",
+          "evidence": "This characterizes Russell bodies."
+        },
+        {
+          "id": "o5",
+          "text": "A cholesterol-ester deposit in foamy macrophages",
+          "evidence": "This is cholesterol accumulation, rather than membrane-peroxidation pigment."
+        },
+        {
+          "id": "o3",
+          "text": "An exogenous black pigment inhaled from the atmosphere",
+          "evidence": "This characterizes carbon."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Lipofuscin is a wear-and-tear pigment from lipid-protein residues of membrane peroxidation, marking past injury without itself injuring the cell.",
+        "ar": "Lipofuscin صباغ بلى من بقايا دهنية بروتينية ناتجة عن Peroxidation الأغشية؛ يدل على أذية سابقة ولا يؤذي الخلية بذاته."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 15, 17, 22, 25, 26, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp25–26 support noninjurious lipid-protein wear-and-tear residue, age/atrophy and past radical injury. Each alternative matches a different material on exact pp15/17/22/29; no claim of active damage by pigment. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-brown-atrophy",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p026-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "What name is used when lipofuscin accumulation is grossly apparent?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Dystrophic calcification",
+          "evidence": "This names calcium deposition in dying tissue."
+        },
+        {
+          "id": "o1",
+          "text": "Brown atrophy",
+          "evidence": "This is the explicit term."
+        },
+        {
+          "id": "o3",
+          "text": "Xanthoma",
+          "evidence": "This names foamy cholesterol-macrophage masses."
+        },
+        {
+          "id": "o5",
+          "text": "Steatosis",
+          "evidence": "This names intracellular triglyceride accumulation."
+        },
+        {
+          "id": "o2",
+          "text": "Anthracosis",
+          "evidence": "This names carbon aggregates."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Grossly apparent lipofuscin-associated pigmentation is called brown atrophy.",
+        "ar": "يسمى تصبغ Lipofuscin الظاهر عيانياً Brown atrophy."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 7, 16, 22, 26, 32; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p26 explicitly gives the gross term; four other accumulation names checked against pp7/16/22/32. A distinct gross-name target from lipofuscin injury mechanism; no exclusive organ claim. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-melanin-source",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p027-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which cells produce melanin?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Dermal macrophages",
+          "evidence": "They may accumulate pigment; production is assigned to melanocytes."
+        },
+        {
+          "id": "o1",
+          "text": "Melanocytes",
+          "evidence": "The source states melanin is formed by melanocytes."
+        },
+        {
+          "id": "o4",
+          "text": "Cardiac myocytes",
+          "evidence": "They illustrate lipofuscin rather than melanin production."
+        },
+        {
+          "id": "o2",
+          "text": "Basal keratinocytes",
+          "evidence": "They may accumulate pigment; production is assigned to melanocytes."
+        },
+        {
+          "id": "o5",
+          "text": "Plasma cells",
+          "evidence": "They illustrate immunoglobulin accumulation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Melanocytes produce melanin; basal keratinocytes and dermal macrophages may accumulate it.",
+        "ar": "تنتج Melanocytes الميلانين، وقد يتراكم في Basal keratinocytes وDermal macrophages."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 17, 26, 27; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p27 distinguishes producing melanocytes from pigment-accumulating basal keratinocytes/dermal macrophages. All options shortened to parallel cell names, eliminating keyed-length cue; cardiac/plasma examples referenced. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-hemosiderin-identity",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p029-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which pigment is hemoglobin-derived and represents large ferritin aggregates?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Hemosiderin",
+          "evidence": "Both properties explicitly define this pigment."
+        },
+        {
+          "id": "o5",
+          "text": "Cholesterol",
+          "evidence": "This accumulates in foam cells, rather than being a hemoglobin-derived pigment."
+        },
+        {
+          "id": "o4",
+          "text": "Carbon",
+          "evidence": "This is exogenous inhaled pigment."
+        },
+        {
+          "id": "o3",
+          "text": "Melanin",
+          "evidence": "This is produced by melanocytes."
+        },
+        {
+          "id": "o2",
+          "text": "Lipofuscin",
+          "evidence": "This is lipid-protein wear-and-tear material."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hemosiderin is a golden-yellow to brown hemoglobin-derived pigment made of large ferritin aggregates.",
+        "ar": "Hemosiderin صباغ ذهبي أصفر إلى بني مشتق من Hemoglobin ويتكون من تجمعات Ferritin كبيرة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 15, 22, 25, 27, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p29 supplies Hb origin/ferritin aggregate identity and color. All four material alternatives checked; p15 added for cholesterol. Prussian-blue classification is not being forced into an unsupported stain MCQ. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-calcification-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p031-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 17
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "What is pathological calcification?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Accumulation of indigestible lipid-protein pigment",
+          "evidence": "p25 describes lipofuscin."
+        },
+        {
+          "id": "o2",
+          "text": "Accumulation of triglycerides in parenchymal cells",
+          "evidence": "p7 defines steatosis."
+        },
+        {
+          "id": "o5",
+          "text": "Accumulation of newly formed immunoglobulins in plasma-cell RER",
+          "evidence": "p17 describes Russell bodies."
+        },
+        {
+          "id": "o3",
+          "text": "Accumulation of cholesterol and esters in macrophages",
+          "evidence": "p15 describes foam-cell cholesterol."
+        },
+        {
+          "id": "o1",
+          "text": "Deposition of calcium salts with smaller amounts of other minerals",
+          "evidence": "p31 gives calcium salts plus lesser iron/magnesium/other minerals."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pathological calcification is abnormal deposition of calcium salts, together with smaller amounts of other minerals.",
+        "ar": "Pathological calcification ترسب غير طبيعي لأملاح الكالسيوم مع مقادير أصغر من معادن أخرى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 7, 15, 17, 25, 31; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p31 explicitly defines calcium-salt deposition with lesser other minerals. Shortened keyed and other descriptions into parallel material/deposit formulations and added pp7/15/17/25 for the actual alternative identities. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-dystrophic-metastatic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p032-content",
+        "ch1-part-08-p034-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 34
+        }
+      ],
+      "prompt": "Which pairing correctly distinguishes dystrophic from metastatic calcification?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Both require dead tissue and normal serum calcium",
+          "evidence": "Metastatic deposition is defined in normal tissue with hypercalcemia."
+        },
+        {
+          "id": "o1",
+          "text": "Dystrophic: dead tissue with normal serum calcium; metastatic: normal tissue with hypercalcemia",
+          "evidence": "This matches the two definitions."
+        },
+        {
+          "id": "o2",
+          "text": "Dystrophic: normal tissue with hypercalcemia; metastatic: dead tissue with normal calcium",
+          "evidence": "This reverses the definitions."
+        },
+        {
+          "id": "o5",
+          "text": "Dystrophic: dead tissue with hypercalcemia; metastatic: normal tissue with normal calcium",
+          "evidence": "The tissue associations fit, but both serum-calcium settings differ from pp32/34 definitions."
+        },
+        {
+          "id": "o4",
+          "text": "Both require normal tissue and hypercalcemia",
+          "evidence": "Dystrophic deposition is defined in dying tissue with normal calcium."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The substrate and serum-calcium setting distinguish the two forms: damaged tissue/normal calcium versus normal tissue/hypercalcemia.",
+        "ar": "يميز النسيج ومستوى الكالسيوم الشكلين: نسيج تالف مع كالسيوم طبيعي، مقابل نسيج طبيعي مع Hypercalcemia."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 32, 34; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp32/34 define dead tissue/normal Ca versus normal tissue/hypercalcemia. Replaced unrelated cholesterol/TG pairing with a plausible tissue/calcium reversal; all five comparisons checked. Renal-failure hypercalcemia generalization excluded. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-08-dystrophic-morphology",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-08",
+      "conceptIds": [
+        "ch1-part-08-p032-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 16
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-08",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Which morphology is stated for dystrophic calcification?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Foamy macrophage masses in skin and tendons",
+          "evidence": "These describe xanthomas."
+        },
+        {
+          "id": "o3",
+          "text": "Brown tissue grossly and perinuclear wear-and-tear granules",
+          "evidence": "These describe lipofuscin."
+        },
+        {
+          "id": "o1",
+          "text": "Fine white granules grossly and basophilic deposits microscopically",
+          "evidence": "Both descriptions are explicitly supplied."
+        },
+        {
+          "id": "o4",
+          "text": "Black lung nodules with inhaled carbon",
+          "evidence": "This describes anthracosis."
+        },
+        {
+          "id": "o2",
+          "text": "Yellow greasy tissue grossly and fat vacuoles microscopically",
+          "evidence": "These describe steatosis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Dystrophic calcium deposits appear as white granules grossly and intracellular or extracellular basophilic material microscopically.",
+        "ar": "تبدو ترسبات Dystrophic calcification حبيبات بيضاء عيانياً، ومادة Basophilic داخل الخلايا أوخارجها مجهرياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12, 16, 22, 25, 26, 32; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p32 supplies white gross granules/basophilic microscopic material. All alternatives are distinct gross/microscopic accumulation patterns on exact pp12/16/22/25/26; no inflammatory/functional claim inferred. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-08-p002-content",
+      "reason": "PDF p2 general accumulation locations and local/elsewhere origin/harmless/injurious scope remain faithfully in the source. Both candidate questions relied on only/must/always restrictions and were removed; this concept group is explicitly unassessed."
+    },
+    {
+      "conceptId": "ch1-part-08-p033-content",
+      "reason": "PDF p33 aortic-valve dystrophic calcification causing aortic stenosis remains a cited source fact. No retained question has four plausible same-domain alternatives from the named material; no unrelated options or outside valve-disease facts added."
+    },
+    {
+      "conceptId": "ch1-part-08-p035-content",
+      "reason": "PDF p35 lists metastatic deposition sites and says generally no dysfunction unless severe, exemplified by nephrocalcinosis. The candidate relied on absolute guarantees and unrelated definitions and was removed; distribution is not scored as exclusive and functional qualification remains unassessed."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 27,
+    "acceptedCount": 20,
+    "removedCount": 7,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

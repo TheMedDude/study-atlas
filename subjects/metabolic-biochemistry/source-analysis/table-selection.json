@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "scope": "Midterm material only",
+  "date": "2026-11-15",
+  "ownerSelectionVerbatim": "p12 p14   \ntable 14-3 and 14-2 are only the interpitaions not actuall numvers of the red ones only\ntable 16-2 p32 and p18",
+  "ownerP14Clarification": "Hexokinase vs glucokinase (Glycolysis)",
+  "decisions": [
+    {
+      "previewNumber": 1,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 12,
+      "decision": "selected",
+      "material": "Equilibrium/free-energy/reaction direction"
+    },
+    {
+      "previewNumber": 2,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 25,
+      "decision": "not-selected",
+      "material": "Phosphate hydrolysis table"
+    },
+    {
+      "previewNumber": 3,
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 14,
+      "decision": "selected",
+      "material": "Hexokinase/glucokinase"
+    },
+    {
+      "previewNumber": 4,
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 35,
+      "decision": "selected-red-rows-qualitative-only",
+      "material": "Table14-2: no numerical values"
+    },
+    {
+      "previewNumber": 5,
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 44,
+      "decision": "selected-red-rows-qualitative-only",
+      "material": "Table14-3: no numerical values"
+    },
+    {
+      "previewNumber": 6,
+      "lectureId": "glycolysis-and-fermentation",
+      "pdfPage": 47,
+      "decision": "not-selected",
+      "material": "Glucogenic amino acids"
+    },
+    {
+      "previewNumber": 7,
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 30,
+      "decision": "selected",
+      "material": "Table16-2"
+    },
+    {
+      "previewNumber": 8,
+      "lectureId": "citric-acid-cycle-and-pdh",
+      "pdfPage": 32,
+      "decision": "selected",
+      "material": "Cycle regulation"
+    },
+    {
+      "previewNumber": 9,
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 7,
+      "decision": "not-selected",
+      "material": "Reduction potentials"
+    },
+    {
+      "previewNumber": 10,
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 8,
+      "decision": "not-selected",
+      "material": "Respiratory-chain component table"
+    },
+    {
+      "previewNumber": 11,
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 14,
+      "decision": "not-selected",
+      "material": "Inhibitor table"
+    },
+    {
+      "previewNumber": 12,
+      "lectureId": "oxidative-phosphorylation",
+      "pdfPage": 18,
+      "decision": "selected",
+      "material": "ATP yield"
+    },
+    {
+      "previewNumber": 13,
+      "lectureId": "bioenergetics-and-metabolism",
+      "pdfPage": 17,
+      "decision": "not-selected",
+      "material": "Optional column comparison figure; donor/acceptor prose separately eligible"
+    }
+  ],
+  "policy": "Preserve every source page/extraction. Questions and Memorize use selected table claims only, within stated restrictions. Doubtful claims remain blocked. Claims explicitly taught in separate eligible prose/figures require those exact source references."
+}

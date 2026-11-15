@@ -1,0 +1,3226 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "general-pathology",
+  "revision": 1,
+  "status": "verified-internal-reference-only",
+  "sections": [
+    {
+      "id": "chapter1-reference",
+      "title": "Chapter 1 — cell injury",
+      "description": "Internal verified Chapter 1 source facts; retained for authoring, not an approved Memorize tab or shipping card collection.",
+      "cards": [
+        {
+          "id": "path-ch1-aspects",
+          "revision": 1,
+          "title": "Four aspects of disease",
+          "summary": "Separate cause, development, structure and function.",
+          "facts": [
+            {
+              "id": "path-ch1-aspects-f01",
+              "label": "Etiology",
+              "text": "Identifies the cause: acquired/environmental, genetic/intrinsic or multifactorial.",
+              "conceptIds": [
+                "ch1-part-01-p008-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 8
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p8 names acquired/environmental, genetic/intrinsic and multifactorial causes.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-aspects-f02",
+              "label": "Pathogenesis",
+              "text": "The mechanism and sequence from the initial stimulus through cellular and tissue responses to disease expression.",
+              "conceptIds": [
+                "ch1-part-01-p010-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 10
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p10 defines mechanism and sequence from initial stimulus to disease expression.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-aspects-f03",
+              "label": "Morphology",
+              "text": "Structural alterations in cells and organs, including gross and microscopic changes.",
+              "conceptIds": [
+                "ch1-part-01-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 includes gross and microscopic structural changes in cells/organs.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-aspects-f04",
+              "label": "Clinical significance",
+              "text": "Functional consequences of morphologic changes, expressed as symptoms and signs.",
+              "conceptIds": [
+                "ch1-part-01-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p15 connects functional consequences with symptoms and signs.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-01-p008-content",
+            "ch1-part-01-p010-content",
+            "ch1-part-01-p012-content",
+            "ch1-part-01-p015-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 8
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 10
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 12
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 15
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-pathology-divisions",
+          "revision": 1,
+          "title": "General, systemic and diagnostic subdivisions",
+          "summary": "Keep the object of study distinct.",
+          "facts": [
+            {
+              "id": "path-ch1-pathology-divisions-f01",
+              "label": "General versus systemic",
+              "text": "General pathology studies basic cellular and tissue reactions; systemic pathology describes specific diseases affecting organs or organ systems.",
+              "conceptIds": [
+                "ch1-part-01-p019-content",
+                "ch1-part-01-p020-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 19
+                },
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 20
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp19–20 distinguish basic cellular/tissue reactions from individual-organ disease.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pathology-divisions-f02",
+              "label": "Tissue versus isolated cells",
+              "text": "Histopathology examines tissues; cytopathology examines isolated cells, including Pap smears and FNA.",
+              "conceptIds": [
+                "ch1-part-01-p022-content",
+                "ch1-part-01-p023-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 22
+                },
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 23
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp22–23 distinguish tissue examination from isolated cells and name Pap/FNA.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pathology-divisions-f03",
+              "label": "Hematology",
+              "text": "Disorders of cellular and coagulable blood components, including blood smears, marrow and coagulation disorders.",
+              "conceptIds": [
+                "ch1-part-01-p025-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 25
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p25 names cellular/coagulable blood components, blood/marrow examples.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pathology-divisions-f04",
+              "label": "Forensic pathology",
+              "text": "Application of pathology to legal purposes, including suspicious-death investigation and autopsy.",
+              "conceptIds": [
+                "ch1-part-01-p026-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-01",
+                  "pdfPage": 26
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p26 explicitly links legal use, suspicious death and autopsy.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-01-p019-content",
+            "ch1-part-01-p020-content",
+            "ch1-part-01-p022-content",
+            "ch1-part-01-p023-content",
+            "ch1-part-01-p025-content",
+            "ch1-part-01-p026-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 19
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 20
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 22
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 23
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 25
+            },
+            {
+              "lectureId": "ch1-part-01",
+              "pdfPage": 26
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-oxygen",
+          "revision": 1,
+          "title": "Hypoxia and ischemia",
+          "summary": "Loss of blood supply affects oxygen and nutrients.",
+          "facts": [
+            {
+              "id": "path-ch1-oxygen-f01",
+              "label": "Hypoxia",
+              "text": "Oxygen deficiency interferes with aerobic oxidative respiration.",
+              "conceptIds": [
+                "ch1-part-02-p014-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 14
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p14 links oxygen deficiency to aerobic oxidative respiration.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-oxygen-f02",
+              "label": "Ischemia",
+              "text": "Loss of tissue blood supply reduces oxygen and nutrients; reduced glucose delivery is shown in the diagram.",
+              "conceptIds": [
+                "ch1-part-02-p014-content",
+                "ch1-part-02-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 14
+                },
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp14–15 show blood-flow loss reducing oxygen plus nutrient/glucose supply.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-oxygen-f03",
+              "label": "Other hypoxic settings",
+              "text": "Anemia, high altitude, respiratory failure and CO are shown as causes of reduced blood oxygenation.",
+              "conceptIds": [
+                "ch1-part-02-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p15 diagram lists anemia/high altitude/respiratory failure/CO at reduced blood oxygenation branch; no saturation-specific claim added.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p014-content",
+            "ch1-part-02-p015-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 14
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 15
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-injury-targets",
+          "revision": 1,
+          "title": "Injury targets and cell fate",
+          "summary": "Target, duration and severity shape the result.",
+          "facts": [
+            {
+              "id": "path-ch1-injury-targets-f01",
+              "label": "Response determinants",
+              "text": "Cellular responses depend on the type, duration and severity of injury.",
+              "conceptIds": [
+                "ch1-part-02-p019-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 19
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p19 states type, duration and severity as determinants.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-injury-targets-f02",
+              "label": "Reversibility",
+              "text": "Mild transient injury may be reversible; severe progressive injury leads to irreversible injury and death by necrosis or apoptosis.",
+              "conceptIds": [
+                "ch1-part-02-p003-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 3
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p3 branches mild/transient reversible versus severe/progressive irreversible, with both death forms.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-injury-targets-f03",
+              "label": "Membrane consequences",
+              "text": "Plasma membrane damage permits loss of contents; lysosomal damage permits enzymatic digestion of cellular components.",
+              "conceptIds": [
+                "ch1-part-02-p022-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 22
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p22 explicitly links plasma membrane to contents loss and lysosome to enzymatic digestion.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-injury-targets-f04",
+              "label": "Mitochondria",
+              "text": "ATP failure and increased ROS contribute to necrosis; leakage of pro-apoptotic mitochondrial proteins contributes to apoptosis.",
+              "conceptIds": [
+                "ch1-part-02-p026-content",
+                "ch1-part-02-p027-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 26
+                },
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 27
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp26–27 show ATP/ROS necrosis branch and pro-apoptotic release apoptosis branch.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p019-content",
+            "ch1-part-02-p003-content",
+            "ch1-part-02-p022-content",
+            "ch1-part-02-p026-content",
+            "ch1-part-02-p027-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 19
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 3
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 22
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 26
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 27
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-calcium",
+          "revision": 1,
+          "title": "Calcium amplifies injury",
+          "summary": "A rise in cytosolic calcium activates several damaging routes.",
+          "facts": [
+            {
+              "id": "path-ch1-calcium-f01",
+              "label": "Calcium sources",
+              "text": "Extracellular influx and release from intracellular stores increase cytosolic calcium during injury.",
+              "conceptIds": [
+                "ch1-part-02-p024-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 arrows show extracellular influx and intracellular mitochondrial/ER release.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcium-f02",
+              "label": "Membrane injury",
+              "text": "Calcium activates phospholipases and proteases, reducing phospholipids and disrupting membrane/cytoskeletal proteins.",
+              "conceptIds": [
+                "ch1-part-02-p024-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 maps phospholipase to lower phospholipid and protease to membrane/cytoskeletal disruption.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcium-f03",
+              "label": "Nuclear and energy effects",
+              "text": "Endonucleases cause nuclear damage; ATPase activation contributes to ATP depletion.",
+              "conceptIds": [
+                "ch1-part-02-p024-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 maps endonuclease to nuclear damage and ATPase to lower ATP.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcium-f04",
+              "label": "Mitochondrial effect",
+              "text": "Increased calcium promotes mitochondrial permeability transition and ATP reduction.",
+              "conceptIds": [
+                "ch1-part-02-p024-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 separate mitochondrial permeability-transition arrow ends at lower ATP.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p024-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 24
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-atp",
+          "revision": 1,
+          "title": "Consequences of ATP depletion",
+          "summary": "Follow the separate ionic, metabolic and synthetic branches.",
+          "facts": [
+            {
+              "id": "path-ch1-atp-f01",
+              "label": "ATP production",
+              "text": "Mitochondrial oxidative phosphorylation and anaerobic glycolysis are the two supplied ATP-generation pathways.",
+              "conceptIds": [
+                "ch1-part-02-p025-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 25
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p25 names oxidative phosphorylation and anaerobic glycolysis as ATP-generation routes.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atp-f02",
+              "label": "Pump failure",
+              "text": "Reduced Na+ pump activity leads to Na+, water and Ca2+ influx and K+ efflux, with cellular/ER swelling, blebs and microvillus loss.",
+              "conceptIds": [
+                "ch1-part-02-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 visual diagram shows Na/water/Ca influx, K loss and swelling/blebs/microvillus branch.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atp-f03",
+              "label": "Glycolysis",
+              "text": "Increased anaerobic glycolysis reduces glycogen and pH; low pH is connected to nuclear-chromatin clumping.",
+              "conceptIds": [
+                "ch1-part-02-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 shows increased glycolysis, glycogen decrease, pH decrease and chromatin clumping.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atp-f04",
+              "label": "Protein synthesis",
+              "text": "Ribosome detachment reduces protein synthesis and is connected to lipid deposition.",
+              "conceptIds": [
+                "ch1-part-02-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 shows ribosome detachment, lower synthesis and lipid deposition.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p025-content",
+            "ch1-part-02-p028-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 25
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 28
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-ros",
+          "revision": 1,
+          "title": "ROS injury and removal",
+          "summary": "Keep targets and protective conversions separate.",
+          "facts": [
+            {
+              "id": "path-ch1-ros-f01",
+              "label": "Free-radical definition",
+              "text": "An unstable chemical species with a single unpaired electron in the outer orbital.",
+              "conceptIds": [
+                "ch1-part-02-p029-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 29
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p29 outer-orbital unpaired-electron definition clear; no H2O2 free-radical classification included.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-ros-f02",
+              "label": "Targets",
+              "text": "Lipid peroxidation damages membranes; protein modification causes breakdown/misfolding; DNA damage can produce mutation.",
+              "conceptIds": [
+                "ch1-part-02-p032-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 32
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p32 maps lipid/protein/DNA injury to membrane damage, breakdown/misfolding and mutation.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-ros-f03",
+              "label": "Enzymatic removal",
+              "text": "SOD converts superoxide to hydrogen peroxide; catalase and glutathione peroxidase remove hydrogen peroxide.",
+              "conceptIds": [
+                "ch1-part-02-p030-content",
+                "ch1-part-02-p032-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 30
+                },
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 32
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp30/32 show SOD superoxide-to-peroxide, catalase/peroxidase peroxide removal.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-ros-f04",
+              "label": "Antioxidants",
+              "text": "Endogenous or exogenous antioxidants can block free-radical formation or scavenge radicals; examples include vitamins E, A, C and beta-carotene.",
+              "conceptIds": [
+                "ch1-part-02-p033-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 33
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p33 states block formation/scavenge and vitamins E/A/C/beta-carotene.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p029-content",
+            "ch1-part-02-p032-content",
+            "ch1-part-02-p030-content",
+            "ch1-part-02-p033-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 29
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 32
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 30
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 33
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-chemical",
+          "revision": 1,
+          "title": "Direct injury and metabolic activation",
+          "summary": "Two chemical-injury routes.",
+          "facts": [
+            {
+              "id": "path-ch1-chemical-f01",
+              "label": "Direct binding",
+              "text": "Mercury binds sulfhydryl groups of membrane proteins, inhibiting ATPase-dependent transport and increasing permeability.",
+              "conceptIds": [
+                "ch1-part-02-p034-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 34
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p34 explicitly gives mercury-sulfhydryl binding and ATPase transport/permeability effects.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-chemical-f02",
+              "label": "Activation",
+              "text": "P450 oxidases in smooth ER convert some initially inactive chemicals into reactive toxic metabolites; CCl4 and acetaminophen are supplied examples.",
+              "conceptIds": [
+                "ch1-part-02-p035-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 35
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p35 gives P450 in SER and CCl4/acetaminophen examples; no treatment advice added.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-chemical-f03",
+              "label": "CCl4 route",
+              "text": "CCl4 is converted to CCl3 radical in the liver, initiating lipid peroxidation.",
+              "conceptIds": [
+                "ch1-part-02-p036-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 36
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p36 shows CCl4 to CCl3 radical with lipid peroxidation.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-chemical-f04",
+              "label": "Fatty-liver branch",
+              "text": "RER injury causes polysome detachment and reduced apoprotein synthesis, leading to fatty liver.",
+              "conceptIds": [
+                "ch1-part-02-p036-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-02",
+                  "pdfPage": 36
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p36 links RER injury/polysome detachment to reduced apoprotein and fatty liver.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-02-p034-content",
+            "ch1-part-02-p035-content",
+            "ch1-part-02-p036-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 34
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 35
+            },
+            {
+              "lectureId": "ch1-part-02",
+              "pdfPage": 36
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-adaptations",
+          "revision": 1,
+          "title": "Size, number and cell type",
+          "summary": "The defining change separates the adaptive responses.",
+          "facts": [
+            {
+              "id": "path-ch1-adaptations-f01",
+              "label": "Atrophy",
+              "text": "Loss of cell substance reduces cell size and function; affected cells remain alive.",
+              "conceptIds": [
+                "ch1-part-03-p008-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 8
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p8 gives substance loss, reduced size/function and surviving cells.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-adaptations-f02",
+              "label": "Hypertrophy",
+              "text": "Existing cells enlarge; no new cells are produced by this response. It is prominent in cardiac and skeletal muscle.",
+              "conceptIds": [
+                "ch1-part-03-p018-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p18 says no new cells, bigger cells; cardiac/skeletal muscle named.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-adaptations-f03",
+              "label": "Hyperplasia",
+              "text": "Increased cell number enlarges an organ; it requires cells capable of division.",
+              "conceptIds": [
+                "ch1-part-03-p024-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 24
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 defines increased number and division-capable tissue.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-adaptations-f04",
+              "label": "Metaplasia",
+              "text": "One adult cell type replaces another through reprogramming of stem cells or undifferentiated mesenchymal cells.",
+              "conceptIds": [
+                "ch1-part-03-p029-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 29
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p29 gives stem-cell/undifferentiated-mesenchymal reprogramming rather than conversion of a fixed mature cell.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-03-p008-content",
+            "ch1-part-03-p018-content",
+            "ch1-part-03-p024-content",
+            "ch1-part-03-p029-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 8
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 18
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 24
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 29
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-atrophy",
+          "revision": 1,
+          "title": "Atrophy triggers and protein turnover",
+          "summary": "Different causes share a basic loss of structural material.",
+          "facts": [
+            {
+              "id": "path-ch1-atrophy-f01",
+              "label": "Triggers",
+              "text": "Decreased workload, denervation, diminished blood supply and inadequate nutrition are pathological causes; thymic involution, aging and menopausal hormone loss are supplied physiological examples.",
+              "conceptIds": [
+                "ch1-part-03-p009-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 9
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p9 explicitly separates supplied physiological and pathological causes, including menopause.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atrophy-f02",
+              "label": "Protein balance",
+              "text": "Decreased synthesis, increased catabolism or both reduce structural components. Fundamental cellular changes are identical in physiological and pathological atrophy.",
+              "conceptIds": [
+                "ch1-part-03-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 states decreased synthesis/increased catabolism and shared fundamental changes.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atrophy-f03",
+              "label": "Lysosomal pathway",
+              "text": "Lysosomes degrade endocytosed proteins and subcellular organelles; organelle breakdown produces autophagic vacuoles.",
+              "conceptIds": [
+                "ch1-part-03-p013-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 13
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p13 distinguishes endocytosed proteins/subcellular organelles and autophagic vacuoles.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-atrophy-f04",
+              "label": "Proteasome pathway",
+              "text": "Ubiquitin tags damaged proteins for non-lysosomal proteasomal degradation; the diagram shows ubiquitin recycling.",
+              "conceptIds": [
+                "ch1-part-03-p015-content",
+                "ch1-part-03-p016-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 15
+                },
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 16
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp15–16 give ubiquitin tagging, nonlysosomal proteasome degradation and recycling in diagram.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-03-p009-content",
+            "ch1-part-03-p012-content",
+            "ch1-part-03-p013-content",
+            "ch1-part-03-p015-content",
+            "ch1-part-03-p016-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 9
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 12
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 13
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 15
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 16
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-growth",
+          "revision": 1,
+          "title": "Growth responses and their limits",
+          "summary": "Stimulus-dependent enlargement can reverse.",
+          "facts": [
+            {
+              "id": "path-ch1-growth-f01",
+              "label": "Gravid uterus",
+              "text": "Estrogen stimulates both smooth-muscle hypertrophy and hyperplasia.",
+              "conceptIds": [
+                "ch1-part-03-p019-content",
+                "ch1-part-03-p025-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 19
+                },
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 25
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp19/25 show estrogen with smooth-muscle hypertrophy and hyperplasia in pregnancy.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-growth-f02",
+              "label": "Cardiac triggers",
+              "text": "Mechanical stretch and trophic alpha-adrenergic receptor activation are supplied triggers of cardiac hypertrophy.",
+              "conceptIds": [
+                "ch1-part-03-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p21 labels stretch and alpha-adrenergic trophic trigger.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-growth-f03",
+              "label": "Hyperplasia settings",
+              "text": "Physiological hyperplasia may be hormonal or compensatory; liver resection and wound healing are supplied compensatory examples.",
+              "conceptIds": [
+                "ch1-part-03-p026-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 26
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p26 names hormonal/compensatory, liver resection and wound healing.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-growth-f04",
+              "label": "Removal and risk",
+              "text": "Hypertrophy and hyperplasia can reverse after stimulus removal; pathological hyperplasia may provide a setting for later cancerous proliferation.",
+              "conceptIds": [
+                "ch1-part-03-p027-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 27
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p27 explicitly states both responses reverse and pathological hyperplasia may precede cancerous growth.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-growth-f05",
+              "label": "Limits",
+              "text": "Adaptive hypertrophy may change phenotype and contractile-protein type; degenerative change can eventually lead to organ failure.",
+              "conceptIds": [
+                "ch1-part-03-p022-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 22
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p22 describes phenotype/contractile-protein change and later degeneration/failure; disputed p20 causal direction excluded.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-03-p019-content",
+            "ch1-part-03-p025-content",
+            "ch1-part-03-p021-content",
+            "ch1-part-03-p026-content",
+            "ch1-part-03-p027-content",
+            "ch1-part-03-p022-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 19
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 25
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 21
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 26
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 27
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 22
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-metaplasia",
+          "revision": 1,
+          "title": "Metaplasia examples",
+          "summary": "Replacement depends on tissue and persistent stimulus.",
+          "facts": [
+            {
+              "id": "path-ch1-metaplasia-f01",
+              "label": "Bronchial example",
+              "text": "Cigarette smoke is paired with replacement of bronchial ciliated columnar epithelium by squamous epithelium.",
+              "conceptIds": [
+                "ch1-part-03-p030-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 30
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p30 pairs smoke with ciliated columnar-to-squamous bronchial epithelium.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-metaplasia-f02",
+              "label": "Esophageal example",
+              "text": "Gastric acid is paired with replacement of esophageal squamous epithelium by columnar epithelium, termed Barrett metaplasia.",
+              "conceptIds": [
+                "ch1-part-03-p030-content",
+                "ch1-part-03-p031-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 30
+                },
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 31
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp30–31 pair acid reflux with squamous-to-columnar Barrett change.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-metaplasia-f03",
+              "label": "Mesenchymal example",
+              "text": "Chronic trauma is paired with replacement of fibrocollagenous tissue by bone tissue.",
+              "conceptIds": [
+                "ch1-part-03-p030-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 30
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p30 pairs chronic trauma with fibrocollagenous tissue-to-bone.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-metaplasia-f04",
+              "label": "Persistent stimulus",
+              "text": "Persistent influences that induce metaplasia may also induce cancer transformation in the metaplastic epithelium.",
+              "conceptIds": [
+                "ch1-part-03-p029-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-03",
+                  "pdfPage": 29
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p29 qualifies cancer transformation by persistent inducing influences, not inevitability.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-03-p030-content",
+            "ch1-part-03-p031-content",
+            "ch1-part-03-p029-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 30
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 31
+            },
+            {
+              "lectureId": "ch1-part-03",
+              "pdfPage": 29
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-lysosomes",
+          "revision": 1,
+          "title": "Autophagy, heterophagy and residual material",
+          "summary": "Distinguish internal organelles from external material.",
+          "facts": [
+            {
+              "id": "path-ch1-lysosomes-f01",
+              "label": "Secondary lysosome",
+              "text": "Fusion of a primary lysosome with a material-containing digestive vacuole produces a secondary lysosome/phagolysosome.",
+              "conceptIds": [
+                "ch1-part-04-p003-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 3
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p3 defines fusion yielding secondary/phagolysosome.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-lysosomes-f02",
+              "label": "Autophagy",
+              "text": "Intracellular organelles are sequestered in an autophagic vacuole that fuses with a primary lysosome; especially seen in atrophy and aging.",
+              "conceptIds": [
+                "ch1-part-04-p007-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 7
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p7 explicitly gives own-organelle sequestration and primary lysosome fusion in aging/atrophy.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-lysosomes-f03",
+              "label": "Heterophagy",
+              "text": "Inflammatory cells engulf external material; neutrophils degrade bacteria and macrophages catabolize necrotic cells.",
+              "conceptIds": [
+                "ch1-part-04-p008-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 8
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p8 gives inflammatory cells, neutrophil bacteria and macrophage necrotic-cell examples.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-lysosomes-f04",
+              "label": "Uptake size",
+              "text": "Pinocytosis engulfs small soluble material; phagocytosis engulfs large material.",
+              "conceptIds": [
+                "ch1-part-04-p008-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 8
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p8 explicitly separates small soluble uptake from large material uptake.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-lysosomes-f05",
+              "label": "Residual material",
+              "text": "Undigested debris may persist as residual bodies or be extruded. Indigestible carbon can remain in macrophage phagolysosomes for decades.",
+              "conceptIds": [
+                "ch1-part-04-p009-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 9
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p9 gives retained/extruded residual bodies and carbon persisting decades.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-04-p003-content",
+            "ch1-part-04-p007-content",
+            "ch1-part-04-p008-content",
+            "ch1-part-04-p009-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 3
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 7
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 8
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 9
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-subcellular",
+          "revision": 1,
+          "title": "Other subcellular responses",
+          "summary": "Enzyme induction, organelle adaptation and protein repair.",
+          "facts": [
+            {
+              "id": "path-ch1-subcellular-f01",
+              "label": "Smooth ER",
+              "text": "SER/P450 induction increases compound solubility and facilitates excretion; the phenobarbital/alcohol example describes possible subtherapeutic drug levels.",
+              "conceptIds": [
+                "ch1-part-04-p010-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 10
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p10 states solubility/excretion effect and phenobarbital/alcohol subtherapeutic-level example; reference description only.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-subcellular-f02",
+              "label": "Mitochondria",
+              "text": "Mitochondrial number increases in hypertrophy and decreases in atrophy; alcoholic liver disease illustrates large abnormally shaped megamitochondria.",
+              "conceptIds": [
+                "ch1-part-04-p011-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 11
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p11 gives number changes and large abnormal alcoholic-liver megamitochondria.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-subcellular-f03",
+              "label": "Cytoskeleton",
+              "text": "Microtubules are essential for leukocyte migration and phagocytosis; immotile respiratory cilia impair bacterial clearance.",
+              "conceptIds": [
+                "ch1-part-04-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 gives leukocyte migration/phagocytosis and immotile-cilia clearance; gout-specific macrophage claim excluded.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-subcellular-f04",
+              "label": "Chaperones",
+              "text": "Heat shock proteins participate in protein folding, disaggregation and transport.",
+              "conceptIds": [
+                "ch1-part-04-p013-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 13
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p13 directly names folding/disaggregation/transport.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-subcellular-f05",
+              "label": "Failed protein repair",
+              "text": "Denatured proteins may be refolded; failure of repair directs proteins to ubiquitin-proteasome degradation.",
+              "conceptIds": [
+                "ch1-part-04-p014-content",
+                "ch1-part-04-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 14
+                },
+                {
+                  "lectureId": "ch1-part-04",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp14–15 connect refolding attempt to ubiquitin/proteasome on failed repair; stress-only absolute excluded.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-04-p010-content",
+            "ch1-part-04-p011-content",
+            "ch1-part-04-p012-content",
+            "ch1-part-04-p013-content",
+            "ch1-part-04-p014-content",
+            "ch1-part-04-p015-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 10
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 11
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 12
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 13
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 14
+            },
+            {
+              "lectureId": "ch1-part-04",
+              "pdfPage": 15
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-reversible",
+          "revision": 1,
+          "title": "Reversible injury",
+          "summary": "Functional change may precede visible morphology.",
+          "facts": [
+            {
+              "id": "path-ch1-reversible-f01",
+              "label": "Detection timing",
+              "text": "The graph places functional change before morphologic change, with ultrastructure detected before light-microscopic and gross changes.",
+              "conceptIds": [
+                "ch1-part-05-p002-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 2
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p2 graph places functional decline before ultrastructural, light and gross detection; not a numerical time claim.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-reversible-f02",
+              "label": "ER and nucleus",
+              "text": "ER dilation with ribosome loss and clumping of nuclear chromatin are described in reversible injury.",
+              "conceptIds": [
+                "ch1-part-05-p010-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 10
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p10 explicitly names ER dilation/ribosome loss and chromatin clumping.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-reversible-f03",
+              "label": "Hydropic change",
+              "text": "Loss of ionic/fluid homeostasis produces cellular swelling with clear vacuoles from distended and pinched-off ER segments.",
+              "conceptIds": [
+                "ch1-part-05-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 directly gives ionic/fluid-homeostasis loss and distended pinched-off ER vacuoles.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-reversible-f04",
+              "label": "Fatty change",
+              "text": "Lipid vacuoles occur in cells handling fat metabolism, with liver and heart supplied examples.",
+              "conceptIds": [
+                "ch1-part-05-p013-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 13
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p13 names fat-metabolizing cells, liver and heart.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-reversible-f05",
+              "label": "Gross change",
+              "text": "Increased organ weight and pallor are the supplied gross reversible changes.",
+              "conceptIds": [
+                "ch1-part-05-p014-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 14
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p14 explicitly gives increased weight/pallor.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-05-p002-content",
+            "ch1-part-05-p010-content",
+            "ch1-part-05-p012-content",
+            "ch1-part-05-p013-content",
+            "ch1-part-05-p014-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 2
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 10
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 12
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 13
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 14
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-irreversible",
+          "revision": 1,
+          "title": "Irreversibility and necrotic clearance",
+          "summary": "Membrane failure and sustained mitochondrial dysfunction mark the limit.",
+          "facts": [
+            {
+              "id": "path-ch1-irreversible-f01",
+              "label": "Point of no return",
+              "text": "Inability to reverse mitochondrial dysfunction and severe membrane damage characterize irreversibility.",
+              "conceptIds": [
+                "ch1-part-05-p020-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 20
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p20 names inability to reverse mitochondrial dysfunction and severe membrane damage.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-irreversible-f02",
+              "label": "Digestion source",
+              "text": "Autolysis uses the cell’s own enzymes; heterolysis uses lysosomal enzymes from other cells.",
+              "conceptIds": [
+                "ch1-part-05-p018-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p18 gives own enzymes versus lysosomes from other cells.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-irreversible-f03",
+              "label": "Clearance",
+              "text": "Extracellular enzymatic digestion and leukocyte phagocytosis remove most necrotic material; retained debris may undergo dystrophic calcification.",
+              "conceptIds": [
+                "ch1-part-05-p019-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 19
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p19 names extracellular digestion/leukocyte phagocytosis and retained-debris dystrophic calcium.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-irreversible-f04",
+              "label": "Necrosis",
+              "text": "Morphologic changes follow cell death in living tissue and require hours to develop.",
+              "conceptIds": [
+                "ch1-part-05-p024-content",
+                "ch1-part-05-p019-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 24
+                },
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 19
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p24 defines morphology after death in living tissue; p19 explicitly supplies hours-to-develop qualifier, now additionally cited.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-irreversible-f05",
+              "label": "Cytoplasm",
+              "text": "Eosin binding to denatured proteins and RNA loss increase eosinophilia; glycogen loss makes cytoplasm glassy and organelle degeneration makes it vacuolated.",
+              "conceptIds": [
+                "ch1-part-05-p027-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 27
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p27 directly gives eosin binding/RNA loss, glycogen/glassy and organelle/vacuolated changes.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-05-p020-content",
+            "ch1-part-05-p018-content",
+            "ch1-part-05-p019-content",
+            "ch1-part-05-p024-content",
+            "ch1-part-05-p027-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 20
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 18
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 19
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 24
+            },
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 27
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-nuclei",
+          "revision": 1,
+          "title": "Necrotic nuclear changes",
+          "summary": "Definitions, without imposing a mandatory sequence.",
+          "facts": [
+            {
+              "id": "path-ch1-nuclei-f01",
+              "label": "Pyknosis",
+              "text": "Nuclear shrinkage with increased basophilia.",
+              "conceptIds": [
+                "ch1-part-05-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 defines shrinkage/increased basophilia.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-nuclei-f02",
+              "label": "Karyorrhexis",
+              "text": "Fragmentation of a pyknotic nucleus by nucleases.",
+              "conceptIds": [
+                "ch1-part-05-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 defines pyknotic nucleus fragmentation by nucleases.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-nuclei-f03",
+              "label": "Karyolysis",
+              "text": "Loss of chromatin basophilia secondary to DNase activity.",
+              "conceptIds": [
+                "ch1-part-05-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 defines basophilia loss with DNase activity.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-nuclei-f04",
+              "label": "Time window",
+              "text": "The source states complete nuclear disappearance one to two days after cell death.",
+              "conceptIds": [
+                "ch1-part-05-p028-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-05",
+                  "pdfPage": 28
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p28 gives 1–2 days to complete nuclear disappearance; preserved as source-qualified, no universal sequence invented.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-05-p028-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-05",
+              "pdfPage": 28
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-necrosis-patterns",
+          "revision": 1,
+          "title": "Patterns of necrosis",
+          "summary": "Architecture, substrate and setting discriminate the patterns.",
+          "facts": [
+            {
+              "id": "path-ch1-necrosis-patterns-f01",
+              "label": "Coagulative",
+              "text": "Protein denaturation predominates and basic tissue outlines persist for days; hypoxia/ischemia in most organs is the setting, except brain.",
+              "conceptIds": [
+                "ch1-part-06-p003-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 3
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p3 preserves outlines for days and names denaturation dominance, most ischemic organs except brain.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-necrosis-patterns-f02",
+              "label": "Liquefactive",
+              "text": "Enzymatic digestion predominates and architecture is destroyed; ischemic brain and bacterial/fungal infections are supplied settings.",
+              "conceptIds": [
+                "ch1-part-06-p011-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 11
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p11 gives digestion dominance, lost architecture, brain ischemia and bacterial/fungal settings.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-necrosis-patterns-f03",
+              "label": "Caseous",
+              "text": "Tuberculous infection is associated with cheesy white foci and amorphous granular debris, with architecture obliterated.",
+              "conceptIds": [
+                "ch1-part-06-p014-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 14
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p14 gives TB, cheesy white foci and granular debris with lost architecture.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-necrosis-patterns-f04",
+              "label": "Fat",
+              "text": "Pancreatic enzyme release causes focal fat destruction; saponification appears chalky white and calcified cell shadows appear microscopically.",
+              "conceptIds": [
+                "ch1-part-06-p017-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 17
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p17 gives pancreatic enzymes, focal fat destruction, saponification and calcified cell shadows.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-necrosis-patterns-f05",
+              "label": "Gangrene",
+              "text": "Dry gangrene is ischemic coagulative necrosis; infection with a liquefactive component produces wet gangrene.",
+              "conceptIds": [
+                "ch1-part-06-p019-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 19
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p19 gives dry ischemic coagulation and infected wet liquefactive component.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-necrosis-patterns-f06",
+              "label": "Fibrinoid",
+              "text": "Small-vessel injury involves fibrin/plasma-protein accumulation and intensely red-staining necrotic areas.",
+              "conceptIds": [
+                "ch1-part-06-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-06",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p21 visual figure labels fibrin/plasma proteins and intensely red necrotic small-vessel injury.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-06-p003-content",
+            "ch1-part-06-p011-content",
+            "ch1-part-06-p014-content",
+            "ch1-part-06-p017-content",
+            "ch1-part-06-p019-content",
+            "ch1-part-06-p021-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 3
+            },
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 11
+            },
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 14
+            },
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 17
+            },
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 19
+            },
+            {
+              "lectureId": "ch1-part-06",
+              "pdfPage": 21
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-apoptotic-pathways",
+          "revision": 1,
+          "title": "Apoptotic pathways",
+          "summary": "Initiation, regulation, execution and removal.",
+          "facts": [
+            {
+              "id": "path-ch1-apoptotic-pathways-f01",
+              "label": "Caspase roles",
+              "text": "Initiators establish commitment to apoptosis; effectors produce structural degradation.",
+              "conceptIds": [
+                "ch1-part-07-p007-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 7
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p7 clear functional distinction retained; absolute distribution removed from fact text and documented as source restriction.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-apoptotic-pathways-f02",
+              "label": "Intrinsic pathway",
+              "text": "Growth-factor withdrawal, DNA damage and protein misfolding converge on mitochondrial pro-apoptotic release, initiator and executioner caspases.",
+              "conceptIds": [
+                "ch1-part-07-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p15 shows three intrinsic triggers -> mitochondrial release -> initiator/executioner route, avoiding p10 bypass ambiguity.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-apoptotic-pathways-f03",
+              "label": "Extrinsic pathway",
+              "text": "Fas/TNF death-receptor interactions act through adaptor proteins and initiator caspases.",
+              "conceptIds": [
+                "ch1-part-07-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p15 shows Fas/TNF -> adapters -> initiators.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-apoptotic-pathways-f04",
+              "label": "BCL-2 balance",
+              "text": "BCL-2/BCL-XL support survival by preventing cytochrome c leakage; sensor-driven BCL-2 antagonism and Bax/Bak activation favor release.",
+              "conceptIds": [
+                "ch1-part-07-p016-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 16
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p16 shows survival proteins preventing leakage and sensors/Bax/Bak favoring release; no direct Apaf binding scored.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-apoptotic-pathways-f05",
+              "label": "Execution and removal",
+              "text": "Proteases and endonucleases break down cytoskeletal/nuclear structures; apoptotic bodies express ligands for phagocytic binding and uptake.",
+              "conceptIds": [
+                "ch1-part-07-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 names proteases/endonucleases, structural breakdown and new ligands for phagocyte recognition.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-07-p007-content",
+            "ch1-part-07-p015-content",
+            "ch1-part-07-p016-content",
+            "ch1-part-07-p012-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 7
+            },
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 15
+            },
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 16
+            },
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 12
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-death-comparison",
+          "revision": 1,
+          "title": "Necrosis and apoptosis",
+          "summary": "Compare size, membrane, contents and tissue reaction.",
+          "facts": [
+            {
+              "id": "path-ch1-death-comparison-f01",
+              "label": "Size",
+              "text": "Necrosis enlarges cells by swelling; apoptosis reduces cell size.",
+              "conceptIds": [
+                "ch1-part-07-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p21 contrasts swelling/increase with shrinkage.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-death-comparison-f02",
+              "label": "Membrane and contents",
+              "text": "Necrosis disrupts membranes with digestion and possible leakage; apoptosis preserves an altered intact membrane and packages contents in bodies.",
+              "conceptIds": [
+                "ch1-part-07-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p21 contrasts disrupted/digested/leaking with intact-altered membrane/intact bodies.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-death-comparison-f03",
+              "label": "Inflammation",
+              "text": "Necrosis frequently has adjacent inflammation; apoptotic cells are described without surrounding inflammatory cells.",
+              "conceptIds": [
+                "ch1-part-07-p017-content",
+                "ch1-part-07-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 17
+                },
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp17/21 give no adjacent apoptosis inflammation versus frequent necrosis inflammation.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-death-comparison-f04",
+              "label": "Role",
+              "text": "Necrosis is pathological in the supplied comparison; apoptosis often eliminates unwanted cells physiologically and may also follow injury.",
+              "conceptIds": [
+                "ch1-part-07-p021-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-07",
+                  "pdfPage": 21
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p21 contrasts pathological necrosis and often physiological/sometimes injury-related apoptosis.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-07-p021-content",
+            "ch1-part-07-p017-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 21
+            },
+            {
+              "lectureId": "ch1-part-07",
+              "pdfPage": 17
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-steatosis",
+          "revision": 1,
+          "title": "Steatosis mechanisms",
+          "summary": "Input, oxidation and export can each affect fat accumulation.",
+          "facts": [
+            {
+              "id": "path-ch1-steatosis-f01",
+              "label": "Definition",
+              "text": "Reversible triglyceride accumulation within parenchymal cells, most commonly liver; heart, skeletal muscle and kidney may also be affected.",
+              "conceptIds": [
+                "ch1-part-08-p007-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 7
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p7 gives TG/parenchymal/reversible and liver emphasis with other named organs; no exclusive distribution.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-steatosis-f02",
+              "label": "Input and oxidation",
+              "text": "Diabetes/starvation increase FFA supply; hypoxia reduces fatty-acid oxidation in the supplied mechanism diagram.",
+              "conceptIds": [
+                "ch1-part-08-p011-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 11
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p11 arrows show diabetes/starvation supply increase versus hypoxia oxidation decrease.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-steatosis-f03",
+              "label": "Export",
+              "text": "Protein malnutrition reduces apoprotein availability, impairing triglyceride export via lipoproteins.",
+              "conceptIds": [
+                "ch1-part-08-p008-content",
+                "ch1-part-08-p011-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 8
+                },
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 11
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp8/11 give reduced apoprotein and impaired export from malnutrition.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-steatosis-f04",
+              "label": "Morphology",
+              "text": "Early small perinuclear fat vacuoles progress with an enlarged yellow, greasy and soft organ.",
+              "conceptIds": [
+                "ch1-part-08-p012-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 12
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p12 supplies early perinuclear vacuoles and progressive gross enlargement/yellow/greasy/soft.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-08-p007-content",
+            "ch1-part-08-p011-content",
+            "ch1-part-08-p008-content",
+            "ch1-part-08-p012-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 7
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 11
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 8
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 12
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-inclusions",
+          "revision": 1,
+          "title": "Protein and lipid inclusions",
+          "summary": "Use compartment and substance to distinguish inclusions.",
+          "facts": [
+            {
+              "id": "path-ch1-inclusions-f01",
+              "label": "Foam cells",
+              "text": "Cholesterol and cholesterol esters accumulate in macrophages; smooth-muscle cells and macrophages in plaques contain lipid vacuoles that contribute yellow color.",
+              "conceptIds": [
+                "ch1-part-08-p015-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 15
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p15 gives cholesterol/esters in foam cells and plaque smooth muscle/macrophages/yellow lipid.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-inclusions-f02",
+              "label": "Xanthomas",
+              "text": "Foamy cholesterol-containing macrophages form masses in skin subepithelial connective tissue or tendons.",
+              "conceptIds": [
+                "ch1-part-08-p016-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 16
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p16 gives skin subepithelial connective tissue/tendon foamy macrophages.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-inclusions-f03",
+              "label": "Russell bodies",
+              "text": "Newly synthesized immunoglobulins accumulate in the RER of plasma cells.",
+              "conceptIds": [
+                "ch1-part-08-p017-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 17
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p17 gives newly synthesized Ig in plasma-cell RER.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-inclusions-f04",
+              "label": "Mallory bodies",
+              "text": "Eosinophilic prekeratin-filament inclusions in liver cells are supplied in alcoholic liver disease.",
+              "conceptIds": [
+                "ch1-part-08-p018-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p18 gives alcoholic-liver prekeratin eosinophilic inclusions.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-inclusions-f05",
+              "label": "Tangles",
+              "text": "The Alzheimer-disease brain example contains aggregated microtubule-associated proteins and neurofilaments.",
+              "conceptIds": [
+                "ch1-part-08-p018-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 18
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p18 gives Alzheimer aggregated microtubule-associated proteins/neurofilaments; outside tau naming absent.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-08-p015-content",
+            "ch1-part-08-p016-content",
+            "ch1-part-08-p017-content",
+            "ch1-part-08-p018-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 15
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 16
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 17
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 18
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-pigments",
+          "revision": 1,
+          "title": "Pigment distinctions",
+          "summary": "Origin and material distinguish similarly colored deposits.",
+          "facts": [
+            {
+              "id": "path-ch1-pigments-f01",
+              "label": "Carbon",
+              "text": "The supplied most common exogenous pigment; aggregates in lung and hilar nodes are termed anthracosis.",
+              "conceptIds": [
+                "ch1-part-08-p022-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 22
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p22 gives most common exogenous carbon and lung/hilar aggregates.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pigments-f02",
+              "label": "Lipofuscin",
+              "text": "Brownish-yellow wear-and-tear lipid-protein material from membrane peroxidation, accumulating with age/atrophy; gross pigment is brown atrophy.",
+              "conceptIds": [
+                "ch1-part-08-p025-content",
+                "ch1-part-08-p026-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 25
+                },
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 26
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "pp25–26 give lipid-protein peroxidation residue, age/atrophy and gross brown atrophy.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pigments-f03",
+              "label": "Melanin",
+              "text": "Brown-black pigment produced by melanocytes and also accumulated by basal keratinocytes or dermal macrophages.",
+              "conceptIds": [
+                "ch1-part-08-p027-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 27
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p27 distinguishes melanocyte production from keratinocyte/macrophage accumulation.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-pigments-f04",
+              "label": "Hemosiderin",
+              "text": "Golden-yellow/brown hemoglobin-derived pigment composed of large ferritin aggregates, associated with excess iron and detected by Prussian blue.",
+              "conceptIds": [
+                "ch1-part-08-p029-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 29
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p29 gives Hb-derived ferritin aggregates, golden/yellow/brown, excess iron and Prussian blue.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-08-p022-content",
+            "ch1-part-08-p025-content",
+            "ch1-part-08-p026-content",
+            "ch1-part-08-p027-content",
+            "ch1-part-08-p029-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 22
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 25
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 26
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 27
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 29
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        },
+        {
+          "id": "path-ch1-calcification",
+          "revision": 1,
+          "title": "Dystrophic and metastatic calcification",
+          "summary": "Tissue status and serum calcium are the central comparison.",
+          "facts": [
+            {
+              "id": "path-ch1-calcification-f01",
+              "label": "Dystrophic",
+              "text": "Calcium deposits in dead/dying tissue with normal serum calcium; deposits are fine white granules grossly and basophilic microscopically.",
+              "conceptIds": [
+                "ch1-part-08-p032-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 32
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p32 gives dead/dying tissue, normal calcium, fine white granules and basophilia.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcification-f02",
+              "label": "Valve consequence",
+              "text": "Dystrophic calcification of the aortic valve is an important supplied cause of aortic stenosis in the elderly.",
+              "conceptIds": [
+                "ch1-part-08-p033-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 33
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p33 explicitly names aortic-valve calcification/stenosis in elderly; retained reference fact without forcing weak question.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcification-f03",
+              "label": "Metastatic",
+              "text": "Calcium deposition in normal tissue in the presence of hypercalcemia.",
+              "conceptIds": [
+                "ch1-part-08-p034-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 34
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p34 gives normal tissue plus hypercalcemia; unqualified renal failure generalization excluded.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            },
+            {
+              "id": "path-ch1-calcification-f04",
+              "label": "Sites and severity",
+              "text": "Metastatic deposition mainly affects interstitium of blood vessels, kidneys, lungs and gastric mucosa; dysfunction generally requires severe disease, with nephrocalcinosis supplied as an example.",
+              "conceptIds": [
+                "ch1-part-08-p035-content"
+              ],
+              "sourceRefs": [
+                {
+                  "lectureId": "ch1-part-08",
+                  "pdfPage": 35
+                }
+              ],
+              "review": {
+                "sourceChecked": true,
+                "reviewer": "second-codex-chapter1-checker",
+                "reviewNotes": "p35 lists principal sites without exclusivity and severe-function qualifier/nephrocalcinosis.",
+                "internalReferenceOnly": true,
+                "externalIndependentReview": false
+              }
+            }
+          ],
+          "conceptIds": [
+            "ch1-part-08-p032-content",
+            "ch1-part-08-p033-content",
+            "ch1-part-08-p034-content",
+            "ch1-part-08-p035-content"
+          ],
+          "sourceRefs": [
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 32
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 33
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 34
+            },
+            {
+              "lectureId": "ch1-part-08",
+              "pdfPage": 35
+            }
+          ],
+          "status": "draft",
+          "review": {
+            "sourceChecked": true,
+            "reviewer": "second-codex-chapter1-checker",
+            "reviewNotes": "Every fact checked against independently inspected original images; title and summary match the facts. Internal authoring reference only; no approved product-tab claim.",
+            "internalReferenceOnly": true,
+            "externalIndependentReview": false
+          }
+        }
+      ]
+    }
+  ],
+  "review": {
+    "sourceChecked": true,
+    "reviewer": "second-codex-chapter1-checker",
+    "reviewNotes": "All 104 facts in 24 cards checked against original source images. Not approved as a shipping Memorize tab/card collection. Antigravity and Claude pending.",
+    "internalReferenceOnly": true,
+    "externalIndependentReview": false
+  }
+}

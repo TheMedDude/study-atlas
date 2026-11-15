@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "chapters": [
+    {
+      "id": "bioenergetics-and-metabolism",
+      "title": "Bioenergetics and Metabolism",
+      "pdfPages": 39,
+      "teachingPages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "exclusions": [
+        {
+          "pdfPage": 1,
+          "kind": "cover",
+          "title": "Metabolic Biochemistry — course cover"
+        },
+        {
+          "pdfPage": 2,
+          "kind": "cover",
+          "title": "Bioenergetics and introduction to metabolism — Chapter 13"
+        },
+        {
+          "pdfPage": 39,
+          "kind": "administrative",
+          "title": "Thanks — closing page"
+        }
+      ],
+      "topics": [
+        "Course identity",
+        "Chapter identity",
+        "Metabolism and energy",
+        "Metabolic pathways",
+        "Metabolic reactions",
+        "Thermodynamics",
+        "Equilibrium",
+        "Reaction energetics",
+        "Chemical reactions",
+        "Group transfer and ATP",
+        "Redox chemistry",
+        "Redox cofactors",
+        "Enzymes",
+        "Enzyme regulation"
+      ]
+    },
+    {
+      "id": "glycolysis-and-fermentation",
+      "title": "Glycolysis and Fermentation",
+      "pdfPages": 61,
+      "teachingPages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "exclusions": [
+        {
+          "pdfPage": 1,
+          "kind": "cover",
+          "title": "Course cover"
+        },
+        {
+          "pdfPage": 2,
+          "kind": "cover",
+          "title": "Chapter 14: Glycolysis and Fermentation"
+        },
+        {
+          "pdfPage": 11,
+          "kind": "divider",
+          "title": "Reactions Involved in the Preparatory Phase of Glycolysis"
+        },
+        {
+          "pdfPage": 19,
+          "kind": "divider",
+          "title": "Reactions Involved in the Payoff Phase of Glycolysis"
+        },
+        {
+          "pdfPage": 31,
+          "kind": "divider",
+          "title": "Gluconeogenesis"
+        },
+        {
+          "pdfPage": 48,
+          "kind": "divider",
+          "title": "Coordinated Regulation of Glycolysis and Gluconeogenesis"
+        },
+        {
+          "pdfPage": 61,
+          "kind": "administrative",
+          "title": "Thanks and course information"
+        }
+      ],
+      "topics": [
+        "Glycolysis",
+        "Fermentation and pyruvate fates",
+        "Gluconeogenesis",
+        "Reciprocal regulation"
+      ]
+    },
+    {
+      "id": "citric-acid-cycle-and-pdh",
+      "title": "The citric acid cycle and PDH",
+      "pdfPages": 33,
+      "teachingPages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "exclusions": [
+        {
+          "pdfPage": 1,
+          "kind": "cover",
+          "title": "Metabolic Biochemistry — course cover"
+        },
+        {
+          "pdfPage": 2,
+          "kind": "cover",
+          "title": "The Citric Acid Cycle — Chapter 16"
+        },
+        {
+          "pdfPage": 16,
+          "kind": "divider",
+          "title": "Reactions of the Citric Acid Cycle — section divider"
+        },
+        {
+          "pdfPage": 33,
+          "kind": "administrative",
+          "title": "Thanks — closing course slide"
+        }
+      ],
+      "topics": [
+        "Glucose Energy",
+        "Cellular Respiration",
+        "Cellular Respiration: Stage 1 — Acetyl-CoA Production",
+        "Cellular Respiration: Stage 2 — Acetyl-CoA Oxidation",
+        "Cellular Respiration: Stage 3 — Oxidative Phosphorylation",
+        "Conversion of Pyruvate to Acetyl-CoA",
+        "Pyruvate Dehydrogenase Complex (PDH)",
+        "Oxidative decarboxylation of pyruvate by the PDH complex",
+        "Regulation of Pyruvate dehydrogenase Complex",
+        "Regulation of Pyruvate dehydrogenase Complex — diagram",
+        "Pyruvate dehydrogenase deficiency",
+        "Therapeutic Approaches for PDH Deficiency",
+        "Thiamin (Vitamin B1) deficiency causes Beriberi",
+        "Reactions of the Citric Acid Cycle",
+        "Formation of Citrate",
+        "Induced Fit in the Citrate Synthase",
+        "Formation of Isocitrate via Cis-Aconitate",
+        "Oxidation of Isocitrate to α-Ketoglutarate and CO2",
+        "Oxidation of α-Ketoglutarate to Succinyl-CoA and CO2",
+        "Conversion of Succinyl-CoA to Succinate",
+        "Oxidation of Succinate to Fumarate",
+        "Hydration of Fumarate to Malate",
+        "Oxidation of Malate to Oxaloacetate",
+        "Net Result of the Citric Acid Cycle",
+        "Summary",
+        "Role of the Citric Acid Cycle in Anabolism",
+        "Anaplerotic Reactions",
+        "Citric Acid Cycle Regulation",
+        "Citric Acid Cycle Regulation — effector table"
+      ]
+    },
+    {
+      "id": "oxidative-phosphorylation",
+      "title": "Oxidative Phosphorylation",
+      "pdfPages": 21,
+      "teachingPages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "exclusions": [
+        {
+          "pdfPage": 1,
+          "kind": "cover",
+          "title": "Course cover"
+        },
+        {
+          "pdfPage": 2,
+          "kind": "divider",
+          "title": "Oxidative Phosphorylation — Chapter 19"
+        },
+        {
+          "pdfPage": 21,
+          "kind": "administrative",
+          "title": "Thanks — course closing slide"
+        }
+      ],
+      "topics": [
+        "Course cover",
+        "Oxidative Phosphorylation — Chapter 19",
+        "Energy from reduced fuels",
+        "Structure of a mitochondrion",
+        "Universal electron acceptors",
+        "Electron-carrying molecules",
+        "Standard reduction potentials",
+        "Respiratory-chain protein components",
+        "Respiratory chain and proton pumping",
+        "Electron flow through the four complexes",
+        "ATP synthesis",
+        "Chemiosmotic model",
+        "Coupling of electron transfer and ATP synthesis",
+        "Agents that interfere with oxidative phosphorylation",
+        "Transport of ADP and phosphate",
+        "Malate-aspartate shuttle",
+        "Glycerol 3-phosphate shuttle",
+        "ATP yield from complete glucose oxidation",
+        "Regulation by cellular energy needs",
+        "Regulation of ATP-producing pathways",
+        "Thanks — course closing slide"
+      ]
+    }
+  ]
+}

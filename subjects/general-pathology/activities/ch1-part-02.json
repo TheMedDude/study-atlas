@@ -1,0 +1,1307 @@
+{
+  "lectureId": "ch1-part-02",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-02-transient-severe",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p002-content",
+        "ch1-part-02-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 3
+        }
+      ],
+      "prompt": "Which condition favors reversible rather than irreversible cell injury?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "An inability to adapt with progressive injury",
+          "evidence": "Progressive injury favors irreversibility."
+        },
+        {
+          "id": "o1",
+          "text": "A mild, transient injurious stimulus",
+          "evidence": "The stages diagram assigns mild transient injury to the reversible route."
+        },
+        {
+          "id": "o5",
+          "text": "An injury ending in necrosis",
+          "evidence": "Necrosis is an irreversible death outcome."
+        },
+        {
+          "id": "o4",
+          "text": "A stimulus that has already caused cell death",
+          "evidence": "Cell death is irreversible."
+        },
+        {
+          "id": "o2",
+          "text": "A severe, progressive injurious stimulus",
+          "evidence": "This leads to irreversible injury."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mild transient injury may reverse; severe progressive injury leads to irreversible injury and cell death.",
+        "ar": "قد تتراجع الأذية الخفيفة العابرة؛ أما الشديدة المتفاقمة فتؤدي إلى أذية غير عكوسة وموت الخلية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 3; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp2–3 explicitly connect mild/transient to reversible injury and severe/progressive to irreversible injury. Death outcomes are not presented as recoverable. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-causes-examples",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p006-content",
+        "ch1-part-02-p007-content",
+        "ch1-part-02-p008-content",
+        "ch1-part-02-p009-content",
+        "ch1-part-02-p010-content",
+        "ch1-part-02-p012-content",
+        "ch1-part-02-p013-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Match each cause of cell injury to an example.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Physical injury",
+          "right": "Electrical shock",
+          "evidence": "p7 lists electrical shock as physical."
+        },
+        {
+          "id": "p2",
+          "left": "Chemical injury",
+          "right": "Drugs and poisons",
+          "evidence": "p8 gives drugs/poisons."
+        },
+        {
+          "id": "p3",
+          "left": "Infectious injury",
+          "right": "Viruses, bacteria and fungi",
+          "evidence": "p9 lists these infectious agents."
+        },
+        {
+          "id": "p4",
+          "left": "Immunological injury",
+          "right": "Reaction to endogenous self-antigens",
+          "evidence": "p10 defines autoimmune reactions."
+        },
+        {
+          "id": "p5",
+          "left": "Nutritional imbalance",
+          "right": "Protein-calorie deficiency",
+          "evidence": "p12 gives undernutrition examples."
+        },
+        {
+          "id": "p6",
+          "left": "Genetic defect",
+          "right": "Sickle cell anemia",
+          "evidence": "p13 supplies sickle cell anemia."
+        }
+      ],
+      "explanation": {
+        "en": "The examples distinguish physical, chemical, infectious, immune, nutritional and genetic causes.",
+        "ar": "تميز الأمثلة الأسباب الفيزيائية والكيميائية والمعدية والمناعية والتغذوية والجينية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 6, 7, 8, 9, 10, 12, 13; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. Each category-example mapping checked on pp7–13; autoimmune self-antigens, genetic sickle cell anemia and nutritional protein-calorie deficiency remain separate. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-physical-group",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p007-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 7
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 13
+        }
+      ],
+      "prompt": "Which group consists of physical causes of cell injury?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Mechanical trauma, drugs, poisons and radiation",
+          "evidence": "Drugs/poisons are chemical examples."
+        },
+        {
+          "id": "o5",
+          "text": "Electrical shock, Down syndrome and metabolic defects",
+          "evidence": "Down syndrome/metabolic defects are genetic examples."
+        },
+        {
+          "id": "o4",
+          "text": "Radiation, vitamin deficiency, obesity and trauma",
+          "evidence": "Vitamin deficiency/obesity are nutritional examples."
+        },
+        {
+          "id": "o1",
+          "text": "Mechanical trauma, thermal injury, electrical shock and radiation",
+          "evidence": "All four are physical examples on p7."
+        },
+        {
+          "id": "o3",
+          "text": "Thermal injury, fungi, parasites and shock",
+          "evidence": "Fungi/parasites are infectious examples."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Physical agents include mechanical trauma, heat or cold, electrical shock and radiation.",
+        "ar": "تشمل العوامل الفيزيائية الرضوض والحرارة أو البرودة والصعق الكهربائي والإشعاع."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 7, 8, 9, 12, 13; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p7 gives all four correct physical agents. Other groups mix specific chemical, infectious, nutritional or genetic examples, each verified on its cited page. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-immune-self-foreign",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which pairing correctly separates autoimmune from anaphylactic reactions?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Autoimmune: foreign protein; anaphylactic: self-antigens",
+          "evidence": "This reverses the antigen categories."
+        },
+        {
+          "id": "o4",
+          "text": "Autoimmune: foreign protein; anaphylactic: foreign protein",
+          "evidence": "The autoimmune category is endogenous self-antigens."
+        },
+        {
+          "id": "o1",
+          "text": "Autoimmune: self-antigens; anaphylactic: foreign protein or drug",
+          "evidence": "p10 assigns self-antigens to autoimmune reactions and foreign protein/drug to the anaphylactic example."
+        },
+        {
+          "id": "o3",
+          "text": "Autoimmune: self-antigens; anaphylactic: self-antigens",
+          "evidence": "The anaphylactic example is foreign protein or drug, not self-antigens."
+        },
+        {
+          "id": "o5",
+          "text": "Autoimmune: foreign drug; anaphylactic: foreign drug",
+          "evidence": "The autoimmune category is endogenous self-antigens, not a foreign drug."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Autoimmune disease involves endogenous self-antigens; anaphylactic reactions are illustrated by a foreign protein or drug.",
+        "ar": "تتضمن Autoimmune disease مستضدات ذاتية داخلية؛ ويرتبط مثال Anaphylactic reaction ببروتين أجنبي أو دواء."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 supports self-antigens versus foreign protein/drug. Rebuilt all five paired antigen options to remove unrelated heat/nutrition/oxygen distractors and rechecked EN/AR. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-immune-complex",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Which sequence connects streptococcal antigen release to immune-complex glomerular injury?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Antigen release -> antigen-antibody complexes -> glomerular injury",
+          "evidence": "p11 shows released antigen, then immune complexes, then glomerulonephritis."
+        },
+        {
+          "id": "o4",
+          "text": "Antigen release -> glomerular injury -> antigen-antibody complexes",
+          "evidence": "Complex formation precedes the depicted glomerular injury."
+        },
+        {
+          "id": "o2",
+          "text": "Glomerular injury -> antigen-antibody complexes -> antigen release",
+          "evidence": "This reverses the depicted causal sequence."
+        },
+        {
+          "id": "o5",
+          "text": "Antigen-antibody complexes -> glomerular injury -> antigen release",
+          "evidence": "This incorrectly places antigen release after complexes and injury."
+        },
+        {
+          "id": "o3",
+          "text": "Antigen-antibody complexes -> antigen release -> glomerular injury",
+          "evidence": "Free antigen appears before complex formation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "The post-streptococcal illustration links released antigen to immune complexes and glomerulonephritis.",
+        "ar": "يربط الرسم التالي للعقديات المستضد المحرر بتكون Immune complexes وحدوث Glomerulonephritis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10, 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p11 shows antigen release followed by antigen–antibody complexes then glomerular injury. Replaced unrelated physical/nutritional intermediates with parallel rearrangements of the stated sequence; no unseen diagram reference. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-nutrition-comparison",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "Which pairing separates undernutrition from overnutrition examples?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Undernutrition: obesity; overnutrition: vitamin deficiency",
+          "evidence": "The columns are reversed."
+        },
+        {
+          "id": "o5",
+          "text": "Undernutrition: atherosclerosis; overnutrition: mineral deficiency",
+          "evidence": "The examples are reversed."
+        },
+        {
+          "id": "o3",
+          "text": "Undernutrition: atherosclerosis; overnutrition: protein-calorie deficiency",
+          "evidence": "The columns are reversed."
+        },
+        {
+          "id": "o1",
+          "text": "Undernutrition: vitamin deficiency; overnutrition: obesity",
+          "evidence": "These appear in the respective columns."
+        },
+        {
+          "id": "o4",
+          "text": "Undernutrition: obesity; overnutrition: anorexia nervosa",
+          "evidence": "Obesity is overnutrition and anorexia is undernutrition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Protein-calorie, vitamin and mineral deficiencies are undernutrition examples; obesity and atherosclerosis are listed under overnutrition.",
+        "ar": "تندرج نواقص البروتين والسعرات والفيتامينات والمعادن ضمن Undernutrition، وترد السمنة والتصلب العصيدي تحت Overnutrition."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 supplies undernutrition deficiencies/anorexia versus overnutrition obesity/atherosclerosis. Each pairing and Arabic column direction checked. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-ischemia-hypoxia",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p014-content",
+        "ch1-part-02-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 14
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Why does ischemia differ from isolated oxygen deficiency?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "It requires increased blood flow",
+          "evidence": "Ischemia is loss of blood supply."
+        },
+        {
+          "id": "o5",
+          "text": "It supplies oxygen while removing glucose alone",
+          "evidence": "Both oxygen and nutrient supply fall."
+        },
+        {
+          "id": "o2",
+          "text": "It preserves nutrient delivery while reducing oxygen only",
+          "evidence": "That omits the nutrient loss shown with ischemia."
+        },
+        {
+          "id": "o1",
+          "text": "It reduces delivery of both oxygen and nutrients",
+          "evidence": "Loss of blood supply reduces oxygen and glucose/nutrients."
+        },
+        {
+          "id": "o3",
+          "text": "It increases glucose delivery while reducing oxygen",
+          "evidence": "The diagram shows decreased glucose."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Ischemia is loss of blood supply, so oxygen and nutrients decrease together.",
+        "ar": "Ischemia هي فقدان التروية، ولذلك ينقص الأكسجين والمغذيات معاً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 14, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp14–15 show blood-flow loss reducing oxygen and nutrient/glucose delivery together, compared with oxygen deficiency. No universal disease-frequency claim added. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-aging-mechanisms",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p017-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Match the aging pathway to its immediate consequence.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "DNA repair defects",
+          "right": "Accumulation of mutations",
+          "evidence": "The intrinsic branch connects these."
+        },
+        {
+          "id": "p2",
+          "left": "Genetic signaling abnormalities",
+          "right": "Abnormal cellular signaling",
+          "evidence": "The IGF1 example appears on this branch."
+        },
+        {
+          "id": "p3",
+          "left": "Free-radical damage with reduced proteasomal activity",
+          "right": "Accumulation of damaged proteins and organelles",
+          "evidence": "The extrinsic branch connects damage/removal failure to accumulation."
+        },
+        {
+          "id": "p4",
+          "left": "Replicative senescence",
+          "right": "Reduced ability to produce new cells",
+          "evidence": "This is explicitly shown before cellular aging."
+        }
+      ],
+      "explanation": {
+        "en": "Cellular aging integrates mutation accumulation, abnormal signaling, accumulated damaged components and reduced new-cell production.",
+        "ar": "تجمع Cellular aging تراكم الطفرات واضطراب الإشارات وتراكم المكونات التالفة وانخفاض إنتاج الخلايا الجديدة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 17; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p17 clearly connects repair defects/mutations, signaling abnormalities, damaged-component accumulation and replicative senescence. Four unique branch mappings, not a forced order. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-organelle-targets",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p019-content",
+        "ch1-part-02-p022-content",
+        "ch1-part-02-p023-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 23
+        }
+      ],
+      "prompt": "Match each injured target to its consequence.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Mitochondrial injury",
+          "right": "Reduced ATP generation",
+          "evidence": "Mitochondrial damage decreases ATP."
+        },
+        {
+          "id": "p2",
+          "left": "Lysosomal membrane injury",
+          "right": "Enzymatic digestion of cellular components",
+          "evidence": "Lysosomal membrane injury releases digestive enzymes."
+        },
+        {
+          "id": "p3",
+          "left": "Plasma membrane injury",
+          "right": "Loss of cellular contents",
+          "evidence": "Plasma membrane injury allows components to escape."
+        },
+        {
+          "id": "p4",
+          "left": "Protein misfolding or DNA damage",
+          "right": "Activation of pro-apoptotic proteins",
+          "evidence": "The p23 pathway explicitly connects these."
+        }
+      ],
+      "explanation": {
+        "en": "Different targets produce different consequences: energy failure, enzymatic digestion, content leakage and pro-apoptotic signaling.",
+        "ar": "تولد الأهداف المختلفة فشل الطاقة والهضم الإنزيمي وتسرب المحتويات وتنشيط الإشارات المحفزة لـApoptosis."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 19, 22, 23; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp22–23 support ATP failure, lysosomal digestion, plasma-content loss and pro-apoptotic signaling from different targets. Multiple effects of mitochondrial injury are not denied. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-calcium-enzyme-effects",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p024-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 24
+        }
+      ],
+      "prompt": "Match each calcium-activated enzyme to its damaging effect.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Phospholipase",
+          "right": "Loss of membrane phospholipids",
+          "evidence": "Phospholipase reduces phospholipids."
+        },
+        {
+          "id": "p2",
+          "left": "Protease",
+          "right": "Disruption of membrane and cytoskeletal proteins",
+          "evidence": "Protease disrupts these proteins."
+        },
+        {
+          "id": "p3",
+          "left": "Endonuclease",
+          "right": "Nuclear damage",
+          "evidence": "Endonuclease is connected to nuclear damage."
+        },
+        {
+          "id": "p4",
+          "left": "ATPase",
+          "right": "ATP depletion",
+          "evidence": "ATPase activation consumes ATP in the diagram."
+        }
+      ],
+      "explanation": {
+        "en": "Increased calcium activates enzymes that damage membranes, proteins and nuclei and deplete ATP.",
+        "ar": "ينشط ارتفاع الكالسيوم إنزيمات تؤذي الأغشية والبروتينات والنوى وتستنزف ATP."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 24; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p24 supplies all four enzyme–effect mappings. Parallel outputs are matching rather than ordering. Uncertain chemical-species nomenclature is not used. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-atp-synthesis",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p025-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which pair supplies the two stated pathways of ATP synthesis?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Protein synthesis and lipid synthesis",
+          "evidence": "These consume ATP rather than naming the listed synthesis routes."
+        },
+        {
+          "id": "o4",
+          "text": "Lysosomal digestion and membrane leakage",
+          "evidence": "These are injury consequences."
+        },
+        {
+          "id": "o1",
+          "text": "Mitochondrial oxidative phosphorylation and anaerobic glycolysis",
+          "evidence": "These two pathways are listed."
+        },
+        {
+          "id": "o3",
+          "text": "Transport and maintenance of osmolarity",
+          "evidence": "These are ATP functions."
+        },
+        {
+          "id": "o5",
+          "text": "DNA damage and protein breakdown",
+          "evidence": "These are injury mechanisms."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "ATP is generated by mitochondrial oxidative phosphorylation and anaerobic glycolysis and supports transport, synthesis and osmolarity.",
+        "ar": "يتولد ATP عبر Mitochondrial oxidative phosphorylation وAnaerobic glycolysis ويدعم النقل والتصنيع والأسمولية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 25; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p25 explicitly distinguishes the two ATP synthesis routes from ATP-supported functions; all alternatives are adjacent functions or injury processes. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-mitochondrial-fates",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p026-content",
+        "ch1-part-02-p027-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "Which mitochondrial event is linked to apoptosis rather than ATP-failure necrosis?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Failure of oxidative phosphorylation as the sole event",
+          "evidence": "The apoptotic branch specifically involves pro-apoptotic protein leakage."
+        },
+        {
+          "id": "o4",
+          "text": "Mitochondrial dysfunction without protein release causing energy failure",
+          "evidence": "Energy failure is the necrosis branch shown."
+        },
+        {
+          "id": "o3",
+          "text": "Reduced ATP generation causing multiple abnormalities",
+          "evidence": "This is the ATP-failure necrosis branch."
+        },
+        {
+          "id": "o2",
+          "text": "Loss of membrane potential with inability to generate ATP",
+          "evidence": "This is the necrosis branch."
+        },
+        {
+          "id": "o1",
+          "text": "Release of cytochrome c and other pro-apoptotic proteins",
+          "evidence": "This is the apoptosis branch."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mitochondria contribute to necrosis through energy failure and to apoptosis through release of pro-apoptotic proteins.",
+        "ar": "تسهم الميتوكوندريا في Necrosis بفشل الطاقة، وفي Apoptosis بتحرير البروتينات المحفزة له."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 26, 27; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp26–27 distinguish pro-apoptotic-protein release from the diagrammed energy-failure necrosis branch. No claim that mitochondria have only one death role. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-atp-pump",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p028-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which consequence follows Na+ pump failure during ATP depletion?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Increased protein synthesis from ribosome detachment",
+          "evidence": "Ribosome detachment reduces protein synthesis."
+        },
+        {
+          "id": "o4",
+          "text": "Increased ATP synthesis with restored ion gradients",
+          "evidence": "ATP is decreased in this pathway."
+        },
+        {
+          "id": "o2",
+          "text": "Na+ and water efflux with cellular shrinkage",
+          "evidence": "This reverses the depicted movement."
+        },
+        {
+          "id": "o1",
+          "text": "Na+ and water influx with cellular swelling",
+          "evidence": "This follows pump reduction in the diagram."
+        },
+        {
+          "id": "o3",
+          "text": "Increased K+ influx with water efflux",
+          "evidence": "The diagram shows K efflux and water influx."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "ATP depletion impairs the Na+ pump, promoting Na+ and water entry, K+ loss and swelling.",
+        "ar": "يعطل نقص ATP مضخة Na+، فيزداد دخول الصوديوم والماء وفقد K+ وتحدث الوذمة الخلوية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p28 depicts Na/water influx, K loss and swelling after pump impairment. Reversed ion movements and separate ribosome branch are false for this stem. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-glycolysis-ph",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p028-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which paired changes follow increased anaerobic glycolysis during ATP depletion?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Unchanged pH with nuclear chromatin clumping",
+          "evidence": "The depicted intermediate is decreased pH."
+        },
+        {
+          "id": "o2",
+          "text": "Increased pH with nuclear chromatin clumping",
+          "evidence": "The pH direction is reversed."
+        },
+        {
+          "id": "o1",
+          "text": "Decreased pH with nuclear chromatin clumping",
+          "evidence": "p28 connects lower pH to chromatin clumping."
+        },
+        {
+          "id": "o3",
+          "text": "Decreased pH with nuclear chromatin dispersion",
+          "evidence": "The chromatin change is clumping, not dispersion."
+        },
+        {
+          "id": "o4",
+          "text": "Increased pH with nuclear chromatin dispersion",
+          "evidence": "Both depicted directions are reversed."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Increased anaerobic glycolysis lowers pH, which is linked to clumping of nuclear chromatin.",
+        "ar": "يخفض ارتفاع Anaerobic glycolysis درجة pH، ويرتبط ذلك بتكتل Nuclear chromatin."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p28 shows glycolysis increase -> pH decrease -> chromatin clumping. Rebuilt all options as parallel pH/chromatin pairs and removed key-length and unrelated-branch cues. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-ribosomes-fat",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p028-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 28
+        }
+      ],
+      "prompt": "Which sequence connects ATP depletion to lipid deposition?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Increased oxidative phosphorylation followed by ATP gain",
+          "evidence": "The initiating sequence is decreased phosphorylation and ATP."
+        },
+        {
+          "id": "o2",
+          "text": "Ribosome attachment followed by increased protein synthesis",
+          "evidence": "This reverses both changes."
+        },
+        {
+          "id": "o1",
+          "text": "Ribosome detachment followed by reduced protein synthesis",
+          "evidence": "This is the stated sequence."
+        },
+        {
+          "id": "o3",
+          "text": "Higher pH followed by increased glycogen",
+          "evidence": "Both directions contradict the diagram."
+        },
+        {
+          "id": "o4",
+          "text": "Na+ extrusion followed by cellular shrinkage",
+          "evidence": "The depicted pump-failure route produces influx/swelling."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Ribosome detachment reduces protein synthesis and is connected to lipid deposition.",
+        "ar": "يقلل انفصال Ribosomes تصنيع البروتين، ويرتبط في المسار بترسب الدهون."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 28; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p28 directly links detachment to reduced synthesis and lipid deposition; alternative branches/reversals do not provide this supported connection. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-02-sod-role",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p030-content",
+        "ch1-part-02-p032-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "Which conversion is attributed to superoxide dismutase?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Hydrogen peroxide to water",
+          "evidence": "Catalase/glutathione peroxidase remove H2O2."
+        },
+        {
+          "id": "o5",
+          "text": "Membrane-lipid oxidation to peroxidation products",
+          "evidence": "p32 links ROS-induced lipid peroxidation to membrane damage rather than SOD catalysis."
+        },
+        {
+          "id": "o1",
+          "text": "Superoxide to hydrogen peroxide",
+          "evidence": "SOD is labelled on this conversion."
+        },
+        {
+          "id": "o4",
+          "text": "Superoxide plus NO to peroxynitrite",
+          "evidence": "p30 shows this NO-associated route separately from the SOD conversion."
+        },
+        {
+          "id": "o3",
+          "text": "Hydrogen peroxide to hydroxyl radical through Fenton chemistry",
+          "evidence": "That is labelled Fenton reaction."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "SOD converts superoxide to H2O2; catalase and glutathione peroxidase remove H2O2.",
+        "ar": "يحول SOD جذر Superoxide إلى H2O2، وتزيل Catalase وGlutathione peroxidase بيروكسيد الهيدروجين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 30, 32, 33; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp30,32 show superoxide -> H2O2 via SOD, H2O2 removal via catalase/peroxidase, Fenton hydroxyl production and NO/peroxynitrite. Replaced cytochrome-to-body nonsense distractor with supported adjacent ROS chemistry. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-ros-target-effects",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p031-content",
+        "ch1-part-02-p032-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 31
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 32
+        }
+      ],
+      "prompt": "Match each ROS target to its injury effect.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Membrane lipids",
+          "right": "Peroxidation and membrane damage",
+          "evidence": "The membrane target is lipid peroxidation."
+        },
+        {
+          "id": "p2",
+          "left": "Proteins",
+          "right": "Modification, breakdown or misfolding",
+          "evidence": "ROS alters protein structure."
+        },
+        {
+          "id": "p3",
+          "left": "DNA",
+          "right": "Damage and mutation",
+          "evidence": "DNA injury is connected to mutations."
+        }
+      ],
+      "explanation": {
+        "en": "ROS damages lipids, proteins and DNA through distinct processes.",
+        "ar": "تؤذي ROS الدهون والبروتينات وDNA عبر آليات مختلفة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 31, 32; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp31–32 show membrane-lipid peroxidation, protein modification/breakdown/misfolding and DNA mutation. Mapping unique and Arabic retains targets. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-antioxidant-action",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p033-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 32
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 33
+        }
+      ],
+      "prompt": "How can endogenous or exogenous antioxidants limit free-radical injury?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Increasing protein oxidation and preventing radical decay",
+          "evidence": "Protein modification is an injury effect and radicals normally decay; these actions do not remove the injury."
+        },
+        {
+          "id": "o2",
+          "text": "Increasing radical formation and increasing lipid peroxidation",
+          "evidence": "p32 shows excess production/lipid peroxidation as injury, opposite to antioxidant protection."
+        },
+        {
+          "id": "o3",
+          "text": "Reducing radical scavenging and prolonging radical persistence",
+          "evidence": "Reduced removal favors accumulation rather than protection."
+        },
+        {
+          "id": "o1",
+          "text": "Blocking radical formation or scavenging formed radicals",
+          "evidence": "p33 explicitly states these two protective actions."
+        },
+        {
+          "id": "o5",
+          "text": "Increasing H2O2 formation while inhibiting peroxide removal",
+          "evidence": "p32 shows catalase/peroxidase-mediated removal as protection, not its inhibition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Antioxidants may block free-radical formation or scavenge radicals already formed.",
+        "ar": "قد تمنع Antioxidants تكون الجذور الحرة أو تلتقط الجذور المتكونة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 32, 33; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp32–33 state formation blocking or scavenging. Replaced nonsensical protein-to-DNA/replacement claims with source-neighbor oxidative-protection reversals; each alternative rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-chemical-direct",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p034-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "Which event illustrates direct chemical injury by mercuric chloride?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Increased synthesis of membrane ATPase",
+          "evidence": "The slide instead describes inhibition of ATPase-dependent transport."
+        },
+        {
+          "id": "o5",
+          "text": "Reduced permeability after sulfhydryl binding",
+          "evidence": "The slide states increased permeability."
+        },
+        {
+          "id": "o1",
+          "text": "Binding to sulfhydryl groups of membrane proteins",
+          "evidence": "This inhibits ATPase-dependent transport and increases permeability."
+        },
+        {
+          "id": "o3",
+          "text": "Conversion of acetaminophen to a reactive metabolite",
+          "evidence": "This is an activation-dependent example."
+        },
+        {
+          "id": "o2",
+          "text": "Conversion by P450 to CCl3 radical",
+          "evidence": "This is the CCl4 activation example."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mercury binds membrane-protein sulfhydryl groups, inhibiting ATPase-dependent transport and increasing permeability.",
+        "ar": "يرتبط الزئبق بمجموعات Sulfhydryl في بروتينات الغشاء، فيثبط النقل المعتمد على ATPase ويزيد النفاذية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 34, 35, 36; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p34 supplies membrane sulfhydryl binding, ATPase transport inhibition and increased permeability; activation-dependent examples are adjacent mechanisms on pp35–36. Added p36 for CCl3 alternative. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-02-chemical-activation",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-02",
+      "conceptIds": [
+        "ch1-part-02-p035-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 33
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 34
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "ch1-part-02",
+          "pdfPage": 36
+        }
+      ],
+      "prompt": "What distinguishes activation-dependent chemical injury from direct injury?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Inactive parent -> direct sulfhydryl binding -> transport inhibition",
+          "evidence": "Direct critical-molecule binding is the other injury mechanism on p34, not metabolic activation."
+        },
+        {
+          "id": "o4",
+          "text": "Inactive parent -> apoprotein synthesis increase -> improved lipid export",
+          "evidence": "p36 instead shows reduced apoprotein synthesis downstream of membrane injury."
+        },
+        {
+          "id": "o5",
+          "text": "Inactive parent -> membrane permeability reduction -> calcium entry reduction",
+          "evidence": "p36 shows membrane injury and increased calcium entry after toxic activation."
+        },
+        {
+          "id": "o1",
+          "text": "Inactive parent -> P450 conversion -> reactive toxic metabolite",
+          "evidence": "p35 defines the activation-dependent route."
+        },
+        {
+          "id": "o3",
+          "text": "Inactive parent -> radical scavenging -> reduced oxidative injury",
+          "evidence": "Scavenging is protective, not conversion to a toxic metabolite."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Some chemicals require P450 conversion in smooth ER before reactive toxic metabolites cause injury.",
+        "ar": "تحتاج بعض المواد إلى تحويل عبر P450 في Smooth ER قبل أن تسبب مستقلباتها السامة التفاعلية الأذية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 33, 34, 35, 36; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp34–36 distinguish direct binding from activation of an inactive parent in smooth ER by P450. Rebuilt all options as parallel mechanistic sequences and removed universal wording. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-02-p020-content",
+      "reason": "PDF p20 is a repeated list of biochemical injury mechanisms. Its distinct relationships are assessed in organelle-targets (pp22–23), calcium-enzyme-effects (p24), ATP consequences (p28) and ros-target-effects (pp31–32); no duplicate list-recognition item retained."
+    },
+    {
+      "conceptId": "ch1-part-02-p029-content",
+      "reason": "The unpaired-outer-electron definition is preserved on PDF p29, but its candidate had implausible electron/proton distractors and was removed. The adjacent combined free-radical/ROS list and reactive-nitrite wording remain source restrictions; this page group is explicitly unassessed rather than counted as covered."
+    },
+    {
+      "conceptId": "ch1-part-02-p036-content",
+      "reason": "PDF p36 CCl4-to-fatty-liver route repeats the ribosome-detachment/protein-synthesis/lipid-deposition distinction assessed by ch1-part-02-ribosomes-fat on p28. The direct CCl3-species candidate was removed for implausible alternatives. Full p36 pathway remains in the source; no duplicate scored item retained."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 29,
+    "acceptedCount": 20,
+    "removedCount": 9,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "lectureId": "ch1-part-01",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-01-pathology-scope",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p002-content",
+        "ch1-part-01-p003-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 3
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What is the central scope of pathology?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Treatment decisions based on symptoms alone",
+          "evidence": "Diagnosis also uses pathology tests, and pathology spans basic and clinical science."
+        },
+        {
+          "id": "o3",
+          "text": "Abnormalities causing loss of normal health",
+          "evidence": "This defines disease rather than the discipline studying it."
+        },
+        {
+          "id": "o2",
+          "text": "The sequence of events in one disease mechanism",
+          "evidence": "This specifically defines pathogenesis, a component of pathology."
+        },
+        {
+          "id": "o1",
+          "text": "Structural and functional changes underlying disease",
+          "evidence": "Pathology studies disease patterns, causes, mechanisms and effects in cells, tissues and organs."
+        },
+        {
+          "id": "o4",
+          "text": "Structural alterations visible in diseased organs",
+          "evidence": "This describes morphologic changes, only part of pathology."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pathology bridges basic science and clinical practice by studying structural and functional changes underlying disease.",
+        "ar": "يربط Pathology العلوم الأساسية بالممارسة السريرية بدراسة التغيرات البنيوية والوظيفية التي تقوم عليها الأمراض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 3, 4, 10, 12, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. Definition and bridging role supported on pp2–3; disease/pathogenesis/morphology alternatives represent narrower adjacent definitions. Added p16 for the diagnosis alternative. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-01-disease-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p004-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Which description defines disease?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "The scientific study of disease mechanisms",
+          "evidence": "This describes pathology."
+        },
+        {
+          "id": "o5",
+          "text": "The functional consequences of morphologic changes",
+          "evidence": "This describes clinical significance."
+        },
+        {
+          "id": "o4",
+          "text": "The structural changes induced by disease",
+          "evidence": "This describes morphology."
+        },
+        {
+          "id": "o1",
+          "text": "An abnormality causing loss of normal health",
+          "evidence": "The disease definition includes structural or functional abnormality."
+        },
+        {
+          "id": "o3",
+          "text": "The sequence from stimulus to disease expression",
+          "evidence": "This describes pathogenesis."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Disease is an abnormality of the body causing loss of normal health and may involve structural or functional disturbance.",
+        "ar": "Disease هو شذوذ في الجسم يؤدي لفقدان الصحة الطبيعية، وقد يكون بنيوياً أو وظيفياً."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 4, 10, 12, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p4 supports abnormality/loss of health, including structural or functional disturbance. All four alternatives identify different adjacent concepts; EN/AR retain the definition. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-acute-chronic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p005-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 5
+        }
+      ],
+      "prompt": "Which duration pairing correctly distinguishes acute from chronic disease?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "Acute: determined by severity; chronic: determined by severity",
+          "evidence": "Severity is a separate mild/moderate/severe classification."
+        },
+        {
+          "id": "o3",
+          "text": "Acute: days to weeks; chronic: days to weeks",
+          "evidence": "This repeats the acute range for chronic disease."
+        },
+        {
+          "id": "o2",
+          "text": "Acute: months to years; chronic: days to weeks",
+          "evidence": "The duration categories are reversed."
+        },
+        {
+          "id": "o4",
+          "text": "Acute: months to years; chronic: months to years",
+          "evidence": "This repeats the chronic range for acute disease."
+        },
+        {
+          "id": "o1",
+          "text": "Acute: days to weeks; chronic: months to years",
+          "evidence": "These are the stated duration ranges."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Acute disease is short, lasting days to weeks; chronic disease lasts months to years.",
+        "ar": "المرض Acute قصير ويمتد أياماً إلى أسابيع، أما Chronic فيمتد أشهراً إلى سنوات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 5; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p5 supplies days–weeks versus months–years and separately lists severity. Each duration alternative was checked; no numerical range invented. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-etiology-question",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p008-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Which question is answered by etiology?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "What caused the disease?",
+          "evidence": "Etiology concerns disease causes."
+        },
+        {
+          "id": "o5",
+          "text": "Which diagnosis fits the signs and tests?",
+          "evidence": "This concerns diagnosis."
+        },
+        {
+          "id": "o4",
+          "text": "What functional consequences are manifested?",
+          "evidence": "This concerns clinical significance."
+        },
+        {
+          "id": "o2",
+          "text": "How did the disease develop?",
+          "evidence": "This concerns pathogenesis."
+        },
+        {
+          "id": "o3",
+          "text": "What structural alterations occurred?",
+          "evidence": "This concerns morphology."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Etiology identifies the cause; pathogenesis describes the mechanism and sequence of development.",
+        "ar": "تحدد Etiology السبب، بينما تصف Pathogenesis آلية تطور المرض وتسلسل أحداثه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 10, 12, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p8 cause differs from p10 mechanism, p12 morphology, p15 clinical consequences and p16 diagnosis. Options have parallel question form. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-pathogenesis-sequence",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What distinguishes pathogenesis from etiology?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "It records gross and microscopic structural changes",
+          "evidence": "This is morphology."
+        },
+        {
+          "id": "o4",
+          "text": "It records the functional consequences as clinical features",
+          "evidence": "This is clinical significance."
+        },
+        {
+          "id": "o5",
+          "text": "It combines pathology tests with symptoms to identify disease",
+          "evidence": "This is diagnosis."
+        },
+        {
+          "id": "o2",
+          "text": "It identifies whether the cause is acquired or genetic",
+          "evidence": "This is etiologic classification."
+        },
+        {
+          "id": "o1",
+          "text": "It follows events from the initial stimulus to disease expression",
+          "evidence": "Pathogenesis is the sequence and mechanism of development."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Pathogenesis explains how disease develops, from the initial stimulus through the cellular and tissue response.",
+        "ar": "تشرح Pathogenesis كيف يتطور المرض من المنبه الأول عبر استجابة الخلايا والأنسجة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 10, 12, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 supplies the initial-stimulus-to-expression sequence; four alternatives concern other disease aspects. Explanation preserves direction in Arabic. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-morphology",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "Gross and microscopic structural alterations belong to which aspect of disease?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Etiology",
+          "evidence": "Etiology concerns causes."
+        },
+        {
+          "id": "o4",
+          "text": "Clinical significance",
+          "evidence": "Clinical significance concerns functional consequences."
+        },
+        {
+          "id": "o3",
+          "text": "Pathogenesis",
+          "evidence": "Pathogenesis concerns development mechanisms."
+        },
+        {
+          "id": "o1",
+          "text": "Morphologic changes",
+          "evidence": "Morphology concerns structural alterations in cells and organs."
+        },
+        {
+          "id": "o5",
+          "text": "Diagnosis",
+          "evidence": "Diagnosis identifies disease using features and tests."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Morphologic changes are the structural alterations induced by disease, at gross and microscopic levels.",
+        "ar": "Morphologic changes هي التغيرات البنيوية التي يسببها المرض على المستويين العياني والمجهري."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 10, 12, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 explicitly includes gross and microscopic structure. Added exact neighboring-definition pages already cited; no unshown image identification required. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-clinical-significance",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p015-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "The functional consequences of morphologic changes are expressed as what?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Pathogenesis, including the stimulus-response sequence",
+          "evidence": "This explains development."
+        },
+        {
+          "id": "o2",
+          "text": "Etiologic factors, including acquired and genetic causes",
+          "evidence": "These explain cause rather than functional consequences."
+        },
+        {
+          "id": "o5",
+          "text": "Pathology test results without symptoms or signs",
+          "evidence": "Diagnosis combines test results with symptoms and signs."
+        },
+        {
+          "id": "o1",
+          "text": "Clinical manifestations, including symptoms and signs",
+          "evidence": "Clinical features are functional consequences."
+        },
+        {
+          "id": "o4",
+          "text": "Gross and microscopic structural alterations",
+          "evidence": "These are the morphology itself."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Clinical significance links structural change to functional consequences manifested as symptoms and signs.",
+        "ar": "تربط Clinical significance التغير البنيوي بنتائجه الوظيفية التي تظهر كأعراض وعلامات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 10, 12, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p15 equates clinical features with functional consequences and includes symptoms/signs; the alternatives stay within adjacent disease aspects. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-general-systemic",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p019-content",
+        "ch1-part-01-p020-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 20
+        }
+      ],
+      "prompt": "Which pairing correctly distinguishes general from systemic pathology?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "General: endocrine diseases; systemic: universal injury reactions",
+          "evidence": "These categories are reversed."
+        },
+        {
+          "id": "o4",
+          "text": "General: gastrointestinal diseases; systemic: inflammation mechanisms",
+          "evidence": "Organ-specific disease is systemic; basic inflammatory mechanisms are general."
+        },
+        {
+          "id": "o1",
+          "text": "General: basic tissue reactions; systemic: specific diseases of organs",
+          "evidence": "This matches the two definitions."
+        },
+        {
+          "id": "o3",
+          "text": "General: cardiovascular diseases; systemic: cell adaptation principles",
+          "evidence": "These examples are reversed."
+        },
+        {
+          "id": "o2",
+          "text": "General: renal diseases; systemic: basic tissue reactions",
+          "evidence": "Renal disease is a systemic example and basic reactions are general."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "General pathology studies basic cellular and tissue reactions; systemic pathology describes diseases in individual organs and systems.",
+        "ar": "يدرس General pathology الاستجابات الأساسية للخلايا والأنسجة، ويصف Systemic pathology أمراض الأعضاء والأجهزة المحددة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 19, 20; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp19–20 establish basic reactions versus individual-organ disease. Reversed organ/principle pairings are false within these definitions. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-subdivision-definitions",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p022-content",
+        "ch1-part-01-p023-content",
+        "ch1-part-01-p025-content",
+        "ch1-part-01-p026-content",
+        "ch1-part-01-p027-content",
+        "ch1-part-01-p028-content",
+        "ch1-part-01-p029-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 26
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 28
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Match each pathology subdivision to its focus or illustrated investigation.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Histopathology",
+          "right": "Tissues",
+          "evidence": "p22: examination of tissues."
+        },
+        {
+          "id": "p2",
+          "left": "Cytopathology",
+          "right": "Isolated cells",
+          "evidence": "p23: examination of isolated cells."
+        },
+        {
+          "id": "p3",
+          "left": "Hematology",
+          "right": "Cellular and coagulable blood components",
+          "evidence": "p25 defines blood cellular/coagulation disorders."
+        },
+        {
+          "id": "p4",
+          "left": "Forensic pathology",
+          "right": "Legal applications and suspicious deaths",
+          "evidence": "p26 specifies legal purposes/autopsy."
+        },
+        {
+          "id": "p5",
+          "left": "Chemical pathology",
+          "right": "Biochemical testing illustrated by AST, ALT and LDH",
+          "evidence": "p27 Chemical pathology is illustrated with a hepatocellular enzyme table naming AST, ALT and LDH."
+        },
+        {
+          "id": "p6",
+          "left": "Immunology",
+          "right": "Specific defense mechanisms and their diseases",
+          "evidence": "p28 defines specific defense."
+        },
+        {
+          "id": "p7",
+          "left": "Microbiology",
+          "right": "Infectious diseases",
+          "evidence": "p29 defines infection study."
+        }
+      ],
+      "explanation": {
+        "en": "The subdivisions differ by their material or purpose: tissues, cells, blood, legal investigation, biochemical disorders, immunity and infection.",
+        "ar": "تختلف الفروع بحسب المادة أو الغرض: الأنسجة، والخلايا، والدم، والتحقيق القانوني، والاضطرابات الكيميائية الحيوية، والمناعة، والعدوى."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 22, 23, 25, 26, 27, 28, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. All seven mappings checked visually. Replaced unsupported body-fluid/biochemical-disorder wording for chemical pathology with its actually illustrated AST/ALT/LDH tests on p27. Unique mapping retained. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-01-fna-field",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p023-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 22
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 23
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 25
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 27
+        },
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Fine needle aspiration and Pap smears are examples of which diagnostic subdivision?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Chemical pathology",
+          "evidence": "This investigates biochemical disorders."
+        },
+        {
+          "id": "o2",
+          "text": "Histopathology",
+          "evidence": "This examines tissues and tissue sections."
+        },
+        {
+          "id": "o5",
+          "text": "Microbiology",
+          "evidence": "This studies infectious diseases."
+        },
+        {
+          "id": "o1",
+          "text": "Cytopathology",
+          "evidence": "Both are the supplied isolated-cell examples."
+        },
+        {
+          "id": "o3",
+          "text": "Hematology",
+          "evidence": "This studies blood cellular/coagulation disorders."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "FNA and Pap smears provide isolated cells for cytopathologic examination.",
+        "ar": "توفر FNA وPap smear خلايا منفردة لفحص Cytopathology."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 22, 23, 25, 27, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p23 explicitly gives FNA/Pap smears as isolated-cell examples. Each alternative is checked against the corresponding subdivision page; distinct example application. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-01-diagnostic-levels",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-01",
+      "conceptIds": [
+        "ch1-part-01-p017-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-01",
+          "pdfPage": 17
+        }
+      ],
+      "prompt": "Which test belongs to special investigations rather than gross or tissue examination?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "A microscopic tissue section",
+          "evidence": "This is the tissue level."
+        },
+        {
+          "id": "o2",
+          "text": "A surgical specimen viewed macroscopically",
+          "evidence": "This is the macroscopic level."
+        },
+        {
+          "id": "o1",
+          "text": "Immunohistochemistry and tumor markers",
+          "evidence": "These are explicitly special investigations."
+        },
+        {
+          "id": "o5",
+          "text": "Examination of a patient at the gross level",
+          "evidence": "This is listed under gross pathology."
+        },
+        {
+          "id": "o4",
+          "text": "A gross autopsy examination",
+          "evidence": "This is the gross level."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Immunohistochemistry and tumor markers are the listed special investigations.",
+        "ar": "تندرج Immunohistochemistry وTumor markers ضمن الفحوص الخاصة المذكورة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 17; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p17 expressly places immunohistochemistry/tumor markers under special investigations; other options name gross or tissue examinations. Removed source-framed wording. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-01-p016-content",
+      "reason": "PDF p16 states that symptoms, signs and pathology test results support diagnosis, but the candidate only contrasts arbitrary exclusions. Removed as weak; the complete statement remains in the detailed source and is not represented as assessed."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 15,
+    "acceptedCount": 11,
+    "removedCount": 4,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}

@@ -1,0 +1,1625 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "lectureId": "glycolysis-and-fermentation",
+  "title": "Glycolysis and Fermentation",
+  "scope": "Midterm supplied PDFs only",
+  "sourcePreparationBy": "Codex chapter writing agent write_glycolysis",
+  "pages": [
+    {
+      "pdfPage": 1,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Course cover",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n     Metabolic\nBiochemistry",
+      "figureNotes": "The image supplies the full cover: Al-Quds University; Dr. Osama Essawi; Faculty of Medicine; Department of Biochemistry & Molecular Biology; Metabolic Biochemistry; Course Number 6105212. Header: Dr. Osama Essawi 2025.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 2,
+      "printedSlide": null,
+      "kind": "cover",
+      "title": "Chapter 14: Glycolysis and Fermentation",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nChapter 14",
+      "figureNotes": "Image-only chapter title: Glycolysis and Fermentation. Chapter 14. Book cover: Lehninger Principles of Biochemistry, Eighth Edition, David L. Nelson and Michael M. Cox. This pictured textbook is part of the supplied slide, not an additional teaching authority.",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 3,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Central Importance of Glucose",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n        Central Importance of Glucose\n\n⬣   Glucose is an excellent fuel.\n          – Yields good amount of energy upon oxidation\n          (ΔG complete oxidation = –2840 kJ/mol)\n          – Can be efficiently stored in the polymeric form\n          – Many organisms and tissues can meet their\n          energy needs on glucose only.\n\n⬣   Glucose is a versatile biochemical precursor.\n          – Many organisms can use glucose to generate:\n            ■   All the amino   acids\n            ■   Membrane      lipids\n            ■   Nucleotides    inDNA   and  RNA\n            ■   Cofactors   needed   for the  metabolism",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glucose-fuel",
+          "label": "Glucose as fuel",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Complete oxidation ΔG −2840 kJ/mol; polymeric storage; glucose supports energy needs of many organisms and tissues."
+        },
+        {
+          "id": "glycolysis-and-fermentation-glucose-precursor",
+          "label": "Glucose as biochemical precursor",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Many organisms use glucose to generate amino acids, membrane lipids, nucleotides and metabolic cofactors."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 4,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Major Pathways of Glucose Utilization",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                        Major Pathways of Glucose Utilization\n\n⬣   Synthesis of Structural Polysaccharides\n               -used for generation of alternate carbohydrates used in cell\n               walls of bacteria, fungi, and plants\n\n⬣   Storage\n               – can be stored in the polymeric form (starch, glycogen)\n               – used for later energy needs\n\n⬣   Energy production\n               – generates energy via oxidation of glucose\n               – short-term energy needs\n\n⬣   Production of NADPH and pentoses\n               – generates NADPH for use in relieving oxidative stress and\n               synthesizing fatty acids\n               – generates pentose phosphates for use in DNA/RNA\n               biosynthesis",
+      "figureNotes": "Figure: central Glucose branches to extracellular matrix and cell wall polysaccharides (synthesis of structural polymers); glycogen, starch, sucrose (storage); ribose 5-phosphate (oxidation via pentose phosphate pathway); pyruvate (oxidation via glycolysis).",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glucose-fates",
+          "label": "Four major glucose uses",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Structural polysaccharides, polymeric storage, energy production and NADPH/pentose production."
+        },
+        {
+          "id": "glycolysis-and-fermentation-pentose-pathway",
+          "label": "NADPH and pentoses",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "NADPH supports relief of oxidative stress and fatty acid synthesis; pentose phosphates support DNA/RNA biosynthesis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 5,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Cellular Respiration (Glucose Catabolism)",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n             Cellular Respiration (Glucose Catabolism)\n\n  ⬣    Cellular respiration, is a multi-step process that converts glucose into energy (ATP)\n       through different biochemical pathways. It consists of four main stages:\n\n1. Glycolysis (Anaerobic Respiration)\n-   Occurs in the cytoplasm of the cell.\n-   Break 1 glucose molecule into 2 pyruvate molecules.\n-   Produces a net of 2 ATP and 2 NADH molecules.\n\n2. Formation of Acetyl Coenzyme A\n-   Occurs in the mitochondrial matrix.\n-   Each pyruvate (C₃) is converted into acetyl-CoA (C₂)\n-   Generates 2 NADH from NAD⁺.\n\n3. Krebs Cycle (Citric Acid Cycle) –  Aerobic Process\n-   Takes place in the mitochondrial matrix.\n-   Produces a net of 2 ATP, 6 NADH and 2 FADH₂  molecules.\n\n4. Electron Transport Chain (ETC) -    Oxidative Phosphorylation\n-   Occurs in the inner mitochondrial membrane.\n-   NADH and FADH₂ donate electrons to the ETC generating about 32-34 ATP per glucose.",
+      "figureNotes": "Figure labels: CYTOPLASM; mitochondrion; electron shuttles across membrane. Glycolysis: glucose → 2 pyruvate, +2 ATP by substrate-level phosphorylation and 2 NADH. Pyruvate oxidation → 2 acetyl-CoA, 2 NADH. Citric acid cycle: 6 NADH, 2 FADH2, +2 ATP by substrate-level phosphorylation. Oxidative phosphorylation (electron transport and chemiosmosis): +about 28 ATP. Maximum per glucose: about 32 ATP. Cytosolic NADH shuttle labels show 2 NADH or 2 FADH2 routes. This conflicts with the bullet assigning about 32–34 ATP to ETC; both are retained, numerical claim not scored.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-respiration-stages",
+          "label": "Cellular respiration stages and compartments",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glycolysis in cytoplasm; acetyl-CoA formation and citric acid cycle in mitochondrial matrix; ETC at inner mitochondrial membrane."
+        },
+        {
+          "id": "glycolysis-and-fermentation-respiration-yield-conflict",
+          "label": "Respiration ATP-yield inconsistency",
+          "priority": "supporting",
+          "rationale": "Named-only detail or uncertain source claim retained without scoring.",
+          "detail": "Text ETC about 32–34 ATP versus figure oxidative phosphorylation about 28 ATP and total about 32 ATP."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-ATP-YIELD",
+          "description": "Text assigns ETC 32–34 ATP, embedded figure about28 oxidative ATP/about32 total. Do not score disputed numerical yield.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-respiration-yield-conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 6,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycolysis: Importance",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                                     Glycolysis: Importance\n\n⬣  Glycolysis is a nearly universal 10-step metabolic pathway by which a molecule of\n   glucose is converted in a series of enzyme-catalyzed reactions to yield two molecules\n   of the three-carbon compound pyruvate\n           Pyruvate can be further aerobically oxidized.\n           Pyruvate can be used as a precursor in biosynthesis.\n\n⬣  Some of the free energy is captured by the synthesis of ATP                 and NADH.\n\n⬣  The glycolytic breakdown of glucose is the sole source of metabolic energy in some\n            mammalian tissues and cell types",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glycolysis-definition",
+          "label": "Glycolysis definition",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Ten enzyme-catalyzed reactions convert one glucose to two three-carbon pyruvate; ATP and NADH capture energy."
+        },
+        {
+          "id": "glycolysis-and-fermentation-pyruvate-uses",
+          "label": "Pyruvate uses",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate may undergo further aerobic oxidation or provide biosynthetic precursor."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 7,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycolysis: The Preparatory Phase",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                   Glycolysis: The Preparatory Phase\n\n⬣  In the preparatory phase of Glycolysis:\n\n      –    Two ATP molecules are\n           consumed to raise the free\n           energy ∆G of the intermediates.\n\n      –    For each molecule of glucose\n           that passes through the\n           preparatory phase, two\n           molecules of glyceraldehyde 3-\n           phosphate are formed.",
+      "figureNotes": "Preparatory-phase figure sequence: glucose —(hexokinase; ATP→ADP; first priming reaction)→ glucose 6-phosphate —(phosphohexose isomerase)→ fructose 6-phosphate —(phosphofructokinase-1; ATP→ADP; second priming reaction)→ fructose 1,6-bisphosphate —(aldolase; cleavage of 6-carbon sugar phosphate to 3-carbon sugar phosphates)→ glyceraldehyde 3-phosphate + dihydroxyacetone phosphate —(triose phosphate isomerase)→ glyceraldehyde 3-phosphate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-preparatory-investment",
+          "label": "Preparatory phase investment",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Two ATP consumed per glucose; two glyceraldehyde 3-phosphate formed."
+        },
+        {
+          "id": "glycolysis-and-fermentation-preparatory-sequence",
+          "label": "Preparatory reaction order",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Hexokinase, phosphohexose isomerase, PFK-1, aldolase and triose phosphate isomerase form the first five steps."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 8,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycolysis: The Payoff Phase",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                        Glycolysis: The Payoff Phase\n\n⬣  The payoff phase yields:\n\n       –    Energy is conserved in the payoff\n            phase as 4 ATP molecules and 2\n            NADH molecules are formed (a  net\n            of 2 ATP and 2 NADH molecules)\n\n       –    Two molecules of 1,3-\n            bisphosphoglycerate are converted\n            to two molecules of pyruvate.",
+      "figureNotes": "Payoff figure: (2) glyceraldehyde 3-phosphate —(glyceraldehyde 3-phosphate dehydrogenase; 2 Pi + 2 NAD+ → 2 NADH + 2 H+; oxidation and phosphorylation)→ (2) 1,3-bisphosphoglycerate —(phosphoglycerate kinase; 2 ADP→2 ATP; first ATP-forming reaction, substrate-level phosphorylation)→ (2) 3-phosphoglycerate —(phosphoglycerate mutase)→ (2) 2-phosphoglycerate —(enolase; 2 H2O released)→ (2) phosphoenolpyruvate —(pyruvate kinase; 2 ADP→2 ATP; second ATP-forming reaction, substrate-level phosphorylation)→ (2) pyruvate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-payoff-yield",
+          "label": "Payoff phase output",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Four ATP and two NADH formed per glucose; net pathway yield two ATP and two NADH."
+        },
+        {
+          "id": "glycolysis-and-fermentation-payoff-sequence",
+          "label": "Payoff reaction order",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glyceraldehyde 3-phosphate dehydrogenase, phosphoglycerate kinase, phosphoglycerate mutase, enolase, pyruvate kinase."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 9,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Noteworthy Chemical Transformations of Glycolysis",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nNoteworthy Chemical Transformations of Glycolysis\n\n⬣   In the sequential reactions of glycolysis, three types of\n    chemical transformations are particularly noteworthy:\n\n       1.   Degradation of the carbon skeleton of glucose to yield\n            pyruvate\n\n       2.  Phosphorylation of ADP to ATP by compounds with high\n           phosphoryl group transfer potential, formed during\n           glycolysis\n\n       3.   Transfer of a hydride ion to NAD+, forming NADH",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glycolysis-transformations",
+          "label": "Three glycolytic transformations",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucose carbon skeleton degradation; ADP phosphorylation via high-transfer-potential intermediates; hydride transfer to NAD+ forming NADH."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 10,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Importance of Phosphorylated Intermediates",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n           Importance of Phosphorylated Intermediates\n\n⬣   Each of the nine glycolytic intermediates between\n   glucose and pyruvate is phosphorylated. The\n   phosphoryl groups have three functions.\n\n      –    Prevent glycolytic intermediates from\n           leaving the cell\n      –    Serve as essential components in the\n           enzymatic conservation of metabolic energy\n      –    Lower the activation energy and increase\n           the specificity of the enzymatic reactions",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-phosphate-functions",
+          "label": "Functions of intermediate phosphate groups",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Retain intermediates in cell, conserve metabolic energy, lower activation energy and increase enzyme specificity."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 11,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Reactions Involved in the Preparatory Phase of Glycolysis",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nReactions Involved\nin the Preparatory\nPhase of Glycolysis",
+      "figureNotes": "",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 12,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 1: Phosphorylation of Glucose",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                       Step 1: Phosphorylation of Glucose\n\n⬣   Hexokinase    activates glucose by phosphorylating at C-6 to yield           glucose 6-phosphate\n      –    ATP serves as the phosphoryl donor\n      –    Hexokinase requires Mg2+ for its activity\n      –    Irreversible under intracellular conditions\n\n                                     First ATP Utilization",
+      "figureNotes": "Reaction image: glucose + ATP → glucose 6-phosphate + ADP, hexokinase and Mg2+. Carbon 6 OH becomes OPO3(2−). Label: First ATP Utilization. ΔG′° = −16.7 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-reaction",
+          "label": "Hexokinase reaction and requirements",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucose + ATP → glucose 6-phosphate + ADP; C6 phosphorylation; Mg2+; intracellularly irreversible."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 13,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hexokinase is Present in Nearly All Organisms",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n    Hexokinase is Present in Nearly All Organisms\n\n⬣   Hexokinase enzyme is found in the cytosol of most of the tissues of nearly all organisms.\n\n⬣   In humans four isozymes of hexokinase (I to IV) that catalyze the same reaction are present.\n\n⬣   Hexokinase IV also called Glucokinase, found in hepatocytes, differs from other forms of hexokinase in kinetic\n    and regulatory properties.",
+      "figureNotes": "Induced-fit figure labels: hexokinase molecule; active site cleft; glucose; solvent-inaccessible active site lining. Glucose binding changes the open cleft to an enclosed active-site form.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-isozymes",
+          "label": "Hexokinase distribution and isozymes",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Cytosol of most tissues; humans have four isozymes I–IV; IV is glucokinase in hepatocytes."
+        },
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-induced-fit",
+          "label": "Hexokinase substrate-induced closure",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Figure shows glucose binding closes the active-site cleft into a solvent-inaccessible lining."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 14,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hexokinase vs Glucokinase",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                                                             Hexokinase vs Glucokinase\n\n              Feature                                                  Hexokinase                                                            Glucokinase    (Hexokinase IV)\n\n              Location                  Found in most tissues (brain, muscle, RBCs, adipose tissue)                  Found mainly in liver and pancreatic β-cells\n\n      Substrate Specificity             Broad specificity: Glucose, Fructose, Mannose                                Primarily glucose (but weakly phosphorylates other hexoses)\n\n    Affinity for Glucose (Km)           Low Km (~0.1 mM) → High affinity, works efficiently at low                   High Km (~10 mM) → Low affinity, functions best at high glucose\n                                        glucose concentrations                                                       concentrations\n\nVmax (Maximum Activity Level)           Low Vmax → Functions efficiently at low glucose levels, but                  High Vmax    → Can handle large glucose loads after meals\n                                        saturates quickly\n\n     Regulation (Inhibition)            Inhibited by its product Glucose-6-Phosphate (G6P) (allosteric               Inhibited by Fructose-6-Phosphate (via Glucokinase           Regulatory\n                                        inhibition)                                                                  Protein, GKRP)\n\n      Hormonal Regulation               Not affected by insulin or glucagon                                          Insulin induces its expression; Glucagon indirectly inhibits by\n                                                                                                                     promoting GKRP-mediated sequestration\n\nResponse to Fasting & Feeding           Always active (since it is needed for energy production in all               Activity decreases in fasting (trapped in the nucleus by GKRP) and\n                                        tissues)                                                                     increases after meals (released when glucose is high)\n\n        Physiological Role              Ensures basal glucose phosphorylation in all cells for energy                Regulates glucose homeostasis, helping the liver and pancreas sense\n                                        metabolism                                                                   and respond to changes in blood glucose\n\n      Function in Glycolysis            Ensures continuous glucose phosphorylation, even at low                      Acts as a glucose sensor in liver and pancreas, responding to high\n                                        glucose levels                                                               glucose levels after meals",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-comparison-table",
+          "label": "Hexokinase versus glucokinase source table",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Nine-row comparison retained; owner selected this table, except the blocked exact-Km uncertainty."
+        },
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-km-conflict",
+          "label": "Hexokinase exact Km discrepancy",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Table ~0.1mM versus p52 graph hexokinase I 0.2mM; exact generic hexokinase Km blocked."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-HK-KM",
+          "description": "Hexokinase table ~0.1mM differs from hexokinase I graph p52 0.2mM; retain both and avoid one exact generic value.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-hexokinase-km-conflict"
+          ]
+        }
+      ],
+      "sourceTable": {
+        "title": "Hexokinase vs Glucokinase",
+        "selectionStatus": "approved",
+        "assessmentAllowed": false
+      }
+    },
+    {
+      "pdfPage": 15,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 2: Conversion of Glucose 6-Phosphate to Fructose 6-Phosphate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n        Step 2: Conversion of Glucose 6-Phosphate to Fructose 6-\n                                             Phosphate\n\n⬣   Phosphohexose     isomerase\n   (phosphoglucose isomerase) catalyzes\n   the reversible isomerization of glucose\n   6-phosphate    (an aldose)  to fructose 6-\n   phosphate (a ketose)\n\n      –    The mechanism involves an\n           enediol intermediate\n      –    The reaction readily proceeds in\n           either direction",
+      "figureNotes": "Reaction images: reversible aldose–ketose isomerization via cis-enediol; fructose 6-phosphate and glucose 6-phosphate. Main arrow glucose 6-phosphate ⇌ fructose 6-phosphate, phosphohexose isomerase, Mg2+. ΔG′° = 1.7 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-phosphohexose-isomerase",
+          "label": "Phosphohexose isomerase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Reversible glucose 6-phosphate aldose↔fructose 6-phosphate ketose via enediol intermediate."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 16,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 3: Phosphorylation of Fructose 6-Phosphate to Fructose 1,6-Bisphosphate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n       Step 3: Phosphorylation of Fructose 6-Phosphate\n       to Fructose 1,6-Bisphosphate\n\n⬣   Phosphofructokinase-1 (PFK-1) catalyzes\n   the transfer of a phosphoryl group from\n   ATP to fructose 6-phosphate to yield\n   fructose 1,6-bisphosphate\n\n      –    Essentially irreversible under\n           cellular conditions\n      –    The first “committed” step in the\n           glycolytic pathway                         Second ATP Utilization",
+      "figureNotes": "Reaction figure: fructose 6-phosphate + ATP → fructose 1,6-bisphosphate + ADP, Mg2+, phosphofructokinase-1 (PFK-1). Carbon 1 gains phosphate. Label: Second ATP Utilization. ΔG′° = −14.2 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pfk-committed-step",
+          "label": "PFK-1 committed step",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "ATP phosphorylates fructose 6-phosphate to fructose 1,6-bisphosphate; first committed step, essentially irreversible."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 17,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 4: Cleavage of Fructose 1,6-Bisphosphate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                         Step 4:      Cleavage of Fructose 1,6-\n                                          Bisphosphate\n\n⬣   Fructose 1,6-bisphosphate aldolase\n   (aldolase) catalyzes a reverse aldol\n   condensation and cleaves fructose 1,6-\n   bisphosphate to yield glyceraldehyde 3-\n   phosphate, an aldose, and\n   dihydroxyacetone phosphate, a ketose.\n\n      –    Reversible because reactant\n           concentrations are low in the cell",
+      "figureNotes": "Reaction figure: fructose 1,6-bisphosphate ⇌ dihydroxyacetone phosphate + glyceraldehyde 3-phosphate; aldolase. Diagram tracks fructose carbons 1–3 into dihydroxyacetone phosphate and 4–6 into glyceraldehyde 3-phosphate. ΔG′° = 23.8 kJ/mol. The bullet wording about low reactant concentrations is preserved as written and flagged rather than repaired.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-aldolase-products",
+          "label": "Aldolase cleavage products",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Fructose 1,6-bisphosphate yields glyceraldehyde 3-phosphate aldose and dihydroxyacetone phosphate ketose; reversible."
+        },
+        {
+          "id": "glycolysis-and-fermentation-aldolase-reversibility-wording",
+          "label": "Aldolase reversibility wording",
+          "priority": "supporting",
+          "rationale": "Named-only detail or uncertain source claim retained without scoring.",
+          "detail": "Source attributes reversibility to low reactant concentrations; wording flagged, not used for scoring."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-ALDOLASE-WORDING",
+          "description": "Reversibility is attributed to low reactant concentrations in source; preserve wording, do not use causal wording for scoring.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-aldolase-reversibility-wording"
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 18,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 5: Interconversion of the Triose Phosphates",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\n   Step 5:      Interconversion of the Triose Phosphates\n\n⬣  Triose phosphate isomerase converts dihydroxyacetone phosphate to\n   glyceraldehyde 3-phosphate\n\n      –   Reversible\n      –   Final step of the preparatory phase of glycolysis",
+      "figureNotes": "Reaction image: dihydroxyacetone phosphate ⇌ glyceraldehyde 3-phosphate, triose phosphate isomerase. Ketone carbonyl changes to aldehyde carbonyl. ΔG′° = 7.5 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-triose-isomerase",
+          "label": "Triose phosphate isomerase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Reversible DHAP↔glyceraldehyde 3-phosphate, final preparatory-phase step."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 19,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Reactions Involved in the Payoff Phase of Glycolysis",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nReactions Involved\nin The Payoff Phase\n     of Glycolysis",
+      "figureNotes": "",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 20,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 6: Oxidation of Glyceraldehyde 3-Phosphate to 1,3-Bisphosphoglycerate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                   Step 6: Oxidation of Glyceraldehyde\n                3-Phosphate to 1,3-Bisphosphoglycerate\n\n⬣   Glyceraldehyde 3-phosphate\n   dehydrogenase     catalyzes the\n   oxidation glyceraldehyde 3-\n   phosphate to 1,3-\n   bisphosphoglycerate\n\n      –   The 1st  energy-conserving\n          reaction of glycolysis that\n          eventually lead to the\n          formation of ATP.",
+      "figureNotes": "Reaction image: glyceraldehyde 3-phosphate + inorganic phosphate + NAD+ ⇌ 1,3-bisphosphoglycerate + NADH + H+, glyceraldehyde 3-phosphate dehydrogenase. The new phosphate is on the oxidized aldehyde carbon. ΔG′° = 6.3 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-gapdh-redox",
+          "label": "Glyceraldehyde 3-phosphate dehydrogenase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glyceraldehyde 3-phosphate + Pi + NAD+↔1,3-bisphosphoglycerate + NADH + H+; first energy-conserving reaction eventually leading to ATP."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 21,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 7: Phosphoryl Transfer from 1,3-Bisphosphoglycerate to ADP",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nStep 7:        Phosphoryl Transfer from\n1,3-Bisphosphoglycerate to ADP\n\n⬣   Phosphoglycerate kinase     transfers the high-\n   energy phosphoryl group from the carboxyl\n   group of 1,3-bisphosphoglycerate to ADP,\n   forming ATP and 3-phosphoglycerate\n\n⬣  Substrate-level phosphorylation      is the\n   formation of ATP by phosphoryl group\n   transfer from a substrate.\n      -Different from respiration-linked\n          phosphorylation",
+      "figureNotes": "Reaction image: 1,3-bisphosphoglycerate + ADP ⇌ 3-phosphoglycerate + ATP, phosphoglycerate kinase and Mg2+. ΔG′° = −18.8 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-phosphoglycerate-kinase",
+          "label": "Phosphoglycerate kinase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Transfers high-energy carboxyl phosphoryl group from 1,3-bisphosphoglycerate to ADP forming ATP and 3-phosphoglycerate."
+        },
+        {
+          "id": "glycolysis-and-fermentation-substrate-level-phosphorylation",
+          "label": "Substrate-level phosphorylation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "ATP formed by phosphoryl-group transfer from a substrate; distinguished from respiration-linked phosphorylation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 22,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 8: Conversion of 3-Phosphoglycerate to 2-Phosphoglycerate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n      Step 8: Conversion of 3-Phosphoglycerate to\n      2-Phosphoglycerate\n\n⬣  Phosphoglycerate mutase catalyzes a reversible shift of the phosphoryl\n   group between C-2 and C-3 of glycerate\n\n     –    Requires Mg2+",
+      "figureNotes": "Reaction image: 3-phosphoglycerate ⇌ 2-phosphoglycerate, phosphoglycerate mutase and Mg2+. ΔG′° = 4.4 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-phosphoglycerate-mutase",
+          "label": "Phosphoglycerate mutase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Reversible phosphoryl shift between C2 and C3 of glycerate; requires Mg2+."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 23,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 9: Dehydration of 2-Phosphoglycerate to Phosphoenolpyruvate",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n Step 9:       Dehydration of 2-Phosphoglycerate to\n Phosphoenolpyruvate\n\n⬣  Enolase  promotes reversible removal of a molecule of water from 2-\n   phosphoglycerate to yield phosphoenolpyruvate (PEP)\n      –   Energy-conserving reaction\n      –   The mechanism involves a Mg2+-stabilized enolic intermediate\n\n                                                                        (PEP)",
+      "figureNotes": "Reaction image: 2-phosphoglycerate ⇌ phosphoenolpyruvate + H2O, enolase. ΔG′° = 7.5 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-enolase",
+          "label": "Enolase dehydration",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Reversible removal of water from 2-phosphoglycerate yields PEP; Mg2+-stabilized enolic intermediate."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 24,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Step 10: Transfer of the Phosphoryl Group from Phosphoenolpyruvate to ADP",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n  Step 10: Transfer of the Phosphoryl Group from\n  Phosphoenolpyruvate to ADP\n\n⬣  Pyruvate kinase catalyzes the transfer of\n   the phosphoryl group from\n   phosphoenolpyruvate to ADP, yielding\n   pyruvate\n\n     –    Requires K+ and either Mg2+ or Mn2+\n     –    Net production of 2 ATP/glucose",
+      "figureNotes": "Reaction image: phosphoenolpyruvate + ADP → pyruvate + ATP; pyruvate kinase; Mg2+, K+. ΔG′° = −31.4 kJ/mol. Slide states net production of 2 ATP/glucose in its bullet; the earlier summary distinguishes gross 4 ATP versus net 2 ATP for the whole pathway.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pyruvate-kinase",
+          "label": "Pyruvate kinase",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "PEP phosphoryl transfer to ADP yields pyruvate and ATP; requires K+ and Mg2+ or Mn2+."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 25,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Summary of Glycolysis",
+      "topics": [
+        "Glycolysis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                                 Summary of Glycolysis\n\nGlucose + 2ATP + 2NAD + 4ADP + 2Pi ⟶                                                   •   Used:\n                                                                                       –1 glucose; 2 ATP; 2 NAD+\n2 pyruvate + 2ADP + 2NADH + 2H + 4ATP + 2H2O                                           •   Produced:\n\n                                                                                       –2 pyruvate\n⬣   Subtracting the two ATP spent in the preparatory phase,                            • various fates\n    the net equation for the overall process is:                                       –4 ATP\n                                                                                       • used for energy-requiring processes within\n                                                                                       the cell\n     Glucose + 2NAD+ + 2ADP + 2P               ⟶                                       –2 NADH\n                                             i                                         • must be reoxidizedto NAD+ in order for\n             2 pyruvate + 2NADH + 2H+ + 2ATP + 2H                   O                  glycolysis to continue\n                                                                  2",
+      "figureNotes": "Image equation, gross bookkeeping: glucose + 2 ATP + 2 NAD+ + 4 ADP + 2 Pi → 2 pyruvate + 2 ADP + 2 NADH + 2 H+ + 4 ATP + 2 H2O. Net equation: glucose + 2 NAD+ + 2 ADP + 2 Pi → 2 pyruvate + 2 NADH + 2 H+ + 2 ATP + 2 H2O. Products sidebar: 2 pyruvate, various fates; 4 ATP used for energy-requiring processes; 2 NADH must be reoxidized to NAD+ for glycolysis to continue.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glycolysis-net-balance",
+          "label": "Net glycolytic balance",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucose + 2 NAD+ + 2 ADP + 2 Pi → 2 pyruvate + 2 NADH + 2 H+ + 2 ATP + 2 H2O."
+        },
+        {
+          "id": "glycolysis-and-fermentation-nadh-regeneration",
+          "label": "NAD+ regeneration necessity",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Two NADH produced must be reoxidized to NAD+ for glycolysis to continue."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 26,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Fates of Pyruvate",
+      "topics": [
+        "Fermentation and pyruvate fates"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                              Fates         of Pyruvate\n\n⬣    Energy stored in pyruvate can be extracted by:\n\n      –     Aerobic processes:\n             •     Oxidative reactions in the citric acid cycle\n             •     Oxidative phosphorylation\n\n      –     Anaerobic processes\n             •     Reduction to lactate\n             •     Reduction to ethanol\n\n⬣    Pyruvate can provide the carbon skeleton for alanine\n     synthesis or fatty acid synthesis",
+      "figureNotes": "Figure: glucose —glycolysis (10 successive reactions)→ 2 pyruvate. Under hypoxic or anaerobic conditions: 2 ethanol + 2 CO2, fermentation to ethanol in yeast. Under anaerobic conditions: 2 lactate, fermentation to lactate in vigorously contracting muscle, erythrocytes, some other cells, some microorganisms. Under aerobic conditions: 2 CO2 released and 2 acetyl-CoA → citric acid cycle → 4 CO2 + 4 H2O; animal, plant and many microbial cells under aerobic conditions.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pyruvate-fates",
+          "label": "Aerobic and anaerobic pyruvate fates",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Aerobic oxidation through CAC/oxidative phosphorylation; anaerobic reduction to lactate or ethanol; carbon skeleton for alanine or fatty acid synthesis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 27,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Anaerobic Glycolysis: Fermentation",
+      "topics": [
+        "Fermentation and pyruvate fates"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n    Anaerobic Glycolysis: Fermentation\n\n⬣   Fermentation is a process in which pyruvate is reduced to other products\n    and energy (ATP) is generated without consuming oxygen or NAD+\n\n⬣   In lactic acid fermentation, pyruvate accepts electrons from NADH and is\n    reduced to lactate while regenerating the NAD+          necessary for glycolysis\n\n⬣   In ethanol (alcohol) fermentation pyruvate is further catabolized to ethanol\n\n⬣   The process is used in the production of food and\n          beverages like yogurt and soy sauce.",
+      "figureNotes": "Figure: glucose→2 pyruvate→2 lactate, with 2 NAD+→2 NADH during glycolysis and 2 NADH→2 NAD+ during pyruvate reduction.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-fermentation",
+          "label": "Fermentation redox balance",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate reduced to products, ATP generated without net oxygen or NAD+ consumption; lactate fermentation regenerates NAD+."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 28,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Animals Undergo Lactic Acid Fermentation",
+      "topics": [
+        "Fermentation and pyruvate fates"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n       Animals Undergo Lactic Acid Fermentation\n\n⬣  Organisms can regenerate NAD+        by transferring electrons from NADH to pyruvate, forming lactate\n\n⬣  Reduction of pyruvate to lactate, reversible\n\n⬣  During strenuous exercise, lactate builds up in muscles in a short time (< 1 minute).\n\n⬣  The acidification of muscles prevent its continuous strenuous work.",
+      "figureNotes": "Reaction figure: pyruvate + NADH + H+ ⇌ L-lactate + NAD+, lactate dehydrogenase. ΔG′° = −25.1 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-lactate-dehydrogenase",
+          "label": "Lactate dehydrogenase reaction",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate + NADH + H+↔L-lactate + NAD+, reversible; strenuous exercise lactate buildup under one minute."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 29,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Lactate Can Be Recycled",
+      "topics": [
+        "Fermentation and pyruvate fates"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nLactate Can Be Recycled\n\n ⬣  Acidification resulting from ionization\n    of lactic acid in muscle and blood\n    limits the period of vigorous activity,\n    such as sprinting\n\n ⬣  Lactate is carried in blood to the liver,\n    where it is converted to glucose during\n    recovery",
+      "figureNotes": "Muscle/liver figure: muscle glycogen → lactate and ATP; ATP produced by glycolysis for rapid contraction. Blood lactate travels to liver. Liver lactate → glucose, using ATP in glucose synthesis (gluconeogenesis) during recovery. Blood glucose returns to muscle.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-lactate-recycling",
+          "label": "Lactate recycling",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Blood carries muscle lactate to liver, converted to glucose during recovery; liver uses ATP."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 30,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Ethanol Is the Reduced Product in Ethanol Fermentation",
+      "topics": [
+        "Fermentation and pyruvate fates"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nEthanol Is the Reduced Product in Ethanol Fermentation\n\n⬣   Yeast and other microorganisms regenerate NAD+ by reducing pyruvate to ethanol and CO2\n\n⬣   Humans do not have pyruvate decarboxylase.\n\n⬣   CO2 produced in the first step is responsible for dough rising when baking bread\n\n⬣   Both steps require cofactors.\n             – Pyruvate decarboxylase: Mg++ and Thiamine pyrophosphate (TPP)\n             – Alcohol dehydrogenase: Zn++ and NADH",
+      "figureNotes": "Reaction figure: pyruvate —(pyruvate decarboxylase; TPP, Mg2+; CO2 released)→ acetaldehyde —(alcohol dehydrogenase; NADH + H+ → NAD+)→ ethanol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-ethanol-steps",
+          "label": "Ethanol fermentation enzymes",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate decarboxylase releases CO2 to form acetaldehyde; alcohol dehydrogenase reduces it to ethanol and regenerates NAD+."
+        },
+        {
+          "id": "glycolysis-and-fermentation-ethanol-cofactors",
+          "label": "Ethanol fermentation cofactors",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate decarboxylase requires Mg2+ and TPP; alcohol dehydrogenase Zn2+ and NADH; humans lack pyruvate decarboxylase."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 31,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Gluconeogenesis",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nGluconeogenesis",
+      "figureNotes": "",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 32,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gluconeogenesis",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n           Gluconeogenesis\n\n⬣  Gluconeogenesis is a pathway that\n  converts pyruvate and related three-\n  and four-carbon compounds to\n  glucose\n\n⬣ Occurs in all animals, plants, fungi,\n  and microorganisms\n\n⬣ Mainly occurs in the liver in mammals",
+      "figureNotes": "Figure: lactate→pyruvate; glucogenic amino acids feed pyruvate/citric acid cycle; citric acid cycle intermediates feed phosphoenolpyruvate; glycerol from triacylglycerols enters above phosphoenolpyruvate; plant 3-phosphoglycerate from CO2 fixation enters above it. Energy is supplied to upward gluconeogenic flow, forming glucose 6-phosphate and then blood glucose, glycogen, glycoproteins, disaccharides, other monosaccharides, starch and sucrose. Diagram divides animals and plants.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-gluconeogenesis-definition",
+          "label": "Gluconeogenesis scope and location",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate and related three-/four-carbon compounds converted to glucose; occurs in animals/plants/fungi/microorganisms; mainly mammalian liver."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 33,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gluconeogenesis: Cori cycle and Alanine cycle",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\n         Gluconeogenesis\n\n⬣   Gluconeogenesis is involved in two cycles to maintain blood glucose levels:\n           - Cori cycle\n           - Alanine cycle\n\n⬣   The Cori cycle describes the metabolic pathway in which lactate produced by anaerobic glycolysis in\n    muscles is transported to the liver, where it is converted back to glucose through gluconeogenesis.\n                                                                Cori Cycle",
+      "figureNotes": "Cori cycle image: in muscle glucose→2 pyruvate→2 lactate, producing 2 ATP. Blood transports lactate to liver. In liver 2 lactate→2 pyruvate→glucose, with 6 ATP indicated. Blood glucose returns to muscle. Alanine cycle is named but not diagrammed or explained further on this page.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-cori-cycle",
+          "label": "Cori cycle",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Muscle anaerobic glycolysis produces lactate carried to liver for glucose synthesis; figure muscle gain 2ATP, liver use 6ATP."
+        },
+        {
+          "id": "glycolysis-and-fermentation-alanine-cycle-heading",
+          "label": "Alanine cycle named only",
+          "priority": "supporting",
+          "rationale": "Named-only detail or uncertain source claim retained without scoring.",
+          "detail": "Alanine cycle named as a glucose-maintaining cycle without further mechanism on this page."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 34,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gluconeogenesis and Glycolysis Share Several Steps",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n  Gluconeogenesis and Glycolysis\n              Share Several Steps\n\n⬣  Gluconeogenesis and glycolysis are not\n   identical pathways running in opposite\n   directions                                            Glycolysis\n⬣  Reversible reactions are used by both               occurs mainly                            Gluconeogenesis\n   pathways.                                           in the muscle                                 occurs\n                                                         and brain                              mainly in the liver.\n⬣  Three glycolysis reactions are essentially\n   irreversible in vivo and cannot be used in\n   gluconeogenesis\n-Must be bypassed with exergonic reactions",
+      "figureNotes": "Paired pathway figure: glycolysis down from glucose via hexokinase, PFK-1, reversible central steps, pyruvate kinase. Gluconeogenesis up uses pyruvate carboxylase (2 ATP→2 ADP), PEP carboxykinase (2 GTP→2 GDP), shared reversible central steps, fructose 1,6-bisphosphatase-1 (H2O→Pi), glucose 6-phosphatase (H2O→Pi). The first bypass goes through oxaloacetate. Figure includes ATP/ADP at phosphoglycerate kinase, NAD+/NADH + H+ at glyceraldehyde 3-phosphate dehydrogenase, Pi and H2O bookkeeping.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-shared-and-bypass",
+          "label": "Shared reactions versus bypasses",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glycolysis/gluconeogenesis share reversible reactions, but three essentially irreversible glycolytic reactions require exergonic bypasses."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 35,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Free-Energy Changes of Glycolytic Reactions",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n       Free-Energy Changes of Glycolytic Reactions\n\n⬣ The essentially irreversible glycolytic reactions are\n  characterized by a large negative ∆G",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glycolysis-energy-table",
+          "label": "Glycolytic free-energy source table",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Standard/actual energy values faithfully retained; owner permits red-row qualitative interpretation only, not numerical values."
+        },
+        {
+          "id": "glycolysis-and-fermentation-energy-table-step9-conflict",
+          "label": "Energy-table step9 discrepancy",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Table labels 3-phosphoglycerate→PEP whereas step9 p23 says 2-phosphoglycerate→PEP; unresolved."
+        },
+        {
+          "id": "glycolysis-and-fermentation-energy-table-range-unclear",
+          "label": "Energy-table row2 unclear range",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Actual free-energy range looks 0 to25; decimal punctuation unclear; not scorable."
+        },
+        {
+          "id": "glycolysis-and-fermentation-irreversible-negative-dg",
+          "label": "Irreversibility and actual free energy",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Essentially irreversible glycolytic reactions have large negative actual ΔG; stated below table."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-TABLE9-SUBSTRATE",
+          "description": "Row9 says 3-phosphoglycerate, unlike dedicated step9 p23 2-phosphoglycerate. Preserve both; disputed row not scored.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-energy-table-step9-conflict"
+          ]
+        },
+        {
+          "id": "GLY-U-TABLE2-RANGE",
+          "description": "Row2 actual ΔG range decimal punctuation is unclear. Preserve visible text and do not assess numerical range.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-energy-table-range-unclear"
+          ]
+        }
+      ],
+      "sourceTable": {
+        "title": "Table 14-2: Free-Energy Changes of Glycolytic Reactions in Erythrocytes",
+        "selectionStatus": "approved-red-rows-qualitative-only-no-numeric-values",
+        "assessmentAllowed": false
+      }
+    },
+    {
+      "pdfPage": 36,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The First Bypass: Pyruvate to Phosphoenolpyruvate",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n      The First Bypass: Pyruvate to Phosphoenolpyruvate\n\n⬣  Conversion of pyruvate to phosphoenolpyruvate requires two energy-consuming steps",
+      "figureNotes": "Diagram: pyruvate + HCO3− + ATP —(pyruvate carboxylase, biotin)→ oxaloacetate + ADP + Pi. Oxaloacetate + GTP —(PEP carboxykinase)→ phosphoenolpyruvate + GDP + CO2. Both reaction statements are printed below the figure.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-first-bypass-overview",
+          "label": "First gluconeogenic bypass",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate→PEP requires two energy-consuming reactions: pyruvate carboxylase then PEP carboxykinase."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 37,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The First Bypass: Pyruvate Carboxylase",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n               The First Bypass: Pyruvate to\n                     Phosphoenolpyruvate\n\n⬣  The first step requires pyruvate carboxylase enzyme to\n   convert pyruvate to oxaloacetate.\n\n            – Carboxylation requires biotin\n            – Requires transport into the mitochondria\n            – Acetyl-CoA is an allosteric activator\n\n⬣  Pyruvate + HCO3-     + ATP ⟶     Oxaloacetate + ADP + Pi",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pyruvate-carboxylase",
+          "label": "Pyruvate carboxylase reaction",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Pyruvate + HCO3− + ATP→oxaloacetate + ADP + Pi; biotin; mitochondrial entry; acetyl-CoA activates."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 38,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The Role of Biotin in the Pyruvate Carboxylase Reaction",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n       The Role of Biotin in the\nPyruvate Carboxylase Reaction\n\n ⬣    Biotin is attached to the enzyme through an amide\n      bond with the ε-amino group of a Lys residue,\n      forming biotinyl-enzyme.\n ⬣     Biotin-mediated carboxylation reactions occur in\n      two phases, generally catalyzed in separate active\n      sites on the enzyme.\n ⬣     In the first phase (steps 1 to 3), bicarbonate is\n      converted to the more activated CO2, and then used\n      to carboxylate biotin.\n ⬣    The biotin acts as a carrier to transport the CO      2 from\n      one active site to another on an adjacent monomer\n      of the tetrameric enzyme (step 4 ).\n ⬣     In the second phase (steps 5 to 7), catalyzed in this\n      second active site, the CO2 reacts with pyruvate to\n      form oxaloacetate.",
+      "figureNotes": "Seven numbered image steps: (1) Bicarbonate is activated by ATP, forming carboxyphosphate; ATP→ADP. (2) Carboxyphosphate breaks down to CO2; Pi released. (3) CO2 reacts with biotin to form carboxybiotin; carboxybiotinyl-enzyme shown. (4) Biotin transports the CO2 from one active site to the other. (5) Biotin is decarboxylated; pyruvate is converted to its enolate form. (6) Pyruvate enolate reacts with CO2 to form oxaloacetate. (7) Oxaloacetate is released. Figure labels include adenosine, biotinyl-lysine, Lys, catalytic sites 1 and 2, pyruvate carboxylase, pyruvate enolate and oxaloacetate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-biotin-attachment",
+          "label": "Biotin attachment and sites",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Amide bond to epsilon-amino group of Lys; two reaction phases at separate active sites; adjacent monomer of tetramer."
+        },
+        {
+          "id": "glycolysis-and-fermentation-biotin-mechanism",
+          "label": "Biotin-mediated carboxyl transfer",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "ATP activates bicarbonate; biotin carboxylated then carries CO2 to second site; pyruvate enolate reacts to form oxaloacetate."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 39,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Malate Dehydrogenase",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n            Malate Dehydrogenase\n\n⬣  The mitochondrial membrane does not have an\n   oxaloacetate transporter\n\n⬣  Malate dehydrogenase is a mitochondrial enzyme that uses\n   NADH to reduce oxaloacetate to malate\n\nOxaloacetate + NADH + H+           ⇄                L-malate + NAD+\n\n⬣  Malate leaves the mitochondrion through a malate\n   transporter in the inner mitochondrial membrane\n\n⬣  In the cytosol, Malate is reoxidized     to Oxaloacetate forming\n   NADH\n\n            Malate + NAD+   ⟶        Oxaloacetate + NADH + H+",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-malate-export",
+          "label": "Malate route for reducing equivalents",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "No oxaloacetate transporter; mitochondrial NADH reduces OAA to malate, exported and reoxidized in cytosol to regenerate NADH."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 40,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The First Bypass: PEP Carboxykinase",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n      The First Bypass: Pyruvate to Phosphoenolpyruvate\n\n⬣  The second step requires phosphoenolpyruvate carboxykinase\n   enzyme to convert oxaloacetate to PEP.\n            -Requires Mg2+ and GTP\n            -Expressed in mitochondria and cytosol\n\n            Oxaloacetate + GTP       ⇄      PEP + CO2 + GDP\n\n⬣  The overall equation for this set of bypass reactions is:\n\n   Pyruvate + ATP + GTP + HCO3− ⟶         PEP + ADP + GDP + Pi + CO2\n                           ∆G′°    = 0.9 kJ/mol\n⬣  The overall reaction actual free energy is strongly negative (−25\n   kJ/mol).",
+      "figureNotes": "Reaction image: GTP contains guanosine and a triphosphate chain; PEP carboxykinase couples GDP formation and CO2 release to phosphoenolpyruvate formation. Values in text are ΔG′° = 0.9 kJ/mol for the overall bypass and actual free energy −25 kJ/mol.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pep-carboxykinase",
+          "label": "PEP carboxykinase reaction",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Oxaloacetate + GTP↔PEP + CO2 + GDP; Mg2+, mitochondrial and cytosolic expression."
+        },
+        {
+          "id": "glycolysis-and-fermentation-first-bypass-energy",
+          "label": "First-bypass free energies",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Overall standard ΔG′°=0.9kJ/mol; actual free energy −25kJ/mol; requires ATP and GTP."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 41,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Alternative Paths from Pyruvate to PEP",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n   Alternative Paths from Pyruvate\n                             to PEP\n\n⬣  When lactate is the glucogenic      precursor, a second bypass\n   predominates\n\n⬣  The conversion of lactate to pyruvate in the cytosol of\n   hepatocytes.\n\n⬣  This reaction yields NADH, eliminating the need to export\n   reducing equivalents (as malate) from mitochondria.\n\n⬣  Oxaloacetate is directly converted to PEP in the\n   mitochondrion by a mitochondrial isozyme of PEP\n   carboxykinase",
+      "figureNotes": "Figure shows two routes. Left: mitochondrial pyruvate carboxylase uses ATP→ADP + Pi to form oxaloacetate; mitochondrial malate dehydrogenase consumes NADH + H+ to form malate; malate exported; cytosolic malate dehydrogenase regenerates NADH + H+ and oxaloacetate; cytosolic PEP carboxykinase produces PEP and CO2, with ATP/ADP labels in this figure. Right: lactate→pyruvate via lactate dehydrogenase produces cytosolic NADH + H+; pyruvate enters mitochondrion, carboxylase→oxaloacetate; mitochondrial PEP carboxykinase uses GTP→GDP and releases CO2; PEP exported. ATP/ADP on the cytosolic route conflicts with p40 GTP/GDP and is not repaired.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-lactate-route",
+          "label": "Lactate precursor changes bypass route",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Cytosolic lactate→pyruvate yields NADH, avoids malate export; mitochondrial OAA→PEP and PEP export."
+        },
+        {
+          "id": "glycolysis-and-fermentation-pep-nucleotide-conflict",
+          "label": "Cytosolic PEPCK nucleotide conflict",
+          "priority": "supporting",
+          "rationale": "Named-only detail or uncertain source claim retained without scoring.",
+          "detail": "Diagram ATP/ADP conflicts with GTP/GDP on p40; affected figure claim blocked."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-PEPCK-NUCLEOTIDE",
+          "description": "Cytosolic PEPCK image uses ATP/ADP while p40 says GTP/GDP. Preserve both; disputed figure nucleotide not scored.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-pep-nucleotide-conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 42,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The Second Bypass: Fructose 1,6-bisphosphate to Fructose 6-phosphate",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n The Second Bypass: Fructose 1,6-bisphosphate to\n                           Fructose 6-phosphate\n\n⬣  Fructose 1,6-bisphosphate is converted to fructose 6-phosphate\n   by hydrolysis of the C-1 phosphate by the enzyme fructose 1,6-\n   bisphosphatase (FBPase-1)\n\n           -Requires Mg2+\n           -Essentially irreversible\n\n    Fructose 1,6-bisphosphate + H2O → fructose 6-phosphate + Pi\n                          ΔG′°=−16.3 kJ/mol",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-fbpase1-bypass",
+          "label": "Fructose 1,6-bisphosphatase bypass",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Hydrolyzes C1 phosphate to fructose 6-phosphate + Pi, Mg2+, essentially irreversible; standard ΔG′° −16.3kJ/mol."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 43,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "The Third Bypass: Glucose 6-phosphate to Glucose",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n The Third Bypass: Glucose 6-phosphate to Glucose\n\n⬣  Glucose 6-phosphatase  catalyzes the simple hydrolysis of glucose 6-phosphate to glucose\n\n            -Requires Mg2+\n            -Only found in the lumen of the endoplasmic         reticulum of hepatocytes, renal\n            cells, and epithelial cells of the small intestine\n            -∆G′°   = −13.8 kJ/mol",
+      "figureNotes": "Reaction figure: glucose 6-phosphate + H2O → glucose + Pi; glucose-6-phosphatase removes the C-6 phosphate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-g6pase-bypass",
+          "label": "Glucose 6-phosphatase bypass",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucose 6-phosphate hydrolysis→glucose + Pi; Mg2+; ER lumen of hepatocytes, renal and small-intestine epithelial cells; standard ΔG′° −13.8kJ/mol."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 44,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gluconeogenesis Is Energetically Expensive: Sequential reactions",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nGluconeogenesis Is Energetically Expensive",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-gluconeogenesis-reaction-table",
+          "label": "Gluconeogenesis sequential-reaction source table",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Reactions and count markers faithfully retained; owner permits red-row qualitative interpretation only, not numerical values."
+        }
+      ],
+      "uncertainties": [],
+      "sourceTable": {
+        "title": "Table 14-3: Sequential Reactions in Gluconeogenesis Starting from Pyruvate",
+        "selectionStatus": "approved-red-rows-qualitative-only-no-numeric-values",
+        "assessmentAllowed": false
+      }
+    },
+    {
+      "pdfPage": 45,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Gluconeogenesis Is Energetically Expensive",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n              Gluconeogenesis Is Energetically Expensive\n\n⬣  The sum of the biosynthetic reactions leading from pyruvate to free blood glucose is:\n\n                        2 pyruvate   + 4ATP + 2GTP + 2NADH + 2H+        + 4H2O         ⟶\n                                    glucose  + 4ADP + 2GDP + 6Pi     + 2NAD+\n\n⬣  Costs 4 ATP, 2 GTP, and 2 NADH\n\n⬣  Physiologically necessary: Brain, nervous system, and red blood cells generate ATP ONLY from\n   glucose.\n⬣  Allows generation of glucose when glycogen stores are depleted:\n             – During starvation\n            – During vigorous exercise\n             – Can generate glucose from amino acids, but not fatty acids",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-gluconeogenesis-cost",
+          "label": "Gluconeogenesis energetic cost",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Two pyruvate→glucose consumes 4ATP, 2GTP and 2NADH; glucose generation when glycogen depleted."
+        },
+        {
+          "id": "glycolysis-and-fermentation-glucose-only-wording",
+          "label": "Absolute glucose-only tissue wording",
+          "priority": "supporting",
+          "rationale": "Named-only detail or uncertain source claim retained without scoring.",
+          "detail": "Source says brain/nervous system/RBCs generate ATP ONLY from glucose; condition-free absolute retained but flagged."
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "GLY-U-GLUCOSE-ONLY",
+          "description": "Unqualified absolute ONLY glucose claim lacks condition/context on source page. Preserve but do not score that absolute.",
+          "status": "unresolved",
+          "blocksScoring": true,
+          "conceptIds": [
+            "glycolysis-and-fermentation-glucose-only-wording"
+          ]
+        }
+      ]
+    },
+    {
+      "pdfPage": 46,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Precursors for Gluconeogenesis",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                     Precursors for Gluconeogenesis\n\n⬣   Animals can produce glucose from sugars or proteins.\n⬣   Animals cannot produce glucose from fatty acids.\n⬣   Plants, yeast, and many bacteria can convert acetyl-CoA\n    to oxaloacetate, thus producing glucose from fatty acids.\n⬣   Glucose can be produced from all intermediates of the\n    Citric acid cycle (citrate, isocitrate, …, fumarate, and\n    malate) since all of them can undergo oxidation to\n    Oxaloacetate.\n⬣   The majority of amino acids can transform into pyruvate\n    or citric acid cycle (CAC) intermediates and, therefore has\n    the potential to produce glucose (glucogenic          amino\n    acids).",
+      "figureNotes": "Citric acid cycle figure labels: acetyl-CoA enters at citrate; citrate→isocitrate→α-ketoglutarate (CO2 release)→succinyl-CoA (CO2 release)→succinate→fumarate→malate→oxaloacetate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-gluconeogenic-precursors",
+          "label": "Gluconeogenic precursor distinctions",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Animals use sugars/proteins, not fatty acids; plants/yeast/many bacteria acetyl-CoA→OAA; CAC intermediates and glucogenic amino acids provide precursors."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 47,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glucogenic Amino Acids",
+      "topics": [
+        "Gluconeogenesis"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n   Glucogenic             Amino Acids\n\n⬣ Glucogenic   amino acids can undergo net conversion to glucose",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glucogenic-entry-table",
+          "label": "Glucogenic amino acid entry table",
+          "priority": "supporting",
+          "rationale": "Owner selection of this source table pending; preserve without assessment.",
+          "detail": "Five entry columns retained, with threonine appearing twice; table-only entry mappings were not selected for assessment/Memorize."
+        }
+      ],
+      "uncertainties": [],
+      "sourceTable": {
+        "title": "Table 14-4: Glucogenic Amino Acids, Grouped by Site of Entry",
+        "selectionStatus": "not-selected",
+        "assessmentAllowed": false
+      }
+    },
+    {
+      "pdfPage": 48,
+      "printedSlide": null,
+      "kind": "divider",
+      "title": "Coordinated Regulation of Glycolysis and Gluconeogenesis",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nCoordinated Regulation of\nGlycolysis and Gluconeogenesis",
+      "figureNotes": "",
+      "concepts": [],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 49,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Glycolysis and Gluconeogenesis Are Reciprocally Regulated",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nGlycolysis and Gluconeogenesis Are Reciprocally\n                                Regulated\n\n⬣  Simultaneous operation of both pathways at each of the three bypass points\n   would consume ATP without accomplishing chemical or biological work\n\n⬣  Glycolysis and gluconeogenesis are reciprocally regulated so that both\n   processes don’t occur simultaneously in the same tissues.\n\n⬣  Most regulatory mechanisms act on reactions that are unique to each\n   pathway.\n\n⬣  Regulation prevents wasteful operation of both pathways at the same time",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-reciprocal-regulation",
+          "label": "Reciprocal pathway regulation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Simultaneous bypass cycling wastes ATP without work; regulation targets pathway-unique reactions."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 50,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Glycolysis",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n                                 Regulation Of Glycolysis\n\n⬣   Glycolysis is under tight regulation to ensure stable ATP\n    levels\n\n⬣   This regulation involves a sophisticated balance among ATP\n    consumption, NAD regeneration, and the allosteric control\n    of three key glycolytic enzymes: hexokinase, PFK-1, and\n    pyruvate kinase.\n\n⬣   Hormones such as glucagon, epinephrine, and insulin play a\n    role in the regulation of glycolysis.\n\n⬣   Additionally, the expression of genes for various glycolytic\n    enzymes can be altered to exert control over glycolytic\n    activity.",
+      "figureNotes": "Regulation diagram: glucose→glucose 6-phosphate via hexokinase (inhibited by glucose 6-phosphate). PFK-1 converts fructose 6-phosphate to fructose 1,6-bisphosphate: AMP and fructose 2,6-bisphosphate stimulate; ATP and citrate inhibit. Pyruvate kinase converts PEP to pyruvate: fructose 1,6-bisphosphate stimulates; ATP inhibits.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glycolytic-control-levels",
+          "label": "Levels of glycolytic regulation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "ATP/NAD regeneration and allosteric hexokinase/PFK-1/pyruvate kinase control; glucagon/epinephrine/insulin; altered enzyme-gene expression."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 51,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Hexokinase Isozymes Are Affected Differently by Their Product, Glucose 6-Phosphate",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n     Hexokinase Isozymes Are Affected Differently\n            by Their Product, Glucose 6-Phosphate\n\n⬣  Hexokinase initiates glycolysis and found in most tissues, including muscle and brain.\n\n⬣  Low Km (high affinity) for glucose enables glycolysis initiation even at low blood\n   glucose levels\n\n⬣  Relatively low Vmax, limiting the rate of glucose phosphorylation.\n\n⬣  Hexokinase I, Hexokinase II, and Hexokinase III are all inhibited by their product,\n   glucose 6-phosphate (G6P), which is an important regulatory step preventing\n   excessive ATP consumption when glucose is abundant.\n\n⬣  Hexokinase IV (glucokinase) found in liver is not inhibited by glucose 6-phosphate",
+      "figureNotes": "",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-feedback",
+          "label": "Hexokinase isozyme product inhibition",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "I,II,III inhibited by glucose 6-phosphate; IV in liver not inhibited; low Km/high affinity, relatively low Vmax for other forms."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 52,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Kinetic Properties of Hexokinase IV and Hexokinase I",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n          Kinetic Properties of Hexokinase IV and\n                                    Hexokinase I\n\n⬣  Hexokinase IV (glucokinase) in the liver has kinetic properties related to its role in maintaining\n   glucose homeostasis\n           - Km is higher than the usual glucose concentration",
+      "figureNotes": "Graph: x-axis glucose concentration (mM), ticks 0, 5, 10, 15, 20; y-axis initial velocity (V0), arbitrary units. Black hexokinase I curve saturates at low glucose, Km = 0.2 mM. Pink hexokinase IV (glucokinase) curve increases across physiological/high glucose, Km = 10 mM. Vertical shaded band marks normal fasting blood [glucose] near 4–5 mM. The p14 table gives approximately 0.1 mM for hexokinase rather than this graph’s 0.2 mM for hexokinase I.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-hexokinase-kinetics",
+          "label": "Hexokinase I versus IV kinetic behavior",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Hexokinase IV Km higher than usual glucose, curve responds across higher glucose; hexokinase I saturates early. Exact generic hexokinase Km differs from p14."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 53,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Hexokinase IV by Sequestration in the Nucleus",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n Regulation of Hexokinase IV by Sequestration in the Nucleus\n\n⬣  The regulatory protein anchors hexokinase IV inside the nucleus, where it is segregated from\n   the other glycolytic enzymes\n       –    Fructose 6-phosphate is an allosteric effector\n       –    Glucose causes dissociation of the regulatory protein",
+      "figureNotes": "Diagram: capillary glucose crosses plasma membrane via GLUT2 into cytosol. Hexokinase IV phosphorylates glucose→glucose 6-phosphate→fructose 6-phosphate. Fructose 6-phosphate stimulates nuclear sequestration/binding of hexokinase IV to regulatory protein; glucose promotes dissociation and return to cytosol. Nucleus/cytosol labels shown.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-glucokinase-sequestration",
+          "label": "Glucokinase nuclear sequestration",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Regulatory protein anchors IV in nucleus; fructose 6-phosphate effector, glucose dissociates regulatory protein."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 54,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Phosphofructokinase-1 and Fructose 1,6-Bisphosphatase Are Reciprocally Regulated",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\n      Phosphofructokinase-1 and Fructose 1,6-\n      Bisphosphatase Are Reciprocally Regulated\n\n⬣  ATP inhibits PFK-1 by\n   binding to an allosteric\n   site\n\n⬣  ADP and AMP\n   allosterically relieve this\n   inhibition by ATP",
+      "figureNotes": "Image (a): PFK-1 protein with four subunits, allosteric regulators ATP/ADP and fructose 1,6-bisphosphate labels; image (b) PFK-1 activity versus [fructose 6-phosphate]. Low [ATP] curve is leftward/higher at lower substrate; high [ATP] curve is shifted rightward, with a more sigmoid response.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pfk-atp-regulation",
+          "label": "PFK-1 energy-charge regulation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "ATP inhibits at allosteric site; ADP/AMP relieve ATP inhibition; high ATP shifts activity versus substrate curve rightward."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 55,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Allosteric Regulation of PFK-1 by Citrate",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n    Allosteric Regulation of PFK-1 By Citrate\n\n⬣   Citrate is a key intermediate in the aerobic oxidation of pyruvate, fatty acids, and\n    amino acids\n\n⬣   Citrate allosterically regulates PFK-1\n       –     High concentrations increase the inhibitory effect of ATP\n       –     Serves as an intracellular signal that the cell is meeting its current needs for\n             energy-yielding metabolism by the oxidation of fats and proteins",
+      "figureNotes": "Regulation figure: fructose 6-phosphate + ATP → fructose 1,6-bisphosphate + ADP, PFK-1. ATP and citrate inhibit; AMP/ADP and fructose 2,6-bisphosphate stimulate.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pfk-citrate-regulation",
+          "label": "PFK-1 citrate regulation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "High citrate increases ATP inhibitory effect; signal of current energy needs met by fat/protein oxidation."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 56,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "FBPase-1 Is Allosterically Inhibited by AMP",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nFBPase-1 Is Allosterically Inhibited by AMP\n\n ⬣   High [AMP], which corresponds to low ATP, inhibits FBPase\n          - Slows glucose synthesis\n\n ⬣   High [ATP] slows glycolysis and speeds gluconeogenesis",
+      "figureNotes": "Reciprocal regulation diagram: PFK-1 catalyzes fructose 6-phosphate + ATP→fructose 1,6-bisphosphate + ADP; ATP and citrate inhibit, ADP and AMP stimulate. FBPase-1 catalyzes fructose 1,6-bisphosphate + H2O→fructose 6-phosphate + Pi; AMP inhibits. Arrows designate glycolysis downward and gluconeogenesis upward.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-fbpase-amp",
+          "label": "FBPase-1 AMP inhibition",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "High AMP (low ATP) inhibits FBPase, slows glucose synthesis; high ATP slows glycolysis and speeds gluconeogenesis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 57,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Glycolysis and Gluconeogenesis by Fructose 2,6-Bisphosphate",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n            Regulation of Glycolysis and Gluconeogenesis by\n                                Fructose          2,6-Bisphosphate\n\n⬣   Fructose 2,6-bisphosphate is a key allosteric effector for the enzymes PFK-1 and FBPase-1 in\n    glycolysis and gluconeogenesis regulation.\n\n⬣   When fructose 2,6-bisphosphate binds to the allosteric site on PFK-1, it increases the\n    enzyme's affinity for its substrate fructose 6-phosphate. This leads to increased glycolysis\n\n⬣   Fructose 2,6-bisphosphate has the opposite effect on FBPase-1, reducing its affinity for its\n    substrate. This results in a slowdown of gluconeogenesis.",
+      "figureNotes": "Diagram: fructose 2,6-bisphosphate (F26BP) stimulates PFK-1 and inhibits FBPase-1. PFK-1 uses ATP→ADP in glycolysis; FBPase-1 hydrolyzes with H2O→Pi in gluconeogenesis.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-f26bp-effects",
+          "label": "Fructose 2,6-bisphosphate reciprocal effects",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "F26BP increases PFK-1 affinity for fructose 6-phosphate; lowers FBPase-1 affinity, stimulates glycolysis and slows gluconeogenesis."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 58,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Fructose 2,6-Bisphosphate Level",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n         Regulation of Fructose 2,6-Bisphosphate Level\n\n⬣  Phosphofructokinase-2 (PFK-2) catalyzes the formation of fructose 2,6-bisphosphate\n⬣  Fructose 2,6-bisphosphatase (FBPase-2) catalyzes the breakdown of fructose 2,6-\n   bisphosphate\n⬣  Glucagon lowers [fructose 2,6-bisphosphate], inhibits glycolysis and stimulates\n   gluconeogenesis\n⬣  Insulin increases [fructose 2,6-bisphosphate], stimulates glycolysis and inhibits\n   gluconeogenesis",
+      "figureNotes": "Figure (a): fructose 6-phosphate + ATP —PFK-2→ fructose 2,6-bisphosphate + ADP; fructose 2,6-bisphosphate + H2O —FBPase-2→ fructose 6-phosphate + Pi. Figure (b): dephosphorylated bifunctional enzyme has active PFK-2 and inactive FBPase-2; increases [F26BP], stimulates glycolysis, inhibits gluconeogenesis. Insulin stimulates phosphoprotein phosphatase (H2O→Pi) to reach that state. Glucagon increases [cAMP], stimulating cAMP-dependent protein kinase (ATP→ADP) to phosphorylate enzyme: PFK-2 inactive, FBPase-2 active; lowers [F26BP], inhibits glycolysis, stimulates gluconeogenesis.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pfk2-fbpase2",
+          "label": "F26BP synthesis and breakdown",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "PFK-2 synthesizes fructose 2,6-bisphosphate; FBPase-2 breaks it down."
+        },
+        {
+          "id": "glycolysis-and-fermentation-hormonal-f26bp",
+          "label": "Hormonal F26BP regulation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucagon lowers F26BP, inhibits glycolysis/stimulates gluconeogenesis; insulin increases F26BP, opposite effects."
+        },
+        {
+          "id": "glycolysis-and-fermentation-bifunctional-enzyme",
+          "label": "Bifunctional enzyme phosphorylation states",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Dephosphorylated PFK-2 active/FBPase-2 inactive; cAMP-dependent phosphorylation reverses states; insulin promotes phosphatase action."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 59,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Regulation of Pyruvate Kinase",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nRegulation of pyruvate kinase",
+      "figureNotes": "Diagram, liver only: glucagon stimulates PKA; ATP→ADP phosphorylation converts pyruvate kinase L/M to inactive phosphorylated pyruvate kinase L. PP (phosphoprotein phosphatase), H2O→Pi, reverses this to active enzyme. All glycolytic tissues including liver: PEP + ADP→pyruvate + ATP; fructose 1,6-bisphosphate stimulates in feed-forward regulation (6 steps indicated). ATP, acetyl-CoA, long-chain fatty acids, and alanine inhibit. Pyruvate⇌alanine by transamination.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-pyruvate-kinase-allostery",
+          "label": "Pyruvate kinase allosteric control",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "F16BP feed-forward activation; ATP/acetyl-CoA/long-chain fatty acids/alanine inhibit."
+        },
+        {
+          "id": "glycolysis-and-fermentation-liver-pyruvate-kinase-phosphorylation",
+          "label": "Liver pyruvate kinase phosphorylation",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Glucagon→PKA phosphorylation inactivates L isozyme; phosphatase reverses."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 60,
+      "printedSlide": null,
+      "kind": "teaching",
+      "title": "Conversion of Pyruvate to Phosphoenolpyruvate Is Stimulated When Fatty Acids Are Available",
+      "topics": [
+        "Reciprocal regulation"
+      ],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\nConversion of Pyruvate to Phosphoenolpyruvate Is\n      Stimulated When Fatty Acids Are Available\n\n      ⬣  Acetyl-CoA signals indicate that further glucose\n         oxidation for fuel is not needed\n\n      ⬣  Acetyl-CoA:\n            –    Allosterically stimulates pyruvate\n                 carboxylase\n            –    Allosterically inhibits pyruvate\n                 dehydrogenase",
+      "figureNotes": "Diagram: pyruvate can enter gluconeogenesis via pyruvate carboxylase→oxaloacetate→glucose, or enter the citric acid cycle via pyruvate dehydrogenase complex→acetyl-CoA + CO2. Acetyl-CoA stimulates pyruvate carboxylase and inhibits pyruvate dehydrogenase complex.",
+      "concepts": [
+        {
+          "id": "glycolysis-and-fermentation-acetylcoa-switch",
+          "label": "Acetyl-CoA switches pyruvate fate",
+          "priority": "core",
+          "rationale": "Distinct source-taught mechanism, comparison, sequence, condition or relationship.",
+          "detail": "Acetyl-CoA stimulates pyruvate carboxylase, inhibits PDH; signals further glucose oxidation for fuel not needed."
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "pdfPage": 61,
+      "printedSlide": null,
+      "kind": "administrative",
+      "title": "Thanks and course information",
+      "topics": [],
+      "visualReview": "reviewed",
+      "visualReviewer": "Codex chapter writing agent write_glycolysis; page images inspected; not independent review",
+      "text": "Dr. Osama Essawi 2025\n\nThanks!",
+      "figureNotes": "Closing image: Thanks! Dr. Osama Essawi, Faculty of Medicine, Department of Biochemistry & Molecular Biology, Metabolic Biochemistry, Course Number 6105212. Al-Quds University logo.",
+      "concepts": [],
+      "uncertainties": []
+    }
+  ],
+  "blockedConceptIds": [
+    "glycolysis-and-fermentation-respiration-yield-conflict",
+    "glycolysis-and-fermentation-hexokinase-km-conflict",
+    "glycolysis-and-fermentation-aldolase-reversibility-wording",
+    "glycolysis-and-fermentation-energy-table-step9-conflict",
+    "glycolysis-and-fermentation-energy-table-range-unclear",
+    "glycolysis-and-fermentation-pep-nucleotide-conflict",
+    "glycolysis-and-fermentation-glucose-only-wording"
+  ],
+  "sourceTables": [
+    {
+      "pdfPage": 14,
+      "title": "Hexokinase vs Glucokinase",
+      "selectionStatus": "approved"
+    },
+    {
+      "pdfPage": 35,
+      "title": "Table 14-2: Free-Energy Changes of Glycolytic Reactions in Erythrocytes",
+      "selectionStatus": "approved-red-reactions-qualitative-only-no-numeric-values"
+    },
+    {
+      "pdfPage": 44,
+      "title": "Table 14-3: Sequential Reactions in Gluconeogenesis Starting from Pyruvate",
+      "selectionStatus": "approved-red-reactions-qualitative-only-no-numeric-values"
+    },
+    {
+      "pdfPage": 47,
+      "title": "Table 14-4: Glucogenic Amino Acids, Grouped by Site of Entry",
+      "selectionStatus": "excluded-by-owner-selection"
+    }
+  ],
+  "ownerTableDecision": "Owner selected p14. Tables14-2 p35 and14-3 p44: qualitative interpretation of red-highlighted reactions only; no numerical values. Table14-4 p47 excluded."
+}

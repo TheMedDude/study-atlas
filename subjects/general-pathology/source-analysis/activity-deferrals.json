@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "conceptId": "ch1-part-01-p016-content",
+      "reason": "PDF p16 states that symptoms, signs and pathology test results support diagnosis, but the candidate only contrasts arbitrary exclusions. Removed as weak; the complete statement remains in the detailed source and is not represented as assessed.",
+      "lectureId": "ch1-part-01"
+    },
+    {
+      "conceptId": "ch1-part-02-p020-content",
+      "reason": "PDF p20 is a repeated list of biochemical injury mechanisms. Its distinct relationships are assessed in organelle-targets (pp22–23), calcium-enzyme-effects (p24), ATP consequences (p28) and ros-target-effects (pp31–32); no duplicate list-recognition item retained.",
+      "lectureId": "ch1-part-02"
+    },
+    {
+      "conceptId": "ch1-part-02-p029-content",
+      "reason": "The unpaired-outer-electron definition is preserved on PDF p29, but its candidate had implausible electron/proton distractors and was removed. The adjacent combined free-radical/ROS list and reactive-nitrite wording remain source restrictions; this page group is explicitly unassessed rather than counted as covered.",
+      "lectureId": "ch1-part-02"
+    },
+    {
+      "conceptId": "ch1-part-02-p036-content",
+      "reason": "PDF p36 CCl4-to-fatty-liver route repeats the ribosome-detachment/protein-synthesis/lipid-deposition distinction assessed by ch1-part-02-ribosomes-fat on p28. The direct CCl3-species candidate was removed for implausible alternatives. Full p36 pathway remains in the source; no duplicate scored item retained.",
+      "lectureId": "ch1-part-02"
+    },
+    {
+      "conceptId": "ch1-part-03-p005-content",
+      "reason": "PDF p5 lists receptor regulation/binding and protein-synthesis changes as adaptive mechanisms. Candidate removed because its four distractors were universal denials; list remains fully preserved, with no separate scored mechanism item claimed.",
+      "lectureId": "ch1-part-03"
+    },
+    {
+      "conceptId": "ch1-part-03-p014-content",
+      "reason": "PDF p14 autophagy sequence is repeated in Chapter1 Part04 PDF pp4–7 and is assessed there by ch1-part-04-autophagy-substrate. No duplicate cross-part item retained; this original page remains cited in the study source.",
+      "lectureId": "ch1-part-03"
+    },
+    {
+      "conceptId": "ch1-part-03-p020-content",
+      "reason": "PDF p20 ambiguous causal wording about structural synthesis increasing workload is restricted; clear cell enlargement and workload triggers are assessed in adaptation-types and hypertrophy-demand (pp18–21).",
+      "lectureId": "ch1-part-03"
+    },
+    {
+      "conceptId": "ch1-part-03-p022-content",
+      "reason": "PDF p22 gene reactivation, contractile-protein switching and possible degenerative failure are preserved. Candidate removed for unrelated/absolute alternatives; these additional phenotype/outcome claims are not counted as assessed.",
+      "lectureId": "ch1-part-03"
+    },
+    {
+      "conceptId": "ch1-part-04-p005-content",
+      "reason": "PDF p5 diagram repeats lysosomal fusion, uptake and residual processing. Primary-secondary, autophagy-substrate and uptake-processes assess its distinct relationships on pp3,7–8; no duplicate diagram-reading score retained.",
+      "lectureId": "ch1-part-04"
+    },
+    {
+      "conceptId": "ch1-part-04-p006-content",
+      "reason": "PDF p6 repeats autophagic versus heterophagic processing and secondary lysosome formation; covered by primary-secondary and autophagy-substrate on pp3–8.",
+      "lectureId": "ch1-part-04"
+    },
+    {
+      "conceptId": "ch1-part-04-p010-content",
+      "reason": "PDF p10 SER induction/solubility/excretion and unqualified alcohol–phenobarbital example remain in the detailed source. Both weak candidate sets were removed (universal or impossible alternatives); this page is not counted as assessed.",
+      "lectureId": "ch1-part-04"
+    },
+    {
+      "conceptId": "ch1-part-05-p007-content",
+      "reason": "PDF p7 comparison diagram repeats reversible swelling versus destructive necrotic changes. Its distinct relationships are assessed by reversible-light, reversible-nuclear, no-return, mitochondrial-density and cytoplasmic-features on pp10–28.",
+      "lectureId": "ch1-part-05"
+    },
+    {
+      "conceptId": "ch1-part-05-p016-content",
+      "reason": "PDF p16 introduces the calcium-mediated irreversible injury route, repeated in Part02 p24. Retained ch1-part-02-calcium-enzyme-effects assesses the same enzyme consequences; no duplicate cross-part score.",
+      "lectureId": "ch1-part-05"
+    },
+    {
+      "conceptId": "ch1-part-05-p017-content",
+      "reason": "PDF p17 calcium/enzyme map duplicates Part02 p24 and ch1-part-02-calcium-enzyme-effects. Removed the repeated matching item while preserving both original page extractions.",
+      "lectureId": "ch1-part-05"
+    },
+    {
+      "conceptId": "ch1-part-05-p025-content",
+      "reason": "PDF p25 digestion-versus-denaturation mechanism is assessed as a real contrast in ch1-part-06-coagulative-digestion (Part06 pp3,11). Leakage marker examples remain preserved but are not separately assessed by a weak item.",
+      "lectureId": "ch1-part-05"
+    },
+    {
+      "conceptId": "ch1-part-06-p013-content",
+      "reason": "PDF p13 fungal renal abscess illustrates complete digestion/obliteration of architecture. This distinction is assessed in coagulative-preservation and coagulative-digestion on pp3,6,11; its duplicate example-only candidate was removed, while the full caption/image remains in the source.",
+      "lectureId": "ch1-part-06"
+    },
+    {
+      "conceptId": "ch1-part-07-p018-content",
+      "reason": "PDF p18 repeats the fragmentation-to-apoptotic-body-to-removal morphology already assessed by ch1-part-07-apoptosis-morphology on pp17/21. The dedicated ligand-recognition candidate had implausible distractors and was removed; ligand detail remains unassessed in the source.",
+      "lectureId": "ch1-part-07"
+    },
+    {
+      "conceptId": "ch1-part-08-p002-content",
+      "reason": "PDF p2 general accumulation locations and local/elsewhere origin/harmless/injurious scope remain faithfully in the source. Both candidate questions relied on only/must/always restrictions and were removed; this concept group is explicitly unassessed.",
+      "lectureId": "ch1-part-08"
+    },
+    {
+      "conceptId": "ch1-part-08-p033-content",
+      "reason": "PDF p33 aortic-valve dystrophic calcification causing aortic stenosis remains a cited source fact. No retained question has four plausible same-domain alternatives from the named material; no unrelated options or outside valve-disease facts added.",
+      "lectureId": "ch1-part-08"
+    },
+    {
+      "conceptId": "ch1-part-08-p035-content",
+      "reason": "PDF p35 lists metastatic deposition sites and says generally no dysfunction unless severe, exemplified by nephrocalcinosis. The candidate relied on absolute guarantees and unrelated definitions and was removed; distribution is not scored as exclusive and functional qualification remains unassessed.",
+      "lectureId": "ch1-part-08"
+    }
+  ]
+}

@@ -1,0 +1,5030 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "metabolic-biochemistry",
+  "lectureId": "glycolysis-and-fermentation",
+  "reviewer": "second-codex-agent-check_glycolysis",
+  "author": "Codex chapter writing agent write_glycolysis",
+  "reviewKind": "Fresh second Codex agent; not independent review from another tool",
+  "antigravityChecked": false,
+  "claudeReviewed": false,
+  "sourceImageReview": {
+    "allPdfPagesInspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "method": "All16 contact sheets inspected; full-page images enlarged for dense comparison, pathway, energy and regulatory details.",
+    "fullPageImagesEnlarged": [
+      14,
+      34,
+      35,
+      38,
+      41,
+      44,
+      52,
+      58,
+      59
+    ]
+  },
+  "summary": {
+    "inputCandidates": 86,
+    "accepted": 69,
+    "removed": 17,
+    "acceptedWithRepair": 36,
+    "types": {
+      "match": 4,
+      "mcq": 62,
+      "order": 3
+    },
+    "cards": 18,
+    "facts": 46,
+    "coverageDeferrals": 11
+  },
+  "scopeChecks": [
+    "Midterm files only",
+    "Selected p14 comparison, no disputed exact Km",
+    "Tables14-2/14-3: qualitative red rows only, no numerical table values",
+    "No p47 amino-acid entry mapping",
+    "No blocked ATP/Km/row9/nucleotide/aldolase-cause/absolute-glucose-only claim scores"
+  ],
+  "items": [
+    {
+      "activityId": "glycolysis-and-fermentation-glucose-storage",
+      "inputOrdinal": 1,
+      "decision": "removed",
+      "finding": "Storage recognition duplicates the starch/glycogen mapping in the fuller glucose-use matching item; remove the shorter duplicate.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 3,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-003.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 4,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-004.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Both are named glucose storage polymers."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "These are products of the pentose phosphate route, not the named storage polymers."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These belong to glycolysis and fermentation, not polymeric storage."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These are oxidative pathway intermediates, not glucose polymers."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "These capture energy and electrons rather than form glucose storage polymers."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucose-oxidation-energy",
+      "inputOrdinal": 2,
+      "decision": "removed",
+      "finding": "Exact oxidation-energy recall uses sign/decimal-place distractors rather than four adjacent biochemical distinctions; remove this weak numerical item.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 3,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-003.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the sign of the printed oxidation value."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This reduces the printed magnitude by a factor of 100."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Both sign and magnitude differ from the printed value."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The slide gives a strongly negative rather than zero change."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the complete-oxidation value printed on the page."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucose-use-map",
+      "inputOrdinal": 3,
+      "decision": "accepted-with-repair",
+      "finding": "Pages3–4 distinguish structural/storage polymers, pyruvate, NADPH and pentose roles; every left/right mapping is unique and EN/AR preserve these roles.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 3,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-003.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 4,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-004.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked",
+        "glucose-fuel concept linked to its explicit storage-for-energy mapping; exact oxidation-energy recall remains omitted"
+      ],
+      "mappingOrOrderFinding": "Pages3–4 distinguish structural/storage polymers, pyruvate, NADPH and pentose roles; every left/right mapping is unique and EN/AR preserve these roles."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-respiration-compartments",
+      "inputOrdinal": 4,
+      "decision": "accepted",
+      "finding": "Page5 explicitly locates glycolysis in cytoplasm, acetyl-CoA/TCA in matrix and ETC in inner membrane; roles disambiguate the two matrix mappings without scoring its doubtful ATP total.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 5,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-005.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "mappingOrOrderFinding": "Page5 explicitly locates glycolysis in cytoplasm, acetyl-CoA/TCA in matrix and ETC in inner membrane; roles disambiguate the two matrix mappings without scoring its doubtful ATP total."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glycolysis-carbon-balance",
+      "inputOrdinal": 5,
+      "decision": "accepted",
+      "finding": "Page6 gives glucose to two three-carbon pyruvates; options distinguish glycolytic direction, gluconeogenesis and PDH carbon change. Net balance and EN/AR agree.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 6,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-006.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This reverses both substrate number and carbon balance."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the stated ten-step pathway conversion."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses glycolysis and describes gluconeogenic direction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is acetyl-CoA formation rather than glycolysis."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This omits one of the two pyruvates."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-biosynthesis",
+      "inputOrdinal": 6,
+      "decision": "removed",
+      "finding": "The correct biosynthetic answer is the sole long carbon-skeleton answer among unrelated carrier/phosphate claims. Remove the weak set; the alanine use remains in the pyruvate-fate matching item.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 6,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-006.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 26,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-026.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Both biosynthetic uses are explicitly named."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "NAD+ remains the electron acceptor; pyruvate is a biosynthetic carbon precursor."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "ATP is the named phosphate donor in hexokinase, not pyruvate."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Glycogen is the storage polymer; pyruvate is the named biosynthetic precursor here."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The donor is 1,3-bisphosphoglycerate, not pyruvate."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-preparatory-phase-balance",
+      "inputOrdinal": 7,
+      "decision": "accepted",
+      "finding": "Page7 directly gives two ATP invested and two glyceraldehyde3-phosphates per glucose; all alternatives reverse investment/output or confuse payoff. EN/AR match.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 7,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-007.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The phase consumes rather than produces ATP."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Both the ATP investment and triose number differ from the source."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This confuses preparatory investment with payoff products."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The preparatory output is two glyceraldehyde 3-phosphates, not one pyruvate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the stated investment and output per glucose."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-payoff-gross-net",
+      "inputOrdinal": 8,
+      "decision": "accepted",
+      "finding": "Pages8/25 distinguish four gross ATP from two net after investment. Distractors confuse phase, triose participation or NAD redox; explanation subtracts the correct investment.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 8,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-008.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 25,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-025.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Both trioses are processed, giving 4 ATP gross."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Pyruvate kinase is an ATP-forming step in the payoff diagram."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The preparatory phase consumes 2 ATP, not 4."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Subtracting the investment from gross payoff gives net 2 ATP."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "NADH formation is a redox event; the stated ATP investment occurs in the preparatory phase."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glycolysis-reducing-equivalent",
+      "inputOrdinal": 9,
+      "decision": "accepted",
+      "finding": "Page9 identifies hydride transfer to NAD+; the alternatives misassign phosphate, carbon or carrier direction. EN/AR preserve redox versus phosphoryl transfer.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 9,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-009.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is not the stated NADH-generating hydride transfer."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source identifies a hydride, not a carbon fragment, as the transferred unit."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the specified redox transformation."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Phosphoryl transfer forms ATP from ADP rather than NADH from NAD+."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This reverses carrier direction and substitutes ADP for the redox acceptor."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-intermediate-phosphate-function",
+      "inputOrdinal": 10,
+      "decision": "accepted",
+      "finding": "Page10 explicitly assigns retention, energy conservation and enzyme specificity/activation-energy roles to phosphoryl groups. Parallel alternatives reverse those roles.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 10,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-010.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Only improved specificity matches; retention and conservation are reversed."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These are the three stated functions, with lower activation energy accompanying specificity."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses all three stated roles."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Retention is correct, but energy conservation and specificity are reversed."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Export and reduced specificity contradict the page."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-donor",
+      "inputOrdinal": 11,
+      "decision": "accepted-with-repair",
+      "finding": "Page12 diagram and prose show ATP donor and glucose C6 acceptor; alternatives change donor, carbon or reaction role. EN/AR preserve C6 and ATP-to-ADP direction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 12,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-012.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The reaction phosphorylates the C6 hydroxyl using ATP."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Carbon 1 phosphorylation belongs to the later fructose 6-phosphate reaction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "ATP, not ADP, is the donor in glucose activation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The stated donor is ATP, not free phosphate."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "NAD+ is a redox carrier, not the donor for this reaction."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-mg-irreversibility",
+      "inputOrdinal": 12,
+      "decision": "removed",
+      "finding": "Remove the second hexokinase descriptor item: it overlaps donor/activation coverage and relies on excluding named cofactors from other enzymes rather than a strong parallel set.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 12,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-012.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Mg2+ is correct, but the source calls it irreversible intracellularly."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The hexokinase page specifies Mg2+."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Zn2+ is named for alcohol dehydrogenase, not hexokinase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "TPP is named for pyruvate decarboxylase, not this step."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Both the cofactor and directionality are stated."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-iv-name",
+      "inputOrdinal": 13,
+      "decision": "accepted",
+      "finding": "Page13 explicitly names IV as glucokinase and four human isozymes; options are distinguishable isozyme identities. EN/AR preserve IV and regulatory difference.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 13,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-013.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "II is not identified as glucokinase."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "III is not identified as glucokinase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The name applies specifically to IV, not the collective set."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "IV is explicitly identified as glucokinase in hepatocytes."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "I is one of the other human isozymes, not the named glucokinase."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-induced-fit",
+      "inputOrdinal": 14,
+      "decision": "removed",
+      "finding": "Remove the induced-fit MCQ: cleft transfer into glucose and unchanged release are conspicuously implausible distractors. The figure remains in the faithful source; coverage deferred.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 13,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-013.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The direction of the conformational change is reversed."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The cleft belongs to the protein, not the substrate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The figure changes an open cleft into a solvent-inaccessible active-site lining."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the open-to-closed change shown."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The pictured event is binding and closure, not product release."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-g6p-f6p-isomerization",
+      "inputOrdinal": 15,
+      "decision": "accepted",
+      "finding": "Page15 gives reversible aldose G6P to ketose F6P isomerization; distractors describe PFK, aldolase and GAPDH reactions. EN/AR retain molecule identities and direction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 15,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-015.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is the later dehydrogenase reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the stated reversible aldose–ketose isomerization."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the aldose/ketose identities."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is PFK-1-mediated phosphorylation rather than isomerization."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is the aldolase reaction."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-isomerase-intermediate",
+      "inputOrdinal": 16,
+      "decision": "removed",
+      "finding": "Removed after cross-chapter duplicate audit: bioenergetics-and-metabolism-enediol-role already asks which intermediate forms in the same glucose 6-phosphate/fructose 6-phosphate isomerization and keys enediol. This is a paraphrase rather than a different distinction. Retain the Bioenergetics item; glycolysis aldose-to-ketose conversion remains a distinct accepted target.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 15,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-015.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The page explicitly identifies the enediol intermediate."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Carboxybiotin belongs to pyruvate carboxylase."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Acetaldehyde belongs to ethanol fermentation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Oxaloacetate belongs to the first gluconeogenic bypass."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Carboxyphosphate belongs to ATP activation of bicarbonate in the biotin reaction."
+        }
+      ],
+      "previousDecision": "accepted",
+      "followupRecheck": {
+        "trigger": "Parent cross-chapter duplicate audit",
+        "sourcePagesReinspected": [
+          15
+        ],
+        "finalDecision": "removed",
+        "originalAcceptanceOverturned": true
+      }
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pfk1-commitment",
+      "inputOrdinal": 17,
+      "decision": "accepted",
+      "finding": "Page16 identifies PFK-1 as the first committed step and its substrate/product pair; alternatives are other clearly taught steps. No unseen diagram reference.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 16,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-016.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is the first ATP use, but the source identifies the later PFK-1 step as committed."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is a reversible isomerization preceding commitment."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is the reversible final preparatory reaction."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is a reversible payoff-phase mutase step."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "PFK-1 catalyzes this essentially irreversible committed step."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-aldolase-products",
+      "inputOrdinal": 18,
+      "decision": "accepted",
+      "finding": "Page17 gives GAP and DHAP, with aldose/ketose identities. Alternatives use neighboring six-carbon/payoff/bypass intermediates; no doubtful low-reactant causal wording is assessed.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 17,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-017.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These are later payoff intermediates interconverted by mutase."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These are late glycolytic intermediates, not the aldolase pair."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "These belong to separate pyruvate pathways, not aldolase cleavage."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These are the aldose and ketose triose products."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "These are six-carbon intermediates, not the two cleavage products."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-triose-isomerase-role",
+      "inputOrdinal": 19,
+      "decision": "accepted",
+      "finding": "Page18 identifies reversible DHAP-to-GAP interconversion as final preparatory step. Alternatives misassign other enzymes; the explanation does not score the doubtful aldolase causal claim.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 18,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-018.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Enolase dehydrates 2-phosphoglycerate rather than combining trioses."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "PFK-1 phosphorylates fructose 6-phosphate; oxidation occurs later on glyceraldehyde 3-phosphate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The reversible interconversion supplies the common payoff substrate."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Aldolase cleaves the six-carbon substrate; isomerase interconverts the trioses."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Hexokinase acts on glucose rather than interconverting trioses."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gapdh-inorganic-phosphate",
+      "inputOrdinal": 20,
+      "decision": "accepted-with-repair",
+      "finding": "Page20 equation uses Pi and NAD+ and forms NADH. Alternatives alter phosphate donor or reverse redox. EN/AR match consumption/production.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 20,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-020.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "GTP is not the phosphate donor in the depicted glycolytic reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The reaction adds Pi and reduces NAD+ to NADH."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "ATP is not the phosphate donor in the depicted dehydrogenase reaction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The reaction produces NADH rather than consuming it in glycolytic direction."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "ADP is used at ATP-forming steps, while NADH is produced here."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gapdh-energy-capture",
+      "inputOrdinal": 21,
+      "decision": "removed",
+      "finding": "Remove the second GAPDH coupling MCQ: its correct answer is the only long coherent sequence and alternatives are weak NADH-phosphate/lactate claims. GAPDH inputs and subsequent ATP transfer remain assessed separately.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 20,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-020.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 21,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-021.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The oxidation product supplies the phosphoryl group used by phosphoglycerate kinase."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Step 6 forms 1,3-bisphosphoglycerate, not lactate."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The sequence conserves energy in an intermediate before ATP formation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "NADH is a redox product rather than the phosphoryl donor."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The product retains high-energy phosphate for the next transfer."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pgk-products",
+      "inputOrdinal": 22,
+      "decision": "accepted-with-repair",
+      "finding": "Page21 gives 3-phosphoglycerate plus ATP from1,3-BPG/ADP. Alternatives use neighboring payoff products; explanation and Arabic preserve donor/acceptor direction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 21,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-021.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The immediate product is 3-phosphoglycerate; mutase later forms 2-phosphoglycerate."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This confuses the preceding redox step with the ATP-forming transfer."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "PEP forms later after mutase and enolase reactions."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This pair is produced at the later pyruvate kinase reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The high-energy carboxyl phosphoryl group is transferred to ADP."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-substrate-level-definition",
+      "inputOrdinal": 23,
+      "decision": "accepted",
+      "finding": "Page21 defines substrate-level phosphorylation and contrasts respiration-linked phosphorylation. Other choices describe ATP consumption, redox or hydrolysis; unique answer.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 21,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-021.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is substrate phosphorylation using ATP rather than ATP formation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is redox-carrier reduction, not phosphorylation of ADP."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "ATP formation is required by the stated definition."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the explicit definition."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This describes respiration-linked phosphorylation, which the source distinguishes."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-mutase-position",
+      "inputOrdinal": 24,
+      "decision": "accepted-with-repair",
+      "finding": "Page22 explicitly shifts phosphate between C3/C2, requires Mg2+ and is reversible. Options distinguish mutase from enolase/kinase/dephosphorylation.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 22,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-022.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is the enolase step that follows."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is pyruvate kinase, not mutase."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The step interconverts 3- and 2-phosphoglycerate and requires Mg2+."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source shows intramolecular relocation, not dephosphorylation."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is not the stated C2/C3 shift."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-enolase-water",
+      "inputOrdinal": 25,
+      "decision": "accepted-with-repair",
+      "finding": "Page23 clearly shows 2-phosphoglycerate dehydration to PEP; the dedicated reaction slide, not erroneous table row9, supports the answer. EN/AR retain water removal.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 23,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-023.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Aldolase instead forms two triose phosphates."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the reversible dehydration reaction."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Both substrate and water direction differ from the dedicated step 9 slide."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Mutase relocates phosphate; it does not form PEP by phosphate removal."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The glycolytic kinase step consumes PEP to make ATP."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-kinase-ions",
+      "inputOrdinal": 26,
+      "decision": "removed",
+      "finding": "Remove the pyruvate-kinase ion MCQ: alternatives mix ions with TPP/NAD and give a category cue. The requirement remains source-linked on the reference card.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 24,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-024.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the stated ion requirement."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The named partner requirement is Mg2+ or Mn2+, not Zn2+/TPP."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The required monovalent ion is K+, not Na+."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "NAD carriers are not the alternative divalent-ion partners specified."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This omits the stated Mg2+/Mn2+ requirement."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-kinase-transfer",
+      "inputOrdinal": 27,
+      "decision": "accepted",
+      "finding": "Page24 directly shows PEP donor and ADP acceptor forming pyruvate/ATP. Alternatives invert the pair or confuse redox and phosphate roles; source supports unique mapping.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 24,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-024.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the ATP-forming glycolytic reaction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is neither the final substrate nor the phosphate acceptor."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "NADH is not the phosphoryl donor in pyruvate kinase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This does not describe the final glycolytic transfer."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "PEP transfers phosphate to ADP, forming pyruvate and ATP."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glycolysis-net-products",
+      "inputOrdinal": 28,
+      "decision": "accepted-with-repair",
+      "finding": "Page25 net equation gives two pyruvate, two ATP and two NADH. Distractors confuse gross ATP, fermentation and acetyl-CoA formation; bilingual net/gross distinction is correct.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 25,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-025.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This halves the stated pyruvate and NADH counts."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Lactate formation adds fermentation to glycolysis; NAD+ is consumed in the glycolytic equation."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Acetyl-CoA requires the subsequent pyruvate conversion."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These are the net carbon, ATP and reducing-equivalent products."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Four ATP is gross payoff production before subtracting investment."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-nadh-reoxidation",
+      "inputOrdinal": 29,
+      "decision": "accepted-with-repair",
+      "finding": "Pages25/27 explicitly require NADH reoxidation to replenish NAD+ for glycolysis. Distractors wrongly replace phosphate, reverse pathway direction or claim direct nucleotide conversion.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 25,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-025.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 27,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-027.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Step 6 consumes Pi and NAD+; NADH is its product."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "NAD regeneration does not remove the two-ATP investment."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The source explicitly requires regeneration of the oxidized carrier."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Carrier reoxidation restores NAD+; this is not the source’s stated ATP reaction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Glycolysis proceeds toward pyruvate rather than gluconeogenic glucose formation."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-fate-conditions",
+      "inputOrdinal": 30,
+      "decision": "accepted-with-repair",
+      "finding": "Page26 distinguishes aerobic acetyl-CoA oxidation, lactate in contracting muscle/RBCs, yeast ethanol and alanine biosynthesis. Mappings are unique; expanded concept tag captures the explicitly tested biosynthetic use.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 26,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-026.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 6,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-006.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "source context p6 added"
+      ],
+      "mappingOrOrderFinding": "Page26 distinguishes aerobic acetyl-CoA oxidation, lactate in contracting muscle/RBCs, yeast ethanol and alanine biosynthesis. Mappings are unique; expanded concept tag captures the explicitly tested biosynthetic use."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-fermentation-net-redox",
+      "inputOrdinal": 31,
+      "decision": "removed",
+      "finding": "Remove this net-fermentation NAD+ item as a duplicate of the NADH-reoxidation requirement already assessed; wording changes do not create a distinct target.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 27,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-027.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The carrier used in glycolysis is regenerated during fermentation."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This would deplete the required oxidized carrier."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Pyruvate accepts electrons downstream; NAD+ remains needed in glycolysis."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Fermentation is described without oxygen consumption."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source links NAD regeneration to redox transfer, not nucleotide conversion."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-lactate-redox-direction",
+      "inputOrdinal": 32,
+      "decision": "accepted-with-repair",
+      "finding": "Page28 reaction has NADH oxidation to NAD+ while pyruvate is reduced. Repaired the ATP-oxidation distractor to a plausible oxidation/reduction-label reversal; all options and both languages rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 28,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-028.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o4 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is the reverse carrier direction for pyruvate-to-lactate reduction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The depicted lactate reaction uses NADH/NAD+, not FAD."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "NADH-to-NAD+ is oxidation, not reduction; the carrier-label direction is incorrect."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The reaction regenerates NAD+ rather than adding phosphate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "NADH donates reducing equivalents while pyruvate becomes lactate."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-lactate-recycling-organs",
+      "inputOrdinal": 33,
+      "decision": "accepted-with-repair",
+      "finding": "Pages29/33 show blood transport of muscle lactate to liver and ATP-consuming glucose return. Added p33/cori concept support; this assesses organ/energy direction without misleading literal six-ATP counting.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 29,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-029.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 33,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-033.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "source context p33 added"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The liver uses ATP for glucose synthesis rather than producing ATP in that synthesis."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The source shows a liver glucose-return pathway rather than direct lactate storage."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Ethanol formation is a separate microbial fermentation pathway."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The diagram and text show lactate transport and hepatic gluconeogenesis."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The illustrated glucose-synthesizing organ is the liver."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-ethanol-co2-step",
+      "inputOrdinal": 34,
+      "decision": "accepted",
+      "finding": "Page30 releases CO2 in pyruvate-to-acetaldehyde decarboxylation, not acetaldehyde reduction or glycolytic dehydration. EN/AR and all enzyme assignments checked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-030.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This isomerization is not the ethanol CO2-releasing step."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Enolase releases water rather than the CO2 named in baking."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "CO2 is released in the first ethanol-fermentation step."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This second step reduces acetaldehyde and regenerates NAD+, without the depicted CO2 release."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The lactate pathway does not include the shown decarboxylation."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-ethanol-cofactor-pair",
+      "inputOrdinal": 35,
+      "decision": "accepted-with-repair",
+      "finding": "Page30 pairs Mg2+/TPP with decarboxylase and Zn2+/NADH with ethanol-forming dehydrogenase. Options exchange metals, organic cofactors or NAD redox direction; unique key.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-030.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "NADH, rather than NAD+, supplies reduction in the ethanol-forming direction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Both assignments match the source."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This exchanges the two enzyme cofactor sets."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This swaps the organic cofactors."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This swaps the metal assignments."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-human-ethanol-pathway",
+      "inputOrdinal": 36,
+      "decision": "accepted-with-repair",
+      "finding": "Page30 explicitly says humans lack pyruvate decarboxylase. Removed the cue that only one option belongs to the named yeast sequence; other enzyme presence is illustrated elsewhere in this chapter.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-030.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked",
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The slide explicitly states humans lack this enzyme."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The animal lactate pathway is shown using this enzyme."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Four human hexokinase isozymes are described elsewhere in the chapter."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is a key human glycolytic enzyme in the supplied chapter."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is the final glycolytic enzyme shown in all glycolytic tissues."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gluconeogenesis-definition",
+      "inputOrdinal": 37,
+      "decision": "accepted",
+      "finding": "Page32 defines three-/four-carbon precursors to glucose and mainly mammalian liver. Alternatives describe glycolysis, fermentation or TCA; no absolute glucose-only tissue claim.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 32,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-032.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This defines glycolysis rather than gluconeogenesis."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is lactic acid fermentation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is ethanol fermentation."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is oxidative catabolism rather than glucose synthesis."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the source definition."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-cori-cycle-energy",
+      "inputOrdinal": 38,
+      "decision": "removed",
+      "finding": "Remove quantitative Cori MCQ: diagram labels six ATP while separate prose distinguishes four ATP and two GTP. Avoid a literal-versus-equivalent ambiguity; organ/energy role is retained in the lactate-recycling item.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 33,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-033.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This reverses both energy directions."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The liver glucose-synthesis direction requires energy."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This reverses muscle production and misassigns liver cost."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This matches the diagram’s 2 ATP muscle and 6 ATP liver labels."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This exchanges muscle and liver energy labels."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gluconeogenic-bypass-reason",
+      "inputOrdinal": 39,
+      "decision": "accepted-with-repair",
+      "finding": "Page34 explicitly shares reversible steps and bypasses three irreversible steps. Replaced two absurd alternatives with adjacent false pathway-sharing distinctions, then rechecked all choices and EN/AR.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 34,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-034.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o4 repaired and rechecked",
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "They share the intermediates and reactions of reversible steps."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Alternative bypass enzymes are required; reversing enzyme order does not reverse those reactions."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "They require alternative exergonic bypass reactions."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source states reversible steps are shared."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source explicitly permits their reuse."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-irreversibility-dg",
+      "inputOrdinal": 40,
+      "decision": "accepted",
+      "finding": "Page35 red rows1/3/10 and prose identify large negative actual ΔG. This is qualitative only; no ΔG numbers or black-row claims enter the item.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 35,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-035.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The page identifies free-energy magnitude/direction rather than rate as the criterion."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is explicitly stated in prose beneath the table."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is not the large negative change identified for irreversible steps."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This reverses the sign of the described favorable change."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The source emphasizes actual reaction free energy, not a universal zero standard value."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-first-bypass-enzymes",
+      "inputOrdinal": 41,
+      "decision": "accepted",
+      "finding": "Pages36/44 red first-bypass rows show pyruvate carboxylase before PEP carboxykinase via OAA. Alternatives reverse or substitute pathway enzymes. No quantitative table accounting.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 36,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-036.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 44,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-044.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The pathway proceeds through oxaloacetate."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the two enzyme positions."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These glycolytic enzymes do not perform the depicted bypass."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These participate in fermentation rather than the first bypass."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "These perform the second and third bypasses, not pyruvate-to-PEP conversion."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-carboxylase-inputs",
+      "inputOrdinal": 42,
+      "decision": "accepted",
+      "finding": "Page37 reaction consumes bicarbonate/ATP with pyruvate. Wrong pairs are products or neighboring pathway reactants; EN/AR equation matches.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 37,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-037.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The equation specifies bicarbonate and ATP rather than NADH."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "ADP and Pi are products in the displayed carboxylation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These describe lactate oxidation components, not pyruvate carboxylation."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This substrate pair belongs to a phosphofructokinase reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The displayed equation consumes HCO3− and ATP to form oxaloacetate."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-carboxylase-biotin",
+      "inputOrdinal": 43,
+      "decision": "accepted-with-repair",
+      "finding": "Page37 requires biotin and shows acetyl-CoA activation; alternatives exchange named cofactors/regulators from other chapter reactions. No nucleotide conflict or reversibility claim.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 37,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-037.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Acetyl-CoA, not AMP, is the activator named on this page."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These do not match the named carboxylase cofactor/activator pair."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "These are not the pair specified for this reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Carboxylation requires biotin; acetyl-CoA activates the enzyme."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "TPP is assigned to pyruvate decarboxylase in the fermentation section."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-biotin-linkage",
+      "inputOrdinal": 44,
+      "decision": "accepted",
+      "finding": "Page38 explicitly tethers biotin by amide to lysine ε-amino group. Alternatives alter the linkage/group or confuse ATP activation with tethering; EN/AR retain epsilon-amino.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 38,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-038.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "No such linkage is shown; the enzyme tether is lysine-based."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source gives a covalent lysine amide tether."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This forms the stated biotinyl-enzyme."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source specifies the ε-amino group rather than a carboxyl group."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "ATP activates bicarbonate; it is not the stated biotin-enzyme linkage."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-biotin-carrier-role",
+      "inputOrdinal": 45,
+      "decision": "accepted",
+      "finding": "Page38 steps1–4 show carboxylated biotin carrying CO2 between active sites on adjacent monomers. Wrong roles confuse malate, ATP and pyruvate transport. Both languages preserve carrier role.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 38,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-038.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Biotin remains tethered to the lysine residue."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Carboxylated biotin transfers the CO2 between sites on adjacent monomers."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "ATP is used for bicarbonate activation, while biotin carries CO2."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "That is the reducing-equivalent role illustrated for malate, not biotin."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The described biotin movement is between enzyme active sites."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-malate-route-reason",
+      "inputOrdinal": 46,
+      "decision": "accepted-with-repair",
+      "finding": "Page39 states no OAA transporter and malate export followed by cytosolic reoxidation. Removed unseen illustrated-route framing; options and EN/AR preserve compartment and chemistry.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 39,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-039.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Malate can leave via its transporter and be reoxidized in cytosol."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source explicitly describes a malate transporter."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The shown sequence uses mitochondrial NADH and regenerates cytosolic NADH."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The displayed malate conversion is reduction, not decarboxylation."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source reoxidizes malate to oxaloacetate before subsequent steps."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-malate-reducing-equivalents",
+      "inputOrdinal": 47,
+      "decision": "accepted-with-repair",
+      "finding": "Page39 equations consume mitochondrial NADH and regenerate cytosolic NADH. Replaced the ATP substitution distractor with a parallel compartment/redox reversal; all directions rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 39,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-039.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses both redox directions."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Cytosolic malate oxidation regenerates NADH."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Mitochondrial oxaloacetate reduction consumes NADH."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The mitochondrial reduction consumes NADH and the cytosolic oxidation produces it."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Reduction to malate uses mitochondrial NADH; reoxidation produces cytosolic NADH."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pepck-carbon-change",
+      "inputOrdinal": 48,
+      "decision": "accepted",
+      "finding": "Page40 clearly shows OAA to PEP with CO2 loss. Item deliberately omits the disputed cytosolic ATP/GTP cofactor claim; alternatives are other taught reactions.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 40,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-040.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is the glycolytic pyruvate kinase reaction."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is malate dehydrogenase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is the second bypass."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the carbon transformation stated on the page."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is pyruvate carboxylase rather than PEP carboxykinase."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-bypass-standard-actual-energy",
+      "inputOrdinal": 49,
+      "decision": "accepted",
+      "finding": "Page40 prose gives slightly positive standard and strongly negative actual free energy. Quantities are from explicit prose on p40, not restricted tables14-2/14-3; question tests qualitative standard/actual distinction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 40,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-040.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The source explicitly provides different standard and actual values."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The bypass is described as two energy-consuming steps."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The source gives standard +0.9 kJ/mol but actual −25 kJ/mol."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This contradicts the stated actual −25 kJ/mol."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This interchanges standard and actual values."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-lactate-route-nadh",
+      "inputOrdinal": 50,
+      "decision": "removed",
+      "finding": "Removed after browser-QA-triggered source-image recheck of PDF p41: the correct cytosolic NADH relationship is supported, but the distractor set is weak. The no-enzyme-reactions choice is implausible; the all-cytosolic-NADH choice uses an absolute cue; transporter and intermediate-elimination alternatives are not four plausible parallel confusions. The relationship remains in the checked reference card and detailed source.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 41,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-041.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The difference is NADH supply and route choice, not elimination of gluconeogenic reactions."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This supplies the reducing equivalents otherwise delivered by malate."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source states that it yields NADH."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source describes no such oxaloacetate transporter."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The mitochondrial carboxylation route still goes through oxaloacetate."
+        }
+      ],
+      "previousDecision": "accepted",
+      "followupRecheck": {
+        "trigger": "Parent browser QA identified implausible/absolute distractor cues",
+        "sourcePagesReinspected": [
+          41
+        ],
+        "finalDecision": "removed",
+        "originalAcceptanceOverturned": true,
+        "findingsByOption": {
+          "o1": "Correct cytosolic NADH generation is explicitly supported by p41.",
+          "o2": "All cue and reversed NADH consumption create an avoidable elimination shortcut.",
+          "o3": "Transporting lactate as oxaloacetate through an OAA transporter is weak rather than a parallel route distinction.",
+          "o4": "Eliminates the OAA intermediate explicitly shown in the pathway.",
+          "o5": "Without enzyme reactions is implausibly absolute and unrelated to NADH supply."
+        }
+      }
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-fbpase1-hydrolysis",
+      "inputOrdinal": 51,
+      "decision": "accepted-with-repair",
+      "finding": "Pages42/44 red hydrolytic bypass release C1 Pi and form F6P, not ATP. Options contrast phosphate transfer, carbon cleavage and redox; no numerical table values.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 42,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-042.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 44,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-044.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The reaction consumes water and removes the C1 phosphate."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The displayed reaction is hydrolysis, not ATP synthesis."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This adds rather than removes phosphate and does not describe the bypass."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "No NAD-dependent oxidation is shown in this bypass."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "That is aldolase cleavage rather than FBPase-1 hydrolysis."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-g6pase-location",
+      "inputOrdinal": 52,
+      "decision": "accepted-with-repair",
+      "finding": "Page43 explicitly locates enzyme in ER lumen of hepatocytes/renal/small-intestinal cells. Replaced vague listed-cell framing by named cell contexts; EN/AR location unchanged.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 43,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-043.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This differs from the stated ER-lumen location."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The location belongs to other gluconeogenic reactions, not the listed glucose 6-phosphatase site."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is not the stated site of final glucose 6-phosphate hydrolysis."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Nuclear sequestration applies to hexokinase IV, not glucose 6-phosphatase."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The page locates it in ER lumen of hepatocytes, renal cells and small-intestine epithelial cells."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-g6pase-reaction",
+      "inputOrdinal": 53,
+      "decision": "accepted",
+      "finding": "Pages43/44 red final bypass hydrolyzes G6P with water to glucose/Pi. Alternatives show hexokinase, isomerase, FBPase or direct ATP reversal; uniquely supported key.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 43,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-043.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 44,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-044.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This is the opposite glycolytic hexokinase direction."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is the shared isomerase step rather than free-glucose production."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is the second bypass, not the final glucose-forming reaction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is glucose 6-phosphatase-catalyzed hydrolysis."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source shows hydrolysis rather than phosphate transfer to ADP."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gluconeogenic-cost",
+      "inputOrdinal": 54,
+      "decision": "accepted-with-repair",
+      "finding": "Page45 prose explicitly gives four ATP/two GTP/two NADH per glucose from two pyruvates. This citation is independent of the restricted p44 table and preserves reducing-carrier direction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 45,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-045.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These ATP and NADH counts do not match the stated cost."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Both GTP and NADH counts differ from the source."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is explicitly stated beneath the summed reaction."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This exchanges the ATP and GTP counts."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "NADH is consumed; NAD+ is formed."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gluconeogenesis-depleted-glycogen",
+      "inputOrdinal": 55,
+      "decision": "removed",
+      "finding": "Remove the depleted-glycogen purpose MCQ: the question supplies the condition and alternatives are obvious reversals/unrelated storage claims. Preserve role in detailed source and record deferral rather than retain weak item.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 45,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-045.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The page emphasizes the opposite glycogen condition."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These are the conditions specifically listed."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses its stated role when glycogen is depleted."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This describes a catabolic direction rather than glucose generation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The role described is new glucose generation, not only storage."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-animal-glucose-precursors",
+      "inputOrdinal": 56,
+      "decision": "accepted-with-repair",
+      "finding": "Page46 expressly distinguishes animal sugar/protein use from acetyl-CoA-to-OAA capability in plants/yeast/many bacteria. Directly reworded source-framed EN/AR feedback; no p47 amino-acid mapping.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 46,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-046.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The source contrasts animal precursors with acetyl-CoA-to-OAA capability in the other groups."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the source distinction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source explicitly states animals can form glucose from proteins."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This reverses animal fatty-acid scope and invents exclusivity."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source lists CAC intermediates as gluconeogenic precursors."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucogenic-aa-principle",
+      "inputOrdinal": 57,
+      "decision": "accepted",
+      "finding": "Page46 prose permits glucogenic carbon entry as pyruvate/TCA intermediates. No individual amino-acid group from excluded p47 is used; EN/AR preserve carbon rather than carrier basis.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 46,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-046.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The source identifies pyruvate or CAC intermediates as the principle."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "That is not the carbon-skeleton basis of glucogenicity."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Glucogenicity concerns conversion of carbon to glucose, not carrier substitution."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source distinguishes animal acetyl-CoA/fatty-acid limits from glucogenic precursor entry."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Those entry products can contribute to glucose formation."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-futile-cycle",
+      "inputOrdinal": 58,
+      "decision": "accepted",
+      "finding": "Page49 states simultaneous bypass operation wastes ATP without work. Alternatives confuse reversibility, regulation or carriers; EN/AR preserve the cost and reciprocal-regulation purpose.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 49,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-049.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The bypasses use distinct reactions rather than one reversible step."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Wasteful simultaneous operation is why reciprocal regulation is needed."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The stated consequence is ATP waste rather than permanent carrier removal."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The source identifies this as wasteful cycling."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the described ATP cost."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-regulatory-enzyme-set",
+      "inputOrdinal": 59,
+      "decision": "accepted-with-repair",
+      "finding": "Page50 explicitly names hexokinase/PFK-1/pyruvate kinase. Other sets contain reversible, fermentation or gluconeogenic enzymes. Reworded source-framed EN/AR explanation directly.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 50,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-050.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These belong to fermentation pathways."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This mixes shared steps with a gluconeogenic bypass enzyme."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the exact set named on the page."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "These glycolytic enzymes are not the key three listed for allosteric control."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These belong to gluconeogenic bypasses."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-product-inhibition",
+      "inputOrdinal": 60,
+      "decision": "accepted",
+      "finding": "Page51 explicitly inhibits I–III with G6P and excludes IV. All alternatives reverse effects or improperly extend them; bilingual isozyme identities correct.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 51,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-051.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the source’s product-feedback distinction."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the isozyme distinction."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This reverses both the effect on I–III and IV behavior."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The source describes feedback inhibition for I–III."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "IV is explicitly exempted from glucose 6-phosphate inhibition."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hexokinase-low-glucose",
+      "inputOrdinal": 61,
+      "decision": "accepted",
+      "finding": "Pages51/52 prose/curves show low Km, high affinity and early saturation for I. Exact disputed Km values are not asked or explained; options reverse kinetics or product feedback.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 51,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-051.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 52,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-052.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the Km–affinity relationship stated in the prose."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source states low Km permits initiation at low glucose."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The chapter treats affinity and maximal activity as separate properties."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source says glucose 6-phosphate inhibits rather than activates I–III."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The prose gives low Km/high affinity and the graph saturates early."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucokinase-kinetic-response",
+      "inputOrdinal": 62,
+      "decision": "accepted-with-repair",
+      "finding": "Page52 graph shows I near plateau while IV continues rising across higher glucose. Shortened the longer key to reduce a length cue; all five curve alternatives and EN/AR rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 52,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-052.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o1 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The curves are distinctly different."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This reverses the depicted low-glucose behavior."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The glucokinase curve rises with increasing substrate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The IV curve continues rising across the higher glucose range while I has already nearly saturated."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The graph shows the opposite ordering."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucokinase-regulatory-protein",
+      "inputOrdinal": 63,
+      "decision": "removed",
+      "finding": "Remove sequestration-binding MCQ: multiple distractors transform glucokinase into unrelated enzymes/transfer roles. Nuclear sequestration/release is still covered by the glucose-release item and reference card.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 53,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-053.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Sequestration does not change enzyme identity."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "No such reaction is part of the sequestration mechanism."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The regulatory protein anchors hexokinase IV inside the nucleus."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "That follows dissociation, not binding to the nuclear protein."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source describes relocation of the same hexokinase IV enzyme."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucose-release-glucokinase",
+      "inputOrdinal": 64,
+      "decision": "accepted-with-repair",
+      "finding": "Page53 explicitly causes regulatory-protein dissociation with glucose, while F6P favors sequestration. Replaced transporter-transformation distractor by an adjacent I–III product-feedback mechanism; p51 context added.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 53,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-053.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 51,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-051.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o5 repaired and rechecked",
+        "source context p51 added"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Product inhibition of I–III is a different control mechanism from glucose-triggered release of nuclear glucokinase."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The text explicitly says glucose causes dissociation."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The figure associates this effector with sequestration rather than glucose-triggered release."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Binding is sequestration rather than dissociation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This is opposite to the glucose-associated release shown."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pfk-atp-amp",
+      "inputOrdinal": 65,
+      "decision": "accepted-with-repair",
+      "finding": "Page54 explicitly shows ATP allosteric inhibition relieved by AMP/ADP. Replaced phosphate-donor nonsense with a parallel false regulatory-effect pair; source/EN/AR directions rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 54,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-054.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o4 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These are the stated allosteric roles."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the ATP inhibitory role."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source says AMP and ADP relieve inhibition."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "ATP is the allosteric inhibitor, whereas AMP and ADP relieve its inhibition."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This reverses all the stated energy-charge effects."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pfk-high-atp-curve",
+      "inputOrdinal": 66,
+      "decision": "accepted-with-repair",
+      "finding": "Page54 graph shows lower intermediate-substrate activity under high ATP and rising activity at high substrate. Replaced substrate-to-ATP conversion distractor with a graph-response misconception; no unseen-graph wording.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 54,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-054.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The graph shows lower activity at that substrate concentration under high ATP."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The two ATP-condition curves differ."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The high-ATP curve still rises at higher substrate."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The high-ATP curve rises toward high activity at high substrate; it is lower at intermediate substrate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "High ATP shifts the substrate-response curve to the right."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-citrate-energy-signal",
+      "inputOrdinal": 67,
+      "decision": "accepted-with-repair",
+      "finding": "Page55 links oxidative energy sufficiency to stronger ATP inhibition. Rebuilt parallel condition/effect options rather than mix signal answers with impossible substrate roles; all five claims rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 55,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-055.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked",
+        "o1 repaired and rechecked",
+        "o2 repaired and rechecked",
+        "o3 repaired and rechecked",
+        "o4 repaired and rechecked",
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Inhibition is strengthened, but the cited citrate signal is energy sufficiency rather than low supply."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Both the energy signal and the direction of ATP-inhibition modulation are reversed."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Citrate increases ATP inhibition, so a no-effect claim is false."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "High citrate signals that fat/protein oxidation meets current energy needs and increases ATP inhibition of PFK-1."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "The energy-sufficiency signal is correct, but citrate strengthens rather than relieves inhibition."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-amp-fbpase",
+      "inputOrdinal": 68,
+      "decision": "accepted-with-repair",
+      "finding": "Pages54/56 distinguish AMP relief of PFK-1 inhibition from AMP inhibition of FBPase-1. Replaced phosphate/water substitutions with adjacent regulatory-effect confusions; EN/AR match.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 56,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-056.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 54,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-054.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o4 repaired and rechecked",
+        "o5 repaired and rechecked",
+        "source context p54 added"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "AMP inhibits FBPase-1; relief of ATP inhibition is its separate effect on PFK-1."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "AMP relieves PFK-1 inhibition but inhibits FBPase-1; the effects are reciprocal."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "High AMP corresponds to low ATP and suppresses glucose synthesis."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the stated AMP effect."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The reciprocal energy-charge roles are reversed."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-high-atp-pathway-bias",
+      "inputOrdinal": 69,
+      "decision": "removed",
+      "finding": "Remove high-ATP pathway-bias MCQ: two alternatives convert pathway identity and provide obvious cues. Related reciprocal regulation remains in other questions/cards; record the particular high-ATP target deferral.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 56,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-056.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "These remain distinct pathways with different products."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the high-ATP relationship printed on the page."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the stated high-ATP bias."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source describes reciprocal rather than equal activation."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Regulation does not remove the unique bypasses."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-f26bp-reciprocal-effects",
+      "inputOrdinal": 70,
+      "decision": "accepted-with-repair",
+      "finding": "Page57 explicitly increases PFK-1 substrate affinity and decreases FBPase-1 affinity. Replaced carbon-substrate distractor with a parallel no-effect/affinity combination; bilingual directions rechecked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 57,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-057.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "These opposite effects favor glycolysis over gluconeogenesis."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses both effects."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The effects are opposite rather than jointly activating."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "PFK-1 affinity increases rather than decreases."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The FBPase-1 direction is correct, but PFK-1 substrate affinity increases."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pfk2-fbpase2-pair",
+      "inputOrdinal": 71,
+      "decision": "accepted",
+      "finding": "Page58 explicitly forms F26BP via PFK-2 and hydrolyzes via FBPase-2. Distractors exchange the2/1 enzyme pairs or confuse glucose enzymes; EN/AR preserve formation/breakdown.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-058.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This exchanges the two enzyme roles."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These enzymes act on the fructose 1,6-bisphosphate pathway pair instead."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "These act at other glycolytic reactions."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Both the assigned synthesis and hydrolysis roles are wrong."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the stated formation/degradation pairing."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-glucagon-f26bp",
+      "inputOrdinal": 72,
+      "decision": "accepted",
+      "finding": "Page58 gives glucagon↓F26BP,↓glycolysis,↑gluconeogenesis. Parallel triples distinguish hormone and reciprocal pathway effects; both languages agree.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-058.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "Lower F26BP suppresses glycolysis rather than increasing both pathways."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The source gives lower F26BP with reciprocal pathway effects."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This reverses the pathway consequences of lower F26BP."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "All three directions match the source."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is the insulin-associated direction."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-bifunctional-phosphorylation",
+      "inputOrdinal": 73,
+      "decision": "accepted",
+      "finding": "Page58 enlarged diagram shows phosphorylated PFK-2 inactive/FBPase-2 active and opposite dephosphorylated state. No liver-only assumption added beyond supplied source; all activity pairs checked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-058.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The diagram shows reciprocal active/inactive domains."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The phosphorylated state promotes F26BP breakdown."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the activities shown for phosphorylation."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This state increases rather than lowers F26BP."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The dephosphorylated state shows active PFK-2."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-insulin-phosphatase",
+      "inputOrdinal": 74,
+      "decision": "removed",
+      "finding": "Remove insulin-phosphatase MCQ: long correct action contrasts with implausible PFK/FBP/hexokinase protein-modification roles. Insulin dephosphorylation fact is retained in checked reference card; explicit target deferral.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-058.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Dephosphorylation activates PFK-2 and inactivates FBPase-2."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is the glucagon-associated F26BP-lowering route."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "PFK-1 is an effector target, not the indicated phosphatase."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "FBPase-1 is not the indicated protein kinase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This is not the illustrated hormone/protein-phosphatase mechanism."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-kinase-feedforward",
+      "inputOrdinal": 75,
+      "decision": "accepted-with-repair",
+      "finding": "Pages16/59 connect the PFK-1 product F16BP to pyruvate-kinase feed-forward activation. Made that upstream-product condition explicit to avoid treating absence of another activator from a diagram as proof of falsity.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-059.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 16,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-016.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked",
+        "source context p16 added"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This is the PFK-1/FBPase-1 regulator, while the pyruvate kinase diagram names F16BP."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The diagram does not use this as its feed-forward pyruvate kinase activator."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Alanine is shown as an inhibitor rather than feed-forward activator."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "Acetyl-CoA is in the inhibitor group on the diagram."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The diagram links F16BP to pyruvate kinase activation across 6 steps."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-pyruvate-kinase-inhibitors",
+      "inputOrdinal": 76,
+      "decision": "accepted-with-repair",
+      "finding": "Page59 enlarged diagram explicitly inhibits with ATP/acetyl-CoA/long-chain FA/alanine and activates with F16BP. Each alternative contains a wrong role or reaction substrate; EN/AR preserve four inhibitors.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-059.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This includes an activator and does not match the inhibitor group."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "This mixes activator and reaction substrates/products rather than inhibitors."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This combines regulators from other enzyme diagrams and ADP substrate."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "All four appear with inhibitory symbols."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "F16BP is the feed-forward activator, not an inhibitor."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-liver-pk-glucagon",
+      "inputOrdinal": 77,
+      "decision": "removed",
+      "finding": "Remove liver-glucagon MCQ: enzyme-identity conversion/phosphate-to-glucose distractors are weak, and the same phosphorylation mechanism is retained in regulatory-mechanisms matching plus reference card.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-059.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "F16BP activates rather than inhibits pyruvate kinase."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The diagram shows PKA using ATP to phosphorylate the enzyme."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "Phosphorylated pyruvate kinase L is labeled inactive."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "Dephosphorylation returns the enzyme to the active form."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The mechanism modifies phosphorylation state, not enzyme identity."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-acetylcoa-pyruvate-switch",
+      "inputOrdinal": 78,
+      "decision": "accepted-with-repair",
+      "finding": "Page60 explicitly activates pyruvate carboxylase and inhibits PDH with acetyl-CoA. Replaced direct-pyruvate-to-glucose nonsense with a parallel unchanged/inhibited pair; all conditions checked.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 60,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-060.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "o5 repaired and rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "PDH inhibition is correct, but pyruvate carboxylase is actively stimulated rather than unchanged."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This favors oxaloacetate/gluconeogenesis over further acetyl-CoA production."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses both source regulatory effects."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The source states opposite effects on the two enzymes."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Pyruvate carboxylase is activated, not inhibited."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-preparatory-order",
+      "inputOrdinal": 79,
+      "decision": "accepted",
+      "finding": "Pages7/12/15–18 explicitly number the preparatory sequence. Each enzyme/reaction and accepted group order follows that chain; DHAP isomerization follows the cleavage, without imposing order on a parallel list.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 7,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-007.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 12,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-012.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 15,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-015.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 16,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-016.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 17,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-017.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 18,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-018.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "mappingOrOrderFinding": "Pages7/12/15–18 explicitly number the preparatory sequence. Each enzyme/reaction and accepted group order follows that chain; DHAP isomerization follows the cleavage, without imposing order on a parallel list."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-payoff-order",
+      "inputOrdinal": 80,
+      "decision": "accepted",
+      "finding": "Pages8/20–24 explicitly number the payoff sequence. Five items and accepted groups match dehydrogenase/kinase/mutase/enolase/kinase; ATP-forming locations are correct in both languages.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 8,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-008.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 20,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-020.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 21,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-021.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 22,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-022.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 23,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-023.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 24,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-024.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "mappingOrOrderFinding": "Pages8/20–24 explicitly number the payoff sequence. Five items and accepted groups match dehydrogenase/kinase/mutase/enolase/kinase; ATP-forming locations are correct in both languages."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-biotin-mechanism-order",
+      "inputOrdinal": 81,
+      "decision": "accepted",
+      "finding": "Page38 enlarged numbered mechanism supports the five grouped phases: activation, biotin carboxylation, carrier movement, enolate/CO2 formation, OAA release. Grouped simultaneous details are kept together.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 38,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-038.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "mappingOrOrderFinding": "Page38 enlarged numbered mechanism supports the five grouped phases: activation, biotin carboxylation, carrier movement, enolate/CO2 formation, OAA release. Grouped simultaneous details are kept together."
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hk-gk-tissue-distribution",
+      "inputOrdinal": 82,
+      "decision": "accepted-with-repair",
+      "finding": "Page14 selected table gives glucokinase mainly liver/beta cells versus most-tissue hexokinase. Alternatives reverse the main distributions, not simple absence; direct EN explanation replaces table framing.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-014.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Other hexokinase forms are distributed across most tissues."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "This reverses the selected tissue distinction."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The selected table contrasts this with most-tissue hexokinase distribution."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "These belong to the broadly distributed hexokinase examples in the opposite column."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "These are listed under hexokinase rather than the glucokinase-focused tissues."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hk-gk-substrate-specificity",
+      "inputOrdinal": 83,
+      "decision": "accepted-with-repair",
+      "finding": "Page14 selected table distinguishes broad hexokinase hexose substrates from primarily-glucose GK with weak other-hexose activity. Made stem name both enzymes and replaced absence-based pyruvate distractor by explicit glucose-exclusion contradiction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-014.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "prompt repaired and rechecked",
+        "o4 repaired and rechecked",
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The table states primarily glucose, with weak activity on other hexoses."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This is the selected table’s broad versus primarily-glucose distinction."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This exchanges the two table columns."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The table lists glucose prominently and gives glucokinase primarily-glucose specificity."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The selected comparison explicitly includes glucose among hexokinase substrates; its exclusion is false."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-hk-gk-vmax",
+      "inputOrdinal": 84,
+      "decision": "removed",
+      "finding": "Remove Vmax MCQ: the transporter-conversion alternative and absent-activity alternative are weak. Capacity remains on the checked comparison card; related curve response is assessed separately.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-014.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [],
+      "optionFindings": [
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "The table links high glucokinase Vmax to handling large post-meal loads."
+        },
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the table’s high-versus-low Vmax assignment."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "The table explicitly contrasts low hexokinase and high glucokinase Vmax."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "The table states it handles glucose loads after meals."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The comparison concerns enzyme capacity rather than conversion into a transporter."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-gk-hormone-expression",
+      "inputOrdinal": 85,
+      "decision": "accepted-with-repair",
+      "finding": "Page14 selected hormone row gives insulin expression and glucagon indirect GKRP sequestration. Direct EN/AR wording replaces source framing; exact disputed Km is not used.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-014.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "optionFindings": [
+        {
+          "optionId": "o2",
+          "isKey": false,
+          "finding": "This reverses the specified hormone roles."
+        },
+        {
+          "optionId": "o3",
+          "isKey": false,
+          "finding": "This copies the other hexokinase column rather than glucokinase."
+        },
+        {
+          "optionId": "o4",
+          "isKey": false,
+          "finding": "Glucokinase is not inhibited by glucose 6-phosphate in the chapter’s separate prose."
+        },
+        {
+          "optionId": "o5",
+          "isKey": false,
+          "finding": "The source distinguishes expression/sequestration and excludes this product-feedback mechanism for IV."
+        },
+        {
+          "optionId": "o1",
+          "isKey": true,
+          "finding": "This matches the glucokinase hormonal-regulation row."
+        }
+      ]
+    },
+    {
+      "activityId": "glycolysis-and-fermentation-regulatory-mechanisms",
+      "inputOrdinal": 86,
+      "decision": "accepted-with-repair",
+      "finding": "Pages50/54/59 distinguish allosteric PFK control, liver PK phosphorylation and enzyme-gene-expression control. Unique matching relations and both explanations rechecked; removed source framing.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 50,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-050.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 54,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-054.png"
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59,
+          "imagePath": "work/metabolic-biochemistry/extraction/glycolysis-and-fermentation/page-059.png"
+        }
+      ],
+      "keyOrMappingChecked": true,
+      "allAlternativesChecked": true,
+      "bilingualChecked": true,
+      "cueChecked": true,
+      "duplicatesChecked": true,
+      "ownerScopeChecked": true,
+      "repairs": [
+        "direct bilingual feedback rechecked"
+      ],
+      "mappingOrOrderFinding": "Pages50/54/59 distinguish allosteric PFK control, liver PK phosphorylation and enzyme-gene-expression control. Unique matching relations and both explanations rechecked; removed source framing."
+    }
+  ],
+  "cardFindings": [
+    {
+      "cardId": "glycolysis-and-fermentation-ref-investment-payoff",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-investment-payoff-f01",
+        "glycolysis-and-fermentation-ref-investment-payoff-f02",
+        "glycolysis-and-fermentation-ref-investment-payoff-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-phosphate-retention",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-phosphate-retention-f01",
+        "glycolysis-and-fermentation-ref-phosphate-retention-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-commitment",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-commitment-f01",
+        "glycolysis-and-fermentation-ref-commitment-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-triose-split",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-triose-split-f01",
+        "glycolysis-and-fermentation-ref-triose-split-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-atp-forming-steps",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-atp-forming-steps-f01",
+        "glycolysis-and-fermentation-ref-atp-forming-steps-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-redox-and-fermentation",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-redox-and-fermentation-f01",
+        "glycolysis-and-fermentation-ref-redox-and-fermentation-f02",
+        "glycolysis-and-fermentation-ref-redox-and-fermentation-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-ethanol-cofactors",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-ethanol-cofactors-f01",
+        "glycolysis-and-fermentation-ref-ethanol-cofactors-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-cori-cycle",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-cori-cycle-f01",
+        "glycolysis-and-fermentation-ref-cori-cycle-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-first-bypass",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-first-bypass-f01",
+        "glycolysis-and-fermentation-ref-first-bypass-f02",
+        "glycolysis-and-fermentation-ref-first-bypass-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-biotin",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-biotin-f01",
+        "glycolysis-and-fermentation-ref-biotin-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-malate-or-lactate",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-malate-or-lactate-f01",
+        "glycolysis-and-fermentation-ref-malate-or-lactate-f02"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f01",
+        "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f02",
+        "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hexokinase-control",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-hexokinase-control-f01",
+        "glycolysis-and-fermentation-ref-hexokinase-control-f02",
+        "glycolysis-and-fermentation-ref-hexokinase-control-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pfk-fbpase",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-pfk-fbpase-f01",
+        "glycolysis-and-fermentation-ref-pfk-fbpase-f02",
+        "glycolysis-and-fermentation-ref-pfk-fbpase-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hormones-f26bp",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-hormones-f26bp-f01",
+        "glycolysis-and-fermentation-ref-hormones-f26bp-f02",
+        "glycolysis-and-fermentation-ref-hormones-f26bp-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f01",
+        "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f02",
+        "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-hk-gk",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-selected-hk-gk-f01",
+        "glycolysis-and-fermentation-ref-selected-hk-gk-f02",
+        "glycolysis-and-fermentation-ref-selected-hk-gk-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-red-reactions",
+      "decision": "accepted",
+      "factIds": [
+        "glycolysis-and-fermentation-ref-selected-red-reactions-f01",
+        "glycolysis-and-fermentation-ref-selected-red-reactions-f02",
+        "glycolysis-and-fermentation-ref-selected-red-reactions-f03"
+      ],
+      "finding": "Every constituent fact, exact source ref, concept and selected-table boundary checked; browsing remains unscored."
+    }
+  ],
+  "factFindings": [
+    {
+      "cardId": "glycolysis-and-fermentation-ref-investment-payoff",
+      "factId": "glycolysis-and-fermentation-ref-investment-payoff-f01",
+      "decision": "accepted",
+      "finding": "Verified Preparatory phase fact against PDF page image(s) 7: Consumes 2 ATP and produces 2 glyceraldehyde 3-phosphate molecules per glucose.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 7
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-investment-payoff",
+      "factId": "glycolysis-and-fermentation-ref-investment-payoff-f02",
+      "decision": "accepted",
+      "finding": "Verified Payoff phase fact against PDF page image(s) 8, 25: Forms 4 ATP and 2 NADH per glucose; after the investment, net ATP gain is 2.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 25
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-investment-payoff",
+      "factId": "glycolysis-and-fermentation-ref-investment-payoff-f03",
+      "decision": "accepted",
+      "finding": "Verified Net carbon balance fact against PDF page image(s) 6: One glucose becomes 2 pyruvate molecules through 10 enzyme-catalyzed reactions.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 6
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-phosphate-retention",
+      "factId": "glycolysis-and-fermentation-ref-phosphate-retention-f01",
+      "decision": "accepted",
+      "finding": "Verified Retention fact against PDF page image(s) 10: Phosphate groups prevent glycolytic intermediates from leaving the cell.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 10
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-phosphate-retention",
+      "factId": "glycolysis-and-fermentation-ref-phosphate-retention-f02",
+      "decision": "accepted",
+      "finding": "Verified Catalysis and energy fact against PDF page image(s) 10: They contribute to energy conservation, lower activation energy and increase enzyme specificity.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 10
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-commitment",
+      "factId": "glycolysis-and-fermentation-ref-commitment-f01",
+      "decision": "accepted",
+      "finding": "Verified Hexokinase fact against PDF page image(s) 12: Glucose is phosphorylated at C6 using ATP; Mg2+ is required and the step is intracellularly irreversible.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 12
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-commitment",
+      "factId": "glycolysis-and-fermentation-ref-commitment-f02",
+      "decision": "accepted",
+      "finding": "Verified PFK-1 fact against PDF page image(s) 16: ATP phosphorylates fructose 6-phosphate to fructose 1,6-bisphosphate; this is the first committed step.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 16
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-triose-split",
+      "factId": "glycolysis-and-fermentation-ref-triose-split-f01",
+      "decision": "accepted",
+      "finding": "Verified Aldolase fact against PDF page image(s) 17: Cleaves fructose 1,6-bisphosphate into glyceraldehyde 3-phosphate (aldose) and DHAP (ketose).",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 17
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-triose-split",
+      "factId": "glycolysis-and-fermentation-ref-triose-split-f02",
+      "decision": "accepted",
+      "finding": "Verified Triose phosphate isomerase fact against PDF page image(s) 18: Reversibly converts DHAP to glyceraldehyde 3-phosphate, finishing the preparatory phase.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 18
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-atp-forming-steps",
+      "factId": "glycolysis-and-fermentation-ref-atp-forming-steps-f01",
+      "decision": "accepted",
+      "finding": "Verified Phosphoglycerate kinase fact against PDF page image(s) 21: 1,3-Bisphosphoglycerate donates phosphate to ADP, producing 3-phosphoglycerate and ATP.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 21
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-atp-forming-steps",
+      "factId": "glycolysis-and-fermentation-ref-atp-forming-steps-f02",
+      "decision": "accepted",
+      "finding": "Verified Pyruvate kinase fact against PDF page image(s) 24: PEP donates phosphate to ADP, producing pyruvate and ATP; K+ and Mg2+ or Mn2+ are required.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 24
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-redox-and-fermentation",
+      "factId": "glycolysis-and-fermentation-ref-redox-and-fermentation-f01",
+      "decision": "accepted",
+      "finding": "Verified Glycolytic oxidation fact against PDF page image(s) 20: Glyceraldehyde 3-phosphate + Pi + NAD+ forms 1,3-bisphosphoglycerate, NADH and H+.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 20
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-redox-and-fermentation",
+      "factId": "glycolysis-and-fermentation-ref-redox-and-fermentation-f02",
+      "decision": "accepted",
+      "finding": "Verified Lactate fact against PDF page image(s) 28: Pyruvate reduction to lactate consumes NADH and regenerates NAD+.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 28
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-redox-and-fermentation",
+      "factId": "glycolysis-and-fermentation-ref-redox-and-fermentation-f03",
+      "decision": "accepted",
+      "finding": "Verified Ethanol fact against PDF page image(s) 30: Pyruvate→acetaldehyde releases CO2; acetaldehyde reduction to ethanol regenerates NAD+.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-ethanol-cofactors",
+      "factId": "glycolysis-and-fermentation-ref-ethanol-cofactors-f01",
+      "decision": "accepted",
+      "finding": "Verified Pyruvate decarboxylase fact against PDF page image(s) 30: Uses Mg2+ and TPP to form acetaldehyde; humans lack this enzyme.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-ethanol-cofactors",
+      "factId": "glycolysis-and-fermentation-ref-ethanol-cofactors-f02",
+      "decision": "accepted",
+      "finding": "Verified Alcohol dehydrogenase fact against PDF page image(s) 30: Uses Zn2+ and NADH to reduce acetaldehyde to ethanol.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 30
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-cori-cycle",
+      "factId": "glycolysis-and-fermentation-ref-cori-cycle-f01",
+      "decision": "accepted",
+      "finding": "Verified Muscle fact against PDF page image(s) 33: Anaerobic glycolysis forms lactate and gains 2 ATP in the illustrated cycle.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 33
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-cori-cycle",
+      "factId": "glycolysis-and-fermentation-ref-cori-cycle-f02",
+      "decision": "accepted",
+      "finding": "Verified Liver fact against PDF page image(s) 29, 33: Lactate arrives in blood and is converted to glucose; the diagram indicates 6 ATP used. Six ATP is retained as the supplied diagram label in reference text, not scored as a literal ATP/GTP distinction.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 29
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 33
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-first-bypass",
+      "factId": "glycolysis-and-fermentation-ref-first-bypass-f01",
+      "decision": "accepted",
+      "finding": "Verified Pyruvate carboxylase fact against PDF page image(s) 37: Pyruvate + bicarbonate + ATP forms oxaloacetate; biotin is required and acetyl-CoA activates.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 37
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-first-bypass",
+      "factId": "glycolysis-and-fermentation-ref-first-bypass-f02",
+      "decision": "accepted",
+      "finding": "Verified PEP carboxykinase fact against PDF page image(s) 40: Converts oxaloacetate to PEP with CO2 release.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 40
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-first-bypass",
+      "factId": "glycolysis-and-fermentation-ref-first-bypass-f03",
+      "decision": "accepted",
+      "finding": "Verified Actual conditions fact against PDF page image(s) 40: Overall standard free energy is +0.9 kJ/mol, while stated actual free energy is −25 kJ/mol.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 40
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-biotin",
+      "factId": "glycolysis-and-fermentation-ref-biotin-f01",
+      "decision": "accepted",
+      "finding": "Verified Attachment fact against PDF page image(s) 38: An amide bond links biotin to the ε-amino group of an enzyme lysine.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 38
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-biotin",
+      "factId": "glycolysis-and-fermentation-ref-biotin-f02",
+      "decision": "accepted",
+      "finding": "Verified Transfer fact against PDF page image(s) 38: ATP activates bicarbonate, biotin is carboxylated, then carries CO2 to the second site where pyruvate becomes oxaloacetate.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 38
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-malate-or-lactate",
+      "factId": "glycolysis-and-fermentation-ref-malate-or-lactate-f01",
+      "decision": "accepted",
+      "finding": "Verified Malate route fact against PDF page image(s) 39: Mitochondrial oxaloacetate is reduced using NADH; exported malate is reoxidized in cytosol, forming NADH.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 39
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-malate-or-lactate",
+      "factId": "glycolysis-and-fermentation-ref-malate-or-lactate-f02",
+      "decision": "accepted",
+      "finding": "Verified Lactate precursor fact against PDF page image(s) 41: Lactate oxidation to pyruvate already produces cytosolic NADH, reducing the need to export malate.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 41
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses",
+      "factId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f01",
+      "decision": "accepted",
+      "finding": "Verified FBPase-1 fact against PDF page image(s) 42: Hydrolyzes fructose 1,6-bisphosphate C1 phosphate to yield fructose 6-phosphate and Pi.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 42
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses",
+      "factId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f02",
+      "decision": "accepted",
+      "finding": "Verified Glucose 6-phosphatase fact against PDF page image(s) 43: Hydrolyzes glucose 6-phosphate to glucose and Pi in ER lumen of the listed glucose-releasing cells.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 43
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses",
+      "factId": "glycolysis-and-fermentation-ref-hydrolytic-bypasses-f03",
+      "decision": "accepted",
+      "finding": "Verified Cost from pyruvate fact against PDF page image(s) 45: Two pyruvates require 4 ATP, 2 GTP and 2 NADH to form one glucose.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 45
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hexokinase-control",
+      "factId": "glycolysis-and-fermentation-ref-hexokinase-control-f01",
+      "decision": "accepted",
+      "finding": "Verified Product feedback fact against PDF page image(s) 51: Glucose 6-phosphate inhibits I–III but does not inhibit liver glucokinase (IV).",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 51
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hexokinase-control",
+      "factId": "glycolysis-and-fermentation-ref-hexokinase-control-f02",
+      "decision": "accepted",
+      "finding": "Verified Glucose response fact against PDF page image(s) 52: Hexokinase I saturates at low glucose; glucokinase responds across a higher glucose range.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 52
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hexokinase-control",
+      "factId": "glycolysis-and-fermentation-ref-hexokinase-control-f03",
+      "decision": "accepted",
+      "finding": "Verified Sequestration fact against PDF page image(s) 53: Regulatory protein retains glucokinase in the nucleus; glucose promotes dissociation.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 53
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pfk-fbpase",
+      "factId": "glycolysis-and-fermentation-ref-pfk-fbpase-f01",
+      "decision": "accepted",
+      "finding": "Verified Energy charge fact against PDF page image(s) 54, 56: ATP inhibits PFK-1; AMP and ADP relieve that inhibition. AMP inhibits FBPase-1.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 54
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 56
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pfk-fbpase",
+      "factId": "glycolysis-and-fermentation-ref-pfk-fbpase-f02",
+      "decision": "accepted",
+      "finding": "Verified Citrate fact against PDF page image(s) 55: High citrate increases ATP inhibition of PFK-1, signaling that oxidative fuels meet energy needs.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 55
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pfk-fbpase",
+      "factId": "glycolysis-and-fermentation-ref-pfk-fbpase-f03",
+      "decision": "accepted",
+      "finding": "Verified F26BP fact against PDF page image(s) 57: Increases PFK-1 substrate affinity and lowers FBPase-1 substrate affinity, favoring glycolysis.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 57
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hormones-f26bp",
+      "factId": "glycolysis-and-fermentation-ref-hormones-f26bp-f01",
+      "decision": "accepted",
+      "finding": "Verified Enzyme roles fact against PDF page image(s) 58: PFK-2 forms F26BP; FBPase-2 breaks it down.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hormones-f26bp",
+      "factId": "glycolysis-and-fermentation-ref-hormones-f26bp-f02",
+      "decision": "accepted",
+      "finding": "Verified Glucagon fact against PDF page image(s) 58: Promotes cAMP-dependent phosphorylation: PFK-2 inactive, FBPase-2 active; F26BP falls.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-hormones-f26bp",
+      "factId": "glycolysis-and-fermentation-ref-hormones-f26bp-f03",
+      "decision": "accepted",
+      "finding": "Verified Insulin fact against PDF page image(s) 58: Promotes dephosphorylation: PFK-2 active, FBPase-2 inactive; F26BP rises and glycolysis is favored.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 58
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation",
+      "factId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f01",
+      "decision": "accepted",
+      "finding": "Verified Feed-forward activation fact against PDF page image(s) 59: Fructose 1,6-bisphosphate activates pyruvate kinase; ATP, acetyl-CoA, long-chain fatty acids and alanine inhibit.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation",
+      "factId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f02",
+      "decision": "accepted",
+      "finding": "Verified Liver phosphorylation fact against PDF page image(s) 59: Glucagon stimulates PKA-mediated phosphorylation, inactivating pyruvate kinase L.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 59
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation",
+      "factId": "glycolysis-and-fermentation-ref-pyruvate-fate-regulation-f03",
+      "decision": "accepted",
+      "finding": "Verified Acetyl-CoA switch fact against PDF page image(s) 60: Acetyl-CoA activates pyruvate carboxylase and inhibits pyruvate dehydrogenase.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 60
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-hk-gk",
+      "factId": "glycolysis-and-fermentation-ref-selected-hk-gk-f01",
+      "decision": "accepted",
+      "finding": "Verified Distribution and substrates fact against PDF page image(s) 14: Hexokinase is found in most tissues and accepts glucose, fructose and mannose; glucokinase is mainly liver/pancreatic β-cells and primarily accepts glucose. Selected p14 table scope; no disputed exact Km.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-hk-gk",
+      "factId": "glycolysis-and-fermentation-ref-selected-hk-gk-f02",
+      "decision": "accepted",
+      "finding": "Rechecked PDF p14 Vmax row after browser QA. Glucokinase has a high Vmax suited to large glucose loads after meals. Hexokinase has a lower Vmax and saturates quickly. No table-column framing or disputed exact Km is used.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14
+        }
+      ],
+      "ownerScopeChecked": true,
+      "followupRecheck": {
+        "sourcePagesReinspected": [
+          14
+        ],
+        "previousText": "Glucokinase has high Vmax suited to large glucose loads after meals; the other hexokinase column has lower Vmax and saturates quickly.",
+        "finalText": "Glucokinase has a high Vmax suited to large glucose loads after meals. Hexokinase has a lower Vmax and saturates quickly.",
+        "meaningChanged": false,
+        "decision": "accepted-with-wording-repair"
+      }
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-hk-gk",
+      "factId": "glycolysis-and-fermentation-ref-selected-hk-gk-f03",
+      "decision": "accepted",
+      "finding": "Verified Hormones and feeding fact against PDF page image(s) 14: Insulin induces glucokinase expression. Fasting favors GKRP-mediated nuclear trapping; high glucose after meals promotes release. Selected p14 table scope; no disputed exact Km.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 14
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-red-reactions",
+      "factId": "glycolysis-and-fermentation-ref-selected-red-reactions-f01",
+      "decision": "accepted",
+      "finding": "Verified Glycolytic red reactions fact against PDF page image(s) 35, 34: Hexokinase, PFK-1 and pyruvate kinase catalyze the essentially irreversible glycolytic steps that require gluconeogenic alternatives. Only qualitative red-row relationships are used; no numerical table values or black-row-only claims.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 35
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 34
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-red-reactions",
+      "factId": "glycolysis-and-fermentation-ref-selected-red-reactions-f02",
+      "decision": "accepted",
+      "finding": "Verified First bypass fact against PDF page image(s) 44, 36: Pyruvate carboxylase forms oxaloacetate before PEP carboxykinase forms PEP. Only qualitative red-row relationships are used; no numerical table values or black-row-only claims.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 44
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 36
+        }
+      ],
+      "ownerScopeChecked": true
+    },
+    {
+      "cardId": "glycolysis-and-fermentation-ref-selected-red-reactions",
+      "factId": "glycolysis-and-fermentation-ref-selected-red-reactions-f03",
+      "decision": "accepted",
+      "finding": "Verified Hydrolytic bypasses fact against PDF page image(s) 44, 42, 43: Fructose 1,6-bisphosphate and glucose 6-phosphate are dephosphorylated in the red bypass reactions, releasing Pi rather than forming ATP by direct reversal. Only qualitative red-row relationships are used; no numerical table values or black-row-only claims.",
+      "sourceImagesInspected": [
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 44
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 42
+        },
+        {
+          "lectureId": "glycolysis-and-fermentation",
+          "pdfPage": 43
+        }
+      ],
+      "ownerScopeChecked": true
+    }
+  ],
+  "notChecked": [
+    "Antigravity per-item source review",
+    "Claude final review",
+    "Browser interactions or scoring UI",
+    "Other chapters or compiled artifacts"
+  ],
+  "followupRechecks": [
+    {
+      "trigger": "Parent browser QA and cross-chapter duplicate audit",
+      "sourcePagesReinspected": [
+        14,
+        41
+      ],
+      "removedActivityIds": [
+        "glycolysis-and-fermentation-lactate-route-nadh",
+        "glycolysis-and-fermentation-isomerase-intermediate"
+      ],
+      "duplicateRetainedElsewhere": "bioenergetics-and-metabolism-enediol-role",
+      "rewordedFactId": "glycolysis-and-fermentation-ref-selected-hk-gk-f02",
+      "antigravityChecked": false,
+      "claudeReviewed": false
+    }
+  ]
+}

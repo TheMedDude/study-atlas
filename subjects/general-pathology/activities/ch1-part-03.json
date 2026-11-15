@@ -1,0 +1,1056 @@
+{
+  "lectureId": "ch1-part-03",
+  "status": "local-second-Codex-checked",
+  "activities": [
+    {
+      "id": "ch1-part-03-adaptation-definition",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p002-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 2
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which description defines cellular adaptation as a general response to stress?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Gain of cellular substance producing larger existing cells",
+          "evidence": "p18 defines the specific response hypertrophy."
+        },
+        {
+          "id": "o4",
+          "text": "An increase in the number of cells within an organ",
+          "evidence": "p24 defines the specific response hyperplasia."
+        },
+        {
+          "id": "o2",
+          "text": "Loss of cellular substance producing smaller viable cells",
+          "evidence": "p8 defines the specific response atrophy."
+        },
+        {
+          "id": "o1",
+          "text": "A new steady state preserving cellular function and viability",
+          "evidence": "p2 supplies this general definition."
+        },
+        {
+          "id": "o5",
+          "text": "Replacement of an adult cell type by another adult type",
+          "evidence": "p29 defines the specific response metaplasia."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Adaptation establishes a viable functional steady state between the normal unstressed cell and the injured overstressed cell.",
+        "ar": "يقيم Adaptation حالة اتزان جديدة تحفظ الوظيفة والحيوية بين الخلية الطبيعية غير المجهدة والخلية المفرطة الإجهاد المصابة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 2, 8, 18, 24, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p2 defines a new functional viable steady state. Rebuilt the alternatives as parallel neighboring adaptive-response definitions on pp8,18,24,29, removing absurd guarantees of death or rupture. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-adaptation-types",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p006-content",
+        "ch1-part-03-p008-content",
+        "ch1-part-03-p018-content",
+        "ch1-part-03-p024-content",
+        "ch1-part-03-p029-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 6
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Match each adaptive response to the defining cellular change.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Atrophy",
+          "right": "Decreased cell size",
+          "evidence": "p6/p8 define shrinkage."
+        },
+        {
+          "id": "p2",
+          "left": "Hypertrophy",
+          "right": "Increased cell size",
+          "evidence": "p6/p18 define enlarged existing cells."
+        },
+        {
+          "id": "p3",
+          "left": "Hyperplasia",
+          "right": "Increased cell number",
+          "evidence": "p6/p24 define more cells."
+        },
+        {
+          "id": "p4",
+          "left": "Metaplasia",
+          "right": "Replacement by another adult cell type",
+          "evidence": "p29 defines adult-cell replacement."
+        }
+      ],
+      "explanation": {
+        "en": "Cell size, cell number and cell type distinguish these responses.",
+        "ar": "يميز حجم الخلايا وعددها ونوعها هذه الاستجابات."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 6, 8, 18, 24, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp6,8,18,24,29 directly define decreased size, increased size, increased number and adult-cell replacement. Four distinct mappings; no forced sequence. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-03-atrophy-viability",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p008-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 8
+        }
+      ],
+      "prompt": "Which statement best describes an atrophic cell?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "It has lost cell substance and shrunk but remains alive",
+          "evidence": "The source explicitly states that atrophic cells are not dead."
+        },
+        {
+          "id": "o2",
+          "text": "It is necessarily dead because its function is reduced",
+          "evidence": "Reduced function does not mean death in atrophy."
+        },
+        {
+          "id": "o5",
+          "text": "It has been replaced by a different adult cell type",
+          "evidence": "This describes metaplasia."
+        },
+        {
+          "id": "o3",
+          "text": "It has enlarged by gaining cell substance",
+          "evidence": "This describes hypertrophy."
+        },
+        {
+          "id": "o4",
+          "text": "It has increased in number without a size change",
+          "evidence": "This describes hyperplasia."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Atrophy involves loss of cell substance, reduced size and function, with a new equilibrium; the cell is not dead.",
+        "ar": "يتضمن Atrophy فقدان المادة الخلوية وانخفاض الحجم والوظيفة مع اتزان جديد، وتبقى الخلية حية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p8 explicitly states loss of substance, shrinkage, reduced function and viable cells. Other options name death or the three adjacent adaptive changes; all checked. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-03-atrophy-causes",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p009-content",
+        "ch1-part-03-p010-content",
+        "ch1-part-03-p011-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 10
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 11
+        }
+      ],
+      "prompt": "Match each atrophy setting to its trigger or category.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Immobilized limb",
+          "right": "Decreased workload",
+          "evidence": "p9 supplies fracture immobilization."
+        },
+        {
+          "id": "p2",
+          "left": "Denervation atrophy",
+          "right": "Loss of innervation",
+          "evidence": "p9 explicitly names this."
+        },
+        {
+          "id": "p3",
+          "left": "Ischemic atrophy",
+          "right": "Diminished blood supply",
+          "evidence": "p9/p11 connect reduced supply/renal artery stenosis."
+        },
+        {
+          "id": "p4",
+          "left": "Menopausal atrophy",
+          "right": "Loss of hormonal stimuli",
+          "evidence": "p9 places this among physiological causes."
+        },
+        {
+          "id": "p5",
+          "left": "Thymic involution",
+          "right": "Physiological atrophy",
+          "evidence": "p9 lists thymic involution as physiological."
+        }
+      ],
+      "explanation": {
+        "en": "Atrophy may follow reduced workload, neural supply, blood supply, nutrition or hormonal stimulation.",
+        "ar": "قد يتبع Atrophy انخفاض العمل أو التعصيب أو التروية أو التغذية أو التنبيه الهرموني."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 9, 10, 11; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp9–11 support each workload, innervation, blood-supply and hormonal link; physiological thymic involution distinguished from a specific trigger. No new clinical inference. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-brain-atrophy",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p010-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 10
+        }
+      ],
+      "prompt": "Which paired gross changes accompany loss of brain substance in atrophy?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Narrower gyri and narrower sulci",
+          "evidence": "The sulci widen rather than narrow."
+        },
+        {
+          "id": "o1",
+          "text": "Narrower gyri and wider sulci",
+          "evidence": "p10 explicitly describes both directions."
+        },
+        {
+          "id": "o4",
+          "text": "Wider gyri and wider sulci",
+          "evidence": "The gyri narrow rather than widen."
+        },
+        {
+          "id": "o5",
+          "text": "Unchanged gyri and unchanged sulci",
+          "evidence": "The caption specifies changes in both."
+        },
+        {
+          "id": "o2",
+          "text": "Wider gyri and narrower sulci",
+          "evidence": "Both directions are reversed."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Loss of brain substance narrows gyri and widens sulci.",
+        "ar": "يؤدي فقدان المادة الدماغية إلى تضيق Gyri واتساع Sulci."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 10; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p10 caption states narrow gyri/wide sulci. Replaced tissue-type nonsense and redundant substance-gain wording with five parallel gyri/sulci combinations; EN/AR directions checked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-protein-balance",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p012-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 12
+        }
+      ],
+      "prompt": "What is the fundamental biochemical imbalance in atrophy?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increased protein synthesis with decreased degradation",
+          "evidence": "This favors accumulation rather than the stated atrophy."
+        },
+        {
+          "id": "o3",
+          "text": "Increased structural protein content without loss",
+          "evidence": "This resembles hypertrophy."
+        },
+        {
+          "id": "o5",
+          "text": "Net protein accumulation despite reduced degradation",
+          "evidence": "p12 atrophy involves net reduction in structural components, not accumulation."
+        },
+        {
+          "id": "o4",
+          "text": "Protein synthesis and degradation both fixed at normal rates",
+          "evidence": "The source identifies an imbalance."
+        },
+        {
+          "id": "o1",
+          "text": "Reduced protein synthesis, increased degradation, or both",
+          "evidence": "This reduces structural components."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Atrophy reduces structural components through an imbalance favoring less synthesis or greater catabolism.",
+        "ar": "يقلل Atrophy المكونات البنيوية باختلال يميل لنقص التصنيع أو زيادة التقويض."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 12; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p12 states decreased synthesis, increased catabolism, or both. Replaced calcium/protein-substitution nonsense with a parallel protein-balance distractor; no arbitrary rate threshold introduced. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-lysosome-targets",
+      "revision": 3,
+      "type": "match",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p013-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 15
+        }
+      ],
+      "prompt": "Match each proteolytic system to the substrates emphasized in atrophy.",
+      "explanation": {
+        "en": "Lysosomes degrade endocytosed proteins and organelles; the proteasome pathway handles cytosolic and nuclear proteins.",
+        "ar": "تهضم Lysosomes البروتينات الداخلة بالالتقام والعضيات؛ ويتعامل Proteasome pathway مع بروتينات السيتوسول والنواة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 13, 15; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. Converted the weak five-option set to two uniquely supported system/substrate mappings: lysosomes/endocytosed proteins and organelles versus proteasomes/cytosolic and nuclear proteins (pp13,15). Scoring format changed at revision2 and rechecked. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      },
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Lysosomal system",
+          "right": "Endocytosed exogenous proteins and intracellular organelles",
+          "evidence": "p13 gives both lysosomal substrate categories."
+        },
+        {
+          "id": "p2",
+          "left": "Ubiquitin-proteasome pathway",
+          "right": "Cytosolic and nuclear proteins",
+          "evidence": "p15 states these proteasomal substrates."
+        }
+      ]
+    },
+    {
+      "id": "ch1-part-03-ubiquitin-function",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p015-content",
+        "ch1-part-03-p016-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 13
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 15
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 16
+        }
+      ],
+      "prompt": "What role does ubiquitin play in protein removal?",
+      "options": [
+        {
+          "id": "o5",
+          "text": "It becomes a permanent part of every degradation product",
+          "evidence": "The diagram shows ubiquitin recycling."
+        },
+        {
+          "id": "o3",
+          "text": "It permanently prevents proteasomes from recognizing proteins",
+          "evidence": "Tagged proteins are recognized by proteasomes."
+        },
+        {
+          "id": "o2",
+          "text": "It is the lysosomal hydrolase that digests organelles",
+          "evidence": "Lysosomal hydrolases are a different proteolytic system."
+        },
+        {
+          "id": "o1",
+          "text": "It tags old or damaged proteins for proteasomal degradation",
+          "evidence": "The text and recycling diagram support this."
+        },
+        {
+          "id": "o4",
+          "text": "It encloses damaged organelles in autophagic vacuoles",
+          "evidence": "p13 assigns organelle degradation to the lysosomal autophagy route, not ubiquitin tagging."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Ubiquitin links to damaged proteins, allowing proteasomal recognition; ubiquitin is recycled as the protein is degraded.",
+        "ar": "يرتبط Ubiquitin بالبروتين التالف ليتعرف عليه Proteasome؛ ثم يعاد تدوير Ubiquitin أثناء تقويض البروتين."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 13, 15, 16; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp15–16 show damaged-protein tagging, proteasomal recognition and ubiquitin recycling. Replaced new-nucleus nonsense with the adjacent lysosomal organelle route (p13). Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-hypertrophy-nondividing",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p018-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 18
+        }
+      ],
+      "prompt": "Why is hypertrophy prominent in cardiac and skeletal muscle?",
+      "options": [
+        {
+          "id": "o3",
+          "text": "Existing cells shrink through loss of substance",
+          "evidence": "That is atrophy."
+        },
+        {
+          "id": "o1",
+          "text": "Existing cells enlarge when the cells cannot divide",
+          "evidence": "The source emphasizes bigger cells without new cells."
+        },
+        {
+          "id": "o4",
+          "text": "Muscle cells are replaced by adult epithelial cells",
+          "evidence": "That is not the hypertrophy mechanism."
+        },
+        {
+          "id": "o2",
+          "text": "The response is defined by production of many new muscle cells",
+          "evidence": "That would be hyperplasia."
+        },
+        {
+          "id": "o5",
+          "text": "The number of cells rises while their size necessarily falls",
+          "evidence": "That contradicts the definition."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hypertrophy enlarges existing cells and is emphasized in organs whose cells cannot divide.",
+        "ar": "يكبر Hypertrophy الخلايا الموجودة، ويبرز في الأعضاء ذات الخلايا غير القادرة على الانقسام."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 18; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p18 emphasizes existing-cell enlargement in nondividing muscle, not hyperplasia. Alternatives distinguish shrinkage, type change and new-cell production. Antigravity and Claude review remain pending."
+      }
+    },
+    {
+      "id": "ch1-part-03-hypertrophy-demand",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p019-content",
+        "ch1-part-03-p021-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 9
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 21
+        }
+      ],
+      "prompt": "Which pairing supplies a mechanical and a trophic trigger for cardiac hypertrophy?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Activation of alpha-adrenergic receptors; stretch",
+          "evidence": "This reverses the mechanical/trophic pairing."
+        },
+        {
+          "id": "o1",
+          "text": "Stretch; activation of alpha-adrenergic receptors",
+          "evidence": "Both are explicitly named on p21."
+        },
+        {
+          "id": "o3",
+          "text": "Reduced workload; loss of neural supply",
+          "evidence": "These are atrophy triggers."
+        },
+        {
+          "id": "o5",
+          "text": "Increased workload; loss of hormonal stimulation",
+          "evidence": "Increased demand can drive hypertrophy, but hormonal loss is an atrophy setting on p9."
+        },
+        {
+          "id": "o4",
+          "text": "Protein loss; diminished blood supply",
+          "evidence": "These are atrophy mechanisms/triggers."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Mechanical stretch and trophic alpha-adrenergic receptor activation are supplied cardiac-hypertrophy triggers.",
+        "ar": "يعد Stretch الميكانيكي وتنشيط Alpha-adrenergic receptors التغذوي من محفزات تضخم القلب المذكورة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 9, 19, 21; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p21 explicitly gives stretch versus alpha-adrenergic stimulation. Replaced death/rupture distractor with a demand/hormonal-loss pair and added p9 for the atrophy alternatives. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-gravid-uterus",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p019-content",
+        "ch1-part-03-p025-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 19
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 25
+        }
+      ],
+      "prompt": "Which cellular responses contribute to estrogen-driven uterine enlargement in pregnancy?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Hypertrophy without any hyperplasia",
+          "evidence": "The source includes both."
+        },
+        {
+          "id": "o2",
+          "text": "Smooth-muscle atrophy and metaplasia",
+          "evidence": "These are not the stated growth responses."
+        },
+        {
+          "id": "o1",
+          "text": "Smooth-muscle hypertrophy and hyperplasia",
+          "evidence": "The source explicitly includes both."
+        },
+        {
+          "id": "o5",
+          "text": "Smooth-muscle metaplasia and hyperplasia",
+          "evidence": "p19/p25 show enlargement and increased number, not a change to another adult cell type."
+        },
+        {
+          "id": "o3",
+          "text": "Hyperplasia without any hypertrophy",
+          "evidence": "The source includes both."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Estrogen stimulates both smooth-muscle cell enlargement and increased cell number in the gravid uterus.",
+        "ar": "يحفز Estrogen زيادة حجم خلايا العضلات الملساء وعددها معاً في Gravid uterus."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 19, 25; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp19,25 show both smooth-muscle hypertrophy and hyperplasia. Replaced necrosis distractor with another parallel two-response combination; checked that neither single response alone is keyed. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-hyperplasia-settings",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p026-content",
+        "ch1-part-03-p004-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 4
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 26
+        }
+      ],
+      "prompt": "Match the hyperplasia setting to its category or trigger.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Breast growth at puberty or pregnancy",
+          "right": "Physiological hormonal hyperplasia",
+          "evidence": "The source lists normal hormonal breast growth."
+        },
+        {
+          "id": "p2",
+          "left": "Liver growth after partial resection",
+          "right": "Compensatory hyperplasia",
+          "evidence": "The source supplies liver resection as compensatory."
+        },
+        {
+          "id": "p3",
+          "left": "Endometrial hyperplasia driven by tumor-derived hormones",
+          "right": "Pathological hormonal or growth-factor response",
+          "evidence": "p4 supplies tumor-hormone-induced endometrial hyperplasia; p26 classifies endometrial hyperplasia as pathological."
+        }
+      ],
+      "explanation": {
+        "en": "Physiological hyperplasia can be hormonal or compensatory; pathological hyperplasia can result from hormones or growth factors.",
+        "ar": "قد يكون Hyperplasia الفيزيولوجي هرمونياً أو تعويضياً؛ وقد ينتج المرضي عن الهرمونات أو Growth factors."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 4, 26; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p26 distinguishes physiological hormonal, compensatory and pathological hyperplasia. Removed skin-wart pair because its pathological label was interchangeable with the endometrial pair. Added p4 and tumor-derived-hormone condition to the retained pathological example. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-growth-stimulus-removal",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p027-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 27
+        }
+      ],
+      "prompt": "How do hypertrophy/hyperplasia and cancer differ after hormonal stimulus withdrawal?",
+      "options": [
+        {
+          "id": "o4",
+          "text": "Both hypertrophy/hyperplasia and cancer must continue",
+          "evidence": "The adaptive growth responses are described as reversible."
+        },
+        {
+          "id": "o5",
+          "text": "Hypertrophy/hyperplasia must become cancer; cancer growth reverses",
+          "evidence": "The source gives a risk of later cancer, not required conversion, and does not assign reversal to cancer."
+        },
+        {
+          "id": "o2",
+          "text": "Hypertrophy/hyperplasia continue; cancer growth reverses",
+          "evidence": "This reverses the stated comparison."
+        },
+        {
+          "id": "o3",
+          "text": "Both hypertrophy/hyperplasia and cancer must reverse",
+          "evidence": "The cancer branch is described as continuing growth."
+        },
+        {
+          "id": "o1",
+          "text": "Hypertrophy/hyperplasia may reverse; cancer growth may continue",
+          "evidence": "p27 describes reversibility of the adaptive growth responses and continued growth in cancer despite absent hormonal stimuli."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Hypertrophy and hyperplasia can reverse after stimulus removal; cancer growth continues despite absent hormonal stimuli in this comparison.",
+        "ar": "يمكن أن يتراجع Hypertrophy وHyperplasia بعد زوال المنبه؛ بينما يستمر نمو السرطان رغم غياب التنبيه الهرموني في المقارنة."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 27; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p27 contrasts reversible stimulus-dependent hypertrophy/hyperplasia with continued cancer growth. Rebuilt five parallel before/after stimulus-dependence pairings; no inevitable cancer transformation claim. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-metaplasia-mechanism",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p029-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 12
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "Which mechanism produces metaplasia?",
+      "options": [
+        {
+          "id": "o1",
+          "text": "Reprogramming of stem cells or undifferentiated mesenchymal cells",
+          "evidence": "This is the stated mechanism."
+        },
+        {
+          "id": "o5",
+          "text": "Reduced protein synthesis without replacement of cell type",
+          "evidence": "p12 supports this atrophic protein-balance route, not metaplastic precursor-cell reprogramming."
+        },
+        {
+          "id": "o3",
+          "text": "An increase in existing cell size alone",
+          "evidence": "This defines hypertrophy."
+        },
+        {
+          "id": "o4",
+          "text": "Loss of cell substance alone",
+          "evidence": "This defines atrophy."
+        },
+        {
+          "id": "o2",
+          "text": "An increase in number without a change in cell type",
+          "evidence": "This defines hyperplasia."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Metaplasia replaces one adult cell type with another through reprogramming of precursor cells.",
+        "ar": "يستبدل Metaplasia نوعاً من الخلايا البالغة بآخر عبر إعادة برمجة الخلايا السلفية."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 12, 18, 24, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p29 supports precursor-cell reprogramming. Replaced unrelated lysosomal-rupture distractor with reduced synthesis/atrophy, citing p12; other alternatives remain neighboring adaptive mechanisms. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-metaplasia-purpose",
+      "revision": 1,
+      "type": "mcq",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p029-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 8
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 18
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 24
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 29
+        }
+      ],
+      "prompt": "What adaptive advantage is described for metaplasia?",
+      "options": [
+        {
+          "id": "o2",
+          "text": "Increasing the number of the same adult cells only",
+          "evidence": "This is hyperplasia."
+        },
+        {
+          "id": "o1",
+          "text": "Replacing sensitive cells with a more resistant adult cell type",
+          "evidence": "This is the stated aim."
+        },
+        {
+          "id": "o3",
+          "text": "Increasing cell size without changing type",
+          "evidence": "This is hypertrophy."
+        },
+        {
+          "id": "o5",
+          "text": "Decreasing cell size while preserving the adult cell type",
+          "evidence": "p8 defines atrophy rather than resistant-type replacement."
+        },
+        {
+          "id": "o4",
+          "text": "Eliminating the possibility of cancer under persistent stimuli",
+          "evidence": "The source warns persistent stimuli may induce cancer transformation."
+        }
+      ],
+      "correctOptionId": "o1",
+      "explanation": {
+        "en": "Metaplasia replaces sensitive cells with a type better able to withstand the stimulus, but persistence of the stimulus may still carry risk.",
+        "ar": "يستبدل Metaplasia الخلايا الحساسة بنوع أكثر مقاومة للمنبه، مع بقاء احتمال الخطر عند استمرار المنبه."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 8, 18, 24, 29; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. p29 gives resistant adult-cell replacement and possible risk with persistent stimulus. Replaced apoptotic-body distractor with atrophic shrinkage and added exact comparison pages. Antigravity and Claude review remain pending.",
+        "repairRechecked": true
+      }
+    },
+    {
+      "id": "ch1-part-03-metaplasia-examples",
+      "revision": 1,
+      "type": "match",
+      "lectureId": "ch1-part-03",
+      "conceptIds": [
+        "ch1-part-03-p030-content",
+        "ch1-part-03-p031-content"
+      ],
+      "sourceRefs": [
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 30
+        },
+        {
+          "lectureId": "ch1-part-03",
+          "pdfPage": 31
+        }
+      ],
+      "prompt": "Match each original tissue and stimulus with its metaplastic replacement.",
+      "pairs": [
+        {
+          "id": "p1",
+          "left": "Bronchial ciliated columnar epithelium exposed to smoke",
+          "right": "Squamous epithelium",
+          "evidence": "p30 explicitly maps this."
+        },
+        {
+          "id": "p2",
+          "left": "Esophageal squamous epithelium exposed to gastric acid",
+          "right": "Columnar epithelium",
+          "evidence": "p30/p31 describe Barrett metaplasia."
+        },
+        {
+          "id": "p3",
+          "left": "Fibrocollagenous tissue subjected to chronic trauma",
+          "right": "Bone tissue",
+          "evidence": "p30 explicitly maps this mesenchymal example."
+        }
+      ],
+      "explanation": {
+        "en": "The replacement depends on the original tissue and stimulus; squamous-to-columnar esophageal change is Barrett metaplasia.",
+        "ar": "يعتمد النوع البديل على النسيج الأصلي والمنبه؛ ويعرف تبدل الظهارة المريئية من Squamous إلى Columnar باسم Barrett metaplasia."
+      },
+      "status": "validated",
+      "review": {
+        "sourceChecked": true,
+        "ambiguityChecked": true,
+        "cueChecked": true,
+        "bilingualChecked": true,
+        "author": "Codex Chapter 1 writer",
+        "peerReviewedBy": "second-codex-chapter1-checker",
+        "peerReviewNotes": "Fresh second Codex agent (not the author; not Antigravity or Claude). Checked original page images 30, 31; key and every option/mapping, conditions, exact references, EN/AR meaning, cues and duplicates. pp30–31 directly support smoke/bronchus->squamous, acid/esophagus->columnar and chronic-trauma/fibrocollagen->bone. Three unique replacements checked; unshown histology not required. Antigravity and Claude review remain pending."
+      }
+    }
+  ],
+  "coverageDeferrals": [
+    {
+      "conceptId": "ch1-part-03-p005-content",
+      "reason": "PDF p5 lists receptor regulation/binding and protein-synthesis changes as adaptive mechanisms. Candidate removed because its four distractors were universal denials; list remains fully preserved, with no separate scored mechanism item claimed."
+    },
+    {
+      "conceptId": "ch1-part-03-p014-content",
+      "reason": "PDF p14 autophagy sequence is repeated in Chapter1 Part04 PDF pp4–7 and is assessed there by ch1-part-04-autophagy-substrate. No duplicate cross-part item retained; this original page remains cited in the study source."
+    },
+    {
+      "conceptId": "ch1-part-03-p020-content",
+      "reason": "PDF p20 ambiguous causal wording about structural synthesis increasing workload is restricted; clear cell enlargement and workload triggers are assessed in adaptation-types and hypertrophy-demand (pp18–21)."
+    },
+    {
+      "conceptId": "ch1-part-03-p022-content",
+      "reason": "PDF p22 gene reactivation, contractile-protein switching and possible degenerative failure are preserved. Candidate removed for unrelated/absolute alternatives; these additional phenotype/outcome claims are not counted as assessed."
+    }
+  ],
+  "secondCodexReviewSummary": {
+    "reviewer": "second-codex-chapter1-checker",
+    "candidateCount": 24,
+    "acceptedCount": 16,
+    "removedCount": 8,
+    "externalIndependentReview": false,
+    "Antigravity": "pending",
+    "Claude": "pending"
+  }
+}
